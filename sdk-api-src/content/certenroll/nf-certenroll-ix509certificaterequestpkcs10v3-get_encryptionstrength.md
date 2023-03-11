@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_EncryptionStrength
 title: IX509CertificateRequestPkcs10V3::get_EncryptionStrength (certenroll.h)
-description: Identifies the bit length for the EncryptionAlgorithm to use for encryption. If the EncryptionAlgorithm only supports one bit length, then you do not need to specify a value for the EncryptionStrength property.
+description: Identifies the bit length for the EncryptionAlgorithm to use for encryption. If the EncryptionAlgorithm only supports one bit length, then you do not need to specify a value for the EncryptionStrength property. (Get)
 helpviewer_keywords: ["EncryptionStrength property [Security]","EncryptionStrength property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","EncryptionStrength property","IX509CertificateRequestPkcs10V3.EncryptionStrength","IX509CertificateRequestPkcs10V3.get_EncryptionStrength","IX509CertificateRequestPkcs10V3::EncryptionStrength","IX509CertificateRequestPkcs10V3::get_EncryptionStrength","IX509CertificateRequestPkcs10V3::put_EncryptionStrength","certenroll/IX509CertificateRequestPkcs10V3::EncryptionStrength","certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionStrength","certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionStrength","get_EncryptionStrength","security.ix509certificaterequestpkcs10v3_encryptionstrength"]
 old-location: security\ix509certificaterequestpkcs10v3_encryptionstrength.htm
 tech.root: security

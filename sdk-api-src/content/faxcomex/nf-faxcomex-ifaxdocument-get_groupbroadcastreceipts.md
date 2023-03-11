@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_GroupBroadcastReceipts
 title: IFaxDocument::get_GroupBroadcastReceipts (faxcomex.h)
-description: The IFaxDocument::get_GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast, or to send a summary receipt for all the recipients.
+description: The IFaxDocument::get_GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast, or to send a summary receipt for all the recipients. (Get)
 helpviewer_keywords: ["GroupBroadcastReceipts property [Fax Service]","GroupBroadcastReceipts property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","GroupBroadcastReceipts property","IFaxDocument.GroupBroadcastReceipts","IFaxDocument.get_GroupBroadcastReceipts","IFaxDocument.put_GroupBroadcastReceipts","IFaxDocument::GroupBroadcastReceipts","IFaxDocument::get_GroupBroadcastReceipts","IFaxDocument::put_GroupBroadcastReceipts","_mfax_faxdocument.groupbroadcastreceipts","fax._mfax_faxdocument_cpp_mfax_faxdocument_groupbroadcastreceipts_cpp","fax._mfax_faxdocument_groupbroadcastreceipts","faxcomex/IFaxDocument::GroupBroadcastReceipts","faxcomex/IFaxDocument::get_GroupBroadcastReceipts","faxcomex/IFaxDocument::put_GroupBroadcastReceipts","get_GroupBroadcastReceipts"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_groupbroadcastreceipts_cpp.htm
 tech.root: Fax

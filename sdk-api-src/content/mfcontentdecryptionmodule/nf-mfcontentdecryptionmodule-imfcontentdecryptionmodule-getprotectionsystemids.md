@@ -1,9 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.GetProtectionSystemIds
 title: IMFContentDecryptionModule::GetProtectionSystemIds
-ms.date: 11/26/2019
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFContentDecryptionModule::GetProtectionSystemIds gets a list of SystemIDs that the IMFContentDecryptionModule supports. 
 tech.root: mf
 req.assembly: 
 req.construct-type: function

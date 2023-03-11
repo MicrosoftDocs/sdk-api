@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPersistStream.Save
 title: IPersistStream::Save (objidl.h)
-description: Saves an object to the specified stream.
+description: Saves an object to the specified stream. (IPersistStream.Save)
 helpviewer_keywords: ["IPersistStream interface [COM]","Save method","IPersistStream.Save","IPersistStream::Save","Save","Save method [COM]","Save method [COM]","IPersistStream interface","_com_ipersiststream_save","com.ipersiststream_save","objidl/IPersistStream::Save"]
 old-location: com\ipersiststream_save.htm
 tech.root: com

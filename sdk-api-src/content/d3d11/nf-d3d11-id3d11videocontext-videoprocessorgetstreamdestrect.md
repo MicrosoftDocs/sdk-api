@@ -68,7 +68,7 @@ Receives the value <b>TRUE</b> if the destination rectangle is enabled, or <b>FA
 
 ### -param pRect [out]
 
-A pointer to a <a href="/previous-versions/dd162897(v=vs.85)">RECT</a> structure that receives the destination rectangle.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that receives the destination rectangle.
 
 ## -see-also
 

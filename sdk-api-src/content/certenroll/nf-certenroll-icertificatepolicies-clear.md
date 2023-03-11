@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Clear
 title: ICertificatePolicies::Clear (certenroll.h)
-description: Removes all objects from the collection.
+description: Removes all objects from the collection. (ICertificatePolicies.Clear)
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICertificatePolicies interface","ICertificatePolicies interface [Security]","Clear method","ICertificatePolicies.Clear","ICertificatePolicies::Clear","certenroll/ICertificatePolicies::Clear","security.icertificatepolicies_clear_method"]
 old-location: security\icertificatepolicies_clear_method.htm
 tech.root: security

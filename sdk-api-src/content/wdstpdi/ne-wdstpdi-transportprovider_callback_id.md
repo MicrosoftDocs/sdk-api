@@ -58,7 +58,7 @@ This structure is used by the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-w
 
 ## -enum-fields
 
-### -field WDS_TRANSPORTPROVIDER_CREATE_INSTANCE
+### -field WDS_TRANSPORTPROVIDER_CREATE_INSTANCE:0
 
 Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidercreateinstance">WdsTransportProviderCreateInstance</a> callback.
 

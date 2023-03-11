@@ -3,7 +3,7 @@ UID: NA:print3dmanagerinterop
 title: Print3dmanagerinterop.h header
 ms.date: 04/16/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - print3dmanagerinterop

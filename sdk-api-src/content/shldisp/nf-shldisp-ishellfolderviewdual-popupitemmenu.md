@@ -56,7 +56,7 @@ Creates a shortcut menu for the specified item and returns the selected command 
 
 ### -param pfi [in, optional]
 
-Type: <b><a href="/windows/desktop/api/shldisp/nn-shldisp-folderitem">FolderItem</a>*</b>
+Type: <b><a href="/windows/win32/shell/folderitem">FolderItem</a>*</b>
 
 The FolderItem for which to create a shortcut menu.
 

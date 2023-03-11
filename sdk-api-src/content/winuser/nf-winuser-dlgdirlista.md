@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DlgDirListA
 title: DlgDirListA function (winuser.h)
-description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
-helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirList","DlgDirList function [Windows Controls]","DlgDirListA","DlgDirListW","_win32_DlgDirList","_win32_DlgDirList_cpp","controls.DlgDirList","controls._win32_DlgDirList","winuser/DlgDirList","winuser/DlgDirListA","winuser/DlgDirListW"]
+description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives. (ANSI)
+helpviewer_keywords: ["DDL_ARCHIVE", "DDL_DIRECTORY", "DDL_DRIVES", "DDL_EXCLUSIVE", "DDL_HIDDEN", "DDL_POSTMSGS", "DDL_READONLY", "DDL_READWRITE", "DDL_SYSTEM", "DlgDirListA", "winuser/DlgDirListA"]
 old-location: controls\DlgDirList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm

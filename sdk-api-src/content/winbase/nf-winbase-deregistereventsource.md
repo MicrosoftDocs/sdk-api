@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.DeregisterEventSource
 title: DeregisterEventSource function (winbase.h)
-description: Closes the specified event log.
+description: Closes the specified event log. (DeregisterEventSource)
 helpviewer_keywords: ["DeregisterEventSource","DeregisterEventSource function","_win32_deregistereventsource","base.deregistereventsource","winbase/DeregisterEventSource"]
 old-location: base\deregistereventsource.htm
 tech.root: base

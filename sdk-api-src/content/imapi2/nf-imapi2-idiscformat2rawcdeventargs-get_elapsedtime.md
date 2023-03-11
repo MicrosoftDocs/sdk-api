@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_ElapsedTime
 title: IDiscFormat2RawCDEventArgs::get_ElapsedTime (imapi2.h)
-description: Retrieves the total elapsed time of the write operation.
+description: Retrieves the total elapsed time of the write operation. (IDiscFormat2RawCDEventArgs.get_ElapsedTime)
 helpviewer_keywords: ["IDiscFormat2RawCDEventArgs interface [IMAPI]","get_ElapsedTime method","IDiscFormat2RawCDEventArgs.get_ElapsedTime","IDiscFormat2RawCDEventArgs::get_ElapsedTime","get_ElapsedTime","get_ElapsedTime method [IMAPI]","get_ElapsedTime method [IMAPI]","IDiscFormat2RawCDEventArgs interface","imapi.idiscformat2rawcdeventargs_get_elapsedtime","imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime"]
 old-location: imapi\idiscformat2rawcdeventargs_get_elapsedtime.htm
 tech.root: imapi

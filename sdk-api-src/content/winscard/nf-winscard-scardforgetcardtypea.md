@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardForgetCardTypeA
 title: SCardForgetCardTypeA function (winscard.h)
-description: Removes an introduced smart card from the smart card subsystem.
-helpviewer_keywords: ["SCardForgetCardType","SCardForgetCardType function [Security]","SCardForgetCardTypeA","SCardForgetCardTypeW","_smart_scardforgetcardtype","security.scardforgetcardtype","winscard/SCardForgetCardType","winscard/SCardForgetCardTypeA","winscard/SCardForgetCardTypeW"]
+description: Removes an introduced smart card from the smart card subsystem. (ANSI)
+helpviewer_keywords: ["SCardForgetCardTypeA", "winscard/SCardForgetCardTypeA"]
 old-location: security\scardforgetcardtype.htm
 tech.root: security
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea

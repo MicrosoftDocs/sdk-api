@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTableValue(UINT,IDCompositionAnimation)
 title: IDCompositionTableTransferEffect::SetRedTableValue(UINT,IDCompositionAnimation) (dcomp.h)
-description: Sets a value in the red table.
+description: Sets a value in the red table. (overload 2/2)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetRedTableValue method","IDCompositionTableTransferEffect.SetRedTableValue","IDCompositionTableTransferEffect.SetRedTableValue(UINT","IDCompositionAnimation)","IDCompositionTableTransferEffect::SetRedTableValue","IDCompositionTableTransferEffect::SetRedTableValue(UINT","IDCompositionAnimation)","SetRedTableValue","SetRedTableValue method [DirectComposition]","SetRedTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetRedTableValue","directcomp.idcompositiontabletransfereffect_setredtablevalue_2"]
 old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue_2.htm
 tech.root: directcomp

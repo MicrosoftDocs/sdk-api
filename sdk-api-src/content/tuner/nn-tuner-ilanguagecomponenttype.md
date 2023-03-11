@@ -56,7 +56,7 @@ The <b>ILanguageComponentType</b> interface is implemented on <a href="/previous
 
 The <b>ILanguageComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>. <b>ILanguageComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

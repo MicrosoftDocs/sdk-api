@@ -59,15 +59,15 @@ Contains the version of the virtual disk
 
 ## -enum-fields
 
-### -field SET_VIRTUAL_DISK_INFO_UNSPECIFIED
+### -field SET_VIRTUAL_DISK_INFO_UNSPECIFIED:0
 
 Not used. Will fail the operation.
 
-### -field SET_VIRTUAL_DISK_INFO_PARENT_PATH
+### -field SET_VIRTUAL_DISK_INFO_PARENT_PATH:1
 
 Parent information is being set.
 
-### -field SET_VIRTUAL_DISK_INFO_IDENTIFIER
+### -field SET_VIRTUAL_DISK_INFO_IDENTIFIER:2
 
 A unique identifier is being set.
 
@@ -76,31 +76,31 @@ A unique identifier is being set.
        chains on the VHD.</div>
 <div> </div>
 
-### -field SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH
+### -field SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH:3
 
 Sets the parent file path and the child depth.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
-### -field SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE
+### -field SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE:4
 
 Sets the physical sector size reported by the VHD.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
-### -field SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID
+### -field SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID:5
 
 The identifier that is uniquely created when a user first creates the virtual disk to attempt to uniquely identify that virtual disk. 
 
 <b>Windows 8 and Windows Server 2012:  </b>This value is not supported before Windows 8.1 and Windows Server 2012 R2.
 
-### -field SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE
+### -field SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE:6
 
 Whether resilient change tracking (RCT) is turned on for the virtual disk.
 
 <b>Windows 8.1 and Windows Server 2012 R2:  </b>This value is not supported before Windows 10 and Windows Server 2016.
 
-### -field SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR
+### -field SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR:7
 
 The parent linkage information that differencing VHDs store. Parent linkage information is metadata used to locate and correctly identify the next parent in the virtual disk  chain. 
 

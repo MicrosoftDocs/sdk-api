@@ -70,18 +70,18 @@ The <b>X509KeySpec</b> enumeration type specifies the intended use of a key for 
 
 ## -enum-fields
 
-### -field XCN_AT_NONE
+### -field XCN_AT_NONE:0
 
 The intended use is not identified. This value is set if the provider that supports the key is a  Cryptography API: Next Generation (CNG) key storage provider (KSP).
 
-### -field XCN_AT_KEYEXCHANGE
+### -field XCN_AT_KEYEXCHANGE:1
 
 The key can be used to encrypt (including key exchange) or sign depending on the algorithm. For RSA algorithms, if this value is set, the key can be used for both signing and encryption. For other algorithms, signing may not be supported. Further, only encryption for key exchange may be supported.
 
 <div class="alert"><b>Note</b>  The KEYEXCHANGE portion of the value name is a carryover from CryptoAPI where it originally  referred to the symmetric encryption of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> used during key exchange. Use of the term ultimately expanded to cover all symmetric encryption.</div>
 <div> </div>
 
-### -field XCN_AT_SIGNATURE
+### -field XCN_AT_SIGNATURE:2
 
 The key can be used for signing.
 

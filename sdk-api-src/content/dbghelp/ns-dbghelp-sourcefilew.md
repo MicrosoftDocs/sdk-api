@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp._SOURCEFILEW
 title: SOURCEFILEW (dbghelp.h)
-description: Contains source file information.
+description: The SOURCEFILEW (Unicode) structure (dbghelp.h) contains source file information.
 helpviewer_keywords: ["*PSOURCEFILEW","PSOURCEFILE","PSOURCEFILE structure pointer","SOURCEFILE","SOURCEFILE structure","SOURCEFILEW","_SOURCEFILE","_SOURCEFILEW","base.sourcefile_str","dbghelp/PSOURCEFILE","dbghelp/SOURCEFILE","dbghelp/SOURCEFILEW"]
 old-location: base\sourcefile_str.htm
 tech.root: Debug
 ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSOURCEFILEW, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEFILE, SOURCEFILE structure, SOURCEFILEW, _SOURCEFILE, _SOURCEFILEW, base.sourcefile_str, dbghelp/PSOURCEFILE, dbghelp/SOURCEFILE, dbghelp/SOURCEFILEW'
 req.header: dbghelp.h
 req.include-header: 

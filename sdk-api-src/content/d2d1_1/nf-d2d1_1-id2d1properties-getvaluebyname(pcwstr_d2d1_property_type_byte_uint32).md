@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,D2D1_PROPERTY_TYPE,BYTE,UINT32)
 title: ID2D1Properties::GetValueByName (d2d1_1.h)
-description: Gets the property value by name.
+description: Gets the property value by name. (overload 1/2)
 helpviewer_keywords: ["GetValueByName","GetValueByName method [Direct2D]","GetValueByName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValueByName method","ID2D1Properties.GetValueByName","ID2D1Properties::GetValueByName","ID2D1Properties::GetValueByName(PCWSTR","BYTE*","UINT32)","ID2D1Properties::GetValueByName(PCWSTR","BYTE","UINT32)","d2d1_1/ID2D1Properties::GetValueByName","direct2d.id2d1properties_getvaluebyname"]
 old-location: direct2d\id2d1properties_getvaluebyname.htm
 tech.root: Direct2D

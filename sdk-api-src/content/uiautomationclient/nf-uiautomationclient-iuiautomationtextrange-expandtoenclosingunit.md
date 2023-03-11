@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.ExpandToEnclosingUnit
 title: IUIAutomationTextRange::ExpandToEnclosingUnit (uiautomationclient.h)
-description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
+description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. (IUIAutomationTextRange.ExpandToEnclosingUnit)
 helpviewer_keywords: ["ExpandToEnclosingUnit","ExpandToEnclosingUnit method [Windows Accessibility]","ExpandToEnclosingUnit method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","ExpandToEnclosingUnit method","IUIAutomationTextRange.ExpandToEnclosingUnit","IUIAutomationTextRange::ExpandToEnclosingUnit","uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit","uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit","uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit","winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit"]
 old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
 tech.root: WinAuto

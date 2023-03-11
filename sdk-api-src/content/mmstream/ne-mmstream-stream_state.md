@@ -58,11 +58,11 @@ Describes the state of the stream.
 
 ## -enum-fields
 
-### -field STREAMSTATE_STOP
+### -field STREAMSTATE_STOP:0
 
 Stop state.
 
-### -field STREAMSTATE_RUN
+### -field STREAMSTATE_RUN:1
 
 Run state.
 

@@ -60,6 +60,9 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 ## -remarks
 
+**MFShutdown** should be called during should be called during app uninitialization and not from static destructors during process exit.
+
+
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
 <ul>

@@ -58,11 +58,11 @@ Describes the cluster shared volume (CSV) backup state.
 
 ## -enum-fields
 
-### -field VolumeBackupNone
+### -field VolumeBackupNone:0x00000000
 
 There is no backup in progress for this CSV.
 
-### -field VolumeBackupInProgress
+### -field VolumeBackupInProgress:0x00000001
 
 There is a backup in progress for this CSV.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillRectangle(constD2D1_RECT_F&,ID2D1Brush)
 title: ID2D1RenderTarget::FillRectangle(const D2D1_RECT_F &,ID2D1Brush) (d2d1.h)
-description: Paints the interior of the specified rectangle.
+description: Paints the interior of the specified rectangle. (overload 1/2)
 helpviewer_keywords: ["FillRectangle","FillRectangle method [Direct2D]","FillRectangle method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillRectangle method","ID2D1RenderTarget.FillRectangle","ID2D1RenderTarget.FillRectangle(const D2D1_RECT_F &","ID2D1Brush)","ID2D1RenderTarget::FillRectangle","ID2D1RenderTarget::FillRectangle(const D2D1_RECT_F &","ID2D1Brush)","d2d1/ID2D1RenderTarget::FillRectangle","direct2d.ID2D1RenderTarget_FillRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush"]
 old-location: direct2d\ID2D1RenderTarget_FillRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush.htm
 tech.root: Direct2D
@@ -152,11 +152,11 @@ HRESULT DemoApp::OnRender()
 }
 ```
 
-For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>.
+For a related tutorial, see [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart).
 
 ## -see-also
 
-<a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
+[Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 

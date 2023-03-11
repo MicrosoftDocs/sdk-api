@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfo
 title: RpcBindingSetAuthInfo function (rpcdce.h)
-description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
+description: The RpcBindingSetAuthInfo function (rpcdce.h) sets a binding handle's authentication and authorization information.
 helpviewer_keywords: ["RpcBindingSetAuthInfo","RpcBindingSetAuthInfo function [RPC]","RpcBindingSetAuthInfoA","RpcBindingSetAuthInfoW","_rpc_rpcbindingsetauthinfo","rpc.rpcbindingsetauthinfo","rpcdce/RpcBindingSetAuthInfo","rpcdce/RpcBindingSetAuthInfoA","rpcdce/RpcBindingSetAuthInfoW"]
 old-location: rpc\rpcbindingsetauthinfo.htm
 tech.root: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
 req.header: rpcdce.h
 req.include-header: Rpc.h

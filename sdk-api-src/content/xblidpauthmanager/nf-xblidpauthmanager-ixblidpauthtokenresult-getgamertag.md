@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
 title: IXblIdpAuthTokenResult::GetGamertag (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetGamertag)
 helpviewer_keywords: ["GetGamertag","GetGamertag method","GetGamertag method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetGamertag method","IXblIdpAuthTokenResult.GetGamertag","IXblIdpAuthTokenResult::GetGamertag","xblidp.ixblidpauthtokenresult_getgamertag","xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag"]
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
 tech.root: xblidp

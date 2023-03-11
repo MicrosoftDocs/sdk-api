@@ -45,32 +45,26 @@ api_name:
  - EventRegistrationToken
 ---
 
-# EventRegistrationToken structure
-
+# EventRegistrationToken structure (eventtoken.h)
 
 ## -description
 
-Identifies an event handler that has been registered with an event source.
+Defines an event handler that has been registered with an event source.
 
 ## -struct-fields
 
 ### -field value
 
-Type: <b>INT64</b>
+Type: **INT64**
 
 An identifying value that is provided by an event source.
 
 ## -remarks
 
-Use an <b>EventRegistrationToken</b> to  unsubscribe from a Windows Runtime event source.
+Use an **EventRegistrationToken** to  unsubscribe from a Windows Runtime event source.
 
-You acquire an <b>EventRegistrationToken</b> when you subscribe to an event.
+You acquire an **EventRegistrationToken** when you subscribe to an event.
 
 ## -see-also
 
-<a href="/previous-versions/hh438385(v=vs.85)">IEventHandler&lt;T&gt;</a>
-
-
-
-<a href="/previous-versions/hh438424(v=vs.85)">ITypedEventHandler<TSender, TArgs></a>
-
+[IEventHandler\<T\> interface](/previous-versions/hh438424(v=vs.85))

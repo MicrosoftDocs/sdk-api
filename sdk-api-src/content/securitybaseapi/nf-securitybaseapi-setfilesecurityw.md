@@ -2,16 +2,16 @@
 UID: NF:securitybaseapi.SetFileSecurityW
 tech.root: security 
 title: SetFileSecurityW
-ms.date: 04/20/2021
+ms.date: 08/16/2022
 targetos: Windows
-description: Sets the security of a file or directory object. 
+description: The SetFileSecurityW (Unicode) function (securitybaseapi.h) sets the security of a file or directory object. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 

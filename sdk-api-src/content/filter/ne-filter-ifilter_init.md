@@ -56,55 +56,55 @@ Flags that control the filtering process.
 
 ## -enum-fields
 
-### -field IFILTER_INIT_CANON_PARAGRAPHS
+### -field IFILTER_INIT_CANON_PARAGRAPHS:1
 
 Paragraph breaks should be marked with the Unicode PARAGRAPH SEPARATOR (0x2029).
 
-### -field IFILTER_INIT_HARD_LINE_BREAKS
+### -field IFILTER_INIT_HARD_LINE_BREAKS:2
 
 Soft returns, such as the newline character in Word, should be replaced by hard returns?LINE SEPARATOR (0x2028). Existing hard returns can be doubled. A carriage return (0x000D), line feed (0x000A), or the carriage return and line feed in combination should be considered a hard return. The intent is to enable pattern-expression matches that match against observed line breaks.
 
-### -field IFILTER_INIT_CANON_HYPHENS
+### -field IFILTER_INIT_CANON_HYPHENS:4
 
 Various word-processing programs have forms of hyphens that are not represented in the host character set, such as optional hyphens (appearing only at the end of a line) and nonbreaking hyphens. This flag indicates that optional hyphens are to be converted to nulls, and non-breaking hyphens are to be converted to normal hyphens (0x2010), or HYPHEN-MINUSES (0x002D).
 
-### -field IFILTER_INIT_CANON_SPACES
+### -field IFILTER_INIT_CANON_SPACES:8
 
 Just as the IFILTER_INIT_CANON_HYPHENS flag standardizes hyphens, this one standardizes spaces. All special space characters, such as nonbreaking spaces, are converted to the standard space character (0x0020).
 
-### -field IFILTER_INIT_APPLY_INDEX_ATTRIBUTES
+### -field IFILTER_INIT_APPLY_INDEX_ATTRIBUTES:16
 
 Indicates that the client wants text split into chunks representing internal value-type properties.
 
-### -field IFILTER_INIT_APPLY_OTHER_ATTRIBUTES
+### -field IFILTER_INIT_APPLY_OTHER_ATTRIBUTES:32
 
 Any properties not covered by the IFILTER_INIT_APPLY_INDEX_ATTRIBUTES and IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES flags should be emitted.
 
-### -field IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES
+### -field IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES:256
 
 Indicates that the client wants text split into chunks representing properties determined during the indexing process.
 
-### -field IFILTER_INIT_INDEXING_ONLY
+### -field IFILTER_INIT_INDEXING_ONLY:64
 
 Optimizes <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> for indexing because the client calls the <a href="/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a> method only once and does not call <a href="/windows/desktop/api/filter/nf-filter-ifilter-bindregion">IFilter::BindRegion</a>. This eliminates the possibility of accessing a chunk both before and after accessing another chunk.
 
-### -field IFILTER_INIT_SEARCH_LINKS
+### -field IFILTER_INIT_SEARCH_LINKS:128
 
 The text extraction process must recursively search all linked objects within the document. If a link is unavailable, the <a href="/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a> call that would have obtained the first chunk of the link should return FILTER_E_LINK_UNAVAILABLE.
 
-### -field IFILTER_INIT_FILTER_OWNED_VALUE_OK
+### -field IFILTER_INIT_FILTER_OWNED_VALUE_OK:512
 
 The content indexing process can return property values set by the filter.
 
-### -field IFILTER_INIT_FILTER_AGGRESSIVE_BREAK
+### -field IFILTER_INIT_FILTER_AGGRESSIVE_BREAK:1024
 
 TBD
 
-### -field IFILTER_INIT_DISABLE_EMBEDDED
+### -field IFILTER_INIT_DISABLE_EMBEDDED:2048
 
 TBD
 
-### -field IFILTER_INIT_EMIT_FORMATTING
+### -field IFILTER_INIT_EMIT_FORMATTING:4096
 
 TBD
 

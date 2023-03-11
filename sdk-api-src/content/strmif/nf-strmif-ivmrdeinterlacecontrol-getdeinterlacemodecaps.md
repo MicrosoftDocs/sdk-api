@@ -61,7 +61,7 @@ Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="/win
 
 ### -param lpVideoDescription [in]
 
-Pointer to a [VMRVideoDesc](/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method.
+Pointer to a [VMRVideoDesc](/windows/win32/api/strmif/ns-strmif-vmrvideodesc) structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method.
 
 ### -param lpDeinterlaceCaps [out]
 
@@ -146,7 +146,7 @@ The VMR is not in mixer mode.
 
 ## -remarks
 
-The method returns [VMRVideoDesc](/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) and [VMRDeinterlaceCaps](/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structures.
+The method returns [VMRVideoDesc](/windows/win32/api/strmif/ns-strmif-vmrvideodesc) and [VMRDeinterlaceCaps](/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structures.
 
 ## -see-also
 

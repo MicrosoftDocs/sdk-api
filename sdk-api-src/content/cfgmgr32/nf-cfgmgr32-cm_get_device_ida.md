@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Device_IDA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine.
+description: The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -51,6 +51,9 @@ dev_langs:
 ## -description
 
 The <b>CM_Get_Device_ID</b> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.
+
+> [!NOTE]
+> In Windows Vista and later versions of Windows, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_InstanceId**](/windows-hardware/drivers/install/devpkey-device-instanceid) [property key](/windows-hardware/drivers/install/property-keys) to represent the device instance identifier. See [Retrieving a Device Instance Identifier](/windows-hardware/drivers/install/retrieving-a-device-instance-identifier) for details.
 
 ## -parameters
 

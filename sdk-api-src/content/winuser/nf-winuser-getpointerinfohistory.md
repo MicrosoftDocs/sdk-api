@@ -96,7 +96,7 @@ If the calling thread does not own the window (where the input was originally de
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 

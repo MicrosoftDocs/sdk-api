@@ -4,7 +4,7 @@ tech.root: backup
 title: GetProcessWorkingSetSize
 ms.date: 06/02/2021
 targetos: Windows
-description: Retrieves the minimum and maximum working set sizes of the specified process.
+description: Retrieves the minimum and maximum working set sizes of the specified process. (GetProcessWorkingSetSize)
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -15,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -124,12 +124,10 @@ int main(int argc, char *argv[])
 
 ## -see-also
 
-<a href="/windows/desktop/ProcThread/process-working-set">Process Working Set</a>
+[Process Working Set](/windows/desktop/ProcThread/process-working-set)
 
+[Processes](/windows/desktop/ProcThread/child-processes)
 
+[SetProcessWorkingSetSize function](nf-memoryapi-setprocessworkingsetsize.md)
 
-<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+[SetProcessWorkingSetSizeEx function](nf-memoryapi-setprocessworkingsetsizeex.md)

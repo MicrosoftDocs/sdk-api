@@ -1,7 +1,7 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_DEVICEINTERFACE_A
 title: DEV_BROADCAST_DEVICEINTERFACE_A (dbt.h)
-description: Contains information about a class of devices.
+description: Contains information about a class of devices. (ANSI)
 helpviewer_keywords: ["*PDEV_BROADCAST_DEVICEINTERFACE_A","DEV_BROADCAST_DEVICEINTERFACE","DEV_BROADCAST_DEVICEINTERFACE structure","DEV_BROADCAST_DEVICEINTERFACE_A","PDEV_BROADCAST_DEVICEINTERFACE","PDEV_BROADCAST_DEVICEINTERFACE structure pointer","_win32_dev_broadcast_deviceinterface_str","base.dev_broadcast_deviceinterface_str","dbt/DEV_BROADCAST_DEVICEINTERFACE","dbt/PDEV_BROADCAST_DEVICEINTERFACE"]
 old-location: base\dev_broadcast_deviceinterface_str.htm
 tech.root: base

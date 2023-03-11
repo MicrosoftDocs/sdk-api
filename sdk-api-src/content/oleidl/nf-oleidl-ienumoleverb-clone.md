@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Clone
 title: IEnumOLEVERB::Clone (oleidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumOLEVERB.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumOLEVERB interface","IEnumOLEVERB interface [COM]","Clone method","IEnumOLEVERB.Clone","IEnumOLEVERB::Clone","_ole_ienumoleverb_clone","com.ienumoleverb_clone","oleidl/IEnumOLEVERB::Clone"]
 old-location: com\ienumoleverb_clone.htm
 tech.root: com

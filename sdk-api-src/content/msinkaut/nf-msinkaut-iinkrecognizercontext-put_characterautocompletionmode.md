@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_CharacterAutoCompletionMode
 title: IInkRecognizerContext::put_CharacterAutoCompletionMode (msinkaut.h)
-description: Gets or sets the character Autocomplete mode, which determines when characters or words are recognized.
+description: Gets or sets the character Autocomplete mode, which determines when characters or words are recognized. (Put)
 helpviewer_keywords: ["8cb3e41f-803f-4f88-81bb-b2222c070610","CharacterAutoCompletionMode property [Tablet PC]","CharacterAutoCompletionMode property [Tablet PC]","IInkRecognizerContext interface","IInkRecognizerContext interface [Tablet PC]","CharacterAutoCompletionMode property","IInkRecognizerContext.CharacterAutoCompletionMode","IInkRecognizerContext.put_CharacterAutoCompletionMode","IInkRecognizerContext::CharacterAutoCompletionMode","IInkRecognizerContext::get_CharacterAutoCompletionMode","IInkRecognizerContext::put_CharacterAutoCompletionMode","InkRecognizerContext.get_CharacterAutoCompletion","InkRecognizerContext.put_CharacterAutoCompletion","get_CharacterAutoCompletionMode","msinkaut/IInkRecognizerContext::CharacterAutoCompletionMode","msinkaut/IInkRecognizerContext::get_CharacterAutoCompletionMode","msinkaut/IInkRecognizerContext::put_CharacterAutoCompletionMode","put_CharacterAutoCompletionMode","tablet.inkrecognizercontext_characterautocompletion"]
 old-location: tablet\inkrecognizercontext_characterautocompletion.htm
 tech.root: tablet

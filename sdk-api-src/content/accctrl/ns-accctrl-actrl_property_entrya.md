@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._ACTRL_PROPERTY_ENTRYA
 title: ACTRL_PROPERTY_ENTRYA (accctrl.h)
-description: Contains a list of access-control entries for an object or a specified property on an object.
+description: Contains a list of access-control entries for an object or a specified property on an object. (ANSI)
 helpviewer_keywords: ["*PACTRL_PROPERTY_ENTRYA","ACTRL_ACCESS_PROTECTED","ACTRL_PROPERTY_ENTRY","ACTRL_PROPERTY_ENTRY structure [COM]","ACTRL_PROPERTY_ENTRYA","ACTRL_PROPERTY_ENTRYW","PACTRL_PROPERTY_ENTRY","PACTRL_PROPERTY_ENTRY structure pointer [COM]","_ACTRL_PROPERTY_ENTRYA","_ACTRL_PROPERTY_ENTRYW","accctrl/ACTRL_PROPERTY_ENTRY","accctrl/ACTRL_PROPERTY_ENTRYA","accctrl/ACTRL_PROPERTY_ENTRYW","accctrl/PACTRL_PROPERTY_ENTRY","com.actrl_property_entry"]
 old-location: com\actrl_property_entry.htm
 tech.root: com

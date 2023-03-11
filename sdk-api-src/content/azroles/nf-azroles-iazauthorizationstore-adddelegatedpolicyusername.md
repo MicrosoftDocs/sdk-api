@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUserName
 title: IAzAuthorizationStore::AddDelegatedPolicyUserName (azroles.h)
-description: Adds the specified account name to the list of principals that act as delegated policy users.
+description: Adds the specified account name to the list of principals that act as delegated policy users. (IAzAuthorizationStore.AddDelegatedPolicyUserName)
 helpviewer_keywords: ["AddDelegatedPolicyUserName","AddDelegatedPolicyUserName method [Security]","AddDelegatedPolicyUserName method [Security]","AzAuthorizationStore object","AddDelegatedPolicyUserName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore interface [Security]","AddDelegatedPolicyUserName method","IAzAuthorizationStore.AddDelegatedPolicyUserName","IAzAuthorizationStore::AddDelegatedPolicyUserName","azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName","security.azauthorizationstore_adddelegatedpolicyusername"]
 old-location: security\azauthorizationstore_adddelegatedpolicyusername.htm
 tech.root: security

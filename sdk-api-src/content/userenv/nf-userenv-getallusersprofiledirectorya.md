@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetAllUsersProfileDirectoryA
 title: GetAllUsersProfileDirectoryA function (userenv.h)
-description: Retrieves the path to the root of the directory that contains program data shared by all users.
-helpviewer_keywords: ["GetAllUsersProfileDirectory","GetAllUsersProfileDirectory function [Windows Shell]","GetAllUsersProfileDirectoryA","GetAllUsersProfileDirectoryW","_shell_GetAllUsersProfileDirectory","shell.GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectoryA","userenv/GetAllUsersProfileDirectoryW"]
+description: Retrieves the path to the root of the directory that contains program data shared by all users. (ANSI)
+helpviewer_keywords: ["GetAllUsersProfileDirectoryA", "userenv/GetAllUsersProfileDirectoryA"]
 old-location: shell\GetAllUsersProfileDirectory.htm
 tech.root: shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1

@@ -76,7 +76,7 @@ Receives a UINT indicating the alignment required in bytes for the resource to b
 
 ### -field MaxEncoderOutputMetadataBufferSize
 
-Receives a UINT indicating the maximum size in bytes needed for the [ID3D12Resource](./d3d12/nn-d3d12-id3d12resource.md) that will be allocated by the host and used as output in the [EncodeFrame](nf-d3d12video-id3d12videoencodecommandlist2-encodeframe.md) for output encoder metadata based on the input arguments.
+Receives a UINT indicating the maximum size in bytes needed for the [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) that will be allocated by the host and used as output in the [EncodeFrame](nf-d3d12video-id3d12videoencodecommandlist2-encodeframe.md) for output encoder metadata based on the input arguments.
 
 ## -remarks
 
@@ -84,7 +84,7 @@ Receives a UINT indicating the maximum size in bytes needed for the [ID3D12Resou
 
 [DXGI_FORMAT](../dxgiformat/ne-dxgiformat-dxgi_format.md)
 
-[ID3D12Resource](./d3d12/nn-d3d12-id3d12resource.md)
+[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)
 
 [EncodeFrame](nf-d3d12video-id3d12videoencodecommandlist2-encodeframe.md)
 

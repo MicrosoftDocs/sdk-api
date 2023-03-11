@@ -6,7 +6,7 @@ helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","OMSetDepthBounds m
 old-location: direct3d12\id3d12graphicscommandlist1_omsetdepthbounds.htm
 tech.root: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12GraphicsCommandList1 interface,OMSetDepthBounds method, ID3D12GraphicsCommandList1.OMSetDepthBounds, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
 req.header: d3d12.h
 req.include-header: 
@@ -58,7 +58,7 @@ This method enables you to change the depth bounds dynamically.
 
 Type: <b>FLOAT</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the minimum depth bounds. The default value is 0. NaN values silently convert to 0.
 
@@ -66,7 +66,7 @@ Specifies the minimum depth bounds. The default value is 0. NaN values silently 
 
 Type: <b>FLOAT</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the maximum depth bounds. The default value is 1. NaN values silently convert to 0.
 
@@ -76,7 +76,7 @@ Depth-bounds testing allows pixels and samples to be discarded if the currently-
 
 To use depth-bounds testing, the application must use the new <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate">CreatePipelineState</a> method to enable depth-bounds testing on the PSO and then can use this command list method to change the depth-bounds dynamically.
 
-OMSetDepthBounds is an optional feature. Use the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the [D3D12_FEATURE_D3D12_OPTIONS1](./ne-d3d12-d3d12_feature.md) structure.
+OMSetDepthBounds is an optional feature. Use the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the [D3D12_FEATURE_D3D12_OPTIONS2](./ne-d3d12-d3d12_feature.md) structure.
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.Delete
 title: IVdsIscsiTarget::Delete (vds.h)
-description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
+description: The IVdsIscsiTarget::Delete function (vds.h) deletes the target and all of its portal groups if no LUNs are associated with the target.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","Delete method","IVdsIscsiTarget.Delete","IVdsIscsiTarget::Delete","base.ivdsiscsitarget_delete","vds/IVdsIscsiTarget::Delete","vdshwprv/IVdsIscsiTarget::Delete"]
 old-location: base\ivdsiscsitarget_delete.htm
 tech.root: base
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Deletes the target and all of its portal groups if no LUNs are associated with the target.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineOpen
 title: lineOpen function (tapi.h)
-description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
+description: The lineOpen function (tapi.h) opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. 
 helpviewer_keywords: ["LINEMAPPER","_tapi2_lineopen","lineOpen","lineOpen function [TAPI 2.2]","lineOpenA","lineOpenW","tapi/lineOpen","tapi/lineOpenA","tapi/lineOpenW","tapi2.lineopen"]
 old-location: tapi2\lineopen.htm
 tech.root: tapi3
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
 req.header: tapi.h
 req.include-header: 

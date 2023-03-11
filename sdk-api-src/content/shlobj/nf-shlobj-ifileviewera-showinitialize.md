@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IFileViewerA.ShowInitialize
 title: IFileViewerA::ShowInitialize
-description: Allows a file viewer to determine whether it can display a file.
+description: Allows a file viewer to determine whether it can display a file. (ANSI)
 helpviewer_keywords: ["IFileViewerA::ShowInitialize"]
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191

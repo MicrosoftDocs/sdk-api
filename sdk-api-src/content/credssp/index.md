@@ -4,7 +4,7 @@ title: Credssp.h header
 ms.assetid: 8421293d-4194-3d01-9cf0-93f8ed853f1b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - credssp

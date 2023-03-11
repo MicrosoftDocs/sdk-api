@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSinkRegistration.RegisterSink
 title: ITPluggableTerminalEventSinkRegistration::RegisterSink (tapi3.h)
-description: The RegisterSink method registers the application for pluggable terminal event notification.
+description: The ITPluggableTerminalEventSinkRegistration::RegisterSink (tapi3.h) method registers the application for pluggable terminal event notification.
 helpviewer_keywords: ["ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2]","RegisterSink method","ITPluggableTerminalEventSinkRegistration.RegisterSink","ITPluggableTerminalEventSinkRegistration::RegisterSink","RegisterSink","RegisterSink method [TAPI 2.2]","RegisterSink method [TAPI 2.2]","ITPluggableTerminalEventSinkRegistration interface","_tapi3_itpluggableterminaleventsinkregistration_registersink","msp/ITPluggableTerminalEventSinkRegistration::RegisterSink","tapi3.itpluggableterminaleventsinkregistration_registersink"]
 old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm
 tech.root: tapi3
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],RegisterSink method, ITPluggableTerminalEventSinkRegistration.RegisterSink, ITPluggableTerminalEventSinkRegistration::RegisterSink, RegisterSink, RegisterSink method [TAPI 2.2], RegisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_registersink, msp/ITPluggableTerminalEventSinkRegistration::RegisterSink, tapi3.itpluggableterminaleventsinkregistration_registersink
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -54,15 +54,15 @@ Indicates the level of confidence that the recognizer has in the recognition res
 
 ## -enum-fields
 
-### -field IRC_Strong
+### -field IRC_Strong:0
 
 The recognizer is confident that the best recognition alternate is correct.
 
-### -field IRC_Intermediate
+### -field IRC_Intermediate:1
 
 The recognizer is confident that the correct result is in the list of alternates.
 
-### -field IRC_Poor
+### -field IRC_Poor:2
 
 The recognizer is not confident that the result is in the list of alternates.
 

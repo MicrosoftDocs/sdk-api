@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqAllocateWorkQueue
 title: RtwqAllocateWorkQueue function (rtworkq.h)
-description: Creates a new work queue.
+description: Creates a new work queue. (RtwqAllocateWorkQueue)
 helpviewer_keywords: ["RTWQ_MULTITHREADED_WORKQUEUE","RTWQ_STANDARD_WORKQUEUE","RTWQ_WINDOW_WORKQUEUE","RtwqAllocateWorkQueue","RtwqAllocateWorkQueue function","base.rtwqallocateworkqueue","rtworkq/RtwqAllocateWorkQueue"]
 old-location: base\rtwqallocateworkqueue.htm
 tech.root: backup

@@ -56,39 +56,39 @@ Defines the days of the week on which to run the data collector set.
 
 ## -enum-fields
 
-### -field plaRunOnce
+### -field plaRunOnce:0
 
 Run only once on the specified start date and time.
 
-### -field plaSunday
+### -field plaSunday:0x1
 
 Run on Sunday.
 
-### -field plaMonday
+### -field plaMonday:0x2
 
 Run on Monday.
 
-### -field plaTuesday
+### -field plaTuesday:0x4
 
 Run on Tuesday.
 
-### -field plaWednesday
+### -field plaWednesday:0x8
 
 Run on Wednesday
 
-### -field plaThursday
+### -field plaThursday:0x10
 
 Run on Thursday.
 
-### -field plaFriday
+### -field plaFriday:0x20
 
 Run on Friday.
 
-### -field plaSaturday
+### -field plaSaturday:0x40
 
 Run on Saturday.
 
-### -field plaEveryday
+### -field plaEveryday:0x7f
 
 Run every day of the week.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetSubType
 title: ID3D11ShaderReflectionType::GetSubType (d3d11shader.h)
-description: Gets the base class of a class.
+description: Gets the base class of a class. (ID3D11ShaderReflectionType.GetSubType)
 helpviewer_keywords: ["3c36b294-f376-6406-e507-0e0357b753df","GetSubType","GetSubType method [Direct3D 11]","GetSubType method [Direct3D 11]","ID3D11ShaderReflectionType interface","ID3D11ShaderReflectionType interface [Direct3D 11]","GetSubType method","ID3D11ShaderReflectionType.GetSubType","ID3D11ShaderReflectionType::GetSubType","d3d11shader/ID3D11ShaderReflectionType::GetSubType","direct3d11.id3d11shaderreflectiontype_getsubtype"]
 old-location: direct3d11\id3d11shaderreflectiontype_getsubtype.htm
 tech.root: direct3d11

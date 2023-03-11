@@ -56,7 +56,7 @@ Defines the set of results of an EAP authentication session returned by an EAP a
 
 ## -enum-fields
 
-### -field EapPeerMethodResultUnknown
+### -field EapPeerMethodResultUnknown:1
 
 The success or failure of the authentication session is unknown or indeterminate.
 

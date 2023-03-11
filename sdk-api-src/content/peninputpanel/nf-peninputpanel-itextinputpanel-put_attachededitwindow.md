@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_AttachedEditWindow
 title: ITextInputPanel::put_AttachedEditWindow (peninputpanel.h)
-description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
+description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached. (Put)
 helpviewer_keywords: ["92a8510d-c8f2-44b4-8812-789ddbc0e3fd","AttachedEditWindow property [Tablet PC]","AttachedEditWindow property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","AttachedEditWindow property","ITextInputPanel.AttachedEditWindow","ITextInputPanel.get_AttachedEditWindow","ITextInputPanel.put_AttachedEditWindow","ITextInputPanel::AttachedEditWindow","ITextInputPanel::get_AttachedEditWindow","ITextInputPanel::put_AttachedEditWindow","peninputpanel/ITextInputPanel::AttachedEditWindow","peninputpanel/ITextInputPanel::get_AttachedEditWindow","peninputpanel/ITextInputPanel::put_AttachedEditWindow","put_AttachedEditWindow","tablet.itextinputpanel_attachededitwindow"]
 old-location: tablet\itextinputpanel_attachededitwindow.htm
 tech.root: tablet

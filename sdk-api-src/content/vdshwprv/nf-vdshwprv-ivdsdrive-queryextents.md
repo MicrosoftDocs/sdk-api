@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.QueryExtents
 title: IVdsDrive::QueryExtents (vdshwprv.h)
-description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
+description: The VdsDrive::QueryExtents (vdshwprv.h) method returns an array of the extents on a drive, including both allocated and unallocated extents.
 helpviewer_keywords: ["IVdsDrive interface [VDS]","QueryExtents method","IVdsDrive.QueryExtents","IVdsDrive::QueryExtents","QueryExtents","QueryExtents method [VDS]","QueryExtents method [VDS]","IVdsDrive interface","base.ivdsdrive_queryextents","vds/IVdsDrive::QueryExtents","vdshwprv/IVdsDrive::QueryExtents"]
 old-location: base\ivdsdrive_queryextents.htm
 tech.root: base
 ms.assetid: 8ee3e085-ce69-457e-b652-bb9c45b7fdd8
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an array of 
    the extents on a drive, including both allocated and unallocated extents.

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveFileLogEntryA
 title: SetupRemoveFileLogEntryA function (setupapi.h)
-description: The SetupRemoveFileLogEntry function removes an entry or section from a file log.
-helpviewer_keywords: ["SetupRemoveFileLogEntry","SetupRemoveFileLogEntry function [Setup API]","SetupRemoveFileLogEntryA","SetupRemoveFileLogEntryW","_setupapi_setupremovefilelogentry","setup.setupremovefilelogentry","setupapi/SetupRemoveFileLogEntry","setupapi/SetupRemoveFileLogEntryA","setupapi/SetupRemoveFileLogEntryW"]
+description: The SetupRemoveFileLogEntry function removes an entry or section from a file log. (ANSI)
+helpviewer_keywords: ["SetupRemoveFileLogEntryA", "setupapi/SetupRemoveFileLogEntryA"]
 old-location: setup\setupremovefilelogentry.htm
 tech.root: setup
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d

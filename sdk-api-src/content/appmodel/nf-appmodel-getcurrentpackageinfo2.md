@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo2
 title: GetCurrentPackageInfo2
-description: Gets the package information for the calling process.
+description: Gets the package information for the calling process. (GetCurrentPackageInfo2)
 helpviewer_keywords: ["GetCurrentPackageInfo2"]
 tech.root: appxpkg
 ms.date: 01/31/2019
@@ -23,6 +23,7 @@ req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.target-type: Windows
 req.type-library: 
+req.typenames: 
 req.umdf-ver: 
 req.unicode-ansi: 
 targetos: Windows
@@ -33,9 +34,12 @@ f1_keywords:
 dev_langs:
  - c++
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
 api_location:
- - appmodel.h
+ - Kernel32.dll
 api_name:
  - GetCurrentPackageInfo2
 ---

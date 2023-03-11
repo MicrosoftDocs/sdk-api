@@ -54,35 +54,35 @@ Specifies the indices of the system sub-properties that may be present in any pr
 
 ## -enum-fields
 
-### -field D2D1_SUBPROPERTY_DISPLAYNAME
+### -field D2D1_SUBPROPERTY_DISPLAYNAME:0x80000000
 
 The name for the parent property.
 
-### -field D2D1_SUBPROPERTY_ISREADONLY
+### -field D2D1_SUBPROPERTY_ISREADONLY:0x80000001
 
 A Boolean indicating whether the parent property is writable.
 
-### -field D2D1_SUBPROPERTY_MIN
+### -field D2D1_SUBPROPERTY_MIN:0x80000002
 
 The minimum value that can be set to the parent property.
 
-### -field D2D1_SUBPROPERTY_MAX
+### -field D2D1_SUBPROPERTY_MAX:0x80000003
 
 The maximum value that can be set to the parent property.
 
-### -field D2D1_SUBPROPERTY_DEFAULT
+### -field D2D1_SUBPROPERTY_DEFAULT:0x80000004
 
 The default value of the parent property.
 
-### -field D2D1_SUBPROPERTY_FIELDS
+### -field D2D1_SUBPROPERTY_FIELDS:0x80000005
 
 An array of name/index pairs that indicate the possible values that can be set to the parent property.
 
-### -field D2D1_SUBPROPERTY_INDEX
+### -field D2D1_SUBPROPERTY_INDEX:0x80000006
 
 An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b> array.
 
-### -field D2D1_SUBPROPERTY_FORCE_DWORD
+### -field D2D1_SUBPROPERTY_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_2.ID2D1Factory2
 title: ID2D1Factory2 (d2d1_2.h)
-description: Creates Direct2D resources.
+description: Creates Direct2D resources. (ID2D1Factory2)
 helpviewer_keywords: ["ID2D1Factory2","ID2D1Factory2 interface [Direct2D]","ID2D1Factory2 interface [Direct2D]","described","d2d1_2/ID2D1Factory2","direct2d.id2d1factory2"]
 old-location: direct2d\id2d1factory2.htm
 tech.root: Direct2D

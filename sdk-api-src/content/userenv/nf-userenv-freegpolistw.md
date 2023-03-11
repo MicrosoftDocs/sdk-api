@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.FreeGPOListW
 title: FreeGPOListW function (userenv.h)
-description: The FreeGPOList function frees the specified list of GPOs.
-helpviewer_keywords: ["FreeGPOList","FreeGPOList function [Group Policy]","FreeGPOListA","FreeGPOListW","_win32_freegpolist","policy.freegpolist","userenv/FreeGPOList","userenv/FreeGPOListA","userenv/FreeGPOListW"]
+description: The FreeGPOList function frees the specified list of GPOs. (Unicode)
+helpviewer_keywords: ["FreeGPOList", "FreeGPOList function [Group Policy]", "FreeGPOListW", "_win32_freegpolist", "policy.freegpolist", "userenv/FreeGPOList", "userenv/FreeGPOListW"]
 old-location: policy\freegpolist.htm
 tech.root: Policy
 ms.assetid: 96bd2b5b-c088-4eea-bbc2-31d83c13aa99

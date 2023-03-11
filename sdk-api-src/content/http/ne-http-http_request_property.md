@@ -62,7 +62,7 @@ The **HTTP\_REQUEST\_PROPERTY** enumeration defines the properties that are conf
 
 The HTTP/2 or HTTP/3 stream error on the request.
 
-The [HTTP\_REQUEST\_PROPERTY\_STREAM\_ERROR](/windows/win32/api/mstcpip/ns-http-http_request_property_stream_error) structure contains the configuration data for this property.
+The [HTTP\_REQUEST\_PROPERTY\_STREAM\_ERROR](/windows/win32/api/http/ns-http-http_request_property_stream_error) structure contains the configuration data for this property.
 
 ## -remarks
 

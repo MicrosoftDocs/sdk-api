@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2DataEventArgs.get_CurrentAction
 title: IDiscFormat2DataEventArgs::get_CurrentAction (imapi2.h)
-description: Retrieves the current write action being performed.
+description: Retrieves the current write action being performed. (IDiscFormat2DataEventArgs.get_CurrentAction)
 helpviewer_keywords: ["IDiscFormat2DataEventArgs interface [IMAPI]","get_CurrentAction method","IDiscFormat2DataEventArgs.get_CurrentAction","IDiscFormat2DataEventArgs::get_CurrentAction","get_CurrentAction","get_CurrentAction method [IMAPI]","get_CurrentAction method [IMAPI]","IDiscFormat2DataEventArgs interface","imapi.idiscformat2dataeventargs_get_currentaction","imapi2/IDiscFormat2DataEventArgs::get_CurrentAction"]
 old-location: imapi\idiscformat2dataeventargs_get_currentaction.htm
 tech.root: imapi

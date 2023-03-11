@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_15
+UID: NS:shlobj_core.SHELLFLAGSTATE
 title: SHELLFLAGSTATE (shlobj_core.h)
 description: Contains a set of flags that indicate the current Shell settings. This structure is used with the SHGetSettings function.
 helpviewer_keywords: ["*LPSHELLFLAGSTATE","LPSHELLFLAGSTATE","LPSHELLFLAGSTATE structure pointer [Windows Shell]","SHELLFLAGSTATE","SHELLFLAGSTATE structure [Windows Shell]","_win32_SHELLFLAGSTATE","shell.SHELLFLAGSTATE","shlobj_core/LPSHELLFLAGSTATE","shlobj_core/SHELLFLAGSTATE"]
@@ -154,3 +154,4 @@ Type: <b>BOOL</b>
 Type: <b>UINT</b>
 
 For Windows Vista this bitfield is 1, otherwise member this is not used.
+

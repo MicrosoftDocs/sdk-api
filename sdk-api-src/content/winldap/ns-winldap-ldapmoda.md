@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapmodA
 title: LDAPModA (winldap.h)
-description: Holds data required to perform a modification operation.
+description: Holds data required to perform a modification operation. (ANSI)
 helpviewer_keywords: ["*PLDAPModA","LDAPMod","LDAPMod structure [LDAP]","LDAPModA","LDAP_MOD_ADD (0x00)","LDAP_MOD_DELETE (0x01)","LDAP_MOD_REPLACE (0x02)","PLDAPMod","PLDAPMod structure pointer [LDAP]","_ldap_ldapmod","ldap.ldapmod","ldapmodA","ldapmodW","winldap/LDAPMod","winldap/PLDAPMod","winldap/ldapmodA","winldap/ldapmodW"]
 old-location: ldap\ldapmod.htm
 tech.root: ldap

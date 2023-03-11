@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.InternetGoOnline
 title: InternetGoOnline function (winineti.h)
-description: Prompts the user for permission to initiate connection to a URL.
+description: The InternetGoOnline function (winineti.h) prompts the user for permission to initiate connection to a URL. 
 helpviewer_keywords: ["INTERNET_GOONLINE_REFRESH","InternetGoOnline","InternetGoOnline function [WinINet]","InternetGoOnlineA","InternetGoOnlineW","_inet_internetgoonline_function","wininet.internetgoonline","winineti/InternetGoOnline","winineti/InternetGoOnlineA","winineti/InternetGoOnlineW"]
 old-location: wininet\internetgoonline.htm
 tech.root: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h

@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionVisual2
 title: IDCompositionVisual2 (dcomp.h)
-description: Represents one DirectComposition visual in a visual tree.
+description: Represents one DirectComposition visual in a visual tree. (IDCompositionVisual2)
 helpviewer_keywords: ["IDCompositionVisual2","IDCompositionVisual2 interface [DirectComposition]","IDCompositionVisual2 interface [DirectComposition]","described","dcomp/IDCompositionVisual2","directcomp.idcompositionvisual2"]
 old-location: directcomp\idcompositionvisual2.htm
 tech.root: directcomp

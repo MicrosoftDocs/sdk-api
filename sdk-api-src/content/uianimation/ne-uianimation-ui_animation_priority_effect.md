@@ -56,11 +56,11 @@ Defines potential effects on a storyboard if a priority comparison returns false
 
 ## -enum-fields
 
-### -field UI_ANIMATION_PRIORITY_EFFECT_FAILURE
+### -field UI_ANIMATION_PRIORITY_EFFECT_FAILURE:0
 
 This storyboard might not be successfully scheduled.
 
-### -field UI_ANIMATION_PRIORITY_EFFECT_DELAY
+### -field UI_ANIMATION_PRIORITY_EFFECT_DELAY:1
 
 The storyboard will be scheduled, but might start playing later.
 

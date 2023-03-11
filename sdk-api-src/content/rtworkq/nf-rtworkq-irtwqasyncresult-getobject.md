@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetObject
 title: IRtwqAsyncResult::GetObject (rtworkq.h)
-description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
+description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called. (IRtwqAsyncResult.GetObject)
 helpviewer_keywords: ["GetObject","GetObject method","GetObject method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetObject method","IRtwqAsyncResult.GetObject","IRtwqAsyncResult::GetObject","base.irtwqasyncresult_getobject","rtworkq/IRtwqAsyncResult::GetObject"]
 old-location: base\irtwqasyncresult_getobject.htm
 tech.root: backup

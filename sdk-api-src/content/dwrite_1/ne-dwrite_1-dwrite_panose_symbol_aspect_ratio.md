@@ -54,43 +54,43 @@ The <b>DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</b> enumeration contains values that sp
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_ANY
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_ANY:0
 
 Any aspect ratio of symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_FIT
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_FIT:1
 
 No fit for aspect ratio of symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_WIDTH
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NO_WIDTH:2
 
 No width aspect ratio of symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_EXCEPTIONALLY_WIDE
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_EXCEPTIONALLY_WIDE:3
 
 Exceptionally wide symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_SUPER_WIDE
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_SUPER_WIDE:4
 
 Super wide symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_WIDE
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_WIDE:5
 
 Very wide symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_WIDE
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_WIDE:6
 
 Wide symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NORMAL
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NORMAL:7
 
 Normal aspect ratio of symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NARROW
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_NARROW:8
 
 Narrow symbolic characters.
 
-### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_NARROW
+### -field DWRITE_PANOSE_SYMBOL_ASPECT_RATIO_VERY_NARROW:9
 
 Very narrow symbolic characters.
 

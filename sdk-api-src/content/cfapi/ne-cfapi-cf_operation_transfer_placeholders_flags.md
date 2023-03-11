@@ -54,15 +54,15 @@ Flags to specify the behavior when transferring a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_NONE
+### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_NONE:0x00000000
 
 No transfer placeholder flags.
 
-### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_STOP_ON_ERROR
+### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_STOP_ON_ERROR:0x00000001
 
 Causes the API to return immediately if a placeholder transfer fails. If a transfer fails, the error code will be returned.
 
-### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_DISABLE_ON_DEMAND_POPULATION
+### -field CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_DISABLE_ON_DEMAND_POPULATION:0x00000002
 
 The transferred child placeholder directory is considered to have all of its children present locally.
 

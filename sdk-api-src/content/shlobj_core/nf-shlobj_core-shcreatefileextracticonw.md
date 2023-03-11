@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHCreateFileExtractIconW
 title: SHCreateFileExtractIconW function (shlobj_core.h)
-description: SHCreateFileExtractIcon may be altered or unavailable.
-helpviewer_keywords: ["SHCreateFileExtractIcon","SHCreateFileExtractIcon function [Windows Shell]","SHCreateFileExtractIconW","_win32_SHCreateFileExtractIcon","shell.SHCreateFileExtractIcon","shlobj_core/SHCreateFileExtractIcon","shlobj_core/SHCreateFileExtractIconW"]
+description: SHCreateFileExtractIcon may be altered or unavailable. (Unicode)
+helpviewer_keywords: ["SHCreateFileExtractIcon", "SHCreateFileExtractIcon function [Windows Shell]", "SHCreateFileExtractIconW", "_win32_SHCreateFileExtractIcon", "shell.SHCreateFileExtractIcon", "shlobj_core/SHCreateFileExtractIcon", "shlobj_core/SHCreateFileExtractIconW"]
 old-location: shell\SHCreateFileExtractIcon.htm
 tech.root: shell
 ms.assetid: af3beb0a-892b-43e5-b5b8-8005f497b6e5

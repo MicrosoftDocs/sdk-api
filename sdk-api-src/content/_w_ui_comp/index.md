@@ -4,7 +4,7 @@ title: W_Ui_Comp
 ms.assetid: 616b202f-ae7a-309f-b353-ff4d5a0965d5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # W_Ui_Comp

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>POINTTOPOINTS</b> macro converts a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>POINTTOPOINTS</b> macro converts a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ## -parameters
 
 ### -param pt
 
-The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to convert.
+The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to convert.
 
 ## -see-also
 
@@ -64,11 +64,11 @@ The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to conver
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
-<a href="/previous-versions/dd162808(v=vs.85)">POINTS</a>
+<a href="/windows/win32/api/windef/ns-windef-points">POINTS</a>
 
 
 

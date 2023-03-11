@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivider.put_LineHeight
 title: IInkDivider::put_LineHeight (msinkaut15.h)
-description: Gets or sets the expected handwriting height, in HIMETRIC units.
+description: Gets or sets the expected handwriting height, in HIMETRIC units. (Put)
 helpviewer_keywords: ["69e65ad6-bcee-46a7-a139-80b4324b9c72","IInkDivider interface [Tablet PC]","LineHeight property","IInkDivider.LineHeight","IInkDivider.put_LineHeight","IInkDivider::LineHeight","IInkDivider::get_LineHeight","IInkDivider::put_LineHeight","InkDivider.get_LineHeight","InkDivider.put_LineHeight","LineHeight property [Tablet PC]","LineHeight property [Tablet PC]","IInkDivider interface","get_LineHeight","msinkaut15/IInkDivider::LineHeight","msinkaut15/IInkDivider::get_LineHeight","msinkaut15/IInkDivider::put_LineHeight","put_LineHeight","tablet.inkdivider_lineheight"]
 old-location: tablet\inkdivider_lineheight.htm
 tech.root: tablet

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.PostMessageA
 title: PostMessageA function (winuser.h)
-description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
-helpviewer_keywords: ["HWND_BROADCAST","PostMessage","PostMessage function [Windows and Messages]","PostMessageA","PostMessageW","_win32_PostMessage","_win32_postmessage_cpp","winmsg.postmessage","winui._win32_postmessage","winuser/PostMessage","winuser/PostMessageA","winuser/PostMessageW"]
+description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message. (ANSI)
+helpviewer_keywords: ["HWND_BROADCAST", "PostMessageA", "winuser/PostMessageA"]
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm

@@ -102,7 +102,7 @@ D3D12_VIDEO_ENCODER_SUPPORT_FLAG_GENERAL_SUPPORT_OK indicates that whether there
 General support always expected.
 
 - There is support for all buffers to be allocated with [D3D12_MEMORY_POOL_L0](../d3d12/ne-d3d12-d3d12_memory_pool.md). This is always system memory, but still a D3D12 buffer.
-- There is support for all buffers to be allocated with [D3D12_MEMORY_POOL_L1](](../d3d12/ne-d3d12-d3d12_memory_pool.md)), the default pool, including those allocated with [D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE](../d3d12/ne-d3d12-d3d12_cpu_page_property.md).
+- There is support for all buffers to be allocated with [D3D12_MEMORY_POOL_L1](../d3d12/ne-d3d12-d3d12_memory_pool.md)), the default pool, including those allocated with [D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE](../d3d12/ne-d3d12-d3d12_cpu_page_property.md).
 
 
 ## -see-also

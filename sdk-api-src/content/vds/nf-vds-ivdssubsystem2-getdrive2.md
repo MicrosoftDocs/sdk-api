@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetDrive2
 title: IVdsSubSystem2::GetDrive2 (vds.h)
-description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
+description: The IVdsSubSystem2::GetDrive2 method (vds.h) returns the specified drive and includes the enclosure number as a parameter.
 helpviewer_keywords: ["GetDrive2","GetDrive2 method","GetDrive2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","GetDrive2 method","IVdsSubSystem2.GetDrive2","IVdsSubSystem2::GetDrive2","base.ivdssubsystem2_getdrive2","vds/IVdsSubSystem2::GetDrive2","vdshwprv/IVdsSubSystem2::GetDrive2"]
 old-location: base\ivdssubsystem2_getdrive2.htm
 tech.root: base
 ms.assetid: 5646da50-5ebd-44d8-b2e1-b3e96b9a6d3c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetDrive2 method, IVdsSubSystem2.GetDrive2, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the specified drive. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">IVdsSubSystem::GetDrive</a> method, except that it includes the enclosure number as a parameter.
 

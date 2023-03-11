@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflection
 title: ID3D10ShaderReflection (d3d10shader.h)
-description: A shader-reflection interface accesses shader information.
+description: A shader-reflection interface accesses shader information. (ID3D10ShaderReflection)
 helpviewer_keywords: ["ID3D10ShaderReflection","ID3D10ShaderReflection interface [Direct3D 10]","ID3D10ShaderReflection interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflection","direct3d10.id3d10shaderreflection","fd699fe1-b903-c976-14c4-3b0023611424"]
 old-location: direct3d10\id3d10shaderreflection.htm
 tech.root: direct3d10

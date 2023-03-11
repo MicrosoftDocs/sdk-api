@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_HashAlgorithm
 title: IX509CertificateRequest::get_HashAlgorithm (certenroll.h)
-description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
+description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request. (Get)
 helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","HashAlgorithm property","IX509CertificateRequest.HashAlgorithm","IX509CertificateRequest.get_HashAlgorithm","IX509CertificateRequest::HashAlgorithm","IX509CertificateRequest::get_HashAlgorithm","IX509CertificateRequest::put_HashAlgorithm","certenroll/IX509CertificateRequest::HashAlgorithm","certenroll/IX509CertificateRequest::get_HashAlgorithm","certenroll/IX509CertificateRequest::put_HashAlgorithm","get_HashAlgorithm","security.ix509certificaterequest_hashalgorithm_property"]
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
 tech.root: security

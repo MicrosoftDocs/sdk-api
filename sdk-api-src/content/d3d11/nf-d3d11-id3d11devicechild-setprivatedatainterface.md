@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.SetPrivateDataInterface
 title: ID3D11DeviceChild::SetPrivateDataInterface (d3d11.h)
-description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
+description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid. (ID3D11DeviceChild.SetPrivateDataInterface)
 helpviewer_keywords: ["7c5c6bc1-57d6-90b3-4715-5f6dbe8653c2","ID3D11DeviceChild interface [Direct3D 11]","SetPrivateDataInterface method","ID3D11DeviceChild.SetPrivateDataInterface","ID3D11DeviceChild::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [Direct3D 11]","SetPrivateDataInterface method [Direct3D 11]","ID3D11DeviceChild interface","d3d11/ID3D11DeviceChild::SetPrivateDataInterface","direct3d11.id3d11devicechild_setprivatedatainterface"]
 old-location: direct3d11\id3d11devicechild_setprivatedatainterface.htm
 tech.root: direct3d11

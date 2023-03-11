@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Parameters
 title: IFsrmPropertyDefinition::put_Parameters (fsrmpipeline.h)
-description: The parameters for the property definition.
+description: The parameters for the property definition. (Put)
 helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","Parameters property","IFsrmPropertyDefinition.Parameters","IFsrmPropertyDefinition.put_Parameters","IFsrmPropertyDefinition::Parameters","IFsrmPropertyDefinition::get_Parameters","IFsrmPropertyDefinition::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_parameters","fsrm.ifsrmpropertydefinition_parameters","fsrmpipeline/IFsrmPropertyDefinition::Parameters","fsrmpipeline/IFsrmPropertyDefinition::get_Parameters","fsrmpipeline/IFsrmPropertyDefinition::put_Parameters","put_Parameters"]
 old-location: fsrm\ifsrmpropertydefinition_parameters.htm
 tech.root: fsrm

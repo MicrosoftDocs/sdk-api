@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetIntent
 title: IXpsSignatureRequest::GetIntent (xpsdigitalsignature.h)
-description: Sets the string that describes the intent or meaning of the signature.
+description: Sets the string that describes the intent or meaning of the signature. (IXpsSignatureRequest.GetIntent)
 helpviewer_keywords: ["GetIntent","GetIntent method [XPS Documents and Packaging]","GetIntent method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetIntent method","IXpsSignatureRequest.GetIntent","IXpsSignatureRequest::GetIntent","xps.ixpssignaturerequest_getintent","xpsdigitalsignature/IXpsSignatureRequest::GetIntent"]
 old-location: xps\ixpssignaturerequest_getintent.htm
 tech.root: xps

@@ -106,7 +106,7 @@ Callback to inform the sync provider that a placeholder under one of its sync ro
 
 Callback to inform the sync provider that a placeholder under one of its sync roots has been successfully renamed or moved.
 
-### -field CF_CALLBACK_TYPE_NONE
+### -field CF_CALLBACK_TYPE_NONE:0xffffffff
 
 No callback type.
 

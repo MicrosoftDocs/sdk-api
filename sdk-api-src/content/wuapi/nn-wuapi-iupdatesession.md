@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateSession
 title: IUpdateSession (wuapi.h)
-description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
+description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation. (IUpdateSession)
 helpviewer_keywords: ["IUpdateSession","IUpdateSession interface [Windows Update Agent]","IUpdateSession interface [Windows Update Agent]","described","wua.iupdatesession","wuapi/IUpdateSession"]
 old-location: wua\iupdatesession.htm
 tech.root: wua

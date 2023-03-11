@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Description
 title: IRegistrationInfo::get_Description (taskschd.h)
-description: Gets or sets the description of the task.
+description: Gets or sets the description of the task. (Get)
 helpviewer_keywords: ["Description property [Task Scheduler]","Description property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Description property","IRegistrationInfo.Description","IRegistrationInfo.get_Description","IRegistrationInfo::Description","IRegistrationInfo::get_Description","IRegistrationInfo::put_Description","get_Description","taskschd.iregistrationinfo_description","taskschd/IRegistrationInfo::Description","taskschd/IRegistrationInfo::get_Description","taskschd/IRegistrationInfo::put_Description"]
 old-location: taskschd\iregistrationinfo_description.htm
 tech.root: taskschd

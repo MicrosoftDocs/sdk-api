@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDesc
 title: ICreateTypeInfo2::DeleteVarDesc (oaidl.h)
-description: Deletes the specified VARDESC structure.
+description: Deletes the specified VARDESC structure. (ICreateTypeInfo2.DeleteVarDesc)
 helpviewer_keywords: ["DeleteVarDesc","DeleteVarDesc method [Automation]","DeleteVarDesc method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteVarDesc method","ICreateTypeInfo2.DeleteVarDesc","ICreateTypeInfo2::DeleteVarDesc","_oa96_ICreateTypeInfo2_DeleteVarDesc","automat.icreatetypeinfo2_deletevardesc","oaidl/ICreateTypeInfo2::DeleteVarDesc"]
 old-location: automat\icreatetypeinfo2_deletevardesc.htm
 tech.root: automat

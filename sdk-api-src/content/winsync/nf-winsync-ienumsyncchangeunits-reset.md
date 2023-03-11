@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Reset
 title: IEnumSyncChangeUnits::Reset (winsync.h)
-description: Resets the enumerator to the beginning of the list.
+description: Resets the enumerator to the beginning of the list. (IEnumSyncChangeUnits.Reset)
 helpviewer_keywords: ["IEnumSyncChangeUnits interface [Windows Sync]","Reset method","IEnumSyncChangeUnits.Reset","IEnumSyncChangeUnits::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumSyncChangeUnits interface","winsync.ienumsyncchangeunits_reset","winsync/IEnumSyncChangeUnits::Reset"]
 old-location: winsync\ienumsyncchangeunits_reset.htm
 tech.root: winsync

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSink
 title: MFCreateASFStreamingMediaSink function (wmcontainer.h)
-description: Creates an activation object for the ASF streaming sink.
+description: Creates an activation object for the ASF streaming sink. (MFCreateASFStreamingMediaSink)
 helpviewer_keywords: ["MFCreateASFStreamingMediaSink","MFCreateASFStreamingMediaSink function [Media Foundation]","mf.mfcreateasfstreamingmediasink","wmcontainer/MFCreateASFStreamingMediaSink"]
 old-location: mf\mfcreateasfstreamingmediasink.htm
 tech.root: mf

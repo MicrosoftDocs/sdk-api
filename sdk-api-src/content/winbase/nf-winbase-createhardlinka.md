@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateHardLinkA
 title: CreateHardLinkA function (winbase.h)
-description: Establishes a hard link between an existing file and a new file.
-helpviewer_keywords: ["CreateHardLink","CreateHardLink function [Files]","CreateHardLinkA","CreateHardLinkW","_win32_createhardlink","base.createhardlink","fs.createhardlink","winbase/CreateHardLink","winbase/CreateHardLinkA","winbase/CreateHardLinkW"]
+description: Establishes a hard link between an existing file and a new file. (ANSI)
+helpviewer_keywords: ["CreateHardLinkA", "winbase/CreateHardLinkA"]
 old-location: fs\createhardlink.htm
 tech.root: fs
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
@@ -140,7 +140,7 @@ When you create a hard link on the NTFS file system, the file attribute informat
     the handle of a specific file.
 
 Symbolic link behavior—If the path points to a symbolic link, the function creates a hard 
-     link to the target.
+     link to the symbolic link.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

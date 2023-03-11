@@ -56,7 +56,7 @@ Specifies the sharing mode of an <a href="/windows/desktop/api/mfidl/nn-mfidl-im
 
 ## -enum-fields
 
-### -field MFSensorDeviceMode_Controller
+### -field MFSensorDeviceMode_Controller:0
 
 The device is in controller mode, which means its settings can be modified.
 

@@ -1,9 +1,9 @@
 ---
 UID: NF:icm.CMGetPS2ColorRenderingDictionary
 title: CMGetPS2ColorRenderingDictionary
-description: 
+description: CMGetPS2ColorRenderingDictionary and the additional parameters associated with it are to be determined.
 tech.root: wcs
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 targetos: Windows
 req.assembly: 
 req.construct-type: function

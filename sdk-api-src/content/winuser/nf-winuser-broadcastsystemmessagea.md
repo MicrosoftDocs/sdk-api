@@ -4,7 +4,7 @@ tech.root: winmsg
 title: BroadcastSystemMessageA
 ms.date: 04/14/2021
 targetos: Windows
-description: Sends a message to the specified recipients.
+description: Sends a message to the specified recipients. (BroadcastSystemMessageA)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

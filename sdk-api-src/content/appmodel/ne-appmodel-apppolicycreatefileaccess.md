@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - AppModel.h
+ - kernel32.dll
 api_name:
  - AppPolicyCreateFileAccess
 ---

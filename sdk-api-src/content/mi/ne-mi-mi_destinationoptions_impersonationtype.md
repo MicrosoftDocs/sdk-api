@@ -56,23 +56,23 @@ Used by the DCOM protocol handler to specify how impersonation is done on the se
 
 ## -enum-fields
 
-### -field MI_DestinationOptions_ImpersonationType_Default
+### -field MI_DestinationOptions_ImpersonationType_Default:0
 
 Use the default impersonation.
 
-### -field MI_DestinationOptions_ImpersonationType_None
+### -field MI_DestinationOptions_ImpersonationType_None:1
 
 Do not impersonate.
 
-### -field MI_DestinationOptions_ImpersonationType_Identify
+### -field MI_DestinationOptions_ImpersonationType_Identify:2
 
 Identify user only.
 
-### -field MI_DestinationOptions_ImpersonationType_Impersonate
+### -field MI_DestinationOptions_ImpersonationType_Impersonate:3
 
 Allow impersonation of user.
 
-### -field MI_DestinationOptions_ImpersonationType_Delegate
+### -field MI_DestinationOptions_ImpersonationType_Delegate:4
 
 This option relates to Kerberos delegation and needs to be enabled on the domain.
 

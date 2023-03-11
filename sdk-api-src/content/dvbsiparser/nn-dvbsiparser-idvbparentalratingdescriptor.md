@@ -56,6 +56,6 @@ Implements methods that get data from a Digital Video Broadcast (DVB) parental r
 
 The <b>IDvbParentalRatingDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbParentalRatingDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

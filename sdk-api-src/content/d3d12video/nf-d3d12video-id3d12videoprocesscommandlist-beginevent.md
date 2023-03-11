@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.BeginEvent
 title: ID3D12VideoProcessCommandList::BeginEvent
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly. (ID3D12VideoProcessCommandList::BeginEvent)
 helpviewer_keywords: ["ID3D12VideoProcessCommandList::BeginEvent","BeginEvent","ID3D12VideoProcessCommandList.BeginEvent","ID3D12VideoProcessCommandList::BeginEvent","ID3D12VideoProcessCommandList.BeginEvent"]
 tech.root: mf
 ms.assetid: 4993454e-904d-4de8-9bc7-41b1b9ba77ea

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings3.put_MaintenanceSettings
 title: ITaskSettings3::put_MaintenanceSettings (taskschd.h)
-description: Gets or sets a pointer to pointer to an IMaintenanceSettingsobject that Task scheduler uses to perform a task during Automatic maintenance.
+description: Gets or sets a pointer to pointer to an IMaintenanceSettingsobject that Task scheduler uses to perform a task during Automatic maintenance. (Put)
 helpviewer_keywords: ["ITaskSettings3 interface [Task Scheduler]","MaintenanceSettings property","ITaskSettings3.MaintenanceSettings","ITaskSettings3.put_MaintenanceSettings","ITaskSettings3::MaintenanceSettings","ITaskSettings3::get_MaintenanceSettings","ITaskSettings3::put_MaintenanceSettings","MaintenanceSettings property [Task Scheduler]","MaintenanceSettings property [Task Scheduler]","ITaskSettings3 interface","put_MaintenanceSettings","taskschd.itasksettings3_maintenancesettings","taskschd/ITaskSettings3::MaintenanceSettings","taskschd/ITaskSettings3::get_MaintenanceSettings","taskschd/ITaskSettings3::put_MaintenanceSettings"]
 old-location: taskschd\itasksettings3_maintenancesettings.htm
 tech.root: taskschd

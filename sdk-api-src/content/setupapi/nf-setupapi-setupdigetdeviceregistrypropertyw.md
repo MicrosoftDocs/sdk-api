@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceRegistryPropertyW
 title: SetupDiGetDeviceRegistryPropertyW function (setupapi.h)
-description: The SetupDiGetDeviceRegistryProperty function retrieves a specified Plug and Play device property.
-helpviewer_keywords: ["SetupDiGetDeviceRegistryProperty","SetupDiGetDeviceRegistryProperty function [Device and Driver Installation]","SetupDiGetDeviceRegistryPropertyA","SetupDiGetDeviceRegistryPropertyW","devinst.setupdigetdeviceregistryproperty","di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml","setupapi/SetupDiGetDeviceRegistryProperty"]
+description: The SetupDiGetDeviceRegistryProperty function retrieves a specified Plug and Play device property. (Unicode)
+helpviewer_keywords: ["SetupDiGetDeviceRegistryProperty", "SetupDiGetDeviceRegistryProperty function [Device and Driver Installation]", "SetupDiGetDeviceRegistryPropertyW", "devinst.setupdigetdeviceregistryproperty", "di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml", "setupapi/SetupDiGetDeviceRegistryProperty"]
 old-location: devinst\setupdigetdeviceregistryproperty.htm
 tech.root: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f

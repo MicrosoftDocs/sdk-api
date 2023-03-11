@@ -6,7 +6,7 @@ helpviewer_keywords: ["AtomicCopyBufferUINT64","AtomicCopyBufferUINT64 method","
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint64.htm
 tech.root: direct3d12
 ms.assetid: F83870E9-5256-4A3E-BAF7-05C4CCB28442
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: AtomicCopyBufferUINT64, AtomicCopyBufferUINT64 method, AtomicCopyBufferUINT64 method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT64 method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64
 req.header: d3d12.h
 req.include-header: 
@@ -76,7 +76,7 @@ An offset into the destination resource buffer that specifies where the primary 
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 The resource that the UINT64 primary data element is copied from. This data is typically an address, index, or other handle that shader code can use to locate the most-recent version of latency-sensitive information.
 
@@ -96,7 +96,7 @@ The number of dependent resources.
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of resources that contain the dependent elements of the data payload.
 
@@ -104,7 +104,7 @@ An array of resources that contain the dependent elements of the data payload.
 
 Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64">D3D12_SUBRESOURCE_RANGE_UINT64</a>*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of subresource ranges that specify the dependent elements of the data payload. These elements are completely updated before the primary data element is itself atomically copied. This ensures that the entire operation is logically atomic; that is, the primary data element never refers to an incomplete data payload.
 

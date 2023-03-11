@@ -56,7 +56,7 @@ The <b>IBDA_ IPV4Filter</b> interface is implemented on a Network Provider. The 
 
 The <b>IBDA_IPV4Filter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_IPV4Filter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_MousePointer
 title: IInkPicture::get_MousePointer (msinkaut.h)
-description: Gets or sets a value that indicates the type of mouse pointer that appears.
+description: Gets or sets a value that indicates the type of mouse pointer that appears. (IInkPicture.get_MousePointer)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","MousePointer property","IInkPicture.MousePointer","IInkPicture.get_MousePointer","IInkPicture::MousePointer","IInkPicture::get_MousePointer","IInkPicture::put_MousePointer","InkPicture.get_MousePointer","InkPicture.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkPicture interface","get_MousePointer","msinkaut/IInkPicture::MousePointer","msinkaut/IInkPicture::get_MousePointer","msinkaut/IInkPicture::put_MousePointer","put_MousePointer","tablet.inkpicture_mousepointer"]
 old-location: tablet\inkpicture_mousepointer.htm
 tech.root: tablet

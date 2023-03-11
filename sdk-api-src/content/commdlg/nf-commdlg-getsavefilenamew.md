@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.GetSaveFileNameW
 title: GetSaveFileNameW function (commdlg.h)
-description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save.
-helpviewer_keywords: ["GetSaveFileName","GetSaveFileName function [Dialog Boxes]","GetSaveFileNameA","GetSaveFileNameW","_win32_GetSaveFileName","_win32_getsavefilename_cpp","commdlg/GetSaveFileName","commdlg/GetSaveFileNameA","commdlg/GetSaveFileNameW","dlgbox.getsavefilename","winui._win32_getsavefilename"]
+description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save. (Unicode)
+helpviewer_keywords: ["GetSaveFileName", "GetSaveFileName function [Dialog Boxes]", "GetSaveFileNameW", "_win32_GetSaveFileName", "_win32_getsavefilename_cpp", "commdlg/GetSaveFileName", "commdlg/GetSaveFileNameW", "dlgbox.getsavefilename", "winui._win32_getsavefilename"]
 old-location: dlgbox\getsavefilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getsavefilename.htm

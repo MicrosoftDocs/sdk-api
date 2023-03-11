@@ -46,11 +46,11 @@ Defines constants that specify the direction of an operation along the given axi
 
 ## -enum-fields
 
-### -field DML_AXIS_DIRECTION_INCREASING
+### -field DML_AXIS_DIRECTION_INCREASING:0
 
 Specifies increasing order (from the low index to the high index).
 
-### -field DML_AXIS_DIRECTION_DECREASING
+### -field DML_AXIS_DIRECTION_DECREASING:1
 
 Specifies decreasing order (from the high index to the low index).
 

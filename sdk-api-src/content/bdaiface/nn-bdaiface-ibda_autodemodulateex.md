@@ -58,7 +58,7 @@ The <b>IBDA_AutoDemodulateEx</b> interface extends <a href="/windows/desktop/api
 
 The <b>IBDA_AutoDemodulateEx</b> interface inherits from <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. <b>IBDA_AutoDemodulateEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

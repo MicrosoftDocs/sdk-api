@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._ARM64_NT_CONTEXT
 title: ARM64_NT_CONTEXT (winnt.h)
-description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
+description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.C
 helpviewer_keywords: ["*PARM64_NT_CONTEXT","*PCONTEXT","ARM64_NT_CONTEXT","CONTEXT","CONTEXT structure","LPCONTEXT","LPCONTEXT structure pointer","_win32_context_str","base.context_str","winnt/CONTEXT","winnt/LPCONTEXT"]
 old-location: base\context_str.htm
 tech.root: Debug

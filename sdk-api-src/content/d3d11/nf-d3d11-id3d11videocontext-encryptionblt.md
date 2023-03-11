@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.EncryptionBlt
 title: ID3D11VideoContext::EncryptionBlt (d3d11.h)
-description: Reads encrypted data from a protected surface.
+description: Reads encrypted data from a protected surface. (ID3D11VideoContext.EncryptionBlt)
 helpviewer_keywords: ["EncryptionBlt","EncryptionBlt method [Media Foundation]","EncryptionBlt method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","EncryptionBlt method","ID3D11VideoContext.EncryptionBlt","ID3D11VideoContext::EncryptionBlt","d3d11/ID3D11VideoContext::EncryptionBlt","mf.id3d11videocontext_encryptionblt"]
 old-location: mf\id3d11videocontext_encryptionblt.htm
 tech.root: mf

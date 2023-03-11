@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie(constBrush,constRectF&,REAL,REAL)
 title: Graphics::FillPie
-description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
+description: The Graphics::FillPie method uses a brush to fill the interior of a pie. (overload 4/4)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::FillPie"]
 ms.assetid: b849f776-ca4b-47dc-8442-5f8cc7864677

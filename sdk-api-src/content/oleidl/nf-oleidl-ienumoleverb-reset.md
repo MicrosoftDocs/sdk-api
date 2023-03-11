@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Reset
 title: IEnumOLEVERB::Reset (oleidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumOLEVERB.Reset)
 helpviewer_keywords: ["IEnumOLEVERB interface [COM]","Reset method","IEnumOLEVERB.Reset","IEnumOLEVERB::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumOLEVERB interface","_ole_ienumoleverb_reset","com.ienumoleverb_reset","oleidl/IEnumOLEVERB::Reset"]
 old-location: com\ienumoleverb_reset.htm
 tech.root: com

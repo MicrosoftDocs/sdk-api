@@ -4,7 +4,7 @@ title: System Event Notification Service
 ms.assetid: 90cfd6a7-8ab8-37c6-ad62-4a2764299d85
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # System Event Notification Service

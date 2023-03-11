@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrChrW
 title: StrChrW function (shlwapi.h)
-description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive.
-helpviewer_keywords: ["StrChr","StrChr function [Windows Shell]","StrChrA","StrChrW","_win32_StrChr","shell.StrChr","shlwapi/StrChr","shlwapi/StrChrA","shlwapi/StrChrW"]
+description: Searches a string for the first occurrence of a character that matches the specified character. The comparison is case-sensitive. (Unicode)
+helpviewer_keywords: ["StrChr", "StrChr function [Windows Shell]", "StrChrW", "_win32_StrChr", "shell.StrChr", "shlwapi/StrChr", "shlwapi/StrChrW"]
 old-location: shell\StrChr.htm
 tech.root: shell
 ms.assetid: 3e4c20cb-0b46-4f84-bbd1-860fdedde8c8

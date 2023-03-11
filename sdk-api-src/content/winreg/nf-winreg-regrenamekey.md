@@ -4,7 +4,7 @@ tech.root: winprog
 title: RegRenameKey
 ms.date: 03/15/2021
 targetos: Windows
-description: Changes the name of the specified registry key.
+description: Changes the name of the specified registry key. (RegRenameKey)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -77,10 +77,10 @@ This function can be used to rename an entire registry subtree. The caller must 
 
 ## -see-also
 
-<a href="/windows/win32/api/winreg/nf-winreg-regcopytreew">RegCopyTree</a>
+[RegCopyTree](/windows/win32/api/winreg/nf-winreg-regcopytreew)
 
-<a href="/windows/win32/SysInfo/registry-functions">Registry Functions</a>
+[Registry Functions](/windows/win32/SysInfo/registry-functions)
 
-<a href="/windows/win32/SysInfo/registry">Registry Overview</a>
+[Registry Overview](/windows/win32/SysInfo/registry)
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+[SECURITY_ATTRIBUTES](/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes)

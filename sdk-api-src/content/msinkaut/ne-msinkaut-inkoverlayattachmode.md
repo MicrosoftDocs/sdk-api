@@ -54,13 +54,13 @@ Specifies where to attach the new <a href="/windows/desktop/tablet/inkoverlay-cl
 
 ## -enum-fields
 
-### -field IOAM_Behind
+### -field IOAM_Behind:0
 
 The new <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind the active window.
 
 This is the default value.
 
-### -field IOAM_InFront
+### -field IOAM_InFront:1
 
 The new <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached in front of the active window.
 

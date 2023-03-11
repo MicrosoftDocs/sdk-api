@@ -53,7 +53,7 @@ api_name:
 
 The <code>IVMRVideoStreamControl</code> interface is implemented on each input pin of the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). The interface operates on the input stream represented by the pin. This interface is used by upstream filters (typically decoders) to get or set the active state of individual streams, or the source color key for the composited image. Applications in general should not use this interface.
 
-The VMR-9 input pins expose the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrvideostreamcontrol9">IVMRVideoStreamControl9</a> interface.
+The VMR-9 input pins expose the <a href="/previous-versions/ms787140(v=vs.85)">IVMRVideoStreamControl9</a> interface.
 
 ## -inheritance
 

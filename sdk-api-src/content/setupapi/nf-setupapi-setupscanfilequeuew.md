@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupScanFileQueueW
 title: SetupScanFileQueueW function (setupapi.h)
-description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
-helpviewer_keywords: ["SPQ_SCAN_FILE_PRESENCE","SPQ_SCAN_FILE_VALIDITY","SPQ_SCAN_INFORM_USER","SPQ_SCAN_PRUNE_COPY_QUEUE","SPQ_SCAN_PRUNE_DELREN","SPQ_SCAN_USE_CALLBACK","SPQ_SCAN_USE_CALLBACKEX","SPQ_SCAN_USE_CALLBACK_SIGNERINFO","SetupScanFileQueue","SetupScanFileQueue function [Setup API]","SetupScanFileQueueA","SetupScanFileQueueW","_setupapi_setupscanfilequeue","setup.setupscanfilequeue","setupapi/SetupScanFileQueue","setupapi/SetupScanFileQueueA","setupapi/SetupScanFileQueueW"]
+description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed. (Unicode)
+helpviewer_keywords: ["SPQ_SCAN_FILE_PRESENCE", "SPQ_SCAN_FILE_VALIDITY", "SPQ_SCAN_INFORM_USER", "SPQ_SCAN_PRUNE_COPY_QUEUE", "SPQ_SCAN_PRUNE_DELREN", "SPQ_SCAN_USE_CALLBACK", "SPQ_SCAN_USE_CALLBACKEX", "SPQ_SCAN_USE_CALLBACK_SIGNERINFO", "SetupScanFileQueue", "SetupScanFileQueue function [Setup API]", "SetupScanFileQueueW", "_setupapi_setupscanfilequeue", "setup.setupscanfilequeue", "setupapi/SetupScanFileQueue", "setupapi/SetupScanFileQueueW"]
 old-location: setup\setupscanfilequeue.htm
 tech.root: setup
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab

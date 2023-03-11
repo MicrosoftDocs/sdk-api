@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.GetProperties
 title: IVdsStoragePool::GetProperties (vdshwprv.h)
-description: Returns the properties of a storage pool.
+description: The IVdsStoragePool::GetProperties (vdshwprv.h) method returns the properties of a storage pool.
 helpviewer_keywords: ["GetProperties","GetProperties method","GetProperties method","IVdsStoragePool interface","IVdsStoragePool interface","GetProperties method","IVdsStoragePool.GetProperties","IVdsStoragePool::GetProperties","base.ivdsstoragepool_getproperties","vds/IVdsStoragePool::GetProperties","vdshwprv/IVdsStoragePool::GetProperties"]
 old-location: base\ivdsstoragepool_getproperties.htm
 tech.root: base
 ms.assetid: 9c37b5b1-4958-4b63-ba30-65b394dd05b7
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsStoragePool interface, IVdsStoragePool interface,GetProperties method, IVdsStoragePool.GetProperties, IVdsStoragePool::GetProperties, base.ivdsstoragepool_getproperties, vds/IVdsStoragePool::GetProperties, vdshwprv/IVdsStoragePool::GetProperties
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 

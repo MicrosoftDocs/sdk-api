@@ -58,7 +58,7 @@ Use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2tun
 
 The <b>IMPEG2TuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IMPEG2TuneRequest</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

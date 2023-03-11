@@ -54,7 +54,7 @@ Specifies values that identify the Ribbon framework View.
 
 ## -enum-fields
 
-### -field UI_VIEWTYPE_RIBBON
+### -field UI_VIEWTYPE_RIBBON:1
 
 A Ribbon View.
 

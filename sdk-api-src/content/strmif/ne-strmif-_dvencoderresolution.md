@@ -54,19 +54,19 @@ Indicates the digital video (DV) encoding resolution.
 
 ## -enum-fields
 
-### -field DVENCODERRESOLUTION_720x480
+### -field DVENCODERRESOLUTION_720x480:2012
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_360x240
+### -field DVENCODERRESOLUTION_360x240:2013
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_180x120
+### -field DVENCODERRESOLUTION_180x120:2014
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_88x60
+### -field DVENCODERRESOLUTION_88x60:2015
 
 See Remarks.
 

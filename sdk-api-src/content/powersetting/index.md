@@ -4,7 +4,7 @@ title: Powersetting.h header
 ms.assetid: 77bae492-c504-34a7-860b-862f58039c0f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - powersetting

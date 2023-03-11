@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.EjectDiskFromSADriveA
 title: EjectDiskFromSADriveA function (ntmsapi.h)
-description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
-helpviewer_keywords: ["EjectDiskFromSADrive","EjectDiskFromSADrive function [Files]","EjectDiskFromSADriveA","EjectDiskFromSADriveW","NTMS_EJECT_ASK_USER","NTMS_EJECT_FORCE","NTMS_EJECT_IMMEDIATE","NTMS_EJECT_QUEUE","NTMS_EJECT_START","NTMS_EJECT_STOP","base.ejectdiskfromsadrive","fs.ejectdiskfromsadrive","ntmsapi/EjectDiskFromSADrive","ntmsapi/EjectDiskFromSADriveA","ntmsapi/EjectDiskFromSADriveW"]
+description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive. (ANSI)
+helpviewer_keywords: ["EjectDiskFromSADriveA", "NTMS_EJECT_ASK_USER", "NTMS_EJECT_FORCE", "NTMS_EJECT_IMMEDIATE", "NTMS_EJECT_QUEUE", "NTMS_EJECT_START", "NTMS_EJECT_STOP", "ntmsapi/EjectDiskFromSADriveA"]
 old-location: fs\ejectdiskfromsadrive.htm
 tech.root: fs
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2

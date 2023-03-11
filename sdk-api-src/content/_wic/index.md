@@ -4,7 +4,7 @@ title: Windows Imaging Component
 ms.assetid: 4b34c381-d2c6-3b09-91ab-1f2c0f240d8b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Imaging Component

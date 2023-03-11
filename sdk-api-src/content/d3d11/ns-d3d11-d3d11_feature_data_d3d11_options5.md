@@ -52,7 +52,7 @@ Describes the level of support for shared resources in the current graphics driv
 
 Type: **[D3D11_SHARED_RESOURCE_TIER](./ne-d3d11-d3d11_shared_resource_tier.md)**
 
-A shared resource support tier.
+The level of support for shared resources in the current graphics driver.
 
 ## -remarks
 

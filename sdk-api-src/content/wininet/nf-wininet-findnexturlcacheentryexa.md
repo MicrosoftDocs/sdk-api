@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FindNextUrlCacheEntryExA
 title: FindNextUrlCacheEntryExA function (wininet.h)
-description: Finds the next cache entry in a cache enumeration started by the FindFirstUrlCacheEntryEx function.
-helpviewer_keywords: ["FindNextUrlCacheEntryEx","FindNextUrlCacheEntryEx function [WinINet]","FindNextUrlCacheEntryExA","FindNextUrlCacheEntryExW","_inet_findnexturlcacheentryex_function","wininet.findnexturlcacheentryex","wininet/FindNextUrlCacheEntryEx","wininet/FindNextUrlCacheEntryExA","wininet/FindNextUrlCacheEntryExW"]
+description: Finds the next cache entry in a cache enumeration started by the FindFirstUrlCacheEntryEx function. (ANSI)
+helpviewer_keywords: ["FindNextUrlCacheEntryExA", "wininet/FindNextUrlCacheEntryExA"]
 old-location: wininet\findnexturlcacheentryex.htm
 tech.root: wininet
 ms.assetid: 39484e35-cd25-4e48-ace0-16033d3e6954

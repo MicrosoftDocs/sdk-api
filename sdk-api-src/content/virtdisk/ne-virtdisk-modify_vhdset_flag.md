@@ -61,9 +61,9 @@ Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdis
 
 ## -enum-fields
 
-### -field MODIFY_VHDSET_FLAG_NONE
+### -field MODIFY_VHDSET_FLAG_NONE:0x00000000
 
 No flag specified.
 
-### -field MODIFY_VHDSET_FLAG_WRITEABLE_SNAPSHOT
+### -field MODIFY_VHDSET_FLAG_WRITEABLE_SNAPSHOT:0x00000001
 

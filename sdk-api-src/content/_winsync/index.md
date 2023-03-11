@@ -4,7 +4,7 @@ title: Windows Sync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
 ms.date: 10/15/2020
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Sync

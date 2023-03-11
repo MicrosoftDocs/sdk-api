@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IContext.RemoveProperty
 title: IContext::RemoveProperty (objidl.h)
-description: Removes the specified context property from the context.
+description: The IContext::RemoveProperty method (objidl.h) removes the specified context property from the context.
 helpviewer_keywords: ["IContext interface [COM]","RemoveProperty method","IContext.RemoveProperty","IContext::RemoveProperty","RemoveProperty","RemoveProperty method [COM]","RemoveProperty method [COM]","IContext interface","_com_icontext_removeproperty","com.icontext_removeproperty","objidlbase/IContext::RemoveProperty"]
 old-location: com\icontext_removeproperty.htm
 tech.root: com
 ms.assetid: bb5b282a-d337-4371-b1c2-1b429a5bf135
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
 req.header: objidl.h
 req.include-header: ObjIdl.h

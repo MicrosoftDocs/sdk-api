@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_SetHilite
 title: Edit_SetHilite macro (commctrl.h)
-description: This macro is not implemented.
+description: This macro is not implemented. (Edit_SetHilite)
 helpviewer_keywords: ["Edit_SetHilite","Edit_SetHilite macro [Windows Controls]","_shell_Edit_SetHilite","_shell_Edit_SetHilite_cpp","commctrl/Edit_SetHilite","controls.Edit_SetHilite","controls._shell_Edit_SetHilite"]
 old-location: controls\Edit_SetHilite.htm
 tech.root: Controls

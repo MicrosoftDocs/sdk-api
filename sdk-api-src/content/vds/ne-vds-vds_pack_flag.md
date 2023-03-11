@@ -52,29 +52,29 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid flags for a  pack object.
 
 ## -enum-fields
 
-### -field VDS_PKF_FOREIGN
+### -field VDS_PKF_FOREIGN:0x1
 
 If set, an external pack is eligible for online status.
 
-### -field VDS_PKF_NOQUORUM
+### -field VDS_PKF_NOQUORUM:0x2
 
 If  set, a dynamic pack lacks the required quorum. A quorum is the minimum number of disks in a dynamic pack (n/2 + 1) required to enable online status. This flag prevents the caller from granting online status to the same pack on multiple computers.
 
-### -field VDS_PKF_POLICY
+### -field VDS_PKF_POLICY:0x4
 
 If set, the pack policy prevents online eligibility.  This flag applies exclusively to packs managed by  the Windows Server 2003 version of VDS, which allows only one pack at a time to maintain online status.
 
-### -field VDS_PKF_CORRUPTED
+### -field VDS_PKF_CORRUPTED:0x8
 
 If set, a pack contains a disk with a corrupted database.
 
-### -field VDS_PKF_ONLINE_ERROR
+### -field VDS_PKF_ONLINE_ERROR:0x10
 
 If set, a  pack with sufficient disk quorum failed to achieve online status due to an error.
 

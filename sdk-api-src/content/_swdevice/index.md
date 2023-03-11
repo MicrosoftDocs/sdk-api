@@ -4,7 +4,7 @@ title: Software Device API
 ms.assetid: f47ebb6d-949d-39df-8a1a-b01027d265cc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Software Device API

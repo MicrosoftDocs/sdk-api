@@ -1,7 +1,7 @@
 ---
 UID: NF:jobapi2.CreateJobObjectW
 title: CreateJobObjectW function (jobapi2.h)
-description: Creates or opens a job object.
+description: Creates or opens a job object. (CreateJobObjectW)
 helpviewer_keywords: ["CreateJobObject","CreateJobObject function","CreateJobObjectA","CreateJobObjectW","_win32_createjobobject","base.createjobobject","winbase/CreateJobObject","winbase/CreateJobObjectA","winbase/CreateJobObjectW"]
 old-location: base\createjobobject.htm
 tech.root: backup

@@ -61,7 +61,7 @@ Window handle of the calling app.
 
 ### -param keyCredentialManagerOperationType [in]
 
-The intended operation from the <a href="https://docs.microsoft.com/en-us/windows/win32/api/keycredmgr/ne-keycredmgr-keycredentialmanageroperationtype">KeyCredentialManagerOperationType</a>.
+The intended operation from the <a href="/windows/win32/api/keycredmgr/ne-keycredmgr-keycredentialmanageroperationtype">KeyCredentialManagerOperationType</a>.
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetMirrorState
 title: IMFCapturePreviewSink::GetMirrorState (mfcaptureengine.h)
-description: Gets the current mirroring state of the video preview stream.
+description: Gets the current mirroring state of the video preview stream. (IMFCapturePreviewSink.GetMirrorState)
 helpviewer_keywords: ["GetMirrorState","GetMirrorState method [Media Foundation]","GetMirrorState method [Media Foundation]","IMFCapturePreviewSink interface","IMFCapturePreviewSink interface [Media Foundation]","GetMirrorState method","IMFCapturePreviewSink.GetMirrorState","IMFCapturePreviewSink::GetMirrorState","mf.imfcapturepreviewsink_getmirrorstate","mfcaptureengine/IMFCapturePreviewSink::GetMirrorState"]
 old-location: mf\imfcapturepreviewsink_getmirrorstate.htm
 tech.root: mf

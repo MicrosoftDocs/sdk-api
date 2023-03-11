@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_TransactionTimeout
 title: IUIAutomation2::get_TransactionTimeout (uiautomationclient.h)
-description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for information about an automation element.
+description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for information about an automation element. (Get)
 helpviewer_keywords: ["IUIAutomation2 interface [Windows Accessibility]","TransactionTimeout property","IUIAutomation2.TransactionTimeout","IUIAutomation2.get_TransactionTimeout","IUIAutomation2::TransactionTimeout","IUIAutomation2::get_TransactionTimeout","IUIAutomation2::put_TransactionTimeout","TransactionTimeout property [Windows Accessibility]","TransactionTimeout property [Windows Accessibility]","IUIAutomation2 interface","get_TransactionTimeout","uiautomationclient/IUIAutomation2::TransactionTimeout","uiautomationclient/IUIAutomation2::get_TransactionTimeout","uiautomationclient/IUIAutomation2::put_TransactionTimeout","winauto.uiauto_iuiautomation2_transactiontimeout"]
 old-location: winauto\uiauto_iuiautomation2_transactiontimeout.htm
 tech.root: WinAuto
@@ -57,6 +57,12 @@ Specifies the length of time that UI Automation will wait for a provider to resp
 This property is read/write.
 
 ## -parameters
+
+### -param timeout [out]
+
+Type: <b>DWORD</b>
+
+The duration of the time-out period, in milliseconds.
 
 ## -remarks
 

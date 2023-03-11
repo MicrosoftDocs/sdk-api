@@ -54,7 +54,7 @@ The <b>VIDEOENCODER_BITRATE_MODE</b> enumeration type defines the three types of
 
 ## -enum-fields
 
-### -field ConstantBitRate
+### -field ConstantBitRate:0
 
 The bit rate used for encoding is constant.
 

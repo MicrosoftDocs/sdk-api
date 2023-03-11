@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_SRV_FLAGS
 title: D3D12_BUFFER_SRV_FLAGS (d3d12.h)
-description: Identifies how to view a buffer resource.
+description: Identifies how to view a buffer resource. (D3D12_BUFFER_SRV_FLAGS)
 helpviewer_keywords: ["D3D12_BUFFER_SRV_FLAGS","D3D12_BUFFER_SRV_FLAGS enumeration","D3D12_BUFFER_SRV_FLAG_NONE","D3D12_BUFFER_SRV_FLAG_RAW","d3d12/D3D12_BUFFER_SRV_FLAGS","d3d12/D3D12_BUFFER_SRV_FLAG_NONE","d3d12/D3D12_BUFFER_SRV_FLAG_RAW","direct3d12.d3d12_buffer_srv_flags"]
 old-location: direct3d12\d3d12_buffer_srv_flags.htm
 tech.root: direct3d12
@@ -54,11 +54,11 @@ Identifies how to view a buffer resource.
 
 ## -enum-fields
 
-### -field D3D12_BUFFER_SRV_FLAG_NONE
+### -field D3D12_BUFFER_SRV_FLAG_NONE:0
 
 Indicates a default view.
 
-### -field D3D12_BUFFER_SRV_FLAG_RAW
+### -field D3D12_BUFFER_SRV_FLAG_RAW:0x1
 
 View the buffer as raw. For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 

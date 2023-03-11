@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.OnClick
 title: ITfLangBarItemButton::OnClick (ctfutb.h)
-description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
+description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style. (ITfLangBarItemButton.OnClick)
 helpviewer_keywords: ["ITfLangBarItemButton interface [Text Services Framework]","OnClick method","ITfLangBarItemButton.OnClick","ITfLangBarItemButton::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemButton interface","_tsf_itflangbaritembutton_onclick_ref","ctfutb/ITfLangBarItemButton::OnClick","tsf.itflangbaritembutton_onclick"]
 old-location: tsf\itflangbaritembutton_onclick.htm
 tech.root: TSF
@@ -60,7 +60,7 @@ Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfL
 
 ### -param pt [in]
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
 
 ### -param prcArea [in]
 
@@ -105,7 +105,7 @@ One or more parameters are invalid.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

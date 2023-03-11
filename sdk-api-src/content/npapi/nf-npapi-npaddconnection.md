@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPAddConnection
 title: NPAddConnection function (npapi.h)
-description: Connects a local device to a network resource.
+description: Connects a local device to a network resource. (NPAddConnection)
 helpviewer_keywords: ["NPAddConnection","NPAddConnection function [Security]","_mnp_npaddconnection","dwType","lpLocalName","lpRemoteName","npapi/NPAddConnection","security.npaddconnection"]
 old-location: security\npaddconnection.htm
 tech.root: security

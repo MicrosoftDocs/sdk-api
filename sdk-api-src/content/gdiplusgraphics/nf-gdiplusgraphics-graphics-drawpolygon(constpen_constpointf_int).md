@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPolygon(constPen,constPointF,INT)
 title: Graphics::DrawPolygon
-description: The Graphics::DrawPolygon method draws a polygon.
+description: The Graphics::DrawPolygon method draws a polygon. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawPolygon"]
 ms.assetid: b9ae10d3-96a9-47eb-9a66-f8a118c4e2ef

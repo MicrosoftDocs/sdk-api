@@ -1,12 +1,12 @@
 ---
 UID: NF:propidl.IPropertyStorage.SetTimes
 title: IPropertyStorage::SetTimes (propidl.h)
-description: The SetTimes method sets the modification, access, and creation times of this property set, if supported by the implementation. Not all implementations support all these time values.
+description: The IPropertyStorage::SetTimes method sets the modification, access, and creation times of this property set, if supported by the implementation.
 helpviewer_keywords: ["IPropertyStorage interface [Structured Storage]","SetTimes method","IPropertyStorage.SetTimes","IPropertyStorage::SetTimes","SetTimes","SetTimes method [Structured Storage]","SetTimes method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_settimes","propidl/IPropertyStorage::SetTimes","stg.ipropertystorage_settimes"]
 old-location: stg\ipropertystorage_settimes.htm
 tech.root: Stg
 ms.assetid: 23c7040a-e648-4898-806d-ad01d7027cc6
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage interface [Structured Storage],SetTimes method, IPropertyStorage.SetTimes, IPropertyStorage::SetTimes, SetTimes, SetTimes method [Structured Storage], SetTimes method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_settimes, propidl/IPropertyStorage::SetTimes, stg.ipropertystorage_settimes
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsW
 title: SetNtmsUIOptionsW function (ntmsapi.h)
-description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
-helpviewer_keywords: ["NTMS_UIDEST_ADD","NTMS_UIDEST_DELETE","NTMS_UIDEST_DELETEALL","NTMS_UITYPE_ERR","NTMS_UITYPE_INFO","NTMS_UITYPE_REQ","SetNtmsUIOptions","SetNtmsUIOptions function [Files]","SetNtmsUIOptionsA","SetNtmsUIOptionsW","_zaw_setntmsuioptions","base.setntmsuioptions","fs.setntmsuioptions","ntmsapi/SetNtmsUIOptions","ntmsapi/SetNtmsUIOptionsA","ntmsapi/SetNtmsUIOptionsW"]
+description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object. (Unicode)
+helpviewer_keywords: ["NTMS_UIDEST_ADD", "NTMS_UIDEST_DELETE", "NTMS_UIDEST_DELETEALL", "NTMS_UITYPE_ERR", "NTMS_UITYPE_INFO", "NTMS_UITYPE_REQ", "SetNtmsUIOptions", "SetNtmsUIOptions function [Files]", "SetNtmsUIOptionsW", "_zaw_setntmsuioptions", "base.setntmsuioptions", "fs.setntmsuioptions", "ntmsapi/SetNtmsUIOptions", "ntmsapi/SetNtmsUIOptionsW"]
 old-location: fs\setntmsuioptions.htm
 tech.root: fs
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5

@@ -56,27 +56,27 @@ Defines the possible types of file system property ids.
 
 ## -enum-fields
 
-### -field FsrmFileSystemPropertyId_Undefined
+### -field FsrmFileSystemPropertyId_Undefined:0
 
 The file system property id is not used. This is the default.
 
-### -field FsrmFileSystemPropertyId_FileName
+### -field FsrmFileSystemPropertyId_FileName:1
 
 The file system property id is the filename, including the extension.
 
-### -field FsrmFileSystemPropertyId_DateCreated
+### -field FsrmFileSystemPropertyId_DateCreated:2
 
 The file system property id is the file's creation time.
 
-### -field FsrmFileSystemPropertyId_DateLastAccessed
+### -field FsrmFileSystemPropertyId_DateLastAccessed:3
 
 The file system property id is the file's last accessed time.
 
-### -field FsrmFileSystemPropertyId_DateLastModified
+### -field FsrmFileSystemPropertyId_DateLastModified:4
 
 The file system property id is the file's last modified time.
 
-### -field FsrmFileSystemPropertyId_DateNow
+### -field FsrmFileSystemPropertyId_DateNow:5
 
 The file system property id is the current time.
 

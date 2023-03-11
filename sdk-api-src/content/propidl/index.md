@@ -4,7 +4,7 @@ title: Propidl.h header
 ms.assetid: 35325608-666b-3821-b511-23a7a15f76f8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: properties
 f1_keywords:
  - propidl

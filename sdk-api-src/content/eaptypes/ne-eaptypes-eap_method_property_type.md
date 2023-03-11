@@ -56,7 +56,7 @@ The <b>EAP_METHOD_PROPERTY_TYPE</b> enumeration specifies the set of possible EA
 
 ## -enum-fields
 
-### -field emptPropCipherSuiteNegotiation
+### -field emptPropCipherSuiteNegotiation:0
 
 Boolean method property for specifying the support for cipher suite negotiation.
 
@@ -172,7 +172,7 @@ Boolean method property for specifying the support for method chaining.
 
 Boolean method property for specifying the support for shared state equivalence as defined in RFC4017.
 
-### -field emptLegacyMethodPropertyFlag
+### -field emptLegacyMethodPropertyFlag:31
 
 <b>DWORD</b> property method for values sent prior to Windows 7.
 

@@ -56,35 +56,35 @@ The <code>VMR9DeinterlaceTech</code> enumeration type describes the algorithm us
 
 ## -enum-fields
 
-### -field DeinterlaceTech9_Unknown
+### -field DeinterlaceTech9_Unknown:0
 
 The algorithm is unknown or proprietary.
 
-### -field DeinterlaceTech9_BOBLineReplicate
+### -field DeinterlaceTech9_BOBLineReplicate:0x1
 
 The algorithm creates each missing line by repeating the line above it or below it. This method creates jagged artifacts and is not recommended.
 
-### -field DeinterlaceTech9_BOBVerticalStretch
+### -field DeinterlaceTech9_BOBVerticalStretch:0x2
 
 The algorithm creates the missing lines by vertically stretching each video field by a factor of two. For example, it might average two lines or use a (-1, 9, 9, -1)/16 filter across four lines. Slight vertical adjustments are made to ensure that the resulting image does not "bob" up and down
 
-### -field DeinterlaceTech9_MedianFiltering
+### -field DeinterlaceTech9_MedianFiltering:0x4
 
 The algorithm uses median filtering to recreate the pixels in the missing lines.
 
-### -field DeinterlaceTech9_EdgeFiltering
+### -field DeinterlaceTech9_EdgeFiltering:0x10
 
 The algorithm uses an edge filter to create the missing lines. In this process, spatial directional filters are applied to determine the orientation of edges in the picture content. Missing pixels are created by filtering along (rather than across) the detected edges.
 
-### -field DeinterlaceTech9_FieldAdaptive
+### -field DeinterlaceTech9_FieldAdaptive:0x20
 
 The algorithm uses spatial or temporal interpolation, switching between the two on a field-by-field basis, depending on the amount of motion.
 
-### -field DeinterlaceTech9_PixelAdaptive
+### -field DeinterlaceTech9_PixelAdaptive:0x40
 
 The algorithm uses spatial or temporal interpolation, switching between the two on a pixel-by-pixel basis, depending on the amount of motion.
 
-### -field DeinterlaceTech9_MotionVectorSteered
+### -field DeinterlaceTech9_MotionVectorSteered:0x80
 
 The algorithm identifies objects within a sequence of video fields. Before it recreates the missing pixels, it aligns the movement axes of the individual objects in the scene to make them parallel with the time axis.
 

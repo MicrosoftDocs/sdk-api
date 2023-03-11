@@ -4,7 +4,7 @@ title: Winbio.h header
 ms.assetid: 36258ca5-57ed-3679-9908-462f12da8128
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: secbiomet
 f1_keywords:
  - winbio

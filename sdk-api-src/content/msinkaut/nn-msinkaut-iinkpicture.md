@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkPicture
 title: IInkPicture (msinkaut.h)
-description: .
+description: . (IInkPicture)
 helpviewer_keywords: ["IInkPicture","IInkPicture interface [Tablet PC]","IInkPicture interface [Tablet PC]","described","msinkaut/IInkPicture","tablet.iinkpicture"]
 old-location: tablet\iinkpicture.htm
 tech.root: tablet

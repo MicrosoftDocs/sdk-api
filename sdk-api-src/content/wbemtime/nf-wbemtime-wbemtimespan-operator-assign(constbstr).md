@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-assign(constBSTR)
 title: WBEMTimeSpan::operator-assign (wbemtime.h)
-description: Converts a BSTR time interval value to a WBEMTimeSpan object in CIM date and time format.
+description: Converts a BSTR time interval value to a WBEMTimeSpan object in CIM date and time format. (overload 2/3)
 helpviewer_keywords: ["WBEMTimeSpan interface [Windows Management Instrumentation]","operator= method","WBEMTimeSpan.operator-assign","WBEMTimeSpan.operator=","WBEMTimeSpan::operator-assign","WBEMTimeSpan::operator=","_hmm_wbemtimespan_operator_equal","operator=","operator= method [Windows Management Instrumentation]","operator= method [Windows Management Instrumentation]","WBEMTimeSpan interface","wbemtime/WBEMTimeSpan::operator=","wmi.wbemtimespan_operator_equal"]
 old-location: wmi\wbemtimespan_operator_equal.htm
 tech.root: wmi

@@ -56,15 +56,15 @@ The <b>CurrentRatings</b> method retrieves the current ratings information from 
 
 ### -param pEnSystem [out]
 
-Pointer to a variable that receives the rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
+Pointer to a variable that receives the rating system, as an <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration value.
 
 ### -param pEnRating [out]
 
-Receives the rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
+Receives the rating level, as an <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration value.
 
 ### -param pBfEnAttr [out]
 
-Pointer to a variable that receives the ratings attributes, as a bitwise combination of zero or more flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Pointer to a variable that receives the ratings attributes, as a bitwise combination of zero or more flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ## -returns
 

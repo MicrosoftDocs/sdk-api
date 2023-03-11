@@ -56,15 +56,15 @@ Elements of the <b>TfCandidateResult</b> enumeration are used with the <a href="
 
 ## -enum-fields
 
-### -field CAND_FINALIZED
+### -field CAND_FINALIZED:0
 
 The candidate string has been selected and accepted. The previous text should be replaced with the specified candidate.
 
-### -field CAND_SELECTED
+### -field CAND_SELECTED:0x1
 
 The candidate string has been selected, but the selection is not yet final.
 
-### -field CAND_CANCELED
+### -field CAND_CANCELED:0x2
 
 The reconversion operation has been canceled.
 

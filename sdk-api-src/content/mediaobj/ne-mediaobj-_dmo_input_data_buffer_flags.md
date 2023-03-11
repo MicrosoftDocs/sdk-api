@@ -54,21 +54,21 @@ The <code>DMO_INPUT_DATA_BUFFER_FLAGS</code> enumeration defines flags that desc
 
 ## -enum-fields
 
-### -field DMO_INPUT_DATA_BUFFERF_SYNCPOINT
+### -field DMO_INPUT_DATA_BUFFERF_SYNCPOINT:0x1
 
 The beginning of the data is a synchronization point.
 
-### -field DMO_INPUT_DATA_BUFFERF_TIME
+### -field DMO_INPUT_DATA_BUFFERF_TIME:0x2
 
 The buffer's time stamp is valid.
 
 The buffer's indicated time length is valid.
 
-### -field DMO_INPUT_DATA_BUFFERF_TIMELENGTH
+### -field DMO_INPUT_DATA_BUFFERF_TIMELENGTH:0x4
 
 The buffer's indicated time length is valid.
 
-### -field DMO_INPUT_DATA_BUFFERF_DISCONTINUITY
+### -field DMO_INPUT_DATA_BUFFERF_DISCONTINUITY:0x8
 
 ## -see-also
 

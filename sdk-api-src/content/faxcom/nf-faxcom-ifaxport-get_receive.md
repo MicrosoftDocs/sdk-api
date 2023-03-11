@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Receive
 title: IFaxPort::get_Receive (faxcom.h)
-description: The IFaxPort::get_Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
+description: The IFaxPort::get_Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes. (Get)
 helpviewer_keywords: ["IFaxPort interface [Fax Service]","Receive property","IFaxPort.Receive","IFaxPort.get_Receive","IFaxPort::Receive","IFaxPort::get_Receive","IFaxPort::put_Receive","Receive property [Fax Service]","Receive property [Fax Service]","IFaxPort interface","_mfax_ifaxport_get_receive","fax._mfax_ifaxport_get_receive","fax._mfax_ifaxport_mfax_ifaxport_get_receive_cpp","faxcom/IFaxPort::Receive","faxcom/IFaxPort::get_Receive","faxcom/IFaxPort::put_Receive","get_Receive"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_receive_cpp.htm
 tech.root: Fax

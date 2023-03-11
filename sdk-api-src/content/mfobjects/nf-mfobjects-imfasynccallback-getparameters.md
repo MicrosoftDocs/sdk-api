@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallback.GetParameters
 title: IMFAsyncCallback::GetParameters (mfobjects.h)
-description: Provides configuration information to the dispatching thread for a callback.
+description: Provides configuration information to the dispatching thread for a callback. (IMFAsyncCallback.GetParameters)
 helpviewer_keywords: ["374dd139-d3e7-45d0-a7d3-1187b928ef57","GetParameters","GetParameters method [Media Foundation]","GetParameters method [Media Foundation]","IMFAsyncCallback interface","IMFAsyncCallback interface [Media Foundation]","GetParameters method","IMFAsyncCallback.GetParameters","IMFAsyncCallback::GetParameters","MFASYNC_BLOCKING_CALLBACK","MFASYNC_FAST_IO_PROCESSING_CALLBACK","MFASYNC_REPLY_CALLBACK","MFASYNC_SIGNAL_CALLBACK","Zero","mf.imfasynccallback_getparameters","mfobjects/IMFAsyncCallback::GetParameters"]
 old-location: mf\imfasynccallback_getparameters.htm
 tech.root: mf

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetArguments
 title: IShellLinkW::SetArguments (shobjidl_core.h)
-description: Sets the command-line arguments for a Shell link object.
+description: Sets the command-line arguments for a Shell link object. (Unicode)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetArguments method","IShellLink::SetArguments","IShellLinkA interface [Windows Shell]","SetArguments method","IShellLinkA::SetArguments","IShellLinkW interface [Windows Shell]","SetArguments method","IShellLinkW.SetArguments","IShellLinkW::SetArguments","SetArguments","SetArguments method [Windows Shell]","SetArguments method [Windows Shell]","IShellLink interface","SetArguments method [Windows Shell]","IShellLinkA interface","SetArguments method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetArguments","shell.IShellLink_SetArguments","shobjidl_core/IShellLink::SetArguments","shobjidl_core/IShellLinkA::SetArguments","shobjidl_core/IShellLinkW::SetArguments"]
 old-location: shell\IShellLink_SetArguments.htm
 tech.root: shell

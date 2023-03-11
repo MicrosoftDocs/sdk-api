@@ -56,35 +56,35 @@ Describes the content of a video sample. These flags are used in the <a href="/w
 
 ## -enum-fields
 
-### -field DXVA2_SampleFormatMask
+### -field DXVA2_SampleFormatMask:0xff
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_SampleUnknown
+### -field DXVA2_SampleUnknown:0
 
 Unknown format. Default to DXVA2_SampleProgressiveFrame.
 
-### -field DXVA2_SampleProgressiveFrame
+### -field DXVA2_SampleProgressiveFrame:2
 
 The sample contains a progressive (non-interlaced) frame.
 
-### -field DXVA2_SampleFieldInterleavedEvenFirst
+### -field DXVA2_SampleFieldInterleavedEvenFirst:3
 
 The sample contains two interleaved fields. The even field should be displayed first.
 
-### -field DXVA2_SampleFieldInterleavedOddFirst
+### -field DXVA2_SampleFieldInterleavedOddFirst:4
 
 The sample contains two interleaved fields. The odd field should be displayed first.
 
-### -field DXVA2_SampleFieldSingleEven
+### -field DXVA2_SampleFieldSingleEven:5
 
 The sample contains a single even field.
 
-### -field DXVA2_SampleFieldSingleOdd
+### -field DXVA2_SampleFieldSingleOdd:6
 
 The sample contains a single odd field.
 
-### -field DXVA2_SampleSubStream
+### -field DXVA2_SampleSubStream:7
 
 The sample contains a video substream frame. Use this value for substream mixing.
 

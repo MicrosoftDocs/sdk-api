@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetResourceTiling
 title: ID3D12Device::GetResourceTiling (d3d12.h)
-description: Gets info about how a tiled resource is broken into tiles.
+description: Gets info about how a tiled resource is broken into tiles. (ID3D12Device.GetResourceTiling)
 helpviewer_keywords: ["GetResourceTiling","GetResourceTiling method","GetResourceTiling method","ID3D12Device interface","ID3D12Device interface","GetResourceTiling method","ID3D12Device.GetResourceTiling","ID3D12Device::GetResourceTiling","d3d12/ID3D12Device::GetResourceTiling","direct3d12.id3d12device_getresourcetiling"]
 old-location: direct3d12\id3d12device_getresourcetiling.htm
 tech.root: direct3d12

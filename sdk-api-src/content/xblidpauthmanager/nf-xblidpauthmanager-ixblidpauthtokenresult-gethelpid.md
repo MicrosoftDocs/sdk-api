@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetHelpId
 title: IXblIdpAuthTokenResult::GetHelpId (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetHelpId)
 helpviewer_keywords: ["GetHelpId","GetHelpId method","GetHelpId method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetHelpId method","IXblIdpAuthTokenResult.GetHelpId","IXblIdpAuthTokenResult::GetHelpId","xblidp.ixblidpauthtokenresult_gethelpid","xblidpauthmanager/IXblIdpAuthTokenResult::GetHelpId"]
 old-location: xblidp\ixblidpauthtokenresult_gethelpid.htm
 tech.root: xblidp

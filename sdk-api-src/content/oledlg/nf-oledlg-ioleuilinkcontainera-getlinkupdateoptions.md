@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkUpdateOptions
 title: IOleUILinkContainerA::GetLinkUpdateOptions (oledlg.h)
-description: Determines the current update options for a link.
+description: Determines the current update options for a link. (ANSI)
 helpviewer_keywords: ["GetLinkUpdateOptions","GetLinkUpdateOptions method [COM]","GetLinkUpdateOptions method [COM]","IOleUILinkContainer interface","GetLinkUpdateOptions method [COM]","IOleUILinkContainerA interface","GetLinkUpdateOptions method [COM]","IOleUILinkContainerW interface","IOleUILinkContainer interface [COM]","GetLinkUpdateOptions method","IOleUILinkContainer::GetLinkUpdateOptions","IOleUILinkContainerA interface [COM]","GetLinkUpdateOptions method","IOleUILinkContainerA.GetLinkUpdateOptions","IOleUILinkContainerA::GetLinkUpdateOptions","IOleUILinkContainerW interface [COM]","GetLinkUpdateOptions method","IOleUILinkContainerW::GetLinkUpdateOptions","_ole_IOleUILinkContainer_GetLinkUpdateOptions","com.ioleuilinkcontainer_getlinkupdateoptions","oledlg/IOleUILinkContainer::GetLinkUpdateOptions","oledlg/IOleUILinkContainerA::GetLinkUpdateOptions","oledlg/IOleUILinkContainerW::GetLinkUpdateOptions"]
 old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm
 tech.root: com

@@ -56,5 +56,5 @@ The <b>IDENTITY_TYPE</b> enumerated type defines the different possible values f
 
 ## -enum-fields
 
-### -field IAS_IDENTITY_NO_DEFAULT
+### -field IAS_IDENTITY_NO_DEFAULT:0x1
 

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPartUriCollection interface
 
-
 ## -description
 
 A collection of <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface pointers.

@@ -52,7 +52,7 @@ For more info, and code examples, see [Firewall dynamic keywords](/windows/win32
 
 ## -enum-fields
 
-### -field FW_DYNAMIC_KEYWORD_ADDRESS_FLAGS_AUTO_RESOLVE
+### -field FW_DYNAMIC_KEYWORD_ADDRESS_FLAGS_AUTO_RESOLVE:0x0001
 
 Specifies that the IP addresses will be auto-resolved and populated by another component outside the firewall service.
 

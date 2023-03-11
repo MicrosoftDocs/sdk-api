@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageFormats
 title: IDWriteFontFace4::GetGlyphImageFormats (dwrite_3.h)
-description: Gets all the glyph image formats supported by the entire font.
+description: Gets all the glyph image formats supported by the entire font. (IDWriteFontFace4.GetGlyphImageFormats)
 helpviewer_keywords: ["GetGlyphImageFormats","GetGlyphImageFormats method [Direct Write]","GetGlyphImageFormats method [Direct Write]","IDWriteFontFace4 interface","IDWriteFontFace4 interface [Direct Write]","GetGlyphImageFormats method","IDWriteFontFace4.GetGlyphImageFormats","IDWriteFontFace4::GetGlyphImageFormats","directwrite.idwritefontface4_getglyphimageformats","dwrite_3/IDWriteFontFace4::GetGlyphImageFormats"]
 old-location: directwrite\idwritefontface4_getglyphimageformats.htm
 tech.root: DirectWrite

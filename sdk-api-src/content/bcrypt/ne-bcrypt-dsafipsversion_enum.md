@@ -1,5 +1,5 @@
 ---
-UID: NE:bcrypt.__unnamed_enum_3
+UID: NE:bcrypt.DSAFIPSVERSION_ENUM
 title: DSAFIPSVERSION_ENUM (bcrypt.h)
 description: Contains FIPS version information.
 helpviewer_keywords: ["DSAFIPSVERSION_ENUM","DSAFIPSVERSION_ENUM enumeration [Security]","DSA_FIPS186_2","DSA_FIPS186_3","bcrypt/DSAFIPSVERSION_ENUM","bcrypt/DSA_FIPS186_2","bcrypt/DSA_FIPS186_3","security.dsafipsversion_enum"]
@@ -69,3 +69,4 @@ Federal Information Processing Standard (FIPS) 3.
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
+

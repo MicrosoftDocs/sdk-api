@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaItem.Diagnostic
 title: IWiaItem::Diagnostic (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaItem.Diagnostic)
 helpviewer_keywords: ["Diagnostic","Diagnostic method [WIA]","Diagnostic method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","Diagnostic method","IWiaItem.Diagnostic","IWiaItem::Diagnostic","_wia_IWiaItem_Diagnostic","wia._wia_IWiaItem_Diagnostic","wia_xp/IWiaItem::Diagnostic"]
 old-location: wia\_wia_IWiaItem_Diagnostic.htm
 tech.root: wia

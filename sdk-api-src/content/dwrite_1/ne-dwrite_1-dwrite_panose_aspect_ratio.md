@@ -54,31 +54,31 @@ The <b>DWRITE_PANOSE_ASPECT_RATIO</b> enumeration contains values that specify i
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_ANY
+### -field DWRITE_PANOSE_ASPECT_RATIO_ANY:0
 
 Any aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_NO_FIT
+### -field DWRITE_PANOSE_ASPECT_RATIO_NO_FIT:1
 
 No fit for aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_CONDENSED
+### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_CONDENSED:2
 
 Very condensed aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_CONDENSED
+### -field DWRITE_PANOSE_ASPECT_RATIO_CONDENSED:3
 
 Condensed aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_NORMAL
+### -field DWRITE_PANOSE_ASPECT_RATIO_NORMAL:4
 
 Normal aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_EXPANDED
+### -field DWRITE_PANOSE_ASPECT_RATIO_EXPANDED:5
 
 Expanded aspect ratio.
 
-### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_EXPANDED
+### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_EXPANDED:6
 
 Very expanded aspect ratio.
 

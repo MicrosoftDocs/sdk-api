@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IEncoderAPI
 title: IEncoderAPI (strmif.h)
-description: IEncoderAPI is no longer available for use.
+description: IEncoderAPI is no longer available for use. (IEncoderAPI)
 helpviewer_keywords: ["IEncoderAPI","IEncoderAPI interface [Microsoft TV Technologies]","IEncoderAPI interface [Microsoft TV Technologies]","described","IEncoderAPIInterface","mstv.iencoderapi","strmif/IEncoderAPI"]
 old-location: mstv\iencoderapi.htm
 tech.root: mstv

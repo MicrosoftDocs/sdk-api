@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotPointY
 title: IManipulationProcessor::get_PivotPointY (manipulations.h)
-description: The PivotPointY property is the vertical center of the object.
+description: The PivotPointY property is the vertical center of the object. (Get)
 helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","PivotPointY property","IManipulationProcessor.PivotPointY","IManipulationProcessor.get_PivotPointY","IManipulationProcessor::PivotPointY","IManipulationProcessor::get_PivotPointY","IManipulationProcessor::put_PivotPointY","PivotPointY property [Windows Touch]","PivotPointY property [Windows Touch]","IManipulationProcessor interface","get_PivotPointY","manipulations/IManipulationProcessor::PivotPointY","manipulations/IManipulationProcessor::get_PivotPointY","manipulations/IManipulationProcessor::put_PivotPointY","wintouch.imanipulationprocessor_pivotpointy"]
 old-location: wintouch\imanipulationprocessor_pivotpointy.htm
 tech.root: wintouch

@@ -54,15 +54,15 @@ A callback flag to inform the sync provider that a placeholder under one of its 
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE:0x00000000
 
 No dehydration completion flag.
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND:0x00000001
 
 A flag set if the dehydration request is initiated by a system background service.
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED:0x00000002
 
 A flag set if the placeholder was hydrated prior to the dehydration request.
 

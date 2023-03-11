@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptVerifySignatureA
 title: CryptVerifySignatureA function (wincrypt.h)
-description: Verifies the signature of a hash object.
-helpviewer_keywords: ["CRYPT_NOHASHOID","CRYPT_TYPE2_FORMAT","CRYPT_X931_FORMAT","CryptVerifySignature","CryptVerifySignature function [Security]","CryptVerifySignatureA","CryptVerifySignatureW","_crypto2_cryptverifysignature","security.cryptverifysignature","wincrypt/CryptVerifySignature","wincrypt/CryptVerifySignatureA","wincrypt/CryptVerifySignatureW"]
+description: Verifies the signature of a hash object. (ANSI)
+helpviewer_keywords: ["CRYPT_NOHASHOID", "CRYPT_TYPE2_FORMAT", "CRYPT_X931_FORMAT", "CryptVerifySignatureA", "wincrypt/CryptVerifySignatureA"]
 old-location: security\cryptverifysignature.htm
 tech.root: security
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e

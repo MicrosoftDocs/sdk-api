@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMColorProfileResource interface
 
-
 ## -description
 
 Provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a color profile resource.

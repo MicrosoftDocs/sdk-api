@@ -56,11 +56,11 @@ Specifies the type of modification that is applied to restart or shutdown action
 
 ## -enum-fields
 
-### -field RmInvalidFilterAction
+### -field RmInvalidFilterAction:0
 
 An invalid filter action.
 
-### -field RmNoRestart
+### -field RmNoRestart:1
 
 Prevents the restart of the specified application or service.
 

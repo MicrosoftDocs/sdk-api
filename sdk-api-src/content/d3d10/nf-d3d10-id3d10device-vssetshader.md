@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetShader
 title: ID3D10Device::VSSetShader (d3d10.h)
-description: Set a vertex shader to the device.
+description: Set a vertex shader to the device. (ID3D10Device.VSSetShader)
 helpviewer_keywords: ["8aebab54-e44a-a11b-1d07-449a345b9922","ID3D10Device interface [Direct3D 10]","VSSetShader method","ID3D10Device.VSSetShader","ID3D10Device::VSSetShader","VSSetShader","VSSetShader method [Direct3D 10]","VSSetShader method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::VSSetShader","direct3d10.id3d10device_vssetshader"]
 old-location: direct3d10\id3d10device_vssetshader.htm
 tech.root: direct3d10

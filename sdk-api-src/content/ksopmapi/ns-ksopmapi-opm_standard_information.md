@@ -1,12 +1,12 @@
 ---
 UID: NS:ksopmapi._OPM_STANDARD_INFORMATION
 title: OPM_STANDARD_INFORMATION (ksopmapi.h)
-description: Contains the result from an Output Protection Manager (OPM) status request.
+description: The OPM_STANDARD_INFORMATION (ksopmapi.h) structure contains the result from an Output Protection Manager (OPM) status request.
 helpviewer_keywords: ["OPM_STANDARD_INFORMATION","OPM_STANDARD_INFORMATION structure [Media Foundation]","_OPM_STANDARD_INFORMATION","ksopmapi/OPM_STANDARD_INFORMATION","mf.opm_standard_information"]
 old-location: mf\opm_standard_information.htm
 tech.root: mf
 ms.assetid: 4c1b6803-0015-4def-acb0-295193ba0e17
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information
 req.header: ksopmapi.h
 req.include-header: Opmapi.h

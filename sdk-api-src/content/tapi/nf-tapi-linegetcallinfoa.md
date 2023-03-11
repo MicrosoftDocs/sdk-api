@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetCallInfoA
 title: lineGetCallInfoA function (tapi.h)
-description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
-helpviewer_keywords: ["_tapi2_linegetcallinfo","lineGetCallInfo","lineGetCallInfo function [TAPI 2.2]","lineGetCallInfoA","lineGetCallInfoW","tapi/lineGetCallInfo","tapi/lineGetCallInfoA","tapi/lineGetCallInfoW","tapi2.linegetcallinfo"]
+description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call. (lineGetCallInfoA)
+helpviewer_keywords: ["lineGetCallInfoA", "tapi/lineGetCallInfoA"]
 old-location: tapi2\linegetcallinfo.htm
 tech.root: tapi3
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276

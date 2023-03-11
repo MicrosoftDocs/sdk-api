@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Direction
 title: ITPluggableTerminalClassRegistration::get_Direction (termmgr.h)
-description: The get_Direction method gets the direction supported by the terminal.
+description: The get_Direction method gets the direction supported by the terminal. (ITPluggableTerminalClassRegistration.get_Direction)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Direction method","ITPluggableTerminalClassRegistration.get_Direction","ITPluggableTerminalClassRegistration::get_Direction","_tapi3_itpluggableterminalclassregistration_get_direction","get_Direction","get_Direction method [TAPI 2.2]","get_Direction method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_direction","termmgr/ITPluggableTerminalClassRegistration::get_Direction"]
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm
 tech.root: tapi3

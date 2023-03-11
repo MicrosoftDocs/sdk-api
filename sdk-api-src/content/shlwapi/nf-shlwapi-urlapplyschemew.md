@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeW
 title: UrlApplySchemeW function (shlwapi.h)
-description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
-helpviewer_keywords: ["URL_APPLY_DEFAULT","URL_APPLY_FORCEAPPLY","URL_APPLY_GUESSFILE","URL_APPLY_GUESSSCHEME","UrlApplyScheme","UrlApplyScheme function [Windows Shell]","UrlApplySchemeA","UrlApplySchemeW","_win32_UrlApplyScheme","shell.UrlApplyScheme","shlwapi/UrlApplyScheme","shlwapi/UrlApplySchemeA","shlwapi/UrlApplySchemeW"]
+description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix. (Unicode)
+helpviewer_keywords: ["URL_APPLY_DEFAULT", "URL_APPLY_FORCEAPPLY", "URL_APPLY_GUESSFILE", "URL_APPLY_GUESSSCHEME", "UrlApplyScheme", "UrlApplyScheme function [Windows Shell]", "UrlApplySchemeW", "_win32_UrlApplyScheme", "shell.UrlApplyScheme", "shlwapi/UrlApplyScheme", "shlwapi/UrlApplySchemeW"]
 old-location: shell\UrlApplyScheme.htm
 tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf

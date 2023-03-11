@@ -82,7 +82,7 @@ Specifies the number of bytes from the beginning of one scan line to the beginni
 
 ### -param lpfnCallback
 
-Pointer to an application-supplied callback function called periodically by **CMTranslateRGBsExt** to report progress and allow the calling process to cancel the translation. (See [**ICMProgressProcCallback**](https://msdn.microsoft.com/en-us/library/dd372114\(v=vs.85\)).)
+Pointer to an application-supplied callback function called periodically by **CMTranslateRGBsExt** to report progress and allow the calling process to cancel the translation. (See [**ICMProgressProcCallback**](/windows/win32/wcs/icmprogressproccallback).)
 
 ### -param ulCallbackData
 

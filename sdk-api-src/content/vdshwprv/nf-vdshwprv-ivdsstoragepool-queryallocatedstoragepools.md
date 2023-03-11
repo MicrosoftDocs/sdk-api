@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedStoragePools
 title: IVdsStoragePool::QueryAllocatedStoragePools (vdshwprv.h)
-description: Returns an object that enumerates the allocated storage pools that are managed by the provider.
+description: The IVdsStoragePool::QueryAllocatedStoragePools method returns an object that enumerates the allocated storage pools that are managed by the provider.
 helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedStoragePools method","IVdsStoragePool.QueryAllocatedStoragePools","IVdsStoragePool::QueryAllocatedStoragePools","QueryAllocatedStoragePools","QueryAllocatedStoragePools method","QueryAllocatedStoragePools method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedstoragepools","vds/IVdsStoragePool::QueryAllocatedStoragePools","vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools"]
 old-location: base\ivdsstoragepool_queryallocatedstoragepools.htm
 tech.root: base
 ms.assetid: 7b6c447a-35e1-48ff-951c-b13ff5584c76
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsStoragePool interface,QueryAllocatedStoragePools method, IVdsStoragePool.QueryAllocatedStoragePools, IVdsStoragePool::QueryAllocatedStoragePools, QueryAllocatedStoragePools, QueryAllocatedStoragePools method, QueryAllocatedStoragePools method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedstoragepools, vds/IVdsStoragePool::QueryAllocatedStoragePools, vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an object that enumerates the allocated <a href="/windows/desktop/VDS/storage-pool-object">storage pools</a> that are managed by the provider.
 

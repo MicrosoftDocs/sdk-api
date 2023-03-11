@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionType
 title: ID3D10ShaderReflectionType (d3d10shader.h)
-description: This shader-reflection interface provides access to variable type.
+description: This shader-reflection interface provides access to variable type. (ID3D10ShaderReflectionType)
 helpviewer_keywords: ["07410292-1cdc-6e8c-f5a7-81000df37961","ID3D10ShaderReflectionType","ID3D10ShaderReflectionType interface [Direct3D 10]","ID3D10ShaderReflectionType interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflectionType","direct3d10.id3d10shaderreflectiontype"]
 old-location: direct3d10\id3d10shaderreflectiontype.htm
 tech.root: direct3d10
@@ -57,7 +57,7 @@ This shader-reflection interface provides access to variable type.
 
 The <b>ID3D10ShaderReflectionType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

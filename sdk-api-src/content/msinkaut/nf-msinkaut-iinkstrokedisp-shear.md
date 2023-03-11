@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Shear
 title: IInkStrokeDisp::Shear (msinkaut.h)
-description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors.
+description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors. (IInkStrokeDisp.Shear)
 helpviewer_keywords: ["887dd883-1a24-4a78-8f08-f4cd45bf4840","IInkStrokeDisp interface [Tablet PC]","Shear method","IInkStrokeDisp.Shear","IInkStrokeDisp::Shear","Shear","Shear method [Tablet PC]","Shear method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::Shear","tablet.iinkstrokedisp_shear"]
 old-location: tablet\iinkstrokedisp_shear.htm
 tech.root: tablet

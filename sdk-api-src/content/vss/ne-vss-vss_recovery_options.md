@@ -58,11 +58,11 @@ Used by a requester to specify how a resynchronization operation is to be perfor
 
 ## -enum-fields
 
-### -field VSS_RECOVERY_REVERT_IDENTITY_ALL
+### -field VSS_RECOVERY_REVERT_IDENTITY_ALL:0x100
 
  After the resynchronization operation is complete, the signature of each target LUN  should be identical to that of the original LUN that was used to create the shadow copy.
 
-### -field VSS_RECOVERY_NO_VOLUME_CHECK
+### -field VSS_RECOVERY_NO_VOLUME_CHECK:0x200
 
 Volume safety checks should not be performed.
 

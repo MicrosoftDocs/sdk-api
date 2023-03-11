@@ -4,7 +4,7 @@ title: Gamingdeviceinformation.h header
 ms.assetid: 8c71f935-bf26-32e3-bf34-165c7cef73fc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gamingdvcinfo
 f1_keywords:
  - gamingdeviceinformation

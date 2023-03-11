@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PCL_HOOKSWITCHES
+### -field PCL_HOOKSWITCHES:0
 
 Specifies the hookswitch devices available using one or more members of the 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-phone_hook_switch_device">PHONE_HOOK_SWITCH_DEVICE</a> enum.

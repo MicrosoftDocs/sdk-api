@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.GetWindowInputRectangle
 title: IInkCollector::GetWindowInputRectangle (msinkaut.h)
-description: Gets the window rectangle, in pixels, within which ink is drawn.
+description: Gets the window rectangle, in pixels, within which ink is drawn. (IInkCollector.GetWindowInputRectangle)
 helpviewer_keywords: ["0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c","GetWindowInputRectangle","GetWindowInputRectangle method [Tablet PC]","GetWindowInputRectangle method [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","GetWindowInputRectangle method","IInkCollector.GetWindowInputRectangle","IInkCollector::GetWindowInputRectangle","msinkaut/IInkCollector::GetWindowInputRectangle","tablet.inkcollector_getwindowinputrectangle"]
 old-location: tablet\inkcollector_getwindowinputrectangle.htm
 tech.root: tablet

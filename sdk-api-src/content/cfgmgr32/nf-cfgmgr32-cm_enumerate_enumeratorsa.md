@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Enumerate_EnumeratorsA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name.
+description: The CM_Enumerate_Enumerators function enumerates the local machine's device enumerators by supplying each enumerator's name. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

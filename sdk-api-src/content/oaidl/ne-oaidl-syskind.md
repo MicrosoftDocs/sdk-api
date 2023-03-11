@@ -56,7 +56,7 @@ Identifies the target operating system platform.
 
 ## -enum-fields
 
-### -field SYS_WIN16
+### -field SYS_WIN16:0
 
 The target operating system for the type library is 16-bit Windows. By default, data members are packed.
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCreateAlternateStream
 title: CimCreateAlternateStream
-ms.date: 9/9/2019
+description: The CimCreateAlternateStream function adds an alternate stream with the specified size at a path relative to the image represented by the image handle.
+ms.date: 08/01/2022
 ms.keywords: CimCreateAlternateStream
 tech.root: cimfs
 targetos: Windows

@@ -4,7 +4,7 @@ title: Wbemglue.h header
 ms.assetid: 7c4aacde-77ac-3385-b9b2-724a3b5cf14f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wmi
 f1_keywords:
  - wbemglue

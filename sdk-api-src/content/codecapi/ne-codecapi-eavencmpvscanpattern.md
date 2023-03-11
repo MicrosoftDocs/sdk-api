@@ -54,15 +54,15 @@ Specifies the macroblock scan pattern. This enumeration is used with the <a href
 
 ## -enum-fields
 
-### -field eAVEncMPVScanPattern_Auto
+### -field eAVEncMPVScanPattern_Auto:0
 
 The encoder selects the scan pattern.
 
-### -field eAVEncMPVScanPattern_ZigZagScan
+### -field eAVEncMPVScanPattern_ZigZagScan:1
 
 Zig-zag scan.
 
-### -field eAVEncMPVScanPattern_AlternateScan
+### -field eAVEncMPVScanPattern_AlternateScan:2
 
 Alternate-vertical scan.
 

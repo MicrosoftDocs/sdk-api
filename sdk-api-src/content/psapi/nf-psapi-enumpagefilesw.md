@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.EnumPageFilesW
 title: EnumPageFilesW function (psapi.h)
-description: Calls the callback routine for each installed pagefile in the system.
-helpviewer_keywords: ["EnumPageFiles","EnumPageFiles function [PSAPI]","EnumPageFilesA","EnumPageFilesW","K32EnumPageFiles","K32EnumPageFilesA","K32EnumPageFilesW","_win32_enumpagefiles","base.enumpagefiles","psapi.enumpagefiles","psapi/EnumPageFiles","psapi/EnumPageFilesA","psapi/EnumPageFilesW","psapi/K32EnumPageFiles","psapi/K32EnumPageFilesA","psapi/K32EnumPageFilesW"]
+description: Calls the callback routine for each installed pagefile in the system. (Unicode)
+helpviewer_keywords: ["EnumPageFiles", "EnumPageFiles function [PSAPI]", "EnumPageFilesW", "K32EnumPageFiles", "K32EnumPageFilesW", "_win32_enumpagefiles", "base.enumpagefiles", "psapi.enumpagefiles", "psapi/EnumPageFiles", "psapi/EnumPageFilesW", "psapi/K32EnumPageFiles", "psapi/K32EnumPageFilesW"]
 old-location: psapi\enumpagefiles.htm
 tech.root: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2

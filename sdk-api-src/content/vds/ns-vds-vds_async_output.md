@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_ASYNC_OUTPUT
 title: VDS_ASYNC_OUTPUT (vds.h)
-description: Defines the output of an async object. Output elements vary depending on the operation type.
+description: The VDS_ASYNC_OUTPUT structure (vds.h) defines the output of an async object. Output elements vary depending on the operation type.
 helpviewer_keywords: ["VDS_ASYNCOUT_BREAKVOLUMEPLEX","VDS_ASYNCOUT_CREATELUN","VDS_ASYNCOUT_CREATEPARTITION","VDS_ASYNCOUT_CREATEPORTALGROUP","VDS_ASYNCOUT_CREATETARGET","VDS_ASYNCOUT_CREATEVOLUME","VDS_ASYNCOUT_CREATE_VDISK","VDS_ASYNC_OUTPUT","VDS_ASYNC_OUTPUT structure [VDS]","base.vds_async_output","vds/_VDS_ASYNC_OUTPUT","vdshwprv/_VDS_ASYNC_OUTPUT"]
 old-location: base\vds_async_output.htm
 tech.root: base
 ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_CREATEPARTITION, VDS_ASYNCOUT_CREATEPORTALGROUP, VDS_ASYNCOUT_CREATETARGET, VDS_ASYNCOUT_CREATEVOLUME, VDS_ASYNCOUT_CREATE_VDISK, VDS_ASYNC_OUTPUT, VDS_ASYNC_OUTPUT structure [VDS], base.vds_async_output, vds/_VDS_ASYNC_OUTPUT, vdshwprv/_VDS_ASYNC_OUTPUT
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    output of an async object. Output elements vary depending on the operation type.

@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Device_Interface_AliasA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists.
+description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

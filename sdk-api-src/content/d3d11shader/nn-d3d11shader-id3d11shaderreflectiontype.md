@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflectionType
 title: ID3D11ShaderReflectionType (d3d11shader.h)
-description: This shader-reflection interface provides access to variable type.
+description: This shader-reflection interface provides access to variable type. (ID3D11ShaderReflectionType)
 helpviewer_keywords: ["369c707d-0441-c514-603f-48f54b69b778","ID3D11ShaderReflectionType","ID3D11ShaderReflectionType interface [Direct3D 11]","ID3D11ShaderReflectionType interface [Direct3D 11]","described","d3d11shader/ID3D11ShaderReflectionType","direct3d11.id3d11shaderreflectiontype"]
 old-location: direct3d11\id3d11shaderreflectiontype.htm
 tech.root: direct3d11
@@ -56,7 +56,7 @@ This shader-reflection interface provides access to variable type.
 
 The <b>ID3D11ShaderReflectionType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

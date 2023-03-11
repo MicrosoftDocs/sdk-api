@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsWriteQuestionToBuffer_W
 title: DnsWriteQuestionToBuffer_W function (windns.h)
-description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
+description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure. (DnsWriteQuestionToBuffer_W)
 helpviewer_keywords: ["DnsWriteQuestionToBuffer","DnsWriteQuestionToBuffer_UTF8","DnsWriteQuestionToBuffer_W","DnsWriteQuestionToBuffer_W function [DNS]","_dns_dnswritequestiontobuffer","dns.dnswritequestiontobuffer","windns/DnsWriteQuestionToBuffer_UTF8","windns/DnsWriteQuestionToBuffer_W"]
 old-location: dns\dnswritequestiontobuffer.htm
 tech.root: DNS

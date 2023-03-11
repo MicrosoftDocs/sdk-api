@@ -1,64 +1,103 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
 title: TraceLoggingKeyword macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's keyword(s).
-helpviewer_keywords: ["TraceLoggingKeyword","TraceLoggingKeyword macro","tracelogging.traceloggingkeyword","traceloggingprovider/TraceLoggingKeyword"]
+description: TraceLogging wrapper macro that sets the keyword for the event.
+helpviewer_keywords:
+  [
+    "TraceLoggingKeyword",
+    "TraceLoggingKeyword macro",
+    "tracelogging.traceloggingkeyword",
+    "traceloggingprovider/TraceLoggingKeyword",
+  ]
 old-location: tracelogging\traceloggingkeyword.htm
 tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
-ms.date: 12/05/2018
-ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
+ms.date: 06/06/2022
+ms.keywords:
+  TraceLoggingKeyword, TraceLoggingKeyword macro,
+  tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
 req.header: traceloggingprovider.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceLoggingKeyword
- - traceloggingprovider/TraceLoggingKeyword
+  - TraceLoggingKeyword
+  - traceloggingprovider/TraceLoggingKeyword
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - HeaderDef
+  - HeaderDef
 api_location:
- - traceloggingprovider.h
+  - traceloggingprovider.h
 api_name:
- - TraceLoggingKeyword
+  - TraceLoggingKeyword
 ---
 
 # TraceLoggingKeyword macro
 
-
 ## -description
 
-Wrapper macro for setting the event's keyword(s).
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that sets the keyword for the event.
 
 ## -parameters
 
 ### -param eventKeyword [in]
 
-The numerical keyword for the event. The value parameter must be a compile-time constant from 0 to UINT64_MAX.
+A 64-bit bitmask used to indicate an event's membership in a set of event
+categories. This value must be a compile-time constant.
+
+> [!IMPORTANT]
+> ProviderId, Level and Keyword are the primary means for filtering
+> events. Other kinds of filtering are possible but have much higher overhead.
+> Always assign a meaningful non-zero level and keyword to every event.
+
+See [EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md) for details
+about the event keyword.
 
 ## -remarks
 
-If no <b>TraceLoggingKeyword</b> macros are provided to a <b>TraceLoggingWrite</b> call, the event’s default keyword is 0. If multiple <b>TraceLoggingKeyword</b> macros are provided, they are OR’d together.
+`TraceLoggingKeyword(eventKeyword)` can be used as a parameter to an invocation
+of a [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro
+to set the event's keyword. Event keyword is a primary means for filtering
+events. Always assign a meaningful (non-zero) keyword to every event.
 
+If no **TraceLoggingKeyword** macros are provided to a **TraceLoggingWrite**
+call, the event's default keyword is 0. If multiple **TraceLoggingKeyword**
+macros are provided, the values are OR'ed together.
+
+The top 16 bits of the keyword (bitmask 0xFFFF000000000000) are defined by
+Microsoft. The low 48 bits of the keyword (bitmask 0x0000FFFFFFFFFFFF) are
+defined by the event provider. For example, the event provider might define bit
+0 (bitmask 0x1) to be the "I/O" category, bit 1 (bitmask 0x2) to be the "UI"
+category, and bit 2 (bitmask 0x4) to be the "performance measurement" category.
+In this scenario, an event might have its keyword set to 0x5, indicating that
+the event is in both the "I/O" and "performance measurement" categories.
+
+## -see-also
+
+[EVENT_DESCRIPTOR](../evntprov/ns-evntprov-event_descriptor.md)
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

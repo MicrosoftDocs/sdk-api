@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_RecognitionTimeout
 title: IInkEdit::put_RecognitionTimeout (inked.h)
-description: Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition.
+description: Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","RecognitionTimeout property","IInkEdit.RecognitionTimeout","IInkEdit.put_RecognitionTimeout","IInkEdit::RecognitionTimeout","IInkEdit::get_RecognitionTimeout","IInkEdit::put_RecognitionTimeout","InkEdit.get_RecognitionTimeout","InkEdit.put_RecognitionTimeout","RecognitionTimeout property [Tablet PC]","RecognitionTimeout property [Tablet PC]","IInkEdit interface","e1171aa3-841f-433e-88b8-e3fc63129aeb","get_RecognitionTimeout","inked/IInkEdit::RecognitionTimeout","inked/IInkEdit::get_RecognitionTimeout","inked/IInkEdit::put_RecognitionTimeout","put_RecognitionTimeout","tablet.inkedit_recotimeout"]
 old-location: tablet\inkedit_recotimeout.htm
 tech.root: tablet

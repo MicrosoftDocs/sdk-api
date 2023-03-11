@@ -56,11 +56,11 @@ Contains HDCP status flags. This enumeration is used in the <a href="/windows/de
 
 ## -enum-fields
 
-### -field COPP_HDCPRepeater
+### -field COPP_HDCPRepeater:0x01
 
 The device is an HDCP repeater.
 
-### -field COPP_HDCPFlagsReserved
+### -field COPP_HDCPFlagsReserved:0xFFFFFFFE
 
 Reserved. Must be zero.
 

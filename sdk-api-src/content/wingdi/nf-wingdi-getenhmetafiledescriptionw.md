@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileDescriptionW
 title: GetEnhMetaFileDescriptionW function (wingdi.h)
-description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
-helpviewer_keywords: ["GetEnhMetaFileDescription","GetEnhMetaFileDescription function [Windows GDI]","GetEnhMetaFileDescriptionA","GetEnhMetaFileDescriptionW","_win32_GetEnhMetaFileDescription","gdi.getenhmetafiledescription","wingdi/GetEnhMetaFileDescription","wingdi/GetEnhMetaFileDescriptionA","wingdi/GetEnhMetaFileDescriptionW"]
+description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer. (Unicode)
+helpviewer_keywords: ["GetEnhMetaFileDescription", "GetEnhMetaFileDescription function [Windows GDI]", "GetEnhMetaFileDescriptionW", "_win32_GetEnhMetaFileDescription", "gdi.getenhmetafiledescription", "wingdi/GetEnhMetaFileDescription", "wingdi/GetEnhMetaFileDescriptionW"]
 old-location: gdi\getenhmetafiledescription.htm
 tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6

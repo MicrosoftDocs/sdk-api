@@ -45,15 +45,15 @@ Defines constants that specify shader cache flags.
 
 ## -enum-fields
 
-### -field D3D12_SHADER_CACHE_FLAG_NONE
+### -field D3D12_SHADER_CACHE_FLAG_NONE:0
 
 Specifies no flag.
 
-### -field D3D12_SHADER_CACHE_FLAG_DRIVER_VERSIONED
+### -field D3D12_SHADER_CACHE_FLAG_DRIVER_VERSIONED:0x1
 
 Specifies that the cache is implicitly versioned by the driver being used. For multi-GPU systems, a cache created this way is stored side by side for each adapter on which the application runs. The *Version* field in the [D3D12_SHADER_CACHE_SESSION_DESC](ns-d3d12-d3d12_shader_cache_session_desc.md) struct (the cache description) is used as an additional constraint.
 
-### -field D3D12_SHADER_CACHE_FLAG_USE_WORKING_DIR
+### -field D3D12_SHADER_CACHE_FLAG_USE_WORKING_DIR:0x2
 
 By default, caches are stored in temporary storage, and can be cleared by disk cleanup. This constant (not valid for UWP apps) specifies that the cache is instead stored in the current working directory.
 

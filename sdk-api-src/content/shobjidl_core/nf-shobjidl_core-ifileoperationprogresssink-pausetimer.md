@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PauseTimer
 title: IFileOperationProgressSink::PauseTimer (shobjidl_core.h)
-description: Not supported.
+description: Not supported. (IFileOperationProgressSink.PauseTimer)
 helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PauseTimer method","IFileOperationProgressSink.PauseTimer","IFileOperationProgressSink::PauseTimer","PauseTimer","PauseTimer method [Windows Shell]","PauseTimer method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PauseTimer","shell.IFileOperationProgressSink_PauseTimer","shobjidl_core/IFileOperationProgressSink::PauseTimer"]
 old-location: shell\IFileOperationProgressSink_PauseTimer.htm
 tech.root: shell

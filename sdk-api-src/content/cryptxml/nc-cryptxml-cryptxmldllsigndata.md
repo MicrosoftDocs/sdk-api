@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.CryptXmlDllSignData
 title: CryptXmlDllSignData (cryptxml.h)
-description: Signs data.
+description: Signs data. (CryptXmlDllSignData)
 helpviewer_keywords: ["CryptXmlDllSignData","CryptXmlDllSignData callback","CryptXmlDllSignData callback function [Security]","cryptxml/CryptXmlDllSignData","security.cryptxmldllsigndata"]
 old-location: security\cryptxmldllsigndata.htm
 tech.root: security

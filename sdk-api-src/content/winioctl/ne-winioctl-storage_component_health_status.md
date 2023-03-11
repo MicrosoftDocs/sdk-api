@@ -57,7 +57,7 @@ Specifies  the health status of a storage component.
 
 ## -enum-fields
 
-### -field HealthStatusUnknown
+### -field HealthStatusUnknown:0
 
 ### -field HealthStatusNormal
 

@@ -45,11 +45,11 @@ Defines constants that specify a level of support for WaveMMA (wave_matrix) oper
 
 ## -enum-fields
 
-### -field D3D12_WAVE_MMA_TIER_NOT_SUPPORTED
+### -field D3D12_WAVE_MMA_TIER_NOT_SUPPORTED:0
 
 Specifies that WaveMMA (wave_matrix) operations are not supported.
 
-### -field D3D12_WAVE_MMA_TIER_1_0
+### -field D3D12_WAVE_MMA_TIER_1_0:10
 
 Specifies that WaveMMA (wave_matrix) operations are supported.
 

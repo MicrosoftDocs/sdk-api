@@ -56,6 +56,6 @@ Identifies the type of a Digital Video Broadcast (DVB) component stream and prov
 
 The <b>IDvbComponentDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbComponentDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

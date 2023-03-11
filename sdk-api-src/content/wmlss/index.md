@@ -4,7 +4,7 @@ title: Wmlss.h header
 ms.assetid: c0c7fdd1-1247-32ae-998c-3ff9b789817d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wmlss
 archived: true
 f1_keywords:

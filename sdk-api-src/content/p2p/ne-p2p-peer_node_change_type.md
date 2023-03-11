@@ -56,15 +56,15 @@ The <b>PEER_NODE_CHANGE_TYPE</b> enumeration specifies the types of peer node gr
 
 ## -enum-fields
 
-### -field PEER_NODE_CHANGE_CONNECTED
+### -field PEER_NODE_CHANGE_CONNECTED:1
 
 The peer node has connected to the graph.
 
-### -field PEER_NODE_CHANGE_DISCONNECTED
+### -field PEER_NODE_CHANGE_DISCONNECTED:2
 
 The peer node has disconnected from the graph.
 
-### -field PEER_NODE_CHANGE_UPDATED
+### -field PEER_NODE_CHANGE_UPDATED:3
 
 The peer node's status within the graph has changed.
 

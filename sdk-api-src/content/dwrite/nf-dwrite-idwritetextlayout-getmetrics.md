@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMetrics
 title: IDWriteTextLayout::GetMetrics (dwrite.h)
-description: Retrieves overall metrics for the formatted string.
+description: Retrieves overall metrics for the formatted string. (IDWriteTextLayout.GetMetrics)
 helpviewer_keywords: ["GetMetrics","GetMetrics method [Direct Write]","GetMetrics method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetMetrics method","IDWriteTextLayout.GetMetrics","IDWriteTextLayout::GetMetrics","directwrite.IDWriteTextLayout_GetMetrics","dwrite/IDWriteTextLayout::GetMetrics"]
 old-location: directwrite\IDWriteTextLayout_GetMetrics.htm
 tech.root: DirectWrite

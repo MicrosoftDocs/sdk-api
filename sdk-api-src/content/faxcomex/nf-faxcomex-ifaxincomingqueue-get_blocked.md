@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingQueue.get_Blocked
 title: IFaxIncomingQueue::get_Blocked (faxcomex.h)
-description: The Blocked property is a Boolean value that indicates whether the job queue for incoming faxes is blocked.
+description: The Blocked property is a Boolean value that indicates whether the job queue for incoming faxes is blocked. (Get)
 helpviewer_keywords: ["Blocked property [Fax Service]","Blocked property [Fax Service]","IFaxIncomingQueue interface","IFaxIncomingQueue interface [Fax Service]","Blocked property","IFaxIncomingQueue.Blocked","IFaxIncomingQueue.get_Blocked","IFaxIncomingQueue::Blocked","IFaxIncomingQueue::get_Blocked","IFaxIncomingQueue::put_Blocked","_mfax_faxincomingqueue.blocked","fax._mfax_faxincomingqueue_blocked","fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_blocked_cpp","faxcomex/IFaxIncomingQueue::Blocked","faxcomex/IFaxIncomingQueue::get_Blocked","faxcomex/IFaxIncomingQueue::put_Blocked","get_Blocked"]
 old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_blocked_cpp.htm
 tech.root: Fax

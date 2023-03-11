@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateCustomRenderingParams
 title: IDWriteFactory3::CreateCustomRenderingParams (dwrite_3.h)
-description: Creates a rendering parameters object with the specified properties.
+description: Creates a rendering parameters object with the specified properties. (IDWriteFactory3.CreateCustomRenderingParams)
 helpviewer_keywords: ["CreateCustomRenderingParams","CreateCustomRenderingParams method [Direct Write]","CreateCustomRenderingParams method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateCustomRenderingParams method","IDWriteFactory3.CreateCustomRenderingParams","IDWriteFactory3::CreateCustomRenderingParams","directwrite.idwritefactory3_createcustomrenderingparams","dwrite_3/IDWriteFactory3::CreateCustomRenderingParams"]
 old-location: directwrite\idwritefactory3_createcustomrenderingparams.htm
 tech.root: DirectWrite

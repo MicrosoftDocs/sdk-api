@@ -56,7 +56,7 @@ The <b>ADS_SEARCHPREF_ENUM</b> enumeration specifies preferences for an <a href=
 
 ## -enum-fields
 
-### -field ADS_SEARCHPREF_ASYNCHRONOUS
+### -field ADS_SEARCHPREF_ASYNCHRONOUS:0
 
 Specifies that searches should be performed asynchronously. By default, searches are synchronous.
 

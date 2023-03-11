@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResumeTimer
 title: IFileOperationProgressSink::ResumeTimer (shobjidl_core.h)
-description: Not supported.
+description: Not supported. (IFileOperationProgressSink.ResumeTimer)
 helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","ResumeTimer method","IFileOperationProgressSink.ResumeTimer","IFileOperationProgressSink::ResumeTimer","ResumeTimer","ResumeTimer method [Windows Shell]","ResumeTimer method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_ResumeTimer","shell.IFileOperationProgressSink_ResumeTimer","shobjidl_core/IFileOperationProgressSink::ResumeTimer"]
 old-location: shell\IFileOperationProgressSink_ResumeTimer.htm
 tech.root: shell

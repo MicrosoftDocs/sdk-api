@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12video.ID3D12VideoProcessCommandList1
 title: ID3D12VideoProcessCommandList1
-description: Encapsulates a list of graphics commands for video processing.
+description: Encapsulates a list of graphics commands for video processing. (ID3D12VideoProcessCommandList1)
 helpviewer_keywords: ["- ID3D12VideoProcessCommandList1"]
 tech.root: mf
 ms.assetid: 0c3f581f-f61c-4af0-a582-203b5f66ba14

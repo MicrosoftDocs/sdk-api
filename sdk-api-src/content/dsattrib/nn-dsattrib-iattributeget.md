@@ -59,7 +59,7 @@ The <b>IAttributeGet</b> interface gets key/value pairs from an object, where th
 
 The <b>IAttributeGet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAttributeGet</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

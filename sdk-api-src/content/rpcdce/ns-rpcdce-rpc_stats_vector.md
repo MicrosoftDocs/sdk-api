@@ -1,5 +1,5 @@
 ---
-UID: NS:rpcdce.__unnamed_struct_0
+UID: NS:rpcdce.RPC_STATS_VECTOR
 title: RPC_STATS_VECTOR (rpcdce.h)
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 helpviewer_keywords: ["RPC_C_STATS_CALLS_IN","RPC_C_STATS_CALLS_OUT","RPC_C_STATS_PKTS_IN","RPC_C_STATS_PKTS_OUT","RPC_STATS_VECTOR","RPC_STATS_VECTOR structure [RPC]","_rpc_rpc_stats_vector","rpc.rpc_stats_vector","rpcdce/RPC_STATS_VECTOR"]
@@ -125,3 +125,4 @@ The statistics vector contains a count member (<b>Count</b>), followed by an arr
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
+

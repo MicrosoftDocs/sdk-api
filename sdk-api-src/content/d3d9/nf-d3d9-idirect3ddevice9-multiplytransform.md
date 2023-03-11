@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.MultiplyTransform
 title: IDirect3DDevice9::MultiplyTransform (d3d9.h)
-description: Multiplies a device's world, view, or projection matrices by a specified matrix.
+description: The IDirect3DDevice9::MultiplyTransform method (d3d9.h) multiplies a device's world, view, or projection matrices by a specified matrix.
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","MultiplyTransform method","IDirect3DDevice9.MultiplyTransform","IDirect3DDevice9::MultiplyTransform","MultiplyTransform","MultiplyTransform method [Direct3D 9]","MultiplyTransform method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::MultiplyTransform","direct3d9.idirect3ddevice9__multiplytransform","fe383422-a888-e230-bf89-3ae4af8e8e7d"]
 old-location: direct3d9\idirect3ddevice9__multiplytransform.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__multiplytransform.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 req.header: d3d9.h
 req.include-header: D3D9.h

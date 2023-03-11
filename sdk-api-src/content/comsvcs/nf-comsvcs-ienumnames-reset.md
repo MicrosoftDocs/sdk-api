@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IEnumNames.Reset
 title: IEnumNames::Reset (comsvcs.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumNames.Reset)
 helpviewer_keywords: ["IEnumNames interface [COM+]","Reset method","IEnumNames.Reset","IEnumNames::Reset","Reset","Reset method [COM+]","Reset method [COM+]","IEnumNames interface","_cos_IEnumNames_Reset","comsvcs/IEnumNames::Reset","cos.ienumnames_reset"]
 old-location: cos\ienumnames_reset.htm
 tech.root: cos

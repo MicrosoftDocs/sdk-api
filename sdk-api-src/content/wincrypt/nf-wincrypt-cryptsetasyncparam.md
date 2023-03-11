@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptSetAsyncParam
 title: CryptSetAsyncParam
-ms.date: 4/26/2019
+description: The CryptSetAsyncParam function (wincrypt.h) sets an async parameter.
+ms.date: 08/03/2022
 ms.keywords: CryptSetAsyncParam
 targetos: Windows
 req.assembly: 

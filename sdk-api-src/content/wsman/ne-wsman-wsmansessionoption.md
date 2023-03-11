@@ -54,91 +54,91 @@ Defines a set of extended options for the session. These options are used with t
 
 ## -enum-fields
 
-### -field WSMAN_OPTION_DEFAULT_OPERATION_TIMEOUTMS
+### -field WSMAN_OPTION_DEFAULT_OPERATION_TIMEOUTMS:1
 
 Default time-out in milliseconds that applies to all operations on the client side.
 
-### -field WSMAN_OPTION_MAX_RETRY_TIME
+### -field WSMAN_OPTION_MAX_RETRY_TIME:11
 
-### -field WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL
+### -field WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL:12
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> operations.
 
-### -field WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND
+### -field WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND:13
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> operations.
 
-### -field WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT
+### -field WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT:14
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> operations.
 
-### -field WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT
+### -field WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT:15
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a> operations.
 
-### -field WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL
+### -field WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL:16
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> and <a href="/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> operations.
 
-### -field WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL
+### -field WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL:17
 
 Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> operations connection options.
 
-### -field WSMAN_OPTION_SKIP_CA_CHECK
+### -field WSMAN_OPTION_SKIP_CA_CHECK:18
 
 Set to 1 to not validate the CA on the server certificate. The default is 0.
 
-### -field WSMAN_OPTION_SKIP_CN_CHECK
+### -field WSMAN_OPTION_SKIP_CN_CHECK:19
 
 Set to 1 to not validate the CN on the server certificate. The default is 0.
 
-### -field WSMAN_OPTION_UNENCRYPTED_MESSAGES
+### -field WSMAN_OPTION_UNENCRYPTED_MESSAGES:20
 
 Set to 1 to not encrypt messages. The default is 0.
 
-### -field WSMAN_OPTION_UTF16
+### -field WSMAN_OPTION_UTF16:21
 
 Set to 1 to send all network packets for remote operations in UTF16. Default of 0 causes network packets to be sent in UTF8.
 
-### -field WSMAN_OPTION_ENABLE_SPN_SERVER_PORT
+### -field WSMAN_OPTION_ENABLE_SPN_SERVER_PORT:22
 
 Set to 1 when using Negotiate authentication and the  port number is included in the connection. Default is 0.
 
-### -field WSMAN_OPTION_MACHINE_ID
+### -field WSMAN_OPTION_MACHINE_ID:23
 
 Set to 1 to identify this machine to the server by including the MachineID. The default is 0.
 
-### -field WSMAN_OPTION_LOCALE
+### -field WSMAN_OPTION_LOCALE:25
 
 The language locale options. For more information about the language locales, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a>.
 
-### -field WSMAN_OPTION_UI_LANGUAGE
+### -field WSMAN_OPTION_UI_LANGUAGE:26
 
 The UI language options. The UI language options  are defined in RFC 3066 format.   For more information about the UI language options, see the    RFC 3066 specification from the Internet Engineering Task Force at <a href="https://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a>.
 
-### -field WSMAN_OPTION_MAX_ENVELOPE_SIZE_KB
+### -field WSMAN_OPTION_MAX_ENVELOPE_SIZE_KB:28
 
 The maximum Simple Object Access Protocol (SOAP) envelope size. The default is 150 KB.
 
-### -field WSMAN_OPTION_SHELL_MAX_DATA_SIZE_PER_MESSAGE_KB
+### -field WSMAN_OPTION_SHELL_MAX_DATA_SIZE_PER_MESSAGE_KB:29
 
 The maximum size of the data that is  provided by the client.
 
-### -field WSMAN_OPTION_REDIRECT_LOCATION
+### -field WSMAN_OPTION_REDIRECT_LOCATION:30
 
 The redirect location.
 
 <div class="alert"><b>Note</b>  It is recommended that all redirection use Secure Sockets Layer (SSL) and that all applications validate the redirected URI before creating a new session.</div>
 <div> </div>
 
-### -field WSMAN_OPTION_SKIP_REVOCATION_CHECK
+### -field WSMAN_OPTION_SKIP_REVOCATION_CHECK:31
 
 Set to 1 to not validate the revocation status on the server certificate. The default is 0.
 
-### -field WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS
+### -field WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS:32
 
 Set to 1 to allow default credentials for Negotiate. The default is 0.
 
-### -field WSMAN_OPTION_USE_SSL
+### -field WSMAN_OPTION_USE_SSL:33
 
-### -field WSMAN_OPTION_USE_INTEARACTIVE_TOKEN
+### -field WSMAN_OPTION_USE_INTEARACTIVE_TOKEN:34        

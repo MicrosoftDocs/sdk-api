@@ -54,7 +54,7 @@ The <b>FAX_DEVICE_RECEIVE_MODE_ENUM</b> enumeration defines the way a device ans
 
 ## -enum-fields
 
-### -field fdrmNO_ANSWER
+### -field fdrmNO_ANSWER:0
 
 The device will not answer the call.
 

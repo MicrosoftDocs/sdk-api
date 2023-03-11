@@ -56,6 +56,6 @@ Encapsulates the methods needed to provide information about what methods can cu
 
 The <b>IMediaRendererActionInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaRendererActionInformation</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

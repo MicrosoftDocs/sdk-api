@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService
 title: IBrowserService (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService)
 helpviewer_keywords: ["IBrowserService","IBrowserService interface [Windows Shell]","IBrowserService interface [Windows Shell]","described","shdeprecated/IBrowserService","shell.IBrowserService","zone_IBrowserService"]
 old-location: shell\IBrowserService.htm
 tech.root: shell

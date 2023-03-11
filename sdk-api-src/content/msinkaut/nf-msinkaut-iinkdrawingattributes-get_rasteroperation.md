@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_RasterOperation
 title: IInkDrawingAttributes::get_RasterOperation (msinkaut.h)
-description: Gets or sets a value that defines how the colors of the pen and background interact.
+description: Gets or sets a value that defines how the colors of the pen and background interact. (Get)
 helpviewer_keywords: ["8e3681a7-c5be-4104-b740-9f23d141f6cb","IInkDrawingAttributes interface [Tablet PC]","RasterOperation property","IInkDrawingAttributes.RasterOperation","IInkDrawingAttributes.get_RasterOperation","IInkDrawingAttributes::RasterOperation","IInkDrawingAttributes::get_RasterOperation","IInkDrawingAttributes::put_RasterOperation","InkDrawingAttributes.get_RasterOperation","InkDrawingAttributes.put_RasterOperation","RasterOperation property [Tablet PC]","RasterOperation property [Tablet PC]","IInkDrawingAttributes interface","get_RasterOperation","msinkaut/IInkDrawingAttributes::RasterOperation","msinkaut/IInkDrawingAttributes::get_RasterOperation","msinkaut/IInkDrawingAttributes::put_RasterOperation","put_RasterOperation","tablet.inkdrawingattributes_rasteroperation"]
 old-location: tablet\inkdrawingattributes_rasteroperation.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.RegisterThreadsEx
 title: IMFRealTimeClientEx::RegisterThreadsEx (mfidl.h)
-description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
+description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS). (IMFRealTimeClientEx.RegisterThreadsEx)
 helpviewer_keywords: ["IMFRealTimeClientEx interface [Media Foundation]","RegisterThreadsEx method","IMFRealTimeClientEx.RegisterThreadsEx","IMFRealTimeClientEx::RegisterThreadsEx","RegisterThreadsEx","RegisterThreadsEx method [Media Foundation]","RegisterThreadsEx method [Media Foundation]","IMFRealTimeClientEx interface","mf.imfrealtimeclientex_registerthreadsex","mfidl/IMFRealTimeClientEx::RegisterThreadsEx"]
 old-location: mf\imfrealtimeclientex_registerthreadsex.htm
 tech.root: mf

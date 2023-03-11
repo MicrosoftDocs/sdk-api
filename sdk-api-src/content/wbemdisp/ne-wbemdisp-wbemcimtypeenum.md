@@ -58,67 +58,67 @@ The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Ba
 
 ## -enum-fields
 
-### -field wbemCimtypeSint8
+### -field wbemCimtypeSint8:16
 
 Signed 8-bit integer
 
-### -field wbemCimtypeUint8
+### -field wbemCimtypeUint8:17
 
 Unsigned 8-bit integer
 
-### -field wbemCimtypeSint16
+### -field wbemCimtypeSint16:2
 
 Signed 16-bit integer
 
-### -field wbemCimtypeUint16
+### -field wbemCimtypeUint16:18
 
 Unsigned 16-bit integer
 
-### -field wbemCimtypeSint32
+### -field wbemCimtypeSint32:3
 
 Signed 32-bit integer
 
-### -field wbemCimtypeUint32
+### -field wbemCimtypeUint32:19
 
 Unsigned 32-bit integer
 
-### -field wbemCimtypeSint64
+### -field wbemCimtypeSint64:20
 
 Signed 64-bit integer
 
-### -field wbemCimtypeUint64
+### -field wbemCimtypeUint64:21
 
 Unsigned 64-bit integer
 
-### -field wbemCimtypeReal32
+### -field wbemCimtypeReal32:4
 
 32-bit real number
 
-### -field wbemCimtypeReal64
+### -field wbemCimtypeReal64:5
 
 64-bit real number
 
-### -field wbemCimtypeBoolean
+### -field wbemCimtypeBoolean:11
 
 Boolean value
 
-### -field wbemCimtypeString
+### -field wbemCimtypeString:8
 
 String
 
-### -field wbemCimtypeDatetime
+### -field wbemCimtypeDatetime:101
 
 Date/time value
 
-### -field wbemCimtypeReference
+### -field wbemCimtypeReference:102
 
 Reference to a CIM object
 
-### -field wbemCimtypeChar16
+### -field wbemCimtypeChar16:103
 
 16-bit character
 
-### -field wbemCimtypeObject
+### -field wbemCimtypeObject:13
 
 CIM object
 

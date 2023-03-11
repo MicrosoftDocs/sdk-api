@@ -54,7 +54,7 @@ The <b>WMPDeviceStatus</b> enumeration type defines the possible values for the 
 
 ## -enum-fields
 
-### -field wmpdsUnknown
+### -field wmpdsUnknown:0
 
 Not a valid status.
 

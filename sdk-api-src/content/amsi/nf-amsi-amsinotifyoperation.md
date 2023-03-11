@@ -1,7 +1,7 @@
 ---
 UID: NF:amsi.AmsiNotifyOperation
 title: AmsiNotifyOperation
-description: Sends to the antimalware provider a notification of an arbitrary operation.
+description: Sends to the antimalware provider a notification of an arbitrary operation. (AmsiNotifyOperation)
 tech.root: AMSI
 ms.date: 01/08/2021
 req.construct-type: function

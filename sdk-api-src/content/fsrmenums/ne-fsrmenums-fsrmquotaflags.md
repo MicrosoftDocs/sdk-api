@@ -57,24 +57,24 @@ Defines the options for failing IO operations that violate a quota, enabling or 
 
 ## -enum-fields
 
-### -field FsrmQuotaFlags_Enforce
+### -field FsrmQuotaFlags_Enforce:0x100
 
 If this flag is set, the server will fail an IO operation that causes the disk space usage to exceed the 
      quota limit. If this flag is not set, the server will not fail violating IO operations but will still run any 
      action associated with the quota thresholds.
 
-### -field FsrmQuotaFlags_Disable
+### -field FsrmQuotaFlags_Disable:0x200
 
 The server will not track quota data for the quota and will not run any action associated with quota 
      thresholds.
 
-### -field FsrmQuotaFlags_StatusIncomplete
+### -field FsrmQuotaFlags_StatusIncomplete:0x10000
 
 The quota is defined on the server but the rebuilding procedure (see 
      <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-scan">IFsrmQuotaManager::Scan</a>) did not start or the scan 
      failed.
 
-### -field FsrmQuotaFlags_StatusRebuilding
+### -field FsrmQuotaFlags_StatusRebuilding:0x20000
 
 The quota is in the process of rebuilding its data from the disk.
 

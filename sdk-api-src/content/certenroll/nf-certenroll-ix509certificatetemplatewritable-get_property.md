@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.get_Property
 title: IX509CertificateTemplateWritable::get_Property (certenroll.h)
-description: Specifies or retrieves a property value for the IX509CertificateTemplateWritable object.
+description: Specifies or retrieves a property value for the IX509CertificateTemplateWritable object. (Get)
 helpviewer_keywords: ["IX509CertificateTemplateWritable interface [Security]","Property property","IX509CertificateTemplateWritable.Property","IX509CertificateTemplateWritable.get_Property","IX509CertificateTemplateWritable::Property","IX509CertificateTemplateWritable::get_Property","IX509CertificateTemplateWritable::put_Property","Property property [Security]","Property property [Security]","IX509CertificateTemplateWritable interface","certenroll/IX509CertificateTemplateWritable::Property","certenroll/IX509CertificateTemplateWritable::get_Property","certenroll/IX509CertificateTemplateWritable::put_Property","get_Property","security.ix509certificatetemplatewritable_property"]
 old-location: security\ix509certificatetemplatewritable_property.htm
 tech.root: security

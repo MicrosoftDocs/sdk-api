@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_28
+UID: NE:webservices.WS_ENDPOINT_IDENTITY_TYPE
 title: WS_ENDPOINT_IDENTITY_TYPE (webservices.h)
 description: The type of the endpoint IDentity, used as a selector for subtypes of WS_ENDPOINT_IDENTITY.
 helpviewer_keywords: ["WS_DNS_ENDPOINT_IDENTITY_TYPE","WS_ENDPOINT_IDENTITY_TYPE","WS_ENDPOINT_IDENTITY_TYPE enumeration [Web Services for Windows]","WS_SPN_ENDPOINT_IDENTITY_TYPE","WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE","WS_UPN_ENDPOINT_IDENTITY_TYPE","webservices/WS_DNS_ENDPOINT_IDENTITY_TYPE","webservices/WS_ENDPOINT_IDENTITY_TYPE","webservices/WS_SPN_ENDPOINT_IDENTITY_TYPE","webservices/WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE","webservices/WS_UPN_ENDPOINT_IDENTITY_TYPE","wsw.ws_endpoint_identity_type"]
@@ -55,22 +55,23 @@ The type of the endpoint IDentity, used as a selector for subtypes of
 
 ## -enum-fields
 
-### -field WS_DNS_ENDPOINT_IDENTITY_TYPE
+### -field WS_DNS_ENDPOINT_IDENTITY_TYPE:1
 
 Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
 
-### -field WS_UPN_ENDPOINT_IDENTITY_TYPE
+### -field WS_UPN_ENDPOINT_IDENTITY_TYPE:2
 
 Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
 
-### -field WS_SPN_ENDPOINT_IDENTITY_TYPE
+### -field WS_SPN_ENDPOINT_IDENTITY_TYPE:3
 
 Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
 
-### -field WS_RSA_ENDPOINT_IDENTITY_TYPE
+### -field WS_RSA_ENDPOINT_IDENTITY_TYPE:4
 
-### -field WS_CERT_ENDPOINT_IDENTITY_TYPE
+### -field WS_CERT_ENDPOINT_IDENTITY_TYPE:5
 
-### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
+### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE:6
 
 Type ID for <a href="/windows/win32/api/webservices/ns-webservices-ws_unknown_endpoint_identity">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
+

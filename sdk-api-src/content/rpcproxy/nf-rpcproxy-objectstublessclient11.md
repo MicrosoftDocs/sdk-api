@@ -4,7 +4,7 @@ title: ObjectStublessClient11
 tech.root: Rpc
 ms.date: 11/4/2019
 targetos: Windows
-description: Stub function for COM proxies.
+description: Stub function for COM proxies. (ObjectStublessClient11)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

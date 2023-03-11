@@ -4,7 +4,7 @@ title: HLSL
 ms.assetid: 351c8dd2-97c5-39de-8ade-c55ddf3acc2c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # HLSL

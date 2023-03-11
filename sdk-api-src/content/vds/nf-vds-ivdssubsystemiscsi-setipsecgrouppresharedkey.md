@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey (vds.h)
-description: Not supported.This method is reserved for future use.
+description: The IVdsSubSystemIscsi::SetIpsecGroupPresharedKey method (vds.h) is not supported and is reserved for future use.
 helpviewer_keywords: ["IVdsSubSystemIscsi interface","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi.SetIpsecGroupPresharedKey","IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey","SetIpsecGroupPresharedKey method","SetIpsecGroupPresharedKey method","IVdsSubSystemIscsi interface","base.ivdssubsystemiscsi_setipsecgrouppresharedkey","vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey","vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey"]
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
 tech.root: base
 ms.assetid: f4a06e2b-09c9-438b-ba5b-b12bb846743b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

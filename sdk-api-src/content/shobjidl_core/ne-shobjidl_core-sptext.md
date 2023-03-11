@@ -56,7 +56,7 @@ Specifies the type of descriptive text being provided to an <a href="/windows/de
 
 ## -enum-fields
 
-### -field SPTEXT_ACTIONDESCRIPTION
+### -field SPTEXT_ACTIONDESCRIPTION:1
 
 The text is a high level, short description.
 

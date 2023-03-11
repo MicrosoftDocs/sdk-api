@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,float)
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,float) (dcomp.h)
-description: Sets an element of the transform matrix of the effect.
+description: Sets an element of the transform matrix of the effect. (overload 1/2)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetTransformMatrixElement method","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int","int","float)","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int","int","float)","SetTransformMatrixElement","SetTransformMatrixElement method [DirectComposition]","SetTransformMatrixElement method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement"]
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement.htm
 tech.root: directcomp

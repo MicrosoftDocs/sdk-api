@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetCustData
 title: ITypeInfo2::GetCustData (oaidl.h)
-description: Gets the custom data.
+description: Gets the custom data. (ITypeInfo2.GetCustData)
 helpviewer_keywords: ["GetCustData","GetCustData method [Automation]","GetCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetCustData method","ITypeInfo2.GetCustData","ITypeInfo2::GetCustData","_oa96_ITypeInfo2_GetCustData","automat.itypeinfo2_getcustdata","oaidl/ITypeInfo2::GetCustData"]
 old-location: automat\itypeinfo2_getcustdata.htm
 tech.root: automat

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
 title: INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed. (INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable)
 helpviewer_keywords: ["AllowOutboundDestinationUnreachable property [ICS/ICF]","AllowOutboundDestinationUnreachable property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowOutboundDestinationUnreachable property","INetFwIcmpSettings.AllowOutboundDestinationUnreachable","INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable","INetFwIcmpSettings::AllowOutboundDestinationUnreachable","INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable","INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable","ics.inetfwicmpsettings_allowoutbounddestinationunreachable","netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable","netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable","netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable","put_AllowOutboundDestinationUnreachable"]
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm
 tech.root: ics

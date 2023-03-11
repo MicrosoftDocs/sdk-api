@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(GpGraphics)
 title: Graphics::Graphics(GpGraphics) (gdiplusgraphics.h)
-description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
+description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class. (overload 2/2)
 helpviewer_keywords: ["Graphics","Graphics constructors [GDI+]","Graphics.Graphics","Graphics.Graphics(GpGraphics)","Graphics::Graphics","Graphics::Graphics(GpGraphics)","_gdiplus_CLASS_Graphics_Constructors","gdiplus._gdiplus_CLASS_Graphics_Constructors","gdiplusgraphics/Graphics"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Constructors.htm
 tech.root: gdiplus

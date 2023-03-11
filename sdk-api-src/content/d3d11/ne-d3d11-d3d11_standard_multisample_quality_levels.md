@@ -54,11 +54,11 @@ Specifies a multi-sample pattern type.
 
 ## -enum-fields
 
-### -field D3D11_STANDARD_MULTISAMPLE_PATTERN
+### -field D3D11_STANDARD_MULTISAMPLE_PATTERN:0xffffffff
 
 Pre-defined multi-sample patterns required for Direct3D 11 and Direct3D 10.1 hardware.
 
-### -field D3D11_CENTER_MULTISAMPLE_PATTERN
+### -field D3D11_CENTER_MULTISAMPLE_PATTERN:0xfffffffe
 
 Pattern where all of the samples are located at the pixel center.
 

@@ -131,6 +131,7 @@ Failed to allocate the [**HSTRING**](/windows/win32/winrt/hstring) buffer.
 ## -remarks
 
 Use the <b>WindowsPreallocateStringBuffer</b> function to create a mutable character buffer that you can manipulate prior to committing it to  an immutable [**HSTRING**](/windows/win32/winrt/hstring). When you have finished populating the <i>mutableBuffer</i> with your string, call the <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>  function with the <i>bufferHandle</i> parameter  to create the <b>HSTRING</b>. You must write exactly <i>length</i> characters into the buffer.
+<b>Windows 10 Version 1803, Windows Server Version 1803, and later</b>: You are permitted to write a null terminator after <i>length</i> characters.
 
 Call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a> function to discard the mutable buffer prior to promotion. If the buffer has already been promoted by a call to <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>, call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to discard the string. If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <b>WindowsDeleteStringBuffer</b> function to discard the mutable buffer.
 
@@ -139,7 +140,7 @@ Call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestrin
 The following code example demonstrates how to use the <b>WindowsPreallocateStringBuffer</b> function.
 
 ```cpp
-#include <WinrtString.h>
+#include <winstring.h>
 
 int main()
 {
@@ -151,6 +152,7 @@ int main()
 
     if (SUCCEEDED(hr))
     {
+        CopyMemory(strBuffer, L"1234567890", 10 * sizeof(wchar_t));
         hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
     }
 

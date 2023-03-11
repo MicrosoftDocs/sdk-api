@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_get_dn
 title: ldap_get_dn function (winldap.h)
-description: The ldap_get_dn function retrieves the distinguished name for a given entry.
+description: The ldap_get_dn function (winldap.h) retrieves the distinguished name for a given entry.  
 helpviewer_keywords: ["_ldap_ldap_get_dn","ldap.ldap__get__dn","ldap.ldap_get_dn","ldap_get_dn","ldap_get_dn function [LDAP]","ldap_get_dnA","ldap_get_dnW","winldap/ldap_get_dn","winldap/ldap_get_dnA","winldap/ldap_get_dnW"]
 old-location: ldap\ldap_get_dn.htm
 tech.root: ldap
 ms.assetid: 00484fe7-65d2-4300-ab5c-0a69a25e65e6
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_get_dn, ldap.ldap__get__dn, ldap.ldap_get_dn, ldap_get_dn, ldap_get_dn function [LDAP], ldap_get_dnA, ldap_get_dnW, winldap/ldap_get_dn, winldap/ldap_get_dnA, winldap/ldap_get_dnW
 req.header: winldap.h
 req.include-header: 

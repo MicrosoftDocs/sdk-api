@@ -66,5 +66,5 @@ The property is set to SVG's 'square' value.
 
 The property is set to SVG's 'round' value.
 
-### -field D2D1_SVG_LINE_CAP_FORCE_DWORD
+### -field D2D1_SVG_LINE_CAP_FORCE_DWORD:0xffffffff
 

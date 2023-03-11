@@ -56,7 +56,7 @@ The <b>IAnalogAudioComponentType</b> interface provides methods for accessing th
 
 The <b>IAnalogAudioComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>. <b>IAnalogAudioComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

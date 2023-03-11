@@ -4,7 +4,7 @@ title: System Services
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # System Services
@@ -44,7 +44,6 @@ To develop System Services, you need these headers:
  * [powersetting.h](../powersetting/index.md)
  * [powrprof.h](../powrprof/index.md)
  * [processenv.h](../processenv/index.md)
- * [processthreadsapi.h](../processthreadsapi/index.md)
  * [processtopologyapi.h](../processtopologyapi/index.md)
  * [profileapi.h](../profileapi/index.md)
  * [pwm.h](../pwm/index.md)
@@ -87,7 +86,6 @@ For programming guidance for this technology, see:
 * [Interprocess Communications](/windows/desktop/ipc)
 * [Memory Management](/windows/desktop/memory)
 * [Power Management](/windows/desktop/power)
-* [Processes and Threads](/windows/desktop/procthread)
 * [Services](/windows/desktop/services)
 * [System Shutdown](/windows/desktop/shutdown)
 * [Synchronization](/windows/desktop/sync)

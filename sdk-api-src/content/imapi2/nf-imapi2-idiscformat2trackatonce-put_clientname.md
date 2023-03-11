@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_ClientName
 title: IDiscFormat2TrackAtOnce::put_ClientName (imapi2.h)
-description: Sets the friendly name of the client.
+description: Sets the friendly name of the client. (IDiscFormat2TrackAtOnce.put_ClientName)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","put_ClientName method","IDiscFormat2TrackAtOnce.put_ClientName","IDiscFormat2TrackAtOnce::put_ClientName","imapi.idiscformat2trackatonce_put_clientname","imapi2/IDiscFormat2TrackAtOnce::put_ClientName","put_ClientName","put_ClientName method [IMAPI]","put_ClientName method [IMAPI]","IDiscFormat2TrackAtOnce interface"]
 old-location: imapi\idiscformat2trackatonce_put_clientname.htm
 tech.root: imapi

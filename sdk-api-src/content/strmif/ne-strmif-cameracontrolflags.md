@@ -56,11 +56,11 @@ The <b>CameraControlFlags</b> enumeration defines whether a camera setting is co
 
 ## -enum-fields
 
-### -field CameraControl_Flags_Auto
+### -field CameraControl_Flags_Auto:0x1
 
 The setting is controlled automatically.
 
-### -field CameraControl_Flags_Manual
+### -field CameraControl_Flags_Manual:0x2
 
 The setting is controlled manually.
 

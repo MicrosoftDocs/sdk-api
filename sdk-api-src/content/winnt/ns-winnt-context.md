@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._CONTEXT
 title: CONTEXT (winnt.h)
-description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
+description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations. (CONTEXT)
 helpviewer_keywords: ["*PCONTEXT","CONTEXT","CONTEXT structure","LPCONTEXT","LPCONTEXT structure pointer","_win32_context_str","base.context_str","winnt/CONTEXT","winnt/LPCONTEXT"]
 old-location: base\context_str.htm
 tech.root: Debug

@@ -56,7 +56,7 @@ The <b>WMT_OFFSET_FORMAT</b> enumeration type defines the types of offsets used 
 
 ## -enum-fields
 
-### -field WMT_OFFSET_FORMAT_100NS
+### -field WMT_OFFSET_FORMAT_100NS:0
 
 An offset into a file is specified by presentation time in 100-nanosecond units.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get__NewEnum
 title: ICategoryCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
+description: Gets an IEnumVARIANT interface that can be used to enumerate the collection. (ICategoryCollection.get__NewEnum)
 helpviewer_keywords: ["ICategoryCollection interface [Windows Update Agent]","_NewEnum property","ICategoryCollection._NewEnum","ICategoryCollection.get__NewEnum","ICategoryCollection::_NewEnum","ICategoryCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","ICategoryCollection interface","get__NewEnum","wua.icategorycollection__newenum","wuapi/ICategoryCollection::_NewEnum","wuapi/ICategoryCollection::get__NewEnum"]
 old-location: wua\icategorycollection__newenum.htm
 tech.root: wua

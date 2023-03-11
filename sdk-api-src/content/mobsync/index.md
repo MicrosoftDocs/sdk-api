@@ -4,7 +4,7 @@ title: Mobsync.h header
 ms.assetid: 15562484-2100-3efa-88e0-10761b091856
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
 f1_keywords:
  - mobsync

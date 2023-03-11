@@ -4,7 +4,7 @@ tech.root: backup
 title: SetProcessWorkingSetSize
 ms.date: 06/02/2021
 targetos: Windows
-description: Sets the minimum and maximum working set sizes for the specified process.
+description: Sets the minimum and maximum working set sizes for the specified process. (SetProcessWorkingSetSize)
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -15,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -31,6 +31,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
+ - api-ms-win-core-memory-l1-1-5.dll
 api_name:
  - SetProcessWorkingSetSize
 f1_keywords:
@@ -39,6 +40,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# SetProcessWorkingSetSize function
 
 ## -description
 
@@ -99,7 +102,7 @@ When you increase the working set size of an application, you are taking away ph
 
 ## -see-also
 
-<a href="/windows/desktop/api/winbase/nf-winbase-getprocessworkingsetsize">GetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsize">GetProcessWorkingSetSize</a>
 
 
 

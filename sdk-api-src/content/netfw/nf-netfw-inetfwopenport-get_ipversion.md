@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_IpVersion
 title: INetFwOpenPort::get_IpVersion (netfw.h)
-description: Specifies the IP version setting for this port.
+description: Specifies the IP version setting for this port. (Get)
 helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","IpVersion property","INetFwOpenPort.IpVersion","INetFwOpenPort.get_IpVersion","INetFwOpenPort::IpVersion","INetFwOpenPort::get_IpVersion","INetFwOpenPort::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwOpenPort interface","get_IpVersion","ics.inetfwopenport_ipversion","netfw/INetFwOpenPort::IpVersion","netfw/INetFwOpenPort::get_IpVersion","netfw/INetFwOpenPort::put_IpVersion"]
 old-location: ics\inetfwopenport_ipversion.htm
 tech.root: ics

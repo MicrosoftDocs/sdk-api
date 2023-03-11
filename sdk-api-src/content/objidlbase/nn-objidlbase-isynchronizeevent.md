@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.ISynchronizeEvent
 title: ISynchronizeEvent (objidlbase.h)
-description: Assigns an event handle to a synchronization object.
+description: The ISynchronizeEvent (objidlbase.h) interface assigns an event handle to a synchronization object.
 helpviewer_keywords: ["ISynchronizeEvent","ISynchronizeEvent interface [COM]","ISynchronizeEvent interface [COM]","described","_com_isynchronizeevent","com.isynchronizeevent","objidlbase/ISynchronizeEvent"]
 old-location: com\isynchronizeevent.htm
 tech.root: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

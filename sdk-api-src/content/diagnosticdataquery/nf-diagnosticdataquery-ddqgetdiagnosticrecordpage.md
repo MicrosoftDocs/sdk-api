@@ -51,7 +51,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param searchCriteria
 
-Type: **[DIAGNOSTIC_DATA_SEARCH_CRITERIA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_search_criteria)**
+Type: **[DIAGNOSTIC_DATA_SEARCH_CRITERIA\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_search_criteria)**
 Pointer to the resource that contains the search criteria for this operation. This resource contains criteria such as producers, categories, and tags.
 
 ### -param offset

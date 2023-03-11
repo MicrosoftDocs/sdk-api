@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DCubeTexture9.LockRect
 title: IDirect3DCubeTexture9::LockRect (d3d9helper.h)
-description: Locks a rectangle on a cube texture resource.
+description: The IDirect3DCubeTexture9::LockRect method (d3d9.h) locks a rectangle on a cube texture resource.
 helpviewer_keywords: ["1f5618d3-63b7-c0fc-9b6e-44b99c39650c","IDirect3DCubeTexture9 interface [Direct3D 9]","LockRect method","IDirect3DCubeTexture9.LockRect","IDirect3DCubeTexture9::LockRect","LockRect","LockRect method [Direct3D 9]","LockRect method [Direct3D 9]","IDirect3DCubeTexture9 interface","d3d9helper/IDirect3DCubeTexture9::LockRect","direct3d9.idirect3dcubetexture9__lockrect"]
 old-location: direct3d9\idirect3dcubetexture9__lockrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__lockrect.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 1f5618d3-63b7-c0fc-9b6e-44b99c39650c, IDirect3DCubeTexture9 interface [Direct3D 9],LockRect method, IDirect3DCubeTexture9.LockRect, IDirect3DCubeTexture9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::LockRect, direct3d9.idirect3dcubetexture9__lockrect
 req.header: d3d9helper.h
 req.include-header: D3D9.h

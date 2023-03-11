@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMONITORINFOEXW
 title: MONITORINFOEXW (winuser.h)
-description: The MONITORINFOEX structure contains information about a display monitor.The GetMonitorInfo function stores information into a MONITORINFOEX structure or a MONITORINFO structure.The MONITORINFOEX structure is a superset of the MONITORINFO structure.
+description: The MONITORINFOEX structure contains information about a display monitor.The GetMonitorInfo function stores information into a MONITORINFOEX structure or a MONITORINFO structure.The MONITORINFOEX structure is a superset of the MONITORINFO structure. (Unicode)
 helpviewer_keywords: ["*LPMONITORINFOEXW","LPMONITORINFOEX","LPMONITORINFOEX structure pointer [Windows GDI]","MONITORINFOEX","MONITORINFOEX structure [Windows GDI]","MONITORINFOEXW","_win32_MONITORINFOEX_str","gdi.monitorinfoex","tagMONITORINFOEXA","tagMONITORINFOEXW","winuser/LPMONITORINFOEX","winuser/MONITORINFOEX"]
 old-location: gdi\monitorinfoex.htm
 tech.root: gdi

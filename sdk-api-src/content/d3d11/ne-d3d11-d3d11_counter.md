@@ -54,7 +54,7 @@ Options for performance counters.
 
 ## -enum-fields
 
-### -field D3D11_COUNTER_DEVICE_DEPENDENT_0
+### -field D3D11_COUNTER_DEVICE_DEPENDENT_0:0x40000000
 
 Define a performance counter that is dependent on the hardware device.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxServer.put_DiscountRateEndHour
 title: IFaxServer::put_DiscountRateEndHour (faxcom.h)
-description: Sets or retrieves the DiscountRateEndHour property for a FaxServer object. The DiscountRateEndHour property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.
+description: Sets or retrieves the DiscountRateEndHour property for a FaxServer object. The DiscountRateEndHour property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions. (Put)
 helpviewer_keywords: ["DiscountRateEndHour property [Fax Service]","DiscountRateEndHour property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","DiscountRateEndHour property","IFaxServer.DiscountRateEndHour","IFaxServer.get_DiscountRateEndHour","IFaxServer.put_DiscountRateEndHour","IFaxServer::DiscountRateEndHour","IFaxServer::get_DiscountRateEndHour","IFaxServer::put_DiscountRateEndHour","_mfax_ifaxserver_get_discountrateendhour","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhour_cpp","fax._mfax_ifaxserver_get_discountrateendhour","faxcom/IFaxServer::DiscountRateEndHour","faxcom/IFaxServer::get_DiscountRateEndHour","faxcom/IFaxServer::put_DiscountRateEndHour","put_DiscountRateEndHour"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhour_cpp.htm
 tech.root: Fax

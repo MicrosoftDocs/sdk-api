@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.ShowContextMenu
 title: IUIAutomationElement3::ShowContextMenu (uiautomationclient.h)
-description: Programmatically invokes a context menu on the target element.
+description: Programmatically invokes a context menu on the target element. (IUIAutomationElement3.ShowContextMenu)
 helpviewer_keywords: ["IUIAutomationElement3 interface [Windows Accessibility]","ShowContextMenu method","IUIAutomationElement3.ShowContextMenu","IUIAutomationElement3::ShowContextMenu","ShowContextMenu","ShowContextMenu method [Windows Accessibility]","ShowContextMenu method [Windows Accessibility]","IUIAutomationElement3 interface","uiautomationclient/IUIAutomationElement3::ShowContextMenu","winauto.uiauto_IUIAutomationElement3_ShowContextMenu"]
 old-location: winauto\uiauto_IUIAutomationElement3_ShowContextMenu.htm
 tech.root: WinAuto

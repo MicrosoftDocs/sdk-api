@@ -4,7 +4,7 @@ title: Bits1_5.h header
 ms.assetid: 715b7293-fb0c-3de9-a661-caa92278c4ca
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: bits
 f1_keywords:
  - bits1_5

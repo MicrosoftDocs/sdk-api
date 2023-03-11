@@ -54,15 +54,15 @@ Specifies property features.
 
 ## -enum-fields
 
-### -field PUIF_DEFAULT
+### -field PUIF_DEFAULT:0
 
 There are no special features defined.
 
-### -field PUIF_RIGHTALIGN
+### -field PUIF_RIGHTALIGN:0x1
 
 The property should be right aligned.
 
-### -field PUIF_NOLABELININFOTIP
+### -field PUIF_NOLABELININFOTIP:0x2
 
 The property should not display a label in the infotip.
 

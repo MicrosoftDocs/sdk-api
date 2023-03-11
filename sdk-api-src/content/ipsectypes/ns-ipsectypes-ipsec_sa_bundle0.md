@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_BUNDLE0_
 title: IPSEC_SA_BUNDLE0 (ipsectypes.h)
-description: Is used to store information about an IPsec security association (SA) bundle.
+description: Is used to store information about an IPsec security association (SA) bundle. (IPSEC_SA_BUNDLE0)
 helpviewer_keywords: ["IPSEC_SA_BUNDLE0","IPSEC_SA_BUNDLE0 structure [Filtering]","IPSEC_SA_BUNDLE_FLAG_ALLOW_NULL_TARGET_NAME_MATCH","IPSEC_SA_BUNDLE_FLAG_ASSUME_UDP_CONTEXT_OUTBOUND","IPSEC_SA_BUNDLE_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_SA_BUNDLE_FLAG_GUARANTEE_ENCRYPTION","IPSEC_SA_BUNDLE_FLAG_ND_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_PEER_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_PEER_NAT_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_SECURE","IPSEC_SA_BUNDLE_FLAG_NLB","IPSEC_SA_BUNDLE_FLAG_NO_EXPLICIT_CRED_MATCH","IPSEC_SA_BUNDLE_FLAG_NO_IMPERSONATION_LUID_VERIFY","IPSEC_SA_BUNDLE_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ipsec_sa_bundle0_struct","ipsectypes/IPSEC_SA_BUNDLE0"]
 old-location: fwp\ipsec_sa_bundle0_struct.htm
 tech.root: fwp

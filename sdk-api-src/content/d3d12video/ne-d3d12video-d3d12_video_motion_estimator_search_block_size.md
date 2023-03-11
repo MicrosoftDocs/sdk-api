@@ -37,11 +37,11 @@ Defines search block sizes for video motion estimation.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_8X8
+### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_8X8:0
 
 The search block size is 8x8 pixels.
 
-### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_16X16
+### -field D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_16X16:1
 
 The search block size is 16x16 pixels.
 

@@ -2,9 +2,9 @@
 UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_EXW
 tech.root: security
 title: SEC_WINNT_AUTH_IDENTITY_EXW
-ms.date: 06/15/2021
+ms.date: 08/03/2022
 targetos: Windows
-description: 
+description: The SEC_WINNT_AUTH_IDENTITY_EXW (Unicode) structure contains information about a user.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Reset
 title: IEnumSubStream::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence.
+description: The Reset method resets to the beginning of the enumeration sequence. (IEnumSubStream.Reset)
 helpviewer_keywords: ["IEnumSubStream interface [TAPI 2.2]","Reset method","IEnumSubStream.Reset","IEnumSubStream::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumSubStream interface","_tapi3_ienumsubstream_reset","tapi3.ienumsubstream_reset","tapi3if/IEnumSubStream::Reset"]
 old-location: tapi3\ienumsubstream_reset.htm
 tech.root: tapi3

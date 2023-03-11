@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateInputLayout
 title: ID3D10Device::CreateInputLayout (d3d10.h)
-description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
+description: Create an input-layout object to describe the input-buffer data for the input-assembler stage. (ID3D10Device.CreateInputLayout)
 helpviewer_keywords: ["1535092d-4b37-123e-52db-51ce771e66b9","CreateInputLayout","CreateInputLayout method [Direct3D 10]","CreateInputLayout method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateInputLayout method","ID3D10Device.CreateInputLayout","ID3D10Device::CreateInputLayout","d3d10/ID3D10Device::CreateInputLayout","direct3d10.id3d10device_createinputlayout"]
 old-location: direct3d10\id3d10device_createinputlayout.htm
 tech.root: direct3d10

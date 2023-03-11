@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMVisualBrush interface
 
-
 ## -description
 
 A brush that uses a visual element as a source.

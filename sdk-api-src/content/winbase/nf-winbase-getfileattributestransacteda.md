@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetFileAttributesTransactedA
 title: GetFileAttributesTransactedA function (winbase.h)
-description: Retrieves file system attributes for a specified file or directory as a transacted operation.
-helpviewer_keywords: ["GetFileAttributesTransacted","GetFileAttributesTransacted function [Files]","GetFileAttributesTransactedA","GetFileAttributesTransactedW","GetFileExInfoStandard","fs.getfileattributestransacted","winbase/GetFileAttributesTransacted","winbase/GetFileAttributesTransactedA","winbase/GetFileAttributesTransactedW"]
+description: Retrieves file system attributes for a specified file or directory as a transacted operation. (ANSI)
+helpviewer_keywords: ["GetFileAttributesTransactedA", "GetFileExInfoStandard", "winbase/GetFileAttributesTransactedA"]
 old-location: fs\getfileattributestransacted.htm
 tech.root: fs
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01

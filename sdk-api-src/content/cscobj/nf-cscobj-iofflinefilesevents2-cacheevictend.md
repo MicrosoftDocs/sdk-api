@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.CacheEvictEnd
 title: IOfflineFilesEvents2::CacheEvictEnd (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents2.CacheEvictEnd)
 helpviewer_keywords: ["CacheEvictEnd","CacheEvictEnd method [Offline Files]","CacheEvictEnd method [Offline Files]","IOfflineFilesEvents2 interface","IOfflineFilesEvents2 interface [Offline Files]","CacheEvictEnd method","IOfflineFilesEvents2.CacheEvictEnd","IOfflineFilesEvents2::CacheEvictEnd","cscobj/IOfflineFilesEvents2::CacheEvictEnd","of.iofflinefilesevents2_cacheevictend"]
 old-location: of\iofflinefilesevents2_cacheevictend.htm
 tech.root: of

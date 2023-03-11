@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGlyphs interface
 
-
 ## -description
 
 Describes the text that appears on a page.

@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ShowChangeFriendRelationshipUI
 title: ShowChangeFriendRelationshipUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ShowChangeFriendRelationshipUI)
 helpviewer_keywords: ["ShowChangeFriendRelationshipUI","ShowChangeFriendRelationshipUI function","gamingtcui/ShowChangeFriendRelationshipUI","tcui.showchangefriendrelationshipui"]
 old-location: tcui\showchangefriendrelationshipui.htm
 tech.root: tcui

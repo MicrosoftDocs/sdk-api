@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(GpFontFamily,Status)
 title: FontFamily::FontFamily(GpFontFamily,Status) (gdiplusheaders.h)
-description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
+description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass. (overload 1/2)
 helpviewer_keywords: ["FontFamily","FontFamily constructors [GDI+]","FontFamily.FontFamily","FontFamily.FontFamily(GpFontFamily","Status)","FontFamily::FontFamily","FontFamily::FontFamily(GpFontFamily","Status)","_gdiplus_CLASS_FontFamily_Constructors","gdiplus._gdiplus_CLASS_FontFamily_Constructors","gdiplusheaders/FontFamily"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
 tech.root: gdiplus

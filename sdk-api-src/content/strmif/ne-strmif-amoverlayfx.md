@@ -54,19 +54,19 @@ Specifies effects on a DirectDraw hardware overlay surface.
 
 ## -enum-fields
 
-### -field AMOVERFX_NOFX
+### -field AMOVERFX_NOFX:0
 
 Normal video (no effects).
 
-### -field AMOVERFX_MIRRORLEFTRIGHT
+### -field AMOVERFX_MIRRORLEFTRIGHT:0x2
 
 Mirror the overlay across the vertical axis.
 
-### -field AMOVERFX_MIRRORUPDOWN
+### -field AMOVERFX_MIRRORUPDOWN:0x4
 
 Mirror the overlay across the horizontal axis.
 
-### -field AMOVERFX_DEINTERLACE
+### -field AMOVERFX_DEINTERLACE:0x8
 
 When used in <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">IAMOverlayFX::QueryOverlayFXCaps</a>, this flag specifies whether the hardware can support the DirectDraw 7 DDOVERFX_DEINTERLACE hint. When used with the <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">IAMOverlayFX::GetOverlayFX</a> or <a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">IAMOverlayFX::SetOverlayFX</a> methods, this flag indicates that the overlay should be deinterlaced if possible.
 

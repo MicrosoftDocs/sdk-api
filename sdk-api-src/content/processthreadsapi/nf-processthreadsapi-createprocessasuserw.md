@@ -1,10 +1,10 @@
 ---
 UID: NF:processthreadsapi.CreateProcessAsUserW
 title: CreateProcessAsUserW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
-helpviewer_keywords: ["CreateProcessAsUser","CreateProcessAsUser function","CreateProcessAsUserA","CreateProcessAsUserW","_win32_createprocessasuser","base.createprocessasuser","processthreadsapi/CreateProcessAsUser","processthreadsapi/CreateProcessAsUserA","processthreadsapi/CreateProcessAsUserW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token. (Unicode)
+helpviewer_keywords: ["CreateProcessAsUser", "CreateProcessAsUser function", "CreateProcessAsUserW", "_win32_createprocessasuser", "base.createprocessasuser", "processthreadsapi/CreateProcessAsUser", "processthreadsapi/CreateProcessAsUserW"]
 old-location: base\createprocessasuser.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
@@ -180,7 +180,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.  If this parameter is <b>NULL</b> and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
+An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
 
 The ANSI version of this function, <b>CreateProcessAsUserA</b> fails if the total size of the environment block for the process exceeds 32,767 characters.
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_CHANGE_TYPE
 title: D2D1_CHANGE_TYPE (d2d1effectauthor.h)
-description: Describes flags that influence how the renderer interacts with a custom vertex shader.
+description: Describes flags that influence how the renderer interacts with a custom vertex shader. (D2D1_CHANGE_TYPE)
 helpviewer_keywords: ["D2D1_CHANGE_TYPE","D2D1_CHANGE_TYPE enumeration [Direct2D]","D2D1_CHANGE_TYPE_CONTEXT","D2D1_CHANGE_TYPE_GRAPH","D2D1_CHANGE_TYPE_NONE","D2D1_CHANGE_TYPE_PROPERTIES","d2d1effectauthor/D2D1_CHANGE_TYPE","d2d1effectauthor/D2D1_CHANGE_TYPE_CONTEXT","d2d1effectauthor/D2D1_CHANGE_TYPE_GRAPH","d2d1effectauthor/D2D1_CHANGE_TYPE_NONE","d2d1effectauthor/D2D1_CHANGE_TYPE_PROPERTIES","direct2d.d2d1_change_type"]
 old-location: direct2d\d2d1_change_type.htm
 tech.root: Direct2D
@@ -55,23 +55,23 @@ Describes flags that influence how the renderer interacts with a custom vertex s
 
 ## -enum-fields
 
-### -field D2D1_CHANGE_TYPE_NONE
+### -field D2D1_CHANGE_TYPE_NONE:0
 
 There were no changes.
 
-### -field D2D1_CHANGE_TYPE_PROPERTIES
+### -field D2D1_CHANGE_TYPE_PROPERTIES:1
 
 The properties of the effect changed.
 
-### -field D2D1_CHANGE_TYPE_CONTEXT
+### -field D2D1_CHANGE_TYPE_CONTEXT:2
 
 The context state changed.
 
-### -field D2D1_CHANGE_TYPE_GRAPH
+### -field D2D1_CHANGE_TYPE_GRAPH:3
 
 The effect’s transform graph has changed.  This happens only when an effect supports a variable input count.
 
-### -field D2D1_CHANGE_TYPE_FORCE_DWORD
+### -field D2D1_CHANGE_TYPE_FORCE_DWORD:0xffffffff
 
 ## -see-also
 

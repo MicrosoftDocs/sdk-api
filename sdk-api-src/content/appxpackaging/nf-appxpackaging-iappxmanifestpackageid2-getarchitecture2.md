@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId2.GetArchitecture2
 title: IAppxManifestPackageId2::GetArchitecture2 (appxpackaging.h)
-description: Gets the processor architecture as defined in the manifest.
+description: Gets the processor architecture as defined in the manifest. (IAppxManifestPackageId2.GetArchitecture2)
 helpviewer_keywords: ["GetArchitecture2","GetArchitecture2 method [App packaging and management]","GetArchitecture2 method [App packaging and management]","IAppxManifestPackageId2 interface","IAppxManifestPackageId2 interface [App packaging and management]","GetArchitecture2 method","IAppxManifestPackageId2.GetArchitecture2","IAppxManifestPackageId2::GetArchitecture2","appxpackaging/IAppxManifestPackageId2::GetArchitecture2","appxpkg.iappxmanifestpackageid2_getarchitecture2"]
 old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
 tech.root: appxpkg

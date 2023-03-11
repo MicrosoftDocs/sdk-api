@@ -54,34 +54,34 @@ Defines constants that are used to define the <a href="/previous-versions/window
 
 ## -enum-fields
 
-### -field None
+### -field None:0
 
 No special bits are set.
 
-### -field IsValueHandle
+### -field IsValueHandle:0x1
 
 The value represents a string representation of an <b>InstanceHandle</b>.
 
-### -field IsPropertyReadOnly
+### -field IsPropertyReadOnly:0x2
 
 The property is read only and cannot be set locally.
 
-### -field IsValueCollection
+### -field IsValueCollection:0x4
 
 The value represents a collection object. (When set, <b>IsValueHandle</b> is also set.)
 
-### -field IsValueCollectionReadOnly
+### -field IsValueCollectionReadOnly:0x8
 
 The value represents a read only collection.
 
-### -field IsValueBindingExpression
+### -field IsValueBindingExpression:0x10
 
 The value represents the evaluated value of a binding expression.
 
-### -field IsValueNull
+### -field IsValueNull:0x20
 
 The value is <b>null</b>. (Introduced in Windows 10, version 1607.)
 
-### -field IsValueHandleAndEvaluatedValue
+### -field IsValueHandleAndEvaluatedValue:0x40
 
 The value represents a string representation of an <b>InstanceHandle</b> and an evaluated value. (Introduced in Windows 10, version 1607.)

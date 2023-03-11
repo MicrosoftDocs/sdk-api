@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Clone
 title: IEnumExplorerCommand::Clone (shobjidl_core.h)
-description: Not currently implemented.
+description: Not currently implemented. (IEnumExplorerCommand.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumExplorerCommand interface","IEnumExplorerCommand interface [Windows Shell]","Clone method","IEnumExplorerCommand.Clone","IEnumExplorerCommand::Clone","_shell_IEnumExplorerCommand_Clone","shell.IEnumExplorerCommand_Clone","shobjidl_core/IEnumExplorerCommand::Clone"]
 old-location: shell\IEnumExplorerCommand_Clone.htm
 tech.root: shell

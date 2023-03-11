@@ -56,15 +56,15 @@ Defines the types of logic that is used to determine whether Automatic Updates w
 
 ## -enum-fields
 
-### -field adLetWindowsUpdateDecide
+### -field adLetWindowsUpdateDecide:0
 
 Use the standard logic. The update will be automatically downloaded if it is important, or if it is recommended and Windows Update has been configured to treat recommended updates as important. Otherwise, the update will not be automatically downloaded.
 
-### -field adNeverAutoDownload
+### -field adNeverAutoDownload:1
 
 The update will not be automatically downloaded; it will  be downloaded only when the user attempts to install the update, or when a Windows Update Agent (WUA) API caller requests that the update be downloaded by using the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-download">IUpdateDownloader::Download</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader::BeginDownload</a> methods.
 
-### -field adAlwaysAutoDownload
+### -field adAlwaysAutoDownload:2
 
 The update will always be automatically downloaded.
 

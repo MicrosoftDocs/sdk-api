@@ -56,7 +56,7 @@ Used with the <a href="/windows/desktop/api/intshcut/nf-intshcut-mimeassociation
 
 ## -enum-fields
 
-### -field MIMEASSOCDLG_FL_REGISTER_ASSOC
+### -field MIMEASSOCDLG_FL_REGISTER_ASSOC:0x0001
 
 If this bit is set, the selected application is registered as the handler for the given MIME type. If this bit is clear, no association is registered.
 

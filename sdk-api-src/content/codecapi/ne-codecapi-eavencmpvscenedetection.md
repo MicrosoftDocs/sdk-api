@@ -54,19 +54,19 @@ Specifies how the encoder behaves when it detects a new scene. This enumeration 
 
 ## -enum-fields
 
-### -field eAVEncMPVSceneDetection_None
+### -field eAVEncMPVSceneDetection_None:0
 
 No special behavior.
 
-### -field eAVEncMPVSceneDetection_InsertIPicture
+### -field eAVEncMPVSceneDetection_InsertIPicture:1
 
 Insert an I frame.
 
-### -field eAVEncMPVSceneDetection_StartNewGOP
+### -field eAVEncMPVSceneDetection_StartNewGOP:2
 
 Start a new group of pictures (GOP).
 
-### -field eAVEncMPVSceneDetection_StartNewLocatableGOP
+### -field eAVEncMPVSceneDetection_StartNewLocatableGOP:3
 
 Start a new GOP in which the first consecutive B frames do not reference the previous GOP.
 

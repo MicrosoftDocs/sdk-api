@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelLength
 title: IInkEdit::put_SelLength (inked.h)
-description: Gets or sets the number of characters that are selected in the InkEdit control (run time only).
+description: Gets or sets the number of characters that are selected in the InkEdit control (run time only). (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelLength property","IInkEdit.SelLength","IInkEdit.put_SelLength","IInkEdit::SelLength","IInkEdit::get_SelLength","IInkEdit::put_SelLength","InkEdit.get_SelLength","InkEdit.put_SelLength","SelLength property [Tablet PC]","SelLength property [Tablet PC]","IInkEdit interface","get_SelLength","inked/IInkEdit::SelLength","inked/IInkEdit::get_SelLength","inked/IInkEdit::put_SelLength","put_SelLength","tablet.inkedit_sellength"]
 old-location: tablet\inkedit_sellength.htm
 tech.root: tablet

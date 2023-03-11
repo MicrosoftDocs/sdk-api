@@ -58,7 +58,7 @@ This interface is implemented as part of the indexer object. To obtain a pointer
 
 The <b>IWMIndexer2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer</a>. <b>IWMIndexer2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

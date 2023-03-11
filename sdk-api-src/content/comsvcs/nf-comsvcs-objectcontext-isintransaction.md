@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ObjectContext.IsInTransaction
 title: ObjectContext::IsInTransaction (comsvcs.h)
-description: Indicates whether the current object is executing in a transaction.
+description: Indicates whether the current object is executing in a transaction. (ObjectContext.IsInTransaction)
 helpviewer_keywords: ["IsInTransaction","IsInTransaction method [COM+]","IsInTransaction method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","IsInTransaction method","ObjectContext.IsInTransaction","ObjectContext::IsInTransaction","_cos_ObjectContext_IsInTransaction","comsvcs/ObjectContext::IsInTransaction","cos.objectcontext_isintransaction"]
 old-location: cos\objectcontext_isintransaction.htm
 tech.root: cos

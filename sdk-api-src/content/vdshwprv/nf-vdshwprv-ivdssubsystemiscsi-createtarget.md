@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.CreateTarget
 title: IVdsSubSystemIscsi::CreateTarget (vdshwprv.h)
-description: Creates an iSCSI target.
+description: The IVdsSubSystemIscsi::CreateTarget (vdshwprv.h) method creates an iSCSI target.
 helpviewer_keywords: ["CreateTarget","CreateTarget method [VDS]","CreateTarget method [VDS]","IVdsSubSystemIscsi interface","IVdsSubSystemIscsi interface [VDS]","CreateTarget method","IVdsSubSystemIscsi.CreateTarget","IVdsSubSystemIscsi::CreateTarget","base.ivdssubsystemiscsi_createtarget","vds/IVdsSubSystemIscsi::CreateTarget","vdshwprv/IVdsSubSystemIscsi::CreateTarget"]
 old-location: base\ivdssubsystemiscsi_createtarget.htm
 tech.root: base
 ms.assetid: 084a1f0e-0764-404a-bd9a-a724e4f12c5f
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],IVdsSubSystemIscsi interface, IVdsSubSystemIscsi interface [VDS],CreateTarget method, IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates an iSCSI target. The interface pointer for the new 
    target object can be retrieved by calling 

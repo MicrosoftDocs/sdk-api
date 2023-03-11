@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.SaveAdd(constEncoderParameters)
 title: Image::SaveAdd
-description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
+description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Image::SaveAdd"]
 ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b

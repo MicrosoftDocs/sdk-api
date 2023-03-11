@@ -49,12 +49,11 @@ api_name:
  - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 ---
 
-# EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure
-
+# EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure (evntcons.h)
 
 ## -description
 
-The <b>EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</b> structure defines the parent event of this event.
+Defines the parent event of this event.
 
 ## -struct-fields
 

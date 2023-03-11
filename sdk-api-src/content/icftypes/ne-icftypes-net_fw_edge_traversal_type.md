@@ -56,7 +56,7 @@ The <b>NET_FW_EDGE_TRAVERSAL_TYPE</b> enumerated type specifies  the conditions 
 
 ## -enum-fields
 
-### -field NET_FW_EDGE_TRAVERSAL_TYPE_DENY
+### -field NET_FW_EDGE_TRAVERSAL_TYPE_DENY:0
 
 Edge traversal traffic is always blocked.
 

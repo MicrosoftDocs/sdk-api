@@ -241,7 +241,7 @@ Number of device-specific fonts.
 </dl>
 </td>
 <td width="60%">
-Number of entries in the device's color table, if the device has a color depth of no more than 8 bits per pixel. For devices with greater color depths, 1 is returned.
+Number of entries in the device's color table, if the device has a color depth of no more than 8 bits per pixel. For devices with greater color depths, -1 is returned.
 
 </td>
 </tr>

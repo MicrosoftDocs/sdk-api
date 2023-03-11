@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.VARIANT_UserMarshal64
 title: VARIANT_UserMarshal64 function (oaidl.h)
-description: Marshals a VARIANT object into the RPC buffer.
+description: Marshals a VARIANT object into the RPC buffer. (VARIANT_UserMarshal64)
 helpviewer_keywords: ["VARIANT_UserMarshal64","VARIANT_UserMarshal64 function [Automation]","automat.variant_usermarshal64","oaidl/VARIANT_UserMarshal64"]
 old-location: automat\variant_usermarshal64.htm
 tech.root: automat

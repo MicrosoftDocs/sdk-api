@@ -56,15 +56,15 @@ Users have the ability to set the DPI scale factor on their displays independent
 
 ## -enum-fields
 
-### -field PROCESS_DPI_UNAWARE
+### -field PROCESS_DPI_UNAWARE:0
 
 DPI unaware. This app does not scale for DPI changes and is always assumed to have a scale factor of 100% (96 DPI). It will be automatically scaled by the system on any other DPI setting.
 
-### -field PROCESS_SYSTEM_DPI_AWARE
+### -field PROCESS_SYSTEM_DPI_AWARE:1
 
 System DPI aware. This app does not scale for DPI changes. It will query for the DPI once and use that value for the lifetime of the app. If the DPI changes, the app will not adjust to the new DPI value. It will be automatically scaled up or down by the system when the DPI changes from the system value.
 
-### -field PROCESS_PER_MONITOR_DPI_AWARE
+### -field PROCESS_PER_MONITOR_DPI_AWARE:2
 
 Per monitor DPI aware. This app checks for the DPI when it is created and adjusts the scale factor whenever the DPI changes. These applications are not automatically scaled by the system.
 

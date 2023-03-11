@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiProvideComponentA
 title: MsiProvideComponentA function (msi.h)
-description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
-helpviewer_keywords: ["INSTALLMODE_DEFAULT","INSTALLMODE_EXISTING","INSTALLMODE_NODETECTION","INSTALLMODE_NOSOURCERESOLUTION","MsiProvideComponent","MsiProvideComponent function","MsiProvideComponentA","MsiProvideComponentW","_msi_msiprovidecomponent","combination of the REINSTALLMODE flags","msi/MsiProvideComponent","msi/MsiProvideComponentA","msi/MsiProvideComponentW","setup.msiprovidecomponent"]
+description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature. (ANSI)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideComponentA", "combination of the REINSTALLMODE flags", "msi/MsiProvideComponentA"]
 old-location: setup\msiprovidecomponent.htm
 tech.root: setup
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e

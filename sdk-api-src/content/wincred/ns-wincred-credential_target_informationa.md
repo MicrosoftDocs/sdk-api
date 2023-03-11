@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDENTIAL_TARGET_INFORMATIONA
 title: CREDENTIAL_TARGET_INFORMATIONA (wincred.h)
-description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
+description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree. (ANSI)
 helpviewer_keywords: ["*PCREDENTIAL_TARGET_INFORMATIONA","CREDENTIAL_TARGET_INFORMATION","CREDENTIAL_TARGET_INFORMATION structure [Security]","CREDENTIAL_TARGET_INFORMATIONA","PCREDENTIAL_TARGET_INFORMATION","PCREDENTIAL_TARGET_INFORMATION structure pointer [Security]","_cred_credential_target_information","security.credential_target_information","wincred/CREDENTIAL_TARGET_INFORMATION","wincred/PCREDENTIAL_TARGET_INFORMATION"]
 old-location: security\credential_target_information.htm
 tech.root: security

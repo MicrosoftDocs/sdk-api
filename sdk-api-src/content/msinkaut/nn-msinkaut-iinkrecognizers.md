@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRecognizers
 title: IInkRecognizers (msinkaut.h)
-description: .
+description: . (IInkRecognizers)
 helpviewer_keywords: ["IInkRecognizers","IInkRecognizers interface [Tablet PC]","IInkRecognizers interface [Tablet PC]","described","msinkaut/IInkRecognizers","tablet.iinkrecognizers"]
 old-location: tablet\iinkrecognizers.htm
 tech.root: tablet

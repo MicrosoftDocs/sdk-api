@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIConvertA
 title: OleUIConvertA function (oledlg.h)
-description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
-helpviewer_keywords: ["OleUIConvert","OleUIConvert function [COM]","OleUIConvertA","OleUIConvertW","_ole_OleUIConvert","com.oleuiconvert","oledlg/OleUIConvert","oledlg/OleUIConvertA","oledlg/OleUIConvertW"]
+description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class. (ANSI)
+helpviewer_keywords: ["OleUIConvertA", "oledlg/OleUIConvertA"]
 old-location: com\oleuiconvert.htm
 tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad

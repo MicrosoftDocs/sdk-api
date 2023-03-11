@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderGroupA
 title: SCardIntroduceReaderGroupA function (winscard.h)
-description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardIntroduceReaderGroup","SCardIntroduceReaderGroup function [Security]","SCardIntroduceReaderGroupA","SCardIntroduceReaderGroupW","_smart_scardintroducereadergroup","security.scardintroducereadergroup","winscard/SCardIntroduceReaderGroup","winscard/SCardIntroduceReaderGroupA","winscard/SCardIntroduceReaderGroupW"]
+description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database. (ANSI)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardIntroduceReaderGroupA", "winscard/SCardIntroduceReaderGroupA"]
 old-location: security\scardintroducereadergroup.htm
 tech.root: security
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3

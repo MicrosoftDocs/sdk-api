@@ -56,15 +56,15 @@ Represents the version of <a href="https://www.microsoft.com/downloads/details.a
 
 ## -enum-fields
 
-### -field SYNC_SERIALIZATION_VERSION_V1
+### -field SYNC_SERIALIZATION_VERSION_V1:1
 
 Indicates a component is compatible with Sync Framework 1.0.
 
-### -field SYNC_SERIALIZATION_VERSION_V2
+### -field SYNC_SERIALIZATION_VERSION_V2:4
 
 Indicates a component is compatible with Sync Framework 2.0.
 
-### -field SYNC_SERIALIZATION_VERSION_V3
+### -field SYNC_SERIALIZATION_VERSION_V3:5
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Add
 title: IFsrmMutableCollection::Add (fsrm.h)
-description: Adds an object to the collection.
+description: Adds an object to the collection. (IFsrmMutableCollection.Add)
 helpviewer_keywords: ["Add","Add method [File Server Resource Manager]","Add method [File Server Resource Manager]","IFsrmMutableCollection interface","IFsrmMutableCollection interface [File Server Resource Manager]","Add method","IFsrmMutableCollection.Add","IFsrmMutableCollection::Add","fs.ifsrmmutablecollection_add","fsrm.ifsrmmutablecollection_add","fsrm/IFsrmMutableCollection::Add"]
 old-location: fsrm\ifsrmmutablecollection_add.htm
 tech.root: fsrm

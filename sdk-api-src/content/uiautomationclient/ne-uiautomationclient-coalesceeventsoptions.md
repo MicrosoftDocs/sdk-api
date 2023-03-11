@@ -54,11 +54,11 @@ Contains possible values for the <a href="/windows/desktop/api/uiautomationclien
 
 ## -enum-fields
 
-### -field CoalesceEventsOptions_Disabled
+### -field CoalesceEventsOptions_Disabled:0
 
 Event coalescing is disabled.
 
-### -field CoalesceEventsOptions_Enabled
+### -field CoalesceEventsOptions_Enabled:0x1
 
 Event coalescing is enabled.
 

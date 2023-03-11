@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.SetColor(constD2D1_COLOR_F)
 title: ID2D1SvgPaint::SetColor(const D2D1_COLOR_F) (d2d1svg.h)
-description: Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
+description: Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR. (overload 1/2)
 helpviewer_keywords: ["ID2D1SvgPaint interface [Direct2D]","SetColor method","ID2D1SvgPaint.SetColor","ID2D1SvgPaint.SetColor(const D2D1_COLOR_F)","ID2D1SvgPaint::SetColor","ID2D1SvgPaint::SetColor(const D2D1_COLOR_F)","SetColor","SetColor method [Direct2D]","SetColor method [Direct2D]","ID2D1SvgPaint interface","d2d1svg/ID2D1SvgPaint::SetColor","direct2d.id2d1svgpaint_setcolor"]
 old-location: direct2d\id2d1svgpaint_setcolor.htm
 tech.root: Direct2D

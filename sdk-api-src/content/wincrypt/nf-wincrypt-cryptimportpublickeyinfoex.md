@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfoEx
 title: CryptImportPublicKeyInfoEx function (wincrypt.h)
-description: Important  This API is deprecated.
+description: Important  This API is deprecated. (CryptImportPublicKeyInfoEx)
 helpviewer_keywords: ["CryptImportPublicKeyInfoEx","CryptImportPublicKeyInfoEx function [Security]","_crypto2_cryptimportpublickeyinfoex","security.cryptimportpublickeyinfoex","wincrypt/CryptImportPublicKeyInfoEx"]
 old-location: security\cryptimportpublickeyinfoex.htm
 tech.root: security

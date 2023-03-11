@@ -56,7 +56,7 @@ Indicates the nature of the change to an event object.
 
 ## -enum-fields
 
-### -field EOC_NewObject
+### -field EOC_NewObject:0
 
 A new object was added.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RunOnlyIfNetworkAvailable
 title: ITaskSettings::put_RunOnlyIfNetworkAvailable (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
+description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RunOnlyIfNetworkAvailable property","ITaskSettings.RunOnlyIfNetworkAvailable","ITaskSettings.put_RunOnlyIfNetworkAvailable","ITaskSettings::RunOnlyIfNetworkAvailable","ITaskSettings::get_RunOnlyIfNetworkAvailable","ITaskSettings::put_RunOnlyIfNetworkAvailable","RunOnlyIfNetworkAvailable property [Task Scheduler]","RunOnlyIfNetworkAvailable property [Task Scheduler]","ITaskSettings interface","put_RunOnlyIfNetworkAvailable","taskschd.itasksettings_runonlyifnetworkavailable","taskschd/ITaskSettings::RunOnlyIfNetworkAvailable","taskschd/ITaskSettings::get_RunOnlyIfNetworkAvailable","taskschd/ITaskSettings::put_RunOnlyIfNetworkAvailable"]
 old-location: taskschd\itasksettings_runonlyifnetworkavailable.htm
 tech.root: taskschd

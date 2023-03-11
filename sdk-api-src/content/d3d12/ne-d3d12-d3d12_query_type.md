@@ -54,41 +54,41 @@ Specifies the type of query.
 
 ## -enum-fields
 
-### -field D3D12_QUERY_TYPE_OCCLUSION
+### -field D3D12_QUERY_TYPE_OCCLUSION:0
 
 Indicates the query is for depth/stencil occlusion counts.
 
-### -field D3D12_QUERY_TYPE_BINARY_OCCLUSION
+### -field D3D12_QUERY_TYPE_BINARY_OCCLUSION:1
 
 Indicates the query is for a binary depth/stencil occlusion statistics.
 
 This new query type acts like D3D12_QUERY_TYPE_OCCLUSION except that it returns simply a binary 0/1 result:  0 indicates that no samples passed depth and stencil testing, 1 indicates that at least one sample passed depth and stencil testing.  This enables occlusion queries to not interfere with any GPU performance optimization associated with depth/stencil testing.
 
-### -field D3D12_QUERY_TYPE_TIMESTAMP
+### -field D3D12_QUERY_TYPE_TIMESTAMP:2
 
 Indicates the query is for high definition GPU and CPU timestamps.
 
-### -field D3D12_QUERY_TYPE_PIPELINE_STATISTICS
+### -field D3D12_QUERY_TYPE_PIPELINE_STATISTICS:3
 
 Indicates the query type is for graphics pipeline statistics, refer to <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics">D3D12_QUERY_DATA_PIPELINE_STATISTICS</a>.
 
-### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0
+### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0:4
 
 Stream 0 output statistics. In Direct3D 12 there is no single stream output (SO) overflow query for all the output streams. Apps need to issue multiple single-stream queries, and then correlate the results. Stream output is the ability of the GPU to write vertices to a buffer. The stream output counters monitor progress.
 
-### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1
+### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1:5
 
 Stream 1 output statistics.
 
-### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2
+### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2:6
 
 Stream 2 output statistics.
 
-### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3
+### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3:7
 
 Stream 3 output statistics.
 
-### -field D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS
+### -field D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS:8
 
 Video decode statistics. Refer to [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](../d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics.md).
 

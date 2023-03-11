@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_ExecutionTimeLimit
 title: ITaskSettings::put_ExecutionTimeLimit (taskschd.h)
-description: Gets or sets the amount of time that is allowed to complete the task.
+description: Gets or sets the amount of time that is allowed to complete the task. (Put)
 helpviewer_keywords: ["ExecutionTimeLimit property [Task Scheduler]","ExecutionTimeLimit property [Task Scheduler]","ITaskSettings interface","ITaskSettings interface [Task Scheduler]","ExecutionTimeLimit property","ITaskSettings.ExecutionTimeLimit","ITaskSettings.put_ExecutionTimeLimit","ITaskSettings::ExecutionTimeLimit","ITaskSettings::get_ExecutionTimeLimit","ITaskSettings::put_ExecutionTimeLimit","put_ExecutionTimeLimit","taskschd.itasksettings_executiontimelimit","taskschd/ITaskSettings::ExecutionTimeLimit","taskschd/ITaskSettings::get_ExecutionTimeLimit","taskschd/ITaskSettings::put_ExecutionTimeLimit"]
 old-location: taskschd\itasksettings_executiontimelimit.htm
 tech.root: taskschd

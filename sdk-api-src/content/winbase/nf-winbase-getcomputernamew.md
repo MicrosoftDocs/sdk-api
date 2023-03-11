@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetComputerNameW
 title: GetComputerNameW function (winbase.h)
-description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
-helpviewer_keywords: ["GetComputerName","GetComputerName function","GetComputerNameA","GetComputerNameW","_win32_getcomputername","base.getcomputername","winbase/GetComputerName","winbase/GetComputerNameA","winbase/GetComputerNameW"]
+description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry. (Unicode)
+helpviewer_keywords: ["GetComputerName", "GetComputerName function", "GetComputerNameW", "_win32_getcomputername", "base.getcomputername", "winbase/GetComputerName", "winbase/GetComputerNameW"]
 old-location: base\getcomputername.htm
 tech.root: winprog
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1

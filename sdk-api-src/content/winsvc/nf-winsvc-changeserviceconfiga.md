@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigA
 title: ChangeServiceConfigA function (winsvc.h)
-description: Changes the configuration parameters of a service.
+description: Changes the configuration parameters of a service. (ANSI)
 old-location: base\changeserviceconfig.htm
 tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b

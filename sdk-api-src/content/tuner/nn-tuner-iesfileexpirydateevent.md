@@ -56,7 +56,7 @@ Gets information from a  <b>FileExpiryDate</b> event. A Protected Broadcast Driv
 
 The <b>IESFileExpiryDateEvent</b> interface inherits from <b>IESEvent</b>. <b>IESFileExpiryDateEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

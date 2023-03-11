@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Normaliz.dll
+ - kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-0.dll
  - KernelBase.dll
  - API-MS-Win-Core-Localization-l1-2-1.dll
@@ -50,9 +51,6 @@ api_location:
 api_name:
  - IdnToAscii
 ---
-
-# IdnToAscii function
-
 
 ## -description
 

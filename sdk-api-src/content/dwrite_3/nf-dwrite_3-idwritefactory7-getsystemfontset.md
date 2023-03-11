@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory7.GetSystemFontSet
 title: IDWriteFactory7::GetSystemFontSet
-description: Retrieves the set of system fonts.
+description: Retrieves the set of system fonts. (IDWriteFactory7::GetSystemFontSet)
 helpviewer_keywords: ["IDWriteFactory7 interface [Direct Write]","GetSystemFontSet method","IDWriteFactory7.GetSystemFontSet","IDWriteFactory7::GetSystemFontSet","GetSystemFontSet","GetSystemFontSet method [Direct Write]","GetSystemFontSet method [Direct Write]","IDWriteFactory7 interface","directwrite.idwritefactory7_getsystemfontset","dwrite_3/IDWriteFactory7::GetSystemFontSet"]
 tech.root: DirectWrite
 ms.date: 09/12/2019

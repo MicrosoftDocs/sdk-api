@@ -4,7 +4,7 @@ title: Vbinterf.h header
 ms.assetid: 81393bd3-e71f-31d0-b3b7-458661ff2647
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - vbinterf

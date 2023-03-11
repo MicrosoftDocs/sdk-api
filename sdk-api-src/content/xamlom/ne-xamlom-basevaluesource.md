@@ -54,7 +54,7 @@ Defines constants that specify where the effective value of a property was set.
 
 ## -enum-fields
 
-### -field BaseValueSourceUnknown
+### -field BaseValueSourceUnknown:0
 
 The source of the property value is not known.
 

@@ -54,11 +54,11 @@ Specifies whether to increment or decrement the number of resources currently be
 
 ## -enum-fields
 
-### -field AMRESCTL_RESERVEFLAGS_RESERVE
+### -field AMRESCTL_RESERVEFLAGS_RESERVE:0
 
 Increment the reserved resource count.
 
-### -field AMRESCTL_RESERVEFLAGS_UNRESERVE
+### -field AMRESCTL_RESERVEFLAGS_UNRESERVE:0x1
 
 Decrement the reserved resource count.
 

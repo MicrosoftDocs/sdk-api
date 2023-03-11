@@ -54,12 +54,12 @@ Specifies access to an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbi
 
 ## -enum-fields
 
-### -field WICBitmapLockRead
+### -field WICBitmapLockRead:0x1
 
 A read access lock.
 
-### -field WICBitmapLockWrite
+### -field WICBitmapLockWrite:0x2
 
 A write access lock.
 
-### -field WICBITMAPLOCKFLAGS_FORCE_DWORD
+### -field WICBITMAPLOCKFLAGS_FORCE_DWORD:0x7fffffff

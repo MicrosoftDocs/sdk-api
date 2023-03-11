@@ -4,7 +4,7 @@ title: Oobenotification.h header
 ms.assetid: 5df6a064-6774-3461-b13f-84a962e61fbc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: windowssetupandmigration
 f1_keywords:
  - oobenotification

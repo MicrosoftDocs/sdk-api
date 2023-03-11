@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.GetOpenFileNameW
 title: GetOpenFileNameW function (commdlg.h)
-description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
-helpviewer_keywords: ["GetOpenFileName","GetOpenFileName function [Dialog Boxes]","GetOpenFileNameA","GetOpenFileNameW","_win32_GetOpenFileName","_win32_getopenfilename_cpp","commdlg/GetOpenFileName","commdlg/GetOpenFileNameA","commdlg/GetOpenFileNameW","dlgbox.getopenfilename","winui._win32_getopenfilename"]
+description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened. (Unicode)
+helpviewer_keywords: ["GetOpenFileName", "GetOpenFileName function [Dialog Boxes]", "GetOpenFileNameW", "_win32_GetOpenFileName", "_win32_getopenfilename_cpp", "commdlg/GetOpenFileName", "commdlg/GetOpenFileNameW", "dlgbox.getopenfilename", "winui._win32_getopenfilename"]
 old-location: dlgbox\getopenfilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm

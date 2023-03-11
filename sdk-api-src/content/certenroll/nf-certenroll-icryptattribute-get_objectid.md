@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_ObjectId
 title: ICryptAttribute::get_ObjectId (certenroll.h)
-description: Retrieves the object identifier (OID) for the attribute.
+description: Retrieves the object identifier (OID) for the attribute. (ICryptAttribute.get_ObjectId)
 helpviewer_keywords: ["ICryptAttribute interface [Security]","ObjectId property","ICryptAttribute.ObjectId","ICryptAttribute.get_ObjectId","ICryptAttribute::ObjectId","ICryptAttribute::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","ICryptAttribute interface","certenroll/ICryptAttribute::ObjectId","certenroll/ICryptAttribute::get_ObjectId","get_ObjectId","security.icryptattribute_objectid_property"]
 old-location: security\icryptattribute_objectid_property.htm
 tech.root: security

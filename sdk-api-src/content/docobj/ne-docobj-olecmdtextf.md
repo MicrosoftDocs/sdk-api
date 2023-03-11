@@ -54,15 +54,15 @@ Specifies the type of information that an object should store in the <a href="/w
 
 ## -enum-fields
 
-### -field OLECMDTEXTF_NONE
+### -field OLECMDTEXTF_NONE:0
 
 No extra information is requested.
 
-### -field OLECMDTEXTF_NAME
+### -field OLECMDTEXTF_NAME:1
 
 The object should provide the localized name of the command.
 
-### -field OLECMDTEXTF_STATUS
+### -field OLECMDTEXTF_STATUS:2
 
 The object should provide a localized status string for the command.
 

@@ -54,7 +54,7 @@ Flags for acknowledging placeholder file or directory renaming.
 
 ## -enum-fields
 
-### -field CF_OPERATION_ACK_RENAME_FLAG_NONE
+### -field CF_OPERATION_ACK_RENAME_FLAG_NONE:0x00000000
 
 No acknowledgment of placeholder renaming.
 

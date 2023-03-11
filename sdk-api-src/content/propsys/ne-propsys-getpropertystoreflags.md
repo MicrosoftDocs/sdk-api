@@ -54,7 +54,7 @@ Indicates flags that modify the property store object retrieved by methods that 
 
 ## -enum-fields
 
-### -field GPS_DEFAULT
+### -field GPS_DEFAULT:0
 
 Meaning to a calling process: Return a read-only property store that contains all properties. Slow items (offline files) are not opened. 
 			    
@@ -62,7 +62,7 @@ Meaning to a calling process: Return a read-only property store that contains al
 
 Combination with other flags: Can be overridden by other flags.
 
-### -field GPS_HANDLERPROPERTIESONLY
+### -field GPS_HANDLERPROPERTIESONLY:0x1
 
 Meaning to a calling process: Include only properties directly from the property handler, which opens the file on the disk, network, or device. 
 
@@ -74,7 +74,7 @@ Meaning to other folders: When delegating to a file folder, pass this flag on to
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY, GPS_FASTPROPERTIESONLY, or GPS_BESTEFFORT.
 
-### -field GPS_READWRITE
+### -field GPS_READWRITE:0x2
 
 Meaning to a calling process: Can write properties to the item. Note: The store may contain fewer properties than a read-only store.
 			
@@ -86,7 +86,7 @@ Meaning to other folders: ReadWrite. Note: When using default MUX, return a sing
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY, GPS_FASTPROPERTIESONLY, GPS_BESTEFFORT, or GPS_DELAYCREATION. Implies GPS_HANDLERPROPERTIESONLY.
 
-### -field GPS_TEMPORARY
+### -field GPS_TEMPORARY:0x4
 
 Meaning to a calling process: Provides a writable store, with no initial properties, that exists for the lifetime of the Shell item instance; basically, a property bag attached to the item instance.
 			
@@ -98,7 +98,7 @@ Meaning to other folders: Not applicable. Handled by the Shell item.
 
 Combination with other flags: Cannot be combined with any other flag. Implies GPS_READWRITE.
 
-### -field GPS_FASTPROPERTIESONLY
+### -field GPS_FASTPROPERTIESONLY:0x8
 
 Meaning to a calling process: Provides a store that does not involve reading from the disk or network. Note: Some values may be different, or missing, compared to a store without this flag.
 			
@@ -110,7 +110,7 @@ Meaning to other folders: Include only properties that are available in memory o
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY, GPS_READWRITE, GPS_HANDLERPROPERTIESONLY, or GPS_DELAYCREATION.
 
-### -field GPS_OPENSLOWITEM
+### -field GPS_OPENSLOWITEM:0x10
 
 Meaning to a calling process: Open a slow item (offline file) if necessary.
 			    
@@ -122,7 +122,7 @@ Meaning to other folders: Do not return any properties that are very slow.
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY or GPS_FASTPROPERTIESONLY.
 
-### -field GPS_DELAYCREATION
+### -field GPS_DELAYCREATION:0x20
 
 Meaning to a calling process: Delay memory-intensive operations, such as file access, until a property is requested that requires such access.
 			    
@@ -134,7 +134,7 @@ Meaning to other folders: If the folder has memory-intensive properties, such as
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY or GPS_READWRITE.
 
-### -field GPS_BESTEFFORT
+### -field GPS_BESTEFFORT:0x40
 
 Meaning to a calling process: Succeed at getting the store, even if some properties are not returned. Note: Some values may be different, or missing, compared to a store without this flag.
 			    
@@ -146,29 +146,29 @@ Meaning to other folders: Succeed on getting the store, even if some properties 
 
 Combination with other flags: Cannot be combined with GPS_TEMPORARY, GPS_READWRITE, or GPS_HANDLERPROPERTIESONLY.
 
-### -field GPS_NO_OPLOCK
+### -field GPS_NO_OPLOCK:0x80
 
 <b>Windows 7 and later</b>. Callers should use this flag only if they are already holding an opportunistic lock (oplock) on the file because without an oplock, the bind operation cannot continue. By default, the Shell requests an oplock on a file before binding to the property handler. This flag disables the default behavior. 
 
 <b>Windows Server 2008 and Windows Vista:  </b>This flag is not available.
 
-### -field GPS_PREFERQUERYPROPERTIES
+### -field GPS_PREFERQUERYPROPERTIES:0x100
 
 <b>Windows 8 and later</b>. Use this flag to retrieve only properties from the indexer for WDS results.
 
-### -field GPS_EXTRINSICPROPERTIES
+### -field GPS_EXTRINSICPROPERTIES:0x200
 
 Include properties from the file's secondary stream.
 
-### -field GPS_EXTRINSICPROPERTIESONLY
+### -field GPS_EXTRINSICPROPERTIESONLY:0x400
 
 Include only properties from the file's secondary stream.
 
-### -field GPS_VOLATILEPROPERTIES
+### -field GPS_VOLATILEPROPERTIES:0x800
 
-### -field GPS_VOLATILEPROPERTIESONLY
+### -field GPS_VOLATILEPROPERTIESONLY:0x1000
 
-### -field GPS_MASK_VALID
+### -field GPS_MASK_VALID:0x1fff
 
 Mask for valid <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> values.
 
