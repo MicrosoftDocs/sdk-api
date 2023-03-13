@@ -63,8 +63,6 @@ This callback is used to ask the sync provider for acknowledgement that a given 
 
 ### -field CF_CALLBACK_TYPE_CANCEL_FETCH_DATA
 
-Callback to cancel an ongoing placeholder hydration.
-
 This callback is used to inform the sync provider that a range of file data is no longer needed, usually because the originating request has been cancelled. This allows the sync provider to stop spending its efforts trying to get the data (cancel outstanding network requests, etc.). Implementation of this callback is optional.
 
 ### -field CF_CALLBACK_TYPE_FETCH_PLACEHOLDERS
