@@ -120,7 +120,7 @@ The time, in milliseconds, to wait for replies.
 When called synchronously, the <b>IcmpSendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-When called asynchronously, the <b>IcmpSendEcho2</b> function returns ERROR_IO_PENDING to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
+When called asynchronously, the <b>IcmpSendEcho2</b> function returns zero, with a subsequent call to <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning extended error code ERROR_IO_PENDING to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
 
 If the return value is zero, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
