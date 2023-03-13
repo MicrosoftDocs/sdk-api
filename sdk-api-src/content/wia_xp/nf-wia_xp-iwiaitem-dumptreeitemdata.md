@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpTreeItemData
 title: IWiaItem::DumpTreeItemData (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaItem.DumpTreeItemData)
 helpviewer_keywords: ["DumpTreeItemData","DumpTreeItemData method [WIA]","DumpTreeItemData method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","DumpTreeItemData method","IWiaItem.DumpTreeItemData","IWiaItem::DumpTreeItemData","_wia_IWiaItem_DumpTreeItemData","wia._wia_IWiaItem_DumpTreeItemData","wia_xp/IWiaItem::DumpTreeItemData"]
 old-location: wia\_wia_IWiaItem_DumpTreeItemData.htm
 tech.root: wia

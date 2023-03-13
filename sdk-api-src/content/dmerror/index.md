@@ -4,7 +4,7 @@ title: Dmerror.h header
 ms.assetid: d197174d-2e0c-3fa5-abb3-a0d142ca62ea
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - dmerror

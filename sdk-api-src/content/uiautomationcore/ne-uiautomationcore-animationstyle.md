@@ -54,35 +54,35 @@ Contains values for the AnimationStyle text attribute.
 
 ## -enum-fields
 
-### -field AnimationStyle_None
+### -field AnimationStyle_None:0
 
 None.
 
-### -field AnimationStyle_LasVegasLights
+### -field AnimationStyle_LasVegasLights:1
 
 The bounding rectangle displays a border of alternating icons of different colors.
 
-### -field AnimationStyle_BlinkingBackground
+### -field AnimationStyle_BlinkingBackground:2
 
 The font and background alternate between assigned colors and contrasting colors.
 
-### -field AnimationStyle_SparkleText
+### -field AnimationStyle_SparkleText:3
 
 The background displays flashing, multicolored icons.
 
-### -field AnimationStyle_MarchingBlackAnts
+### -field AnimationStyle_MarchingBlackAnts:4
 
 The bounding rectangle displays moving black dashes.
 
-### -field AnimationStyle_MarchingRedAnts
+### -field AnimationStyle_MarchingRedAnts:5
 
 The bounding rectangle displays moving red dashes.
 
-### -field AnimationStyle_Shimmer
+### -field AnimationStyle_Shimmer:6
 
 The font alternates between solid and blurred.
 
-### -field AnimationStyle_Other
+### -field AnimationStyle_Other:-1
 
 Other.
 

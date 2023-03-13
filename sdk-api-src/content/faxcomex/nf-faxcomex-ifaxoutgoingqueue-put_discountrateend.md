@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_DiscountRateEnd
 title: IFaxOutgoingQueue::put_DiscountRateEnd (faxcomex.h)
-description: The IFaxOutgoingQueue::get_DiscountRateEnd property is a value that indicates the time at which the discount period for transmitting faxes ends. The discount period applies to outgoing faxes.
+description: The IFaxOutgoingQueue::get_DiscountRateEnd property is a value that indicates the time at which the discount period for transmitting faxes ends. The discount period applies to outgoing faxes. (Put)
 helpviewer_keywords: ["DiscountRateEnd property [Fax Service]","DiscountRateEnd property [Fax Service]","IFaxOutgoingQueue interface","IFaxOutgoingQueue interface [Fax Service]","DiscountRateEnd property","IFaxOutgoingQueue.DiscountRateEnd","IFaxOutgoingQueue.get_DiscountRateEnd","IFaxOutgoingQueue.put_DiscountRateEnd","IFaxOutgoingQueue::DiscountRateEnd","IFaxOutgoingQueue::get_DiscountRateEnd","IFaxOutgoingQueue::put_DiscountRateEnd","_mfax_faxoutgoingqueue.discountrateend","fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrateend_cpp","fax._mfax_faxoutgoingqueue_discountrateend","faxcomex/IFaxOutgoingQueue::DiscountRateEnd","faxcomex/IFaxOutgoingQueue::get_DiscountRateEnd","faxcomex/IFaxOutgoingQueue::put_DiscountRateEnd","put_DiscountRateEnd"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrateend_cpp.htm
 tech.root: Fax

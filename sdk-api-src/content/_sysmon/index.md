@@ -4,7 +4,7 @@ title: System Monitor
 ms.assetid: e50315b4-2438-36a1-bfa1-0741ed7a8d77
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # System Monitor

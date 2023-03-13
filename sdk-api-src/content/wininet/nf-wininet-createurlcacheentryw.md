@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.CreateUrlCacheEntryW
 title: CreateUrlCacheEntryW function (wininet.h)
-description: Creates a local file name for saving the cache entry based on the specified URL and the file name extension.
-helpviewer_keywords: ["CreateUrlCacheEntry","CreateUrlCacheEntry function [WinINet]","CreateUrlCacheEntryA","CreateUrlCacheEntryW","_inet_createurlcacheentry_function","wininet.createurlcacheentry","wininet/CreateUrlCacheEntry","wininet/CreateUrlCacheEntryA","wininet/CreateUrlCacheEntryW"]
+description: Creates a local file name for saving the cache entry based on the specified URL and the file name extension. (Unicode)
+helpviewer_keywords: ["CreateUrlCacheEntry", "CreateUrlCacheEntry function [WinINet]", "CreateUrlCacheEntryW", "_inet_createurlcacheentry_function", "wininet.createurlcacheentry", "wininet/CreateUrlCacheEntry", "wininet/CreateUrlCacheEntryW"]
 old-location: wininet\createurlcacheentry.htm
 tech.root: wininet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b

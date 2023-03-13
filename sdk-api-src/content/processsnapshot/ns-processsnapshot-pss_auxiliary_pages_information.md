@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_2
+UID: NS:processsnapshot.PSS_AUXILIARY_PAGES_INFORMATION
 title: PSS_AUXILIARY_PAGES_INFORMATION (processsnapshot.h)
 description: Holds auxiliary pages information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_AUXILIARY_PAGES_INFORMATION","PSS_AUXILIARY_PAGES_INFORMATION structure","proc_snap.pss_auxiliary_pages_information","processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"]
@@ -65,3 +65,4 @@ The count of auxiliary pages captured.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

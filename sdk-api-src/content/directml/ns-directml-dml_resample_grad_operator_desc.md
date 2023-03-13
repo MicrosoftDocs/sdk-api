@@ -3,7 +3,7 @@ UID: NS:directml.DML_RESAMPLE_GRAD_OPERATOR_DESC
 title: DML_RESAMPLE_GRAD_OPERATOR_DESC
 description: Computes backpropagation gradients for Resample (see [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)).
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 07/20/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -114,9 +114,16 @@ See *OutputPixelOffsets* in [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/dir
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
 ## Tensor constraints
-*InputGradientTensor* and *OutputGradientTensor* must have the same *DataType*.
+*InputGradientTensor* and *OutputGradientTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputGradientTensor | Input | 1 to 4 | FLOAT32, FLOAT16 |
+| OutputGradientTensor | Output | 1 to 4 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputGradientTensor | Input | 4 | FLOAT32, FLOAT16 |

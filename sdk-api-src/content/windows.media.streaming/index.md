@@ -4,7 +4,7 @@ title: Windows.Media.Streaming.h header
 ms.assetid: 9b4f8128-bd7f-360f-973e-176b548774c2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mediastreaming
 archived: true
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstUint64AField
 title: MI_ConstUint64AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstUint64AField)
 helpviewer_keywords: ["MI_ConstUint64AField","MI_ConstUint64AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstUint64AField","wmi._mi_constuint64afield","wmi_v2.mi_constuint64afield"]
 old-location: wmi_v2\mi_constuint64afield.htm
 tech.root: wmi_v2

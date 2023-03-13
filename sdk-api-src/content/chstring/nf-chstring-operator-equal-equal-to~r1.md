@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.operator-equal-equal-to~r1
 title: operator== (equal or equal to)
-description: 
+description: The chstring.operator-equal-equal-to~r1 function compares two strings. These operators are a convenient substitute for the case-sensitive Compare method.
 tech.root: wmi
 helpviewer_keywords: ["operator=="]
 ms.assetid: e6b1f1c4-6b0d-4a09-9dc1-ad85e00b4707
-ms.date: 05/20/2019
+ms.date: 08/10/2022
 ms.keywords: operator==
 targetos: Windows
 req.assembly: 

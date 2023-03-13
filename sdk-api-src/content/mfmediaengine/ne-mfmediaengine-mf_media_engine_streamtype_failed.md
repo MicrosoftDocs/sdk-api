@@ -54,15 +54,15 @@ Identifies the kind of media stream that failed.
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_UNKNOWN
+### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_UNKNOWN:0
 
 The stream type is unknown.
 
-### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_AUDIO
+### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_AUDIO:1
 
 The stream is an audio stream.
 
-### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_VIDEO
+### -field MF_MEDIA_ENGINE_STREAMTYPE_FAILED_VIDEO:2
 
 The stream is a video stream.
 

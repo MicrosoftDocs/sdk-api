@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the logical coordinates of the current position.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the logical coordinates of the current position.
 
 ## -returns
 
@@ -84,4 +84,4 @@ If the function fails, the return value is zero.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

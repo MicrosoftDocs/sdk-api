@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCloseImage
 title: CimCloseImage
-ms.date: 9/9/2019
+description: The CimCloseImage function frees resources associated with the image handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCloseImage
 targetos: Windows

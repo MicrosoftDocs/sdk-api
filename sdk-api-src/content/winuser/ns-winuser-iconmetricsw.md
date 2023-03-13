@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagICONMETRICSW
 title: ICONMETRICSW (winuser.h)
-description: Contains the scalable metrics associated with icons. This structure is used with the SystemParametersInfo function when the SPI_GETICONMETRICS or SPI_SETICONMETRICS action is specified.
+description: Contains the scalable metrics associated with icons. This structure is used with the SystemParametersInfo function when the SPI_GETICONMETRICS or SPI_SETICONMETRICS action is specified. (Unicode)
 helpviewer_keywords: ["*LPICONMETRICSW","*PICONMETRICSW","ICONMETRICS","ICONMETRICS structure [Menus and Other Resources]","ICONMETRICSA","ICONMETRICSW","LPICONMETRICS","LPICONMETRICS structure pointer [Menus and Other Resources]","PICONMETRICS","PICONMETRICS structure pointer [Menus and Other Resources]","_win32_ICONMETRICS_str","_win32_iconmetrics_str_cpp","menurc.iconmetrics","winui._win32_iconmetrics_str","winuser/ICONMETRICS","winuser/ICONMETRICSA","winuser/ICONMETRICSW","winuser/LPICONMETRICS","winuser/PICONMETRICS"]
 old-location: menurc\iconmetrics.htm
 tech.root: menurc

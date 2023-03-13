@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Name
 title: IFsrmPipelineModuleDefinition::put_Name (fsrmpipeline.h)
-description: The name of the module definition.
+description: The name of the module definition. (Put)
 helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","Name property","IFsrmPipelineModuleDefinition.Name","IFsrmPipelineModuleDefinition.put_Name","IFsrmPipelineModuleDefinition::Name","IFsrmPipelineModuleDefinition::get_Name","IFsrmPipelineModuleDefinition::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_name","fsrm.ifsrmpipelinemoduledefinition_name","fsrmpipeline/IFsrmPipelineModuleDefinition::Name","fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name","fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name","put_Name"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm
 tech.root: fsrm

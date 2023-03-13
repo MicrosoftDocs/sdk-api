@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_DESC
 title: D3D11_BUFFER_DESC (d3d11.h)
-description: Describes a buffer resource.
+description: Describes a buffer resource. (D3D11_BUFFER_DESC)
 helpviewer_keywords: ["D3D11_BUFFER_DESC","D3D11_BUFFER_DESC structure [Direct3D 11]","d2dd6908-ed59-4009-c1dc-5afae3472d02","d3d11/D3D11_BUFFER_DESC","direct3d11.d3d11_buffer_desc"]
 old-location: direct3d11\d3d11_buffer_desc.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_EnableScreeningAudit
 title: IFsrmSetting::get_EnableScreeningAudit (fsrm.h)
-description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations.
+description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations. (Get)
 helpviewer_keywords: ["EnableScreeningAudit property [File Server Resource Manager]","EnableScreeningAudit property [File Server Resource Manager]","FsrmSetting class","EnableScreeningAudit property [File Server Resource Manager]","IFsrmSetting interface","FsrmSetting class [File Server Resource Manager]","EnableScreeningAudit property","IFsrmSetting interface [File Server Resource Manager]","EnableScreeningAudit property","IFsrmSetting.EnableScreeningAudit","IFsrmSetting.get_EnableScreeningAudit","IFsrmSetting::EnableScreeningAudit","IFsrmSetting::get_EnableScreeningAudit","IFsrmSetting::put_EnableScreeningAudit","fs.ifsrmsetting_enablescreeningaudit","fsrm.ifsrmsetting_enablescreeningaudit","fsrm/IFsrmSetting::EnableScreeningAudit","fsrm/IFsrmSetting::get_EnableScreeningAudit","fsrm/IFsrmSetting::put_EnableScreeningAudit","get_EnableScreeningAudit"]
 old-location: fsrm\ifsrmsetting_enablescreeningaudit.htm
 tech.root: fsrm

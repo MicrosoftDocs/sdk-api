@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsNameCompare
 title: DnsNameCompare macro (windns.h)
-description: The DnsNameCompare function compares two DNS names.
+description: The DnsNameCompare function compares two DNS names. (DnsNameCompare_UTF8)
 helpviewer_keywords: ["DnsNameCompare","DnsNameCompare function [DNS]","DnsNameCompare_A","DnsNameCompare_UTF8","DnsNameCompare_W","_dns_dnsnamecompare","dns.dnsnamecompare","windns/DnsNameCompare","windns/DnsNameCompare_A","windns/DnsNameCompare_UTF8","windns/DnsNameCompare_W"]
 old-location: dns\dnsnamecompare.htm
 tech.root: DNS

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.ScaleToRectangle
 title: IInkStrokeDisp::ScaleToRectangle (msinkaut.h)
-description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object.
+description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object. (IInkStrokeDisp.ScaleToRectangle)
 helpviewer_keywords: ["8bc22004-3781-4018-9a92-88958039248c","IInkStrokeDisp interface [Tablet PC]","ScaleToRectangle method","IInkStrokeDisp.ScaleToRectangle","IInkStrokeDisp::ScaleToRectangle","ScaleToRectangle","ScaleToRectangle method [Tablet PC]","ScaleToRectangle method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::ScaleToRectangle","tablet.iinkstrokedisp_scaletorectangle"]
 old-location: tablet\iinkstrokedisp_scaletorectangle.htm
 tech.root: tablet

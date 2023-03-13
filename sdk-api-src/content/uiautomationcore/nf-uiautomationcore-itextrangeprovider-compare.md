@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Compare
 title: ITextRangeProvider::Compare (uiautomationcore.h)
-description: Retrieves a value that specifies whether this text range has the same endpoints as another text range.
+description: Retrieves a value that specifies whether this text range has the same endpoints as another text range. (ITextRangeProvider.Compare)
 helpviewer_keywords: ["Compare","Compare method [Windows Accessibility]","Compare method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","Compare method","ITextRangeProvider.Compare","ITextRangeProvider::Compare","uiauto.uiauto_ITextRangeProvider_Compare","uiauto_ITextRangeProvider_Compare","uiautomationcore/ITextRangeProvider::Compare","winauto.uiauto_ITextRangeProvider_Compare"]
 old-location: winauto\uiauto_ITextRangeProvider_Compare.htm
 tech.root: WinAuto

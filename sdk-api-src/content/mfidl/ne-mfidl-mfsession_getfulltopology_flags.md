@@ -54,7 +54,7 @@ Defines flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasessi
 
 ## -enum-fields
 
-### -field MFSESSION_GETFULLTOPOLOGY_CURRENT
+### -field MFSESSION_GETFULLTOPOLOGY_CURRENT:0x1
 
 Get the full topology for the presentation that the Media Session is currently playing.
 

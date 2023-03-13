@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamHandler.BeginCreateObject
 title: IMFByteStreamHandler::BeginCreateObject (mfidl.h)
-description: Begins an asynchronous request to create a media source from a byte stream.
+description: Begins an asynchronous request to create a media source from a byte stream. (IMFByteStreamHandler.BeginCreateObject)
 helpviewer_keywords: ["31dffadd-4a5a-4306-80e9-9002782f092c","BeginCreateObject","BeginCreateObject method [Media Foundation]","BeginCreateObject method [Media Foundation]","IMFByteStreamHandler interface","IMFByteStreamHandler interface [Media Foundation]","BeginCreateObject method","IMFByteStreamHandler.BeginCreateObject","IMFByteStreamHandler::BeginCreateObject","mf.imfbytestreamhandler_begincreateobject","mfidl/IMFByteStreamHandler::BeginCreateObject"]
 old-location: mf\imfbytestreamhandler_begincreateobject.htm
 tech.root: mf

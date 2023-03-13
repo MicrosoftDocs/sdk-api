@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCRYPT_DH_PRIVATE_BLOB","BCRYPT_DH_PUBLIC_BLOB","BCRYPT_D
 old-location: security\ncryptexportkey_func.htm
 tech.root: security
 ms.assetid: 1588eb29-4026-4d1c-8bee-a035df38444a
-ms.date: 12/05/2018
+ms.date: 02/13/2023
 ms.keywords: BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, NCRYPT_CIPHER_KEY_BLOB, NCRYPT_OPAQUETRANSPORT_BLOB, NCRYPT_PKCS7_ENVELOPE_BLOB, NCRYPT_PKCS8_PRIVATE_KEY_BLOB, NCRYPT_PROTECTED_KEY_BLOB, NCRYPT_SILENT_FLAG, NCryptExportKey, NCryptExportKey function [Security], ncrypt/NCryptExportKey, security.ncryptexportkey_func
 req.header: ncrypt.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # NCryptExportKey function
 
-
 ## -description
 
-The <b>NCryptExportKey</b> function exports a CNG key to a memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The **NCryptExportKey** function exports a CNG key to a memory [BLOB](/windows/win32/SecGloss/b-gly).
 
 ## -parameters
 
@@ -66,353 +65,153 @@ A handle to a cryptographic key of the destination user. The key data within the
 
 A null-terminated Unicode string that contains an identifier that specifies the type of BLOB to export. This can be one of the following values.
 
-
-
 #### BCRYPT_DH_PRIVATE_BLOB
 
-Export a Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export a Diffie-Hellman [public/private key pair](/windows/win32/SecGloss/p-gly). The _pbOutput_ buffer receives a [BCRYPT_DH_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob) structure immediately followed by the key data.
 
 #### BCRYPT_DH_PUBLIC_BLOB
 
-Export a Diffie-Hellman <a href="/windows/desktop/SecGloss/p-gly">public key</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export a Diffie-Hellman [public key](/windows/win32/SecGloss/p-gly). The _pbOutput_ buffer receives a [BCRYPT_DH_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob) structure immediately followed by the key data.
 
 #### BCRYPT_DSA_PRIVATE_BLOB
 
-Export a DSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export a DSA public/private key pair. The _pbOutput_ buffer receives a [BCRYPT_DSA_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob) structure immediately followed by the key data.
 
 #### BCRYPT_DSA_PUBLIC_BLOB
 
-Export a DSA public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export a DSA public key. The _pbOutput_ buffer receives a [BCRYPT_DSA_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob) structure immediately followed by the key data.
 
 #### BCRYPT_ECCPRIVATE_BLOB
 
-Export an <a href="/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export an [elliptic curve cryptography](/windows/win32/SecGloss/e-gly) (ECC) [private key](/windows/win32/SecGloss/p-gly). The _pbOutput_ buffer receives a [BCRYPT_ECCKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob) structure immediately followed by the key data.
 
 #### BCRYPT_ECCPUBLIC_BLOB
 
-Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export an ECC public key. The _pbOutput_ buffer receives a [BCRYPT_ECCKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob) structure immediately followed by the key data.
 
 #### BCRYPT_PUBLIC_KEY_BLOB
 
-Export a generic public key of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
-
-
+Export a generic public key of any type. The type of key in this BLOB is determined by the **Magic** member of the [BCRYPT_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_key_blob) structure.
 
 #### BCRYPT_PRIVATE_KEY_BLOB
 
-Export a generic private key of any type.  The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
-
-
+Export a generic private key of any type.  The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the **Magic** member of the [BCRYPT_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_key_blob) structure.
 
 #### BCRYPT_RSAFULLPRIVATE_BLOB
 
-Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data. This BLOB will include additional key material compared to the <b>BCRYPT_RSAPRIVATE_BLOB</b> type.
-
-
+Export a full RSA public/private key pair. The _pbOutput_ buffer receives a [BCRYPT_RSAKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob) structure immediately followed by the key data. This BLOB will include additional key material compared to the **BCRYPT_RSAPRIVATE_BLOB** type.
 
 #### BCRYPT_RSAPRIVATE_BLOB
 
-Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export an RSA public/private key pair. The _pbOutput_ buffer receives a [BCRYPT_RSAKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob) structure immediately followed by the key data.
 
 #### BCRYPT_RSAPUBLIC_BLOB
 
-Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
-
-
+Export an RSA public key. The _pbOutput_ buffer receives a [BCRYPT_RSAKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob) structure immediately followed by the key data.
 
 #### LEGACY_DH_PRIVATE_BLOB
 
-Export a legacy <a href="/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that can be imported by using <a href="/windows/desktop/SecGloss/c-gly">CryptoAPI</a>.
-
-
+Export a legacy [Diffie-Hellman Version 3 Private Key BLOB](/windows/win32/SecCrypto/diffie-hellman-version-3-private-key-blobs) that contains a Diffie-Hellman public/private key pair that can be imported by using [CryptoAPI](/windows/win32/SecGloss/c-gly).
 
 #### LEGACY_DH_PUBLIC_BLOB
 
-Export a legacy <a href="/windows/desktop/SecCrypto/diffie-hellman-version-3-private-key-blobs">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
-
-
+Export a legacy [Diffie-Hellman Version 3 Private Key BLOB](/windows/win32/SecCrypto/diffie-hellman-version-3-private-key-blobs) that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
 
 #### LEGACY_DSA_PRIVATE_BLOB
 
 Export a DSA public/private key pair in a form that can be imported by using CryptoAPI.
 
-
-
 #### LEGACY_DSA_PUBLIC_BLOB
 
 Export a DSA public key in a form that can be imported by using CryptoAPI.
-
-
 
 #### LEGACY_RSAPRIVATE_BLOB
 
 Export an RSA public/private key pair in a form that can be imported by using CryptoAPI.
 
-
-
 #### LEGACY_RSAPUBLIC_BLOB
 
 Export an RSA public key in a form that can be imported by using CryptoAPI.
 
-
-
 #### NCRYPT_CIPHER_KEY_BLOB
 
-Export a cipher key in a <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
+Export a cipher key in a [NCRYPT_KEY_BLOB_HEADER](/windows/win32/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header) structure.
 
-<b>Windows 8 and Windows Server 2012:  </b>Support for this value begins.
-
-
+**Windows 8 and Windows Server 2012:** Support for this value begins.
 
 #### NCRYPT_OPAQUETRANSPORT_BLOB
 
 Export a key in a format that is specific to a single CSP and is suitable for transport. Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.
 
-
-
 #### NCRYPT_PKCS7_ENVELOPE_BLOB
 
-Export a PKCS #7 envelope BLOB. The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
+Export a PKCS #7 envelope BLOB. The parameters identified by the _pParameterList_ parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_CERT_BLOB
-
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_PKCS_ALG_OID
-
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_PKCS_ALG_PARAM
-
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-</table>
- 
-
-
+| Parameter | Required or optional |
+|--------|--------|
+| NCRYPTBUFFER_CERT_BLOB | Required |
+| NCRYPTBUFFER_PKCS_ALG_OID | Required |
+| NCRYPTBUFFER_PKCS_ALG_PARAM | Optional |
 
 #### NCRYPT_PKCS8_PRIVATE_KEY_BLOB
 
-Export a PKCS #8 private key BLOB. The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
+Export a PKCS #8 private key BLOB. The parameters identified by the _pParameterList_ parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_PKCS_ALG_OID
-
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_PKCS_ALG_PARAM
-
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-
-NCRYPTBUFFER_PKCS_SECRET
-
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-</table>
- 
-
-
+| Parameter | Required or optional |
+|--------|--------|
+| NCRYPTBUFFER_PKCS_ALG_OID | Optional |
+| NCRYPTBUFFER_PKCS_ALG_PARAM | Optional |
+| NCRYPTBUFFER_PKCS_SECRET | Optional |
 
 #### NCRYPT_PROTECTED_KEY_BLOB
 
-Export a protected key in a <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header">NCRYPT_KEY_BLOB_HEADER</a> structure.
+Export a protected key in a [NCRYPT_KEY_BLOB_HEADER](/windows/win32/api/ncrypt/ns-ncrypt-ncrypt_key_blob_header) structure.
 
-<b>Windows 8 and Windows Server 2012:  </b>Support for this value begins.
+**Windows 8 and Windows Server 2012:** Support for this value begins.
 
 ### -param pParameterList [in, optional]
 
-The address of an <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that receives parameter information for the key. This parameter can be <b>NULL</b> if this information is not needed.
+The address of an [NCryptBufferDesc](/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc) structure that receives parameter information for the key. This parameter can be **NULL** if this information is not needed.
 
 ### -param pbOutput [out, optional]
 
-The address of a buffer that receives the key BLOB. The <i>cbOutput</i> parameter contains the size of this buffer. If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by the <i>pcbResult</i> parameter.
+The address of a buffer that receives the key BLOB. The _cbOutput_ parameter contains the size of this buffer. If this parameter is **NULL**, this function will place the required size, in bytes, in the **DWORD** pointed to by the _pcbResult_ parameter.
 
 ### -param cbOutput [in]
 
-The size, in bytes, of the <i>pbOutput</i> buffer.
+The size, in bytes, of the _pbOutput_ buffer.
 
 ### -param pcbResult [out]
 
-The address of a <b>DWORD</b> variable that receives the number of bytes copied to the <i>pbOutput</i> buffer. If the <i>pbOutput</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by this parameter.
+The address of a **DWORD** variable that receives the number of bytes copied to the _pbOutput_ buffer. If the _pbOutput_ parameter is **NULL**, this function will place the required size, in bytes, in the **DWORD** pointed to by this parameter.
 
 ### -param dwFlags [in]
 
 Flags that modify function behavior. This can be zero or a combination of one or more of the following values.  The set of valid flags is specific to each key storage provider. The following flag applies to all providers.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NCRYPT_SILENT_FLAG"></a><a id="ncrypt_silent_flag"></a><dl>
-<dt><b>NCRYPT_SILENT_FLAG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--------|--------|
+| NCRYPT_SILENT_FLAG | Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
-
 Possible return codes include, but are not limited to, the following.
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_BAD_FLAGS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>dwFlags</i> parameter contains a value that is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_BAD_KEY_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The key specified by the <i>hKey</i> parameter is not valid. The most common cause of this error is that the key was not completed by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_BAD_TYPE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The key specified by the <i>hKey</i> parameter cannot be exported into the BLOB type specified by the <i>pszBlobType</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>hKey</i> or the <i>hExportKey</i> parameter is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--------|--------|
+| ERROR_SUCCESS | The function was successful. |
+| NTE_BAD_FLAGS | The _dwFlags_ parameter contains a value that is not valid. |
+| NTE_BAD_KEY_STATE | The key specified by the _hKey_ parameter is not valid. The most common cause of this error is that the key was not completed by using the [NCryptFinalizeKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfinalizekey) function. |
+| NTE_BAD_TYPE | The key specified by the _hKey_ parameter cannot be exported into the BLOB type specified by the _pszBlobType_ parameter. |
+| NTE_INVALID_HANDLE | The _hKey_ or the _hExportKey_ parameter is not valid. |
+| NTE_INVALID_PARAMETER | One or more parameters are not valid. |
 
 ## -remarks
 
-A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its [StartService Function](/windows/win32/api/winsvc/nf-winsvc-startservicea). If a service calls this function from its **StartService** function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
+- [NCryptBuffer](/windows/win32/api/bcrypt/ns-bcrypt-bcryptbuffer)

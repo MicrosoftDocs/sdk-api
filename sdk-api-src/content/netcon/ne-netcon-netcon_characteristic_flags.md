@@ -59,81 +59,81 @@ The
 
 ## -enum-fields
 
-### -field NCCF_NONE
+### -field NCCF_NONE:0
 
 No special characteristics.
 
-### -field NCCF_ALL_USERS
+### -field NCCF_ALL_USERS:0x1
 
 Connection is available to all users.
 
-### -field NCCF_ALLOW_DUPLICATION
+### -field NCCF_ALLOW_DUPLICATION:0x2
 
 Connection is duplicable.
 
-### -field NCCF_ALLOW_REMOVAL
+### -field NCCF_ALLOW_REMOVAL:0x4
 
 Connection is removable.
 
-### -field NCCF_ALLOW_RENAME
+### -field NCCF_ALLOW_RENAME:0x8
 
 Connection can be renamed.
 
-### -field NCCF_INCOMING_ONLY
+### -field NCCF_INCOMING_ONLY:0x20
 
 Direction is "incoming" only.
 
-### -field NCCF_OUTGOING_ONLY
+### -field NCCF_OUTGOING_ONLY:0x40
 
 Direction is "outgoing" only.
 
-### -field NCCF_BRANDED
+### -field NCCF_BRANDED:0x80
 
 Icons are branded.
 
-### -field NCCF_SHARED
+### -field NCCF_SHARED:0x100
 
 Connection is shared.
 
-### -field NCCF_BRIDGED
+### -field NCCF_BRIDGED:0x200
 
 Connection is bridged.
 
-### -field NCCF_FIREWALLED
+### -field NCCF_FIREWALLED:0x400
 
 Connection is firewalled.
 
-### -field NCCF_DEFAULT
+### -field NCCF_DEFAULT:0x800
 
 Connection is the default connection.
 
-### -field NCCF_HOMENET_CAPABLE
+### -field NCCF_HOMENET_CAPABLE:0x1000
 
 Device supports home networking.
 
-### -field NCCF_SHARED_PRIVATE
+### -field NCCF_SHARED_PRIVATE:0x2000
 
 Connection is private (part of ICS).
 
-### -field NCCF_QUARANTINED
+### -field NCCF_QUARANTINED:0x4000
 
 Connection is quarantined.
 
-### -field NCCF_RESERVED
+### -field NCCF_RESERVED:0x8000
 
 Unused.
 
-### -field NCCF_HOSTED_NETWORK
+### -field NCCF_HOSTED_NETWORK:0x10000
 
-### -field NCCF_VIRTUAL_STATION
+### -field NCCF_VIRTUAL_STATION:0x20000
 
-### -field NCCF_WIFI_DIRECT
+### -field NCCF_WIFI_DIRECT:0x40000
 
-### -field NCCF_BLUETOOTH_MASK
+### -field NCCF_BLUETOOTH_MASK:0xf0000
 
 Bluetooth characteristics.
 
-### -field NCCF_LAN_MASK
+### -field NCCF_LAN_MASK:0xf00000
 
 LAN characteristics.
 

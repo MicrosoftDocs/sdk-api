@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsIscsiPortalLocal.SetIpsecSecurityLocal)
 helpviewer_keywords: ["IVdsIscsiPortalLocal interface [VDS]","SetIpsecSecurityLocal method","IVdsIscsiPortalLocal.SetIpsecSecurityLocal","IVdsIscsiPortalLocal::SetIpsecSecurityLocal","SetIpsecSecurityLocal","SetIpsecSecurityLocal method [VDS]","SetIpsecSecurityLocal method [VDS]","IVdsIscsiPortalLocal interface","base.ivdsiscsiportallocal_setipsecsecuritylocal","vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal"]
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
 tech.root: base
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

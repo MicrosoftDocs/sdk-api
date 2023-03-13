@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetProperty
 title: ImmGetProperty function (immdev.h)
-description: Retrieves the property and capabilities of the IME associated with the specified input locale.
+description: The ImmGetProperty function (immdev.h) retrieves the property and capabilities of the IME associated with the specified input locale. 
 helpviewer_keywords: ["IGP_CONVERSION","IGP_GETIMEVERSION","IGP_PROPERTY","IGP_SELECT","IGP_SENTENCE","IGP_SETCOMPSTR","IGP_UI","ImmGetProperty","ImmGetProperty function [Internationalization for Windows Applications]","_win32_ImmGetProperty","imm/ImmGetProperty","intl.immgetproperty"]
 old-location: intl\immgetproperty.htm
 tech.root: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

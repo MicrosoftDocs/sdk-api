@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongPtrW
 title: SetWindowLongPtrW function (winuser.h)
-description: Changes an attribute of the specified window.
-helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","SetWindowLongPtr","SetWindowLongPtr function [Windows and Messages]","SetWindowLongPtrA","SetWindowLongPtrW","_win32_SetWindowLongPtr","_win32_setwindowlongptr_cpp","winmsg.setwindowlongptr","winui._win32_setwindowlongptr","winuser/SetWindowLongPtr","winuser/SetWindowLongPtrA","winuser/SetWindowLongPtrW"]
+description: Changes an attribute of the specified window. (Unicode)
+helpviewer_keywords: ["DWLP_DLGPROC", "DWLP_MSGRESULT", "DWLP_USER", "GWLP_HINSTANCE", "GWLP_ID", "GWLP_USERDATA", "GWLP_WNDPROC", "GWL_EXSTYLE", "GWL_STYLE", "SetWindowLongPtr", "SetWindowLongPtr function [Windows and Messages]", "SetWindowLongPtrW", "_win32_SetWindowLongPtr", "_win32_setwindowlongptr_cpp", "winmsg.setwindowlongptr", "winui._win32_setwindowlongptr", "winuser/SetWindowLongPtr", "winuser/SetWindowLongPtrW"]
 old-location: winmsg\setwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm

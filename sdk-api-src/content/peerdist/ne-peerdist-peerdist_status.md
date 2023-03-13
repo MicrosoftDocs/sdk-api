@@ -1,5 +1,5 @@
 ---
-UID: NE:peerdist.__unnamed_enum_0
+UID: NE:peerdist.PEERDIST_STATUS
 title: PEERDIST_STATUS (peerdist.h)
 description: PEERDIST_STATUS enumeration defines the possible status values of the Peer Distribution service.
 helpviewer_keywords: ["PEERDIST_STATUS","PEERDIST_STATUS enumeration [Peer Networking]","PEERDIST_STATUS_AVAILABLE","PEERDIST_STATUS_DISABLED","PEERDIST_STATUS_UNAVAILABLE","p2p.peerdist_status","peerdist/PEERDIST_STATUS","peerdist/PEERDIST_STATUS_AVAILABLE","peerdist/PEERDIST_STATUS_DISABLED","peerdist/PEERDIST_STATUS_UNAVAILABLE"]
@@ -69,3 +69,4 @@ The Peer Distribution service  is available and ready to process  requests.
 ## -see-also
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistgetstatus">PeerDistGetStatus</a>
+

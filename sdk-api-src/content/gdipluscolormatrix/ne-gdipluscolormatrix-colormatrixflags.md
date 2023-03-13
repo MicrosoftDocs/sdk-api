@@ -56,15 +56,15 @@ The <b>ColorMatrixFlags</b> enumeration specifies the types of images and colors
 
 ## -enum-fields
 
-### -field ColorMatrixFlagsDefault
+### -field ColorMatrixFlagsDefault:0
 
 Specifies that all color values (including grays) are adjusted by the same color-adjustment matrix.
 
-### -field ColorMatrixFlagsSkipGrays
+### -field ColorMatrixFlagsSkipGrays:1
 
 Specifies that colors are adjusted but gray shades are not adjusted. A gray shade is any color that has the same value for its red, green, and blue components.
 
-### -field ColorMatrixFlagsAltGray
+### -field ColorMatrixFlagsAltGray:2
 
 Specifies that colors are adjusted by one matrix and gray shades are adjusted by another matrix.
 

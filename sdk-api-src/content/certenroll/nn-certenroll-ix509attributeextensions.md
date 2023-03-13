@@ -63,7 +63,7 @@ CertificationRequestInfo ::= SEQUENCE
 }
 
 ```
-Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="/windows/desktop/SecCrypto/attributes">Attributes</a> and <a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>.
+Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="/windows/desktop/SecCrypto/attributes">Attributes</a> and <a href="/windows/win32/seccrypto/extensions">Extensions</a>.
 
 ``` syntax
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetSetOptionW
 title: InternetSetOptionW function (wininet.h)
-description: Sets an Internet option.
-helpviewer_keywords: ["InternetSetOption","InternetSetOption function [WinINet]","InternetSetOptionA","InternetSetOptionW","_inet_internetsetoption_function","wininet.internetsetoption","wininet/InternetSetOption","wininet/InternetSetOptionA","wininet/InternetSetOptionW"]
+description: Sets an Internet option. (Unicode)
+helpviewer_keywords: ["InternetSetOption", "InternetSetOption function [WinINet]", "InternetSetOptionW", "_inet_internetsetoption_function", "wininet.internetsetoption", "wininet/InternetSetOption", "wininet/InternetSetOptionW"]
 old-location: wininet\internetsetoption.htm
 tech.root: wininet
 ms.assetid: 578c7130-7426-4a2e-ae0f-ed8a84449b06

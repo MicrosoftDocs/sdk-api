@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_25
+UID: NS:windns.DNS_DS_DATA
 title: DNS_DS_DATA (windns.h)
 description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
 helpviewer_keywords: ["*PDNS_DS_DATA","1","2","3","4","5","DNS_DS_DATA","DNS_DS_DATA structure [DNS]","PDNS_DS_DATA","PDNS_DS_DATA structure pointer [DNS]","dns.dns_ds_data","windns/DNS_DS_DATA","windns/PDNS_DS_DATA"]
@@ -171,3 +171,4 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

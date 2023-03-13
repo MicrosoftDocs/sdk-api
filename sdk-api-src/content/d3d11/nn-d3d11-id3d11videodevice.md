@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoDevice
 title: ID3D11VideoDevice (d3d11.h)
-description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
+description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device. (ID3D11VideoDevice)
 helpviewer_keywords: ["ID3D11VideoDevice","ID3D11VideoDevice interface [Media Foundation]","ID3D11VideoDevice interface [Media Foundation]","described","d3d11/ID3D11VideoDevice","mf.id3d11videodevice"]
 old-location: mf\id3d11videodevice.htm
 tech.root: mf

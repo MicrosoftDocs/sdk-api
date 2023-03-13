@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetDepthStencilSurface
 title: IDirect3DDevice9::GetDepthStencilSurface (d3d9helper.h)
-description: Gets the depth-stencil surface owned by the Direct3DDevice object.
+description: The IDirect3DDevice9::GetDepthStencilSurface method (d3d9.h) gets the depth-stencil surface owned by the Direct3DDevice object.
 helpviewer_keywords: ["838c2e61-ca4b-a0a4-7c79-dcedf679f8be","GetDepthStencilSurface","GetDepthStencilSurface method [Direct3D 9]","GetDepthStencilSurface method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetDepthStencilSurface method","IDirect3DDevice9.GetDepthStencilSurface","IDirect3DDevice9::GetDepthStencilSurface","d3d9helper/IDirect3DDevice9::GetDepthStencilSurface","direct3d9.idirect3ddevice9__getdepthstencilsurface"]
 old-location: direct3d9\idirect3ddevice9__getdepthstencilsurface.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdepthstencilsurface.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 838c2e61-ca4b-a0a4-7c79-dcedf679f8be, GetDepthStencilSurface, GetDepthStencilSurface method [Direct3D 9], GetDepthStencilSurface method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDepthStencilSurface method, IDirect3DDevice9.GetDepthStencilSurface, IDirect3DDevice9::GetDepthStencilSurface, d3d9helper/IDirect3DDevice9::GetDepthStencilSurface, direct3d9.idirect3ddevice9__getdepthstencilsurface
 req.header: d3d9helper.h
 req.include-header: D3D9.h

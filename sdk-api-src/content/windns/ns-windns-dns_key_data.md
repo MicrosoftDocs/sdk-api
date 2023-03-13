@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_18
+UID: NS:windns.DNS_KEY_DATA
 title: DNS_KEY_DATA (windns.h)
 description: The DNS_KEY_DATA structure represents a DNS key (KEY) resource record (RR) as specified in RFC 3445.
 helpviewer_keywords: ["*PDNS_DNSKEY_DATA","*PDNS_KEY_DATA","1","2","3","4","5","DNS_DNSKEY_DATA","DNS_DNSKEY_DATA structure [DNS]","DNS_KEY_DATA","DNS_KEY_DATA structure [DNS]","PDNS_DNSKEY_DATA","PDNS_DNSKEY_DATA structure pointer [DNS]","PDNS_KEY_DATA","PDNS_KEY_DATA structure pointer [DNS]","_dns_dns_key_data","dns.dns_key_data","windns/DNS_DNSKEY_DATA","windns/DNS_KEY_DATA","windns/PDNS_DNSKEY_DATA","windns/PDNS_KEY_DATA"]
@@ -176,3 +176,4 @@ The value of the <b>wFlags</b> member for <a href="/previous-versions/windows/de
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

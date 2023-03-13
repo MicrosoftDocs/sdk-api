@@ -56,7 +56,7 @@ The <b>RpcCallType</b> enumeration specifies the set of RPC call types.
 
 ## -enum-fields
 
-### -field rctInvalid
+### -field rctInvalid:0
 
 The remote procedure call is invalid.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetArguments
 title: IShellLinkW::GetArguments (shobjidl_core.h)
-description: Gets the command-line arguments associated with a Shell link object.
+description: Gets the command-line arguments associated with a Shell link object. (Unicode)
 helpviewer_keywords: ["GetArguments","GetArguments method [Windows Shell]","GetArguments method [Windows Shell]","IShellLink interface","GetArguments method [Windows Shell]","IShellLinkA interface","GetArguments method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetArguments method","IShellLink::GetArguments","IShellLinkA interface [Windows Shell]","GetArguments method","IShellLinkA.GetArguments","IShellLinkA::GetArguments","IShellLinkW interface [Windows Shell]","GetArguments method","IShellLinkW.GetArguments","IShellLinkW::GetArguments","_win32_IShellLink_GetArguments","shell.IShellLink_GetArguments","shobjidl_core/IShellLink::GetArguments","shobjidl_core/IShellLinkA::GetArguments","shobjidl_core/IShellLinkW::GetArguments"]
 old-location: shell\IShellLink_GetArguments.htm
 tech.root: shell

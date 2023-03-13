@@ -2,9 +2,9 @@
 UID: NN:windows.ui.viewmanagement.core.coreframeworkinputviewinterop.ICoreFrameworkInputViewInterop
 tech.root: 
 title: ICoreFrameworkInputViewInterop
-ms.date: 
+description: The ICoreFrameworkInputViewInterop interface is to be determined.
+ms.date: 08/03/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: iface

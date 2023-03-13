@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionParameterReflection
 title: ID3D11FunctionParameterReflection (d3d11shader.h)
-description: A function-parameter-reflection interface accesses function-parameter info.
+description: A function-parameter-reflection interface accesses function-parameter info. (ID3D11FunctionParameterReflection)
 helpviewer_keywords: ["ID3D11FunctionParameterReflection","ID3D11FunctionParameterReflection interface [Direct3D 11]","ID3D11FunctionParameterReflection interface [Direct3D 11]","described","d3d11shader/ID3D11FunctionParameterReflection","direct3d11.id3d11functionparameterreflection"]
 old-location: direct3d11\id3d11functionparameterreflection.htm
 tech.root: direct3d11
@@ -58,7 +58,7 @@ A function-parameter-reflection interface accesses function-parameter info. <div
 
 The <b>ID3D11FunctionParameterReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11FunctionParameterReflection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetIDList
 title: IShellLinkW::GetIDList (shobjidl_core.h)
-description: Gets the list of item identifiers for the target of a Shell link object.
+description: Gets the list of item identifiers for the target of a Shell link object. (Unicode)
 helpviewer_keywords: ["GetIDList","GetIDList method [Windows Shell]","GetIDList method [Windows Shell]","IShellLink interface","GetIDList method [Windows Shell]","IShellLinkA interface","GetIDList method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetIDList method","IShellLink::GetIDList","IShellLinkA interface [Windows Shell]","GetIDList method","IShellLinkA::GetIDList","IShellLinkW interface [Windows Shell]","GetIDList method","IShellLinkW.GetIDList","IShellLinkW::GetIDList","_win32_IShellLink_GetIDList","shell.IShellLink_GetIDList","shobjidl_core/IShellLink::GetIDList","shobjidl_core/IShellLinkA::GetIDList","shobjidl_core/IShellLinkW::GetIDList"]
 old-location: shell\IShellLink_GetIDList.htm
 tech.root: shell

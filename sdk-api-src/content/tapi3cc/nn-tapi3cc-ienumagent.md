@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3cc.IEnumAgent
 title: IEnumAgent (tapi3cc.h)
-description: Enumerator interface for ITAgent.
+description: IEnumAgent (tapi3cc.h) is the enumerator interface for ITAgent.
 helpviewer_keywords: ["IEnumAgent","IEnumAgent interface [TAPI 2.2]","IEnumAgent interface [TAPI 2.2]","described","_tapi3_ienumagent","tapi3.ienumagent","tapi3cc/IEnumAgent"]
 old-location: tapi3\ienumagent.htm
 tech.root: tapi3
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

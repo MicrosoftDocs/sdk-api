@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1StrokeStyle
 title: ID2D1StrokeStyle (d2d1.h)
-description: Describes the caps, miter limit, line join, and dash information for a stroke.
+description: Describes the caps, miter limit, line join, and dash information for a stroke. (ID2D1StrokeStyle)
 helpviewer_keywords: ["ID2D1StrokeStyle","ID2D1StrokeStyle interface [Direct2D]","ID2D1StrokeStyle interface [Direct2D]","described","d2d1/ID2D1StrokeStyle","direct2d.ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1StrokeStyle.htm
 tech.root: Direct2D

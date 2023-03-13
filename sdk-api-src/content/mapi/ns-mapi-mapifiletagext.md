@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.__unnamed_struct_2
+UID: NS:mapi.MapiFileTagExt
 title: MapiFileTagExt (mapi.h)
 description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
 helpviewer_keywords: ["*lpMapiFileTagExt","MapiFileTagExt","MapiFileTagExt structure","lpMapiFileTagExt","lpMapiFileTagExt structure pointer","mapi.mapifiletagext","mapi/MapiFileTagExt","mapi/lpMapiFileTagExt"]
@@ -105,3 +105,4 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 
 <a href="/previous-versions/office/developer/office-2007/cc765770(v=office.12)">PidTagAttachTag Canonical Property</a>
+

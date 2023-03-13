@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor_1.ID2D1EffectContext1
 title: ID2D1EffectContext1 (d2d1effectauthor_1.h)
-description: Provides factory methods and other state management for effect and transform authors.
+description: Provides factory methods and other state management for effect and transform authors. (ID2D1EffectContext1)
 helpviewer_keywords: ["ID2D1EffectContext1","ID2D1EffectContext1 interface [Direct2D]","ID2D1EffectContext1 interface [Direct2D]","described","d2d1effectauthor_1/ID2D1EffectContext1","direct2d.id2d1effectcontext1"]
 old-location: direct2d\id2d1effectcontext1.htm
 tech.root: Direct2D

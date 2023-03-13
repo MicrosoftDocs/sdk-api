@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFamilyNames
 title: IDWriteFontFamily::GetFamilyNames (dwrite.h)
-description: Creates a localized strings object that contains the family names for the font family, indexed by locale name.
+description: Creates a localized strings object that contains the family names for the font family, indexed by locale name. (IDWriteFontFamily.GetFamilyNames)
 helpviewer_keywords: ["GetFamilyNames","GetFamilyNames method [Direct Write]","GetFamilyNames method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetFamilyNames method","IDWriteFontFamily.GetFamilyNames","IDWriteFontFamily::GetFamilyNames","directwrite.IDWriteFontFamily_GetFamilyNames","dwrite/IDWriteFontFamily::GetFamilyNames"]
 old-location: directwrite\IDWriteFontFamily_GetFamilyNames.htm
 tech.root: DirectWrite

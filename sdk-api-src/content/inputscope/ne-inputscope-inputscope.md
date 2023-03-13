@@ -53,11 +53,11 @@ The <a href="/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope<
 
 ## -enum-fields
 
-### -field IS_DEFAULT
+### -field IS_DEFAULT:0
 
 Indicates the standard recognition bias. Treated as default and uses the default lexicon. If combined with another input scope, it does not force coercion on the other input scope.
 
-### -field IS_URL
+### -field IS_URL:1
 
 Indicates a URL, File, or FTP format. Examples include the following.
 
@@ -69,7 +69,7 @@ Indicates a URL, File, or FTP format. Examples include the following.
 <li>$</li>
 </ul>
 
-### -field IS_FILE_FULLFILEPATH
+### -field IS_FILE_FULLFILEPATH:2
 
 Indicates a file path. The following conditions are enforced.
 
@@ -87,7 +87,7 @@ Examples include the following.
 <li>../images/hank.jpg</li>
 </ul>
 
-### -field IS_FILE_FILENAME
+### -field IS_FILE_FILENAME:3
 
 Indicates a file name. The following conditions are enforced.
 
@@ -104,7 +104,7 @@ Examples include the following:
 <li>file name.txt</li>
 </ul>
 
-### -field IS_EMAIL_USERNAME
+### -field IS_EMAIL_USERNAME:4
 
 Indicates email user names. Examples include the following.
 
@@ -116,11 +116,11 @@ Indicates email user names. Examples include the following.
 <li>jeffsmith</li>
 </ul>
 
-### -field IS_EMAIL_SMTPEMAILADDRESS
+### -field IS_EMAIL_SMTPEMAILADDRESS:5
 
 Indicates a complete SMTP email address, for example, someone@example.com.
 
-### -field IS_LOGINNAME
+### -field IS_LOGINNAME:6
 
 Indicates a log-in name and domain. The following conditions are enforced.
 
@@ -136,7 +136,7 @@ Examples include the following.
 <li>JSMITH</li>
 </ul>
 
-### -field IS_PERSONALNAME_FULLNAME
+### -field IS_PERSONALNAME_FULLNAME:7
 
 Indicates a combination of first, middle, and last names. Examples include the following, formatted for English (United States).
 
@@ -147,7 +147,7 @@ Indicates a combination of first, middle, and last names. Examples include the f
 <li>Smith, Jeff A</li>
 </ul>
 
-### -field IS_PERSONALNAME_PREFIX
+### -field IS_PERSONALNAME_PREFIX:8
 
 Indicates a honorific or title preceding a name. Examples include the following, formatted for English (United States).
 
@@ -158,7 +158,7 @@ Indicates a honorific or title preceding a name. Examples include the following,
 <li>Sir</li>
 </ul>
 
-### -field IS_PERSONALNAME_GIVENNAME
+### -field IS_PERSONALNAME_GIVENNAME:9
 
 Indicates a first name or initial. Examples include the following, formatted for English (United States).
 
@@ -168,7 +168,7 @@ Indicates a first name or initial. Examples include the following, formatted for
 <li>J.A.</li>
 </ul>
 
-### -field IS_PERSONALNAME_MIDDLENAME
+### -field IS_PERSONALNAME_MIDDLENAME:10
 
 Indicates a middle name or initial. Examples include the following.
 
@@ -177,7 +177,7 @@ Indicates a middle name or initial. Examples include the following.
 <li>A.</li>
 </ul>
 
-### -field IS_PERSONALNAME_SURNAME
+### -field IS_PERSONALNAME_SURNAME:11
 
 Indicates a last name. Examples include the following, formatted for English (United States).
 
@@ -187,7 +187,7 @@ Indicates a last name. Examples include the following, formatted for English (Un
 <li>Smith-Jones</li>
 </ul>
 
-### -field IS_PERSONALNAME_SUFFIX
+### -field IS_PERSONALNAME_SUFFIX:12
 
 Indicates a name suffix abbreviation or Roman numerals. Examples include the following.
 
@@ -196,7 +196,7 @@ Indicates a name suffix abbreviation or Roman numerals. Examples include the fol
 <li>III</li>
 </ul>
 
-### -field IS_ADDRESS_FULLPOSTALADDRESS
+### -field IS_ADDRESS_FULLPOSTALADDRESS:13
 
 Indicates a full address, including numbers. Examples include the following, formatted for English (United States).
 
@@ -205,7 +205,7 @@ Indicates a full address, including numbers. Examples include the following, for
 <li>PO Box 123 Anytown, WA 98989</li>
 </ul>
 
-### -field IS_ADDRESS_POSTALCODE
+### -field IS_ADDRESS_POSTALCODE:14
 
 Indicates an alphanumeric postal code. The value is alphanumeric to support international zip codes. Examples include the following, formatted for English (United States).
 
@@ -214,7 +214,7 @@ Indicates an alphanumeric postal code. The value is alphanumeric to support inte
 <li>98989-1234</li>
 </ul>
 
-### -field IS_ADDRESS_STREET
+### -field IS_ADDRESS_STREET:15
 
 Indicates a house number, street number, apartment name and number, and/or postal box. Examples include the following.
 
@@ -223,7 +223,7 @@ Indicates a house number, street number, apartment name and number, and/or posta
 <li>P.O. Box 1234</li>
 </ul>
 
-### -field IS_ADDRESS_STATEORPROVINCE
+### -field IS_ADDRESS_STATEORPROVINCE:16
 
 Indicates a full name or abbreviation of state or province. Examples include the following, formatted for English (United States).
 
@@ -233,7 +233,7 @@ Indicates a full name or abbreviation of state or province. Examples include the
 <li>Wa</li>
 </ul>
 
-### -field IS_ADDRESS_CITY
+### -field IS_ADDRESS_CITY:17
 
 Indicates the name or abbreviation of a city. Examples include the following, formatted for English (United States).
 
@@ -242,7 +242,7 @@ Indicates the name or abbreviation of a city. Examples include the following, fo
 <li>NYC</li>
 </ul>
 
-### -field IS_ADDRESS_COUNTRYNAME
+### -field IS_ADDRESS_COUNTRYNAME:18
 
 Indicates the name of a country/region. Examples include the following, formatted for English (United States).
 
@@ -252,7 +252,7 @@ Indicates the name of a country/region. Examples include the following, formatte
 <li>United States of America</li>
 </ul>
 
-### -field IS_ADDRESS_COUNTRYSHORTNAME
+### -field IS_ADDRESS_COUNTRYSHORTNAME:19
 
 Indicates the abbreviation of the name of a country/region. Examples include the following, formatted for English (United States).
 
@@ -261,7 +261,7 @@ Indicates the abbreviation of the name of a country/region. Examples include the
 <li>U.S.A.</li>
 </ul>
 
-### -field IS_CURRENCY_AMOUNTANDSYMBOL
+### -field IS_CURRENCY_AMOUNTANDSYMBOL:20
 
 Indicates currency symbols and numbers. Examples include the following, formatted for English (United States).
 
@@ -271,11 +271,11 @@ Indicates currency symbols and numbers. Examples include the following, formatte
 <li>$1,234.50 USD</li>
 </ul>
 
-### -field IS_CURRENCY_AMOUNT
+### -field IS_CURRENCY_AMOUNT:21
 
 Indicates a numeric value for currency, excluding currency symbols. For example, 2,100.25.
 
-### -field IS_DATE_FULLDATE
+### -field IS_DATE_FULLDATE:22
 
 Indicates a full date, in a variety of formats. Examples include the following, formatted for English (United States).
 
@@ -288,7 +288,7 @@ Indicates a full date, in a variety of formats. Examples include the following, 
 <li>July 17, 2001</li>
 </ul>
 
-### -field IS_DATE_MONTH
+### -field IS_DATE_MONTH:23
 
 Indicates a numeric representation of months, constrained to 1-12. Examples include the following.
 
@@ -298,7 +298,7 @@ Indicates a numeric representation of months, constrained to 1-12. Examples incl
 <li>11</li>
 </ul>
 
-### -field IS_DATE_DAY
+### -field IS_DATE_DAY:24
 
 Indicates a numeric representation of days, constrained to 1-31. Examples include the following.
 
@@ -308,7 +308,7 @@ Indicates a numeric representation of days, constrained to 1-31. Examples includ
 <li>17</li>
 </ul>
 
-### -field IS_DATE_YEAR
+### -field IS_DATE_YEAR:25
 
 Indicates a numeric representation of years. Examples include the following.
 
@@ -320,7 +320,7 @@ Indicates a numeric representation of years. Examples include the following.
 <li>'88</li>
 </ul>
 
-### -field IS_DATE_MONTHNAME
+### -field IS_DATE_MONTHNAME:26
 
 Indicates a character representation of months. Examples include the following, formatted for English (United States).
 
@@ -330,7 +330,7 @@ Indicates a character representation of months. Examples include the following, 
 <li>Dec.</li>
 </ul>
 
-### -field IS_DATE_DAYNAME
+### -field IS_DATE_DAYNAME:27
 
 Indicates a character representation of days. Examples include the following, formatted for English (United States).
 
@@ -340,11 +340,11 @@ Indicates a character representation of days. Examples include the following, fo
 <li>Weds.</li>
 </ul>
 
-### -field IS_DIGITS
+### -field IS_DIGITS:28
 
 Indicates positive whole numbers, constrained to 0-9.
 
-### -field IS_NUMBER
+### -field IS_NUMBER:29
 
 Indicates numbers, including commas, negative sign, and decimal. For United States locations, the following conditions are enforced.
 
@@ -354,13 +354,13 @@ Indicates numbers, including commas, negative sign, and decimal. For United Stat
 <li>Negative numbers are represented with a hyphen without a space, not with parentheses.</li>
 </ul>
 
-### -field IS_ONECHAR
+### -field IS_ONECHAR:30
 
 Indicates a single ANSI character, codepage 1252. For United States locations, this includes the following characters.
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
 
-### -field IS_PASSWORD
+### -field IS_PASSWORD:31
 
 Indicates a password. <b>IS_PASSWORD</b> is not supported and may be altered or unavailable in the future.
 
@@ -368,7 +368,7 @@ Indicates a password. <b>IS_PASSWORD</b> is not supported and may be altered or 
 <div class="alert"><b>Note</b>  <b>IS_PASSWORD</b> only indicates the password; it doesn't provide any security around the password. All passwords fields should have text services disabled to maintain password secrecy, and therefore it is not valid to have a password field with an <b>IS_PASSWORD</b> input scope.</div>
 <div> </div>
 
-### -field IS_TELEPHONE_FULLTELEPHONENUMBER
+### -field IS_TELEPHONE_FULLTELEPHONENUMBER:32
 
 Indicates a telephone number. Alphabetical input is not allowed. Examples include the following, formatted for English (United States).
 
@@ -381,7 +381,7 @@ Indicates a telephone number. Alphabetical input is not allowed. Examples includ
 <li>+1 (206) 555-1234</li>
 </ul>
 
-### -field IS_TELEPHONE_COUNTRYCODE
+### -field IS_TELEPHONE_COUNTRYCODE:33
 
 Indicates telephone country codes. Examples include the following, formatted for English (United States).
 
@@ -392,7 +392,7 @@ Indicates telephone country codes. Examples include the following, formatted for
 <li>00 44</li>
 </ul>
 
-### -field IS_TELEPHONE_AREACODE
+### -field IS_TELEPHONE_AREACODE:34
 
 Indicates telephone area codes. Examples include the following, formatted for English (United States).
 
@@ -401,7 +401,7 @@ Indicates telephone area codes. Examples include the following, formatted for En
 <li>206</li>
 </ul>
 
-### -field IS_TELEPHONE_LOCALNUMBER
+### -field IS_TELEPHONE_LOCALNUMBER:35
 
 Indicates a telephone number, excluding country or area code. Examples include the following, formatted for English (United States).
 
@@ -411,7 +411,7 @@ Indicates a telephone number, excluding country or area code. Examples include t
 <li>555.0123</li>
 </ul>
 
-### -field IS_TIME_FULLTIME
+### -field IS_TIME_FULLTIME:36
 
 Indicates hours, minutes, seconds, and alphabetical time abbreviations. US English uses the 12 hour clock. Leading zeros are optional for hours but required for minutes and seconds. Hours are constrained to 0-24; minutes and seconds are constrained to 0-59. Examples include the following, formatted for English (United States).
 
@@ -423,151 +423,151 @@ Indicates hours, minutes, seconds, and alphabetical time abbreviations. US Engli
 <li>4:30 AM</li>
 </ul>
 
-### -field IS_TIME_HOUR
+### -field IS_TIME_HOUR:37
 
 Indicates a numeric representation of hours, constrained to 0-24.
 
-### -field IS_TIME_MINORSEC
+### -field IS_TIME_MINORSEC:38
 
 Indicates a numeric representation of minutes or seconds, constrained to 0-59.
 
-### -field IS_NUMBER_FULLWIDTH
+### -field IS_NUMBER_FULLWIDTH:39
 
 Indicates full-width number, used for Japanese only. Constrained to full-width numbers and Kanji numbers.
 
-### -field IS_ALPHANUMERIC_HALFWIDTH
+### -field IS_ALPHANUMERIC_HALFWIDTH:40
 
 Indicates half-width alphanumeric characters for East-Asian languages, constrained to half-width alphabetical characters and numbers.
 
-### -field IS_ALPHANUMERIC_FULLWIDTH
+### -field IS_ALPHANUMERIC_FULLWIDTH:41
 
 Indicates full-width alphanumeric characters for East-Asian languages, constrained to full-width alphabet characters and numbers.
 
-### -field IS_CURRENCY_CHINESE
+### -field IS_CURRENCY_CHINESE:42
 
 Indicates Chinese currency.
 
-### -field IS_BOPOMOFO
+### -field IS_BOPOMOFO:43
 
 Indicates Bopomofo characters.
 
-### -field IS_HIRAGANA
+### -field IS_HIRAGANA:44
 
 Indicates Hiragana characters.
 
-### -field IS_KATAKANA_HALFWIDTH
+### -field IS_KATAKANA_HALFWIDTH:45
 
 Indicates half-width Katakana characters.
 
-### -field IS_KATAKANA_FULLWIDTH
+### -field IS_KATAKANA_FULLWIDTH:46
 
 Indicates full-width Katakana characters.
 
-### -field IS_HANJA
+### -field IS_HANJA:47
 
 Indicates Hanja characters.
 
-### -field IS_HANGUL_HALFWIDTH
+### -field IS_HANGUL_HALFWIDTH:48
 
 Indicates half-width Hangul characters.
 
-### -field IS_HANGUL_FULLWIDTH
+### -field IS_HANGUL_FULLWIDTH:49
 
 Indicates full-width Hangul characters.
 
-### -field IS_SEARCH
+### -field IS_SEARCH:50
 
 <b>Starting with Windows 8:</b> Indicates a search string.
 
-### -field IS_FORMULA
+### -field IS_FORMULA:51
 
 <b>Starting with Windows 8:</b> Indicates a formula control, for example, a spreadsheet field.
 
-### -field IS_SEARCH_INCREMENTAL
+### -field IS_SEARCH_INCREMENTAL:52
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for search boxes where incremental results are displayed as the user types.
 
-### -field IS_CHINESE_HALFWIDTH
+### -field IS_CHINESE_HALFWIDTH:53
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Chinese half-width characters.
 
-### -field IS_CHINESE_FULLWIDTH
+### -field IS_CHINESE_FULLWIDTH:54
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Chinese full-width characters.
 
-### -field IS_NATIVE_SCRIPT
+### -field IS_NATIVE_SCRIPT:55
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for native script.
 
-### -field IS_YOMI
+### -field IS_YOMI:56
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Japanese names.
 
-### -field IS_TEXT
+### -field IS_TEXT:57
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with text.
 
-### -field IS_CHAT
+### -field IS_CHAT:58
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for chat strings.
 
-### -field IS_NAME_OR_PHONENUMBER
+### -field IS_NAME_OR_PHONENUMBER:59
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with a name or telephone number.
 
-### -field IS_EMAILNAME_OR_ADDRESS
+### -field IS_EMAILNAME_OR_ADDRESS:60
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with an email name or full email address.
 
-### -field IS_PRIVATE
+### -field IS_PRIVATE:61
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with private data.
 
-### -field IS_MAPS
+### -field IS_MAPS:62
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with a map location.
 
-### -field IS_NUMERIC_PASSWORD
+### -field IS_NUMERIC_PASSWORD:63
 
 <b>Starting with Windows 10:</b> Indicates expected input is a numeric password, or PIN.
 
-### -field IS_NUMERIC_PIN
+### -field IS_NUMERIC_PIN:64
 
 <b>Starting with Windows 10:</b> Indicates expected input is a numeric PIN.
 
-### -field IS_ALPHANUMERIC_PIN
+### -field IS_ALPHANUMERIC_PIN:65
 
 <b>Starting with Windows 10:</b> Indicates expected input is an alphanumeric PIN.
 
-### -field IS_ALPHANUMERIC_PIN_SET
+### -field IS_ALPHANUMERIC_PIN_SET:66
 
 <b>Starting with Windows 10:</b> Indicates expected input is an alphanumeric PIN for lock screen.
 
-### -field IS_FORMULA_NUMBER
+### -field IS_FORMULA_NUMBER:67
 
 <b>Starting with Windows 10:</b> Indicates expected input is a mathematical formula.
 
-### -field IS_CHAT_WITHOUT_EMOJI
+### -field IS_CHAT_WITHOUT_EMOJI:68
 
 <b>Starting with Windows 10:</b> Indicates expected input does not include emoji.
 
-### -field IS_PHRASELIST
+### -field IS_PHRASELIST:-1
 
 Indicates a phrase list.
 
-### -field IS_REGULAREXPRESSION
+### -field IS_REGULAREXPRESSION:-2
 
 Indicates a regular expression.
 
-### -field IS_SRGS
+### -field IS_SRGS:-3
 
 Indicates an XML string that conforms to the Speech Recognition Grammar Specification (SRGS) standard. Information on SRGS can be found at <a href="https://www.w3.org/tr/speech-grammar">http://www.w3.org/TR/speech-grammar</a>.
 
-### -field IS_XML
+### -field IS_XML:-4
 
 Indicates a custom xml string.
 
-### -field IS_ENUMSTRING
+### -field IS_ENUMSTRING:-5
 
 The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope2-enumwordlist">ITfInputScope2::EnumWordList</a> to retrieve it.
 

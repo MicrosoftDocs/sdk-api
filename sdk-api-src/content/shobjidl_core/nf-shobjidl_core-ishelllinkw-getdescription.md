@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetDescription
 title: IShellLinkW::GetDescription (shobjidl_core.h)
-description: Gets the description string for a Shell link object.
+description: Gets the description string for a Shell link object. (Unicode)
 helpviewer_keywords: ["GetDescription","GetDescription method [Windows Shell]","GetDescription method [Windows Shell]","IShellLink interface","GetDescription method [Windows Shell]","IShellLinkA interface","GetDescription method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetDescription method","IShellLink::GetDescription","IShellLinkA interface [Windows Shell]","GetDescription method","IShellLinkA::GetDescription","IShellLinkW interface [Windows Shell]","GetDescription method","IShellLinkW.GetDescription","IShellLinkW::GetDescription","_win32_IShellLink_GetDescription","shell.IShellLink_GetDescription","shobjidl_core/IShellLink::GetDescription","shobjidl_core/IShellLinkA::GetDescription","shobjidl_core/IShellLinkW::GetDescription"]
 old-location: shell\IShellLink_GetDescription.htm
 tech.root: shell

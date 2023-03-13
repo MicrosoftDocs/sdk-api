@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSASocketA
 title: WSASocketA function (winsock2.h)
-description: The WSASocket function creates a socket that is bound to a specific transport-service provider.
-helpviewer_keywords: ["AF_APPLETALK","AF_BTH","AF_INET","AF_INET6","AF_IPX","AF_IRDA","AF_NETBIOS","AF_UNSPEC","BTHPROTO_RFCOMM","IPPROTO_ICMP","IPPROTO_ICMPV6","IPPROTO_IGMP","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","SG_CONSTRAINED_GROUP","SG_UNCONSTRAINED_GROUP","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","WSASocket","WSASocket function [Winsock]","WSASocketA","WSASocketW","WSA_FLAG_ACCESS_SYSTEM_SECURITY","WSA_FLAG_MULTIPOINT_C_LEAF","WSA_FLAG_MULTIPOINT_C_ROOT","WSA_FLAG_MULTIPOINT_D_LEAF","WSA_FLAG_MULTIPOINT_D_ROOT","WSA_FLAG_NO_HANDLE_INHERIT","WSA_FLAG_OVERLAPPED","_win32_wsasocket_2","winsock.wsasocket_2","winsock2/WSASocket","winsock2/WSASocketA","winsock2/WSASocketW"]
+description: The WSASocket function creates a socket that is bound to a specific transport-service provider. (ANSI)
+helpviewer_keywords: ["AF_APPLETALK", "AF_BTH", "AF_INET", "AF_INET6", "AF_IPX", "AF_IRDA", "AF_NETBIOS", "AF_UNSPEC", "BTHPROTO_RFCOMM", "IPPROTO_ICMP", "IPPROTO_ICMPV6", "IPPROTO_IGMP", "IPPROTO_RM", "IPPROTO_TCP", "IPPROTO_UDP", "SG_CONSTRAINED_GROUP", "SG_UNCONSTRAINED_GROUP", "SOCK_DGRAM", "SOCK_RAW", "SOCK_RDM", "SOCK_SEQPACKET", "SOCK_STREAM", "WSASocketA", "WSA_FLAG_ACCESS_SYSTEM_SECURITY", "WSA_FLAG_MULTIPOINT_C_LEAF", "WSA_FLAG_MULTIPOINT_C_ROOT", "WSA_FLAG_MULTIPOINT_D_LEAF", "WSA_FLAG_MULTIPOINT_D_ROOT", "WSA_FLAG_NO_HANDLE_INHERIT", "WSA_FLAG_OVERLAPPED", "winsock2/WSASocketA"]
 old-location: winsock\wsasocket_2.htm
 tech.root: WinSock
 ms.assetid: dcf2e543-de54-43d9-9e45-4cb935da3548

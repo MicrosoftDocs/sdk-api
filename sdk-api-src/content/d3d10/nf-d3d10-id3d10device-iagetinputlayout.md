@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetInputLayout
 title: ID3D10Device::IAGetInputLayout (d3d10.h)
-description: Get a pointer to the input-layout object that is bound to the input-assembler stage.
+description: Get a pointer to the input-layout object that is bound to the input-assembler stage. (ID3D10Device.IAGetInputLayout)
 helpviewer_keywords: ["IAGetInputLayout","IAGetInputLayout method [Direct3D 10]","IAGetInputLayout method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IAGetInputLayout method","ID3D10Device.IAGetInputLayout","ID3D10Device::IAGetInputLayout","d3d10/ID3D10Device::IAGetInputLayout","direct3d10.id3d10device_iagetinputlayout","fc7e34a5-1fc3-6283-98db-681a4f1138cf"]
 old-location: direct3d10\id3d10device_iagetinputlayout.htm
 tech.root: direct3d10

@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetCPInfo
 title: GetCPInfo function (winnls.h)
-description: Retrieves information about any valid installed or available code page.
+description: Retrieves information about any valid installed or available code page. (GetCPInfo)
 helpviewer_keywords: ["GetCPInfo","GetCPInfo function [Internationalization for Windows Applications]","_win32_GetCPInfo","intl.getcpinfo","winnls/GetCPInfo"]
 old-location: intl\getcpinfo.htm
 tech.root: Intl

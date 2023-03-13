@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINTS2_
 title: IPSEC_TUNNEL_ENDPOINTS2 (ipsectypes.h)
-description: Is used to store end points of a tunnel mode SA.
+description: Is used to store end points of a tunnel mode SA. (IPSEC_TUNNEL_ENDPOINTS2)
 helpviewer_keywords: ["IPSEC_TUNNEL_ENDPOINTS2","IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering]","fwp.ipsec_tunnel_endpoints2","ipsectypes/IPSEC_TUNNEL_ENDPOINTS2"]
 old-location: fwp\ipsec_tunnel_endpoints2.htm
 tech.root: fwp

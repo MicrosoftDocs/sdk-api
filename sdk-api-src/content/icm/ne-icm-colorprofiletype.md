@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_1
+UID: NE:icm.COLORPROFILETYPE
 title: COLORPROFILETYPE
 description: Specifies the type of color profile.
 tech.root: wcs
@@ -62,3 +62,4 @@ The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers 
 ## -see-also
 
 [**COLORPROFILESUBTYPE**](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
+

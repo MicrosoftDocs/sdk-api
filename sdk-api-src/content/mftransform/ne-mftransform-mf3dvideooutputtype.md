@@ -56,11 +56,11 @@ Specifies how to  output a 3D stereoscopic video stream.
 
 ## -enum-fields
 
-### -field MF3DVideoOutputType_BaseView
+### -field MF3DVideoOutputType_BaseView:0
 
 Output the base view only. Discard the other view.
 
-### -field MF3DVideoOutputType_Stereo
+### -field MF3DVideoOutputType_Stereo:1
 
 Output a stereo view (two buffers).
 

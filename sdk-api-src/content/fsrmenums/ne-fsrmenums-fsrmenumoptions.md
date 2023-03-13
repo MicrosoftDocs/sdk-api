@@ -56,25 +56,25 @@ Defines the options for enumerating collections of objects.
 
 ## -enum-fields
 
-### -field FsrmEnumOptions_None
+### -field FsrmEnumOptions_None:0
 
 Use no options and enumerate objects synchronously.
 
-### -field FsrmEnumOptions_Asynchronous
+### -field FsrmEnumOptions_Asynchronous:0x1
 
 Reserved. Do not use.
 
-### -field FsrmEnumOptions_CheckRecycleBin
+### -field FsrmEnumOptions_CheckRecycleBin:0x2
 
 Include items and paths that are in the system recycle bin when enumerating.
 
-### -field FsrmEnumOptions_IncludeClusterNodes
+### -field FsrmEnumOptions_IncludeClusterNodes:0x4
 
 Include objects on all nodes in a <a href="/previous-versions/windows/desktop/mscs/windows-clustering">Windows cluster</a> 
       when enumerating report jobs 
       (<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a>).
 
-### -field FsrmEnumOptions_IncludeDeprecatedObjects
+### -field FsrmEnumOptions_IncludeDeprecatedObjects:0x8
 
 Include deprecated objects when enumerating.
 

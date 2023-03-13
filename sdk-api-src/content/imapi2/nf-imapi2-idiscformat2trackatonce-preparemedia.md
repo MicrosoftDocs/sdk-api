@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.PrepareMedia
 title: IDiscFormat2TrackAtOnce::PrepareMedia (imapi2.h)
-description: Locks the current media for exclusive access.
+description: Locks the current media for exclusive access. (IDiscFormat2TrackAtOnce.PrepareMedia)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","PrepareMedia method","IDiscFormat2TrackAtOnce.PrepareMedia","IDiscFormat2TrackAtOnce::PrepareMedia","PrepareMedia","PrepareMedia method [IMAPI]","PrepareMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_preparemedia","imapi2/IDiscFormat2TrackAtOnce::PrepareMedia"]
 old-location: imapi\idiscformat2trackatonce_preparemedia.htm
 tech.root: imapi

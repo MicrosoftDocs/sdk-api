@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetRate
 title: IMFPMediaPlayer::SetRate (mfplay.h)
-description: Sets the playback rate.
+description: Sets the playback rate. (IMFPMediaPlayer.SetRate)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetRate method","IMFPMediaPlayer.SetRate","IMFPMediaPlayer::SetRate","SetRate","SetRate method [Media Foundation]","SetRate method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setrate","mfplay/IMFPMediaPlayer::SetRate"]
 old-location: mf\imfpmediaplayer_setrate.htm
 tech.root: mf

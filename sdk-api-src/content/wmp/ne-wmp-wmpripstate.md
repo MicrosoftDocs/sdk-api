@@ -54,7 +54,7 @@ The <b>WMPRipState</b> enumeration type defines the possible operational states 
 
 ## -enum-fields
 
-### -field wmprsUnknown
+### -field wmprsUnknown:0
 
 Not a valid state.
 

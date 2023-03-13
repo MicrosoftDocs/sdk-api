@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionSlerp
 title: XMQuaternionSlerp function (directxmath.h)
-description: Interpolates between two unit quaternions, using spherical linear interpolation.
+description: Interpolates between two unit quaternions, using spherical linear interpolation. (XMQuaternionSlerp)
 helpviewer_keywords: ["Use DirectX..XMQuaternionSlerp","XMQuaternionSlerp","XMQuaternionSlerp method [DirectX Math Support APIs]","dxmath.xmquaternionslerp"]
 old-location: dxmath\xmquaternionslerp.htm
 tech.root: dxmath

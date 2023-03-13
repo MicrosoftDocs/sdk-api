@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPie(constPen,constRectF&,REAL,REAL)
 title: Graphics::DrawPie
-description: The Graphics::DrawPie method draws a pie.
+description: The Graphics::DrawPie method draws a pie. (overload 1/4)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawPie"]
 ms.assetid: 603dcdca-09bb-4a1a-a04a-6a47be08bfc0

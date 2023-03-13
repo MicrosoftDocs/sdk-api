@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.put_SenderName
 title: IFaxIncomingMessage2::put_SenderName (faxcomex.h)
-description: Contains the name of the sender that is associated with the inbound fax message. This property is a null-terminated string.
+description: Contains the name of the sender that is associated with the inbound fax message. This property is a null-terminated string. (Put)
 helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","SenderName property","IFaxIncomingMessage2.SenderName","IFaxIncomingMessage2.get_SenderName","IFaxIncomingMessage2.put_SenderName","IFaxIncomingMessage2::SenderName","IFaxIncomingMessage2::get_SenderName","IFaxIncomingMessage2::put_SenderName","SenderName property [Fax Service]","SenderName property [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.sendername","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp","fax._mfax_faxincomingmessage_sendername","faxcomex/IFaxIncomingMessage2::SenderName","faxcomex/IFaxIncomingMessage2::get_SenderName","faxcomex/IFaxIncomingMessage2::put_SenderName","put_SenderName"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp.htm
 tech.root: Fax

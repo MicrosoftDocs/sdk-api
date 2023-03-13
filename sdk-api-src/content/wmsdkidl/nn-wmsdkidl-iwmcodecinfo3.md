@@ -58,7 +58,7 @@ You can retrieve a pointer to <b>IWMCodecInfo3</b> with a call to the <b>QueryIn
 
 The <b>IWMCodecInfo3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2">IWMCodecInfo2</a>. <b>IWMCodecInfo3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

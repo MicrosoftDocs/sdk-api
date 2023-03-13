@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas (vsmgmt.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas)
 helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","MigrateDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas","IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas","MigrateDiffAreas","MigrateDiffAreas method","MigrateDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
 tech.root: base

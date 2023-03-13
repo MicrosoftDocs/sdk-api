@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagAMTunerModeType
 title: AMTunerModeType (strmif.h)
-description: Specifies the frequency of a TV tuner (cable or antenna).
+description: Specifies the frequency of a TV tuner (cable or antenna). (AMTunerModeType)
 helpviewer_keywords: ["AMTUNER_MODE_AM_RADIO","AMTUNER_MODE_DEFAULT","AMTUNER_MODE_DSS","AMTUNER_MODE_FM_RADIO","AMTUNER_MODE_TV","AMTunerModeType","AMTunerModeType enumeration [DirectShow]","AMTunerModeTypeEnumeration","dshow.amtunermodetype","strmif/AMTUNER_MODE_AM_RADIO","strmif/AMTUNER_MODE_DEFAULT","strmif/AMTUNER_MODE_DSS","strmif/AMTUNER_MODE_FM_RADIO","strmif/AMTUNER_MODE_TV","strmif/AMTunerModeType"]
 old-location: dshow\amtunermodetype.htm
 tech.root: dshow
@@ -56,23 +56,23 @@ Specifies the frequency of a TV tuner (cable or antenna).
 
 ## -enum-fields
 
-### -field AMTUNER_MODE_DEFAULT
+### -field AMTUNER_MODE_DEFAULT:0
 
 Indicates default tuner mode.
 
-### -field AMTUNER_MODE_TV
+### -field AMTUNER_MODE_TV:0x1
 
 Indicates TV tuner mode.
 
-### -field AMTUNER_MODE_FM_RADIO
+### -field AMTUNER_MODE_FM_RADIO:0x2
 
 Indicates FM radio tuner mode.
 
-### -field AMTUNER_MODE_AM_RADIO
+### -field AMTUNER_MODE_AM_RADIO:0x4
 
 Indicates AM radio tuner mode.
 
-### -field AMTUNER_MODE_DSS
+### -field AMTUNER_MODE_DSS:0x8
 
 Indicates Digital Satellite Service (DSS) tuner mode.
 

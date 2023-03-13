@@ -54,23 +54,23 @@ Defines values that indicate the type of a notification event, and a hint to the
 
 ## -enum-fields
 
-### -field NotificationKind_ItemAdded
+### -field NotificationKind_ItemAdded:0
 
 The current element and/or the container has had something added to it that should be presented to the user.
 
-### -field NotificationKind_ItemRemoved
+### -field NotificationKind_ItemRemoved:1
 
 The current element has had something removed from inside of it that should be presented to the user.
 
-### -field NotificationKind_ActionCompleted
+### -field NotificationKind_ActionCompleted:2
 
 The current element has a notification that an action was completed.
 
-### -field NotificationKind_ActionAborted
+### -field NotificationKind_ActionAborted:3
 
 The current element has a notification that an action was aborted.
 
-### -field NotificationKind_Other
+### -field NotificationKind_Other:4
 
 The current element has a notification not an add, remove, completed, or aborted action.
 

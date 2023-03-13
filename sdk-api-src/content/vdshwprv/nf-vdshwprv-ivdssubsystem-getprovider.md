@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProvider
 title: IVdsSubSystem::GetProvider (vdshwprv.h)
-description: Returns the provider that manages the subsystem.
+description: The IVdsSubSystem::GetProvider (vdshwprv.h) method returns the provider that manages the subsystem.
 helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetProvider method","IVdsSubSystem.GetProvider","IVdsSubSystem::GetProvider","base.ivdssubsystem_getprovider","vds/IVdsSubSystem::GetProvider","vdshwprv/IVdsSubSystem::GetProvider"]
 old-location: base\ivdssubsystem_getprovider.htm
 tech.root: base
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProvider method, IVdsSubSystem.GetProvider, IVdsSubSystem::GetProvider, base.ivdssubsystem_getprovider, vds/IVdsSubSystem::GetProvider, vdshwprv/IVdsSubSystem::GetProvider
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the provider that manages the subsystem.
 

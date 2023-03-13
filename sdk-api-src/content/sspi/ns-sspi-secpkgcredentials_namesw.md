@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgCredentials_NamesW
 title: SecPkgCredentials_NamesW (sspi.h)
-description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
+description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure. (Unicode)
 helpviewer_keywords: ["*PSecPkgCredentials_NamesW","PSecPkgCredentials_Names","PSecPkgCredentials_Names structure pointer [Security]","SecPkgCredentials_Names","SecPkgCredentials_Names structure [Security]","SecPkgCredentials_NamesA","SecPkgCredentials_NamesW","_ssp_secpkgcredentials_names","security.secpkgcredentials_names","sspi/PSecPkgCredentials_Names","sspi/SecPkgCredentials_Names","sspi/SecPkgCredentials_NamesA","sspi/SecPkgCredentials_NamesW"]
 old-location: security\secpkgcredentials_names.htm
 tech.root: security

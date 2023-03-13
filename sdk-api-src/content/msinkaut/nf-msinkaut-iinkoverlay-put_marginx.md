@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_MarginX
 title: IInkOverlay::put_MarginX (msinkaut.h)
-description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
+description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window. (IInkOverlay.put_MarginX)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MarginX property","IInkOverlay.MarginX","IInkOverlay.put_MarginX","IInkOverlay::MarginX","IInkOverlay::get_MarginX","IInkOverlay::put_MarginX","InkOverlay.get_MarginX","InkOverlay.put_MarginX","MarginX property [Tablet PC]","MarginX property [Tablet PC]","IInkOverlay interface","get_MarginX","msinkaut/IInkOverlay::MarginX","msinkaut/IInkOverlay::get_MarginX","msinkaut/IInkOverlay::put_MarginX","put_MarginX","tablet.inkoverlay_marginx"]
 old-location: tablet\inkoverlay_marginx.htm
 tech.root: tablet

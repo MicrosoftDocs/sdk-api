@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.ICopyHookA
 title: ICopyHookA
-description: Exposes a method that creates a copy hook handler.
+description: Exposes a method that creates a copy hook handler. (ANSI)
 helpviewer_keywords: ["ICopyHookA"]
 old-location: 
 tech.root: shell

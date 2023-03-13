@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetCredentialsCount
 title: MI_SubscriptionDeliveryOptions_GetCredentialsCount function (mi.h)
-description: Gets the number of previously added credentials.
+description: Gets the number of previously added credentials. (MI_SubscriptionDeliveryOptions_GetCredentialsCount)
 helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetCredentialsCount","MI_SubscriptionDeliveryOptions_GetCredentialsCount function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetCredentialsCount","wmi_v2.mi_subscriptiondeliveryoptions_getcredentialscount"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialscount.htm
 tech.root: wmi_v2

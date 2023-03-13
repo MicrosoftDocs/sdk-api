@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceExA
 title: GetDiskFreeSpaceExA function (fileapi.h)
-description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread.
-helpviewer_keywords: ["GetDiskFreeSpaceEx","GetDiskFreeSpaceEx function [Files]","GetDiskFreeSpaceExA","GetDiskFreeSpaceExW","_win32_getdiskfreespaceex","base.getdiskfreespaceex","fileapi/GetDiskFreeSpaceEx","fileapi/GetDiskFreeSpaceExA","fileapi/GetDiskFreeSpaceExW","fs.getdiskfreespaceex","winbase/GetDiskFreeSpaceEx","winbase/GetDiskFreeSpaceExA","winbase/GetDiskFreeSpaceExW"]
+description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread. (ANSI)
+helpviewer_keywords: ["GetDiskFreeSpaceExA", "fileapi/GetDiskFreeSpaceExA"]
 old-location: fs\getdiskfreespaceex.htm
 tech.root: fs
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334

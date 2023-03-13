@@ -54,7 +54,7 @@ Defines values that are used to specify whether an event occurred on an ink coll
 
 ## -enum-fields
 
-### -field ICEI_DefaultEvents
+### -field ICEI_DefaultEvents:-1
 
 The ink collector is interested in the <a href="/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a> events.
 

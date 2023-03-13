@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_set_optionW
 title: ldap_set_optionW function (winldap.h)
-description: Sets options on connection blocks.
+description: The ldap_set_optionW (Unicode) function (winldap.h) sets options on connection blocks. 
 helpviewer_keywords: ["_ldap_ldap_set_option","ldap.ldap__set__option","ldap.ldap_set_option","ldap_set_option","ldap_set_option function [LDAP]","ldap_set_optionW","winldap/ldap_set_option","winldap/ldap_set_optionW"]
 old-location: ldap\ldap_set_option.htm
 tech.root: ldap
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW
 req.header: winldap.h
 req.include-header: 
@@ -82,7 +82,7 @@ Call <b>ldap_set_option</b> to access the
 <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure that represents an LDAP session. Do not attempt to modify the LDAP data structure directly.
 
 For more information and  a description of optional settings that apply to an LDAP session, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>.
 
 It is now possible to digitally sign or encrypt all of your LDAP traffic to and from a Windows LDAP server using the Kerberos authentication protocol. This new feature provides integrity and confidentiality required by some applications. Be aware that using Secure Sockets Layer (SSL) will give you the same benefits, but requires extensive certificate enrollments for the server and, sometimes, for the client.

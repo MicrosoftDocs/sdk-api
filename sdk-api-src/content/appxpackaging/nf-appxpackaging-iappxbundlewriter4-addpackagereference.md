@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPackageReference
 title: IAppxBundleWriter4::AddPackageReference (appxpackaging.h)
-description: Adds a reference to an optional app package or a payload file within an app bundle.
+description: Adds a reference to an optional app package or a payload file within an app bundle. (IAppxBundleWriter4.AddPackageReference)
 helpviewer_keywords: ["AddPackageReference","AddPackageReference method [App packaging and management]","AddPackageReference method [App packaging and management]","IAppxBundleWriter4 interface","IAppxBundleWriter4 interface [App packaging and management]","AddPackageReference method","IAppxBundleWriter4.AddPackageReference","IAppxBundleWriter4::AddPackageReference","appxpackaging/IAppxBundleWriter4::AddPackageReference","appxpkg.iappxbundlewriter4_addpackagereference"]
 old-location: appxpkg\iappxbundlewriter4_addpackagereference.htm
 tech.root: appxpkg

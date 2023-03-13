@@ -158,12 +158,12 @@ To retrieve a handle to the device, you must call the
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with either the name of a device or 
      the name of the driver associated with a device. To specify a device name, use the following format:
 
-\\.&#92;<i>DeviceName</i>
+\\\\.&#92;<i>DeviceName</i>
 
 <b>DeviceIoControl</b> can accept a handle to a specific 
      device. For example, to open a handle to the logical drive A: with 
-     <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, specify \\.\a:. Alternatively, you can use the 
-     names \\.\PhysicalDrive0, \\.\PhysicalDrive1, and so on, to open handles to the physical drives on a system.
+     <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, specify \\\\.\a:. Alternatively, you can use the 
+     names \\\\.\PhysicalDrive0, \\\\.\PhysicalDrive1, and so on, to open handles to the physical drives on a system.
 
 You should specify the <b>FILE_SHARE_READ</b> and 
     <b>FILE_SHARE_WRITE</b> access flags when calling 
@@ -183,6 +183,9 @@ You should specify the <b>FILE_SHARE_READ</b> and
 For lists of supported control codes, see the following topics:
 
 <ul>
+<li>
+<a href="/windows-hardware/drivers/storage/cd-rom-io-control-codes">CD-ROM Control Codes</a>
+</li>
 <li>
 <a href="/windows/desktop/DevIO/communications-control-codes">Communications Control Codes</a>
 </li>

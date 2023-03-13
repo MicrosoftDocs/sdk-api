@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITrigger.get_Id
 title: ITrigger::get_Id (taskschd.h)
-description: Gets or sets the identifier for the trigger.
+description: Gets or sets the identifier for the trigger. (Get)
 helpviewer_keywords: ["ITrigger interface [Task Scheduler]","Id property","ITrigger.Id","ITrigger.get_Id","ITrigger::Id","ITrigger::get_Id","ITrigger::put_Id","Id property [Task Scheduler]","Id property [Task Scheduler]","ITrigger interface","get_Id","taskschd.itrigger_id","taskschd/ITrigger::Id","taskschd/ITrigger::get_Id","taskschd/ITrigger::put_Id"]
 old-location: taskschd\itrigger_id.htm
 tech.root: taskschd

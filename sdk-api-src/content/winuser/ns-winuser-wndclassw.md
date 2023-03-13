@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWNDCLASSW
 title: WNDCLASSW (winuser.h)
-description: Contains the window class attributes that are registered by the RegisterClass function.
+description: Contains the window class attributes that are registered by the RegisterClass function. (Unicode)
 helpviewer_keywords: ["*LPWNDCLASSW","*NPWNDCLASSW","*PWNDCLASSW","PWNDCLASS","PWNDCLASS structure pointer [Windows and Messages]","WNDCLASS","WNDCLASS structure [Windows and Messages]","WNDCLASSA","WNDCLASSW","_win32_WNDCLASS_str","_win32_wndclass_str_cpp","winmsg.wndclass","winui._win32_wndclass_str","winuser/PWNDCLASS","winuser/WNDCLASS","winuser/WNDCLASSA","winuser/WNDCLASSW"]
 old-location: winmsg\wndclass.htm
 tech.root: winmsg

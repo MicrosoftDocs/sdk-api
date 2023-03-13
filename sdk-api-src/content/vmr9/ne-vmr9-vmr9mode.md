@@ -56,19 +56,19 @@ The <b>VMR9Mode</b> enumeration type specifies the rendering mode of the <a href
 
 ## -enum-fields
 
-### -field VMR9Mode_Windowed
+### -field VMR9Mode_Windowed:0x1
 
 Windowed mode.
 
-### -field VMR9Mode_Windowless
+### -field VMR9Mode_Windowless:0x2
 
 Windowless mode.
 
-### -field VMR9Mode_Renderless
+### -field VMR9Mode_Renderless:0x4
 
 Renderless mode.
 
-### -field VMR9Mode_Mask
+### -field VMR9Mode_Mask:0x7
 
 Bitwise <b>OR</b> of all above flags; not used by applications.
 

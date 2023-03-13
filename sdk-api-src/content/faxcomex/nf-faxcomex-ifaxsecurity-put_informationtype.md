@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.put_InformationType
 title: IFaxSecurity::put_InformationType (faxcomex.h)
-description: The IFaxSecurity::InformationType property represents the security information type.
+description: The IFaxSecurity::InformationType property represents the security information type. (Put)
 helpviewer_keywords: ["IFaxSecurity interface [Fax Service]","InformationType property","IFaxSecurity.InformationType","IFaxSecurity.put_InformationType","IFaxSecurity::InformationType","IFaxSecurity::get_InformationType","IFaxSecurity::put_InformationType","InformationType property [Fax Service]","InformationType property [Fax Service]","IFaxSecurity interface","_mfax_faxsecurity.informationtype_cpp","fax._mfax_faxsecurity_informationtype_cpp","faxcomex/IFaxSecurity::InformationType","faxcomex/IFaxSecurity::get_InformationType","faxcomex/IFaxSecurity::put_InformationType","put_InformationType"]
 old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm
 tech.root: Fax

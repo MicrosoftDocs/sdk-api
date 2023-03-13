@@ -4,7 +4,7 @@ title: D2D1Effectauthor_1.h header
 ms.assetid: 982f023d-f4e5-3406-aed0-6b2565ff010b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct2d
 f1_keywords:
  - d2d1effectauthor_1

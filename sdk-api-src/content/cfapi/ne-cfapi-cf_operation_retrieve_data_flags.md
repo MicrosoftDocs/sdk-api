@@ -54,7 +54,7 @@ Flags to retrieve data for a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_OPERATION_RETRIEVE_DATA_FLAG_NONE
+### -field CF_OPERATION_RETRIEVE_DATA_FLAG_NONE:0x00000000
 
 No retrieve data flag.
 

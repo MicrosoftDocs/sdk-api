@@ -56,7 +56,7 @@ Specifies the origin for a seek request.
 
 ## -enum-fields
 
-### -field msoBegin
+### -field msoBegin:0
 
 The seek position is specified relative to the start of the stream.
 

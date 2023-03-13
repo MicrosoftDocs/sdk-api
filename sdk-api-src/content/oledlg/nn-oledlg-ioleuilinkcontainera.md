@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUILinkContainerA
 title: IOleUILinkContainerA (oledlg.h)
-description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
+description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links. (ANSI)
 helpviewer_keywords: ["IOleUILinkContainer","IOleUILinkContainer interface [COM]","IOleUILinkContainer interface [COM]","described","IOleUILinkContainerA","IOleUILinkContainerW","_ole_IOleUILinkContainer","com.ioleuilinkcontainer","oledlg/IOleUILinkContainer"]
 old-location: com\ioleuilinkcontainer.htm
 tech.root: com

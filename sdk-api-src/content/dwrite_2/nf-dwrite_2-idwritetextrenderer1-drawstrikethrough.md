@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawStrikethrough
 title: IDWriteTextRenderer1::DrawStrikethrough (dwrite_2.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough. (IDWriteTextRenderer1.DrawStrikethrough)
 helpviewer_keywords: ["DrawStrikethrough","DrawStrikethrough method [Direct Write]","DrawStrikethrough method [Direct Write]","IDWriteTextRenderer1 interface","IDWriteTextRenderer1 interface [Direct Write]","DrawStrikethrough method","IDWriteTextRenderer1.DrawStrikethrough","IDWriteTextRenderer1::DrawStrikethrough","directwrite.idwritetextrenderer1_drawstrikethrough","dwrite_2/IDWriteTextRenderer1::DrawStrikethrough"]
 old-location: directwrite\idwritetextrenderer1_drawstrikethrough.htm
 tech.root: DirectWrite

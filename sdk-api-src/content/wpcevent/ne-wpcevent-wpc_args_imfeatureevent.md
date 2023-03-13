@@ -56,7 +56,7 @@ Indicates information about the features of the instant messaging interaction.
 
 ## -enum-fields
 
-### -field WPC_ARGS_IMFEATUREEVENT_APPNAME
+### -field WPC_ARGS_IMFEATUREEVENT_APPNAME:0
 
 The name of the application used for the instant messaging interaction.
 

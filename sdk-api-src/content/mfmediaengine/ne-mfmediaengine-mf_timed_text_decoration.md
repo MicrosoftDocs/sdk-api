@@ -54,19 +54,19 @@ Specifies how text is decorated (underlined and so on).
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_DECORATION_NONE
+### -field MF_TIMED_TEXT_DECORATION_NONE:0
 
 Text isn't decorated.
 
-### -field MF_TIMED_TEXT_DECORATION_UNDERLINE
+### -field MF_TIMED_TEXT_DECORATION_UNDERLINE:1
 
 Text is underlined.
 
-### -field MF_TIMED_TEXT_DECORATION_LINE_THROUGH
+### -field MF_TIMED_TEXT_DECORATION_LINE_THROUGH:2
 
 Text has a line through it.
 
-### -field MF_TIMED_TEXT_DECORATION_OVERLINE
+### -field MF_TIMED_TEXT_DECORATION_OVERLINE:4
 
 Text has a line over it.
 

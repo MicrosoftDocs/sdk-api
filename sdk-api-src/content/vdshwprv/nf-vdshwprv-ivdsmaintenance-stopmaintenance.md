@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StopMaintenance
 title: IVdsMaintenance::StopMaintenance (vdshwprv.h)
-description: Stops a maintenance operation.
+description: The IVdsMaintenance::StopMaintenance (vdshwprv.h) method stops a maintenance operation.
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StopMaintenance method","IVdsMaintenance.StopMaintenance","IVdsMaintenance::StopMaintenance","StopMaintenance","StopMaintenance method [VDS]","StopMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_stopmaintenance","vds/IVdsMaintenance::StopMaintenance","vdshwprv/IVdsMaintenance::StopMaintenance"]
 old-location: base\ivdsmaintenance_stopmaintenance.htm
 tech.root: base
 ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsMaintenance interface [VDS],StopMaintenance method, IVdsMaintenance.StopMaintenance, IVdsMaintenance::StopMaintenance, StopMaintenance, StopMaintenance method [VDS], StopMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_stopmaintenance, vds/IVdsMaintenance::StopMaintenance, vdshwprv/IVdsMaintenance::StopMaintenance
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Stops a maintenance operation.
 

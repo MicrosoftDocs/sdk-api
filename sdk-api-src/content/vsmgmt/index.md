@@ -4,7 +4,7 @@ title: Vsmgmt.h header
 ms.assetid: 271ef043-69e7-393e-ab52-baed8c1ead6c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - vsmgmt

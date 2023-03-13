@@ -43,23 +43,23 @@ Defines constants that specify an identifier for an HTTP feature.
 
 ## -enum-fields
 
-### -field HttpFeatureUnknown
+### -field HttpFeatureUnknown:0
 
 Specifies an unknown feature.
 
-### -field HttpFeatureResponseTrailers
+### -field HttpFeatureResponseTrailers:1
 
 Specifies HTTP response trailers.
 
-### -field HttpFeatureApiTimings
+### -field HttpFeatureApiTimings:2
 
 Specifies HTTP API timings.
 
-### -field HttpFeatureDelegateEx
+### -field HttpFeatureDelegateEx:3
 
 Specifies a request for delegation.
 
-### -field HttpFeaturemax
+### -field HttpFeaturemax:0xFFFFFFFF
 
 Specifies the maximum number of supported features.
 

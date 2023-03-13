@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.getsockopt
 title: getsockopt function (winsock.h)
-description: The getsockopt function retrieves a socket option.
+description: The getsockopt function (winsock.h) retrieves a socket option.
 helpviewer_keywords: ["_win32_getsockopt_2","getsockopt","getsockopt function [Winsock]","winsock.getsockopt_2","winsock/getsockopt"]
 old-location: winsock\getsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -46,13 +46,9 @@ api_name:
  - getsockopt
 ---
 
-# getsockopt function
-
-
 ## -description
 
-The 
-<b>getsockopt</b> function retrieves a socket option.
+The <b>getsockopt</b> function retrieves a socket option.
 
 ## -parameters
 
@@ -187,7 +183,6 @@ The following options are supported for
 For more information on socket options, see <a href="/windows/desktop/WinSock/socket-options">Socket Options</a>.
 
 The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>SOL_SOCKET</b>.
-
 
 <table>
 <tr>
@@ -330,21 +325,9 @@ The following table of value for the <i>optname</i> parameter are valid when the
 
 
 
-The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>IPPROTO_TCP</b>.
+<i>level</i> = <b>IPPROTO_TCP</b>
 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.</td>
-</tr>
-</table>
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
  
 
 

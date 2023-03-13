@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.Unadvise
 title: IOleObject::Unadvise (oleidl.h)
-description: Deletes a previously established advisory connection.
+description: Deletes a previously established advisory connection. (IOleObject.Unadvise)
 helpviewer_keywords: ["IOleObject interface [COM]","Unadvise method","IOleObject.Unadvise","IOleObject::Unadvise","Unadvise","Unadvise method [COM]","Unadvise method [COM]","IOleObject interface","_ole_ioleobject_unadvise","com.ioleobject_unadvise","oleidl/IOleObject::Unadvise"]
 old-location: com\ioleobject_unadvise.htm
 tech.root: com

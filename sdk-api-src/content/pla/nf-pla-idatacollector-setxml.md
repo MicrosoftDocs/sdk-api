@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.SetXml
 title: IDataCollector::SetXml (pla.h)
-description: Sets the property values of those properties included in the XML.
+description: Sets the property values of those properties included in the XML. (IDataCollector.SetXml)
 helpviewer_keywords: ["IDataCollector interface [PLA]","SetXml method","IDataCollector.SetXml","IDataCollector::SetXml","SetXml","SetXml method [PLA]","SetXml method [PLA]","IDataCollector interface","base.idatacollector_setxml","pla.idatacollector_setxml","pla/IDataCollector::SetXml"]
 old-location: pla\idatacollector_setxml.htm
 tech.root: PLA

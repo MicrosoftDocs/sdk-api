@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetIDA
 title: lineGetIDA function (tapi.h)
-description: The lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
-helpviewer_keywords: ["_tapi2_linegetid","lineGetID","lineGetID function [TAPI 2.2]","lineGetIDA","lineGetIDW","tapi/lineGetID","tapi/lineGetIDA","tapi/lineGetIDW","tapi2.linegetid"]
+description: The lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call. (lineGetIDA)
+helpviewer_keywords: ["lineGetIDA", "tapi/lineGetIDA"]
 old-location: tapi2\linegetid.htm
 tech.root: tapi3
 ms.assetid: e9981574-0058-420f-9627-6d5a1745a739

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetFileTime","SetFileTime function","_win32_setfiletime",
 old-location: base\setfiletime.htm
 tech.root: winprog
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
-ms.date: 12/05/2018
+ms.date: 08/30/2022
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -54,100 +54,58 @@ api_name:
 
 # SetFileTime function
 
-
 ## -description
 
-Sets the date and time that the specified file or directory was created, last accessed, or last 
-    modified.
+Sets the date and time that the specified file or directory was created, last accessed, or last modified.
 
 ## -parameters
 
 ### -param hFile [in]
 
-A handle to the file or directory. The handle must have been created using the 
-      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function  with the 
-      <b>FILE_WRITE_ATTRIBUTES</b> access right. For more information, see 
-      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+A handle to the file or directory. The handle must have been created using the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) function  with the **FILE_WRITE_ATTRIBUTES** access right. For more information, see [File Security and Access Rights](/windows/win32/FileIO/file-security-and-access-rights).
 
 ### -param lpCreationTime [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the 
-      new creation date and time for the file or directory. If 
-      the application does not need to change this information, set this parameter either to <b>NULL</b> or to a pointer to a <b>FILETIME</b> structure that has both the <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 0.
+A pointer to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains the new creation date and time for the file or directory. If the application does not need to change this information, set this parameter either to `NULL` or to a pointer to a **FILETIME** structure that has both the **dwLowDateTime** and **dwHighDateTime** members set to `0`.
 
 ### -param lpLastAccessTime [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
-       contains the new last access date and time for the file or directory. The last access time includes the last 
-       time the file or directory was written to, read from, or (in the case of executable files) run. If 
-      the application does not need to change this information, set this parameter 
-       either to <b>NULL</b> or to a pointer to a <b>FILETIME</b> structure that has both the <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 0.
+A pointer to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains the new last access date and time for the file or directory. The last access time includes the last time the file or directory was written to, read from, or (in the case of executable files) run. If the application does not need to change this information, set this parameter either to `NULL` or to a pointer to a **FILETIME** structure that has both the **dwLowDateTime** and **dwHighDateTime** members set to `0`.
 
-To prevent file operations using the given handle from modifying the last access time, call 
-       <b>SetFileTime</b> immediately  after opening the file handle 
-       and pass a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that has both the 
-       <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 
-       0xFFFFFFFF.
+To prevent file operations using the given handle from modifying the last access time, call **SetFileTime** immediately after opening the file handle and pass a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that has both the **dwLowDateTime** and **dwHighDateTime** members set to `0xFFFFFFFF`.
 
 ### -param lpLastWriteTime [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
-       contains the new last modified date and time for the file or directory.  If the application does not need to change this information, set this parameter either  to <b>NULL</b>  or to a pointer to a <b>FILETIME</b> structure that has both the <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 0.
+A pointer to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains the new last modified date and time for the file or directory.  If the application does not need to change this information, set this parameter either to `NULL` or to a pointer to a **FILETIME** structure that has both the **dwLowDateTime** and **dwHighDateTime** members set to `0`.
 
-To prevent file operations using the given handle from modifying the last access time, call 
-       <b>SetFileTime</b> immediately after opening the file handle 
-       and pass a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that has both the 
-       <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 
-       0xFFFFFFFF.
+To prevent file operations using the given handle from modifying the last write time, call **SetFileTime** immediately after opening the file handle and pass a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that has both the **dwLowDateTime** and **dwHighDateTime** members set to `0xFFFFFFFF`.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-Not all file systems can record creation and last access times and not all file systems record them in the 
-    same manner. For example, on  FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 
-    2 seconds, and access time has a resolution of 1 day (really, the access date). Therefore, the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a> function may not return the same file time 
-    information set using <b>SetFileTime</b>. NTFS delays updates to 
-    the last access time for a file by up to one hour after the last access.
+Not all file systems can record creation and last access times and not all file systems record them in the same manner. For example, on  FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 2 seconds, and access time has a resolution of 1 day (really, the access date). Therefore, the [GetFileTime](/windows/win32/api/fileapi/nf-fileapi-getfiletime) function may not return the same file time information set using **SetFileTime**. NTFS delays updates to the last access time for a file by up to one hour after the last access.
 
+### Examples
 
-#### Examples
-
-For an example, see 
-     <a href="/windows/desktop/SysInfo/changing-a-file-time-to-the-current-time">Changing a File Time to the Current Time</a>.
-
-<div class="code"></div>
+For an example, see [Changing a File Time to the Current Time](/windows/win32/SysInfo/changing-a-file-time-to-the-current-time).
 
 ## -see-also
 
-<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+[FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime)
 
+[File Times](/windows/win32/SysInfo/file-times)
 
+[GetFileSize](/windows/win32/api/fileapi/nf-fileapi-getfilesize)
 
-<a href="/windows/desktop/SysInfo/file-times">File Times</a>
+[GetFileTime](/windows/win32/api/fileapi/nf-fileapi-getfiletime)
 
+[GetFileType](/windows/win32/api/fileapi/nf-fileapi-getfiletype)
 
+[SetFileInformationByHandle](/windows/win32/api/fileapi/nf-fileapi-setfileinformationbyhandle)
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
-
-
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>
-
-
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>
-
-
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-
-
-
-<a href="/windows/desktop/SysInfo/time-functions">Time Functions</a>
+[Time Functions](/windows/win32/SysInfo/time-functions)

@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_Factoid
 title: IInkEdit::put_Factoid (inked.h)
-description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result.
+description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result. (Put)
 helpviewer_keywords: ["150325e4-dd8b-4abf-baa6-f0fda05d2fd9","Factoid property [Tablet PC]","Factoid property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Factoid property","IInkEdit.Factoid","IInkEdit.put_Factoid","IInkEdit::Factoid","IInkEdit::get_Factoid","IInkEdit::put_Factoid","InkEdit.get_Factoid","InkEdit.put_Factoid","get_Factoid","inked/IInkEdit::Factoid","inked/IInkEdit::get_Factoid","inked/IInkEdit::put_Factoid","put_Factoid","tablet.inkedit_factoid"]
 old-location: tablet\inkedit_factoid.htm
 tech.root: tablet

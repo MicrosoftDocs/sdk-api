@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_InPlaceVisibleOnFocus
 title: ITextInputPanel::put_InPlaceVisibleOnFocus (peninputpanel.h)
-description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.
+description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus. (Put)
 helpviewer_keywords: ["487ffcee-9df6-48db-8c84-e7e073b8a643","ITextInputPanel interface [Tablet PC]","InPlaceVisibleOnFocus property","ITextInputPanel.InPlaceVisibleOnFocus","ITextInputPanel.get_InPlaceVisibleOnFocus","ITextInputPanel.put_InPlaceVisibleOnFocus","ITextInputPanel::InPlaceVisibleOnFocus","ITextInputPanel::get_InPlaceVisibleOnFocus","ITextInputPanel::put_InPlaceVisibleOnFocus","InPlaceVisibleOnFocus property [Tablet PC]","InPlaceVisibleOnFocus property [Tablet PC]","ITextInputPanel interface","peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus","put_InPlaceVisibleOnFocus","tablet.itextinputpanel_inplacevisibleonfocus"]
 old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFByteStreamProxyClassFactory
 title: IMFByteStreamProxyClassFactory (mfobjects.h)
-description: Creates a proxy to a byte stream.
+description: Creates a proxy to a byte stream. (IMFByteStreamProxyClassFactory)
 helpviewer_keywords: ["IMFByteStreamProxyClassFactory","IMFByteStreamProxyClassFactory interface [Media Foundation]","IMFByteStreamProxyClassFactory interface [Media Foundation]","described","mf.imfbytestreamproxyclassfactory","mfobjects/IMFByteStreamProxyClassFactory"]
 old-location: mf\imfbytestreamproxyclassfactory.htm
 tech.root: mf

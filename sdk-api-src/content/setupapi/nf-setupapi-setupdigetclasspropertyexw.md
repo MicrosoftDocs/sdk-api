@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiGetClassPropertyEx","SetupDiGetClassPropertyEx fun
 old-location: devinst\setupdigetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 74b6cd23-5741-4f0c-b5e1-6cdea2074c28
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassPropertyEx, SetupDiGetClassPropertyEx function [Device and Driver Installation], SetupDiGetClassPropertyExW, devinst.setupdigetclasspropertyex, di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml, setupapi/SetupDiGetClassPropertyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -100,6 +100,9 @@ One of the following values, which specifies whether the class is a device setup
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the UNC name, including the "\\" prefix, of a computer. The pointer can be set to <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, <b>SetupDiGetClassPropertyEx</b> retrieves the requested device class property from the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDENTIAL_ATTRIBUTEW
 title: CREDENTIAL_ATTRIBUTEW (wincred.h)
-description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
+description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute. (Unicode)
 helpviewer_keywords: ["*PCREDENTIAL_ATTRIBUTEW","CREDENTIAL_ATTRIBUTE","CREDENTIAL_ATTRIBUTE structure [Security]","CREDENTIAL_ATTRIBUTEW","PCREDENTIAL_ATTRIBUTE","PCREDENTIAL_ATTRIBUTE structure pointer [Security]","_cred_credential_attribute","security.credential_attribute","wincred/CREDENTIAL_ATTRIBUTE","wincred/PCREDENTIAL_ATTRIBUTE"]
 old-location: security\credential_attribute.htm
 tech.root: security

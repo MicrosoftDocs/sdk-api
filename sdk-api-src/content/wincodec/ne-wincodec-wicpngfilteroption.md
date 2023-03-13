@@ -54,33 +54,33 @@ Specifies the Portable Network Graphics (PNG) filters available for compression 
 
 ## -enum-fields
 
-### -field WICPngFilterUnspecified
+### -field WICPngFilterUnspecified:0
 
 Indicates an unspecified PNG filter. This enables WIC to algorithmically choose the best filtering option for the image.
 
-### -field WICPngFilterNone
+### -field WICPngFilterNone:0x1
 
 Indicates no PNG filter.
 
-### -field WICPngFilterSub
+### -field WICPngFilterSub:0x2
 
 Indicates a PNG sub filter.
 
-### -field WICPngFilterUp
+### -field WICPngFilterUp:0x3
 
 Indicates a PNG up filter.
 
-### -field WICPngFilterAverage
+### -field WICPngFilterAverage:0x4
 
 Indicates a PNG average filter.
 
-### -field WICPngFilterPaeth
+### -field WICPngFilterPaeth:0x5
 
 Indicates a PNG paeth filter.
 
-### -field WICPngFilterAdaptive
+### -field WICPngFilterAdaptive:0x6
 
 Indicates a PNG adaptive filter. This enables WIC to choose the best filtering mode on a per-scanline basis.
 
-### -field WICPNGFILTEROPTION_FORCE_DWORD
+### -field WICPNGFILTEROPTION_FORCE_DWORD:0x7fffffff
 

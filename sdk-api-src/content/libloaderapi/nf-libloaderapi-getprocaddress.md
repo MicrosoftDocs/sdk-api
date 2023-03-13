@@ -59,7 +59,7 @@ api_name:
 
 ## -description
 
-Retrieves the address of an exported function or variable from the specified dynamic-link library (DLL).
+Retrieves the address of an exported function (also known as a procedure) or variable from the specified dynamic-link library (DLL).
 
 ## -parameters
 

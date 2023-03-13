@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetSupportedViews
 title: IMultipleViewProvider::GetSupportedViews (uiautomationcore.h)
-description: Retrieves a collection of control-specific view identifiers.
+description: Retrieves a collection of control-specific view identifiers. (IMultipleViewProvider.GetSupportedViews)
 helpviewer_keywords: ["GetSupportedViews","GetSupportedViews method [Windows Accessibility]","GetSupportedViews method [Windows Accessibility]","IMultipleViewProvider interface","IMultipleViewProvider interface [Windows Accessibility]","GetSupportedViews method","IMultipleViewProvider.GetSupportedViews","IMultipleViewProvider::GetSupportedViews","uiauto.uiauto_IMultipleViewProvider_GetSupportedViews","uiauto_IMultipleViewProvider_GetSupportedViews","uiautomationcore/IMultipleViewProvider::GetSupportedViews","winauto.uiauto_IMultipleViewProvider_GetSupportedViews"]
 old-location: winauto\uiauto_IMultipleViewProvider_GetSupportedViews.htm
 tech.root: WinAuto

@@ -1,7 +1,7 @@
 ---
 UID: NS:shtypes.tagLOGFONTW
 title: LOGFONTW (shtypes.h)
-description: Defines the attributes of a font.
+description: Defines the attributes of a font. (LOGFONTW)
 helpviewer_keywords: ["LOGFONT","LOGFONT structure [Windows Shell]","LOGFONTA","LOGFONTW","_shell_LOGFONT","_shell_LOGFONT_cpp","dimm/LOGFONT","dimm/LOGFONTA","dimm/LOGFONTW","shell.LOGFONT"]
 old-location: shell\LOGFONT.htm
 tech.root: shell

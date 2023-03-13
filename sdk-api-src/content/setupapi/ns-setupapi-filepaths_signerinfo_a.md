@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._FILEPATHS_SIGNERINFO_A
 title: FILEPATHS_SIGNERINFO_A (setupapi.h)
-description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
+description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information. (ANSI)
 helpviewer_keywords: ["*PFILEPATHS_SIGNERINFO_A","FILEOP_COPY","FILEOP_DELETE","FILEPATHS_SIGNERINFO","FILEPATHS_SIGNERINFO structure [Setup API]","FILEPATHS_SIGNERINFO_A","PFILEPATHS_SIGNERINFO","PFILEPATHS_SIGNERINFO structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_signerinfo","setup.filepaths_signerinfo","setupapi/FILEPATHS_SIGNERINFO","setupapi/PFILEPATHS_SIGNERINFO"]
 old-location: setup\filepaths_signerinfo.htm
 tech.root: setup

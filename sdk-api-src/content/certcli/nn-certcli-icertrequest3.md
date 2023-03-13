@@ -1,7 +1,7 @@
 ---
 UID: NN:certcli.ICertRequest3
 title: ICertRequest3 (certcli.h)
-description: Provide communications between a client or intermediary application and Certificate Services.
+description: Provide communications between a client or intermediary application and Certificate Services. (ICertRequest3)
 helpviewer_keywords: ["ICertRequest3","ICertRequest3 interface [Security]","ICertRequest3 interface [Security]","described","certcli/ICertRequest3","security.icertrequest3"]
 old-location: security\icertrequest3.htm
 tech.root: security

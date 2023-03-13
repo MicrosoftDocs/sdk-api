@@ -4,7 +4,7 @@ title: Direct3D 12 Graphics
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
 ms.date: 12/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Direct3D 12 Graphics

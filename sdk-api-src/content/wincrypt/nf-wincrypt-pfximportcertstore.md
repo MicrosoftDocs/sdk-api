@@ -6,7 +6,7 @@ helpviewer_keywords: ["CRYPT_EXPORTABLE","CRYPT_MACHINE_KEYSET","CRYPT_USER_KEYS
 old-location: security\pfximportcertstore.htm
 tech.root: security
 ms.assetid: 2c83774a-f2df-4d28-9abd-e39aa507ba88
-ms.date: 12/05/2018
+ms.date: 08/26/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PFXImportCertStore, PFXImportCertStore function [Security], PKCS12_ALLOW_OVERWRITE_KEY, PKCS12_ALWAYS_CNG_KSP, PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_NO_PERSIST_KEY, PKCS12_PREFER_CNG_KSP, _crypto2_pfximportcertstore, security.pfximportcertstore, wincrypt/PFXImportCertStore
 req.header: wincrypt.h
 req.include-header: 
@@ -172,7 +172,18 @@ Allow overwrite of the existing key. Specify this flag when you encounter a scen
 <td width="60%">
 Do not persist the key. Specify this flag when you do not want to persist the key. For example, if it is not necessary to store the key after verification, then instead of creating a container and then deleting it, you can specify this flag to dispose of the key immediately.
 
-<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is not set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
+<div class="alert"><b>Note</b>  If the <b>PKCS12_NO_PERSIST_KEY</b> flag is *not* set, keys are persisted on disk. If you do not want to persist the keys beyond their usage, you must delete them by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>  function with the <b>CRYPT_DELETEKEYSET</b> flag set in the <i>dwFlags</i> parameter.</div>
+
+<div class="alert"><b>Note</b> Some other considerations:
+
+* When using PKCS12_NO_PERSIST_KEY, the property CERT_KEY_CONTEXT_PROP_ID is set internally on the certificate, and CERT_KEY_CONTEXT_PROP_ID contains the NCRYPT_KEY_HANDLE.
+
+* If the PKCS12_NO_PERSIST_KEY is not used, the CERT_KEY_PROV_INFO_PROP_ID property is set.
+
+* If the certificate with the non-persisting key is marshaled to another process, the CERT_KEY_CONTEXT_PROP_ID property will not be marshalled.
+
+* For NO_PERSIST to work, it must be in same process *and* the user of the PCCERT_CONTEXT must support the CERT_KEY_CONTEXT_PROP_ID. This typically applies during a TLS handshake: if the handshake is performed externally to the calling process in LSASS.exe, it is not possible to use PKCS12_NO_PERSIST_KEY when moving from the calling process to LSASS (because the NCRYPT_KEY_HANDLE is a pointer to a data structure and not a kernel handle).</div>
+
 <div> </div>
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -218,7 +229,7 @@ If the function fails, that is, if the password parameter does not contain an ex
 
 The <b>PFXImportCertStore</b> function opens a temporary store. If the function succeeds, you should close the handle to the store by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
-When you import a certificate from the PFX packet, the CSP/KSP container name is determined by using the AttributeId with OID 1.3.6.1.4.1.311.17.1 of the PKCS8ShroudedKeyBag SafeBag [bagId: 1.2.840.113549.1.12.10.1.2] (see <a href="https://www.rsa.com/research-and-thought-leadership/rsa-labs?id=2138">PKCS #12</a> for details about the ASN.1 structure of this).
+When you import a certificate from the PFX packet, the CSP/KSP container name is determined by using the AttributeId with OID 1.3.6.1.4.1.311.17.1 of the PKCS8ShroudedKeyBag SafeBag [bagId: 1.2.840.113549.1.12.10.1.2] (see <a href="https://www.rfc-editor.org/rfc/rfc7292">PKCS #12</a> for details about the ASN.1 structure of this).
 
 
 <dl>

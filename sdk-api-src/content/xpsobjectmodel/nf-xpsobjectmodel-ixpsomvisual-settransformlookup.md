@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLookup
 title: IXpsOMVisual::SetTransformLookup (xpsobjectmodel.h)
-description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
+description: Sets the lookup key name of a shared matrix transform in a resource dictionary. (IXpsOMVisual.SetTransformLookup)
 helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetTransformLookup method","IXpsOMVisual.SetTransformLookup","IXpsOMVisual::SetTransformLookup","SetTransformLookup","SetTransformLookup method [XPS Documents and Packaging]","SetTransformLookup method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_settransformlookup","xpsobjectmodel/IXpsOMVisual::SetTransformLookup"]
 old-location: xps\ixpsomvisual_settransformlookup.htm
 tech.root: xps

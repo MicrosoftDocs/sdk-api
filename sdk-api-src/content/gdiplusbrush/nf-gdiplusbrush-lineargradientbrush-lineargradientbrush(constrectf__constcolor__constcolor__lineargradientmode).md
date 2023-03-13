@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(constRectF&,constColor&,constColor&,LinearGradientMode)
 title: LinearGradientBrush::LinearGradientBrush(IN const RectF &,IN const Color &,IN const Color &,IN LinearGradientMode) (gdiplusbrush.h)
-description: Creates a LinearGradientBrush::LinearGradientBrush object based on a rectangle and mode of direction.
+description: Creates a LinearGradientBrush::LinearGradientBrush object based on a rectangle and mode of direction. (overload 2/2)
 helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush class [GDI+]","LinearGradientBrush constructor","LinearGradientBrush constructor [GDI+]","LinearGradientBrush constructor [GDI+]","LinearGradientBrush class","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush(IN const RectF &","IN const Color &","IN const Color &","IN LinearGradientMode)","LinearGradientBrush.LinearGradientBrush(const RectF&","const Color&","const Color&","LinearGradientMode)","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush(IN const RectF &","IN const Color &","IN const Color &","IN LinearGradientMode)","_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_LinearGr","gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_LinearGr"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_RectF_rect_Color_color1_Color_color2_LinearGr.htm
 tech.root: gdiplus

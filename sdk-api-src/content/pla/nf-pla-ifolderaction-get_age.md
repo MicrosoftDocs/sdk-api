@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderAction.get_Age
 title: IFolderAction::get_Age (pla.h)
-description: Retrieves or sets the interval to wait between applying the actions.
+description: Retrieves or sets the interval to wait between applying the actions. (Get)
 helpviewer_keywords: ["Age property [PLA]","Age property [PLA]","IFolderAction interface","IFolderAction interface [PLA]","Age property","IFolderAction.Age","IFolderAction.get_Age","IFolderAction::Age","IFolderAction::get_Age","IFolderAction::put_Age","base.ifolderaction_age","get_Age","pla.ifolderaction_age","pla/IFolderAction::Age","pla/IFolderAction::get_Age","pla/IFolderAction::put_Age"]
 old-location: pla\ifolderaction_age.htm
 tech.root: PLA

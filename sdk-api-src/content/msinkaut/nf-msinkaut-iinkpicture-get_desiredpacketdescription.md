@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_DesiredPacketDescription
 title: IInkPicture::get_DesiredPacketDescription (msinkaut.h)
-description: Gets or sets the desired packet description of the InkCollector.
+description: Gets or sets the desired packet description of the InkCollector. (IInkPicture.get_DesiredPacketDescription)
 helpviewer_keywords: ["DesiredPacketDescription property [Tablet PC]","DesiredPacketDescription property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","DesiredPacketDescription property","IInkPicture.DesiredPacketDescription","IInkPicture.get_DesiredPacketDescription","IInkPicture::DesiredPacketDescription","IInkPicture::get_DesiredPacketDescription","IInkPicture::put_DesiredPacketDescription","InkPicture.get_DesiredPacketDescription","InkPicture.put_DesiredPacketDescription","get_DesiredPacketDescription","msinkaut/IInkPicture::DesiredPacketDescription","msinkaut/IInkPicture::get_DesiredPacketDescription","msinkaut/IInkPicture::put_DesiredPacketDescription","putDesiredPacketDescription","tablet.inkpicture_desiredpacketdescription"]
 old-location: tablet\inkpicture_desiredpacketdescription.htm
 tech.root: tablet

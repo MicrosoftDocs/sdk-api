@@ -57,7 +57,7 @@ The <b>IVMRSurfaceAllocator9</b> interface is implemented by the default allocat
 
 The <b>IVMRSurfaceAllocator9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocator9</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

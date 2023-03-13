@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.FinishSessionKeyRefresh
 title: ID3D11VideoContext::FinishSessionKeyRefresh (d3d11.h)
-description: Switches to a new session key.
+description: Switches to a new session key. (ID3D11VideoContext.FinishSessionKeyRefresh)
 helpviewer_keywords: ["FinishSessionKeyRefresh","FinishSessionKeyRefresh method [Media Foundation]","FinishSessionKeyRefresh method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","FinishSessionKeyRefresh method","ID3D11VideoContext.FinishSessionKeyRefresh","ID3D11VideoContext::FinishSessionKeyRefresh","d3d11/ID3D11VideoContext::FinishSessionKeyRefresh","mf.id3d11videocontext_finishsessionkeyrefresh"]
 old-location: mf\id3d11videocontext_finishsessionkeyrefresh.htm
 tech.root: mf

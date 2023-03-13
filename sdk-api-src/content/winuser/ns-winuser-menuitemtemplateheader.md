@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_6
+UID: NS:winuser.MENUITEMTEMPLATEHEADER
 title: MENUITEMTEMPLATEHEADER (winuser.h)
 description: Defines the header for a menu template. A complete menu template consists of a header and one or more menu item lists.
 helpviewer_keywords: ["*PMENUITEMTEMPLATEHEADER","MENUITEMTEMPLATEHEADER","MENUITEMTEMPLATEHEADER structure [Menus and Other Resources]","PMENUITEMTEMPLATEHEADER","PMENUITEMTEMPLATEHEADER structure pointer [Menus and Other Resources]","_win32_MENUITEMTEMPLATEHEADER_str","_win32_menuitemtemplateheader_str_cpp","menurc.menuitemtemplateheader","winui._win32_menuitemtemplateheader_str","winuser/MENUITEMTEMPLATEHEADER","winuser/PMENUITEMTEMPLATEHEADER"]
@@ -91,3 +91,4 @@ One or more <a href="/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">M
 
 
 <b>Reference</b>
+

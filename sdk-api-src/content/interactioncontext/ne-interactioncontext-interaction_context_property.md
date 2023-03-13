@@ -54,19 +54,19 @@ Specifies properties of the  <a href="/previous-versions/windows/desktop/input_i
 
 ## -enum-fields
 
-### -field INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS
+### -field INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS:0x00000001
 
 Measurement units used by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object: himetric (0.01mm) or screen pixels.
 
-### -field INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK
+### -field INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK:0x00000002
 
 UI feedback is provided.
 
-### -field INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS
+### -field INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS:0x00000003
 
 Pointer filtering is active.
 
-### -field INTERACTION_CONTEXT_PROPERTY_MAX
+### -field INTERACTION_CONTEXT_PROPERTY_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

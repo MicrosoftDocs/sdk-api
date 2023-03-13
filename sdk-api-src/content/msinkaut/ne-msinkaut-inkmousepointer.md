@@ -54,67 +54,67 @@ Specifies the type of mouse pointer to appear.
 
 ## -enum-fields
 
-### -field IMP_Default
+### -field IMP_Default:0
 
  The default mouse pointer.
 
-### -field IMP_Arrow
+### -field IMP_Arrow:1
 
 The arrow mouse pointer.
 
-### -field IMP_Crosshair
+### -field IMP_Crosshair:2
 
 The cross (cross-hair) mouse pointer.
 
-### -field IMP_Ibeam
+### -field IMP_Ibeam:3
 
 The I-beam mouse pointer.
 
-### -field IMP_SizeNESW
+### -field IMP_SizeNESW:4
 
 The sizing handle NE/SW mouse pointer (double arrow that points northeast and southwest).
 
-### -field IMP_SizeNS
+### -field IMP_SizeNS:5
 
 The sizing handle N/S mouse pointer (double arrow that points north and south).
 
-### -field IMP_SizeNWSE
+### -field IMP_SizeNWSE:6
 
 The sizing handle NW/SE mouse pointer (double arrow that points northwest and southeast).
 
-### -field IMP_SizeWE
+### -field IMP_SizeWE:7
 
 The sizing handle W/E mouse pointer (double arrow that points west and east).
 
-### -field IMP_UpArrow
+### -field IMP_UpArrow:8
 
 The up arrow mouse pointer.
 
-### -field IMP_Hourglass
+### -field IMP_Hourglass:9
 
 The hourglass (wait) mouse pointer.
 
-### -field IMP_NoDrop
+### -field IMP_NoDrop:10
 
 The no-drop mouse pointer.
 
-### -field IMP_ArrowHourglass
+### -field IMP_ArrowHourglass:11
 
 The arrow and hourglass mouse pointer.
 
-### -field IMP_ArrowQuestion
+### -field IMP_ArrowQuestion:12
 
 The arrow and question mark mouse pointer.
 
-### -field IMP_SizeAll
+### -field IMP_SizeAll:13
 
 The size-all mouse pointer.
 
-### -field IMP_Hand
+### -field IMP_Hand:14
 
 The hand mouse pointer.
 
-### -field IMP_Custom
+### -field IMP_Custom:99
 
 The custom mouse pointer that the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon">MouseIcon</a> property specifies.
 

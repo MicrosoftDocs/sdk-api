@@ -4,7 +4,7 @@ title: DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC
 description: Performs a convolution of the *FilterTensor* with the *InputTensor*. This operator performs forward convolution on quantized data. This operator is mathematically equivalent to dequantizing the inputs, convolving, and then quantizing the output.
 helpviewer_keywords: ["DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC","DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC structure","direct3d12.dml_quantized_linear_convolution_operator_desc","directml/DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 11/30/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -161,13 +161,26 @@ The number of groups which to divide the convolution operation into. *GroupCount
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *FilterZeroPointTensor*, *InputScaleTensor*, *InputZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
-* *BiasTensor*, *FilterScaleTensor*, *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *BiasTensor*, *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *OutputTensor* and *OutputZeroPointTensor* must have the same *DataType*.
 * *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
 * *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_2 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 3 to 4 | INT8, UINT8 |
+| InputScaleTensor | Input | 1 to 4 | FLOAT32 |
+| InputZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| FilterTensor | Input | 3 to 4 | INT8, UINT8 |
+| FilterScaleTensor | Input | 1 to 4 | FLOAT32 |
+| FilterZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| BiasTensor | Optional input | 3 to 4 | INT32 |
+| OutputScaleTensor | Input | 1 to 4 | FLOAT32 |
+| OutputZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| OutputTensor | Output | 3 to 4 | INT8, UINT8 |
+
 ### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageReader
 title: IAppxEncryptionFactory::CreateEncryptedPackageReader (appxpackaging.h)
-description: Creates a new instance of IAppxEncryptedPackageReader.
+description: Creates a new instance of IAppxPackageReader for reading encrypted packages.
 helpviewer_keywords: ["CreateEncryptedPackageReader","CreateEncryptedPackageReader method [App packaging and management]","CreateEncryptedPackageReader method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedPackageReader method","IAppxEncryptionFactory.CreateEncryptedPackageReader","IAppxEncryptionFactory::CreateEncryptedPackageReader","appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageReader","appxpkg.iappxencryptionfactory_createencryptedpackagereader"]
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagereader.htm
 tech.root: appxpkg
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new instance of <b>IAppxEncryptedPackageReader</b>.
+Creates a new instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading encrypted packages.
 
 ## -parameters
 

@@ -58,23 +58,23 @@ Defines values that indicate the current state of the write operation when using
 
 ## -enum-fields
 
-### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_UNKNOWN
+### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_UNKNOWN:0
 
 Indicates an unknown state.
 
-### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_PREPARING
+### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_PREPARING:0x1
 
 Preparing to write the track.
 
-### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_WRITING
+### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_WRITING:0x2
 
 Writing the track.
 
-### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_FINISHING
+### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_FINISHING:0x3
 
 Closing the track or closing the session.
 
-### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_VERIFYING
+### -field IMAPI_FORMAT2_TAO_WRITE_ACTION_VERIFYING:0x4
 
 ## -see-also
 

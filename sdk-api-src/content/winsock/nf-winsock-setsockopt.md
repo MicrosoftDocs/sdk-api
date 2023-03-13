@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.setsockopt
 title: setsockopt function (winsock.h)
-description: Sets a socket option.
+description: The setsockopt function (winsock.h) sets a socket option.
 helpviewer_keywords: ["_win32_setsockopt_2","setsockopt","setsockopt function [Winsock]","winsock.setsockopt_2","winsock/setsockopt"]
 old-location: winsock\setsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: _win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -46,13 +46,9 @@ api_name:
  - setsockopt
 ---
 
-# setsockopt function
-
-
 ## -description
 
-The 
-<b>setsockopt</b> function sets a socket option.
+The <b>setsockopt</b> function sets a socket option.
 
 ## -parameters
 
@@ -314,28 +310,11 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 </table>
  
-
 For more complete and detailed information about socket options for <i>level</i> = <b>SOL_SOCKET</b>, see <a href="/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>.
 
 <i>level</i> = <b>IPPROTO_TCP</b>
 
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.This socket option is included for backward compatibility with Windows Sockets 1.1
-
-</td>
-</tr>
-</table>
- 
-
-For more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>, see <a href="/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>.
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
 
 <i>level</i> = <b>NSPROTO_IPX</b>
 

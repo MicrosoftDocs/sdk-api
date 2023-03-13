@@ -62,15 +62,15 @@ The
 
 ## -enum-fields
 
-### -field MMC_STRING_FILTER
+### -field MMC_STRING_FILTER:0
 
 String filter.
 
-### -field MMC_INT_FILTER
+### -field MMC_INT_FILTER:0x1
 
 Integer filter.
 
-### -field MMC_FILTER_NOVALUE
+### -field MMC_FILTER_NOVALUE:0x8000
 
 When used by the 
 <a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> method, the snap-in sets the flag to clear the column filter.

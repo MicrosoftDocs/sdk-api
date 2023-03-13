@@ -56,27 +56,27 @@ Defines protection levels for <b>MFPROTECTION_CGMSA</b>.
 
 ## -enum-fields
 
-### -field MF_OPM_CGMSA_OFF
+### -field MF_OPM_CGMSA_OFF:0
 
 CGMS-A is disabled.
 
-### -field MF_OPM_CGMSA_COPY_FREELY
+### -field MF_OPM_CGMSA_COPY_FREELY:0x1
 
 The protection level is Copy Freely.
 
-### -field MF_OPM_CGMSA_COPY_NO_MORE
+### -field MF_OPM_CGMSA_COPY_NO_MORE:0x2
 
 The protection level is Copy No More.
 
-### -field MF_OPM_CGMSA_COPY_ONE_GENERATION
+### -field MF_OPM_CGMSA_COPY_ONE_GENERATION:0x3
 
 The protection level is Copy One Generation.
 
-### -field MF_OPM_CGMSA_COPY_NEVER
+### -field MF_OPM_CGMSA_COPY_NEVER:0x4
 
 The protection level is Copy Never.
 
-### -field MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED
+### -field MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED:0x8
 
 Redistribution control (also called the broadcast flag) is required. This flag can be combined with the other flags.
 

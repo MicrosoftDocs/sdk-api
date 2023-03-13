@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetErrorStringA
 title: RasGetErrorStringA function (ras.h)
-description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
-helpviewer_keywords: ["RasGetErrorString","RasGetErrorString function [RAS]","RasGetErrorStringA","RasGetErrorStringW","_ras_rasgeterrorstring","ras/RasGetErrorString","ras/RasGetErrorStringA","ras/RasGetErrorStringW","rras.rasgeterrorstring"]
+description: The RasGetErrorString function obtains an error message string for a specified RAS error value. (ANSI)
+helpviewer_keywords: ["RasGetErrorStringA", "ras/RasGetErrorStringA"]
 old-location: rras\rasgeterrorstring.htm
 tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1

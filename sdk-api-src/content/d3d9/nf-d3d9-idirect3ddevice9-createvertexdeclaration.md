@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateVertexDeclaration
 title: IDirect3DDevice9::CreateVertexDeclaration (d3d9.h)
-description: Create a vertex shader declaration from the device and the vertex elements.
+description: The IDirect3DDevice9::CreateVertexDeclaration method (d3d9.h) creates a vertex shader declaration from the device and the vertex elements.
 helpviewer_keywords: ["CreateVertexDeclaration","CreateVertexDeclaration method [Direct3D 9]","CreateVertexDeclaration method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","CreateVertexDeclaration method","IDirect3DDevice9.CreateVertexDeclaration","IDirect3DDevice9::CreateVertexDeclaration","d3d9helper/IDirect3DDevice9::CreateVertexDeclaration","direct3d9.idirect3ddevice9__createvertexdeclaration","fcad3843-471b-7e52-ff9d-c4cb3cf5da52"]
 old-location: direct3d9\idirect3ddevice9__createvertexdeclaration.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createvertexdeclaration.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CreateVertexDeclaration, CreateVertexDeclaration method [Direct3D 9], CreateVertexDeclaration method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexDeclaration method, IDirect3DDevice9.CreateVertexDeclaration, IDirect3DDevice9::CreateVertexDeclaration, d3d9helper/IDirect3DDevice9::CreateVertexDeclaration, direct3d9.idirect3ddevice9__createvertexdeclaration, fcad3843-471b-7e52-ff9d-c4cb3cf5da52
 req.header: d3d9.h
 req.include-header: D3D9.h

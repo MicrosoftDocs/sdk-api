@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_25
+UID: NS:lpmapi.CtrlLoadFlowspec
 title: CtrlLoadFlowspec (lpmapi.h)
 description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.
 helpviewer_keywords: ["CtrlLoadFlowspec","CtrlLoadFlowspec structure [QOS]","lpmapi/CtrlLoadFlowspec","qos.ctrlloadflowspec"]
@@ -78,3 +78,4 @@ Generic Tspec  parameters, expressed as a <a href="/previous-versions/windows/de
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>
+

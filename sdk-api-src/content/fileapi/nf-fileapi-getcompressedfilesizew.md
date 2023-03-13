@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetCompressedFileSizeW
 title: GetCompressedFileSizeW function (fileapi.h)
-description: Retrieves the actual number of bytes of disk storage used to store a specified file.
-helpviewer_keywords: ["GetCompressedFileSize","GetCompressedFileSize function [Files]","GetCompressedFileSizeA","GetCompressedFileSizeW","_win32_getcompressedfilesize","base.getcompressedfilesize","fileapi/GetCompressedFileSize","fileapi/GetCompressedFileSizeA","fileapi/GetCompressedFileSizeW","fs.getcompressedfilesize"]
+description: Retrieves the actual number of bytes of disk storage used to store a specified file. (Unicode)
+helpviewer_keywords: ["GetCompressedFileSize", "GetCompressedFileSize function [Files]", "GetCompressedFileSizeW", "_win32_getcompressedfilesize", "base.getcompressedfilesize", "fileapi/GetCompressedFileSize", "fileapi/GetCompressedFileSizeW", "fs.getcompressedfilesize"]
 old-location: fs\getcompressedfilesize.htm
 tech.root: fs
 ms.assetid: cca91080-2270-4996-8693-933c585ff168

@@ -69,4 +69,4 @@ Type: **[COMPOSITION_STATS](ns-dcomptypes-composition_stats.md)**
 
 ## -see-also
 
-[DCompositionGetStatistics](nf-dcomp-dcompositiongetstatistics.md), [DCompositionGetTargetStatistics](nf-dcomp-dcompositiongettargetstatistics.md)
+[DCompositionGetStatistics](/windows/win32/api/dcomp/nf-dcomp-dcompositiongetstatistics), [DCompositionGetTargetStatistics](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/dcomp/nf-dcomp-dcompositiongettargetstatistics.md)

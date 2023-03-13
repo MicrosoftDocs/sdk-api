@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetFeatureStateA
 title: MsiGetFeatureStateA function (msiquery.h)
-description: The MsiGetFeatureState function gets the requested state of a feature.
-helpviewer_keywords: ["INSTALLSTATE_ABSENT","INSTALLSTATE_ADVERTISED","INSTALLSTATE_BADCONFIG","INSTALLSTATE_BROKEN","INSTALLSTATE_DEFAULT","INSTALLSTATE_INCOMPLETE","INSTALLSTATE_INVALIDARG","INSTALLSTATE_LOCAL","INSTALLSTATE_MOREDATA","INSTALLSTATE_SOURCE","INSTALLSTATE_SOURCEABSENT","INSTALLSTATE_UNKNOWN","MsiGetFeatureState","MsiGetFeatureState function","MsiGetFeatureStateA","MsiGetFeatureStateW","_msi_msigetfeaturestate","msiquery/MsiGetFeatureState","msiquery/MsiGetFeatureStateA","msiquery/MsiGetFeatureStateW","setup.msigetfeaturestate"]
+description: The MsiGetFeatureState function gets the requested state of a feature. (ANSI)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_BADCONFIG", "INSTALLSTATE_BROKEN", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_INCOMPLETE", "INSTALLSTATE_INVALIDARG", "INSTALLSTATE_LOCAL", "INSTALLSTATE_MOREDATA", "INSTALLSTATE_SOURCE", "INSTALLSTATE_SOURCEABSENT", "INSTALLSTATE_UNKNOWN", "MsiGetFeatureStateA", "msiquery/MsiGetFeatureStateA"]
 old-location: setup\msigetfeaturestate.htm
 tech.root: setup
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed

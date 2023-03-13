@@ -56,7 +56,7 @@ Contains flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityad
 
 ## -enum-fields
 
-### -field MF_QUALITY_CANNOT_KEEP_UP
+### -field MF_QUALITY_CANNOT_KEEP_UP:0x1
 
 The decoder has done everything that it can to reduce sample latency, and samples are still late.
 

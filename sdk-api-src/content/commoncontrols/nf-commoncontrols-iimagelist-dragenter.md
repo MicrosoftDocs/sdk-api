@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.DragEnter
 title: IImageList::DragEnter (commoncontrols.h)
-description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
+description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window. (IImageList.DragEnter)
 helpviewer_keywords: ["DragEnter","DragEnter method [Windows Controls]","DragEnter method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","DragEnter method","IImageList.DragEnter","IImageList::DragEnter","comctl_IImageList_DragEnter","comctl_IImageList_DragEnter_cpp","commoncontrols/IImageList::DragEnter","controls.IImageList_DragEnter","controls.comctl_IImageList_DragEnter"]
 old-location: controls\IImageList_DragEnter.htm
 tech.root: Controls

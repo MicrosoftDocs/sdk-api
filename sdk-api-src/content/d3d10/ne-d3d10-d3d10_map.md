@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_MAP
 title: D3D10_MAP (d3d10.h)
-description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
+description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags. (D3D10_MAP)
 helpviewer_keywords: ["851d7498-d47c-94c7-f2ce-7635689c4642","D3D10_MAP","D3D10_MAP enumeration [Direct3D 10]","D3D10_MAP_READ","D3D10_MAP_READ_WRITE","D3D10_MAP_WRITE","D3D10_MAP_WRITE_DISCARD","D3D10_MAP_WRITE_NO_OVERWRITE","d3d10/D3D10_MAP","d3d10/D3D10_MAP_READ","d3d10/D3D10_MAP_READ_WRITE","d3d10/D3D10_MAP_WRITE","d3d10/D3D10_MAP_WRITE_DISCARD","d3d10/D3D10_MAP_WRITE_NO_OVERWRITE","direct3d10.d3d10_map"]
 old-location: direct3d10\d3d10_map.htm
 tech.root: direct3d10
@@ -54,23 +54,23 @@ Identifies a resource to be accessed for reading and writing by the CPU. Applica
 
 ## -enum-fields
 
-### -field D3D10_MAP_READ
+### -field D3D10_MAP_READ:1
 
 Resource is mapped for reading. The resource must have been created with read access (see <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ</a>).
 
-### -field D3D10_MAP_WRITE
+### -field D3D10_MAP_WRITE:2
 
 Resource is mapped for writing. The resource must have been created with write access (see <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
 
-### -field D3D10_MAP_READ_WRITE
+### -field D3D10_MAP_READ_WRITE:3
 
 Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
 
-### -field D3D10_MAP_WRITE_DISCARD
+### -field D3D10_MAP_WRITE_DISCARD:4
 
 Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
 
-### -field D3D10_MAP_WRITE_NO_OVERWRITE
+### -field D3D10_MAP_WRITE_NO_OVERWRITE:5
 
 Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="/windows/win32/api/d3d10/ne-d3d10-d3d10_bind_flag">D3D10_BIND_CONSTANT_BUFFER</a> flag.
 

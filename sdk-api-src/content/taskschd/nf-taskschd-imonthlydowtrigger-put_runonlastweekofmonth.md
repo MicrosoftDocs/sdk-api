@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth
 title: IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task runs on the last week of the month.
+description: Gets or sets a Boolean value that indicates that the task runs on the last week of the month. (Put)
 helpviewer_keywords: ["IMonthlyDOWTrigger interface [Task Scheduler]","RunOnLastWeekOfMonth property","IMonthlyDOWTrigger.RunOnLastWeekOfMonth","IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth","IMonthlyDOWTrigger::RunOnLastWeekOfMonth","IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth","IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth","RunOnLastWeekOfMonth property [Task Scheduler]","RunOnLastWeekOfMonth property [Task Scheduler]","IMonthlyDOWTrigger interface","put_RunOnLastWeekOfMonth","taskschd.imonthlydowtrigger_runonlastweekofmonth","taskschd/IMonthlyDOWTrigger::RunOnLastWeekOfMonth","taskschd/IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth","taskschd/IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth"]
 old-location: taskschd\imonthlydowtrigger_runonlastweekofmonth.htm
 tech.root: taskschd

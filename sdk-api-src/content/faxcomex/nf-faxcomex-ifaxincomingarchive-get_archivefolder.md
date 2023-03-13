@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_ArchiveFolder
 title: IFaxIncomingArchive::get_ArchiveFolder (faxcomex.h)
-description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes.
+description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes. (Get)
 helpviewer_keywords: ["ArchiveFolder property [Fax Service]","ArchiveFolder property [Fax Service]","IFaxIncomingArchive interface","IFaxIncomingArchive interface [Fax Service]","ArchiveFolder property","IFaxIncomingArchive.ArchiveFolder","IFaxIncomingArchive.get_ArchiveFolder","IFaxIncomingArchive::ArchiveFolder","IFaxIncomingArchive::get_ArchiveFolder","IFaxIncomingArchive::put_ArchiveFolder","_mfax_faxincomingarchive.archivefolder","fax._mfax_faxincomingarchive_archivefolder","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_archivefolder_cpp","faxcomex/IFaxIncomingArchive::ArchiveFolder","faxcomex/IFaxIncomingArchive::get_ArchiveFolder","faxcomex/IFaxIncomingArchive::put_ArchiveFolder","get_ArchiveFolder"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_archivefolder_cpp.htm
 tech.root: Fax

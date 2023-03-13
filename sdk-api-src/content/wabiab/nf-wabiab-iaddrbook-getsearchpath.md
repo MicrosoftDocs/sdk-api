@@ -2,10 +2,10 @@
 UID: NF:wabiab.IAddrBook.GetSearchPath
 tech.root: wab wab 
 title: IAddrBook::GetSearchPath
-ms.date: 03/03/2021
+ms.date: 08/03/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: IAddrBook::GetSearchPath returns an ordered list of the entry identifiers of containers to be included in the name resolution process initiated by the IAddrBook::ResolveName method.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

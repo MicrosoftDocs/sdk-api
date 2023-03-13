@@ -4,7 +4,7 @@ title: Isolatedapplauncher.h header
 ms.assetid: d720a701-e171-3f16-97cd-85324b4f27ec
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - isolatedapplauncher

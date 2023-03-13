@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmObject.get_Description
 title: IFsrmObject::get_Description (fsrm.h)
-description: Retrieves or sets the description of the object.
+description: Retrieves or sets the description of the object. (Get)
 helpviewer_keywords: ["Description property [File Server Resource Manager]","Description property [File Server Resource Manager]","IFsrmObject interface","IFsrmObject interface [File Server Resource Manager]","Description property","IFsrmObject.Description","IFsrmObject.get_Description","IFsrmObject::Description","IFsrmObject::get_Description","IFsrmObject::put_Description","fs.ifsrmobject_description","fsrm.ifsrmobject_description","fsrm/IFsrmObject::Description","fsrm/IFsrmObject::get_Description","fsrm/IFsrmObject::put_Description","get_Description"]
 old-location: fsrm\ifsrmobject_description.htm
 tech.root: fsrm

@@ -1,5 +1,5 @@
 ---
-UID: NE:shlobj_core.__unnamed_enum_7
+UID: NE:shlobj_core.SHARD
 title: SHARD (shlobj_core.h)
 description: Indicates the interpretation of the data passed by SHAddToRecentDocs in its pv parameter to identify the item whose usage statistics are being tracked.
 helpviewer_keywords: ["SHARD","SHARD enumeration [Windows Shell]","SHARD_APPIDINFO","SHARD_APPIDINFOIDLIST","SHARD_APPIDINFOLINK","SHARD_LINK","SHARD_PATHA","SHARD_PATHW","SHARD_PIDL","SHARD_SHELLITEM","_shell_SHARD","shell.SHARD","shlobj_core/SHARD","shlobj_core/SHARD_APPIDINFO","shlobj_core/SHARD_APPIDINFOIDLIST","shlobj_core/SHARD_APPIDINFOLINK","shlobj_core/SHARD_LINK","shlobj_core/SHARD_PATHA","shlobj_core/SHARD_PATHW","shlobj_core/SHARD_PIDL","shlobj_core/SHARD_SHELLITEM"]
@@ -106,3 +106,4 @@ Optionally, the description field (<a href="/windows/desktop/api/shobjidl_core/n
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>
+

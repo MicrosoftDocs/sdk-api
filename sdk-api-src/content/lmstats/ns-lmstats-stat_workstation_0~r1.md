@@ -1,7 +1,8 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0~r1
 title: STAT_WORKSTATION_0
-ms.date: 01/30/2019
+description: The STAT_WORKSTATION_0 structure (lmstats.h) contains statistical information about the specified workstation.
+ms.date: 02/14/2023
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 targetos: Windows
 req.construct-type: structure
@@ -41,7 +42,6 @@ api_name:
 
 # STAT_WORKSTATION_0 structure
 
-
 ## -description
 
 Contains statistical information about the specified workstation.
@@ -50,9 +50,9 @@ Contains statistical information about the specified workstation.
 
 ### -field StatisticsStartTime
 
-Specifies the time statistics collection started. 
-This member also indicates when statistics for the workstations were last cleared. 
-The value is stored as the number of seconds elapsed since 00:00:00, January 1, 1970.
+Specifies the time statistics collection started.
+
+This member also indicates when statistics for the workstations were last cleared. The value is stored as the number of seconds elapsed since 00:00:00, January 1, 1970.
 
 ### -field BytesReceived
 
@@ -138,7 +138,7 @@ Specifies the total number of write operations initiated by the workstation.
 
 Specifies the total number of random access writes initiated by the workstation.
 
-### -field 
+### -field WriteSmbs
 
 Specifies the total number of write requests the workstation has sent to servers.
 
@@ -150,6 +150,10 @@ Specifies the total number of write requests the workstation has sent to servers
 
 Specifies the total number of write requests the workstation has sent to servers that are less than 1/4 of the size of the server's negotiated buffer size.
 
+### -field RawReadsDenied
+
+Specifies the total number of raw read requests made by the workstation that have been denied.
+
 ### -field RawWritesDenied
 
 Specifies the total number of raw write requests made by the workstation that have been denied.
@@ -157,6 +161,10 @@ Specifies the total number of raw write requests made by the workstation that ha
 ### -field NetworkErrors
 
 Specifies the total number of network errors received by the workstation.
+
+### -field Sessions
+
+Specifies the total number of sessions established by the workstation.
 
 ### -field FailedSessions
 
@@ -204,16 +212,10 @@ Specifies the number of current requests that have not been completed.
 
 ## -see-also
 
-<a href="/windows/desktop/api/lmstats/nf-lmstats-netstatisticsget">NetStatisticsGet</a>
+[NetStatisticsGet](/windows/win32/api/lmstats/nf-lmstats-netstatisticsget)
 
+[Network Management Overview](/windows/win32/NetMgmt/network-management)
 
+[Network Management Structures](/windows/win32/NetMgmt/network-management-structures)
 
-<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
-
-
-<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>
+[Statistics Functions](/windows/win32/NetShare/statistics-functions)

@@ -57,11 +57,11 @@ The <b>DBCOMMANDREUSEENUM</b> enumerated type specifies whether a state from the
 
 ## -enum-fields
 
-### -field DBCOMMANDREUSE_NONE
+### -field DBCOMMANDREUSE_NONE:0
 
-### -field DBCOMMANDREUSE_PROPERTIES
+### -field DBCOMMANDREUSE_PROPERTIES:0x1
 
-### -field DBCOMMANDREUSE_PARAMETERS
+### -field DBCOMMANDREUSE_PARAMETERS:0x2
 
 ## -remarks
 

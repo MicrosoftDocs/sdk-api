@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_eDy
 title: IInkTransform::put_eDy (msinkaut.h)
-description: Gets or sets the element in the third row, second column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the third row, second column of the affine transform matrix that is represented by an InkTransform object. (Put)
 helpviewer_keywords: ["IInkTransform interface [Tablet PC]","eDy property","IInkTransform.eDy","IInkTransform.put_eDy","IInkTransform::eDy","IInkTransform::get_eDy","IInkTransform::put_eDy","InkTransform.get_eDy","InkTransform.put_eDy","d7f35091-93c0-45aa-87e4-49abf89998e5","eDy property [Tablet PC]","eDy property [Tablet PC]","IInkTransform interface","get_eDy","msinkaut/IInkTransform::eDy","msinkaut/IInkTransform::get_eDy","msinkaut/IInkTransform::put_eDy","put_eDy","tablet.inktransform_edy"]
 old-location: tablet\inktransform_edy.htm
 tech.root: tablet

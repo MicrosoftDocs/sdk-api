@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_ScriptEngineTimeout
 title: IAzAuthorizationStore::put_ScriptEngineTimeout (azroles.h)
-description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
+description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it. (Put)
 helpviewer_keywords: ["AzAuthorizationStore object [Security]","ScriptEngineTimeout property","IAzAuthorizationStore interface [Security]","ScriptEngineTimeout property","IAzAuthorizationStore.ScriptEngineTimeout","IAzAuthorizationStore.put_ScriptEngineTimeout","IAzAuthorizationStore::ScriptEngineTimeout","IAzAuthorizationStore::get_ScriptEngineTimeout","IAzAuthorizationStore::put_ScriptEngineTimeout","ScriptEngineTimeout property [Security]","ScriptEngineTimeout property [Security]","AzAuthorizationStore object","ScriptEngineTimeout property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::ScriptEngineTimeout","azroles/IAzAuthorizationStore::get_ScriptEngineTimeout","azroles/IAzAuthorizationStore::put_ScriptEngineTimeout","put_ScriptEngineTimeout","security.azauthorizationstore_scriptenginetimeout"]
 old-location: security\azauthorizationstore_scriptenginetimeout.htm
 tech.root: security

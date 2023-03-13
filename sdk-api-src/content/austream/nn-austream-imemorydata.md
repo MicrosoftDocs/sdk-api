@@ -64,6 +64,6 @@ In addition to the methods inherited from <b>IUnknown</b>, the <code>IMemoryData
 
 The <b>IMemoryData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemoryData</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

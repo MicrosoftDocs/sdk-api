@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetSetStatusCallbackW
 title: InternetSetStatusCallbackW
-ms.date: 4/26/2019
+description: The InternetSetStatusCallbackW (Unicode) function sets up a callback function that WinINet functions can call as progress is made during an operation.
+ms.date: 08/10/2022
 ms.keywords: InternetSetStatusCallbackW
 targetos: Windows
 req.assembly: 

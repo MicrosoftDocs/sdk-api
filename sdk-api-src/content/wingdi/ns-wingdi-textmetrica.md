@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICA
 title: TEXTMETRICA (wingdi.h)
-description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
+description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context. (ANSI)
 helpviewer_keywords: ["*LPTEXTMETRICA","*NPTEXTMETRICA","*PTEXTMETRICA","PTEXTMETRIC","PTEXTMETRIC structure pointer [Windows GDI]","TEXTMETRIC","TEXTMETRIC structure [Windows GDI]","TEXTMETRICA","TEXTMETRICW","_win32_TEXTMETRIC_str","gdi.textmetric","wingdi/PTEXTMETRIC","wingdi/TEXTMETRIC","wingdi/TEXTMETRICA","wingdi/TEXTMETRICW"]
 old-location: gdi\textmetric.htm
 tech.root: gdi

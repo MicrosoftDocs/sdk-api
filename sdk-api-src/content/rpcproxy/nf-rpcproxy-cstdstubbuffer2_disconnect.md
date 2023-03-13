@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Disconnect
 title: CStdStubBuffer2_Disconnect function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
+description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub. (CStdStubBuffer2_Disconnect)
 helpviewer_keywords: ["CStdStubBuffer2_Disconnect","CStdStubBuffer2_Disconnect function [RPC]","rpc.cstdstubbuffer2_disconnect","rpcproxy/CStdStubBuffer2_Disconnect"]
 old-location: rpc\cstdstubbuffer2_disconnect.htm
 tech.root: Rpc

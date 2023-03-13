@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
 title: IConditionFactory2::CreateBooleanLeaf (structuredquery.h)
-description: Creates a search condition that is either TRUE or FALSE.
+description: Creates a search condition that is either TRUE or FALSE. (IConditionFactory2.CreateBooleanLeaf)
 helpviewer_keywords: ["CreateBooleanLeaf","CreateBooleanLeaf method [search]","CreateBooleanLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateBooleanLeaf method","IConditionFactory2.CreateBooleanLeaf","IConditionFactory2::CreateBooleanLeaf","_search_IConditionFactory2_CreateBooleanLeaf","search._search_IConditionFactory2_CreateBooleanLeaf","structuredquery/IConditionFactory2::CreateBooleanLeaf"]
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm
 tech.root: search

@@ -46,8 +46,6 @@ api_name:
 
 Computes backpropagation gradients for [batch normalization](/windows/win32/api/directml/ns-directml-dml_batch_normalization_operator_desc). **DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC** performs multiple computations, which are detailed in the separate output descriptions.
 
-Any dimension in *MeanTensor*, *VarianceTensor*, and *ScaleTensor* can be set to 1 and be automatically broadcast to match *InputTensor*, but otherwise must equal the corresponding dimension's size from *InputTensor*. 
-
 *OutputScaleGradientTensor* and *OutputBiasGradientTensor* are computed using sums across the set of dimensions for which *MeanTensor*, *ScaleTensor* and *VarianceTensor* sizes equal one.
 
 ## -struct-fields
@@ -107,7 +105,7 @@ The following computation is done or every corresponding value in the inputs.
 
 ### -field Epsilon
 
-Type: **[FLOAT](../../winprog/windows-data-types.md)**
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
 
 A small value added to the variance to avoid zero.
 

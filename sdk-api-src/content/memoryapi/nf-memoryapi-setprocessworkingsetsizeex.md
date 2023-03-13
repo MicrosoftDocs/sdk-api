@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.SetProcessWorkingSetSizeEx
 title: SetProcessWorkingSetSizeEx function (memoryapi.h)
-description: Sets the minimum and maximum working set sizes for the specified process.
+description: Sets the minimum and maximum working set sizes for the specified process. (SetProcessWorkingSetSizeEx)
 helpviewer_keywords: ["QUOTA_LIMITS_HARDWS_MAX_DISABLE","QUOTA_LIMITS_HARDWS_MAX_ENABLE","QUOTA_LIMITS_HARDWS_MIN_DISABLE","QUOTA_LIMITS_HARDWS_MIN_ENABLE","SetProcessWorkingSetSizeEx","SetProcessWorkingSetSizeEx function","base.setprocessworkingsetsizeex","memoryapi/SetProcessWorkingSetSizeEx","winbase/SetProcessWorkingSetSizeEx"]
 old-location: base\setprocessworkingsetsizeex.htm
 tech.root: backup
@@ -9,7 +9,7 @@ ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
 ms.date: 12/05/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx
 req.header: memoryapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -169,10 +169,10 @@ If the values of either <i>dwMinimumWorkingSetSize</i> or <i>dwMaximumWorkingSet
 The operating system allocates working set sizes on a first-come, first-served basis. For example, if an application successfully sets 40 megabytes as its minimum working set size on a 64-megabyte system, and a second application requests a 40-megabyte working set size, the operating system denies the second application's request.
 
 By default, using the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When an application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set below its minimum working set limit. If memory is abundant, the system might allow an application to exceed its maximum working set limit. The <b>QUOTA_LIMITS_HARDWS_MIN_ENABLE</b> and <b>QUOTA_LIMITS_HARDWS_MAX_ENABLE</b> flags enable you to ensure that limits are enforced.
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When an application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set below its minimum working set limit. If memory is abundant, the system might allow an application to exceed its maximum working set limit. The <b>QUOTA_LIMITS_HARDWS_MIN_ENABLE</b> and <b>QUOTA_LIMITS_HARDWS_MAX_ENABLE</b> flags enable you to ensure that limits are enforced.
 
 When you increase the working set size of an application, you are taking away physical memory from the rest of the system. This can degrade the performance of other applications and the system as a whole. It can also lead to failures of operations that require physical memory to be present (for example, creating processes, threads, and kernel pool). Thus, you must use the 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function carefully. You must always consider the performance of the whole system when you are designing an application.
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function carefully. You must always consider the performance of the whole system when you are designing an application.
 
 An application can use the 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.

@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptAcquireContextW
 title: CryptAcquireContextW function (wincrypt.h)
-description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
-helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL","CRYPT_DELETEKEYSET","CRYPT_MACHINE_KEYSET","CRYPT_NEWKEYSET","CRYPT_SILENT","CRYPT_VERIFYCONTEXT","CryptAcquireContext","CryptAcquireContext function [Security]","CryptAcquireContextA","CryptAcquireContextW","_crypto2_cryptacquirecontext","security.cryptacquirecontext","wincrypt/CryptAcquireContext","wincrypt/CryptAcquireContextA","wincrypt/CryptAcquireContextW"]
+description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP. (Unicode)
+helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL", "CRYPT_DELETEKEYSET", "CRYPT_MACHINE_KEYSET", "CRYPT_NEWKEYSET", "CRYPT_SILENT", "CRYPT_VERIFYCONTEXT", "CryptAcquireContext", "CryptAcquireContext function [Security]", "CryptAcquireContextW", "_crypto2_cryptacquirecontext", "security.cryptacquirecontext", "wincrypt/CryptAcquireContext", "wincrypt/CryptAcquireContextW"]
 old-location: security\cryptacquirecontext.htm
 tech.root: security
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
@@ -95,7 +95,7 @@ Specifies the type of provider to acquire. Defined provider types are discussed 
 
 ### -param dwFlags [in]
 
-Flag values. This parameter is usually set to zero, but some applications set one or more of the following flags.
+One or more of the following flags. Note, most applications should set the **CRYPT_VERIFYCONTEXT** flag unless they need to create digital signatures or decrypt messages.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ Flag values. This parameter is usually set to zero, but some applications set on
 </dl>
 </td>
 <td width="60%">
-This option is intended for applications that are using ephemeral keys, or applications that do not require access to persisted private keys, such as applications that perform only <a href="/windows/desktop/SecGloss/h-gly">hashing</a>, <a href="/windows/desktop/SecGloss/e-gly">encryption</a>, and <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> verification. Only applications that create signatures or decrypt messages need access to a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. In most cases, this flag should be set.
+The caller does not need access to persisted private keys. Apps that use ephemeral keys, or that perform only <a href="/windows/desktop/SecGloss/h-gly">hashing</a>, <a href="/windows/desktop/SecGloss/e-gly">encryption</a>, and <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> verification should set this flag. Only applications that create signatures or decrypt messages need access to a <a href="/windows/desktop/SecGloss/p-gly">private key</a> (and should not set this flag). 
 
 For file-based CSPs, when this flag is set, the <i>pszContainer</i> parameter must be set to <b>NULL</b>. The application has no access to the persisted private keys of public/private key pairs. When this flag is set, temporary <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a> can be created, but they are not persisted.
 

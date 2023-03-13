@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathHA
 title: PdhExpandWildCardPathHA function (pdh.h)
-description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
-helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPathH","PdhExpandWildCardPathH function [Perf]","PdhExpandWildCardPathHA","PdhExpandWildCardPathHW","_win32_pdhexpandwildcardpathh","base.pdhexpandwildcardpathh","pdh/PdhExpandWildCardPathH","pdh/PdhExpandWildCardPathHA","pdh/PdhExpandWildCardPathHW","perf.pdhexpandwildcardpathh"]
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources. (ANSI)
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS", "PDH_NOEXPANDINSTANCES", "PdhExpandWildCardPathHA", "pdh/PdhExpandWildCardPathHA"]
 old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perf
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
 req.header: pdh.h
 req.include-header: 
@@ -110,6 +110,15 @@ Do not expand the counter name if the path contains a wildcard character for cou
 <td width="60%">
 Do not expand the instance name if the path contains a wildcard character for parent instance, instance name, or instance index.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PDH_REFRESHCOUNTERS"></a><a id="pdh_PDH_REFRESHCOUNTERS"></a><dl>
+<dt><b>PDH_REFRESHCOUNTERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Refresh the counter list.
 </td>
 </tr>
 </table>
@@ -226,12 +235,7 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 ## -see-also
 
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
-
-
-
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
-
-
-
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
+[PdhBindInputDataSourceA function](nf-pdh-pdhbindinputdatasourcea.md)
+[PdhEnumObjectItemsHA function](nf-pdh-pdhenumobjectitemsha.md)
+[PdhEnumObjectsHA function](nf-pdh-pdhenumobjectsha.md)
+[PdhExpandCounterPathA function](nf-pdh-pdhexpandcounterpatha.md)

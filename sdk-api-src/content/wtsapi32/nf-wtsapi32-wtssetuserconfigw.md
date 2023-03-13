@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSSetUserConfigW
 title: WTSSetUserConfigW function (wtsapi32.h)
-description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSSetUserConfig","WTSSetUserConfig function [Remote Desktop Services]","WTSSetUserConfigA","WTSSetUserConfigW","_win32_wtssetuserconfig","termserv.wtssetuserconfig","wtsapi32/WTSSetUserConfig","wtsapi32/WTSSetUserConfigA","wtsapi32/WTSSetUserConfigW"]
+description: Modifies configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server. (Unicode)
+helpviewer_keywords: ["WTSSetUserConfig", "WTSSetUserConfig function [Remote Desktop Services]", "WTSSetUserConfigW", "_win32_wtssetuserconfig", "termserv.wtssetuserconfig", "wtsapi32/WTSSetUserConfig", "wtsapi32/WTSSetUserConfigW"]
 old-location: termserv\wtssetuserconfig.htm
 tech.root: TermServ
 ms.assetid: 44d027c6-6ebb-4750-a0fa-17fdf31e45cd

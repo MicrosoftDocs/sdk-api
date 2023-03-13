@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.put_Name
 title: IFsrmQuotaTemplate::put_Name (fsrmquota.h)
-description: Retrieves and sets the name of the quota template.
+description: Retrieves and sets the name of the quota template. (Put)
 helpviewer_keywords: ["IFsrmQuotaTemplate interface [File Server Resource Manager]","Name property","IFsrmQuotaTemplate.Name","IFsrmQuotaTemplate.put_Name","IFsrmQuotaTemplate::Name","IFsrmQuotaTemplate::get_Name","IFsrmQuotaTemplate::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmQuotaTemplate interface","fs.ifsrmquotatemplate_name","fsrm.ifsrmquotatemplate_name","fsrmquota/IFsrmQuotaTemplate::Name","fsrmquota/IFsrmQuotaTemplate::get_Name","fsrmquota/IFsrmQuotaTemplate::put_Name","put_Name"]
 old-location: fsrm\ifsrmquotatemplate_name.htm
 tech.root: fsrm

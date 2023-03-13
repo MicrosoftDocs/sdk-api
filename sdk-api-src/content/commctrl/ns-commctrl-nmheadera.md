@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMHEADERA
 title: NMHEADERA (commctrl.h)
-description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
+description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure. (ANSI)
 helpviewer_keywords: ["*LPNMHEADERA","0","1","2","LPNMHEADER","LPNMHEADER structure pointer [Windows Controls]","NMHEADER","NMHEADER structure [Windows Controls]","NMHEADERA","NMHEADERW","_win32_NMHEADER","_win32_NMHEADER_cpp","commctrl/LPNMHEADER","commctrl/NMHEADER","commctrl/NMHEADERA","commctrl/NMHEADERW","controls.NMHEADER","controls._win32_NMHEADER"]
 old-location: controls\NMHEADER.htm
 tech.root: Controls

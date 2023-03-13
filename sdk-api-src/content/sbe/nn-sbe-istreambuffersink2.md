@@ -56,7 +56,7 @@ The <b>IStreamBufferSink2</b> interface is exposed by the <a href="/previous-ver
 
 The <b>IStreamBufferSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink</a>. <b>IStreamBufferSink2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -40,7 +40,7 @@ Specifies a Direct3D 11 video feature or feature set to query about. When you wa
 
 ## -enum-fields
 
-### -field D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM
+### -field D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM:0
 
 Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href ="ns-d3d11_4-d3d11_feature_data_video_decoder_histogram.md">D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM</a>.
 

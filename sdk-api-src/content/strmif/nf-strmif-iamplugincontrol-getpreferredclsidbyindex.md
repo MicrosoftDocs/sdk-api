@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsidByIndex
 title: IAMPluginControl::GetPreferredClsidByIndex (strmif.h)
-description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
+description: IAMPluginControl::GetPreferredClsidByIndex (strmif.h) gets a class identifier (CLSID) from the preferred list, specified by index value.
 helpviewer_keywords: ["GetPreferredClsidByIndex","GetPreferredClsidByIndex method [DirectShow]","GetPreferredClsidByIndex method [DirectShow]","IAMPluginControl interface","IAMPluginControl interface [DirectShow]","GetPreferredClsidByIndex method","IAMPluginControl.GetPreferredClsidByIndex","IAMPluginControl::GetPreferredClsidByIndex","dshow.iamplugincontrol_getpreferredclsidbyindex","strmif/IAMPluginControl::GetPreferredClsidByIndex"]
 old-location: dshow\iamplugincontrol_getpreferredclsidbyindex.htm
 tech.root: DirectShow
 ms.assetid: 50da3961-3913-4e7d-bbbc-b89450f99931
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [DirectShow], GetPreferredClsidByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsidByIndex method, IAMPluginControl.GetPreferredClsidByIndex, IAMPluginControl::GetPreferredClsidByIndex, dshow.iamplugincontrol_getpreferredclsidbyindex, strmif/IAMPluginControl::GetPreferredClsidByIndex
 req.header: strmif.h
 req.include-header: Dshow.h

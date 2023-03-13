@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.CheckSignature
 title: IX509CertificateRequestCmc2::CheckSignature (certenroll.h)
-description: Verifies that the certificate request has been signed and that the signature is valid.
+description: Verifies that the certificate request has been signed and that the signature is valid. (IX509CertificateRequestCmc2.CheckSignature)
 helpviewer_keywords: ["AllowedKeySignature","AllowedNullSignature","CheckSignature","CheckSignature method [Security]","CheckSignature method [Security]","IX509CertificateRequestCmc2 interface","IX509CertificateRequestCmc2 interface [Security]","CheckSignature method","IX509CertificateRequestCmc2.CheckSignature","IX509CertificateRequestCmc2::CheckSignature","certenroll/IX509CertificateRequestCmc2::CheckSignature","security.ix509certificaterequestcmc2_checksignature"]
 old-location: security\ix509certificaterequestcmc2_checksignature.htm
 tech.root: security

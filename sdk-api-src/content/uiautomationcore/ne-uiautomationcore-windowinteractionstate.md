@@ -54,23 +54,23 @@ Contains values that specify the current state of the window for purposes of use
 
 ## -enum-fields
 
-### -field WindowInteractionState_Running
+### -field WindowInteractionState_Running:0
 
 The window is running. This does not guarantee that the window is ready for user interaction or is responding.
 
-### -field WindowInteractionState_Closing
+### -field WindowInteractionState_Closing:1
 
 The window is closing.
 
-### -field WindowInteractionState_ReadyForUserInteraction
+### -field WindowInteractionState_ReadyForUserInteraction:2
 
 The window is ready for user interaction.
 
-### -field WindowInteractionState_BlockedByModalWindow
+### -field WindowInteractionState_BlockedByModalWindow:3
 
 The window is blocked by a modal window.
 
-### -field WindowInteractionState_NotResponding
+### -field WindowInteractionState_NotResponding:4
 
 The window is not responding.
 

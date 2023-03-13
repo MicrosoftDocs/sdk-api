@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Real64A
 title: MI_Real64A (mi.h)
-description: Represents an array of MI_Real64 types.
+description: Represents an array of MI_Real64 types. (MI_Real64A)
 helpviewer_keywords: ["MI_Real64A","MI_Real64A structure [Windows Management Infrastructure (MI)]","mi/MI_Real64A","wmi._mi_real64a","wmi_v2.mi_real64a"]
 old-location: wmi_v2\mi_real64a.htm
 tech.root: wmi_v2

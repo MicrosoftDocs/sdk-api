@@ -1,7 +1,7 @@
 ---
 UID: NC:mssip.pfnIsFileSupportedName
 title: pfnIsFileSupportedName (mssip.h)
-description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
+description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type. (pfnIsFileSupportedName)
 helpviewer_keywords: ["mssip/pfnIsFileSupportedName","pfnIsFileSupportedName","pfnIsFileSupportedName callback","pfnIsFileSupportedName callback function [Security]","security.pfnisfilesupportedname"]
 old-location: security\pfnisfilesupportedname.htm
 tech.root: security

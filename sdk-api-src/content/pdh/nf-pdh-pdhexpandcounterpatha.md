@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathA
 title: PdhExpandCounterPathA function (pdh.h)
-description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
-helpviewer_keywords: ["PdhExpandCounterPath","PdhExpandCounterPath function [Perf]","PdhExpandCounterPathA","PdhExpandCounterPathW","_win32_pdhexpandcounterpath","base.pdhexpandcounterpath","pdh/PdhExpandCounterPath","pdh/PdhExpandCounterPathA","pdh/PdhExpandCounterPathW","perf.pdhexpandcounterpath"]
+description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path. (ANSI)
+helpviewer_keywords: ["PdhExpandCounterPathA", "pdh/PdhExpandCounterPathA"]
 old-location: perf\pdhexpandcounterpath.htm
 tech.root: perf
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115

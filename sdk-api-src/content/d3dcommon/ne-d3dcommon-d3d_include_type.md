@@ -59,7 +59,7 @@ Values that indicate the location of a shader #include file.
 
 ## -enum-fields
 
-### -field D3D_INCLUDE_LOCAL
+### -field D3D_INCLUDE_LOCAL:0
 
 The local directory.
 
@@ -75,7 +75,7 @@ The local directory.
 
 The system directory.
 
-### -field D3D_INCLUDE_FORCE_DWORD
+### -field D3D_INCLUDE_FORCE_DWORD:0x7fffffff
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_InitialProgram
 title: ITsSbSession::get_InitialProgram (sbtsv.h)
-description: Retrieves or specifies the initial program for this session.
+description: Retrieves or specifies the initial program for this session. (Get)
 helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","InitialProgram property","ITsSbSession.InitialProgram","ITsSbSession.get_InitialProgram","ITsSbSession::InitialProgram","ITsSbSession::get_InitialProgram","ITsSbSession::put_InitialProgram","InitialProgram property [Remote Desktop Services]","InitialProgram property [Remote Desktop Services]","ITsSbSession interface","get_InitialProgram","sbtsv/ITsSbSession::InitialProgram","sbtsv/ITsSbSession::get_InitialProgram","sbtsv/ITsSbSession::put_InitialProgram","termserv.itssbsession_initialprogram"]
 old-location: termserv\itssbsession_initialprogram.htm
 tech.root: TermServ

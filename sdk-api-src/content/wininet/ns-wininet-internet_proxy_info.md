@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_2
+UID: NS:wininet.INTERNET_PROXY_INFO
 title: INTERNET_PROXY_INFO (wininet.h)
 description: Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the InternetOpen function.
 helpviewer_keywords: ["*LPINTERNET_PROXY_INFO","INTERNET_OPEN_TYPE_DIRECT","INTERNET_OPEN_TYPE_PRECONFIG","INTERNET_OPEN_TYPE_PROXY","INTERNET_PROXY_INFO","INTERNET_PROXY_INFO structure [WinINet]","LPINTERNET_PROXY_INFO","LPINTERNET_PROXY_INFO structure pointer [WinINet]","_inet_internet_proxy_info_structure","wininet.internet_proxy_info","wininet/ LPINTERNET_PROXY_INFO","wininet/INTERNET_PROXY_INFO"]
@@ -118,3 +118,4 @@ Pointer to a string that contains the proxy bypass list.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
+

@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Secur32.dll
+ - schannel.dll
 api_name:
  - SaslAcceptSecurityContext
 ---

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_SupportHighContrastInk
 title: IInkCollector::put_SupportHighContrastInk (msinkaut.h)
-description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
+description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode. (IInkCollector.put_SupportHighContrastInk)
 helpviewer_keywords: ["17f5002b-0191-4cb0-8b12-0383aaabe2a8","IInkCollector interface [Tablet PC]","SupportHighContrastInk property","IInkCollector.SupportHighContrastInk","IInkCollector.put_SupportHighContrastInk","IInkCollector::SupportHighContrastInk","IInkCollector::get_SupportHighContrastInk","IInkCollector::put_SupportHighContrastInk","InkCollector.get_SupportHighContrastInk","InkCollector.put_SupportHighContrastInk","SupportHighContrastInk property [Tablet PC]","SupportHighContrastInk property [Tablet PC]","IInkCollector interface","get_SupportHighContrastInk","msinkaut/IInkCollector::SupportHighContrastInk","msinkaut/IInkCollector::get_SupportHighContrastInk","msinkaut/IInkCollector::put_SupportHighContrastInk","put_SupportHighContrastInk","tablet.inkcollector_supporthighcontrastink"]
 old-location: tablet\inkcollector_supporthighcontrastink.htm
 tech.root: tablet

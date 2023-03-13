@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_Factoid
 title: IPenInputPanel::put_Factoid (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object. (Put)
 helpviewer_keywords: ["1497502f-ce0e-4965-ab6a-af3c3ecdb0fe","Factoid property [Tablet PC]","Factoid property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","Factoid property","IPenInputPanel.Factoid","IPenInputPanel.put_Factoid","IPenInputPanel::Factoid","IPenInputPanel::get_Factoid","IPenInputPanel::put_Factoid","PenInputPanel.get_Factoid","PenInputPanel.put_Factoid","get_Factoid","peninputpanel/IPenInputPanel::Factoid","peninputpanel/IPenInputPanel::get_Factoid","peninputpanel/IPenInputPanel::put_Factoid","put_Factoid","tablet.peninputpanel_factoid"]
 old-location: tablet\peninputpanel_factoid.htm
 tech.root: tablet

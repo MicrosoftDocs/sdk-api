@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolumeMF3
 title: IVdsVolumeMF3 (vds.h)
-description: Provides methods to perform additional file system management operations on the volume object.
+description: Provides methods to perform additional file system management operations on the volume object. (IVdsVolumeMF3)
 helpviewer_keywords: ["IVdsVolumeMF3","IVdsVolumeMF3 interface","IVdsVolumeMF3 interface","described","base.ivdsvolumemf3","vds/IVdsVolumeMF3"]
 old-location: base\ivdsvolumemf3.htm
 tech.root: base
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
  Provides methods to perform additional file system management operations on the volume object.
 

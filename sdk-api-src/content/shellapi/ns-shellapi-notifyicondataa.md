@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._NOTIFYICONDATAA
 title: NOTIFYICONDATAA (shellapi.h)
-description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
+description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon. (ANSI)
 helpviewer_keywords: ["*PNOTIFYICONDATAA","0","NIF_GUID","NIF_ICON","NIF_INFO","NIF_MESSAGE","NIF_REALTIME","NIF_SHOWTIP","NIF_STATE","NIF_TIP","NIIF_ERROR","NIIF_ICON_MASK","NIIF_INFO","NIIF_LARGE_ICON","NIIF_NONE","NIIF_NOSOUND","NIIF_RESPECT_QUIET_TIME","NIIF_USER","NIIF_WARNING","NIS_HIDDEN","NIS_SHAREDICON","NOTIFYICONDATA","NOTIFYICONDATA structure [Windows Shell]","NOTIFYICONDATAA","NOTIFYICON_VERSION","NOTIFYICON_VERSION_4","PNOTIFYICONDATA","PNOTIFYICONDATA structure pointer [Windows Shell]","_win32_NOTIFYICONDATA","shell.NOTIFYICONDATA","shellapi/NOTIFYICONDATA","shellapi/PNOTIFYICONDATA"]
 old-location: shell\NOTIFYICONDATA.htm
 tech.root: shell
@@ -292,7 +292,7 @@ Type: <b>DWORD</b>
 
 #### NIIF_LARGE_ICON (0x00000020)
 
-0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions XM_CXSMICON x SM_CYSMICON is used. 
+0x00000020. <b>Windows Vista and later</b>. The large version of the icon should be used as the notification icon. This corresponds to the icon with dimensions SM_CXICON x SM_CYICON. If this flag is not set, the icon with dimensions SM_CXSMICON x SM_CYSMICON is used. 
         
                                 
 

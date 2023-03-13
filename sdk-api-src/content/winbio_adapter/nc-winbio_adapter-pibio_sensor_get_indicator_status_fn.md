@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_GET_INDICATOR_STATUS_FN
 title: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN (winbio_adapter.h)
-description: Retrieves a value that indicates whether the sensor indicator is on or off.
+description: The PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback function (winbio_adapter.h) retrieves a value that indicates whether the sensor indicator is on or off.
 helpviewer_keywords: ["PIBIO_SENSOR_GET_INDICATOR_STATUS_FN","PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback","SensorAdapterGetIndicatorStatus","SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API]","secbiomet.sensoradaptergetindicatorstatus","winbio_adapter/SensorAdapterGetIndicatorStatus"]
 old-location: secbiomet\sensoradaptergetindicatorstatus.htm
 tech.root: SecBioMet
 ms.assetid: 01dbf2ee-5b47-47a8-b22c-a80aec5f7fff
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN, PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback, SensorAdapterGetIndicatorStatus, SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptergetindicatorstatus, winbio_adapter/SensorAdapterGetIndicatorStatus
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxSetScrollPos
 title: ITextHost::TxSetScrollPos (textserv.h)
-description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
+description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box. (ITextHost.TxSetScrollPos)
 helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxSetScrollPos method","ITextHost.TxSetScrollPos","ITextHost::TxSetScrollPos","TxSetScrollPos","TxSetScrollPos method [Windows Controls]","TxSetScrollPos method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxSetScrollPos","_win32_ITextHost_TxSetScrollPos_cpp","controls.ITextHost_TxSetScrollPos","controls._win32_ITextHost_TxSetScrollPos","textserv/ITextHost::TxSetScrollPos"]
 old-location: controls\ITextHost_TxSetScrollPos.htm
 tech.root: Controls

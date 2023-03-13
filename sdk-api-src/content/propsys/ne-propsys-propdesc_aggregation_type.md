@@ -54,35 +54,35 @@ Describes how property values are displayed when multiple items are selected. Fo
 
 ## -enum-fields
 
-### -field PDAT_DEFAULT
+### -field PDAT_DEFAULT:0
 
 Display the string "Multiple Values".
 
-### -field PDAT_FIRST
+### -field PDAT_FIRST:1
 
 Display the first value in the selection.
 
-### -field PDAT_SUM
+### -field PDAT_SUM:2
 
 Display the sum of the selected values. This flag is never returned for data types <b>VT_LPWSTR</b>, <b>VT_BOOL</b>, and <b>VT_FILETIME</b>.
 
-### -field PDAT_AVERAGE
+### -field PDAT_AVERAGE:3
 
 Display the numerical average of the selected values. This flag is never returned for data types <b>VT_LPWSTR</b>, <b>VT_BOOL</b>, and <b>VT_FILETIME</b>.
 
-### -field PDAT_DATERANGE
+### -field PDAT_DATERANGE:4
 
 Display the date range of the selected values. This flag is returned only for values of the <b>VT_FILETIME</b> data type.
 
-### -field PDAT_UNION
+### -field PDAT_UNION:5
 
 Display a concatenated string of all the values. The order of individual values in the string is undefined. The concatenated string omits duplicate values; if a value occurs more than once, it appears only once in the concatenated string.
 
-### -field PDAT_MAX
+### -field PDAT_MAX:6
 
 Display the highest of the selected values.
 
-### -field PDAT_MIN
+### -field PDAT_MIN:7
 
 Display the lowest of the selected values.
 

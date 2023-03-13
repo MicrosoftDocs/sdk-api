@@ -4,7 +4,7 @@ tech.root: com
 title: IPersistPropertyBag
 ms.date: 05/25/2021
 targetos: Windows
-description: Works with [IPropertyBag](../aoidl/nn-oaidl-ipropertybag.md) and [IErrorlog](../aoidl/nn-oaidl-ierrorlog.md) to define an individual property-based persistence mechanism.
+description: Works with [IPropertyBag](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) and [IErrorlog](/windows/win32/api/oaidl/nn-oaidl-ierrorlog) to define an individual property-based persistence mechanism.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,7 +36,7 @@ dev_langs:
 
 ## -description
 
-Works with [IPropertyBag](../aoidl/nn-oaidl-ipropertybag.md) and [IErrorlog](../aoidl/nn-oaidl-ierrorlog.md) to define an individual property-based persistence mechanism.
+Works with [IPropertyBag](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) and [IErrorlog](/windows/win32/api/oaidl/nn-oaidl-ierrorlog) to define an individual property-based persistence mechanism.
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.SetIpsecTunnelAddress
 title: IVdsIscsiPortal::SetIpsecTunnelAddress (vds.h)
-description: Not supported.This method is reserved for future use.
+description: The IVdsIscsiPortal::SetIpsecTunnelAddress method (vds.h) is not supported and is reserved for future use.
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiPortal.SetIpsecTunnelAddress","IVdsIscsiPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsectunneladdress","vds/IVdsIscsiPortal::SetIpsecTunnelAddress","vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress"]
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
 tech.root: base
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiPortal.SetIpsecTunnelAddress, IVdsIscsiPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsectunneladdress, vds/IVdsIscsiPortal::SetIpsecTunnelAddress, vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection3.GetExpirationEvent
 title: IDWriteFontCollection3::GetExpirationEvent
-description: Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated.
+description: Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated. (IDWriteFontCollection3::GetExpirationEvent)
 helpviewer_keywords: ["IDWriteFontCollection3 interface [Direct Write]","GetExpirationEvent method","IDWriteFontCollection3.GetExpirationEvent","IDWriteFontCollection3::GetExpirationEvent","GetExpirationEvent","GetExpirationEvent method [Direct Write]","GetExpirationEvent method [Direct Write]","IDWriteFontCollection3 interface","directwrite.idwritefontcollection3_getexpirationevent","dwrite_3/IDWriteFontCollection3::GetExpirationEvent"]
 tech.root: DirectWrite
 ms.date: 09/12/2019

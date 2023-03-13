@@ -1,5 +1,5 @@
 ---
-UID: NE:winnt.__unnamed_enum_0
+UID: NE:winnt.COMPARTMENT_ID
 title: COMPARTMENT_ID (winnt.h)
 description: The COMPARTMENT_ID enumeration indicates the network routing compartment identifier.
 helpviewer_keywords: ["*PCOMPARTMENT_ID","COMPARTMENT_ID","COMPARTMENT_ID enumeration [Kernel-Mode Driver Architecture]","DEFAULT_COMPARTMENT_ID","PCOMPARTMENT_ID","PCOMPARTMENT_ID enumeration pointer [Kernel-Mode Driver Architecture]","UNSPECIFIED_COMPARTMENT_ID","kernel.compartment_id","sysenum_7c4df3d5-f14a-4650-be6d-82b8bcc421ee.xml","winnt/COMPARTMENT_ID","winnt/DEFAULT_COMPARTMENT_ID","winnt/PCOMPARTMENT_ID","winnt/UNSPECIFIED_COMPARTMENT_ID"]
@@ -56,7 +56,7 @@ The <b>COMPARTMENT_ID</b> enumeration indicates the network routing compartment 
 
 ## -enum-fields
 
-### -field UNSPECIFIED_COMPARTMENT_ID
+### -field UNSPECIFIED_COMPARTMENT_ID:0
 
 Indicates that the routing compartment is undefined.
 

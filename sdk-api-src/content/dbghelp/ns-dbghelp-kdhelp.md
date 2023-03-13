@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._KDHELP
 title: KDHELP (dbghelp.h)
-description: Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack.
+description: Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack. (KDHELP)
 helpviewer_keywords: ["*PKDHELP","KDHELP","KDHELP structure","KDHELP64","KDHELP64 structure","PKDHELP64","PKDHELP64 structure pointer","_KDHELP64","_win32_kdhelp64_str","base.kdhelp64_str","dbghelp/KDHELP64","dbghelp/PKDHELP64"]
 old-location: base\kdhelp64_str.htm
 tech.root: Debug

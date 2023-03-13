@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangle(constBrush,INT,INT,INT,INT)
 title: Graphics::FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::FillRectangle method uses a brush to fill the interior of a rectangle.
+description: The Graphics::FillRectangle method uses a brush to fill the interior of a rectangle. (overload 3/4)
 helpviewer_keywords: ["FillRectangle","FillRectangle method [GDI+]","FillRectangle method [GDI+]","Graphics class","Graphics class [GDI+]","FillRectangle method","Graphics.FillRectangle","Graphics.FillRectangle(IN const Brush","IN INT","IN INT","IN INT","IN INT)","Graphics.FillRectangle(const Brush*","INT","INT","INT","INT)","Graphics::FillRectangle","Graphics::FillRectangle(IN const Brush","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_INT_x_INT_y_INT_width_INT_height_","gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_INT_x_INT_y_INT_width_INT_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_INT_x_INT_y_INT_width_INT_height_.htm
 tech.root: gdiplus

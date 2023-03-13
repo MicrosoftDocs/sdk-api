@@ -1,12 +1,12 @@
 ---
 UID: NE:objidl.tagACTIVATIONTYPE
 title: ACTIVATIONTYPE (objidl.h)
-description: Specifies the kind of activation for an activatable class.
+description: The ACTIVATIONTYPE enumeration (objidl.h) specifies the kind of activation for an activatable class.
 helpviewer_keywords: ["ACTIVATIONTYPE","ActivationType","ActivationType enumeration [Windows Runtime]","ActivationType_InProcess","ActivationType_OutOfProcess","ActivationType_RemoteProcess","__x_ABI_CWindows_CFoundation_CActivationType","activationregistration/ActivationType","activationregistration/ActivationType_InProcess","activationregistration/ActivationType_OutOfProcess","activationregistration/ActivationType_RemoteProcess","winrt.activationtype"]
 old-location: winrt\activationtype.htm
 tech.root: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: ACTIVATIONTYPE, ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, __x_ABI_CWindows_CFoundation_CActivationType, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 req.header: objidl.h
 req.include-header: Objidl.h
@@ -56,17 +56,17 @@ Specifies the kind of activation for an activatable class.
 
 ## -enum-fields
 
-### -field ACTIVATIONTYPE_UNCATEGORIZED
+### -field ACTIVATIONTYPE_UNCATEGORIZED:0
 
-### -field ACTIVATIONTYPE_FROM_MONIKER
+### -field ACTIVATIONTYPE_FROM_MONIKER:0x1
 
-### -field ACTIVATIONTYPE_FROM_DATA
+### -field ACTIVATIONTYPE_FROM_DATA:0x2
 
-### -field ACTIVATIONTYPE_FROM_STORAGE
+### -field ACTIVATIONTYPE_FROM_STORAGE:0x4
 
-### -field ACTIVATIONTYPE_FROM_STREAM
+### -field ACTIVATIONTYPE_FROM_STREAM:0x8
 
-### -field ACTIVATIONTYPE_FROM_FILE
+### -field ACTIVATIONTYPE_FROM_FILE:0x10
 
 #### - ActivationType_InProcess
 

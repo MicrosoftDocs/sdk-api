@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoW
 title: RpcBindingInqAuthInfoW function (rpcdce.h)
-description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
-helpviewer_keywords: ["RpcBindingInqAuthInfo","RpcBindingInqAuthInfo function [RPC]","RpcBindingInqAuthInfoA","RpcBindingInqAuthInfoW","_rpc_rpcbindinginqauthinfo","rpc.rpcbindinginqauthinfo","rpcdce/RpcBindingInqAuthInfo","rpcdce/RpcBindingInqAuthInfoA","rpcdce/RpcBindingInqAuthInfoW"]
+description: The RpcBindingInqAuthInfoW (Unicode) function (rpcdce.h) returns authentication and authorization information from a binding handle.
+helpviewer_keywords: ["RpcBindingInqAuthInfo", "RpcBindingInqAuthInfo function [RPC]", "RpcBindingInqAuthInfoW", "_rpc_rpcbindinginqauthinfo", "rpc.rpcbindinginqauthinfo", "rpcdce/RpcBindingInqAuthInfo", "rpcdce/RpcBindingInqAuthInfoW"]
 old-location: rpc\rpcbindinginqauthinfo.htm
 tech.root: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcBindingInqAuthInfo, RpcBindingInqAuthInfo function [RPC], RpcBindingInqAuthInfoA, RpcBindingInqAuthInfoW, _rpc_rpcbindinginqauthinfo, rpc.rpcbindinginqauthinfo, rpcdce/RpcBindingInqAuthInfo, rpcdce/RpcBindingInqAuthInfoA, rpcdce/RpcBindingInqAuthInfoW
 req.header: rpcdce.h
 req.include-header: Rpc.h

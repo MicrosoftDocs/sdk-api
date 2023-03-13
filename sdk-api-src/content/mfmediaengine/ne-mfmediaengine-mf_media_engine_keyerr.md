@@ -56,27 +56,27 @@ Defines media key error codes for the media engine.
 
 ## -enum-fields
 
-### -field MF_MEDIAENGINE_KEYERR_UNKNOWN
+### -field MF_MEDIAENGINE_KEYERR_UNKNOWN:1
 
 Unknown error occurred.
 
-### -field MF_MEDIAENGINE_KEYERR_CLIENT
+### -field MF_MEDIAENGINE_KEYERR_CLIENT:2
 
 An error with the client occurred.
 
-### -field MF_MEDIAENGINE_KEYERR_SERVICE
+### -field MF_MEDIAENGINE_KEYERR_SERVICE:3
 
 An error with the service occurred.
 
-### -field MF_MEDIAENGINE_KEYERR_OUTPUT
+### -field MF_MEDIAENGINE_KEYERR_OUTPUT:4
 
 An error with the output occurred.
 
-### -field MF_MEDIAENGINE_KEYERR_HARDWARECHANGE
+### -field MF_MEDIAENGINE_KEYERR_HARDWARECHANGE:5
 
 An error occurred related to a hardware change.
 
-### -field MF_MEDIAENGINE_KEYERR_DOMAIN
+### -field MF_MEDIAENGINE_KEYERR_DOMAIN:6
 
 An error with the domain occurred.
 

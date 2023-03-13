@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DVertexShader9.GetFunction
 title: IDirect3DVertexShader9::GetFunction (d3d9.h)
-description: Gets a pointer to the shader data.
+description: The IDirect3DVertexShader9::GetFunction (d3d9.h) method gets a pointer to the shader data.
 helpviewer_keywords: ["GetFunction","GetFunction method [Direct3D 9]","GetFunction method [Direct3D 9]","IDirect3DVertexShader9 interface","IDirect3DVertexShader9 interface [Direct3D 9]","GetFunction method","IDirect3DVertexShader9.GetFunction","IDirect3DVertexShader9::GetFunction","d0abe93b-084e-be3d-d4c2-e12b15c9898f","d3d9helper/IDirect3DVertexShader9::GetFunction","direct3d9.idirect3dvertexshader9__getfunction"]
 old-location: direct3d9\idirect3dvertexshader9__getfunction.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9__getfunction.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DVertexShader9 interface, IDirect3DVertexShader9 interface [Direct3D 9],GetFunction method, IDirect3DVertexShader9.GetFunction, IDirect3DVertexShader9::GetFunction, d0abe93b-084e-be3d-d4c2-e12b15c9898f, d3d9helper/IDirect3DVertexShader9::GetFunction, direct3d9.idirect3dvertexshader9__getfunction
 req.header: d3d9.h
 req.include-header: D3D9.h

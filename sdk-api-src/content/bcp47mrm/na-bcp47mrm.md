@@ -47,6 +47,3 @@ Provides functions for working with [BCP-47 language tags](https://tools.ietf.or
 ## -remarks
 
 ## -see-also
-
-## -examples
-

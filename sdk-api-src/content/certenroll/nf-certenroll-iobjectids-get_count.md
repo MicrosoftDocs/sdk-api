@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectIds.get_Count
 title: IObjectIds::get_Count (certenroll.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection. (IObjectIds.get_Count)
 helpviewer_keywords: ["Count property [Security]","Count property [Security]","IObjectIds interface","IObjectIds interface [Security]","Count property","IObjectIds.Count","IObjectIds.get_Count","IObjectIds::Count","IObjectIds::get_Count","certenroll/IObjectIds::Count","certenroll/IObjectIds::get_Count","get_Count","security.iobjectids_count_property"]
 old-location: security\iobjectids_count_property.htm
 tech.root: security

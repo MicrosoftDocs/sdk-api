@@ -4,7 +4,7 @@ title: Fsrm.h header
 ms.assetid: 5eecab7d-b2a5-3c5d-86a7-587aa271d6c6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fsrm
 f1_keywords:
  - fsrm

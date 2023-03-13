@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegOpenKeyTransactedA
 title: RegOpenKeyTransactedA function (winreg.h)
-description: Opens the specified registry key and associates it with a transaction.
-helpviewer_keywords: ["RegOpenKeyTransacted","RegOpenKeyTransacted function","RegOpenKeyTransactedA","RegOpenKeyTransactedW","base.regopenkeytransacted","winreg/RegOpenKeyTransacted","winreg/RegOpenKeyTransactedA","winreg/RegOpenKeyTransactedW"]
+description: Opens the specified registry key and associates it with a transaction. (ANSI)
+helpviewer_keywords: ["RegOpenKeyTransactedA", "winreg/RegOpenKeyTransactedA"]
 old-location: base\regopenkeytransacted.htm
 tech.root: winprog
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd

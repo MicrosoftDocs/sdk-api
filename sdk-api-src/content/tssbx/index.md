@@ -4,7 +4,7 @@ title: Tssbx.h header
 ms.assetid: 6f94fcf5-4429-3e2f-9af2-158daca66609
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: termserv
 f1_keywords:
  - tssbx

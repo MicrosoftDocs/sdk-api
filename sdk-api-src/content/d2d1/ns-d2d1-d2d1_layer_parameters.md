@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_LAYER_PARAMETERS
 title: D2D1_LAYER_PARAMETERS (d2d1.h)
-description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
+description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource. (D2D1_LAYER_PARAMETERS)
 helpviewer_keywords: ["D2D1_LAYER_PARAMETERS","D2D1_LAYER_PARAMETERS structure [Direct2D]","d2d1/D2D1_LAYER_PARAMETERS","direct2d.D2D1_LAYER_PARAMETERS"]
 old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
 tech.root: Direct2D

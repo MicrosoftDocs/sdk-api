@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_ClipRegion
 title: IDynamicRenderer::get_ClipRegion (rtscom.h)
-description: Gets or sets the clipping region for the DynamicRenderer Class object.
+description: Gets or sets the clipping region for the DynamicRenderer Class object. (Get)
 helpviewer_keywords: ["ClipRegion property [Tablet PC]","ClipRegion property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","ClipRegion property","IDynamicRenderer.ClipRegion","IDynamicRenderer.get_ClipRegion","IDynamicRenderer.put_ClipRegion","IDynamicRenderer::ClipRegion","IDynamicRenderer::get_ClipRegion","IDynamicRenderer::put_ClipRegion","cf11d03d-8f60-44aa-a296-cc44ddc3930a","get_ClipRegion","rtscom/IDynamicRenderer::ClipRegion","rtscom/IDynamicRenderer::get_ClipRegion","rtscom/IDynamicRenderer::put_ClipRegion","tablet.idynamicrenderer_clipregion"]
 old-location: tablet\idynamicrenderer_clipregion.htm
 tech.root: tablet

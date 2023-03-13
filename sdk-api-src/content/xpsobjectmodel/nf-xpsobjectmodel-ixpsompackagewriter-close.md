@@ -48,7 +48,6 @@ api_name:
 
 # IXpsOMPackageWriter::Close
 
-
 ## -description
 
 Closes any open parts of the package, then closes the package.

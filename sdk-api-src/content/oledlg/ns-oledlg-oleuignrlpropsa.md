@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIGNRLPROPSA
 title: OLEUIGNRLPROPSA (oledlg.h)
-description: Initializes the General tab of the Object Properties dialog box.
+description: Initializes the General tab of the Object Properties dialog box. (ANSI)
 helpviewer_keywords: ["*LPOLEUIGNRLPROPSA","*POLEUIGNRLPROPSA","LPOLEUIGNRLPROPS","LPOLEUIGNRLPROPS structure pointer [COM]","OLEUIGNRLPROPS","OLEUIGNRLPROPS structure [COM]","OLEUIGNRLPROPSA","OLEUIGNRLPROPSW","POLEUIGNRLPROPS","POLEUIGNRLPROPS structure pointer [COM]","_ole_OLEUIGNRLPROPS","com.oleuignrlprops_struct","oledlg/LPOLEUIGNRLPROPS","oledlg/OLEUIGNRLPROPS","oledlg/OLEUIGNRLPROPSA","oledlg/OLEUIGNRLPROPSW","oledlg/POLEUIGNRLPROPS"]
 old-location: com\oleuignrlprops_struct.htm
 tech.root: com

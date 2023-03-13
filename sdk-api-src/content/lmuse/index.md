@@ -4,7 +4,7 @@ title: Lmuse.h header
 ms.assetid: 99f8f5f1-0d2d-36c6-aa23-8dcb6e20225c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: netmgmt
 f1_keywords:
  - lmuse

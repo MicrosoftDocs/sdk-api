@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter.Close
 title: IAppxBundleWriter::Close (appxpackaging.h)
-description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
+description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream. (IAppxBundleWriter.Close)
 helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxBundleWriter interface","IAppxBundleWriter interface [App packaging and management]","Close method","IAppxBundleWriter.Close","IAppxBundleWriter::Close","appxpackaging/IAppxBundleWriter::Close","appxpkg.iappxbundlewriter_close"]
 old-location: appxpkg\iappxbundlewriter_close.htm
 tech.root: appxpkg

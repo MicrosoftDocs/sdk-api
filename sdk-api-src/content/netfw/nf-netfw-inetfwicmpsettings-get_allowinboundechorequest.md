@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowInboundEchoRequest
 title: INetFwIcmpSettings::get_AllowInboundEchoRequest (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed. (INetFwIcmpSettings.get_AllowInboundEchoRequest)
 helpviewer_keywords: ["AllowInboundEchoRequest property [ICS/ICF]","AllowInboundEchoRequest property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowInboundEchoRequest property","INetFwIcmpSettings.AllowInboundEchoRequest","INetFwIcmpSettings.get_AllowInboundEchoRequest","INetFwIcmpSettings::AllowInboundEchoRequest","INetFwIcmpSettings::get_AllowInboundEchoRequest","INetFwIcmpSettings::put_AllowInboundEchoRequest","get_AllowInboundEchoRequest","ics.inetfwicmpsettings_allowinboundechorequest","netfw/INetFwIcmpSettings::AllowInboundEchoRequest","netfw/INetFwIcmpSettings::get_AllowInboundEchoRequest","netfw/INetFwIcmpSettings::put_AllowInboundEchoRequest"]
 old-location: ics\inetfwicmpsettings_allowinboundechorequest.htm
 tech.root: ics

@@ -54,11 +54,11 @@ Specifies a type of capture device.
 
 ## -enum-fields
 
-### -field MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO
+### -field MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO:0
 
 An audio capture device, such as a microphone.
 
-### -field MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO
+### -field MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO:0x1
 
 A video capture device, such as a webcam.
 

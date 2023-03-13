@@ -3,7 +3,7 @@ UID: TP:comp_swapchain
 title: Composition swapchain
 ms.date: 09/10/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Composition swapchain

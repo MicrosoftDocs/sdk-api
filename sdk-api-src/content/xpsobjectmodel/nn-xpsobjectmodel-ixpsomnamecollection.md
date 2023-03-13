@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMNameCollection interface
 
-
 ## -description
 
 A collection of name strings.

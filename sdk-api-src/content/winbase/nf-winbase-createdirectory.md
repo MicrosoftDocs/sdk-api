@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.CreateDirectory
 title: CreateDirectory function (winbase.h)
-description: Creates a new directory.
+description: The CreateDirectory function (winbase.h) creates a new directory.
 helpviewer_keywords: ["CreateDirectory","CreateDirectory function [Files]","CreateDirectoryA","CreateDirectoryW","_win32_createdirectory","base.createdirectory","fileapi/CreateDirectory","fileapi/CreateDirectoryA","fileapi/CreateDirectoryW","fs.createdirectory","winbase/CreateDirectory","winbase/CreateDirectoryA","winbase/CreateDirectoryW"]
 old-location: fs\createdirectory.htm
 tech.root: fs
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
 req.header: winbase.h
 req.include-header: Windows.h

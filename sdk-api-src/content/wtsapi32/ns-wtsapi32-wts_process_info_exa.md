@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFO_EXA
 title: WTS_PROCESS_INFO_EXA (wtsapi32.h)
-description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
+description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server. (ANSI)
 helpviewer_keywords: ["*PWTS_PROCESS_INFO_EXA","PWTS_PROCESS_INFO_EX","PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services]","WTS_PROCESS_INFO_EX","WTS_PROCESS_INFO_EX structure [Remote Desktop Services]","WTS_PROCESS_INFO_EXA","WTS_PROCESS_INFO_EXW","termserv.wts_process_info_ex","wtsapi32/PWTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EXA","wtsapi32/WTS_PROCESS_INFO_EXW"]
 old-location: termserv\wts_process_info_ex.htm
 tech.root: TermServ

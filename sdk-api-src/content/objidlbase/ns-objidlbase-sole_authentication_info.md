@@ -1,12 +1,12 @@
 ---
 UID: NS:objidlbase.tagSOLE_AUTHENTICATION_INFO
 title: SOLE_AUTHENTICATION_INFO (objidlbase.h)
-description: Identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
+description: The SOLE_AUTHENTICATION_INFO (objidlbase.h) structure identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
 helpviewer_keywords: ["*PSOLE_AUTHENTICATION_INFO","PSOLE_AUTHENTICATION_INFO","PSOLE_AUTHENTICATION_INFO structure pointer [COM]","SOLE_AUTHENTICATION_INFO","SOLE_AUTHENTICATION_INFO structure [COM]","_com_SOLE_AUTHENTICATION_INFO","com.sole_authentication_info","objidlbase/PSOLE_AUTHENTICATION_INFO","objidlbase/SOLE_AUTHENTICATION_INFO","tagSOLE_AUTHENTICATION_INFO"]
 old-location: com\sole_authentication_info.htm
 tech.root: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: '*PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO structure pointer [COM], SOLE_AUTHENTICATION_INFO, SOLE_AUTHENTICATION_INFO structure [COM], _com_SOLE_AUTHENTICATION_INFO, com.sole_authentication_info, objidlbase/PSOLE_AUTHENTICATION_INFO, objidlbase/SOLE_AUTHENTICATION_INFO, tagSOLE_AUTHENTICATION_INFO'
 req.header: objidlbase.h
 req.include-header: Objidl.h

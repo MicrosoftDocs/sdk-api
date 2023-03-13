@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_AutoRedraw
 title: IInkOverlay::put_AutoRedraw (msinkaut.h)
-description: Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated.
+description: Gets or sets a value that specifies whether an ink collector repaints the ink when the window is invalidated. (IInkOverlay.put_AutoRedraw)
 helpviewer_keywords: ["AutoRedraw property [Tablet PC]","AutoRedraw property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","AutoRedraw property","IInkOverlay.AutoRedraw","IInkOverlay.put_AutoRedraw","IInkOverlay::AutoRedraw","IInkOverlay::get_AutoRedraw","IInkOverlay::put_AutoRedraw","InkOverlay.get_AutoRedraw","InkOverlay.put_AutoRedraw","msinkaut/IInkOverlay::AutoRedraw","msinkaut/IInkOverlay::get_AutoRedraw","msinkaut/IInkOverlay::put_AutoRedraw","put_AutoRedraw","tablet.inkoverlay_autoredraw"]
 old-location: tablet\inkoverlay_autoredraw.htm
 tech.root: tablet

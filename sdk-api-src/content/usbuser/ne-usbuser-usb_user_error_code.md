@@ -56,7 +56,7 @@ The <b>USB_USER_ERROR_CODE</b> enumeration lists the error codes that a USB user
 
 ## -enum-fields
 
-### -field UsbUserSuccess
+### -field UsbUserSuccess:0
 
 The user request succeeded.
 

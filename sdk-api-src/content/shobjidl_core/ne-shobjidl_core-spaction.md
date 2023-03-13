@@ -56,7 +56,7 @@ Describes an action being performed that requires progress to be shown to the us
 
 ## -enum-fields
 
-### -field SPACTION_NONE
+### -field SPACTION_NONE:0
 
 No action is being performed.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.put_Delay
 title: ISessionStateChangeTrigger::put_Delay (taskschd.h)
-description: Gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected.
+description: Gets or sets a value that indicates how long of a delay takes place before a task is started after a Terminal Server session state change is detected. (ISessionStateChangeTrigger.put_Delay)
 helpviewer_keywords: ["Delay property [Task Scheduler]","Delay property [Task Scheduler]","ISessionStateChangeTrigger interface","ISessionStateChangeTrigger interface [Task Scheduler]","Delay property","ISessionStateChangeTrigger.Delay","ISessionStateChangeTrigger.put_Delay","ISessionStateChangeTrigger::Delay","ISessionStateChangeTrigger::get_Delay","ISessionStateChangeTrigger::put_Delay","put_Delay","taskschd.isessionstatechangetrigger_delay","taskschd/ISessionStateChangeTrigger::Delay","taskschd/ISessionStateChangeTrigger::get_Delay","taskschd/ISessionStateChangeTrigger::put_Delay"]
 old-location: taskschd\isessionstatechangetrigger_delay.htm
 tech.root: taskschd

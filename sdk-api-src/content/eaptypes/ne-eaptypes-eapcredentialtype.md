@@ -56,7 +56,7 @@ The <b>EapCredentialType</b> enumeration defines the set of possible EAP credent
 
 ## -enum-fields
 
-### -field EAP_EMPTY_CREDENTIAL
+### -field EAP_EMPTY_CREDENTIAL:0
 
 The EAP method has no credential passed to it. The method must attempt a machine authentication.
 

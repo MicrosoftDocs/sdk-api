@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSet
 title: IDWriteFontSet (dwrite_3.h)
-description: Represents a font set.
+description: Represents a font set. (IDWriteFontSet)
 helpviewer_keywords: ["IDWriteFontSet","IDWriteFontSet interface [Direct Write]","IDWriteFontSet interface [Direct Write]","described","directwrite.idwritefontset","dwrite_3/IDWriteFontSet"]
 old-location: directwrite\idwritefontset.htm
 tech.root: DirectWrite

@@ -53,35 +53,35 @@ Defines constants that specify the context in which the error occurred.
 
 ## -enum-fields
 
-### -field BG_ERROR_CONTEXT_NONE
+### -field BG_ERROR_CONTEXT_NONE:0
 
 An error has not occurred.
 
-### -field BG_ERROR_CONTEXT_UNKNOWN
+### -field BG_ERROR_CONTEXT_UNKNOWN:1
 
 The error context is unknown.
 
-### -field BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER
+### -field BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER:2
 
 The transfer queue manager generated the error.
 
-### -field BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION
+### -field BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION:3
 
 The error was generated while the queue manager was notifying the client of an event.
 
-### -field BG_ERROR_CONTEXT_LOCAL_FILE
+### -field BG_ERROR_CONTEXT_LOCAL_FILE:4
 
 The error was related to the specified local file. For example, permission was denied, or the volume was unavailable.
 
-### -field BG_ERROR_CONTEXT_REMOTE_FILE
+### -field BG_ERROR_CONTEXT_REMOTE_FILE:5
 
 The error was related to the specified remote file. For example, the URL was not accessible.
 
-### -field BG_ERROR_CONTEXT_GENERAL_TRANSPORT
+### -field BG_ERROR_CONTEXT_GENERAL_TRANSPORT:6
 
 The transport layer generated the error. These errors are general transport failures (these errors are not specific to the remote file).
 
-### -field BG_ERROR_CONTEXT_REMOTE_APPLICATION
+### -field BG_ERROR_CONTEXT_REMOTE_APPLICATION:7
 
 The server application to which BITS passed the upload file generated an error while processing the upload file. 
 

@@ -55,23 +55,23 @@ Specifies types of Shell windows.
 
 ## -enum-fields
 
-### -field SWC_EXPLORER
+### -field SWC_EXPLORER:0
 
 An Windows Explorer (Explorer.exe) window.
 
-### -field SWC_BROWSER
+### -field SWC_BROWSER:0x1
 
 An Internet Explorer (Iexplore.exe) browser window.
 
-### -field SWC_3RDPARTY
+### -field SWC_3RDPARTY:0x2
 
 A non-Microsoft browser window.
 
-### -field SWC_CALLBACK
+### -field SWC_CALLBACK:0x4
 
 A creation callback window.
 
-### -field SWC_DESKTOP
+### -field SWC_DESKTOP:0x8
 
 <b>Windows Vista and later</b>. The Windows desktop.
 

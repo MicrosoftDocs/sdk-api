@@ -157,7 +157,7 @@ When you no longer need the bitmap, call the <a href="/windows/desktop/api/wingd
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

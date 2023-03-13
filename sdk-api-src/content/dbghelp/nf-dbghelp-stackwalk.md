@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.StackWalk
 title: StackWalk function (dbghelp.h)
-description: Obtains a stack trace.
+description: Obtains a stack trace. (StackWalk)
 helpviewer_keywords: ["IMAGE_FILE_MACHINE_AMD64","IMAGE_FILE_MACHINE_I386","IMAGE_FILE_MACHINE_IA64","StackWalk","StackWalk function","StackWalk64","StackWalk64 function","_win32_stackwalk64","base.stackwalk64","dbghelp/StackWalk","dbghelp/StackWalk64"]
 old-location: base\stackwalk64.htm
 tech.root: Debug

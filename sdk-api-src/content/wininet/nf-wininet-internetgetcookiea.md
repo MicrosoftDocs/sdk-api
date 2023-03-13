@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetCookieA
 title: InternetGetCookieA function (wininet.h)
-description: Retrieves the cookie for the specified URL.
-helpviewer_keywords: ["InternetGetCookie","InternetGetCookie function [WinINet]","InternetGetCookieA","InternetGetCookieW","_win32_internetgetcookie","wininet.internetgetcookie","wininet/InternetGetCookie","wininet/InternetGetCookieA","wininet/InternetGetCookieW"]
+description: Retrieves the cookie for the specified URL. (ANSI)
+helpviewer_keywords: ["InternetGetCookieA", "wininet/InternetGetCookieA"]
 old-location: wininet\internetgetcookie.htm
 tech.root: wininet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396

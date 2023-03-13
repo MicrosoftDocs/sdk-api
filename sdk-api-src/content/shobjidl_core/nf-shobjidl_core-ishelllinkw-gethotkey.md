@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetHotkey
 title: IShellLinkW::GetHotkey (shobjidl_core.h)
-description: Gets the keyboard shortcut (hot key) for a Shell link object.
+description: Gets the keyboard shortcut (hot key) for a Shell link object. (Unicode)
 helpviewer_keywords: ["GetHotkey","GetHotkey method [Windows Shell]","GetHotkey method [Windows Shell]","IShellLink interface","GetHotkey method [Windows Shell]","IShellLinkA interface","GetHotkey method [Windows Shell]","IShellLinkW interface","HOTKEYF_ALT","HOTKEYF_CONTROL","HOTKEYF_EXT","HOTKEYF_SHIFT","IShellLink interface [Windows Shell]","GetHotkey method","IShellLink::GetHotkey","IShellLinkA interface [Windows Shell]","GetHotkey method","IShellLinkA::GetHotkey","IShellLinkW interface [Windows Shell]","GetHotkey method","IShellLinkW.GetHotkey","IShellLinkW::GetHotkey","_win32_IShellLink_GetHotkey","shell.IShellLink_GetHotkey","shobjidl_core/IShellLink::GetHotkey","shobjidl_core/IShellLinkA::GetHotkey","shobjidl_core/IShellLinkW::GetHotkey"]
 old-location: shell\IShellLink_GetHotkey.htm
 tech.root: shell

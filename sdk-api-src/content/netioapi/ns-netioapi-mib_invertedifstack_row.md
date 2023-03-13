@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._MIB_INVERTEDIFSTACK_ROW
 title: MIB_INVERTEDIFSTACK_ROW (netioapi.h)
-description: Represents the relationship between two network interfaces.
+description: Represents the relationship between two network interfaces. (MIB_INVERTEDIFSTACK_ROW)
 helpviewer_keywords: ["*PMIB_INVERTEDIFSTACK_ROW","MIB_INVERTEDIFSTACK_ROW","MIB_INVERTEDIFSTACK_ROW structure [MIB]","PMIB_INVERTEDIFSTACK_ROW","PMIB_INVERTEDIFSTACK_ROW structure pointer [MIB]","_MIB_INVERTEDIFSTACK_ROW","mib.mib_invertedifstack_row","netioapi/MIB_INVERTEDIFSTACK_ROW","netioapi/PMIB_INVERTEDIFSTACK_ROW"]
 old-location: mib\mib_invertedifstack_row.htm
 tech.root: MIB

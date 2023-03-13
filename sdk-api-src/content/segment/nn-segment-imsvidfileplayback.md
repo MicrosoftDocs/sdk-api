@@ -56,7 +56,7 @@ The <b>IMSVidFilePlayback</b> interface enables the client to specify a local fi
 
 The <b>IMSVidFilePlayback</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback</a>. <b>IMSVidFilePlayback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

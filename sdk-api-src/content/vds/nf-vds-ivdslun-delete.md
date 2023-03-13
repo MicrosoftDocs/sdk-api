@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.Delete
 title: IVdsLun::Delete (vds.h)
-description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
+description: The IVdsLun::Delete method (vds.h) deletes the LUN and all of its plexes. Any data on the LUN is lost, and VDS frees the extents allocated to the LUN.
 helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Delete method","IVdsLun.Delete","IVdsLun::Delete","base.ivdslun_delete","vds/IVdsLun::Delete","vdshwprv/IVdsLun::Delete"]
 old-location: base\ivdslun_delete.htm
 tech.root: base
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Deletes the LUN and all of its 
    plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.

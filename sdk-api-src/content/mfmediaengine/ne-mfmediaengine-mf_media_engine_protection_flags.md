@@ -54,15 +54,15 @@ Contains flags that specify whether the Media Engine will play protected content
 
 ## -enum-fields
 
-### -field MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT
+### -field MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT:1
 
 Enable playback of protected content. The Media Engine will not play DRM-protected content unless this flag is set. If you set this flag, also set the <a href="/windows/desktop/medfound/mf-media-engine-content-protection-manager">MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER</a> attribute.
 
-### -field MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT
+### -field MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT:2
 
 Use the <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a> (PMP) for all playback, including clear (non-protected) content.
 
-### -field MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP
+### -field MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP:4
 
 Create the PMP inside an unprotected process. You can use this option to play clear content, but not to play protected content.
 

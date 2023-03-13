@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterResource
 title: OpenClusterResource function (clusapi.h)
-description: Opens a resource and returns a handle to it.
+description: Opens a resource and returns a handle to it. (OpenClusterResource)
 helpviewer_keywords: ["OpenClusterResource","OpenClusterResource function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_RESOURCE","PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_openclusterresource","clusapi/OpenClusterResource","clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE","mscs.openclusterresource"]
 old-location: mscs\openclusterresource.htm
 tech.root: MsCS

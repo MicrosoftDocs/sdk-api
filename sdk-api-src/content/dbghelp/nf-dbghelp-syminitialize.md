@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymInitialize
 title: SymInitialize function (dbghelp.h)
-description: Initializes the symbol handler for a process.
+description: The SymInitialize function (dbghelp.h) initializes the symbol handler for a process.
 helpviewer_keywords: ["SymInitialize","SymInitialize function","SymInitializeW","_win32_syminitialize","base.syminitialize","dbghelp/SymInitialize","dbghelp/SymInitializeW"]
 old-location: base\syminitialize.htm
 tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_syminitialize, base.syminitialize, dbghelp/SymInitialize, dbghelp/SymInitializeW
 req.header: dbghelp.h
 req.include-header: 
@@ -58,7 +58,7 @@ Initializes the symbol handler for a process.
 
 ### -param hProcess [in]
 
-A handle that identifies the caller. This value should be unique and nonzero, but need not be a process handle. However, if you do use a process handle, be sure to use the correct handle. If the application is a debugger, use the process handle for the process being debugged. Do not use the handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> when debugging another process, because calling functions like <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> can have unexpected results. 
+A handle that identifies the caller. This value should be unique and nonzero, but need not be a process handle. However, if you do use a process handle, be sure to use the correct handle. If the application is a debugger, use the process handle for the process being debugged. Do not use the handle returned by <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a>. The handle used must be unique to avoid sharing a session with another component, and using <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> can have unexpected results when multiple components are attempting to use dbghelp to inspect the current process. Using <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> when debugging another process will also cause functions like <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> to have unexpected results.
 
 
 

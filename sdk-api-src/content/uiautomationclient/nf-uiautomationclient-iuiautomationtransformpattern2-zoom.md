@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.Zoom
 title: IUIAutomationTransformPattern2::Zoom (uiautomationclient.h)
-description: Zooms the viewport of the control.
+description: Zooms the viewport of the control. (IUIAutomationTransformPattern2.Zoom)
 helpviewer_keywords: ["IUIAutomationTransformPattern2 interface [Windows Accessibility]","Zoom method","IUIAutomationTransformPattern2.Zoom","IUIAutomationTransformPattern2::Zoom","Zoom","Zoom method [Windows Accessibility]","Zoom method [Windows Accessibility]","IUIAutomationTransformPattern2 interface","uiautomationclient/IUIAutomationTransformPattern2::Zoom","winauto.uiauto_IUIAutomationTransformPattern2_Zoom"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm
 tech.root: WinAuto

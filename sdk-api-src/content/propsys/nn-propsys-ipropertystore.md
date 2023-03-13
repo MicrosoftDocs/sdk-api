@@ -62,4 +62,4 @@ The <b>IPropertyStore</b> interface inherits from the <a href="/windows/desktop/
 
 
 
-<a href="/windows/win32/api/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams">AudioFXExtensionParams</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams.md">AudioFXExtensionParams</a>

@@ -64,7 +64,7 @@ The <b>ID3D11DeviceContext4</b> interface inherits from <a href="/windows/deskto
 
 
 
-<a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContect2</a>
+<a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
 
 
 

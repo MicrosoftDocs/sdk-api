@@ -1,12 +1,12 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_AC_CHANGE
 title: INET_FIREWALL_AC_CHANGE (networkisolation.h)
-description: Contains information about a change made to an app container.
+description: The INET_FIREWALL_AC_CHANGE structure contains information about a change made to an app container. (INET_FIREWALL_AC_CHANGE)
 helpviewer_keywords: ["*PINET_FIREWALL_AC_CHANGE","INET_FIREWALL_AC_CHANGE","INET_FIREWALL_AC_CHANGE structure [ICS/ICF]","PINET_FIREWALL_AC_CHANGE","PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF]","_INET_FIREWALL_AC_CHANGE","ics.inet_firewall_ac_change","networkisolation/INET_FIREWALL_AC_CHANGE","networkisolation/PINET_FIREWALL_AC_CHANGE"]
 old-location: ics\inet_firewall_ac_change.htm
 tech.root: ics
 ms.assetid: b5f1b85d-3538-4be3-b97b-f9207cc7063b
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PINET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE structure [ICS/ICF], PINET_FIREWALL_AC_CHANGE, PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF], _INET_FIREWALL_AC_CHANGE, ics.inet_firewall_ac_change, networkisolation/INET_FIREWALL_AC_CHANGE, networkisolation/PINET_FIREWALL_AC_CHANGE'
 req.header: networkisolation.h
 req.include-header: Netfw.h

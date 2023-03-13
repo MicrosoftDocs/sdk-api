@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.EnumDirTree
 title: EnumDirTree function (dbghelp.h)
-description: Enumerates all occurrences of the specified file in the specified directory tree.
+description: The EnumDirTree function (dbghelp.h) enumerates all occurrences of the specified file in the specified directory tree.
 helpviewer_keywords: ["EnumDirTree","EnumDirTree function","EnumDirTreeW","_win32_enumdirtree","base.enumdirtree","dbghelp/EnumDirTree","dbghelp/EnumDirTreeW"]
 old-location: base\enumdirtree.htm
 tech.root: Debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
 req.header: dbghelp.h
 req.include-header: 

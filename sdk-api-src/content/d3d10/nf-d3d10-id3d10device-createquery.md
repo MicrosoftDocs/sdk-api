@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateQuery
 title: ID3D10Device::CreateQuery (d3d10.h)
-description: This interface encapsulates methods for querying information from the GPU.
+description: This interface encapsulates methods for querying information from the GPU. (ID3D10Device.CreateQuery)
 helpviewer_keywords: ["CreateQuery","CreateQuery method [Direct3D 10]","CreateQuery method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateQuery method","ID3D10Device.CreateQuery","ID3D10Device::CreateQuery","d3d10/ID3D10Device::CreateQuery","direct3d10.id3d10device_createquery","e041861e-bdae-c4f9-1ea4-d5af2d5b38ab"]
 old-location: direct3d10\id3d10device_createquery.htm
 tech.root: direct3d10

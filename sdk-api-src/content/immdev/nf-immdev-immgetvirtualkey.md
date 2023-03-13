@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmGetVirtualKey
 title: ImmGetVirtualKey function (immdev.h)
-description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
+description: The ImmGetVirtualKey function (immdev.h) retrieves the original virtual key value associated with a key input message that the IME has already processed.
 helpviewer_keywords: ["ImmGetVirtualKey","ImmGetVirtualKey function [Internationalization for Windows Applications]","_win32_ImmGetVirtualKey","imm/ImmGetVirtualKey","intl.immgetvirtualkey"]
 old-location: intl\immgetvirtualkey.htm
 tech.root: Intl
 ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -74,8 +74,6 @@ message loop.
 
 ## -see-also
 
-<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+- <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+- <a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

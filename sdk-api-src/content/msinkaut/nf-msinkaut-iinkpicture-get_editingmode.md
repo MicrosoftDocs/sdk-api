@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_EditingMode
 title: IInkPicture::get_EditingMode (msinkaut.h)
-description: Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.
+description: Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode. (Get)
 helpviewer_keywords: ["5767f768-d59c-404e-9098-ab5e0c427c7d","EditingMode property [Tablet PC]","EditingMode property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","EditingMode property","IInkPicture.EditingMode","IInkPicture.get_EditingMode","IInkPicture::EditingMode","IInkPicture::get_EditingMode","IInkPicture::put_EditingMode","InkPicture.get_EditingMode","InkPicture.put_EditingMode","get_EditingMode","msinkaut/IInkPicture::EditingMode","msinkaut/IInkPicture::get_EditingMode","msinkaut/IInkPicture::put_EditingMode","put_EditingMode","tablet.inkpicture_editingmode"]
 old-location: tablet\inkpicture_editingmode.htm
 tech.root: tablet

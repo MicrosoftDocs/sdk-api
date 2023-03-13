@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.IsSampleFrequencyShader
 title: ID3D12ShaderReflection::IsSampleFrequencyShader (d3d12shader.h)
-description: Indicates whether a shader is a sample frequency shader.
+description: Indicates whether a shader is a sample frequency shader. (ID3D12ShaderReflection.IsSampleFrequencyShader)
 helpviewer_keywords: ["ID3D12ShaderReflection interface","IsSampleFrequencyShader method","ID3D12ShaderReflection.IsSampleFrequencyShader","ID3D12ShaderReflection::IsSampleFrequencyShader","IsSampleFrequencyShader","IsSampleFrequencyShader method","IsSampleFrequencyShader method","ID3D12ShaderReflection interface","d3d12shader/ID3D12ShaderReflection::IsSampleFrequencyShader","direct3d12.id3d12shaderreflection_issamplefrequencyshader"]
 old-location: direct3d12\id3d12shaderreflection_issamplefrequencyshader.htm
 tech.root: direct3d12

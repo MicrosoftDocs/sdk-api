@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.__unnamed_struct_21
+UID: NS:winnt.POWER_ACTION_POLICY
 title: POWER_ACTION_POLICY (winnt.h)
 description: Contains information used to set the system power state.
 helpviewer_keywords: ["*PPOWER_ACTION_POLICY","POWER_ACTION_CRITICAL","POWER_ACTION_DISABLE_WAKES","POWER_ACTION_LIGHTEST_FIRST","POWER_ACTION_LOCK_CONSOLE","POWER_ACTION_OVERRIDE_APPS","POWER_ACTION_POLICY","POWER_ACTION_POLICY structure","POWER_ACTION_QUERY_ALLOWED","POWER_ACTION_UI_ALLOWED","POWER_FORCE_TRIGGER_RESET","POWER_LEVEL_USER_NOTIFY_EXEC","POWER_LEVEL_USER_NOTIFY_SOUND","POWER_LEVEL_USER_NOTIFY_TEXT","POWER_USER_NOTIFY_BUTTON","POWER_USER_NOTIFY_SHUTDOWN","PPOWER_ACTION_POLICY","PPOWER_ACTION_POLICY structure pointer","_win32_power_action_policy_str","base.power_action_policy_str","winnt/POWER_ACTION_POLICY","winnt/PPOWER_ACTION_POLICY"]
@@ -248,3 +248,4 @@ Indicates a power action of shutdown/off.
 
 
 <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
+

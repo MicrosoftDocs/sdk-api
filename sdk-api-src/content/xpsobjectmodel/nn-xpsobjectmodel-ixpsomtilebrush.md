@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMTileBrush interface
 
-
 ## -description
 
 A tile brush uses a  visual image to paint a region by repeating the image. 

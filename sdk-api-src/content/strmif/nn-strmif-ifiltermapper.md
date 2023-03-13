@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IFilterMapper
 title: IFilterMapper (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IFilterMapper)
 helpviewer_keywords: ["IFilterMapper","IFilterMapper interface [DirectShow]","IFilterMapper interface [DirectShow]","described","IFilterMapperInterface","dshow.ifiltermapper","strmif/IFilterMapper"]
 old-location: dshow\ifiltermapper.htm
 tech.root: dshow

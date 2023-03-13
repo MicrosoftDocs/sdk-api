@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_DisplayName
 title: IFaxDoc::put_DisplayName (faxcom.h)
-description: Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document.
+description: Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document. (Put)
 helpviewer_keywords: ["DisplayName property [Fax Service]","DisplayName property [Fax Service]","IFaxDoc interface","IFaxDoc interface [Fax Service]","DisplayName property","IFaxDoc.DisplayName","IFaxDoc.put_DisplayName","IFaxDoc::DisplayName","IFaxDoc::get_DisplayName","IFaxDoc::put_DisplayName","_mfax_ifaxdoc_get_displayname","fax._mfax_ifaxdoc_get_displayname","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp","faxcom/IFaxDoc::DisplayName","faxcom/IFaxDoc::get_DisplayName","faxcom/IFaxDoc::put_DisplayName","put_DisplayName"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp.htm
 tech.root: Fax

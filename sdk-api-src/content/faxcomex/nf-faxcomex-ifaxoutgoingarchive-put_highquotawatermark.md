@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_HighQuotaWaterMark
 title: IFaxOutgoingArchive::put_HighQuotaWaterMark (faxcomex.h)
-description: The IFaxOutgoingArchive::get_HighQuotaWaterMark property is a value that specifies the upper threshold for the size of the archive of inbound fax messages, in megabytes.
+description: The IFaxOutgoingArchive::get_HighQuotaWaterMark property is a value that specifies the upper threshold for the size of the archive of inbound fax messages, in megabytes. (Put)
 helpviewer_keywords: ["HighQuotaWaterMark property [Fax Service]","HighQuotaWaterMark property [Fax Service]","IFaxOutgoingArchive interface","IFaxOutgoingArchive interface [Fax Service]","HighQuotaWaterMark property","IFaxOutgoingArchive.HighQuotaWaterMark","IFaxOutgoingArchive.get_HighQuotaWaterMark","IFaxOutgoingArchive.put_HighQuotaWaterMark","IFaxOutgoingArchive::HighQuotaWaterMark","IFaxOutgoingArchive::get_HighQuotaWaterMark","IFaxOutgoingArchive::put_HighQuotaWaterMark","_mfax_faxoutgoingarchive.highquotawatermark","fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_highquotawatermark_cpp","fax._mfax_faxoutgoingarchive_highquotawatermark","faxcomex/IFaxOutgoingArchive::HighQuotaWaterMark","faxcomex/IFaxOutgoingArchive::get_HighQuotaWaterMark","faxcomex/IFaxOutgoingArchive::put_HighQuotaWaterMark","put_HighQuotaWaterMark"]
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_highquotawatermark_cpp.htm
 tech.root: Fax

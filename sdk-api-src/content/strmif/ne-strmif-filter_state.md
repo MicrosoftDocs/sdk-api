@@ -56,7 +56,7 @@ Specifies a filter's state or the state of the filter graph.
 
 ## -enum-fields
 
-### -field State_Stopped
+### -field State_Stopped:0
 
 Stopped. The filter is not processing data.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IUserNotification2
 title: IUserNotification2 (shobjidl.h)
-description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
+description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar. (IUserNotification2)
 helpviewer_keywords: ["IUserNotification2","IUserNotification2 interface [Windows Shell]","IUserNotification2 interface [Windows Shell]","described","_shell_IUserNotification2","shell.IUserNotification2","shobjidl/IUserNotification2"]
 old-location: shell\IUserNotification2.htm
 tech.root: shell

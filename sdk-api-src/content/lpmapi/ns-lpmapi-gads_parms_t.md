@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_30
+UID: NS:lpmapi.Gads_parms_t
 title: Gads_parms_t (lpmapi.h)
 description: The Gads_parms_t structure stores guaranteed service Adspec parameters.
 helpviewer_keywords: ["Gads_parms_t","Gads_parms_t structure [QOS]","lpmapi/Gads_parms_t","qos.gads_parms_t"]
@@ -102,3 +102,4 @@ This object may be followed by override general parameter values.
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>
+

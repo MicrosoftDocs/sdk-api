@@ -56,15 +56,15 @@ Specifies the direction, relative to Input Panel, that the post insertion correc
 
 ## -enum-fields
 
-### -field CorrectionPosition_Auto
+### -field CorrectionPosition_Auto:0
 
 The system decides on the position of the correction comb.
 
-### -field CorrectionPosition_Bottom
+### -field CorrectionPosition_Bottom:1
 
 The correction comb is shown below the input area.
 
-### -field CorrectionPosition_Top
+### -field CorrectionPosition_Top:2
 
 The correction comb is shown above the input area.
 

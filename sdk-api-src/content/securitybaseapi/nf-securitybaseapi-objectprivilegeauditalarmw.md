@@ -4,14 +4,14 @@ tech.root: security
 title: ObjectPrivilegeAuditAlarmW
 ms.date: 04/20/2021
 targetos: Windows
-description: Generates an audit message in the security event log. 
+description: Generates an audit message in the security event log.  (ObjectPrivilegeAuditAlarmW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 

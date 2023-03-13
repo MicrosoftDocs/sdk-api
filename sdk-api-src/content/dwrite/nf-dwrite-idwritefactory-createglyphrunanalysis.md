@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateGlyphRunAnalysis
 title: IDWriteFactory::CreateGlyphRunAnalysis (dwrite.h)
-description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
+description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run. (IDWriteFactory.CreateGlyphRunAnalysis)
 helpviewer_keywords: ["CreateGlyphRunAnalysis","CreateGlyphRunAnalysis method [Direct Write]","CreateGlyphRunAnalysis method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateGlyphRunAnalysis method","IDWriteFactory.CreateGlyphRunAnalysis","IDWriteFactory::CreateGlyphRunAnalysis","directwrite.IDWriteFactory_CreateGlyphRunAnalysis","dwrite/IDWriteFactory::CreateGlyphRunAnalysis"]
 old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm
 tech.root: DirectWrite

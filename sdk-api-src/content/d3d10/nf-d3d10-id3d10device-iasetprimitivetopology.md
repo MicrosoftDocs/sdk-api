@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetPrimitiveTopology
 title: ID3D10Device::IASetPrimitiveTopology (d3d10.h)
-description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
+description: Bind information about the primitive type, and data order that describes input data for the input assembler stage. (ID3D10Device.IASetPrimitiveTopology)
 helpviewer_keywords: ["574e830c-3db9-ca52-4b41-1b3e8224137a","IASetPrimitiveTopology","IASetPrimitiveTopology method [Direct3D 10]","IASetPrimitiveTopology method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","IASetPrimitiveTopology method","ID3D10Device.IASetPrimitiveTopology","ID3D10Device::IASetPrimitiveTopology","d3d10/ID3D10Device::IASetPrimitiveTopology","direct3d10.id3d10device_iasetprimitivetopology"]
 old-location: direct3d10\id3d10device_iasetprimitivetopology.htm
 tech.root: direct3d10

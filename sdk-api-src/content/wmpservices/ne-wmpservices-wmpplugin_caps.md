@@ -54,7 +54,7 @@ The <b>WMPPlugin_Caps</b> enumeration type signals whether the plug-in can conve
 
 ## -enum-fields
 
-### -field WMPPlugin_Caps_CannotConvertFormats
+### -field WMPPlugin_Caps_CannotConvertFormats:1
 
 The plug-in requires that the input format and output format be the same.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpNA
 title: StrCmpNA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The StrNCmp macro differs from this function in name only.
-helpviewer_keywords: ["StrCmpN","StrCmpN function [Windows Shell]","StrCmpNA","StrCmpNW","_win32_StrCmpN","shell.StrCmpN","shlwapi/StrCmpN","shlwapi/StrCmpNA","shlwapi/StrCmpNW"]
+description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is case-sensitive. The StrNCmp macro differs from this function in name only. (ANSI)
+helpviewer_keywords: ["StrCmpNA", "shlwapi/StrCmpNA"]
 old-location: shell\StrCmpN.htm
 tech.root: shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7

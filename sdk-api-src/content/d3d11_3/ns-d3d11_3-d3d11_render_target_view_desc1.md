@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_3.D3D11_RENDER_TARGET_VIEW_DESC1
 title: D3D11_RENDER_TARGET_VIEW_DESC1 (d3d11_3.h)
-description: Describes the subresources from a resource that are accessible using a render-target view.
+description: Describes the subresources from a resource that are accessible using a render-target view. (D3D11_RENDER_TARGET_VIEW_DESC1)
 helpviewer_keywords: ["CD3D11_RENDER_TARGET_VIEW_DESC1","D3D11_RENDER_TARGET_VIEW_DESC1","D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1","direct3d11.d3d11_render_target_view_desc1"]
 old-location: direct3d11\d3d11_render_target_view_desc1.htm
 tech.root: direct3d11

@@ -56,7 +56,7 @@ The <b>Notify</b> method is called by the pin for each buffer that is delivered 
 
 ### -param pNSSBuffer3 [in]
 
-Pointer to the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a> interface exposed on the media sample.
+Pointer to the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a> interface exposed on the media sample.
 
 ### -param pPin [in]
 
@@ -88,4 +88,4 @@ This method enables an application to examine and act on information in the medi
 
 
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>

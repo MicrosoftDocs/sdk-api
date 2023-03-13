@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_5
+UID: NS:processsnapshot.PSS_THREAD_INFORMATION
 title: PSS_THREAD_INFORMATION (processsnapshot.h)
 description: Holds thread information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_THREAD_INFORMATION","PSS_THREAD_INFORMATION structure","proc_snap.pss_thread_information","processsnapshot/PSS_THREAD_INFORMATION"]
@@ -69,3 +69,4 @@ The length of the <b>CONTEXT</b> record captured, in bytes.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

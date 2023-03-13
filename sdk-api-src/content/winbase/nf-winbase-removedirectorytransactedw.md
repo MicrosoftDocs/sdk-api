@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.RemoveDirectoryTransactedW
 title: RemoveDirectoryTransactedW function (winbase.h)
-description: Deletes an existing empty directory as a transacted operation.
-helpviewer_keywords: ["RemoveDirectoryTransacted","RemoveDirectoryTransacted function [Files]","RemoveDirectoryTransactedA","RemoveDirectoryTransactedW","fs.removedirectorytransacted","winbase/RemoveDirectoryTransacted","winbase/RemoveDirectoryTransactedA","winbase/RemoveDirectoryTransactedW"]
+description: Deletes an existing empty directory as a transacted operation. (Unicode)
+helpviewer_keywords: ["RemoveDirectoryTransacted", "RemoveDirectoryTransacted function [Files]", "RemoveDirectoryTransactedW", "fs.removedirectorytransacted", "winbase/RemoveDirectoryTransacted", "winbase/RemoveDirectoryTransactedW"]
 old-location: fs\removedirectorytransacted.htm
 tech.root: fs
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89

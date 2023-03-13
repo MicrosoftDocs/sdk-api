@@ -121,6 +121,7 @@ semantics.
 
 An 8-bit number used to describe an event's severity or importance.
 
+> [!Important]
 > Event level is a primary means for filtering events. Always assign a
 > meaningful (non-zero) level to every event.
 
@@ -178,6 +179,7 @@ to simply associate a localized "task" string with each event.
 A 64-bit bitmask used to indicate an event's membership in a set of event
 categories.
 
+> [!Important]
 > Event keyword is a primary means for filtering events. Always assign a
 > meaningful (non-zero) keyword to every event.
 
@@ -203,7 +205,8 @@ eventDescriptor.Keyword == 0 || (
 Note that events with a keyword of 0 will normally bypass keyword-based
 filtering.
 
-> **Tip:** Starting with Windows 10 version 1507 and later, an event collection
+> [!Tip]
+> Starting with Windows 10 version 1507 and later, an event collection
 > session can exclude events that have their keyword set to 0. To do this,
 > include the `EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0` flag in the
 > `EnableProperty` field of the
@@ -221,7 +224,8 @@ event. You can also use it when calling
 determine whether the event should be generated (i.e. to determine whether any
 event listeners are interested in the event).
 
-> **Note:** Most event providers will not use **EVENT_DESCRIPTOR** directly.
+> [!Note]
+> Most event providers will not use **EVENT_DESCRIPTOR** directly.
 > Instead, most event providers are implemented using an ETW framework that
 > wraps the calls to **EventRegister**, **EventWriteEx**, and
 > **EventUnregister**. For example, you might
@@ -241,7 +245,8 @@ that is returned with the event record when you consume events using
 [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) with the
 [EventRecordCallback](/windows/desktop/ETW/eventrecordcallback) callback.
 
-> **Note:** When processing MOF-based events, the event identity is contained in
+> [!Note]
+> When processing MOF-based events, the event identity is contained in
 > the **Opcode** field, not the **Id** field.
 
 ## -see-also

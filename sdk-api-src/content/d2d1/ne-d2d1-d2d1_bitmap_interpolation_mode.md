@@ -63,7 +63,7 @@ Use the exact color of the nearest bitmap pixel to the current rendering pixel.
 
 Interpolate a color from the four bitmap pixels that are the nearest to the rendering pixel.
 
-### -field D2D1_BITMAP_INTERPOLATION_MODE_FORCE_DWORD
+### -field D2D1_BITMAP_INTERPOLATION_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

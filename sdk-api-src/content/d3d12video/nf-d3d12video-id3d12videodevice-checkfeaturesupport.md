@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice.CheckFeatureSupport
 title: ID3D12VideoDevice::CheckFeatureSupport
-description: Gets information about the features that are supported by the current video driver.
+description: Gets information about the features that are supported by the current video driver. (ID3D12VideoDevice::CheckFeatureSupport)
 helpviewer_keywords: ["ID3D12VideoDevice::CheckFeatureSupport","CheckFeatureSupport","ID3D12VideoDevice.CheckFeatureSupport","ID3D12VideoDevice::CheckFeatureSupport","ID3D12VideoDevice.CheckFeatureSupport"]
 tech.root: mf
 ms.assetid: 9386573a-29f0-478e-9803-3773d93eea4a

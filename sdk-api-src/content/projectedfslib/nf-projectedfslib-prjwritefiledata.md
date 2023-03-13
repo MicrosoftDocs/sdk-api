@@ -1,12 +1,12 @@
 ---
 UID: NF:projectedfslib.PrjWriteFileData
 title: PrjWriteFileData function (projectedfslib.h)
-description: TBD.
+description: The PrjWriteFileData function provides the data requested in an invocation of the PRJ_GET_FILE_DATA_CB callback. (PrjWriteFileData)
 helpviewer_keywords: ["PrjWriteFileData","PrjWriteFileData function","ProjFS.prjwritefiledata","projectedfslib/PrjWriteFileData"]
 old-location: projfs\prjwritefiledata.htm
 tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledata, projectedfslib/PrjWriteFileData
 req.header: projectedfslib.h
 req.include-header: 

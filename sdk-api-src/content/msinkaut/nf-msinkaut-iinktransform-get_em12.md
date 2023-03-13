@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM12
 title: IInkTransform::get_eM12 (msinkaut.h)
-description: Gets or sets the element in the first row, second column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the first row, second column of the affine transform matrix that is represented by an InkTransform object. (Get)
 helpviewer_keywords: ["IInkTransform interface [Tablet PC]","eM12 property","IInkTransform.eM12","IInkTransform.get_eM12","IInkTransform::eM12","IInkTransform::get_eM12","IInkTransform::put_eM12","InkTransform.get_eM12","InkTransform.put_eM12","e0cfcd30-49b7-457f-8e1f-faa433b4e8ef","eM12 property [Tablet PC]","eM12 property [Tablet PC]","IInkTransform interface","get_eM12","msinkaut/IInkTransform::eM12","msinkaut/IInkTransform::get_eM12","msinkaut/IInkTransform::put_eM12","put_eM12","tablet.inktransform_em12"]
 old-location: tablet\inktransform_em12.htm
 tech.root: tablet

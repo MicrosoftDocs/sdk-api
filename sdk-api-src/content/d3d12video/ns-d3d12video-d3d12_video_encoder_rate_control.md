@@ -61,7 +61,7 @@ For the other rate control modes,  the QP values in *pRateControlQPMap* are inte
 
 ### -field TargetFrameRate
 
-A [DXGI_RATIONAL](.//dxgicommon/ns-dxgicommon-dxgi_rational.md) specifying the target frame rate for the encoded stream. This value is a hint for the rate control budgeting algorithm.
+A [DXGI_RATIONAL](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_rational) specifying the target frame rate for the encoded stream. This value is a hint for the rate control budgeting algorithm.
 
 ## -remarks
 

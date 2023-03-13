@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptRegisterConfigChangeNotify~r1
 title: BCryptRegisterConfigChangeNotify
-ms.date: 01/30/2019
+description: Describes how the BCryptRegisterConfigChangeNotify(PRKEVENT) function creates kernel mode CNG configuration change event handler.
+ms.date: 08/01/2022
 ms.keywords: BCryptRegisterConfigChangeNotify
 targetos: Windows
 req.assembly: 

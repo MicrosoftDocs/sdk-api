@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
 title: IXpsOMGlyphs::GetFontRenderingEmSize (xpsobjectmodel.h)
-description: Gets the font size.
+description: Gets the font size. (IXpsOMGlyphs.GetFontRenderingEmSize)
 helpviewer_keywords: ["GetFontRenderingEmSize","GetFontRenderingEmSize method [XPS Documents and Packaging]","GetFontRenderingEmSize method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFontRenderingEmSize method","IXpsOMGlyphs.GetFontRenderingEmSize","IXpsOMGlyphs::GetFontRenderingEmSize","xps.ixpsomglyphs_getfontrenderingemsize","xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize"]
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
 tech.root: xps

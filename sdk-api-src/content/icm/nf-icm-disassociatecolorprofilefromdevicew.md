@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.DisassociateColorProfileFromDeviceW
 title: DisassociateColorProfileFromDeviceW
-description: Disassociates a specified color profile with a specified device on a specified computer.
+description: Disassociates a specified color profile with a specified device on a specified computer. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

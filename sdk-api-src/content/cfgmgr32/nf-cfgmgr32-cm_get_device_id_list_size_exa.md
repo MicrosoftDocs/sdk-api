@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Device_ID_List_Size_ExA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Get_Device_ID_List_Size_Ex function retrieves the buffer size required to hold a list of device instance IDs for a local or a remote machine's device instances.
+description: The CM_Get_Device_ID_List_Size_Ex function retrieves the buffer size required to hold a list of device instance IDs for a local or a remote machine's device instances. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontCollection3
 title: IDWriteFontCollection3
-description: This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts.
+description: This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. (IDWriteFontCollection3)
 helpviewer_keywords: ["IDWriteFontCollection3","IDWriteFontCollection3 interface [Direct Write]","IDWriteFontCollection3 interface [Direct Write]","described","directwrite.idwritefontcollection3","dwrite_3/IDWriteFontCollection3"]
 tech.root: DirectWrite
 ms.date: 09/12/2019

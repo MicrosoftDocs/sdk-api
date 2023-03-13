@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Next
 title: IEnumEventObject::Next (eventsys.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: Retrieves the specified number of items in the enumeration sequence. (IEnumEventObject.Next)
 helpviewer_keywords: ["IEnumEventObject interface [COM+]","Next method","IEnumEventObject.Next","IEnumEventObject::Next","Next","Next method [COM+]","Next method [COM+]","IEnumEventObject interface","_cos_ienumeventobject_next","cos.ienumeventobject_next","eventsys/IEnumEventObject::Next"]
 old-location: cos\ienumeventobject_next.htm
 tech.root: cos

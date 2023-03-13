@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Bottom
 title: IInkRectangle::get_Bottom (msinkaut.h)
-description: Gets or sets the bottom position of the InkRectangle object.
+description: Gets or sets the bottom position of the InkRectangle object. (Get)
 helpviewer_keywords: ["9b388cdb-66b1-4386-a1aa-578f0d56c190","Bottom property [Tablet PC]","Bottom property [Tablet PC]","IInkRectangle interface","IInkRectangle interface [Tablet PC]","Bottom property","IInkRectangle.Bottom","IInkRectangle.get_Bottom","IInkRectangle::Bottom","IInkRectangle::get_Bottom","IInkRectangle::put_Bottom","InkRectangle.get_Bottom","InkRectangle.put_Bottom","get_Bottom","msinkaut/IInkRectangle::Bottom","msinkaut/IInkRectangle::get_Bottom","msinkaut/IInkRectangle::put_Bottom","put_Bottom","tablet.inkrectangle_bottom"]
 old-location: tablet\inkrectangle_bottom.htm
 tech.root: tablet

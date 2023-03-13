@@ -4,7 +4,7 @@ title: Remotesystemadditionalinfo.h header
 ms.assetid: 79e624a6-4856-35c6-ba03-a5e55827cc42
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - remotesystemadditionalinfo

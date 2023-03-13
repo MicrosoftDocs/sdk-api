@@ -54,12 +54,12 @@ Indicates how the <a href="/windows/desktop/Direct2D/color-management">Color man
 
 ## -enum-fields
 
-### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED:1
 
 The effect assumes the alpha mode is premultiplied.
 
-### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT:2
 
 The effect assumes the alpha mode is straight.
 
-### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_FORCE_DWORD
+### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_FORCE_DWORD:0xffffffff

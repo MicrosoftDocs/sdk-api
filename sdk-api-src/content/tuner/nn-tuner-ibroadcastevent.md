@@ -60,7 +60,7 @@ The <b>IBroadcastEvent</b> interface enables an object to receive events from an
 
 The <b>IBroadcastEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBroadcastEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members

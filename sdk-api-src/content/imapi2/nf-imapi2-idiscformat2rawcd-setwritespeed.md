@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.SetWriteSpeed
 title: IDiscFormat2RawCD::SetWriteSpeed (imapi2.h)
-description: Sets the write speed of the disc recorder.
+description: Sets the write speed of the disc recorder. (IDiscFormat2RawCD.SetWriteSpeed)
 helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","SetWriteSpeed method","IDiscFormat2RawCD.SetWriteSpeed","IDiscFormat2RawCD::SetWriteSpeed","SetWriteSpeed","SetWriteSpeed method [IMAPI]","SetWriteSpeed method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_setwritespeed","imapi2/IDiscFormat2RawCD::SetWriteSpeed"]
 old-location: imapi\idiscformat2rawcd_setwritespeed.htm
 tech.root: imapi

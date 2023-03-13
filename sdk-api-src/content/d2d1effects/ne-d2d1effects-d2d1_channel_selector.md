@@ -54,20 +54,20 @@ Specifies the color channel the <a href="/windows/desktop/Direct2D/displacement-
 
 ## -enum-fields
 
-### -field D2D1_CHANNEL_SELECTOR_R
+### -field D2D1_CHANNEL_SELECTOR_R:0
 
 The effect extracts the intensity output from the red channel.
 
-### -field D2D1_CHANNEL_SELECTOR_G
+### -field D2D1_CHANNEL_SELECTOR_G:1
 
 The effect extracts the intensity output from the green channel.
 
-### -field D2D1_CHANNEL_SELECTOR_B
+### -field D2D1_CHANNEL_SELECTOR_B:2
 
 The effect extracts the intensity output from the blue channel.
 
-### -field D2D1_CHANNEL_SELECTOR_A
+### -field D2D1_CHANNEL_SELECTOR_A:3
 
 The effect extracts the intensity output from the alpha channel.
 
-### -field D2D1_CHANNEL_SELECTOR_FORCE_DWORD
+### -field D2D1_CHANNEL_SELECTOR_FORCE_DWORD:0xffffffff

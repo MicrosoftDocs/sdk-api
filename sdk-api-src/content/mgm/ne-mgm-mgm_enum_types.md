@@ -58,7 +58,7 @@ The
 
 ## -enum-fields
 
-### -field ANY_SOURCE
+### -field ANY_SOURCE:0
 
 Enumerate group entries that have at least one source.
 

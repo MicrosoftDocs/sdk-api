@@ -1,8 +1,8 @@
 ---
 UID: NF:commctrl.DrawStatusTextA
 title: DrawStatusTextA function (commctrl.h)
-description: The DrawStatusText function draws the specified text in the style of a status window with borders.
-helpviewer_keywords: ["DrawStatusText","DrawStatusText function [Windows Controls]","DrawStatusTextA","DrawStatusTextW","SBT_NOBORDERS","SBT_POPOUT","SBT_RTLREADING","_win32_DrawStatusText","_win32_DrawStatusText_cpp","commctrl/DrawStatusText","commctrl/DrawStatusTextA","commctrl/DrawStatusTextW","controls.DrawStatusText","controls._win32_DrawStatusText"]
+description: The DrawStatusText function draws the specified text in the style of a status window with borders. (ANSI)
+helpviewer_keywords: ["DrawStatusTextA", "SBT_NOBORDERS", "SBT_POPOUT", "SBT_RTLREADING", "commctrl/DrawStatusTextA"]
 old-location: controls\DrawStatusText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm

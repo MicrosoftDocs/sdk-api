@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(LPCWSTR,...)
 title: CHString::FormatMessageW
-description: 
+description: The CHString::FormatMessageW (Unicode) method formats a message string. 
 tech.root: wmi
 helpviewer_keywords: ["CHString::FormatMessageW"]
 ms.assetid: 32200a5e-1fdc-4ca1-bee3-0846da8c22a5
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::FormatMessageW
 targetos: Windows
 req.assembly: 

@@ -54,23 +54,23 @@ Specifies how the alpha value of a bitmap or render target should be treated.
 
 ## -enum-fields
 
-### -field D2D1_ALPHA_MODE_UNKNOWN
+### -field D2D1_ALPHA_MODE_UNKNOWN:0
 
 The alpha value might not be meaningful.
 
-### -field D2D1_ALPHA_MODE_PREMULTIPLIED
+### -field D2D1_ALPHA_MODE_PREMULTIPLIED:1
 
 The alpha value has been premultiplied. Each color is first scaled by the alpha value. The alpha value itself is the same in both straight and premultiplied alpha. Typically, no color channel value is greater than the alpha channel value.  If a color channel value in a premultiplied format is greater than the alpha channel, the standard source-over blending math results in an additive blend.
 
-### -field D2D1_ALPHA_MODE_STRAIGHT
+### -field D2D1_ALPHA_MODE_STRAIGHT:2
 
 The alpha value has not been premultiplied. The alpha channel indicates the transparency of the color.
 
-### -field D2D1_ALPHA_MODE_IGNORE
+### -field D2D1_ALPHA_MODE_IGNORE:3
 
 The alpha value is ignored.
 
-### -field D2D1_ALPHA_MODE_FORCE_DWORD
+### -field D2D1_ALPHA_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

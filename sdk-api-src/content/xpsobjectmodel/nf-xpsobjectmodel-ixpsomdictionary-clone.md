@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Clone
 title: IXpsOMDictionary::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMDictionary.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMDictionary interface","IXpsOMDictionary interface [XPS Documents and Packaging]","Clone method","IXpsOMDictionary.Clone","IXpsOMDictionary::Clone","xps.ixpsomdictionary_clone","xpsobjectmodel/IXpsOMDictionary::Clone"]
 old-location: xps\ixpsomdictionary_clone.htm
 tech.root: xps

@@ -4,7 +4,7 @@ title: Direct3D Diagnostics Capture Interface Portal
 ms.assetid: 885d3b11-dcce-371d-bf13-f56da0956ec7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Direct3D Diagnostics Capture Interface Portal

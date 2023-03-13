@@ -57,6 +57,7 @@ api_location:
   - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
   - API-MS-Win-eventing-provider-l1-1-0.dll
   - API-MS-Win-Eventing-Provider-L1-1-1.dll
+  - ntdll.dll
 api_name:
   - EventWriteTransfer
 ---
@@ -81,7 +82,8 @@ generated event will use the ProviderId associated with the handle.
 with event information (metadata) including ID, Version, Level, Keyword,
 Channel, Opcode, and Task.
 
-> **Important:** ProviderId, Level and Keyword are the primary means for
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
 > filtering events. Other kinds of filtering are possible but have much higher
 > overhead. Always assign a nonzero level and keyword to every event.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_FullErase
 title: IDiscFormat2Erase::get_FullErase (imapi2.h)
-description: Determines the quality of the disc erasure.
+description: Determines the quality of the disc erasure. (Get)
 helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","get_FullErase method","IDiscFormat2Erase.get_FullErase","IDiscFormat2Erase::get_FullErase","get_FullErase","get_FullErase method [IMAPI]","get_FullErase method [IMAPI]","IDiscFormat2Erase interface","imapi.idiscformat2erase_get_fullerase","imapi2/IDiscFormat2Erase::get_FullErase"]
 old-location: imapi\idiscformat2erase_get_fullerase.htm
 tech.root: imapi

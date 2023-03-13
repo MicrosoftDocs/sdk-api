@@ -54,15 +54,15 @@ These are the operational enum values that are passed to <a href="../keycredmgr/
 
 ## -enum-fields
 
-### -field KeyCredentialManagerProvisioning
+### -field KeyCredentialManagerProvisioning:0
 
 Start the Provisioning operation.
 
-### -field KeyCredentialManagerPinChange
+### -field KeyCredentialManagerPinChange:1
 
 Start the User Change PIN operation.
 
-### -field KeyCredentialManagerPinReset
+### -field KeyCredentialManagerPinReset:2
 
 Start the User PIN Reset operation.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAEnumProtocolsA
 title: WSAEnumProtocolsA function (winsock2.h)
-description: The WSAEnumProtocols function retrieves information about available transport protocols.
-helpviewer_keywords: ["WSAEnumProtocols","WSAEnumProtocols function [Winsock]","WSAEnumProtocolsA","WSAEnumProtocolsW","_win32_wsaenumprotocols_2","winsock.wsaenumprotocols_2","winsock2/WSAEnumProtocols","winsock2/WSAEnumProtocolsA","winsock2/WSAEnumProtocolsW"]
+description: The WSAEnumProtocols function retrieves information about available transport protocols. (ANSI)
+helpviewer_keywords: ["WSAEnumProtocolsA", "winsock2/WSAEnumProtocolsA"]
 old-location: winsock\wsaenumprotocols_2.htm
 tech.root: WinSock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4

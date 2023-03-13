@@ -54,19 +54,19 @@ Defines capabilities related to input formats for a Microsoft Direct3D 11 video
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_INTERLACED:0x1
 
 The video processor can deinterlace an input stream that contains interlaced RGB video.
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_PROCAMP:0x2
 
 The video processor can perform color adjustment on RGB video.
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY:0x4
 
 The video processor can perform luma keying on RGB video.
 
-### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED
+### -field D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_PALETTE_INTERLACED:0x8
 
 The video processor can deinterlace input streams with palettized color formats.
 

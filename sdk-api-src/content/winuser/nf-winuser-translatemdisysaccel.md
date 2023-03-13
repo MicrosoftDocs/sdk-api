@@ -76,40 +76,12 @@ If the message is not translated into a system command, the return value is zero
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
-
-
-
-<a href="/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+- <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+- <a href="/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
+- <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

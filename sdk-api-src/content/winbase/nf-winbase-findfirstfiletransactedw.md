@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedW
 title: FindFirstFileTransactedW function (winbase.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
-helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
+description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation. (Unicode)
+helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE", "FindFirstFileTransacted", "FindFirstFileTransacted function [Files]", "FindFirstFileTransactedW", "fs.findfirstfiletransacted", "winbase/FindFirstFileTransacted", "winbase/FindFirstFileTransactedW"]
 old-location: fs\findfirstfiletransacted.htm
 tech.root: fs
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
@@ -197,13 +197,14 @@ As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileN
 </ul>
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\server\service\*". However, you cannot use an <i>lpFileName</i> that points to 
-    the share itself; for example, "\\server\service" is not valid.
+    "\\\\server\\service\*". However, you cannot use an <i>lpFileName</i> that points to 
+    the share itself; for example, "\\\\server\\service" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the directory 
-    "C:\Windows", not about a directory or file in "C:\Windows". To examine the files and directories in "C:\Windows", use an <i>lpFileName</i> of "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the directory 
+    "C:\\Windows", not about a directory or file in "C:\\Windows". To examine the files and directories in "C:\\Windows", use an <i>lpFileName</i> of "C:\\Windows\\*".
 
 Be aware that some other thread or process could create or delete a file with this name between the time you query for the result 
     and the time you act on the information. If this is a potential concern for your application,  one possible solution is to use the 

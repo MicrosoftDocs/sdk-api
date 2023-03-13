@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.IsInTransaction
 title: IObjectContextInfo::IsInTransaction (comsvcs.h)
-description: Indicates whether the current object is executing in a transaction.
+description: Indicates whether the current object is executing in a transaction. (IObjectContextInfo.IsInTransaction)
 helpviewer_keywords: ["IObjectContextInfo interface [COM+]","IsInTransaction method","IObjectContextInfo.IsInTransaction","IObjectContextInfo::IsInTransaction","IsInTransaction","IsInTransaction method [COM+]","IsInTransaction method [COM+]","IObjectContextInfo interface","_cos_IObjectContextInfo_IsInTransaction","comsvcs/IObjectContextInfo::IsInTransaction","cos.iobjectcontextinfo_isintransaction"]
 old-location: cos\iobjectcontextinfo_isintransaction.htm
 tech.root: cos

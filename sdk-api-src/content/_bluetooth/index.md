@@ -4,7 +4,7 @@ title: Bluetooth
 ms.assetid: a6693fcc-8eb2-381e-9b6e-5b8f73bc7d2c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Bluetooth

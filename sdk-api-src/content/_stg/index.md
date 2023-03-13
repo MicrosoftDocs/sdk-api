@@ -4,7 +4,7 @@ title: Structured Storage
 ms.assetid: a33edc05-7320-3955-9c15-3b5514e4ac75
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Structured Storage

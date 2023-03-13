@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteKeyValueW
 title: RegDeleteKeyValueW function (winreg.h)
-description: Removes the specified value from the specified registry key and subkey.
-helpviewer_keywords: ["RegDeleteKeyValue","RegDeleteKeyValue function","RegDeleteKeyValueA","RegDeleteKeyValueW","base.regdeletekeyvalue","winreg/RegDeleteKeyValue","winreg/RegDeleteKeyValueA","winreg/RegDeleteKeyValueW"]
+description: Removes the specified value from the specified registry key and subkey. (Unicode)
+helpviewer_keywords: ["RegDeleteKeyValue", "RegDeleteKeyValue function", "RegDeleteKeyValueW", "base.regdeletekeyvalue", "winreg/RegDeleteKeyValue", "winreg/RegDeleteKeyValueW"]
 old-location: base\regdeletekeyvalue.htm
 tech.root: winprog
 ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b

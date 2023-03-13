@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Cause
 title: ITFileTerminalEvent::get_Cause (tapi3if.h)
-description: The get_Cause method gets the cause associated with this event.
+description: The get_Cause method gets the cause associated with this event. (ITFileTerminalEvent.get_Cause)
 helpviewer_keywords: ["ITFileTerminalEvent interface [TAPI 2.2]","get_Cause method","ITFileTerminalEvent.get_Cause","ITFileTerminalEvent::get_Cause","_tapi3_itfileterminalevent_get_cause","get_Cause","get_Cause method [TAPI 2.2]","get_Cause method [TAPI 2.2]","ITFileTerminalEvent interface","tapi3.itfileterminalevent_get_cause","tapi3if/ITFileTerminalEvent::get_Cause"]
 old-location: tapi3\itfileterminalevent_get_cause.htm
 tech.root: tapi3

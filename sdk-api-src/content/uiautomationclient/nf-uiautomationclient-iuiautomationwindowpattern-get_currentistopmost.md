@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentIsTopmost
 title: IUIAutomationWindowPattern::get_CurrentIsTopmost (uiautomationclient.h)
-description: Indicates whether the window is the topmost element in the z-order.
+description: Indicates whether the window is the topmost element in the z-order. (IUIAutomationWindowPattern.get_CurrentIsTopmost)
 helpviewer_keywords: ["CurrentIsTopmost property [Windows Accessibility]","CurrentIsTopmost property [Windows Accessibility]","IUIAutomationWindowPattern interface","IUIAutomationWindowPattern interface [Windows Accessibility]","CurrentIsTopmost property","IUIAutomationWindowPattern.CurrentIsTopmost","IUIAutomationWindowPattern.get_CurrentIsTopmost","IUIAutomationWindowPattern::CurrentIsTopmost","IUIAutomationWindowPattern::get_CurrentIsTopmost","get_CurrentIsTopmost","uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost","uiauto_IUIAutomationWindowPattern_CurrentIsTopmost","uiautomationclient/IUIAutomationWindowPattern::CurrentIsTopmost","uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsTopmost","winauto.uiauto_IUIAutomationWindowPattern_CurrentIsTopmost"]
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsTopmost.htm
 tech.root: WinAuto

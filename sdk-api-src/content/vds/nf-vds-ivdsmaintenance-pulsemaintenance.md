@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsMaintenance.PulseMaintenance
 title: IVdsMaintenance::PulseMaintenance (vds.h)
-description: Performs the specified operation a specified number of times.
+description: The IVdsMaintenance::PulseMaintenance method (vds.h) performs the specified operation a specified number of times.
 helpviewer_keywords: ["IVdsMaintenance interface [VDS]","PulseMaintenance method","IVdsMaintenance.PulseMaintenance","IVdsMaintenance::PulseMaintenance","PulseMaintenance","PulseMaintenance method [VDS]","PulseMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_pulsemaintenance","vds/IVdsMaintenance::PulseMaintenance","vdshwprv/IVdsMaintenance::PulseMaintenance"]
 old-location: base\ivdsmaintenance_pulsemaintenance.htm
 tech.root: base
 ms.assetid: 057424eb-c491-4295-b2a7-cf983902c667
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Performs the specified operation a specified number of times.
 

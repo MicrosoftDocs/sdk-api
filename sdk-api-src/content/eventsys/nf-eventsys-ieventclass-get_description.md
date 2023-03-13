@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.get_Description
 title: IEventClass::get_Description (eventsys.h)
-description: A displayable text description of the event class object.
+description: A displayable text description of the event class object. (Get)
 helpviewer_keywords: ["Description property [COM+]","Description property [COM+]","IEventClass interface","IEventClass interface [COM+]","Description property","IEventClass.Description","IEventClass.get_Description","IEventClass::Description","IEventClass::get_Description","IEventClass::put_Description","cos.ieventclass_description","eventsys/IEventClass::Description","eventsys/IEventClass::get_Description","eventsys/IEventClass::put_Description","get_Description"]
 old-location: cos\ieventclass_description.htm
 tech.root: cos

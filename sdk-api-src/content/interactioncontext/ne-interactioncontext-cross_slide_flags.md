@@ -54,23 +54,23 @@ Specifies the state of the cross-slide interaction.
 
 ## -enum-fields
 
-### -field CROSS_SLIDE_FLAGS_NONE
+### -field CROSS_SLIDE_FLAGS_NONE:0x00000000
 
 No cross-slide interaction.
 
-### -field CROSS_SLIDE_FLAGS_SELECT
+### -field CROSS_SLIDE_FLAGS_SELECT:0x00000001
 
 Cross-slide interaction has crossed a distance threshold and is in select mode.
 
-### -field CROSS_SLIDE_FLAGS_SPEED_BUMP
+### -field CROSS_SLIDE_FLAGS_SPEED_BUMP:0x00000002
 
 Cross-slide interaction is in speed bump mode.
 
-### -field CROSS_SLIDE_FLAGS_REARRANGE
+### -field CROSS_SLIDE_FLAGS_REARRANGE:0x00000004
 
 Cross-slide interaction has crossed the speed bump threshold and is in rearrange (drag and drop) mode.
 
-### -field CROSS_SLIDE_FLAGS_MAX
+### -field CROSS_SLIDE_FLAGS_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

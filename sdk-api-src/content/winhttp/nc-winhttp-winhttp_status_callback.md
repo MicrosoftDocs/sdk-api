@@ -219,7 +219,10 @@ Sending the information request to the server. The
 #### WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE
 
 The request completed successfully.  The 
-<i>lpvStatusInformation</i> parameter is <b>NULL</b>.
+<i>lpvStatusInformation</i> parameter is the lpOptional value passed to
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> (the initial request body),
+and the <i>dwStatusInformationLength</i> parameter indicates the number of such initial body bytes successfully
+written (the dwOptionalLength value passed to WinHttpSendRequest).
 
 
 
@@ -230,7 +233,7 @@ Data was successfully written to the server.  The
 
 When used by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketSend</a>, the 
 <i>lpvStatusInformation</i> parameter contains a pointer to a <a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
-<i>dwStatusInformationLength</i> parameter  indicates the size of <i>lpvStatusInformation</i>.
+<i>dwStatusInformationLength</i> parameter indicates the size of <i>lpvStatusInformation</i>.
 
 
 
@@ -244,12 +247,14 @@ The operation initiated by a call to <a href="/windows/desktop/api/winhttp/nf-wi
 #### WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE
 
 The connection was successfully closed via a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>.
+The <i>lpvStatusInformation</i> parameter is <b>NULL</b>.
 
 
 
 #### WINHTTP_CALLBACK_STATUS_SHUTDOWN_COMPLETE
 
 The connection was successfully shut down via a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>.
+The <i>lpvStatusInformation</i> parameter is <b>NULL</b>.
 
 ### -param lpvStatusInformation [in]
 

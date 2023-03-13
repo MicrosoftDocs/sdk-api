@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHBrowseForFolderW
 title: SHBrowseForFolderW function (shlobj_core.h)
-description: Displays a dialog box that enables the user to select a Shell folder.
-helpviewer_keywords: ["SHBrowseForFolder","SHBrowseForFolder function [Windows Shell]","SHBrowseForFolderA","SHBrowseForFolderW","_win32_SHBrowseForFolder","shell.SHBrowseForFolder","shlobj_core/SHBrowseForFolder","shlobj_core/SHBrowseForFolderA","shlobj_core/SHBrowseForFolderW"]
+description: Displays a dialog box that enables the user to select a Shell folder. (Unicode)
+helpviewer_keywords: ["SHBrowseForFolder", "SHBrowseForFolder function [Windows Shell]", "SHBrowseForFolderW", "_win32_SHBrowseForFolder", "shell.SHBrowseForFolder", "shlobj_core/SHBrowseForFolder", "shlobj_core/SHBrowseForFolderW"]
 old-location: shell\SHBrowseForFolder.htm
 tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
