@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORW
 title: CHOOSECOLORW
-ms.date: 01/30/19
+description: The CHOOSECOLORW (Unicode) structure (commdlg.h) contains information the ChooseColor function uses to initialize the Color dialog box.
+ms.date: 08/16/2022
 ms.keywords: tagCHOOSECOLORW, CHOOSECOLORW
 f1_keywords:
 - commdlg/tagCHOOSECOLORW

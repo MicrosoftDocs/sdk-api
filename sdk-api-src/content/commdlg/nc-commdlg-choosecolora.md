@@ -1,7 +1,8 @@
 ---
 UID: NC:commdlg.ChooseColorA
 title: ChooseColorA
-ms.date: 11/4/2019
+description: The CHOOSECOLORA (ANSI) function (commdlg.h) contains information the ChooseColor function uses to initialize the Color dialog box.
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
 description: 

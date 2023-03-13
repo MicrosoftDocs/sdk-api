@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackage1
 title: IXpsOMObjectFactory1::CreatePackage1
-ms.date: 11/4/2019
+description: The IXpsOMObjectFactory1::CreatePackage1 method (xpsobjectmodel_1.h) creates an IXpsOMPackage1 interface that serves as the root node of an XPS object model document tree.
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
 description: 
