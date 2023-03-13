@@ -155,7 +155,7 @@ Count of inputs that were coalesced into this message. This count matches the to
 
 Type: <b>DWORD</b>
 
- Indicates which keyboard modifier keys were pressed at the time the input was generated. May be zero or a combination of the following values.
+ Indicates which keyboard modifier keys were pressed at the time the input was generated. May be zero, or a combination of the following values from [Modifier Key State](/windows/win32/inputmsg/modifier-key-states-constants).
 
 
 POINTER_MOD_SHIFT – A SHIFT key was pressed.
@@ -163,7 +163,7 @@ POINTER_MOD_SHIFT – A SHIFT key was pressed.
 
 POINTER_MOD_CTRL – A CTRL key was pressed.
 
-Currently unused. Use <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>.
+Use <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>.
 
 ### -field PerformanceCount
 
