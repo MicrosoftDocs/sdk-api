@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PBM_DUMMY
+### -field PBM_DUMMY:0
 
 Dummy button.
 

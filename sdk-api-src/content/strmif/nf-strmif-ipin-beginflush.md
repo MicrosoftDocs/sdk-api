@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IPin.BeginFlush
 title: IPin::BeginFlush (strmif.h)
-description: The BeginFlush method begins a flush operation.
+description: The BeginFlush method begins a flush operation. (IPin.BeginFlush)
 helpviewer_keywords: ["BeginFlush","BeginFlush method [DirectShow]","BeginFlush method [DirectShow]","IPin interface","IPin interface [DirectShow]","BeginFlush method","IPin.BeginFlush","IPin::BeginFlush","IPinBeginFlush","dshow.ipin_beginflush","strmif/IPin::BeginFlush"]
 old-location: dshow\ipin_beginflush.htm
 tech.root: dshow

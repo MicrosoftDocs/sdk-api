@@ -59,7 +59,7 @@ Indicates whether the caller should use the <b>IPropertySetStorage</b> and <b>IP
 
 ## -enum-fields
 
-### -field IFILTER_FLAGS_OLE_PROPERTIES
+### -field IFILTER_FLAGS_OLE_PROPERTIES:1
 
 The caller should use the <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> and <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>.
 

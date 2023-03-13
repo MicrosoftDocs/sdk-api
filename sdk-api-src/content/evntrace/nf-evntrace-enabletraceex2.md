@@ -290,7 +290,8 @@ for details.)
   on-the-fly based on whether or not they satisfy a logical expression based on
   one or more predicates.
 
-> [!Note] Even though ETW supports powerful payload and attribute filtering,
+> [!Note]
+> Even though ETW supports powerful payload and attribute filtering,
 > events should primarily be filtered based scope filters or via control GUID,
 > level, and keyword. Providers usually perform control GUID, level, and keyword
 > filtering directly in the provider's code before the event is generated or

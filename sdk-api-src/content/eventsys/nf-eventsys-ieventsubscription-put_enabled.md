@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Enabled
 title: IEventSubscription::put_Enabled (eventsys.h)
-description: Indicates whether the subscription is enabled.
+description: Indicates whether the subscription is enabled. (Put)
 helpviewer_keywords: ["Enabled property [COM+]","Enabled property [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","Enabled property","IEventSubscription.Enabled","IEventSubscription.put_Enabled","IEventSubscription::Enabled","IEventSubscription::get_Enabled","IEventSubscription::put_Enabled","cos.ieventsubscription_enabled","eventsys/IEventSubscription::Enabled","eventsys/IEventSubscription::get_Enabled","eventsys/IEventSubscription::put_Enabled","put_Enabled"]
 old-location: cos\ieventsubscription_enabled.htm
 tech.root: cos

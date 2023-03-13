@@ -59,7 +59,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param change [in]
 
-Type: **const [IPSEC_SA_CONTEXT_CHANGE0](IPSEC_SA_CONTEXT_CHANGE0)\***
+Type: **const [IPSEC_SA_CONTEXT_CHANGE0](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)\***
 
 The IPsec SA context information.
 

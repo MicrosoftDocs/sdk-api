@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1
 title: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1
-description: Specifies the parameters for the output stream for a video decode operation.
+description: Specifies the parameters for the output stream for a video decode operation. (D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1)
 helpviewer_keywords: ["D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1","D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1",""]
 tech.root: mf
 ms.assetid: 58343794-0bd9-4be9-80f2-8cb0eec80a27

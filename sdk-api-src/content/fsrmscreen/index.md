@@ -4,7 +4,7 @@ title: Fsrmscreen.h header
 ms.assetid: 960299c2-00ff-3190-8e77-dd3aeca5fbf1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fsrm
 f1_keywords:
  - fsrmscreen

@@ -82,6 +82,6 @@ The calling application must free the buffer allocated by this function and poin
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [CMCreateProfileW](/windows/win32/api/icm/nf-icm-cmcreateprofilew)

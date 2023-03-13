@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTW
 title: SHFILEOPSTRUCTW (shellapi.h)
-description: Contains information that the SHFileOperation function uses to perform file operations.
+description: Contains information that the SHFileOperation function uses to perform file operations. (Unicode)
 helpviewer_keywords: ["*LPSHFILEOPSTRUCTW","FOF_ALLOWUNDO","FOF_CONFIRMMOUSE","FOF_FILESONLY","FOF_MULTIDESTFILES","FOF_NOCONFIRMATION","FOF_NOCONFIRMMKDIR","FOF_NOCOPYSECURITYATTRIBS","FOF_NOERRORUI","FOF_NORECURSEREPARSE","FOF_NORECURSION","FOF_NO_CONNECTED_ELEMENTS","FOF_NO_UI","FOF_RENAMEONCOLLISION","FOF_SILENT","FOF_SIMPLEPROGRESS","FOF_WANTMAPPINGHANDLE","FOF_WANTNUKEWARNING","FO_COPY","FO_DELETE","FO_MOVE","FO_RENAME","LPSHFILEOPSTRUCT","LPSHFILEOPSTRUCT structure pointer [Windows Shell]","SHFILEOPSTRUCT","SHFILEOPSTRUCT structure [Windows Shell]","SHFILEOPSTRUCTW","_win32_SHFILEOPSTRUCT","shell.SHFILEOPSTRUCT","shellapi/LPSHFILEOPSTRUCT","shellapi/SHFILEOPSTRUCT"]
 old-location: shell\SHFILEOPSTRUCT.htm
 tech.root: shell

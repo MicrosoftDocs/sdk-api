@@ -54,11 +54,11 @@ Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital aud
 
 ## -enum-fields
 
-### -field eAVEncDDAtoDConverterType_Standard
+### -field eAVEncDDAtoDConverterType_Standard:0
 
 Standard.
 
-### -field eAVEncDDAtoDConverterType_HDCD
+### -field eAVEncDDAtoDConverterType_HDCD:1
 
 High Definition Compatible Digital (HDCD).
 

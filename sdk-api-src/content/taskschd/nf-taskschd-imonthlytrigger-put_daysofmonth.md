@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_DaysOfMonth
 title: IMonthlyTrigger::put_DaysOfMonth (taskschd.h)
-description: Gets or sets the days of the month during which the task runs.
+description: Gets or sets the days of the month during which the task runs. (Put)
 helpviewer_keywords: ["DaysOfMonth property [Task Scheduler]","DaysOfMonth property [Task Scheduler]","IMonthlyTrigger interface","IMonthlyTrigger interface [Task Scheduler]","DaysOfMonth property","IMonthlyTrigger.DaysOfMonth","IMonthlyTrigger.put_DaysOfMonth","IMonthlyTrigger::DaysOfMonth","IMonthlyTrigger::get_DaysOfMonth","IMonthlyTrigger::put_DaysOfMonth","put_DaysOfMonth","taskschd.imonthlytrigger_daysofmonth","taskschd/IMonthlyTrigger::DaysOfMonth","taskschd/IMonthlyTrigger::get_DaysOfMonth","taskschd/IMonthlyTrigger::put_DaysOfMonth"]
 old-location: taskschd\imonthlytrigger_daysofmonth.htm
 tech.root: taskschd

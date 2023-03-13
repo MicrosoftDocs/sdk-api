@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient2(float)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient2 (dcomp.h)
-description: Sets the second coefficient for the equation used to composite the two input images.
+description: Sets the second coefficient for the equation used to composite the two input images. (overload 1/2)
 helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient2 method","IDCompositionArithmeticCompositeEffect.SetCoefficient2","IDCompositionArithmeticCompositeEffect::SetCoefficient2","IDCompositionArithmeticCompositeEffect::SetCoefficient2(float)","SetCoefficient2","SetCoefficient2 method [DirectComposition]","SetCoefficient2 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient2","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2.htm
 tech.root: directcomp

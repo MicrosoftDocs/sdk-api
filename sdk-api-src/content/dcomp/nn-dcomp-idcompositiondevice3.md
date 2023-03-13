@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionDevice3
 title: IDCompositionDevice3 (dcomp.h)
-description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
+description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition. (IDCompositionDevice3)
 helpviewer_keywords: ["IDCompositionDevice3","IDCompositionDevice3 interface [DirectComposition]","IDCompositionDevice3 interface [DirectComposition]","described","dcomp/IDCompositionDevice3","directcomp.idcompositiondevice3"]
 old-location: directcomp\idcompositiondevice3.htm
 tech.root: directcomp

@@ -56,7 +56,7 @@ Defines utility methods for serializing tuning requests (objects that implement 
 
 The <b>IPersistTuneXmlUtility2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>. <b>IPersistTuneXmlUtility2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

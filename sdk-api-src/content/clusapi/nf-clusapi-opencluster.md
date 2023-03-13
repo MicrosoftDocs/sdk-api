@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenCluster
 title: OpenCluster function (clusapi.h)
-description: Opens a connection to a cluster and returns a handle to it.
+description: Opens a connection to a cluster and returns a handle to it. (OpenCluster)
 helpviewer_keywords: ["OpenCluster","OpenCluster function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER","PCLUSAPI_OPEN_CLUSTER function [Failover Cluster]","_wolf_opencluster","clusapi/OpenCluster","clusapi/PCLUSAPI_OPEN_CLUSTER","mscs.opencluster"]
 old-location: mscs\opencluster.htm
 tech.root: MsCS

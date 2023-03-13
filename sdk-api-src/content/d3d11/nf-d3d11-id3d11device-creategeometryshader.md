@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateGeometryShader
 title: ID3D11Device::CreateGeometryShader (d3d11.h)
-description: Create a geometry shader.
+description: Create a geometry shader. (ID3D11Device.CreateGeometryShader)
 helpviewer_keywords: ["CreateGeometryShader","CreateGeometryShader method [Direct3D 11]","CreateGeometryShader method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateGeometryShader method","ID3D11Device.CreateGeometryShader","ID3D11Device::CreateGeometryShader","c0fe27f5-e83c-fa7e-faca-a34ea90a0c53","d3d11/ID3D11Device::CreateGeometryShader","direct3d11.id3d11device_creategeometryshader"]
 old-location: direct3d11\id3d11device_creategeometryshader.htm
 tech.root: direct3d11

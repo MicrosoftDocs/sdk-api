@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1ImageSource
 title: ID2D1ImageSource (d2d1_3.h)
-description: Represents a producer of pixels that can fill an arbitrary 2D plane.
+description: Represents a producer of pixels that can fill an arbitrary 2D plane. (ID2D1ImageSource)
 helpviewer_keywords: ["ID2D1ImageSource","ID2D1ImageSource interface [Direct2D]","ID2D1ImageSource interface [Direct2D]","described","d2d1_3/ID2D1ImageSource","direct2d.id2d1imagesource"]
 old-location: direct2d\id2d1imagesource.htm
 tech.root: Direct2D

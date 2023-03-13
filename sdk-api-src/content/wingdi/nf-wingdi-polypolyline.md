@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that contains the vertices of the polylines, in logical units. The polylines are specified consecutively.
 
 ### -param asz [in]
 
@@ -94,7 +94,7 @@ The current position is neither used nor updated by this function.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

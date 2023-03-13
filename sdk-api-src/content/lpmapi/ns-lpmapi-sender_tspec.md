@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_24
+UID: NS:lpmapi.SENDER_TSPEC
 title: SENDER_TSPEC (lpmapi.h)
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
 helpviewer_keywords: ["SENDER_TSPEC","SENDER_TSPEC structure [QOS]","lpmapi/SENDER_TSPEC","qos.sender_tspec"]
@@ -70,3 +70,4 @@ Sender Tspec body information, expressed as an <a href="/previous-versions/windo
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

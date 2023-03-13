@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_BUFFER_DESC
 title: D3D11_VIDEO_DECODER_BUFFER_DESC (d3d11.h)
-description: Describes a compressed buffer for decoding.
+description: Describes a compressed buffer for decoding. (D3D11_VIDEO_DECODER_BUFFER_DESC)
 helpviewer_keywords: ["D3D11_VIDEO_DECODER_BUFFER_DESC","D3D11_VIDEO_DECODER_BUFFER_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC","mf.d3d11_video_decoder_buffer_desc"]
 old-location: mf\d3d11_video_decoder_buffer_desc.htm
 tech.root: mf

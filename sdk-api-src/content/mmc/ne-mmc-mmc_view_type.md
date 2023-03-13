@@ -58,7 +58,7 @@ The
 
 ## -enum-fields
 
-### -field MMC_VIEW_TYPE_LIST
+### -field MMC_VIEW_TYPE_LIST:0
 
 The view type is a list view.
 

@@ -54,19 +54,19 @@ Specifies the rail states for an interaction.
 
 ## -enum-fields
 
-### -field MANIPULATION_RAILS_STATE_UNDECIDED
+### -field MANIPULATION_RAILS_STATE_UNDECIDED:0x00000000
 
 Rail state not defined yet.
 
-### -field MANIPULATION_RAILS_STATE_FREE
+### -field MANIPULATION_RAILS_STATE_FREE:0x00000001
 
 Interaction is not constrained to rail.
 
-### -field MANIPULATION_RAILS_STATE_RAILED
+### -field MANIPULATION_RAILS_STATE_RAILED:0x00000002
 
 Interaction is constrained to rail.
 
-### -field MANIPULATION_RAILS_STATE_MAX
+### -field MANIPULATION_RAILS_STATE_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 

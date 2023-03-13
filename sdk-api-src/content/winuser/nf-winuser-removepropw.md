@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RemovePropW
 title: RemovePropW function (winuser.h)
-description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.
-helpviewer_keywords: ["RemoveProp","RemoveProp function [Windows and Messages]","RemovePropA","RemovePropW","_win32_RemoveProp","_win32_removeprop_cpp","winmsg.removeprop","winui._win32_removeprop","winuser/RemoveProp","winuser/RemovePropA","winuser/RemovePropW"]
+description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed. (Unicode)
+helpviewer_keywords: ["RemoveProp", "RemoveProp function [Windows and Messages]", "RemovePropW", "_win32_RemoveProp", "_win32_removeprop_cpp", "winmsg.removeprop", "winui._win32_removeprop", "winuser/RemoveProp", "winuser/RemovePropW"]
 old-location: winmsg\removeprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\removeprop.htm

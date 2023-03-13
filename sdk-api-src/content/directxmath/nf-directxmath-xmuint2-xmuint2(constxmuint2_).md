@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2(constXMUINT2&)
 title: XMUINT2::XMUINT2(const XMUINT2 &) (directxmath.h)
-description: A constructor for XMUINT2.
+description: A constructor for XMUINT2. (overload 1/2)
 helpviewer_keywords: ["XMUINT2","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 structure","XMUINT2 structure [DirectX Math Support APIs]","XMUINT2 constructor","XMUINT2.XMUINT2","XMUINT2.XMUINT2()","XMUINT2.XMUINT2(const XMUINT2 &)","XMUINT2::XMUINT2","XMUINT2::XMUINT2(const XMUINT2 &)","dxmath.xmuint2_ctor_1"]
 old-location: 
 tech.root: dxmath

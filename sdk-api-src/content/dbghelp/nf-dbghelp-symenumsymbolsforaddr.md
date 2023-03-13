@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsForAddr
 title: SymEnumSymbolsForAddr function (dbghelp.h)
-description: Enumerates the symbols for the specified address.
+description: The SymEnumSymbolsForAddr function (dbghelp.h) enumerates the symbols for the specified address.
 helpviewer_keywords: ["SymEnumSymbolsForAddr","SymEnumSymbolsForAddr function","SymEnumSymbolsForAddrW","_win32_symenumsymbolsforaddr","base.symenumsymbolsforaddr","dbghelp/SymEnumSymbolsForAddr","dbghelp/SymEnumSymbolsForAddrW"]
 old-location: base\symenumsymbolsforaddr.htm
 tech.root: Debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
 req.header: dbghelp.h
 req.include-header: 

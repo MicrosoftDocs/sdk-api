@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHDeleteValueW
 title: SHDeleteValueW function (shlwapi.h)
-description: Deletes a named value from the specified registry key.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHDeleteValue","SHDeleteValue function [Windows Shell]","SHDeleteValueA","SHDeleteValueW","_win32_SHDeleteValue","shell.SHDeleteValue","shlwapi/SHDeleteValue","shlwapi/SHDeleteValueA","shlwapi/SHDeleteValueW"]
+description: Deletes a named value from the specified registry key. (Unicode)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHDeleteValue", "SHDeleteValue function [Windows Shell]", "SHDeleteValueW", "_win32_SHDeleteValue", "shell.SHDeleteValue", "shlwapi/SHDeleteValue", "shlwapi/SHDeleteValueW"]
 old-location: shell\SHDeleteValue.htm
 tech.root: shell
 ms.assetid: 54f3459b-486c-4907-84b1-39b1f8abb12d

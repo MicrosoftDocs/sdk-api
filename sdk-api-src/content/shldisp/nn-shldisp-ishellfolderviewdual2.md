@@ -1,7 +1,7 @@
 ---
 UID: NN:shldisp.IShellFolderViewDual2
 title: IShellFolderViewDual2 (shldisp.h)
-description: Exposes methods that modify the view and select items in the current folder.
+description: Exposes methods that modify the view and select items in the current folder. (IShellFolderViewDual2)
 helpviewer_keywords: ["IShellFolderViewDual2","IShellFolderViewDual2 interface [Windows Shell]","IShellFolderViewDual2 interface [Windows Shell]","described","_shell_IShellFolderViewDual2","shell.IShellFolderViewDual2","shldisp/IShellFolderViewDual2"]
 old-location: shell\IShellFolderViewDual2.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(constXMFLOAT3SE&)
 title: XMFLOAT3SE::XMFLOAT3SE(const XMFLOAT3SE &) (directxpackedvector.h)
-description: A constructor for XMFLOAT3SE.
+description: A constructor for XMFLOAT3SE. (overload 1/2)
 helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE()","XMFLOAT3SE.XMFLOAT3SE(const XMFLOAT3SE &)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(const XMFLOAT3SE &)","dxmath.xmfloat3se_ctor_1"]
 old-location: 
 tech.root: dxmath

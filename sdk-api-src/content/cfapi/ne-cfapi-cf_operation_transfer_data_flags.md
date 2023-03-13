@@ -54,7 +54,7 @@ Flags to transfer data to hydrate a placeholder file or folder.
 
 ## -enum-fields
 
-### -field CF_OPERATION_TRANSFER_DATA_FLAG_NONE
+### -field CF_OPERATION_TRANSFER_DATA_FLAG_NONE:0x00000000
 
 No transfer data flag.
 

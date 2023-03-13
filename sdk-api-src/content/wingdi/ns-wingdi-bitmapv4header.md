@@ -1,5 +1,5 @@
 ---
-UID: NS:wingdi.__unnamed_struct_0
+UID: NS:wingdi.BITMAPV4HEADER
 title: BITMAPV4HEADER (wingdi.h)
 description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
 helpviewer_keywords: ["*LPBITMAPV4HEADER","*PBITMAPV4HEADER","BITMAPV4HEADER","BITMAPV4HEADER structure [Windows GDI]","PBITMAPV4HEADER","PBITMAPV4HEADER structure pointer [Windows GDI]","_win32_BITMAPV4HEADER_str","gdi.bitmapv4header","wingdi/BITMAPV4HEADER","wingdi/PBITMAPV4HEADER"]
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV4HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 Applications can use the 
         <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> structure for added functionality.
@@ -248,7 +248,7 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 
@@ -277,3 +277,4 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
+

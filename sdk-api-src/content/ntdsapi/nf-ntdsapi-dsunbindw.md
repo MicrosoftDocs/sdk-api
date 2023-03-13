@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsUnBindW
 title: DsUnBindW function (ntdsapi.h)
-description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
-helpviewer_keywords: ["DsUnBind","DsUnBind function [Active Directory]","DsUnBindA","DsUnBindW","_glines_dsunbind","ad.dsunbind","ntdsapi/DsUnBind","ntdsapi/DsUnBindA","ntdsapi/DsUnBindW"]
+description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS). (Unicode)
+helpviewer_keywords: ["DsUnBind", "DsUnBind function [Active Directory]", "DsUnBindW", "_glines_dsunbind", "ad.dsunbind", "ntdsapi/DsUnBind", "ntdsapi/DsUnBindW"]
 old-location: ad\dsunbind.htm
 tech.root: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e

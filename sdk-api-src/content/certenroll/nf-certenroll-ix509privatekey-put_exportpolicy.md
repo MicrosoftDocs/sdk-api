@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ExportPolicy
 title: IX509PrivateKey::put_ExportPolicy (certenroll.h)
-description: Specifies or retrieves export constraints for a private key.
+description: Specifies or retrieves export constraints for a private key. (Put)
 helpviewer_keywords: ["ExportPolicy property [Security]","ExportPolicy property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","ExportPolicy property","IX509PrivateKey.ExportPolicy","IX509PrivateKey.put_ExportPolicy","IX509PrivateKey::ExportPolicy","IX509PrivateKey::get_ExportPolicy","IX509PrivateKey::put_ExportPolicy","XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_EXPORT_FLAG","XCN_NCRYPT_ALLOW_EXPORT_NONE","XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","certenroll/IX509PrivateKey::ExportPolicy","certenroll/IX509PrivateKey::get_ExportPolicy","certenroll/IX509PrivateKey::put_ExportPolicy","put_ExportPolicy","security.ix509privatekey_exportpolicy"]
 old-location: security\ix509privatekey_exportpolicy.htm
 tech.root: security

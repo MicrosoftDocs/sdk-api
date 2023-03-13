@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetBalloonRetry
 title: IUserNotification::SetBalloonRetry (shobjidl_core.h)
-description: Specifies the conditions for trying to display user information when the first attempt fails.
+description: Specifies the conditions for trying to display user information when the first attempt fails. (IUserNotification.SetBalloonRetry)
 helpviewer_keywords: ["IUserNotification interface [Windows Shell]","SetBalloonRetry method","IUserNotification.SetBalloonRetry","IUserNotification::SetBalloonRetry","SetBalloonRetry","SetBalloonRetry method [Windows Shell]","SetBalloonRetry method [Windows Shell]","IUserNotification interface","inet_IUserNotification_SetBalloonRetry","shell.IUserNotification_SetBalloonRetry","shobjidl_core/IUserNotification::SetBalloonRetry"]
 old-location: shell\IUserNotification_SetBalloonRetry.htm
 tech.root: shell

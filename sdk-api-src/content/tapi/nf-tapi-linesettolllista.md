@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineSetTollListA
 title: lineSetTollListA function (tapi.h)
-description: The lineSetTollList function manipulates the toll list.
-helpviewer_keywords: ["_tapi2_linesettolllist","lineSetTollList","lineSetTollList function [TAPI 2.2]","lineSetTollListA","lineSetTollListW","tapi/lineSetTollList","tapi/lineSetTollListA","tapi/lineSetTollListW","tapi2.linesettolllist"]
+description: The lineSetTollList function manipulates the toll list. (lineSetTollListA)
+helpviewer_keywords: ["lineSetTollListA", "tapi/lineSetTollListA"]
 old-location: tapi2\linesettolllist.htm
 tech.root: tapi3
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235

@@ -54,21 +54,21 @@ The <b>X509PrivateKeyProtection</b> enumeration specifies the level of <a href="
 
 ## -enum-fields
 
-### -field XCN_NCRYPT_UI_NO_PROTECTION_FLAG
+### -field XCN_NCRYPT_UI_NO_PROTECTION_FLAG:0
 
 The protection level is not specified.
 
-### -field XCN_NCRYPT_UI_PROTECT_KEY_FLAG
+### -field XCN_NCRYPT_UI_PROTECT_KEY_FLAG:0x1
 
 A user interface is displayed to indicate that a process is attempting to use the key. The exact behavior is specified by the KSP or CSP being used. Some Microsoft legacy CSPs allow the client to decide whether a password is required to use the key or whether the user must only acknowledge a prompt.
 
-### -field XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG
+### -field XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG:0x2
 
 Specifies strong key protection. The user is typically prompted to enter a password when the key is created and whenever the key is used. The exact behavior is specified by the KSP being used. This value is not supported by the Certificate Enrollment API for legacy CSPs.
 
-### -field XCN_NCRYPT_UI_FINGERPRINT_PROTECTION_FLAG
+### -field XCN_NCRYPT_UI_FINGERPRINT_PROTECTION_FLAG:0x4
 
-### -field XCN_NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG
+### -field XCN_NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG:0x8
 
 ## -see-also
 

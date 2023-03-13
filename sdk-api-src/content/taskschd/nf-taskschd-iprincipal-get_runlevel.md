@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.get_RunLevel
 title: IPrincipal::get_RunLevel (taskschd.h)
-description: Gets or sets the identifier that is used to specify the privilege level that is required to run the tasks that are associated with the principal.
+description: Gets or sets the identifier that is used to specify the privilege level that is required to run the tasks that are associated with the principal. (Get)
 helpviewer_keywords: ["IPrincipal interface [Task Scheduler]","RunLevel property","IPrincipal.RunLevel","IPrincipal.get_RunLevel","IPrincipal::RunLevel","IPrincipal::get_RunLevel","IPrincipal::put_RunLevel","RunLevel property [Task Scheduler]","RunLevel property [Task Scheduler]","IPrincipal interface","TASK_RUNLEVEL_HIGHEST","TASK_RUNLEVEL_LUA","get_RunLevel","taskschd.iprincipal_runlevel","taskschd/IPrincipal::RunLevel","taskschd/IPrincipal::get_RunLevel","taskschd/IPrincipal::put_RunLevel"]
 old-location: taskschd\iprincipal_runlevel.htm
 tech.root: taskschd

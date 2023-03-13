@@ -56,7 +56,7 @@ The <b>VSS_WRITERRESTORE_ENUM</b> enumeration is used by
 
 ## -enum-fields
 
-### -field VSS_WRE_UNDEFINED
+### -field VSS_WRE_UNDEFINED:0
 
 It is not known whether the writer will perform special operations during the restore operation. 
       

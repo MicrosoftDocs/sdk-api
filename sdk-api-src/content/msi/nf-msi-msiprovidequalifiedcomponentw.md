@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentW
 title: MsiProvideQualifiedComponentW function (msi.h)
-description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
-helpviewer_keywords: ["INSTALLMODE_DEFAULT","INSTALLMODE_EXISTING","INSTALLMODE_NODETECTION","INSTALLMODE_NOSOURCERESOLUTION","MsiProvideQualifiedComponent","MsiProvideQualifiedComponent function","MsiProvideQualifiedComponentA","MsiProvideQualifiedComponentW","_msi_msiprovidequalifiedcomponent","combination of the REINSTALLMODE flags","msi/MsiProvideQualifiedComponent","msi/MsiProvideQualifiedComponentA","msi/MsiProvideQualifiedComponentW","setup.msiprovidequalifiedcomponent"]
+description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature. (Unicode)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideQualifiedComponent", "MsiProvideQualifiedComponent function", "MsiProvideQualifiedComponentW", "_msi_msiprovidequalifiedcomponent", "combination of the REINSTALLMODE flags", "msi/MsiProvideQualifiedComponent", "msi/MsiProvideQualifiedComponentW", "setup.msiprovidequalifiedcomponent"]
 old-location: setup\msiprovidequalifiedcomponent.htm
 tech.root: setup
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4

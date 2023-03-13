@@ -53,7 +53,7 @@ Defines constants that specify the location of the certificate store.
 
 ## -enum-fields
 
-### -field BG_CERT_STORE_LOCATION_CURRENT_USER
+### -field BG_CERT_STORE_LOCATION_CURRENT_USER:0
 
 Use the current user's certificate store.
 

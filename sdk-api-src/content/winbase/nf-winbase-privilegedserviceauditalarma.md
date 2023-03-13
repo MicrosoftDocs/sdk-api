@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.PrivilegedServiceAuditAlarmA
 title: PrivilegedServiceAuditAlarmA function (winbase.h)
-description: Generates an audit message in the security event log.
+description: Generates an audit message in the security event log. (PrivilegedServiceAuditAlarmA)
 helpviewer_keywords: ["PrivilegedServiceAuditAlarm","PrivilegedServiceAuditAlarm function [Security]","PrivilegedServiceAuditAlarmA","PrivilegedServiceAuditAlarmW","_win32_privilegedserviceauditalarm","security.privilegedserviceauditalarm","winbase/PrivilegedServiceAuditAlarm","winbase/PrivilegedServiceAuditAlarmA","winbase/PrivilegedServiceAuditAlarmW"]
 old-location: security\privilegedserviceauditalarm.htm
 tech.root: security

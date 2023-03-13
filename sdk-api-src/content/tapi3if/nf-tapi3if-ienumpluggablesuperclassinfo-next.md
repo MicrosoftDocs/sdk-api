@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumPluggableSuperclassInfo.Next
 title: IEnumPluggableSuperclassInfo::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumPluggableSuperclassInfo.Next)
 helpviewer_keywords: ["IEnumPluggableSuperclassInfo interface [TAPI 2.2]","Next method","IEnumPluggableSuperclassInfo.Next","IEnumPluggableSuperclassInfo::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumPluggableSuperclassInfo interface","_tapi3_ienumpluggablesuperclassinfo_next","tapi3.ienumpluggablesuperclassinfo_next","tapi3if/IEnumPluggableSuperclassInfo::Next"]
 old-location: tapi3\ienumpluggablesuperclassinfo_next.htm
 tech.root: tapi3

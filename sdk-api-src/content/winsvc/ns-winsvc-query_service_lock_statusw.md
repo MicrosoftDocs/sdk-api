@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_LOCK_STATUSW
 title: QUERY_SERVICE_LOCK_STATUSW (winsvc.h)
-description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
+description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function. (Unicode)
 helpviewer_keywords: ["*LPQUERY_SERVICE_LOCK_STATUSW","LPQUERY_SERVICE_LOCK_STATUS","LPQUERY_SERVICE_LOCK_STATUS structure pointer","QUERY_SERVICE_LOCK_STATUS","QUERY_SERVICE_LOCK_STATUS structure","QUERY_SERVICE_LOCK_STATUSA","QUERY_SERVICE_LOCK_STATUSW","_win32_query_service_lock_status_str","base.query_service_lock_status_str","winsvc/LPQUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUSA","winsvc/QUERY_SERVICE_LOCK_STATUSW"]
 old-location: base\query_service_lock_status_str.htm
 tech.root: security

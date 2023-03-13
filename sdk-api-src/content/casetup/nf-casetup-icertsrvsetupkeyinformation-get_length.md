@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_Length
 title: ICertSrvSetupKeyInformation::get_Length (casetup.h)
-description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
+description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP). (Get)
 helpviewer_keywords: ["ICertSrvSetupKeyInformation interface [Security]","Length property","ICertSrvSetupKeyInformation.Length","ICertSrvSetupKeyInformation.get_Length","ICertSrvSetupKeyInformation::Length","ICertSrvSetupKeyInformation::get_Length","ICertSrvSetupKeyInformation::put_Length","Length property [Security]","Length property [Security]","ICertSrvSetupKeyInformation interface","casetup/ICertSrvSetupKeyInformation::Length","casetup/ICertSrvSetupKeyInformation::get_Length","casetup/ICertSrvSetupKeyInformation::put_Length","get_Length","security.icertsrvsetupkeyinformation_length"]
 old-location: security\icertsrvsetupkeyinformation_length.htm
 tech.root: security

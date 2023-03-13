@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileSetDisplayDefaultAssociation
 tech.root: wcs
 title: ColorProfileSetDisplayDefaultAssociation
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileSetDisplayDefaultAssociation sets an installed color profile as the default profile for a specified display in the given scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

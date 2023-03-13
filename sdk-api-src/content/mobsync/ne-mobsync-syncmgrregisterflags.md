@@ -56,15 +56,15 @@ The <b>SYNCMGRREGISTERFLAGS</b> enumeration values are used in methods of the <a
 
 ## -enum-fields
 
-### -field SYNCMGRREGISTERFLAG_CONNECT
+### -field SYNCMGRREGISTERFLAG_CONNECT:0x1
 
 Network connect events.
 
-### -field SYNCMGRREGISTERFLAG_PENDINGDISCONNECT
+### -field SYNCMGRREGISTERFLAG_PENDINGDISCONNECT:0x2
 
 Pending network disconnect event.
 
-### -field SYNCMGRREGISTERFLAG_IDLE
+### -field SYNCMGRREGISTERFLAG_IDLE:0x4
 
 Idle events.
 

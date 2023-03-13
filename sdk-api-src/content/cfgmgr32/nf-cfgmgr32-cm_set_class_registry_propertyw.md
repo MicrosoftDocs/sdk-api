@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_Registry_PropertyW
 title: CM_Set_Class_Registry_PropertyW function (cfgmgr32.h)
-description: The CM_Set_Class_Registry_Property function sets or deletes a property of a device setup class.
-helpviewer_keywords: ["CM_Set_Class_Registry_Property","CM_Set_Class_Registry_Property function [Device and Driver Installation]","CM_Set_Class_Registry_PropertyW","cfgmgr32/CM_Set_Class_Registry_Property","cfgmgr32/CM_Set_Class_Registry_PropertyW","cfgmgrfn_e39d0285-7d83-4228-bbf8-f0520c5d6566.xml","devinst.cm_set_class_registry_property"]
+description: The CM_Set_Class_Registry_Property function sets or deletes a property of a device setup class. (Unicode)
+helpviewer_keywords: ["CM_Set_Class_Registry_Property", "CM_Set_Class_Registry_Property function [Device and Driver Installation]", "CM_Set_Class_Registry_PropertyW", "cfgmgr32/CM_Set_Class_Registry_Property", "cfgmgr32/CM_Set_Class_Registry_PropertyW", "cfgmgrfn_e39d0285-7d83-4228-bbf8-f0520c5d6566.xml", "devinst.cm_set_class_registry_property"]
 old-location: devinst\cm_set_class_registry_property.htm
 tech.root: devinst
 ms.assetid: 65e19d09-4a53-439b-9678-f907caf0db5c

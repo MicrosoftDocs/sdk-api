@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_DROP0_
 title: FWPM_NET_EVENT_CLASSIFY_DROP0 (fwpmtypes.h)
-description: Contains information that describes a layer drop failure.
+description: Contains information that describes a layer drop failure. (FWPM_NET_EVENT_CLASSIFY_DROP0)
 helpviewer_keywords: ["FWPM_NET_EVENT_CLASSIFY_DROP0","FWPM_NET_EVENT_CLASSIFY_DROP0 structure [Filtering]","fwp.fwpm_net_event_classify_drop0","fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP0"]
 old-location: fwp\fwpm_net_event_classify_drop0.htm
 tech.root: fwp

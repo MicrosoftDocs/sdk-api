@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_delete
 title: ldap_delete function (winldap.h)
-description: The ldap_delete function deletes an entry from the directory tree.
+description: The ldap_delete function (winldap.h) deletes an entry from the directory tree.
 helpviewer_keywords: ["_ldap_ldap_delete","ldap.ldap__delete","ldap.ldap_delete","ldap_delete","ldap_delete function [LDAP]","ldap_deleteA","ldap_deleteW","winldap/ldap_delete","winldap/ldap_deleteA","winldap/ldap_deleteW"]
 old-location: ldap\ldap_delete.htm
 tech.root: ldap
 ms.assetid: 314f3128-ab09-45a7-a678-779d5b7d4d72
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _ldap_ldap_delete, ldap.ldap__delete, ldap.ldap_delete, ldap_delete, ldap_delete function [LDAP], ldap_deleteA, ldap_deleteW, winldap/ldap_delete, winldap/ldap_deleteA, winldap/ldap_deleteW
 req.header: winldap.h
 req.include-header: 

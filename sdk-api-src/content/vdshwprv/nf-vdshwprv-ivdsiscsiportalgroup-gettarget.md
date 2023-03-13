@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.GetTarget
 title: IVdsIscsiPortalGroup::GetTarget (vdshwprv.h)
-description: Returns the target to which the portal group belongs.
+description: The IVdsIscsiPortalGroup::GetTarget (vdshwprv.h) method returns the target to which the portal group belongs.
 helpviewer_keywords: ["GetTarget","GetTarget method [VDS]","GetTarget method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetTarget method","IVdsIscsiPortalGroup.GetTarget","IVdsIscsiPortalGroup::GetTarget","base.ivdsiscsiportalgroup_gettarget","vds/IVdsIscsiPortalGroup::GetTarget","vdshwprv/IVdsIscsiPortalGroup::GetTarget"]
 old-location: base\ivdsiscsiportalgroup_gettarget.htm
 tech.root: base
 ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the target to which the portal group belongs.
 

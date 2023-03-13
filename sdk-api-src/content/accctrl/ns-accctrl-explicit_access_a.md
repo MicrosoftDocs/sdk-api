@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._EXPLICIT_ACCESS_A
 title: EXPLICIT_ACCESS_A (accctrl.h)
-description: Defines access control information for a specified trustee.
+description: Defines access control information for a specified trustee. (ANSI)
 helpviewer_keywords: ["*PEXPLICIT_ACCESSA","*PEXPLICIT_ACCESS_A","CONTAINER_INHERIT_ACE","EXPLICIT_ACCESS","EXPLICIT_ACCESS structure [Security]","EXPLICIT_ACCESSA","EXPLICIT_ACCESS_","EXPLICIT_ACCESS_A","EXPLICIT_ACCESS_W","INHERIT_NO_PROPAGATE","INHERIT_ONLY","INHERIT_ONLY_ACE","NO_INHERITANCE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","PEXPLICIT_ACCESS","PEXPLICIT_ACCESS structure pointer [Security]","SUB_CONTAINERS_AND_OBJECTS_INHERIT","SUB_CONTAINERS_ONLY_INHERIT","SUB_OBJECTS_ONLY_INHERIT","_EXPLICIT_ACCESS_A","_EXPLICIT_ACCESS_W","_win32_explicit_access_str","accctrl/EXPLICIT_ACCESS","accctrl/EXPLICIT_ACCESS_A","accctrl/EXPLICIT_ACCESS_W","accctrl/PEXPLICIT_ACCESS","security.explicit_access"]
 old-location: security\explicit_access.htm
 tech.root: security

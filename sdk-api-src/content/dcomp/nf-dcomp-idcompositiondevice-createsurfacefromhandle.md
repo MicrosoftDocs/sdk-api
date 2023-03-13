@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSurfaceFromHandle
 title: IDCompositionDevice::CreateSurfaceFromHandle (dcomp.h)
-description: Creates a new composition surface object that wraps an existing composition surface.
+description: The IDCompositionDevice::CreateSurfaceFromHandle method creates a new composition surface object that wraps an existing composition surface.
 helpviewer_keywords: ["CreateSurfaceFromHandle","CreateSurfaceFromHandle method [DirectComposition]","CreateSurfaceFromHandle method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateSurfaceFromHandle method","IDCompositionDevice.CreateSurfaceFromHandle","IDCompositionDevice::CreateSurfaceFromHandle","dcomp/IDCompositionDevice::CreateSurfaceFromHandle","directcomp.idcompositiondevice_createsurfacefromhandle"]
 old-location: directcomp\idcompositiondevice_createsurfacefromhandle.htm
 tech.root: directcomp
 ms.assetid: 391E98B4-9FFB-4065-91A4-99306B2FEB8F
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDevice.CreateSurfaceFromHandle, IDCompositionDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDevice::CreateSurfaceFromHandle, directcomp.idcompositiondevice_createsurfacefromhandle
 req.header: dcomp.h
 req.include-header: 

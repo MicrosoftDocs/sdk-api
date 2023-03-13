@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumMessagesDeniedByStorageFilter
 title: ID3D11InfoQueue::GetNumMessagesDeniedByStorageFilter (d3d11sdklayers.h)
-description: Get the number of messages that were denied passage through a storage filter.
+description: Get the number of messages that were denied passage through a storage filter. (ID3D11InfoQueue.GetNumMessagesDeniedByStorageFilter)
 helpviewer_keywords: ["11b6bb5c-df2b-9541-056a-f54d3fe24f4c","GetNumMessagesDeniedByStorageFilter","GetNumMessagesDeniedByStorageFilter method [Direct3D 11]","GetNumMessagesDeniedByStorageFilter method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumMessagesDeniedByStorageFilter method","ID3D11InfoQueue.GetNumMessagesDeniedByStorageFilter","ID3D11InfoQueue::GetNumMessagesDeniedByStorageFilter","d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesDeniedByStorageFilter","direct3d11.id3d11infoqueue_getnummessagesdeniedbystoragefilter"]
 old-location: direct3d11\id3d11infoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3d11

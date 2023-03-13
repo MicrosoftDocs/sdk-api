@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.InsertMenuW
 title: InsertMenuW function (winuser.h)
-description: Inserts a new menu item into a menu, moving other items down the menu.
-helpviewer_keywords: ["InsertMenu","InsertMenu function [Menus and Other Resources]","InsertMenuA","InsertMenuW","MF_BITMAP","MF_BYCOMMAND","MF_BYPOSITION","MF_CHECKED","MF_DISABLED","MF_ENABLED","MF_GRAYED","MF_MENUBARBREAK","MF_MENUBREAK","MF_OWNERDRAW","MF_POPUP","MF_SEPARATOR","MF_STRING","MF_UNCHECKED","_win32_InsertMenu","_win32_insertmenu_cpp","menurc.insertmenu","winui._win32_insertmenu","winuser/InsertMenu","winuser/InsertMenuA","winuser/InsertMenuW"]
+description: Inserts a new menu item into a menu, moving other items down the menu. (Unicode)
+helpviewer_keywords: ["InsertMenu", "InsertMenu function [Menus and Other Resources]", "InsertMenuW", "MF_BITMAP", "MF_BYCOMMAND", "MF_BYPOSITION", "MF_CHECKED", "MF_DISABLED", "MF_ENABLED", "MF_GRAYED", "MF_MENUBARBREAK", "MF_MENUBREAK", "MF_OWNERDRAW", "MF_POPUP", "MF_SEPARATOR", "MF_STRING", "MF_UNCHECKED", "_win32_InsertMenu", "_win32_insertmenu_cpp", "menurc.insertmenu", "winui._win32_insertmenu", "winuser/InsertMenu", "winuser/InsertMenuW"]
 old-location: menurc\insertmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm

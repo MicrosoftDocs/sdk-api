@@ -1,5 +1,5 @@
 ---
-UID: NS:usp10.__unnamed_struct_0
+UID: NS:usp10.SCRIPT_PROPERTIES
 title: SCRIPT_PROPERTIES (usp10.h)
 description: Contains information about special processing for each script.
 helpviewer_keywords: ["FALSE","SCRIPT_PROPERTIES","SCRIPT_PROPERTIES structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_PROPERTIES_str","intl.script_properties","usp10/SCRIPT_PROPERTIES"]
@@ -553,3 +553,4 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

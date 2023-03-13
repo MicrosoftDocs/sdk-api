@@ -56,23 +56,23 @@ Determines the type of data to return from a given data point on the graph.
 
 ## -enum-fields
 
-### -field sysmonDataAvg
+### -field sysmonDataAvg:1
 
 Average value of the counter.
 
-### -field sysmonDataMin
+### -field sysmonDataMin:2
 
 Minimum value of the counter.
 
-### -field sysmonDataMax
+### -field sysmonDataMax:3
 
 Maximum value of the counter.
 
-### -field sysmonDataTime
+### -field sysmonDataTime:4
 
 Date and time that the counter value was collected. If SYSMON compresses more than one sample into the counter value, the date and time are from the last sample.
 
-### -field sysmonDataCount
+### -field sysmonDataCount:5
 
 Number of samples that were compressed into the data point.
 

@@ -54,27 +54,27 @@ Defines the <a href="/previous-versions/windows/desktop/directmanipulation/direc
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_MOTION_NONE
+### -field DIRECTMANIPULATION_MOTION_NONE:0
 
 None.
 
-### -field DIRECTMANIPULATION_MOTION_TRANSLATEX
+### -field DIRECTMANIPULATION_MOTION_TRANSLATEX:0x1
 
 Translation in the horizontal axis.
 
-### -field DIRECTMANIPULATION_MOTION_TRANSLATEY
+### -field DIRECTMANIPULATION_MOTION_TRANSLATEY:0x2
 
 Translation in the vertical axis.
 
-### -field DIRECTMANIPULATION_MOTION_ZOOM
+### -field DIRECTMANIPULATION_MOTION_ZOOM:0x4
 
 Zoom.
 
-### -field DIRECTMANIPULATION_MOTION_CENTERX
+### -field DIRECTMANIPULATION_MOTION_CENTERX:0x10
 
 The horizontal center of the manipulation.
 
-### -field DIRECTMANIPULATION_MOTION_CENTERY
+### -field DIRECTMANIPULATION_MOTION_CENTERY:0x20
 
 The vertical center of the manipulation.
 

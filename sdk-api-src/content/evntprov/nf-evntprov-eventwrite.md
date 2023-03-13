@@ -80,7 +80,8 @@ generated event will use the ProviderId associated with the handle.
 with event information (metadata) including ID, Version, Level, Keyword,
 Channel, Opcode, and Task.
 
-> **Important:** ProviderId, Level and Keyword are the primary means for
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
 > filtering events. Other kinds of filtering are possible but have much higher
 > overhead. Always assign a nonzero level and keyword to every event.
 

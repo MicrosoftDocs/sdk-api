@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IObjContext
 title: IObjContext (objidl.h)
-description: Performs various operations on contexts.
+description: The IObjContext interface (objidl.h) performs various operations on contexts.
 helpviewer_keywords: ["IObjContext","IObjContext interface [COM]","IObjContext interface [COM]","described","_com_iobjcontext","com.iobjcontext","objidlbase/IObjContext"]
 old-location: com\iobjcontext.htm
 tech.root: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
 req.header: objidl.h
 req.include-header: ObjIdl.h

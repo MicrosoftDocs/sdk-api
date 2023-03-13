@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._DOT11_RADIO_STATE~r1
 title: DOT11_RADIO_STATE
-ms.date: 01/30/2019
+description: The DOT11_RADIO_STATE enumeration specifies an 802.11 radio state.
+ms.date: 08/16/2022
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
 targetos: Windows
 req.construct-type: enumeration
@@ -44,7 +45,7 @@ The <b>DOT11_RADIO_STATE</b> enumeration specifies an 802.11 radio state.
 
 ## -enum-fields
 
-### -field dot11_radio_state_unknown
+### -field dot11_radio_state_unknown:0
 
 The radio state is unknown.
 

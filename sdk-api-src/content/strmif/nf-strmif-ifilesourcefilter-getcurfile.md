@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
 title: IFileSourceFilter::GetCurFile (strmif.h)
-description: The GetCurFile method retrieves the name and media type of the current file.
+description: The GetCurFile method retrieves the name and media type of the current file. (IFileSourceFilter.GetCurFile)
 helpviewer_keywords: ["GetCurFile","GetCurFile method [DirectShow]","GetCurFile method [DirectShow]","IFileSourceFilter interface","IFileSourceFilter interface [DirectShow]","GetCurFile method","IFileSourceFilter.GetCurFile","IFileSourceFilter::GetCurFile","IFileSourceFilterGetCurfile","dshow.ifilesourcefilter_getcurfile","strmif/IFileSourceFilter::GetCurFile"]
 old-location: dshow\ifilesourcefilter_getcurfile.htm
 tech.root: dshow

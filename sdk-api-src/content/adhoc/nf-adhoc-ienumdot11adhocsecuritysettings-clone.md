@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Clone
 title: IEnumDot11AdHocSecuritySettings::Clone (adhoc.h)
-description: Creates a new enumeration interface.
+description: Creates a new enumeration interface. (IEnumDot11AdHocSecuritySettings.Clone)
 helpviewer_keywords: ["Clone","Clone method [NativeWIFI]","Clone method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Clone method","IEnumDot11AdHocSecuritySettings.Clone","IEnumDot11AdHocSecuritySettings::Clone","adhoc/IEnumDot11AdHocSecuritySettings::Clone","nwifi.ienumdot11adhocsecuritysettings_clone"]
 old-location: nwifi\ienumdot11adhocsecuritysettings_clone.htm
 tech.root: nwifi

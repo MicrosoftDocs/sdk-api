@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_18
+UID: NS:lpmapi.GenTspecParms
 title: GenTspecParms (lpmapi.h)
 description: The GenTspecParms structure stores generic Tspec parameters.
 helpviewer_keywords: ["GenTspecParms","GenTspecParms structure [QOS]","lpmapi/GenTspecParms","qos.gentspecparms"]
@@ -98,3 +98,4 @@ Maximum packet size, in bytes.
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
+

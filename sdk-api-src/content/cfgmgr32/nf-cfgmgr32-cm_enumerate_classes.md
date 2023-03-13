@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Enumerate_Classes</b> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.
+The <b>CM_Enumerate_Classes</b> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device classes</a> by supplying each class's GUID.
 
 ## -parameters
 

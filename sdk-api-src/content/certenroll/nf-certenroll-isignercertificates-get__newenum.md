@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificates.get__NewEnum
 title: ISignerCertificates::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (ISignerCertificates.get__NewEnum)
 helpviewer_keywords: ["ISignerCertificates interface [Security]","_NewEnum property","ISignerCertificates._NewEnum","ISignerCertificates.get__NewEnum","ISignerCertificates::_NewEnum","ISignerCertificates::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ISignerCertificates interface","certenroll/ISignerCertificates::_NewEnum","certenroll/ISignerCertificates::get__NewEnum","get__NewEnum","security.isignercertificates__newenum_property"]
 old-location: security\isignercertificates__newenum_property.htm
 tech.root: security

@@ -93,7 +93,8 @@ the provider to write. The provider typically writes an event if the event's
 keyword bits match **any** of the bits set in this value or if the event has no
 keyword bits set, in addition to meeting the _EnableLevel_ critera.
 
-> [!Note] EventRegister-based providers support 64-bit keywords. Use
+> [!Note]
+> EventRegister-based providers support 64-bit keywords. Use
 > **EnableTraceEx2** to enable providers using a 64-bit _MatchAnyKeyword_ mask.
 
 ### -param EnableLevel [in]

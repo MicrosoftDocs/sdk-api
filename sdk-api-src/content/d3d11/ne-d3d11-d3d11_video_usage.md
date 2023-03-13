@@ -54,11 +54,11 @@ Specifies the intended use for a video processor.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_USAGE_PLAYBACK_NORMAL
+### -field D3D11_VIDEO_USAGE_PLAYBACK_NORMAL:0
 
 Normal video playback. The graphics driver should expose a set of capabilities that are appropriate for real-time video playback.
 
-### -field D3D11_VIDEO_USAGE_OPTIMAL_SPEED
+### -field D3D11_VIDEO_USAGE_OPTIMAL_SPEED:1
 
 Optimal speed. The graphics driver should expose a minimal set of capabilities that are optimized for performance.
 
@@ -66,7 +66,7 @@ Optimal speed. The graphics driver should expose a minimal set of capabilities t
 
 Use this setting if you want better performance and can accept some reduction in video quality. For example, you might use this setting in power-saving mode or to play video thumbnails.
 
-### -field D3D11_VIDEO_USAGE_OPTIMAL_QUALITY
+### -field D3D11_VIDEO_USAGE_OPTIMAL_QUALITY:2
 
 Optimal quality. The graphics driver should expose its maximum set of capabilities.
 

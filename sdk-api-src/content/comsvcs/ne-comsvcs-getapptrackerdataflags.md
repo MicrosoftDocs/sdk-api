@@ -56,23 +56,23 @@ Controls what data is returned from calls to the <a href="/windows/desktop/api/c
 
 ## -enum-fields
 
-### -field GATD_INCLUDE_PROCESS_EXE_NAME
+### -field GATD_INCLUDE_PROCESS_EXE_NAME:0x1
 
 Include the name of the process's executable image in the <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
-### -field GATD_INCLUDE_LIBRARY_APPS
+### -field GATD_INCLUDE_LIBRARY_APPS:0x2
 
 Include COM+ library applications in the tracking data. By default, these are excluded.
 
-### -field GATD_INCLUDE_SWC
+### -field GATD_INCLUDE_SWC:0x4
 
 Include Services Without Components contexts in the tracking data. By default, these are excluded.
 
-### -field GATD_INCLUDE_CLASS_NAME
+### -field GATD_INCLUDE_CLASS_NAME:0x8
 
 Include the class name in the <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
-### -field GATD_INCLUDE_APPLICATION_NAME
+### -field GATD_INCLUDE_APPLICATION_NAME:0x10
 
 Include the application name in the <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationsummary">ApplicationSummary</a> and <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structures. If set, it is the caller's responsibility to free the memory allocated for this string.
 

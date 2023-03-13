@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Guid
 title: ITraceDataProvider::get_Guid (pla.h)
-description: Retrieves or sets the provider's GUID.
+description: Retrieves or sets the provider's GUID. (Get)
 helpviewer_keywords: ["Guid property [PLA]","Guid property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","Guid property","ITraceDataProvider.Guid","ITraceDataProvider.get_Guid","ITraceDataProvider::Guid","ITraceDataProvider::get_Guid","ITraceDataProvider::put_Guid","base.itracedataprovider_guid","get_Guid","pla.itracedataprovider_guid","pla/ITraceDataProvider::Guid","pla/ITraceDataProvider::get_Guid","pla/ITraceDataProvider::put_Guid"]
 old-location: pla\itracedataprovider_guid.htm
 tech.root: PLA

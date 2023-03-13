@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionReflection
 title: ID3D11FunctionReflection (d3d11shader.h)
-description: A function-reflection interface accesses function info.
+description: A function-reflection interface accesses function info. (ID3D11FunctionReflection)
 helpviewer_keywords: ["ID3D11FunctionReflection","ID3D11FunctionReflection interface [Direct3D 11]","ID3D11FunctionReflection interface [Direct3D 11]","described","d3d11shader/ID3D11FunctionReflection","direct3d11.id3d11functionreflection"]
 old-location: direct3d11\id3d11functionreflection.htm
 tech.root: direct3d11
@@ -58,7 +58,7 @@ A function-reflection interface accesses function info. <div class="alert"><b>No
 
 The <b>ID3D11FunctionReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11FunctionReflection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

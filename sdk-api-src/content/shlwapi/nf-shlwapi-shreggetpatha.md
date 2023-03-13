@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetPathA
 title: SHRegGetPathA function (shlwapi.h)
-description: Retrieves a file path from the registry, expanding environment variables as needed.
-helpviewer_keywords: ["SHRegGetPath","SHRegGetPath function [Windows Shell]","SHRegGetPathA","SHRegGetPathW","_win32_SHRegGetPath","shell.SHRegGetPath","shlwapi/SHRegGetPath","shlwapi/SHRegGetPathA","shlwapi/SHRegGetPathW"]
+description: Retrieves a file path from the registry, expanding environment variables as needed. (ANSI)
+helpviewer_keywords: ["SHRegGetPathA", "shlwapi/SHRegGetPathA"]
 old-location: shell\SHRegGetPath.htm
 tech.root: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c

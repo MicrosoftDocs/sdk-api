@@ -64,7 +64,7 @@ Size of <i>ppBuffer</i>, in bytes.
 
 ### -param ppBuffer [out]
 
-Pointer to a pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
+Pointer to a pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
 
 ### -param pvContext [in]
 

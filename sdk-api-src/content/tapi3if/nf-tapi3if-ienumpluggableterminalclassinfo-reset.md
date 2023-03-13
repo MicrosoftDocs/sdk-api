@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumPluggableTerminalClassInfo.Reset
 title: IEnumPluggableTerminalClassInfo::Reset (tapi3if.h)
-description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages. (IEnumPluggableTerminalClassInfo.Reset)
 helpviewer_keywords: ["IEnumPluggableTerminalClassInfo interface [TAPI 2.2]","Reset method","IEnumPluggableTerminalClassInfo.Reset","IEnumPluggableTerminalClassInfo::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumPluggableTerminalClassInfo interface","_tapi3_ienumpluggableterminalclassinfo_reset","tapi3.ienumpluggableterminalclassinfo_reset","tapi3if/IEnumPluggableTerminalClassInfo::Reset"]
 old-location: tapi3\ienumpluggableterminalclassinfo_reset.htm
 tech.root: tapi3

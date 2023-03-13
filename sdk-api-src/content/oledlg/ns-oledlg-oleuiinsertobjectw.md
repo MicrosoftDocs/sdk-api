@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIINSERTOBJECTW
 title: OLEUIINSERTOBJECTW (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed. (Unicode)
 helpviewer_keywords: ["*LPOLEUIINSERTOBJECTW","*POLEUIINSERTOBJECTW","IOF_CHECKDISPLAYASICON","IOF_CHECKLINK","IOF_CREATEFILEOBJECT","IOF_CREATELINKOBJECT","IOF_CREATENEWOBJECT","IOF_DISABLEDISPLAYASICON","IOF_DISABLELINK","IOF_HIDECHANGEICON","IOF_SELECTCREATECONTROL","IOF_SELECTCREATEFROMFILE","IOF_SELECTCREATENEW","IOF_SHOWHELP","IOF_SHOWINSERTCONTROL","IOF_VERIFYSERVERSEXIST","LPOLEUIINSERTOBJECT","LPOLEUIINSERTOBJECT structure pointer [COM]","OLEUIINSERTOBJECT","OLEUIINSERTOBJECT structure [COM]","OLEUIINSERTOBJECTA","OLEUIINSERTOBJECTW","POLEUIINSERTOBJECT","POLEUIINSERTOBJECT structure pointer [COM]","_ole_OLEUIINSERTOBJECT_str","com.oleuiinsertobject_struct","oledlg/LPOLEUIINSERTOBJECT","oledlg/OLEUIINSERTOBJECT","oledlg/OLEUIINSERTOBJECTA","oledlg/OLEUIINSERTOBJECTW","oledlg/POLEUIINSERTOBJECT"]
 old-location: com\oleuiinsertobject_struct.htm
 tech.root: com

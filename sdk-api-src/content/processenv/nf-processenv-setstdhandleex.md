@@ -1,7 +1,8 @@
 ---
 UID: NF:processenv.SetStdHandleEx
 title: SetStdHandleEx
-ms.date: 4/26/2019
+description: The SetStdHandleEx function (processenv.h) sets the handle for the input, output, or error streams.
+ms.date: 08/05/2022
 ms.keywords: SetStdHandleEx
 targetos: Windows
 req.assembly: 
@@ -34,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - api-ms-win-core-processenvironment-l1-1-0.dll
+ - kernel32.dll
 api_name:
  - SetStdHandleEx
 ---

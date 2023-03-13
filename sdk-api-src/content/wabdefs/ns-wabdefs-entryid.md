@@ -1,5 +1,5 @@
 ---
-UID: NS:wabdefs.__unnamed_struct_0
+UID: NS:wabdefs.ENTRYID
 title: ENTRYID (wabdefs.h)
 description: Do not use. Contains the entry identifier information for a MAPI object.
 helpviewer_keywords: ["*LPENTRYID","ENTRYID","ENTRYID structure [Windows Address Book]","LPENTRYID","LPENTRYID structure pointer [Windows Address Book]","_wab_ENTRYID","wab._wab_ENTRYID","wabdefs/ENTRYID","wabdefs/LPENTRYID"]

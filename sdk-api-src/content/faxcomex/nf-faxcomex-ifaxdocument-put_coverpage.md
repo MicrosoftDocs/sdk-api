@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_CoverPage
 title: IFaxDocument::put_CoverPage (faxcomex.h)
-description: The IFaxDocument::get_CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
+description: The IFaxDocument::get_CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document. (Put)
 helpviewer_keywords: ["CoverPage property [Fax Service]","CoverPage property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","CoverPage property","IFaxDocument.CoverPage","IFaxDocument.put_CoverPage","IFaxDocument::CoverPage","IFaxDocument::get_CoverPage","IFaxDocument::put_CoverPage","_mfax_faxdocument.coverpage","fax._mfax_faxdocument_coverpage","fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp","faxcomex/IFaxDocument::CoverPage","faxcomex/IFaxDocument::get_CoverPage","faxcomex/IFaxDocument::put_CoverPage","put_CoverPage"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp.htm
 tech.root: Fax

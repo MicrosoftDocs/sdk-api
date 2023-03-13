@@ -55,7 +55,7 @@ The **WINHTTP\_REQUEST\_TIME\_ENTRY** enumeration lists the available types of r
 
 ## -enum-fields
 
-### -field WinHttpProxyDetectionStart
+### -field WinHttpProxyDetectionStart:0
 
 Start of proxy detection.
 
@@ -203,7 +203,7 @@ End of the third leg of the proxy TLS handshake.
 
 Marker for the end of the list of available timings.
 
-### -field WinHttpRequestTimeMax
+### -field WinHttpRequestTimeMax:64
 
 The maximum number of timings available.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetInfDriverStoreLocationA
 title: SetupGetInfDriverStoreLocationA function (setupapi.h)
-description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
-helpviewer_keywords: ["SetupGetInfDriverStoreLocation","SetupGetInfDriverStoreLocation function [Device and Driver Installation]","SetupGetInfDriverStoreLocationA","SetupGetInfDriverStoreLocationW","devinst.setupgetinfdriverstorelocation","setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml","setupapi/SetupGetInfDriverStoreLocation"]
+description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store. (ANSI)
+helpviewer_keywords: ["SetupGetInfDriverStoreLocationA", "setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml"]
 old-location: devinst\setupgetinfdriverstorelocation.htm
 tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af

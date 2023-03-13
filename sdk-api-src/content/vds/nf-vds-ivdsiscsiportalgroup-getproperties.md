@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetProperties
 title: IVdsIscsiPortalGroup::GetProperties (vds.h)
-description: Returns the properties of a portal group.
+description: The IVdsIscsiPortalGroup::GetProperties method (vds.h) returns the properties of a portal group.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetProperties method","IVdsIscsiPortalGroup.GetProperties","IVdsIscsiPortalGroup::GetProperties","base.ivdsiscsiportalgroup_getproperties","vds/IVdsIscsiPortalGroup::GetProperties","vdshwprv/IVdsIscsiPortalGroup::GetProperties"]
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
 tech.root: base
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of a portal group.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_2.ID2D1Device1
 title: ID2D1Device1 (d2d1_2.h)
-description: Represents a resource domain whose objects and device contexts can be used together.
+description: Represents a resource domain whose objects and device contexts can be used together. (ID2D1Device1)
 helpviewer_keywords: ["ID2D1Device1","ID2D1Device1 interface [Direct2D]","ID2D1Device1 interface [Direct2D]","described","d2d1_2/ID2D1Device1","direct2d.id2d1device1"]
 old-location: direct2d\id2d1device1.htm
 tech.root: Direct2D

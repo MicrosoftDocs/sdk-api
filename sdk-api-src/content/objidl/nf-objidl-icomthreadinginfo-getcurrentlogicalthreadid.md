@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IComThreadingInfo.GetCurrentLogicalThreadId
 title: IComThreadingInfo::GetCurrentLogicalThreadId (objidl.h)
-description: Retrieves the GUID of the thread in which the caller is executing.
+description: The IComThreadingInfo::GetCurrentLogicalThreadId method (objidl.h) retrieves the GUID of the thread in which the caller is executing.
 helpviewer_keywords: ["GetCurrentLogicalThreadId","GetCurrentLogicalThreadId method [COM]","GetCurrentLogicalThreadId method [COM]","IComThreadingInfo interface","IComThreadingInfo interface [COM]","GetCurrentLogicalThreadId method","IComThreadingInfo.GetCurrentLogicalThreadId","IComThreadingInfo::GetCurrentLogicalThreadId","_com_icomthreadinginfo_getcurrentlogicalthreadid","com.icomthreadinginfo_getcurrentlogicalthreadid","objidlbase/IComThreadingInfo::GetCurrentLogicalThreadId"]
 old-location: com\icomthreadinginfo_getcurrentlogicalthreadid.htm
 tech.root: com
 ms.assetid: 780bc94d-19b6-4cc8-b27f-9e38520b0afc
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: GetCurrentLogicalThreadId, GetCurrentLogicalThreadId method [COM], GetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentLogicalThreadId method, IComThreadingInfo.GetCurrentLogicalThreadId, IComThreadingInfo::GetCurrentLogicalThreadId, _com_icomthreadinginfo_getcurrentlogicalthreadid, com.icomthreadinginfo_getcurrentlogicalthreadid, objidlbase/IComThreadingInfo::GetCurrentLogicalThreadId
 req.header: objidl.h
 req.include-header: ObjIdl.h

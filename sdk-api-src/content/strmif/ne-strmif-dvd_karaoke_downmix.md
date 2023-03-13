@@ -56,59 +56,59 @@ Defines flags used by the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcon
 
 ## -enum-fields
 
-### -field DVD_Mix_0to0
+### -field DVD_Mix_0to0:0x1
 
 Reserved.
 
-### -field DVD_Mix_1to0
+### -field DVD_Mix_1to0:0x2
 
 Reserved.
 
-### -field DVD_Mix_2to0
+### -field DVD_Mix_2to0:0x4
 
 Downmix channel 2 to the left speaker.
 
-### -field DVD_Mix_3to0
+### -field DVD_Mix_3to0:0x8
 
 Downmix channel 3 to the left speaker.
 
-### -field DVD_Mix_4to0
+### -field DVD_Mix_4to0:0x10
 
 Downmix channel 4 to the left speaker.
 
-### -field DVD_Mix_Lto0
+### -field DVD_Mix_Lto0:0x20
 
 Reserved.
 
-### -field DVD_Mix_Rto0
+### -field DVD_Mix_Rto0:0x40
 
 Reserved.
 
-### -field DVD_Mix_0to1
+### -field DVD_Mix_0to1:0x100
 
 Reserved.
 
-### -field DVD_Mix_1to1
+### -field DVD_Mix_1to1:0x200
 
 Reserved.
 
-### -field DVD_Mix_2to1
+### -field DVD_Mix_2to1:0x400
 
 Downmix channel 2 to the right speaker.
 
-### -field DVD_Mix_3to1
+### -field DVD_Mix_3to1:0x800
 
 Downmix channel 3 to the right speaker.
 
-### -field DVD_Mix_4to1
+### -field DVD_Mix_4to1:0x1000
 
 Downmix channel 4 to the right speaker.
 
-### -field DVD_Mix_Lto1
+### -field DVD_Mix_Lto1:0x2000
 
 Reserved.
 
-### -field DVD_Mix_Rto1
+### -field DVD_Mix_Rto1:0x4000
 
 Reserved.
 

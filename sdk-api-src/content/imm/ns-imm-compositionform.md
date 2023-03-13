@@ -1,12 +1,12 @@
 ---
 UID: NS:imm.tagCOMPOSITIONFORM
 title: COMPOSITIONFORM (imm.h)
-description: Contains style and position information for a composition window.
+description: The COMPOSITIONFORM (imm.h) structure contains style and position information for a composition window.
 helpviewer_keywords: ["*LPCOMPOSITIONFORM","*NPCOMPOSITIONFORM","*PCOMPOSITIONFORM","COMPOSITIONFORM","COMPOSITIONFORM structure [Internationalization for Windows Applications]","PCOMPOSITIONFORM","PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications]","_win32_COMPOSITIONFORM_str","imm/COMPOSITIONFORM","imm/PCOMPOSITIONFORM","intl.compositionform","tagCOMPOSITIONFORM"]
 old-location: intl\compositionform.htm
 tech.root: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM'
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -87,7 +87,7 @@ Position style. This member can be one of the following values:
 
 ### -field ptCurrentPos
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
 
 ### -field rcArea
 

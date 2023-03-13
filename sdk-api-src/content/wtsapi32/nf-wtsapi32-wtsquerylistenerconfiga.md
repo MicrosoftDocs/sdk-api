@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSQueryListenerConfigA
 title: WTSQueryListenerConfigA function (wtsapi32.h)
-description: Retrieves configuration information for a Remote Desktop Services listener.
-helpviewer_keywords: ["WTSQueryListenerConfig","WTSQueryListenerConfig function [Remote Desktop Services]","WTSQueryListenerConfigA","WTSQueryListenerConfigW","termserv.wtsquerylistenerconfig","wtsapi32/WTSQueryListenerConfig","wtsapi32/WTSQueryListenerConfigA","wtsapi32/WTSQueryListenerConfigW"]
+description: Retrieves configuration information for a Remote Desktop Services listener. (ANSI)
+helpviewer_keywords: ["WTSQueryListenerConfigA", "wtsapi32/WTSQueryListenerConfigA"]
 old-location: termserv\wtsquerylistenerconfig.htm
 tech.root: TermServ
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62

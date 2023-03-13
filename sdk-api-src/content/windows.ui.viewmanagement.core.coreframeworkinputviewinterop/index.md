@@ -3,7 +3,7 @@ UID: NA:windows.ui.viewmanagement.core.coreframeworkinputviewinterop
 title: windows.ui.viewmanagement.core.coreframeworkinputviewinterop.h header
 ms.date: 04/16/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - windows.ui.viewmanagement.core.coreframeworkinputviewinterop

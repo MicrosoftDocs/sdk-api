@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Triggers
 title: ITaskDefinition::get_Triggers (taskschd.h)
-description: Gets or sets a collection of triggers used to start a task.
+description: Gets or sets a collection of triggers used to start a task. (Get)
 helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","Triggers property","ITaskDefinition.Triggers","ITaskDefinition.get_Triggers","ITaskDefinition::Triggers","ITaskDefinition::get_Triggers","ITaskDefinition::put_Triggers","Triggers property [Task Scheduler]","Triggers property [Task Scheduler]","ITaskDefinition interface","get_Triggers","taskschd.itaskdefinition_triggers","taskschd/ITaskDefinition::Triggers","taskschd/ITaskDefinition::get_Triggers","taskschd/ITaskDefinition::put_Triggers"]
 old-location: taskschd\itaskdefinition_triggers.htm
 tech.root: taskschd

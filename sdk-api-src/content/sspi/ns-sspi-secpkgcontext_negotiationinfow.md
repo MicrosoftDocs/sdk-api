@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_NegotiationInfoW
 title: SecPkgContext_NegotiationInfoW (sspi.h)
-description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
+description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package. (Unicode)
 helpviewer_keywords: ["*PSecPkgContext_NegotiationInfoW","PSecPkgContext_NegotiationInfo","PSecPkgContext_NegotiationInfo structure pointer [Security]","SECPKG_NEGOTIATION_COMPLETE","SECPKG_NEGOTIATION_IN_PROGRESS","SECPKG_NEGOTIATION_OPTIMISTIC","SecPkgContext_NegotiationInfo","SecPkgContext_NegotiationInfo structure [Security]","SecPkgContext_NegotiationInfoA","SecPkgContext_NegotiationInfoW","_ssp_secpkgcontext_negotiationinfo","security.secpkgcontext_negotiationinfo","sspi/PSecPkgContext_NegotiationInfo","sspi/SecPkgContext_NegotiationInfo","sspi/SecPkgContext_NegotiationInfoA","sspi/SecPkgContext_NegotiationInfoW"]
 old-location: security\secpkgcontext_negotiationinfo.htm
 tech.root: security

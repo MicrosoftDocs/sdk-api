@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.ITACDGroup.get_Name
 title: ITACDGroup::get_Name (tapi3cc.h)
-description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
+description: The ITACDGroup::get_Name method (tapi3cc.h) gets the ACD group name. This string can be a displayable name for the group.
 helpviewer_keywords: ["ITACDGroup interface [TAPI 2.2]","get_Name method","ITACDGroup.get_Name","ITACDGroup::get_Name","_tapi3_itacdgroup_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITACDGroup interface","tapi3.itacdgroup_get_name","tapi3cc/ITACDGroup::get_Name"]
 old-location: tapi3\itacdgroup_get_name.htm
 tech.root: tapi3
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

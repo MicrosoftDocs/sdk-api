@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqNextA
 title: RpcMgmtEpEltInqNextA function (rpcdce.h)
-description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
-helpviewer_keywords: ["RpcMgmtEpEltInqNext","RpcMgmtEpEltInqNext function [RPC]","RpcMgmtEpEltInqNextA","RpcMgmtEpEltInqNextW","_rpc_rpcmgmtepeltinqnext","rpc.rpcmgmtepeltinqnext","rpcdce/RpcMgmtEpEltInqNext","rpcdce/RpcMgmtEpEltInqNextA","rpcdce/RpcMgmtEpEltInqNextW"]
+description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map. (RpcMgmtEpEltInqNextA)
+helpviewer_keywords: ["RpcMgmtEpEltInqNextA", "rpcdce/RpcMgmtEpEltInqNextA"]
 old-location: rpc\rpcmgmtepeltinqnext.htm
 tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagAXISINFOW
 title: AXISINFOW (wingdi.h)
-description: The AXISINFO structure contains information about an axis of a multiple master font.
+description: The AXISINFO structure contains information about an axis of a multiple master font. (Unicode)
 helpviewer_keywords: ["*LPAXISINFOW","*PAXISINFOW","AXISINFO","AXISINFO structure [Windows GDI]","AXISINFOA","AXISINFOW","PAXISINFO","PAXISINFO structure pointer [Windows GDI]","_win32_AXISINFO_str","gdi.axisinfo","wingdi/AXISINFO","wingdi/AXISINFOA","wingdi/AXISINFOW","wingdi/PAXISINFO"]
 old-location: gdi\axisinfo.htm
 tech.root: gdi

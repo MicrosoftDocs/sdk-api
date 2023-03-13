@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetConnectedInitiators
 title: IVdsIscsiTarget::GetConnectedInitiators (vds.h)
-description: Returns the list of iSCSI names of the initiators currently logged into the target.
+description: The IVdsIscsiTarget::GetConnectedInitiators method (vds.h) returns the list of iSCSI names of the initiators currently logged into the target.
 helpviewer_keywords: ["GetConnectedInitiators","GetConnectedInitiators method [VDS]","GetConnectedInitiators method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetConnectedInitiators method","IVdsIscsiTarget.GetConnectedInitiators","IVdsIscsiTarget::GetConnectedInitiators","base.ivdsiscsitarget_getconnectedinitiators","vds/IVdsIscsiTarget::GetConnectedInitiators","vdshwprv/IVdsIscsiTarget::GetConnectedInitiators"]
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm
 tech.root: base
 ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetConnectedInitiators, GetConnectedInitiators method [VDS], GetConnectedInitiators method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetConnectedInitiators method, IVdsIscsiTarget.GetConnectedInitiators, IVdsIscsiTarget::GetConnectedInitiators, base.ivdsiscsitarget_getconnectedinitiators, vds/IVdsIscsiTarget::GetConnectedInitiators, vdshwprv/IVdsIscsiTarget::GetConnectedInitiators
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the list of iSCSI names of the initiators currently logged into the 
    target.

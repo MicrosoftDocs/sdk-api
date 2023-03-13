@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DTexture9.GetSurfaceLevel
 title: IDirect3DTexture9::GetSurfaceLevel (d3d9.h)
-description: Retrieves the specified texture surface level.
+description: The IDirect3DTexture9::GetSurfaceLevel (d3d9.h) method retrieves the specified texture surface level.
 helpviewer_keywords: ["GetSurfaceLevel","GetSurfaceLevel method [Direct3D 9]","GetSurfaceLevel method [Direct3D 9]","IDirect3DTexture9 interface","IDirect3DTexture9 interface [Direct3D 9]","GetSurfaceLevel method","IDirect3DTexture9.GetSurfaceLevel","IDirect3DTexture9::GetSurfaceLevel","ba29c84a-8d60-aa0a-9eae-f64e0534c051","d3d9helper/IDirect3DTexture9::GetSurfaceLevel","direct3d9.idirect3dtexture9__getsurfacelevel"]
 old-location: direct3d9\idirect3dtexture9__getsurfacelevel.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getsurfacelevel.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetSurfaceLevel, GetSurfaceLevel method [Direct3D 9], GetSurfaceLevel method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetSurfaceLevel method, IDirect3DTexture9.GetSurfaceLevel, IDirect3DTexture9::GetSurfaceLevel, ba29c84a-8d60-aa0a-9eae-f64e0534c051, d3d9helper/IDirect3DTexture9::GetSurfaceLevel, direct3d9.idirect3dtexture9__getsurfacelevel
 req.header: d3d9.h
 req.include-header: D3D9.h

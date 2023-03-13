@@ -1,5 +1,5 @@
 ---
-UID: NE:winuser.__unnamed_enum_0
+UID: NE:winuser.POINTER_FEEDBACK_MODE
 title: POINTER_FEEDBACK_MODE (winuser.h)
 description: Identifies the visual feedback behaviors available to CreateSyntheticPointerDevice.
 helpviewer_keywords: ["POINTER_FEEDBACK_DEFAULT","POINTER_FEEDBACK_INDIRECT","POINTER_FEEDBACK_MODE","POINTER_FEEDBACK_MODE enumeration","POINTER_FEEDBACK_NONE","input_pointerdevice.pointer_feedback_mode","winuser/POINTER_FEEDBACK_DEFAULT","winuser/POINTER_FEEDBACK_INDIRECT","winuser/POINTER_FEEDBACK_MODE","winuser/POINTER_FEEDBACK_NONE"]
@@ -54,15 +54,15 @@ Identifies the visual feedback behaviors available to <a href="../winuser/nf-win
 
 ## -enum-fields
 
-### -field POINTER_FEEDBACK_DEFAULT
+### -field POINTER_FEEDBACK_DEFAULT:1
 
 Visual feedback might be suppressed by the user's pen (Settings -&gt; Devices -&gt; Pen &amp; Windows Ink) and touch (Settings -&gt; Ease of Access -&gt; Cursor &amp; pointer size) settings.
 
-### -field POINTER_FEEDBACK_INDIRECT
+### -field POINTER_FEEDBACK_INDIRECT:2
 
 Visual feedback overrides the user's pen and touch settings.
 
-### -field POINTER_FEEDBACK_NONE
+### -field POINTER_FEEDBACK_NONE:3
 
 Visual feedback is disabled.
 

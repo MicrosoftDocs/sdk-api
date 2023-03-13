@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.IsDisabled
 title: IMFPluginControl::IsDisabled (mfobjects.h)
-description: Queries whether a class identifier (CLSID) appears in the blocked list.
+description: Queries whether a class identifier (CLSID) appears in the blocked list. (IMFPluginControl.IsDisabled)
 helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","IsDisabled method","IMFPluginControl.IsDisabled","IMFPluginControl::IsDisabled","IsDisabled","IsDisabled method [Media Foundation]","IsDisabled method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__isdisabled","mfobjects/IMFPluginControl::IsDisabled"]
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
 tech.root: mf

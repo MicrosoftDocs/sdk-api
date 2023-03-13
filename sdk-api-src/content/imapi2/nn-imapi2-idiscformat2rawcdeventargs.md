@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IDiscFormat2RawCDEventArgs
 title: IDiscFormat2RawCDEventArgs (imapi2.h)
-description: Use this interface to retrieve information about the current write operation.
+description: Use this interface to retrieve information about the current write operation. (IDiscFormat2RawCDEventArgs)
 helpviewer_keywords: ["IDiscFormat2RawCDEventArgs","IDiscFormat2RawCDEventArgs interface [IMAPI]","IDiscFormat2RawCDEventArgs interface [IMAPI]","described","imapi.idiscformat2rawcdeventargs","imapi2/IDiscFormat2RawCDEventArgs"]
 old-location: imapi\idiscformat2rawcdeventargs.htm
 tech.root: imapi

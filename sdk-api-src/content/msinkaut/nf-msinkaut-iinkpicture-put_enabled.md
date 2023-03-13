@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Enabled
 title: IInkPicture::put_Enabled (msinkaut.h)
-description: Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.
+description: Gets or sets a value that determines whether the InkPicture control can respond to user-generated events. (Put)
 helpviewer_keywords: ["1c6e9fb4-be51-4d68-8241-17119deeba3f","Enabled property [Tablet PC]","Enabled property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","Enabled property","IInkPicture.Enabled","IInkPicture.put_Enabled","IInkPicture::Enabled","IInkPicture::get_Enabled","IInkPicture::put_Enabled","InkPicture.get_Enabled","InkPicture.put_Enabled","msinkaut/IInkPicture::Enabled","msinkaut/IInkPicture::get_Enabled","msinkaut/IInkPicture::put_Enabled","put_Enabled","tablet.inkpicture_enabled"]
 old-location: tablet\inkpicture_enabled.htm
 tech.root: tablet

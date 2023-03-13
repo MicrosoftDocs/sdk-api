@@ -54,15 +54,15 @@ Indicates whether an object intersects a plane.
 
 ## -enum-fields
 
-### -field FRONT
+### -field FRONT:0
 
 The object is in front of the plane.
 
-### -field INTERSECTING
+### -field INTERSECTING:1
 
 The object intersects the plane.
 
-### -field BACK
+### -field BACK:2
 
 The object is behind the plane.
 

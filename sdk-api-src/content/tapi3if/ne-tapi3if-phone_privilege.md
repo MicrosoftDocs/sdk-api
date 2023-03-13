@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field PP_OWNER
+### -field PP_OWNER:0
 
 The application has owner privileges for the current phone session.
 

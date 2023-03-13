@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_ResourceURI
 title: IWSManResourceLocator::put_ResourceURI (wsmandisp.h)
-description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
+description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances. (Put)
 helpviewer_keywords: ["IWSManResourceLocator interface [Windows Remote Management]","ResourceURI property","IWSManResourceLocator.ResourceURI","IWSManResourceLocator.put_ResourceURI","IWSManResourceLocator::ResourceURI","IWSManResourceLocator::get_ResourceURI","IWSManResourceLocator::put_ResourceURI","ResourceURI property [Windows Remote Management]","ResourceURI property [Windows Remote Management]","IWSManResourceLocator interface","ResourceURI property [Windows Remote Management]","WSMan object","WSMan object [Windows Remote Management]","ResourceURI property","put_ResourceURI","winrm.iwsmanresourcelocator_resourceuri","wsmandisp/IWSManResourceLocator::ResourceURI","wsmandisp/IWSManResourceLocator::get_ResourceURI","wsmandisp/IWSManResourceLocator::put_ResourceURI"]
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm
 tech.root: winrm

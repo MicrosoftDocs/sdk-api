@@ -54,7 +54,7 @@ The <b>WMPPlayState</b> enumeration type defines the possible operational states
 
 ## -enum-fields
 
-### -field wmppsUndefined
+### -field wmppsUndefined:0
 
 Windows Media Player is in an undefined state.
 

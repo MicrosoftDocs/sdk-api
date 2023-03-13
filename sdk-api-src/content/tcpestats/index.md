@@ -4,7 +4,7 @@ title: Tcpestats.h header
 ms.assetid: da21a657-109b-36e4-acc9-a116cf6065eb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: iphlp
 f1_keywords:
  - tcpestats

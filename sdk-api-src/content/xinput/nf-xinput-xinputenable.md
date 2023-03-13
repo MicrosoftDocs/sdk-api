@@ -71,6 +71,9 @@ In a controller that supports vibration effects:
 <li>Passing <b>FALSE</b> will stop any vibration effects currently playing. In this state, calls to <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> will be registered, but not passed to the device.</li>
 <li>Passing <b>TRUE</b> will pass the last vibration request (even if it is 0) sent to <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> to the device.</li>
 </ul>
+
+**Windows 10 or later:** *Deprecated*, as game controller input is automatically enabled/disabled by the system based on the application window focus.
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsListDomainsInSiteW
 title: DsListDomainsInSiteW function (ntdsapi.h)
-description: Lists all the domains in a site.
-helpviewer_keywords: ["DsListDomainsInSite","DsListDomainsInSite function [Active Directory]","DsListDomainsInSiteA","DsListDomainsInSiteW","_glines_dslistdomainsinsite","ad.dslistdomainsinsite","ntdsapi/DsListDomainsInSite","ntdsapi/DsListDomainsInSiteA","ntdsapi/DsListDomainsInSiteW"]
+description: Lists all the domains in a site. (Unicode)
+helpviewer_keywords: ["DsListDomainsInSite", "DsListDomainsInSite function [Active Directory]", "DsListDomainsInSiteW", "_glines_dslistdomainsinsite", "ad.dslistdomainsinsite", "ntdsapi/DsListDomainsInSite", "ntdsapi/DsListDomainsInSiteW"]
 old-location: ad\dslistdomainsinsite.htm
 tech.root: ad
 ms.assetid: 3a039c0c-ac5b-4455-960d-b26a207693ed

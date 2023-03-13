@@ -56,19 +56,19 @@ Contains option flags for <a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofc
 
 ## -enum-fields
 
-### -field WBEM_FLAG_CHECK_ONLY
+### -field WBEM_FLAG_CHECK_ONLY:0x1
 
-### -field WBEM_FLAG_AUTORECOVER
+### -field WBEM_FLAG_AUTORECOVER:0x2
 
-### -field WBEM_FLAG_WMI_CHECK
+### -field WBEM_FLAG_WMI_CHECK:0x4
 
-### -field WBEM_FLAG_CONSOLE_PRINT
+### -field WBEM_FLAG_CONSOLE_PRINT:0x8
 
-### -field WBEM_FLAG_DONT_ADD_TO_LIST
+### -field WBEM_FLAG_DONT_ADD_TO_LIST:0x10
 
-### -field WBEM_FLAG_SPLIT_FILES
+### -field WBEM_FLAG_SPLIT_FILES:0x20
 
-### -field WBEM_FLAG_STORE_FILE
+### -field WBEM_FLAG_STORE_FILE:0x100
 
 ## -see-also
 

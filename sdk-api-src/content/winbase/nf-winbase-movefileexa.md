@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.MoveFileExA
 title: MoveFileExA function (winbase.h)
-description: Moves an existing file or directory, including its children, with various move options.
+description: Moves an existing file or directory, including its children, with various move options. (ANSI)
 old-location: fs\movefileex.htm
 tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3

@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegEnumKeyExW
 title: RegEnumKeyExW function (winreg.h)
-description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
-helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
+description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called. (Unicode)
+helpviewer_keywords: ["RegEnumKeyEx", "RegEnumKeyEx function", "RegEnumKeyExW", "_win32_regenumkeyex", "base.regenumkeyex", "winreg/RegEnumKeyEx", "winreg/RegEnumKeyExW"]
 old-location: base\regenumkeyex.htm
 tech.root: winprog
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c

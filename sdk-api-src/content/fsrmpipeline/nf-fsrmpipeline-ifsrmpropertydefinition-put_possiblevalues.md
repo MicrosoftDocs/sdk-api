@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_PossibleValues
 title: IFsrmPropertyDefinition::put_PossibleValues (fsrmpipeline.h)
-description: The possible values to which the property can be set.
+description: The possible values to which the property can be set. (Put)
 helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","PossibleValues property","IFsrmPropertyDefinition.PossibleValues","IFsrmPropertyDefinition.put_PossibleValues","IFsrmPropertyDefinition::PossibleValues","IFsrmPropertyDefinition::get_PossibleValues","IFsrmPropertyDefinition::put_PossibleValues","PossibleValues property [File Server Resource Manager]","PossibleValues property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_possiblevalues","fsrm.ifsrmpropertydefinition_possiblevalues","fsrmpipeline/IFsrmPropertyDefinition::PossibleValues","fsrmpipeline/IFsrmPropertyDefinition::get_PossibleValues","fsrmpipeline/IFsrmPropertyDefinition::put_PossibleValues","put_PossibleValues"]
 old-location: fsrm\ifsrmpropertydefinition_possiblevalues.htm
 tech.root: fsrm

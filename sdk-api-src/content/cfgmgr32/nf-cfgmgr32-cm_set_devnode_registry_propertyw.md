@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Registry_PropertyW
 title: CM_Set_DevNode_Registry_PropertyW function (cfgmgr32.h)
-description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry.
-helpviewer_keywords: ["CM_Set_DevNode_Registry_Property","CM_Set_DevNode_Registry_Property function [Device and Driver Installation]","CM_Set_DevNode_Registry_PropertyW","cfgmgr32/CM_Set_DevNode_Registry_Property","cfgmgr32/CM_Set_DevNode_Registry_PropertyW","cfgmgrfn_7ad90f32-c153-4ba1-b2bf-c5f86da160ff.xml","devinst.cm_set_devnode_registry_property"]
+description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry. (Unicode)
+helpviewer_keywords: ["CM_Set_DevNode_Registry_Property", "CM_Set_DevNode_Registry_Property function [Device and Driver Installation]", "CM_Set_DevNode_Registry_PropertyW", "cfgmgr32/CM_Set_DevNode_Registry_Property", "cfgmgr32/CM_Set_DevNode_Registry_PropertyW", "cfgmgrfn_7ad90f32-c153-4ba1-b2bf-c5f86da160ff.xml", "devinst.cm_set_devnode_registry_property"]
 old-location: devinst\cm_set_devnode_registry_property.htm
 tech.root: devinst
 ms.assetid: 0f1b6883-c232-4f51-8f5c-5e9c00708727

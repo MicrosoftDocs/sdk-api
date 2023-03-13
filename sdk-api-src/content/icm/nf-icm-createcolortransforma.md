@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateColorTransformA
 title: CreateColorTransformA
-description: Creates a color transform that applications can use to perform color management.
+description: Creates a color transform that applications can use to perform color management. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -49,7 +49,7 @@ Creates a color transform that applications can use to perform color management.
 
 ### -param pLogColorSpace
 
-Pointer to the input [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea).
+Pointer to the input [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea).
 
 ### -param hDestProfile
 

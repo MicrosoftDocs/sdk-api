@@ -352,7 +352,7 @@ Note, however, that WinHTTP does not synchronize <b>WinHttpSetStatusCallback</b>
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-#### Examples
+## Examples
 
 The following example shows how to install a callback function for asynchronous WinHTTP functions.  The example assumes that a 
 <a href="/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> function named "AsyncCallback( )" has been previously implemented:

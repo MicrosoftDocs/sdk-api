@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWNDCLASSEXA
 title: WNDCLASSEXA (winuser.h)
-description: Contains window class information.
+description: Contains window class information. (ANSI)
 helpviewer_keywords: ["*LPWNDCLASSEXA","*NPWNDCLASSEXA","*PWNDCLASSEXA","PWNDCLASSEX","PWNDCLASSEX structure pointer [Windows and Messages]","WNDCLASSEX","WNDCLASSEX structure [Windows and Messages]","WNDCLASSEXA","WNDCLASSEXW","_win32_WNDCLASSEX_str","_win32_wndclassex_str_cpp","winmsg.wndclassex","winui._win32_wndclassex_str","winuser/PWNDCLASSEX","winuser/WNDCLASSEX","winuser/WNDCLASSEXA","winuser/WNDCLASSEXW"]
 old-location: winmsg\wndclassex.htm
 tech.root: winmsg

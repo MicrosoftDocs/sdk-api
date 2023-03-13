@@ -56,15 +56,15 @@ The <b>WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE</b> enumeration defines values
 
 ## -enum-fields
 
-### -field WCN_VALUE_SS_RESERVED00
+### -field WCN_VALUE_SS_RESERVED00:0
 
 This value is reserved.
 
-### -field WCN_VALUE_SS_NOT_CONFIGURED
+### -field WCN_VALUE_SS_NOT_CONFIGURED:0x1
 
 The device is not configured.
 
-### -field WCN_VALUE_SS_CONFIGURED
+### -field WCN_VALUE_SS_CONFIGURED:0x2
 
 The device is configured.
 

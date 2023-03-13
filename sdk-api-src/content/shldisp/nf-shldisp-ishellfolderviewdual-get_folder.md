@@ -56,7 +56,7 @@ Gets the Folder object that represents the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="/windows/desktop/api/shldisp/nn-shldisp-folder">Folder</a>**</b>
+Type: <b><a href="/windows/win32/shell/folder">Folder</a>**</b>
 
 The folder object.
 

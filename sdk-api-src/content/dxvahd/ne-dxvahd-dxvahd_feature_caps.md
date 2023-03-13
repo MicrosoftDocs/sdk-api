@@ -56,19 +56,19 @@ Defines features that a Microsoft DirectX Video Acceleration High Definition (DX
 
 ## -enum-fields
 
-### -field DXVAHD_FEATURE_CAPS_ALPHA_FILL
+### -field DXVAHD_FEATURE_CAPS_ALPHA_FILL:0x1
 
 The device can set the alpha values on the video output. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>.
 
-### -field DXVAHD_FEATURE_CAPS_CONSTRICTION
+### -field DXVAHD_FEATURE_CAPS_CONSTRICTION:0x2
 
 The device can downsample the video output. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a>.
 
-### -field DXVAHD_FEATURE_CAPS_LUMA_KEY
+### -field DXVAHD_FEATURE_CAPS_LUMA_KEY:0x4
 
 The device can perform luma keying. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_luma_key_data">DXVAHD_STREAM_STATE_LUMA_KEY_DATA</a>.
 
-### -field DXVAHD_FEATURE_CAPS_ALPHA_PALETTE
+### -field DXVAHD_FEATURE_CAPS_ALPHA_PALETTE:0x8
 
 The device can apply alpha values from color palette entries. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_alpha_data">DXVAHD_STREAM_STATE_ALPHA_DATA</a>.
 

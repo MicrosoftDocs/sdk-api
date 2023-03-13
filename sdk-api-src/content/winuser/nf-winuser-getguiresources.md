@@ -59,11 +59,13 @@ Retrieves the count of handles to graphical user interface (GUI) objects in use 
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must refer to a process in the current session, and must have the **PROCESS_QUERY_INFORMATION** access right (see [Process security and access rights](/windows/win32/procthread/process-security-and-access-rights)).
+A handle to the process. The handle must refer to a process in the current session, and must have the **PROCESS_QUERY_LIMITED_INFORMATION** access right (see [Process security and access rights](/windows/win32/procthread/process-security-and-access-rights)).
 
 If this parameter is the special value **GR_GLOBAL**, then the resource usage is reported across all processes in the current session.
 
 **Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP:** The **GR_GLOBAL** value is not supported until Windows 7 and Windows Server 2008 R2.
+
+**Windows Server 2003 and Windows XP:** The handle must have the **PROCESS_QUERY_INFORMATION** access right.
 
 ### -param uiFlags [in]
 

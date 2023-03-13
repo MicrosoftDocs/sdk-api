@@ -1,7 +1,7 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.TRefPointerCollection(constTRefPointerCollection&)
 title: TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &) (refptrco.h)
-description: This constructor initializes a new TRefPointerCollection object.
+description: This constructor initializes a new TRefPointerCollection object. (overload 1/2)
 helpviewer_keywords: ["TRefPointerCollection","TRefPointerCollection interface [Windows Management Instrumentation]","TRefPointerCollection method","TRefPointerCollection method [Windows Management Instrumentation]","TRefPointerCollection method [Windows Management Instrumentation]","TRefPointerCollection interface","TRefPointerCollection.TRefPointerCollection","TRefPointerCollection.TRefPointerCollection(const TRefPointerCollection &)","TRefPointerCollection::TRefPointerCollection","TRefPointerCollection::TRefPointerCollection(const TRefPointerCollection &)","_hmm_trefpointercollection_trefpointercollection","refptrco/TRefPointerCollection::TRefPointerCollection","wmi.trefpointercollection_trefpointercollection"]
 old-location: wmi\trefpointercollection_trefpointercollection.htm
 tech.root: wmi

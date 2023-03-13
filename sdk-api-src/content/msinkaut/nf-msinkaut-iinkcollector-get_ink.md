@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Ink
 title: IInkCollector::get_Ink (msinkaut.h)
-description: Gets or sets the InkDisp object that is associated with an InkCollector object or an InkOverlay object.
+description: Gets or sets the InkDisp object that is associated with an InkCollector object or an InkOverlay object. (IInkCollector.get_Ink)
 helpviewer_keywords: ["62881a0e-3932-49a1-8e7d-3e74474f2214","IInkCollector interface [Tablet PC]","Ink property","IInkCollector.Ink","IInkCollector.get_Ink","IInkCollector::Ink","IInkCollector::get_Ink","IInkCollector::putref_Ink","Ink property [Tablet PC]","Ink property [Tablet PC]","IInkCollector interface","InkCollector.get_Ink","get_Ink","msinkaut/IInkCollector::Ink","msinkaut/IInkCollector::get_Ink","msinkaut/IInkCollector::putref_Ink","putref_Ink","tablet.inkcollector_ink"]
 old-location: tablet\inkcollector_ink.htm
 tech.root: tablet

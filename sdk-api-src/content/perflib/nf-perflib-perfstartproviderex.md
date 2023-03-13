@@ -1,7 +1,7 @@
 ---
 UID: NF:perflib.PerfStartProviderEx
 title: PerfStartProviderEx function (perflib.h)
-description: Registers the provider.
+description: Registers the provider. (PerfStartProviderEx)
 helpviewer_keywords: ["PerfStartProviderEx","PerfStartProviderEx function [Perf]","perf.perfstartproviderex","perflib/PerfStartProviderEx"]
 old-location: perf\perfstartproviderex.htm
 tech.root: perf

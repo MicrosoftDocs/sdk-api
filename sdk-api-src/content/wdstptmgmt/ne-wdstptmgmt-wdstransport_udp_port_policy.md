@@ -58,11 +58,11 @@ Specifies which policy WDS transport services should use when allocating UDP por
 
 ## -enum-fields
 
-### -field WdsTptUdpPortPolicyDynamic
+### -field WdsTptUdpPortPolicyDynamic:0
 
 Use Windows Sockets (Winsock) to get a dynamic UDP port.
 
-### -field WdsTptUdpPortPolicyFixed
+### -field WdsTptUdpPortPolicyFixed:1
 
 Assign a fixed UDP port from a specified range of UDP ports.
 

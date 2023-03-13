@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateDataInterface
 title: ID3D10DeviceChild::SetPrivateDataInterface (d3d10.h)
-description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
+description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid. (ID3D10DeviceChild.SetPrivateDataInterface)
 helpviewer_keywords: ["ID3D10DeviceChild interface [Direct3D 10]","SetPrivateDataInterface method","ID3D10DeviceChild.SetPrivateDataInterface","ID3D10DeviceChild::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [Direct3D 10]","SetPrivateDataInterface method [Direct3D 10]","ID3D10DeviceChild interface","adb67004-d0c8-2bcc-dda9-a0dbc070dbda","d3d10/ID3D10DeviceChild::SetPrivateDataInterface","direct3d10.id3d10devicechild_setprivatedatainterface"]
 old-location: direct3d10\id3d10devicechild_setprivatedatainterface.htm
 tech.root: direct3d10

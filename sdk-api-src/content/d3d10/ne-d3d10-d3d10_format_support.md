@@ -54,104 +54,104 @@ Which resources are supported for a given format and given device (see <a href="
 
 ## -enum-fields
 
-### -field D3D10_FORMAT_SUPPORT_BUFFER
+### -field D3D10_FORMAT_SUPPORT_BUFFER:0x1
 
 Buffer resources supported.
 
-### -field D3D10_FORMAT_SUPPORT_IA_VERTEX_BUFFER
+### -field D3D10_FORMAT_SUPPORT_IA_VERTEX_BUFFER:0x2
 
 Vertex buffers supported.
 
-### -field D3D10_FORMAT_SUPPORT_IA_INDEX_BUFFER
+### -field D3D10_FORMAT_SUPPORT_IA_INDEX_BUFFER:0x4
 
 Index buffers supported.
 
-### -field D3D10_FORMAT_SUPPORT_SO_BUFFER
+### -field D3D10_FORMAT_SUPPORT_SO_BUFFER:0x8
 
 Streaming output buffers supported.
 
-### -field D3D10_FORMAT_SUPPORT_TEXTURE1D
+### -field D3D10_FORMAT_SUPPORT_TEXTURE1D:0x10
 
 1D texture resources supported.
 
-### -field D3D10_FORMAT_SUPPORT_TEXTURE2D
+### -field D3D10_FORMAT_SUPPORT_TEXTURE2D:0x20
 
 2D texture resources supported.
 
-### -field D3D10_FORMAT_SUPPORT_TEXTURE3D
+### -field D3D10_FORMAT_SUPPORT_TEXTURE3D:0x40
 
 3D texture resources supported.
 
-### -field D3D10_FORMAT_SUPPORT_TEXTURECUBE
+### -field D3D10_FORMAT_SUPPORT_TEXTURECUBE:0x80
 
 Cube texture resources supported.
 
-### -field D3D10_FORMAT_SUPPORT_SHADER_LOAD
+### -field D3D10_FORMAT_SUPPORT_SHADER_LOAD:0x100
 
 The intrinsic HLSL function <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> is supported.
 
-### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE
+### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE:0x200
 
 The intrinsic HLSL functions <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> supported.
 
-### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON
+### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON:0x400
 
 The intrinsic HLSL functions <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> 
         and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> are supported.
 
-### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT
+### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT:0x800
 
 Reserved.
 
-### -field D3D10_FORMAT_SUPPORT_MIP
+### -field D3D10_FORMAT_SUPPORT_MIP:0x1000
 
 Mipmaps are supported.
 
-### -field D3D10_FORMAT_SUPPORT_MIP_AUTOGEN
+### -field D3D10_FORMAT_SUPPORT_MIP_AUTOGEN:0x2000
 
 Automatic generation of mipmaps is supported.
 
-### -field D3D10_FORMAT_SUPPORT_RENDER_TARGET
+### -field D3D10_FORMAT_SUPPORT_RENDER_TARGET:0x4000
 
 Rendertargets are supported.
 
-### -field D3D10_FORMAT_SUPPORT_BLENDABLE
+### -field D3D10_FORMAT_SUPPORT_BLENDABLE:0x8000
 
 Render target blend operations supported.
 
-### -field D3D10_FORMAT_SUPPORT_DEPTH_STENCIL
+### -field D3D10_FORMAT_SUPPORT_DEPTH_STENCIL:0x10000
 
 Depth stencils supported.
 
-### -field D3D10_FORMAT_SUPPORT_CPU_LOCKABLE
+### -field D3D10_FORMAT_SUPPORT_CPU_LOCKABLE:0x20000
 
 CPU locking supported.
 
-### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_RESOLVE
+### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_RESOLVE:0x40000
 
 Multisampling resolution supported.
 
-### -field D3D10_FORMAT_SUPPORT_DISPLAY
+### -field D3D10_FORMAT_SUPPORT_DISPLAY:0x80000
 
 Format can be displayed on screen.
 
-### -field D3D10_FORMAT_SUPPORT_CAST_WITHIN_BIT_LAYOUT
+### -field D3D10_FORMAT_SUPPORT_CAST_WITHIN_BIT_LAYOUT:0x100000
 
 Format cannot be cast to another format.
 
-### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET
+### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_RENDERTARGET:0x200000
 
 Format can be used as a multisampled rendertarget.
 
-### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_LOAD
+### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_LOAD:0x400000
 
 Format can be used as a multisampled texture and read into a shader with the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> function.
 
-### -field D3D10_FORMAT_SUPPORT_SHADER_GATHER
+### -field D3D10_FORMAT_SUPPORT_SHADER_GATHER:0x800000
 
 Format can be used with the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-gather">gather</a> function. This value is available in DirectX 10.1 or higher.
 
-### -field D3D10_FORMAT_SUPPORT_BACK_BUFFER_CAST
+### -field D3D10_FORMAT_SUPPORT_BACK_BUFFER_CAST:0x1000000
 
 ## -see-also
 

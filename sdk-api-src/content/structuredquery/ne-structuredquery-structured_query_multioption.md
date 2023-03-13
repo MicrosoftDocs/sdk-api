@@ -56,7 +56,7 @@ A set of flags used by <a href="/windows/desktop/api/structuredquery/nf-structur
 
 ## -enum-fields
 
-### -field SQMO_VIRTUAL_PROPERTY
+### -field SQMO_VIRTUAL_PROPERTY:0
 
 To indicate that a leaf node with property name P and constant C should be replaced with a leaf node with property name Q, operation op, and constant C by <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">IConditionFactory::Resolve</a>, do the following: call <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">IQueryParser::SetMultiOption</a> with SQMO_VIRTUAL_PROPERTY as <i>option</i>, P as <i>pszOptionKey</i>, and for <i>pOptionValue</i> provide a <b>VT_UNKNOWN</b> with an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that enumerates exactly two values: a <b>VT_BSTR</b> with value Q, and a <b>VT_I4</b> that is a <a href="/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> operation.
 

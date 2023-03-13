@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMPhysicalPinInfo
 title: IAMPhysicalPinInfo (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IAMPhysicalPinInfo)
 helpviewer_keywords: ["IAMPhysicalPinInfo","IAMPhysicalPinInfo interface [DirectShow]","IAMPhysicalPinInfo interface [DirectShow]","described","IAMPhysicalPinInfoInterface","dshow.iamphysicalpininfo","strmif/IAMPhysicalPinInfo"]
 old-location: dshow\iamphysicalpininfo.htm
 tech.root: dshow

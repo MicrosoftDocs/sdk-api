@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetOpenEnumW
 title: WNetOpenEnumW function (winnetwk.h)
-description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.
-helpviewer_keywords: ["0","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_ALL","RESOURCEUSAGE_ATTACHED","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","RESOURCE_REMEMBERED","WNetOpenEnum","WNetOpenEnum function [Windows Networking (WNet)]","WNetOpenEnumA","WNetOpenEnumW","_win32_wnetopenenum","winnetwk/WNetOpenEnum","winnetwk/WNetOpenEnumA","winnetwk/WNetOpenEnumW","wnet.wnetopenenum"]
+description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function. (Unicode)
+helpviewer_keywords: ["0", "RESOURCETYPE_ANY", "RESOURCETYPE_DISK", "RESOURCETYPE_PRINT", "RESOURCEUSAGE_ALL", "RESOURCEUSAGE_ATTACHED", "RESOURCEUSAGE_CONNECTABLE", "RESOURCEUSAGE_CONTAINER", "RESOURCE_CONNECTED", "RESOURCE_CONTEXT", "RESOURCE_GLOBALNET", "RESOURCE_REMEMBERED", "WNetOpenEnum", "WNetOpenEnum function [Windows Networking (WNet)]", "WNetOpenEnumW", "_win32_wnetopenenum", "winnetwk/WNetOpenEnum", "winnetwk/WNetOpenEnumW", "wnet.wnetopenenum"]
 old-location: wnet\wnetopenenum.htm
 tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90
@@ -227,7 +227,7 @@ This parameter is ignored unless the <i>dwScope</i> parameter is equal to RESOUR
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
 
 
 
@@ -363,7 +363,7 @@ For a code sample that illustrates an application-defined function that enumerat
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a>
 
 
 

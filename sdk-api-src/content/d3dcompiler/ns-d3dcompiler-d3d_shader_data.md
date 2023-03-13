@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dcompiler._D3D_SHADER_DATA
 title: D3D_SHADER_DATA (d3dcompiler.h)
-description: Describes shader data.
+description: Describes shader data. (D3D_SHADER_DATA)
 helpviewer_keywords: ["D3D_SHADER_DATA","D3D_SHADER_DATA structure [HLSL]","_D3D_SHADER_DATA","d3dcompiler/D3D_SHADER_DATA","direct3dhlsl.d3d_shader_data"]
 old-location: direct3dhlsl\d3d_shader_data.htm
 tech.root: direct3dhlsl

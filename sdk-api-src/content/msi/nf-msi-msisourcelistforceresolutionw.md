@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionW
 title: MsiSourceListForceResolutionW function (msi.h)
-description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.
-helpviewer_keywords: ["MsiSourceListForceResolution","MsiSourceListForceResolution function","MsiSourceListForceResolutionA","MsiSourceListForceResolutionW","_msi_msisourcelistforceresolution","msi/MsiSourceListForceResolution","msi/MsiSourceListForceResolutionA","msi/MsiSourceListForceResolutionW","setup.msisourcelistforceresolution"]
+description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required. (Unicode)
+helpviewer_keywords: ["MsiSourceListForceResolution", "MsiSourceListForceResolution function", "MsiSourceListForceResolutionW", "_msi_msisourcelistforceresolution", "msi/MsiSourceListForceResolution", "msi/MsiSourceListForceResolutionW", "setup.msisourcelistforceresolution"]
 old-location: setup\msisourcelistforceresolution.htm
 tech.root: setup
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea

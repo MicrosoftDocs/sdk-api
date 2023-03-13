@@ -31,6 +31,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
 api_name:
  - GetMachineTypeAttributes
 f1_keywords:

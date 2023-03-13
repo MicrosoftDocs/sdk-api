@@ -51,15 +51,15 @@ Specifies whether the quantizer scale is linear or non-linear. This enumeration 
 
 ## -enum-fields
 
-### -field eAVEncMPVQScaleType_Auto
+### -field eAVEncMPVQScaleType_Auto:0
 
 The encoder selects the quantization scale.
 
-### -field eAVEncMPVQScaleType_Linear
+### -field eAVEncMPVQScaleType_Linear:1
 
 The quantization scale is linear.
 
-### -field eAVEncMPVQScaleType_NonLinear
+### -field eAVEncMPVQScaleType_NonLinear:2
 
 The quantization scale is non-linear.
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagPDW
 title: PRINTDLGW (commdlg.h)
-description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections.
+description: Contains information that the PrintDlg function uses to initialize the Print Dialog Box. After the user closes the dialog box, the system uses this structure to return information about the user's selections. (Unicode)
 helpviewer_keywords: ["*LPPRINTDLGW","LPPRINTDLG","LPPRINTDLG structure pointer [Dialog Boxes]","PD_ALLPAGES","PD_COLLATE","PD_DISABLEPRINTTOFILE","PD_ENABLEPRINTHOOK","PD_ENABLEPRINTTEMPLATE","PD_ENABLEPRINTTEMPLATEHANDLE","PD_ENABLESETUPHOOK","PD_ENABLESETUPTEMPLATE","PD_ENABLESETUPTEMPLATEHANDLE","PD_HIDEPRINTTOFILE","PD_NONETWORKBUTTON","PD_NOPAGENUMS","PD_NOSELECTION","PD_NOWARNING","PD_PAGENUMS","PD_PRINTSETUP","PD_PRINTTOFILE","PD_RETURNDC","PD_RETURNDEFAULT","PD_RETURNIC","PD_SELECTION","PD_SHOWHELP","PD_USEDEVMODECOPIES","PD_USEDEVMODECOPIESANDCOLLATE","PRINTDLG","PRINTDLG structure [Dialog Boxes]","PRINTDLGA","PRINTDLGW","_win32_PRINTDLG_str","_win32_printdlg_str_cpp","commdlg/LPPRINTDLG","commdlg/PRINTDLG","commdlg/PRINTDLGA","commdlg/PRINTDLGW","dlgbox.printdlg_str","tagPDA","tagPDW","winui._win32_printdlg_str"]
 old-location: dlgbox\printdlg_str.htm
 tech.root: dlgbox

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveInstallSectionFromDiskSpaceListW
 title: SetupRemoveInstallSectionFromDiskSpaceListW function (setupapi.h)
-description: The SetupRemoveInstallSectionFromDiskSpaceList function searches an Install section of an INF file for CopyFiles and DelFiles lines, and removes the file operations specified in those sections from a disk-space list.
-helpviewer_keywords: ["SetupRemoveInstallSectionFromDiskSpaceList","SetupRemoveInstallSectionFromDiskSpaceList function [Setup API]","SetupRemoveInstallSectionFromDiskSpaceListA","SetupRemoveInstallSectionFromDiskSpaceListW","_setupapi_setupremoveinstallsectionfromdiskspacelist","setup.setupremoveinstallsectionfromdiskspacelist","setupapi/SetupRemoveInstallSectionFromDiskSpaceList","setupapi/SetupRemoveInstallSectionFromDiskSpaceListA","setupapi/SetupRemoveInstallSectionFromDiskSpaceListW"]
+description: The SetupRemoveInstallSectionFromDiskSpaceList function searches an Install section of an INF file for CopyFiles and DelFiles lines, and removes the file operations specified in those sections from a disk-space list. (Unicode)
+helpviewer_keywords: ["SetupRemoveInstallSectionFromDiskSpaceList", "SetupRemoveInstallSectionFromDiskSpaceList function [Setup API]", "SetupRemoveInstallSectionFromDiskSpaceListW", "_setupapi_setupremoveinstallsectionfromdiskspacelist", "setup.setupremoveinstallsectionfromdiskspacelist", "setupapi/SetupRemoveInstallSectionFromDiskSpaceList", "setupapi/SetupRemoveInstallSectionFromDiskSpaceListW"]
 old-location: setup\setupremoveinstallsectionfromdiskspacelist.htm
 tech.root: setup
 ms.assetid: dd104c59-faee-4eb6-abbc-a4c13d766298

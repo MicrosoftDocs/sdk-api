@@ -56,23 +56,23 @@ The <b>WCN_VALUE_TYPE_ASSOCIATION_STATE</b> enumeration defines the possible ass
 
 ## -enum-fields
 
-### -field WCN_VALUE_AS_NOT_ASSOCIATED
+### -field WCN_VALUE_AS_NOT_ASSOCIATED:0
 
 The wireless station is not associated.
 
-### -field WCN_VALUE_AS_CONNECTION_SUCCESS
+### -field WCN_VALUE_AS_CONNECTION_SUCCESS:1
 
 The connection was successfully established.
 
-### -field WCN_VALUE_AS_CONFIGURATION_FAILURE
+### -field WCN_VALUE_AS_CONFIGURATION_FAILURE:2
 
 The wireless station is not properly configured.
 
-### -field WCN_VALUE_AS_ASSOCIATION_FAILURE
+### -field WCN_VALUE_AS_ASSOCIATION_FAILURE:3
 
 Association has failed.
 
-### -field WCN_VALUE_AS_IP_FAILURE
+### -field WCN_VALUE_AS_IP_FAILURE:4
 
  The specified IP address could not be connected to, and may be invalid.
 

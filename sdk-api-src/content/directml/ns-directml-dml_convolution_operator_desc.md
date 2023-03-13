@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_CONVOLUTION_OPERATOR_DESC","DML_CONVOLUTION_OPERATOR_
 old-location: direct3d12\dml_convolution_operator_desc.htm
 tech.root: directml
 ms.assetid: F504A454-2D0B-472D-BB45-EE5690A1160C
-ms.date: 10/29/2020
+ms.date: 11/30/2022
 ms.keywords: DML_CONVOLUTION_OPERATOR_DESC, DML_CONVOLUTION_OPERATOR_DESC structure, direct3d12.dml_convolution_operator_desc, directml/DML_CONVOLUTION_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -149,7 +149,7 @@ The number of groups which to divide the convolution operation up into. This can
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the convolution.
+An optional fused activation layer to apply after the convolution. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 ## Mode interactions
 
@@ -185,4 +185,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## -see-also
 
-[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

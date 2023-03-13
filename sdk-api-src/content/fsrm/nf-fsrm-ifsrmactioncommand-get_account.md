@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_Account
 title: IFsrmActionCommand::get_Account (fsrm.h)
-description: Retrieves or sets the system account that is used to run the executable program specified in the ExecutablePath property.
+description: Retrieves or sets the system account that is used to run the executable program specified in the ExecutablePath property. (Get)
 helpviewer_keywords: ["Account property [File Server Resource Manager]","Account property [File Server Resource Manager]","IFsrmActionCommand interface","IFsrmActionCommand interface [File Server Resource Manager]","Account property","IFsrmActionCommand.Account","IFsrmActionCommand.get_Account","IFsrmActionCommand::Account","IFsrmActionCommand::get_Account","IFsrmActionCommand::put_Account","fs.ifsrmactioncommand_account","fsrm.ifsrmactioncommand_account","fsrm/IFsrmActionCommand::Account","fsrm/IFsrmActionCommand::get_Account","fsrm/IFsrmActionCommand::put_Account","get_Account"]
 old-location: fsrm\ifsrmactioncommand_account.htm
 tech.root: fsrm

@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.InternetGetConnectedStateEx
 title: InternetGetConnectedStateEx function (winineti.h)
-description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the specified Internet connection.
+description: The InternetGetConnectedStateEx function (winineti.h) retrieves the connected state of the specified Internet connection.
 helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED","INTERNET_CONNECTION_LAN","INTERNET_CONNECTION_MODEM","INTERNET_CONNECTION_MODEM_BUSY","INTERNET_CONNECTION_OFFLINE","INTERNET_CONNECTION_PROXY","InternetGetConnectedStateEx","InternetGetConnectedStateEx function [WinINet]","InternetGetConnectedStateExA","InternetGetConnectedStateExW","_inet_internetgetconnectedstateex_function","wininet.internetgetconnectedstateex","winineti/InternetGetConnectedStateEx","winineti/InternetGetConnectedStateExA","winineti/InternetGetConnectedStateExW"]
 old-location: wininet\internetgetconnectedstateex.htm
 tech.root: wininet
 ms.assetid: 0b27b86d-6e55-4022-84ce-d4116d71f124
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, InternetGetConnectedStateEx, InternetGetConnectedStateEx function [WinINet], InternetGetConnectedStateExA, InternetGetConnectedStateExW, _inet_internetgetconnectedstateex_function, wininet.internetgetconnectedstateex, winineti/InternetGetConnectedStateEx, winineti/InternetGetConnectedStateExA, winineti/InternetGetConnectedStateExW
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h

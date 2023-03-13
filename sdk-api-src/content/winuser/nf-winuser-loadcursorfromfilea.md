@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadCursorFromFileA
 title: LoadCursorFromFileA function (winuser.h)
-description: Creates a cursor based on data contained in a file.
-helpviewer_keywords: ["LoadCursorFromFile","LoadCursorFromFile function [Menus and Other Resources]","LoadCursorFromFileA","LoadCursorFromFileW","_win32_LoadCursorFromFile","_win32_loadcursorfromfile_cpp","menurc.loadcursorfromfile","winui._win32_loadcursorfromfile","winuser/LoadCursorFromFile","winuser/LoadCursorFromFileA","winuser/LoadCursorFromFileW"]
+description: Creates a cursor based on data contained in a file. (ANSI)
+helpviewer_keywords: ["LoadCursorFromFileA", "winuser/LoadCursorFromFileA"]
 old-location: menurc\loadcursorfromfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursorfromfile.htm

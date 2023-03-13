@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.GetTag
 title: IUIAnimationStoryboard::GetTag (uianimation.h)
-description: Gets the tag for a storyboard.
+description: Gets the tag for a storyboard. (IUIAnimationStoryboard.GetTag)
 helpviewer_keywords: ["GetTag","GetTag method [Windows Animation]","GetTag method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","GetTag method","IUIAnimationStoryboard.GetTag","IUIAnimationStoryboard::GetTag","uianimation.iuianimationstoryboard_gettag","uianimation/IUIAnimationStoryboard::GetTag"]
 old-location: uianimation\iuianimationstoryboard_gettag.htm
 tech.root: UIAnimation

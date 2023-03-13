@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Name
 title: INetFwOpenPort::put_Name (netfw.h)
-description: Specifies the friendly name of this port.
+description: Specifies the friendly name of this port. (Put)
 helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Name property","INetFwOpenPort.Name","INetFwOpenPort.put_Name","INetFwOpenPort::Name","INetFwOpenPort::get_Name","INetFwOpenPort::put_Name","Name property [ICS/ICF]","Name property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_name","netfw/INetFwOpenPort::Name","netfw/INetFwOpenPort::get_Name","netfw/INetFwOpenPort::put_Name","put_Name"]
 old-location: ics\inetfwopenport_name.htm
 tech.root: ics

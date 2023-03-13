@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadImageW
 title: LoadImageW function (winuser.h)
-description: Loads an icon, cursor, animated cursor, or bitmap.
-helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
+description: Loads an icon, cursor, animated cursor, or bitmap. (Unicode)
+helpviewer_keywords: ["IMAGE_BITMAP", "IMAGE_CURSOR", "IMAGE_ICON", "LR_CREATEDIBSECTION", "LR_DEFAULTCOLOR", "LR_DEFAULTSIZE", "LR_LOADFROMFILE", "LR_LOADMAP3DCOLORS", "LR_LOADTRANSPARENT", "LR_MONOCHROME", "LR_SHARED", "LR_VGACOLOR", "LoadImage", "LoadImage function [Menus and Other Resources]", "LoadImageW", "_win32_LoadImage", "_win32_loadimage_cpp", "menurc.loadimage", "winui._win32_loadimage", "winuser/LoadImage", "winuser/LoadImageW"]
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm

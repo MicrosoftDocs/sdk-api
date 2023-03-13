@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Select
 title: ITextRangeProvider::Select (uiautomationcore.h)
-description: Selects the span of text that corresponds to this text range, and removes any previous selection.
+description: Selects the span of text that corresponds to this text range, and removes any previous selection. (ITextRangeProvider.Select)
 helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","Select method","ITextRangeProvider.Select","ITextRangeProvider::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_Select","uiauto_ITextRangeProvider_Select","uiautomationcore/ITextRangeProvider::Select","winauto.uiauto_ITextRangeProvider_Select"]
 old-location: winauto\uiauto_ITextRangeProvider_Select.htm
 tech.root: WinAuto

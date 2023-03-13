@@ -61,7 +61,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param pRect [out]
 
-Pointer to a <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
 
 ## -returns
 

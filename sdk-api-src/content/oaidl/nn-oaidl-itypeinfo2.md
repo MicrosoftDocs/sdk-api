@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeInfo2
 title: ITypeInfo2 (oaidl.h)
-description: Used for reading information about objects.
+description: Used for reading information about objects. (ITypeInfo2)
 helpviewer_keywords: ["ITypeInfo2","ITypeInfo2 interface [Automation]","ITypeInfo2 interface [Automation]","described","_oa96_ITypeInfo2_Interface","automat.itypeinfo2","oaidl/ITypeInfo2"]
 old-location: automat\itypeinfo2.htm
 tech.root: automat

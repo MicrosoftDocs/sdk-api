@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Count
 title: IUpdateExceptionCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IUpdateExceptionCollection.get_Count)
 helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateExceptionCollection interface","IUpdateExceptionCollection interface [Windows Update Agent]","Count property","IUpdateExceptionCollection.Count","IUpdateExceptionCollection.get_Count","IUpdateExceptionCollection::Count","IUpdateExceptionCollection::get_Count","get_Count","wua.iupdateexceptioncollection_count","wuapi/IUpdateExceptionCollection::Count","wuapi/IUpdateExceptionCollection::get_Count"]
 old-location: wua\iupdateexceptioncollection_count.htm
 tech.root: wua

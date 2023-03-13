@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlGetLocationW
 title: UrlGetLocationW function (shlwapi.h)
-description: Retrieves the location from a URL.
-helpviewer_keywords: ["UrlGetLocation","UrlGetLocation function [Windows Shell]","UrlGetLocationA","UrlGetLocationW","_win32_UrlGetLocation","shell.UrlGetLocation","shlwapi/UrlGetLocation","shlwapi/UrlGetLocationA","shlwapi/UrlGetLocationW"]
+description: Retrieves the location from a URL. (Unicode)
+helpviewer_keywords: ["UrlGetLocation", "UrlGetLocation function [Windows Shell]", "UrlGetLocationW", "_win32_UrlGetLocation", "shell.UrlGetLocation", "shlwapi/UrlGetLocation", "shlwapi/UrlGetLocationW"]
 old-location: shell\UrlGetLocation.htm
 tech.root: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c

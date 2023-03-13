@@ -1,7 +1,7 @@
 ---
 UID: NS:winineti._INTERNET_CACHE_CONFIG_INFOW
 title: INTERNET_CACHE_CONFIG_INFOW (winineti.h)
-description: Contains information about the configuration of the Internet cache.
+description: Contains information about the configuration of the Internet cache. (Unicode)
 helpviewer_keywords: ["*LPINTERNET_CACHE_CONFIG_INFOW","INTERNET_CACHE_CONFIG_INFO","INTERNET_CACHE_CONFIG_INFO structure [WinINet]","INTERNET_CACHE_CONFIG_INFOW","PINTERNET_CACHE_CONFIG_INFO","PINTERNET_CACHE_CONFIG_INFO structure pointer [WinINet]","wininet.internet_cache_config_info","winineti/INTERNET_CACHE_CONFIG_INFO","winineti/PINTERNET_CACHE_CONFIG_INFO"]
 old-location: wininet\internet_cache_config_info.htm
 tech.root: wininet

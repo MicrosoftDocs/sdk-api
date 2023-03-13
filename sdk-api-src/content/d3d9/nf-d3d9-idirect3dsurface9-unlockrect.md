@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.UnlockRect
 title: IDirect3DSurface9::UnlockRect (d3d9.h)
-description: Unlocks a rectangle on a surface.
+description: The IDirect3DSurface9::UnlockRect (d3d9.h) method unlocks a rectangle on a surface.
 helpviewer_keywords: ["IDirect3DSurface9 interface [Direct3D 9]","UnlockRect method","IDirect3DSurface9.UnlockRect","IDirect3DSurface9::UnlockRect","UnlockRect","UnlockRect method [Direct3D 9]","UnlockRect method [Direct3D 9]","IDirect3DSurface9 interface","d3d9helper/IDirect3DSurface9::UnlockRect","direct3d9.idirect3dsurface9__unlockrect","e6bd6fa0-ac07-76bd-8c15-84e5627e84a0"]
 old-location: direct3d9\idirect3dsurface9__unlockrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__unlockrect.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DSurface9 interface [Direct3D 9],UnlockRect method, IDirect3DSurface9.UnlockRect, IDirect3DSurface9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::UnlockRect, direct3d9.idirect3dsurface9__unlockrect, e6bd6fa0-ac07-76bd-8c15-84e5627e84a0
 req.header: d3d9.h
 req.include-header: D3D9.h

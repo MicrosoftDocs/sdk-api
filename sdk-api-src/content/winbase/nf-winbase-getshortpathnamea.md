@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetShortPathNameA
 title: GetShortPathNameA function (winbase.h)
-description: Retrieves the short path form of the specified path.
+description: Retrieves the short path form of the specified path. (GetShortPathNameA)
 helpviewer_keywords: ["GetShortPathName","GetShortPathName function [Files]","GetShortPathNameA","GetShortPathNameW","_win32_getshortpathname","base.getshortpathname","fileapi/GetShortPathName","fileapi/GetShortPathNameA","fileapi/GetShortPathNameW","fs.getshortpathname","winbase/GetShortPathName","winbase/GetShortPathNameA","winbase/GetShortPathNameW"]
 old-location: fs\getshortpathname.htm
 tech.root: fs

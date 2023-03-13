@@ -54,7 +54,7 @@ The <b>VMR_ASPECT_RATIO_MODE</b> enumeration type describes whether the <a href=
 
 ## -enum-fields
 
-### -field VMR_ARMODE_NONE
+### -field VMR_ARMODE_NONE:0
 
 Indicates that the VMR will not try to maintain the aspect ratio of the source video.
 

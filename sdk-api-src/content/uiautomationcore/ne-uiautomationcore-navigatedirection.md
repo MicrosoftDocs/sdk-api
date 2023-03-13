@@ -54,23 +54,23 @@ Contains values used to specify the direction of navigation within the Microsoft
 
 ## -enum-fields
 
-### -field NavigateDirection_Parent
+### -field NavigateDirection_Parent:0
 
 The navigation direction is to the parent.
 
-### -field NavigateDirection_NextSibling
+### -field NavigateDirection_NextSibling:1
 
 The navigation direction is to the next sibling.
 
-### -field NavigateDirection_PreviousSibling
+### -field NavigateDirection_PreviousSibling:2
 
 The navigation direction is to the previous sibling.
 
-### -field NavigateDirection_FirstChild
+### -field NavigateDirection_FirstChild:3
 
 The navigation direction is to the first child.
 
-### -field NavigateDirection_LastChild
+### -field NavigateDirection_LastChild:4
 
 The navigation direction is to the last child.
 

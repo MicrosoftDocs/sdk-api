@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwService.put_RemoteAddresses
 title: INetFwService::put_RemoteAddresses (netfw.h)
-description: Specifies a set of the remote addresses from which the service ports can listen for traffic.
+description: Specifies a set of the remote addresses from which the service ports can listen for traffic. (Put)
 helpviewer_keywords: ["INetFwService interface [ICS/ICF]","RemoteAddresses property","INetFwService.RemoteAddresses","INetFwService.put_RemoteAddresses","INetFwService::RemoteAddresses","INetFwService::get_RemoteAddresses","INetFwService::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwService interface","ics.inetfwservice_remoteaddresses","netfw/INetFwService::RemoteAddresses","netfw/INetFwService::get_RemoteAddresses","netfw/INetFwService::put_RemoteAddresses","put_RemoteAddresses"]
 old-location: ics\inetfwservice_remoteaddresses.htm
 tech.root: ics

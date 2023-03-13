@@ -54,27 +54,27 @@ Specifies the capabilities of the decoder.
 
 ## -enum-fields
 
-### -field WICBitmapDecoderCapabilitySameEncoder
+### -field WICBitmapDecoderCapabilitySameEncoder:0x1
 
 Decoder recognizes the image was encoded with an encoder produced by the same vendor.
 
-### -field WICBitmapDecoderCapabilityCanDecodeAllImages
+### -field WICBitmapDecoderCapabilityCanDecodeAllImages:0x2
 
 Decoder can decode all the images within an image container.
 
-### -field WICBitmapDecoderCapabilityCanDecodeSomeImages
+### -field WICBitmapDecoderCapabilityCanDecodeSomeImages:0x4
 
 Decoder can decode some of the images within an image container.
 
-### -field WICBitmapDecoderCapabilityCanEnumerateMetadata
+### -field WICBitmapDecoderCapabilityCanEnumerateMetadata:0x8
 
 Decoder can enumerate the metadata blocks within a container format.
 
-### -field WICBitmapDecoderCapabilityCanDecodeThumbnail
+### -field WICBitmapDecoderCapabilityCanDecodeThumbnail:0x10
 
 Decoder can find and decode a thumbnail.
 
-### -field WICBITMAPDECODERCAPABILITIES_FORCE_DWORD
+### -field WICBITMAPDECODERCAPABILITIES_FORCE_DWORD:0x7fffffff
 
 ## -see-also
 

@@ -4,7 +4,7 @@ title: Resourceindexer.h header
 ms.assetid: be80ad7f-a3cc-3bd5-8d3b-9e14d1fc9fc5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: menurc
 f1_keywords:
  - resourceindexer

@@ -1,7 +1,7 @@
 ---
 UID: NE:featurestagingapi.FEATURE_CHANGE_TIME
 title: FEATURE_CHANGE_TIME (featurestagingapi.h)
-description: This enumeration is intended for infrastructure use only.
+description: This enumeration is intended for infrastructure use only. (FEATURE_CHANGE_TIME)
 helpviewer_keywords: ["FEATURE_CHANGE_TIME","FEATURE_CHANGE_TIME enumeration [Windows API]","FEATURE_CHANGE_TIME_MODULE_RELOAD","FEATURE_CHANGE_TIME_READ","FEATURE_CHANGE_TIME_REBOOT","FEATURE_CHANGE_TIME_SESSION","FEATURE_CHANGE_TIME_USER_FLAG","featurestagingapi/FEATURE_CHANGE_TIME","featurestagingapi/FEATURE_CHANGE_TIME_MODULE_RELOAD","featurestagingapi/FEATURE_CHANGE_TIME_READ","featurestagingapi/FEATURE_CHANGE_TIME_REBOOT","featurestagingapi/FEATURE_CHANGE_TIME_SESSION","featurestagingapi/FEATURE_CHANGE_TIME_USER_FLAG","winprog.feature_change_time"]
 old-location: winprog\feature_change_time.htm
 tech.root: winprog
@@ -51,18 +51,18 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ## -enum-fields
 
-### -field FEATURE_CHANGE_TIME_READ
+### -field FEATURE_CHANGE_TIME_READ:0
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_MODULE_RELOAD
+### -field FEATURE_CHANGE_TIME_MODULE_RELOAD:1
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_SESSION
+### -field FEATURE_CHANGE_TIME_SESSION:2
 
 TBD
 
-### -field FEATURE_CHANGE_TIME_REBOOT
+### -field FEATURE_CHANGE_TIME_REBOOT:3
 
 TBD

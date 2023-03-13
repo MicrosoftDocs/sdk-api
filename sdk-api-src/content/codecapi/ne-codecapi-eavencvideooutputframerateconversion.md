@@ -54,15 +54,15 @@ Specifies whether the encoder converts the frame rate, if the output frame rate 
 
 ## -enum-fields
 
-### -field eAVEncVideoOutputFrameRateConversion_Disable
+### -field eAVEncVideoOutputFrameRateConversion_Disable:0
 
 Disable frame rate conversion.
 
-### -field eAVEncVideoOutputFrameRateConversion_Enable
+### -field eAVEncVideoOutputFrameRateConversion_Enable:1
 
 Enable frame rate conversion.
 
-### -field eAVEncVideoOutputFrameRateConversion_Alias
+### -field eAVEncVideoOutputFrameRateConversion_Alias:2
 
 Change the time stamps on the samples, but do not interpolate the time stamps.
 

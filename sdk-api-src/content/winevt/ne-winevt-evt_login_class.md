@@ -56,7 +56,7 @@ Defines the types of connection methods you can use to connect to the remote com
 
 ## -enum-fields
 
-### -field EvtRpcLogin
+### -field EvtRpcLogin:1
 
 Use Remote Procedure Call (RPC) login.
 

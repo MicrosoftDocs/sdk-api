@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OnlineClusterResourceEx
 title: OnlineClusterResourceEx function (clusapi.h)
-description: Brings an offline or failed resource online.
+description: Brings an offline or failed resource online. (OnlineClusterResourceEx)
 helpviewer_keywords: ["CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS","CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE","CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE","CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM","OnlineClusterResourceEx","OnlineClusterResourceEx function [Failover Cluster]","clusapi/OnlineClusterResourceEx","mscs.onlineclusterresourceex"]
 old-location: mscs\onlineclusterresourceex.htm
 tech.root: MsCS

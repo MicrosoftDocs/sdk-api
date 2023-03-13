@@ -56,7 +56,7 @@ The <b>IXDSCodec</b> interface is exposed by the <a href="/previous-versions/win
 
 The <b>IXDSCodec</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodec</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

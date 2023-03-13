@@ -54,7 +54,7 @@ Indicates one of several stock environment types.
 
 ## -enum-fields
 
-### -field Small
+### -field Small:0
 
 A small room.
 

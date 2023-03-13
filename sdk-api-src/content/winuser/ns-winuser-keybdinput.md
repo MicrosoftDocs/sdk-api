@@ -148,24 +148,7 @@ An additional value associated with the keystroke. Use the <a href="/windows/des
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-input">INPUT</a>
-
-
-
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
+- <a href="/windows/desktop/api/winuser/ns-winuser-input">INPUT</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

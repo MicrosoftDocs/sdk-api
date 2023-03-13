@@ -58,7 +58,7 @@ An <b>IWMSyncReader2</b> interface exists for every synchronous reader object. Y
 
 The <b>IWMSyncReader2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader</a>. <b>IWMSyncReader2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

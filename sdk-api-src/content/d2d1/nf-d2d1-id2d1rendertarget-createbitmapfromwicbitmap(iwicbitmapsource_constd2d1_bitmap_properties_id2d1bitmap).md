@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmapFromWicBitmap(IWICBitmapSource,constD2D1_BITMAP_PROPERTIES,ID2D1Bitmap)
 title: ID2D1RenderTarget::CreateBitmapFromWicBitmap (d2d1.h)
-description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
+description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap. (overload 4/4)
 helpviewer_keywords: ["CreateBitmapFromWicBitmap","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateBitmapFromWicBitmap method","ID2D1RenderTarget.CreateBitmapFromWicBitmap","ID2D1RenderTarget::CreateBitmapFromWicBitmap","ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource","const D2D1_BITMAP_PROPERTIES &","ID2D1Bitmap)","d2d1/ID2D1RenderTarget::CreateBitmapFromWicBitmap","direct2d.ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap"]
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap.htm
 tech.root: Direct2D

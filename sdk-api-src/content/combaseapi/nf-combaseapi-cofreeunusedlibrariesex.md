@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - ComBase.dll
+ - ole32.dll
  - API-MS-Win-Core-Com-l1-1-0.dll
  - API-MS-Win-Core-Com-l1-1-1.dll
  - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
@@ -48,9 +49,6 @@ api_location:
 api_name:
  - CoFreeUnusedLibrariesEx
 ---
-
-# CoFreeUnusedLibrariesEx function
-
 
 ## -description
 

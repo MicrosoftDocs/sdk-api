@@ -56,15 +56,15 @@ Indicate the activation policy of the object and are used in the <a href="/windo
 
 ## -enum-fields
 
-### -field POINTERINACTIVE_ACTIVATEONENTRY
+### -field POINTERINACTIVE_ACTIVATEONENTRY:1
 
 The object should be in-place activated when the mouse enters it during a mouse move operation.
 
-### -field POINTERINACTIVE_DEACTIVATEONLEAVE
+### -field POINTERINACTIVE_DEACTIVATEONLEAVE:2
 
 The object should be deactivated when the mouse leaves the object during a mouse move operation.
 
-### -field POINTERINACTIVE_ACTIVATEONDRAG
+### -field POINTERINACTIVE_ACTIVATEONDRAG:4
 
 The object should be in-place activated when the mouse is dragged over it during a drag and drop operation.
 

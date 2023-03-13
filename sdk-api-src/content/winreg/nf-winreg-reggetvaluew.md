@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegGetValueW
 title: RegGetValueW function (winreg.h)
-description: Retrieves the type and data for the specified registry value.
-helpviewer_keywords: ["RRF_NOEXPAND","RRF_RT_ANY","RRF_RT_DWORD","RRF_RT_QWORD","RRF_RT_REG_BINARY","RRF_RT_REG_DWORD","RRF_RT_REG_EXPAND_SZ","RRF_RT_REG_MULTI_SZ","RRF_RT_REG_NONE","RRF_RT_REG_QWORD","RRF_RT_REG_SZ","RRF_SUBKEY_WOW6432KEY","RRF_SUBKEY_WOW6464KEY","RRF_ZEROONFAILURE","RegGetValue","RegGetValue function","RegGetValueA","RegGetValueW","base.reggetvalue","winreg/RegGetValue","winreg/RegGetValueA","winreg/RegGetValueW"]
+description: Retrieves the type and data for the specified registry value. (Unicode)
+helpviewer_keywords: ["RRF_NOEXPAND", "RRF_RT_ANY", "RRF_RT_DWORD", "RRF_RT_QWORD", "RRF_RT_REG_BINARY", "RRF_RT_REG_DWORD", "RRF_RT_REG_EXPAND_SZ", "RRF_RT_REG_MULTI_SZ", "RRF_RT_REG_NONE", "RRF_RT_REG_QWORD", "RRF_RT_REG_SZ", "RRF_SUBKEY_WOW6432KEY", "RRF_SUBKEY_WOW6464KEY", "RRF_ZEROONFAILURE", "RegGetValue", "RegGetValue function", "RegGetValueW", "base.reggetvalue", "winreg/RegGetValue", "winreg/RegGetValueW"]
 old-location: base\reggetvalue.htm
 tech.root: winprog
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
@@ -140,7 +140,7 @@ Restrict type to 32-bit RRF_RT_REG_BINARY | RRF_RT_REG_DWORD.
 </dl>
 </td>
 <td width="60%">
-Restrict type to 64-bit RRF_RT_REG_BINARY | RRF_RT_REG_DWORD.
+Restrict type to 64-bit RRF_RT_REG_BINARY | RRF_RT_REG_QWORD.
 
 </td>
 </tr>
@@ -324,6 +324,8 @@ If the function fails, the return value is a
 <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 If the <i>pvData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
+
+If the lpValue registry value does not exist, the function returns ERROR_FILE_NOT_FOUND.
 
 If <i>dwFlags</i> specifies a combination of both <b>RRF_SUBKEY_WOW6464KEY</b> and  <b>RRF_SUBKEY_WOW6432KEY</b>, the function returns ERROR_INVALID_PARAMETER.
 

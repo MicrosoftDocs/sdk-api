@@ -1,7 +1,8 @@
 ---
 UID: NF:provider.Provider.~Provider
 title: Provider::~Provider
-ms.date: 4/26/2019
+description: The Provider::~Provider function is a destructor for the Provider class.
+ms.date: 08/08/2022
 ms.keywords: Provider::~Provider
 targetos: Windows
 req.assembly: 

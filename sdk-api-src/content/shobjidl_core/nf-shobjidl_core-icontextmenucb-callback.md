@@ -84,67 +84,67 @@ A notification from the Shell's default menu implementation. For example, the de
 <table class="clsStd">
 <tr>
 <td>
-<a href="/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
+<a href="/windows/win32/shell/dfm-mergecontextmenu">DFM_MERGECONTEXTMENU</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
+<a href="/windows/win32/shell/dfm-invokecommand">DFM_INVOKECOMMAND</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/miscellaneous-topics-bumper">DFM_GETHELPTEXT</a>
+<a href="/windows/win32/shell/dfm-gethelptext">DFM_GETHELPTEXT</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/navigating-the-shell-namespace-bumper">DFM_GETHELPTEXTW</a>
+<a href="/windows/win32/shell/dfm-gethelptextw">DFM_GETHELPTEXTW</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/dfm-wm-measureitem">DFM_WM_MEASUREITEM</a>
+<a href="/windows/win32/shell/dfm-wm-measureitem">DFM_WM_MEASUREITEM</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/dfm-wm-drawitem">DFM_WM_DRAWITEM</a>
+<a href="/windows/win32/shell/dfm-wm-drawitem">DFM_WM_DRAWITEM</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/samples-automaticjumplist">DFM_WM_INITMENUPOPUP</a>
+<a href="/windows/win32/shell/dfm-wm-initmenupopup">DFM_WM_INITMENUPOPUP</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/samples-appusermodelidwindowproperty">DFM_VALIDATECMD</a>
+<a href="/windows/win32/shell/dfm-validatecmd">DFM_VALIDATECMD</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/prophand-content-view">DFM_INVOKECOMMANDEX</a>
+<a href="/windows/win32/shell/dfm-invokecommandex">DFM_INVOKECOMMANDEX</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/propsheet-handlers">DFM_MAPCOMMANDNAME</a>
+<a href="/windows/win32/shell/dfm-mapcommandname">DFM_MAPCOMMANDNAME</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
+<a href="/windows/win32/shell/dfm-getdefstaticid">DFM_GETDEFSTATICID</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/nse-junction">DFM_GETVERB</a>
+<a href="/windows/win32/shell/dfm-getverb">DFM_GETVERB</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/shell/reg-middleware-apps">DFM_MERGECONTEXTMENU_BOTTOM</a>
+<a href="/windows/win32/shell/dfm-mergecontextmenu-bottom">DFM_MERGECONTEXTMENU_BOTTOM</a>
 </td>
 </tr>
 </table>

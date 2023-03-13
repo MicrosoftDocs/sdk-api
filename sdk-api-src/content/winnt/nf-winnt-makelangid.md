@@ -47,6 +47,8 @@ api_name:
 
 # MAKELANGID macro
 
+> [!IMPORTANT]
+> Language identifier constants are deprecated and their use is discouraged. Use of locale names instead of locale identifiers is always preferable. See the documentation for <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.
 
 ## -description
 
@@ -123,3 +125,7 @@ The following table shows combinations of <i>usPrimaryLanguage</i> and <i>usSubL
 
 
 <a href="/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>
+
+
+
+<a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>

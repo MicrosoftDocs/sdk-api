@@ -49,7 +49,6 @@ api_name:
 
 # PrintDocumentPackageStatus structure
 
-
 ## -description
 
 Defines a payload to be used by the <a href="/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a> method. This structure is a generic version of XPS_JOB_STATUS.

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetIconLocation
 title: IShellLinkA::SetIconLocation (shobjidl_core.h)
-description: Sets the location (path and index) of the icon for a Shell link object.
+description: Sets the location (path and index) of the icon for a Shell link object. (ANSI)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetIconLocation method","IShellLink::SetIconLocation","IShellLinkA interface [Windows Shell]","SetIconLocation method","IShellLinkA.SetIconLocation","IShellLinkA::SetIconLocation","IShellLinkW interface [Windows Shell]","SetIconLocation method","IShellLinkW::SetIconLocation","SetIconLocation","SetIconLocation method [Windows Shell]","SetIconLocation method [Windows Shell]","IShellLink interface","SetIconLocation method [Windows Shell]","IShellLinkA interface","SetIconLocation method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetIconLocation","shell.IShellLink_SetIconLocation","shobjidl_core/IShellLink::SetIconLocation","shobjidl_core/IShellLinkA::SetIconLocation","shobjidl_core/IShellLinkW::SetIconLocation"]
 old-location: shell\IShellLink_SetIconLocation.htm
 tech.root: shell

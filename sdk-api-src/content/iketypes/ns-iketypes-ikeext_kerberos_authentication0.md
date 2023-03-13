@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION0__
 title: IKEEXT_KERBEROS_AUTHENTICATION0 (iketypes.h)
-description: Contains information needed for preshared key authentication.
+description: Contains information needed for preshared key authentication. (IKEEXT_KERBEROS_AUTHENTICATION0)
 helpviewer_keywords: ["IKEEXT_KERBEROS_AUTHENTICATION0","IKEEXT_KERBEROS_AUTHENTICATION0 structure [Filtering]","IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION","IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS","fwp.ikeext_kerberos_authentication0","iketypes/IKEEXT_KERBEROS_AUTHENTICATION0"]
 old-location: fwp\ikeext_kerberos_authentication0.htm
 tech.root: fwp

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_31
+UID: NE:webservices.WS_EXCEPTION_CODE
 title: WS_EXCEPTION_CODE (webservices.h)
 description: The structured exception codes thrown by this component. These exceptions are fatal and should not be handled by the application.
 helpviewer_keywords: ["WS_EXCEPTION_CODE","WS_EXCEPTION_CODE enumeration [Web Services for Windows]","WS_EXCEPTION_CODE_INTERNAL_FAILURE","WS_EXCEPTION_CODE_USAGE_FAILURE","webservices/WS_EXCEPTION_CODE","webservices/WS_EXCEPTION_CODE_INTERNAL_FAILURE","webservices/WS_EXCEPTION_CODE_USAGE_FAILURE","wsw.ws_exception_code"]
@@ -55,12 +55,12 @@ The structured exception codes thrown by this component.  These
 
 ## -enum-fields
 
-### -field WS_EXCEPTION_CODE_USAGE_FAILURE
+### -field WS_EXCEPTION_CODE_USAGE_FAILURE:0xC03D0000
 
 This exception occurs to indicate that usage of the web services component 
                     has violated the API contract.
 
-### -field WS_EXCEPTION_CODE_INTERNAL_FAILURE
+### -field WS_EXCEPTION_CODE_INTERNAL_FAILURE:0xc03d0001
 
 This exception occurs to indicate that an internal error occurred in the 
                     web services component.

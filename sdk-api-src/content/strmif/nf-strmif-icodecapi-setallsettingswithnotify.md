@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettingsWithNotify
 title: ICodecAPI::SetAllSettingsWithNotify (strmif.h)
-description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
+description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed. (ICodecAPI.SetAllSettingsWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettingsWithNotify method","ICodecAPI.SetAllSettingsWithNotify","ICodecAPI::SetAllSettingsWithNotify","ICodecAPISetAllSettingsWithNotify","SetAllSettingsWithNotify","SetAllSettingsWithNotify method [DirectShow]","SetAllSettingsWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettingswithnotify","strmif/ICodecAPI::SetAllSettingsWithNotify"]
 old-location: dshow\icodecapi_setallsettingswithnotify.htm
 tech.root: dshow

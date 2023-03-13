@@ -96,7 +96,7 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 
 ### -param pSample [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing a sample.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing a sample.
 
 ## -returns
 

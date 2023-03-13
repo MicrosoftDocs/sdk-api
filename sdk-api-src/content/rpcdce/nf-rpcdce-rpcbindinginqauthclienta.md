@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthClientA
 title: RpcBindingInqAuthClientA function (rpcdce.h)
-description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call.
-helpviewer_keywords: ["RpcBindingInqAuthClient","RpcBindingInqAuthClient function [RPC]","RpcBindingInqAuthClientA","RpcBindingInqAuthClientW","_rpc_rpcbindinginqauthclient","rpc.rpcbindinginqauthclient","rpcdce/RpcBindingInqAuthClient","rpcdce/RpcBindingInqAuthClientA","rpcdce/RpcBindingInqAuthClientW"]
+description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call. (RpcBindingInqAuthClientA)
+helpviewer_keywords: ["RpcBindingInqAuthClientA", "rpcdce/RpcBindingInqAuthClientA"]
 old-location: rpc\rpcbindinginqauthclient.htm
 tech.root: Rpc
 ms.assetid: 2834a6a8-8bd6-4829-84ea-e3f35c917ab7

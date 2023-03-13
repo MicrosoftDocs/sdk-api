@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 title: ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter (d3d10sdklayers.h)
-description: Get the number of messages that are able to pass through a retrieval filter.
+description: Get the number of messages that are able to pass through a retrieval filter. (ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter)
 helpviewer_keywords: ["42e473fd-210b-8a78-d305-72db80e7fc30","GetNumStoredMessagesAllowedByRetrievalFilter","GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10]","GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetNumStoredMessagesAllowedByRetrievalFilter method","ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter","ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter","d3d10sdklayers/ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter","direct3d10.id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter"]
 old-location: direct3d10\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
 tech.root: direct3d10

@@ -76,8 +76,7 @@ api_name:
 Determines whether an event provider should generate a particular event based on
 the event's Level and Keyword.
 
-Returns **FALSE** if ETW can quickly determine that no session is listening for
-a specified event from the given provider. Otherwise returns **TRUE**.
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
 
 ## -parameters
 
@@ -101,13 +100,18 @@ categories. See
 [EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
 for more information about event keyword values.
 
+## -returns
+
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
+
 ## -remarks
 
 This API provides a simple way to determine whether an event is enabled (i.e.
 whether any event consumer sessions are interested in receiving the event) based
 on the provider handle, the event level, and the event keyword.
 
-> **Note:** This API performs a conservative quick test. It is possible for this
+> [!Note]
+> This API performs a conservative quick test. It is possible for this
 > API to return true in certain cases where subsequent in-depth filtering would
 > determine that no sessions need to record the event.
 

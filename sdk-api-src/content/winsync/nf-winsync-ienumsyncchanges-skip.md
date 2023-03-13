@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Skip
 title: IEnumSyncChanges::Skip (winsync.h)
-description: This method is not implemented.
+description: This method is not implemented. (IEnumSyncChanges.Skip)
 helpviewer_keywords: ["IEnumSyncChanges interface [Windows Sync]","Skip method","IEnumSyncChanges.Skip","IEnumSyncChanges::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumSyncChanges interface","winsync.ienumsyncchanges_skip","winsync/IEnumSyncChanges::Skip"]
 old-location: winsync\ienumsyncchanges_skip.htm
 tech.root: winsync

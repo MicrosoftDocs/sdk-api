@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsstoragecom.IOplockBreakingHandler.OplockBreaking
 title: IOplockBreakingHandler::OplockBreaking (windowsstoragecom.h)
-description: This method is not currently implemented.
+description: This method is not currently implemented. (IOplockBreakingHandler.OplockBreaking)
 helpviewer_keywords: ["IOplockBreakingHandler interface [Windows Runtime]","OplockBreaking method","IOplockBreakingHandler.OplockBreaking","IOplockBreakingHandler::OplockBreaking","OplockBreaking","OplockBreaking method [Windows Runtime]","OplockBreaking method [Windows Runtime]","IOplockBreakingHandler interface","windowsstoragecom/IOplockBreakingHandler::OplockBreaking","winrt.ioplockbreakinghandler_oplockbreaking"]
 old-location: winrt\ioplockbreakinghandler_oplockbreaking.htm
 tech.root: WinRT

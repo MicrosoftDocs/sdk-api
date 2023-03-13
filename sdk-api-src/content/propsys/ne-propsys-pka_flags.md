@@ -54,7 +54,7 @@ Describes property change array behavior.
 
 ## -enum-fields
 
-### -field PKA_SET
+### -field PKA_SET:0
 
 Replace current value.
 

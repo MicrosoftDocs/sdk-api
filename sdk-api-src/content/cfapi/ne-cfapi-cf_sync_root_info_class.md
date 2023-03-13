@@ -54,14 +54,14 @@ Types of sync root information.
 
 ## -enum-fields
 
-### -field CF_SYNC_ROOT_INFO_BASIC
+### -field CF_SYNC_ROOT_INFO_BASIC:0
 
 Basic sync root information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_basic_info">CF_SYNC_ROOT_BASIC_INFO</a>.
 
-### -field CF_SYNC_ROOT_INFO_STANDARD
+### -field CF_SYNC_ROOT_INFO_STANDARD:1
 
 Standard sync root information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_standard_info">CF_SYNC_ROOT_STANDARD_INFO</a>.
 
-### -field CF_SYNC_ROOT_INFO_PROVIDER
+### -field CF_SYNC_ROOT_INFO_PROVIDER:2
 
 Sync root provider information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_provider_info">CF_SYNC_ROOT_PROVIDER_INFO</a>.

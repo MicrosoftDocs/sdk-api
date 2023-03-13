@@ -61,19 +61,19 @@ Contains the version of the <a href="/windows/win32/api/virtdisk/ns-virtdisk-mod
 
 ## -enum-fields
 
-### -field MODIFY_VHDSET_UNSPECIFIED
+### -field MODIFY_VHDSET_UNSPECIFIED:0
 
 Not Supported.
 
-### -field MODIFY_VHDSET_SNAPSHOT_PATH
+### -field MODIFY_VHDSET_SNAPSHOT_PATH:1
 
 The <b>SnapshotPath</b> member structure will be used.
 
-### -field MODIFY_VHDSET_REMOVE_SNAPSHOT
+### -field MODIFY_VHDSET_REMOVE_SNAPSHOT:2
 
 The <b>SnapshotId</b> member structure will be used.
 
-### -field MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH
+### -field MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH:3
 
 The <b>DefaultFilePath</b> member structure will be used
 

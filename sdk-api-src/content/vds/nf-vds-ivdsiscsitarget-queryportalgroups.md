@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryPortalGroups
 title: IVdsIscsiTarget::QueryPortalGroups (vds.h)
-description: Returns an enumeration of the iSCSI portal groups within the target.
+description: The IVdsIscsiTarget::QueryPortalGroups method (vds.h) returns an enumeration of the iSCSI portal groups within the target.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryPortalGroups method","IVdsIscsiTarget.QueryPortalGroups","IVdsIscsiTarget::QueryPortalGroups","QueryPortalGroups","QueryPortalGroups method [VDS]","QueryPortalGroups method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryportalgroups","vds/IVdsIscsiTarget::QueryPortalGroups","vdshwprv/IVdsIscsiTarget::QueryPortalGroups"]
 old-location: base\ivdsiscsitarget_queryportalgroups.htm
 tech.root: base
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsiTarget.QueryPortalGroups, IVdsIscsiTarget::QueryPortalGroups, QueryPortalGroups, QueryPortalGroups method [VDS], QueryPortalGroups method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryportalgroups, vds/IVdsIscsiTarget::QueryPortalGroups, vdshwprv/IVdsIscsiTarget::QueryPortalGroups
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an  enumeration of the iSCSI portal groups within the target.
 

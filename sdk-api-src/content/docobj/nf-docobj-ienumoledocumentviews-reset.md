@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Reset
 title: IEnumOleDocumentViews::Reset (docobj.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumOleDocumentViews.Reset)
 helpviewer_keywords: ["IEnumOleDocumentViews interface [COM]","Reset method","IEnumOleDocumentViews.Reset","IEnumOleDocumentViews::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumOleDocumentViews interface","_ole_ienumoledocumentviews_reset","com.ienumoledocumentviews_reset","docobj/IEnumOleDocumentViews::Reset"]
 old-location: com\ienumoledocumentviews_reset.htm
 tech.root: com

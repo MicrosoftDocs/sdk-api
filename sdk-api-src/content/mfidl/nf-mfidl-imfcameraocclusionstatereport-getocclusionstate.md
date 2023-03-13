@@ -2,9 +2,9 @@
 UID: NF:mfidl.IMFCameraOcclusionStateReport.GetOcclusionState
 tech.root: 
 title: IMFCameraOcclusionStateReport::GetOcclusionState
-ms.date: 
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFCameraOcclusionStateReport::GetOcclusionState function gets the camera occlusion state associated with the occlusion state report.
 prerelease: false
 req.assembly: 
 req.construct-type: function

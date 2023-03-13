@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetOwner
 title: IXpsOMSignatureBlockResource::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
+description: Gets a pointer to the IXpsOMDocument interface that contains the resource. (IXpsOMSignatureBlockResource.GetOwner)
 helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMSignatureBlockResource interface","IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","GetOwner method","IXpsOMSignatureBlockResource.GetOwner","IXpsOMSignatureBlockResource::GetOwner","xps.ixpsomsignatureblockresource_getowner","xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner"]
 old-location: xps\ixpsomsignatureblockresource_getowner.htm
 tech.root: xps

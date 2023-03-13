@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_GEMM_OPERATOR_DESC","DML_GEMM_OPERATOR_DESC structure
 old-location: direct3d12\dml_gemm_operator_desc.htm
 tech.root: directml
 ms.assetid: 11482420-678E-4914-90F0-9F952BC09FF7
-ms.date: 10/31/2020
+ms.date: 12/01/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -106,7 +106,7 @@ The value of the scalar multiplier for the optional input *CTensor*. If *CTensor
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the GEMM.
+An optional fused activation layer to apply after the GEMM. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
@@ -134,4 +134,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## -see-also
 
-[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

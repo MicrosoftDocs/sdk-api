@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodCall
 title: IComMethodEvents::OnMethodCall (comsvcs.h)
-description: Generated when an object's method is called.
+description: Generated when an object's method is called. (IComMethodEvents.OnMethodCall)
 helpviewer_keywords: ["IComMethodEvents interface [COM+]","OnMethodCall method","IComMethodEvents.OnMethodCall","IComMethodEvents::OnMethodCall","OnMethodCall","OnMethodCall method [COM+]","OnMethodCall method [COM+]","IComMethodEvents interface","_dtc_IComMethodEvents_OnMethodCall","comsvcs/IComMethodEvents::OnMethodCall","cos.icommethodevents_onmethodcall"]
 old-location: cos\icommethodevents_onmethodcall.htm
 tech.root: cos

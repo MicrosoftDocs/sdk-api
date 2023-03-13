@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetIsSideways
 title: IXpsOMGlyphsEditor::GetIsSideways (xpsobjectmodel.h)
-description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways.
+description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways. (IXpsOMGlyphsEditor.GetIsSideways)
 helpviewer_keywords: ["FALSE","GetIsSideways","GetIsSideways method [XPS Documents and Packaging]","GetIsSideways method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetIsSideways method","IXpsOMGlyphsEditor.GetIsSideways","IXpsOMGlyphsEditor::GetIsSideways","TRUE","xps.ixpsomglyphseditor_getissideways","xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways"]
 old-location: xps\ixpsomglyphseditor_getissideways.htm
 tech.root: xps

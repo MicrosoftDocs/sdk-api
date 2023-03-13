@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderFlags
 title: IEnroll::get_ProviderFlags (xenroll.h)
-description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type.
+description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","ProviderFlags property","IEnroll.ProviderFlags","IEnroll.get_ProviderFlags","IEnroll::ProviderFlags","IEnroll::get_ProviderFlags","IEnroll::put_ProviderFlags","ProviderFlags property [Security]","ProviderFlags property [Security]","IEnroll interface","get_ProviderFlags","security.ienroll4_providerflags","xenroll/IEnroll::ProviderFlags","xenroll/IEnroll::get_ProviderFlags","xenroll/IEnroll::put_ProviderFlags"]
 old-location: security\ienroll4_providerflags.htm
 tech.root: security

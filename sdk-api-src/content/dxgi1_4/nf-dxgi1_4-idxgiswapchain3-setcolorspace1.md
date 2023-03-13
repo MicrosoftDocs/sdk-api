@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.SetColorSpace1
 title: IDXGISwapChain3::SetColorSpace1 (dxgi1_4.h)
-description: Sets the color space used by the swap chain.
+description: Sets the color space used by the swap chain. (IDXGISwapChain3.SetColorSpace1)
 helpviewer_keywords: ["IDXGISwapChain3 interface [DXGI]","SetColorSpace1 method","IDXGISwapChain3.SetColorSpace1","IDXGISwapChain3::SetColorSpace1","SetColorSpace1","SetColorSpace1 method [DXGI]","SetColorSpace1 method [DXGI]","IDXGISwapChain3 interface","direct3ddxgi.idxgiswapchain3_setcolorspace1","dxgi1_4/IDXGISwapChain3::SetColorSpace1"]
 old-location: direct3ddxgi\idxgiswapchain3_setcolorspace1.htm
 tech.root: direct3ddxgi

@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchAddBackslash
 title: PathCchAddBackslash function (pathcch.h)
-description: Adds a backslash to the end of a string to create the correct syntax for a path.
+description: Adds a backslash to the end of a string to create the correct syntax for a path. (PathCchAddBackslash)
 helpviewer_keywords: ["PathCchAddBackslash","PathCchAddBackslash function [Windows Shell]","pathcch/PathCchAddBackslash","shell.PathCchAddBackslash"]
 old-location: shell\PathCchAddBackslash.htm
 tech.root: shell
@@ -54,7 +54,7 @@ api_name:
 
 Adds a backslash to the end of a string to create the correct syntax for a path. If the source path already has a trailing backslash, no backslash will be added.
 
-This function differs from <b>PathCchAddBackslash</b> in that you are restricted to a final path of length MAX_PATH.
+This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a> in that you are restricted to a final path of length MAX_PATH.
 
 This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 

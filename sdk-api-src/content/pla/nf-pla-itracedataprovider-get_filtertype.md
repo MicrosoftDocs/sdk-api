@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_FilterType
 title: ITraceDataProvider::get_FilterType (pla.h)
-description: Retrieves or sets a provider-defined filter type.
+description: Retrieves or sets a provider-defined filter type. (Get)
 helpviewer_keywords: ["FilterType property [PLA]","FilterType property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","FilterType property","ITraceDataProvider.FilterType","ITraceDataProvider.get_FilterType","ITraceDataProvider::FilterType","ITraceDataProvider::get_FilterType","ITraceDataProvider::put_FilterType","base.itracedataprovider_filtertype","get_FilterType","pla.itracedataprovider_filtertype","pla/ITraceDataProvider::FilterType","pla/ITraceDataProvider::get_FilterType","pla/ITraceDataProvider::put_FilterType"]
 old-location: pla\itracedataprovider_filtertype.htm
 tech.root: PLA

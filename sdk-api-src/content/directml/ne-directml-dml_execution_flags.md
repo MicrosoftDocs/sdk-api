@@ -51,19 +51,19 @@ Supplies options to DirectML to control execution of operators. These flags can 
 
 ## -enum-fields
 
-### -field DML_EXECUTION_FLAG_NONE
+### -field DML_EXECUTION_FLAG_NONE:0
 
 No execution flags are specified.
 
-### -field DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION
+### -field DML_EXECUTION_FLAG_ALLOW_HALF_PRECISION_COMPUTATION:0x1
 
 Allows DirectML to perform computation using half-precision floating-point (FP16), if supported by the hardware device.
 
-### -field DML_EXECUTION_FLAG_DISABLE_META_COMMANDS
+### -field DML_EXECUTION_FLAG_DISABLE_META_COMMANDS:0x2
 
 Forces DirectML execute the operator using DirectCompute instead of meta commands. DirectML uses meta commands by default, if available.
 
-### -field DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE
+### -field DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE:0x4
 
 Allows changes to bindings after an operator's execution has been recorded in a command list, but before it has been submitted to the command queue. By default, without this flag set, you must set all bindings on the binding table before you record an operator into a command list.
 

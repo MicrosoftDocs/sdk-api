@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_37
+UID: NS:wininet.INTERNET_COOKIE2
 title: INTERNET_COOKIE2
 description: The INTERNET_COOKIE2 structure contains the constituent parts of a cookie. This structure is used with the InternetGetCookieEx2 and InternetSetCookieEx2 functions.
 tech.root: wininet
@@ -92,3 +92,4 @@ Whether or not the expiry time is set.
 [InternetSetCookieEx2](nf-wininet-internetsetcookieex2.md)
 
 [InternetFreeCookies](nf-wininet-internetfreecookies.md)
+

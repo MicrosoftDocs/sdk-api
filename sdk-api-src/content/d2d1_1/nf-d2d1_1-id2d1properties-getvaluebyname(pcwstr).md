@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR)
 title: ID2D1Properties::GetValueByName(PCWSTR,) (d2d1_1.h)
-description: Gets the property value by name. This is a template overload. See Remarks.
+description: Gets the property value by name. This is a template overload. See Remarks. (overload 2/2)
 helpviewer_keywords: ["GetValueByName","GetValueByName method [Direct2D]","GetValueByName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValueByName method","ID2D1Properties.GetValueByName","ID2D1Properties.GetValueByName(PCWSTR",")","ID2D1Properties::GetValueByName","ID2D1Properties::GetValueByName(PCWSTR)","ID2D1Properties::GetValueByName(PCWSTR",")","d2d1_1/ID2D1Properties::GetValueByName","direct2d.id2d1properties_getvaluebyname4"]
 old-location: direct2d\id2d1properties_getvaluebyname4.htm
 tech.root: Direct2D

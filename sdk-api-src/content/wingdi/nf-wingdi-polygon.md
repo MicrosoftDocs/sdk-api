@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
 
 ### -param cpt [in]
 
@@ -97,7 +97,7 @@ Any extra points are ignored. To draw a line with more points, divide your data 
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT
+<a href="/windows/win32/api/windef/ns-windef-point">POINT
       </a>
 
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateFontA
 title: CreateFontA function (wingdi.h)
-description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
-helpviewer_keywords: ["ANTIALIASED_QUALITY","CLEARTYPE_QUALITY","CLIP_CHARACTER_PRECIS","CLIP_DEFAULT_PRECIS","CLIP_DFA_DISABLE","CLIP_DFA_OVERRIDE","CLIP_EMBEDDED","CLIP_LH_ANGLES","CLIP_MASK","CLIP_STROKE_PRECIS","CLIP_TT_ALWAYS","CreateFont","CreateFont function [Windows GDI]","CreateFontA","CreateFontW","DEFAULT_QUALITY","DRAFT_QUALITY","FF_DECORATIVE","FF_DONTCARE","FF_MODERN","FF_ROMAN","FF_SCRIPT","FF_SWISS","FW_BLACK","FW_BOLD","FW_DEMIBOLD","FW_DONTCARE","FW_EXTRABOLD","FW_EXTRALIGHT","FW_HEAVY","FW_LIGHT","FW_MEDIUM","FW_NORMAL","FW_REGULAR","FW_SEMIBOLD","FW_THIN","FW_ULTRABOLD","FW_ULTRALIGHT","NONANTIALIASED_QUALITY","OUT_CHARACTER_PRECIS","OUT_DEFAULT_PRECIS","OUT_DEVICE_PRECIS","OUT_OUTLINE_PRECIS","OUT_PS_ONLY_PRECIS","OUT_RASTER_PRECIS","OUT_STRING_PRECIS","OUT_STROKE_PRECIS","OUT_TT_ONLY_PRECIS","OUT_TT_PRECIS","PROOF_QUALITY","_win32_CreateFont","gdi.createfont","wingdi/CreateFont","wingdi/CreateFontA","wingdi/CreateFontW"]
+description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device. (ANSI)
+helpviewer_keywords: ["ANTIALIASED_QUALITY", "CLEARTYPE_QUALITY", "CLIP_CHARACTER_PRECIS", "CLIP_DEFAULT_PRECIS", "CLIP_DFA_DISABLE", "CLIP_DFA_OVERRIDE", "CLIP_EMBEDDED", "CLIP_LH_ANGLES", "CLIP_MASK", "CLIP_STROKE_PRECIS", "CLIP_TT_ALWAYS", "CreateFontA", "DEFAULT_QUALITY", "DRAFT_QUALITY", "FF_DECORATIVE", "FF_DONTCARE", "FF_MODERN", "FF_ROMAN", "FF_SCRIPT", "FF_SWISS", "FW_BLACK", "FW_BOLD", "FW_DEMIBOLD", "FW_DONTCARE", "FW_EXTRABOLD", "FW_EXTRALIGHT", "FW_HEAVY", "FW_LIGHT", "FW_MEDIUM", "FW_NORMAL", "FW_REGULAR", "FW_SEMIBOLD", "FW_THIN", "FW_ULTRABOLD", "FW_ULTRALIGHT", "NONANTIALIASED_QUALITY", "OUT_CHARACTER_PRECIS", "OUT_DEFAULT_PRECIS", "OUT_DEVICE_PRECIS", "OUT_OUTLINE_PRECIS", "OUT_PS_ONLY_PRECIS", "OUT_RASTER_PRECIS", "OUT_STRING_PRECIS", "OUT_STROKE_PRECIS", "OUT_TT_ONLY_PRECIS", "OUT_TT_PRECIS", "PROOF_QUALITY", "wingdi/CreateFontA"]
 old-location: gdi\createfont.htm
 tech.root: gdi
 ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
@@ -783,49 +783,50 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
         {
         RECT rect;
-        HBRUSH hBrush;
-        HFONT hFont;
+        HFONT hFontOriginal, hFont1, hFont2, hFont3;
         hdc = BeginPaint(hWnd, &ps);
 
             
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 48 pixels in height.
             //The width, when set to 0, will cause the font mapper to choose the closest matching value.
             //The font face name will be Impact.
-            hFont = CreateFont(48,0,0,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont1 = CreateFont(48,0,0,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY, VARIABLE_PITCH,TEXT("Impact"));
-            SelectObject(hdc, hFont);
+            hFontOriginal = (HFONT)SelectObject(hdc, hFont1);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 100,100,700,200);
             SetTextColor(hdc, RGB(255,0,0));
             DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&rect, DT_NOCLIP);
             
-
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
             //The width, when set to 20, will cause the font mapper to choose a font which, in this case, is stretched.
             //The font face name will be Times New Roman.  This time nEscapement is at -300 tenths of a degree (-30 degrees)
-            hFont = CreateFont(36,20,-300,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont2 = CreateFont(36,20,-300,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY, VARIABLE_PITCH,TEXT("Times New Roman"));
-            SelectObject(hdc,hFont);
+            SelectObject(hdc,hFont2);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 100, 200, 900, 800);
             SetTextColor(hdc, RGB(0,128,0));
             DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&rect, DT_NOCLIP);
-            
                 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
             //The width, when set to 10, will cause the font mapper to choose a font which, in this case, is compressed. 
             //The font face name will be Arial. This time nEscapement is at 250 tenths of a degree (25 degrees)
-            hFont = CreateFont(36,10,250,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont3 = CreateFont(36,10,250,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY, VARIABLE_PITCH,TEXT("Arial"));
-            SelectObject(hdc,hFont);
+            SelectObject(hdc,hFont3);
 
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 500, 200, 1400, 600);
             SetTextColor(hdc, RGB(0,0,255));
             DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&rect, DT_NOCLIP);
-            DeleteObject(hFont);    
+
+            SelectObject(hdc,hFontOriginal);
+            DeleteObject(hFont1);
+            DeleteObject(hFont2);
+            DeleteObject(hFont3);
         
         EndPaint(hWnd, &ps);
         break;

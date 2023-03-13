@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx~r2
 title: ILLoadFromStreamEx~r2
-ms.date: 01/30/2019
+description: The ILLoadFromStreamEx function loads a child pointer to an item identifier list (PIDL) from an IStream. (ILLoadFromStreamEx r2)
+ms.date: 08/02/2022
 ms.keywords: ILLoadFromStreamEx
 targetos: Windows
 req.assembly: 

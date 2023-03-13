@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent
 title: IUpdateDownloadContent (wuapi.h)
-description: Represents the download content of an update.
+description: Represents the download content of an update. (IUpdateDownloadContent)
 helpviewer_keywords: ["IUpdateDownloadContent","IUpdateDownloadContent interface [Windows Update Agent]","IUpdateDownloadContent interface [Windows Update Agent]","described","wua.iupdatedownloadcontent","wuapi/IUpdateDownloadContent"]
 old-location: wua\iupdatedownloadcontent.htm
 tech.root: wua

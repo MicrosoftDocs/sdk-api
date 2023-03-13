@@ -167,7 +167,7 @@ If the value specified by <i>nWidth</i> is greater than 1 and <i>fnPenStyle</i> 
 
 If the value specified by <i>nWidth</i> is greater than 1, <i>fnPenStyle</i> is PS_INSIDEFRAME, and the color specified by the <i>crColor</i> parameter does not match one of the entries in the logical palette, the system draws lines by using a dithered color. Dithered colors are not available with solid pens.
 
-When using an <i>iStyle</i> parameter of PS_DASH, PS_DOT, PS_DASHDOT or PS_DASHDOTDOT, in order to make the gaps between the dashes or dots transparent, use <a href="windows/desktop/api/wingdi/nf-wingdi-setbkmode"> SetBkMode</a> to set the mode to TRANSPARENT.
+When using an <i>iStyle</i> parameter of PS_DASH, PS_DOT, PS_DASHDOT or PS_DASHDOTDOT, in order to make the gaps between the dashes or dots transparent, use <a href="/windows/win32/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> to set the mode to TRANSPARENT.
 
 When you no longer need the pen, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilterStackSize
 title: ID3D12InfoQueue::GetStorageFilterStackSize (d3d12sdklayers.h)
-description: Get the size of the storage-filter stack in bytes.
+description: Get the size of the storage-filter stack in bytes. (ID3D12InfoQueue.GetStorageFilterStackSize)
 helpviewer_keywords: ["GetStorageFilterStackSize","GetStorageFilterStackSize method","GetStorageFilterStackSize method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetStorageFilterStackSize method","ID3D12InfoQueue.GetStorageFilterStackSize","ID3D12InfoQueue::GetStorageFilterStackSize","d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize","direct3d12.id3d12infoqueue_getstoragefilterstacksize"]
 old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
 tech.root: direct3d12

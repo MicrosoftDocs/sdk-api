@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.PromptUser
 title: IWbemObjectSinkEx::PromptUser (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.PromptUser)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","PromptUser method","IWbemObjectSinkEx.PromptUser","IWbemObjectSinkEx::PromptUser","PromptUser","PromptUser method [Windows Management Instrumentation]","PromptUser method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::PromptUser","wmi.iwbemobjectsinkex_promptuser"]
 old-location: wmi\iwbemobjectsinkex_promptuser.htm
 tech.root: wmi

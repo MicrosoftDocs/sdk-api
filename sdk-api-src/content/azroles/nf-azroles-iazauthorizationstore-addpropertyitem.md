@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPropertyItem
 title: IAzAuthorizationStore::AddPropertyItem (azroles.h)
-description: Adds the specified principal to the specified list of principals.
+description: Adds the specified principal to the specified list of principals. (IAzAuthorizationStore.AddPropertyItem)
 helpviewer_keywords: ["AZ_PROP_DELEGATED_POLICY_USERS","AZ_PROP_DELEGATED_POLICY_USERS_NAME","AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzAuthorizationStore object","AddPropertyItem method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPropertyItem method","IAzAuthorizationStore interface [Security]","AddPropertyItem method","IAzAuthorizationStore.AddPropertyItem","IAzAuthorizationStore::AddPropertyItem","azroles/IAzAuthorizationStore::AddPropertyItem","security.azauthorizationstore_addpropertyitem"]
 old-location: security\azauthorizationstore_addpropertyitem.htm
 tech.root: security

@@ -4,7 +4,7 @@ tech.root: menurc
 title: FindResourceExW
 ms.date: 04/19/2021
 targetos: Windows
-description: Determines the location of the resource with the specified type, name, and language in the specified module.
+description: Determines the location of the resource with the specified type, name, and language in the specified module. (FindResourceExW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -167,7 +167,7 @@ String resources are stored in sections of up to 16 strings per section. The str
 
 ## -see-also
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-findresourcew.md">FindResource</a>  
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-findresourcew">FindResource</a>  
 <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>  
 <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>  
 <a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsw">LoadAccelerators</a>  

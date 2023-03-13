@@ -57,7 +57,7 @@ Used by the [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md) stru
 
 ## -enum-fields
 
-### -field PropertyStandardQuery
+### -field PropertyStandardQuery:0
 
 Instructs the driver to return an appropriate descriptor.
 

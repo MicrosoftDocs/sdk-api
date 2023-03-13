@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetExtension
 title: INewShortcutHookW::GetExtension (shlobj.h)
-description: Gets the file name extension for the shortcut object.
+description: Gets the file name extension for the shortcut object. (Unicode)
 helpviewer_keywords: ["GetExtension","GetExtension method [Windows Shell]","GetExtension method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetExtension method","INewShortcutHook::GetExtension","INewShortcutHookA","INewShortcutHookA::GetExtension","INewShortcutHookW","INewShortcutHookW.GetExtension","INewShortcutHookW::GetExtension","_win32_INewShortcutHook_GetExtension","shell.INewShortcutHook_GetExtension","shlobj/INewShortcutHook::GetExtension"]
 old-location: shell\INewShortcutHook_GetExtension.htm
 tech.root: shell

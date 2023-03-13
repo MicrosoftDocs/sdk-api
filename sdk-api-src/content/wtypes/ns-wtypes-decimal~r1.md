@@ -1,7 +1,8 @@
 ---
 UID: NS:wtypes.tagDEC~r1
 title: DECIMAL
-ms.date: 01/30/2019
+description: The DECIMAL structure represents a decimal data type that provides a sign and scale for a number.
+ms.date: 08/03/2022
 ms.keywords: tagDEC, DECIMAL
 targetos: Windows
 req.construct-type: structure

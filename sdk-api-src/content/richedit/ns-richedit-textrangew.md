@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._textrangew
 title: TEXTRANGEW (richedit.h)
-description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
+description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character. (Unicode)
 helpviewer_keywords: ["TEXTRANGE","TEXTRANGE structure [Windows Controls]","TEXTRANGEA","TEXTRANGEW","_win32_TEXTRANGE_str","_win32_TEXTRANGE_str_cpp","controls.TEXTRANGE","controls._win32_TEXTRANGE_str","richedit/TEXTRANGE","richedit/TEXTRANGEA","richedit/TEXTRANGEW"]
 old-location: controls\TEXTRANGE.htm
 tech.root: Controls

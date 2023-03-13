@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptCreateKeyIdentifierFromCSP
 title: CryptCreateKeyIdentifierFromCSP function (wincrypt.h)
-description: Important  This API is deprecated.
+description: Important  This API is deprecated. (CryptCreateKeyIdentifierFromCSP)
 helpviewer_keywords: ["CryptCreateKeyIdentifierFromCSP","CryptCreateKeyIdentifierFromCSP function [Security]","_crypto2_cryptcreatekeyidentifierfromcsp","security.cryptcreatekeyidentifierfromcsp","wincrypt/CryptCreateKeyIdentifierFromCSP"]
 old-location: security\cryptcreatekeyidentifierfromcsp.htm
 tech.root: security

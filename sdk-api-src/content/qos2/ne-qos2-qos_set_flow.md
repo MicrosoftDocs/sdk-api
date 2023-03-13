@@ -58,15 +58,15 @@ The <b>QOS_SET_FLOW</b> enumeration indicates what is being changed about a flow
 
 ## -enum-fields
 
-### -field QOSSetTrafficType
+### -field QOSSetTrafficType:0
 
 Indicates that the traffic type of the flow will change.
 
-### -field QOSSetOutgoingRate
+### -field QOSSetOutgoingRate:1
 
 Indicates that the flow rate will change.
 
-### -field QOSSetOutgoingDSCPValue
+### -field QOSSetOutgoingDSCPValue:2
 
 Windows 7, Windows Server 2008 R2, and later: Indicates that the outgoing DSCP value will change.
 

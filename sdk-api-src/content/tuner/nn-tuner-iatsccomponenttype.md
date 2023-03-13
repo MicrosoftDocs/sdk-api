@@ -56,7 +56,7 @@ The <b>IATSCComponentType</b> interface represents a component type for a compon
 
 The <b>IATSCComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>. <b>IATSCComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

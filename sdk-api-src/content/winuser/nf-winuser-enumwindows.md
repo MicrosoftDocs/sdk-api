@@ -61,7 +61,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 
 ## -description
 
-Enumerates all top-level windows on the screen by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumWindows</b> continues until the last top-level window is enumerated or the callback function returns <b>FALSE</b>.
+Enumerates all top-level windows on the screen by passing each window's handle, in turn, to an application-defined callback function. <b>EnumWindows</b> continues until the last top-level window is enumerated or the callback function returns <b>FALSE</b>.
 
 ## -parameters
 

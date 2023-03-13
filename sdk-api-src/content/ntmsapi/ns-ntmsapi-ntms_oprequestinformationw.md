@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_OPREQUESTINFORMATIONW
 title: NTMS_OPREQUESTINFORMATIONW (ntmsapi.h)
-description: The NTMS_OPREQUESTINFORMATION structure defines the properties specific to operator-request system control for RSM.
+description: The NTMS_OPREQUESTINFORMATION structure defines the properties specific to operator-request system control for RSM. (Unicode)
 helpviewer_keywords: ["NTMS_CHANGER","NTMS_DRIVE","NTMS_IEDOOR","NTMS_IEPORT.","NTMS_LIBRARY","NTMS_OPREQUESTINFORMATION","NTMS_OPREQUESTINFORMATION structure [Files]","NTMS_OPREQUESTINFORMATIONA","NTMS_OPREQUESTINFORMATIONW","NTMS_OPREQ_CLEANER","NTMS_OPREQ_DEVICESERVICE","NTMS_OPREQ_MESSAGE","NTMS_OPREQ_MOVEMEDIA","NTMS_OPREQ_NEWMEDIA","NTMS_OPSTATE_ACTIVE","NTMS_OPSTATE_COMPLETE","NTMS_OPSTATE_INPROGRESS","NTMS_OPSTATE_REFUSED","NTMS_OPSTATE_SUBMITTED","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_STORAGESLOT","NTMS_UNKNOWN","_NTMS_OPREQUESTINFORMATIONA","_NTMS_OPREQUESTINFORMATIONW","_zaw_ntms_oprequestinformation","base.ntms_oprequestinformation","fs.ntms_oprequestinformation","ntmsapi/NTMS_OPREQUESTINFORMATION"]
 old-location: fs\ntms_oprequestinformation.htm
 tech.root: fs

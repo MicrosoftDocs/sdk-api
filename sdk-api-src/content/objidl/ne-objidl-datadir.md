@@ -56,11 +56,11 @@ Specifies the direction of the data flow. This determines the formats that the r
 
 ## -enum-fields
 
-### -field DATADIR_GET
+### -field DATADIR_GET:1
 
 Requests that <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a> supply an enumerator for the formats that can be specified in<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>.
 
-### -field DATADIR_SET
+### -field DATADIR_SET:2
 
 Requests that <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a> supply an enumerator for the formats that can be specified in <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>.
 

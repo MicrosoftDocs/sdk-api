@@ -55,27 +55,27 @@ The <b>StringTrimming</b> enumeration specifies how to trim characters from a st
 
 ## -enum-fields
 
-### -field StringTrimmingNone
+### -field StringTrimmingNone:0
 
 Specifies that no trimming is done.
 
-### -field StringTrimmingCharacter
+### -field StringTrimmingCharacter:1
 
 Specifies that the string is broken at the boundary of the last character that is inside the layout rectangle. This is the default.
 
-### -field StringTrimmingWord
+### -field StringTrimmingWord:2
 
 Specifies that the string is broken at the boundary of the last word that is inside the layout rectangle.
 
-### -field StringTrimmingEllipsisCharacter
+### -field StringTrimmingEllipsisCharacter:3
 
 Specifies that the string is broken at the boundary of the last character that is inside the layout rectangle and an ellipsis (...) is inserted after the character.
 
-### -field StringTrimmingEllipsisWord
+### -field StringTrimmingEllipsisWord:4
 
 Specifies that the string is broken at the boundary of the last word that is inside the layout rectangle and an ellipsis (...) is inserted after the word.
 
-### -field StringTrimmingEllipsisPath
+### -field StringTrimmingEllipsisPath:5
 
 Specifies that the center is removed from the string and replaced by an ellipsis. The algorithm keeps as much of the last portion of the string as possible.
 

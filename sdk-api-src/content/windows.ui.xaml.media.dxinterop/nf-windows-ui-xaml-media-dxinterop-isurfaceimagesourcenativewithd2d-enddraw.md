@@ -1,12 +1,12 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.EndDraw
 title: ISurfaceImageSourceNativeWithD2D::EndDraw (windows.ui.xaml.media.dxinterop.h)
-description: Closes the surface draw operation.
+description: The ISurfaceImageSourceNativeWithD2D::EndDraw method (windows.ui.xaml.media.dxinterop.h) closes the surface draw operation.
 helpviewer_keywords: ["EndDraw","EndDraw method [Windows Runtime]","EndDraw method [Windows Runtime]","ISurfaceImageSourceNativeWithD2D interface","ISurfaceImageSourceNativeWithD2D interface [Windows Runtime]","EndDraw method","ISurfaceImageSourceNativeWithD2D.EndDraw","ISurfaceImageSourceNativeWithD2D.xaml","ISurfaceImageSourceNativeWithD2D::EndDraw","ISurfaceImageSourceNativeWithD2D::xaml","windows/ISurfaceImageSourceNativeWithD2D::EndDraw","winrt.isurfaceimagesourcenativewithd2d_enddraw"]
 old-location: winrt\isurfaceimagesourcenativewithd2d_enddraw.htm
 tech.root: WinRT
 ms.assetid: 1E152D80-2673-43C6-B242-F89C890EE688
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: EndDraw, EndDraw method [Windows Runtime], EndDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],EndDraw method, ISurfaceImageSourceNativeWithD2D.EndDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::EndDraw, ISurfaceImageSourceNativeWithD2D::xaml, windows/ISurfaceImageSourceNativeWithD2D::EndDraw, winrt.isurfaceimagesourcenativewithd2d_enddraw
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

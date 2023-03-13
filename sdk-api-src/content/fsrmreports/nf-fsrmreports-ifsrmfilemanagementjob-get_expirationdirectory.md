@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ExpirationDirectory
 title: IFsrmFileManagementJob::get_ExpirationDirectory (fsrmreports.h)
-description: The root directory that will contain the expired files.
+description: The root directory that will contain the expired files. (Get)
 helpviewer_keywords: ["ExpirationDirectory property [File Server Resource Manager]","ExpirationDirectory property [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","ExpirationDirectory property","IFsrmFileManagementJob.ExpirationDirectory","IFsrmFileManagementJob.get_ExpirationDirectory","IFsrmFileManagementJob::ExpirationDirectory","IFsrmFileManagementJob::get_ExpirationDirectory","IFsrmFileManagementJob::put_ExpirationDirectory","fs.ifsrmfilemanagementjob_expirationdirectory","fsrm.ifsrmfilemanagementjob_expirationdirectory","fsrmreports/IFsrmFileManagementJob::ExpirationDirectory","fsrmreports/IFsrmFileManagementJob::get_ExpirationDirectory","fsrmreports/IFsrmFileManagementJob::put_ExpirationDirectory","get_ExpirationDirectory"]
 old-location: fsrm\ifsrmfilemanagementjob_expirationdirectory.htm
 tech.root: fsrm

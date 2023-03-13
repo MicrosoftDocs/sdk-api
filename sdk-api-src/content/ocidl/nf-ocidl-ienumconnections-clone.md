@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumConnections.Clone
 title: IEnumConnections::Clone (ocidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumConnections.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumConnections interface","IEnumConnections interface [COM]","Clone method","IEnumConnections.Clone","IEnumConnections::Clone","_com_ienumconnections_clone","com.ienumconnections_clone","ocidl/IEnumConnections::Clone"]
 old-location: com\ienumconnections_clone.htm
 tech.root: com

@@ -4,7 +4,7 @@ title: Bits10_2.h header
 ms.assetid: 54e1f19c-53e3-3254-9379-9d0fdf33f723
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: bits
 f1_keywords:
  - bits10_2

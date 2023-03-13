@@ -2,7 +2,7 @@
 UID: NF:wtsprotocol.IWRdsEnhancedFastReconnectArbitrator.GetSessionForEnhancedFastReconnect
 tech.root: TermServ
 title: IWRdsEnhancedFastReconnectArbitrator::GetSessionForEnhancedFastReconnect
-ms.date: 
+ms.date: 06/09/2021
 ms.topic: language-reference
 targetos: Windows
 description: The protocol stack uses this method to return the session ID to be used for enhanced fast reconnect.

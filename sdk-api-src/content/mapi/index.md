@@ -4,7 +4,7 @@ title: Mapi.h header
 ms.assetid: d94e049c-1d17-3bbe-b532-6eb19f1d1ed1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mapi
 f1_keywords:
  - mapi

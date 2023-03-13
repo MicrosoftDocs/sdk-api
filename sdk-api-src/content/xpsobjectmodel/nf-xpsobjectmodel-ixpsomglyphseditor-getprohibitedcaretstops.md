@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetProhibitedCaretStops
 title: IXpsOMGlyphsEditor::GetProhibitedCaretStops (xpsobjectmodel.h)
-description: Gets an array of prohibited caret stop locations.
+description: Gets an array of prohibited caret stop locations. (IXpsOMGlyphsEditor.GetProhibitedCaretStops)
 helpviewer_keywords: ["GetProhibitedCaretStops","GetProhibitedCaretStops method [XPS Documents and Packaging]","GetProhibitedCaretStops method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetProhibitedCaretStops method","IXpsOMGlyphsEditor.GetProhibitedCaretStops","IXpsOMGlyphsEditor::GetProhibitedCaretStops","xps.ixpsomglyphseditor_getprohibitedcaretstops","xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStops"]
 old-location: xps\ixpsomglyphseditor_getprohibitedcaretstops.htm
 tech.root: xps

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedResourceSession1.GetDesc1
 title: ID3D12ProtectedResourceSession1::GetDesc1
-description: Retrieves a description of the protected resource session.
+description: Retrieves a description of the protected resource session. (ID3D12ProtectedResourceSession1::GetDesc1)
 helpviewer_keywords: ["ID3D12ProtectedResourceSession1 interface","GetDesc1 method","ID3D12ProtectedResourceSession1.GetDesc1","ID3D12ProtectedResourceSession1::GetDesc1","GetDesc1","GetDesc1 method","GetDesc1 method","ID3D12ProtectedResourceSession1 interface","direct3d12.id3d12device7_getdesc1","d3d12/ID3D12ProtectedResourceSession1::GetDesc1"]
 tech.root: direct3d12
 ms.date: 09/16/2020

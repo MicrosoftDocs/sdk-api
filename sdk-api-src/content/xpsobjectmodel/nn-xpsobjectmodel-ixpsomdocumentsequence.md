@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDocumentSequence interface
 
-
 ## -description
 
 The root object that has the XPS document content.

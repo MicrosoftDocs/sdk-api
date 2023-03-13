@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration.RemoveResource
 title: IWorkspaceRegistration::RemoveResource (workspaceruntime.h)
-description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
+description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection. (IWorkspaceRegistration2.RemoveResource)
 helpviewer_keywords: ["IWorkspaceRegistration interface [Remote Desktop Services]","RemoveResource method","IWorkspaceRegistration.RemoveResource","IWorkspaceRegistration2 interface [Remote Desktop Services]","RemoveResource method","IWorkspaceRegistration2::RemoveResource","IWorkspaceRegistration::RemoveResource","RemoveResource","RemoveResource method [Remote Desktop Services]","RemoveResource method [Remote Desktop Services]","IWorkspaceRegistration interface","RemoveResource method [Remote Desktop Services]","IWorkspaceRegistration2 interface","RemoveResource method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","RemoveResource method","termserv.iworkspaceregistration_removeresource","workspaceruntime/IWorkspaceRegistration2::RemoveResource","workspaceruntime/IWorkspaceRegistration::RemoveResource"]
 old-location: termserv\iworkspaceregistration_removeresource.htm
 tech.root: TermServ

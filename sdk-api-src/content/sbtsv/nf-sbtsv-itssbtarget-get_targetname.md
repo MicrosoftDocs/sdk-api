@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetName
 title: ITsSbTarget::get_TargetName (sbtsv.h)
-description: Specifies or retrieves the name of the target.
+description: Specifies or retrieves the name of the target. (Get)
 helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetName property","ITsSbTarget.TargetName","ITsSbTarget.get_TargetName","ITsSbTarget::TargetName","ITsSbTarget::get_TargetName","ITsSbTarget::put_TargetName","ITsSbTargetEx interface [Remote Desktop Services]","TargetName property","ITsSbTargetEx.TargetName","ITsSbTargetEx::get_TargetName","ITsSbTargetEx::put_TargetName","TargetName property [Remote Desktop Services]","TargetName property [Remote Desktop Services]","ITsSbTarget interface","TargetName property [Remote Desktop Services]","ITsSbTargetEx interface","get_TargetName","sbtsv/ITsSbTarget::TargetName","sbtsv/ITsSbTarget::get_TargetName","sbtsv/ITsSbTarget::put_TargetName","sbtsv/ITsSbTargetEx::TargetName","sbtsv/ITsSbTargetEx::get_TargetName","sbtsv/ITsSbTargetEx::put_TargetName","termserv.itssbtarget_targetname"]
 old-location: termserv\itssbtarget_targetname.htm
 tech.root: TermServ

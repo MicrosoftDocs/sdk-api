@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IPSFactoryBuffer.CreateProxy
 title: IPSFactoryBuffer::CreateProxy (objidl.h)
-description: Creates a proxy for the specified remote interface.
+description: The IPSFactoryBuffer::CreateProxy method creates a proxy for the specified remote interface. 
 helpviewer_keywords: ["CreateProxy","CreateProxy method [COM]","CreateProxy method [COM]","IPSFactoryBuffer interface","IPSFactoryBuffer interface [COM]","CreateProxy method","IPSFactoryBuffer.CreateProxy","IPSFactoryBuffer::CreateProxy","_com_ipsfactorybuffer_createproxy","com.ipsfactorybuffer_createproxy","objidlbase/IPSFactoryBuffer::CreateProxy"]
 old-location: com\ipsfactorybuffer_createproxy.htm
 tech.root: com
 ms.assetid: 7d0638d9-50bc-47f3-8ebd-47bb5cbcab9c
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: CreateProxy, CreateProxy method [COM], CreateProxy method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateProxy method, IPSFactoryBuffer.CreateProxy, IPSFactoryBuffer::CreateProxy, _com_ipsfactorybuffer_createproxy, com.ipsfactorybuffer_createproxy, objidlbase/IPSFactoryBuffer::CreateProxy
 req.header: objidl.h
 req.include-header: ObjIdl.h

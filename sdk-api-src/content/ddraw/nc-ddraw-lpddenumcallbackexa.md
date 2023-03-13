@@ -1,7 +1,7 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKEXA
 title: LPDDENUMCALLBACKEXA (ddraw.h)
-description: The DDEnumCallbackEx function is an application-defined callback function for the DirectDrawEnumerateEx function.
+description: The DDEnumCallbackEx function is an application-defined callback function for the DirectDrawEnumerateEx function. (ANSI)
 helpviewer_keywords: ["DDEnumCallbackEx","DDEnumCallbackEx callback function [DirectDraw]","LPDDENUMCALLBACKEX","LPDDENUMCALLBACKEX callback","LPDDENUMCALLBACKEXA","LPDDENUMCALLBACKEXW","ddraw/DDEnumCallbackEx","directdraw.ddenumcallbackex"]
 old-location: directdraw\ddenumcallbackex.htm
 tech.root: directdraw

@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptEnumProvidersW
 title: CryptEnumProvidersW function (wincrypt.h)
-description: Important  This API is deprecated.
-helpviewer_keywords: ["CryptEnumProviders","CryptEnumProviders function [Security]","CryptEnumProvidersA","CryptEnumProvidersW","_crypto2_cryptenumproviders","security.cryptenumproviders","wincrypt/CryptEnumProviders","wincrypt/CryptEnumProvidersA","wincrypt/CryptEnumProvidersW"]
+description: Important  This API is deprecated. (CryptEnumProvidersW)
+helpviewer_keywords: ["CryptEnumProviders", "CryptEnumProviders function [Security]", "CryptEnumProvidersW", "_crypto2_cryptenumproviders", "security.cryptenumproviders", "wincrypt/CryptEnumProviders", "wincrypt/CryptEnumProvidersW"]
 old-location: security\cryptenumproviders.htm
 tech.root: security
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08

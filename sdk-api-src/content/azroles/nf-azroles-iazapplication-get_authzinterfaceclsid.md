@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_AuthzInterfaceClsid
 title: IAzApplication::get_AuthzInterfaceClsid (azroles.h)
-description: Sets or retrieves the class identifier (CLSID) of the interface that the user interface (UI) uses to perform application-specific operations.
+description: Sets or retrieves the class identifier (CLSID) of the interface that the user interface (UI) uses to perform application-specific operations. (Get)
 helpviewer_keywords: ["AuthzInterfaceClsid property [Security]","AuthzInterfaceClsid property [Security]","AzApplication object","AuthzInterfaceClsid property [Security]","IAzApplication interface","AzApplication object [Security]","AuthzInterfaceClsid property","IAzApplication interface [Security]","AuthzInterfaceClsid property","IAzApplication.AuthzInterfaceClsid","IAzApplication.get_AuthzInterfaceClsid","IAzApplication::AuthzInterfaceClsid","IAzApplication::get_AuthzInterfaceClsid","IAzApplication::put_AuthzInterfaceClsid","azroles/IAzApplication::AuthzInterfaceClsid","azroles/IAzApplication::get_AuthzInterfaceClsid","azroles/IAzApplication::put_AuthzInterfaceClsid","get_AuthzInterfaceClsid","security.iazapplication_authzinterfaceclsid"]
 old-location: security\iazapplication_authzinterfaceclsid.htm
 tech.root: security

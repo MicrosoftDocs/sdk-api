@@ -1,12 +1,12 @@
 ---
 UID: NS:mmreg.pcmwaveformat_tag
 title: PCMWAVEFORMAT (mmreg.h)
-description: The PCMWAVEFORMAT structure describes the data format for PCM waveform-audio data. This structure has been superseded by the WAVEFORMATEX structure.
+description: The PCMWAVEFORMAT structure describes the data format for PCM waveform-audio data. This structure is superseded by the WAVEFORMATEX structure. 
 helpviewer_keywords: ["*LPPCMWAVEFORMAT","*NPPCMWAVEFORMAT","*PPCMWAVEFORMAT","PCMWAVEFORMAT","PCMWAVEFORMAT structure [Windows Multimedia]","_win32_PCMWAVEFORMAT_str","mmeapi/PCMWAVEFORMAT","multimedia.pcmwaveformat","pcmwaveformat_tag"]
 old-location: multimedia\pcmwaveformat.htm
 tech.root: Multimedia
 ms.assetid: c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag'
 req.header: mmreg.h
 req.include-header: Mmreg.h, Windows.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Reset
 title: IEnumFORMATETC::Reset (objidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumFORMATETC.Reset)
 helpviewer_keywords: ["IEnumFORMATETC interface [COM]","Reset method","IEnumFORMATETC.Reset","IEnumFORMATETC::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumFORMATETC interface","_ole_ienumformatetc_reset","com.ienumformatetc_reset","objidl/IEnumFORMATETC::Reset"]
 old-location: com\ienumformatetc_reset.htm
 tech.root: com

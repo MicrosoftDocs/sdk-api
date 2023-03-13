@@ -98,7 +98,7 @@ If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-w
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>
 
 
 

@@ -56,7 +56,7 @@ Describes the size of a thumbnail image.
 
 ## -enum-fields
 
-### -field XPS_THUMBNAIL_SIZE_VERYSMALL
+### -field XPS_THUMBNAIL_SIZE_VERYSMALL:1
 
 The thumbnail image is 32 pixels wide and 32 pixels high.
 

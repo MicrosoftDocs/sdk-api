@@ -56,35 +56,35 @@ Indicates ambient properties supplied by the container. It is used in the <b>dwA
 
 ## -enum-fields
 
-### -field QACONTAINER_SHOWHATCHING
+### -field QACONTAINER_SHOWHATCHING:0x1
 
 Specifies the ShowHatching ambient property, which has a standard ambient DISPID of -712.
 
-### -field QACONTAINER_SHOWGRABHANDLES
+### -field QACONTAINER_SHOWGRABHANDLES:0x2
 
 Specifies the ShowGrabHandles ambient property, which has a standard ambient DISPID of -711.
 
-### -field QACONTAINER_USERMODE
+### -field QACONTAINER_USERMODE:0x4
 
 Specifies the UserMode ambient property, which has a standard ambient DISPID of -709.
 
-### -field QACONTAINER_DISPLAYASDEFAULT
+### -field QACONTAINER_DISPLAYASDEFAULT:0x8
 
 Specifies the DisplayAsDefault ambient property, which has a standard ambient DISPID of -713.
 
-### -field QACONTAINER_UIDEAD
+### -field QACONTAINER_UIDEAD:0x10
 
 Specifies the UIDead ambient property, which has a standard ambient DISPID of -710.
 
-### -field QACONTAINER_AUTOCLIP
+### -field QACONTAINER_AUTOCLIP:0x20
 
 Specifies the AutoClip ambient property, which has a standard ambient DISPID of -715.
 
-### -field QACONTAINER_MESSAGEREFLECT
+### -field QACONTAINER_MESSAGEREFLECT:0x40
 
 Specifies the MessageReflect ambient property, which has a standard ambient DISPID of -706.
 
-### -field QACONTAINER_SUPPORTSMNEMONICS
+### -field QACONTAINER_SUPPORTSMNEMONICS:0x80
 
 Specifies the SupportsMnemonics ambient property, which has a standard ambient DISPID of -714.
 

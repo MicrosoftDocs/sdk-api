@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqBeginRegisterWorkQueueWithMMCSS
 title: RtwqBeginRegisterWorkQueueWithMMCSS function (rtworkq.h)
-description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task. (RtwqBeginRegisterWorkQueueWithMMCSS)
 helpviewer_keywords: ["RtwqBeginRegisterWorkQueueWithMMCSS","RtwqBeginRegisterWorkQueueWithMMCSS function","base.rtwqbeginregisterworkqueuewithmmcss","rtworkq/RtwqBeginRegisterWorkQueueWithMMCSS"]
 old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm
 tech.root: backup

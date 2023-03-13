@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_MAP
 title: D3D11_MAP (d3d11.h)
-description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
+description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags. (D3D11_MAP)
 helpviewer_keywords: ["8c057b75-49d4-723a-fe77-d236c5e87682","D3D11_MAP","D3D11_MAP enumeration [Direct3D 11]","D3D11_MAP_READ","D3D11_MAP_READ_WRITE","D3D11_MAP_WRITE","D3D11_MAP_WRITE_DISCARD","D3D11_MAP_WRITE_NO_OVERWRITE","d3d11/D3D11_MAP","d3d11/D3D11_MAP_READ","d3d11/D3D11_MAP_READ_WRITE","d3d11/D3D11_MAP_WRITE","d3d11/D3D11_MAP_WRITE_DISCARD","d3d11/D3D11_MAP_WRITE_NO_OVERWRITE","direct3d11.d3d11_map"]
 old-location: direct3d11\d3d11_map.htm
 tech.root: direct3d11
@@ -54,27 +54,27 @@ Identifies a resource to be accessed for reading and writing by the CPU. Applica
 
 ## -enum-fields
 
-### -field D3D11_MAP_READ
+### -field D3D11_MAP_READ:1
 
 Resource is mapped for reading. The resource must have been created with read access 
       (see <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_READ</a>).
 
-### -field D3D11_MAP_WRITE
+### -field D3D11_MAP_WRITE:2
 
 Resource is mapped for writing. The resource must have been created with write 
       access (see <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_WRITE</a>).
 
-### -field D3D11_MAP_READ_WRITE
+### -field D3D11_MAP_READ_WRITE:3
 
 Resource is mapped for reading and writing. The resource must have been created with read and write 
       access (see <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_READ and D3D11_CPU_ACCESS_WRITE</a>).
 
-### -field D3D11_MAP_WRITE_DISCARD
+### -field D3D11_MAP_WRITE_DISCARD:4
 
 Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access 
       and dynamic usage (See <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_WRITE</a> and <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DYNAMIC</a>).
 
-### -field D3D11_MAP_WRITE_NO_OVERWRITE
+### -field D3D11_MAP_WRITE_NO_OVERWRITE:5
 
 Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and 
       index buffers. The resource must have been created with write access (see <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_WRITE</a>). 

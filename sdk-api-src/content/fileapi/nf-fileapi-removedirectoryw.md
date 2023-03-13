@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.RemoveDirectoryW
 title: RemoveDirectoryW function (fileapi.h)
-description: Deletes an existing empty directory.
-helpviewer_keywords: ["RemoveDirectory","RemoveDirectory function [Files]","RemoveDirectoryA","RemoveDirectoryW","_win32_removedirectory","base.removedirectory","fileapi/RemoveDirectory","fileapi/RemoveDirectoryA","fileapi/RemoveDirectoryW","fs.removedirectory","winbase/RemoveDirectory","winbase/RemoveDirectoryA","winbase/RemoveDirectoryW"]
+description: Deletes an existing empty directory. (Unicode)
+helpviewer_keywords: ["RemoveDirectory", "RemoveDirectory function [Files]", "RemoveDirectoryW", "_win32_removedirectory", "base.removedirectory", "fileapi/RemoveDirectory", "fileapi/RemoveDirectoryW", "fs.removedirectory"]
 old-location: fs\removedirectory.htm
 tech.root: fs
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578

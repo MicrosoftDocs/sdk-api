@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(GpRegion)
 title: Region::Region(GpRegion) (gdiplusheaders.h)
-description: Creates a region that is infinite. This is the default constructor.
+description: Creates a region that is infinite. This is the default constructor. (overload 1/3)
 helpviewer_keywords: ["Region","Region class [GDI+]","Region constructor","Region constructor [GDI+]","Region constructor [GDI+]","Region class","Region.Region","Region.Region()","Region.Region(GpRegion)","Region::Region","Region::Region(GpRegion)","_gdiplus_CLASS_Region_Region_","gdiplus._gdiplus_CLASS_Region_Region_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
 tech.root: gdiplus

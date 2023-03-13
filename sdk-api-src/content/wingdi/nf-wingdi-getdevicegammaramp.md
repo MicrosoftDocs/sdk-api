@@ -74,6 +74,15 @@ If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
+## Example
+
+```cpp
+WORD gArray[3][256];
+GetDeviceGammaRamp(handle, gArray);  
+// `handle` is the device context. See GetDC for more details.
+// `gArray` will hold the gamma array values in a 2-D array
+```
+
 ## -remarks
 
 Direct color display modes do not use color lookup tables and are usually 16, 24, or 32 bit. Not all direct color video boards support loadable gamma ramps. <b>GetDeviceGammaRamp</b> succeeds only for devices with drivers that support downloadable gamma ramps in hardware.

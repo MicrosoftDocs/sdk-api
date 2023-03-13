@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_DRIVE_LETTER_NOTIFICATION
 title: VDS_DRIVE_LETTER_NOTIFICATION (vds.h)
-description: Defines the details of drive-letter events.
+description: The VDS_DRIVE_LETTER_NOTIFICATION structure (vds.h) defines the details of drive-letter events.  
 helpviewer_keywords: ["VDS_DRIVE_LETTER_NOTIFICATION","VDS_DRIVE_LETTER_NOTIFICATION structure [VDS]","VDS_NF_DRIVE_LETTER_ASSIGN","VDS_NF_DRIVE_LETTER_FREE","base.vds_drive_letter_notification","vds/_VDS_DRIVE_LETTER_NOTIFICATION","vdshwprv/_VDS_DRIVE_LETTER_NOTIFICATION"]
 old-location: base\vds_drive_letter_notification.htm
 tech.root: base
 ms.assetid: d64d1ba6-88a2-4418-b32c-36a84e973a06
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_DRIVE_LETTER_NOTIFICATION, VDS_DRIVE_LETTER_NOTIFICATION structure [VDS], VDS_NF_DRIVE_LETTER_ASSIGN, VDS_NF_DRIVE_LETTER_FREE, base.vds_drive_letter_notification, vds/_VDS_DRIVE_LETTER_NOTIFICATION, vdshwprv/_VDS_DRIVE_LETTER_NOTIFICATION
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of drive-letter events.
 

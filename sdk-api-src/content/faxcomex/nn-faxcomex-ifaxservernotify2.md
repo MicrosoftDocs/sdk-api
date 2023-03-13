@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxServerNotify2
 title: IFaxServerNotify2 (faxcomex.h)
-description: The IFaxServerNotify2 interface is used for fax notifications.
+description: The IFaxServerNotify2 interface is used for fax notifications. (IIFaxServerNotify2)
 helpviewer_keywords: ["IFaxServerNotify2","IFaxServerNotify2 interface [Fax Service]","IFaxServerNotify2 interface [Fax Service]","described","IIFaxServerNotify2","_mfax_ifaxservernotify2","fax._mfax_ifaxservernotify2","faxcomex/IFaxServerNotify2"]
 old-location: fax\_mfax_ifaxservernotify2.htm
 tech.root: Fax

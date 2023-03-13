@@ -54,7 +54,7 @@ Specifies a type of descriptor heap.
 
 ## -enum-fields
 
-### -field D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV
+### -field D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV:0
 
 The descriptor heap for the combination of constant-buffer, shader-resource, and unordered-access views.
 

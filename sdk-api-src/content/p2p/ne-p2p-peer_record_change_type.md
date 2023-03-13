@@ -56,19 +56,19 @@ The <b>PEER_RECORD_CHANGE_TYPE</b> enumeration specifies the changes that can oc
 
 ## -enum-fields
 
-### -field PEER_RECORD_ADDED
+### -field PEER_RECORD_ADDED:1
 
 Indicates that the specified record is added to the peer graph or group.
 
-### -field PEER_RECORD_UPDATED
+### -field PEER_RECORD_UPDATED:2
 
 Indicates that the specified record is updated in the peer graph or group.
 
-### -field PEER_RECORD_DELETED
+### -field PEER_RECORD_DELETED:3
 
 Indicates that the specified record is deleted from the peer graph or group.
 
-### -field PEER_RECORD_EXPIRED
+### -field PEER_RECORD_EXPIRED:4
 
 Indicates that the specified record is expired and removed from the peer graph or group.
 

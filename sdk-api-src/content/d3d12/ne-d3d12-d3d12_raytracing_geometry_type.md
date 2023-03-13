@@ -54,7 +54,7 @@ Specifies the type of geometry used for raytracing. Use a value from this enumer
 
 ## -enum-fields
 
-### -field D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES
+### -field D3D12_RAYTRACING_GEOMETRY_TYPE_TRIANGLES:0
 
 The geometry consists of triangles.
 

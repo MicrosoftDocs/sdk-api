@@ -4,7 +4,7 @@ title: D3D11_1.h header
 ms.assetid: c0da217a-1a10-3d8d-abb1-427e5cd145f1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d11
 f1_keywords:
  - d3d11_1

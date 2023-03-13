@@ -4,7 +4,7 @@ title: D3D11Shadertracing.h header
 ms.assetid: 7194b51c-404a-32d5-b462-985ef4139fdf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d11
 f1_keywords:
  - d3d11shadertracing

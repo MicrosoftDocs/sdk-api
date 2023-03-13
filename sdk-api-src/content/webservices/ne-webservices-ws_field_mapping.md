@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_82
+UID: NE:webservices.WS_FIELD_MAPPING
 title: WS_FIELD_MAPPING (webservices.h)
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
 helpviewer_keywords: ["WS_ANY_ATTRIBUTES_FIELD_MAPPING","WS_ANY_CONTENT_FIELD_MAPPING","WS_ATTRIBUTE_FIELD_MAPPING","WS_ELEMENT_CHOICE_FIELD_MAPPING","WS_ELEMENT_FIELD_MAPPING","WS_FIELD_MAPPING","WS_FIELD_MAPPING enumeration [Web Services for Windows]","WS_NO_FIELD_MAPPING","WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","WS_REPEATING_ELEMENT_FIELD_MAPPING","WS_TEXT_FIELD_MAPPING","WS_TYPE_ATTRIBUTE_FIELD_MAPPING","WS_XML_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING","webservices/WS_ANY_CONTENT_FIELD_MAPPING","webservices/WS_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_ELEMENT_FIELD_MAPPING","webservices/WS_FIELD_MAPPING","webservices/WS_NO_FIELD_MAPPING","webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING","webservices/WS_TEXT_FIELD_MAPPING","webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING","webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING","wsw.ws_field_mapping"]
@@ -55,7 +55,7 @@ Specifies how a field of a structure is represented in XML.  This is used within
 
 ## -enum-fields
 
-### -field WS_TYPE_ATTRIBUTE_FIELD_MAPPING
+### -field WS_TYPE_ATTRIBUTE_FIELD_MAPPING:0
 
 The field corresponds to the XML type attribute (xsi:type).  This
                     can only be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DESCRIPTION_TYPE</a>.  
@@ -97,7 +97,7 @@ s.field = &amp;derived;
 
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_ATTRIBUTE_FIELD_MAPPING
+### -field WS_ATTRIBUTE_FIELD_MAPPING:1
 
 The field corresponds to a single attribute.
                 
@@ -131,7 +131,7 @@ To discard the attribute, a <a href="/windows/desktop/api/webservices/ne-webserv
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
 
-### -field WS_ELEMENT_FIELD_MAPPING
+### -field WS_ELEMENT_FIELD_MAPPING:2
 
 The field corresponds to a single element.
                 
@@ -167,7 +167,7 @@ To discard the element, a <a href="/windows/desktop/api/webservices/ne-webservic
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
 
-### -field WS_REPEATING_ELEMENT_FIELD_MAPPING
+### -field WS_REPEATING_ELEMENT_FIELD_MAPPING:3
 
 The field corresponds to a repeating set of elements.
                 
@@ -220,7 +220,7 @@ The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
-### -field WS_TEXT_FIELD_MAPPING
+### -field WS_TEXT_FIELD_MAPPING:4
 
 The field corresponds to the entire character content of the element.
                     When this mapping is used, child elements are not allowed.
@@ -247,7 +247,7 @@ s.field = 1;
 
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_NO_FIELD_MAPPING
+### -field WS_NO_FIELD_MAPPING:5
 
 The field is neither serialized or deserialized.
                 
@@ -285,8 +285,7 @@ s.field = 1;
 
 ```
 
-
-### -field WS_XML_ATTRIBUTE_FIELD_MAPPING
+### -field WS_XML_ATTRIBUTE_FIELD_MAPPING:6
 
 The field corresponds to a reserved xml attribute (such as xml:lang).
                 
@@ -321,8 +320,7 @@ s.field = ...; // 'true'
 &lt;Struct xml:space='true'&gt;
 ```
 
-
-### -field WS_ELEMENT_CHOICE_FIELD_MAPPING
+### -field WS_ELEMENT_CHOICE_FIELD_MAPPING:7
 
 The field corresponds to a choice among a set of possible
                     elements.  Each element maps to one of the fields of a union.
@@ -473,7 +471,7 @@ The selector value indicates which of the fields of the
                     consult the selector value to verify that a field of the
                     union is accessible.
 
-### -field WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING
+### -field WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING:8
 
 The field corresponds to a repeating set of element choices.
                 
@@ -536,9 +534,9 @@ The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
-### -field WS_ANY_ELEMENT_FIELD_MAPPING
+### -field WS_ANY_ELEMENT_FIELD_MAPPING:9
 
-### -field WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING
+### -field WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING:10
 
 The field is used to discard or store a sequence of elements
                     with any name and namespace.
@@ -585,7 +583,7 @@ The number of elements allowed during deserialization can be constrained
 
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_ANY_CONTENT_FIELD_MAPPING
+### -field WS_ANY_CONTENT_FIELD_MAPPING:11
 
 The field is used to discard or store any remaining content
                     (any mixture of text or elements) that occurs before the end 
@@ -625,7 +623,7 @@ To discard the elements, a <a href="/windows/desktop/api/webservices/ne-webservi
 
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-### -field WS_ANY_ATTRIBUTES_FIELD_MAPPING
+### -field WS_ANY_ATTRIBUTES_FIELD_MAPPING:12
 
 The field is used to discard or store any attributes which were not
                     mapped using other <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values. 
@@ -701,3 +699,4 @@ The <b>WS_FIELD_MAPPING</b> indicates how different parts of the XML content
 
 The order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
                 See <b>WS_STRUCT_DESCRIPTION</b> for more information on the ordering.
+

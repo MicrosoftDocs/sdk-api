@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateA
 title: MsiQueryFeatureStateA function (msi.h)
-description: The MsiQueryFeatureState function returns the installed state for a product feature.
-helpviewer_keywords: ["MsiQueryFeatureState","MsiQueryFeatureState function","MsiQueryFeatureStateA","MsiQueryFeatureStateW","_msi_msiqueryfeaturestate","msi/MsiQueryFeatureState","msi/MsiQueryFeatureStateA","msi/MsiQueryFeatureStateW","setup.msiqueryfeaturestate"]
+description: The MsiQueryFeatureState function returns the installed state for a product feature. (ANSI)
+helpviewer_keywords: ["MsiQueryFeatureStateA", "msi/MsiQueryFeatureStateA"]
 old-location: setup\msiqueryfeaturestate.htm
 tech.root: setup
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7

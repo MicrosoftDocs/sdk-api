@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineClassFactory.CreateInstance
 title: IMFCaptureEngineClassFactory::CreateInstance (mfcaptureengine.h)
-description: Creates an instance of the capture engine.
+description: Creates an instance of the capture engine. (IMFCaptureEngineClassFactory.CreateInstance)
 helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFCaptureEngineClassFactory interface","IMFCaptureEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFCaptureEngineClassFactory.CreateInstance","IMFCaptureEngineClassFactory::CreateInstance","mf.imfcaptureengineclassfactory_createinstance","mfcaptureengine/IMFCaptureEngineClassFactory::CreateInstance"]
 old-location: mf\imfcaptureengineclassfactory_createinstance.htm
 tech.root: mf

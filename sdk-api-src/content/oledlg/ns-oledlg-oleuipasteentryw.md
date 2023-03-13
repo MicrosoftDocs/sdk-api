@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYW
 title: OLEUIPASTEENTRYW (oledlg.h)
-description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
+description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUIPASTEENTRYW","*POLEUIPASTEENTRYW","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
 old-location: com\oleuipasteentry_struct.htm
 tech.root: com

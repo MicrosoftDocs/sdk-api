@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiUseFeatureExW
 title: MsiUseFeatureExW function (msi.h)
-description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
-helpviewer_keywords: ["INSTALLMODE_NODETECTION","MsiUseFeatureEx","MsiUseFeatureEx function","MsiUseFeatureExA","MsiUseFeatureExW","_msi_msiusefeatureex","msi/MsiUseFeatureEx","msi/MsiUseFeatureExA","msi/MsiUseFeatureExW","setup.msiusefeatureex"]
+description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature. (Unicode)
+helpviewer_keywords: ["INSTALLMODE_NODETECTION", "MsiUseFeatureEx", "MsiUseFeatureEx function", "MsiUseFeatureExW", "_msi_msiusefeatureex", "msi/MsiUseFeatureEx", "msi/MsiUseFeatureExW", "setup.msiusefeatureex"]
 old-location: setup\msiusefeatureex.htm
 tech.root: setup
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d

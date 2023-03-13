@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx~r1
 title: ILLoadFromStreamEx
-ms.date: 01/30/2019
+description: The ILLoadFromStreamEx function loads an ITEMIDLIST from an IStream. (ILLoadFromStreamEx r1)
+ms.date: 08/02/2022
 ms.keywords: ILLoadFromStreamEx
 targetos: Windows
 req.assembly: 

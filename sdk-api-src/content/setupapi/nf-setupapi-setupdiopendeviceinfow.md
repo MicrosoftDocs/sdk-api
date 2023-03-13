@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInfoW
 title: SetupDiOpenDeviceInfoW function (setupapi.h)
-description: The SetupDiOpenDeviceInfo function adds a device information element for a device instance to a device information set, if one does not already exist in the device information set, and retrieves information that identifies the device information element for the device instance in the device information set.
-helpviewer_keywords: ["SetupDiOpenDeviceInfo","SetupDiOpenDeviceInfo function [Device and Driver Installation]","SetupDiOpenDeviceInfoA","SetupDiOpenDeviceInfoW","devinst.setupdiopendeviceinfo","di-rtns_57646ff4-705a-46ff-9c51-49880bb19f90.xml","setupapi/SetupDiOpenDeviceInfo"]
+description: The SetupDiOpenDeviceInfo function adds a device information element for a device instance to a device information set, if one does not already exist in the device information set, and retrieves information that identifies the device information element for the device instance in the device information set. (Unicode)
+helpviewer_keywords: ["SetupDiOpenDeviceInfo", "SetupDiOpenDeviceInfo function [Device and Driver Installation]", "SetupDiOpenDeviceInfoW", "devinst.setupdiopendeviceinfo", "di-rtns_57646ff4-705a-46ff-9c51-49880bb19f90.xml", "setupapi/SetupDiOpenDeviceInfo"]
 old-location: devinst\setupdiopendeviceinfo.htm
 tech.root: devinst
 ms.assetid: 0c4a2d09-62b2-43ce-a202-aeb59248d9fc

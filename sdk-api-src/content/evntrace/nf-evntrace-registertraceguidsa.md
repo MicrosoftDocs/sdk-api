@@ -1,10 +1,7 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsA
 title: RegisterTraceGuidsA function (evntrace.h)
-description:
-  Registers a "Classic" (Windows 2000-style) ETW event trace provider and the
-  event trace classes that it uses to generate events. This function is
-  obsolete.
+description: The RegisterTraceGuidsA (ANSI) function (evntrace.h) is an obsolete function, and new code should use the provided alternative.
 helpviewer_keywords:
   [
     "RegisterTraceGuids",
@@ -21,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\registertraceguids.htm
 tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   RegisterTraceGuids, RegisterTraceGuids function [ETW], RegisterTraceGuidsA,
   RegisterTraceGuidsW, _evt_registertraceguids, base.registertraceguids,
@@ -183,7 +180,8 @@ call the
 [UnregisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-unregistertraceguids)
 function.
 
-> [!Important] All registration handles created by a DLL or driver must be
+> [!Important]
+> All registration handles created by a DLL or driver must be
 > unregistered before the DLL or driver unloads. If the provider is not
 > unregistered, a crash will occur when ETW tries to invoke the provider's
 > callback.
@@ -196,7 +194,8 @@ If the function fails, the return value is one of the
 [system error codes](/windows/win32/debug/system-error-codes). The following are
 some common errors and their causes.
 
-> [!Important] This function can also return the value returned by
+> [!Important]
+> This function can also return the value returned by
 > [ControlCallback](/windows/win32/api/evntrace/nc-evntrace-wmidprequest) if a
 > controller calls
 > [EnableTrace](/windows/win32/api/evntrace/nf-evntrace-enabletrace) to enable
@@ -217,7 +216,8 @@ some common errors and their causes.
 
 ## -remarks
 
-> [!Note] Most developers will not call this function directly. Instead,
+> [!Note]
+> Most developers will not call this function directly. Instead,
 > developers will typically use an ETW framework. For example, TMF-based WPP
 > manages the calls to **RegisterTraceGuids**, **TraceMessage**, and
 > **UnregisterTraceGuids** on your behalf.
@@ -230,7 +230,8 @@ WPP ETW events via
 [TraceMessage](/windows/win32/api/evntrace/nf-evntrace-tracemessage), and
 [TraceMessageVa](/windows/win32/api/evntrace/nf-evntrace-tracemessageva).
 
-> [!Note] To open a
+> [!Note]
+> To open a
 > [Windows Vista-style](/windows/win32/etw/writing-manifest-based-events)
 > provider handle that writes manifest-based or TraceLogging-based ETW events
 > via [EventWrite](/windows/win32/api/evntprov/nf-evntprov-eventwrite), use
@@ -253,7 +254,8 @@ process can register.
 For an example that uses **RegisterTraceGuids**, see
 [Writing Classic Events](/windows/win32/etw/tracing-events).
 
-> [!NOTE] The evntrace.h header defines RegisterTraceGuids as an alias which
+> [!NOTE]
+> The evntrace.h header defines RegisterTraceGuids as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

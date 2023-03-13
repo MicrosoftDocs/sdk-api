@@ -4,7 +4,7 @@ title: D3D12Video.h header
 ms.assetid: 
 ms.date: 03/19/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mf
 f1_keywords:
  - d3d12video

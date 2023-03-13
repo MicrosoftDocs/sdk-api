@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowExW
 title: CreateWindowExW function (winuser.h)
-description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.
-helpviewer_keywords: ["CreateWindowEx","CreateWindowEx function [Windows and Messages]","CreateWindowExA","CreateWindowExW","_win32_CreateWindowEx","_win32_createwindowex_cpp","winmsg.createwindowex","winui._win32_createwindowex","winuser/CreateWindowEx","winuser/CreateWindowExA","winuser/CreateWindowExW"]
+description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function. (Unicode)
+helpviewer_keywords: ["CreateWindowEx", "CreateWindowEx function [Windows and Messages]", "CreateWindowExW", "_win32_CreateWindowEx", "_win32_createwindowex_cpp", "winmsg.createwindowex", "winui._win32_createwindowex", "winuser/CreateWindowEx", "winuser/CreateWindowExW"]
 old-location: winmsg\createwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm
@@ -386,7 +386,7 @@ BOOL Create(
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
+<a href="/windows/win32/inputmsg/wm-parentnotify">WM_PARENTNOTIFY</a>
 
 
 

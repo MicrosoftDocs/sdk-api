@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.ClearRetrievalFilter
 title: ID3D12InfoQueue::ClearRetrievalFilter (d3d12sdklayers.h)
-description: Remove a retrieval filter from the top of the retrieval-filter stack.
+description: Remove a retrieval filter from the top of the retrieval-filter stack. (ID3D12InfoQueue.ClearRetrievalFilter)
 helpviewer_keywords: ["ClearRetrievalFilter","ClearRetrievalFilter method","ClearRetrievalFilter method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","ClearRetrievalFilter method","ID3D12InfoQueue.ClearRetrievalFilter","ID3D12InfoQueue::ClearRetrievalFilter","d3d12sdklayers/ID3D12InfoQueue::ClearRetrievalFilter","direct3d12.id3d12infoqueue_clearretrievalfilter"]
 old-location: direct3d12\id3d12infoqueue_clearretrievalfilter.htm
 tech.root: direct3d12

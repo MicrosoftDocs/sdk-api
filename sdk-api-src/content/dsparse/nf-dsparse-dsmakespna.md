@@ -1,8 +1,8 @@
 ---
 UID: NF:dsparse.DsMakeSpnA
 title: DsMakeSpnA function (dsparse.h)
-description: Constructs a service principal name (SPN) that identifies a service instance.
-helpviewer_keywords: ["DsMakeSpn","DsMakeSpn function [Active Directory]","DsMakeSpnA","DsMakeSpnW","_glines_dsmakespn","ad.dsmakespn","dsparse/DsMakeSpn","dsparse/DsMakeSpnA","dsparse/DsMakeSpnW"]
+description: Constructs a service principal name (SPN) that identifies a service instance. (ANSI)
+helpviewer_keywords: ["DsMakeSpnA", "dsparse/DsMakeSpnA"]
 old-location: ad\dsmakespn.htm
 tech.root: ad
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe

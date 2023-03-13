@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.hResultEx
 title: IWiaLogEx::hResultEx (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLogEx.hResultEx)
 helpviewer_keywords: ["IWiaLogEx interface [WIA]","hResultEx method","IWiaLogEx.hResultEx","IWiaLogEx::hResultEx","_wia_IWiaLogEx_hResultEx","hResultEx","hResultEx method [WIA]","hResultEx method [WIA]","IWiaLogEx interface","wia._wia_IWiaLogEx_hResultEx","wia_xp/IWiaLogEx::hResultEx"]
 old-location: wia\_wia_IWiaLogEx_hResultEx.htm
 tech.root: wia

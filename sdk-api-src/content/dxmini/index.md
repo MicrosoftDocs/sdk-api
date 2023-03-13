@@ -4,7 +4,7 @@ title: Dxmini.h header
 ms.assetid: 8e4ca689-3335-3709-8aaf-e8fe7148a45b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: display
 f1_keywords:
  - dxmini

@@ -4,7 +4,7 @@ title: Wbemcli.h header
 ms.assetid: 3329853a-ad21-3382-a214-ab37a51be85a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: msdtcwmi
 f1_keywords:
  - wbemcli
@@ -22,5 +22,5 @@ This header is used by multiple technologies. For more information, see:
 - [Remote Desktop Services](../_termserv/index.md)
 - [Windows Data Access Components WMI Provider](../_wdacwmiprov/index.md)
 - [Windows Management Instrumentation](../_wmi/index.md)
-- [Windows Sidebar](../_sidebar/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/sidebar/-sidebar-entry)
 

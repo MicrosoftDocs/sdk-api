@@ -1,12 +1,12 @@
 ---
 UID: NS:mmeapi.waveformat_tag
 title: WAVEFORMAT (mmeapi.h)
-description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
+description: The WAVEFORMAT structure describes the format of waveform-audio data. This structure has been superseded by the WAVEFORMATEX structure.
 helpviewer_keywords: ["*LPWAVEFORMAT","*NPWAVEFORMAT","*PWAVEFORMAT","WAVEFORMAT","WAVEFORMAT structure [Windows Multimedia]","WAVE_FORMAT_PCM","_win32_WAVEFORMAT_str","mmeapi/WAVEFORMAT","multimedia.waveformat","tWAVEFORMATEX"]
 old-location: multimedia\waveformat.htm
 tech.root: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX'
 req.header: mmeapi.h
 req.include-header: Mmreg.h

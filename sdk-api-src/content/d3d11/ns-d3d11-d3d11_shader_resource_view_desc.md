@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_SHADER_RESOURCE_VIEW_DESC
 title: D3D11_SHADER_RESOURCE_VIEW_DESC (d3d11.h)
-description: Describes a shader-resource view.
+description: Describes a shader-resource view. (D3D11_SHADER_RESOURCE_VIEW_DESC)
 helpviewer_keywords: ["13e27562-b43d-82ba-4ced-1227c27884e5","D3D11_SHADER_RESOURCE_VIEW_DESC","D3D11_SHADER_RESOURCE_VIEW_DESC structure [Direct3D 11]","d3d11/D3D11_SHADER_RESOURCE_VIEW_DESC","direct3d11.d3d11_shader_resource_view_desc"]
 old-location: direct3d11\d3d11_shader_resource_view_desc.htm
 tech.root: direct3d11

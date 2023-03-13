@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_DSV
 title: D3D10_TEX1D_DSV (d3d10.h)
-description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view.
+description: Specifies the subresource from a 1D texture that is accessible to a depth-stencil view. (D3D10_TEX1D_DSV)
 helpviewer_keywords: ["11f3ace2-fb36-9637-6055-c218eefac753","D3D10_TEX1D_DSV","D3D10_TEX1D_DSV structure [Direct3D 10]","d3d10/D3D10_TEX1D_DSV","direct3d10.d3d10_tex1d_dsv"]
 old-location: direct3d10\d3d10_tex1d_dsv.htm
 tech.root: direct3d10

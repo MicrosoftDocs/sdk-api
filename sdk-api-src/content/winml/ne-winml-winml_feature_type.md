@@ -58,7 +58,7 @@ Specifies the different types of WinML features.
 
 ## -enum-fields
 
-### -field WINML_FEATURE_UNDEFINED
+### -field WINML_FEATURE_UNDEFINED:0
 
 ### -field WINML_FEATURE_TENSOR
 

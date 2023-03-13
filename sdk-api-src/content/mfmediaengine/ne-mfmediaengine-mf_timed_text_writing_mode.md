@@ -54,31 +54,31 @@ Specifies the sequence in which text is written on its parent element.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_WRITING_MODE_LRTB
+### -field MF_TIMED_TEXT_WRITING_MODE_LRTB:0
 
 Text is written from left to right and top to bottom.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_RLTB
+### -field MF_TIMED_TEXT_WRITING_MODE_RLTB:1
 
 Text is written from right to left and top to bottom.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_TBRL
+### -field MF_TIMED_TEXT_WRITING_MODE_TBRL:2
 
 Text is written from top to bottom and right to left.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_TBLR
+### -field MF_TIMED_TEXT_WRITING_MODE_TBLR:3
 
 Text is written from top to bottom and left to right.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_LR
+### -field MF_TIMED_TEXT_WRITING_MODE_LR:4
 
 Text is written from left to right.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_RL
+### -field MF_TIMED_TEXT_WRITING_MODE_RL:5
 
 Text is written from right to left.
 
-### -field MF_TIMED_TEXT_WRITING_MODE_TB
+### -field MF_TIMED_TEXT_WRITING_MODE_TB:6
 
 Text is written from top to bottom.
 

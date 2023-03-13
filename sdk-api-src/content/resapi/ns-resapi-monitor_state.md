@@ -1,12 +1,12 @@
 ---
 UID: NS:resapi.MONITOR_STATE
 title: MONITOR_STATE (resapi.h)
-description: TBD.
+description: The MONITOR_STATE structure is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["*PMONITOR_STATE","MONITOR_STATE","MONITOR_STATE structure [Failover Cluster]","PMONITOR_STATE","PMONITOR_STATE structure pointer [Failover Cluster]","mscs.monitor_state","resapi/MONITOR_STATE","resapi/PMONITOR_STATE"]
 old-location: mscs\monitor_state.htm
 tech.root: MsCS
 ms.assetid: 2e5a1c19-4382-42de-8535-4bcf57a9b845
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE'
 req.header: resapi.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.Resolve
 title: IShellLinkW::Resolve (shobjidl_core.h)
-description: Attempts to find the target of a Shell link, even if it has been moved or renamed.
+description: Attempts to find the target of a Shell link, even if it has been moved or renamed. (Unicode)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","Resolve method","IShellLink::Resolve","IShellLinkA interface [Windows Shell]","Resolve method","IShellLinkA::Resolve","IShellLinkW interface [Windows Shell]","Resolve method","IShellLinkW.Resolve","IShellLinkW::Resolve","Resolve","Resolve method [Windows Shell]","Resolve method [Windows Shell]","IShellLink interface","Resolve method [Windows Shell]","IShellLinkA interface","Resolve method [Windows Shell]","IShellLinkW interface","SLR_ANY_MATCH","SLR_INVOKE_MSI","SLR_KNOWNFOLDER","SLR_MACHINE_IN_LOCAL_TARGET","SLR_NOLINKINFO","SLR_NOSEARCH","SLR_NOTRACK","SLR_NOUPDATE","SLR_NO_UI","SLR_NO_UI_WITH_MSG_PUMP","SLR_OFFER_DELETE_WITHOUT_FILE","SLR_UPDATE","SLR_UPDATE_MACHINE_AND_SID","_win32_IShellLink_Resolve","shell.IShellLink_Resolve","shobjidl_core/IShellLink::Resolve","shobjidl_core/IShellLinkA::Resolve","shobjidl_core/IShellLinkW::Resolve"]
 old-location: shell\IShellLink_Resolve.htm
 tech.root: shell

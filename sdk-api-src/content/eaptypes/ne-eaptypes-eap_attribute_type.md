@@ -58,7 +58,7 @@ Further details for values in this enumerated type are obtained by referring to 
 
 ## -enum-fields
 
-### -field eatMinimum
+### -field eatMinimum:0
 
 Specifies a value equal to zero, and used as the <b>NULL</b> terminator in any array of 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures. 
@@ -122,7 +122,7 @@ Specifies the IP network mask for a user that is a router to a network. For more
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatFramedRouting
+### -field eatFramedRouting:10
 
 Specifies the routing method for a user that is a router to a network. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -189,7 +189,7 @@ Specifies a callback number. The <b>pValue</b> member  of
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
-### -field eatCallbackId
+### -field eatCallbackId:20
 
 Specifies a location to call back. The value of this attribute is interpreted by the NAS. The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
@@ -328,7 +328,7 @@ Specifies an action the server performs when time the connection terminates. Ref
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatCalledStationId
+### -field eatCalledStationId:30
 
 Specifies the phone number called using Dialed Number Identification (DNIS) or similar technology. The phone number called by the user may be different than the phone number from which the call originated. This attribute type may also be used to store other types of information, such as MAC addresses. The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="https://www.ietf.org/rfc/rfc3580.txt">RFC 3580</a>.
@@ -387,7 +387,7 @@ Specifies the AppleTalk default zone for the user. For more information, see
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatAcctStatusType
+### -field eatAcctStatusType:40
 
 Specifies whether the accounting provider should start or stop accounting for the user. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
@@ -457,7 +457,7 @@ Specifies how the current accounting session was terminated. For more informatio
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatAcctMultiSessionId
+### -field eatAcctMultiSessionId:50
 
 Specifies a value to enable the identification of related accounting sessions within a log file. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
@@ -471,13 +471,13 @@ Specifies the number of links if the current accounting session is using a multi
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatAcctEventTimeStamp
+### -field eatAcctEventTimeStamp:55
 
 Specifies an attribute that is included in an accounting request packet. It specifies the time that the event took place. For more information, see <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatMD5CHAPChallenge
+### -field eatMD5CHAPChallenge:60
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
@@ -526,7 +526,7 @@ Points to the address of the server end of the tunnel.
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatARAPPassword
+### -field eatARAPPassword:70
 
 Specifies a password to use for AppleTalk Remote Access Protocol (ARAP) authentication. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
@@ -596,28 +596,28 @@ Specifies that EAP information be sent directly between the user and the authent
 
 This attribute type is consumed by PPP server supplicants.
 
-### -field eatSignature
+### -field eatSignature:80
 
 Specifies a signature to include with CHAP, EAP, or ARAP packets. For more information, 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatARAPChallengeResponse
+### -field eatARAPChallengeResponse:84
 
 Specifies the response to a Apple Remote Access Protocol (ARAP) challenge. In ARAP, either the server or the client may respond to challenges. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatAcctInterimInterval
+### -field eatAcctInterimInterval:85
 
 Specifies the time, in seconds, between accounting updates. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
 
 This attribute type is not used by EAPHost methods or supplicants.
 
-### -field eatNASIPv6Address
+### -field eatNASIPv6Address:95
 
 The IPv6 address of the NAS requesting user authentication. This address should be unique to the NAS within the scope of the RADIUS server. The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see <a href="https://www.ietf.org/rfc/rfc3162.txt">RFC 3162</a>.
@@ -644,7 +644,7 @@ Not used.
 
 Not used.
 
-### -field eatARAPGuestLogon
+### -field eatARAPGuestLogon:8096
 
 Specifies a Apple Remote Access Protocol (ARAP) guest logon. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2869.txt">RFC 2869</a>.
@@ -669,18 +669,18 @@ The identifier of the inner EAP method used in PEAP authentication.  The <b>pVal
 
 This attribute type is exported  by PEAP methods and is not consumed by any supplicant.
 
-### -field eatPEAPFastRoamedSession
+### -field eatPEAPFastRoamedSession:8100
 
 Specifies whether PEAP fast reconnect is used by the authenticator.  The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD.  If  <b>pValue</b> points to 0, then fast reconnect is not used by the authenticator. If <b>pValue</b> points to a nonzero value, then fast reconnect is used by the authenticator.
 
 This attribute type is exported  by PEAP methods and consumed by PPP client supplicants.
 
-### -field eatFastRoamedSession
+### -field eatFastRoamedSession:8100
 
 TBD
 
-### -field eatEAPTLV
+### -field eatEAPTLV:8102
 
 An EAP-TLV attribute. This attribute type is used to handle statement of health (SoH) requests and SoH responses from the server. 
 
@@ -754,25 +754,25 @@ The inner EAP method used inside native tunnel methods. The <b>pValue</b> member
 
 This attribute type is exported by EAP methods.
 
-### -field eatClearTextPassword
+### -field eatClearTextPassword:8107
 
 The password, in clear text, of the user to be authenticated. This attribute type is sent by EAP methods that use EAPHost to raise the identity user interface. The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure. 
 
 This attribute type is exported by EAPHost.
 
-### -field eatQuarantineSoH
+### -field eatQuarantineSoH:8150
 
 Contains SoH request and response information used during EAP authentication.  The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string.  
 
 This attribute type is exported by EAPHost and PEAP methods, and consumed by PPP server supplicants.
 
-### -field eatCertificateThumbprint
+### -field eatCertificateThumbprint:8250
 
 TBD
 
-### -field eatPeerId
+### -field eatPeerId:9000
 
 The peer identity provided in the identity response message (EAP-Response/Identity). This identity may be different than the peer identity authenticated by the EAP method.   The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to an ASCII string. The string will be <b>NULL</b> if the EAP peer identity does not exist. For more information, see the <a href="https://www.ietf.org/">Key Management Framework draft specification</a>. 

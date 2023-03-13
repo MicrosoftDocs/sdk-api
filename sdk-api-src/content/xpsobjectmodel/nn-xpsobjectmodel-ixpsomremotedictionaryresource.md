@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMRemoteDictionaryResource interface
 
-
 ## -description
 
 Provides an interface that enables pages in an XPS package to  share resources.

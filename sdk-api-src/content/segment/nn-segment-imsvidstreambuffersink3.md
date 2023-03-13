@@ -61,7 +61,7 @@ The <b>IMSVidStreamBufferSink3</b> interface represents the Stream Buffer Sink f
 
 The <b>IMSVidStreamBufferSink3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2</a>. <b>IMSVidStreamBufferSink3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

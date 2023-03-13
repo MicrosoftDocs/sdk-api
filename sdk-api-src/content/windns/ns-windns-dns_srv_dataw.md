@@ -1,7 +1,7 @@
 ---
-UID: NS:windns.__unnamed_struct_30
+UID: NS:windns.DNS_SRV_DATAW
 title: DNS_SRV_DATAW (windns.h)
-description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
+description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782. (Unicode)
 helpviewer_keywords: ["*PDNS_SRV_DATA","*PDNS_SRV_DATAW","DNS_SRV_DATA","DNS_SRV_DATA structure [DNS]","DNS_SRV_DATAW","PDNS_SRV_DATA","PDNS_SRV_DATA structure pointer [DNS]","_dns_dns_srv_data","dns.dns_srv_data","windns/DNS_SRV_DATA","windns/PDNS_SRV_DATA"]
 old-location: dns\dns_srv_data.htm
 tech.root: DNS

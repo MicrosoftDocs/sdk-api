@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RetrieveRequestedAttrs
 title: ITextStoreACP2::RetrieveRequestedAttrs (textstor.h)
-description: Gets the attributes returned by a call to an attribute request method.
+description: Gets the attributes returned by a call to an attribute request method. (ITextStoreACP2.RetrieveRequestedAttrs)
 helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","RetrieveRequestedAttrs method","ITextStoreACP2.RetrieveRequestedAttrs","ITextStoreACP2::RetrieveRequestedAttrs","RetrieveRequestedAttrs","RetrieveRequestedAttrs method [Text Services Framework]","RetrieveRequestedAttrs method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::RetrieveRequestedAttrs","tsf.itextstoreacp2_retrieverequestedattrs"]
 old-location: tsf\itextstoreacp2_retrieverequestedattrs.htm
 tech.root: TSF

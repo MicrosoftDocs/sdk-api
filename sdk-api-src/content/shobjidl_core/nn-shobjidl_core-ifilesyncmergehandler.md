@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFileSyncMergeHandler
 title: IFileSyncMergeHandler (shobjidl_core.h)
-description: .
+description: . (IFileSyncMergeHandler)
 helpviewer_keywords: ["IFileSyncMergeHandler","IFileSyncMergeHandler interface [Windows Shell]","IFileSyncMergeHandler interface [Windows Shell]","described","shell.IFileSyncMergeHandler","shobjidl_core/IFileSyncMergeHandler"]
 old-location: shell\IFileSyncMergeHandler.htm
 tech.root: shell

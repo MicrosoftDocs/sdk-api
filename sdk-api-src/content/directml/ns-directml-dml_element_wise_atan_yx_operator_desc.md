@@ -46,16 +46,13 @@ api_name:
 
 Computes the 2-argument arctangent for each element of *ATensor* and *BTensor*, where *ATensor* is the *Y-axis* and *BTensor* is the *X-axis*, placing the result into the corresponding element of *OutputTensor*. This operator is undefined for the origin (that is, when *ATensor* and *BTensor* are both 0 for corresponding elements).
 
-![GRU_Forward](../images/atan2.png)
+![GRU_Forward](/windows/win32/api/directml/images/atan2.png)
 
 ```
 f(y, x) = atan2(y, x)
 ```
 
 This operator supports in-place execution, meaning that the output tensor is permitted to alias *ATensor* or *BTensor* during binding.
-
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.5 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
 
 ## -struct-fields
 

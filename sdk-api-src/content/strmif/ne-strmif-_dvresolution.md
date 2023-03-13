@@ -54,19 +54,19 @@ Indicates the digital video (DV) decoding resolution.
 
 ## -enum-fields
 
-### -field DVRESOLUTION_FULL
+### -field DVRESOLUTION_FULL:1000
 
 Decode at full size.
 
-### -field DVRESOLUTION_HALF
+### -field DVRESOLUTION_HALF:1001
 
 Decode at half size.
 
-### -field DVRESOLUTION_QUARTER
+### -field DVRESOLUTION_QUARTER:1002
 
 Decode at quarter size.
 
-### -field DVRESOLUTION_DC
+### -field DVRESOLUTION_DC:1003
 
 Decode at one-eighth size.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterArrayW
 title: PdhGetFormattedCounterArrayW function (pdh.h)
-description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
-helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhGetFormattedCounterArray","PdhGetFormattedCounterArray function [Perf]","PdhGetFormattedCounterArrayA","PdhGetFormattedCounterArrayW","_win32_pdhgetformattedcounterarray","base.pdhgetformattedcounterarray","pdh/PdhGetFormattedCounterArray","pdh/PdhGetFormattedCounterArrayA","pdh/PdhGetFormattedCounterArrayW","perf.pdhgetformattedcounterarray"]
+description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name. (Unicode)
+helpviewer_keywords: ["PDH_FMT_1000", "PDH_FMT_DOUBLE", "PDH_FMT_LARGE", "PDH_FMT_LONG", "PDH_FMT_NOCAP100", "PDH_FMT_NOSCALE", "PdhGetFormattedCounterArray", "PdhGetFormattedCounterArray function [Perf]", "PdhGetFormattedCounterArrayW", "_win32_pdhgetformattedcounterarray", "base.pdhgetformattedcounterarray", "pdh/PdhGetFormattedCounterArray", "pdh/PdhGetFormattedCounterArrayW", "perf.pdhgetformattedcounterarray"]
 old-location: perf\pdhgetformattedcounterarray.htm
 tech.root: perf
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996

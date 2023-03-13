@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsControllerControllerPort
 title: IVdsControllerControllerPort (vds.h)
-description: Provides a method to enumerate controller ports for a class implementing the IVdsController interface. This is needed to support MPIO.
+description: The IVdsControllerControllerPort interface (vds.h) provides a method to enumerate controller ports for a class implementing the IVdsController interface.
 helpviewer_keywords: ["IVdsControllerControllerPort","IVdsControllerControllerPort interface [VDS]","IVdsControllerControllerPort interface [VDS]","described","base.ivdscontrollercontrollerport","vds/IVdsControllerControllerPort","vdshwprv/IVdsControllerControllerPort"]
 old-location: base\ivdscontrollercontrollerport.htm
 tech.root: base
 ms.assetid: 15b09f97-c729-4687-a62c-dac57661f8c0
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerControllerPort, IVdsControllerControllerPort interface [VDS], IVdsControllerControllerPort interface [VDS],described, base.ivdscontrollercontrollerport, vds/IVdsControllerControllerPort, vdshwprv/IVdsControllerControllerPort
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to enumerate controller ports for a class implementing the 
    <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontroller">IVdsController</a> interface. This is needed to support 

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOW
 title: NMTTDISPINFOW (commctrl.h)
-description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
+description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure. (Unicode)
 helpviewer_keywords: ["*LPNMTTDISPINFOW","LPNMTTDISPINFO","LPNMTTDISPINFO structure pointer [Windows Controls]","NMTTDISPINFO","NMTTDISPINFO structure [Windows Controls]","NMTTDISPINFOA","NMTTDISPINFOW","TTF_DI_SETITEM","TTF_IDISHWND","TTF_RTLREADING","_win32_NMTTDISPINFO","_win32_NMTTDISPINFO_cpp","commctrl/LPNMTTDISPINFO","commctrl/NMTTDISPINFO","commctrl/NMTTDISPINFOA","commctrl/NMTTDISPINFOW","controls.NMTTDISPINFO","controls._win32_NMTTDISPINFO"]
 old-location: controls\NMTTDISPINFO.htm
 tech.root: Controls

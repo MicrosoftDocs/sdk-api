@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_2
+UID: NS:lpmapi.RSVP_SESSION
 title: RSVP_SESSION (lpmapi.h)
 description: The RSVP_SESSION structure stores information about an RSVP SESSION message.
 helpviewer_keywords: ["RSVP_SESSION","RSVP_SESSION structure [QOS]","lpmapi/RSVP_SESSION","qos.rsvp_session"]
@@ -74,3 +74,4 @@ Session information, in the form of a <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>
+

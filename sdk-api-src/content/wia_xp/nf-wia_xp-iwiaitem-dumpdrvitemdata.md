@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpDrvItemData
 title: IWiaItem::DumpDrvItemData (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaItem.DumpDrvItemData)
 helpviewer_keywords: ["DumpDrvItemData","DumpDrvItemData method [WIA]","DumpDrvItemData method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","DumpDrvItemData method","IWiaItem.DumpDrvItemData","IWiaItem::DumpDrvItemData","_wia_IWiaItem_DumpDrvItemData","wia._wia_IWiaItem_DumpDrvItemData","wia_xp/IWiaItem::DumpDrvItemData"]
 old-location: wia\_wia_IWiaItem_DumpDrvItemData.htm
 tech.root: wia

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_KeyInfoA
 title: SecPkgContext_KeyInfoA (sspi.h)
-description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
+description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context. (ANSI)
 helpviewer_keywords: ["*PSecPkgContext_KeyInfoA","PSecPkgContext_KeyInfo","PSecPkgContext_KeyInfo structure pointer [Security]","SecPkgContext_KeyInfo","SecPkgContext_KeyInfo structure [Security]","SecPkgContext_KeyInfoA","SecPkgContext_KeyInfoW","_ssp_secpkgcontext_keyinfo","security.secpkgcontext_keyinfo","sspi/PSecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfoA","sspi/SecPkgContext_KeyInfoW"]
 old-location: security\secpkgcontext_keyinfo.htm
 tech.root: security

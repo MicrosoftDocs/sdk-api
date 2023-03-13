@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiGetClassPropertyKeysEx","SetupDiGetClassPropertyKe
 old-location: devinst\setupdigetclasspropertykeysex.htm
 tech.root: devinst
 ms.assetid: dde6fdbd-e189-4ec7-95c7-b655ea7083c1
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetClassPropertyKeysEx, SetupDiGetClassPropertyKeysEx function [Device and Driver Installation], SetupDiGetClassPropertyKeysExW, devinst.setupdigetclasspropertykeysex, di-rtns_3f3e4cd6-af28-409f-8e1e-7e06067d7082.xml, setupapi/SetupDiGetClassPropertyKeysEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -92,6 +92,9 @@ One of the following values, which specifies whether to retrieve class property 
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the UNC name, including the "\\" prefix, of a computer. The pointer can be <b>NULL</b>. If the pointer is <b>NULL</b>, <b>SetupDiGetClassPropertyKeysEx</b> retrieves the requested information from the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

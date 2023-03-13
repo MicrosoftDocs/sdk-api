@@ -1,6 +1,6 @@
 ---
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
-title: PROCESS_INFORMATION_CLASS
+title: PROCESS_INFORMATION_CLASS (processthreadsapi.h)
 ms.date: 05/05/2020
 targetos: Windows
 description: Indicates a specific class of process information.
@@ -13,7 +13,7 @@ req.kmdf-ver:
 req.max-support: 
 req.target-min-winverclnt: Windows Build 22000
 req.target-min-winversvr: Windows Build 22000
-req.target-type: 
+req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:
@@ -33,6 +33,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# PROCESS_INFORMATION_CLASS enumeration
 
 ## -description
 
@@ -87,3 +89,5 @@ The maximum value for this enumeration. This value may change in a future versio
 ## -remarks
 
 ## -see-also
+
+[GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md), [PROCESS_MACHINE_INFORMATION structure](ns-processthreadsapi-process_machine_information.md), [PROCESS_MEMORY_EXHAUSTION_INFO structure](ns-processthreadsapi-process_memory_exhaustion_info.md)

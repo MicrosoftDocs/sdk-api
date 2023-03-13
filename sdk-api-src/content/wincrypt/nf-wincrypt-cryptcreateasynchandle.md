@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptCreateAsyncHandle
 title: CryptCreateAsyncHandle
-ms.date: 4/26/2019
+description: The CryptCreateAsyncHandle function (wincrypt.h) creates an async handle.
+ms.date: 08/03/2022
 ms.keywords: CryptCreateAsyncHandle
 targetos: Windows
 req.assembly: 

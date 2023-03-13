@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupImported.put_OverwriteOnCommit
 title: IFsrmFileGroupImported::put_OverwriteOnCommit (fsrmscreen.h)
-description: Retrieves or sets a value that determines whether a file group is overwritten if it exists.
+description: Retrieves or sets a value that determines whether a file group is overwritten if it exists. (Put)
 helpviewer_keywords: ["IFsrmFileGroupImported interface [File Server Resource Manager]","OverwriteOnCommit property","IFsrmFileGroupImported.OverwriteOnCommit","IFsrmFileGroupImported.put_OverwriteOnCommit","IFsrmFileGroupImported::OverwriteOnCommit","IFsrmFileGroupImported::get_OverwriteOnCommit","IFsrmFileGroupImported::put_OverwriteOnCommit","OverwriteOnCommit property [File Server Resource Manager]","OverwriteOnCommit property [File Server Resource Manager]","IFsrmFileGroupImported interface","fs.ifsrmfilegroupimported_overwriteoncommit","fsrm.ifsrmfilegroupimported_overwriteoncommit","fsrmscreen/IFsrmFileGroupImported::OverwriteOnCommit","fsrmscreen/IFsrmFileGroupImported::get_OverwriteOnCommit","fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit","put_OverwriteOnCommit"]
 old-location: fsrm\ifsrmfilegroupimported_overwriteoncommit.htm
 tech.root: fsrm

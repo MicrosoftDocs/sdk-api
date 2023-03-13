@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceLanguagesExW
 title: EnumResourceLanguagesExW function (libloaderapi.h)
-description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration.
-helpviewer_keywords: ["EnumResourceLanguagesEx","EnumResourceLanguagesEx function [Menus and Other Resources]","EnumResourceLanguagesExA","EnumResourceLanguagesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_MUI_SYSTEM","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceLanguagesEx","_win32_enumresourcelanguagesex_cpp","libloaderapi/EnumResourceLanguagesEx","libloaderapi/EnumResourceLanguagesExA","libloaderapi/EnumResourceLanguagesExW","menurc.enumresourcelanguagesex","winui._win32_enumresourcelanguagesex"]
+description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration. (Unicode)
+helpviewer_keywords: ["EnumResourceLanguagesEx", "EnumResourceLanguagesEx function [Menus and Other Resources]", "EnumResourceLanguagesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_MUI_SYSTEM", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceLanguagesEx", "_win32_enumresourcelanguagesex_cpp", "libloaderapi/EnumResourceLanguagesEx", "libloaderapi/EnumResourceLanguagesExW", "menurc.enumresourcelanguagesex", "winui._win32_enumresourcelanguagesex"]
 old-location: menurc\enumresourcelanguagesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguagesex.htm

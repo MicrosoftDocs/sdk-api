@@ -54,1068 +54,1068 @@ The <b>CERTENROLL_OBJECTID</b> enumeration type contains the predefined object i
 
 ## -enum-fields
 
-### -field XCN_OID_NONE
+### -field XCN_OID_NONE:0
 
 No OID is defined.
 
-### -field XCN_OID_RSA
+### -field XCN_OID_RSA:1
 
 (1.2.840.113549)
 
 Identifies the top level OID for RSA laboratories.
 
-### -field XCN_OID_PKCS
+### -field XCN_OID_PKCS:2
 
 (1.2.840.113549.1)
 
 Identifies the top level public key cryptography standard (PKCS) OID.
 
-### -field XCN_OID_RSA_HASH
+### -field XCN_OID_RSA_HASH:3
 
 (1.2.840.113549.2)
 
 Identifies an RSA hashing algorithm.
 
-### -field XCN_OID_RSA_ENCRYPT
+### -field XCN_OID_RSA_ENCRYPT:4
 
 (1.2.840.113549.3)
 
 Identifies an RSA encryption algorithm.
 
-### -field XCN_OID_PKCS_1
+### -field XCN_OID_PKCS_1:5
 
 (1.2.840.113549.1.1)
 
 Identifies the PKCS #1 standard.
 
-### -field XCN_OID_PKCS_2
+### -field XCN_OID_PKCS_2:6
 
 (1.2.840.113549.1.2)
 
 Identifies the PKCS #2 standard.
 
-### -field XCN_OID_PKCS_3
+### -field XCN_OID_PKCS_3:7
 
 (1.2.840.113549.1.3)
 
 Identifies the PKCS #3 standard.
 
-### -field XCN_OID_PKCS_4
+### -field XCN_OID_PKCS_4:8
 
 (1.2.840.113549.1.4)
 
 Identifies the PKCS #4 standard.
 
-### -field XCN_OID_PKCS_5
+### -field XCN_OID_PKCS_5:9
 
 (1.2.840.113549.1.5)
 
 Identifies the PKCS #5 standard.
 
-### -field XCN_OID_PKCS_6
+### -field XCN_OID_PKCS_6:10
 
 (1.2.840.113549.1.6)
 
 Identifies the PKCS #6 standard.
 
-### -field XCN_OID_PKCS_7
+### -field XCN_OID_PKCS_7:11
 
 (1.2.840.113549.1.7)
 
 Identifies the PKCS #7 standard.
 
-### -field XCN_OID_PKCS_8
+### -field XCN_OID_PKCS_8:12
 
 (1.2.840.113549.1.8)
 
 Identifies the PKCS #8 standard.
 
-### -field XCN_OID_PKCS_9
+### -field XCN_OID_PKCS_9:13
 
 (1.2.840.113549.1.9)
 
 Identifies the PKCS #9 standard.
 
-### -field XCN_OID_PKCS_10
+### -field XCN_OID_PKCS_10:14
 
 (1.2.840.113549.1.10)
 
 Identifies the PKCS #10 standard.
 
-### -field XCN_OID_PKCS_12
+### -field XCN_OID_PKCS_12:15
 
 (1.2.840.113549.1.12)
 
 Identifies the PKCS #12 standard.
 
-### -field XCN_OID_RSA_RSA
+### -field XCN_OID_RSA_RSA:16
 
 (1.2.840.113549.1.1.1)
 
 Identifies an RSA encryption or signing algorithm.
 
-### -field XCN_OID_RSA_MD2RSA
+### -field XCN_OID_RSA_MD2RSA:17
 
 (1.2.840.113549.1.1.2)
 
 Identifies an RSA asymmetric algorithm combined with an MD2 hashing algorithm.
 
-### -field XCN_OID_RSA_MD4RSA
+### -field XCN_OID_RSA_MD4RSA:18
 
 (1.2.840.113549.1.1.3)
 
 Identifies an RSA asymmetric algorithm combined with an MD4 hashing algorithm.
 
-### -field XCN_OID_RSA_MD5RSA
+### -field XCN_OID_RSA_MD5RSA:19
 
 (1.2.840.113549.1.1.4)
 
 Identifies an RSA asymmetric algorithm combined with an MD5 hashing algorithm.
 
-### -field XCN_OID_RSA_SHA1RSA
+### -field XCN_OID_RSA_SHA1RSA:20
 
 (1.2.840.113549.1.1.5)
 
 Identifies an RSA asymmetric algorithm combined with an MD5 hashing algorithm.
 
-### -field XCN_OID_RSA_SETOAEP_RSA
+### -field XCN_OID_RSA_SETOAEP_RSA:21
 
 (1.2.840.113549.1.1.6)
 
-### -field XCN_OID_RSA_DH
+### -field XCN_OID_RSA_DH:22
 
 (1.2.840.113549.1.3.1)
 
 Identifies a Diffie-Hellman key exchange algorithm.
 
-### -field XCN_OID_RSA_data
+### -field XCN_OID_RSA_data:23
 
-### -field XCN_OID_RSA_signedData
+### -field XCN_OID_RSA_signedData:24
 
-### -field XCN_OID_RSA_envelopedData
+### -field XCN_OID_RSA_envelopedData:25
 
-### -field XCN_OID_RSA_signEnvData
+### -field XCN_OID_RSA_signEnvData:26
 
-### -field XCN_OID_RSA_digestedData
+### -field XCN_OID_RSA_digestedData:27
 
-### -field XCN_OID_RSA_hashedData
+### -field XCN_OID_RSA_hashedData:28
 
-### -field XCN_OID_RSA_encryptedData
+### -field XCN_OID_RSA_encryptedData:29
 
-### -field XCN_OID_RSA_emailAddr
+### -field XCN_OID_RSA_emailAddr:30
 
 Contains the subject email address or addresses as an unstructured ASCII string. The interpretation of the string is determined by the certificate issuer.
 
-### -field XCN_OID_RSA_unstructName
+### -field XCN_OID_RSA_unstructName:31
 
 Contains the subject name or names in an unstructured ASCII string. The interpretation of the string is determined by the certificate issuer.
 
-### -field XCN_OID_RSA_contentType
+### -field XCN_OID_RSA_contentType:32
 
 Contains an OID that specifies the type of the data being signed in a PKCS #7 message. Possible examples include <b>XCN_OID_RSA_signedData</b> or <b>XCN_OID_RSA_envelopedData</b>.
 
-### -field XCN_OID_RSA_messageDigest
+### -field XCN_OID_RSA_messageDigest:33
 
 Contains the message digest of the content being signed in a PKCS #7 message.
 
-### -field XCN_OID_RSA_signingTime
+### -field XCN_OID_RSA_signingTime:34
 
 Contains the date and time at which the PKCS #7 data was signed.
 
-### -field XCN_OID_RSA_counterSign
+### -field XCN_OID_RSA_counterSign:35
 
 Contains one or more signatures on the encryptedDigest field of the SignerInfo structure in a PKCS #7 message.
 
-### -field XCN_OID_RSA_challengePwd
+### -field XCN_OID_RSA_challengePwd:36
 
 Contains a password that can be used to request that a certificate be revoked. The interpretation of the password string is determined by the certificate issuer.
 
-### -field XCN_OID_RSA_unstructAddr
+### -field XCN_OID_RSA_unstructAddr:37
 
 Contains the subject address or addresses in an unstructured ASCII string. The interpretation of the string is determined by the certificate issuer.
 
-### -field XCN_OID_RSA_extCertAttrs
+### -field XCN_OID_RSA_extCertAttrs:38
 
 Contains a set of attributes for a PKCS #6 extended certificate  in a PKCS #10 certification request. This attribute became deprecated with the introduction of X.509 version 3 certificates that include extensions.
 
-### -field XCN_OID_RSA_certExtensions
+### -field XCN_OID_RSA_certExtensions:39
 
-### -field XCN_OID_RSA_SMIMECapabilities
+### -field XCN_OID_RSA_SMIMECapabilities:40
 
-### -field XCN_OID_RSA_preferSignedData
+### -field XCN_OID_RSA_preferSignedData:41
 
-### -field XCN_OID_RSA_SMIMEalg
+### -field XCN_OID_RSA_SMIMEalg:42
 
-### -field XCN_OID_RSA_SMIMEalgESDH
+### -field XCN_OID_RSA_SMIMEalgESDH:43
 
-### -field XCN_OID_RSA_SMIMEalgCMS3DESwrap
+### -field XCN_OID_RSA_SMIMEalgCMS3DESwrap:44
 
-### -field XCN_OID_RSA_SMIMEalgCMSRC2wrap
+### -field XCN_OID_RSA_SMIMEalgCMSRC2wrap:45
 
-### -field XCN_OID_RSA_MD2
+### -field XCN_OID_RSA_MD2:46
 
-### -field XCN_OID_RSA_MD4
+### -field XCN_OID_RSA_MD4:47
 
-### -field XCN_OID_RSA_MD5
+### -field XCN_OID_RSA_MD5:48
 
-### -field XCN_OID_RSA_RC2CBC
+### -field XCN_OID_RSA_RC2CBC:49
 
-### -field XCN_OID_RSA_RC4
+### -field XCN_OID_RSA_RC4:50
 
-### -field XCN_OID_RSA_DES_EDE3_CBC
+### -field XCN_OID_RSA_DES_EDE3_CBC:51
 
-### -field XCN_OID_RSA_RC5_CBCPad
+### -field XCN_OID_RSA_RC5_CBCPad:52
 
-### -field XCN_OID_ANSI_X942
+### -field XCN_OID_ANSI_X942:53
 
-### -field XCN_OID_ANSI_X942_DH
+### -field XCN_OID_ANSI_X942_DH:54
 
-### -field XCN_OID_X957
+### -field XCN_OID_X957:55
 
-### -field XCN_OID_X957_DSA
+### -field XCN_OID_X957_DSA:56
 
-### -field XCN_OID_X957_SHA1DSA
+### -field XCN_OID_X957_SHA1DSA:57
 
-### -field XCN_OID_DS
+### -field XCN_OID_DS:58
 
-### -field XCN_OID_DSALG
+### -field XCN_OID_DSALG:59
 
-### -field XCN_OID_DSALG_CRPT
+### -field XCN_OID_DSALG_CRPT:60
 
-### -field XCN_OID_DSALG_HASH
+### -field XCN_OID_DSALG_HASH:61
 
-### -field XCN_OID_DSALG_SIGN
+### -field XCN_OID_DSALG_SIGN:62
 
-### -field XCN_OID_DSALG_RSA
+### -field XCN_OID_DSALG_RSA:63
 
-### -field XCN_OID_OIW
+### -field XCN_OID_OIW:64
 
-### -field XCN_OID_OIWSEC
+### -field XCN_OID_OIWSEC:65
 
-### -field XCN_OID_OIWSEC_md4RSA
+### -field XCN_OID_OIWSEC_md4RSA:66
 
-### -field XCN_OID_OIWSEC_md5RSA
+### -field XCN_OID_OIWSEC_md5RSA:67
 
-### -field XCN_OID_OIWSEC_md4RSA2
+### -field XCN_OID_OIWSEC_md4RSA2:68
 
-### -field XCN_OID_OIWSEC_desECB
+### -field XCN_OID_OIWSEC_desECB:69
 
-### -field XCN_OID_OIWSEC_desCBC
+### -field XCN_OID_OIWSEC_desCBC:70
 
-### -field XCN_OID_OIWSEC_desOFB
+### -field XCN_OID_OIWSEC_desOFB:71
 
-### -field XCN_OID_OIWSEC_desCFB
+### -field XCN_OID_OIWSEC_desCFB:72
 
-### -field XCN_OID_OIWSEC_desMAC
+### -field XCN_OID_OIWSEC_desMAC:73
 
-### -field XCN_OID_OIWSEC_rsaSign
+### -field XCN_OID_OIWSEC_rsaSign:74
 
-### -field XCN_OID_OIWSEC_dsa
+### -field XCN_OID_OIWSEC_dsa:75
 
-### -field XCN_OID_OIWSEC_shaDSA
+### -field XCN_OID_OIWSEC_shaDSA:76
 
-### -field XCN_OID_OIWSEC_mdc2RSA
+### -field XCN_OID_OIWSEC_mdc2RSA:77
 
-### -field XCN_OID_OIWSEC_shaRSA
+### -field XCN_OID_OIWSEC_shaRSA:78
 
-### -field XCN_OID_OIWSEC_dhCommMod
+### -field XCN_OID_OIWSEC_dhCommMod:79
 
-### -field XCN_OID_OIWSEC_desEDE
+### -field XCN_OID_OIWSEC_desEDE:80
 
-### -field XCN_OID_OIWSEC_sha
+### -field XCN_OID_OIWSEC_sha:81
 
-### -field XCN_OID_OIWSEC_mdc2
+### -field XCN_OID_OIWSEC_mdc2:82
 
-### -field XCN_OID_OIWSEC_dsaComm
+### -field XCN_OID_OIWSEC_dsaComm:83
 
-### -field XCN_OID_OIWSEC_dsaCommSHA
+### -field XCN_OID_OIWSEC_dsaCommSHA:84
 
-### -field XCN_OID_OIWSEC_rsaXchg
+### -field XCN_OID_OIWSEC_rsaXchg:85
 
-### -field XCN_OID_OIWSEC_keyHashSeal
+### -field XCN_OID_OIWSEC_keyHashSeal:86
 
-### -field XCN_OID_OIWSEC_md2RSASign
+### -field XCN_OID_OIWSEC_md2RSASign:87
 
-### -field XCN_OID_OIWSEC_md5RSASign
+### -field XCN_OID_OIWSEC_md5RSASign:88
 
-### -field XCN_OID_OIWSEC_sha1
+### -field XCN_OID_OIWSEC_sha1:89
 
-### -field XCN_OID_OIWSEC_dsaSHA1
+### -field XCN_OID_OIWSEC_dsaSHA1:90
 
-### -field XCN_OID_OIWSEC_dsaCommSHA1
+### -field XCN_OID_OIWSEC_dsaCommSHA1:91
 
-### -field XCN_OID_OIWSEC_sha1RSASign
+### -field XCN_OID_OIWSEC_sha1RSASign:92
 
-### -field XCN_OID_OIWDIR
+### -field XCN_OID_OIWDIR:93
 
-### -field XCN_OID_OIWDIR_CRPT
+### -field XCN_OID_OIWDIR_CRPT:94
 
-### -field XCN_OID_OIWDIR_HASH
+### -field XCN_OID_OIWDIR_HASH:95
 
-### -field XCN_OID_OIWDIR_SIGN
+### -field XCN_OID_OIWDIR_SIGN:96
 
-### -field XCN_OID_OIWDIR_md2
+### -field XCN_OID_OIWDIR_md2:97
 
-### -field XCN_OID_OIWDIR_md2RSA
+### -field XCN_OID_OIWDIR_md2RSA:98
 
-### -field XCN_OID_INFOSEC
+### -field XCN_OID_INFOSEC:99
 
-### -field XCN_OID_INFOSEC_sdnsSignature
+### -field XCN_OID_INFOSEC_sdnsSignature:100
 
-### -field XCN_OID_INFOSEC_mosaicSignature
+### -field XCN_OID_INFOSEC_mosaicSignature:101
 
-### -field XCN_OID_INFOSEC_sdnsConfidentiality
+### -field XCN_OID_INFOSEC_sdnsConfidentiality:102
 
-### -field XCN_OID_INFOSEC_mosaicConfidentiality
+### -field XCN_OID_INFOSEC_mosaicConfidentiality:103
 
-### -field XCN_OID_INFOSEC_sdnsIntegrity
+### -field XCN_OID_INFOSEC_sdnsIntegrity:104
 
-### -field XCN_OID_INFOSEC_mosaicIntegrity
+### -field XCN_OID_INFOSEC_mosaicIntegrity:105
 
-### -field XCN_OID_INFOSEC_sdnsTokenProtection
+### -field XCN_OID_INFOSEC_sdnsTokenProtection:106
 
-### -field XCN_OID_INFOSEC_mosaicTokenProtection
+### -field XCN_OID_INFOSEC_mosaicTokenProtection:107
 
-### -field XCN_OID_INFOSEC_sdnsKeyManagement
+### -field XCN_OID_INFOSEC_sdnsKeyManagement:108
 
-### -field XCN_OID_INFOSEC_mosaicKeyManagement
+### -field XCN_OID_INFOSEC_mosaicKeyManagement:109
 
-### -field XCN_OID_INFOSEC_sdnsKMandSig
+### -field XCN_OID_INFOSEC_sdnsKMandSig:110
 
-### -field XCN_OID_INFOSEC_mosaicKMandSig
+### -field XCN_OID_INFOSEC_mosaicKMandSig:111
 
-### -field XCN_OID_INFOSEC_SuiteASignature
+### -field XCN_OID_INFOSEC_SuiteASignature:112
 
-### -field XCN_OID_INFOSEC_SuiteAConfidentiality
+### -field XCN_OID_INFOSEC_SuiteAConfidentiality:113
 
-### -field XCN_OID_INFOSEC_SuiteAIntegrity
+### -field XCN_OID_INFOSEC_SuiteAIntegrity:114
 
-### -field XCN_OID_INFOSEC_SuiteATokenProtection
+### -field XCN_OID_INFOSEC_SuiteATokenProtection:115
 
-### -field XCN_OID_INFOSEC_SuiteAKeyManagement
+### -field XCN_OID_INFOSEC_SuiteAKeyManagement:116
 
-### -field XCN_OID_INFOSEC_SuiteAKMandSig
+### -field XCN_OID_INFOSEC_SuiteAKMandSig:117
 
-### -field XCN_OID_INFOSEC_mosaicUpdatedSig
+### -field XCN_OID_INFOSEC_mosaicUpdatedSig:118
 
-### -field XCN_OID_INFOSEC_mosaicKMandUpdSig
+### -field XCN_OID_INFOSEC_mosaicKMandUpdSig:119
 
-### -field XCN_OID_INFOSEC_mosaicUpdatedInteg
+### -field XCN_OID_INFOSEC_mosaicUpdatedInteg:120
 
-### -field XCN_OID_COMMON_NAME
+### -field XCN_OID_COMMON_NAME:121
 
 Contains one or more common names for the entity requesting the certificate.
 
-### -field XCN_OID_SUR_NAME
+### -field XCN_OID_SUR_NAME:122
 
 Contains one or more strings for the family name of a person.
 
-### -field XCN_OID_DEVICE_SERIAL_NUMBER
+### -field XCN_OID_DEVICE_SERIAL_NUMBER:123
 
 Contains one or more device serial numbers.
 
-### -field XCN_OID_COUNTRY_NAME
+### -field XCN_OID_COUNTRY_NAME:124
 
 Contains a two-letter ISO 3166 country or region code for the entity requesting the certificate.
 
-### -field XCN_OID_LOCALITY_NAME
+### -field XCN_OID_LOCALITY_NAME:125
 
 Contains place names that identify a city, country, or other geographic region.  The attribute can contain multiple values.
 
-### -field XCN_OID_STATE_OR_PROVINCE_NAME
+### -field XCN_OID_STATE_OR_PROVINCE_NAME:126
 
 Contains one or more names of states or provinces associated with the entity requesting the certificate.
 
-### -field XCN_OID_STREET_ADDRESS
+### -field XCN_OID_STREET_ADDRESS:127
 
 Contains one or more street addresses for the entity requesting the certificate.
 
-### -field XCN_OID_ORGANIZATION_NAME
+### -field XCN_OID_ORGANIZATION_NAME:128
 
 Contains one or more names that identify the organization with which the entity requesting the certificate is associated.
 
-### -field XCN_OID_ORGANIZATIONAL_UNIT_NAME
+### -field XCN_OID_ORGANIZATIONAL_UNIT_NAME:129
 
 Contains one or more names for the organizational unit with which the entity requesting the certificate is associated.
 
-### -field XCN_OID_TITLE
+### -field XCN_OID_TITLE:130
 
 Contains the title, if any, of the entity requesting the certificate.
 
-### -field XCN_OID_DESCRIPTION
+### -field XCN_OID_DESCRIPTION:131
 
 Contains one or more strings that describe the entity requesting the certificate.
 
-### -field XCN_OID_SEARCH_GUIDE
+### -field XCN_OID_SEARCH_GUIDE:132
 
 Contains information used by directory clients to construct search filters. The attribute can contain multiple values.
 
-### -field XCN_OID_BUSINESS_CATEGORY
+### -field XCN_OID_BUSINESS_CATEGORY:133
 
 Contains one or more strings that describe the type of business performed by the entity requesting the certificate.
 
-### -field XCN_OID_POSTAL_ADDRESS
+### -field XCN_OID_POSTAL_ADDRESS:134
 
 Contains one or more addresses that a postal service uses for the object to which this attribute applies.
 
-### -field XCN_OID_POSTAL_CODE
+### -field XCN_OID_POSTAL_CODE:135
 
 Contains one or more codes that a postal service uses to identify postal zones.
 
-### -field XCN_OID_POST_OFFICE_BOX
+### -field XCN_OID_POST_OFFICE_BOX:136
 
 Contains one or more numbers that a postal services uses to identify a delivery location that is not a street address.
 
-### -field XCN_OID_PHYSICAL_DELIVERY_OFFICE_NAME
+### -field XCN_OID_PHYSICAL_DELIVERY_OFFICE_NAME:137
 
 Contains the name that a postal service uses to identify a post office.
 
-### -field XCN_OID_TELEPHONE_NUMBER
+### -field XCN_OID_TELEPHONE_NUMBER:138
 
 Contains one or more telephone numbers for the entity requesting the certificate.
 
-### -field XCN_OID_TELEX_NUMBER
+### -field XCN_OID_TELEX_NUMBER:139
 
 Contains one or more strings that identify the number, country or region code, and return answer code of a telex terminal.
 
-### -field XCN_OID_TELETEXT_TERMINAL_IDENTIFIER
+### -field XCN_OID_TELETEXT_TERMINAL_IDENTIFIER:140
 
 Contains one or more numbers that identify a teletext terminal.
 
-### -field XCN_OID_FACSIMILE_TELEPHONE_NUMBER
+### -field XCN_OID_FACSIMILE_TELEPHONE_NUMBER:141
 
 Contains facsimile machine telephone numbers and optional parameters for the entity requesting the certificate.
 
-### -field XCN_OID_X21_ADDRESS
+### -field XCN_OID_X21_ADDRESS:142
 
 Contains one or more data network addresses, as defined by ITU recommendation X.121,  of the entity requesting the certificate.
 
-### -field XCN_OID_INTERNATIONAL_ISDN_NUMBER
+### -field XCN_OID_INTERNATIONAL_ISDN_NUMBER:143
 
 Contains one or more ISDN addresses, 
    as defined in ITU Recommendation E.164, for the entity requesting the certificate.
 
-### -field XCN_OID_REGISTERED_ADDRESS
+### -field XCN_OID_REGISTERED_ADDRESS:144
 
 Contains one or more addresses that can be used for delivering telegrams or expedited documents.
 
-### -field XCN_OID_DESTINATION_INDICATOR
+### -field XCN_OID_DESTINATION_INDICATOR:145
 
 Contains one or more strings that identify the city and country or region of the entity requesting the certificate.
 
-### -field XCN_OID_PREFERRED_DELIVERY_METHOD
+### -field XCN_OID_PREFERRED_DELIVERY_METHOD:146
 
 Contains a string that indicates the preferred method of receiving a message for the object to which this attribute applies.
 
-### -field XCN_OID_PRESENTATION_ADDRESS
+### -field XCN_OID_PRESENTATION_ADDRESS:147
 
 Contains an OSI presentation address.
 
-### -field XCN_OID_SUPPORTED_APPLICATION_CONTEXT
+### -field XCN_OID_SUPPORTED_APPLICATION_CONTEXT:148
 
-### -field XCN_OID_MEMBER
+### -field XCN_OID_MEMBER:149
 
 Contains the distinguished names of objects that are included in a list or group.  The attribute can contain multiple values.
 
-### -field XCN_OID_OWNER
+### -field XCN_OID_OWNER:150
 
 Contains one or more distinguished names for the owner of the certificate request.
 
-### -field XCN_OID_ROLE_OCCUPANT
+### -field XCN_OID_ROLE_OCCUPANT:151
 
 Contains the distinguished names of people that fulfill the responsibilities defined by a role object.
 
-### -field XCN_OID_SEE_ALSO
+### -field XCN_OID_SEE_ALSO:152
 
 Contains one or more distinguished names of objects that are related to the subject of the certificate request.
 
-### -field XCN_OID_USER_PASSWORD
+### -field XCN_OID_USER_PASSWORD:153
 
 Contains one or more passwords for the entity requesting the certificate.
 
-### -field XCN_OID_USER_CERTIFICATE
+### -field XCN_OID_USER_CERTIFICATE:154
 
-### -field XCN_OID_CA_CERTIFICATE
+### -field XCN_OID_CA_CERTIFICATE:155
 
-### -field XCN_OID_AUTHORITY_REVOCATION_LIST
+### -field XCN_OID_AUTHORITY_REVOCATION_LIST:156
 
-### -field XCN_OID_CERTIFICATE_REVOCATION_LIST
+### -field XCN_OID_CERTIFICATE_REVOCATION_LIST:157
 
-### -field XCN_OID_CROSS_CERTIFICATE_PAIR
+### -field XCN_OID_CROSS_CERTIFICATE_PAIR:158
 
-### -field XCN_OID_GIVEN_NAME
+### -field XCN_OID_GIVEN_NAME:159
 
 Contains strings that identify the parts of a person's name other than the surname. The attribute can contain multiple values.
 
-### -field XCN_OID_INITIALS
+### -field XCN_OID_INITIALS:160
 
 Contains the initials of all or part of a person's name other than the surname. The attribute can contain multiple values.
 
-### -field XCN_OID_DN_QUALIFIER
+### -field XCN_OID_DN_QUALIFIER:161
 
 Contains disambiguating information for a relative distinguished name. The attribute prevents conflicts between objects that would otherwise have the same name. The attribute can contain multiple values.
 
-### -field XCN_OID_DOMAIN_COMPONENT
+### -field XCN_OID_DOMAIN_COMPONENT:162
 
 Contains a component of a DNS domain name. For example, if  the DNS name is contoso.com, contoso and com represent separate domain components.
 
-### -field XCN_OID_PKCS_12_FRIENDLY_NAME_ATTR
+### -field XCN_OID_PKCS_12_FRIENDLY_NAME_ATTR:163
 
 Contains the PKCS #12 display name attribute transmitted in the <b>SafeBag</b> data of a PKCS #12 PFX message. The attribute specifies the display name of the object with which it is associated.
 
-### -field XCN_OID_PKCS_12_LOCAL_KEY_ID
+### -field XCN_OID_PKCS_12_LOCAL_KEY_ID:164
 
 Contains a PKCS #12 key identifier attribute transmitted in the <b>SafeBag</b> data of a PKCS #12 PFX message. The identifier is only used in local applications.
 
-### -field XCN_OID_PKCS_12_KEY_PROVIDER_NAME_ATTR
+### -field XCN_OID_PKCS_12_KEY_PROVIDER_NAME_ATTR:165
 
-### -field XCN_OID_LOCAL_MACHINE_KEYSET
+### -field XCN_OID_LOCAL_MACHINE_KEYSET:166
 
-### -field XCN_OID_PKCS_12_EXTENDED_ATTRIBUTES
+### -field XCN_OID_PKCS_12_EXTENDED_ATTRIBUTES:167
 
-### -field XCN_OID_KEYID_RDN
+### -field XCN_OID_KEYID_RDN:168
 
-### -field XCN_OID_AUTHORITY_KEY_IDENTIFIER
+### -field XCN_OID_AUTHORITY_KEY_IDENTIFIER:169
 
-### -field XCN_OID_KEY_ATTRIBUTES
+### -field XCN_OID_KEY_ATTRIBUTES:170
 
-### -field XCN_OID_CERT_POLICIES_95
+### -field XCN_OID_CERT_POLICIES_95:171
 
-### -field XCN_OID_KEY_USAGE_RESTRICTION
+### -field XCN_OID_KEY_USAGE_RESTRICTION:172
 
-### -field XCN_OID_SUBJECT_ALT_NAME
+### -field XCN_OID_SUBJECT_ALT_NAME:173
 
-### -field XCN_OID_ISSUER_ALT_NAME
+### -field XCN_OID_ISSUER_ALT_NAME:174
 
-### -field XCN_OID_BASIC_CONSTRAINTS
+### -field XCN_OID_BASIC_CONSTRAINTS:175
 
-### -field XCN_OID_KEY_USAGE
+### -field XCN_OID_KEY_USAGE:176
 
-### -field XCN_OID_PRIVATEKEY_USAGE_PERIOD
+### -field XCN_OID_PRIVATEKEY_USAGE_PERIOD:177
 
-### -field XCN_OID_BASIC_CONSTRAINTS2
+### -field XCN_OID_BASIC_CONSTRAINTS2:178
 
-### -field XCN_OID_CERT_POLICIES
+### -field XCN_OID_CERT_POLICIES:179
 
-### -field XCN_OID_ANY_CERT_POLICY
+### -field XCN_OID_ANY_CERT_POLICY:180
 
-### -field XCN_OID_AUTHORITY_KEY_IDENTIFIER2
+### -field XCN_OID_AUTHORITY_KEY_IDENTIFIER2:181
 
-### -field XCN_OID_SUBJECT_KEY_IDENTIFIER
+### -field XCN_OID_SUBJECT_KEY_IDENTIFIER:182
 
-### -field XCN_OID_SUBJECT_ALT_NAME2
+### -field XCN_OID_SUBJECT_ALT_NAME2:183
 
-### -field XCN_OID_ISSUER_ALT_NAME2
+### -field XCN_OID_ISSUER_ALT_NAME2:184
 
-### -field XCN_OID_CRL_REASON_CODE
+### -field XCN_OID_CRL_REASON_CODE:185
 
-### -field XCN_OID_REASON_CODE_HOLD
+### -field XCN_OID_REASON_CODE_HOLD:186
 
-### -field XCN_OID_CRL_DIST_POINTS
+### -field XCN_OID_CRL_DIST_POINTS:187
 
-### -field XCN_OID_ENHANCED_KEY_USAGE
+### -field XCN_OID_ENHANCED_KEY_USAGE:188
 
-### -field XCN_OID_CRL_NUMBER
+### -field XCN_OID_CRL_NUMBER:189
 
-### -field XCN_OID_DELTA_CRL_INDICATOR
+### -field XCN_OID_DELTA_CRL_INDICATOR:190
 
-### -field XCN_OID_ISSUING_DIST_POINT
+### -field XCN_OID_ISSUING_DIST_POINT:191
 
-### -field XCN_OID_FRESHEST_CRL
+### -field XCN_OID_FRESHEST_CRL:192
 
-### -field XCN_OID_NAME_CONSTRAINTS
+### -field XCN_OID_NAME_CONSTRAINTS:193
 
-### -field XCN_OID_POLICY_MAPPINGS
+### -field XCN_OID_POLICY_MAPPINGS:194
 
-### -field XCN_OID_LEGACY_POLICY_MAPPINGS
+### -field XCN_OID_LEGACY_POLICY_MAPPINGS:195
 
-### -field XCN_OID_POLICY_CONSTRAINTS
+### -field XCN_OID_POLICY_CONSTRAINTS:196
 
-### -field XCN_OID_RENEWAL_CERTIFICATE
+### -field XCN_OID_RENEWAL_CERTIFICATE:197
 
-### -field XCN_OID_ENROLLMENT_NAME_VALUE_PAIR
+### -field XCN_OID_ENROLLMENT_NAME_VALUE_PAIR:198
 
-### -field XCN_OID_ENROLLMENT_CSP_PROVIDER
+### -field XCN_OID_ENROLLMENT_CSP_PROVIDER:199
 
-### -field XCN_OID_OS_VERSION
+### -field XCN_OID_OS_VERSION:200
 
-### -field XCN_OID_ENROLLMENT_AGENT
+### -field XCN_OID_ENROLLMENT_AGENT:201
 
-### -field XCN_OID_PKIX
+### -field XCN_OID_PKIX:202
 
-### -field XCN_OID_PKIX_PE
+### -field XCN_OID_PKIX_PE:203
 
-### -field XCN_OID_AUTHORITY_INFO_ACCESS
+### -field XCN_OID_AUTHORITY_INFO_ACCESS:204
 
-### -field XCN_OID_BIOMETRIC_EXT
+### -field XCN_OID_BIOMETRIC_EXT:205
 
-### -field XCN_OID_LOGOTYPE_EXT
+### -field XCN_OID_LOGOTYPE_EXT:206
 
-### -field XCN_OID_CERT_EXTENSIONS
+### -field XCN_OID_CERT_EXTENSIONS:207
 
-### -field XCN_OID_NEXT_UPDATE_LOCATION
+### -field XCN_OID_NEXT_UPDATE_LOCATION:208
 
-### -field XCN_OID_REMOVE_CERTIFICATE
+### -field XCN_OID_REMOVE_CERTIFICATE:209
 
-### -field XCN_OID_CROSS_CERT_DIST_POINTS
+### -field XCN_OID_CROSS_CERT_DIST_POINTS:210
 
-### -field XCN_OID_CTL
+### -field XCN_OID_CTL:211
 
-### -field XCN_OID_SORTED_CTL
+### -field XCN_OID_SORTED_CTL:212
 
-### -field XCN_OID_SERIALIZED
+### -field XCN_OID_SERIALIZED:213
 
-### -field XCN_OID_NT_PRINCIPAL_NAME
+### -field XCN_OID_NT_PRINCIPAL_NAME:214
 
-### -field XCN_OID_PRODUCT_UPDATE
+### -field XCN_OID_PRODUCT_UPDATE:215
 
-### -field XCN_OID_ANY_APPLICATION_POLICY
+### -field XCN_OID_ANY_APPLICATION_POLICY:216
 
 (1.3.6.1.4.1.311.10.12.1)
 
  Identifies an EKU OID which indicates that there are no restrictions on the  applications that can use the certificate.
 
-### -field XCN_OID_AUTO_ENROLL_CTL_USAGE
+### -field XCN_OID_AUTO_ENROLL_CTL_USAGE:217
 
-### -field XCN_OID_ENROLL_CERTTYPE_EXTENSION
+### -field XCN_OID_ENROLL_CERTTYPE_EXTENSION:218
 
-### -field XCN_OID_CERT_MANIFOLD
+### -field XCN_OID_CERT_MANIFOLD:219
 
-### -field XCN_OID_CERTSRV_CA_VERSION
+### -field XCN_OID_CERTSRV_CA_VERSION:220
 
-### -field XCN_OID_CERTSRV_PREVIOUS_CERT_HASH
+### -field XCN_OID_CERTSRV_PREVIOUS_CERT_HASH:221
 
-### -field XCN_OID_CRL_VIRTUAL_BASE
+### -field XCN_OID_CRL_VIRTUAL_BASE:222
 
-### -field XCN_OID_CRL_NEXT_PUBLISH
+### -field XCN_OID_CRL_NEXT_PUBLISH:223
 
-### -field XCN_OID_KP_CA_EXCHANGE
+### -field XCN_OID_KP_CA_EXCHANGE:224
 
-### -field XCN_OID_KP_KEY_RECOVERY_AGENT
+### -field XCN_OID_KP_KEY_RECOVERY_AGENT:225
 
-### -field XCN_OID_CERTIFICATE_TEMPLATE
+### -field XCN_OID_CERTIFICATE_TEMPLATE:226
 
-### -field XCN_OID_ENTERPRISE_OID_ROOT
+### -field XCN_OID_ENTERPRISE_OID_ROOT:227
 
-### -field XCN_OID_RDN_DUMMY_SIGNER
+### -field XCN_OID_RDN_DUMMY_SIGNER:228
 
-### -field XCN_OID_APPLICATION_CERT_POLICIES
+### -field XCN_OID_APPLICATION_CERT_POLICIES:229
 
-### -field XCN_OID_APPLICATION_POLICY_MAPPINGS
+### -field XCN_OID_APPLICATION_POLICY_MAPPINGS:230
 
-### -field XCN_OID_APPLICATION_POLICY_CONSTRAINTS
+### -field XCN_OID_APPLICATION_POLICY_CONSTRAINTS:231
 
-### -field XCN_OID_ARCHIVED_KEY_ATTR
+### -field XCN_OID_ARCHIVED_KEY_ATTR:232
 
-### -field XCN_OID_CRL_SELF_CDP
+### -field XCN_OID_CRL_SELF_CDP:233
 
-### -field XCN_OID_REQUIRE_CERT_CHAIN_POLICY
+### -field XCN_OID_REQUIRE_CERT_CHAIN_POLICY:234
 
-### -field XCN_OID_ARCHIVED_KEY_CERT_HASH
+### -field XCN_OID_ARCHIVED_KEY_CERT_HASH:235
 
-### -field XCN_OID_ISSUED_CERT_HASH
+### -field XCN_OID_ISSUED_CERT_HASH:236
 
-### -field XCN_OID_DS_EMAIL_REPLICATION
+### -field XCN_OID_DS_EMAIL_REPLICATION:237
 
-### -field XCN_OID_REQUEST_CLIENT_INFO
+### -field XCN_OID_REQUEST_CLIENT_INFO:238
 
-### -field XCN_OID_ENCRYPTED_KEY_HASH
+### -field XCN_OID_ENCRYPTED_KEY_HASH:239
 
-### -field XCN_OID_CERTSRV_CROSSCA_VERSION
+### -field XCN_OID_CERTSRV_CROSSCA_VERSION:240
 
-### -field XCN_OID_NTDS_REPLICATION
+### -field XCN_OID_NTDS_REPLICATION:241
 
-### -field XCN_OID_SUBJECT_DIR_ATTRS
+### -field XCN_OID_SUBJECT_DIR_ATTRS:242
 
-### -field XCN_OID_PKIX_KP
+### -field XCN_OID_PKIX_KP:243
 
-### -field XCN_OID_PKIX_KP_SERVER_AUTH
+### -field XCN_OID_PKIX_KP_SERVER_AUTH:244
 
-### -field XCN_OID_PKIX_KP_CLIENT_AUTH
+### -field XCN_OID_PKIX_KP_CLIENT_AUTH:245
 
-### -field XCN_OID_PKIX_KP_CODE_SIGNING
+### -field XCN_OID_PKIX_KP_CODE_SIGNING:246
 
-### -field XCN_OID_PKIX_KP_EMAIL_PROTECTION
+### -field XCN_OID_PKIX_KP_EMAIL_PROTECTION:247
 
-### -field XCN_OID_PKIX_KP_IPSEC_END_SYSTEM
+### -field XCN_OID_PKIX_KP_IPSEC_END_SYSTEM:248
 
-### -field XCN_OID_PKIX_KP_IPSEC_TUNNEL
+### -field XCN_OID_PKIX_KP_IPSEC_TUNNEL:249
 
-### -field XCN_OID_PKIX_KP_IPSEC_USER
+### -field XCN_OID_PKIX_KP_IPSEC_USER:250
 
-### -field XCN_OID_PKIX_KP_TIMESTAMP_SIGNING
+### -field XCN_OID_PKIX_KP_TIMESTAMP_SIGNING:251
 
-### -field XCN_OID_PKIX_KP_OCSP_SIGNING
+### -field XCN_OID_PKIX_KP_OCSP_SIGNING:252
 
-### -field XCN_OID_PKIX_OCSP_NOCHECK
+### -field XCN_OID_PKIX_OCSP_NOCHECK:253
 
-### -field XCN_OID_IPSEC_KP_IKE_INTERMEDIATE
+### -field XCN_OID_IPSEC_KP_IKE_INTERMEDIATE:254
 
-### -field XCN_OID_KP_CTL_USAGE_SIGNING
+### -field XCN_OID_KP_CTL_USAGE_SIGNING:255
 
-### -field XCN_OID_KP_TIME_STAMP_SIGNING
+### -field XCN_OID_KP_TIME_STAMP_SIGNING:256
 
-### -field XCN_OID_SERVER_GATED_CRYPTO
+### -field XCN_OID_SERVER_GATED_CRYPTO:257
 
-### -field XCN_OID_SGC_NETSCAPE
+### -field XCN_OID_SGC_NETSCAPE:258
 
-### -field XCN_OID_KP_EFS
+### -field XCN_OID_KP_EFS:259
 
-### -field XCN_OID_EFS_RECOVERY
+### -field XCN_OID_EFS_RECOVERY:260
 
-### -field XCN_OID_WHQL_CRYPTO
+### -field XCN_OID_WHQL_CRYPTO:261
 
-### -field XCN_OID_NT5_CRYPTO
+### -field XCN_OID_NT5_CRYPTO:262
 
-### -field XCN_OID_OEM_WHQL_CRYPTO
+### -field XCN_OID_OEM_WHQL_CRYPTO:263
 
-### -field XCN_OID_EMBEDDED_NT_CRYPTO
+### -field XCN_OID_EMBEDDED_NT_CRYPTO:264
 
-### -field XCN_OID_ROOT_LIST_SIGNER
+### -field XCN_OID_ROOT_LIST_SIGNER:265
 
-### -field XCN_OID_KP_QUALIFIED_SUBORDINATION
+### -field XCN_OID_KP_QUALIFIED_SUBORDINATION:266
 
-### -field XCN_OID_KP_KEY_RECOVERY
+### -field XCN_OID_KP_KEY_RECOVERY:267
 
-### -field XCN_OID_KP_DOCUMENT_SIGNING
+### -field XCN_OID_KP_DOCUMENT_SIGNING:268
 
-### -field XCN_OID_KP_LIFETIME_SIGNING
+### -field XCN_OID_KP_LIFETIME_SIGNING:269
 
-### -field XCN_OID_KP_MOBILE_DEVICE_SOFTWARE
+### -field XCN_OID_KP_MOBILE_DEVICE_SOFTWARE:270
 
-### -field XCN_OID_KP_SMART_DISPLAY
+### -field XCN_OID_KP_SMART_DISPLAY:271
 
-### -field XCN_OID_KP_CSP_SIGNATURE
+### -field XCN_OID_KP_CSP_SIGNATURE:272
 
-### -field XCN_OID_DRM
+### -field XCN_OID_DRM:273
 
-### -field XCN_OID_DRM_INDIVIDUALIZATION
+### -field XCN_OID_DRM_INDIVIDUALIZATION:274
 
-### -field XCN_OID_LICENSES
+### -field XCN_OID_LICENSES:275
 
-### -field XCN_OID_LICENSE_SERVER
+### -field XCN_OID_LICENSE_SERVER:276
 
-### -field XCN_OID_KP_SMARTCARD_LOGON
+### -field XCN_OID_KP_SMARTCARD_LOGON:277
 
-### -field XCN_OID_YESNO_TRUST_ATTR
+### -field XCN_OID_YESNO_TRUST_ATTR:278
 
-### -field XCN_OID_PKIX_POLICY_QUALIFIER_CPS
+### -field XCN_OID_PKIX_POLICY_QUALIFIER_CPS:279
 
-### -field XCN_OID_PKIX_POLICY_QUALIFIER_USERNOTICE
+### -field XCN_OID_PKIX_POLICY_QUALIFIER_USERNOTICE:280
 
-### -field XCN_OID_CERT_POLICIES_95_QUALIFIER1
+### -field XCN_OID_CERT_POLICIES_95_QUALIFIER1:281
 
-### -field XCN_OID_PKIX_ACC_DESCR
+### -field XCN_OID_PKIX_ACC_DESCR:282
 
-### -field XCN_OID_PKIX_OCSP
+### -field XCN_OID_PKIX_OCSP:283
 
-### -field XCN_OID_PKIX_CA_ISSUERS
+### -field XCN_OID_PKIX_CA_ISSUERS:284
 
-### -field XCN_OID_VERISIGN_PRIVATE_6_9
+### -field XCN_OID_VERISIGN_PRIVATE_6_9:285
 
-### -field XCN_OID_VERISIGN_ONSITE_JURISDICTION_HASH
+### -field XCN_OID_VERISIGN_ONSITE_JURISDICTION_HASH:286
 
-### -field XCN_OID_VERISIGN_BITSTRING_6_13
+### -field XCN_OID_VERISIGN_BITSTRING_6_13:287
 
-### -field XCN_OID_VERISIGN_ISS_STRONG_CRYPTO
+### -field XCN_OID_VERISIGN_ISS_STRONG_CRYPTO:288
 
-### -field XCN_OID_NETSCAPE
+### -field XCN_OID_NETSCAPE:289
 
-### -field XCN_OID_NETSCAPE_CERT_EXTENSION
+### -field XCN_OID_NETSCAPE_CERT_EXTENSION:290
 
-### -field XCN_OID_NETSCAPE_CERT_TYPE
+### -field XCN_OID_NETSCAPE_CERT_TYPE:291
 
-### -field XCN_OID_NETSCAPE_BASE_URL
+### -field XCN_OID_NETSCAPE_BASE_URL:292
 
-### -field XCN_OID_NETSCAPE_REVOCATION_URL
+### -field XCN_OID_NETSCAPE_REVOCATION_URL:293
 
-### -field XCN_OID_NETSCAPE_CA_REVOCATION_URL
+### -field XCN_OID_NETSCAPE_CA_REVOCATION_URL:294
 
-### -field XCN_OID_NETSCAPE_CERT_RENEWAL_URL
+### -field XCN_OID_NETSCAPE_CERT_RENEWAL_URL:295
 
-### -field XCN_OID_NETSCAPE_CA_POLICY_URL
+### -field XCN_OID_NETSCAPE_CA_POLICY_URL:296
 
-### -field XCN_OID_NETSCAPE_SSL_SERVER_NAME
+### -field XCN_OID_NETSCAPE_SSL_SERVER_NAME:297
 
-### -field XCN_OID_NETSCAPE_COMMENT
+### -field XCN_OID_NETSCAPE_COMMENT:298
 
-### -field XCN_OID_NETSCAPE_DATA_TYPE
+### -field XCN_OID_NETSCAPE_DATA_TYPE:299
 
-### -field XCN_OID_NETSCAPE_CERT_SEQUENCE
+### -field XCN_OID_NETSCAPE_CERT_SEQUENCE:300
 
-### -field XCN_OID_CT_PKI_DATA
+### -field XCN_OID_CT_PKI_DATA:301
 
-### -field XCN_OID_CT_PKI_RESPONSE
+### -field XCN_OID_CT_PKI_RESPONSE:302
 
-### -field XCN_OID_PKIX_NO_SIGNATURE
+### -field XCN_OID_PKIX_NO_SIGNATURE:303
 
-### -field XCN_OID_CMC
+### -field XCN_OID_CMC:304
 
-### -field XCN_OID_CMC_STATUS_INFO
+### -field XCN_OID_CMC_STATUS_INFO:305
 
-### -field XCN_OID_CMC_IDENTIFICATION
+### -field XCN_OID_CMC_IDENTIFICATION:306
 
-### -field XCN_OID_CMC_IDENTITY_PROOF
+### -field XCN_OID_CMC_IDENTITY_PROOF:307
 
-### -field XCN_OID_CMC_DATA_RETURN
+### -field XCN_OID_CMC_DATA_RETURN:308
 
-### -field XCN_OID_CMC_TRANSACTION_ID
+### -field XCN_OID_CMC_TRANSACTION_ID:309
 
-### -field XCN_OID_CMC_SENDER_NONCE
+### -field XCN_OID_CMC_SENDER_NONCE:310
 
-### -field XCN_OID_CMC_RECIPIENT_NONCE
+### -field XCN_OID_CMC_RECIPIENT_NONCE:311
 
-### -field XCN_OID_CMC_ADD_EXTENSIONS
+### -field XCN_OID_CMC_ADD_EXTENSIONS:312
 
-### -field XCN_OID_CMC_ENCRYPTED_POP
+### -field XCN_OID_CMC_ENCRYPTED_POP:313
 
-### -field XCN_OID_CMC_DECRYPTED_POP
+### -field XCN_OID_CMC_DECRYPTED_POP:314
 
-### -field XCN_OID_CMC_LRA_POP_WITNESS
+### -field XCN_OID_CMC_LRA_POP_WITNESS:315
 
-### -field XCN_OID_CMC_GET_CERT
+### -field XCN_OID_CMC_GET_CERT:316
 
-### -field XCN_OID_CMC_GET_CRL
+### -field XCN_OID_CMC_GET_CRL:317
 
-### -field XCN_OID_CMC_REVOKE_REQUEST
+### -field XCN_OID_CMC_REVOKE_REQUEST:318
 
-### -field XCN_OID_CMC_REG_INFO
+### -field XCN_OID_CMC_REG_INFO:319
 
-### -field XCN_OID_CMC_RESPONSE_INFO
+### -field XCN_OID_CMC_RESPONSE_INFO:320
 
-### -field XCN_OID_CMC_QUERY_PENDING
+### -field XCN_OID_CMC_QUERY_PENDING:321
 
-### -field XCN_OID_CMC_ID_POP_LINK_RANDOM
+### -field XCN_OID_CMC_ID_POP_LINK_RANDOM:322
 
-### -field XCN_OID_CMC_ID_POP_LINK_WITNESS
+### -field XCN_OID_CMC_ID_POP_LINK_WITNESS:323
 
-### -field XCN_OID_CMC_ID_CONFIRM_CERT_ACCEPTANCE
+### -field XCN_OID_CMC_ID_CONFIRM_CERT_ACCEPTANCE:324
 
-### -field XCN_OID_CMC_ADD_ATTRIBUTES
+### -field XCN_OID_CMC_ADD_ATTRIBUTES:325
 
-### -field XCN_OID_LOYALTY_OTHER_LOGOTYPE
+### -field XCN_OID_LOYALTY_OTHER_LOGOTYPE:326
 
-### -field XCN_OID_BACKGROUND_OTHER_LOGOTYPE
+### -field XCN_OID_BACKGROUND_OTHER_LOGOTYPE:327
 
-### -field XCN_OID_PKIX_OCSP_BASIC_SIGNED_RESPONSE
+### -field XCN_OID_PKIX_OCSP_BASIC_SIGNED_RESPONSE:328
 
-### -field XCN_OID_PKCS_7_DATA
+### -field XCN_OID_PKCS_7_DATA:329
 
-### -field XCN_OID_PKCS_7_SIGNED
+### -field XCN_OID_PKCS_7_SIGNED:330
 
-### -field XCN_OID_PKCS_7_ENVELOPED
+### -field XCN_OID_PKCS_7_ENVELOPED:331
 
-### -field XCN_OID_PKCS_7_SIGNEDANDENVELOPED
+### -field XCN_OID_PKCS_7_SIGNEDANDENVELOPED:332
 
-### -field XCN_OID_PKCS_7_DIGESTED
+### -field XCN_OID_PKCS_7_DIGESTED:333
 
-### -field XCN_OID_PKCS_7_ENCRYPTED
+### -field XCN_OID_PKCS_7_ENCRYPTED:334
 
-### -field XCN_OID_PKCS_9_CONTENT_TYPE
+### -field XCN_OID_PKCS_9_CONTENT_TYPE:335
 
-### -field XCN_OID_PKCS_9_MESSAGE_DIGEST
+### -field XCN_OID_PKCS_9_MESSAGE_DIGEST:336
 
-### -field XCN_OID_CERT_PROP_ID_PREFIX
+### -field XCN_OID_CERT_PROP_ID_PREFIX:337
 
-### -field XCN_OID_CERT_KEY_IDENTIFIER_PROP_ID
+### -field XCN_OID_CERT_KEY_IDENTIFIER_PROP_ID:338
 
-### -field XCN_OID_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID
+### -field XCN_OID_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID:339
 
-### -field XCN_OID_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID
+### -field XCN_OID_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID:340
 
-### -field XCN_OID_CERT_MD5_HASH_PROP_ID
+### -field XCN_OID_CERT_MD5_HASH_PROP_ID:341
 
-### -field XCN_OID_RSA_SHA256RSA
+### -field XCN_OID_RSA_SHA256RSA:342
 
-### -field XCN_OID_RSA_SHA384RSA
+### -field XCN_OID_RSA_SHA384RSA:343
 
-### -field XCN_OID_RSA_SHA512RSA
+### -field XCN_OID_RSA_SHA512RSA:344
 
-### -field XCN_OID_NIST_sha256
+### -field XCN_OID_NIST_sha256:345
 
-### -field XCN_OID_NIST_sha384
+### -field XCN_OID_NIST_sha384:346
 
-### -field XCN_OID_NIST_sha512
+### -field XCN_OID_NIST_sha512:347
 
-### -field XCN_OID_RSA_MGF1
+### -field XCN_OID_RSA_MGF1:348
 
-### -field XCN_OID_ECC_PUBLIC_KEY
+### -field XCN_OID_ECC_PUBLIC_KEY:349
 
-### -field XCN_OID_ECDSA_SHA1
+### -field XCN_OID_ECDSA_SHA1:350
 
-### -field XCN_OID_ECDSA_SPECIFIED
+### -field XCN_OID_ECDSA_SPECIFIED:351
 
-### -field XCN_OID_ANY_ENHANCED_KEY_USAGE
+### -field XCN_OID_ANY_ENHANCED_KEY_USAGE:352
 
-### -field XCN_OID_RSA_SSA_PSS
+### -field XCN_OID_RSA_SSA_PSS:353
 
-### -field XCN_OID_ATTR_SUPPORTED_ALGORITHMS
+### -field XCN_OID_ATTR_SUPPORTED_ALGORITHMS:355
 
-### -field XCN_OID_ATTR_TPM_SECURITY_ASSERTIONS
+### -field XCN_OID_ATTR_TPM_SECURITY_ASSERTIONS:356
 
-### -field XCN_OID_ATTR_TPM_SPECIFICATION
+### -field XCN_OID_ATTR_TPM_SPECIFICATION:357
 
-### -field XCN_OID_CERT_DISALLOWED_FILETIME_PROP_ID
+### -field XCN_OID_CERT_DISALLOWED_FILETIME_PROP_ID:358
 
-### -field XCN_OID_CERT_SIGNATURE_HASH_PROP_ID
+### -field XCN_OID_CERT_SIGNATURE_HASH_PROP_ID:359
 
-### -field XCN_OID_CERT_STRONG_KEY_OS_1
+### -field XCN_OID_CERT_STRONG_KEY_OS_1:360
 
-### -field XCN_OID_CERT_STRONG_KEY_OS_CURRENT
+### -field XCN_OID_CERT_STRONG_KEY_OS_CURRENT:361
 
-### -field XCN_OID_CERT_STRONG_KEY_OS_PREFIX
+### -field XCN_OID_CERT_STRONG_KEY_OS_PREFIX:362
 
-### -field XCN_OID_CERT_STRONG_SIGN_OS_1
+### -field XCN_OID_CERT_STRONG_SIGN_OS_1:363
 
-### -field XCN_OID_CERT_STRONG_SIGN_OS_CURRENT
+### -field XCN_OID_CERT_STRONG_SIGN_OS_CURRENT:364
 
-### -field XCN_OID_CERT_STRONG_SIGN_OS_PREFIX
+### -field XCN_OID_CERT_STRONG_SIGN_OS_PREFIX:365
 
-### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA1_KDF
+### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA1_KDF:366
 
-### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA256_KDF
+### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA256_KDF:367
 
-### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA384_KDF
+### -field XCN_OID_DH_SINGLE_PASS_STDDH_SHA384_KDF:368
 
-### -field XCN_OID_DISALLOWED_HASH
+### -field XCN_OID_DISALLOWED_HASH:369
 
-### -field XCN_OID_DISALLOWED_LIST
+### -field XCN_OID_DISALLOWED_LIST:370
 
-### -field XCN_OID_ECC_CURVE_P256
+### -field XCN_OID_ECC_CURVE_P256:371
 
-### -field XCN_OID_ECC_CURVE_P384
+### -field XCN_OID_ECC_CURVE_P384:372
 
-### -field XCN_OID_ECC_CURVE_P521
+### -field XCN_OID_ECC_CURVE_P521:373
 
-### -field XCN_OID_ECDSA_SHA256
+### -field XCN_OID_ECDSA_SHA256:374
 
-### -field XCN_OID_ECDSA_SHA384
+### -field XCN_OID_ECDSA_SHA384:375
 
-### -field XCN_OID_ECDSA_SHA512
+### -field XCN_OID_ECDSA_SHA512:376
 
-### -field XCN_OID_ENROLL_CAXCHGCERT_HASH
+### -field XCN_OID_ENROLL_CAXCHGCERT_HASH:377
 
-### -field XCN_OID_ENROLL_EK_INFO
+### -field XCN_OID_ENROLL_EK_INFO:378
 
-### -field XCN_OID_ENROLL_EKPUB_CHALLENGE
+### -field XCN_OID_ENROLL_EKPUB_CHALLENGE:379
 
-### -field XCN_OID_ENROLL_EKVERIFYCERT
+### -field XCN_OID_ENROLL_EKVERIFYCERT:380
 
-### -field XCN_OID_ENROLL_EKVERIFYCREDS
+### -field XCN_OID_ENROLL_EKVERIFYCREDS:381
 
-### -field XCN_OID_ENROLL_EKVERIFYKEY
+### -field XCN_OID_ENROLL_EKVERIFYKEY:382
 
-### -field XCN_OID_EV_RDN_COUNTRY
+### -field XCN_OID_EV_RDN_COUNTRY:383
 
-### -field XCN_OID_EV_RDN_LOCALE
+### -field XCN_OID_EV_RDN_LOCALE:384
 
-### -field XCN_OID_EV_RDN_STATE_OR_PROVINCE
+### -field XCN_OID_EV_RDN_STATE_OR_PROVINCE:385
 
-### -field XCN_OID_INHIBIT_ANY_POLICY
+### -field XCN_OID_INHIBIT_ANY_POLICY:386
 
-### -field XCN_OID_INTERNATIONALIZED_EMAIL_ADDRESS
+### -field XCN_OID_INTERNATIONALIZED_EMAIL_ADDRESS:387
 
-### -field XCN_OID_KP_KERNEL_MODE_CODE_SIGNING
+### -field XCN_OID_KP_KERNEL_MODE_CODE_SIGNING:388
 
-### -field XCN_OID_KP_KERNEL_MODE_HAL_EXTENSION_SIGNING
+### -field XCN_OID_KP_KERNEL_MODE_HAL_EXTENSION_SIGNING:389
 
-### -field XCN_OID_KP_KERNEL_MODE_TRUSTED_BOOT_SIGNING
+### -field XCN_OID_KP_KERNEL_MODE_TRUSTED_BOOT_SIGNING:390
 
-### -field XCN_OID_KP_TPM_AIK_CERTIFICATE
+### -field XCN_OID_KP_TPM_AIK_CERTIFICATE:391
 
-### -field XCN_OID_KP_TPM_EK_CERTIFICATE
+### -field XCN_OID_KP_TPM_EK_CERTIFICATE:392
 
-### -field XCN_OID_KP_TPM_PLATFORM_CERTIFICATE
+### -field XCN_OID_KP_TPM_PLATFORM_CERTIFICATE:393
 
-### -field XCN_OID_NIST_AES128_CBC
+### -field XCN_OID_NIST_AES128_CBC:394
 
-### -field XCN_OID_NIST_AES128_WRAP
+### -field XCN_OID_NIST_AES128_WRAP:395
 
-### -field XCN_OID_NIST_AES192_CBC
+### -field XCN_OID_NIST_AES192_CBC:396
 
-### -field XCN_OID_NIST_AES192_WRAP
+### -field XCN_OID_NIST_AES192_WRAP:397
 
-### -field XCN_OID_NIST_AES256_CBC
+### -field XCN_OID_NIST_AES256_CBC:398
 
-### -field XCN_OID_NIST_AES256_WRAP
+### -field XCN_OID_NIST_AES256_WRAP:399
 
-### -field XCN_OID_PKCS_12_PbeIds
+### -field XCN_OID_PKCS_12_PbeIds:400
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And128BitRC2
+### -field XCN_OID_PKCS_12_pbeWithSHA1And128BitRC2:401
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And128BitRC4
+### -field XCN_OID_PKCS_12_pbeWithSHA1And128BitRC4:402
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And2KeyTripleDES
+### -field XCN_OID_PKCS_12_pbeWithSHA1And2KeyTripleDES:403
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And3KeyTripleDES
+### -field XCN_OID_PKCS_12_pbeWithSHA1And3KeyTripleDES:404
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And40BitRC2
+### -field XCN_OID_PKCS_12_pbeWithSHA1And40BitRC2:405
 
-### -field XCN_OID_PKCS_12_pbeWithSHA1And40BitRC4
+### -field XCN_OID_PKCS_12_pbeWithSHA1And40BitRC4:406
 
-### -field XCN_OID_PKCS_12_PROTECTED_PASSWORD_SECRET_BAG_TYPE_ID
+### -field XCN_OID_PKCS_12_PROTECTED_PASSWORD_SECRET_BAG_TYPE_ID:407
 
-### -field XCN_OID_PKINIT_KP_KDC
+### -field XCN_OID_PKINIT_KP_KDC:408
 
-### -field XCN_OID_PKIX_CA_REPOSITORY
+### -field XCN_OID_PKIX_CA_REPOSITORY:409
 
-### -field XCN_OID_PKIX_OCSP_NONCE
+### -field XCN_OID_PKIX_OCSP_NONCE:410
 
-### -field XCN_OID_PKIX_TIME_STAMPING
+### -field XCN_OID_PKIX_TIME_STAMPING:411
 
-### -field XCN_OID_QC_EU_COMPLIANCE
+### -field XCN_OID_QC_EU_COMPLIANCE:412
 
-### -field XCN_OID_QC_SSCD
+### -field XCN_OID_QC_SSCD:413
 
-### -field XCN_OID_QC_STATEMENTS_EXT
+### -field XCN_OID_QC_STATEMENTS_EXT:414
 
-### -field XCN_OID_RDN_TPM_MANUFACTURER
+### -field XCN_OID_RDN_TPM_MANUFACTURER:415
 
-### -field XCN_OID_RDN_TPM_MODEL
+### -field XCN_OID_RDN_TPM_MODEL:416
 
-### -field XCN_OID_RDN_TPM_VERSION
+### -field XCN_OID_RDN_TPM_VERSION:417
 
-### -field XCN_OID_REVOKED_LIST_SIGNER
+### -field XCN_OID_REVOKED_LIST_SIGNER:418
 
-### -field XCN_OID_RFC3161_counterSign
+### -field XCN_OID_RFC3161_counterSign:419
 
-### -field XCN_OID_ROOT_PROGRAM_AUTO_UPDATE_CA_REVOCATION
+### -field XCN_OID_ROOT_PROGRAM_AUTO_UPDATE_CA_REVOCATION:420
 
-### -field XCN_OID_ROOT_PROGRAM_AUTO_UPDATE_END_REVOCATION
+### -field XCN_OID_ROOT_PROGRAM_AUTO_UPDATE_END_REVOCATION:421
 
-### -field XCN_OID_ROOT_PROGRAM_FLAGS
+### -field XCN_OID_ROOT_PROGRAM_FLAGS:422
 
-### -field XCN_OID_ROOT_PROGRAM_NO_OCSP_FAILOVER_TO_CRL
+### -field XCN_OID_ROOT_PROGRAM_NO_OCSP_FAILOVER_TO_CRL:423
 
-### -field XCN_OID_RSA_PSPECIFIED
+### -field XCN_OID_RSA_PSPECIFIED:424
 
-### -field XCN_OID_RSAES_OAEP
+### -field XCN_OID_RSAES_OAEP:425
 
-### -field XCN_OID_SUBJECT_INFO_ACCESS
+### -field XCN_OID_SUBJECT_INFO_ACCESS:426
 
-### -field XCN_OID_TIMESTAMP_TOKEN
+### -field XCN_OID_TIMESTAMP_TOKEN:427
 
-### -field XCN_OID_ENROLL_SCEP_ERROR
+### -field XCN_OID_ENROLL_SCEP_ERROR:428
 
-### -field XCN_OIDVerisign_MessageType
+### -field XCN_OIDVerisign_MessageType:429
 
-### -field XCN_OIDVerisign_PkiStatus
+### -field XCN_OIDVerisign_PkiStatus:430
 
-### -field XCN_OIDVerisign_FailInfo
+### -field XCN_OIDVerisign_FailInfo:431
 
-### -field XCN_OIDVerisign_SenderNonce
+### -field XCN_OIDVerisign_SenderNonce:432
 
-### -field XCN_OIDVerisign_RecipientNonce
+### -field XCN_OIDVerisign_RecipientNonce:433
 
-### -field XCN_OIDVerisign_TransactionID
+### -field XCN_OIDVerisign_TransactionID:434
 
-### -field XCN_OID_ENROLL_ATTESTATION_CHALLENGE
+### -field XCN_OID_ENROLL_ATTESTATION_CHALLENGE:435
 
-### -field XCN_OID_ENROLL_ATTESTATION_STATEMENT
+### -field XCN_OID_ENROLL_ATTESTATION_STATEMENT:436
 
-### -field XCN_OID_ENROLL_ENCRYPTION_ALGORITHM
+### -field XCN_OID_ENROLL_ENCRYPTION_ALGORITHM:437
 
-### -field XCN_OID_ENROLL_KSP_NAME
+### -field XCN_OID_ENROLL_KSP_NAME:438
 
 ## -see-also
 

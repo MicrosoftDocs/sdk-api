@@ -1,12 +1,12 @@
 ---
-UID: NS:dbghelp.__unnamed_struct_0
+UID: NS:dbghelp.SYMSRV_INDEX_INFO
 title: SYMSRV_INDEX_INFO (dbghelp.h)
-description: Contains symbol server index information.
+description: The SYMSRV_INDEX_INFO structure (dbghelp.h) contains symbol server index information.
 helpviewer_keywords: ["*PSYMSRV_INDEX_INFO","PSYMSRV_INDEX_INFO","PSYMSRV_INDEX_INFO structure pointer","SYMSRV_INDEX_INFO","SYMSRV_INDEX_INFO structure","SYMSRV_INDEX_INFOW","base.symsrv_index_info","dbghelp/PSYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFO","dbghelp/SYMSRV_INDEX_INFOW"]
 old-location: base\symsrv_index_info.htm
 tech.root: Debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW'
 req.header: dbghelp.h
 req.include-header: 
@@ -101,3 +101,4 @@ The age of the .pdb file.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
+

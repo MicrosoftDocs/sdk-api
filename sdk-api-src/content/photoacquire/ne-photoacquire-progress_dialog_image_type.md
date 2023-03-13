@@ -56,19 +56,19 @@ The <code>PROGRESS_DIALOG_IMAGE_TYPE</code> enumeration type indicates the image
 
 ## -enum-fields
 
-### -field PROGRESS_DIALOG_ICON_SMALL
+### -field PROGRESS_DIALOG_ICON_SMALL:0
 
 Specifies the small icon used in the title bar (normally 16 x 16 pixels).
 
-### -field PROGRESS_DIALOG_ICON_LARGE
+### -field PROGRESS_DIALOG_ICON_LARGE:0x1
 
 Specifies the icon used to represent the progress dialog box in ALT+TAB key combination windows (normally 32 x 32 pixels).
 
-### -field PROGRESS_DIALOG_ICON_THUMBNAIL
+### -field PROGRESS_DIALOG_ICON_THUMBNAIL:0x2
 
 Specifies an icon used in place of the thumbnail (up to 128 x 128 pixels).
 
-### -field PROGRESS_DIALOG_BITMAP_THUMBNAIL
+### -field PROGRESS_DIALOG_BITMAP_THUMBNAIL:0x3
 
 Specifies a bitmap thumbnail (up to 128 x 128 pixels, although it will be scaled to fit if it is too large).
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateRasterizerState
 title: ID3D11Device::CreateRasterizerState (d3d11.h)
-description: Create a rasterizer state object that tells the rasterizer stage how to behave.
+description: Create a rasterizer state object that tells the rasterizer stage how to behave. (ID3D11Device.CreateRasterizerState)
 helpviewer_keywords: ["89e8a772-b143-38e2-89a4-4b72b0a4b1c5","CreateRasterizerState","CreateRasterizerState method [Direct3D 11]","CreateRasterizerState method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateRasterizerState method","ID3D11Device.CreateRasterizerState","ID3D11Device::CreateRasterizerState","d3d11/ID3D11Device::CreateRasterizerState","direct3d11.id3d11device_createrasterizerstate"]
 old-location: direct3d11\id3d11device_createrasterizerstate.htm
 tech.root: direct3d11

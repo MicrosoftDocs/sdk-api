@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecInt
 title: VarDecInt function (oleauto.h)
-description: Retrieves the integer portion of a variant of type decimal.
+description: Retrieves the integer portion of a variant of type decimal. (VarDecInt)
 helpviewer_keywords: ["VarDecInt","VarDecInt function [Automation]","_oa96_VarDecInt","automat.vardecint","oleauto/VarDecInt"]
 old-location: automat\vardecint.htm
 tech.root: automat

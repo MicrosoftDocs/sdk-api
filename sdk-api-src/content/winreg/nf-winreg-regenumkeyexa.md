@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegEnumKeyExA
 title: RegEnumKeyExA function (winreg.h)
-description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
-helpviewer_keywords: ["RegEnumKeyEx","RegEnumKeyEx function","RegEnumKeyExA","RegEnumKeyExW","_win32_regenumkeyex","base.regenumkeyex","winreg/RegEnumKeyEx","winreg/RegEnumKeyExA","winreg/RegEnumKeyExW"]
+description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called. (ANSI)
+helpviewer_keywords: ["RegEnumKeyExA", "winreg/RegEnumKeyExA"]
 old-location: base\regenumkeyex.htm
 tech.root: winprog
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
@@ -103,7 +103,7 @@ For more information, see
 
 ### -param lpcchName [in, out]
 
-A pointer to a variable that specifies the size of the buffer specified by the <i>lpName</i> parameter, in characters. This size should include the terminating <b>null</b> character. If the function succeeds, the variable pointed to by <i>lpcName</i> contains the number of characters stored in the buffer, not including the terminating <b>null</b> character.
+A pointer to a variable that specifies the size of the buffer specified by the <i>lpName</i> parameter, in characters. This size should include the terminating <b>null</b> character. If the function succeeds, the variable pointed to by <i>lpcchName</i> contains the number of characters stored in the buffer, not including the terminating <b>null</b> character.
 
 To determine the required buffer size, use the 
 <a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function to determine the size of the largest subkey for the key identified by the <i>hKey</i> parameter.
@@ -118,7 +118,7 @@ A pointer to a buffer that receives the user-defined class of the enumerated sub
 
 ### -param lpcchClass [in, out, optional]
 
-A pointer to a variable that specifies the size of the buffer specified by the <i>lpClass</i> parameter, in characters. The size should include the terminating <b>null</b> character. If the function succeeds, <i>lpcClass</i> contains the number of characters stored in the buffer, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b> only if <i>lpClass</i> is <b>NULL</b>.
+A pointer to a variable that specifies the size of the buffer specified by the <i>lpClass</i> parameter, in characters. The size should include the terminating <b>null</b> character. If the function succeeds, <i>lpcchClass</i> contains the number of characters stored in the buffer, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b> only if <i>lpClass</i> is <b>NULL</b>.
 
 ### -param lpftLastWriteTime [out, optional]
 

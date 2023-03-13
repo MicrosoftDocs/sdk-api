@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_ProviderType
 title: IEnroll::put_ProviderType (xenroll.h)
-description: Sets or retrieves the type of provider.
+description: Sets or retrieves the type of provider. (Put)
 helpviewer_keywords: ["IEnroll interface [Security]","ProviderType property","IEnroll.ProviderType","IEnroll.put_ProviderType","IEnroll::ProviderType","IEnroll::get_ProviderType","IEnroll::put_ProviderType","ProviderType property [Security]","ProviderType property [Security]","IEnroll interface","put_ProviderType","security.ienroll4_providertype","xenroll/IEnroll::ProviderType","xenroll/IEnroll::get_ProviderType","xenroll/IEnroll::put_ProviderType"]
 old-location: security\ienroll4_providertype.htm
 tech.root: security
