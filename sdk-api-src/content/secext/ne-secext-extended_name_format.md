@@ -99,7 +99,7 @@ The DNS domain name followed by a backward-slash and the SAM user name.
 
 ### -field NameGivenName:13
 
-The first name or given name of the user. Note: This type is inly available for GetUserNameEx calls for an Active Directory User.
+The first name or given name of the user. Note: This type is only available for **GetUserNameEx** calls for an Active Directory user.
 
 ### -field NameSurname:14
 
