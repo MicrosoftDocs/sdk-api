@@ -2,7 +2,7 @@
 UID: NF:winuser.LoadBitmapA
 title: LoadBitmapA function (winuser.h)
 description: The LoadBitmap function loads the specified bitmap resource from a module's executable file. (ANSI)
-helpviewer_keywords: ["LoadBitmap","LoadBitmap function [Windows GDI]","LoadBitmapA","LoadBitmapW","_win32_LoadBitmap","gdi.loadbitmap","winuser/LoadBitmap","winuser/LoadBitmapA","winuser/LoadBitmapW"]
+helpviewer_keywords: ["LoadBitmapA", "winuser/LoadBitmapA"]
 old-location: gdi\loadbitmap.htm
 tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c

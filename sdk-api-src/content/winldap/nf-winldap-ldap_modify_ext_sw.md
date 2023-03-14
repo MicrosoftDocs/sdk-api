@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_modify_ext_sW
 title: ldap_modify_ext_sW function (winldap.h)
 description: The ldap_modify_ext_sW (Unicode) function (winldap.h) initiates an asynchronous operation to modify an existing entry. 
-helpviewer_keywords: ["_ldap_ldap_modify_ext_s","ldap.ldap__modify__ext__s","ldap.ldap_modify_ext_s","ldap_modify_ext_s","ldap_modify_ext_s function [LDAP]","ldap_modify_ext_sA","ldap_modify_ext_sW","winldap/ldap_modify_ext_s","winldap/ldap_modify_ext_sA","winldap/ldap_modify_ext_sW"]
+helpviewer_keywords: ["_ldap_ldap_modify_ext_s", "ldap.ldap__modify__ext__s", "ldap.ldap_modify_ext_s", "ldap_modify_ext_s", "ldap_modify_ext_s function [LDAP]", "ldap_modify_ext_sW", "winldap/ldap_modify_ext_s", "winldap/ldap_modify_ext_sW"]
 old-location: ldap\ldap_modify_ext_s.htm
 tech.root: ldap
 ms.assetid: d71190d6-4775-4f37-b509-3395a7352272

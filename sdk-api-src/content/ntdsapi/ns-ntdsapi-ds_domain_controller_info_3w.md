@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_18
+UID: NS:ntdsapi.DS_DOMAIN_CONTROLLER_INFO_3W
 title: DS_DOMAIN_CONTROLLER_INFO_3W (ntdsapi.h)
 description: The DS_DOMAIN_CONTROLLER_INFO_3 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function. (Unicode)
 helpviewer_keywords: ["*PDS_DOMAIN_CONTROLLER_INFO_3W","DS_DOMAIN_CONTROLLER_INFO_3","DS_DOMAIN_CONTROLLER_INFO_3 structure [Active Directory]","DS_DOMAIN_CONTROLLER_INFO_3A","DS_DOMAIN_CONTROLLER_INFO_3W","PDS_DOMAIN_CONTROLLER_INFO_3","PDS_DOMAIN_CONTROLLER_INFO_3 structure pointer [Active Directory]","ad.ds_domain_controller_info_3","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3A","ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3W","ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_3"]
@@ -141,3 +141,4 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa"
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a>
+

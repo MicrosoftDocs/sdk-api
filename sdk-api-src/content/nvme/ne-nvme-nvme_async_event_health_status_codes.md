@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_7
-tech.root: fs 
+UID: NE:nvme.NVME_ASYNC_EVENT_HEALTH_STATUS_CODES
+tech.root: fs
 title: NVME_ASYNC_EVENT_HEALTH_STATUS_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a SMART/Health Status event type.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_ASYNC_EVENT_HEALTH_STATUS_CODES enumeration
+
 
 ## -description
 
@@ -61,3 +62,4 @@ Use this enumeration to specify values in the **NVME_ASYNC_EVENT_TYPE_HEALTH_STA
 [NVME_ASYNC_EVENT_TYPES](ne-nvme-nvme_async_event_types.md)
 [NVME_FEATURES](ne-nvme_features)
 [NVME_ADMIN_COMMANDS](ne-nvme-nvme_admin_commands.md)
+

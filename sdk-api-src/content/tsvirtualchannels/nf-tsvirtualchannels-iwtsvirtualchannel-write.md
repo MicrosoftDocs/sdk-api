@@ -54,6 +54,8 @@ Starts a write request on the channel. All writes are considered asynchronous. C
 
 A <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close()</a> call on this channel will cancel any pending writes.
 
+When using the RDP stack, there is a max limit of 1590 bytes that can be written per call to this function. The call will not fail if this limit is exceeded. More specific details on the limit can be found in the DVC protocol spec <a href="https://learn.microsoft.com/openspecs/windows_protocols/ms-rdpedyc/69377767-56a6-4ab8-996b-7758676e9261">2.2.3.1 DVC Data First PDU (DYNVC_DATA_FIRST)</a>
+
 ## -parameters
 
 ### -param cbSize [in]

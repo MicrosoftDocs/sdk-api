@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_91
-tech.root: fs 
+UID: NS:nvme.NVME_FIRMWARE_SLOT_INFO_LOG
+tech.root: fs
 title: NVME_FIRMWARE_SLOT_INFO_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the information in the Firmware Slot Information log page.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_FIRMWARE_SLOT_INFO_LOG, *PNVME_FIRMWARE_SLOT_INFO_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_FIRMWARE_SLOT_INFO_LOG structure
+
 
 ## -description
 
@@ -71,7 +72,7 @@ Indicates the firmware slot that is going to be activated at the next controller
 
 When this field is set to `0h`, the controller does not indicate the firmware slot that is going to be activated at the next controller reset.
 
-This value is contained in bits 4:6 of the **AFI** structure 
+This value is contained in bits 4:6 of the **AFI** structure
 
 ### -field AFI.Reserved1
 

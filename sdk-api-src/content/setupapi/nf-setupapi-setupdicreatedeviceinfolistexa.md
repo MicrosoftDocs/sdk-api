@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiCreateDeviceInfoListExA
 title: SetupDiCreateDeviceInfoListExA function (setupapi.h)
 description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class . (ANSI)
-helpviewer_keywords: ["SetupDiCreateDeviceInfoListEx","SetupDiCreateDeviceInfoListEx function [Device and Driver Installation]","SetupDiCreateDeviceInfoListExA","SetupDiCreateDeviceInfoListExW","devinst.setupdicreatedeviceinfolistex","di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml","setupapi/SetupDiCreateDeviceInfoListEx"]
+helpviewer_keywords: ["SetupDiCreateDeviceInfoListExA", "di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml"]
 old-location: devinst\setupdicreatedeviceinfolistex.htm
 tech.root: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4

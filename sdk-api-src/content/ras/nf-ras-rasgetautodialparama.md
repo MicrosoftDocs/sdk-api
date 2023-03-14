@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetAutodialParamA
 title: RasGetAutodialParamA function (ras.h)
 description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter. (ANSI)
-helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasGetAutodialParam","RasGetAutodialParam function [RAS]","RasGetAutodialParamA","RasGetAutodialParamW","_ras_rasgetautodialparam","ras/RasGetAutodialParam","ras/RasGetAutodialParamA","ras/RasGetAutodialParamW","rras.rasgetautodialparam"]
+helpviewer_keywords: ["RASADP_ConnectionQueryTimeout", "RASADP_DisableConnectionQuery", "RASADP_FailedConnectionTimeout", "RASADP_LoginSessionDisable", "RASADP_SavedAddressesLimit", "RasGetAutodialParamA", "ras/RasGetAutodialParamA"]
 old-location: rras\rasgetautodialparam.htm
 tech.root: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191

@@ -47,9 +47,6 @@ api_name:
  - DVD_WARNING
 ---
 
-# DVD_WARNING enumeration
-
-
 ## -description
 
 Specifies DVD warning conditions.
@@ -62,7 +59,7 @@ DVD-Video disc is authored incorrectly. Playback can continue, but unexpected be
 
 ### -field DVD_WARNING_FormatNotSupported:2
 
-A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
+A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="/windows/win32/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
 
 ### -field DVD_WARNING_IllegalNavCommand:3
 

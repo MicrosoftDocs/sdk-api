@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiGetClassDescriptionW
 title: SetupDiGetClassDescriptionW function (setupapi.h)
 description: The SetupDiGetClassDescription function retrieves the class description associated with the specified setup class GUID. (Unicode)
-helpviewer_keywords: ["SetupDiGetClassDescription","SetupDiGetClassDescription function [Device and Driver Installation]","SetupDiGetClassDescriptionA","SetupDiGetClassDescriptionW","devinst.setupdigetclassdescription","di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml","setupapi/SetupDiGetClassDescription"]
+helpviewer_keywords: ["SetupDiGetClassDescription", "SetupDiGetClassDescription function [Device and Driver Installation]", "SetupDiGetClassDescriptionW", "devinst.setupdigetclassdescription", "di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml", "setupapi/SetupDiGetClassDescription"]
 old-location: devinst\setupdigetclassdescription.htm
 tech.root: devinst
 ms.assetid: a9757c77-f873-4f75-be80-c4bd1d327299

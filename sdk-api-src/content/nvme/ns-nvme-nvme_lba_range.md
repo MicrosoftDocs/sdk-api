@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_144
-tech.root: fs 
+UID: NS:nvme.NVME_LBA_RANGE
+tech.root: fs
 title: NVME_LBA_RANGE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that define a collection of contiguous logical blocks specified by a starting LBA and number of logical blocks.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_LBA_RANGE, *PNVME_LBA_RANGE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_LBA_RANGE structure
+
 
 ## -description
 
@@ -69,3 +70,4 @@ Specifies the starting logical block in the range.
 
 - [NVME_CDW10_DATASET_MANAGEMENT](ns-nvme-nvme_cdw10_dataset_management.md)
 - [NVME_CDW11_DATASET_MANAGEMENT](ns-nvme-nvme_cdw11_dataset_management.md)
+

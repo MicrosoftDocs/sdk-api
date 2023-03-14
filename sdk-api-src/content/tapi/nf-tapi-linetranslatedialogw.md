@@ -2,7 +2,7 @@
 UID: NF:tapi.lineTranslateDialogW
 title: lineTranslateDialogW function (tapi.h)
 description: The lineTranslateDialogW (Unicode) function (tapi.h) displays an application-modal dialog box that allows the user to change the phone number location, adjust the calling card parameters, and see the effect.
-helpviewer_keywords: ["_tapi2_linetranslatedialog","lineTranslateDialog","lineTranslateDialog function [TAPI 2.2]","lineTranslateDialogA","lineTranslateDialogW","tapi/lineTranslateDialog","tapi/lineTranslateDialogA","tapi/lineTranslateDialogW","tapi2.linetranslatedialog"]
+helpviewer_keywords: ["_tapi2_linetranslatedialog", "lineTranslateDialog", "lineTranslateDialog function [TAPI 2.2]", "lineTranslateDialogW", "tapi/lineTranslateDialog", "tapi/lineTranslateDialogW", "tapi2.linetranslatedialog"]
 old-location: tapi2\linetranslatedialog.htm
 tech.root: tapi3
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67

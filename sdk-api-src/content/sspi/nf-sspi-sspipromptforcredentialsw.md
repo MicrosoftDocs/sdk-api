@@ -2,7 +2,7 @@
 UID: NF:sspi.SspiPromptForCredentialsW
 title: SspiPromptForCredentialsW function (sspi.h)
 description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials. (Unicode)
-helpviewer_keywords: ["SSPIPFC_CREDPROV_DO_NOT_SAVE","SSPIPFC_NO_CHECKBOX","SspiPromptForCredentials","SspiPromptForCredentials function [Security]","SspiPromptForCredentialsA","SspiPromptForCredentialsW","security.sspipromptforcredentials","sspi/SspiPromptForCredentials","sspi/SspiPromptForCredentialsA","sspi/SspiPromptForCredentialsW"]
+helpviewer_keywords: ["SSPIPFC_CREDPROV_DO_NOT_SAVE", "SSPIPFC_NO_CHECKBOX", "SspiPromptForCredentials", "SspiPromptForCredentials function [Security]", "SspiPromptForCredentialsW", "security.sspipromptforcredentials", "sspi/SspiPromptForCredentials", "sspi/SspiPromptForCredentialsW"]
 old-location: security\sspipromptforcredentials.htm
 tech.root: security
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1

@@ -2,7 +2,7 @@
 UID: NF:wingdi.GetCharacterPlacementW
 title: GetCharacterPlacementW function (wingdi.h)
 description: The GetCharacterPlacement function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. (Unicode)
-helpviewer_keywords: ["GCP_CLASSIN","GCP_DIACRITIC","GCP_DISPLAYZWG","GCP_GLYPHSHAPE","GCP_JUSTIFY","GCP_KASHIDA","GCP_LIGATE","GCP_MAXEXTENT","GCP_NEUTRALOVERRIDE","GCP_NUMERICOVERRIDE","GCP_NUMERICSLATIN","GCP_NUMERICSLOCAL","GCP_REORDER","GCP_SYMSWAPOFF","GCP_USEKERNING","GetCharacterPlacement","GetCharacterPlacement function [Windows GDI]","GetCharacterPlacementA","GetCharacterPlacementW","_win32_GetCharacterPlacement","gdi.getcharacterplacement","wingdi/GetCharacterPlacement","wingdi/GetCharacterPlacementA","wingdi/GetCharacterPlacementW"]
+helpviewer_keywords: ["GCP_CLASSIN", "GCP_DIACRITIC", "GCP_DISPLAYZWG", "GCP_GLYPHSHAPE", "GCP_JUSTIFY", "GCP_KASHIDA", "GCP_LIGATE", "GCP_MAXEXTENT", "GCP_NEUTRALOVERRIDE", "GCP_NUMERICOVERRIDE", "GCP_NUMERICSLATIN", "GCP_NUMERICSLOCAL", "GCP_REORDER", "GCP_SYMSWAPOFF", "GCP_USEKERNING", "GetCharacterPlacement", "GetCharacterPlacement function [Windows GDI]", "GetCharacterPlacementW", "_win32_GetCharacterPlacement", "gdi.getcharacterplacement", "wingdi/GetCharacterPlacement", "wingdi/GetCharacterPlacementW"]
 old-location: gdi\getcharacterplacement.htm
 tech.root: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f

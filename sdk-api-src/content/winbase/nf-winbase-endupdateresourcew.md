@@ -2,7 +2,7 @@
 UID: NF:winbase.EndUpdateResourceW
 title: EndUpdateResourceW function (winbase.h)
 description: Commits or discards changes made prior to a call to UpdateResource. (Unicode)
-helpviewer_keywords: ["EndUpdateResource","EndUpdateResource function [Menus and Other Resources]","EndUpdateResourceA","EndUpdateResourceW","_win32_EndUpdateResource","_win32_endupdateresource_cpp","menurc.endupdateresource","winbase/EndUpdateResource","winbase/EndUpdateResourceA","winbase/EndUpdateResourceW","winui._win32_endupdateresource"]
+helpviewer_keywords: ["EndUpdateResource", "EndUpdateResource function [Menus and Other Resources]", "EndUpdateResourceW", "_win32_EndUpdateResource", "_win32_endupdateresource_cpp", "menurc.endupdateresource", "winbase/EndUpdateResource", "winbase/EndUpdateResourceW", "winui._win32_endupdateresource"]
 old-location: menurc\endupdateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm

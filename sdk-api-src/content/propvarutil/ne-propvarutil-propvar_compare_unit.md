@@ -1,5 +1,5 @@
 ---
-UID: NE:propvarutil.__unnamed_enum_0
+UID: NE:propvarutil.PROPVAR_COMPARE_UNIT
 title: PROPVAR_COMPARE_UNIT (propvarutil.h)
 description: These flags are associated with certain PROPVARIANT structure comparisons.
 helpviewer_keywords: ["PROPVAR_COMPARE_UNIT","PROPVAR_COMPARE_UNIT enumeration [Windows Properties]","PVCU_DAY","PVCU_DEFAULT","PVCU_HOUR","PVCU_MINUTE","PVCU_MONTH","PVCU_SECOND","PVCU_YEAR","_shell_PROPVAR_COMPARE_UNIT","properties.PROPVAR_COMPARE_UNIT","propvarutil/PROPVAR_COMPARE_UNIT","propvarutil/PVCU_DAY","propvarutil/PVCU_DEFAULT","propvarutil/PVCU_HOUR","propvarutil/PVCU_MINUTE","propvarutil/PVCU_MONTH","propvarutil/PVCU_SECOND","propvarutil/PVCU_YEAR","shell.PROPVAR_COMPARE_UNIT"]
@@ -81,3 +81,4 @@ The month comparison unit.
 ### -field PVCU_YEAR:6
 
 The year comparison unit.
+

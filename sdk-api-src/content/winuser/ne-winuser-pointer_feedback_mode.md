@@ -1,5 +1,5 @@
 ---
-UID: NE:winuser.__unnamed_enum_0
+UID: NE:winuser.POINTER_FEEDBACK_MODE
 title: POINTER_FEEDBACK_MODE (winuser.h)
 description: Identifies the visual feedback behaviors available to CreateSyntheticPointerDevice.
 helpviewer_keywords: ["POINTER_FEEDBACK_DEFAULT","POINTER_FEEDBACK_INDIRECT","POINTER_FEEDBACK_MODE","POINTER_FEEDBACK_MODE enumeration","POINTER_FEEDBACK_NONE","input_pointerdevice.pointer_feedback_mode","winuser/POINTER_FEEDBACK_DEFAULT","winuser/POINTER_FEEDBACK_INDIRECT","winuser/POINTER_FEEDBACK_MODE","winuser/POINTER_FEEDBACK_NONE"]

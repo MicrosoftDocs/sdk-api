@@ -2,7 +2,7 @@
 UID: NF:msi.MsiEnumPatchesW
 title: MsiEnumPatchesW function (msi.h)
 description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product. (Unicode)
-helpviewer_keywords: ["MsiEnumPatches","MsiEnumPatches function","MsiEnumPatchesA","MsiEnumPatchesW","_msi_msienumpatches","msi/MsiEnumPatches","msi/MsiEnumPatchesA","msi/MsiEnumPatchesW","setup.msienumpatches"]
+helpviewer_keywords: ["MsiEnumPatches", "MsiEnumPatches function", "MsiEnumPatchesW", "_msi_msienumpatches", "msi/MsiEnumPatches", "msi/MsiEnumPatchesW", "setup.msienumpatches"]
 old-location: setup\msienumpatches.htm
 tech.root: setup
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2

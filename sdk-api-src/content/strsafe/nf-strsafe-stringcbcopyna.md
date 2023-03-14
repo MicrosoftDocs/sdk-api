@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbCopyNA
 title: StringCbCopyNA function (strsafe.h)
 description: Copies the specified number of bytes from one string to another. (StringCbCopyNA)
-helpviewer_keywords: ["StringCbCopyN","StringCbCopyN function [Menus and Other Resources]","StringCbCopyNA","StringCbCopyNW","_shell_StringCbCopyN","_shell_stringcbcopyn_cpp","menurc.stringcbcopyn","strsafe/StringCbCopyN","strsafe/StringCbCopyNA","strsafe/StringCbCopyNW","winui._shell_stringcbcopyn"]
+helpviewer_keywords: ["StringCbCopyNA", "strsafe/StringCbCopyNA"]
 old-location: menurc\stringcbcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm

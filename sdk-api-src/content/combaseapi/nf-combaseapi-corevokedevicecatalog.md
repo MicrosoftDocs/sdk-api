@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoRevokeDeviceCatalog
 title: CoRevokeDeviceCatalog
-description: Revokes the registration of a device catalog performed by a previous call to [CoRegisterDeviceCatalog](nf-combaseapi-coregisterdevicecatalog.md).
+description: Revokes the registration of a device catalog performed by a previous call to [CoRegisterDeviceCatalog](/windows/win32/api/combaseapi/nf-combaseapi-coregisterdevicecatalog).
 tech.root: com
 ms.date: 03/25/2022
 helpviewer_keywords:
@@ -48,7 +48,7 @@ prerelease: false
 
 ## -description
 
-Revokes the registration of a device catalog performed by a previous call to [CoRegisterDeviceCatalog](nf-combaseapi-coregisterdevicecatalog.md).
+Revokes the registration of a device catalog performed by a previous call to [CoRegisterDeviceCatalog](/windows/win32/api/combaseapi/nf-combaseapi-coregisterdevicecatalog).
 
 ## -parameters
 

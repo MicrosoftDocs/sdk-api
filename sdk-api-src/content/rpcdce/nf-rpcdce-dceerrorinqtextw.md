@@ -2,7 +2,7 @@
 UID: NF:rpcdce.DceErrorInqTextW
 title: DceErrorInqTextW function (rpcdce.h)
 description: The DceErrorInqTextW (Unicode) function (rpcdce.h) returns the message text for a status code.
-helpviewer_keywords: ["DceErrorInqText","DceErrorInqText function [RPC]","DceErrorInqTextA","DceErrorInqTextW","RPC_S_INVALID_ARG","RPC_S_OK","_rpc_dceerrorinqtext","rpc.dceerrorinqtext","rpcdce/DceErrorInqText","rpcdce/DceErrorInqTextA","rpcdce/DceErrorInqTextW"]
+helpviewer_keywords: ["DceErrorInqText", "DceErrorInqText function [RPC]", "DceErrorInqTextW", "RPC_S_INVALID_ARG", "RPC_S_OK", "_rpc_dceerrorinqtext", "rpc.dceerrorinqtext", "rpcdce/DceErrorInqText", "rpcdce/DceErrorInqTextW"]
 old-location: rpc\dceerrorinqtext.htm
 tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82

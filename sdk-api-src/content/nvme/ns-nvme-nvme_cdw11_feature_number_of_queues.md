@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_40
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_NUMBER_OF_QUEUES
+tech.root: fs
 title: NVME_CDW11_FEATURE_NUMBER_OF_QUEUES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Number of Queues Feature that indicate the number of I/O Completion Queues and I/O Submission Queues that the host requests for this controller.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_NUMBER_OF_QUEUES, *PNVME_CDW11_FEATURE_NUMBER_OF_QUEUES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_NUMBER_OF_QUEUES structure
+
 
 ## -description
 
@@ -74,3 +75,4 @@ If the specified value specified is greater than the maximum value, the controll
 ## -see-also
 
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

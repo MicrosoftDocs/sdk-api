@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_28
+UID: NS:digitalv.MCI_DGV_SETVIDEO_PARMSA
 title: MCI_DGV_SETVIDEO_PARMSA (digitalv.h)
 description: The MCI_DGV_SETVIDEO_PARMSA (ANSI) structure contains parameters for the MCI_SETVIDEO command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_SETVIDEO_PARMSA","MCI_DGV_SETVIDEO_PARMS","MCI_DGV_SETVIDEO_PARMS structure [Windows Multimedia]","MCI_DGV_SETVIDEO_PARMSA","_win32_MCI_DGV_SETVIDEO_PARMS_str","digitalv/MCI_DGV_SETVIDEO_PARMS","multimedia.mci_dgv_setvideo_parms"]
@@ -109,3 +109,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

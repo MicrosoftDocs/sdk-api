@@ -2,7 +2,7 @@
 UID: NF:processenv.SearchPathW
 title: SearchPathW function
 description: Searches for a specified file in a specified path. (Unicode)
-helpviewer_keywords: ["SearchPath","SearchPath function [Files]","SearchPathA","SearchPathW","_win32_searchpath","base.searchpath","fs.searchpath","processenv/SearchPath","processenv/SearchPathA","processenv/SearchPathW"]
+helpviewer_keywords: ["SearchPath", "SearchPath function [Files]", "SearchPathW", "_win32_searchpath", "base.searchpath", "fs.searchpath", "processenv/SearchPath", "processenv/SearchPathW"]
 old-location: fs\searchpath.htm
 tech.root: fs
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d

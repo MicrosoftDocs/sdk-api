@@ -46,6 +46,15 @@ helpviewer_keywords:
 
 Evaluates to a Boolean value that indicates whether two CLSIDs are equal.
 
+## -syntax
+
+```cpp
+BOOL IsEqualCLSID(
+  rclsid1,
+  rclsid2
+);
+```
+
 ## -parameters
 
 ### -param rclsid1

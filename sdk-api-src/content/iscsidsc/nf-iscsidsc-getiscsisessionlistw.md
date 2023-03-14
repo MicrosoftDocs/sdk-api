@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.GetIScsiSessionListW
 title: GetIScsiSessionListW function (iscsidsc.h)
 description: GetIscsiSessionList function retrieves the list of active iSCSI sessions. (Unicode)
-helpviewer_keywords: ["GetIScsiSessionListW","GetIscsiSessionList","GetIscsiSessionList function [iSCSI Discovery Library API]","GetIscsiSessionListA","GetIscsiSessionListW","iscsidisc.getiscsisessionlist","iscsidsc/GetIscsiSessionList","iscsidsc/GetIscsiSessionListA","iscsidsc/GetIscsiSessionListW"]
+helpviewer_keywords: ["GetIScsiSessionListW", "GetIscsiSessionList", "GetIscsiSessionList function [iSCSI Discovery Library API]", "GetIscsiSessionListW", "iscsidisc.getiscsisessionlist", "iscsidsc/GetIscsiSessionList", "iscsidsc/GetIscsiSessionListW"]
 old-location: iscsidisc\getiscsisessionlist.htm
 tech.root: iSCSIDisc
 ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e

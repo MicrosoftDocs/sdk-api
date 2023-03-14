@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbCatW
 title: StringCbCatW function (strsafe.h)
 description: Concatenates one string to another string. (StringCbCatW)
-helpviewer_keywords: ["StringCbCat","StringCbCat function [Menus and Other Resources]","StringCbCatA","StringCbCatW","_shell_StringCbCat","_shell_stringcbcat_cpp","menurc.stringcbcat","strsafe/StringCbCat","strsafe/StringCbCatA","strsafe/StringCbCatW","winui._shell_stringcbcat"]
+helpviewer_keywords: ["StringCbCat", "StringCbCat function [Menus and Other Resources]", "StringCbCatW", "_shell_StringCbCat", "_shell_stringcbcat_cpp", "menurc.stringcbcat", "strsafe/StringCbCat", "strsafe/StringCbCatW", "winui._shell_stringcbcat"]
 old-location: menurc\stringcbcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcat.htm

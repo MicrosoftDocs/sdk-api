@@ -2,7 +2,7 @@
 UID: NF:winbase.LookupPrivilegeNameA
 title: LookupPrivilegeNameA function (winbase.h)
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID). (ANSI)
-helpviewer_keywords: ["LookupPrivilegeName","LookupPrivilegeName function [Security]","LookupPrivilegeNameA","LookupPrivilegeNameW","_win32_lookupprivilegename","security.lookupprivilegename","winbase/LookupPrivilegeName","winbase/LookupPrivilegeNameA","winbase/LookupPrivilegeNameW"]
+helpviewer_keywords: ["LookupPrivilegeNameA", "winbase/LookupPrivilegeNameA"]
 old-location: security\lookupprivilegename.htm
 tech.root: security
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf

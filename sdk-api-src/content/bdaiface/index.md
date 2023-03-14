@@ -20,5 +20,5 @@ f1_keywords:
 This header is used by multiple technologies. For more information, see:
 
 - [DirectShow](../_dshow/index.md)
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
 

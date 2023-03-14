@@ -1,5 +1,5 @@
 ---
-UID: NE:nldef.__unnamed_enum_1
+UID: NE:nldef.NL_SUFFIX_ORIGIN
 title: NL_SUFFIX_ORIGIN (nldef.h)
 description: The IP_SUFFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address suffix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 helpviewer_keywords: ["IP_SUFFIX_ORIGIN","IP_SUFFIX_ORIGIN enumeration [IP Helper]","IpSuffixOriginDhcp","IpSuffixOriginLinkLayerAddress","IpSuffixOriginManual","IpSuffixOriginOther","IpSuffixOriginRandom","IpSuffixOriginUnchanged","IpSuffixOriginWellKnown","NL_SUFFIX_ORIGIN","iphlp.ip_suffix_origin","iptypes/IP_SUFFIX_ORIGIN","iptypes/IpSuffixOriginDhcp","iptypes/IpSuffixOriginLinkLayerAddress","iptypes/IpSuffixOriginManual","iptypes/IpSuffixOriginOther","iptypes/IpSuffixOriginRandom","iptypes/IpSuffixOriginUnchanged","iptypes/IpSuffixOriginWellKnown","nldef/IP_SUFFIX_ORIGIN","nldef/IpSuffixOriginDhcp","nldef/IpSuffixOriginLinkLayerAddress","nldef/IpSuffixOriginManual","nldef/IpSuffixOriginOther","nldef/IpSuffixOriginRandom","nldef/IpSuffixOriginUnchanged","nldef/IpSuffixOriginWellKnown"]
@@ -109,3 +109,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
+

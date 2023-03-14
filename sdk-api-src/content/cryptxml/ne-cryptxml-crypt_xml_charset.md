@@ -1,5 +1,5 @@
 ---
-UID: NE:cryptxml.__unnamed_enum_0
+UID: NE:cryptxml.CRYPT_XML_CHARSET
 title: CRYPT_XML_CHARSET (cryptxml.h)
 description: Used to specify the character set used in the XML.
 helpviewer_keywords: ["CRYPT_XML_CHARSET","CRYPT_XML_CHARSET enumeration [Security]","CRYPT_XML_CHARSET_AUTO","CRYPT_XML_CHARSET_UTF16BE","CRYPT_XML_CHARSET_UTF16LE","CRYPT_XML_CHARSET_UTF8","cryptxml/CRYPT_XML_CHARSET","cryptxml/CRYPT_XML_CHARSET_AUTO","cryptxml/CRYPT_XML_CHARSET_UTF16BE","cryptxml/CRYPT_XML_CHARSET_UTF16LE","cryptxml/CRYPT_XML_CHARSET_UTF8","security.crypt_xml_charset"]
@@ -69,3 +69,4 @@ Specifies the UTF-16 little-endian character set.
 ### -field CRYPT_XML_CHARSET_UTF16BE:3
 
 Specifies the UTF-16 big-endian character set.
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_10
+UID: NS:windns.DNS_MX_DATAA
 title: DNS_MX_DATAA (windns.h)
 description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035. (ANSI)
 helpviewer_keywords: ["*PDNS_MX_DATA","*PDNS_MX_DATAA","DNS_MX_DATA","DNS_MX_DATA structure [DNS]","DNS_MX_DATAA","PDNS_MX_DATA","PDNS_MX_DATA structure pointer [DNS]","_dns_dns_mx_data","dns.dns_mx_data","windns/DNS_MX_DATA","windns/PDNS_MX_DATA"]

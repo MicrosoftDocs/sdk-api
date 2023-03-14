@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_dn2ufnW
 title: ldap_dn2ufnW function (winldap.h)
 description: The ldap_dn2ufnW (Unicode) function (winldap.h) converts a distinguished name to a user-friendly format. 
-helpviewer_keywords: ["_ldap_ldap_dn2ufn","ldap.ldap__dn2ufn","ldap.ldap_dn2ufn","ldap_dn2ufn","ldap_dn2ufn function [LDAP]","ldap_dn2ufnA","ldap_dn2ufnW","winldap/ldap_dn2ufn","winldap/ldap_dn2ufnA","winldap/ldap_dn2ufnW"]
+helpviewer_keywords: ["_ldap_ldap_dn2ufn", "ldap.ldap__dn2ufn", "ldap.ldap_dn2ufn", "ldap_dn2ufn", "ldap_dn2ufn function [LDAP]", "ldap_dn2ufnW", "winldap/ldap_dn2ufn", "winldap/ldap_dn2ufnW"]
 old-location: ldap\ldap_dn2ufn.htm
 tech.root: ldap
 ms.assetid: 6c9c943f-304a-496c-bac4-283b6c717774

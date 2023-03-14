@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.SHBrowseForFolderA
 title: SHBrowseForFolderA function (shlobj_core.h)
 description: Displays a dialog box that enables the user to select a Shell folder. (ANSI)
-helpviewer_keywords: ["SHBrowseForFolder","SHBrowseForFolder function [Windows Shell]","SHBrowseForFolderA","SHBrowseForFolderW","_win32_SHBrowseForFolder","shell.SHBrowseForFolder","shlobj_core/SHBrowseForFolder","shlobj_core/SHBrowseForFolderA","shlobj_core/SHBrowseForFolderW"]
+helpviewer_keywords: ["SHBrowseForFolderA", "shlobj_core/SHBrowseForFolderA"]
 old-location: shell\SHBrowseForFolder.htm
 tech.root: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c

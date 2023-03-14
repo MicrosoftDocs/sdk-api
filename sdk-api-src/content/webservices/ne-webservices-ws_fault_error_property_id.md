@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_32
+UID: NE:webservices.WS_FAULT_ERROR_PROPERTY_ID
 title: WS_FAULT_ERROR_PROPERTY_ID (webservices.h)
 description: Information about a fault.
 helpviewer_keywords: ["WS_FAULT_ERROR_PROPERTY_ACTION","WS_FAULT_ERROR_PROPERTY_FAULT","WS_FAULT_ERROR_PROPERTY_HEADER","WS_FAULT_ERROR_PROPERTY_ID","WS_FAULT_ERROR_PROPERTY_ID enumeration [Web Services for Windows]","webservices/WS_FAULT_ERROR_PROPERTY_ACTION","webservices/WS_FAULT_ERROR_PROPERTY_FAULT","webservices/WS_FAULT_ERROR_PROPERTY_HEADER","webservices/WS_FAULT_ERROR_PROPERTY_ID","wsw.ws_fault_error_property_id"]
@@ -108,3 +108,4 @@ To set the header value, pass a WS_XML_BUFFER** to <a href="/windows/desktop/api
                 
 
 The default value is <b>NULL</b>.
+

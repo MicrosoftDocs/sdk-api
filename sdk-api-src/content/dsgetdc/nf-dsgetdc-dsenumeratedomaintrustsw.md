@@ -2,7 +2,7 @@
 UID: NF:dsgetdc.DsEnumerateDomainTrustsW
 title: DsEnumerateDomainTrustsW function (dsgetdc.h)
 description: Obtains domain trust data for a specified domain. (Unicode)
-helpviewer_keywords: ["DS_DOMAIN_DIRECT_INBOUND","DS_DOMAIN_DIRECT_OUTBOUND","DS_DOMAIN_IN_FOREST","DS_DOMAIN_NATIVE_MODE","DS_DOMAIN_PRIMARY","DS_DOMAIN_TREE_ROOT","DsEnumerateDomainTrusts","DsEnumerateDomainTrusts function [Active Directory]","DsEnumerateDomainTrustsA","DsEnumerateDomainTrustsW","_glines_dsenumeratedomaintrusts","ad.dsenumeratedomaintrusts","dsgetdc/DsEnumerateDomainTrusts","dsgetdc/DsEnumerateDomainTrustsA","dsgetdc/DsEnumerateDomainTrustsW"]
+helpviewer_keywords: ["DS_DOMAIN_DIRECT_INBOUND", "DS_DOMAIN_DIRECT_OUTBOUND", "DS_DOMAIN_IN_FOREST", "DS_DOMAIN_NATIVE_MODE", "DS_DOMAIN_PRIMARY", "DS_DOMAIN_TREE_ROOT", "DsEnumerateDomainTrusts", "DsEnumerateDomainTrusts function [Active Directory]", "DsEnumerateDomainTrustsW", "_glines_dsenumeratedomaintrusts", "ad.dsenumeratedomaintrusts", "dsgetdc/DsEnumerateDomainTrusts", "dsgetdc/DsEnumerateDomainTrustsW"]
 old-location: ad\dsenumeratedomaintrusts.htm
 tech.root: ad
 ms.assetid: 6c3b788f-ee53-4637-acdb-04316e8464fe

@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardGetProviderIdA
 title: SCardGetProviderIdA function (winscard.h)
 description: Returns the identifier (GUID) of the primary service provider for a given card. (ANSI)
-helpviewer_keywords: ["SCardGetProviderId","SCardGetProviderId function [Security]","SCardGetProviderIdA","SCardGetProviderIdW","_smart_scardgetproviderid","security.scardgetproviderid","winscard/SCardGetProviderId","winscard/SCardGetProviderIdA","winscard/SCardGetProviderIdW"]
+helpviewer_keywords: ["SCardGetProviderIdA", "winscard/SCardGetProviderIdA"]
 old-location: security\scardgetproviderid.htm
 tech.root: security
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99

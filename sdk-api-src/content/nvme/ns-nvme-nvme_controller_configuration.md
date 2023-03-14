@@ -1,6 +1,6 @@
 ---
-UID: NS:nvme.__unnamed_union_2
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_CONFIGURATION
+tech.root: fs
 title: NVME_CONTROLLER_CONFIGURATION
 ms.date: 08/09/2022
 ms.topic: language-reference
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_CONFIGURATION, *PNVME_CONTROLLER_CONFIGURATION
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CONTROLLER_CONFIGURATION structure
 
+
 ## -description
 
 Contains read/write configuration settings for the controller.
@@ -51,7 +52,7 @@ The host software sets the following fields to valid values prior to enabling th
 - [Memory Page Size **MPS**](#field-dummystructname.mps)
 - [Command Set **CSS**](#field-Sdummystructname.css)
 
-This structure is used in the Controller Capabilities (**CC**) field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the Controller Capabilities (**CC**) field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 

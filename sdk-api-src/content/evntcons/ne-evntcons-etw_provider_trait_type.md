@@ -1,5 +1,5 @@
 ---
-UID: NE:evntcons.__unnamed_enum_0
+UID: NE:evntcons.ETW_PROVIDER_TRAIT_TYPE
 tech.root: ETW
 title: ETW_PROVIDER_TRAIT_TYPE (evntcons.h)
 ms.date: 11/28/2022
@@ -36,6 +36,7 @@ helpviewer_keywords:
 
 # ETW_PROVIDER_TRAIT_TYPE enumeration (evntcons.h)
 
+
 ## -description
 
 Specifies the types of Provider Traits supported by Event Tracing for Windows (ETW).
@@ -61,3 +62,4 @@ Providers are applications that can generate event logs.
 ## -see-also
 
 [Provider Traits](/windows/win32/etw/provider-traits)
+

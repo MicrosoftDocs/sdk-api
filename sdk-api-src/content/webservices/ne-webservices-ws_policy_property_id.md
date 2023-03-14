@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_106
+UID: NE:webservices.WS_POLICY_PROPERTY_ID
 title: WS_POLICY_PROPERTY_ID (webservices.h)
 description: Identifies each policy property and its associated value.
 helpviewer_keywords: ["WS_POLICY_PROPERTY_ID","WS_POLICY_PROPERTY_ID enumeration [Web Services for Windows]","WS_POLICY_PROPERTY_MAX_ALTERNATIVES","WS_POLICY_PROPERTY_MAX_DEPTH","WS_POLICY_PROPERTY_MAX_EXTENSIONS","WS_POLICY_PROPERTY_STATE","webservices/WS_POLICY_PROPERTY_ID","webservices/WS_POLICY_PROPERTY_MAX_ALTERNATIVES","webservices/WS_POLICY_PROPERTY_MAX_DEPTH","webservices/WS_POLICY_PROPERTY_MAX_EXTENSIONS","webservices/WS_POLICY_PROPERTY_STATE","wsw.ws_policy_property_id"]
@@ -126,3 +126,4 @@ When a policy is processed, the amount of memory allocated
                     of alternatives due to the expansion of different permutations
                     of assertions.  Setting this property to a large
                     value may lead to excessive processing or memory consumption.
+

@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_37
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_CREATE_IO_SQ
+tech.root: fs
 title: NVME_CDW11_CREATE_IO_SQ
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Create IO Submission Queue command, that is used to create IO Submission Queues.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_CREATE_IO_SQ, *PNVME_CDW11_CREATE_IO_SQ
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_CREATE_IO_SQ structure
+
 
 ## -description
 
@@ -84,3 +85,4 @@ If the value specified is `0h` or does not correspond to a valid I/O Completion 
 ## -see-also
 
 - [NVME_CDW10_CREATE_IO_QUEUE](ns-nvme-nvme_cdw10_create_io_queue.md)
+

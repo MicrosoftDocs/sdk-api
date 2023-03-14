@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupFindFirstLineW
 title: SetupFindFirstLineW function (setupapi.h)
 description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section. (Unicode)
-helpviewer_keywords: ["SetupFindFirstLine","SetupFindFirstLine function [Setup API]","SetupFindFirstLineA","SetupFindFirstLineW","_setupapi_setupfindfirstline","setup.setupfindfirstline","setupapi/SetupFindFirstLine","setupapi/SetupFindFirstLineA","setupapi/SetupFindFirstLineW"]
+helpviewer_keywords: ["SetupFindFirstLine", "SetupFindFirstLine function [Setup API]", "SetupFindFirstLineW", "_setupapi_setupfindfirstline", "setup.setupfindfirstline", "setupapi/SetupFindFirstLine", "setupapi/SetupFindFirstLineW"]
 old-location: setup\setupfindfirstline.htm
 tech.root: setup
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b

@@ -2,7 +2,7 @@
 UID: NF:shlwapi.UrlCombineA
 title: UrlCombineA function (shlwapi.h)
 description: When provided with a relative URL and its base, returns a URL in canonical form. (ANSI)
-helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCombine","UrlCombine function [Windows Shell]","UrlCombineA","UrlCombineW","_win32_UrlCombine","shell.UrlCombine","shlwapi/UrlCombine","shlwapi/UrlCombineA","shlwapi/UrlCombineW"]
+helpviewer_keywords: ["URL_DONT_SIMPLIFY", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SPACES_ONLY", "URL_ESCAPE_UNSAFE", "URL_NO_META", "URL_PLUGGABLE_PROTOCOL", "URL_UNESCAPE", "UrlCombineA", "shlwapi/UrlCombineA"]
 old-location: shell\UrlCombine.htm
 tech.root: shell
 ms.assetid: f574d365-1ab9-4de4-84fe-17820c327ccf

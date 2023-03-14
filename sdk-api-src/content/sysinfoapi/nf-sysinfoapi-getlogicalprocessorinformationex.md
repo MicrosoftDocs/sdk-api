@@ -6,8 +6,8 @@ helpviewer_keywords: ["GetLogicalProcessorInformationEx","GetLogicalProcessorInf
 old-location: base\getlogicalprocessorinformationex.htm
 tech.root: backup
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2
-ms.date: 03/15/2021
-ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
+ms.date: 02/27/2023
+ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorDie, RelationNumaNodeEx, RelationProcessorModule, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -71,29 +71,6 @@ The type of relationship to retrieve. This parameter can be one of the following
 <th>Value</th>
 <th>Meaning</th>
 </tr>
-<tr>
-<td width="40%"><a id="RelationCache"></a><a id="relationcache"></a><a id="RELATIONCACHE"></a><dl>
-<dt><b>RelationCache</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Retrieves information about logical processors  that share a cache. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RelationNumaNode"></a><a id="relationnumanode"></a><a id="RELATIONNUMANODE"></a><dl>
-<dt><b>RelationNumaNode</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Retrieves information about logical processors  that are part of the same NUMA node. 
-
-</td>
-</tr>
-<tr>
 <td width="40%"><a id="RelationProcessorCore"></a><a id="relationprocessorcore"></a><a id="RELATIONPROCESSORCORE"></a><dl>
 <dt><b>RelationProcessorCore</b></dt>
 <dt>0</dt>
@@ -104,6 +81,29 @@ Retrieves information about logical processors that share a single processor cor
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="RelationNumaNode"></a><a id="relationnumanode"></a><a id="RELATIONNUMANODE"></a><dl>
+<dt><b>RelationNumaNode</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves information about logical processors that are part of the same NUMA node. 
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RelationCache"></a><a id="relationcache"></a><a id="RELATIONCACHE"></a><dl>
+<dt><b>RelationCache</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves information about logical processors that share a cache. 
+
+</td>
+</tr>
+<tr>
 <tr>
 <td width="40%"><a id="RelationProcessorPackage"></a><a id="relationprocessorpackage"></a><a id="RELATIONPROCESSORPACKAGE"></a><dl>
 <dt><b>RelationProcessorPackage</b></dt>
@@ -127,13 +127,45 @@ Retrieves information about logical processors that share a processor group.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="RelationProcessorDie"></a><a id="relationprocessordie"></a><a id="RELATIONPROCESSORDIE"></a><dl>
+<dt><b>RelationProcessorDie</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves information about logical processors that share a processor die.
+
+</td>
+</tr>
+</tr>
+<td width="40%"><a id="RelationNumaNodeEx"></a><a id="relationnumanodeex"></a><a id="RELATIONNUMANODEEX"></a><dl>
+<dt><b>RelationNumaNodeEx</b></dt>
+<dt>6</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves information about logical processors that are part of the same NUMA node (with full affinity).
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RelationProcessorModule"></a><a id="relationprocessormodule"></a><a id="RELATIONPROCESSORMODULE"></a><dl>
+<dt><b>RelationProcessorModule</b></dt>
+<dt>7</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves information about logical processors that share a processor module.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="RelationAll"></a><a id="relationall"></a><a id="RELATIONALL"></a><dl>
 <dt><b>RelationAll</b></dt>
 <dt>0xffff</dt>
 </dl>
 </td>
 <td width="60%">
-Retrieves information about logical processors for all relationship types (cache, NUMA node, processor core, physical package, and processor group).
+Retrieves information about logical processors for all relationship types (cache, NUMA node, processor core, physical package, processor group, processor die, and processor module).
 
 </td>
 </tr>
@@ -162,10 +194,9 @@ When this function is called with a relationship type of <b>RelationProcessorCor
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-> [!NOTE]
-> Starting with *TBD Release Iron*, the behavior of this and other NUMA functions has been modified to better support systems with nodes containing more that 64 processors. For more information about this change, including information about enabling the old behavior of this API, see [NUMA Support](/windows/win32/procthread/numa-support).
+### Behavior starting with Windows Server 2022 (21H2, build 20348) ###
 
-### Behavior starting with TBD Release Iron
+The behavior of this and other NUMA functions has been modified to better support systems with nodes containing more that 64 processors. For more information about this change, including information about enabling the old behavior of this API, see [NUMA Support](/windows/win32/procthread/numa-support).
 
 Requests for [RelationNumaNode](../winnt/ne-winnt-logical_processor_relationship.md) will return [NUMA_NODE_RELATIONSHIP](../winnt/ns-winnt-numa_node_relationship.md) structures that contain only the affinity of the node within it's primary group. The [GroupCount](../winnt/ns-winnt-numa_node_relationship.md) value will be 1 and the structure size is fixed.
 

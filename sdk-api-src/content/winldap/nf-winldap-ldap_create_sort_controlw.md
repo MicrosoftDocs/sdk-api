@@ -2,7 +2,7 @@
 UID: NF:winldap.ldap_create_sort_controlW
 title: ldap_create_sort_controlW function (winldap.h)
 description: The ldap_create_sort_controlW (Unicode) function (winldap.h) is used to format a list of sort keys into a search control.
-helpviewer_keywords: ["_ldap_ldap_create_sort_control","ldap.ldap__create__sort__control","ldap.ldap_create_sort_control","ldap_create_sort_control","ldap_create_sort_control function [LDAP]","ldap_create_sort_controlA","ldap_create_sort_controlW","winldap/ldap_create_sort_control","winldap/ldap_create_sort_controlA","winldap/ldap_create_sort_controlW"]
+helpviewer_keywords: ["_ldap_ldap_create_sort_control", "ldap.ldap__create__sort__control", "ldap.ldap_create_sort_control", "ldap_create_sort_control", "ldap_create_sort_control function [LDAP]", "ldap_create_sort_controlW", "winldap/ldap_create_sort_control", "winldap/ldap_create_sort_controlW"]
 old-location: ldap\ldap_create_sort_control.htm
 tech.root: ldap
 ms.assetid: bbf8f860-ead8-4b22-8efa-0697076267ad

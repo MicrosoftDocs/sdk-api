@@ -2,7 +2,7 @@
 UID: NF:winbase.CopyFileExW
 title: CopyFileExW function (winbase.h)
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function. (CopyFileExW)
-helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION","COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_NO_BUFFERING","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileEx","CopyFileEx function [Files]","CopyFileExA","CopyFileExW","_win32_copyfileex","base.copyfileex","fs.copyfileex","winbase/CopyFileEx","winbase/CopyFileExA","winbase/CopyFileExW"]
+helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION", "COPY_FILE_COPY_SYMLINK", "COPY_FILE_FAIL_IF_EXISTS", "COPY_FILE_NO_BUFFERING", "COPY_FILE_OPEN_SOURCE_FOR_WRITE", "COPY_FILE_RESTARTABLE", "CopyFileEx", "CopyFileEx function [Files]", "CopyFileExW", "_win32_copyfileex", "base.copyfileex", "fs.copyfileex", "winbase/CopyFileEx", "winbase/CopyFileExW"]
 old-location: fs\copyfileex.htm
 tech.root: fs
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b

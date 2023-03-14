@@ -2,7 +2,7 @@
 UID: NF:winuser.EnumDesktopsW
 title: EnumDesktopsW function (winuser.h)
 description: Enumerates all desktops associated with the specified window station of the calling process. The function passes the name of each desktop, in turn, to an application-defined callback function. (Unicode)
-helpviewer_keywords: ["EnumDesktops","EnumDesktops function [Windows Stations and Desktops]","EnumDesktopsA","EnumDesktopsW","_win32_enumdesktops","base.enumdesktops","winstation.enumdesktops","winuser/EnumDesktops","winuser/EnumDesktopsA","winuser/EnumDesktopsW"]
+helpviewer_keywords: ["EnumDesktops", "EnumDesktops function [Windows Stations and Desktops]", "EnumDesktopsW", "_win32_enumdesktops", "base.enumdesktops", "winstation.enumdesktops", "winuser/EnumDesktops", "winuser/EnumDesktopsW"]
 old-location: winstation\enumdesktops.htm
 tech.root: winstation
 ms.assetid: 3e900b34-2c60-4281-881f-13a746674aec

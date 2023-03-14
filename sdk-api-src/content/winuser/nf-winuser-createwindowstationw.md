@@ -2,7 +2,7 @@
 UID: NF:winuser.CreateWindowStationW
 title: CreateWindowStationW function (winuser.h)
 description: Creates a window station object, associates it with the calling process, and assigns it to the current session. (Unicode)
-helpviewer_keywords: ["CreateWindowStation","CreateWindowStation function [Windows Stations and Desktops]","CreateWindowStationA","CreateWindowStationW","_win32_createwindowstation","base.createwindowstation","winstation.createwindowstation","winuser/CreateWindowStation","winuser/CreateWindowStationA","winuser/CreateWindowStationW"]
+helpviewer_keywords: ["CreateWindowStation", "CreateWindowStation function [Windows Stations and Desktops]", "CreateWindowStationW", "_win32_createwindowstation", "base.createwindowstation", "winstation.createwindowstation", "winuser/CreateWindowStation", "winuser/CreateWindowStationW"]
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
 ms.assetid: c1aee546-decd-46c9-8d02-d6792f5a6a0d

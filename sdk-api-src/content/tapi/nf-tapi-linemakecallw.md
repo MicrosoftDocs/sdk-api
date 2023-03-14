@@ -2,7 +2,7 @@
 UID: NF:tapi.lineMakeCallW
 title: lineMakeCallW function (tapi.h)
 description: The lineMakeCallW (Unicode) function (tapi.h) places a call on the specified line to the specified destination address.
-helpviewer_keywords: ["_tapi2_linemakecall","lineMakeCall","lineMakeCall function [TAPI 2.2]","lineMakeCallA","lineMakeCallW","tapi/lineMakeCall","tapi/lineMakeCallA","tapi/lineMakeCallW","tapi2.linemakecall"]
+helpviewer_keywords: ["_tapi2_linemakecall", "lineMakeCall", "lineMakeCall function [TAPI 2.2]", "lineMakeCallW", "tapi/lineMakeCall", "tapi/lineMakeCallW", "tapi2.linemakecall"]
 old-location: tapi2\linemakecall.htm
 tech.root: tapi3
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e

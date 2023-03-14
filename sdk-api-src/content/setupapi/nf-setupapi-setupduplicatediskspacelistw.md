@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDuplicateDiskSpaceListW
 title: SetupDuplicateDiskSpaceListW function (setupapi.h)
 description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list. (Unicode)
-helpviewer_keywords: ["SetupDuplicateDiskSpaceList","SetupDuplicateDiskSpaceList function [Setup API]","SetupDuplicateDiskSpaceListA","SetupDuplicateDiskSpaceListW","setup.setupduplicatediskspacelist","setupapi/SetupDuplicateDiskSpaceList","setupapi/SetupDuplicateDiskSpaceListA","setupapi/SetupDuplicateDiskSpaceListW"]
+helpviewer_keywords: ["SetupDuplicateDiskSpaceList", "SetupDuplicateDiskSpaceList function [Setup API]", "SetupDuplicateDiskSpaceListW", "setup.setupduplicatediskspacelist", "setupapi/SetupDuplicateDiskSpaceList", "setupapi/SetupDuplicateDiskSpaceListW"]
 old-location: setup\setupduplicatediskspacelist.htm
 tech.root: setup
 ms.assetid: 92d18c15-e8e2-4e89-8d2f-7c87c948603f

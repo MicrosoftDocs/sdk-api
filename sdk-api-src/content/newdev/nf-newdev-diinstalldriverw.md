@@ -2,7 +2,7 @@
 UID: NF:newdev.DiInstallDriverW
 title: DiInstallDriverW function (newdev.h)
 description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. (Unicode)
-helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
+helpviewer_keywords: ["DiInstallDriver", "DiInstallDriver function [Device and Driver Installation]", "DiInstallDriverW", "devinst.diinstalldriver", "di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml", "newdev/DiInstallDriver"]
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
@@ -78,7 +78,7 @@ If *Flags* includes DIIRFLAG_INSTALL_AS_SET (supported on Windows 10 version 170
 
 ### -param NeedReboot [out, optional]
 
-A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system is restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
+A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
 

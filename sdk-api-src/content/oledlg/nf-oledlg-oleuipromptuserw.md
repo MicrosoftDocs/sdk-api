@@ -2,7 +2,7 @@
 UID: NF:oledlg.OleUIPromptUserW
 title: OleUIPromptUserW function (oledlg.h)
 description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered. (Unicode)
-helpviewer_keywords: ["OleUIPromptUser","OleUIPromptUser function [COM]","OleUIPromptUserA","OleUIPromptUserW","_ole_OleUIPromptUser","com.oleuipromptuser","oledlg/OleUIPromptUser","oledlg/OleUIPromptUserA","oledlg/OleUIPromptUserW"]
+helpviewer_keywords: ["OleUIPromptUser", "OleUIPromptUser function [COM]", "OleUIPromptUserW", "_ole_OleUIPromptUser", "com.oleuipromptuser", "oledlg/OleUIPromptUser", "oledlg/OleUIPromptUserW"]
 old-location: com\oleuipromptuser.htm
 tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170

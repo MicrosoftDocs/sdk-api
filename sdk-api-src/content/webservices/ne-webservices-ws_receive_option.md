@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_17
+UID: NE:webservices.WS_RECEIVE_OPTION
 title: WS_RECEIVE_OPTION (webservices.h)
 description: Specifies whether a message is required when receiving from a channel.
 helpviewer_keywords: ["WS_RECEIVE_OPTION","WS_RECEIVE_OPTION enumeration [Web Services for Windows]","WS_RECEIVE_OPTIONAL_MESSAGE","WS_RECEIVE_REQUIRED_MESSAGE","webservices/WS_RECEIVE_OPTION","webservices/WS_RECEIVE_OPTIONAL_MESSAGE","webservices/WS_RECEIVE_REQUIRED_MESSAGE","wsw.ws_receive_option"]
@@ -64,3 +64,4 @@ A message is required to be received.  If the channel does not have
 The message is not required to be received.  If the channel does not have any more
                     messages, the function will return <b>WS_S_END</b>.
                 (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+

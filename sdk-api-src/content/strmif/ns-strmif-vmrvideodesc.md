@@ -108,12 +108,11 @@ Specifies a FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IMC2
 
 ### -field InputSampleFreq
 
-A [VMRFrequency](/windows/desktop/api/strmif/ns-strmif-vmrfrequency) structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A [VMRFrequency](/windows/win32/api/strmif/ns-strmif-vmrfrequency structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 ### -field OutputFrameFreq
 
-A 
-              [VMRFrequency](/windows/desktop/api/strmif/ns-strmif-vmrfrequency) structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A [VMRFrequency](/windows/win32/api/strmif/ns-strmif-vmrfrequency) structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 ## -see-also
 

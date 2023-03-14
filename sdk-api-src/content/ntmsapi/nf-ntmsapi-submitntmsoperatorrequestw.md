@@ -2,7 +2,7 @@
 UID: NF:ntmsapi.SubmitNtmsOperatorRequestW
 title: SubmitNtmsOperatorRequestW function (ntmsapi.h)
 description: The SubmitNtmsOperatorRequest function submits an RSM operator request. (Unicode)
-helpviewer_keywords: ["NTMS_OPREQ_CLEANER","NTMS_OPREQ_DEVICESERVICE","NTMS_OPREQ_MESSAGE","NTMS_OPREQ_MOVEMEDIA","NTMS_OPREQ_NEWMEDIA","SubmitNtmsOperatorRequest","SubmitNtmsOperatorRequest function [Files]","SubmitNtmsOperatorRequestA","SubmitNtmsOperatorRequestW","_zaw_submitntmsoperatorrequest","base.submitntmsoperatorrequest","fs.submitntmsoperatorrequest","ntmsapi/SubmitNtmsOperatorRequest","ntmsapi/SubmitNtmsOperatorRequestA","ntmsapi/SubmitNtmsOperatorRequestW"]
+helpviewer_keywords: ["NTMS_OPREQ_CLEANER", "NTMS_OPREQ_DEVICESERVICE", "NTMS_OPREQ_MESSAGE", "NTMS_OPREQ_MOVEMEDIA", "NTMS_OPREQ_NEWMEDIA", "SubmitNtmsOperatorRequest", "SubmitNtmsOperatorRequest function [Files]", "SubmitNtmsOperatorRequestW", "_zaw_submitntmsoperatorrequest", "base.submitntmsoperatorrequest", "fs.submitntmsoperatorrequest", "ntmsapi/SubmitNtmsOperatorRequest", "ntmsapi/SubmitNtmsOperatorRequestW"]
 old-location: fs\submitntmsoperatorrequest.htm
 tech.root: fs
 ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431

@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_17
+UID: NS:commctrl.NMPGCALCSIZE
 title: NMPGCALCSIZE (commctrl.h)
 description: Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the PGN_CALCSIZE notification.
 helpviewer_keywords: ["*LPNMPGCALCSIZE","LPNMPGCALCSIZE","LPNMPGCALCSIZE structure pointer [Windows Controls]","NMPGCALCSIZE","NMPGCALCSIZE structure [Windows Controls]","PGF_CALCHEIGHT","PGF_CALCWIDTH","_win32_NMPGCALCSIZE","_win32_NMPGCALCSIZE_cpp","commctrl/LPNMPGCALCSIZE","commctrl/NMPGCALCSIZE","controls.NMPGCALCSIZE","controls._win32_NMPGCALCSIZE"]
@@ -109,3 +109,4 @@ Receives the desired width of the scrollable area, in pixels.
 Type: <b>int</b>
 
 Receives the desired height of the scrollable area, in pixels.
+

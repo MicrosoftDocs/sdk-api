@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_50
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_POWER_MANAGEMENT
+tech.root: fs
 title: NVME_CDW11_FEATURE_POWER_MANAGEMENT
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values for the Power Management Feature that allows the host to configure the power state.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_POWER_MANAGEMENT, *PNVME_CDW11_FEATURE_POWER_MANAGEMENT
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_POWER_MANAGEMENT structure
+
 
 ## -description
 
@@ -68,3 +69,4 @@ If the specified power state is not supported, the controller will return a stat
 ## -see-also
 
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

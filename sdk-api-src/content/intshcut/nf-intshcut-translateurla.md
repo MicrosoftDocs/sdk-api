@@ -2,7 +2,7 @@
 UID: NF:intshcut.TranslateURLA
 title: TranslateURLA function (intshcut.h)
 description: Applies common translations to a given URL string, creating a new URL string. (ANSI)
-helpviewer_keywords: ["TRANSLATEURL_FL_GUESS_PROTOCOL","TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL","TranslateURL","TranslateURL function [Windows Shell]","TranslateURLA","TranslateURLW","_win32_TranslateURL","intshcut/TranslateURL","intshcut/TranslateURLA","intshcut/TranslateURLW","shell.TranslateURL"]
+helpviewer_keywords: ["TranslateURLA", "intshcut/TranslateURLA"]
 old-location: shell\TranslateURL.htm
 tech.root: shell
 ms.assetid: 2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7

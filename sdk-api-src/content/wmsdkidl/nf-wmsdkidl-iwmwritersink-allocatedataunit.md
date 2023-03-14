@@ -63,7 +63,7 @@ Size of the data unit that the writer needs to deliver, in bytes. The buffer you
 
 ### -param ppDataUnit [out]
 
-On return, set to a pointer to the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of a buffer object.
+On return, set to a pointer to the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of a buffer object.
 
 ## -returns
 

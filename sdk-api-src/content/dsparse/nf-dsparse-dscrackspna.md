@@ -2,7 +2,7 @@
 UID: NF:dsparse.DsCrackSpnA
 title: DsCrackSpnA function (dsparse.h)
 description: Parses a service principal name (SPN) into its component strings. (ANSI)
-helpviewer_keywords: ["DsCrackSpn","DsCrackSpn function [Active Directory]","DsCrackSpnA","DsCrackSpnW","_glines_dscrackspn","ad.dscrackspn","dsparse/DsCrackSpn","dsparse/DsCrackSpnA","dsparse/DsCrackSpnW"]
+helpviewer_keywords: ["DsCrackSpnA", "dsparse/DsCrackSpnA"]
 old-location: ad\dscrackspn.htm
 tech.root: ad
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9

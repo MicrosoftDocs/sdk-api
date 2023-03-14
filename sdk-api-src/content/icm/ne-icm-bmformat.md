@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_4
+UID: NE:icm.BMFORMAT
 title: BMFORMAT
 description: The values of the **BMFORMAT** enumerated type are used by several WCS functions to indicate the format that particular bitmaps are in.
 tech.root: wcs
@@ -260,3 +260,4 @@ The follow table shows, for each of the formats, the number of bits per pixel, t
 | BM\_R16G16B16A16\_FLOAT  | 64             | 3                  | RGBA             | R7R6R5R4R3R2R1R0         | R7R6R5R4R3R2R1R0               | G7G6G5G4G3G2G1G0         | G7G6G5G4G3G2G1G0               | B7B6B5B4B3B2B1B0         | B7B6B5B4B3B2B1B0               | A7A6A5A4A3A2A1A0         | A7A6A5A4A3A2A1A0         |
 
 ## -see-also
+

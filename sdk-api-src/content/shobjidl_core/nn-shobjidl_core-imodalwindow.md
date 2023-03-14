@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IModalWindow
 title: IModalWindow (shobjidl_core.h)
-description: Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.
+description: Exposes a method that represents a modal window.
 helpviewer_keywords: ["IModalWindow","IModalWindow interface [Windows Shell]","IModalWindow interface [Windows Shell]","described","_win32_IModalWindow","shell.IModalWindow","shobjidl_core/IModalWindow"]
 old-location: shell\IModalWindow.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.
+Exposes a method that represents a modal window.
 
 ## -inheritance
 

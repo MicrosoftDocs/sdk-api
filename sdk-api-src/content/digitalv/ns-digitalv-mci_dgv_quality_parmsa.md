@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_15
+UID: NS:digitalv.MCI_DGV_QUALITY_PARMSA
 title: MCI_DGV_QUALITY_PARMSA (digitalv.h)
 description: The MCI_DGV_QUALITY_PARMSA (ANSI) structure (digitalv.h) contains parameters for the MCI_QUALITY command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_QUALITY_PARMSA","MCI_DGV_QUALITY_PARMS","MCI_DGV_QUALITY_PARMS structure [Windows Multimedia]","MCI_DGV_QUALITY_PARMSA","MCI_QUALITY_ITEM_AUDIO","MCI_QUALITY_ITEM_STILL","MCI_QUALITY_ITEM_VIDEO","_win32_MCI_DGV_QUALITY_PARMS_str","digitalv/MCI_DGV_QUALITY_PARMS","multimedia.mci_dgv_quality_parms"]
@@ -138,3 +138,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

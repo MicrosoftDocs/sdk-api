@@ -2,7 +2,7 @@
 UID: NF:imm.ImmInstallIMEW
 title: ImmInstallIMEW function (imm.h)
 description: The ImmInstallIMEW (Unicode) function (imm.h) installs an IME.
-helpviewer_keywords: ["ImmInstallIME","ImmInstallIME function [Internationalization for Windows Applications]","ImmInstallIMEA","ImmInstallIMEW","_win32_ImmInstallIME","imm/ImmInstallIME","imm/ImmInstallIMEA","imm/ImmInstallIMEW","intl.imminstallime"]
+helpviewer_keywords: ["ImmInstallIME", "ImmInstallIME function [Internationalization for Windows Applications]", "ImmInstallIMEW", "_win32_ImmInstallIME", "imm/ImmInstallIME", "imm/ImmInstallIMEW", "intl.imminstallime"]
 old-location: intl\imminstallime.htm
 tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>INSSBuffer2</b> interface inherits from <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
+The <b>INSSBuffer2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
 
 
 
@@ -64,19 +64,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
 </td>
 <td>IID_INSSBuffer</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
 </td>
 <td>IID_INSSBuffer4</td>
 </tr>
@@ -84,14 +84,14 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b>INSSBuffer2</b> interface inherits from <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
+The <b>INSSBuffer2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
 
 
 

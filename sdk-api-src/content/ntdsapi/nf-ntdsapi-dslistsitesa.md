@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsListSitesA
 title: DsListSitesA function (ntdsapi.h)
 description: Lists all the sites in the enterprise forest. (ANSI)
-helpviewer_keywords: ["DsListSites","DsListSites function [Active Directory]","DsListSitesA","DsListSitesW","_glines_dslistsites","ad.dslistsites","ntdsapi/DsListSites","ntdsapi/DsListSitesA","ntdsapi/DsListSitesW"]
+helpviewer_keywords: ["DsListSitesA", "ntdsapi/DsListSitesA"]
 old-location: ad\dslistsites.htm
 tech.root: ad
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e

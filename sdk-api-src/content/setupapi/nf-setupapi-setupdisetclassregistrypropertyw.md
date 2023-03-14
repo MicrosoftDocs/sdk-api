@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiSetClassRegistryPropertyW
 title: SetupDiSetClassRegistryPropertyW function (setupapi.h)
 description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry. (Unicode)
-helpviewer_keywords: ["SetupDiSetClassRegistryProperty","SetupDiSetClassRegistryProperty function [Device and Driver Installation]","SetupDiSetClassRegistryPropertyA","SetupDiSetClassRegistryPropertyW","devinst.setupdisetclassregistryproperty","di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml","setupapi/SetupDiSetClassRegistryProperty"]
+helpviewer_keywords: ["SetupDiSetClassRegistryProperty", "SetupDiSetClassRegistryProperty function [Device and Driver Installation]", "SetupDiSetClassRegistryPropertyW", "devinst.setupdisetclassregistryproperty", "di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml", "setupapi/SetupDiSetClassRegistryProperty"]
 old-location: devinst\setupdisetclassregistryproperty.htm
 tech.root: devinst
 ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c

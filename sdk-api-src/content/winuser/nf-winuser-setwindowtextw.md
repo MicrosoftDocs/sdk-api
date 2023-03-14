@@ -2,7 +2,7 @@
 UID: NF:winuser.SetWindowTextW
 title: SetWindowTextW function (winuser.h)
 description: Changes the text of the specified window's title bar (if it has one). If the specified window is a control, the text of the control is changed. However, SetWindowText cannot change the text of a control in another application. (Unicode)
-helpviewer_keywords: ["SetWindowText","SetWindowText function [Windows and Messages]","SetWindowTextA","SetWindowTextW","_win32_SetWindowText","_win32_setwindowtext_cpp","winmsg.setwindowtext","winui._win32_setwindowtext","winuser/SetWindowText","winuser/SetWindowTextA","winuser/SetWindowTextW"]
+helpviewer_keywords: ["SetWindowText", "SetWindowText function [Windows and Messages]", "SetWindowTextW", "_win32_SetWindowText", "_win32_setwindowtext_cpp", "winmsg.setwindowtext", "winui._win32_setwindowtext", "winuser/SetWindowText", "winuser/SetWindowTextW"]
 old-location: winmsg\setwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowtext.htm
@@ -75,7 +75,7 @@ A handle to the window or control whose text is to be changed.
 
 ### -param lpString [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The new title or control text.
 

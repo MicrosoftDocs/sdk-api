@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_11
+UID: NS:lpmapi.Error_Spec_IPv4
 title: Error_Spec_IPv4 (lpmapi.h)
 description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.
 helpviewer_keywords: ["Error_Spec_IPv4","Error_Spec_IPv4 structure [QOS]","lpmapi/Error_Spec_IPv4","qos.error_spec_ipv4"]
@@ -91,3 +91,4 @@ Error value.
 
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+

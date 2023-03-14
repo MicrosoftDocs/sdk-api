@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupGetInfPublishedNameA
 title: SetupGetInfPublishedNameA function (setupapi.h)
 description: The SetupGetInfPublishedName function retrieves the fully qualified file name (directory path and file name) of an INF file in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory. (ANSI)
-helpviewer_keywords: ["SetupGetInfPublishedName","SetupGetInfPublishedName function [Device and Driver Installation]","SetupGetInfPublishedNameA","SetupGetInfPublishedNameW","devinst.setupgetinfpublishedname","setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml","setupapi/SetupGetInfPublishedName"]
+helpviewer_keywords: ["SetupGetInfPublishedNameA", "setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml"]
 old-location: devinst\setupgetinfpublishedname.htm
 tech.root: devinst
 ms.assetid: 0379f8f4-9761-4216-b4d5-5752b6dc33a5

@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpDeleteFileW
 title: FtpDeleteFileW function (wininet.h)
 description: Deletes a file stored on the FTP server. (Unicode)
-helpviewer_keywords: ["FtpDeleteFile","FtpDeleteFile function [WinINet]","FtpDeleteFileA","FtpDeleteFileW","_inet_ftpdeletefile_function","wininet.ftpdeletefile","wininet/FtpDeleteFile","wininet/FtpDeleteFileA","wininet/FtpDeleteFileW"]
+helpviewer_keywords: ["FtpDeleteFile", "FtpDeleteFile function [WinINet]", "FtpDeleteFileW", "_inet_ftpdeletefile_function", "wininet.ftpdeletefile", "wininet/FtpDeleteFile", "wininet/FtpDeleteFileW"]
 old-location: wininet\ftpdeletefile.htm
 tech.root: wininet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32

@@ -60,15 +60,15 @@ The <b>GetObject</b> function retrieves information for the specified graphics o
 
 ## -parameters
 
-### -param hgdiobj [in]
+### -param h [in]
 
 A handle to the graphics object of interest. This can be a handle to one of the following: a logical bitmap, a brush, a font, a palette, a pen, or a device independent bitmap created by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function.
 
-### -param cbBuffer [in]
+### -param c [in]
 
 The number of bytes of information to be written to the buffer.
 
-### -param lpvObject [out]
+### -param pv [out]
 
 A pointer to a buffer that receives the information about the specified graphics object.
 

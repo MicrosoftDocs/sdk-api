@@ -2,7 +2,7 @@
 UID: NF:winsock2.WSAEnumNameSpaceProvidersExW
 title: WSAEnumNameSpaceProvidersExW function (winsock2.h)
 description: Retrieves information on available namespace providers. (Unicode)
-helpviewer_keywords: ["WSAEnumNameSpaceProvidersEx","WSAEnumNameSpaceProvidersEx function [Winsock]","WSAEnumNameSpaceProvidersExA","WSAEnumNameSpaceProvidersExW","winsock.wsaenumnamespaceprovidersex","winsock2/WSAEnumNameSpaceProvidersEx","winsock2/WSAEnumNameSpaceProvidersExA","winsock2/WSAEnumNameSpaceProvidersExW"]
+helpviewer_keywords: ["WSAEnumNameSpaceProvidersEx", "WSAEnumNameSpaceProvidersEx function [Winsock]", "WSAEnumNameSpaceProvidersExW", "winsock.wsaenumnamespaceprovidersex", "winsock2/WSAEnumNameSpaceProvidersEx", "winsock2/WSAEnumNameSpaceProvidersExW"]
 old-location: winsock\wsaenumnamespaceprovidersex.htm
 tech.root: WinSock
 ms.assetid: 34bc96aa-63f7-4ab8-9376-6f4b979225ca

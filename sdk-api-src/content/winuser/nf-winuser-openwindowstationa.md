@@ -2,7 +2,7 @@
 UID: NF:winuser.OpenWindowStationA
 title: OpenWindowStationA function (winuser.h)
 description: Opens the specified window station. (ANSI)
-helpviewer_keywords: ["OpenWindowStation","OpenWindowStation function [Windows Stations and Desktops]","OpenWindowStationA","OpenWindowStationW","_win32_openwindowstation","base.openwindowstation","winstation.openwindowstation","winuser/OpenWindowStation","winuser/OpenWindowStationA","winuser/OpenWindowStationW"]
+helpviewer_keywords: ["OpenWindowStationA", "winuser/OpenWindowStationA"]
 old-location: winstation\openwindowstation.htm
 tech.root: winstation
 ms.assetid: 78ee7100-1bad-4c2d-b923-c5e67191bd41

@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAddressCapsW
 title: lineGetAddressCapsW function (tapi.h)
 description: The lineGetAddressCapsW (Unicode) function (tapi.h) queries the specified address on the specified line device to determine its telephony capabilities.
-helpviewer_keywords: ["_tapi2_linegetaddresscaps","lineGetAddressCaps","lineGetAddressCaps function [TAPI 2.2]","lineGetAddressCapsA","lineGetAddressCapsW","tapi/lineGetAddressCaps","tapi/lineGetAddressCapsA","tapi/lineGetAddressCapsW","tapi2.linegetaddresscaps"]
+helpviewer_keywords: ["_tapi2_linegetaddresscaps", "lineGetAddressCaps", "lineGetAddressCaps function [TAPI 2.2]", "lineGetAddressCapsW", "tapi/lineGetAddressCaps", "tapi/lineGetAddressCapsW", "tapi2.linegetaddresscaps"]
 old-location: tapi2\linegetaddresscaps.htm
 tech.root: tapi3
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205

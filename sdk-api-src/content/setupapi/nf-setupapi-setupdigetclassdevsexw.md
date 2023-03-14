@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiGetClassDevsExW
 title: SetupDiGetClassDevsExW function (setupapi.h)
 description: The SetupDiGetClassDevsEx function returns a handle to a device information set that contains requested device information elements for a local or a remote computer. (Unicode)
-helpviewer_keywords: ["SetupDiGetClassDevsEx","SetupDiGetClassDevsEx function [Device and Driver Installation]","SetupDiGetClassDevsExA","SetupDiGetClassDevsExW","devinst.setupdigetclassdevsex","di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml","setupapi/SetupDiGetClassDevsEx"]
+helpviewer_keywords: ["SetupDiGetClassDevsEx", "SetupDiGetClassDevsEx function [Device and Driver Installation]", "SetupDiGetClassDevsExW", "devinst.setupdigetclassdevsex", "di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml", "setupapi/SetupDiGetClassDevsEx"]
 old-location: devinst\setupdigetclassdevsex.htm
 tech.root: devinst
 ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b

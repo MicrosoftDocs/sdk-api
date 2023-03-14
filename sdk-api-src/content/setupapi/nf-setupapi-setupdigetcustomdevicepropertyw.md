@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupDiGetCustomDevicePropertyW
 title: SetupDiGetCustomDevicePropertyW function (setupapi.h)
 description: The SetupDiGetCustomDeviceProperty function retrieves a specified custom device property from the registry. (Unicode)
-helpviewer_keywords: ["SetupDiGetCustomDeviceProperty","SetupDiGetCustomDeviceProperty function [Device and Driver Installation]","SetupDiGetCustomDevicePropertyA","SetupDiGetCustomDevicePropertyW","devinst.setupdigetcustomdeviceproperty","di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml","setupapi/SetupDiGetCustomDeviceProperty","setupapi/SetupDiGetCustomDevicePropertyA","setupapi/SetupDiGetCustomDevicePropertyW"]
+helpviewer_keywords: ["SetupDiGetCustomDeviceProperty", "SetupDiGetCustomDeviceProperty function [Device and Driver Installation]", "SetupDiGetCustomDevicePropertyW", "devinst.setupdigetcustomdeviceproperty", "di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml", "setupapi/SetupDiGetCustomDeviceProperty", "setupapi/SetupDiGetCustomDevicePropertyW"]
 old-location: devinst\setupdigetcustomdeviceproperty.htm
 tech.root: devinst
 ms.assetid: 5b8f58ce-0f6f-4de3-82c8-6cfa7c842edc

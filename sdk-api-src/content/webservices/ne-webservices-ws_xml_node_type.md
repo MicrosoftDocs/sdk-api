@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_6
+UID: NE:webservices.WS_XML_NODE_TYPE
 title: WS_XML_NODE_TYPE (webservices.h)
 description: The type of WS_XML_NODE structure.
 helpviewer_keywords: ["WS_XML_NODE_TYPE","WS_XML_NODE_TYPE enumeration [Web Services for Windows]","WS_XML_NODE_TYPE_BOF","WS_XML_NODE_TYPE_CDATA","WS_XML_NODE_TYPE_COMMENT","WS_XML_NODE_TYPE_ELEMENT","WS_XML_NODE_TYPE_END_CDATA","WS_XML_NODE_TYPE_END_ELEMENT","WS_XML_NODE_TYPE_EOF","WS_XML_NODE_TYPE_TEXT","webservices/WS_XML_NODE_TYPE","webservices/WS_XML_NODE_TYPE_BOF","webservices/WS_XML_NODE_TYPE_CDATA","webservices/WS_XML_NODE_TYPE_COMMENT","webservices/WS_XML_NODE_TYPE_ELEMENT","webservices/WS_XML_NODE_TYPE_END_CDATA","webservices/WS_XML_NODE_TYPE_END_ELEMENT","webservices/WS_XML_NODE_TYPE_EOF","webservices/WS_XML_NODE_TYPE_TEXT","wsw.ws_xml_node_type"]

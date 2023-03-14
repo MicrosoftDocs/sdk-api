@@ -106,7 +106,7 @@ Do not allow for the construction of \\?\ paths (ie, long paths) longer than <b>
 </dl>
 </td>
 <td width="60%">
-Allow the construction of \\?\ paths longer than <b>MAX_PATH</b>. Note that <i>cchPathOut</i> must be greater than <b>MAX_PATH</b>. Note that <i>cchPathOut</i> must be greater than <b>MAX_PATH</b>. If it is not, this flag is ignored.
+Allow the construction of \\?\ paths longer than <b>MAX_PATH</b>. Note that <i>cchPathOut</i> must be greater than <b>MAX_PATH</b>. If it is not, this flag is ignored.
 </td>
 </tr>
 <tr>

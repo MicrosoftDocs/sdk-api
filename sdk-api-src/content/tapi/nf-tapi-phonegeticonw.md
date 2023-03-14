@@ -2,7 +2,7 @@
 UID: NF:tapi.phoneGetIconW
 title: phoneGetIconW function (tapi.h)
 description: The phoneGetIconW (Unicode) function (tapi.h) allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user. 
-helpviewer_keywords: ["_tapi2_phonegeticon","phoneGetIcon","phoneGetIcon function [TAPI 2.2]","phoneGetIconA","phoneGetIconW","tapi/phoneGetIcon","tapi/phoneGetIconA","tapi/phoneGetIconW","tapi2.phonegeticon"]
+helpviewer_keywords: ["_tapi2_phonegeticon", "phoneGetIcon", "phoneGetIcon function [TAPI 2.2]", "phoneGetIconW", "tapi/phoneGetIcon", "tapi/phoneGetIconW", "tapi2.phonegeticon"]
 old-location: tapi2\phonegeticon.htm
 tech.root: tapi3
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00

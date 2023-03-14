@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCchGetsA
 title: StringCchGetsA function (strsafe.h)
 description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCchGetsA)
-helpviewer_keywords: ["StringCchGets","StringCchGets function [Menus and Other Resources]","StringCchGetsA","StringCchGetsW","_shell_StringCchGets","_shell_stringcchgets_cpp","menurc.stringcchgets","strsafe/StringCchGets","strsafe/StringCchGetsA","strsafe/StringCchGetsW","winui._shell_stringcchgets"]
+helpviewer_keywords: ["StringCchGetsA", "strsafe/StringCchGetsA"]
 old-location: menurc\stringcchgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm

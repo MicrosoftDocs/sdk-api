@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.RemoveRadiusServerA
 title: RemoveRadiusServerA function (iscsidsc.h)
 description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured. (ANSI)
-helpviewer_keywords: ["RemoveRadiusServer","RemoveRadiusServer function [iSCSI Discovery Library API]","RemoveRadiusServerA","RemoveRadiusServerW","iscsidisc.removeradiusserver","iscsidsc/RemoveRadiusServer","iscsidsc/RemoveRadiusServerA","iscsidsc/RemoveRadiusServerW"]
+helpviewer_keywords: ["RemoveRadiusServerA", "iscsidsc/RemoveRadiusServerA"]
 old-location: iscsidisc\removeradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488

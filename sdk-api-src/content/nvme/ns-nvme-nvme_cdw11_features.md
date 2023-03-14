@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_78
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURES
+tech.root: fs
 title: NVME_CDW11_FEATURES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Get Features and Set Features commands that retrieve or set the attributes of the specified feature.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURES, *PNVME_CDW11_FEATURES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURES structure
+
 
 ## -description
 

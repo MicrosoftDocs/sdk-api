@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetGroupListA
 title: lineGetGroupListA function (tapi.h)
 description: The lineGetGroupList function returns a list of ACD groups available on the ACD system. (ANSI)
-helpviewer_keywords: ["_tapi2_linegetgrouplist","lineGetGroupList","lineGetGroupList function [TAPI 2.2]","lineGetGroupListA","lineGetGroupListW","tapi/lineGetGroupList","tapi/lineGetGroupListA","tapi/lineGetGroupListW","tapi2.linegetgrouplist"]
+helpviewer_keywords: ["lineGetGroupListA", "tapi/lineGetGroupListA"]
 old-location: tapi2\linegetgrouplist.htm
 tech.root: tapi3
 ms.assetid: 3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3

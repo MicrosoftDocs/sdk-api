@@ -2,7 +2,7 @@
 UID: NF:ras.RasSetCredentialsA
 title: RasSetCredentialsA function (ras.h)
 description: Sets the user credentials associated with a specified RAS phone-book entry. (ANSI)
-helpviewer_keywords: ["RasSetCredentials","RasSetCredentials function [RAS]","RasSetCredentialsA","RasSetCredentialsW","_ras_rassetcredentials","ras/RasSetCredentials","ras/RasSetCredentialsA","ras/RasSetCredentialsW","rras.rassetcredentials"]
+helpviewer_keywords: ["RasSetCredentialsA", "ras/RasSetCredentialsA"]
 old-location: rras\rassetcredentials.htm
 tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab

@@ -2,7 +2,7 @@
 UID: NF:winbase.GlobalGetAtomNameW
 title: GlobalGetAtomNameW function (winbase.h)
 description: Retrieves a copy of the character string associated with the specified global atom. (Unicode)
-helpviewer_keywords: ["GlobalGetAtomName","GlobalGetAtomName function [Data Exchange]","GlobalGetAtomNameA","GlobalGetAtomNameW","_win32_GlobalGetAtomName","_win32_globalgetatomname_cpp","dataxchg.globalgetatomname","winbase/GlobalGetAtomName","winbase/GlobalGetAtomNameA","winbase/GlobalGetAtomNameW","winui._win32_globalgetatomname"]
+helpviewer_keywords: ["GlobalGetAtomName", "GlobalGetAtomName function [Data Exchange]", "GlobalGetAtomNameW", "_win32_GlobalGetAtomName", "_win32_globalgetatomname_cpp", "dataxchg.globalgetatomname", "winbase/GlobalGetAtomName", "winbase/GlobalGetAtomNameW", "winui._win32_globalgetatomname"]
 old-location: dataxchg\globalgetatomname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalgetatomname.htm

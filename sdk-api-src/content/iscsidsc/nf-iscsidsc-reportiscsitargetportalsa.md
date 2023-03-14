@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.ReportIScsiTargetPortalsA
 title: ReportIScsiTargetPortalsA function (iscsidsc.h)
 description: ReportIscsiTargetPortals function retrieves target portal information discovered by the iSCSI initiator service. (ANSI)
-helpviewer_keywords: ["ReportIScsiTargetPortalsA","ReportIscsiTargetPortals","ReportIscsiTargetPortals function [iSCSI Discovery Library API]","ReportIscsiTargetPortalsA","ReportIscsiTargetPortalsW","iscsidisc.reportiscsitargetportals","iscsidsc/ReportIscsiTargetPortals","iscsidsc/ReportIscsiTargetPortalsA","iscsidsc/ReportIscsiTargetPortalsW"]
+helpviewer_keywords: ["ReportIScsiTargetPortalsA", "ReportIscsiTargetPortalsA", "iscsidsc/ReportIscsiTargetPortalsA"]
 old-location: iscsidisc\reportiscsitargetportals.htm
 tech.root: iSCSIDisc
 ms.assetid: e52d095d-4c05-490e-bdc3-639198a93335

@@ -1,5 +1,5 @@
 ---
-UID: NE:certsrv.__unnamed_enum_0
+UID: NE:certsrv.ENUM_CATYPES
 title: ENUM_CATYPES (certsrv.h)
 description: Specifies a certification authority (CA) type.
 helpviewer_keywords: ["ENUM_CATYPES","ENUM_CATYPES enumeration [Security]","ENUM_ENTERPRISE_ROOTCA","ENUM_ENTERPRISE_SUBCA","ENUM_STANDALONE_ROOTCA","ENUM_STANDALONE_SUBCA","ENUM_UNKNOWN_CA","certsrv/ENUM_CATYPES","certsrv/ENUM_ENTERPRISE_ROOTCA","certsrv/ENUM_ENTERPRISE_SUBCA","certsrv/ENUM_STANDALONE_ROOTCA","certsrv/ENUM_STANDALONE_SUBCA","certsrv/ENUM_UNKNOWN_CA","security.enum_catypes"]
@@ -73,3 +73,4 @@ A CA that does not use Directory Service to issue or manage certificates and is 
 ### -field ENUM_UNKNOWN_CA:5
 
 An unknown CA type.
+

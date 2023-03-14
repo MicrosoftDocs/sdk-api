@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_12
+UID: NS:commctrl.NMCBEDRAGBEGINA
 title: NMCBEDRAGBEGINA (commctrl.h)
 description: Contains information used with the CBEN_DRAGBEGIN notification code. (ANSI)
 helpviewer_keywords: ["*LPNMCBEDRAGBEGINA","*PNMCBEDRAGBEGINA","LPNMCBEDRAGBEGIN","LPNMCBEDRAGBEGIN structure pointer [Windows Controls]","NMCBEDRAGBEGIN","NMCBEDRAGBEGIN structure [Windows Controls]","NMCBEDRAGBEGINA","NMCBEDRAGBEGINW","_win32_NMCBEDRAGBEGIN","_win32_NMCBEDRAGBEGIN_cpp","commctrl/LPNMCBEDRAGBEGIN","commctrl/NMCBEDRAGBEGIN","commctrl/NMCBEDRAGBEGINA","commctrl/NMCBEDRAGBEGINW","controls.NMCBEDRAGBEGIN","controls._win32_NMCBEDRAGBEGIN"]
@@ -80,3 +80,4 @@ The character buffer that contains the text of the item being dragged.
 
 > [!NOTE]
 > The commctrl.h header defines NMCBEDRAGBEGIN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

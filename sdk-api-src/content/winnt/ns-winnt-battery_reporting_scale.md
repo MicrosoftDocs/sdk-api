@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.__unnamed_struct_3
+UID: NS:winnt.BATTERY_REPORTING_SCALE
 title: BATTERY_REPORTING_SCALE (winnt.h)
 description: Contains the granularity of the battery capacity that is reported by IOCTL_BATTERY_QUERY_STATUS.
 helpviewer_keywords: ["*PBATTERY_REPORTING_SCALE","BATTERY_REPORTING_SCALE","BATTERY_REPORTING_SCALE structure","PBATTERY_REPORTING_SCALE","PBATTERY_REPORTING_SCALE structure pointer","_win32_battery_reporting_scale_str","base.battery_reporting_scale_str","winnt/BATTERY_REPORTING_SCALE","winnt/PBATTERY_REPORTING_SCALE"]
@@ -76,3 +76,4 @@ The total number of <b>BATTERY_REPORTING_SCALE</b> entries returned from <a href
 
 
 <a href="/windows/desktop/Power/ioctl-battery-query-status">IOCTL_BATTERY_QUERY_STATUS</a>
+

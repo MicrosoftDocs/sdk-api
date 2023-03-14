@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_34
+UID: NE:webservices.WS_HEAP_PROPERTY_ID
 title: WS_HEAP_PROPERTY_ID (webservices.h)
 description: Each heap property is identified by an ID and has an associated value.
 helpviewer_keywords: ["WS_HEAP_PROPERTY_ACTUAL_SIZE","WS_HEAP_PROPERTY_ID","WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows]","WS_HEAP_PROPERTY_MAX_SIZE","WS_HEAP_PROPERTY_REQUESTED_SIZE","WS_HEAP_PROPERTY_TRIM_SIZE","webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE","webservices/WS_HEAP_PROPERTY_ID","webservices/WS_HEAP_PROPERTY_MAX_SIZE","webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE","webservices/WS_HEAP_PROPERTY_TRIM_SIZE","wsw.ws_heap_property_id"]
@@ -81,3 +81,4 @@ Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapprop
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns the current
                     total number of bytes that the WS_HEAP has allocated from the
                     operating system for purposes of providing allocations.
+

@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_138
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_SECURITY_SEND
+tech.root: fs
 title: NVME_CDW11_SECURITY_SEND
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that are used in the Security Send command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_SECURITY_SEND, *PNVME_CDW11_SECURITY_SEND
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CDW11_SECURITY_SEND structure
 
+
 ## -description
 
 Contains parameters that are used in the Security Send command.
@@ -59,3 +60,4 @@ This field is supported and specifies the number of bytes to transfer if the INC
 
 - [NVME_CDW10_SECURITY_SEND_RECEIVE](ns-nvme-nvme_cdw10_security_send_receive.md)
 - [NVME_CDW11_SECURITY_RECEIVE](ns-nvme-nvme_cdw11_security_receive.md)
+

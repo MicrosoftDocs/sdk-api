@@ -2,7 +2,7 @@
 UID: NF:imm.ImmGetCandidateListCountA
 title: ImmGetCandidateListCountA function (imm.h)
 description: The ImmGetCandidateListCountA (ANSI) function (imm.h) retrieves the size of the candidate lists.
-helpviewer_keywords: ["ImmGetCandidateListCount","ImmGetCandidateListCount function [Internationalization for Windows Applications]","ImmGetCandidateListCountA","ImmGetCandidateListCountW","_win32_ImmGetCandidateListCount","imm/ImmGetCandidateListCount","imm/ImmGetCandidateListCountA","imm/ImmGetCandidateListCountW","intl.immgetcandidatelistcount"]
+helpviewer_keywords: ["ImmGetCandidateListCountA", "imm/ImmGetCandidateListCountA"]
 old-location: intl\immgetcandidatelistcount.htm
 tech.root: Intl
 ms.assetid: da7c4eee-3c79-4ea8-b9a5-3b43befa0021

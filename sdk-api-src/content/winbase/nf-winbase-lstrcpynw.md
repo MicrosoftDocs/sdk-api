@@ -2,7 +2,7 @@
 UID: NF:winbase.lstrcpynW
 title: lstrcpynW function (winbase.h)
 description: Copies a specified number of characters from a source string into a buffer.Warning  Do not use. (Unicode)
-helpviewer_keywords: ["_win32_lstrcpyn","_win32_lstrcpyn_cpp","lstrcpyn","lstrcpyn function [Menus and Other Resources]","lstrcpynA","lstrcpynW","menurc.lstrcpyn","winbase/lstrcpyn","winbase/lstrcpynA","winbase/lstrcpynW","winui._win32_lstrcpyn"]
+helpviewer_keywords: ["_win32_lstrcpyn", "_win32_lstrcpyn_cpp", "lstrcpyn", "lstrcpyn function [Menus and Other Resources]", "lstrcpynW", "menurc.lstrcpyn", "winbase/lstrcpyn", "winbase/lstrcpynW", "winui._win32_lstrcpyn"]
 old-location: menurc\lstrcpyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm

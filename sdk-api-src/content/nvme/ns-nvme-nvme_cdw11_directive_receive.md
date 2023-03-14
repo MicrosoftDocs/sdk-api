@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_125
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_DIRECTIVE_RECEIVE
+tech.root: fs
 title: NVME_CDW11_DIRECTIVE_RECEIVE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Directive Receive command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_DIRECTIVE_RECEIVE, *PNVME_CDW11_DIRECTIVE_RECEIVE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_DIRECTIVE_RECEIVE structure
+
 
 ## -description
 
@@ -71,3 +72,4 @@ A directive specific value.
 
 - [NVME_CDW10_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw10_dataset_management.md)
 - [NVME_CDW12_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw12_directive_receive.md)
+

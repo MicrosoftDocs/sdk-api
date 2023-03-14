@@ -2,7 +2,7 @@
 UID: NF:winuser.RegisterClassA
 title: RegisterClassA function (winuser.h)
 description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function. (RegisterClassA)
-helpviewer_keywords: ["RegisterClass","RegisterClass function [Windows and Messages]","RegisterClassA","RegisterClassW","_win32_RegisterClass","_win32_registerclass_cpp","winmsg.registerclass","winui._win32_registerclass","winuser/RegisterClass","winuser/RegisterClassA","winuser/RegisterClassW"]
+helpviewer_keywords: ["RegisterClassA", "winuser/RegisterClassA"]
 old-location: winmsg\registerclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclass.htm

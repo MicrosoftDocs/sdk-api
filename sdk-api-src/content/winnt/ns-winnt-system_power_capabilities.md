@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.__unnamed_struct_26
+UID: NS:winnt.SYSTEM_POWER_CAPABILITIES
 title: SYSTEM_POWER_CAPABILITIES (winnt.h)
 description: Contains information about the power capabilities of the system.
 helpviewer_keywords: ["*PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES","PSYSTEM_POWER_CAPABILITIES structure pointer","SYSTEM_POWER_CAPABILITIES","SYSTEM_POWER_CAPABILITIES structure","_win32_system_power_capabilities_str","base.system_power_capabilities_str","winnt/PSYSTEM_POWER_CAPABILITIES","winnt/SYSTEM_POWER_CAPABILITIES"]
@@ -218,3 +218,4 @@ If this member is set to <b>TRUE</b>, the system is currently capable of perform
 
 
 <a href="/windows/desktop/Power/system-power-states">System Power States</a>
+

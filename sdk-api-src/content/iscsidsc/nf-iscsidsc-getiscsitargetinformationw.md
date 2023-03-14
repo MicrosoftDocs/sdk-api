@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.GetIScsiTargetInformationW
 title: GetIScsiTargetInformationW function (iscsidsc.h)
 description: GetIscsiTargetInformation function retrieves information about the specified target. (Unicode)
-helpviewer_keywords: ["GetIScsiTargetInformationW","GetIscsiTargetInformation","GetIscsiTargetInformation function [iSCSI Discovery Library API]","GetIscsiTargetInformationA","GetIscsiTargetInformationW","iscsidisc.getiscsitargetinformation","iscsidsc/GetIscsiTargetInformation","iscsidsc/GetIscsiTargetInformationA","iscsidsc/GetIscsiTargetInformationW"]
+helpviewer_keywords: ["GetIScsiTargetInformationW", "GetIscsiTargetInformation", "GetIscsiTargetInformation function [iSCSI Discovery Library API]", "GetIscsiTargetInformationW", "iscsidisc.getiscsitargetinformation", "iscsidsc/GetIscsiTargetInformation", "iscsidsc/GetIscsiTargetInformationW"]
 old-location: iscsidisc\getiscsitargetinformation.htm
 tech.root: iSCSIDisc
 ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369

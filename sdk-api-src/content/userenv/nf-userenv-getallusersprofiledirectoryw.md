@@ -2,7 +2,7 @@
 UID: NF:userenv.GetAllUsersProfileDirectoryW
 title: GetAllUsersProfileDirectoryW function (userenv.h)
 description: Retrieves the path to the root of the directory that contains program data shared by all users. (Unicode)
-helpviewer_keywords: ["GetAllUsersProfileDirectory","GetAllUsersProfileDirectory function [Windows Shell]","GetAllUsersProfileDirectoryA","GetAllUsersProfileDirectoryW","_shell_GetAllUsersProfileDirectory","shell.GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectory","userenv/GetAllUsersProfileDirectoryA","userenv/GetAllUsersProfileDirectoryW"]
+helpviewer_keywords: ["GetAllUsersProfileDirectory", "GetAllUsersProfileDirectory function [Windows Shell]", "GetAllUsersProfileDirectoryW", "_shell_GetAllUsersProfileDirectory", "shell.GetAllUsersProfileDirectory", "userenv/GetAllUsersProfileDirectory", "userenv/GetAllUsersProfileDirectoryW"]
 old-location: shell\GetAllUsersProfileDirectory.htm
 tech.root: shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1

@@ -5,7 +5,6 @@ ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: overview
-archived: true
 ---
 
 # DirectShow
@@ -54,5 +53,4 @@ To develop DirectShow, you need these headers:
  * [wmp.h](../wmp/index.md)
 
 For programming guidance for this technology, see:
-* [DirectShow](/previous-versions/windows/desktop/directshow)
-
+* [DirectShow](/windows/win32/directshow/directshow)

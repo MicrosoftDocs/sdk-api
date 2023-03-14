@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_3
+UID: NE:icm.COLORDATATYPE
 title: COLORDATATYPE
 description: Used by WCS functions to indicate the data type of vector content.
 tech.root: wcs
@@ -74,3 +74,4 @@ The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to the
 `typedef COLORDATATYPE *PCOLORDATATYPE, *LPCOLORDATATYPE;`
 
 ## -see-also
+

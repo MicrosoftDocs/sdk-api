@@ -2,7 +2,7 @@
 UID: NF:msacm.acmFormatDetailsW
 title: acmFormatDetailsW function (msacm.h)
 description: The acmFormatDetails (Unicode) function queries the ACM for format details for a specific waveform-audio format tag. (acmFormatDetailsW)
-helpviewer_keywords: ["_win32_acmFormatDetails","acmFormatDetails","acmFormatDetails function [Windows Multimedia]","acmFormatDetailsA","acmFormatDetailsW","msacm/acmFormatDetails","msacm/acmFormatDetailsA","msacm/acmFormatDetailsW","multimedia.acmformatdetails"]
+helpviewer_keywords: ["_win32_acmFormatDetails", "acmFormatDetails", "acmFormatDetails function [Windows Multimedia]", "acmFormatDetailsW", "msacm/acmFormatDetails", "msacm/acmFormatDetailsW", "multimedia.acmformatdetails"]
 old-location: multimedia\acmformatdetails.htm
 tech.root: Multimedia
 ms.assetid: 2a6a9b8f-758b-4443-b1c7-e277f22bac5b

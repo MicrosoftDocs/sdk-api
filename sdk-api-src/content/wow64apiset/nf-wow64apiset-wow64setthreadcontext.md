@@ -1,7 +1,7 @@
 ---
 UID: NF:wow64apiset.Wow64SetThreadContext
 title: Wow64SetThreadContext
-ms.date: 11/17/2022
+ms.date: 11/18/2022
 targetos: Windows
 description: Sets the thread context.
 tech.root: fs

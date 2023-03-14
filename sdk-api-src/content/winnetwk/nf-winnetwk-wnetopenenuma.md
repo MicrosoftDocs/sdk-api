@@ -2,7 +2,7 @@
 UID: NF:winnetwk.WNetOpenEnumA
 title: WNetOpenEnumA function (winnetwk.h)
 description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function. (ANSI)
-helpviewer_keywords: ["0","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_ALL","RESOURCEUSAGE_ATTACHED","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","RESOURCE_REMEMBERED","WNetOpenEnum","WNetOpenEnum function [Windows Networking (WNet)]","WNetOpenEnumA","WNetOpenEnumW","_win32_wnetopenenum","winnetwk/WNetOpenEnum","winnetwk/WNetOpenEnumA","winnetwk/WNetOpenEnumW","wnet.wnetopenenum"]
+helpviewer_keywords: ["0", "RESOURCETYPE_ANY", "RESOURCETYPE_DISK", "RESOURCETYPE_PRINT", "RESOURCEUSAGE_ALL", "RESOURCEUSAGE_ATTACHED", "RESOURCEUSAGE_CONNECTABLE", "RESOURCEUSAGE_CONTAINER", "RESOURCE_CONNECTED", "RESOURCE_CONTEXT", "RESOURCE_GLOBALNET", "RESOURCE_REMEMBERED", "WNetOpenEnumA", "winnetwk/WNetOpenEnumA"]
 old-location: wnet\wnetopenenum.htm
 tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90

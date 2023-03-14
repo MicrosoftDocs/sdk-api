@@ -1,10 +1,10 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.AddRef
 title: IPrintDialogServices::AddRef
-ms.date: 11/4/2019
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
-description: IUnknown's AddRef method
+description: The IPrintDialogServices::AddRef method (commdlg.h) is IUnknown's AddRef method, which decrements the reference count for an interface on a COM object.
 tech.root: dlgbox
 req.assembly: 
 req.construct-type: function

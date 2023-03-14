@@ -2,7 +2,7 @@
 UID: NF:winuser.EnumWindowStationsA
 title: EnumWindowStationsA function (winuser.h)
 description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function. (ANSI)
-helpviewer_keywords: ["EnumWindowStations","EnumWindowStations function [Windows Stations and Desktops]","EnumWindowStationsA","EnumWindowStationsW","_win32_enumwindowstations","base.enumwindowstations","winstation.enumwindowstations","winuser/EnumWindowStations","winuser/EnumWindowStationsA","winuser/EnumWindowStationsW"]
+helpviewer_keywords: ["EnumWindowStationsA", "winuser/EnumWindowStationsA"]
 old-location: winstation\enumwindowstations.htm
 tech.root: winstation
 ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23

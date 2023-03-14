@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetSubEntryHandleA
 title: RasGetSubEntryHandleA function (ras.h)
 description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection. (ANSI)
-helpviewer_keywords: ["RasGetSubEntryHandle","RasGetSubEntryHandle function [RAS]","RasGetSubEntryHandleA","RasGetSubEntryHandleW","_ras_rasgetsubentryhandle","ras/RasGetSubEntryHandle","ras/RasGetSubEntryHandleA","ras/RasGetSubEntryHandleW","rras.rasgetsubentryhandle"]
+helpviewer_keywords: ["RasGetSubEntryHandleA", "ras/RasGetSubEntryHandleA"]
 old-location: rras\rasgetsubentryhandle.htm
 tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb

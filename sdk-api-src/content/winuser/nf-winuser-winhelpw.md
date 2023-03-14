@@ -2,7 +2,7 @@
 UID: NF:winuser.WinHelpW
 title: WinHelpW function (winuser.h)
 description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application. (Unicode)
-helpviewer_keywords: ["WinHelp","WinHelp function [Windows Shell]","WinHelpA","WinHelpW","_win32_WinHelp","shell.WinHelp","winuser/WinHelp","winuser/WinHelpA","winuser/WinHelpW"]
+helpviewer_keywords: ["WinHelp", "WinHelp function [Windows Shell]", "WinHelpW", "_win32_WinHelp", "shell.WinHelp", "winuser/WinHelp", "winuser/WinHelpW"]
 old-location: shell\WinHelp.htm
 tech.root: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807

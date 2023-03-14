@@ -2,7 +2,7 @@
 UID: NF:imm.ImmEnumRegisterWordA
 title: ImmEnumRegisterWordA function (imm.h)
 description: The ImmEnumRegisterWordA (ANSI) function (imm.h) enumerates the register strings having the specified reading string, style, and register string.
-helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
+helpviewer_keywords: ["ImmEnumRegisterWordA", "imm/ImmEnumRegisterWordA"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b

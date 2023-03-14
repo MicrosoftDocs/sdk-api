@@ -2,7 +2,7 @@
 UID: NF:winuser.SetClassLongA
 title: SetClassLongA function (winuser.h)
 description: Replaces the specified 32-bit (long) value at the specified offset into the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs. (ANSI)
-helpviewer_keywords: ["GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_HBRBACKGROUND","GCL_HCURSOR","GCL_HICON","GCL_HICONSM","GCL_HMODULE","GCL_MENUNAME","GCL_STYLE","GCL_WNDPROC","SetClassLong","SetClassLong function [Windows and Messages]","SetClassLongA","SetClassLongW","_win32_SetClassLong","_win32_setclasslong_cpp","winmsg.setclasslong","winui._win32_setclasslong","winuser/SetClassLong","winuser/SetClassLongA","winuser/SetClassLongW"]
+helpviewer_keywords: ["GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_HBRBACKGROUND", "GCL_HCURSOR", "GCL_HICON", "GCL_HICONSM", "GCL_HMODULE", "GCL_MENUNAME", "GCL_STYLE", "GCL_WNDPROC", "SetClassLongA", "winuser/SetClassLongA"]
 old-location: winmsg\setclasslong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslong.htm

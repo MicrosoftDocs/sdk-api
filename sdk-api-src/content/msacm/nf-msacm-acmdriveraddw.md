@@ -2,7 +2,7 @@
 UID: NF:msacm.acmDriverAddW
 title: acmDriverAddW function (msacm.h)
 description: The acmDriverAddW (Unicode) function (msacm.h) adds a driver to the list of available ACM drivers. (acmDriverAddW)
-helpviewer_keywords: ["_win32_acmDriverAdd","acmDriverAdd","acmDriverAdd function [Windows Multimedia]","acmDriverAddA","acmDriverAddW","msacm/acmDriverAdd","msacm/acmDriverAddA","msacm/acmDriverAddW","multimedia.acmdriveradd"]
+helpviewer_keywords: ["_win32_acmDriverAdd", "acmDriverAdd", "acmDriverAdd function [Windows Multimedia]", "acmDriverAddW", "msacm/acmDriverAdd", "msacm/acmDriverAddW", "multimedia.acmdriveradd"]
 old-location: multimedia\acmdriveradd.htm
 tech.root: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007

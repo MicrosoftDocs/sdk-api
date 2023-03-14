@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_137
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_SECURITY_SEND_RECEIVE
+tech.root: fs
 title: NVME_CDW10_SECURITY_SEND_RECEIVE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that are used in the Admin commands Security Send and Security Receive.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_SECURITY_SEND_RECEIVE, *PNVME_CDW10_SECURITY_SEND_RECEIVE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW10_SECURITY_SEND_RECEIVE structure
+
 
 ## -description
 
@@ -77,3 +78,4 @@ If a reserved value of the Security Protocol is specified, the controller will f
 
 - [NVME_CDW11_SECURITY_SEND](ns-nvme-nvme_cdw11_security_send.md)
 - [NVME_CDW11_SECURITY_RECEIVE](ns-nvme-nvme_cdw11_security_receive.md)
+

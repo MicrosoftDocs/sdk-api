@@ -2,7 +2,7 @@
 UID: NF:vfw.AVISaveA
 title: AVISaveA function (vfw.h)
 description: The AVISave function builds a file by combining data streams from other files or from memory. (ANSI)
-helpviewer_keywords: ["AVISave","AVISave function [Windows Multimedia]","AVISaveA","AVISaveW","_win32_AVISave","multimedia.avisave","vfw/AVISave","vfw/AVISaveA","vfw/AVISaveW"]
+helpviewer_keywords: ["AVISaveA", "vfw/AVISaveA"]
 old-location: multimedia\avisave.htm
 tech.root: Multimedia
 ms.assetid: 44200871-541c-4d67-ba12-61af06da8788

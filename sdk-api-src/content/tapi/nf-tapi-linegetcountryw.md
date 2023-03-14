@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetCountryW
 title: lineGetCountryW function (tapi.h)
 description: The lineGetCountryW (Unicode) function fetches the stored dialing rules and other information related to a specified country/region.
-helpviewer_keywords: ["_tapi2_linegetcountry","lineGetCountry","lineGetCountry function [TAPI 2.2]","lineGetCountryA","lineGetCountryW","tapi/lineGetCountry","tapi/lineGetCountryA","tapi/lineGetCountryW","tapi2.linegetcountry"]
+helpviewer_keywords: ["_tapi2_linegetcountry", "lineGetCountry", "lineGetCountry function [TAPI 2.2]", "lineGetCountryW", "tapi/lineGetCountry", "tapi/lineGetCountryW", "tapi2.linegetcountry"]
 old-location: tapi2\linegetcountry.htm
 tech.root: tapi3
 ms.assetid: 4de271b3-d93b-4fc9-b853-e26ef1ae75ae

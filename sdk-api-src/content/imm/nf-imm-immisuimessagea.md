@@ -2,7 +2,7 @@
 UID: NF:imm.ImmIsUIMessageA
 title: ImmIsUIMessageA function (imm.h)
 description: The ImmIsUIMessageA (ANSI) function (imm.h) checks for messages intended for the IME window and sends those messages to the window.
-helpviewer_keywords: ["ImmIsUIMessage","ImmIsUIMessage function [Internationalization for Windows Applications]","ImmIsUIMessageA","ImmIsUIMessageW","_win32_ImmIsUIMessage","imm/ImmIsUIMessage","imm/ImmIsUIMessageA","imm/ImmIsUIMessageW","intl.immisuimessage"]
+helpviewer_keywords: ["ImmIsUIMessageA", "imm/ImmIsUIMessageA"]
 old-location: intl\immisuimessage.htm
 tech.root: Intl
 ms.assetid: 9c07c7b8-87cb-4bcb-a837-20f582ff7712

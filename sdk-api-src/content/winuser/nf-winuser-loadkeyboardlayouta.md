@@ -2,7 +2,7 @@
 UID: NF:winuser.LoadKeyboardLayoutA
 title: LoadKeyboardLayoutA function (winuser.h)
 description: Loads a new input locale identifier (formerly called the keyboard layout) into the system. (ANSI)
-helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
+helpviewer_keywords: ["KLF_ACTIVATE", "KLF_NOTELLSHELL", "KLF_REORDER", "KLF_REPLACELANG", "KLF_SETFORPROCESS", "KLF_SUBSTITUTE_OK", "KLF_UNLOADPREVIOUS", "LoadKeyboardLayoutA", "winuser/LoadKeyboardLayoutA"]
 old-location: inputdev\loadkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\loadkeyboardlayout.htm
@@ -136,7 +136,7 @@ If the new input locale identifier has the same language identifier as a current
 </dl>
 </td>
 <td width="60%">
-Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key <b>HKEY_CURRENT_USER\Keyboard\Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the U.S. English layout ("00000409") causes the Dvorak U.S. English layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
+Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key <b>HKEY_CURRENT_USER\Keyboard Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the US layout ("00000409") causes the United States-Dvorak layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
 
 </td>
 </tr>

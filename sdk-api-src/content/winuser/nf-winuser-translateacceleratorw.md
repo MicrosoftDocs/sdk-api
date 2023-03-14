@@ -2,7 +2,7 @@
 UID: NF:winuser.TranslateAcceleratorW
 title: TranslateAcceleratorW function (winuser.h)
 description: Processes accelerator keys for menu commands. (Unicode)
-helpviewer_keywords: ["TranslateAccelerator","TranslateAccelerator function [Menus and Other Resources]","TranslateAcceleratorA","TranslateAcceleratorW","_win32_TranslateAccelerator","_win32_translateaccelerator_cpp","menurc.translateaccelerator","winui._win32_translateaccelerator","winuser/TranslateAccelerator","winuser/TranslateAcceleratorA","winuser/TranslateAcceleratorW"]
+helpviewer_keywords: ["TranslateAccelerator", "TranslateAccelerator function [Menus and Other Resources]", "TranslateAcceleratorW", "_win32_TranslateAccelerator", "_win32_translateaccelerator_cpp", "menurc.translateaccelerator", "winui._win32_translateaccelerator", "winuser/TranslateAccelerator", "winuser/TranslateAcceleratorW"]
 old-location: menurc\translateaccelerator.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm

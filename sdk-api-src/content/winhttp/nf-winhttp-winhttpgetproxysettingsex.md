@@ -56,7 +56,7 @@ The WinHTTP resolver handle returned by the [WinHttpCreateProxyResolver](nf-winh
 
 ### -param ProxySettingsType
 
-Type: \_In\_ **[WINHTTP_PROXY_SETTINGS_TYPE](ne-winhttp-proxy_settings_type.md)**
+Type: \_In\_ **[WINHTTP_PROXY_SETTINGS_TYPE](/windows/win32/api/winhttp/ne-winhttp-winhttp_proxy_settings_type)**
 
 A proxy settings type.
 

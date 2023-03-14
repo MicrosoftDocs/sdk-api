@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_0
+UID: NE:processsnapshot.PSS_HANDLE_FLAGS
 title: PSS_HANDLE_FLAGS (processsnapshot.h)
 description: Flags to specify what parts of a PSS_HANDLE_ENTRY structure are valid.
 helpviewer_keywords: ["PSS_HANDLE_FLAGS","PSS_HANDLE_FLAGS enumeration","PSS_HANDLE_HAVE_BASIC_INFORMATION","PSS_HANDLE_HAVE_NAME","PSS_HANDLE_HAVE_TYPE","PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION","PSS_HANDLE_NONE","proc_snap.pss_handle_flags","processsnapshot/PSS_HANDLE_FLAGS","processsnapshot/PSS_HANDLE_HAVE_BASIC_INFORMATION","processsnapshot/PSS_HANDLE_HAVE_NAME","processsnapshot/PSS_HANDLE_HAVE_TYPE","processsnapshot/PSS_HANDLE_HAVE_TYPE_SPECIFIC_INFORMATION","processsnapshot/PSS_HANDLE_NONE"]
@@ -77,3 +77,4 @@ The <b>TypeSpecificInformation</b> member is valid (either <b>Process</b>, <b>Th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

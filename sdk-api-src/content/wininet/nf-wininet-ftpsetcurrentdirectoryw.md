@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpSetCurrentDirectoryW
 title: FtpSetCurrentDirectoryW function (wininet.h)
 description: Changes to a different working directory on the FTP server. (Unicode)
-helpviewer_keywords: ["FtpSetCurrentDirectory","FtpSetCurrentDirectory function [WinINet]","FtpSetCurrentDirectoryA","FtpSetCurrentDirectoryW","_inet_ftpsetcurrentdirectory_function","wininet.ftpsetcurrentdirectory","wininet/FtpSetCurrentDirectory","wininet/FtpSetCurrentDirectoryA","wininet/FtpSetCurrentDirectoryW"]
+helpviewer_keywords: ["FtpSetCurrentDirectory", "FtpSetCurrentDirectory function [WinINet]", "FtpSetCurrentDirectoryW", "_inet_ftpsetcurrentdirectory_function", "wininet.ftpsetcurrentdirectory", "wininet/FtpSetCurrentDirectory", "wininet/FtpSetCurrentDirectoryW"]
 old-location: wininet\ftpsetcurrentdirectory.htm
 tech.root: wininet
 ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0

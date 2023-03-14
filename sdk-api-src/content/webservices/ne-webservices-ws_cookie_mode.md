@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_26
+UID: NE:webservices.WS_COOKIE_MODE
 title: WS_COOKIE_MODE (webservices.h)
 description: An enumeration used to specify how to handle HTTP cookies.
 helpviewer_keywords: ["WS_AUTO_COOKIE_MODE","WS_COOKIE_MODE","WS_COOKIE_MODE enumeration [Web Services for Windows]","WS_MANUAL_COOKIE_MODE","webservices/WS_AUTO_COOKIE_MODE","webservices/WS_COOKIE_MODE","webservices/WS_MANUAL_COOKIE_MODE","wsw.ws_cookie_mode"]
@@ -75,3 +75,4 @@ In this mode, cookies are automatically tracked by
 If a server sends a cookie to the client,
                     the channel will automatically track the cookie and
                     will include the cookie in subsequent requests.
+

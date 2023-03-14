@@ -1,5 +1,5 @@
 ---
-UID: NS:rpcdce.__unnamed_struct_5
+UID: NS:rpcdce.RPC_ENDPOINT_TEMPLATE
 title: RPC_ENDPOINT_TEMPLATE (rpcdce.h)
 description: The RPC_ENDPOINT_TEMPLATE structure (rpcdce.h) specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
 helpviewer_keywords: ["*PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE structure pointer [RPC]","RPC_ENDPOINT_TEMPLATE","RPC_ENDPOINT_TEMPLATE structure [RPC]","RPC_ENDPOINT_TEMPLATEA","RPC_ENDPOINT_TEMPLATEW","rpc.rpc_endpoint_template","rpcdce/PRPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATEA","rpcdce/RPC_ENDPOINT_TEMPLATEW"]
@@ -89,3 +89,4 @@ An application developer should balance memory footprint versus scalability requ
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInqBindings</a>
+

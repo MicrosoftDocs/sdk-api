@@ -2,7 +2,7 @@
 UID: NF:ras.RasGetCredentialsW
 title: RasGetCredentialsW function (ras.h)
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry. (Unicode)
-helpviewer_keywords: ["RasGetCredentials","RasGetCredentials function [RAS]","RasGetCredentialsA","RasGetCredentialsW","_ras_rasgetcredentials","ras/RasGetCredentials","ras/RasGetCredentialsA","ras/RasGetCredentialsW","rras.rasgetcredentials"]
+helpviewer_keywords: ["RasGetCredentials", "RasGetCredentials function [RAS]", "RasGetCredentialsW", "_ras_rasgetcredentials", "ras/RasGetCredentials", "ras/RasGetCredentialsW", "rras.rasgetcredentials"]
 old-location: rras\rasgetcredentials.htm
 tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7

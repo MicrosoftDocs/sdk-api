@@ -2,7 +2,7 @@
 UID: NF:iscsidsc.ReportISNSServerListW
 title: ReportISNSServerListW function (iscsidsc.h)
 description: ReportIsnsServerList function retrieves the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service queries for discovered targets. (Unicode)
-helpviewer_keywords: ["ReportISNSServerListW","ReportIsnsServerList","ReportIsnsServerList function [iSCSI Discovery Library API]","ReportIsnsServerListA","ReportIsnsServerListW","iscsidisc.reportisnsserverlist","iscsidsc/ReportIsnsServerList","iscsidsc/ReportIsnsServerListA","iscsidsc/ReportIsnsServerListW"]
+helpviewer_keywords: ["ReportISNSServerListW", "ReportIsnsServerList", "ReportIsnsServerList function [iSCSI Discovery Library API]", "ReportIsnsServerListW", "iscsidisc.reportisnsserverlist", "iscsidsc/ReportIsnsServerList", "iscsidsc/ReportIsnsServerListW"]
 old-location: iscsidisc\reportisnsserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 4fa773ac-0d3e-4860-8603-cb36e9278e93

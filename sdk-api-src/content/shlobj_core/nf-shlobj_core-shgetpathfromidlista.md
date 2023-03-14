@@ -2,7 +2,7 @@
 UID: NF:shlobj_core.SHGetPathFromIDListA
 title: SHGetPathFromIDListA function (shlobj_core.h)
 description: Converts an item identifier list to a file system path. (ANSI)
-helpviewer_keywords: ["SHGetPathFromIDList","SHGetPathFromIDList function [Windows Shell]","SHGetPathFromIDListA","SHGetPathFromIDListW","_win32_SHGetPathFromIDList","shell.SHGetPathFromIDList","shlobj_core/SHGetPathFromIDList","shlobj_core/SHGetPathFromIDListA","shlobj_core/SHGetPathFromIDListW"]
+helpviewer_keywords: ["SHGetPathFromIDListA", "shlobj_core/SHGetPathFromIDListA"]
 old-location: shell\SHGetPathFromIDList.htm
 tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde

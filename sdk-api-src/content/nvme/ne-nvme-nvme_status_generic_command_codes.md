@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_11
-tech.root: fs 
+UID: NE:nvme.NVME_STATUS_GENERIC_COMMAND_CODES
+tech.root: fs
 title: NVME_STATUS_GENERIC_COMMAND_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a status associated with the command that is generic across many different types of commands.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_STATUS_GENERIC_COMMAND_CODES enumeration
+
 
 ## -description
 
@@ -131,7 +132,7 @@ The length specified exceeds the atomic write unit size.
 
 ### -field NVME_STATUS_OPERATION_DENIED
 
-The command was denied due to lack of access rights.           
+The command was denied due to lack of access rights.
 
 ### -field NVME_STATUS_SGL_OFFSET_INVALID
 
@@ -143,7 +144,7 @@ Reserved.
 
 ### -field NVME_STATUS_HOST_IDENTIFIER_INCONSISTENT_FORMAT
 
-The NVM subsystem detected the simultaneous use of 64-bit and 128-bit Host Identifier values on different controllers. 
+The NVM subsystem detected the simultaneous use of 64-bit and 128-bit Host Identifier values on different controllers.
 
 ### -field NVME_STATUS_KEEP_ALIVE_TIMEOUT_EXPIRED
 
@@ -163,7 +164,7 @@ The most recent sanitize operation failed and no recovery action has been succes
 
 ### -field NVME_STATUS_SANITIZE_IN_PROGRESS
 
-The requested function (e.g., command) is prohibited while a sanitize operation is in progress. 
+The requested function (e.g., command) is prohibited while a sanitize operation is in progress.
 
 ### -field NVME_STATUS_SGL_DATA_BLOCK_GRANULARITY_INVALID
 

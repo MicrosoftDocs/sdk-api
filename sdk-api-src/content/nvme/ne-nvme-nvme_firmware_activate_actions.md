@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_35
-tech.root: fs 
+UID: NE:nvme.NVME_FIRMWARE_ACTIVATE_ACTIONS
+tech.root: fs
 title: NVME_FIRMWARE_ACTIVATE_ACTIONS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the action that is taken on the image downloaded by the Firmware Image Download command or on a previously downloaded and placed image.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_FIRMWARE_ACTIVATE_ACTIONS enumeration
+
 
 ## -description
 
@@ -65,3 +66,4 @@ The image specified by the Firmware Slot field is requested to be activated imme
 ## -see-also
 
 [NVME_ADMIN_COMMANDS](ne-nvme-nvme_admin_commands.md)
+

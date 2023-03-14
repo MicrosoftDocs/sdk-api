@@ -2,7 +2,7 @@
 UID: NF:ntmsapi.SetNtmsObjectInformationW
 title: SetNtmsObjectInformationW function (ntmsapi.h)
 description: The SetNtmsObjectInformationW (Unicode) function changes the information structure of the specified object. (SetNtmsObjectInformationW)
-helpviewer_keywords: ["SetNtmsObjectInformation","SetNtmsObjectInformation function [Files]","SetNtmsObjectInformationA","SetNtmsObjectInformationW","_zaw_setntmsobjectinformation","base.setntmsobjectinformation","fs.setntmsobjectinformation","ntmsapi/SetNtmsObjectInformation","ntmsapi/SetNtmsObjectInformationA","ntmsapi/SetNtmsObjectInformationW"]
+helpviewer_keywords: ["SetNtmsObjectInformation", "SetNtmsObjectInformation function [Files]", "SetNtmsObjectInformationW", "_zaw_setntmsobjectinformation", "base.setntmsobjectinformation", "fs.setntmsobjectinformation", "ntmsapi/SetNtmsObjectInformation", "ntmsapi/SetNtmsObjectInformationW"]
 old-location: fs\setntmsobjectinformation.htm
 tech.root: fs
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582

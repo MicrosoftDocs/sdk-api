@@ -2,7 +2,7 @@
 UID: NF:msi.MsiApplyPatchW
 title: MsiApplyPatchW function (msi.h)
 description: For each product listed by the patch package as eligible to receive the patch, the MsiApplyPatch function invokes an installation and sets the PATCH property to the path of the patch package. (Unicode)
-helpviewer_keywords: ["INSTALLTYPE_DEFAULT","INSTALLTYPE_NETWORK_IMAGE","INSTALLTYPE_SINGLE_INSTANCE","MsiApplyPatch","MsiApplyPatch function","MsiApplyPatchA","MsiApplyPatchW","_msi_msiapplypatch","msi/MsiApplyPatch","msi/MsiApplyPatchA","msi/MsiApplyPatchW","setup.msiapplypatch"]
+helpviewer_keywords: ["INSTALLTYPE_DEFAULT", "INSTALLTYPE_NETWORK_IMAGE", "INSTALLTYPE_SINGLE_INSTANCE", "MsiApplyPatch", "MsiApplyPatch function", "MsiApplyPatchW", "_msi_msiapplypatch", "msi/MsiApplyPatch", "msi/MsiApplyPatchW", "setup.msiapplypatch"]
 old-location: setup\msiapplypatch.htm
 tech.root: setup
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f

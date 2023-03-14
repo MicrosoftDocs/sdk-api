@@ -2,7 +2,7 @@
 UID: NF:winbase.CreateSymbolicLinkTransactedW
 title: CreateSymbolicLinkTransactedW function (winbase.h)
 description: Creates a symbolic link as a transacted operation. (Unicode)
-helpviewer_keywords: ["CreateSymbolicLinkTransacted","CreateSymbolicLinkTransacted function [Files]","CreateSymbolicLinkTransactedA","CreateSymbolicLinkTransactedW","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclinktransacted","winbase/CreateSymbolicLinkTransacted","winbase/CreateSymbolicLinkTransactedA","winbase/CreateSymbolicLinkTransactedW"]
+helpviewer_keywords: ["CreateSymbolicLinkTransacted", "CreateSymbolicLinkTransacted function [Files]", "CreateSymbolicLinkTransactedW", "SYMBOLIC_LINK_FLAG_DIRECTORY", "fs.createsymboliclinktransacted", "winbase/CreateSymbolicLinkTransacted", "winbase/CreateSymbolicLinkTransactedW"]
 old-location: fs\createsymboliclinktransacted.htm
 tech.root: fs
 ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e

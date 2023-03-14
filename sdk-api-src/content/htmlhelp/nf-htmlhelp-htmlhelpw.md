@@ -2,7 +2,7 @@
 UID: NF:htmlhelp.HtmlHelpW
 title: HtmlHelpW function (htmlhelp.h)
 description: Displays a help window. (Unicode)
-helpviewer_keywords: ["HtmlHelp","HtmlHelp function [HTML Help Workshop]","HtmlHelpA","HtmlHelpW","htmlhelp.htmlhelp","htmlhelp/HtmlHelp","htmlhelp/HtmlHelpA","htmlhelp/HtmlHelpW"]
+helpviewer_keywords: ["HtmlHelp", "HtmlHelp function [HTML Help Workshop]", "HtmlHelpW", "htmlhelp.htmlhelp", "htmlhelp/HtmlHelp", "htmlhelp/HtmlHelpW"]
 old-location: htmlhelp\htmlhelp.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm

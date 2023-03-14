@@ -2,7 +2,7 @@
 UID: NF:shlwapi.SHRegSetUSValueW
 title: SHRegSetUSValueW function (shlwapi.h)
 description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
-helpviewer_keywords: ["SHREGSET_DEFAULT","SHREGSET_FORCE_HKCU","SHREGSET_FORCE_HKLM","SHREGSET_HKCU","SHREGSET_HKLM","SHRegSetUSValue","SHRegSetUSValue function [Windows Shell]","SHRegSetUSValueA","SHRegSetUSValueW","_win32_SHRegSetUSValue","shell.SHRegSetUSValue","shlwapi/SHRegSetUSValue","shlwapi/SHRegSetUSValueA","shlwapi/SHRegSetUSValueW"]
+helpviewer_keywords: ["SHREGSET_DEFAULT", "SHREGSET_FORCE_HKCU", "SHREGSET_FORCE_HKLM", "SHREGSET_HKCU", "SHREGSET_HKLM", "SHRegSetUSValue", "SHRegSetUSValue function [Windows Shell]", "SHRegSetUSValueW", "_win32_SHRegSetUSValue", "shell.SHRegSetUSValue", "shlwapi/SHRegSetUSValue", "shlwapi/SHRegSetUSValueW"]
 old-location: shell\SHRegSetUSValue.htm
 tech.root: shell
 ms.assetid: 96559f8c-8527-4924-928e-f27049069407

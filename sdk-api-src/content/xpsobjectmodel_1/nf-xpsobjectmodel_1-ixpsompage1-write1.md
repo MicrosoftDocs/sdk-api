@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPage1.Write1
 title: IXpsOMPage1::Write1
-ms.date: 11/4/2019
+description: The IXpsOMPage1::Write1 method (xpsobjectmodel_1.h) writes the page to the specified stream.
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
 description: 

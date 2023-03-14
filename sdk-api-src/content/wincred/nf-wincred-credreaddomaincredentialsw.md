@@ -2,7 +2,7 @@
 UID: NF:wincred.CredReadDomainCredentialsW
 title: CredReadDomainCredentialsW function (wincred.h)
 description: Reads the domain credentials from the user's credential set. (Unicode)
-helpviewer_keywords: ["CredReadDomainCredentials","CredReadDomainCredentials function [Security]","CredReadDomainCredentialsA","CredReadDomainCredentialsW","_cred_credreaddomaincredentials","security.credreaddomaincredentials","wincred/CredReadDomainCredentials","wincred/CredReadDomainCredentialsA","wincred/CredReadDomainCredentialsW"]
+helpviewer_keywords: ["CredReadDomainCredentials", "CredReadDomainCredentials function [Security]", "CredReadDomainCredentialsW", "_cred_credreaddomaincredentials", "security.credreaddomaincredentials", "wincred/CredReadDomainCredentials", "wincred/CredReadDomainCredentialsW"]
 old-location: security\credreaddomaincredentials.htm
 tech.root: security
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e

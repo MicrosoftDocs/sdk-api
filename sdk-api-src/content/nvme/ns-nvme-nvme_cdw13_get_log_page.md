@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_87
-tech.root: fs 
+UID: NS:nvme.NVME_CDW13_GET_LOG_PAGE
+tech.root: fs
 title: NVME_CDW13_GET_LOG_PAGE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW13_GET_LOG_PAGE, *PNVME_CDW13_GET_LOG_PAGE
@@ -44,6 +44,7 @@ dev_langs:
 ## -struct-fields
 
 ### -field LPOU
+
 Log Page Offset Upper: This field specifies the upper 32 bits of the log page offset.
 
 ## -remarks

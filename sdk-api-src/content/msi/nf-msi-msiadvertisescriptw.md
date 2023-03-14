@@ -2,7 +2,7 @@
 UID: NF:msi.MsiAdvertiseScriptW
 title: MsiAdvertiseScriptW function (msi.h)
 description: The MsiAdvertiseScript function copies an advertised script file into the specified locations. (Unicode)
-helpviewer_keywords: ["MsiAdvertiseScript","MsiAdvertiseScript function","MsiAdvertiseScriptA","MsiAdvertiseScriptW","SCRIPTFLAGS_CACHEINFO","SCRIPTFLAGS_MACHINEASSIGN","SCRIPTFLAGS_REGDATA","SCRIPTFLAGS_REGDATA_APPINFO","SCRIPTFLAGS_REGDATA_CLASSINFO","SCRIPTFLAGS_REGDATA_CNFGINFO","SCRIPTFLAGS_REGDATA_EXTENSIONINFO","SCRIPTFLAGS_SHORTCUTS","SCRIPTFLAGS_VALIDATE_TRANSFORMS_LIST","_msi_msiadvertisescript","msi/MsiAdvertiseScript","msi/MsiAdvertiseScriptA","msi/MsiAdvertiseScriptW","setup.msiadvertisescript"]
+helpviewer_keywords: ["MsiAdvertiseScript", "MsiAdvertiseScript function", "MsiAdvertiseScriptW", "SCRIPTFLAGS_CACHEINFO", "SCRIPTFLAGS_MACHINEASSIGN", "SCRIPTFLAGS_REGDATA", "SCRIPTFLAGS_REGDATA_APPINFO", "SCRIPTFLAGS_REGDATA_CLASSINFO", "SCRIPTFLAGS_REGDATA_CNFGINFO", "SCRIPTFLAGS_REGDATA_EXTENSIONINFO", "SCRIPTFLAGS_SHORTCUTS", "SCRIPTFLAGS_VALIDATE_TRANSFORMS_LIST", "_msi_msiadvertisescript", "msi/MsiAdvertiseScript", "msi/MsiAdvertiseScriptW", "setup.msiadvertisescript"]
 old-location: setup\msiadvertisescript.htm
 tech.root: setup
 ms.assetid: 2c255c01-554b-42da-82ff-c946a40098ed

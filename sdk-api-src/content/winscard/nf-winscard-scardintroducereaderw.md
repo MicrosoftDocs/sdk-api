@@ -2,7 +2,7 @@
 UID: NF:winscard.SCardIntroduceReaderW
 title: SCardIntroduceReaderW function (winscard.h)
 description: Introduces a new name for an existing smart card reader. (Unicode)
-helpviewer_keywords: ["SCardIntroduceReader","SCardIntroduceReader function [Security]","SCardIntroduceReaderA","SCardIntroduceReaderW","_smart_scardintroducereader","security.scardintroducereader","winscard/SCardIntroduceReader","winscard/SCardIntroduceReaderA","winscard/SCardIntroduceReaderW"]
+helpviewer_keywords: ["SCardIntroduceReader", "SCardIntroduceReader function [Security]", "SCardIntroduceReaderW", "_smart_scardintroducereader", "security.scardintroducereader", "winscard/SCardIntroduceReader", "winscard/SCardIntroduceReaderW"]
 old-location: security\scardintroducereader.htm
 tech.root: security
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d

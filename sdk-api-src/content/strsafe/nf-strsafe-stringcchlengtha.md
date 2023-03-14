@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCchLengthA
 title: StringCchLengthA function (strsafe.h)
 description: Determines whether a string exceeds the specified length, in characters. (ANSI)
-helpviewer_keywords: ["StringCchLength","StringCchLength function [Menus and Other Resources]","StringCchLengthA","StringCchLengthW","UnalignedStringCchLength","_shell_StringCchLength","_shell_stringcchlength_cpp","menurc.stringcchlength","strsafe/StringCchLength","strsafe/StringCchLengthA","strsafe/StringCchLengthW","winui._shell_stringcchlength"]
+helpviewer_keywords: ["StringCchLengthA", "strsafe/StringCchLengthA"]
 old-location: menurc\stringcchlength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm

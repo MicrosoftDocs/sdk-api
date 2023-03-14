@@ -2,7 +2,7 @@
 UID: NF:strsafe.StringCbVPrintfW
 title: StringCbVPrintfW function (strsafe.h)
 description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCbVPrintfW)
-helpviewer_keywords: ["StringCbVPrintf","StringCbVPrintf function [Menus and Other Resources]","StringCbVPrintfA","StringCbVPrintfW","_shell_StringCbVPrintf","_shell_stringcbvprintf_cpp","menurc.stringcbvprintf","strsafe/StringCbVPrintf","strsafe/StringCbVPrintfA","strsafe/StringCbVPrintfW","winui._shell_stringcbvprintf"]
+helpviewer_keywords: ["StringCbVPrintf", "StringCbVPrintf function [Menus and Other Resources]", "StringCbVPrintfW", "_shell_StringCbVPrintf", "_shell_stringcbvprintf_cpp", "menurc.stringcbvprintf", "strsafe/StringCbVPrintf", "strsafe/StringCbVPrintfW", "winui._shell_stringcbvprintf"]
 old-location: menurc\stringcbvprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm

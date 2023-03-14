@@ -2,7 +2,7 @@
 UID: NF:cfgmgr32.CM_Open_Device_Interface_Key_ExW
 title: CM_Open_Device_Interface_Key_ExW function (cfgmgr32.h)
 description: The CM_Open_Device_Interface_Key_ExW function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
-helpviewer_keywords: ["CM_Open_Device_Interface_Key_ExW","CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation]","cfgmgr32/CM_Open_Device_Interface_Key_ExW","devinst.cm_open_device_interface_key_exw"]
+helpviewer_keywords: ["CM_Open_Device_Interface_Key_ExW", "CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation]", "cfgmgr32/CM_Open_Device_Interface_Key_ExW", "devinst.cm_open_device_interface_key_exw"]
 old-location: devinst\cm_open_device_interface_key_exw.htm
 tech.root: devinst
 ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768

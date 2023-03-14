@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_37
-tech.root: fs 
+UID: NE:nvme.NVME_SECURE_ERASE_SETTINGS
+tech.root: fs
 title: NVME_SECURE_ERASE_SETTINGS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that specify whether or what type of a secure erase operation should be performed as part of a Format NVM command.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_SECURE_ERASE_SETTINGS enumeration
+
 
 ## -description
 

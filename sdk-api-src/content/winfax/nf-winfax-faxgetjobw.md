@@ -2,7 +2,7 @@
 UID: NF:winfax.FaxGetJobW
 title: FaxGetJobW function (winfax.h)
 description: A fax client application calls the FaxGetJob function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a FAX_JOB_ENTRY structure. (Unicode)
-helpviewer_keywords: ["FaxGetJob","FaxGetJob function [Fax Service]","FaxGetJobA","FaxGetJobW","_mfax_faxgetjob","fax._mfax_faxgetjob","winfax/FaxGetJob","winfax/FaxGetJobA","winfax/FaxGetJobW"]
+helpviewer_keywords: ["FaxGetJob", "FaxGetJob function [Fax Service]", "FaxGetJobW", "_mfax_faxgetjob", "fax._mfax_faxgetjob", "winfax/FaxGetJob", "winfax/FaxGetJobW"]
 old-location: fax\_mfax_faxgetjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm

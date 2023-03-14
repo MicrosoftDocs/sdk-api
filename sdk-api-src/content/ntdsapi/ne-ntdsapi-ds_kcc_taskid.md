@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_7
+UID: NE:ntdsapi.DS_KCC_TASKID
 title: DS_KCC_TASKID (ntdsapi.h)
 description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
 helpviewer_keywords: ["DS_KCC_TASKID","DS_KCC_TASKID enumeration [Active Directory]","DS_KCC_TASKID_UPDATE_TOPOLOGY","ad.ds_kcc_taskid","ntdsapi/DS_KCC_TASKID","ntdsapi/DS_KCC_TASKID_UPDATE_TOPOLOGY"]
@@ -65,3 +65,4 @@ Dynamically adjusts the data replication topology of a network.
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

@@ -2,7 +2,7 @@
 UID: NF:winreg.RegDeleteKeyW
 title: RegDeleteKeyW function (winreg.h)
 description: Deletes a subkey and its values. (Unicode)
-helpviewer_keywords: ["RegDeleteKey","RegDeleteKey function","RegDeleteKeyA","RegDeleteKeyW","_win32_regdeletekey","base.regdeletekey","winreg/RegDeleteKey","winreg/RegDeleteKeyA","winreg/RegDeleteKeyW"]
+helpviewer_keywords: ["RegDeleteKey", "RegDeleteKey function", "RegDeleteKeyW", "_win32_regdeletekey", "base.regdeletekey", "winreg/RegDeleteKey", "winreg/RegDeleteKeyW"]
 old-location: base\regdeletekey.htm
 tech.root: winprog
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba

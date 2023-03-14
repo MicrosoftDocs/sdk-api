@@ -2,7 +2,7 @@
 UID: NF:oledlg.OleUIObjectPropertiesA
 title: OleUIObjectPropertiesA function (oledlg.h)
 description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object. (ANSI)
-helpviewer_keywords: ["OleUIObjectProperties","OleUIObjectProperties function [COM]","OleUIObjectPropertiesA","OleUIObjectPropertiesW","_ole_OleUIObjectProperties","com.oleuiobjectproperties","oledlg/OleUIObjectProperties","oledlg/OleUIObjectPropertiesA","oledlg/OleUIObjectPropertiesW"]
+helpviewer_keywords: ["OleUIObjectPropertiesA", "oledlg/OleUIObjectPropertiesA"]
 old-location: com\oleuiobjectproperties.htm
 tech.root: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463

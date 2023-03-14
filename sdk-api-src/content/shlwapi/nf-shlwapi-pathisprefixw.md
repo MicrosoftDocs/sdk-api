@@ -2,7 +2,7 @@
 UID: NF:shlwapi.PathIsPrefixW
 title: PathIsPrefixW function (shlwapi.h)
 description: Examines a path to determine if it starts with a prefix value passed by pszPrefix. (Unicode)
-helpviewer_keywords: ["PathIsPrefix","PathIsPrefix function [Windows Shell]","PathIsPrefixA","PathIsPrefixW","_win32_PathIsPrefix","shell.PathIsPrefix","shlwapi/PathIsPrefix","shlwapi/PathIsPrefixA","shlwapi/PathIsPrefixW"]
+helpviewer_keywords: ["PathIsPrefix", "PathIsPrefix function [Windows Shell]", "PathIsPrefixW", "_win32_PathIsPrefix", "shell.PathIsPrefix", "shlwapi/PathIsPrefix", "shlwapi/PathIsPrefixW"]
 old-location: shell\PathIsPrefix.htm
 tech.root: shell
 ms.assetid: b24f761e-6492-4a6d-9c7e-d5a5f2cbdaf3

@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_32
+UID: NS:digitalv.MCI_DGV_STEP_PARMS
 title: MCI_DGV_STEP_PARMS (digitalv.h)
 description: The MCI_DGV_STEP_PARMS structure contains parameters for the MCI_STEP command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_STEP_PARMS","MCI_DGV_STEP_PARMS","MCI_DGV_STEP_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_STEP_PARMS_str","digitalv/MCI_DGV_STEP_PARMS","multimedia.mci_dgv_step_parms"]
@@ -81,3 +81,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

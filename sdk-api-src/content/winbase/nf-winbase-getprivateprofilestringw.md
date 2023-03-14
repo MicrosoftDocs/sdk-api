@@ -2,7 +2,7 @@
 UID: NF:winbase.GetPrivateProfileStringW
 title: GetPrivateProfileStringW function (winbase.h)
 description: The GetPrivateProfileStringW (Unicode) function (winbase.h) retrieves a string from the specified section in an initialization file.
-helpviewer_keywords: ["GetPrivateProfileString","GetPrivateProfileString function","GetPrivateProfileStringA","GetPrivateProfileStringW","_win32_getprivateprofilestring","base.getprivateprofilestring","winbase/GetPrivateProfileString","winbase/GetPrivateProfileStringA","winbase/GetPrivateProfileStringW"]
+helpviewer_keywords: ["GetPrivateProfileString", "GetPrivateProfileString function", "GetPrivateProfileStringW", "_win32_getprivateprofilestring", "base.getprivateprofilestring", "winbase/GetPrivateProfileString", "winbase/GetPrivateProfileStringW"]
 old-location: base\getprivateprofilestring.htm
 tech.root: winprog
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2

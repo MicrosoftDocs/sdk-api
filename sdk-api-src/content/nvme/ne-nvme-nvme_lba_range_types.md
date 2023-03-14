@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_20
-tech.root: fs 
+UID: NE:nvme.NVME_LBA_RANGE_TYPES
+tech.root: fs
 title: NVME_LBA_RANGE_TYPES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the type of Logical Block Addressing (LBA) range in an NVME_LBA_RANGET_TYPE_ENTRY structure.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_LBA_RANGE_TYPES enumeration
+
 
 ## -description
 
@@ -67,3 +68,4 @@ LBA range information ise used by a driver to determine if it may utilize a part
 ## -see-also
 
 [NVME_LBA_RANGET_TYPE_ENTRY](ns-nvme-nvme_lba_ranget_type_entry.md)
+

@@ -2,7 +2,7 @@
 UID: NF:wininet.FtpCommandW
 title: FtpCommandW function (wininet.h)
 description: Sends commands directly to an FTP server. (Unicode)
-helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII","FTP_TRANSFER_TYPE_BINARY","FtpCommand","FtpCommand function [WinINet]","FtpCommandA","FtpCommandW","_inet_ftpcommand_function","wininet.ftpcommand","wininet/FtpCommand","wininet/FtpCommandA","wininet/FtpCommandW"]
+helpviewer_keywords: ["FTP_TRANSFER_TYPE_ASCII", "FTP_TRANSFER_TYPE_BINARY", "FtpCommand", "FtpCommand function [WinINet]", "FtpCommandW", "_inet_ftpcommand_function", "wininet.ftpcommand", "wininet/FtpCommand", "wininet/FtpCommandW"]
 old-location: wininet\ftpcommand.htm
 tech.root: wininet
 ms.assetid: cd12f52c-80d6-4aee-96c8-cb3cafcf0a6a

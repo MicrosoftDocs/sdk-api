@@ -2,7 +2,7 @@
 UID: NF:pdh.PdhParseCounterPathW
 title: PdhParseCounterPathW function (pdh.h)
 description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure. (Unicode)
-helpviewer_keywords: ["PdhParseCounterPath","PdhParseCounterPath function [Perf]","PdhParseCounterPathA","PdhParseCounterPathW","_win32_pdhparsecounterpath","base.pdhparsecounterpath","pdh/PdhParseCounterPath","pdh/PdhParseCounterPathA","pdh/PdhParseCounterPathW","perf.pdhparsecounterpath"]
+helpviewer_keywords: ["PdhParseCounterPath", "PdhParseCounterPath function [Perf]", "PdhParseCounterPathW", "_win32_pdhparsecounterpath", "base.pdhparsecounterpath", "pdh/PdhParseCounterPath", "pdh/PdhParseCounterPathW", "perf.pdhparsecounterpath"]
 old-location: perf\pdhparsecounterpath.htm
 tech.root: perf
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6

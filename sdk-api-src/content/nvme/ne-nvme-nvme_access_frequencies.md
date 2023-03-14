@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_51
-tech.root: fs 
+UID: NE:nvme.NVME_ACCESS_FREQUENCIES
+tech.root: fs
 title: NVME_ACCESS_FREQUENCIES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Defines values that indicate the frequency of read and write access to a Logical Block Addressing (LBA) range.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_ACCESS_FREQUENCIES enumeration
+
 
 ## -description
 
@@ -83,3 +84,4 @@ This enumeration is used to specify values in the **AccessFrequency** field of t
 ## -see-also
 
 [NVME_CDW13_READ_WRITE struct](ns-nvme-nvme_cdw13_read_write.md)
+

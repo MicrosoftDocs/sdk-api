@@ -2,7 +2,7 @@
 UID: NF:pdh.PdhBindInputDataSourceA
 title: PdhBindInputDataSourceA function (pdh.h)
 description: Binds one or more binary log files together for reading log data. (ANSI)
-helpviewer_keywords: ["PdhBindInputDataSource","PdhBindInputDataSource function [Perf]","PdhBindInputDataSourceA","PdhBindInputDataSourceW","_win32_pdhbindinputdatasource","base.pdhbindinputdatasource","pdh/PdhBindInputDataSource","pdh/PdhBindInputDataSourceA","pdh/PdhBindInputDataSourceW","perf.pdhbindinputdatasource"]
+helpviewer_keywords: ["PdhBindInputDataSourceA", "pdh/PdhBindInputDataSourceA"]
 old-location: perf\pdhbindinputdatasource.htm
 tech.root: perf
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a

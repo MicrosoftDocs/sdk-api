@@ -25,5 +25,4 @@ To develop Windows Media Format 11 SDK, you need these headers:
  * [wmsinternaladminnetsource.h](../wmsinternaladminnetsource/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Media Format 11 SDK](/previous-versions/windows/desktop/wmformat)
-
+* [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk)

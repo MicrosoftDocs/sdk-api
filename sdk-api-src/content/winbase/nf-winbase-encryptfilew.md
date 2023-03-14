@@ -2,7 +2,7 @@
 UID: NF:winbase.EncryptFileW
 title: EncryptFileW function (winbase.h)
 description: Encrypts a file or directory. (Unicode)
-helpviewer_keywords: ["EncryptFile","EncryptFile function [Files]","EncryptFileA","EncryptFileW","_win32_encryptfile","base.encryptfile","fs.encryptfile","winbase/EncryptFile","winbase/EncryptFileA","winbase/EncryptFileW"]
+helpviewer_keywords: ["EncryptFile", "EncryptFile function [Files]", "EncryptFileW", "_win32_encryptfile", "base.encryptfile", "fs.encryptfile", "winbase/EncryptFile", "winbase/EncryptFileW"]
 old-location: fs\encryptfile.htm
 tech.root: fs
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202

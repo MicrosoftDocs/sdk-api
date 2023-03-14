@@ -2,7 +2,7 @@
 UID: NF:winsvc.QueryServiceLockStatusW
 title: QueryServiceLockStatusW function (winsvc.h)
 description: Retrieves the lock status of the specified service control manager database. (Unicode)
-helpviewer_keywords: ["QueryServiceLockStatus","QueryServiceLockStatus function","QueryServiceLockStatusA","QueryServiceLockStatusW","_win32_queryservicelockstatus","base.queryservicelockstatus","winsvc/QueryServiceLockStatus","winsvc/QueryServiceLockStatusA","winsvc/QueryServiceLockStatusW"]
+helpviewer_keywords: ["QueryServiceLockStatus", "QueryServiceLockStatus function", "QueryServiceLockStatusW", "_win32_queryservicelockstatus", "base.queryservicelockstatus", "winsvc/QueryServiceLockStatus", "winsvc/QueryServiceLockStatusW"]
 old-location: base\queryservicelockstatus.htm
 tech.root: security
 ms.assetid: 5139d31b-65f1-41ba-852a-91eab1dc366e

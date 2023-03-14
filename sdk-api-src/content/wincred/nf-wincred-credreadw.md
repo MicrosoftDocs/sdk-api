@@ -2,7 +2,7 @@
 UID: NF:wincred.CredReadW
 title: CredReadW function (wincred.h)
 description: Reads a credential from the user's credential set. (Unicode)
-helpviewer_keywords: ["CredRead","CredRead function [Security]","CredReadA","CredReadW","_cred_credread","security.credread","wincred/CredRead","wincred/CredReadA","wincred/CredReadW"]
+helpviewer_keywords: ["CredRead", "CredRead function [Security]", "CredReadW", "_cred_credread", "security.credread", "wincred/CredRead", "wincred/CredReadW"]
 old-location: security\credread.htm
 tech.root: security
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc

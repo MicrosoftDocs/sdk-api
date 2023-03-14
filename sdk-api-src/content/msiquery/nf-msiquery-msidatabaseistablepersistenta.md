@@ -2,7 +2,7 @@
 UID: NF:msiquery.MsiDatabaseIsTablePersistentA
 title: MsiDatabaseIsTablePersistentA function (msiquery.h)
 description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table. (ANSI)
-helpviewer_keywords: ["MsiDatabaseIsTablePersistent","MsiDatabaseIsTablePersistent function","MsiDatabaseIsTablePersistentA","MsiDatabaseIsTablePersistentW","_msi_msidatabaseistablepersistent","msiquery/MsiDatabaseIsTablePersistent","msiquery/MsiDatabaseIsTablePersistentA","msiquery/MsiDatabaseIsTablePersistentW","setup.msidatabaseistablepersistent"]
+helpviewer_keywords: ["MsiDatabaseIsTablePersistentA", "msiquery/MsiDatabaseIsTablePersistentA"]
 old-location: setup\msidatabaseistablepersistent.htm
 tech.root: setup
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350

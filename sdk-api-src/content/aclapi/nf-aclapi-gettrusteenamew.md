@@ -2,7 +2,7 @@
 UID: NF:aclapi.GetTrusteeNameW
 title: GetTrusteeNameW function (aclapi.h)
 description: Retrieves the trustee name from the specified TRUSTEE structure. (Unicode)
-helpviewer_keywords: ["GetTrusteeName","GetTrusteeName function [Security]","GetTrusteeNameA","GetTrusteeNameW","_win32_gettrusteename","aclapi/GetTrusteeName","aclapi/GetTrusteeNameA","aclapi/GetTrusteeNameW","security.gettrusteename"]
+helpviewer_keywords: ["GetTrusteeName", "GetTrusteeName function [Security]", "GetTrusteeNameW", "_win32_gettrusteename", "aclapi/GetTrusteeName", "aclapi/GetTrusteeNameW", "security.gettrusteename"]
 old-location: security\gettrusteename.htm
 tech.root: security
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6

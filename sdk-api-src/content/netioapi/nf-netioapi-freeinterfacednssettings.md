@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.FreeInterfaceDnsSettings
 title: FreeInterfaceDnsSettings
-description: Frees the settings object returned by [GetInterfaceDnsSettings](nf-netioapi-getinterfacednssettings.md).
+description: Frees the settings object returned by [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings).
 tech.root: IpHlp
 ms.date: 07/15/2021
 req.construct-type: function
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Frees the settings object returned by [GetInterfaceDnsSettings](nf-netioapi-getinterfacednssettings.md).
+Frees the settings object returned by [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings).
 
 ## -parameters
 

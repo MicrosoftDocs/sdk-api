@@ -2,7 +2,7 @@
 UID: NF:tapi.tapiGetLocationInfoW
 title: tapiGetLocationInfoW function (tapi.h)
 description: The tapiGetLocationInfoW (Unicode) function (tapi.h) returns the country, region, and city code that the user has set in the location parameters in the Telephony Control Panel. 
-helpviewer_keywords: ["_tapi2_tapigetlocationinfo","tapi/tapiGetLocationInfo","tapi/tapiGetLocationInfoA","tapi/tapiGetLocationInfoW","tapi2.tapigetlocationinfo","tapiGetLocationInfo","tapiGetLocationInfo function [TAPI 2.2]","tapiGetLocationInfoA","tapiGetLocationInfoW"]
+helpviewer_keywords: ["_tapi2_tapigetlocationinfo", "tapi/tapiGetLocationInfo", "tapi/tapiGetLocationInfoW", "tapi2.tapigetlocationinfo", "tapiGetLocationInfo", "tapiGetLocationInfo function [TAPI 2.2]", "tapiGetLocationInfoW"]
 old-location: tapi2\tapigetlocationinfo.htm
 tech.root: tapi3
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c

@@ -2,7 +2,7 @@
 UID: NF:wininet.HttpOpenRequestA
 title: HttpOpenRequestA function (wininet.h)
 description: Creates an HTTP request handle. (ANSI)
-helpviewer_keywords: ["HTTP/1.0","HTTP/1.1","HttpOpenRequest","HttpOpenRequest function [WinINet]","HttpOpenRequestA","HttpOpenRequestW","_inet_httpopenrequest_function","wininet.httpopenrequest","wininet/HttpOpenRequest","wininet/HttpOpenRequestA","wininet/HttpOpenRequestW"]
+helpviewer_keywords: ["HttpOpenRequestA", "wininet/HttpOpenRequestA"]
 old-location: wininet\httpopenrequest.htm
 tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a

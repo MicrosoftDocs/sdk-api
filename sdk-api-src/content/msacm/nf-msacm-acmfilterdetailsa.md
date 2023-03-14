@@ -2,7 +2,7 @@
 UID: NF:msacm.acmFilterDetailsA
 title: acmFilterDetailsA function (msacm.h)
 description: The acmFilterDetails function queries the ACM for details about a filter with a specific waveform-audio filter tag. (acmFilterDetailsA)
-helpviewer_keywords: ["_win32_acmFilterDetails","acmFilterDetails","acmFilterDetails function [Windows Multimedia]","acmFilterDetailsA","acmFilterDetailsW","msacm/acmFilterDetails","msacm/acmFilterDetailsA","msacm/acmFilterDetailsW","multimedia.acmfilterdetails"]
+helpviewer_keywords: ["acmFilterDetailsA", "msacm/acmFilterDetailsA"]
 old-location: multimedia\acmfilterdetails.htm
 tech.root: Multimedia
 ms.assetid: ab29362e-fa85-4833-a2c8-df5cfacc6140

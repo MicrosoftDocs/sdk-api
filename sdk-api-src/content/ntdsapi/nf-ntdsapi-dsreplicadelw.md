@@ -2,7 +2,7 @@
 UID: NF:ntdsapi.DsReplicaDelW
 title: DsReplicaDelW function (ntdsapi.h)
 description: Removes a replication source reference from a destination naming context (NC). (Unicode)
-helpviewer_keywords: ["DS_REPDEL_ASYNCHRONOUS_OPERATION","DS_REPDEL_IGNORE_ERRORS","DS_REPDEL_INTERSITE_MESSAGING","DS_REPDEL_LOCAL_ONLY","DS_REPDEL_NO_SOURCE","DS_REPDEL_REF_OK","DS_REPDEL_WRITEABLE","DsReplicaDel","DsReplicaDel function [Active Directory]","DsReplicaDelA","DsReplicaDelW","_glines_dsreplicadel","ad.dsreplicadel","ntdsapi/DsReplicaDel","ntdsapi/DsReplicaDelA","ntdsapi/DsReplicaDelW"]
+helpviewer_keywords: ["DS_REPDEL_ASYNCHRONOUS_OPERATION", "DS_REPDEL_IGNORE_ERRORS", "DS_REPDEL_INTERSITE_MESSAGING", "DS_REPDEL_LOCAL_ONLY", "DS_REPDEL_NO_SOURCE", "DS_REPDEL_REF_OK", "DS_REPDEL_WRITEABLE", "DsReplicaDel", "DsReplicaDel function [Active Directory]", "DsReplicaDelW", "_glines_dsreplicadel", "ad.dsreplicadel", "ntdsapi/DsReplicaDel", "ntdsapi/DsReplicaDelW"]
 old-location: ad\dsreplicadel.htm
 tech.root: ad
 ms.assetid: 68c767c4-bbb6-477b-8ffb-94f3ae235375

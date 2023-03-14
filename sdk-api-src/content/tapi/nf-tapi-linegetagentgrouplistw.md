@@ -2,7 +2,7 @@
 UID: NF:tapi.lineGetAgentGroupListW
 title: lineGetAgentGroupListW function (tapi.h)
 description: The lineGetAgentGroupList function obtains the identities of agent groups (combination of queue, supervisor, skill level, and so on) into which the agent currently logged in on the workstation is permitted to log into on the automatic call distributor. (Unicode)
-helpviewer_keywords: ["_tapi2_linegetagentgrouplist","lineGetAgentGroupList","lineGetAgentGroupList function [TAPI 2.2]","lineGetAgentGroupListA","lineGetAgentGroupListW","tapi/lineGetAgentGroupList","tapi/lineGetAgentGroupListA","tapi/lineGetAgentGroupListW","tapi2.linegetagentgrouplist"]
+helpviewer_keywords: ["_tapi2_linegetagentgrouplist", "lineGetAgentGroupList", "lineGetAgentGroupList function [TAPI 2.2]", "lineGetAgentGroupListW", "tapi/lineGetAgentGroupList", "tapi/lineGetAgentGroupListW", "tapi2.linegetagentgrouplist"]
 old-location: tapi2\linegetagentgrouplist.htm
 tech.root: tapi3
 ms.assetid: b3767efd-8f7a-4a03-81f6-97e11994900d

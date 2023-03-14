@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_13
-tech.root: fs 
+UID: NE:nvme.NVME_STATUS_MEDIA_ERROR_CODES
+tech.root: fs
 title: NVME_STATUS_MEDIA_ERROR_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate an error associated with the NVM media or indicate a data integrity type error.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_STATUS_MEDIA_ERROR_CODES enumeration
+
 
 ## -description
 

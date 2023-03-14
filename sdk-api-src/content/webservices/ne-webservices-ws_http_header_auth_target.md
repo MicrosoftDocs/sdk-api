@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_49
+UID: NE:webservices.WS_HTTP_HEADER_AUTH_TARGET
 title: WS_HTTP_HEADER_AUTH_TARGET (webservices.h)
 description: Defines the target for the HTTP header authentication security binding.
 helpviewer_keywords: ["WS_HTTP_HEADER_AUTH_TARGET","WS_HTTP_HEADER_AUTH_TARGET enumeration [Web Services for Windows]","WS_HTTP_HEADER_AUTH_TARGET_PROXY","WS_HTTP_HEADER_AUTH_TARGET_SERVICE","webservices/WS_HTTP_HEADER_AUTH_TARGET","webservices/WS_HTTP_HEADER_AUTH_TARGET_PROXY","webservices/WS_HTTP_HEADER_AUTH_TARGET_SERVICE","wsw.ws_http_header_auth_target"]
@@ -63,3 +63,4 @@ this setting authenticates to the server.
 
 Indicates that the <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the proxy.
+

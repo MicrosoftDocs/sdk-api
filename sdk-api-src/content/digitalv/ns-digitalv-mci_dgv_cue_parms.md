@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_4
+UID: NS:digitalv.MCI_DGV_CUE_PARMS
 title: MCI_DGV_CUE_PARMS (digitalv.h)
 description: The MCI_DGV_CUE_PARMS structure contains parameters for the MCI_CUE command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_CUE_PARMS_str","digitalv/MCI_DGV_CUE_PARMS","multimedia.mci_dgv_cue_parms"]
@@ -81,3 +81,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

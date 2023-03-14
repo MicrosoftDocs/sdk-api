@@ -2,7 +2,7 @@
 UID: NF:winuser.MessageBoxIndirectW
 title: MessageBoxIndirectW function (winuser.h)
 description: Creates, displays, and operates a message box. The message box contains application-defined message text and title, any icon, and any combination of predefined push buttons. (Unicode)
-helpviewer_keywords: ["MessageBoxIndirect","MessageBoxIndirect function [Dialog Boxes]","MessageBoxIndirectA","MessageBoxIndirectW","_win32_MessageBoxIndirect","_win32_messageboxindirect_cpp","dlgbox.messageboxindirect","winui._win32_messageboxindirect","winuser/MessageBoxIndirect","winuser/MessageBoxIndirectA","winuser/MessageBoxIndirectW"]
+helpviewer_keywords: ["MessageBoxIndirect", "MessageBoxIndirect function [Dialog Boxes]", "MessageBoxIndirectW", "_win32_MessageBoxIndirect", "_win32_messageboxindirect_cpp", "dlgbox.messageboxindirect", "winui._win32_messageboxindirect", "winuser/MessageBoxIndirect", "winuser/MessageBoxIndirectW"]
 old-location: dlgbox\messageboxindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxindirect.htm

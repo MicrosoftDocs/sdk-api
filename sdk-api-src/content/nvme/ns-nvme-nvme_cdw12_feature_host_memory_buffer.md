@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_56
-tech.root: fs 
+UID: NS:nvme.NVME_CDW12_FEATURE_HOST_MEMORY_BUFFER
+tech.root: fs
 title: NVME_CDW12_FEATURE_HOST_MEMORY_BUFFER
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains a parameter for the Host Memory Buffer Feature that specifies the size of the host memory buffer.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW12_FEATURE_HOST_MEMORY_BUFFER, *PNVME_CDW12_FEATURE_HOST_MEMORY_BUFFER
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW12_FEATURE_HOST_MEMORY_BUFFER structure
+
 
 ## -description
 
@@ -68,3 +69,4 @@ Memory Page size is configured in the **MPS** field of the [NVME_CONTROLLER_CONF
 - [NVME_CDW13_FEATURE_HOST_MEMORY_BUFFER](ns-nvme-nvme_cdw13_feature_host_memory_buffer.md)
 - [NVME_CDW14_FEATURE_HOST_MEMORY_BUFFER](ns-nvme-nvme_cdw14_feature_host_memory_buffer.md)
 - [NVME_CDW15_FEATURE_HOST_MEMORY_BUFFER](ns-nvme-nvme_cdw15_feature_host_memory_buffer.md)
+

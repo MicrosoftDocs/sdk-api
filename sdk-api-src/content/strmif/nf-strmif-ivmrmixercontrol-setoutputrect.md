@@ -61,7 +61,7 @@ Specifies the input stream.
 
 ### -param pRect [in]
 
-Pointer to a [NORMALIZEDRECT](/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that specifies the position of the rectangle with composition space.
+Pointer to a [NORMALIZEDRECT](/windows/win32/api/strmif/ns-strmif-normalizedrect) structure that specifies the position of the rectangle with composition space.
 
 ## -returns
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_2
+UID: NS:windns.DNS_A_DATA
 title: DNS_A_DATA (windns.h)
 description: The DNS_A_DATA structure represents a DNS address (A) record as specified in section 3.4.1 of RFC 1035.
 helpviewer_keywords: ["*PDNS_A_DATA","DNS_A_DATA","DNS_A_DATA structure [DNS]","PDNS_A_DATA","PDNS_A_DATA structure pointer [DNS]","_dns_dns_a_data","dns.dns_a_data","windns/DNS_A_DATA","windns/PDNS_A_DATA"]
@@ -70,3 +70,4 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:winscard.__unnamed_struct_3
+UID: NS:winscard.OPENCARD_SEARCH_CRITERIAW
 title: OPENCARD_SEARCH_CRITERIAW (winscard.h)
 description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure. (Unicode)
 helpviewer_keywords: ["*LPOPENCARD_SEARCH_CRITERIAW","*POPENCARD_SEARCH_CRITERIAW","LPOPENCARD_SEARCH_CRITERIA","LPOPENCARD_SEARCH_CRITERIA structure pointer [Security]","OPENCARD_SEARCH_CRITERIA","OPENCARD_SEARCH_CRITERIA structure [Security]","OPENCARD_SEARCH_CRITERIAA","OPENCARD_SEARCH_CRITERIAW","POPENCARD_SEARCH_CRITERIA","POPENCARD_SEARCH_CRITERIA structure pointer [Security]","_smart_opencard_search_criteria","security.opencard_search_criteria","winscard/LPOPENCARD_SEARCH_CRITERIA","winscard/OPENCARD_SEARCH_CRITERIA","winscard/OPENCARD_SEARCH_CRITERIAA","winscard/OPENCARD_SEARCH_CRITERIAW","winscard/POPENCARD_SEARCH_CRITERIA"]
@@ -175,3 +175,4 @@ Used for internal connection as described in <b>dwShareMode</b>.
 
 > [!NOTE]
 > The winscard.h header defines OPENCARD_SEARCH_CRITERIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -2,7 +2,7 @@
 UID: NF:wininet.GetUrlCacheEntryInfoA
 title: GetUrlCacheEntryInfoA function (wininet.h)
 description: Retrieves information about a cache entry. (ANSI)
-helpviewer_keywords: ["GetUrlCacheEntryInfo","GetUrlCacheEntryInfo function [WinINet]","GetUrlCacheEntryInfoA","GetUrlCacheEntryInfoW","_inet_geturlcacheentryinfo_function","wininet.geturlcacheentryinfo","wininet/GetUrlCacheEntryInfo","wininet/GetUrlCacheEntryInfoA","wininet/GetUrlCacheEntryInfoW"]
+helpviewer_keywords: ["GetUrlCacheEntryInfoA", "wininet/GetUrlCacheEntryInfoA"]
 old-location: wininet\geturlcacheentryinfo.htm
 tech.root: wininet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced

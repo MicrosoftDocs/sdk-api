@@ -1,5 +1,5 @@
 ---
-UID: NE:shcore.__unnamed_enum_0
+UID: NE:shcore.BSOS_OPTIONS
 title: BSOS_OPTIONS (shcore.h)
 description: Specifies the behavior of a RandomAccessStream that encapsulates a Component Object Model (COM) IStream.
 helpviewer_keywords: ["BSOS_DEFAULT","BSOS_OPTIONS","BSOS_OPTIONS enumeration [Windows Runtime]","BSOS_PREFERDESTINATIONSTREAM","shcore/BSOS_DEFAULT","shcore/BSOS_OPTIONS","shcore/BSOS_PREFERDESTINATIONSTREAM","winrt.bsos_options"]
@@ -69,3 +69,4 @@ Use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idestinatio
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+

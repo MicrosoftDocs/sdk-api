@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_145
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_DATASET_MANAGEMENT
+tech.root: fs
 title: NVME_CDW10_DATASET_MANAGEMENT
-ms.date: 08/09/2022 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
 description: The NVME_CDW10_DATASET_MANAGEMENT structure contains parameters for the Dataset Management command that indicates attributes for ranges of logical blocks.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_DATASET_MANAGEMENT, *PNVME_CDW10_DATASET_MANAGEMENT
@@ -47,6 +47,7 @@ The Dataset Management command uses the Command Dword 10 **CDW10** and Command D
 
 The **NVME_CDW10_DATASET_MANAGEMENT** structure is used in the **CDW10** field of the **DATASETMANAGEMENT** parameter of the [Command](ns-nvme-nvme_command.md) structure.
 
+
 ## -description
 
 ## -struct-fields
@@ -66,3 +67,4 @@ The Number of Ranges (NR) field indicates the number of 16 byte range sets that 
 ## -see-also
 
 - [NVME_CDW11_DATASET_MANAGEMENT](ns-nvme-nvme_cdw11_dataset_management.md)
+

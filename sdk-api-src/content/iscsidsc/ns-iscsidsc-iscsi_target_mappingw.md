@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_4
+UID: NS:iscsidsc.ISCSI_TARGET_MAPPINGW
 title: ISCSI_TARGET_MAPPINGW (iscsidsc.h)
 description: ISCSI_TARGET_MAPPING. (Unicode)
 helpviewer_keywords: ["*PISCSI_TARGET_MAPPINGW","ISCSI_TARGET_MAPPING","ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API]","ISCSI_TARGET_MAPPINGA","ISCSI_TARGET_MAPPINGW","PISCSI_TARGET_MAPPING","PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_mapping","iscsidsc/ISCSI_TARGET_MAPPING","iscsidsc/ISCSI_TARGET_MAPPINGA","iscsidsc/ISCSI_TARGET_MAPPINGW","iscsidsc/PISCSI_TARGET_MAPPING"]
@@ -102,3 +102,4 @@ A list of SCSI_LUN_LIST structures that contain information about the LUNs assoc
 
 > [!NOTE]
 > The iscsidsc.h header defines ISCSI_TARGET_MAPPING as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

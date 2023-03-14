@@ -2,7 +2,7 @@
 UID: NF:synchapi.CreateEventA
 title: CreateEventA function (synchapi.h)
 description: Creates or opens a named or unnamed event object. (ANSI)
-helpviewer_keywords: ["CreateEvent","CreateEvent function","CreateEventA","CreateEventW","_win32_createevent","base.createevent","synchapi/CreateEvent","synchapi/CreateEventA","synchapi/CreateEventW","winbase/CreateEvent","winbase/CreateEventA","winbase/CreateEventW"]
+helpviewer_keywords: ["CreateEventA", "synchapi/CreateEventA"]
 old-location: base\createevent.htm
 tech.root: base
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900

@@ -64,7 +64,7 @@ Size of the buffer, in bytes.
 
 ### -param ppBuffer [out]
 
-If the method succeeds, returns a pointer to a pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
+If the method succeeds, returns a pointer to a pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
 
 ### -param pvContext [in]
 
@@ -82,7 +82,7 @@ When allocating buffers, you can use whatever logic suits your application. Typi
 
 You can determine the size needed to hold the largest sample of an output by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmaxoutputsamplesize">IWMReaderAdvanced::GetMaxOutputSampleSize</a>. This is the size you should make the samples in the pool used for the output.
 
-When you allocate a sample in your implementation of this method, you should call <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
+When you allocate a sample in your implementation of this method, you should call <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
 
 ## -see-also
 

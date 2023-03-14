@@ -2,7 +2,7 @@
 UID: NF:winbase.SetFileShortNameA
 title: SetFileShortNameA function (winbase.h)
 description: Sets the short name for the specified file. (ANSI)
-helpviewer_keywords: ["SetFileShortName","SetFileShortName function [Files]","SetFileShortNameA","SetFileShortNameW","_win32_setfileshortname","base.setfileshortname","fs.setfileshortname","winbase/SetFileShortName","winbase/SetFileShortNameA","winbase/SetFileShortNameW"]
+helpviewer_keywords: ["SetFileShortNameA", "winbase/SetFileShortNameA"]
 old-location: fs\setfileshortname.htm
 tech.root: fs
 ms.assetid: 0f4beb95-4e6c-422e-a17c-3371b706f0d4

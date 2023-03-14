@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_162
-tech.root: fs 
+UID: NS:nvme.NVME_SCSI_NAME_STRING
+tech.root: fs
 title: NVME_SCSI_NAME_STRING
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information that is used to construct the SCSI name string identifier.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_SCSI_NAME_STRING, *PNVME_SCSI_NAME_STRING
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_SCSI_NAME_STRING structure
+
 
 ## -description
 
@@ -79,3 +80,4 @@ This value is also in the **SN** field of the [NVME_IDENTIFY_CONTROLLER_DATA](ns
 
 - [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
 - [NVME_COMMAND](ns-nvme-nvme_command.md)
+

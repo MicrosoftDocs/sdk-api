@@ -2,7 +2,7 @@
 UID: NF:setupapi.SetupQuerySpaceRequiredOnDriveW
 title: SetupQuerySpaceRequiredOnDriveW function (setupapi.h)
 description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive. (Unicode)
-helpviewer_keywords: ["SetupQuerySpaceRequiredOnDrive","SetupQuerySpaceRequiredOnDrive function [Setup API]","SetupQuerySpaceRequiredOnDriveA","SetupQuerySpaceRequiredOnDriveW","_setupapi_setupqueryspacerequiredondrive","setup.setupqueryspacerequiredondrive","setupapi/SetupQuerySpaceRequiredOnDrive","setupapi/SetupQuerySpaceRequiredOnDriveA","setupapi/SetupQuerySpaceRequiredOnDriveW"]
+helpviewer_keywords: ["SetupQuerySpaceRequiredOnDrive", "SetupQuerySpaceRequiredOnDrive function [Setup API]", "SetupQuerySpaceRequiredOnDriveW", "_setupapi_setupqueryspacerequiredondrive", "setup.setupqueryspacerequiredondrive", "setupapi/SetupQuerySpaceRequiredOnDrive", "setupapi/SetupQuerySpaceRequiredOnDriveW"]
 old-location: setup\setupqueryspacerequiredondrive.htm
 tech.root: setup
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1

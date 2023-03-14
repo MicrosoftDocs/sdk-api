@@ -49,4 +49,6 @@ dev_langs:
 This header is used by Audio Devices DDI Reference. For more information, see:
 
 - [Audio Devices DDI Reference](../_audio/index.md)
+ 
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 

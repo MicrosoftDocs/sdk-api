@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_30
+UID: NS:digitalv.MCI_DGV_STATUS_PARMSA
 title: MCI_DGV_STATUS_PARMSA (digitalv.h)
 description: The MCI_DGV_STATUS_PARMSA (ANSI) structure contains parameters for the MCI_STATUS command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_STATUS_PARMSA","MCI_DGV_STATUS_PARMS","MCI_DGV_STATUS_PARMS structure [Windows Multimedia]","MCI_DGV_STATUS_PARMSA","_win32_MCI_DGV_STATUS_PARMS_str","digitalv/MCI_DGV_STATUS_PARMS","multimedia.mci_dgv_status_parms"]
@@ -109,3 +109,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

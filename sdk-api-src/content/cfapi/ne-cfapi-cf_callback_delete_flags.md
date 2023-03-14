@@ -1,13 +1,13 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DELETE_FLAGS
 title: CF_CALLBACK_DELETE_FLAGS (cfapi.h)
-description: This callback is used to inform the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted.
-helpviewer_keywords: ["CF_CALLBACK_DELETE_FLAGS","CF_CALLBACK_DELETE_FLAGS enumeration","CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY","CF_CALLBACK_DELETE_FLAG_NONE","cfapi/CF_CALLBACK_DELETE_FLAGS","cfapi/CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY","cfapi/CF_CALLBACK_DELETE_FLAG_NONE","cloudApi.cf_callback_delete_flags"]
+description: This callback is used to inform the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted or undeleted.
+helpviewer_keywords: ["CF_CALLBACK_DELETE_FLAGS","CF_CALLBACK_DELETE_FLAGS enumeration","CF_CALLBACK_DELETE_FLAG_IS_UNDELETE","CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY","CF_CALLBACK_DELETE_FLAG_NONE","cfapi/CF_CALLBACK_DELETE_FLAGS","cfapi/CF_CALLBACK_DELETE_FLAG_IS_UNDELETE","cfapi/CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY","cfapi/CF_CALLBACK_DELETE_FLAG_NONE","cloudApi.cf_callback_delete_flags"]
 old-location: cloudapi\cf_callback_delete_flags.htm
 tech.root: cloudapi
 ms.assetid: 76F9FB0C-F531-447F-8F0E-1EB849336771
-ms.date: 12/05/2018
-ms.keywords: CF_CALLBACK_DELETE_FLAGS, CF_CALLBACK_DELETE_FLAGS enumeration, CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, CF_CALLBACK_DELETE_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_FLAGS, cfapi/CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, cfapi/CF_CALLBACK_DELETE_FLAG_NONE, cloudApi.cf_callback_delete_flags
+ms.date: 02/28/2023
+ms.keywords: CF_CALLBACK_DELETE_FLAGS, CF_CALLBACK_DELETE_FLAGS enumeration, CF_CALLBACK_DELETE_FLAG_IS_UNDELETE, CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, CF_CALLBACK_DELETE_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_FLAGS, cfapi/CF_CALLBACK_DELETE_FLAG_IS_UNDELETE, cfapi/CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY, cfapi/CF_CALLBACK_DELETE_FLAG_NONE, cloudApi.cf_callback_delete_flags
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -47,18 +47,30 @@ api_name:
 
 # CF_CALLBACK_DELETE_FLAGS enumeration
 
-
 ## -description
 
-This callback is used to inform the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted.
+This enum is used by `CF_CALLBACK_TYPE_NOTIFY_DELETE` (see [CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)) when informing the sync provider that a placeholder file or directory under one of its sync roots is about to be deleted or undeleted.
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DELETE_FLAG_NONE:0x00000000
+### -field CF_CALLBACK_DELETE_FLAG_NONE
+
+`0x00000000`
 
 No delete flag.
 
-### -field CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY:0x00000001
+### -field CF_CALLBACK_DELETE_FLAG_IS_DIRECTORY
+
+`0x00000001`
 
 The placeholder that is about to be deleted is a directory.
 
+### -field CF_CALLBACK_DELETE_FLAG_IS_UNDELETE
+
+`0x00000002`
+
+The placeholder is being undeleted.
+
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

@@ -2,7 +2,7 @@
 UID: NF:winuser.ChangeDisplaySettingsExA
 title: ChangeDisplaySettingsExA function (winuser.h)
 description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode. (ANSI)
-helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES","CDS_ENABLE_UNSAFE_MODES","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","CDS_VIDEOPARAMETERS","ChangeDisplaySettingsEx","ChangeDisplaySettingsEx function [Windows GDI]","ChangeDisplaySettingsExA","ChangeDisplaySettingsExW","_win32_ChangeDisplaySettingsEx","gdi.changedisplaysettingsex","winuser/ChangeDisplaySettingsEx","winuser/ChangeDisplaySettingsExA","winuser/ChangeDisplaySettingsExW"]
+helpviewer_keywords: ["CDS_DISABLE_UNSAFE_MODES", "CDS_ENABLE_UNSAFE_MODES", "CDS_FULLSCREEN", "CDS_GLOBAL", "CDS_NORESET", "CDS_RESET", "CDS_SET_PRIMARY", "CDS_TEST", "CDS_UPDATEREGISTRY", "CDS_VIDEOPARAMETERS", "ChangeDisplaySettingsExA", "winuser/ChangeDisplaySettingsExA"]
 old-location: gdi\changedisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24

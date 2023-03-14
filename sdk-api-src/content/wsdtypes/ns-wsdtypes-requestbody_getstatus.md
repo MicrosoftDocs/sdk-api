@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_5
+UID: NS:wsdtypes.REQUESTBODY_GetStatus
 title: REQUESTBODY_GetStatus (wsdtypes.h)
 description: Represents a WS-Eventing GetStatus request message.
 helpviewer_keywords: ["REQUESTBODY_GetStatus","REQUESTBODY_GetStatus structure","ncd.requestbody_getstatus","wsdtypes/REQUESTBODY_GetStatus"]
@@ -57,3 +57,4 @@ Represents a WS-Eventing GetStatus request message.
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

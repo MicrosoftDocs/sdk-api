@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_130
-tech.root: fs 
+UID: NS:nvme.NVME_CDW12_DIRECTIVE_SEND_IDENTIFY_ENABLE_DIRECTIVE
+tech.root: fs
 title: NVME_CDW12_DIRECTIVE_SEND_IDENTIFY_ENABLE_DIRECTIVE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for specifying and enabling directives in the Directive Send command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW12_DIRECTIVE_SEND_IDENTIFY_ENABLE_DIRECTIVE, *PNVME_CDW12_DIRECTIVE_SEND_IDENTIFY_ENABLE_DIRECTIVE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW12_DIRECTIVE_SEND_IDENTIFY_ENABLE_DIRECTIVE structure
+
 
 ## -description
 
@@ -70,3 +71,4 @@ Specifies the directive type.
 ## -see-also
 
 - [NVME_CDW12_DIRECTIVE_SEND](ns-nvme-nvme_cdw12_directive_send.md)
+

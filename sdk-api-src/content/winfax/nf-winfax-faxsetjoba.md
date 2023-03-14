@@ -2,7 +2,7 @@
 UID: NF:winfax.FaxSetJobA
 title: FaxSetJobA function (winfax.h)
 description: A fax client application calls the FaxSetJob function to pause, resume, cancel, or restart a specified fax job. (ANSI)
-helpviewer_keywords: ["FaxSetJob","FaxSetJob function [Fax Service]","FaxSetJobA","FaxSetJobW","JC_DELETE","JC_PAUSE","JC_RESTART","JC_RESUME","_mfax_faxsetjob","fax._mfax_faxsetjob","winfax/FaxSetJob","winfax/FaxSetJobA","winfax/FaxSetJobW"]
+helpviewer_keywords: ["FaxSetJobA", "JC_DELETE", "JC_PAUSE", "JC_RESTART", "JC_RESUME", "winfax/FaxSetJobA"]
 old-location: fax\_mfax_faxsetjob.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4pwi.htm

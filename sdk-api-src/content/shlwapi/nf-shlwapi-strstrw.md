@@ -2,7 +2,7 @@
 UID: NF:shlwapi.StrStrW
 title: StrStrW function (shlwapi.h)
 description: Finds the first occurrence of a substring within a string. The comparison is case-sensitive. (StrStrW)
-helpviewer_keywords: ["StrStr","StrStr function [Windows Shell]","StrStrA","StrStrW","_win32_StrStr","shell.StrStr","shlwapi/StrStr","shlwapi/StrStrA","shlwapi/StrStrW"]
+helpviewer_keywords: ["StrStr", "StrStr function [Windows Shell]", "StrStrW", "_win32_StrStr", "shell.StrStr", "shlwapi/StrStr", "shlwapi/StrStrW"]
 old-location: shell\StrStr.htm
 tech.root: shell
 ms.assetid: b1de5007-6773-4dea-8a15-ccd5f6924a13

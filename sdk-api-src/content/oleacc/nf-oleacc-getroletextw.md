@@ -2,7 +2,7 @@
 UID: NF:oleacc.GetRoleTextW
 title: GetRoleTextW function (oleacc.h)
 description: Retrieves the localized string that describes the object's role for the specified role value. (Unicode)
-helpviewer_keywords: ["GetRoleText","GetRoleText function [Windows Accessibility]","GetRoleTextA","GetRoleTextW","_msaa_GetRoleText","msaa.getroletext","oleacc/GetRoleText","oleacc/GetRoleTextA","oleacc/GetRoleTextW","winauto.getroletext"]
+helpviewer_keywords: ["GetRoleText", "GetRoleText function [Windows Accessibility]", "GetRoleTextW", "_msaa_GetRoleText", "msaa.getroletext", "oleacc/GetRoleText", "oleacc/GetRoleTextW", "winauto.getroletext"]
 old-location: winauto\getroletext.htm
 tech.root: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba

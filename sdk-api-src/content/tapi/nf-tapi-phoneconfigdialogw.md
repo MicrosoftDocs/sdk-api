@@ -2,7 +2,7 @@
 UID: NF:tapi.phoneConfigDialogW
 title: phoneConfigDialogW function (tapi.h)
 description: The phoneConfigDialogW (Unicode) function (tapi.h) causes the provider of the specified device to display a modal dialog box allowing the user to configure the related parameters.
-helpviewer_keywords: ["_tapi2_phoneconfigdialog","phoneConfigDialog","phoneConfigDialog function [TAPI 2.2]","phoneConfigDialogA","phoneConfigDialogW","tapi/phoneConfigDialog","tapi/phoneConfigDialogA","tapi/phoneConfigDialogW","tapi2.phoneconfigdialog"]
+helpviewer_keywords: ["_tapi2_phoneconfigdialog", "phoneConfigDialog", "phoneConfigDialog function [TAPI 2.2]", "phoneConfigDialogW", "tapi/phoneConfigDialog", "tapi/phoneConfigDialogW", "tapi2.phoneconfigdialog"]
 old-location: tapi2\phoneconfigdialog.htm
 tech.root: tapi3
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700

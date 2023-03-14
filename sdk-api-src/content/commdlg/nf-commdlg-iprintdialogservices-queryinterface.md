@@ -1,10 +1,10 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.QueryInterface
 title: IPrintDialogServices::QueryInterface
-ms.date: 11/4/2019
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
-description: IUnknown's QueryInterface method
+description: The IPrintDialogServices::QueryInterface method (commdlg.h) is IUnknown's QueryInterface method, which queries a COM object for a pointer.
 tech.root: dlgbox
 req.assembly: 
 req.construct-type: function

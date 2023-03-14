@@ -2,7 +2,7 @@
 UID: NF:winuser.DialogBoxIndirectParamW
 title: DialogBoxIndirectParamW function (winuser.h)
 description: Creates a modal dialog box from a dialog box template in memory. (Unicode)
-helpviewer_keywords: ["DialogBoxIndirectParam","DialogBoxIndirectParam function [Dialog Boxes]","DialogBoxIndirectParamA","DialogBoxIndirectParamW","_win32_DialogBoxIndirectParam","_win32_dialogboxindirectparam_cpp","dlgbox.dialogboxindirectparam","winui._win32_dialogboxindirectparam","winuser/DialogBoxIndirectParam","winuser/DialogBoxIndirectParamA","winuser/DialogBoxIndirectParamW"]
+helpviewer_keywords: ["DialogBoxIndirectParam", "DialogBoxIndirectParam function [Dialog Boxes]", "DialogBoxIndirectParamW", "_win32_DialogBoxIndirectParam", "_win32_dialogboxindirectparam_cpp", "dlgbox.dialogboxindirectparam", "winui._win32_dialogboxindirectparam", "winuser/DialogBoxIndirectParam", "winuser/DialogBoxIndirectParamW"]
 old-location: dlgbox\dialogboxindirectparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm
