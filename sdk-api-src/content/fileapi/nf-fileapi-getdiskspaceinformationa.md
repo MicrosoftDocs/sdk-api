@@ -19,8 +19,8 @@ req.lib: kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 Build 17763 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 10 Server 2019 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10 Build 17763 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 10 Server 2019 [desktop apps \| UWP apps]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
