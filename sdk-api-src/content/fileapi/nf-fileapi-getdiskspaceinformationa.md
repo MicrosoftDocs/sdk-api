@@ -9,18 +9,18 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: kernel32.dll
 req.header: fileapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 17763 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows 10 Server 2019 [desktop apps | UWP apps]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -28,9 +28,10 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - fileapi.h
+ - kernel32.dll
+ - API-MS-Win-Core-File-l1-2-3
 api_name:
  - GetDiskSpaceInformationA
  - GetDiskSpaceInformation
