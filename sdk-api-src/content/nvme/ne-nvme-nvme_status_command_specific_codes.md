@@ -94,7 +94,7 @@ This may be due to various conditions, including:
 
 - Specifying an invalid Logical Block Address (LBA) Format number.
 - Enabling protection information when there is not sufficient metadata per LBA.
-- Invalid security state. For more information, see the [TCG Storage Interface Interactions Specification (SIIS)](https://trustedcomputinggroup.org/resource/storage-work-group-storage-interface-interactions-specification/).
+- Invalid security state. For more information, see the [TCG Storage Interface Interactions Specification (SIIS)](https://trustedcomputinggroup.org).
 
 ### -field NVME_STATUS_FIRMWARE_ACTIVATION_REQUIRES_CONVENTIONAL_RESET
 
