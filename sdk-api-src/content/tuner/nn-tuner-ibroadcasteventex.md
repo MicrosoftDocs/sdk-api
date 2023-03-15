@@ -80,7 +80,7 @@ The <b>IBroadcastEventEx</b> interface has these methods.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">FireEx</a>
+<a href="/previous-versions/dd376296(v=vs.85)">FireEx</a>
 </td>
 <td align="left" width="63%">
 Fires an event.
