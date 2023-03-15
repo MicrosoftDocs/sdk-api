@@ -4,7 +4,7 @@ tech.root: directml
 title: DML_ELEMENT_WISE_CLIP_GRAD1_OPERATOR_DESC
 ms.date: 07/22/2022
 targetos: Windows
-description: Computes backpropagation gradients for [element-wise clip](ns-directml-dml_element_wise_clip1_operator_desc.md).
+description: Computes backpropagation gradients for [element-wise clip](/windows/win32/api/directml/ns-directml-dml_element_wise_clip1_operator_desc.md).
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-Computes backpropagation gradients for [DML_OPERATOR_ELEMENT_WISE_CLIP1](ns-directml-dml_element_wise_clip1_operator_desc.md).
+Computes backpropagation gradients for [DML_OPERATOR_ELEMENT_WISE_CLIP1](/windows/win32/api/directml/ns-directml-dml_element_wise_clip1_operator_desc.md).
 
 ```
 f(x, gradient) = if x <= Min then 0
@@ -56,19 +56,19 @@ This operator supports in-place execution, meaning that *OutputTensor* is permit
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-The input feature tensor. This is typically the same tensor that was provided as the *InputTensor* to [DML_OPERATOR_ELEMENT_WISE_CLIP1](ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
+The input feature tensor. This is typically the same tensor that was provided as the *InputTensor* to [DML_OPERATOR_ELEMENT_WISE_CLIP1](/windows/win32/api/directml/ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
 
 ### -field InputGradientTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-The incoming gradient tensor. This is typically obtained from the output of backpropagation of a preceding layer. Typically this tensor would have the same sizes as the *output* of the corresponding [DML_OPERATOR_ELEMENT_WISE_CLIP1](ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
+The incoming gradient tensor. This is typically obtained from the output of backpropagation of a preceding layer. Typically this tensor would have the same sizes as the *output* of the corresponding [DML_OPERATOR_ELEMENT_WISE_CLIP1](/windows/win32/api/directml/ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
 
 ### -field OutputGradientTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An output tensor containing the backpropagated gradients. Typically this tensor would have the same sizes as the *input* of the corresponding [DML_OPERATOR_ELEMENT_WISE_CLIP1](ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
+An output tensor containing the backpropagated gradients. Typically this tensor would have the same sizes as the *input* of the corresponding [DML_OPERATOR_ELEMENT_WISE_CLIP1](/windows/win32/api/directml/ns-directml-dml_element_wise_clip1_operator_desc.md) in the forward pass.
 
 ### -field MinMaxDataType
 
