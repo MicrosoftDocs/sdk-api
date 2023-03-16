@@ -12,15 +12,15 @@ req.ddi-compliance:
 req.dll: Kernel32.dll
 req.header: processthreadsapi.h
 req.idl: 
-req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 11 (Build 22000)
+req.target-min-winversvr: Windows Server 2022 (Build 20348)
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
