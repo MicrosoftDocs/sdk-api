@@ -49,13 +49,13 @@ api_name:
 
 ## -description
 
-The structure contains callback-specific parameters such as file offset, length, flags, etc.
+This structure contains callback-specific parameters such as file offset, length, flags, etc.
 
 ## -struct-fields
 
 ### -field ParamSize
 
-`CF_CALLBACK_PARAMETERS.ParamSize` is set based on the callback being performed.
+_ParamSize_ is set based on the callback being performed.
 
 | Callback | ParamSize Information |
 |--------|--------|
@@ -90,11 +90,11 @@ _Flags_ can be set to the following flags:
 
 ### -field DUMMYUNIONNAME.Cancel.DUMMYUNIONNAME.FetchData.FileOffset
 
-Offset, in bytes, for specifying the range of file data that is no longer required. Note this may match the **RequiredFileOffset** from the corresponding fetch, but may also be a subset. If it is a subset, then data outside of the cancel range is still needed, for example to satisfy outstanding I/O operations that arrived subsequently.
+The offset, in bytes, for specifying the range of file data that is no longer required. Note this may match the **RequiredFileOffset** from the corresponding fetch, but may also be a subset. If it is a subset, then data outside of the cancel range is still needed, for example to satisfy outstanding I/O operations that arrived subsequently.
 
 ### -field DUMMYUNIONNAME.Cancel.DUMMYUNIONNAME.FetchData.Length
 
-Length in bytes of the file data that is no longer required. Note this may match the **RequiredLength** from the corresponding fetch, but may also be a subset. If it is a subset, then data outside of the cancel range is still needed, for example to satisfy outstanding I/O operations that arrived subsequently.
+The length, in bytes, of the file data that is no longer required. Note this may match the **RequiredLength** from the corresponding fetch, but may also be a subset. If it is a subset, then data outside of the cancel range is still needed, for example to satisfy outstanding I/O operations that arrived subsequently.
 
 ### -field DUMMYUNIONNAME.FetchData
 
@@ -107,19 +107,19 @@ _Flags_ can be set to the following values:
 
 ### -field DUMMYUNIONNAME.FetchData.RequiredFileOffset
 
-Offset, in bytes, for specifying the range of file data that is absolutely needed by the filter in order to satisfy outstanding I/O requests.
+The offset, in bytes, for specifying the range of file data that is absolutely needed by the filter in order to satisfy outstanding I/O requests.
 
 ### -field DUMMYUNIONNAME.FetchData.RequiredLength
 
-Length, in bytes, of the file data that is absolutely needed by the filter in order to satisfy outstanding I/O requests.
+The length, in bytes, of the file data that is absolutely needed by the filter in order to satisfy outstanding I/O requests.
 
 ### -field DUMMYUNIONNAME.FetchData.OptionalFileOffset
 
-Offset, in bytes, provided as a hint as to a broader range of file data that could usefully be given to the platform, in case the sync provider prefers to give data in larger chunks. Usually the optional range will be the maximal contiguous range that is not currently present in the placeholder. This is optional and can be used if the sync provider prefers to work with larger segments of data.
+The offset, in bytes, provided as a hint as to a broader range of file data that could usefully be given to the platform, in case the sync provider prefers to give data in larger chunks. Usually the optional range will be the maximal contiguous range that is not currently present in the placeholder. This is optional and can be used if the sync provider prefers to work with larger segments of data.
 
 ### -field DUMMYUNIONNAME.FetchData.OptionalLength
 
-Length, in bytes, provided as a hint as to a broader range of file data that could usefully be given to the platform, in case the sync provider prefers to give data in larger chunks. Usually the optional range will be the maximal contiguous range that is not currently present in the placeholder. This is optional and can be used if the sync provider prefers to work with larger segments of data.
+The length, in bytes, provided as a hint as to a broader range of file data that could usefully be given to the platform, in case the sync provider prefers to give data in larger chunks. Usually the optional range will be the maximal contiguous range that is not currently present in the placeholder. This is optional and can be used if the sync provider prefers to work with larger segments of data.
 
 A length of -1, denoted as `CF_EOF`, means infinity (i.e. to end of file).
 
@@ -151,11 +151,11 @@ Data validation flags. **CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION** is 
 
 ### -field DUMMYUNIONNAME.ValidateData.RequiredFileOffset
 
-Offset, in bytes, for specifying the range of file data to validate.
+The offset, in bytes, for specifying the range of file data to validate.
 
 ### -field DUMMYUNIONNAME.ValidateData.RequiredLength
 
-Length, in bytes, of the range of file data that needs to be validated. A length of -1, denoted as `CF_EOF`, means infinity (i.e. to end of file).
+The length, in bytes, of the range of file data that needs to be validated. A length of -1, denoted as `CF_EOF`, means infinity (i.e. to end of file).
 
 There is no requirement for the sync provider to acknowledge all the data required at once. There is also no requirement for the sync provider to acknowledge the data within either the required range. The platform ensures under no circumstances will modified/unsynced file data get clobbered because of an invalid **CF_OPERATION_TYPE_ACT_DATA** operation. However, the data acknowledged must be 4KB aligned for both the offset and length unless the returned range ends on the end of the file, in which case the length is not required to be 4KB aligned if the range ends on or beyond the end of the file.
 
@@ -192,7 +192,7 @@ Placeholder dehydration flags. It can be set to **CF_CALLBACK_DEHYDRATE_FLAG_BAC
 
 ### -field DUMMYUNIONNAME.Dehydrate.Reason
 
-A member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder is being dehydrated. It can be one of the following values:
+The _Reason_ is a member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder is being dehydrated. It can be one of the following values:
 
 | Reason | Description |
 |--------|--------|
@@ -212,7 +212,7 @@ Placeholder dehydration completion flags. It can be set to the following values:
 
 ### -field DUMMYUNIONNAME.DehydrateCompletion.Reason
 
-A member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder was dehydrated. It can be one of the following values:
+The _Reason_ is a member of the [CF_CALLBACK_DEHYDRATION_REASON](ne-cfapi-cf_callback_dehydration_reason.md) enumeration specifying the reason why the placeholder was dehydrated. It can be one of the following values:
 
 | Reason | Description |
 |--------|--------|
@@ -251,7 +251,7 @@ The full rename/move target path relative to the volume.
 
 ### -field DUMMYUNIONNAME.RenameCompletion.Flags
 
-Rename completion placeholder flags. It is set to **CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE**.
+The rename completion placeholder flags. It is set to **CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE**.
 
 ### -field DUMMYUNIONNAME.RenameCompletion.SourcePath
 
