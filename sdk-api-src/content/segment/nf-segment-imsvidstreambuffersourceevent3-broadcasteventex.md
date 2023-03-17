@@ -85,7 +85,7 @@ Return S_OK or an error code.
 
 ## -remarks
 
-For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">IBroadcastEventEx::FireEx</a>.
+For more information, see <a href="/previous-versions/dd376296(v=vs.85)">IBroadcastEventEx::FireEx</a>.
 
 ## -see-also
 

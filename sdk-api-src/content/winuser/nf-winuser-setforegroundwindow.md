@@ -104,6 +104,28 @@ A process that can set the foreground window can enable another process to set t
 
 The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
 
+## Example
+
+The following code example demonstrates the use of **SetForegroundWindow**
+
+```cpp
+// If the window is invisible we will show it and make it topmost without the
+// foreground focus. If the window is visible it will also be made the
+// topmost window without the foreground focus. If wParam is TRUE then
+// for both cases the window will be forced into the foreground focus
+if (uMsg == m_ShowStageMessage) {
+    BOOL bVisible = IsWindowVisible(hwnd);
+    SetWindowPos(hwnd, HWND_TOP, 0, 0, 0, 0,
+                    SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW |
+                    (bVisible ? SWP_NOACTIVATE : 0));
+    // Should we bring the window to the foreground
+    if (wParam == TRUE) {
+        SetForegroundWindow(hwnd);
+    }
+    return (LRESULT) 1;
+}
+```
+
 ## -see-also
 
 [AllowSetForegroundWindow](nf-winuser-allowsetforegroundwindow.md)

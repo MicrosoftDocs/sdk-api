@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePage1
 title: IXpsOMObjectFactory1::CreatePage1
-ms.date: 11/4/2019
+description: The IXpsOMObjectFactory1::CreatePage1 method (xpsobjectmodel_1.h) creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.
+ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
 description: 

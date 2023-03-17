@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORA
 title: CHOOSECOLORA
-ms.date: 01/30/19
+description: The CHOOSECOLORA (ANSI) structure (commdlg.h) contains information the ChooseColor function uses to initialize the Color dialog box.
+ms.date: 08/16/2022
 ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
 f1_keywords:
 - commdlg/tagCHOOSECOLORA

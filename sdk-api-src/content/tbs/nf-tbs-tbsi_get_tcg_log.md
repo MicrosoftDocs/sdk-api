@@ -276,7 +276,7 @@ typedef struct {
 
 <b>Windows Vista with SP1 and Windows Server 2008:  </b>The function returns the log directly from the ACPI table and returns the entire ACPI allocated buffer, including the unused buffer after any events.
 
-The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="https://trustedcomputinggroup.org/developers/pc_client/specifications/">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="https://www.microsoft.com/download/details.aspx?id=52487&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F74c45746-24ad-4cb7-ba4b-0c6df2f92d5d%2F">TPM PCP Toolkit</a> and the <a href="https://trustedcomputinggroup.org/resources/tpm_main_specification">TPM Main Specification</a>. 
+The Windows-defined events in the TCG event log are a tuple of {Type, Length, Value}. You can parse the log using the following TCG_PCR_EVENT structure from the <a href="https://trustedcomputinggroup.org">TCG PC Client spec</a>. You can create a correlation between lists of log events using the information in the <a href="https://www.microsoft.com/download/details.aspx?id=52487&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F74c45746-24ad-4cb7-ba4b-0c6df2f92d5d%2F">TPM PCP Toolkit</a> and the <a href="https://trustedcomputinggroup.org">TPM Main Specification</a>. 
 
 
 ```

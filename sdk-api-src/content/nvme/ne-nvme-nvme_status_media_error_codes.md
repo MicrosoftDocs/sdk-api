@@ -69,7 +69,7 @@ The command failed due to a miscompare during a Compare command.
 
 ### -field NVME_STATUS_NVM_ACCESS_DENIED
 
-Access to the namespace and/or Logical Block Address (LBA) range is denied due to lack of access rights. For more information, see the [TCG Storage Interface Interactions Specification (SIIS)](https://trustedcomputinggroup.org/resource/storage-work-group-storage-interface-interactions-specification/).
+Access to the namespace and/or Logical Block Address (LBA) range is denied due to lack of access rights. For more information, see the [TCG Storage Interface Interactions Specification (SIIS)](https://trustedcomputinggroup.org).
 
 ### -field NVME_STATUS_NVM_DEALLOCATED_OR_UNWRITTEN_LOGICAL_BLOCK
 
