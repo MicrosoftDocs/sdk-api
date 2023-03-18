@@ -20,4 +20,4 @@ f1_keywords:
 This header is used by multiple technologies. For more information, see:
 
 - [DirectShow](../_dshow/index.md)
-- [Windows Media Format 11 SDK](../_wmformat/index.md)
+- [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk)

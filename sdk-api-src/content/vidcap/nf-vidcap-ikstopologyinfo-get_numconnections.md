@@ -90,4 +90,4 @@ To get information about the connections, call the <a href="/windows/desktop/api
 
 
 
-<a href="/windows/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
