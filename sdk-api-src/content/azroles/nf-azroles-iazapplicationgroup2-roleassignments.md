@@ -70,7 +70,7 @@ The list of [IAzRoleAssignment](nn-azroles-iazroleassignment.md) objects associa
 
 ## -returns
 
-An **HRESULT** value indicating the success or failure of the function call.
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
 
 ## -see-also
 
