@@ -105,7 +105,7 @@ For a list of events fired by the TV ratings components, see <a href="/previous-
 
 
 
-<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
+<a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent Interface</a>
 
 
 
