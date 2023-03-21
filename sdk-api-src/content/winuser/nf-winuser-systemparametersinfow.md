@@ -2466,6 +2466,8 @@ Use <b>SPI_GETWINARRANGING</b> to determine whether this behavior is enabled.
 <td width="60%">
 Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
 
+<b>Windows Server 2003 and Windows XP/2000:  </b>See Remarks for <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa#remarks">NONCLIENTMETRICS</a>.
+
 </td>
 </tr>
 <tr>
