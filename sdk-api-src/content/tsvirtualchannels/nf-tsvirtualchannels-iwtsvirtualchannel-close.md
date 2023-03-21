@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Close
 title: IWTSVirtualChannel::Close (tsvirtualchannels.h)
-description: Closes the channel.
+description: Closes the channel. (IWTSVirtualChannel.Close)
 helpviewer_keywords: ["Close","Close method [Remote Desktop Services]","Close method [Remote Desktop Services]","IWTSVirtualChannel interface","IWTSVirtualChannel interface [Remote Desktop Services]","Close method","IWTSVirtualChannel.Close","IWTSVirtualChannel::Close","termserv.iwtsvirtualchannel_close","tsvirtualchannels/IWTSVirtualChannel::Close"]
 old-location: termserv\iwtsvirtualchannel_close.htm
 tech.root: TermServ

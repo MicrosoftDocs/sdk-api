@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCatExA
 title: StringCchCatExA function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCatEx","StringCchCatEx function [Menus and Other Resources]","StringCchCatExA","StringCchCatExW","_shell_StringCchCatEx","_shell_stringcchcatex_cpp","menurc.stringcchcatex","strsafe/StringCchCatEx","strsafe/StringCchCatExA","strsafe/StringCchCatExW","winui._shell_stringcchcatex"]
+description: Concatenates one string to another string. (StringCchCatExA)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCatExA", "strsafe/StringCchCatExA"]
 old-location: menurc\stringcchcatex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatex.htm

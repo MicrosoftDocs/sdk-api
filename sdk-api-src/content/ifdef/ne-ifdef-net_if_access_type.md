@@ -60,26 +60,26 @@ The NET_IF_ACCESS_TYPE enumeration type specifies the
 
 ## -enum-fields
 
-### -field NET_IF_ACCESS_LOOPBACK
+### -field NET_IF_ACCESS_LOOPBACK:1
 
 Specifies the loopback access type. This access type indicates that the interface loops back
      transmit data as receive data.
 
-### -field NET_IF_ACCESS_BROADCAST
+### -field NET_IF_ACCESS_BROADCAST:2
 
 Specifies the LAN access type, which includes Ethernet. This access type indicates that the
      interface provides native support for multicast or broadcast services.
 
-### -field NET_IF_ACCESS_POINT_TO_POINT
+### -field NET_IF_ACCESS_POINT_TO_POINT:3
 
 Specifies point-to-point access that supports CoNDIS and WAN, except for non-broadcast
      multi-access (NBMA) interfaces.
 
-### -field NET_IF_ACCESS_POINT_TO_MULTI_POINT
+### -field NET_IF_ACCESS_POINT_TO_MULTI_POINT:4
 
 Specifies point-to-multipoint access that supports non-broadcast multi-access (NBMA) media,
      including the "RAS Internal" interface, and native (non-LANE) ATM.
 
-### -field NET_IF_ACCESS_MAXIMUM
+### -field NET_IF_ACCESS_MAXIMUM:5
 
 A maximum value for testing purposes.

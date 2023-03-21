@@ -55,7 +55,7 @@ Defines the set of display orientation modes for a window (app view). Used by <a
 
 ## -enum-fields
 
-### -field AVO_LANDSCAPE
+### -field AVO_LANDSCAPE:0
 
 The window is in landscape orientation, with the display width greater than the height.
 

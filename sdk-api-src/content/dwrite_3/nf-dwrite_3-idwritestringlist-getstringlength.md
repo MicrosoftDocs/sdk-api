@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetStringLength
 title: IDWriteStringList::GetStringLength (dwrite_3.h)
-description: Gets the length in characters (not including the null terminator) of the string with the specified index.
+description: Gets the length in characters (not including the null terminator) of the string with the specified index. (IDWriteStringList.GetStringLength)
 helpviewer_keywords: ["GetStringLength","GetStringLength method [Direct Write]","GetStringLength method [Direct Write]","IDWriteStringList interface","IDWriteStringList interface [Direct Write]","GetStringLength method","IDWriteStringList.GetStringLength","IDWriteStringList::GetStringLength","directwrite.idwritestringlist_getstringlength","dwrite_3/IDWriteStringList::GetStringLength"]
 old-location: directwrite\idwritestringlist_getstringlength.htm
 tech.root: DirectWrite

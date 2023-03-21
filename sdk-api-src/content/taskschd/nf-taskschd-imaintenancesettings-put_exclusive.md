@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Exclusive
 title: IMaintenanceSettings::put_Exclusive (taskschd.h)
-description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode.
+description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode. (Put)
 helpviewer_keywords: ["Exclusive property [Task Scheduler]","Exclusive property [Task Scheduler]","IMaintenanceSettings interface","IMaintenanceSettings interface [Task Scheduler]","Exclusive property","IMaintenanceSettings.Exclusive","IMaintenanceSettings.put_Exclusive","IMaintenanceSettings::Exclusive","IMaintenanceSettings::get_Exclusive","IMaintenanceSettings::put_Exclusive","put_Exclusive","taskschd.imaintenancesettings_exclusive","taskschd/IMaintenanceSettings::Exclusive","taskschd/IMaintenanceSettings::get_Exclusive","taskschd/IMaintenanceSettings::put_Exclusive"]
 old-location: taskschd\imaintenancesettings_exclusive.htm
 tech.root: taskschd

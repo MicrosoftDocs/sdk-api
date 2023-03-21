@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardRemoveReaderFromGroupA
 title: SCardRemoveReaderFromGroupA function (winscard.h)
-description: Removes a reader from an existing reader group. This function has no effect on the reader.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardRemoveReaderFromGroup","SCardRemoveReaderFromGroup function [Security]","SCardRemoveReaderFromGroupA","SCardRemoveReaderFromGroupW","_smart_scardremovereaderfromgroup","security.scardremovereaderfromgroup","winscard/SCardRemoveReaderFromGroup","winscard/SCardRemoveReaderFromGroupA","winscard/SCardRemoveReaderFromGroupW"]
+description: Removes a reader from an existing reader group. This function has no effect on the reader. (ANSI)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardRemoveReaderFromGroupA", "winscard/SCardRemoveReaderFromGroupA"]
 old-location: security\scardremovereaderfromgroup.htm
 tech.root: security
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9

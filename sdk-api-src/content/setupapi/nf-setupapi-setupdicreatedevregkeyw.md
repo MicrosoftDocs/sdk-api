@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDevRegKeyW
 title: SetupDiCreateDevRegKeyW function (setupapi.h)
-description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key.
-helpviewer_keywords: ["SetupDiCreateDevRegKey","SetupDiCreateDevRegKey function [Device and Driver Installation]","SetupDiCreateDevRegKeyA","SetupDiCreateDevRegKeyW","devinst.setupdicreatedevregkey","di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml","setupapi/SetupDiCreateDevRegKey"]
+description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key. (Unicode)
+helpviewer_keywords: ["SetupDiCreateDevRegKey", "SetupDiCreateDevRegKey function [Device and Driver Installation]", "SetupDiCreateDevRegKeyW", "devinst.setupdicreatedevregkey", "di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml", "setupapi/SetupDiCreateDevRegKey"]
 old-location: devinst\setupdicreatedevregkey.htm
 tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625

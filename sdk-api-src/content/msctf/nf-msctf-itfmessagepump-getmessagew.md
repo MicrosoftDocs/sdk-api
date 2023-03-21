@@ -2,7 +2,7 @@
 UID: NF:msctf.ITfMessagePump.GetMessageW
 title: ITfMessagePump::GetMessageW (msctf.h)
 description: ITfMessagePump::GetMessageW method
-helpviewer_keywords: ["GetMessageW","GetMessageW method [Text Services Framework]","GetMessageW method [Text Services Framework]","ITfMessagePump interface","ITfMessagePump interface [Text Services Framework]","GetMessageW method","ITfMessagePump.GetMessageW","ITfMessagePump::GetMessageW","_tsf_itfmessagepump_getmessagew_ref","msctf/ITfMessagePump::GetMessageW","tsf.itfmessagepump_getmessagew"]
+helpviewer_keywords: ["GetMessageW", "GetMessageW method [Text Services Framework]", "GetMessageW method [Text Services Framework]", "ITfMessagePump interface", "ITfMessagePump interface [Text Services Framework]", "GetMessageW method", "ITfMessagePump.GetMessageW", "ITfMessagePump::GetMessageW", "_tsf_itfmessagepump_getmessagew_ref", "msctf/ITfMessagePump::GetMessageW", "tsf.itfmessagepump_getmessagew"]
 old-location: tsf\itfmessagepump_getmessagew.htm
 tech.root: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07

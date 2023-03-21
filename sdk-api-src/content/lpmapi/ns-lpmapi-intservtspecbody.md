@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_23
+UID: NS:lpmapi.IntServTspecBody
 title: IntServTspecBody (lpmapi.h)
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
 helpviewer_keywords: ["IntServTspecBody","IntServTspecBody structure [QOS]","lpmapi/IntServTspecBody","qos.intservtspecbody"]
@@ -86,3 +86,4 @@ Qualitative Tspec, expressed as a <a href="/previous-versions/windows/desktop/ap
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a>
+

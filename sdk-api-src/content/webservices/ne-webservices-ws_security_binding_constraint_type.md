@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_107
+UID: NE:webservices.WS_SECURITY_BINDING_CONSTRAINT_TYPE
 title: WS_SECURITY_BINDING_CONSTRAINT_TYPE (webservices.h)
 description: The values in this enumeration are used to identify the sub-types of WS_SECURITY_BINDING_CONSTRAINT.
 helpviewer_keywords: ["WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE","WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","WS_SECURITY_BINDING_CONSTRAINT_TYPE","WS_SECURITY_BINDING_CONSTRAINT_TYPE enumeration [Web Services for Windows]","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE","WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE","WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE","webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE","wsw.ws_security_binding_constraint_type"]
@@ -54,34 +54,35 @@ The values in this enumeration are used to identify the sub-types of <a href="/w
 
 ## -enum-fields
 
-### -field WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE:1
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT_TYPE:2
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding_constraint">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE:3
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding_constraint">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE:4
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE:5
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE:6
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_issued_token_message_security_binding_constraint">WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE:7
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a> structure.
 
-### -field WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE
+### -field WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT_TYPE:8
 
 This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a> structure.
+

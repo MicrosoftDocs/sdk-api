@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharLowerBuffA
 title: CharLowerBuffA function (winuser.h)
-description: Converts uppercase characters in a buffer to lowercase characters. The function converts the characters in place.
-helpviewer_keywords: ["CharLowerBuff","CharLowerBuff function [Menus and Other Resources]","CharLowerBuffA","CharLowerBuffW","_win32_CharLowerBuff","_win32_charlowerbuff_cpp","menurc.charlowerbuff","winui._win32_charlowerbuff","winuser/CharLowerBuff","winuser/CharLowerBuffA","winuser/CharLowerBuffW"]
+description: Converts uppercase characters in a buffer to lowercase characters. The function converts the characters in place. (ANSI)
+helpviewer_keywords: ["CharLowerBuffA", "winuser/CharLowerBuffA"]
 old-location: menurc\charlowerbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlowerbuff.htm

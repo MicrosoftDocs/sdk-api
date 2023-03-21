@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get__NewEnum
 title: IDataCollectorSetCollection::get__NewEnum (pla.h)
-description: Retrieves an interface to the enumeration.
+description: Retrieves an interface to the enumeration. (IDataCollectorSetCollection.get__NewEnum)
 helpviewer_keywords: ["IDataCollectorSetCollection interface [PLA]","_NewEnum property","IDataCollectorSetCollection._NewEnum","IDataCollectorSetCollection.get__NewEnum","IDataCollectorSetCollection::_NewEnum","IDataCollectorSetCollection::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","IDataCollectorSetCollection interface","get__NewEnum","pla.idatacollectorsetcollection__newenum","pla/IDataCollectorSetCollection::_NewEnum","pla/IDataCollectorSetCollection::get__NewEnum"]
 old-location: pla\idatacollectorsetcollection__newenum.htm
 tech.root: PLA

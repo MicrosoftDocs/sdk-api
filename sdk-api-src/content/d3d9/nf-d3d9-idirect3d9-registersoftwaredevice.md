@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3D9.RegisterSoftwareDevice
 title: IDirect3D9::RegisterSoftwareDevice (d3d9.h)
-description: Registers a pluggable software device. Software devices provide software rasterization enabling applications to access a variety of software rasterizers.
+description: The IDirect3D9::RegisterSoftwareDevice method (d3d9.h) registers a pluggable software device.
 helpviewer_keywords: ["IDirect3D9 interface [Direct3D 9]","RegisterSoftwareDevice method","IDirect3D9.RegisterSoftwareDevice","IDirect3D9::RegisterSoftwareDevice","RegisterSoftwareDevice","RegisterSoftwareDevice method [Direct3D 9]","RegisterSoftwareDevice method [Direct3D 9]","IDirect3D9 interface","d3d9helper/IDirect3D9::RegisterSoftwareDevice","direct3d9.idirect3d9__registersoftwaredevice","e610f417-a861-aa97-bbbf-2a9305b15f2d"]
 old-location: direct3d9\idirect3d9__registersoftwaredevice.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__registersoftwaredevice.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: IDirect3D9 interface [Direct3D 9],RegisterSoftwareDevice method, IDirect3D9.RegisterSoftwareDevice, IDirect3D9::RegisterSoftwareDevice, RegisterSoftwareDevice, RegisterSoftwareDevice method [Direct3D 9], RegisterSoftwareDevice method [Direct3D 9],IDirect3D9 interface, d3d9helper/IDirect3D9::RegisterSoftwareDevice, direct3d9.idirect3d9__registersoftwaredevice, e610f417-a861-aa97-bbbf-2a9305b15f2d
 req.header: d3d9.h
 req.include-header: D3D9.h

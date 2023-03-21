@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_LOAD_CONFIG_DIRECTORY32
 title: IMAGE_LOAD_CONFIG_DIRECTORY32 (winnt.h)
-description: Contains the load configuration data of an image.
+description: Contains the load configuration data of an image. (32 bit)
 helpviewer_keywords: ["*PIMAGE_LOAD_CONFIG_DIRECTORY32","IMAGE_LOAD_CONFIG_DIRECTORY","IMAGE_LOAD_CONFIG_DIRECTORY32","IMAGE_LOAD_CONFIG_DIRECTORY64","IMAGE_LOAD_CONFIG_DIRECTORY64 structure","PIMAGE_LOAD_CONFIG_DIRECTORY64","PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer","_IMAGE_LOAD_CONFIG_DIRECTORY64","base.image_load_config_directory64_str","winnt/IMAGE_LOAD_CONFIG_DIRECTORY64","winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64"]
 old-location: base\image_load_config_directory64_str.htm
 tech.root: Debug

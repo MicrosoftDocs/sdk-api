@@ -54,15 +54,15 @@ The NLM_NETWORK_CATEGORY enumeration is  a set of flags that specify the categor
 
 ## -enum-fields
 
-### -field NLM_NETWORK_CATEGORY_PUBLIC
+### -field NLM_NETWORK_CATEGORY_PUBLIC:0
 
 The network is a public (untrusted) network.
 
-### -field NLM_NETWORK_CATEGORY_PRIVATE
+### -field NLM_NETWORK_CATEGORY_PRIVATE:0x1
 
 The network is a private (trusted) network.
 
-### -field NLM_NETWORK_CATEGORY_DOMAIN_AUTHENTICATED
+### -field NLM_NETWORK_CATEGORY_DOMAIN_AUTHENTICATED:0x2
 
 The network is authenticated against an Active Directory domain.
 

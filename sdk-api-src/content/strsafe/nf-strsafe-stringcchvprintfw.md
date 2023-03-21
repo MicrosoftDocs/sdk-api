@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchVPrintfW
 title: StringCchVPrintfW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
-helpviewer_keywords: ["StringCchVPrintf","StringCchVPrintf function [Menus and Other Resources]","StringCchVPrintfA","StringCchVPrintfW","_shell_StringCchVPrintf","_shell_stringcchvprintf_cpp","menurc.stringcchvprintf","strsafe/StringCchVPrintf","strsafe/StringCchVPrintfA","strsafe/StringCchVPrintfW","winui._shell_stringcchvprintf"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCchVPrintfW)
+helpviewer_keywords: ["StringCchVPrintf", "StringCchVPrintf function [Menus and Other Resources]", "StringCchVPrintfW", "_shell_StringCchVPrintf", "_shell_stringcchvprintf_cpp", "menurc.stringcchvprintf", "strsafe/StringCchVPrintf", "strsafe/StringCchVPrintfW", "winui._shell_stringcchvprintf"]
 old-location: menurc\stringcchvprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintf.htm

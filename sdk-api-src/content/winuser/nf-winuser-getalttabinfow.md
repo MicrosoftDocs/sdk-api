@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetAltTabInfoW
 title: GetAltTabInfoW function (winuser.h)
-description: Retrieves status information for the specified window if it is the application-switching (ALT+TAB) window.
-helpviewer_keywords: ["GetAltTabInfo","GetAltTabInfo function [Windows and Messages]","GetAltTabInfoA","GetAltTabInfoW","_win32_GetAltTabInfo","_win32_getalttabinfo_cpp","winmsg.getalttabinfo","winui._win32_getalttabinfo","winuser/GetAltTabInfo","winuser/GetAltTabInfoA","winuser/GetAltTabInfoW"]
+description: Retrieves status information for the specified window if it is the application-switching (ALT+TAB) window. (Unicode)
+helpviewer_keywords: ["GetAltTabInfo", "GetAltTabInfo function [Windows and Messages]", "GetAltTabInfoW", "_win32_GetAltTabInfo", "_win32_getalttabinfo_cpp", "winmsg.getalttabinfo", "winui._win32_getalttabinfo", "winuser/GetAltTabInfo", "winuser/GetAltTabInfoW"]
 old-location: winmsg\getalttabinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getalttabinfo.htm

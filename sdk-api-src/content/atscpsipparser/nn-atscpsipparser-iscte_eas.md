@@ -58,7 +58,7 @@ For more information about EAS tables, see ANSI-J-STD-042-A, Emergency Alert Mes
 
 The <b>ISCTE_EAS</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCTE_EAS</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

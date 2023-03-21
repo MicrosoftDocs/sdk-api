@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-assign(constBSTR)
 title: WBEMTime::operator-assign (wbemtime.h)
-description: The WBEMTime class assignment operator overload method takes a CIM date time format parameter.
+description: The WBEMTime class assignment operator overload method takes a CIM date time format parameter. (overload 4/5)
 helpviewer_keywords: ["??4WBEMTime@@QAEABV0@QAG@Z","??4WBEMTime@@QEAAAEBV0@QEAG@Z","WBEMTime interface [Windows Management Instrumentation]","operator= method","WBEMTime.operator-assign","WBEMTime.operator=","WBEMTime::operator-assign","WBEMTime::operator=","WBEMTime::operator=(const BSTR&)","_hmm_wbemtime_operator_equal","operator=","operator= method [Windows Management Instrumentation]","operator= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator=","wmi.wbemtime_operator_equal","wmi.wbemtime_operator_equal_const_bstr_"]
 old-location: wmi\wbemtime_operator_equal_const_bstr_.htm
 tech.root: wmi

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_eM11
 title: IInkTransform::put_eM11 (msinkaut.h)
-description: Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an InkTransform object. (Put)
 helpviewer_keywords: ["8827b2b2-f2fb-4732-912c-226db8ac9aef","IInkTransform interface [Tablet PC]","eM11 property","IInkTransform.eM11","IInkTransform.put_eM11","IInkTransform::eM11","IInkTransform::get_eM11","IInkTransform::put_eM11","InkTransform.get_eM11","InkTransform.put_eM11","eM11 property [Tablet PC]","eM11 property [Tablet PC]","IInkTransform interface","get_eM11","msinkaut/IInkTransform::eM11","msinkaut/IInkTransform::get_eM11","msinkaut/IInkTransform::put_eM11","put_eM11","tablet.inktransform_em11"]
 old-location: tablet\inktransform_em11.htm
 tech.root: tablet

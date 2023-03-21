@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncIndexOfMemId
 title: ITypeInfo2::GetFuncIndexOfMemId (oaidl.h)
-description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
+description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member). (ITypeInfo2.GetFuncIndexOfMemId)
 helpviewer_keywords: ["GetFuncIndexOfMemId","GetFuncIndexOfMemId method [Automation]","GetFuncIndexOfMemId method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetFuncIndexOfMemId method","ITypeInfo2.GetFuncIndexOfMemId","ITypeInfo2::GetFuncIndexOfMemId","_oa96_ITypeInfo2_GetFuncIndexOfMemId","automat.itypeinfo2_getfuncindexofmemid","oaidl/ITypeInfo2::GetFuncIndexOfMemId"]
 old-location: automat\itypeinfo2_getfuncindexofmemid.htm
 tech.root: automat

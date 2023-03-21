@@ -57,19 +57,19 @@ Values that identify the data types that can be stored in a register.
 
 ## -enum-fields
 
-### -field D3D_REGISTER_COMPONENT_UNKNOWN
+### -field D3D_REGISTER_COMPONENT_UNKNOWN:0
 
 The data type is unknown.
 
-### -field D3D_REGISTER_COMPONENT_UINT32
+### -field D3D_REGISTER_COMPONENT_UINT32:1
 
 32-bit unsigned integer.
 
-### -field D3D_REGISTER_COMPONENT_SINT32
+### -field D3D_REGISTER_COMPONENT_SINT32:2
 
 32-bit signed integer.
 
-### -field D3D_REGISTER_COMPONENT_FLOAT32
+### -field D3D_REGISTER_COMPONENT_FLOAT32:3
 
 32-bit floating-point number.
 

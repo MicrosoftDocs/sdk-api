@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterNode
 title: OpenClusterNode function (clusapi.h)
-description: Opens a node and returns a handle to it.
+description: Opens a node and returns a handle to it. (OpenClusterNode)
 helpviewer_keywords: ["OpenClusterNode","OpenClusterNode function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NODE","PCLUSAPI_OPEN_CLUSTER_NODE function [Failover Cluster]","_wolf_openclusternode","clusapi/OpenClusterNode","clusapi/PCLUSAPI_OPEN_CLUSTER_NODE","mscs.openclusternode"]
 old-location: mscs\openclusternode.htm
 tech.root: MsCS

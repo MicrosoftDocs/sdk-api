@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnW
 title: DsBindWithSpnW function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
-helpviewer_keywords: ["DsBindWithSpn","DsBindWithSpn function [Active Directory]","DsBindWithSpnA","DsBindWithSpnW","_glines_dsbindwithspn","ad.dsbindwithspn","ntdsapi/DsBindWithSpn","ntdsapi/DsBindWithSpnA","ntdsapi/DsBindWithSpnW"]
+description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. (DsBindWithSpnW)
+helpviewer_keywords: ["DsBindWithSpn", "DsBindWithSpn function [Active Directory]", "DsBindWithSpnW", "_glines_dsbindwithspn", "ad.dsbindwithspn", "ntdsapi/DsBindWithSpn", "ntdsapi/DsBindWithSpnW"]
 old-location: ad\dsbindwithspn.htm
 tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f

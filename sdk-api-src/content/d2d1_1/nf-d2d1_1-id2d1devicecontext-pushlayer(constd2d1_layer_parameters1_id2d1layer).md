@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.PushLayer(constD2D1_LAYER_PARAMETERS1,ID2D1Layer)
 title: ID2D1DeviceContext::PushLayer (d2d1_1.h)
-description: Push a layer onto the clip and layer stack of the device context.
+description: Push a layer onto the clip and layer stack of the device context. (overload 1/2)
 helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","PushLayer method","ID2D1DeviceContext.PushLayer","ID2D1DeviceContext::PushLayer","PushLayer","PushLayer method [Direct2D]","PushLayer method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::PushLayer","direct2d.id2d1devicecontext_pushlayer"]
 old-location: direct2d\id2d1devicecontext_pushlayer.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensionsSetup
 title: ICertServerExit::EnumerateExtensionsSetup (certif.h)
-description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
+description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context. (ICertServerExit.EnumerateExtensionsSetup)
 helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateExtensionsSetup method","EnumerateExtensionsSetup","EnumerateExtensionsSetup method [Security]","EnumerateExtensionsSetup method [Security]","CCertServerExit object","EnumerateExtensionsSetup method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateExtensionsSetup method","ICertServerExit.EnumerateExtensionsSetup","ICertServerExit::EnumerateExtensionsSetup","_certsrv_icertserverexit_enumerateextensionssetup","certif/ICertServerExit::EnumerateExtensionsSetup","security.icertserverexit_enumerateextensionssetup"]
 old-location: security\icertserverexit_enumerateextensionssetup.htm
 tech.root: security

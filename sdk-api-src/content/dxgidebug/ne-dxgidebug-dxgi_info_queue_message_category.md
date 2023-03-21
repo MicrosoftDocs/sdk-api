@@ -54,7 +54,7 @@ Values that specify categories of debug messages.
 
 ## -enum-fields
 
-### -field DXGI_INFO_QUEUE_MESSAGE_CATEGORY_UNKNOWN
+### -field DXGI_INFO_QUEUE_MESSAGE_CATEGORY_UNKNOWN:0
 
 Unknown category.
 

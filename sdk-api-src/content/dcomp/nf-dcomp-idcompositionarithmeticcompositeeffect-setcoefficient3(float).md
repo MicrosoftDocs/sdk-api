@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient3(float)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient3 (dcomp.h)
-description: Sets the third coefficient for the equation used to composite the two input images.
+description: Sets the third coefficient for the equation used to composite the two input images. (overload 1/2)
 helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient3 method","IDCompositionArithmeticCompositeEffect.SetCoefficient3","IDCompositionArithmeticCompositeEffect::SetCoefficient3","SetCoefficient3","SetCoefficient3 method [DirectComposition]","SetCoefficient3 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient3","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient3"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3.htm
 tech.root: directcomp

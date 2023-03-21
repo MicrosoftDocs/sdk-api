@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetVolumeNameForVolumeMountPointA
 title: GetVolumeNameForVolumeMountPointA function (winbase.h)
-description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
+description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder). (GetVolumeNameForVolumeMountPointA)
 helpviewer_keywords: ["GetVolumeNameForVolumeMountPoint","GetVolumeNameForVolumeMountPoint function [Files]","GetVolumeNameForVolumeMountPointA","GetVolumeNameForVolumeMountPointW","_win32_getvolumenameforvolumemountpoint","base.getvolumenameforvolumemountpoint","fileapi/GetVolumeNameForVolumeMountPoint","fileapi/GetVolumeNameForVolumeMountPointA","fileapi/GetVolumeNameForVolumeMountPointW","fs.getvolumenameforvolumemountpoint","winbase/GetVolumeNameForVolumeMountPoint","winbase/GetVolumeNameForVolumeMountPointA","winbase/GetVolumeNameForVolumeMountPointW"]
 old-location: fs\getvolumenameforvolumemountpoint.htm
 tech.root: fs
@@ -67,7 +67,7 @@ Retrieves a volume <b>GUID</b> path for the volume that is associated with the s
 
 ### -param lpszVolumeMountPoint [in]
 
-A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\"). The string must end with a trailing backslash ('\').
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\\"). The string must end with a trailing backslash ('\').
 
 ### -param lpszVolumeName [out]
 

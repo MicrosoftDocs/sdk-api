@@ -56,7 +56,7 @@ The <b>IWMMetadataEditor</b> interface is used to edit metadata information in A
 
 The <b>IWMMetadataEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMMetadataEditor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

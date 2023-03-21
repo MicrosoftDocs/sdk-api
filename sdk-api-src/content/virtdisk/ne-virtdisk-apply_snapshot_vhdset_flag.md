@@ -59,11 +59,11 @@ Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdis
 
 ## -enum-fields
 
-### -field APPLY_SNAPSHOT_VHDSET_FLAG_NONE
+### -field APPLY_SNAPSHOT_VHDSET_FLAG_NONE:0x00000000
 
 No flag specified.
 
-### -field APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE
+### -field APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE:0x00000001
 
 Indicates that the snapshot to be applied was created as a writable snapshot type.
 

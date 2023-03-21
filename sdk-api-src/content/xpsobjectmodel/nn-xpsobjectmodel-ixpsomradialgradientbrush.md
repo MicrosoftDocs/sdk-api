@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMRadialGradientBrush interface
 
-
 ## -description
 
 Specifies a radial gradient.

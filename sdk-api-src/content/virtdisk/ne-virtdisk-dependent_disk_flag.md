@@ -57,52 +57,52 @@ Contains virtual hard disk (VHD) dependency information flags.
 
 ## -enum-fields
 
-### -field DEPENDENT_DISK_FLAG_NONE
+### -field DEPENDENT_DISK_FLAG_NONE:0x00000000
 
  No flags specified. Use system defaults.
 
-### -field DEPENDENT_DISK_FLAG_MULT_BACKING_FILES
+### -field DEPENDENT_DISK_FLAG_MULT_BACKING_FILES:0x00000001
 
 Multiple files backing the virtual disk.
 
-### -field DEPENDENT_DISK_FLAG_FULLY_ALLOCATED
+### -field DEPENDENT_DISK_FLAG_FULLY_ALLOCATED:0x00000002
 
 Fully allocated virtual disk.
 
-### -field DEPENDENT_DISK_FLAG_READ_ONLY
+### -field DEPENDENT_DISK_FLAG_READ_ONLY:0x00000004
 
 Read-only virtual disk.
 
-### -field DEPENDENT_DISK_FLAG_REMOTE
+### -field DEPENDENT_DISK_FLAG_REMOTE:0x00000008
 
  The backing file of the virtual disk is not on a local physical disk.
 
-### -field DEPENDENT_DISK_FLAG_SYSTEM_VOLUME
+### -field DEPENDENT_DISK_FLAG_SYSTEM_VOLUME:0x00000010
 
  Reserved.
 
-### -field DEPENDENT_DISK_FLAG_SYSTEM_VOLUME_PARENT
+### -field DEPENDENT_DISK_FLAG_SYSTEM_VOLUME_PARENT:0x00000020
 
 The backing file of the virtual disk is on the system volume.
 
-### -field DEPENDENT_DISK_FLAG_REMOVABLE
+### -field DEPENDENT_DISK_FLAG_REMOVABLE:0x00000040
 
 The backing file of the virtual disk is on a removable physical disk.
 
-### -field DEPENDENT_DISK_FLAG_NO_DRIVE_LETTER
+### -field DEPENDENT_DISK_FLAG_NO_DRIVE_LETTER:0x00000080
 
 Drive letters are not automatically assigned to the volumes on the virtual disk.
 
-### -field DEPENDENT_DISK_FLAG_PARENT
+### -field DEPENDENT_DISK_FLAG_PARENT:0x00000100
 
 The virtual disk is a parent of a differencing chain.
 
-### -field DEPENDENT_DISK_FLAG_NO_HOST_DISK
+### -field DEPENDENT_DISK_FLAG_NO_HOST_DISK:0x00000200
 
  The virtual disk is not attached to the local host.
     For example, it is attached to a guest virtual machine.
 
-### -field DEPENDENT_DISK_FLAG_PERMANENT_LIFETIME
+### -field DEPENDENT_DISK_FLAG_PERMANENT_LIFETIME:0x00000400
 
 The lifetime of the virtual disk is not tied to any application or process.
 

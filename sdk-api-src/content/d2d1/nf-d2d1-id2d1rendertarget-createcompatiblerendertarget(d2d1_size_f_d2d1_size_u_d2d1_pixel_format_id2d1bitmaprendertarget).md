@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,ID2D1BitmapRenderTarget)
 title: ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,ID2D1BitmapRenderTarget) (d2d1.h)
-description: Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
+description: Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. (overload 1/2)
 helpviewer_keywords: ["CreateCompatibleRenderTarget","CreateCompatibleRenderTarget method [Direct2D]","CreateCompatibleRenderTarget method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateCompatibleRenderTarget method","ID2D1RenderTarget.CreateCompatibleRenderTarget","ID2D1RenderTarget.CreateCompatibleRenderTarget(D2D1_SIZE_F","D2D1_SIZE_U","D2D1_PIXEL_FORMAT","ID2D1BitmapRenderTarget)","ID2D1RenderTarget::CreateCompatibleRenderTarget","ID2D1RenderTarget::CreateCompatibleRenderTarget(D2D1_SIZE_F","D2D1_SIZE_U","D2D1_PIXEL_FORMAT","ID2D1BitmapRenderTarget)","d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget","direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_D2D_SIZE_F_D2D_SIZE_U_D2D1_PIXEL_FORMAT_ptr_ptr_ID2D1BitmapRenderTarget","direct2d.ID2D1RenderTarget_CreateCompatibleRenderTarget_overload5"]
 old-location: direct2d\ID2D1RenderTarget_CreateCompatibleRenderTarget_overload5.htm
 tech.root: Direct2D

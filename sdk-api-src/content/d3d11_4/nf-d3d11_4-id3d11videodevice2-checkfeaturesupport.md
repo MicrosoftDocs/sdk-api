@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoDevice2.CheckFeatureSupport
 title: ID3D11VideoDevice2::CheckFeatureSupport
-description: Gets information about the features that are supported by the current video driver.
+description: Gets information about the features that are supported by the current video driver. (ID3D11VideoDevice2::CheckFeatureSupport)
 tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoDevice2::CheckFeatureSupport"]
 ms.date: 4/26/2019

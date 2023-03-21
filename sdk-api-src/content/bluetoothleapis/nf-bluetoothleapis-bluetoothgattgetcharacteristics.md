@@ -7,7 +7,6 @@ old-location: bltooth\bluetoothgattgetcharacteristics.htm
 tech.root: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
 ms.date: 12/05/2018
-ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -46,9 +45,6 @@ api_name:
  - BluetoothGATTGetCharacteristics
 ---
 
-# BluetoothGATTGetCharacteristics function
-
-
 ## -description
 
 The <b>BluetoothGATTGetCharacteristics</b> function gets all the characteristics available for the specified service.
@@ -61,7 +57,7 @@ Handle to the Bluetooth device or service.
 
 ### -param Service [in, optional]
 
-Address of a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
+Address of a <a href="/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
 
 ### -param CharacteristicsBufferCount [in]
 
@@ -69,11 +65,11 @@ The number of elements allocated for the <i>CharacteristicsBuffer</i> parameter.
 
 ### -param CharacteristicsBuffer [out, optional]
 
-Pointer to buffer into which to return characteristics in a <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure.
+Pointer to a buffer into which to return characteristics as an array of [BTH_LE_GATT_CHARACTERISTIC](/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_characteristic) structures.
 
 ### -param CharacteristicsBufferActual [out]
 
-Pointer to buffer into which the actual number of characteristics were returned in the <i>CharacteristicsBuffer</i> parameter.
+Pointer to buffer into which is returned the actual number of characteristics that were returned in the <i>CharacteristicsBuffer</i> parameter.
 
 ### -param Flags [in]
 
@@ -203,8 +199,8 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/win32/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/win32/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -265,8 +261,8 @@ The parent service must be present in the
 
 ## -see-also
 
-<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
+<a href="/windows/win32/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>

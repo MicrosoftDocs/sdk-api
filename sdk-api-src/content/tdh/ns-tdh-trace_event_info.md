@@ -153,7 +153,6 @@ An array of <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_
 The value of an offset is zero if the member is not defined.
 
 ## -see-also
-
 <a href="/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType</a>
 
 

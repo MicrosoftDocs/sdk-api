@@ -58,7 +58,7 @@ An <b>IWMProfile3</b> interface is created for each profile object created. You 
 
 The <b>IWMProfile3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>. <b>IWMProfile3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

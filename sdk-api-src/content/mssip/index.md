@@ -4,7 +4,7 @@ title: Mssip.h header
 ms.assetid: 6048e3fd-fd19-3077-a19b-e4d421c7af4c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - mssip

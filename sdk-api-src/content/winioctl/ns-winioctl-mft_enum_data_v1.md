@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_15
+UID: NS:winioctl.MFT_ENUM_DATA_V1
 title: MFT_ENUM_DATA_V1
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
 helpviewer_keywords: ["*PMFT_ENUM_DATA","*PMFT_ENUM_DATA_V1","MFT_ENUM_DATA","MFT_ENUM_DATA_V1","MFT_ENUM_DATA_V1 structure [Files]","PMFT_ENUM_DATA_V1","PMFT_ENUM_DATA_V1 structure pointer [Files]","fs.mft_enum_data_v1","winioctl/MFT_ENUM_DATA_V1","winioctl/PMFT_ENUM_DATA_V1"]
@@ -126,3 +126,4 @@ The data returned from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fs
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

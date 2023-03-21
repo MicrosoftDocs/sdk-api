@@ -54,27 +54,27 @@ Contains flags which controls how the text is returned.
 
 ## -enum-fields
 
-### -field WBEMPATH_COMPRESSED
+### -field WBEMPATH_COMPRESSED:0x1
 
 Obsolete. Do not use.
 
-### -field WBEMPATH_GET_RELATIVE_ONLY
+### -field WBEMPATH_GET_RELATIVE_ONLY:0x2
 
 Returns the relative path, skips server and namespaces.
 
-### -field WBEMPATH_GET_SERVER_TOO
+### -field WBEMPATH_GET_SERVER_TOO:0x4
 
 Returns the entire path, including server and namespace.
 
-### -field WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY
+### -field WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY:0x8
 
 Returns only the server and namespace portion of the path. Ignores the class or key portion.
 
-### -field WBEMPATH_GET_NAMESPACE_ONLY
+### -field WBEMPATH_GET_NAMESPACE_ONLY:0x10
 
 Returns only the namespace portion of the path.
 
-### -field WBEMPATH_GET_ORIGINAL
+### -field WBEMPATH_GET_ORIGINAL:0x20
 
 Returns whatever was passed in using 
 <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> method.

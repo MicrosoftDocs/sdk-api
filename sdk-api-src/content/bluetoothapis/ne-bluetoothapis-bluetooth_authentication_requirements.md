@@ -54,31 +54,31 @@ The <b>BLUETOOTH_AUTHENTICATION_REQUIREMENTS</b> enumeration specifies the 'Man 
 
 ## -enum-fields
 
-### -field BLUETOOTH_MITM_ProtectionNotRequired
+### -field BLUETOOTH_MITM_ProtectionNotRequired:0
 
 Protection against a "Man in the Middle" attack is not required for authentication.
 
-### -field BLUETOOTH_MITM_ProtectionRequired
+### -field BLUETOOTH_MITM_ProtectionRequired:0x1
 
 Protection against a "Man in the Middle" attack is required for authentication.
 
-### -field BLUETOOTH_MITM_ProtectionNotRequiredBonding
+### -field BLUETOOTH_MITM_ProtectionNotRequiredBonding:0x2
 
 Protection against a "Man in the Middle" attack is not required for bonding.
 
-### -field BLUETOOTH_MITM_ProtectionRequiredBonding
+### -field BLUETOOTH_MITM_ProtectionRequiredBonding:0x3
 
 Protection against a "Man in the Middle" attack is required for bonding.
 
-### -field BLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding
+### -field BLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding:0x4
 
 Protection against a "Man in the Middle" attack is not required for General Bonding.
 
-### -field BLUETOOTH_MITM_ProtectionRequiredGeneralBonding
+### -field BLUETOOTH_MITM_ProtectionRequiredGeneralBonding:0x5
 
 Protection against a "Man in the Middle" attack is required for General Bonding.
 
-### -field BLUETOOTH_MITM_ProtectionNotDefined
+### -field BLUETOOTH_MITM_ProtectionNotDefined:0xff
 
 Protection against "Man in the Middle" attack is not defined.
 

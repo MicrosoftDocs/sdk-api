@@ -4,12 +4,12 @@ title: GetPriorityClass function (processthreadsapi.h)
 description: Retrieves the priority class for the specified process. This value, together with the priority value of each thread of the process, determines each thread's base priority level.
 helpviewer_keywords: ["GetPriorityClass","GetPriorityClass function","_win32_getpriorityclass","base.getpriorityclass","processthreadsapi/GetPriorityClass","winbase/GetPriorityClass"]
 old-location: base\getpriorityclass.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
 ms.date: 12/05/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

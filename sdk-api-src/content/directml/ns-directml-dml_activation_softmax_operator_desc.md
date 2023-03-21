@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ACTIVATION_SOFTMAX_OPERATOR_DESC","DML_ACTIVATION_SOF
 old-location: direct3d12\dml_activation_softmax_operator_desc.htm
 tech.root: directml
 ms.assetid: 93B799D1-E98B-42A1-87E5-F2B84721D98C
-ms.date: 10/28/2020
+ms.date: 07/20/2022
 ms.keywords: DML_ACTIVATION_SOFTMAX_OPERATOR_DESC, DML_ACTIVATION_SOFTMAX_OPERATOR_DESC structure, direct3d12.dml_activation_softmax_operator_desc, directml/DML_ACTIVATION_SOFTMAX_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -49,9 +49,11 @@ api_name:
 
 Performs a softmax activation function on *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
+
 ```
-// Let x_i be the current value in the axis, and j be the total number of elements along that axis.
-f(x_i) = exp(x_i) / sum(exp(x_0), ..., exp(x_j))
+For 1-D InputTensor:
+// Let x[i] be the current element in the InputTensor, and j be the total number of elements in the InputTensor
+f(x[i]) = exp(x[i]) / sum(exp(x[0]), ..., exp(x[j-1]))
 ```
 
 Where exp(x) is the natural exponentiation function.

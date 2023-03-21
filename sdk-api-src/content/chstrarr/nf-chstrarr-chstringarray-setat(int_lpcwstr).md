@@ -1,12 +1,12 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAt(int,LPCWSTR)
 title: CHStringArray::SetAt(int,LPCWSTR) (chstrarr.h)
-description: The SetAt method sets the array element at the specified index.
+description: The CHStringArray::SetAt(int,LPCWSTR) (chstrarr.h) method sets the array element at the specified index.
 helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","SetAt method","CHStringArray.SetAt","CHStringArray.SetAt(int","LPCWSTR)","CHStringArray::SetAt","CHStringArray::SetAt(int","LPCWSTR)","SetAt","SetAt method [Windows Management Instrumentation]","SetAt method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_setat","chstrarr/CHStringArray::SetAt","wmi.chstringarray_setat"]
 old-location: wmi\chstringarray_setat.htm
 tech.root: wmi
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray.SetAt(int,LPCWSTR), CHStringArray::SetAt, CHStringArray::SetAt(int,LPCWSTR), SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
 req.header: chstrarr.h
 req.include-header: FwCommon.h

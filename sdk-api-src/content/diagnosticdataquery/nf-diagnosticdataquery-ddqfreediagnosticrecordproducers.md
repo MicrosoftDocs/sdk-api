@@ -57,7 +57,7 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For information about the data type DIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION, see [**here**](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)
+For information about the data type DIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION, see [**here**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)
 
 ## -see-also
 

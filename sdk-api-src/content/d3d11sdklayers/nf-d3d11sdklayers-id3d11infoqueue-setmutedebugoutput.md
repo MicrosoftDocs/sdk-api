@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.SetMuteDebugOutput
 title: ID3D11InfoQueue::SetMuteDebugOutput (d3d11sdklayers.h)
-description: Set a boolean that turns the debug output on or off.
+description: Set a boolean that turns the debug output on or off. (ID3D11InfoQueue.SetMuteDebugOutput)
 helpviewer_keywords: ["845ced1c-0b30-f73c-38de-69cd6425f139","ID3D11InfoQueue interface [Direct3D 11]","SetMuteDebugOutput method","ID3D11InfoQueue.SetMuteDebugOutput","ID3D11InfoQueue::SetMuteDebugOutput","SetMuteDebugOutput","SetMuteDebugOutput method [Direct3D 11]","SetMuteDebugOutput method [Direct3D 11]","ID3D11InfoQueue interface","d3d11sdklayers/ID3D11InfoQueue::SetMuteDebugOutput","direct3d11.id3d11infoqueue_setmutedebugoutput"]
 old-location: direct3d11\id3d11infoqueue_setmutedebugoutput.htm
 tech.root: direct3d11

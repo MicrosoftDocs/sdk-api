@@ -65,7 +65,7 @@ typedef enum {gpoPermissions, gpoEffectivePermissions, gpoDisplayName, gpoWMIFil
 
 ## -enum-fields
 
-### -field gpoPermissions
+### -field gpoPermissions:0
 
 The specified level of permission for a Group Policy Object.
 

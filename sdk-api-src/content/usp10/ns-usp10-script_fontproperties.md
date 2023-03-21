@@ -1,5 +1,5 @@
 ---
-UID: NS:usp10.__unnamed_struct_1
+UID: NS:usp10.SCRIPT_FONTPROPERTIES
 title: SCRIPT_FONTPROPERTIES (usp10.h)
 description: Contains information about the properties of the current font.
 helpviewer_keywords: ["SCRIPT_FONTPROPERTIES","SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications]","_win32_SCRIPT_FONTPROPERTIES_str","intl.script_fontproperties","usp10/SCRIPT_FONTPROPERTIES"]
@@ -27,7 +27,7 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: SCRIPT_FONTPROPERTIES
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
 f1_keywords:
  - SCRIPT_FONTPROPERTIES
@@ -89,3 +89,4 @@ Width of the shortest continuous kashida glyph in the font, indicated by the <b>
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
+

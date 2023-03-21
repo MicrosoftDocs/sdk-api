@@ -139,20 +139,9 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onkeyup">ITfKeyEventSink::OnKeyUp</a>
+- <a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
+- <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

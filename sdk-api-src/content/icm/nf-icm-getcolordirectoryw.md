@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetColorDirectoryW
 title: GetColorDirectoryW
-description: Retrieves the path of the Windows COLOR directory on a specified machine.
+description: Retrieves the path of the Windows COLOR directory on a specified machine. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -42,6 +42,17 @@ dev_langs:
 ---
 
 ## -description
+
+> [!NOTE] 
+> This API may be unavailable in future releases. We encourage new and existing software to use other APIs for color profile interactions. Please refer to the below table for some examples.
+>
+>| Scenario | Mechanism |
+>| :------: | :------: |
+>|   Enumerating all installed profiles  |   Use [**WcsEnumColorProfilesSize**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofilessize) and [**WcsEnumColorProfiles**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofiles), or [**EnumColorProfilesW**](/windows/win32/api/icm/nf-icm-EnumColorProfilesW)  |
+>|   Installing/Uninstalling color profiles  |   Use [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-InstallColorProfileW)/[**UninstallColorProfileW**](/windows/win32/api/icm/nf-icm-UninstallColorProfileW)  |
+>|   Opening a color profile file directly  |   Use [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-OpenColorProfileW) with dwType=PROFILE_FILENAME in the PROFILE struct parameter.<br/> Or use [**WcsOpenColorProfileW**](/windows/win32/api/icm/nf-icm-WcsOpenColorProfileW). [**Icm.h**](/windows/win32/api/icm) contains many APIs that accept the returned HPROFILE for color profile manipulation  |
+
+<br/>
 
 Retrieves the path of the Windows COLOR directory on a specified machine.
 

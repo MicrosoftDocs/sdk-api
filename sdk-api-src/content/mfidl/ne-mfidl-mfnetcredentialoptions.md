@@ -56,15 +56,15 @@ Describes options for the caching network credentials.
 
 ## -enum-fields
 
-### -field MFNET_CREDENTIAL_SAVE
+### -field MFNET_CREDENTIAL_SAVE:0x1
 
 Allow the credential cache object to save credentials in persistent storage.
 
-### -field MFNET_CREDENTIAL_DONT_CACHE
+### -field MFNET_CREDENTIAL_DONT_CACHE:0x2
 
 Do not allow the credential cache object to cache the credentials in memory. This flag cannot be combined with the MFNET_CREDENTIAL_SAVE flag.
 
-### -field MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT
+### -field MFNET_CREDENTIAL_ALLOW_CLEAR_TEXT:0x4
 
 The user allows credentials to be sent over the network in clear text.
 

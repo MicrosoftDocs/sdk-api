@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMImageResourceCollection interface
 
-
 ## -description
 
 A collection  of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface pointers.

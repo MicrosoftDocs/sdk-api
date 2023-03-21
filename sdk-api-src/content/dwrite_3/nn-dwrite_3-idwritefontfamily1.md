@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFamily1
 title: IDWriteFontFamily1 (dwrite_3.h)
-description: Represents a family of related fonts.
+description: Represents a family of related fonts. (IDWriteFontFamily1)
 helpviewer_keywords: ["IDWriteFontFamily1","IDWriteFontFamily1 interface [Direct Write]","IDWriteFontFamily1 interface [Direct Write]","described","directwrite.idwritefontfamily1","dwrite_3/IDWriteFontFamily1"]
 old-location: directwrite\idwritefontfamily1.htm
 tech.root: DirectWrite

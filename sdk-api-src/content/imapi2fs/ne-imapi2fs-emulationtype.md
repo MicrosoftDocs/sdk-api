@@ -54,23 +54,23 @@ Defines values for media types that the boot image is intended to emulate.
 
 ## -enum-fields
 
-### -field EmulationNone
+### -field EmulationNone:0
 
 No emulation. The BIOS will not emulate any device type or special sector size for the CD during boot from the CD.
 
-### -field Emulation12MFloppy
+### -field Emulation12MFloppy:1
 
 Emulates a 1.2 MB floppy disk.
 
-### -field Emulation144MFloppy
+### -field Emulation144MFloppy:2
 
 Emulates a 1.44 MB floppy disk.
 
-### -field Emulation288MFloppy
+### -field Emulation288MFloppy:3
 
 Emulates a 2.88 MB floppy disk.
 
-### -field EmulationHardDisk
+### -field EmulationHardDisk:4
 
 Emulates a hard disk.
 

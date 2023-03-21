@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.SetLineSpacing
 title: IDWriteTextLayout3::SetLineSpacing (dwrite_3.h)
-description: Set line spacing.
+description: Set line spacing. (IDWriteTextLayout3.SetLineSpacing)
 helpviewer_keywords: ["IDWriteTextLayout3 interface [Direct Write]","SetLineSpacing method","IDWriteTextLayout3.SetLineSpacing","IDWriteTextLayout3::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Direct Write]","SetLineSpacing method [Direct Write]","IDWriteTextLayout3 interface","directwrite.idwritetextlayout3_setlinespacing","dwrite_3/IDWriteTextLayout3::SetLineSpacing"]
 old-location: directwrite\idwritetextlayout3_setlinespacing.htm
 tech.root: DirectWrite

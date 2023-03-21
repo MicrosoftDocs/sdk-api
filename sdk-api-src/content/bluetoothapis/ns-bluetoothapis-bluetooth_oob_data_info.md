@@ -49,9 +49,6 @@ api_name:
  - BLUETOOTH_OOB_DATA_INFO
 ---
 
-# BLUETOOTH_OOB_DATA_INFO structure
-
-
 ## -description
 
 The <b>BLUETOOTH_OOB_DATA_INFO</b> structure contains data used to authenticate prior to establishing an Out-of-Band device pairing.
@@ -68,5 +65,4 @@ A randomly generated number used for one-way authentication. If this number is n
 
 ## -remarks
 
-For more details regarding the creation of keys for OOB authentication, see the <a href="https://www.bluetooth.com/specifications/bluetooth-core-specification/">Bluetooth Core Specification</a>.
-
+For more details regarding the creation of keys for OOB authentication, see the [Bluetooth Core Specification](https://www.bluetooth.com/specifications/specs/core-specification-5-3/).

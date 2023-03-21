@@ -4,7 +4,7 @@ title: Active Directory Rights Management Services SDK
 ms.assetid: fd928ef3-5e26-3323-acd2-5d3027eb7b37
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Active Directory Rights Management Services SDK

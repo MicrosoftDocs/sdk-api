@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS_W2K
 title: MIB_TCPSTATS_W2K (tcpmib.h)
-description: Contains statistics for the TCP protocol running on the local computer.
+description: MIB_TCPSTATS_W2K (tcpmib.h) contains statistics for the TCP protocol running on the local computer.
 helpviewer_keywords: ["*PMIB_TCPSTATS","*PMIB_TCPSTATS_W2K","MIB_TCPSTATS","MIB_TCPSTATS structure [MIB]","MIB_TCPSTATS_LH","MIB_TCPSTATS_W2K","MIB_TCP_RTO_CONSTANT","MIB_TCP_RTO_OTHER","MIB_TCP_RTO_RSRE","MIB_TCP_RTO_VANJ","PMIB_TCPSTATS","PMIB_TCPSTATS structure pointer [MIB]","_mpr_mib_tcpstats","iprtrmib/MIB_TCPSTATS","iprtrmib/PMIB_TCPSTATS","mib.mib_tcpstats","rras.mib_tcpstats","tcpmib/MIB_TCPSTATS","tcpmib/PMIB_TCPSTATS"]
 old-location: mib\mib_tcpstats.htm
 tech.root: MIB
 ms.assetid: 08d85d02-62a0-479d-bf56-5dad452436f3
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_TCPSTATS, *PMIB_TCPSTATS_W2K, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS_LH, MIB_TCPSTATS_W2K, MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _mpr_mib_tcpstats, iprtrmib/MIB_TCPSTATS, iprtrmib/PMIB_TCPSTATS, mib.mib_tcpstats, rras.mib_tcpstats, tcpmib/MIB_TCPSTATS, tcpmib/PMIB_TCPSTATS'
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

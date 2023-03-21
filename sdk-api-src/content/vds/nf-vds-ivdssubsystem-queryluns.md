@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryLuns
 title: IVdsSubSystem::QueryLuns (vds.h)
-description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
+description: The IVdsSubSystem::QueryLuns method (vds.h) returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryLuns method","IVdsSubSystem.QueryLuns","IVdsSubSystem::QueryLuns","QueryLuns","QueryLuns method [VDS]","QueryLuns method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_queryluns","vds/IVdsSubSystem::QueryLuns","vdshwprv/IVdsSubSystem::QueryLuns"]
 old-location: base\ivdssubsystem_queryluns.htm
 tech.root: base
 ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an 
    enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.

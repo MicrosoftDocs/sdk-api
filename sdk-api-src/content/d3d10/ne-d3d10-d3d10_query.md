@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_QUERY
 title: D3D10_QUERY (d3d10.h)
-description: Query types.
+description: Query types. (D3D10_QUERY)
 helpviewer_keywords: ["D3D10_QUERY","D3D10_QUERY enumeration [Direct3D 10]","D3D10_QUERY_EVENT","D3D10_QUERY_OCCLUSION","D3D10_QUERY_OCCLUSION_PREDICATE","D3D10_QUERY_PIPELINE_STATISTICS","D3D10_QUERY_SO_OVERFLOW_PREDICATE","D3D10_QUERY_SO_STATISTICS","D3D10_QUERY_TIMESTAMP","D3D10_QUERY_TIMESTAMP_DISJOINT","d3d10/D3D10_QUERY","d3d10/D3D10_QUERY_EVENT","d3d10/D3D10_QUERY_OCCLUSION","d3d10/D3D10_QUERY_OCCLUSION_PREDICATE","d3d10/D3D10_QUERY_PIPELINE_STATISTICS","d3d10/D3D10_QUERY_SO_OVERFLOW_PREDICATE","d3d10/D3D10_QUERY_SO_STATISTICS","d3d10/D3D10_QUERY_TIMESTAMP","d3d10/D3D10_QUERY_TIMESTAMP_DISJOINT","direct3d10.d3d10_query","e40f5532-bdd2-10c8-b69c-1b328c82ae9c"]
 old-location: direct3d10\d3d10_query.htm
 tech.root: direct3d10
@@ -54,7 +54,7 @@ Query types.
 
 ## -enum-fields
 
-### -field D3D10_QUERY_EVENT
+### -field D3D10_QUERY_EVENT:0
 
 Determines whether or not the GPU is finished processing commands. When the GPU is finished processing commands <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a> will return S_OK, and pData will point to a BOOL with a value of <b>TRUE</b>. When using this type of query, <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a> is disabled.
 

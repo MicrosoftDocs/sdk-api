@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get__NewEnum
 title: ICertificationAuthorities::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (ICertificationAuthorities.get__NewEnum)
 helpviewer_keywords: ["ICertificationAuthorities interface [Security]","_NewEnum property","ICertificationAuthorities._NewEnum","ICertificationAuthorities.get__NewEnum","ICertificationAuthorities::_NewEnum","ICertificationAuthorities::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertificationAuthorities interface","certenroll/ICertificationAuthorities::_NewEnum","certenroll/ICertificationAuthorities::get__NewEnum","get__NewEnum","security.icertificationauthorities__newenum"]
 old-location: security\icertificationauthorities__newenum.htm
 tech.root: security

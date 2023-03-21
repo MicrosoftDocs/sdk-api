@@ -54,15 +54,15 @@ Specifies the library options.
 
 ## -enum-fields
 
-### -field LOF_DEFAULT
+### -field LOF_DEFAULT:0
 
 No library options are set.
 
-### -field LOF_PINNEDTONAVPANE
+### -field LOF_PINNEDTONAVPANE:0x1
 
 Pin the library to the navigation pane.
 
-### -field LOF_MASK_ALL
+### -field LOF_MASK_ALL:0x1
 
 All valid library options flags.
 

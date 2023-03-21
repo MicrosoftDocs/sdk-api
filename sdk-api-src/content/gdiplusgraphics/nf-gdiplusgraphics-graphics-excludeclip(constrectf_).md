@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ExcludeClip(constRectF&)
 title: Graphics::ExcludeClip
-description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::ExcludeClip"]
 ms.assetid: 3123dbf3-ea4c-4597-abe8-7fb97ec669f5

@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Class_Registry_PropertyA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Get_Class_Registry_Property function retrieves a device setup class property.
+description: The CM_Get_Class_Registry_Property function retrieves a device setup class property. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

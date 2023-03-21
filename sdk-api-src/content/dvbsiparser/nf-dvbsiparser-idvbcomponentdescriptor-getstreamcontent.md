@@ -65,7 +65,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -remarks
 
 For a list of content codes associated with the value returned in the <i>pbVal</i>  parameter, see Table 26 in Section 6.2.9 of the DVB standards document,  
-      <a href="https://docs.microsoft.com/">Digital Video Broadcasting Specification for Service Information (SI) in DVB systems</a>.
+      <a href="/">Digital Video Broadcasting Specification for Service Information (SI) in DVB systems</a>.
 
 ## -see-also
 

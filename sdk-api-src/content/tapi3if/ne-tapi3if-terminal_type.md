@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field TT_STATIC
+### -field TT_STATIC:0
 
 A static terminal is a terminal that cannot be created and usually refers to hardware device. TAPI enumerates these terminals.
 

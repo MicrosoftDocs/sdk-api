@@ -54,7 +54,7 @@ Driver type options.
 
 ## -enum-fields
 
-### -field D3D_DRIVER_TYPE_UNKNOWN
+### -field D3D_DRIVER_TYPE_UNKNOWN:0
 
 The driver type is unknown.
 

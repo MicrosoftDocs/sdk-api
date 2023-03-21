@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmDetachMilContent
 title: DwmDetachMilContent function (dwmapi.h)
-description: This function is not implemented.
+description: This function is not implemented. (DwmDetachMilContent)
 helpviewer_keywords: ["DwmDetachMilContent","DwmDetachMilContent function [Desktop Window Manager]","_udwm_dwmdetachmilcontent","_udwm_dwmdetachmilcontent_cpp","dwm.dwmdetachmilcontent","dwmapi/DwmDetachMilContent","winui._udwm_dwmdetachmilcontent"]
 old-location: dwm\dwmdetachmilcontent.htm
 tech.root: dwm

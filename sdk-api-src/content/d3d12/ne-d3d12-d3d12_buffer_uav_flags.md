@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_UAV_FLAGS
 title: D3D12_BUFFER_UAV_FLAGS (d3d12.h)
-description: Identifies unordered-access view options for a buffer resource.
+description: Identifies unordered-access view options for a buffer resource. (D3D12_BUFFER_UAV_FLAGS)
 helpviewer_keywords: ["D3D12_BUFFER_UAV_FLAGS","D3D12_BUFFER_UAV_FLAGS enumeration","D3D12_BUFFER_UAV_FLAG_NONE","D3D12_BUFFER_UAV_FLAG_RAW","d3d12/D3D12_BUFFER_UAV_FLAGS","d3d12/D3D12_BUFFER_UAV_FLAG_NONE","d3d12/D3D12_BUFFER_UAV_FLAG_RAW","direct3d12.d3d12_buffer_uav_flags"]
 old-location: direct3d12\d3d12_buffer_uav_flags.htm
 tech.root: direct3d12
@@ -54,11 +54,11 @@ Identifies unordered-access view options for a buffer resource.
 
 ## -enum-fields
 
-### -field D3D12_BUFFER_UAV_FLAG_NONE
+### -field D3D12_BUFFER_UAV_FLAG_NONE:0
 
 Indicates a default view.
 
-### -field D3D12_BUFFER_UAV_FLAG_RAW
+### -field D3D12_BUFFER_UAV_FLAG_RAW:0x1
 
 Resource contains raw, unstructured data.  Requires the UAV format to be <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R32_TYPELESS</a>.
             For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.

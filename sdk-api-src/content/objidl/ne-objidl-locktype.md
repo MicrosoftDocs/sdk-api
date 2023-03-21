@@ -59,14 +59,14 @@ The
 
 ## -enum-fields
 
-### -field LOCK_WRITE
+### -field LOCK_WRITE:1
 
 If this lock is granted, the specified range of bytes can be opened and read any number of times, but writing to the locked range is prohibited except for the owner that was granted this lock.
 
-### -field LOCK_EXCLUSIVE
+### -field LOCK_EXCLUSIVE:2
 
 If this lock is granted, writing to the specified range of bytes is prohibited except by the owner that was granted this lock.
 
-### -field LOCK_ONLYONCE
+### -field LOCK_ONLYONCE:4
 
 If this lock is granted, no other <b>LOCK_ONLYONCE</b> lock can be obtained on the range. Usually this lock type is an alias for some other lock type. Thus, specific implementations can have additional behavior associated with this lock type.

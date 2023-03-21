@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
-description: Notifies the driver that it needs to synchronize multiple accesses to resources.
+description: Notifies the driver that it needs to synchronize multiple accesses to resources. (ID3D12GraphicsCommandList.ResourceBarrier)
 helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResourceBarrier method","ID3D12GraphicsCommandList.ResourceBarrier","ID3D12GraphicsCommandList::ResourceBarrier","ResourceBarrier","ResourceBarrier method","ResourceBarrier method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResourceBarrier","direct3d12.id3d12graphicscommandlist_resourcebarrier"]
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 tech.root: direct3d12
@@ -45,9 +45,6 @@ api_name:
  - ID3D12GraphicsCommandList.ResourceBarrier
 ---
 
-# ID3D12GraphicsCommandList::ResourceBarrier
-
-
 ## -description
 
 Notifies the driver that it needs to synchronize multiple accesses to resources.
@@ -67,6 +64,9 @@ Type: <b>const <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier
 Pointer to an array of barrier descriptions.
 
 ## -remarks
+
+> [!NOTE]
+> A resource to be used for the [D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) state must be created in that state, and then never transitioned out of it. Nor may a resource that was created not in that state be transitioned into it. For more info, see [Acceleration structure memory restrictions](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html#acceleration-structure-memory-restrictions) in the DirectX raytracing (DXR) functional specification on GitHub.
 
 There are three types of barrier descriptions:
 
@@ -178,7 +178,7 @@ The debug layer will issue warnings in the following cases:
 <li>If a depth buffer is used in a non-read-only mode while the resource has the D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE usage bit set.</li>
 </ul>
 
-#### Examples
+## Examples
 
 The <a href="/windows/win32/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ResourceBarrier</b> as follows:
         

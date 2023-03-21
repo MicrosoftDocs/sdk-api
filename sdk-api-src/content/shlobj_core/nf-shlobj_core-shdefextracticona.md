@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHDefExtractIconA
 title: SHDefExtractIconA function (shlobj_core.h)
-description: Provides a default handler to extract an icon from a file.
-helpviewer_keywords: ["GIL_SIMULATEDOC","SHDefExtractIcon","SHDefExtractIcon function [Windows Shell]","SHDefExtractIconA","SHDefExtractIconW","_win32_SHDefExtractIcon","shell.SHDefExtractIcon","shlobj_core/SHDefExtractIcon","shlobj_core/SHDefExtractIconA","shlobj_core/SHDefExtractIconW"]
+description: Provides a default handler to extract an icon from a file. (ANSI)
+helpviewer_keywords: ["GIL_SIMULATEDOC", "SHDefExtractIconA", "shlobj_core/SHDefExtractIconA"]
 old-location: shell\SHDefExtractIcon.htm
 tech.root: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47

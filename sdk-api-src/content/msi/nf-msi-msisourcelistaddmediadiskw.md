@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListAddMediaDiskW
 title: MsiSourceListAddMediaDiskW function (msi.h)
-description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListAddMediaDisk","MsiSourceListAddMediaDisk function","MsiSourceListAddMediaDiskA","MsiSourceListAddMediaDiskW","NULL","User SID","msi/MsiSourceListAddMediaDisk","msi/MsiSourceListAddMediaDiskA","msi/MsiSourceListAddMediaDiskW","setup.msisourcelistaddmediadisk","setup.msisourcelistaddmediadisks"]
+description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiSourceListAddMediaDisk", "MsiSourceListAddMediaDisk function", "MsiSourceListAddMediaDiskW", "NULL", "User SID", "msi/MsiSourceListAddMediaDisk", "msi/MsiSourceListAddMediaDiskW", "setup.msisourcelistaddmediadisk", "setup.msisourcelistaddmediadisks"]
 old-location: setup\msisourcelistaddmediadisk.htm
 tech.root: setup
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7

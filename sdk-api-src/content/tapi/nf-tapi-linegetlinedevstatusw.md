@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineGetLineDevStatusW
 title: lineGetLineDevStatusW function (tapi.h)
-description: The lineGetLineDevStatus function enables an application to query the specified open line device for its current status.
-helpviewer_keywords: ["_tapi2_linegetlinedevstatus","lineGetLineDevStatus","lineGetLineDevStatus function [TAPI 2.2]","lineGetLineDevStatusA","lineGetLineDevStatusW","tapi/lineGetLineDevStatus","tapi/lineGetLineDevStatusA","tapi/lineGetLineDevStatusW","tapi2.linegetlinedevstatus"]
+description: The lineGetLineDevStatusW (Unicode) function enables an application to query the specified open line device for its current status.
+helpviewer_keywords: ["_tapi2_linegetlinedevstatus", "lineGetLineDevStatus", "lineGetLineDevStatus function [TAPI 2.2]", "lineGetLineDevStatusW", "tapi/lineGetLineDevStatus", "tapi/lineGetLineDevStatusW", "tapi2.linegetlinedevstatus"]
 old-location: tapi2\linegetlinedevstatus.htm
 tech.root: tapi3
 ms.assetid: 9c0fa2ba-1157-43d2-af56-aa4e0c28bd05
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linegetlinedevstatus, lineGetLineDevStatus, lineGetLineDevStatus function [TAPI 2.2], lineGetLineDevStatusA, lineGetLineDevStatusW, tapi/lineGetLineDevStatus, tapi/lineGetLineDevStatusA, tapi/lineGetLineDevStatusW, tapi2.linegetlinedevstatus
 req.header: tapi.h
 req.include-header: 

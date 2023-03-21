@@ -48,7 +48,6 @@ api_name:
 
 # TdhAggregatePayloadFilters function
 
-
 ## -description
 
 The <b>TdhAggregatePayloadFilters</b> function aggregates multiple payload filters for a single provider into a single data structure for use with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
@@ -61,34 +60,21 @@ The count of payload filters.
 
 ### -param PayloadFilterPtrs
 
-An array of event payload single filters,
-        each created by a call to the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>  function.
+An array of event payload single filters, each created by a call to the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>  function.
 
 ### -param EventMatchALLFlags [in, optional]
 
-An array of Boolean values  that correspond to
-        each payload filter passed in the <i>PayloadFilterPtrs</i> parameter and indicates how events are handled when multiple conditions are specified..  This parameter only affects situations where multiple
-        payload filters are being specified for the same event.  
+An array of Boolean values  that correspond to each payload filter passed in the <i>PayloadFilterPtrs</i> parameter and indicates how events are handled when multiple conditions are specified..  This parameter only affects situations where multiple payload filters are being specified for the same event.  
 
-When a Boolean value is <b>TRUE</b>, an event will be written to a session if any of
-        the specified conditions specified in the filter are  <b>TRUE</b>. If this flag is set to <b>TRUE</b> on one or more filters for
-        the same event Id or event version, then the event is only written if all
-        the flagged filters for the event are satisfied.
+When a Boolean value is <b>TRUE</b>, an event will be written to a session if any of the specified conditions specified in the filter are  <b>TRUE</b>. If this flag is set to <b>TRUE</b> on one or more filters for the same event Id or event version, then the event is only written if all the flagged filters for the event are satisfied.
 
-
-When a Boolean value is <b>FALSE</b>, an event will be written to a session only if all of
-        the specified conditions specified in the filter are  <b>TRUE</b>. If this flag is set to <b>FALSE</b> on one or more filters for
-        the same event Id or event version, then the event is written if any of
-        the non-flagged filters are satisfied.
+When a Boolean value is <b>FALSE</b>, an event will be written to a session only if all of the specified conditions specified in the filter are  <b>TRUE</b>. If this flag is set to <b>FALSE</b> on one or more filters for the same event Id or event version, then the event is written if any of the non-flagged filters are satisfied.
 
 ### -param EventFilterDescriptor [out]
 
-A pointer to an <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
-        contain a pointer to the aggregated payload filters, which have been
-        allocated by this function.  
+A pointer to an <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will contain a pointer to the aggregated payload filters, which have been allocated by this function.  
 
-When the caller is finished using this
-        <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the  <a href="/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
+When the caller is finished using this <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the  <a href="/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
 
 ## -returns
 
@@ -139,7 +125,6 @@ the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 

@@ -59,7 +59,7 @@ api_name:
 Sets the context for the specified thread.
 
 A 64-bit application can set the context of a WOW64 thread using the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> function.
+    <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64setthreadcontext.md">Wow64SetThreadContext</a> function.
 
 ## -parameters
 

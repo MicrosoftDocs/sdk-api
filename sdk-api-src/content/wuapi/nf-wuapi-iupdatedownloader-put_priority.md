@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_Priority
 title: IUpdateDownloader::put_Priority (wuapi.h)
-description: Gets and sets the priority level of the download.
+description: Gets and sets the priority level of the download. (Put)
 helpviewer_keywords: ["IUpdateDownloader interface [Windows Update Agent]","Priority property","IUpdateDownloader.Priority","IUpdateDownloader.put_Priority","IUpdateDownloader::Priority","IUpdateDownloader::get_Priority","IUpdateDownloader::put_Priority","Priority property [Windows Update Agent]","Priority property [Windows Update Agent]","IUpdateDownloader interface","put_Priority","wua.iupdatedownloader_priority","wuapi/IUpdateDownloader::Priority","wuapi/IUpdateDownloader::get_Priority","wuapi/IUpdateDownloader::put_Priority"]
 old-location: wua\iupdatedownloader_priority.htm
 tech.root: wua

@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteMessage
 title: IWbemObjectSinkEx::WriteMessage (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.WriteMessage)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteMessage method","IWbemObjectSinkEx.WriteMessage","IWbemObjectSinkEx::WriteMessage","WriteMessage","WriteMessage method [Windows Management Instrumentation]","WriteMessage method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteMessage","wmi.iwbemobjectsinkex_writemessage"]
 old-location: wmi\iwbemobjectsinkex_writemessage.htm
 tech.root: wmi

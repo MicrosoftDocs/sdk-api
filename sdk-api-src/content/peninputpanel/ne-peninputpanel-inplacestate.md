@@ -56,15 +56,15 @@ Specifies the In-Place state values of the Tablet PC Input Panel.
 
 ## -enum-fields
 
-### -field InPlaceState_Auto
+### -field InPlaceState_Auto:0
 
 The system decides which In-Place state of the Input Panel is the most appropriate.
 
-### -field InPlaceState_HoverTarget
+### -field InPlaceState_HoverTarget:1
 
  The Input Panel Icon appears. The expanded Input Panel will not appear.
 
-### -field InPlaceState_Expanded
+### -field InPlaceState_Expanded:2
 
 The In-Place Input Panel always appears expanded, rather than the Input Panel Icon appearing first and then requiring the user to tap the Input Panel Icon before Input Panel expands.
 

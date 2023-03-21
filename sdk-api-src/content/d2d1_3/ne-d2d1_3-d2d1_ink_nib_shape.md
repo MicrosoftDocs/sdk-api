@@ -54,12 +54,12 @@ Specifies the appearance of the ink nib (pen tip) as part of an <a href="/window
 
 ## -enum-fields
 
-### -field D2D1_INK_NIB_SHAPE_ROUND
+### -field D2D1_INK_NIB_SHAPE_ROUND:0
 
 The pen tip is circular.
 
-### -field D2D1_INK_NIB_SHAPE_SQUARE
+### -field D2D1_INK_NIB_SHAPE_SQUARE:1
 
 The pen tip is square.
 
-### -field D2D1_INK_NIB_SHAPE_FORCE_DWORD
+### -field D2D1_INK_NIB_SHAPE_FORCE_DWORD:0xffffffff

@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelUnderline
 title: IInkEdit::put_SelUnderline (inked.h)
-description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only).
+description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only). (Put)
 helpviewer_keywords: ["FALSE","IInkEdit interface [Tablet PC]","SelUnderline property","IInkEdit.SelUnderline","IInkEdit.put_SelUnderline","IInkEdit::SelUnderline","IInkEdit::get_SelUnderline","IInkEdit::put_SelUnderline","InkEdit.get_SelUnderline","InkEdit.put_SelUnderline","NULL","SelUnderline property [Tablet PC]","SelUnderline property [Tablet PC]","IInkEdit interface","TRUE","get_SelUnderline","inked/IInkEdit::SelUnderline","inked/IInkEdit::get_SelUnderline","inked/IInkEdit::put_SelUnderline","put_SelUnderline","tablet.inkedit_selunderline"]
 old-location: tablet\inkedit_selunderline.htm
 tech.root: tablet

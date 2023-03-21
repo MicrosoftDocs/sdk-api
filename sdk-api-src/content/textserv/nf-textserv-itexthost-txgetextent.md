@@ -108,7 +108,7 @@ If the vertical and horizontal zoom factors are not the same, the text services 
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

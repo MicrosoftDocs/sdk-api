@@ -56,7 +56,7 @@ Indicates information about a file that has been downloaded.
 
 ## -enum-fields
 
-### -field WPC_ARGS_FILEDOWNLOADEVENT_URL
+### -field WPC_ARGS_FILEDOWNLOADEVENT_URL:0
 
 The URL or web address of the downloaded file.
 

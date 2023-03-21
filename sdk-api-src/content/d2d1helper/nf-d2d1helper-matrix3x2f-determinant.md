@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Determinant
 title: Matrix3x2F::Determinant (d2d1helper.h)
-description: Calculates the determinant of the matrix.
+description: Calculates the determinant of the matrix. (Matrix3x2F.Determinant)
 helpviewer_keywords: ["D2D1.Matrix3x2F.Determinant","D2D1::Matrix3x2F::Determinant","Determinant","Determinant method [Direct2D]","Determinant method [Direct2D]","Matrix3x2F interface","Matrix3x2F interface [Direct2D]","Determinant method","Matrix3x2F.Determinant","Matrix3x2F::Determinant","d2d1helper/Matrix3x2F::Determinant","direct2d.matrix3x2f_determinant"]
 old-location: direct2d\matrix3x2f_determinant.htm
 tech.root: Direct2D

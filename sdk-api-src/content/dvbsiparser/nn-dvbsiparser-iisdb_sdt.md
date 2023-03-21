@@ -68,6 +68,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 The <b>IISDB_SDT</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT</a>. <b>IISDB_SDT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

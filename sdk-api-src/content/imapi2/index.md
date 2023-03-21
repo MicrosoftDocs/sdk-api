@@ -4,7 +4,7 @@ title: Imapi2.h header
 ms.assetid: 42aa506c-a1cb-335a-8128-9e13f3895e8e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: imapi
 f1_keywords:
  - imapi2

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Reset
 title: IEnumVdsObject::Reset (vdshwprv.h)
-description: Resets to the beginning of the enumeration.
+description: The IEnumVdsObject::Reset method (vdshwprv.h) resets to the beginning of the enumeration.  
 helpviewer_keywords: ["IEnumVdsObject interface [VDS]","Reset method","IEnumVdsObject.Reset","IEnumVdsObject::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IEnumVdsObject interface","base.ienumvdsobject_reset","vds/IEnumVdsObject::Reset","vdshwprv/IEnumVdsObject::Reset"]
 old-location: base\ienumvdsobject_reset.htm
 tech.root: base
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, IEnumVdsObject::Reset, Reset, Reset method [VDS], Reset method [VDS],IEnumVdsObject interface, base.ienumvdsobject_reset, vds/IEnumVdsObject::Reset, vdshwprv/IEnumVdsObject::Reset
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Resets to the beginning of 
    the enumeration.

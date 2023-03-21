@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_DUPLICATE_SYMBOL
 title: IMAGEHLP_DUPLICATE_SYMBOL (dbghelp.h)
-description: Contains duplicate symbol information.
+description: Contains duplicate symbol information. (IMAGEHLP_DUPLICATE_SYMBOL)
 helpviewer_keywords: ["*PIMAGEHLP_DUPLICATE_SYMBOL","IMAGEHLP_DUPLICATE_SYMBOL","IMAGEHLP_DUPLICATE_SYMBOL structure","IMAGEHLP_DUPLICATE_SYMBOL64","IMAGEHLP_DUPLICATE_SYMBOL64 structure","PIMAGEHLP_DUPLICATE_SYMBOL64","PIMAGEHLP_DUPLICATE_SYMBOL64 structure pointer","_IMAGEHLP_DUPLICATE_SYMBOL64","_win32_imagehlp_duplicate_symbol64_str","base.imagehlp_duplicate_symbol64_str","dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64","dbghelp/PIMAGEHLP_DUPLICATE_SYMBOL64"]
 old-location: base\imagehlp_duplicate_symbol64_str.htm
 tech.root: Debug

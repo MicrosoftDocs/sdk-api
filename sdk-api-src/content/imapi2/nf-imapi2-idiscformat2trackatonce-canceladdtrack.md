@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.CancelAddTrack
 title: IDiscFormat2TrackAtOnce::CancelAddTrack (imapi2.h)
-description: Cancels the current write operation.
+description: Cancels the current write operation. (IDiscFormat2TrackAtOnce.CancelAddTrack)
 helpviewer_keywords: ["CancelAddTrack","CancelAddTrack method [IMAPI]","CancelAddTrack method [IMAPI]","IDiscFormat2TrackAtOnce interface","IDiscFormat2TrackAtOnce interface [IMAPI]","CancelAddTrack method","IDiscFormat2TrackAtOnce.CancelAddTrack","IDiscFormat2TrackAtOnce::CancelAddTrack","imapi.idiscformat2trackatonce_canceladdtrack","imapi2/IDiscFormat2TrackAtOnce::CancelAddTrack"]
 old-location: imapi\idiscformat2trackatonce_canceladdtrack.htm
 tech.root: imapi

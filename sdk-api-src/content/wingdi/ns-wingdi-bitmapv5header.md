@@ -1,5 +1,5 @@
 ---
-UID: NS:wingdi.__unnamed_struct_1
+UID: NS:wingdi.BITMAPV5HEADER
 title: BITMAPV5HEADER (wingdi.h)
 description: The BITMAPV5HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
 helpviewer_keywords: ["*LPBITMAPV5HEADER","*PBITMAPV5HEADER","BITMAPV5HEADER","BITMAPV5HEADER structure [Windows GDI]","PBITMAPV5HEADER","PBITMAPV5HEADER structure pointer [Windows GDI]","_win32_BITMAPV5HEADER_str","gdi.bitmapv5header","wingdi/BITMAPV5HEADER","wingdi/PBITMAPV5HEADER"]
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The <b>BITMAPV5HEADER</b> structure is the bitmap information header file. It is an extended version of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ## -struct-fields
 
@@ -323,7 +323,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 
@@ -352,3 +352,4 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
+

@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownA
 title: InitiateSystemShutdownA function (winreg.h)
-description: Initiates a shutdown and optional restart of the specified computer.
-helpviewer_keywords: ["InitiateSystemShutdown","InitiateSystemShutdown function","InitiateSystemShutdownA","InitiateSystemShutdownW","_win32_initiatesystemshutdown","base.initiatesystemshutdown","winreg/InitiateSystemShutdown","winreg/InitiateSystemShutdownA","winreg/InitiateSystemShutdownW"]
+description: Initiates a shutdown and optional restart of the specified computer. (ANSI)
+helpviewer_keywords: ["InitiateSystemShutdownA", "winreg/InitiateSystemShutdownA"]
 old-location: base\initiatesystemshutdown.htm
 tech.root: base
 ms.assetid: cad54fea-7f59-438c-83ac-f0160d81496b

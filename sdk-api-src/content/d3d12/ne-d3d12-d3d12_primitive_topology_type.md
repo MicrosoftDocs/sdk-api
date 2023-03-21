@@ -54,23 +54,23 @@ Specifies how the pipeline interprets geometry or hull shader input primitives.
 
 ## -enum-fields
 
-### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED
+### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED:0
 
 The shader has not been initialized with an input primitive type.
 
-### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT
+### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT:1
 
 Interpret the input primitive as a point.
 
-### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE
+### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE:2
 
 Interpret the input primitive as a line.
 
-### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE
+### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE:3
 
 Interpret the input primitive as a triangle.
 
-### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH
+### -field D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH:4
 
 Interpret the input primitive as a control point patch.
 

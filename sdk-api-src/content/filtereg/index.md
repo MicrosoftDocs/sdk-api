@@ -4,7 +4,7 @@ title: Filtereg.h header
 ms.assetid: 814e8113-3736-3b40-8bb2-49801048d0b9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: search
 f1_keywords:
  - filtereg

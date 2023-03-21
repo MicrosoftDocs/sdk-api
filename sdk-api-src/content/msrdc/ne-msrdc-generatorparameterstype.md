@@ -57,7 +57,7 @@ The <b>GeneratorParametersType</b> enumeration type
 
 ## -enum-fields
 
-### -field RDCGENTYPE_Unused
+### -field RDCGENTYPE_Unused:0
 
 The generator parameters type is unknown.
 

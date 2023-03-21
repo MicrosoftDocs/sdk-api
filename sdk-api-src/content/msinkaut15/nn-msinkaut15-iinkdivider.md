@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut15.IInkDivider
 title: IInkDivider (msinkaut15.h)
-description: .
+description: . (IInkDivider)
 helpviewer_keywords: ["IInkDivider","IInkDivider interface [Tablet PC]","IInkDivider interface [Tablet PC]","described","msinkaut15/IInkDivider","tablet.iinkdivider"]
 old-location: tablet\iinkdivider.htm
 tech.root: tablet

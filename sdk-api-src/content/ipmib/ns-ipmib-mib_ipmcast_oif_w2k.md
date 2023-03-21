@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_W2K
 title: MIB_IPMCAST_OIF_W2K (ipmib.h)
-description: Stores the information required to send an outgoing IP multicast packet.
+description: MIB_IPMCAST_OIF_W2K (ipmib.h) stores the information required to send an outgoing IP multicast packet.
 helpviewer_keywords: ["*PMIB_IPMCAST_OIF","*PMIB_IPMCAST_OIF_W2K","MIB_IPMCAST_OIF","MIB_IPMCAST_OIF structure [MIB]","MIB_IPMCAST_OIF_W2K","PMIB_IPMCAST_OIF","PMIB_IPMCAST_OIF structure pointer [MIB]","_mpr_mib_ipmcast_oif","ipmib/MIB_IPMCAST_OIF","ipmib/PMIB_IPMCAST_OIF","iprtrmib/MIB_IPMCAST_OIF","iprtrmib/PMIB_IPMCAST_OIF","mib.mib_ipmcast_oif","rras.mib_ipmcast_oif"]
 old-location: mib\mib_ipmcast_oif.htm
 tech.root: MIB
 ms.assetid: 4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_W2K, MIB_IPMCAST_OIF, MIB_IPMCAST_OIF structure [MIB], MIB_IPMCAST_OIF_W2K, PMIB_IPMCAST_OIF, PMIB_IPMCAST_OIF structure pointer [MIB], _mpr_mib_ipmcast_oif, ipmib/MIB_IPMCAST_OIF, ipmib/PMIB_IPMCAST_OIF, iprtrmib/MIB_IPMCAST_OIF, iprtrmib/PMIB_IPMCAST_OIF, mib.mib_ipmcast_oif, rras.mib_ipmcast_oif'
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

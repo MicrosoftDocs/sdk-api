@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IMarshal.ReleaseMarshalData
 title: IMarshal::ReleaseMarshalData (objidlbase.h)
-description: Destroys a marshaled data packet.
+description: The IMarshal::ReleaseMarshalData (objidlbase.h) method destroys a marshaled data packet.
 helpviewer_keywords: ["IMarshal interface [COM]","ReleaseMarshalData method","IMarshal.ReleaseMarshalData","IMarshal::ReleaseMarshalData","ReleaseMarshalData","ReleaseMarshalData method [COM]","ReleaseMarshalData method [COM]","IMarshal interface","_com_imarshal_releasemarshaldata","com.imarshal_releasemarshaldata","objidlbase/IMarshal::ReleaseMarshalData"]
 old-location: com\imarshal_releasemarshaldata.htm
 tech.root: com
 ms.assetid: c58c7768-9200-4370-930c-89a6c6d2b430
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IMarshal interface [COM],ReleaseMarshalData method, IMarshal.ReleaseMarshalData, IMarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],IMarshal interface, _com_imarshal_releasemarshaldata, com.imarshal_releasemarshaldata, objidlbase/IMarshal::ReleaseMarshalData
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

@@ -56,7 +56,7 @@ The <b>IMSVidAudioRenderer</b> interface represents an audio renderer device. It
 
 The <b>IMSVidAudioRenderer</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidAudioRenderer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

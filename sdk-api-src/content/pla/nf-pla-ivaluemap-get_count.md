@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.get_Count
 title: IValueMap::get_Count (pla.h)
-description: Retrieves the number of items in the collection.
+description: Retrieves the number of items in the collection. (IValueMap.get_Count)
 helpviewer_keywords: ["Count property [PLA]","Count property [PLA]","IValueMap interface","IValueMap interface [PLA]","Count property","IValueMap.Count","IValueMap.get_Count","IValueMap::Count","IValueMap::get_Count","base.ivaluemap_count","get_Count","pla.ivaluemap_count","pla/IValueMap::Count","pla/IValueMap::get_Count"]
 old-location: pla\ivaluemap_count.htm
 tech.root: PLA

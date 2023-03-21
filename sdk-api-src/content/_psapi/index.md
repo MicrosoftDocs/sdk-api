@@ -4,7 +4,7 @@ title: Process Status API (PSAPI)
 ms.assetid: 957b2319-c806-3914-844e-95dc41196ab4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Process Status API (PSAPI)

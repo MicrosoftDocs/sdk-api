@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT4.XMUSHORT4(constXMUSHORT4&)
 title: XMUSHORT4::XMUSHORT4(const XMUSHORT4 &) (directxpackedvector.h)
-description: A constructor for XMUSHORT4.
+description: A constructor for XMUSHORT4. (overload 1/3)
 helpviewer_keywords: ["XMUSHORT4","XMUSHORT4 constructor [DirectX Math Support APIs]","XMUSHORT4 constructor [DirectX Math Support APIs]","XMUSHORT4 structure","XMUSHORT4 structure [DirectX Math Support APIs]","XMUSHORT4 constructor","XMUSHORT4.XMUSHORT4","XMUSHORT4.XMUSHORT4()","XMUSHORT4.XMUSHORT4(const XMUSHORT4 &)","XMUSHORT4::XMUSHORT4","XMUSHORT4::XMUSHORT4(const XMUSHORT4 &)","dxmath.xmushort4_ctor_1"]
 old-location: dxmath\xmushort4_ctor_1.htm
 tech.root: dxmath

@@ -54,7 +54,7 @@ Defines values that determine whether ink, gestures, or ink and gestures are rec
 
 ## -enum-fields
 
-### -field ICM_InkOnly
+### -field ICM_InkOnly:0
 
 Collects only ink, creating a stroke.
 

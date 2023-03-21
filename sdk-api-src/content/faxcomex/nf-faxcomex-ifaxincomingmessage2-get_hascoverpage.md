@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_HasCoverPage
 title: IFaxIncomingMessage2::get_HasCoverPage (faxcomex.h)
-description: A flag that indicates whether the fax has a cover page.
+description: A flag that indicates whether the fax has a cover page. (Get)
 helpviewer_keywords: ["HasCoverPage property [Fax Service]","HasCoverPage property [Fax Service]","IFaxIncomingMessage2 interface","IFaxIncomingMessage2 interface [Fax Service]","HasCoverPage property","IFaxIncomingMessage2.HasCoverPage","IFaxIncomingMessage2.get_HasCoverPage","IFaxIncomingMessage2.put_HasCoverPage","IFaxIncomingMessage2::HasCoverPage","IFaxIncomingMessage2::get_HasCoverPage","IFaxIncomingMessage2::put_HasCoverPage","_mfax_faxincomingmessage.hascoverpage","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascoverpage_cpp","fax._mfax_faxincomingmessage_hascoverpage","faxcomex/IFaxIncomingMessage2::HasCoverPage","faxcomex/IFaxIncomingMessage2::get_HasCoverPage","faxcomex/IFaxIncomingMessage2::put_HasCoverPage","get_HasCoverPage"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascoverpage_cpp.htm
 tech.root: Fax

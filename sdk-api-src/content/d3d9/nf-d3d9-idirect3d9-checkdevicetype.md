@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceType
 title: IDirect3D9::CheckDeviceType (d3d9.h)
-description: Verifies whether a hardware accelerated device type can be used on this adapter.
+description: The IDirect3D9::CheckDeviceType method (d3d9.h) verifies whether a hardware accelerated device type can be used on this adapter.
 helpviewer_keywords: ["74a3aa81-9498-9ce0-0ae8-0bc9d18d553b","CheckDeviceType","CheckDeviceType method [Direct3D 9]","CheckDeviceType method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","CheckDeviceType method","IDirect3D9.CheckDeviceType","IDirect3D9::CheckDeviceType","d3d9helper/IDirect3D9::CheckDeviceType","direct3d9.idirect3d9__checkdevicetype"]
 old-location: direct3d9\idirect3d9__checkdevicetype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicetype.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 74a3aa81-9498-9ce0-0ae8-0bc9d18d553b, CheckDeviceType, CheckDeviceType method [Direct3D 9], CheckDeviceType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceType method, IDirect3D9.CheckDeviceType, IDirect3D9::CheckDeviceType, d3d9helper/IDirect3D9::CheckDeviceType, direct3d9.idirect3d9__checkdevicetype
 req.header: d3d9.h
 req.include-header: D3D9.h

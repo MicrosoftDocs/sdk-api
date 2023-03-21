@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSAAddressToStringA
 title: WSAAddressToStringA function (winsock2.h)
-description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
-helpviewer_keywords: ["WSAAddressToString","WSAAddressToString function [Winsock]","WSAAddressToStringA","WSAAddressToStringW","_win32_wsaaddresstostring_2","winsock.wsaaddresstostring_2","winsock2/WSAAddressToString","winsock2/WSAAddressToStringA","winsock2/WSAAddressToStringW"]
+description: Converts all components of a sockaddr structure into a human-readable string representation of the address. (ANSI)
+helpviewer_keywords: ["WSAAddressToStringA", "winsock2/WSAAddressToStringA"]
 old-location: winsock\wsaaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426

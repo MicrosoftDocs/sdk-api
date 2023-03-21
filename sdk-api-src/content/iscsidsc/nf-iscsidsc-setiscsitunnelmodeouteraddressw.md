@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiTunnelModeOuterAddressW
 title: SetIScsiTunnelModeOuterAddressW function (iscsidsc.h)
-description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port.
-helpviewer_keywords: ["SetIScsiTunnelModeOuterAddressW","SetIscsiTunnelModeOuterAddress","SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API]","SetIscsiTunnelModeOuterAddressA","SetIscsiTunnelModeOuterAddressW","iscsidisc.setiscsitunnelmodeouteraddress","iscsidsc/SetIscsiTunnelModeOuterAddress","iscsidsc/SetIscsiTunnelModeOuterAddressA","iscsidsc/SetIscsiTunnelModeOuterAddressW"]
+description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port. (Unicode)
+helpviewer_keywords: ["SetIScsiTunnelModeOuterAddressW", "SetIscsiTunnelModeOuterAddress", "SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API]", "SetIscsiTunnelModeOuterAddressW", "iscsidisc.setiscsitunnelmodeouteraddress", "iscsidsc/SetIscsiTunnelModeOuterAddress", "iscsidsc/SetIscsiTunnelModeOuterAddressW"]
 old-location: iscsidisc\setiscsitunnelmodeouteraddress.htm
 tech.root: iSCSIDisc
 ms.assetid: fdf84037-a546-49fd-9af4-21ea001587f3

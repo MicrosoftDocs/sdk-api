@@ -4,7 +4,7 @@ title: Portabledeviceconnectapi.h header
 ms.assetid: 3c0ed638-be0c-3d98-b7a2-6ab33253704e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wpdsdk
 f1_keywords:
  - portabledeviceconnectapi

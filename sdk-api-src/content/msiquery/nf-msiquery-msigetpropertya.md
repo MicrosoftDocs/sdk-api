@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetPropertyA
 title: MsiGetPropertyA function (msiquery.h)
-description: The MsiGetProperty function gets the value for an installer property.
-helpviewer_keywords: ["MsiGetProperty","MsiGetProperty function","MsiGetPropertyA","MsiGetPropertyW","_msi_msigetproperty","msiquery/MsiGetProperty","msiquery/MsiGetPropertyA","msiquery/MsiGetPropertyW","setup.msigetproperty"]
+description: The MsiGetProperty function gets the value for an installer property. (ANSI)
+helpviewer_keywords: ["MsiGetPropertyA", "msiquery/MsiGetPropertyA"]
 old-location: setup\msigetproperty.htm
 tech.root: setup
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f

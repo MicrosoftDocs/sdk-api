@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxRecipient.put_Name
 title: IFaxRecipient::put_Name (faxcomex.h)
-description: The IFaxRecipient::get_Name property is a null-terminated string that contains the name of the recipient.
+description: The IFaxRecipient::get_Name property is a null-terminated string that contains the name of the recipient. (Put)
 helpviewer_keywords: ["IFaxRecipient interface [Fax Service]","Name property","IFaxRecipient.Name","IFaxRecipient.get_Name","IFaxRecipient.put_Name","IFaxRecipient::Name","IFaxRecipient::get_Name","IFaxRecipient::put_Name","Name property [Fax Service]","Name property [Fax Service]","IFaxRecipient interface","_mfax_faxrecipient.name","fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp","fax._mfax_faxrecipient_name","faxcomex/IFaxRecipient::Name","faxcomex/IFaxRecipient::get_Name","faxcomex/IFaxRecipient::put_Name","put_Name"]
 old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp.htm
 tech.root: Fax

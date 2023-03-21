@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.ISynchronize.Wait
 title: ISynchronize::Wait (objidlbase.h)
-description: Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
+description: The ISynchronize::Wait (objidlbase.h) method waits for the synchronization object to be signaled or for a specified timeout period to elapse.
 helpviewer_keywords: ["ISynchronize interface [COM]","Wait method","ISynchronize.Wait","ISynchronize::Wait","Wait","Wait method [COM]","Wait method [COM]","ISynchronize interface","_com_isynchronize_wait","com.isynchronize_wait","objidlbase/ISynchronize::Wait"]
 old-location: com\isynchronize_wait.htm
 tech.root: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

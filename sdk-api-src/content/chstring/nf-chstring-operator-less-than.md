@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.operator-less-than
 title: operator<
-description: 
+description: The chstring.operator-less-than function compares two strings. These operators are a convenient substitute for the case-sensitive Compare method.
 tech.root: wmi
 helpviewer_keywords: ["operator<"]
 ms.assetid: bc9b4545-b2a2-48b0-b650-d048860d1386
-ms.date: 05/20/2019
+ms.date: 08/10/2022
 ms.keywords: operator<
 targetos: Windows
 req.assembly: 

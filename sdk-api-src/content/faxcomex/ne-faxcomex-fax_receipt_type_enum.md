@@ -54,15 +54,15 @@ The <b>FAX_RECEIPT_TYPE_ENUM</b> enumeration defines the types of delivery repor
 
 ## -enum-fields
 
-### -field frtNONE
+### -field frtNONE:0
 
 Do not send a delivery report.
 
-### -field frtMAIL
+### -field frtMAIL:0x1
 
 Send a delivery report through SMTP mail.
 
-### -field frtMSGBOX
+### -field frtMSGBOX:0x4
 
 Display a delivery report in a message box on the display of a specific computer. This is not supported in Windows Vista.
 

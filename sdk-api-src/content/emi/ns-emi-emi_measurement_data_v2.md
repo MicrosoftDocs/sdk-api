@@ -1,5 +1,5 @@
 ---
-UID: NS:emi.__unnamed_struct_6
+UID: NS:emi.EMI_MEASUREMENT_DATA_V2
 title: EMI_MEASUREMENT_DATA_V2 (emi.h)
 description: The EMI_MEASUREMENT_DATA_V2 structure provides data about the current energy measurement data for all channels of an EMI_VERSION_V2 device.
 helpviewer_keywords: ["EMI_MEASUREMENT_DATA_V2","EMI_MEASUREMENT_DATA_V2 structure [Power Metering and Budgeting Devices]","emi/EMI_MEASUREMENT_DATA_V2","powermeter.emi_measurement_data_v2"]

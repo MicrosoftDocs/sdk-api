@@ -63,6 +63,6 @@ Closed-captioned text is used in television programming and DVD movies. DVD movi
 
 The <b>IAMLine21Decoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMLine21Decoder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

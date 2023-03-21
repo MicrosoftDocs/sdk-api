@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10RenderTargetView
 title: ID3D10RenderTargetView (d3d10.h)
-description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering.
+description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering. (ID3D10RenderTargetView)
 helpviewer_keywords: ["76c9084d-ce0f-116d-42dd-eae6aa607d0e","ID3D10RenderTargetView","ID3D10RenderTargetView interface [Direct3D 10]","ID3D10RenderTargetView interface [Direct3D 10]","described","d3d10/ID3D10RenderTargetView","direct3d10.id3d10rendertargetview"]
 old-location: direct3d10\id3d10rendertargetview.htm
 tech.root: direct3d10

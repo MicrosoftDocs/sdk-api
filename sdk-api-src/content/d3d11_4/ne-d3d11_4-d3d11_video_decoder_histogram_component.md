@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_4.D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
-description: Specifies indices for arrays of per component histogram information.
+description: Specifies indices for arrays of per component histogram information. (D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT)
 tech.root: direct3d11
 helpviewer_keywords: ["D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT"]
 ms.date: 4/26/2019
@@ -39,31 +39,31 @@ Specifies indices for arrays of per component histogram information.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_Y
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_Y:0
 
 If the format is a YUV format, indicates a histogram for the Y component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_U
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_U:1
 
 If the format is a YUV format, indicates a histogram for the U component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_V
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_V:2
 
 If the format is a YUV format, indicates a histogram for the V component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_R
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_R:0
 
 If the format is an RGB/BGR format, indicates a histogram for the R component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_G
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_G:1
 
 If the format is an RGB/BGR format, indicates a histogram for the G component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_B
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_B:2
 
 If the format is an RGB/BGR format, indicates a histogram for the B component.
 
-### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_A
+### -field D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_A:3
 
 If the format has an alpha channel, indicates a histogram for the A component.
 

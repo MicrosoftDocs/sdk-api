@@ -4,7 +4,7 @@ title: Windows Machine Learning
 ms.assetid: 528d7026-7368-3c15-91e7-6246f06cf947
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Machine Learning
@@ -18,5 +18,5 @@ To develop Windows Machine Learning, you need these headers:
  * [winml.h](../winml/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Machine Learning](/windows/desktop/machinelearning)
+* [Windows Machine Learning](/windows/ai/windows-ml)
 

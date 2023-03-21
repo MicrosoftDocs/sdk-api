@@ -1,7 +1,7 @@
 ---
 UID: NS:srrestoreptapi._RESTOREPTINFOA
 title: RESTOREPOINTINFOA (srrestoreptapi.h)
-description: Contains information used by the SRSetRestorePoint function.
+description: Contains information used by the SRSetRestorePoint function. (ANSI)
 helpviewer_keywords: ["*PRESTOREPOINTINFOA","APPLICATION_INSTALL","APPLICATION_UNINSTALL","BEGIN_NESTED_SYSTEM_CHANGE","BEGIN_SYSTEM_CHANGE","CANCELLED_OPERATION","DEVICE_DRIVER_INSTALL","END_NESTED_SYSTEM_CHANGE","END_SYSTEM_CHANGE","MODIFY_SETTINGS","PRESTOREPOINTINFO","PRESTOREPOINTINFO structure pointer [System Restore]","RESTOREPOINTINFO","RESTOREPOINTINFO structure [System Restore]","RESTOREPOINTINFOA","RESTOREPOINTINFOW","_sr_restorepointinfo_str","sr.restorepointinfo_str","srrestoreptapi/PRESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFOA","srrestoreptapi/RESTOREPOINTINFOW"]
 old-location: sr\restorepointinfo_str.htm
 tech.root: sr

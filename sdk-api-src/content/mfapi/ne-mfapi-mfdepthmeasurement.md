@@ -1,7 +1,7 @@
 ---
 UID: NE:mfapi._MFDepthMeasurement
 title: MFDepthMeasurement
-ms.date: 
+ms.date: 01/31/2022
 targetos: Windows
 description: Specifies the measurement system for a depth value in a video frame.
 helpviewer_keywords: ["MFDepthMeasurement","mfapi/MFDepthMeasurement"]
@@ -41,11 +41,11 @@ Specifies the measurement system for a depth value in a video frame.
 
 ## -enum-fields
 
-### -field DistanceToFocalPlane
+### -field DistanceToFocalPlane:0
 
 The measurement is the distance to the focal plane.
 
-### -field DistanceToOpticalCenter
+### -field DistanceToOpticalCenter:1
 
 The measurement is the distance to the optical center.
 

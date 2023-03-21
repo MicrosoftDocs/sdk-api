@@ -1,7 +1,7 @@
 ---
 UID: NE:winsvc.SERVICE_SHARED_REGISTRY_STATE_TYPE
 title: SERVICE_SHARED_REGISTRY_STATE_TYPE
-description: Specifies a state type for a service registry key.
+description: Specifies a state type for a service registry key. (SERVICE_SHARED_REGISTRY_STATE_TYPE)
 tech.root: security
 ms.date: 5/24/2021
 ms.keywords: SERVICE_SHARED_REGISTRY_STATE_TYPE
@@ -36,16 +36,16 @@ Specifies a state type for a shared service registry key.
 
 ## -enum-fields
 
-### -field ServiceSharedRegistryPersistentState
+### -field ServiceSharedRegistryPersistentState:0
 
 Mutable, persistent service state. This state is readable and writeable by the service and by local administrators. This state persists across reboots and and OS updates.
 
 ## -remarks
 
 All per-service registry state types have a lifetime that is scoped to the lifetime of the service installation.
-Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/ne-winsvc-DeleteService) the registry state is deleted too.
+Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/nf-winsvc-deleteservice) the registry state is deleted too.
 
 ## -see-also
 
-[GetSharedServiceRegistryStateKey](/windows/win32/api/winsvc/ne-winsvc-getsharedserviceregistrystatekey)
+[GetSharedServiceRegistryStateKey](/windows/win32/api/winsvc/nf-winsvc-getsharedserviceregistrystatekey)
 

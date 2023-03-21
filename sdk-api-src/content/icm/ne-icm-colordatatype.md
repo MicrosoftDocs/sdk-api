@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_3
+UID: NE:icm.COLORDATATYPE
 title: COLORDATATYPE
 description: Used by WCS functions to indicate the data type of vector content.
 tech.root: wcs
@@ -37,7 +37,7 @@ Used by WCS functions to indicate the data type of vector content.
 
 ## -enum-fields
 
-### -field COLOR_BYTE
+### -field COLOR_BYTE:1
 
 Color data is stored as 8 bits per channel, with a value from 0 to 255, inclusive.
 
@@ -74,3 +74,4 @@ The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to the
 `typedef COLORDATATYPE *PCOLORDATATYPE, *LPCOLORDATATYPE;`
 
 ## -see-also
+

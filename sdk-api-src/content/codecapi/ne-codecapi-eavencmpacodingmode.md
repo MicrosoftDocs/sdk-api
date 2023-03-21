@@ -54,26 +54,26 @@ Specifies the MPEG audio encoding mode. This enumeration is used with the <a hre
 
 ## -enum-fields
 
-### -field eAVEncMPACodingMode_Mono
+### -field eAVEncMPACodingMode_Mono:0
 
 Single channel.
           This mode corresponds to single_channel mode (bit code '11'), defined in ISO/IEC 11172-3.
 
-### -field eAVEncMPACodingMode_Stereo
+### -field eAVEncMPACodingMode_Stereo:1
 
 Stereo channels.
           This mode corresponds to stereo mode ('00'), defined in ISO/IEC 11172-3.
 
-### -field eAVEncMPACodingMode_DualChannel
+### -field eAVEncMPACodingMode_DualChannel:2
 
 Two mono channels.
           This mode corresponds to dual_channel mode ('10'), defined in ISO/IEC 11172-3.
 
-### -field eAVEncMPACodingMode_JointStereo
+### -field eAVEncMPACodingMode_JointStereo:3
 
 Joint stereo mode. This mode uses similarities between the two channels to achieve greater compression. This mode corresponds to joint_stereo mode ('01'), defined in ISO/IEC 11172-3.
 
-### -field eAVEncMPACodingMode_Surround
+### -field eAVEncMPACodingMode_Surround:4
 
 Surround audio (5.1 channels).
           This mode applies to MPEG-2 audio (ISO/IEC 13818-3).

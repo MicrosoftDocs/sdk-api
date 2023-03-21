@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetIDList
 title: IShellLinkA::SetIDList (shobjidl_core.h)
-description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+description: Sets the pointer to an item identifier list (PIDL) for a Shell link object. (ANSI)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetIDList method","IShellLink::SetIDList","IShellLinkA interface [Windows Shell]","SetIDList method","IShellLinkA.SetIDList","IShellLinkA::SetIDList","IShellLinkW interface [Windows Shell]","SetIDList method","IShellLinkW::SetIDList","SetIDList","SetIDList method [Windows Shell]","SetIDList method [Windows Shell]","IShellLink interface","SetIDList method [Windows Shell]","IShellLinkA interface","SetIDList method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetIDList","shell.IShellLink_SetIDList","shobjidl_core/IShellLink::SetIDList","shobjidl_core/IShellLinkA::SetIDList","shobjidl_core/IShellLinkW::SetIDList"]
 old-location: shell\IShellLink_SetIDList.htm
 tech.root: shell

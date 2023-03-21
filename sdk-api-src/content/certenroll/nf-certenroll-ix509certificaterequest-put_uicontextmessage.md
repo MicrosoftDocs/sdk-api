@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_UIContextMessage
 title: IX509CertificateRequest::put_UIContextMessage (certenroll.h)
-description: Specifies or retrieves a context string to display in the user interface.
+description: Specifies or retrieves a context string to display in the user interface. (Put)
 helpviewer_keywords: ["IX509CertificateRequest interface [Security]","UIContextMessage property","IX509CertificateRequest.UIContextMessage","IX509CertificateRequest.put_UIContextMessage","IX509CertificateRequest::UIContextMessage","IX509CertificateRequest::get_UIContextMessage","IX509CertificateRequest::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::UIContextMessage","certenroll/IX509CertificateRequest::get_UIContextMessage","certenroll/IX509CertificateRequest::put_UIContextMessage","put_UIContextMessage","security.ix509certificaterequest_uicontextmessage_property"]
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
 tech.root: security

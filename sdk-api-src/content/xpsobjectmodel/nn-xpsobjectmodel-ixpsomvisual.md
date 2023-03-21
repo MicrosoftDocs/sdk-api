@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMVisual interface
 
-
 ## -description
 
 The  base interface for path, canvas, and glyph interfaces.

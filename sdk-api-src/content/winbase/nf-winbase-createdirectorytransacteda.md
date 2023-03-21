@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedA
 title: CreateDirectoryTransactedA function (winbase.h)
-description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
-helpviewer_keywords: ["CreateDirectoryTransacted","CreateDirectoryTransacted function [Files]","CreateDirectoryTransactedA","CreateDirectoryTransactedW","fs.createdirectorytransacted","winbase/CreateDirectoryTransacted","winbase/CreateDirectoryTransactedA","winbase/CreateDirectoryTransactedW"]
+description: Creates a new directory as a transacted operation, with the attributes of a specified template directory. (ANSI)
+helpviewer_keywords: ["CreateDirectoryTransactedA", "winbase/CreateDirectoryTransactedA"]
 old-location: fs\createdirectorytransacted.htm
 tech.root: fs
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40

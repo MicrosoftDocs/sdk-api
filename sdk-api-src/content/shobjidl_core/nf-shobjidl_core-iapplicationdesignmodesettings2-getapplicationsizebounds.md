@@ -56,15 +56,15 @@ This methods retrieves the size bounds supported by the application.
 
 ### -param minApplicationSizePixels [out]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
-When this method returns successfully, receives a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the minimum possible window size.
+When this method returns successfully, receives a pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that defines the minimum possible window size.
 
 ### -param maxApplicationSizePixels [out]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
-When this method returns successfully, receives a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the maximum possible window size.
+When this method returns successfully, receives a pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that defines the maximum possible window size.
 
 ## -returns
 

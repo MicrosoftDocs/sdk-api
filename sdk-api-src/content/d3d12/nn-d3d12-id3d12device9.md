@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device9
 title: ID3D12Device9
-description: Represents a virtual adapter. This interface extends [ID3D12Device8](nn-d3d12-id3d12device8.md) to add methods to manage shader caches.
+description: Represents a virtual adapter. This interface extends [ID3D12Device8](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) to add methods to manage shader caches.
 tech.root: direct3d12
 ms.date: 08/09/2021
 req.construct-type: iface
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Represents a virtual adapter. This interface extends [ID3D12Device8](nn-d3d12-id3d12device8.md) to add methods to manage shader caches.
+Represents a virtual adapter. This interface extends [ID3D12Device8](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) to add methods to manage shader caches.
 
 ## -inheritance
 

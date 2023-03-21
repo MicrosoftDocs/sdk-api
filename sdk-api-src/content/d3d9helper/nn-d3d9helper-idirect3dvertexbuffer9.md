@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DVertexBuffer9
 title: IDirect3DVertexBuffer9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DVertexBuffer9 interface to manipulate vertex buffer resources.
+description: The IDirect3DVertexBuffer9 interface (d3d9helper.h) provides methods that manipulate vertex buffer resources.
 helpviewer_keywords: ["618275d7-1a22-b2cf-581b-9cf2495dc642","IDirect3DVertexBuffer9","IDirect3DVertexBuffer9 interface [Direct3D 9]","IDirect3DVertexBuffer9 interface [Direct3D 9]","described","d3d9helper/IDirect3DVertexBuffer9","direct3d9.idirect3dvertexbuffer9"]
 old-location: direct3d9\idirect3dvertexbuffer9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 618275d7-1a22-b2cf-581b-9cf2495dc642, IDirect3DVertexBuffer9, IDirect3DVertexBuffer9 interface [Direct3D 9], IDirect3DVertexBuffer9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexBuffer9, direct3d9.idirect3dvertexbuffer9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

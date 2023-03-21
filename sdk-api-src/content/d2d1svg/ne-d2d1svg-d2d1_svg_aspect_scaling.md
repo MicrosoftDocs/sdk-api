@@ -54,14 +54,14 @@ The meetOrSlice portion of the SVG preserveAspectRatio attribute.
 
 ## -enum-fields
 
-### -field D2D1_SVG_ASPECT_SCALING_MEET
+### -field D2D1_SVG_ASPECT_SCALING_MEET:0
 
 Scale the viewBox up as much as possible such that the entire viewBox is visible within the viewport.
 
-### -field D2D1_SVG_ASPECT_SCALING_SLICE
+### -field D2D1_SVG_ASPECT_SCALING_SLICE:1
 
 Scale the viewBox down as much as possible such that the entire viewport is
           covered by the viewBox.
 
-### -field D2D1_SVG_ASPECT_SCALING_FORCE_DWORD
+### -field D2D1_SVG_ASPECT_SCALING_FORCE_DWORD:0xffffffff
 

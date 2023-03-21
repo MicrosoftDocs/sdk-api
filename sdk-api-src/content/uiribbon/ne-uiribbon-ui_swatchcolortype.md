@@ -55,15 +55,15 @@ Specifies the values that identify how a color swatch in a <a href="/windows/des
 
 ## -enum-fields
 
-### -field UI_SWATCHCOLORTYPE_NOCOLOR
+### -field UI_SWATCHCOLORTYPE_NOCOLOR:0
 
 The swatch is transparent.
 
-### -field UI_SWATCHCOLORTYPE_AUTOMATIC
+### -field UI_SWATCHCOLORTYPE_AUTOMATIC:1
 
 The swatch is filled with a solid RGB color bound to <a href="/windows/win32/api/winuser/nf-winuser-getsyscolor">GetSysColor(COLOR_WINDOWTEXT)</a>.
 
-### -field UI_SWATCHCOLORTYPE_RGB
+### -field UI_SWATCHCOLORTYPE_RGB:2
 
 The swatch is filled with a solid RGB color.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_OutgoingQueuePaused
 title: IFaxConfiguration::put_OutgoingQueuePaused (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the outgoing queue has been paused.
+description: Sets or retrieves a value that indicates whether the outgoing queue has been paused. (Put)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","OutgoingQueuePaused property","IFaxConfiguration.OutgoingQueuePaused","IFaxConfiguration.put_OutgoingQueuePaused","IFaxConfiguration::OutgoingQueuePaused","IFaxConfiguration::get_OutgoingQueuePaused","IFaxConfiguration::put_OutgoingQueuePaused","OutgoingQueuePaused property [Fax Service]","OutgoingQueuePaused property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_PauseOutgoingQueue","fax._mfax_IFaxConfiguration_PauseOutgoingQueue","faxcomex/IFaxConfiguration::OutgoingQueuePaused","faxcomex/IFaxConfiguration::get_OutgoingQueuePaused","faxcomex/IFaxConfiguration::put_OutgoingQueuePaused","put_OutgoingQueuePaused"]
 old-location: fax\_mfax_IFaxConfiguration_PauseOutgoingQueue.htm
 tech.root: Fax

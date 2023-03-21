@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_LOG_CATEGORYA
 title: FAX_LOG_CATEGORYA (winfax.h)
-description: The FAX_LOG_CATEGORY structure describes one logging category.
+description: The FAX_LOG_CATEGORY structure describes one logging category. (ANSI)
 helpviewer_keywords: ["*PFAX_LOG_CATEGORYA","FAXLOG_CATEGORY_INBOUND","FAXLOG_CATEGORY_INIT","FAXLOG_CATEGORY_OUTBOUND","FAXLOG_CATEGORY_UNKNOWN","FAXLOG_LEVEL_MAX","FAXLOG_LEVEL_MED","FAXLOG_LEVEL_MIN","FAXLOG_LEVEL_NONE","FAX_LOG_CATEGORY","FAX_LOG_CATEGORY structure [Fax Service]","FAX_LOG_CATEGORYA","FAX_LOG_CATEGORYW","PFAX_LOG_CATEGORY","PFAX_LOG_CATEGORY structure pointer [Fax Service]","_mfax_fax_log_category_str","fax._mfax_fax_log_category_str","winfax/FAX_LOG_CATEGORY","winfax/FAX_LOG_CATEGORYA","winfax/FAX_LOG_CATEGORYW","winfax/PFAX_LOG_CATEGORY"]
 old-location: fax\_mfax_fax_log_category_str.htm
 tech.root: Fax

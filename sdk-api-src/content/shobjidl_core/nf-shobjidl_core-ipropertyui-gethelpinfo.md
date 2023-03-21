@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetHelpInfo
 title: IPropertyUI::GetHelpInfo (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead.
+description: Developers should use IPropertyDescription instead. (IPropertyUI.GetHelpInfo)
 helpviewer_keywords: ["GetHelpInfo","GetHelpInfo method [Windows Properties]","GetHelpInfo method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetHelpInfo method","IPropertyUI.GetHelpInfo","IPropertyUI::GetHelpInfo","_shell_IPropertyUI_GetHelpInfo","properties.IPropertyUI_GetHelpInfo","shell.IPropertyUI_GetHelpInfo","shobjidl_core/IPropertyUI::GetHelpInfo"]
 old-location: properties\IPropertyUI_GetHelpInfo.htm
 tech.root: properties

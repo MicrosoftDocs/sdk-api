@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetLineFromAddrW64
 title: SymGetLineFromAddrW64 function (dbghelp.h)
-description: Locates the source line for the specified address.
+description: Locates the source line for the specified address. (SymGetLineFromAddrW64)
 helpviewer_keywords: ["SymGetLineFromAddr","SymGetLineFromAddr function","SymGetLineFromAddr64","SymGetLineFromAddr64 function","SymGetLineFromAddrW64","_win32_symgetlinefromaddr64","base.symgetlinefromaddr64","dbghelp/SymGetLineFromAddr","dbghelp/SymGetLineFromAddr64","dbghelp/SymGetLineFromAddrW64"]
 old-location: base\symgetlinefromaddr64.htm
 tech.root: Debug

@@ -54,15 +54,15 @@ The <b>WindowsMediaLibrarySharingDeviceAuthorizationStatus</b> enumeration defin
 
 ## -enum-fields
 
-### -field DEVICE_AUTHORIZATION_UNKNOWN
+### -field DEVICE_AUTHORIZATION_UNKNOWN:0
 
 It is not known whether the device is authorized to have access to the media library.
 
-### -field DEVICE_AUTHORIZATION_ALLOWED
+### -field DEVICE_AUTHORIZATION_ALLOWED:1
 
 The device is authorized to have access to the media library.
 
-### -field DEVICE_AUTHORIZATION_DENIED
+### -field DEVICE_AUTHORIZATION_DENIED:2
 
 The device is not authorized to have access to the media library.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetBounds(RectF,constMatrix,constPen)
 title: GraphicsPath::GetBounds
-description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
+description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path. (overload 2/2)
 tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::GetBounds"]
 ms.assetid: a6a44cf0-78a9-4a1c-95f8-06d2ac32339b

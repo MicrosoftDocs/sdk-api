@@ -56,7 +56,7 @@ Contains values that specify the preferred response of the protocol to a logon e
 
 ## -enum-fields
 
-### -field WTS_LOGON_ERR_INVALID
+### -field WTS_LOGON_ERR_INVALID:0
 
 This value is used for safe initialization.
 

@@ -100,8 +100,8 @@ The <b>EMRTEXT</b> structure is used as a member in the <a href="/windows/deskto
 
 
 
-<a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>
+<a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a>
 
 
 
-<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
+<a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>

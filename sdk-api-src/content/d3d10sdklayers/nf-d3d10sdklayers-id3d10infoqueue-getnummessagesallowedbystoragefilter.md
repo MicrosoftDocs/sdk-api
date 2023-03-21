@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter
 title: ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter (d3d10sdklayers.h)
-description: Get the number of messages that were allowed to pass through a storage filter.
+description: Get the number of messages that were allowed to pass through a storage filter. (ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter)
 helpviewer_keywords: ["6838097c-89e3-6883-6083-5d0d9ada7647","GetNumMessagesAllowedByStorageFilter","GetNumMessagesAllowedByStorageFilter method [Direct3D 10]","GetNumMessagesAllowedByStorageFilter method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetNumMessagesAllowedByStorageFilter method","ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter","ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter","d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter","direct3d10.id3d10infoqueue_getnummessagesallowedbystoragefilter"]
 old-location: direct3d10\id3d10infoqueue_getnummessagesallowedbystoragefilter.htm
 tech.root: direct3d10

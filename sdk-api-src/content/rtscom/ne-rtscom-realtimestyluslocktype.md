@@ -54,27 +54,27 @@ Specifies the locks within the <a href="/windows/desktop/tablet/realtimestylus-c
 
 ## -enum-fields
 
-### -field RTSLT_ObjLock
+### -field RTSLT_ObjLock:0x1
 
 The object lock protects the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object's members and properties from modification.
 
-### -field RTSLT_SyncEventLock
+### -field RTSLT_SyncEventLock:0x2
 
 The object lock protects the synchronous plug-in collection from modification during event broadcasts.
 
-### -field RTSLT_AsyncEventLock
+### -field RTSLT_AsyncEventLock:0x4
 
 The object lock protects the asynchronous plug-in collection from modification during event broadcasts.
 
-### -field RTSLT_ExcludeCallback
+### -field RTSLT_ExcludeCallback:0x8
 
 The system excludes callbacks from the object's event or modification lock.
 
-### -field RTSLT_SyncObjLock
+### -field RTSLT_SyncObjLock:0xb
 
 The object lock protects the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> synchronous object's members and properties from modification.
 
-### -field RTSLT_AsyncObjLock
+### -field RTSLT_AsyncObjLock:0xd
 
 The object lock protects the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> asynchronous object's members and properties from modification.
 

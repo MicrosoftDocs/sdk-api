@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITACDGroup.EnumerateQueues
 title: ITACDGroup::EnumerateQueues (tapi3.h)
-description: The EnumerateQueues method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Queues method.
+description: The ITACDGroup::EnumerateQueues method (tapi3.h) enumerates queues currently on the ACD group. This method is provided for C and C++ applications.
 helpviewer_keywords: ["EnumerateQueues","EnumerateQueues method [TAPI 2.2]","EnumerateQueues method [TAPI 2.2]","ITACDGroup interface","ITACDGroup interface [TAPI 2.2]","EnumerateQueues method","ITACDGroup.EnumerateQueues","ITACDGroup::EnumerateQueues","_tapi3_itacdgroup_enumeratequeues","tapi3.itacdgroup_enumeratequeues","tapi3cc/ITACDGroup::EnumerateQueues"]
 old-location: tapi3\itacdgroup_enumeratequeues.htm
 tech.root: tapi3
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
 req.header: tapi3.h
 req.include-header: Tapi3.h

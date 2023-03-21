@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateCollection.put_Item
 title: IUpdateCollection::put_Item (wuapi.h)
-description: Gets or sets an IUpdate interface in a collection.
+description: Gets or sets an IUpdate interface in a collection. (Put)
 helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","Item property","IUpdateCollection.Item","IUpdateCollection.put_Item","IUpdateCollection::Item","IUpdateCollection::get_Item","IUpdateCollection::put_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IUpdateCollection interface","put_Item","wua.iupdatecollection_item","wuapi/IUpdateCollection::Item","wuapi/IUpdateCollection::get_Item","wuapi/IUpdateCollection::put_Item"]
 old-location: wua\iupdatecollection_item.htm
 tech.root: wua

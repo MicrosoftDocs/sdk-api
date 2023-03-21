@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_PenTip
 title: IInkDrawingAttributes::get_PenTip (msinkaut.h)
-description: Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this InkDrawingAttributes object.
+description: Gets or sets a value that indicates which pen tip to use when drawing ink that is associated with this InkDrawingAttributes object. (Get)
 helpviewer_keywords: ["13e3c2dc-99a4-4643-b8b2-48586b0eb2f0","IInkDrawingAttributes interface [Tablet PC]","PenTip property","IInkDrawingAttributes.PenTip","IInkDrawingAttributes.get_PenTip","IInkDrawingAttributes::PenTip","IInkDrawingAttributes::get_PenTip","IInkDrawingAttributes::put_PenTip","InkDrawingAttributes.get_PenTip","InkDrawingAttributes.put_PenTip","PenTip property [Tablet PC]","PenTip property [Tablet PC]","IInkDrawingAttributes interface","get_PenTip","msinkaut/IInkDrawingAttributes::PenTip","msinkaut/IInkDrawingAttributes::get_PenTip","msinkaut/IInkDrawingAttributes::put_PenTip","put_PenTip","tablet.inkdrawingattributes_pentip"]
 old-location: tablet\inkdrawingattributes_pentip.htm
 tech.root: tablet

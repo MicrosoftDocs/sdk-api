@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11RenderTargetView
 title: ID3D11RenderTargetView (d3d11.h)
-description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering.
+description: A render-target-view interface identifies the render-target subresources that can be accessed during rendering. (ID3D11RenderTargetView)
 helpviewer_keywords: ["ID3D11RenderTargetView","ID3D11RenderTargetView interface [Direct3D 11]","ID3D11RenderTargetView interface [Direct3D 11]","described","d3d11/ID3D11RenderTargetView","direct3d11.id3d11rendertargetview","ffd3acf9-f2dc-0823-23c9-1188e5ede6f2"]
 old-location: direct3d11\id3d11rendertargetview.htm
 tech.root: direct3d11

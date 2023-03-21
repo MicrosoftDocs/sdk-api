@@ -101,25 +101,25 @@ For more information, see
 
 ## -enum-fields
 
-### -field wbemImpersonationLevelAnonymous
+### -field wbemImpersonationLevelAnonymous:1
 
 Short name: Anonymous
 
 Hides the credentials of the caller. Calls to WMI may fail with this impersonation level.
 
-### -field wbemImpersonationLevelIdentify
+### -field wbemImpersonationLevelIdentify:2
 
 Short name: Identify
 
 Allows objects to query the credentials of the caller. Calls to WMI may fail with this impersonation level.
 
-### -field wbemImpersonationLevelImpersonate
+### -field wbemImpersonationLevelImpersonate:3
 
 Short name: Impersonate
 
 Allows objects to use the credentials of the caller. This is the recommended impersonation level for Scripting API for WMI calls.
 
-### -field wbemImpersonationLevelDelegate
+### -field wbemImpersonationLevelDelegate:4
 
 Short name: Delegate
 

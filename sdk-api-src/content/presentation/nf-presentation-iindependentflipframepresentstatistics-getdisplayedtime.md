@@ -46,7 +46,7 @@ Gets the time the present was displayed.
 
 ## -returns
 
-TYPE: **[SystemInterruptTime](ns-presentationtypes-systeminterrupttime.md)**
+TYPE: **[SystemInterruptTime](/windows/win32/api/presentationtypes/ns-presentationtypes-systeminterrupttime)**
 
 The time the present was displayed.
 

@@ -49,7 +49,7 @@ api_name:
  - EventAccessQuery
 ---
 
-# EventAccessQuery function
+# EventAccessQuery function (evntcons.h)
 
 
 ## -description

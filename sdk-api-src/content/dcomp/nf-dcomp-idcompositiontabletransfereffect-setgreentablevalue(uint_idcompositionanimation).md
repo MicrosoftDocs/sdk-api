@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenTableValue(UINT,IDCompositionAnimation)
 title: IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation) (dcomp.h)
-description: Sets a value in the green table.
+description: Sets a value in the green table. (overload 1/2)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetGreenTableValue method","IDCompositionTableTransferEffect.SetGreenTableValue","IDCompositionTableTransferEffect.SetGreenTableValue(UINT","IDCompositionAnimation)","IDCompositionTableTransferEffect::SetGreenTableValue","IDCompositionTableTransferEffect::SetGreenTableValue(UINT","IDCompositionAnimation)","SetGreenTableValue","SetGreenTableValue method [DirectComposition]","SetGreenTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetGreenTableValue","directcomp.idcompositiontabletransfereffect_setgreentablevalue_2"]
 old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue_2.htm
 tech.root: directcomp

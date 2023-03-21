@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_DESC
 title: D3D10_BUFFER_DESC (d3d10.h)
-description: Describes a buffer resource.
+description: Describes a buffer resource. (D3D10_BUFFER_DESC)
 helpviewer_keywords: ["1eca8f2f-7776-2027-7a51-209cc4fd7200","CD3D10_BUFFER_DESC","D3D10_BUFFER_DESC","D3D10_BUFFER_DESC structure [Direct3D 10]","d3d10/D3D10_BUFFER_DESC","direct3d10.d3d10_buffer_desc"]
 old-location: direct3d10\d3d10_buffer_desc.htm
 tech.root: direct3d10

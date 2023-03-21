@@ -58,11 +58,11 @@ Specifies whether a log is ephemeral.
 
 ## -enum-fields
 
-### -field ClfsLogArchiveEnabled
+### -field ClfsLogArchiveEnabled:0x01
 
 Enables log archive (ephemeral logs) support.
 
-### -field ClfsLogArchiveDisabled
+### -field ClfsLogArchiveDisabled:0x02
 
 Disables ephemeral logs.
 

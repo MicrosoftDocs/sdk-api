@@ -64,7 +64,7 @@ A handle to the DC whose final translation origin is to be retrieved.
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the final translation origin, in device coordinates.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the final translation origin, in device coordinates.
 
 ## -returns
 
@@ -90,4 +90,4 @@ The final translation origin is relative to the physical origin of the screen.
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

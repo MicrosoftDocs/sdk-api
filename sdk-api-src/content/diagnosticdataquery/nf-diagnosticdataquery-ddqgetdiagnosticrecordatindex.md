@@ -56,7 +56,7 @@ Index of the record to be fetched.
 
 ### -param record
 
-Type: **[DIAGNOSTIC_DATA_RECORD\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_record)**
+Type: **[DIAGNOSTIC_DATA_RECORD\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record)**
 This output parameter is a pointer to the record at the specified index.
 
 ## -returns

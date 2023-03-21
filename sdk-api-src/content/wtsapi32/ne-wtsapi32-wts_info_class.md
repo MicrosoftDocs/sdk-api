@@ -184,6 +184,8 @@ The RDP protocol.
 
 This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
+To caculate session idle time, use the <a href="https://learn.microsoft.com/en-us/windows/win32/api/wtsapi32/ns-wtsapi32-wtsinfoa">LastInputTime</a> structure field.
+
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSLogonTime

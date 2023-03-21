@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocNetworks.Reset
 title: IEnumDot11AdHocNetworks::Reset (adhoc.h)
-description: Resets to the beginning of the enumeration sequence.
+description: Resets to the beginning of the enumeration sequence. (IEnumDot11AdHocNetworks.Reset)
 helpviewer_keywords: ["IEnumDot11AdHocNetworks interface [NativeWIFI]","Reset method","IEnumDot11AdHocNetworks.Reset","IEnumDot11AdHocNetworks::Reset","Reset","Reset method [NativeWIFI]","Reset method [NativeWIFI]","IEnumDot11AdHocNetworks interface","adhoc/IEnumDot11AdHocNetworks::Reset","nwifi.ienumdot11adhocnetworks_reset"]
 old-location: nwifi\ienumdot11adhocnetworks_reset.htm
 tech.root: nwifi

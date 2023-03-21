@@ -4,7 +4,7 @@ title: Iprtrmib.h header
 ms.assetid: 70b4bda9-716f-335c-9f7c-f2413550adb3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: iphlp
 f1_keywords:
  - iprtrmib

@@ -51,14 +51,14 @@ Provides flags for the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-co
 
 ## -enum-fields
 
-### -field CWMO_DEFAULT
+### -field CWMO_DEFAULT:0
 
 No call dispatch.
 
-### -field CWMO_DISPATCH_CALLS
+### -field CWMO_DISPATCH_CALLS:1
 
 Dispatch calls from <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects">CoWaitForMultipleObjects</a> (default is no call dispatch).
 
-### -field CWMO_DISPATCH_WINDOW_MESSAGES
+### -field CWMO_DISPATCH_WINDOW_MESSAGES:2
 
 Enable dispatch of window messages from <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects">CoWaitForMultipleObjects</a> in a ASTA or STA (default in ASTA is no window messages dispatched, default in STA is only a small set of special-cased messages dispatched). The value has no meaning in MTA and is ignored.

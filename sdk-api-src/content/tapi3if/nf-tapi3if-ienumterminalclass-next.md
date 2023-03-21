@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumTerminalClass.Next
 title: IEnumTerminalClass::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumTerminalClass.Next)
 helpviewer_keywords: ["IEnumTerminalClass interface [TAPI 2.2]","Next method","IEnumTerminalClass.Next","IEnumTerminalClass::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumTerminalClass interface","_tapi3_ienumterminalclass_next","tapi3.ienumterminalclass_next","tapi3if/IEnumTerminalClass::Next"]
 old-location: tapi3\ienumterminalclass_next.htm
 tech.root: tapi3

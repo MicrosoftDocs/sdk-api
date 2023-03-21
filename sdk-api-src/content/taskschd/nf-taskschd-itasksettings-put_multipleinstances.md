@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_MultipleInstances
 title: ITaskSettings::put_MultipleInstances (taskschd.h)
-description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
+description: Gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","MultipleInstances property","ITaskSettings.MultipleInstances","ITaskSettings.put_MultipleInstances","ITaskSettings::MultipleInstances","ITaskSettings::get_MultipleInstances","ITaskSettings::put_MultipleInstances","MultipleInstances property [Task Scheduler]","MultipleInstances property [Task Scheduler]","ITaskSettings interface","TASK_INSTANCES_IGNORE_NEW","TASK_INSTANCES_PARALLEL","TASK_INSTANCES_QUEUE","TASK_INSTANCES_STOP_EXISTING","put_MultipleInstances","taskschd.itasksettings_multipleinstances","taskschd/ITaskSettings::MultipleInstances","taskschd/ITaskSettings::get_MultipleInstances","taskschd/ITaskSettings::put_MultipleInstances"]
 old-location: taskschd\itasksettings_multipleinstances.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Skip
 title: IEnumBackgroundCopyFiles::Skip (bits.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBackgroundCopyFiles.Skip)
 helpviewer_keywords: ["IEnumBackgroundCopyFiles interface [BITS]","Skip method","IEnumBackgroundCopyFiles.Skip","IEnumBackgroundCopyFiles::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBackgroundCopyFiles interface","_drz_ienumbackgroundcopyfiles_skip","bits.ienumbackgroundcopyfiles_skip","bits/IEnumBackgroundCopyFiles::Skip"]
 old-location: bits\ienumbackgroundcopyfiles_skip.htm
 tech.root: Bits

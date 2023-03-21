@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.CountRefs
 title: IRpcStubBuffer::CountRefs (objidl.h)
-description: Retrieves the total number of references that a stub has on the server object to which it is connected.
+description: The IRpcStubBuffer::CountRefs method (objidl.h) retrieves the total number of references that a stub has on the server object to which it is connected.
 helpviewer_keywords: ["CountRefs","CountRefs method [COM]","CountRefs method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","CountRefs method","IRpcStubBuffer.CountRefs","IRpcStubBuffer::CountRefs","_com_irpcstubbuffer_countrefs","com.irpcstubbuffer_countrefs","objidlbase/IRpcStubBuffer::CountRefs"]
 old-location: com\irpcstubbuffer_countrefs.htm
 tech.root: com
 ms.assetid: 0a2a629a-b935-47a2-a4c6-ba9f20641a03
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: CountRefs, CountRefs method [COM], CountRefs method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],CountRefs method, IRpcStubBuffer.CountRefs, IRpcStubBuffer::CountRefs, _com_irpcstubbuffer_countrefs, com.irpcstubbuffer_countrefs, objidlbase/IRpcStubBuffer::CountRefs
 req.header: objidl.h
 req.include-header: ObjIdl.h

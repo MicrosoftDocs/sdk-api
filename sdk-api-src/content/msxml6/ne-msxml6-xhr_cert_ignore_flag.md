@@ -56,19 +56,19 @@ Defines flags that you can assign to an outgoing HTTP request to ignore certain 
 
 ## -enum-fields
 
-### -field XHR_CERT_IGNORE_REVOCATION_FAILED
+### -field XHR_CERT_IGNORE_REVOCATION_FAILED:0x80UL
 
 Ignore certificate revocation errors.
 
-### -field XHR_CERT_IGNORE_UNKNOWN_CA
+### -field XHR_CERT_IGNORE_UNKNOWN_CA:0x100UL
 
 Ignore a certificate error for an unknown or invalid certificate authority.
 
-### -field XHR_CERT_IGNORE_CERT_CN_INVALID
+### -field XHR_CERT_IGNORE_CERT_CN_INVALID:0x1000UL
 
 Ignore a certificate error caused by an invalid common name. This allows an invalid common name in a certificate where the server name specified by the app for the requested URL does not match the common name in the server certificate.
 
-### -field XHR_CERT_IGNORE_CERT_DATE_INVALID
+### -field XHR_CERT_IGNORE_CERT_DATE_INVALID:0x2000UL
 
 Ignore a certificate error caused by an invalid date in the certificate. This allows certificates that are expired or not yet effective.
 

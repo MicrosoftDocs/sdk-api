@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetRequestOfflineDomainJoin
 title: NetRequestOfflineDomainJoin function (lmjoin.h)
-description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
+description: Executes locally on a machine to modify a Windows operating system image mounted on a volume. (NetRequestOfflineDomainJoin)
 helpviewer_keywords: ["NETSETUP_PROVISION_ONLINE_CALLER","NetRequestOfflineDomainJoin","NetRequestOfflineDomainJoin function [Network Management]","lmjoin/NetRequestOfflineDomainJoin","netmgmt.netrequestofflinedomainjoin"]
 old-location: netmgmt\netrequestofflinedomainjoin.htm
 tech.root: NetMgmt

@@ -47,7 +47,6 @@ api_name:
 
 # IPrintDocumentPackageTarget::Cancel
 
-
 ## -description
 
 Cancels the current print job.

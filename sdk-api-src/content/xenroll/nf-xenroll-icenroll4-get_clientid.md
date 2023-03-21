@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_ClientId
 title: ICEnroll4::get_ClientId (xenroll.h)
-description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface.
+description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface. (Get)
 helpviewer_keywords: ["ClientID property [Security]","ClientID property [Security]","ICEnroll4 interface","ICEnroll4 interface [Security]","ClientID property","ICEnroll4.ClientID","ICEnroll4.get_ClientId","ICEnroll4::ClientID","ICEnroll4::get_ClientID","ICEnroll4::get_ClientId","ICEnroll4::put_ClientID","XECI_AUTOENROLL","XECI_CERTREQ","XECI_DISABLE","XECI_REQWIZARD","XECI_XENROLL","get_ClientId","security.icenroll4_clientid","xenroll/ICEnroll4::ClientID","xenroll/ICEnroll4::get_ClientID","xenroll/ICEnroll4::put_ClientID"]
 old-location: security\icenroll4_clientid.htm
 tech.root: security

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.lstrcatA
 title: lstrcatA function (winbase.h)
-description: Appends one string to another.Warning  Do not use.
-helpviewer_keywords: ["_win32_lstrcat","_win32_lstrcat_cpp","lstrcat","lstrcat function [Menus and Other Resources]","lstrcatA","lstrcatW","menurc.lstrcat","winbase/lstrcat","winbase/lstrcatA","winbase/lstrcatW","winui._win32_lstrcat"]
+description: Appends one string to another.Warning  Do not use. (ANSI)
+helpviewer_keywords: ["lstrcatA", "winbase/lstrcatA"]
 old-location: menurc\lstrcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcat.htm

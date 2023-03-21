@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(constXMUBYTE2&)
 title: XMUBYTE2::XMUBYTE2(const XMUBYTE2 &) (directxpackedvector.h)
-description: A constructor for XMUBYTE2.
+description: A constructor for XMUBYTE2. (overload 2/3)
 helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(const XMUBYTE2 &)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(const XMUBYTE2 &)","dxmath.xmubyte2_ctor_1"]
 old-location: 
 tech.root: dxmath

@@ -94,7 +94,8 @@ structure that you pass to the
   use **EventRecordCallback**, you must include
   **PROCESS_TRACE_MODE_EVENT_RECORD** in the **ProcessTraceMode** value.
 
-> [!Note] If your **EventRecordCallback** function is receiving garbled data
+> [!Note]
+> If your **EventRecordCallback** function is receiving garbled data
 > from **ProcessTrace**, double-check the flags specified in the
 > `ProcessTraceMode` field of the `EVENT_TRACE_LOGFILE` structure that was
 > provided to **OpenTrace**. `EVENT_TRACE_LOGFILE`'s **EventCallback** and
@@ -175,7 +176,7 @@ might not be delivered in their original order.
 > implementation assumes that all events in a buffer are sorted by timestamp and
 > that each buffer contains events for a single span of time that does not
 > overlap the span of any other buffer in that buffer's stream. When these
-> assumptions are not met, ProcessTrace may deliver events out-of-order.
+> assumptions are not met,[ProcessTrace](nf-evntrace-processtrace.md)may deliver events out-of-order.
 
 When a real-time trace collection session has no associated trace processing
 sessions, collected events will be buffered by the system until the buffer is
@@ -187,7 +188,8 @@ connects to the same trace collection session, it will receive the synthetic
 events and the newly-generated real-time events (the second trace processing
 session will not receive older events).
 
-> [!Important] When processing events from a real-time session, if the
+> [!Important]
+> When processing events from a real-time session, if the
 > processing callback takes too much time to process each event and events
 > arrive too quickly, it will get behind. The system will buffer events to
 > prevent data loss but this increases system resource usage (e.g. memory and

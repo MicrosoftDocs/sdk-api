@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxRecipient.put_FaxNumber
 title: IFaxRecipient::put_FaxNumber (faxcomex.h)
-description: The IFaxRecipient::get_FaxNumber property is a null-terminated string that contains the fax number associated with the recipient.
+description: The IFaxRecipient::get_FaxNumber property is a null-terminated string that contains the fax number associated with the recipient. (Put)
 helpviewer_keywords: ["FaxNumber property [Fax Service]","FaxNumber property [Fax Service]","IFaxRecipient interface","IFaxRecipient interface [Fax Service]","FaxNumber property","IFaxRecipient.FaxNumber","IFaxRecipient.get_FaxNumber","IFaxRecipient.put_FaxNumber","IFaxRecipient::FaxNumber","IFaxRecipient::get_FaxNumber","IFaxRecipient::put_FaxNumber","_mfax_faxrecipient.faxnumber","fax._mfax_faxrecipient_cpp_mfax_faxrecipient_faxnumber_cpp","fax._mfax_faxrecipient_faxnumber","faxcomex/IFaxRecipient::FaxNumber","faxcomex/IFaxRecipient::get_FaxNumber","faxcomex/IFaxRecipient::put_FaxNumber","put_FaxNumber"]
 old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_faxnumber_cpp.htm
 tech.root: Fax

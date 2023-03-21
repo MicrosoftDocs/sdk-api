@@ -1,12 +1,12 @@
 ---
 UID: NS:clusapi._CLUSTER_MEMBERSHIP_INFO
 title: CLUSTER_MEMBERSHIP_INFO (clusapi.h)
-description: Represents membership information for a cluster.
+description: The CLUSTER_MEMBERSHIP_INFO (clusapi.h) structure represents the membership information for a cluster.
 helpviewer_keywords: ["*PCLUSTER_MEMBERSHIP_INFO","CLUSTER_MEMBERSHIP_INFO","CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster]","PCLUSTER_MEMBERSHIP_INFO","PCLUSTER_MEMBERSHIP_INFO structure pointer [Failover Cluster]","_CLUSTER_MEMBERSHIP_INFO","_CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster]","clusapi/CLUSTER_MEMBERSHIP_INFO","clusapi/PCLUSTER_MEMBERSHIP_INFO","clusapi/_CLUSTER_MEMBERSHIP_INFO","msclus/CLUSTER_MEMBERSHIP_INFO","msclus/PCLUSTER_MEMBERSHIP_INFO","msclus/_CLUSTER_MEMBERSHIP_INFO","mscs.cluster_membership_info"]
 old-location: mscs\cluster_membership_info.htm
 tech.root: MsCS
 ms.assetid: 4E3F8DFF-6F32-4729-9AAC-56B3E2592393
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PCLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], PCLUSTER_MEMBERSHIP_INFO, PCLUSTER_MEMBERSHIP_INFO structure pointer [Failover Cluster], _CLUSTER_MEMBERSHIP_INFO, _CLUSTER_MEMBERSHIP_INFO structure [Failover Cluster], clusapi/CLUSTER_MEMBERSHIP_INFO, clusapi/PCLUSTER_MEMBERSHIP_INFO, clusapi/_CLUSTER_MEMBERSHIP_INFO, msclus/CLUSTER_MEMBERSHIP_INFO, msclus/PCLUSTER_MEMBERSHIP_INFO, msclus/_CLUSTER_MEMBERSHIP_INFO, mscs.cluster_membership_info'
 req.header: clusapi.h
 req.include-header: 

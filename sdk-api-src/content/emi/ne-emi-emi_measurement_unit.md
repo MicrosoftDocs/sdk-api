@@ -1,5 +1,5 @@
 ---
-UID: NE:emi.__unnamed_enum_0
+UID: NE:emi.EMI_MEASUREMENT_UNIT
 title: EMI_MEASUREMENT_UNIT (emi.h)
 description: The EMI_MEASUREMENT_UNIT enumeration represents the available units of energy measurements that can be retrieved from a device by using IOCTL_EMI_GET_MEASUREMENT.
 helpviewer_keywords: ["EMI_MEASUREMENT_UNIT","EMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices]","EmiMeasurementUnitPicowattHours","emi/EMI_MEASUREMENT_UNIT","emi/EmiMeasurementUnitPicowattHours","powermeter.emi_measurement_unit"]
@@ -75,3 +75,4 @@ In devices that implement <b>EMI_VERSION_V1</b>, picowatt-hours is the only supp
 
 
 <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>
+

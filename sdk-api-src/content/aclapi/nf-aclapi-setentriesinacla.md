@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.SetEntriesInAclA
 title: SetEntriesInAclA function (aclapi.h)
-description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.
-helpviewer_keywords: ["SetEntriesInAcl","SetEntriesInAcl function [Security]","SetEntriesInAclA","SetEntriesInAclW","_win32_setentriesinacl","aclapi/SetEntriesInAcl","aclapi/SetEntriesInAclA","aclapi/SetEntriesInAclW","security.setentriesinacl"]
+description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure. (ANSI)
+helpviewer_keywords: ["SetEntriesInAclA", "aclapi/SetEntriesInAclA"]
 old-location: security\setentriesinacl.htm
 tech.root: security
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c

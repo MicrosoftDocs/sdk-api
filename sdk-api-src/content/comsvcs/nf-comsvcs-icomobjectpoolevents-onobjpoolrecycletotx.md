@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolRecycleToTx
 title: IComObjectPoolEvents::OnObjPoolRecycleToTx (comsvcs.h)
-description: Generated when a transactional object is returned to the pool.
+description: Generated when a transactional object is returned to the pool. (IComObjectPoolEvents.OnObjPoolRecycleToTx)
 helpviewer_keywords: ["IComObjectPoolEvents interface [COM+]","OnObjPoolRecycleToTx method","IComObjectPoolEvents.OnObjPoolRecycleToTx","IComObjectPoolEvents::OnObjPoolRecycleToTx","OnObjPoolRecycleToTx","OnObjPoolRecycleToTx method [COM+]","OnObjPoolRecycleToTx method [COM+]","IComObjectPoolEvents interface","_dtc_icomobjectpoolevents_onobjpoolrecycletotx","comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx","cos.icomobjectpoolevents_onobjpoolrecycletotx"]
 old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm
 tech.root: cos

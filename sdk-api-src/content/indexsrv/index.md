@@ -4,7 +4,7 @@ title: Indexsrv.h header
 ms.assetid: 9322b589-ec22-3f3d-9f92-5cc7ded5709b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: indexsrv
 f1_keywords:
  - indexsrv

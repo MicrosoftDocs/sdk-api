@@ -1,7 +1,7 @@
 ---
 UID: NC:perflib.PERF_MEM_ALLOC
 title: PERF_MEM_ALLOC (perflib.h)
-description: Providers implement this function to provide custom memory management for PERFLIB.
+description: Providers implement this function to provide custom memory management for PERFLIB.A
 helpviewer_keywords: ["AllocateMemory","AllocateMemory callback function [Perf]","PERF_MEM_ALLOC","PERF_MEM_ALLOC callback","perf.allocatememory","perflib/AllocateMemory"]
 old-location: perf\allocatememory.htm
 tech.root: perf

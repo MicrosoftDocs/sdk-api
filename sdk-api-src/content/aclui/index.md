@@ -4,7 +4,7 @@ title: Aclui.h header
 ms.assetid: eb0a39ca-cecb-3c84-93be-39d8e13e320e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - aclui

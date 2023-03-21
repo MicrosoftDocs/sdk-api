@@ -56,22 +56,22 @@ Defines the possible ways in which elevated users are notified about   Automatic
 
 ## -enum-fields
 
-### -field aunlNotConfigured
+### -field aunlNotConfigured:0
 
 Automatic Updates is not configured by the user or by a Group Policy administrator. Users are periodically prompted to configure Automatic Updates.
 
-### -field aunlDisabled
+### -field aunlDisabled:1
 
 Automatic Updates is disabled. Users are not  notified of important updates for the computer.
 
-### -field aunlNotifyBeforeDownload
+### -field aunlNotifyBeforeDownload:2
 
 Automatic Updates  prompts users to approve updates before it downloads or installs the updates.
 
-### -field aunlNotifyBeforeInstallation
+### -field aunlNotifyBeforeInstallation:3
 
 Automatic Updates  automatically downloads updates, but  prompts users to approve the updates before installation.
 
-### -field aunlScheduledInstallation
+### -field aunlScheduledInstallation:4
 
 Automatic Updates  automatically installs updates according to the schedule that is specified by the user or by the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationday">IAutomaticUpdatesSettings.ScheduledInstallationDay</a> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_scheduledinstallationtime">IAutomaticUPdatesSettings.ScheduledInstallationTime</a> properties. This setting is the recommended setting.

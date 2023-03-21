@@ -1,7 +1,7 @@
 ---
 UID: NS:wincred._CREDUI_INFOW
 title: CREDUI_INFOW (wincred.h)
-description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
+description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information. (Unicode)
 helpviewer_keywords: ["*PCREDUI_INFOW","CREDUI_INFO","CREDUI_INFO structure [Security]","CREDUI_INFOW","PCREDUI_INFO","PCREDUI_INFO structure pointer [Security]","_cred_credui_info","security.credui_info","wincred/CREDUI_INFO","wincred/PCREDUI_INFO"]
 old-location: security\credui_info.htm
 tech.root: security

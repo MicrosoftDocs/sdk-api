@@ -55,19 +55,19 @@ The
 
 ## -enum-fields
 
-### -field PBS_UP
+### -field PBS_UP:0x1
 
 State of the button is up.
 
-### -field PBS_DOWN
+### -field PBS_DOWN:0x2
 
 State of the button is down.
 
-### -field PBS_UNKNOWN
+### -field PBS_UNKNOWN:0x4
 
 State of the button is not known.
 
-### -field PBS_UNAVAIL
+### -field PBS_UNAVAIL:0x8
 
 State of the button is not available.
 

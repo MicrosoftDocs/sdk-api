@@ -56,7 +56,7 @@ Describes the caching mode used in methods such as <a href="/previous-versions/w
 
 ## -enum-fields
 
-### -field OFFLINEFILES_CACHING_MODE_NONE
+### -field OFFLINEFILES_CACHING_MODE_NONE:0
 
 No caching mode value was found.
 

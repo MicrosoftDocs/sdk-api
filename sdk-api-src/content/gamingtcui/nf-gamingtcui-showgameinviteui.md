@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ShowGameInviteUI
 title: ShowGameInviteUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ShowGameInviteUI)
 helpviewer_keywords: ["ShowGameInviteUI","ShowGameInviteUI function","gamingtcui/ShowGameInviteUI","tcui.showgameinviteui"]
 old-location: tcui\showgameinviteui.htm
 tech.root: tcui

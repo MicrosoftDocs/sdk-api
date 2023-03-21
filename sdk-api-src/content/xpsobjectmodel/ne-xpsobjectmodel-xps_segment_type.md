@@ -6,7 +6,7 @@ helpviewer_keywords: ["XPS_SEGMENT_TYPE","XPS_SEGMENT_TYPE enumeration [XPS Docu
 old-location: xps\xps_segment_type.htm
 tech.root: xps
 ms.assetid: dc36e80f-0c49-4317-a545-d50c9cbefd03
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: XPS_SEGMENT_TYPE, XPS_SEGMENT_TYPE enumeration [XPS Documents and Packaging], XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_BEZIER, XPS_SEGMENT_TYPE_LINE, XPS_SEGMENT_TYPE_QUADRATIC_BEZIER, xps.xps_segment_type, xpsobjectmodel/XPS_SEGMENT_TYPE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_BEZIER, xpsobjectmodel/XPS_SEGMENT_TYPE_LINE, xpsobjectmodel/XPS_SEGMENT_TYPE_QUADRATIC_BEZIER
 req.header: xpsobjectmodel.h
 req.include-header: 
@@ -56,7 +56,7 @@ Describes a line segment.
 
 ## -enum-fields
 
-### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
+### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE:1
 
 The line segment is an arc that covers more than 180 degrees and is drawn in a clockwise direction from the start point to the end point.
 
@@ -96,11 +96,11 @@ The table that follows shows an example of each segment type.
 </tr>
 <tr>
 <td>
-XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lc.png"/>
+XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE <img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment." src="./images/segment_type_arc_lc.png"/>
 
 </td>
 <td>
-XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lcc.png"/> 
+XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE <img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE figure segment." src="./images/segment_type_arc_lcc.png"/> 
 
 </td>
 </tr>

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetLineCountW
 title: SetupGetLineCountW function (setupapi.h)
-description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.
-helpviewer_keywords: ["SetupGetLineCount","SetupGetLineCount function [Setup API]","SetupGetLineCountA","SetupGetLineCountW","_setupapi_setupgetlinecount","setup.setupgetlinecount","setupapi/SetupGetLineCount","setupapi/SetupGetLineCountA","setupapi/SetupGetLineCountW"]
+description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file. (Unicode)
+helpviewer_keywords: ["SetupGetLineCount", "SetupGetLineCount function [Setup API]", "SetupGetLineCountW", "_setupapi_setupgetlinecount", "setup.setupgetlinecount", "setupapi/SetupGetLineCount", "setupapi/SetupGetLineCountW"]
 old-location: setup\setupgetlinecount.htm
 tech.root: setup
 ms.assetid: 08c98745-ecbd-47b4-9d73-2d6765285bae

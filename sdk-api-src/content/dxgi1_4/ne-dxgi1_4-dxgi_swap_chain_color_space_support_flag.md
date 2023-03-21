@@ -54,11 +54,11 @@ Specifies color space support for the swap chain.
 
 ## -enum-fields
 
-### -field DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_PRESENT
+### -field DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_PRESENT:0x1
 
 Color space support is present.
 
-### -field DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_OVERLAY_PRESENT
+### -field DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_OVERLAY_PRESENT:0x2
 
 Overlay color space support is present.
 

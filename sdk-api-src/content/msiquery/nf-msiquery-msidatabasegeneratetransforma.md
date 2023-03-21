@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseGenerateTransformA
 title: MsiDatabaseGenerateTransformA function (msiquery.h)
-description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
-helpviewer_keywords: ["MsiDatabaseGenerateTransform","MsiDatabaseGenerateTransform function","MsiDatabaseGenerateTransformA","MsiDatabaseGenerateTransformW","_msi_msidatabasegeneratetransform","msiquery/MsiDatabaseGenerateTransform","msiquery/MsiDatabaseGenerateTransformA","msiquery/MsiDatabaseGenerateTransformW","setup.msidatabasegeneratetransform"]
+description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases. (ANSI)
+helpviewer_keywords: ["MsiDatabaseGenerateTransformA", "msiquery/MsiDatabaseGenerateTransformA"]
 old-location: setup\msidatabasegeneratetransform.htm
 tech.root: setup
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95

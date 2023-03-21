@@ -56,19 +56,19 @@ Defines the proxy access type flags.
 
 ## -enum-fields
 
-### -field WSManProxyIEConfig
+### -field WSManProxyIEConfig:0x1
 
 Use the Internet Explorer proxy configuration for the current user.
 
-### -field WSManProxyWinHttpConfig
+### -field WSManProxyWinHttpConfig:0x2
 
 Use the proxy settings configured for WinHTTP. This is the default setting.
 
-### -field WSManProxyAutoDetect
+### -field WSManProxyAutoDetect:0x4
 
 Force autodetection of a proxy.
 
-### -field WSManProxyNoProxyServer
+### -field WSManProxyNoProxyServer:0x8
 
 Do not use a proxy server. All host names are resolved locally.
 

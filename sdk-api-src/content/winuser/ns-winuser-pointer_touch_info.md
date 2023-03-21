@@ -63,15 +63,15 @@ An embedded [POINTER_INFO](ns-winuser-pointer_info.md) header structure.
 
 ### -field touchFlags
 
-Type: **[Touch Flags](/previous-versions/windows/desktop/inputmsg/touch-flags-constants)**
+Type: **[Touch Flags](/windows/win32/inputmsg/touch-flags-constants)**
 
 Currently none.
 
 ### -field touchMask
 
-Type: **[Touch Mask](/previous-versions/windows/desktop/inputmsg/touch-mask-constants)**
+Type: **[Touch Mask](/windows/win32/inputmsg/touch-mask-constants)**
 
-Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the [Touch Mask](/previous-versions/windows/desktop/inputmsg/touch-mask-constants) constants.
+Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the [Touch Mask](/windows/win32/inputmsg/touch-mask-constants) constants.
 
 ### -field rcContact
 
@@ -97,14 +97,14 @@ A pointer orientation, with a value between 0 and 359, where 0 indicates a touch
 This field defaults to 0 if the device does not report orientation.
 
 > [!NOTE]
-> Some touchscreen devices that support orientation might report a half-range value (0-180) instead of a full range value (0-359).
+> Some touchscreen devices that support orientation will only report half-range (0-180°) values, while other devices will only report full-range (0-359°) values.
 
 ### -field pressure
 
 Type: **UINT32**
 
- A pen pressure normalized to a range between 0 and 1024. The default is 0 if the device does not report pressure.
+ A pen pressure normalized to a range between 0 and 1024. The default is 512.
 
 ## -see-also
 
-[Structures](/previous-versions/windows/desktop/inputmsg/structures)
+[Structures](/windows/win32/winrt/structures)

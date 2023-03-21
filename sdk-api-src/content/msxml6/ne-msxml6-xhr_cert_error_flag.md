@@ -56,7 +56,7 @@ Defines flags that indicate server certificate errors during SSL negotiation wit
 
 ## -enum-fields
 
-### -field XHR_CERT_ERROR_REVOCATION_FAILED
+### -field XHR_CERT_ERROR_REVOCATION_FAILED:0x800000UL
 
 The certificate received from the server has an invalid certificate revocation.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings2.put_UseUnifiedSchedulingEngine
 title: ITaskSettings2::put_UseUnifiedSchedulingEngine (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
+description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task. (Put)
 helpviewer_keywords: ["ITaskSettings2 interface [Task Scheduler]","UseUnifiedSchedulingEngine property","ITaskSettings2.UseUnifiedSchedulingEngine","ITaskSettings2.put_UseUnifiedSchedulingEngine","ITaskSettings2::UseUnifiedSchedulingEngine","ITaskSettings2::get_UseUnifiedSchedulingEngine","ITaskSettings2::put_UseUnifiedSchedulingEngine","UseUnifiedSchedulingEngine property [Task Scheduler]","UseUnifiedSchedulingEngine property [Task Scheduler]","ITaskSettings2 interface","put_UseUnifiedSchedulingEngine","taskschd.itasksettings2_useunifiedschedulingengine","taskschd/ITaskSettings2::UseUnifiedSchedulingEngine","taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine","taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine"]
 old-location: taskschd\itasksettings2_useunifiedschedulingengine.htm
 tech.root: taskschd

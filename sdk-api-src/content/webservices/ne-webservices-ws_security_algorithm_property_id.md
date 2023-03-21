@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_58
+UID: NE:webservices.WS_SECURITY_ALGORITHM_PROPERTY_ID
 title: WS_SECURITY_ALGORITHM_PROPERTY_ID (webservices.h)
 description: Identifies the properties representing security algorithm knobs.
 helpviewer_keywords: ["WS_SECURITY_ALGORITHM_PROPERTY_ID","WS_SECURITY_ALGORITHM_PROPERTY_ID enumeration [Web Services for Windows]","webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID","wsw.ws_security_algorithm_property_id"]

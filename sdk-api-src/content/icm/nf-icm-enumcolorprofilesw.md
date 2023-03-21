@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.EnumColorProfilesW
 title: EnumColorProfilesW
-description: Enumerates all the profiles satisfying the given enumeration criteria.
+description: Enumerates all the profiles satisfying the given enumeration criteria. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath
 title: GetCurrentPackagePath function (appmodel.h)
-description: Gets the package path for the calling process.
+description: Gets the package path for the calling process. (GetCurrentPackagePath)
 helpviewer_keywords: ["GetCurrentPackagePath","GetCurrentPackagePath function [App packaging and management]","appmodel/GetCurrentPackagePath","appxpkg.getcurrentpackagepath"]
 old-location: appxpkg\getcurrentpackagepath.htm
 tech.root: appxpkg

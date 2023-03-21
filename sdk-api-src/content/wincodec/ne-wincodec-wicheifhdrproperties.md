@@ -40,27 +40,27 @@ Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
 
 ## -enum-fields
 
-### -field WICHeifHdrMaximumLuminanceLevel
+### -field WICHeifHdrMaximumLuminanceLevel:0x1
 
 [VT_UI2] Specifies the maximum luminance level of the content in Nits.
 
-### -field WICHeifHdrMaximumFrameAverageLuminanceLevel
+### -field WICHeifHdrMaximumFrameAverageLuminanceLevel:0x2
 
 [VT_UI2] Specifies the maximum average per-frame luminance level of the content in Nits.
 
-### -field WICHeifHdrMinimumMasteringDisplayLuminanceLevel
+### -field WICHeifHdrMinimumMasteringDisplayLuminanceLevel:0x3
 
 [VT_UI2] Specifies the maximum luminance of the display on which the content was authored, in Nits.
 
-### -field WICHeifHdrMaximumMasteringDisplayLuminanceLevel
+### -field WICHeifHdrMaximumMasteringDisplayLuminanceLevel:0x4
 
 [VT_UI2] Specifies the maximum luminance of the display on which the content was authored, in Nits.
 
-### -field WICHeifHdrCustomVideoPrimaries
+### -field WICHeifHdrCustomVideoPrimaries:0x5
 
 [VT_BLOB] Specifies custom color primaries for a video media type. The value of this property is a [MT_CUSTOM_VIDEO_PRIMARIES](/windows/desktop/api/mfapi/ns-mfapi-mt_custom_video_primaries)structure, returned as an array of bytes (VT_BLOB).
 
-### -field WICHeifHdrProperties_FORCE_DWORD
+### -field WICHeifHdrProperties_FORCE_DWORD:0x7fffffff
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILE_CASE_PRESERVED_NAMES","FILE_CASE_SENSITIVE_SEARCH","
 old-location: fs\getvolumeinformationbyhandlew.htm
 tech.root: fs
 ms.assetid: 09fab0a4-23fd-4bd9-b9f6-f0d1597ab609
-ms.date: 12/05/2018
+ms.date: 09/27/2022
 ms.keywords: FILE_CASE_PRESERVED_NAMES, FILE_CASE_SENSITIVE_SEARCH, FILE_FILE_COMPRESSION, FILE_NAMED_STREAMS, FILE_PERSISTENT_ACLS, FILE_READ_ONLY_VOLUME, FILE_SEQUENTIAL_WRITE_ONCE, FILE_SUPPORTS_ENCRYPTION, FILE_SUPPORTS_EXTENDED_ATTRIBUTES, FILE_SUPPORTS_HARD_LINKS, FILE_SUPPORTS_OBJECT_IDS, FILE_SUPPORTS_OPEN_BY_FILE_ID, FILE_SUPPORTS_REPARSE_POINTS, FILE_SUPPORTS_SPARSE_FILES, FILE_SUPPORTS_TRANSACTIONS, FILE_SUPPORTS_USN_JOURNAL, FILE_UNICODE_ON_DISK, FILE_VOLUME_IS_COMPRESSED, FILE_VOLUME_QUOTAS, GetVolumeInformationByHandleW, GetVolumeInformationByHandleW function [Files], fileapi/GetVolumeInformationByHandleW, fs.getvolumeinformationbyhandlew, winbase/GetVolumeInformationByHandleW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -54,14 +54,11 @@ api_name:
 
 # GetVolumeInformationByHandleW function
 
-
 ## -description
 
-Retrieves information about the file system and volume associated with the specified 
-    file.
+Retrieves information about the file system and volume associated with the specified file.
 
-To retrieve the current compression state of a file or directory, use 
-    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression">FSCTL_GET_COMPRESSION</a>.
+To retrieve the current compression state of a file or directory, use [FSCTL_GET_COMPRESSION](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_compression).
 
 ## -parameters
 
@@ -71,13 +68,11 @@ A handle to the file.
 
 ### -param lpVolumeNameBuffer [out, optional]
 
-A pointer to a buffer that receives the name of a specified volume. The maximum buffer size is 
-      <code>MAX_PATH+1</code>.
+A pointer to a buffer that receives the name of a specified volume. The maximum buffer size is `MAX_PATH+1`.
 
 ### -param nVolumeNameSize [in]
 
-The length of a volume name buffer, in <b>WCHAR</b>s. The maximum buffer size is 
-       <code>MAX_PATH+1</code>.
+The length of a volume name buffer, in **WCHAR**s. The maximum buffer size is `MAX_PATH+1`.
 
 This parameter is ignored if the volume name buffer is not supplied.
 
@@ -85,38 +80,39 @@ This parameter is ignored if the volume name buffer is not supplied.
 
 A pointer to a variable that receives the volume serial number.
 
-This parameter can be <b>NULL</b> if the serial number is not required.
+This parameter can be **NULL** if the serial number is not required.
 
-This function returns the volume serial number that the operating system assigns when a hard disk is 
-       formatted. To programmatically obtain the hard disk's serial number that the manufacturer assigns, use the 
-       Windows Management Instrumentation (WMI) 
-       <a href="/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia">Win32_PhysicalMedia</a> property 
-       <b>SerialNumber</b>.
+This function returns the volume serial number that the operating system assigns when a hard disk is formatted. To programmatically obtain the hard disk's serial number that the manufacturer assigns, use the Windows Management Instrumentation (WMI) [Win32_PhysicalMedia](/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia) property **SerialNumber**.
 
 ### -param lpMaximumComponentLength [out, optional]
 
-A pointer to a variable that receives the maximum length, in <b>WCHAR</b>s, of a file 
-       name component  that a specified file system supports.
+A pointer to a variable that receives the maximum length, in **WCHAR**s, of a file name component  that a specified file system supports.
 
 A file name component is the portion of a file name between backslashes.
 
-The value that is stored in the variable  that  *<i>lpMaximumComponentLength</i> points to 
-       is used to indicate that a specified file system supports long names. For example, for a FAT file system that 
-       supports long names, the function stores the value 255, rather than the previous 8.3 indicator. Long names can 
-       also be supported on systems that use the NTFS file system.
+The value that is stored in the variable  that  *_lpMaximumComponentLength_ points to is used to indicate that a specified file system supports long names. For example, for a FAT file system that supports long names, the function stores the value 255, rather than the previous 8.3 indicator. Long names can also be supported on systems that use the NTFS file system.
 
 ### -param lpFileSystemFlags [out, optional]
 
 A pointer to a variable that receives flags associated with the specified file system.
 
-This parameter can be one or more of the following flags. However, 
-       <b>FILE_FILE_COMPRESSION</b> and <b>FILE_VOL_IS_COMPRESSED</b> are mutually 
-       exclusive.
+This parameter can be one or more of the following flags. However, **FILE_FILE_COMPRESSION** and **FILE_VOL_IS_COMPRESSED** are mutually exclusive.
 
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_CASE_SENSITIVE_SEARCH"></a><a id="file_case_sensitive_search"></a><dl>
+<dt><b>FILE_CASE_SENSITIVE_SEARCH</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports case-sensitive file names.
+
+</td>
 </tr>
 <tr>
 <td width="40%"><a id="FILE_CASE_PRESERVED_NAMES"></a><a id="file_case_preserved_names"></a><dl>
@@ -130,13 +126,24 @@ The specified volume supports preserved case of file names when it places a name
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="FILE_CASE_SENSITIVE_SEARCH"></a><a id="file_case_sensitive_search"></a><dl>
-<dt><b>FILE_CASE_SENSITIVE_SEARCH</b></dt>
-<dt>0x00000001</dt>
+<td width="40%"><a id="FILE_UNICODE_ON_DISK"></a><a id="file_unicode_on_disk"></a><dl>
+<dt><b>FILE_UNICODE_ON_DISK</b></dt>
+<dt>0x00000004</dt>
 </dl>
 </td>
 <td width="60%">
-The specified volume supports case-sensitive file names.
+The specified volume supports Unicode in file names as they appear on disk.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_PERSISTENT_ACLS"></a><a id="file_persistent_acls"></a><dl>
+<dt><b>FILE_PERSISTENT_ACLS</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume preserves and enforces access control lists (ACL). For example, the NTFS file system preserves and enforces ACLs, and the FAT file system does not.
 
 </td>
 </tr>
@@ -152,6 +159,72 @@ The specified volume supports file-based compression.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="FILE_VOLUME_QUOTAS"></a><a id="file_volume_quotas"></a><dl>
+<dt><b>FILE_VOLUME_QUOTAS</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports disk quotas.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_SPARSE_FILES"></a><a id="file_supports_sparse_files"></a><dl>
+<dt><b>FILE_SUPPORTS_SPARSE_FILES</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports sparse files.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_REPARSE_POINTS"></a><a id="file_supports_reparse_points"></a><dl>
+<dt><b>FILE_SUPPORTS_REPARSE_POINTS</b></dt>
+<dt>0x00000080</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports re-parse points.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_VOLUME_IS_COMPRESSED"></a><a id="file_volume_is_compressed"></a><dl>
+<dt><b>FILE_VOLUME_IS_COMPRESSED</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume is a compressed volume, for example, a DoubleSpace volume.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_OBJECT_IDS"></a><a id="file_supports_object_ids"></a><dl>
+<dt><b>FILE_SUPPORTS_OBJECT_IDS</b></dt>
+<dt>0x00010000</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports object identifiers.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_ENCRYPTION"></a><a id="file_supports_encryption"></a><dl>
+<dt><b>FILE_SUPPORTS_ENCRYPTION</b></dt>
+<dt>0x00020000</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports the Encrypted File System (EFS). For more information, see <a href="/windows/win32/FileIO/file-encryption">File Encryption</a>.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="FILE_NAMED_STREAMS"></a><a id="file_named_streams"></a><dl>
 <dt><b>FILE_NAMED_STREAMS</b></dt>
 <dt>0x00040000</dt>
@@ -159,18 +232,6 @@ The specified volume supports file-based compression.
 </td>
 <td width="60%">
 The specified volume supports named streams.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_PERSISTENT_ACLS"></a><a id="file_persistent_acls"></a><dl>
-<dt><b>FILE_PERSISTENT_ACLS</b></dt>
-<dt>0x00000008</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume preserves and enforces access control lists (ACL). For example, the NTFS file system 
-        preserves and enforces ACLs, and the FAT file system does not.
 
 </td>
 </tr>
@@ -197,28 +258,13 @@ The specified volume supports a single sequential write.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="FILE_SUPPORTS_ENCRYPTION"></a><a id="file_supports_encryption"></a><dl>
-<dt><b>FILE_SUPPORTS_ENCRYPTION</b></dt>
-<dt>0x00020000</dt>
+<td width="40%"><a id="FILE_SUPPORTS_TRANSACTIONS"></a><a id="file_supports_transactions"></a><dl>
+<dt><b>FILE_SUPPORTS_TRANSACTIONS</b></dt>
+<dt>0x00200000</dt>
 </dl>
 </td>
 <td width="60%">
-The specified volume supports the Encrypted File System (EFS). For more information, see 
-        <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_SUPPORTS_EXTENDED_ATTRIBUTES"></a><a id="file_supports_extended_attributes"></a><dl>
-<dt><b>FILE_SUPPORTS_EXTENDED_ATTRIBUTES</b></dt>
-<dt>0x00800000</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports extended attributes. An extended attribute is a piece of 
-        application-specific metadata that an application can associate with a file and is not part of the file's data.
-
-<b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
+The specified volume supports transactions. For more information, see <a href="/windows/win32/Ktm/about-ktm">About KTM</a>.
 
 </td>
 </tr>
@@ -229,21 +275,22 @@ The specified volume supports extended attributes. An extended attribute is a pi
 </dl>
 </td>
 <td width="60%">
-The specified volume supports hard links. For more information, see 
-        <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
+The specified volume supports hard links. For more information, see <a href="/windows/win32/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
 
-<b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
+<b>Windows Vista and Windows Server 2008: </b>This value is not supported.
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="FILE_SUPPORTS_OBJECT_IDS"></a><a id="file_supports_object_ids"></a><dl>
-<dt><b>FILE_SUPPORTS_OBJECT_IDS</b></dt>
-<dt>0x00010000</dt>
+<td width="40%"><a id="FILE_SUPPORTS_EXTENDED_ATTRIBUTES"></a><a id="file_supports_extended_attributes"></a><dl>
+<dt><b>FILE_SUPPORTS_EXTENDED_ATTRIBUTES</b></dt>
+<dt>0x00800000</dt>
 </dl>
 </td>
 <td width="60%">
-The specified volume supports object identifiers.
+The specified volume supports extended attributes. An extended attribute is a piece of application-specific metadata that an application can associate with a file and is not part of the file's data.
+
+<b>Windows Vista and Windows Server 2008: </b>This value is not supported.
 
 </td>
 </tr>
@@ -254,44 +301,9 @@ The specified volume supports object identifiers.
 </dl>
 </td>
 <td width="60%">
-The file system supports open by FileID. For more information, see 
-        <a href="/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
+The file system supports open by FileID. For more information, see <a href="/windows/win32/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
 
-<b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_SUPPORTS_REPARSE_POINTS"></a><a id="file_supports_reparse_points"></a><dl>
-<dt><b>FILE_SUPPORTS_REPARSE_POINTS</b></dt>
-<dt>0x00000080</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports re-parse points.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_SUPPORTS_SPARSE_FILES"></a><a id="file_supports_sparse_files"></a><dl>
-<dt><b>FILE_SUPPORTS_SPARSE_FILES</b></dt>
-<dt>0x00000040</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports sparse files.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_SUPPORTS_TRANSACTIONS"></a><a id="file_supports_transactions"></a><dl>
-<dt><b>FILE_SUPPORTS_TRANSACTIONS</b></dt>
-<dt>0x00200000</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports transactions. For more information, see 
-        <a href="/windows/desktop/Ktm/about-ktm">About KTM</a>.
+<b>Windows Vista and Windows Server 2008: </b>This value is not supported.
 
 </td>
 </tr>
@@ -302,43 +314,9 @@ The specified volume supports transactions. For more information, see
 </dl>
 </td>
 <td width="60%">
-The specified volume supports update sequence number (USN) journals. For more information, see 
-        <a href="/windows/desktop/FileIO/change-journal-records">Change Journal Records</a>.
+The specified volume supports update sequence number (USN) journals. For more information, see <a href="/windows/win32/FileIO/change-journal-records">Change Journal Records</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_UNICODE_ON_DISK"></a><a id="file_unicode_on_disk"></a><dl>
-<dt><b>FILE_UNICODE_ON_DISK</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports Unicode in file names as they appear on disk.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_VOLUME_IS_COMPRESSED"></a><a id="file_volume_is_compressed"></a><dl>
-<dt><b>FILE_VOLUME_IS_COMPRESSED</b></dt>
-<dt>0x00008000</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume is a compressed volume.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FILE_VOLUME_QUOTAS"></a><a id="file_volume_quotas"></a><dl>
-<dt><b>FILE_VOLUME_QUOTAS</b></dt>
-<dt>0x00000020</dt>
-</dl>
-</td>
-<td width="60%">
-The specified volume supports disk quotas.
 
 </td>
 </tr>
@@ -357,14 +335,11 @@ The specified volume supports sharing logical clusters between files on the same
 
 ### -param lpFileSystemNameBuffer [out, optional]
 
-A pointer to a buffer that receives the name of the file system, for example, the FAT file system or the 
-      NTFS file system. The buffer size is specified by the <i>nFileSystemNameSize</i> 
-      parameter.
+A pointer to a buffer that receives the name of the file system, for example, the FAT file system or the NTFS file system. The buffer size is specified by the _nFileSystemNameSize_ parameter.
 
 ### -param nFileSystemNameSize [in]
 
-The length of the file system name buffer, in <b>WCHAR</b>s. The maximum buffer size 
-       is <code>MAX_PATH+1</code>.
+The length of the file system name buffer, in **WCHAR**s. The maximum buffer size is `MAX_PATH+1`.
 
 This parameter is ignored if the file system name buffer is not supplied.
 
@@ -372,101 +347,36 @@ This parameter is ignored if the file system name buffer is not supplied.
 
 If all the requested information is retrieved, the return value is nonzero.
 
-If not all the requested information is retrieved, the return value is zero. To get extended error 
-       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If not all the requested information is retrieved, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-No
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
+| Technology | Supported |
+|--------|--------|
+| Server Message Block (SMB) 3.0 protocol | No |
+| SMB 3.0 Transparent Failover (TFO) | No |
+| SMB 3.0 with Scale-out File Shares (SO) | No |
+| Cluster Shared Volume File System (CsvFS) | Yes |
+| Resilient File System (ReFS) | Yes |
 
 SMB does not support volume management functions.
 
 ## -see-also
 
-<a href="/windows/desktop/Ktm/about-ktm">About KTM</a>
+[About KTM](/windows/win32/Ktm/about-ktm)
 
+[File Encryption](/windows/win32/FileIO/file-encryption)
 
+[GetCompressedFileSize](/windows/win32/api/fileapi/nf-fileapi-getcompressedfilesizea)
 
-<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
+[GetFileAttributes](/windows/win32/api/fileapi/nf-fileapi-getfileattributesa)
 
+[GetVolumeInformation](/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationa)
 
+[SetErrorMode](/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode)
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
+[SetVolumeLabel](/windows/win32/api/winbase/nf-winbase-setvolumelabela)
 
-
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
-
-
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
-
-
-
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-setvolumelabela">SetVolumeLabel</a>
-
-
-
-<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
+[Volume Management Functions](/windows/win32/FileIO/volume-management-functions)

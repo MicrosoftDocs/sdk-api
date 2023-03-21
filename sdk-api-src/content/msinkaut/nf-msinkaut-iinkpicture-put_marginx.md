@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MarginX
 title: IInkPicture::put_MarginX (msinkaut.h)
-description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
+description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window. (IInkPicture.put_MarginX)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","MarginX property","IInkPicture.MarginX","IInkPicture.put_MarginX","IInkPicture::MarginX","IInkPicture::get_MarginX","IInkPicture::put_MarginX","InkPicture.get_MarginX","InkPicture.put_MarginX","MarginX property [Tablet PC]","MarginX property [Tablet PC]","IInkPicture interface","get_MarginX","msinkaut/IInkPicture::MarginX","msinkaut/IInkPicture::get_MarginX","msinkaut/IInkPicture::put_MarginX","put_MarginX","tablet.inkpicture_marginx"]
 old-location: tablet\inkpicture_marginx.htm
 tech.root: tablet

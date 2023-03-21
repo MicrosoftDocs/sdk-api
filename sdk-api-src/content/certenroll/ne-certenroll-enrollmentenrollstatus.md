@@ -54,31 +54,31 @@ The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment stat
 
 ## -enum-fields
 
-### -field Enrolled
+### -field Enrolled:0x1
 
 The enrollment succeeded, and the certificate has been issued.
 
-### -field EnrollPended
+### -field EnrollPended:0x2
 
 The request has been submitted and the enrollment is pending, or the request has been issued out of band.
 
-### -field EnrollUIDeferredEnrollmentRequired
+### -field EnrollUIDeferredEnrollmentRequired:0x4
 
 Enrollment must be deferred.
 
-### -field EnrollError
+### -field EnrollError:0x10
 
 An error occurred.
 
-### -field EnrollUnknown
+### -field EnrollUnknown:0x20
 
 The enrollment status is unknown.
 
-### -field EnrollSkipped
+### -field EnrollSkipped:0x40
 
 The status information has been skipped. This can occur if a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> is not valid or has not been selected for monitoring.
 
-### -field EnrollDenied
+### -field EnrollDenied:0x100
 
 Enrollment has been denied.
 

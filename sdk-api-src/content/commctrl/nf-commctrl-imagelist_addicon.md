@@ -66,6 +66,12 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 A handle to the icon or cursor that contains the bitmap and mask for the new image.
 
+## -returns
+
+Type: <b>int</b>
+
+Returns the index of the image if successful, or -1 otherwise.
+
 ## -remarks
 
 Because the system does not save 

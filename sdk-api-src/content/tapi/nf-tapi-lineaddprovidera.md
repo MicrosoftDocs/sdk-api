@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineAddProviderA
 title: lineAddProviderA function (tapi.h)
-description: The lineAddProvider function installs a new telephony service provider into the telephony system.
-helpviewer_keywords: ["_tapi2_lineaddprovider","lineAddProvider","lineAddProvider function [TAPI 2.2]","lineAddProviderA","lineAddProviderW","tapi/lineAddProvider","tapi/lineAddProviderA","tapi/lineAddProviderW","tapi2.lineaddprovider"]
+description: The lineAddProvider function installs a new telephony service provider into the telephony system. (lineAddProviderA)
+helpviewer_keywords: ["lineAddProviderA", "tapi/lineAddProviderA"]
 old-location: tapi2\lineaddprovider.htm
 tech.root: tapi3
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b

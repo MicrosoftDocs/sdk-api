@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserFree
 title: BSTR_UserFree function (oaidl.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: Frees resources on the server side when called by RPC stub files. (BSTR_UserFree)
 helpviewer_keywords: ["BSTR_UserFree","BSTR_UserFree function [Automation]","_oa96_BSTR_UserFree","automat.bstr_userfree","oaidl/BSTR_UserFree"]
 old-location: automat\bstr_userfree.htm
 tech.root: automat

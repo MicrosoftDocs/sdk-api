@@ -4,7 +4,7 @@ title: DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC
 description: Reverses the elements of one or more *subsequences* of a tensor. The set of subsequences to be reversed is chosen based on the provided axis and sequence lengths.
 helpviewer_keywords: ["DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC","DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC structure","direct3d12.dml_reverse_subsequences_operator_desc","directml/DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -125,6 +125,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 * *InputTensor* and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| SequenceLengthsTensor | Input | 1 to 8 | UINT64, UINT32 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

@@ -1,7 +1,7 @@
 ---
 UID: NF:infotech.IITWordWheel.Lookup(LONG,LPVOID,DWORD)
 title: IITWordWheel::Lookup(LONG,LPVOID,DWORD) (infotech.h)
-description: Looks up an entry and returns contents in a buffer.
+description: Looks up an entry and returns contents in a buffer. (overload 1/3)
 helpviewer_keywords: ["IITWordWheel interface [HTML Help Workshop]","Lookup method","IITWordWheel.Lookup","IITWordWheel.Lookup(LONG","LPVOID","DWORD)","IITWordWheel::Lookup","IITWordWheel::Lookup(LONG","LPVOID","DWORD)","Lookup","Lookup method [HTML Help Workshop]","Lookup method [HTML Help Workshop]","IITWordWheel interface","htmlhelp.iitwordwheel_lookup1","infotech/IITWordWheel::Lookup","refIITWordWheelLookupBuffer"]
 old-location: htmlhelp\iitwordwheel_lookup1.htm
 tech.root: htmlhelp

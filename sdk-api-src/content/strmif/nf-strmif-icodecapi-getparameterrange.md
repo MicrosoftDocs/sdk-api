@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterRange
 title: ICodecAPI::GetParameterRange (strmif.h)
-description: The GetParameterRange method gets the range of values for a codec property.
+description: The GetParameterRange method gets the range of values for a codec property. (ICodecAPI.GetParameterRange)
 helpviewer_keywords: ["GetParameterRange","GetParameterRange method [DirectShow]","GetParameterRange method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterRange method","ICodecAPI.GetParameterRange","ICodecAPI::GetParameterRange","ICodecAPIGetParameterRange","dshow.icodecapi_getparameterrange","strmif/ICodecAPI::GetParameterRange"]
 old-location: dshow\icodecapi_getparameterrange.htm
 tech.root: dshow

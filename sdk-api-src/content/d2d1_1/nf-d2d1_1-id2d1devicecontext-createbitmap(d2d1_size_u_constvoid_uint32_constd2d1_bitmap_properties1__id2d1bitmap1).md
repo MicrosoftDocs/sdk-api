@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U,constvoid,UINT32,constD2D1_BITMAP_PROPERTIES1&,ID2D1Bitmap1)
 title: ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1) (d2d1_1.h)
-description: Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the DrawBitmap and ID2D1BitmapBrush APIs. In addition, color context information can be passed to the bitmap.
+description: Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the DrawBitmap and ID2D1BitmapBrush APIs. In addition, color context information can be passed to the bitmap. (overload 1/2)
 helpviewer_keywords: ["CreateBitmap","CreateBitmap method [Direct2D]","CreateBitmap method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateBitmap method","ID2D1DeviceContext.CreateBitmap","ID2D1DeviceContext.CreateBitmap(D2D1_SIZE_U","const void","UINT32","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","ID2D1DeviceContext::CreateBitmap","ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U","const void","UINT32","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","d2d1_1/ID2D1DeviceContext::CreateBitmap","direct2d.id2d1devicecontext_createbitmap"]
 old-location: direct2d\id2d1devicecontext_createbitmap.htm
 tech.root: Direct2D

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPartResources interface
 
-
 ## -description
 
 Provides access to all shared, part-based resources of the XPS document.
@@ -100,9 +99,8 @@ else
 <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpartresources">IXpsOMObjectFactory::CreatePartResources</a>
 
 
+<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+ 
 
-<a href="/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
+ 
 
-
-
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_MousePointer
 title: IInkCollector::get_MousePointer (msinkaut.h)
-description: Gets or sets a value that indicates the type of mouse pointer that appears.
+description: Gets or sets a value that indicates the type of mouse pointer that appears. (IInkCollector.get_MousePointer)
 helpviewer_keywords: ["8876b0ef-1a61-481b-ac37-9e4d637f8097","IInkCollector interface [Tablet PC]","MousePointer property","IInkCollector.MousePointer","IInkCollector.get_MousePointer","IInkCollector.put_MousePointer","IInkCollector::MousePointer","IInkCollector::get_MousePointer","IInkCollector::put_MousePointer","InkCollector.get_MousePointer","InkCollector.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkCollector interface","get_MousePointer","msinkaut/IInkCollector::MousePointer","msinkaut/IInkCollector::get_MousePointer","msinkaut/IInkCollector::put_MousePointer","put_MousePointer","tablet.inkcollector_mousepointer"]
 old-location: tablet\inkcollector_mousepointer.htm
 tech.root: tablet

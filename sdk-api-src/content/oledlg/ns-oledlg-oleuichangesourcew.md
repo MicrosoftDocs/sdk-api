@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
 title: OLEUICHANGESOURCEW (oledlg.h)
-description: Contains information that is used to initialize the standard Change Source dialog box.
+description: Contains information that is used to initialize the standard Change Source dialog box. (Unicode)
 helpviewer_keywords: ["*LPOLEUICHANGESOURCEW","*POLEUICHANGESOURCEW","CSF_ONLYGETSOURCE","CSF_SHOWHELP","CSF_VALIDSOURCE","LPOLEUICHANGESOURCE","LPOLEUICHANGESOURCE structure pointer [COM]","OLEUICHANGESOURCE","OLEUICHANGESOURCE structure [COM]","OLEUICHANGESOURCEA","OLEUICHANGESOURCEW","POLEUICHANGESOURCE","POLEUICHANGESOURCE structure pointer [COM]","_ole_OLEUICHANGESOURCE_str","com.oleuichangesource_struct","oledlg/LPOLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCEA","oledlg/OLEUICHANGESOURCEW","oledlg/POLEUICHANGESOURCE"]
 old-location: com\oleuichangesource_struct.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecTunnelAddresses
 title: IVdsServiceIscsi::SetAllIpsecTunnelAddresses (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsServiceIscsi.SetAllIpsecTunnelAddresses)
 helpviewer_keywords: ["IVdsServiceIscsi interface [VDS]","SetAllIpsecTunnelAddresses method","IVdsServiceIscsi.SetAllIpsecTunnelAddresses","IVdsServiceIscsi::SetAllIpsecTunnelAddresses","SetAllIpsecTunnelAddresses","SetAllIpsecTunnelAddresses method [VDS]","SetAllIpsecTunnelAddresses method [VDS]","IVdsServiceIscsi interface","base.ivdsserviceiscsi_setallipsectunneladdresses","vds/IVdsServiceIscsi::SetAllIpsecTunnelAddresses"]
 old-location: base\ivdsserviceiscsi_setallipsectunneladdresses.htm
 tech.root: base
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

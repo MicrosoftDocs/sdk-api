@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_EVENTW
 title: FAX_EVENTW (winfax.h)
-description: The FAX_EVENT structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
+description: The FAX_EVENT structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event. (Unicode)
 helpviewer_keywords: ["*PFAX_EVENTW","FAX_EVENT","FAX_EVENT structure [Fax Service]","FAX_EVENTA","FAX_EVENTW","FEI_ABORTING","FEI_ANSWERED","FEI_BAD_ADDRESS","FEI_BUSY","FEI_CALL_BLACKLISTED","FEI_CALL_DELAYED","FEI_COMPLETED","FEI_DELETED","FEI_DIALING","FEI_DISCONNECTED","FEI_FATAL_ERROR","FEI_FAXSVC_ENDED","FEI_FAXSVC_STARTED","FEI_IDLE","FEI_JOB_QUEUED","FEI_MODEM_POWERED_OFF","FEI_MODEM_POWERED_ON","FEI_NEVENTS","FEI_NOT_FAX_CALL","FEI_NO_ANSWER","FEI_NO_DIAL_TONE","FEI_RECEIVING","FEI_RINGING","FEI_ROUTING","FEI_SENDING","PFAX_EVENT","PFAX_EVENT structure pointer [Fax Service]","_mfax_fax_event_str","fax._mfax_fax_event_str","winfax/FAX_EVENT","winfax/FAX_EVENTA","winfax/FAX_EVENTW","winfax/PFAX_EVENT"]
 old-location: fax\_mfax_fax_event_str.htm
 tech.root: Fax

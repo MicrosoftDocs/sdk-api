@@ -54,15 +54,15 @@ Specifies the type of process that is identified in the <a href="/windows/deskto
 
 ## -enum-fields
 
-### -field D3D11_PROCESSIDTYPE_UNKNOWN
+### -field D3D11_PROCESSIDTYPE_UNKNOWN:0
 
 Unknown process type.
 
-### -field D3D11_PROCESSIDTYPE_DWM
+### -field D3D11_PROCESSIDTYPE_DWM:1
 
 Desktop Window Manager (DWM) process.
 
-### -field D3D11_PROCESSIDTYPE_HANDLE
+### -field D3D11_PROCESSIDTYPE_HANDLE:2
 
 Handle to a process.
 

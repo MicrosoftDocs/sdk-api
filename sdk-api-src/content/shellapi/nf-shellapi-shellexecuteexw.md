@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteExW
 title: ShellExecuteExW function (shellapi.h)
-description: Performs an operation on a specified file.
-helpviewer_keywords: ["ShellExecuteEx","ShellExecuteEx function [Windows Shell]","ShellExecuteExA","ShellExecuteExW","_win32_ShellExecuteEx","_win32_ShellExecuteEx_cpp","shell.ShellExecuteEx","shellapi/ShellExecuteEx","shellapi/ShellExecuteExA","shellapi/ShellExecuteExW"]
+description: Performs an operation on a specified file. (ShellExecuteExW)
+helpviewer_keywords: ["ShellExecuteEx", "ShellExecuteEx function [Windows Shell]", "ShellExecuteExW", "_win32_ShellExecuteEx", "_win32_ShellExecuteEx_cpp", "shell.ShellExecuteEx", "shellapi/ShellExecuteEx", "shellapi/ShellExecuteExW"]
 old-location: shell\ShellExecuteEx.htm
 tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f

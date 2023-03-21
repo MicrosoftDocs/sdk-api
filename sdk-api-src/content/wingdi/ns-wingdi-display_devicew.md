@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._DISPLAY_DEVICEW
 title: DISPLAY_DEVICEW (wingdi.h)
-description: The DISPLAY_DEVICE structure receives information about the display device specified by the iDevNum parameter of the EnumDisplayDevices function.
+description: The DISPLAY_DEVICE structure receives information about the display device specified by the iDevNum parameter of the EnumDisplayDevices function. (Unicode)
 helpviewer_keywords: ["*LPDISPLAY_DEVICEW","*PDISPLAY_DEVICEW","DISPLAY_DEVICE","DISPLAY_DEVICE structure [Windows GDI]","DISPLAY_DEVICEA","DISPLAY_DEVICEW","PDISPLAY_DEVICE","PDISPLAY_DEVICE structure pointer [Windows GDI]","_DISPLAY_DEVICEA","_DISPLAY_DEVICEW","_win32_DISPLAY_DEVICE_str","gdi.display_device","wingdi/DISPLAY_DEVICE","wingdi/DISPLAY_DEVICEA","wingdi/DISPLAY_DEVICEW","wingdi/PDISPLAY_DEVICE"]
 old-location: gdi\display_device.htm
 tech.root: gdi

@@ -59,7 +59,7 @@ The <b>VSS_ROLLFORWARD_TYPE</b> enumeration is used by a
 
 ## -enum-fields
 
-### -field VSS_RF_UNDEFINED
+### -field VSS_RF_UNDEFINED:0
 
 No roll-forward type is defined. 
       

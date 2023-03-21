@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_Password
 title: ISearchRoot::put_Password (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchRoot.put_Password)
 helpviewer_keywords: ["ISearchRoot interface [search]","put_Password method","ISearchRoot.put_Password","ISearchRoot::put_Password","_search_ISearchRoot_put_Password","put_Password","put_Password method [search]","put_Password method [search]","ISearchRoot interface","search._search_ISearchRoot_put_Password","searchapi/ISearchRoot::put_Password"]
 old-location: search\_search_ISearchRoot_put_Password.htm
 tech.root: search

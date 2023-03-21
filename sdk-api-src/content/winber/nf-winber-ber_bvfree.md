@@ -1,12 +1,12 @@
 ---
 UID: NF:winber.ber_bvfree
 title: ber_bvfree function (winber.h)
-description: The ber_bvfree function frees a berval structure.
+description: The ber_bvfree function (winber.h) frees a berval structure.
 helpviewer_keywords: ["_ldap_ber_bvfree","ber_bvfree","ber_bvfree function [LDAP]","ldap.ber__bvfree","ldap.ber_bvfree","winber/ber_bvfree","winldap/ber_bvfree"]
 old-location: ldap\ber_bvfree.htm
 tech.root: ldap
 ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree
 req.header: winber.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:featurestagingapi.UnsubscribeFeatureStateChangeNotification
 title: UnsubscribeFeatureStateChangeNotification function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.
+description: This function is intended for infrastructure use only. (UnsubscribeFeatureStateChangeNotification)
 helpviewer_keywords: ["UnsubscribeFeatureStateChangeNotification","UnsubscribeFeatureStateChangeNotification function [Windows API]","featurestagingapi/UnsubscribeFeatureStateChangeNotification","winprog.unsubscribefeaturestatechangenotification"]
 old-location: winprog\unsubscribefeaturestatechangenotification.htm
 tech.root: winprog

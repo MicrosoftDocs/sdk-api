@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
 title: IMFPMediaItem::GetStreamSelection (mfplay.h)
-description: Queries whether a stream is selected to play.
+description: Queries whether a stream is selected to play. (IMFPMediaItem.GetStreamSelection)
 helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamSelection method","IMFPMediaItem.GetStreamSelection","IMFPMediaItem::GetStreamSelection","TRUE","mf.imfpmediaitem_getstreamselection","mfplay/IMFPMediaItem::GetStreamSelection"]
 old-location: mf\imfpmediaitem_getstreamselection.htm
 tech.root: mf

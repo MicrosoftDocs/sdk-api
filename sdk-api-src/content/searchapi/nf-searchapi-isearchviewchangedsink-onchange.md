@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchViewChangedSink.OnChange
 title: ISearchViewChangedSink::OnChange (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchViewChangedSink.OnChange)
 helpviewer_keywords: ["ISearchViewChangedSink interface [search]","OnChange method","ISearchViewChangedSink.OnChange","ISearchViewChangedSink::OnChange","OnChange","OnChange method [search]","OnChange method [search]","ISearchViewChangedSink interface","_search_ISearchViewChangedSink_OnChange","search._search_ISearchViewChangedSink_OnChange","searchapi/ISearchViewChangedSink::OnChange"]
 old-location: search\_search_ISearchViewChangedSink_OnChange.htm
 tech.root: search

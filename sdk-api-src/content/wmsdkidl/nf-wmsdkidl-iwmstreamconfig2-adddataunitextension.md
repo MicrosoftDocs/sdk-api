@@ -59,7 +59,7 @@ The <b>AddDataUnitExtension</b> method adds a data unit extension system to the 
 
 ### -param guidExtensionSystemID [in]
 
-A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
+A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
 
 ### -param cbExtensionDataSize [in]
 

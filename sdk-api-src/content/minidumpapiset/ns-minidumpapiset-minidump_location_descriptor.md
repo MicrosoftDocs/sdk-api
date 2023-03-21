@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_LOCATION_DESCRIPTOR
 title: MINIDUMP_LOCATION_DESCRIPTOR (minidumpapiset.h)
-description: Contains information describing the location of a data stream within a minidump file.
+description: Contains information describing the location of a data stream within a minidump file. (MINIDUMP_LOCATION_DESCRIPTOR)
 helpviewer_keywords: ["MINIDUMP_LOCATION_DESCRIPTOR","MINIDUMP_LOCATION_DESCRIPTOR structure","MINIDUMP_LOCATION_DESCRIPTOR64","_MINIDUMP_LOCATION_DESCRIPTOR","_win32_minidump_location_descriptor_str","base.minidump_location_descriptor_str","minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR"]
 old-location: base\minidump_location_descriptor_str.htm
 tech.root: Debug

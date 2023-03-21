@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IDvdInfo
 title: IDvdInfo (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IDvdInfo)
 helpviewer_keywords: ["IDvdInfo","IDvdInfo interface [DirectShow]","IDvdInfo interface [DirectShow]","described","IDvdInfoInterface","dshow.idvdinfo","strmif/IDvdInfo"]
 old-location: dshow\idvdinfo.htm
 tech.root: dshow

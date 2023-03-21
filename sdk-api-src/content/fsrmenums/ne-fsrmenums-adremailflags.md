@@ -56,23 +56,23 @@ Describes the options for access denied remediation (ADR) email.
 
 ## -enum-fields
 
-### -field AdrEmailFlags_PutDataOwnerOnToLine
+### -field AdrEmailFlags_PutDataOwnerOnToLine:0x1
 
 The ADR email will include the owner on the To: line.
 
-### -field AdrEmailFlags_PutAdminOnToLine
+### -field AdrEmailFlags_PutAdminOnToLine:0x2
 
 The ADR email will include the administrator on the To: line.
 
-### -field AdrEmailFlags_IncludeDeviceClaims
+### -field AdrEmailFlags_IncludeDeviceClaims:0x4
 
 The ADR email will include the device claims.
 
-### -field AdrEmailFlags_IncludeUserInfo
+### -field AdrEmailFlags_IncludeUserInfo:0x8
 
 The ADR email will include the user information.
 
-### -field AdrEmailFlags_GenerateEventLog
+### -field AdrEmailFlags_GenerateEventLog:0x10
 
 When the ADR email is sent, an entry will be added to the event log.
 

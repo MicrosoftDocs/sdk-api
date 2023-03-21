@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddKeyframeAfterTransition
 title: IUIAnimationStoryboard2::AddKeyframeAfterTransition (uianimation.h)
-description: Adds a keyframe at the end of the specified transition.
+description: Adds a keyframe at the end of the specified transition. (IUIAnimationStoryboard2.AddKeyframeAfterTransition)
 helpviewer_keywords: ["AddKeyframeAfterTransition","AddKeyframeAfterTransition method [Windows Animation]","AddKeyframeAfterTransition method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","AddKeyframeAfterTransition method","IUIAnimationStoryboard2.AddKeyframeAfterTransition","IUIAnimationStoryboard2::AddKeyframeAfterTransition","uianimation.iuianimationstoryboard2_addkeyframeaftertransition","uianimation/IUIAnimationStoryboard2::AddKeyframeAfterTransition"]
 old-location: uianimation\iuianimationstoryboard2_addkeyframeaftertransition.htm
 tech.root: UIAnimation

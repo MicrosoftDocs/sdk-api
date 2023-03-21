@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCreateImage
 title: CimCreateImage
-ms.date: 9/9/2019
+description: The CimCreateImage function creates a handle representing a new image at the location specified, optionally based on an existing image at that location.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCreateImage
 targetos: Windows

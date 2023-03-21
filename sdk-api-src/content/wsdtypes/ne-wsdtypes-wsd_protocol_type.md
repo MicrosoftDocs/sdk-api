@@ -56,23 +56,23 @@ Identifies the type of protocol supported by a port.
 
 ## -enum-fields
 
-### -field WSD_PT_NONE
+### -field WSD_PT_NONE:0x00
 
 No protocols supported.
 
-### -field WSD_PT_UDP
+### -field WSD_PT_UDP:0x01
 
 The UDP protocol is supported.
 
-### -field WSD_PT_HTTP
+### -field WSD_PT_HTTP:0x02
 
 The HTTP protocol is supported.
 
-### -field WSD_PT_HTTPS
+### -field WSD_PT_HTTPS:0x04
 
 The HTTPS protocol is supported.
 
-### -field WSD_PT_ALL
+### -field WSD_PT_ALL:0xff
 
 The UDP, HTTP, and HTTPS protocols are supported.
 

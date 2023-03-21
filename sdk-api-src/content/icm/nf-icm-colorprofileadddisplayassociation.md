@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileAddDisplayAssociation
 tech.root: wcs
 title: ColorProfileAddDisplayAssociation
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileAddDisplayAssociation associates an installed color profile with a specified display in the given scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

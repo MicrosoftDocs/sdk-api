@@ -1,9 +1,7 @@
 ---
 UID: NF:evntrace.OpenTraceW
 title: OpenTraceW function (evntrace.h)
-description:
-  The OpenTrace function opens an ETW trace processing handle for consuming
-  events from an ETW real-time trace session or an ETW log file.
+description: The OpenTraceW (Unicode) function (evntrace.h) opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.
 helpviewer_keywords:
   [
     "OpenTrace",
@@ -20,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace,
   base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA,
@@ -103,7 +101,8 @@ should be closed using
 If the function fails, it returns **INVALID_PROCESSTRACE_HANDLE**.
 (**INVALID_PROCESSTRACE_HANDLE** is equivalent to `(UINT64)UINTPTR_MAX`.)
 
-> [!Note] Prior to Windows Vista, OpenTrace returned `UINT64_MAX` in case of
+> [!Note]
+> Prior to Windows Vista, OpenTrace returned `UINT64_MAX` in case of
 > failure. If your code supports both older operating systems (Windows XP or
 > Windows Server 2003) and newer versions of Windows (Windows Vista and later),
 > you must determine the operating system on which you are running and compare
@@ -154,7 +153,8 @@ close the trace processing handle.
 For an example that uses **OpenTrace**, see
 [Using TdhFormatProperty to Consume Event Data](/windows/win32/etw/using-tdhformatproperty-to-consume-event-data).
 
-> [!NOTE] The evntrace.h header defines OpenTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines OpenTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

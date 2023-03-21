@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_MaxFolderCount
 title: IDataManager::get_MaxFolderCount (pla.h)
-description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
+description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set. (Get)
 helpviewer_keywords: ["IDataManager interface [PLA]","MaxFolderCount property","IDataManager.MaxFolderCount","IDataManager.get_MaxFolderCount","IDataManager::MaxFolderCount","IDataManager::get_MaxFolderCount","IDataManager::put_MaxFolderCount","MaxFolderCount property [PLA]","MaxFolderCount property [PLA]","IDataManager interface","base.idatamanager_maxfoldercount","get_MaxFolderCount","pla.idatamanager_maxfoldercount","pla/IDataManager::MaxFolderCount","pla/IDataManager::get_MaxFolderCount","pla/IDataManager::put_MaxFolderCount"]
 old-location: pla\idatamanager_maxfoldercount.htm
 tech.root: PLA

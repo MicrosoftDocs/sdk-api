@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymNext
 title: SymNext function (dbghelp.h)
-description: Retrieves symbol information for the next symbol.
+description: The SymNext function (dbghelp.h) retrieves symbol information for the next symbol.
 helpviewer_keywords: ["SymNext","SymNext function","SymNextW","base.symnext","dbghelp/SymNext","dbghelp/SymNextW"]
 old-location: base\symnext.htm
 tech.root: Debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 req.header: dbghelp.h
 req.include-header: 

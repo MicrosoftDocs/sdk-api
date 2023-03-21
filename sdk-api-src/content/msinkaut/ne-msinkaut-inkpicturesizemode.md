@@ -58,19 +58,19 @@ The mode is set by using the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-
 
 ## -enum-fields
 
-### -field IPSM_AutoSize
+### -field IPSM_AutoSize:0
 
 The control auto sizes to fit the picture.
 
-### -field IPSM_CenterImage
+### -field IPSM_CenterImage:1
 
 The picture is centered within the control.
 
-### -field IPSM_Normal
+### -field IPSM_Normal:2
 
 The picture appears at its regular size within the control.
 
-### -field IPSM_StretchImage
+### -field IPSM_StretchImage:3
 
  The picture is stretched within the control.
 

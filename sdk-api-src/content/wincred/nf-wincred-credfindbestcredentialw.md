@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredFindBestCredentialW
 title: CredFindBestCredentialW function (wincred.h)
-description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
-helpviewer_keywords: ["CredFindBestCredential","CredFindBestCredential function [Security]","CredFindBestCredentialA","CredFindBestCredentialW","security.credfindbestcredential","wincred/CredFindBestCredential","wincred/CredFindBestCredentialA","wincred/CredFindBestCredentialW"]
+description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource. (Unicode)
+helpviewer_keywords: ["CredFindBestCredential", "CredFindBestCredential function [Security]", "CredFindBestCredentialW", "security.credfindbestcredential", "wincred/CredFindBestCredential", "wincred/CredFindBestCredentialW"]
 old-location: security\credfindbestcredential.htm
 tech.root: security
 ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5

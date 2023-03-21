@@ -54,7 +54,7 @@ Specifies the failback type to use when a cluster node in a paused state is resu
 
 ## -enum-fields
 
-### -field DoNotFailbackGroups
+### -field DoNotFailbackGroups:0
 
 Indicates that the failback process is  not to  be performed on the specified groups.
 

@@ -72,7 +72,7 @@ If it fails, the method can return one of the following error values:
 
 DirectDraw automatically updates uniqueness values whenever the contents of a surface change.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>ChangeUniquenessValue</b> method.
+
 
 ## -see-also
 

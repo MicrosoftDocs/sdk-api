@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLun
 title: IVdsLun (vds.h)
-description: Provides methods for performing query and configuration operations on a logical unit number (LUN).
+description: The IVdsLun interface (vds.h) provides methods for performing query and configuration operations on a logical unit number (LUN).  
 helpviewer_keywords: ["IVdsLun","IVdsLun interface [VDS]","IVdsLun interface [VDS]","described","base.ivdslun","vds/IVdsLun","vdshwprv/IVdsLun"]
 old-location: base\ivdslun.htm
 tech.root: base
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing 
    query and configuration operations on a logical unit number (LUN).

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.IsEqual
 title: ITextFont::IsEqual (tom.h)
-description: Determines whether this text font object has the same properties as the specified text font object.
+description: Determines whether this text font object has the same properties as the specified text font object. (ITextFont.IsEqual)
 helpviewer_keywords: ["ITextFont interface [Windows Controls]","IsEqual method","ITextFont.IsEqual","ITextFont::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextFont interface","_win32_ITextFont_IsEqual","_win32_ITextFont_IsEqual_cpp","controls.ITextFont_IsEqual","controls._win32_ITextFont_IsEqual","tom/ITextFont::IsEqual"]
 old-location: controls\ITextFont_IsEqual.htm
 tech.root: Controls

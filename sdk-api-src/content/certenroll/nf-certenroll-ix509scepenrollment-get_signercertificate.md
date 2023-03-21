@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_SignerCertificate
 title: IX509SCEPEnrollment::get_SignerCertificate (certenroll.h)
-description: Gets or sets the signer certificate for the request.
+description: Gets or sets the signer certificate for the request. (Get)
 helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","SignerCertificate property","IX509SCEPEnrollment.SignerCertificate","IX509SCEPEnrollment.get_SignerCertificate","IX509SCEPEnrollment::SignerCertificate","IX509SCEPEnrollment::get_SignerCertificate","IX509SCEPEnrollment::put_SignerCertificate","SignerCertificate property [Security]","SignerCertificate property [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::SignerCertificate","certenroll/IX509SCEPEnrollment::get_SignerCertificate","certenroll/IX509SCEPEnrollment::put_SignerCertificate","get_SignerCertificate","security.ix509scepenrollment_signercertificate"]
 old-location: security\ix509scepenrollment_signercertificate.htm
 tech.root: security

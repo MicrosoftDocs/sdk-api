@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetShader
 title: ID3D10Device::PSGetShader (d3d10.h)
-description: Get the pixel shader currently set on the device.
+description: Get the pixel shader currently set on the device. (ID3D10Device.PSGetShader)
 helpviewer_keywords: ["22e11c1b-a242-803e-3d24-a515820d6e7a","ID3D10Device interface [Direct3D 10]","PSGetShader method","ID3D10Device.PSGetShader","ID3D10Device::PSGetShader","PSGetShader","PSGetShader method [Direct3D 10]","PSGetShader method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSGetShader","direct3d10.id3d10device_psgetshader"]
 old-location: direct3d10\id3d10device_psgetshader.htm
 tech.root: direct3d10

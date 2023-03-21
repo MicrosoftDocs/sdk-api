@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetXStateFeaturesMask","SetXStateFeaturesMask function","
 old-location: base\setxstatefeaturesmask.htm
 tech.root: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
-ms.date: 12/05/2018
+ms.date: 03/15/2023
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
 req.header: winbase.h
 req.include-header: Windows.h
@@ -77,9 +77,9 @@ This function returns <b>TRUE</b> if successful, otherwise
 The <b>SetXStateFeaturesMask</b> function sets the 
      mask of valid features in the specified context. Before calling 
      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>, 
-     <a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>, 
+     <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md">Wow64GetThreadContext</a>, 
      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>, or 
-     <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> the application must call 
+     <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64setthreadcontext.md">Wow64SetThreadContext</a> the application must call 
      <b>SetXStateFeaturesMask</b> to specify which set of 
      features to retrieve or set.  The system silently ignores any feature specified in the 
      <i>FeatureMask</i> which is not enabled on the processor.
@@ -117,8 +117,8 @@ The <b>SetXStateFeaturesMask</b> function sets the
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md">Wow64GetThreadContext</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64setthreadcontext.md">Wow64SetThreadContext</a>

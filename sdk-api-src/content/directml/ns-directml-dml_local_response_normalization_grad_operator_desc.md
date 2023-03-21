@@ -48,9 +48,6 @@ Computes backpropagation gradients for [local response normalization](/windows/w
 
 The data type and size of all tensors must be the same.
 
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.5 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
-
 ## -struct-fields
 
 ### -field InputTensor
@@ -73,31 +70,31 @@ An output tensor containing the backpropagated gradients.
 
 ### -field CrossChannel
 
-Type: **[BOOL](../../winprog/windows-data-types.md)**
+Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 **TRUE** if the LRN layer sums across channels; **FALSE** if the LRN layer sums across spatial dimensions.
 
 ### -field LocalSize
 
-Type: **[UINT](../../winprog/windows-data-types.md)**
+Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The maximum number of elements to sum over per dimension (the local region is clipped so that all elements are within bounds). If *CrossChannel* is **TRUE**, then this is the width and height of the local region. If *CrossChannel* is **FALSE**, then this is the number of elements in the local region. This value must be at least 1.
 
 ### -field Alpha
 
-Type: **[FLOAT](../../winprog/windows-data-types.md)**
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
 
 The value of the scaling parameter. We recommend a value of 0.0001 as default.
 
 ### -field Beta
 
-Type: **[FLOAT](../../winprog/windows-data-types.md)**
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
 
 The value of the exponent. We recommend a value of 0.75 as default.
 
 ### -field Bias
 
-Type: **[FLOAT](../../winprog/windows-data-types.md)**
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
 
 The value of bias. We recommend a value of 1 as default.
 

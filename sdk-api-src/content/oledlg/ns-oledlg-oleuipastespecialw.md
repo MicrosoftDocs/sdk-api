@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTESPECIALW
 title: OLEUIPASTESPECIALW (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Paste Special dialog box, as well as space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Paste Special dialog box, as well as space for the library to return information when the dialog box is dismissed. (Unicode)
 helpviewer_keywords: ["*LPOLEUIPASTESPECIALW","*POLEUIPASTESPECIALW","HIDECHANGEICON","LPOLEUIPASTESPECIAL","LPOLEUIPASTESPECIAL structure pointer [COM]","NOREFRESHDATAOBJECT","OLEUIPASTESPECIAL","OLEUIPASTESPECIAL structure [COM]","OLEUIPASTESPECIALA","OLEUIPASTESPECIALW","POLEUIPASTESPECIAL","POLEUIPASTESPECIAL structure pointer [COM]","PSF_CHECKDISPLAYASICON","PSF_DISABLEDISPLAYASICON","PSF_SELECTPASTE","PSF_SELECTPASTELINK","PSF_SHOWHELP","STAYONCLIPBOARDCHANGE","_ole_OLEUIPASTESPECIAL_str","com.oleuipastespecial_struct","oledlg/LPOLEUIPASTESPECIAL","oledlg/OLEUIPASTESPECIAL","oledlg/OLEUIPASTESPECIALA","oledlg/OLEUIPASTESPECIALW","oledlg/POLEUIPASTESPECIAL"]
 old-location: com\oleuipastespecial_struct.htm
 tech.root: com

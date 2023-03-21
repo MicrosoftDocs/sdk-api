@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Count
 title: IInkRecognitionAlternates::get_Count (msinkaut.h)
-description: Gets the number of objects or collections contained in a collection.
+description: Gets the number of objects or collections contained in a collection. (IInkRecognitionAlternates.get_Count)
 helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkRecognitionAlternates interface","IInkRecognitionAlternates interface [Tablet PC]","Count property","IInkRecognitionAlternates.Count","IInkRecognitionAlternates.get_Count","IInkRecognitionAlternates::Count","IInkRecognitionAlternates::get_Count","get_Count","msinkaut/IInkRecognitionAlternates::Count","msinkaut/IInkRecognitionAlternates::get_Count","tablet.iinkrecognitionalternates_count"]
 old-location: tablet\iinkrecognitionalternates_count.htm
 tech.root: tablet

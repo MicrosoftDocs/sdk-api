@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ACTIVATION_RELU_OPERATOR_DESC","DML_ACTIVATION_RELU_O
 old-location: direct3d12\dml_activation_relu_operator_desc.htm
 tech.root: directml
 ms.assetid: F5D602C4-C4FF-49BE-B054-7C587B3AAE5F
-ms.date: 10/28/2020
+ms.date: 07/20/2022
 ms.keywords: DML_ACTIVATION_RELU_OPERATOR_DESC, DML_ACTIVATION_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_relu_operator_desc, directml/DML_ACTIVATION_RELU_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -78,6 +78,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

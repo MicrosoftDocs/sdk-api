@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.get_Midline
 title: IInkRecognizerGuide::get_Midline (msinkaut.h)
-description: Gets or sets the midline height. The midline height is distance from the baseline to the midline, of the drawn box.
+description: Gets or sets the midline height. The midline height is distance from the baseline to the midline, of the drawn box. (Get)
 helpviewer_keywords: ["764dc583-62b4-41fc-98df-69a2f1a6fcf5","IInkRecognizerGuide interface [Tablet PC]","Midline property","IInkRecognizerGuide.Midline","IInkRecognizerGuide.get_Midline","IInkRecognizerGuide::Midline","IInkRecognizerGuide::get_Midline","IInkRecognizerGuide::put_Midline","InkRecognizerGuide.get_Midline","InkRecognizerGuide.put_Midline","Midline property [Tablet PC]","Midline property [Tablet PC]","IInkRecognizerGuide interface","get_Midline","msinkaut/IInkRecognizerGuide::Midline","msinkaut/IInkRecognizerGuide::get_Midline","msinkaut/IInkRecognizerGuide::put_Midline","put_Midline","tablet.inkrecognizerguide_midline"]
 old-location: tablet\inkrecognizerguide_midline.htm
 tech.root: tablet

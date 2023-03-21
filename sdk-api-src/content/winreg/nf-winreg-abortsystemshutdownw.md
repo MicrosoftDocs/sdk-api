@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.AbortSystemShutdownW
 title: AbortSystemShutdownW function (winreg.h)
-description: Stops a system shutdown that has been initiated.
-helpviewer_keywords: ["AbortSystemShutdown","AbortSystemShutdown function","AbortSystemShutdownA","AbortSystemShutdownW","_win32_abortsystemshutdown","base.abortsystemshutdown","winreg/AbortSystemShutdown","winreg/AbortSystemShutdownA","winreg/AbortSystemShutdownW"]
+description: Stops a system shutdown that has been initiated. (Unicode)
+helpviewer_keywords: ["AbortSystemShutdown", "AbortSystemShutdown function", "AbortSystemShutdownW", "_win32_abortsystemshutdown", "base.abortsystemshutdown", "winreg/AbortSystemShutdown", "winreg/AbortSystemShutdownW"]
 old-location: base\abortsystemshutdown.htm
 tech.root: base
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0

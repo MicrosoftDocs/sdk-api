@@ -51,24 +51,23 @@ api_name:
 
 # SECURITY_STRING structure
 
-
 ## -description
 
-The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
+The **SECURITY_STRING** structure is used as the string interface for kernel operations and is a clone of the [UNICODE_STRING](/windows/win32/api/subauth/ns-subauth-unicode_string) structure. This is used for 32-bit mode.
 
 ## -struct-fields
 
 ### -field Length
 
-Specifies the length, in bytes, of the string pointed to by the <b>Buffer</b> member, not including the terminating <b>NULL</b> character, if any.
+Specifies the length, in bytes, of the string pointed to by the **Buffer** member, not including the terminating **NULL** character, if any.
 
 ### -field MaximumLength
 
-Specifies the total size, in bytes, of memory allocated for <b>Buffer</b>. Up to <b>MaximumLength</b> bytes may be written into the buffer without trampling memory.
+Specifies the total size, in bytes, of memory allocated for **Buffer**. Up to **MaximumLength** bytes may be written into the buffer without trampling memory.
 
 ### -field Buffer
 
-Pointer to a wide-character string. Note that the strings returned by the various LSA functions might not be <b>null</b>-terminated.
+Pointer to a wide-character string. Note that the strings returned by the various LSA functions might not be **NULL**-terminated.
 
 ### -field Buffer.size_is
 
@@ -77,3 +76,7 @@ Pointer to a wide-character string. Note that the strings returned by the variou
 ### -field Buffer.length_is
 
 ### -field Buffer.length_is.Length/2
+
+## -remarks
+
+## -see-also

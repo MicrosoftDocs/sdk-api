@@ -54,55 +54,55 @@ The <b>X509CertificateTemplateSubjectNameFlag</b> enumeration contains values th
 
 ## -enum-fields
 
-### -field SubjectNameEnrolleeSupplies
+### -field SubjectNameEnrolleeSupplies:0x1
 
 Instructs the client to provide subject information in the certificate request.
 
-### -field SubjectNameRequireDirectoryPath
+### -field SubjectNameRequireDirectoryPath:0x80000000
 
 Instructs the certification authority (CA) to specify the requestor's Active Directory distinguished name as the subject name in the issued certificate.
 
-### -field SubjectNameRequireCommonName
+### -field SubjectNameRequireCommonName:0x40000000
 
 Instructs the certification authority (CA) to specify the requestor's Active Directory common name (CN) as the subject name in the issued certificate.
 
-### -field SubjectNameRequireEmail
+### -field SubjectNameRequireEmail:0x20000000
 
 Instructs the CA to specify the value of the <b>e-mail</b> attribute in the requestor's Active Directory user object as the subject name in the issued certificate.
 
-### -field SubjectNameRequireDNS
+### -field SubjectNameRequireDNS:0x10000000
 
 Instructs the CA to specify the value of the <b>DNS</b> attribute in the requestor's Active Directory user object as the subject name in the issued certificate.
 
-### -field SubjectNameAndAlternativeNameOldCertSupplies
+### -field SubjectNameAndAlternativeNameOldCertSupplies:0x8
 
 Instructs the client to reuse the subject name and alternative subject name extensions from an existing valid certificate when creating a renewal certificate request.  This flag can only be used when the <b>SubjectNameEnrolleeSupplies</b> or the <b>SubjectAlternativeNameEnrolleeSupplies</b> flag is specified.
 
-### -field SubjectAlternativeNameEnrolleeSupplies
+### -field SubjectAlternativeNameEnrolleeSupplies:0x10000
 
 Instructs the client to provide subject alternative name information in the certificate request.
 
-### -field SubjectAlternativeNameRequireDirectoryGUID
+### -field SubjectAlternativeNameRequireDirectoryGUID:0x1000000
 
 Instructs the CA to add the value of the <b>objectGUID </b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-### -field SubjectAlternativeNameRequireUPN
+### -field SubjectAlternativeNameRequireUPN:0x2000000
 
 Instructs the CA to add the value of the <b>UPN</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-### -field SubjectAlternativeNameRequireEmail
+### -field SubjectAlternativeNameRequireEmail:0x4000000
 
 Instructs the CA to add the value of the <b>e-mail</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-### -field SubjectAlternativeNameRequireSPN
+### -field SubjectAlternativeNameRequireSPN:0x800000
 
 Instructs the CA to add the value of the <b>SPN</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-### -field SubjectAlternativeNameRequireDNS
+### -field SubjectAlternativeNameRequireDNS:0x8000000
 
 Instructs the CA to add the value of the <b>DNS</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension  in the issued certificate.
 
-### -field SubjectAlternativeNameRequireDomainDNS
+### -field SubjectAlternativeNameRequireDomainDNS:0x400000
 
 Instructs the CA to add the value of the DNS of the root domain to the Subject Alternative Name extension  in the issued certificate.
 

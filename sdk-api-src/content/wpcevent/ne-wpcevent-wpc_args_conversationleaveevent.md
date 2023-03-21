@@ -56,7 +56,7 @@ Indicates  information about leaving a conversation.
 
 ## -enum-fields
 
-### -field WPC_ARGS_CONVERSATIONLEAVEEVENT_APPNAME
+### -field WPC_ARGS_CONVERSATIONLEAVEEVENT_APPNAME:0
 
 The name of the application used for leaving the conversation.
 

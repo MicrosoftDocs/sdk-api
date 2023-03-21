@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientOffice
 title: IFaxDoc::put_RecipientOffice (faxcom.h)
-description: Sets or retrieves the RecipientOffice property of a FaxDoc object. The RecipientOffice property is a null-terminated string that contains the office of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientOffice property of a FaxDoc object. The RecipientOffice property is a null-terminated string that contains the office of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientOffice property","IFaxDoc.RecipientOffice","IFaxDoc.put_RecipientOffice","IFaxDoc::RecipientOffice","IFaxDoc::get_RecipientOffice","IFaxDoc::put_RecipientOffice","RecipientOffice property [Fax Service]","RecipientOffice property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientoffice","fax._mfax_ifaxdoc_get_recipientoffice","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientoffice_cpp","faxcom/IFaxDoc::RecipientOffice","faxcom/IFaxDoc::get_RecipientOffice","faxcom/IFaxDoc::put_RecipientOffice","put_RecipientOffice"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientoffice_cpp.htm
 tech.root: Fax

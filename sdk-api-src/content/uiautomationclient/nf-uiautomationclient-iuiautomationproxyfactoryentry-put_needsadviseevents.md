@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
 title: IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents (uiautomationclient.h)
-description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events.
+description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events. (Put)
 helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","NeedsAdviseEvents property","IUIAutomationProxyFactoryEntry.NeedsAdviseEvents","IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents","NeedsAdviseEvents property [Windows Accessibility]","NeedsAdviseEvents property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","put_NeedsAdviseEvents","uiauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents","uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents","winauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents.htm
 tech.root: WinAuto

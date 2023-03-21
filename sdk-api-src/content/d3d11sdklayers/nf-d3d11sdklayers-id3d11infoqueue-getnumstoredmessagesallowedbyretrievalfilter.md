@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 title: ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter (d3d11sdklayers.h)
-description: Get the number of messages that are able to pass through a retrieval filter.
+description: Get the number of messages that are able to pass through a retrieval filter. (ID3D11InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter)
 helpviewer_keywords: ["4237e481-1c5a-7131-becc-969cb6271e8e","GetNumStoredMessagesAllowedByRetrievalFilter","GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 11]","GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumStoredMessagesAllowedByRetrievalFilter method","ID3D11InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter","ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter","d3d11sdklayers/ID3D11InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter","direct3d11.id3d11infoqueue_getnumstoredmessagesallowedbyretrievalfilter"]
 old-location: direct3d11\id3d11infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
 tech.root: direct3d11

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetVertexShaderConstantF
 title: IDirect3DDevice9::GetVertexShaderConstantF (d3d9.h)
-description: Gets a floating-point vertex shader constant.
+description: The IDirect3DDevice9::GetVertexShaderConstantF method (d3d9.h) gets a floating-point vertex shader constant.
 helpviewer_keywords: ["2f91da11-b00c-9968-63d9-4dfc3cbe6369","GetVertexShaderConstantF","GetVertexShaderConstantF method [Direct3D 9]","GetVertexShaderConstantF method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetVertexShaderConstantF method","IDirect3DDevice9.GetVertexShaderConstantF","IDirect3DDevice9::GetVertexShaderConstantF","d3d9helper/IDirect3DDevice9::GetVertexShaderConstantF","direct3d9.idirect3ddevice9__getvertexshaderconstantf"]
 old-location: direct3d9\idirect3ddevice9__getvertexshaderconstantf.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshaderconstantf.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 2f91da11-b00c-9968-63d9-4dfc3cbe6369, GetVertexShaderConstantF, GetVertexShaderConstantF method [Direct3D 9], GetVertexShaderConstantF method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShaderConstantF method, IDirect3DDevice9.GetVertexShaderConstantF, IDirect3DDevice9::GetVertexShaderConstantF, d3d9helper/IDirect3DDevice9::GetVertexShaderConstantF, direct3d9.idirect3ddevice9__getvertexshaderconstantf
 req.header: d3d9.h
 req.include-header: D3D9.h

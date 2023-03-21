@@ -1,12 +1,12 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_UNICAST_ADDRESS_LH
 title: IP_ADAPTER_UNICAST_ADDRESS_LH (iptypes.h)
-description: The IP_ADAPTER_UNICAST_ADDRESS structure stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
+description: The IP_ADAPTER_UNICAST_ADDRESS_LH structure (iptypes.h) stores a single unicast IP address in a linked list of IP addresses for a particular adapter.
 helpviewer_keywords: ["*PIP_ADAPTER_UNICAST_ADDRESS","*PIP_ADAPTER_UNICAST_ADDRESS_LH","IP_ADAPTER_ADDRESS_DNS_ELIGIBLE","IP_ADAPTER_ADDRESS_TRANSIENT","IP_ADAPTER_UNICAST_ADDRESS","IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper]","IP_ADAPTER_UNICAST_ADDRESS_LH","IP_ADAPTER_UNICAST_ADDRESS_XP","PIP_ADAPTER_UNICAST_ADDRESS","PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper]","_iphlp_ip_adapter_unicast_address","iphlp.ip_adapter_unicast_address","iptypes/IP_ADAPTER_UNICAST_ADDRESS","iptypes/PIP_ADAPTER_UNICAST_ADDRESS"]
 old-location: iphlp\ip_adapter_unicast_address.htm
 tech.root: IpHlp
 ms.assetid: 65c3648c-89bd-417b-8a9b-feefa6149c4a
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: '*PIP_ADAPTER_UNICAST_ADDRESS, *PIP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_UNICAST_ADDRESS, IP_ADAPTER_UNICAST_ADDRESS structure [IP Helper], IP_ADAPTER_UNICAST_ADDRESS_LH, IP_ADAPTER_UNICAST_ADDRESS_XP, PIP_ADAPTER_UNICAST_ADDRESS, PIP_ADAPTER_UNICAST_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_unicast_address, iphlp.ip_adapter_unicast_address, iptypes/IP_ADAPTER_UNICAST_ADDRESS, iptypes/PIP_ADAPTER_UNICAST_ADDRESS'
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

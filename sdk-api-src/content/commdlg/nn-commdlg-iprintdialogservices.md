@@ -30,7 +30,6 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogServices
  - commdlg/IPrintDialogServices
 dev_langs:
  - c++
@@ -46,7 +45,6 @@ api_name:
 ---
 
 # IPrintDialogServices interface
-
 
 ## -description
 

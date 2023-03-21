@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.__unnamed_struct_4
+UID: NS:winsnmp.smiVENDORINFO
 title: smiVENDORINFO (winsnmp.h)
 description: The smiVENDORINFO structure contains information about the Microsoft WinSNMP implementation.
 helpviewer_keywords: ["*smiLPVENDORINFO","_snmp_smivendorinfo_str","smiLPVENDORINFO","smiLPVENDORINFO structure pointer [SNMP]","smiVENDORINFO","smiVENDORINFO structure [SNMP]","snmp.smivendorinfo_str","winsnmp/smiLPVENDORINFO","winsnmp/smiVENDORINFO"]
@@ -92,3 +92,4 @@ Contains the value 311, Microsoft's enterprise number (permanent address) assign
 
 
 <a href="/windows/desktop/SNMP/winsnmp-structures">WinSNMP Structures</a>
+

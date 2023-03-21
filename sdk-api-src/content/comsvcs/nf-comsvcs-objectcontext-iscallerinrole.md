@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ObjectContext.IsCallerInRole
 title: ObjectContext::IsCallerInRole (comsvcs.h)
-description: Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
+description: Indicates whether the object's direct caller is in a specified role (either directly or as part of a group). (ObjectContext.IsCallerInRole)
 helpviewer_keywords: ["IsCallerInRole","IsCallerInRole method [COM+]","IsCallerInRole method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","IsCallerInRole method","ObjectContext.IsCallerInRole","ObjectContext::IsCallerInRole","_cos_ObjectContext_IsCallerInRole","comsvcs/ObjectContext::IsCallerInRole","cos.objectcontext_iscallerinrole"]
 old-location: cos\objectcontext_iscallerinrole.htm
 tech.root: cos

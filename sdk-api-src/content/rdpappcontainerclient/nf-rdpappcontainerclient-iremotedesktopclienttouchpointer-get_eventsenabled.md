@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_EventsEnabled
 title: IRemoteDesktopClientTouchPointer::get_EventsEnabled (rdpappcontainerclient.h)
-description: Whether touch pointer event notifications are enabled for the RDP app container client control.
+description: Whether touch pointer event notifications are enabled for the RDP app container client control. (Get)
 helpviewer_keywords: ["EventsEnabled property [Remote Desktop Services]","EventsEnabled property [Remote Desktop Services]","IRemoteDesktopClientTouchPointer interface","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","EventsEnabled property","IRemoteDesktopClientTouchPointer.EventsEnabled","IRemoteDesktopClientTouchPointer.get_EventsEnabled","IRemoteDesktopClientTouchPointer::EventsEnabled","IRemoteDesktopClientTouchPointer::get_EventsEnabled","IRemoteDesktopClientTouchPointer::put_EventsEnabled","get_EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled","termserv.iremotedesktopclienttouchpointer_eventsenabled"]
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
 tech.root: TermServ

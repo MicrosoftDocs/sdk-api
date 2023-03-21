@@ -2,9 +2,9 @@
 UID: NF:namespaceapi.CreateBoundaryDescriptorW
 tech.root: backup 
 title: CreateBoundaryDescriptorW
-ms.date: 04/20/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Creates a boundary descriptor. 
+description: The CreateBoundaryDescriptorW (Unicode) function (namespaceapi.h) creates a boundary descriptor. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

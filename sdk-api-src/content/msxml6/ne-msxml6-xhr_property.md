@@ -56,50 +56,50 @@ Defines properties that you can assign to an outgoing HTTP request by calling th
 
 ## -enum-fields
 
-### -field XHR_PROP_NO_CRED_PROMPT
+### -field XHR_PROP_NO_CRED_PROMPT:0
 
 Sets a flag in the HTTP request that suppresses automatic prompts for credentials.
 
-### -field XHR_PROP_NO_AUTH
+### -field XHR_PROP_NO_AUTH:0x1
 
 Sets a flag in the HTTP request that configures the HTTP request that disables authentication for the request.
 
-### -field XHR_PROP_TIMEOUT
+### -field XHR_PROP_TIMEOUT:0x2
 
 Sets the connect, send, and receive timeouts for HTTP socket operations.
 
 <div class="alert"><b>Note</b>  This value will not affect the timeout behavior of the entire request process.</div>
 <div> </div>
 
-### -field XHR_PROP_NO_DEFAULT_HEADERS
+### -field XHR_PROP_NO_DEFAULT_HEADERS:0x3
 
 Suppresses adding default headers to the HTTP request.
 
-### -field XHR_PROP_REPORT_REDIRECT_STATUS
+### -field XHR_PROP_REPORT_REDIRECT_STATUS:0x4
 
 Causes the HTTP stack to call the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> callback method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> will be called again for additional redirects and the final destination status code.
 
-### -field XHR_PROP_NO_CACHE
+### -field XHR_PROP_NO_CACHE:0x5
 
 Suppresses cache reads and writes for the HTTP request.
 
-### -field XHR_PROP_EXTENDED_ERROR
+### -field XHR_PROP_EXTENDED_ERROR:0x6
 
 Causes the HTTP stack to provide <b>HRESULTS</b> with the underlying Win32 error code to the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> callback method in case of failure.
 
-### -field XHR_PROP_QUERY_STRING_UTF8
+### -field XHR_PROP_QUERY_STRING_UTF8:0x7
 
 Causes the query string to be encoded in UTF8 instead of ACP for HTTP request.
 
-### -field XHR_PROP_IGNORE_CERT_ERRORS
+### -field XHR_PROP_IGNORE_CERT_ERRORS:0x8
 
 Suppresses certain certificate errors.
 
-### -field XHR_PROP_ONDATA_THRESHOLD
+### -field XHR_PROP_ONDATA_THRESHOLD:0x9
 
-### -field XHR_PROP_SET_ENTERPRISEID
+### -field XHR_PROP_SET_ENTERPRISEID:0xa
 
-### -field XHR_PROP_MAX_CONNECTIONS
+### -field XHR_PROP_MAX_CONNECTIONS:0xb
 
 ## -see-also
 

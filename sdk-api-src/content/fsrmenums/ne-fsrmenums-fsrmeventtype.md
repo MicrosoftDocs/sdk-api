@@ -57,19 +57,19 @@ Defines the event types that an event logging action (see
 
 ## -enum-fields
 
-### -field FsrmEventType_Unknown
+### -field FsrmEventType_Unknown:0
 
 The event type is unknown. Do not use this flag.
 
-### -field FsrmEventType_Information
+### -field FsrmEventType_Information:1
 
 The event is an information event.
 
-### -field FsrmEventType_Warning
+### -field FsrmEventType_Warning:2
 
 The event is a warning event.
 
-### -field FsrmEventType_Error
+### -field FsrmEventType_Error:3
 
 The event is an error event.
 

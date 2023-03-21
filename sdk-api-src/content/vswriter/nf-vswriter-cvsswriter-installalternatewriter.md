@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriter.InstallAlternateWriter
 title: CVssWriter::InstallAlternateWriter (vswriter.h)
-description: Not supported.
+description: Not supported. (CVssWriter.InstallAlternateWriter)
 helpviewer_keywords: ["CVssWriter interface [VSS]","InstallAlternateWriter method","CVssWriter.InstallAlternateWriter","CVssWriter::InstallAlternateWriter","InstallAlternateWriter","InstallAlternateWriter method [VSS]","InstallAlternateWriter method [VSS]","CVssWriter interface","_win32_cvsswriter_installalternatewriter","base.cvsswriter_installalternatewriter","vswriter/CVssWriter::InstallAlternateWriter"]
 old-location: base\cvsswriter_installalternatewriter.htm
 tech.root: base

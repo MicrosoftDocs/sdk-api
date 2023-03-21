@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.get_Description
 title: IValueMap::get_Description (pla.h)
-description: Retrieves or sets a description of the collection.
+description: Retrieves or sets a description of the collection. (Get)
 helpviewer_keywords: ["Description property [PLA]","Description property [PLA]","IValueMap interface","IValueMap interface [PLA]","Description property","IValueMap.Description","IValueMap.get_Description","IValueMap::Description","IValueMap::get_Description","IValueMap::put_Description","base.ivaluemap_description","get_Description","pla.ivaluemap_description","pla/IValueMap::Description","pla/IValueMap::get_Description","pla/IValueMap::put_Description"]
 old-location: pla\ivaluemap_description.htm
 tech.root: PLA

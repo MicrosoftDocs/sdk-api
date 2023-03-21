@@ -54,27 +54,27 @@ Specifies the type of support provided by an object for the command specified in
 
 ## -enum-fields
 
-### -field OLECMDF_SUPPORTED
+### -field OLECMDF_SUPPORTED:0x1
 
 The command is supported by this object.
 
-### -field OLECMDF_ENABLED
+### -field OLECMDF_ENABLED:0x2
 
 The command is available and enabled.
 
-### -field OLECMDF_LATCHED
+### -field OLECMDF_LATCHED:0x4
 
 The command is an on-off toggle and is currently on.
 
-### -field OLECMDF_NINCHED
+### -field OLECMDF_NINCHED:0x8
 
 Reserved for future use.
 
-### -field OLECMDF_INVISIBLE
+### -field OLECMDF_INVISIBLE:0x10
 
 The command is hidden.
 
-### -field OLECMDF_DEFHIDEONCTXTMENU
+### -field OLECMDF_DEFHIDEONCTXTMENU:0x20
 
 The command is hidden on the context menu.
 

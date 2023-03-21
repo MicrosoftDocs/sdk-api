@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindByInstanceW
 title: DsBindByInstanceW function (ntdsapi.h)
-description: Explicitly binds to any AD LDS or Active Directory instance.
-helpviewer_keywords: ["DsBindByInstance","DsBindByInstance function [ADAM]","DsBindByInstanceA","DsBindByInstanceW","NTDSAPI_BIND_ALLOW_DELEGATION","NTDSAPI_BIND_FORCE_KERBEROS","adam.dsbindbyinstance","ntdsapi/DsBindByInstance","ntdsapi/DsBindByInstanceA","ntdsapi/DsBindByInstanceW"]
+description: Explicitly binds to any AD LDS or Active Directory instance. (Unicode)
+helpviewer_keywords: ["DsBindByInstance", "DsBindByInstance function [ADAM]", "DsBindByInstanceW", "NTDSAPI_BIND_ALLOW_DELEGATION", "NTDSAPI_BIND_FORCE_KERBEROS", "adam.dsbindbyinstance", "ntdsapi/DsBindByInstance", "ntdsapi/DsBindByInstanceW"]
 old-location: adam\dsbindbyinstance.htm
 tech.root: ADAM
 ms.assetid: 65302ddc-2bc0-4d80-b028-e268859be227

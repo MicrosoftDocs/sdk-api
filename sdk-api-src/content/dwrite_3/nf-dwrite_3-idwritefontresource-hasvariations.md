@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.HasVariations
 title: IDWriteFontResource::HasVariations
-description: Determines whether this font face's resource supports any variable axes.
+description: Determines whether this font face's resource supports any variable axes. (IDWriteFontResource::HasVariations)
 helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","HasVariations method","IDWriteFontResource.HasVariations","IDWriteFontResource::HasVariations","HasVariations","HasVariations method [Direct Write]","HasVariations method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_hasvariations","dwrite_3/IDWriteFontResource::HasVariations"]
 tech.root: DirectWrite
 ms.date: 09/16/2019

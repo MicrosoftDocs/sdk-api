@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteA
 title: ShellExecuteA function (shellapi.h)
-description: Performs an operation on a specified file.
-helpviewer_keywords: ["NULL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
+description: Performs an operation on a specified file. (ShellExecuteA)
+helpviewer_keywords: ["NULL", "ShellExecuteA", "edit", "explore", "find", "open", "print", "shellapi/ShellExecuteA"]
 old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897

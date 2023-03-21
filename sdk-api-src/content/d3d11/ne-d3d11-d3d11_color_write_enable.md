@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_COLOR_WRITE_ENABLE
 title: D3D11_COLOR_WRITE_ENABLE (d3d11.h)
-description: Identify which components of each pixel of a render target are writable during blending.
+description: Identify which components of each pixel of a render target are writable during blending. (D3D11_COLOR_WRITE_ENABLE)
 helpviewer_keywords: ["D3D11_COLOR_WRITE_ENABLE","D3D11_COLOR_WRITE_ENABLE enumeration [Direct3D 11]","D3D11_COLOR_WRITE_ENABLE_ALL","D3D11_COLOR_WRITE_ENABLE_ALPHA","D3D11_COLOR_WRITE_ENABLE_BLUE","D3D11_COLOR_WRITE_ENABLE_GREEN","D3D11_COLOR_WRITE_ENABLE_RED","d3d11/D3D11_COLOR_WRITE_ENABLE","d3d11/D3D11_COLOR_WRITE_ENABLE_ALL","d3d11/D3D11_COLOR_WRITE_ENABLE_ALPHA","d3d11/D3D11_COLOR_WRITE_ENABLE_BLUE","d3d11/D3D11_COLOR_WRITE_ENABLE_GREEN","d3d11/D3D11_COLOR_WRITE_ENABLE_RED","direct3d11.d3d11_color_write_enable","f4a83aa2-659b-6119-cd72-8cca8897c5a5"]
 old-location: direct3d11\d3d11_color_write_enable.htm
 tech.root: direct3d11
@@ -54,19 +54,19 @@ Identify which components of each pixel of a render target are writable during b
 
 ## -enum-fields
 
-### -field D3D11_COLOR_WRITE_ENABLE_RED
+### -field D3D11_COLOR_WRITE_ENABLE_RED:1
 
 Allow data to be stored in the red component.
 
-### -field D3D11_COLOR_WRITE_ENABLE_GREEN
+### -field D3D11_COLOR_WRITE_ENABLE_GREEN:2
 
 Allow data to be stored in the green component.
 
-### -field D3D11_COLOR_WRITE_ENABLE_BLUE
+### -field D3D11_COLOR_WRITE_ENABLE_BLUE:4
 
 Allow data to be stored in the blue component.
 
-### -field D3D11_COLOR_WRITE_ENABLE_ALPHA
+### -field D3D11_COLOR_WRITE_ENABLE_ALPHA:8
 
 Allow data to be stored in the alpha component.
 

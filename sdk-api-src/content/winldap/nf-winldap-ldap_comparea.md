@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_compareA
 title: ldap_compareA function (winldap.h)
-description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
-helpviewer_keywords: ["_ldap_ldap_compare","ldap.ldap__compare","ldap.ldap_compare","ldap_compare","ldap_compare function [LDAP]","ldap_compareA","ldap_compareW","winldap/ldap_compare","winldap/ldap_compareA","winldap/ldap_compareW"]
+description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value. (ldap_compareA)
+helpviewer_keywords: ["ldap.ldap__compare", "ldap_compareA", "winldap/ldap_compareA"]
 old-location: ldap\ldap_compare.htm
 tech.root: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856

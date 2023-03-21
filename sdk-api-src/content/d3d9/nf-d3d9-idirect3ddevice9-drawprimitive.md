@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawPrimitive
 title: IDirect3DDevice9::DrawPrimitive (d3d9.h)
-description: Renders a sequence of nonindexed, geometric primitives of the specified type from the current set of data input streams.
+description: The IDirect3DDevice9::DrawPrimitive method (d3d9.h) renders a sequence of non-indexed, geometric primitives of the specified type from the current set of data input streams. 
 helpviewer_keywords: ["DrawPrimitive","DrawPrimitive method [Direct3D 9]","DrawPrimitive method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","DrawPrimitive method","IDirect3DDevice9.DrawPrimitive","IDirect3DDevice9::DrawPrimitive","d3d9helper/IDirect3DDevice9::DrawPrimitive","direct3d9.idirect3ddevice9__drawprimitive","f6573fdd-1724-cbca-56a1-0b336470257e"]
 old-location: direct3d9\idirect3ddevice9__drawprimitive.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawprimitive.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: DrawPrimitive, DrawPrimitive method [Direct3D 9], DrawPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawPrimitive method, IDirect3DDevice9.DrawPrimitive, IDirect3DDevice9::DrawPrimitive, d3d9helper/IDirect3DDevice9::DrawPrimitive, direct3d9.idirect3ddevice9__drawprimitive, f6573fdd-1724-cbca-56a1-0b336470257e
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.AddToSelection
 title: ISelectionItemProvider::AddToSelection (uiautomationcore.h)
-description: Adds the current element to the collection of selected items.
+description: Adds the current element to the collection of selected items. (ISelectionItemProvider.AddToSelection)
 helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","ISelectionItemProvider interface","ISelectionItemProvider interface [Windows Accessibility]","AddToSelection method","ISelectionItemProvider.AddToSelection","ISelectionItemProvider::AddToSelection","uiauto.uiauto_ISelectionItemProvider_AddToSelection","uiauto_ISelectionItemProvider_AddToSelection","uiautomationcore/ISelectionItemProvider::AddToSelection","winauto.uiauto_ISelectionItemProvider_AddToSelection"]
 old-location: winauto\uiauto_ISelectionItemProvider_AddToSelection.htm
 tech.root: WinAuto

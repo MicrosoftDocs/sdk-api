@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY) (d2d1svg.h)
-description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
+description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property. (overload 2/2)
 helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_DISPLAY)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_DISPLAY)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_7"]
 old-location: direct2d\id2d1svgelement_setattributevalue_7.htm
 tech.root: Direct2D

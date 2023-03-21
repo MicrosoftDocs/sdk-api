@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.SetCalendarInfoW
 title: SetCalendarInfoW function (winnls.h)
-description: Sets an item of locale information for a calendar. For more information, see Date and Calendar.
-helpviewer_keywords: ["SetCalendarInfo","SetCalendarInfo function [Internationalization for Windows Applications]","SetCalendarInfoA","SetCalendarInfoW","_win32_SetCalendarInfo","intl.setcalendarinfo","winnls/SetCalendarInfo","winnls/SetCalendarInfoA","winnls/SetCalendarInfoW"]
+description: Sets an item of locale information for a calendar. For more information, see Date and Calendar. (Unicode)
+helpviewer_keywords: ["SetCalendarInfo", "SetCalendarInfo function [Internationalization for Windows Applications]", "SetCalendarInfoW", "_win32_SetCalendarInfo", "intl.setcalendarinfo", "winnls/SetCalendarInfo", "winnls/SetCalendarInfoW"]
 old-location: intl\setcalendarinfo.htm
 tech.root: Intl
 ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f

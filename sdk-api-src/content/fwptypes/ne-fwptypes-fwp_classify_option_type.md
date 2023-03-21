@@ -58,7 +58,7 @@ The <b>FWP_CLASSIFY_OPTION_TYPE</b> enumerated type is used by callouts and shim
 
 ## -enum-fields
 
-### -field FWP_CLASSIFY_OPTION_MULTICAST_STATE
+### -field FWP_CLASSIFY_OPTION_MULTICAST_STATE:0
 
 Specifies the multicast conditions on outbound traffic. See [FWPM_CLASSIFY_OPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0) for possible values.
 

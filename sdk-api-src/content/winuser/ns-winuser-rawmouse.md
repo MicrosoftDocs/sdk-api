@@ -156,7 +156,7 @@ else if (rawMouse.lLastX != 0 || rawMouse.lLastY != 0)
 }
 ```
 
-In contrast to legacy [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's **Mouse Properties** sheet. See [About Mouse Input](/windows/win32/inputdev/about-mouse-input) for details.
+In contrast to legacy [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's **Mouse Properties** sheet. See [Mouse Input Overview](/windows/win32/inputdev/about-mouse-input) for details.
 
 If mouse wheel is moved, indicated by **RI_MOUSE_WHEEL** or **RI_MOUSE_HWHEEL** in **usButtonFlags**, then **usButtonData** contains a signed **short** value that specifies the distance the wheel is rotated.
 
@@ -218,7 +218,7 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 
 [MOUSE_INPUT_DATA structure](../ntddmou/ns-ntddmou-mouse_input_data.md)
 
-[About Mouse Input (legacy)](/windows/win32/inputdev/about-mouse-input)
+[Mouse Input Overview (legacy)](/windows/win32/inputdev/about-mouse-input)
 
 [Mouse Input Notifications (legacy)](/windows/win32/inputdev/mouse-input-notifications)
 

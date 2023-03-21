@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaultsWithNotify
 title: ICodecAPI::SetAllDefaultsWithNotify (strmif.h)
-description: The SetAllDefaultsWithNotify method resets all codec properties to their default values, and returns a list of the properties that changed.
+description: The SetAllDefaultsWithNotify method resets all codec properties to their default values, and returns a list of the properties that changed. (ICodecAPI.SetAllDefaultsWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllDefaultsWithNotify method","ICodecAPI.SetAllDefaultsWithNotify","ICodecAPI::SetAllDefaultsWithNotify","ICodecAPISetAllDefaultsWithNotify","SetAllDefaultsWithNotify","SetAllDefaultsWithNotify method [DirectShow]","SetAllDefaultsWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setalldefaultswithnotify","strmif/ICodecAPI::SetAllDefaultsWithNotify"]
 old-location: dshow\icodecapi_setalldefaultswithnotify.htm
 tech.root: dshow

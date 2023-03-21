@@ -1,9 +1,7 @@
 ---
 UID: NC:evntrace.PEVENT_TRACE_BUFFER_CALLBACKW
 title: PEVENT_TRACE_BUFFER_CALLBACKW (evntrace.h)
-description:
-  ETW event consumers implement this function to receive statistics about each
-  buffer of events that ETW delivers during a trace processing session.
+description: The PEVENT_TRACE_BUFFER_CALLBACKW (Unicode) (evntrace.h) function gets statistics about each buffer of events that ETW sends during a trace processing session.
 helpviewer_keywords:
   [
     "BufferCallback",
@@ -20,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\buffercallback.htm
 tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   BufferCallback, BufferCallback callback function [ETW],
   PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACK callback,
@@ -102,7 +100,8 @@ structure that you pass to the
 For an example implementation of a **BufferCallback** function, see
 [Retrieving Event Data Using MOF](/windows/desktop/ETW/retrieving-event-data-using-mof).
 
-> [!NOTE] The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias
+> [!NOTE]
+> The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias
 > which automatically selects the ANSI or Unicode version of this function based
 > on the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

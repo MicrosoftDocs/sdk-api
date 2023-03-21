@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlEthernetStringToAddressA
 title: RtlEthernetStringToAddressA function (ip2string.h)
-description: Converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address.
-helpviewer_keywords: ["RtlEthernetStringToAddress","RtlEthernetStringToAddress function [IP Helper]","RtlEthernetStringToAddressA","RtlEthernetStringToAddressW","ip2string/RtlEthernetStringToAddress","ip2string/RtlEthernetStringToAddressA","ip2string/RtlEthernetStringToAddressW","iphlp.rtlethernetstringtoaddress"]
+description: Converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address. (ANSI)
+helpviewer_keywords: ["RtlEthernetStringToAddressA", "ip2string/RtlEthernetStringToAddressA"]
 old-location: iphlp\rtlethernetstringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 9FE1F2C6-971E-4789-9D30-4C129B3951F4

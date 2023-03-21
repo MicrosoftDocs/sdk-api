@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMStoryFragmentsResource interface
 
-
 ## -description
 
 Provides access to the content of the resource stream of a page's StoryFragments part.

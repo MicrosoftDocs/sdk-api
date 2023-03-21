@@ -1,0 +1,8 @@
+{
+  "tech": "activity_coordinator",
+  "headers": [
+    "activitycoordinator.h",
+    "activitycoordinatortypes.h"
+  ],
+  "displayName": "Activity Coordinator"
+}

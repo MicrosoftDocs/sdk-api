@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Delete_Class_Key</b> function removes the specified installed <a href="/windows-hardware/drivers/">device class</a> from the system.
+The <b>CM_Delete_Class_Key</b> function removes the specified installed <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device class</a> from the system.
 
 ## -parameters
 

@@ -4,7 +4,7 @@ title: Interaction Context
 ms.assetid: 861b8874-7988-364c-9d5c-69f24caf0a0a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Interaction Context

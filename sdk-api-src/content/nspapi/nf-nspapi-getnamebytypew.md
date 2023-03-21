@@ -1,8 +1,8 @@
 ---
 UID: NF:nspapi.GetNameByTypeW
 title: GetNameByTypeW function (nspapi.h)
-description: The GetNameByType function retrieves the name of a network service for the specified service type.
-helpviewer_keywords: ["GetNameByType","GetNameByType function [Winsock]","GetNameByTypeA","GetNameByTypeW","_win32_getnamebytype_2","nspapi/GetNameByType","nspapi/GetNameByTypeA","nspapi/GetNameByTypeW","winsock.getnamebytype_2"]
+description: The GetNameByType function retrieves the name of a network service for the specified service type. (Unicode)
+helpviewer_keywords: ["GetNameByType", "GetNameByType function [Winsock]", "GetNameByTypeW", "_win32_getnamebytype_2", "nspapi/GetNameByType", "nspapi/GetNameByTypeW", "winsock.getnamebytype_2"]
 old-location: winsock\getnamebytype_2.htm
 tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee

@@ -54,7 +54,7 @@ The <b>WMPPlaylistChangeEventType</b> enumeration type defines the types of chan
 
 ## -enum-fields
 
-### -field wmplcUnknown
+### -field wmplcUnknown:0
 
 An unknown change has occurred.
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.RGBCOLOR
 title: RGBCOLOR
-description: TBD
+description: TBD (RGBCOLOR)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

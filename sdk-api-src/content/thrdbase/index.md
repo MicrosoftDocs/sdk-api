@@ -4,7 +4,7 @@ title: Thrdbase.h header
 ms.assetid: e0aaa3b0-bd78-317f-a1b1-08fc80249c99
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wmi
 f1_keywords:
  - thrdbase

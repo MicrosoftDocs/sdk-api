@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Creates or opens a file or I/O device. The behavior of this function is identical to [**CreateFile**](../winbase/nf-winbase-copyfilea.md), except that this function adheres to the Universal Windows Platform app security model.
+Creates or opens a file or I/O device. The behavior of this function is identical to [**CreateFile**](../fileapi/nf-fileapi-createfilew.md), except that this function adheres to the Universal Windows Platform app security model.
 
 
 ## -parameters

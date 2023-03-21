@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_ExtendedStatus
 title: IFaxIncomingJob::get_ExtendedStatus (faxcomex.h)
-description: The ExtendedStatus property is a null-terminated string that describes the job's extended status.
+description: The ExtendedStatus property is a null-terminated string that describes the job's extended status. (IFaxIncomingJob.get_ExtendedStatus)
 helpviewer_keywords: ["ExtendedStatus property [Fax Service]","ExtendedStatus property [Fax Service]","IFaxIncomingJob interface","IFaxIncomingJob interface [Fax Service]","ExtendedStatus property","IFaxIncomingJob.ExtendedStatus","IFaxIncomingJob.get_ExtendedStatus","IFaxIncomingJob::ExtendedStatus","IFaxIncomingJob::get_ExtendedStatus","_mfax_faxincomingjob.extendedstatus","fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_extendedstatus_cpp","fax._mfax_faxincomingjob_extendedstatus","faxcomex/IFaxIncomingJob::ExtendedStatus","faxcomex/IFaxIncomingJob::get_ExtendedStatus","get_ExtendedStatus"]
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_extendedstatus_cpp.htm
 tech.root: Fax

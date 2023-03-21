@@ -1,7 +1,7 @@
 ---
 UID: NF:webauthenticationcoremanagerinterop.IWebAuthenticationCoreManagerInterop.RequestTokenWithWebAccountForWindowAsync
 title: IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
-description: Asynchronously requests a token from a web account provider. If necessary, the user is prompted to enter their credentials.
+description: Asynchronously requests a token from a web account provider. If necessary, the user is prompted to enter their credentials. (IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync)
 helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync

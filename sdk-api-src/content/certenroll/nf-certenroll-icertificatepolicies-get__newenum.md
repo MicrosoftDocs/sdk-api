@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.get__NewEnum
 title: ICertificatePolicies::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (ICertificatePolicies.get__NewEnum)
 helpviewer_keywords: ["ICertificatePolicies interface [Security]","_NewEnum property","ICertificatePolicies._NewEnum","ICertificatePolicies.get__NewEnum","ICertificatePolicies::_NewEnum","ICertificatePolicies::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","ICertificatePolicies interface","certenroll/ICertificatePolicies::_NewEnum","certenroll/ICertificatePolicies::get__NewEnum","get__NewEnum","security.icertificatepolicies__newenum_property"]
 old-location: security\icertificatepolicies__newenum_property.htm
 tech.root: security

@@ -56,7 +56,7 @@ Specifies values for audio constriction.
 
 ## -enum-fields
 
-### -field MFaudioConstrictionOff
+### -field MFaudioConstrictionOff:0
 
 Audio is not constricted.
 

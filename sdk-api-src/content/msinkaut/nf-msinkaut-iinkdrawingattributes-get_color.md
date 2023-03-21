@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Color
 title: IInkDrawingAttributes::get_Color (msinkaut.h)
-description: Gets or sets the color of the ink that is drawn with this InkDrawingAttributes object.
+description: Gets or sets the color of the ink that is drawn with this InkDrawingAttributes object. (Get)
 helpviewer_keywords: ["885ace6d-952e-4870-b92c-92e47daadfcf","Color property [Tablet PC]","Color property [Tablet PC]","IInkDrawingAttributes interface","IInkDrawingAttributes interface [Tablet PC]","Color property","IInkDrawingAttributes.Color","IInkDrawingAttributes.get_Color","IInkDrawingAttributes::Color","IInkDrawingAttributes::get_Color","IInkDrawingAttributes::put_Color","InkDrawingAttributes.get_Color","InkDrawingAttributes.put_Color","get_Color","msinkaut/IInkDrawingAttributes::Color","msinkaut/IInkDrawingAttributes::get_Color","msinkaut/IInkDrawingAttributes::put_Color","put_Color","tablet.inkdrawingattributes_color"]
 old-location: tablet\inkdrawingattributes_color.htm
 tech.root: tablet

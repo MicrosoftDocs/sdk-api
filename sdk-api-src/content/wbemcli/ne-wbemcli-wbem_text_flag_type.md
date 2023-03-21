@@ -56,7 +56,7 @@ Contains flags to control the execution of the <a href="/windows/desktop/api/wbe
 
 ## -enum-fields
 
-### -field WBEM_FLAG_NO_FLAVORS
+### -field WBEM_FLAG_NO_FLAVORS:0x1
 
 Present qualifiers without propagation or flavor information.
 

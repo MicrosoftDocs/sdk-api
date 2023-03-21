@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.Clear
 title: IStringCollection::Clear (wuapi.h)
-description: Removes all the elements from the collection.
+description: Removes all the elements from the collection. (IStringCollection.Clear)
 helpviewer_keywords: ["Clear","Clear method [Windows Update Agent]","Clear method [Windows Update Agent]","IStringCollection interface","IStringCollection interface [Windows Update Agent]","Clear method","IStringCollection.Clear","IStringCollection::Clear","wua.istringcollection_clear","wuapi/IStringCollection::Clear"]
 old-location: wua\istringcollection_clear.htm
 tech.root: wua

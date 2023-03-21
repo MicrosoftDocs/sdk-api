@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTVINSERTSTRUCTW
 title: TVINSERTSTRUCTW (commctrl.h)
-description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
+description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions. (Unicode)
 helpviewer_keywords: ["*LPTVINSERTSTRUCTW","LPTVINSERTSTRUCT","LPTVINSERTSTRUCT structure pointer [Windows Controls]","TVINSERTSTRUCT","TVINSERTSTRUCT structure [Windows Controls]","TVINSERTSTRUCTA","TVINSERTSTRUCTW","TVI_FIRST","TVI_LAST","TVI_ROOT","TVI_SORT","_win32_TVINSERTSTRUCT","_win32_TVINSERTSTRUCT_cpp","commctrl/LPTVINSERTSTRUCT","commctrl/TVINSERTSTRUCT","commctrl/TVINSERTSTRUCTA","commctrl/TVINSERTSTRUCTW","controls.TVINSERTSTRUCT","controls._win32_TVINSERTSTRUCT"]
 old-location: controls\TVINSERTSTRUCT.htm
 tech.root: Controls

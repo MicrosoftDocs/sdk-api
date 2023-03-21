@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.InitializeDecode
 title: IX509AttributeClientId::InitializeDecode (certenroll.h)
-description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the attribute value.
+description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the attribute value. (IX509AttributeClientId.InitializeDecode)
 helpviewer_keywords: ["IX509AttributeClientId interface [Security]","InitializeDecode method","IX509AttributeClientId.InitializeDecode","IX509AttributeClientId::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509AttributeClientId interface","certenroll/IX509AttributeClientId::InitializeDecode","security.ix509attributeclientid_initializedecode_method"]
 old-location: security\ix509attributeclientid_initializedecode_method.htm
 tech.root: security

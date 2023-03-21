@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContextFromWicColorContext
 title: ID2D1EffectContext::CreateColorContextFromWicColorContext (d2d1effectauthor.h)
-description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
+description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info. (ID2D1EffectContext.CreateColorContextFromWicColorContext)
 helpviewer_keywords: ["CreateColorContextFromWicColorContext","CreateColorContextFromWicColorContext method [Direct2D]","CreateColorContextFromWicColorContext method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateColorContextFromWicColorContext method","ID2D1EffectContext.CreateColorContextFromWicColorContext","ID2D1EffectContext::CreateColorContextFromWicColorContext","d2d1effectauthor/ID2D1EffectContext::CreateColorContextFromWicColorContext","direct2d.id2d1contextinternal_createcolorcontextfromwiccolorcontext"]
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromwiccolorcontext.htm
 tech.root: Direct2D

@@ -56,7 +56,7 @@ The <b>IWMPPlaylist</b> interface provides methods for manipulating lists of med
 
 The <b>IWMPPlaylist</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylist</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

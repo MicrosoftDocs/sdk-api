@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetMemberTypeByName
 title: ID3D11ShaderReflectionType::GetMemberTypeByName (d3d11shader.h)
-description: Get a shader-reflection-variable type by name.
+description: Get a shader-reflection-variable type by name. (ID3D11ShaderReflectionType.GetMemberTypeByName)
 helpviewer_keywords: ["4c4b8d42-c920-9eea-2d7b-128e1fe98533","GetMemberTypeByName","GetMemberTypeByName method [Direct3D 11]","GetMemberTypeByName method [Direct3D 11]","ID3D11ShaderReflectionType interface","ID3D11ShaderReflectionType interface [Direct3D 11]","GetMemberTypeByName method","ID3D11ShaderReflectionType.GetMemberTypeByName","ID3D11ShaderReflectionType::GetMemberTypeByName","d3d11shader/ID3D11ShaderReflectionType::GetMemberTypeByName","direct3d11.id3d11shaderreflectiontype_getmembertypebyname"]
 old-location: direct3d11\id3d11shaderreflectiontype_getmembertypebyname.htm
 tech.root: direct3d11

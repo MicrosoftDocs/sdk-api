@@ -6,7 +6,7 @@ ms.date: 06/12/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows
-ms.topic: portal
+ms.topic: overview
 tech.root: dxcore
 ---
 

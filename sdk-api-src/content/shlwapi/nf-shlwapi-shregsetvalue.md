@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegSetValue
 title: SHRegSetValue function (shlwapi.h)
-description: Not supported.
+description: Not supported. (SHRegSetValue)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegSetValue","SHRegSetValue function [Windows Shell]","_shell_SHRegSetValue","shell.SHRegSetValue","shlwapi/SHRegSetValue"]
 old-location: shell\SHRegSetValue.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Transform
 title: IInkStrokeDisp::Transform (msinkaut.h)
-description: Applies a linear transformation to an IInkStrokeDisp object or an InkStrokes collection, which can represent scaling, rotation, translation, and combinations of transformations.
+description: Applies a linear transformation to an IInkStrokeDisp object or an InkStrokes collection, which can represent scaling, rotation, translation, and combinations of transformations. (IInkStrokeDisp.Transform)
 helpviewer_keywords: ["IInkStrokeDisp interface [Tablet PC]","Transform method","IInkStrokeDisp.Transform","IInkStrokeDisp::Transform","Transform","Transform method [Tablet PC]","Transform method [Tablet PC]","IInkStrokeDisp interface","b7860215-a267-407e-9105-8e51340f4216","msinkaut/IInkStrokeDisp::Transform","tablet.iinkstrokedisp_transform"]
 old-location: tablet\iinkstrokedisp_transform.htm
 tech.root: tablet

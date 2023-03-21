@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.CreateEventExA
 title: CreateEventExA function (synchapi.h)
-description: Creates or opens a named or unnamed event object and returns a handle to the object.
-helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET","CREATE_EVENT_MANUAL_RESET","CreateEventEx","CreateEventEx function","CreateEventExA","CreateEventExW","base.createeventex","synchapi/CreateEventEx","synchapi/CreateEventExA","synchapi/CreateEventExW","winbase/CreateEventEx","winbase/CreateEventExA","winbase/CreateEventExW"]
+description: Creates or opens a named or unnamed event object and returns a handle to the object. (ANSI)
+helpviewer_keywords: ["CREATE_EVENT_INITIAL_SET", "CREATE_EVENT_MANUAL_RESET", "CreateEventExA", "synchapi/CreateEventExA"]
 old-location: base\createeventex.htm
 tech.root: base
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.date: 12/05/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListW
 title: SetupAddToSourceListW function (setupapi.h)
-description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
-helpviewer_keywords: ["SetupAddToSourceList","SetupAddToSourceList function [Setup API]","SetupAddToSourceListA","SetupAddToSourceListW","_setupapi_setupaddtosourcelist","setup.setupaddtosourcelist","setupapi/SetupAddToSourceList","setupapi/SetupAddToSourceListA","setupapi/SetupAddToSourceListW"]
+description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created. (Unicode)
+helpviewer_keywords: ["SetupAddToSourceList", "SetupAddToSourceList function [Setup API]", "SetupAddToSourceListW", "_setupapi_setupaddtosourcelist", "setup.setupaddtosourcelist", "setupapi/SetupAddToSourceList", "setupapi/SetupAddToSourceListW"]
 old-location: setup\setupaddtosourcelist.htm
 tech.root: setup
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd

@@ -4,7 +4,7 @@ title: Wdsbp.h header
 ms.assetid: 1a3db2f8-b870-3f2a-91f2-5ce4802047f8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wds
 f1_keywords:
  - wdsbp

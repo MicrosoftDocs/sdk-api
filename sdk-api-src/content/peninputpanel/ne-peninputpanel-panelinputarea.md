@@ -56,19 +56,19 @@ Specifies the values that represent the default input areas of the Tablet PC Inp
 
 ## -enum-fields
 
-### -field PanelInputArea_Auto
+### -field PanelInputArea_Auto:0
 
  The system controls the default input area.
 
-### -field PanelInputArea_Keyboard
+### -field PanelInputArea_Keyboard:1
 
 The keyboard is the default input area.
 
-### -field PanelInputArea_WritingPad
+### -field PanelInputArea_WritingPad:2
 
 The writing pad is the default input area.
 
-### -field PanelInputArea_CharacterPad
+### -field PanelInputArea_CharacterPad:3
 
 The character pad is the default input area.
 

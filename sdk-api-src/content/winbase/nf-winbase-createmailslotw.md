@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateMailslotW
 title: CreateMailslotW function (winbase.h)
-description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
-helpviewer_keywords: ["CreateMailslot","CreateMailslot function","CreateMailslotA","CreateMailslotW","MAILSLOT_WAIT_FOREVER","_win32_createmailslot","base.createmailslot","winbase/CreateMailslot","winbase/CreateMailslotA","winbase/CreateMailslotW"]
+description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot. (Unicode)
+helpviewer_keywords: ["CreateMailslot", "CreateMailslot function", "CreateMailslotW", "MAILSLOT_WAIT_FOREVER", "_win32_createmailslot", "base.createmailslot", "winbase/CreateMailslot", "winbase/CreateMailslotW"]
 old-location: base\createmailslot.htm
 tech.root: base
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7

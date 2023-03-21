@@ -56,19 +56,19 @@ Defines the context in which an <a href="/windows/desktop/api/wuapi/nn-wuapi-iup
 
 ## -enum-fields
 
-### -field uecGeneral
+### -field uecGeneral:1
 
 The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is not tied to any context.
 
-### -field uecWindowsDriver
+### -field uecWindowsDriver:2
 
 The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is related to one or more Windows drivers.
 
-### -field uecWindowsInstaller
+### -field uecWindowsInstaller:3
 
 The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is related to Windows Installer.
 
-### -field uecSearchIncomplete
+### -field uecSearchIncomplete:4
 
 ## -see-also
 

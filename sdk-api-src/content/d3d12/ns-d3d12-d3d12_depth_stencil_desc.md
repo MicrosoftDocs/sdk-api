@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCIL_DESC
 title: D3D12_DEPTH_STENCIL_DESC (d3d12.h)
-description: Describes depth-stencil state.
+description: Describes depth-stencil state. (D3D12_DEPTH_STENCIL_DESC)
 helpviewer_keywords: ["D3D12_DEPTH_STENCIL_DESC","D3D12_DEPTH_STENCIL_DESC structure","d3d12/D3D12_DEPTH_STENCIL_DESC","direct3d12.d3d12_depth_stencil_desc"]
 old-location: direct3d12\d3d12_depth_stencil_desc.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_MouseIcon
 title: IInkOverlay::put_MouseIcon (msinkaut.h)
-description: Gets or sets the custom mouse icon.
+description: Gets or sets the custom mouse icon. (IInkOverlay.put_MouseIcon)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MouseIcon property","IInkOverlay.MouseIcon","IInkOverlay.put_MouseIcon","IInkOverlay::MouseIcon","IInkOverlay::get_MouseIcon","IInkOverlay::put_MouseIcon","InkOverlay.get_MouseIcon","InkOverlay.put_MouseIcon","MouseIcon property [Tablet PC]","MouseIcon property [Tablet PC]","IInkOverlay interface","get_MouseIcon","msinkaut/IInkOverlay::MouseIcon","msinkaut/IInkOverlay::get_MouseIcon","msinkaut/IInkOverlay::put_MouseIcon","put_MouseIcon","putref_MouseIcon","tablet.inkoverlay_mouseicon"]
 old-location: tablet\inkoverlay_mouseicon.htm
 tech.root: tablet

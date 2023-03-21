@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionDescription
 title: ISpellChecker::GetOptionDescription (spellcheck.h)
-description: Retrieves the information (id, description, heading and labels) of a specific option.
+description: Retrieves the information (id, description, heading and labels) of a specific option. (ISpellChecker.GetOptionDescription)
 helpviewer_keywords: ["GetOptionDescription","GetOptionDescription method [Internationalization for Windows Applications]","GetOptionDescription method [Internationalization for Windows Applications]","ISpellChecker interface","ISpellChecker interface [Internationalization for Windows Applications]","GetOptionDescription method","ISpellChecker.GetOptionDescription","ISpellChecker::GetOptionDescription","intl.ispellchecker_getoptiondescription","spellcheck/ISpellChecker::GetOptionDescription"]
 old-location: intl\ispellchecker_getoptiondescription.htm
 tech.root: Intl

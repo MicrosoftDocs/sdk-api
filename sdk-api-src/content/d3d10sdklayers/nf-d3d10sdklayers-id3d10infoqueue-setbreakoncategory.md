@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.SetBreakOnCategory
 title: ID3D10InfoQueue::SetBreakOnCategory (d3d10sdklayers.h)
-description: Set a message category to break on when a message with that category passes through the storage filter.
+description: Set a message category to break on when a message with that category passes through the storage filter. (ID3D10InfoQueue.SetBreakOnCategory)
 helpviewer_keywords: ["5e1bf739-ba7b-46d2-556f-7491e82f1678","ID3D10InfoQueue interface [Direct3D 10]","SetBreakOnCategory method","ID3D10InfoQueue.SetBreakOnCategory","ID3D10InfoQueue::SetBreakOnCategory","SetBreakOnCategory","SetBreakOnCategory method [Direct3D 10]","SetBreakOnCategory method [Direct3D 10]","ID3D10InfoQueue interface","d3d10sdklayers/ID3D10InfoQueue::SetBreakOnCategory","direct3d10.id3d10infoqueue_setbreakoncategory"]
 old-location: direct3d10\id3d10infoqueue_setbreakoncategory.htm
 tech.root: direct3d10

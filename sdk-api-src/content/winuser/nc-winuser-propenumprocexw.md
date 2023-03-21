@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.PROPENUMPROCEXW
 title: PROPENUMPROCEXW (winuser.h)
-description: Application-defined callback function used with the EnumPropsEx function.
+description: Application-defined callback function used with the EnumPropsEx function. (Unicode)
 helpviewer_keywords: ["PropEnumProcEx","PropEnumProcEx callback","PropEnumProcEx callback function [Windows and Messages]","PropEnumProcExA","PropEnumProcExW","_win32_PropEnumProcEx","_win32_propenumprocex_cpp","winmsg.propenumprocex","winui._win32_propenumprocex","winuser/PropEnumProcEx","winuser/PropEnumProcExA","winuser/PropEnumProcExW"]
 old-location: winmsg\propenumprocex.htm
 tech.root: winmsg

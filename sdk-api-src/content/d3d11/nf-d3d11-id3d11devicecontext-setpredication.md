@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetPredication
 title: ID3D11DeviceContext::SetPredication (d3d11.h)
-description: Set a rendering predicate.
+description: Set a rendering predicate. (ID3D11DeviceContext.SetPredication)
 helpviewer_keywords: ["98e79ffd-cbd6-1ca3-db07-4eea5d48cf38","ID3D11DeviceContext interface [Direct3D 11]","SetPredication method","ID3D11DeviceContext.SetPredication","ID3D11DeviceContext::SetPredication","SetPredication","SetPredication method [Direct3D 11]","SetPredication method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::SetPredication","direct3d11.id3d11devicecontext_setpredication"]
 old-location: direct3d11\id3d11devicecontext_setpredication.htm
 tech.root: direct3d11
