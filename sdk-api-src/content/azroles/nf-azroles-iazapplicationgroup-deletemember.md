@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteMember metho
 old-location: security\iazapplicationgroup_deletemember.htm
 tech.root: security
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzApplicationGroup object, DeleteMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMember method, IAzApplicationGroup.DeleteMember, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzApplicationGroup::DeleteMember
 
-
 ## -description
 
-The <b>DeleteMember</b> method removes  the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of  accounts that belong to the application group.
+The **DeleteMember** method removes  the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form from the list of accounts that belong to the application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the text form of the SID to remove from the list of  accounts that belong to the application group.
+String that contains the text form of the SID to remove from the list of accounts that belong to the application group.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of SIDs of accounts that belong to this application group in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property.
+To view the list of SIDs of accounts that belong to this application group in text form, use the [Members](nf-azroles-iazapplicationgroup-get_members.md) property.
+
+## -see-also
+
+[Members](nf-azroles-iazapplicationgroup-get_members.md)

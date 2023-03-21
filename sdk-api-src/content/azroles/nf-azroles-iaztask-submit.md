@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzTask object [Security]","Submit method","IAzTask interf
 old-location: security\iaztask_submit.htm
 tech.root: security
 ms.assetid: a6f01573-c1ee-421d-8591-e1c9fa6c3d68
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzTask object [Security],Submit method, IAzTask interface [Security],Submit method, IAzTask.Submit, IAzTask::Submit, Submit, Submit method [Security], Submit method [Security],AzTask object, Submit method [Security],IAzTask interface, azroles/IAzTask::Submit, security.iaztask_submit
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzTask::Submit
 
-
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object.
+The **Submit** method persists changes made to the [IAzTask](nn-azroles-iaztask.md) object.
 
 ## -parameters
 
 ### -param lFlags [in, optional]
 
-Flags that modify the behavior of the <b>Submit</b> method. The default value is zero. If the AZ_SUBMIT_FLAG_ABORT flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
+Flags that modify the behavior of the **Submit** method. The default value is zero. If the **AZ_SUBMIT_FLAG_ABORT** flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object are not persisted until the <b>Submit</b> method is called.
+Any additions or modifications to an [IAzTask](nn-azroles-iaztask.md) object are not persisted until the **Submit** method is called.
+
+## -see-also
+
+[IAzTask](nn-azroles-iaztask.md)
