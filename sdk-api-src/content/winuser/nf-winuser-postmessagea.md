@@ -152,9 +152,6 @@ Do not post the <a href="/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message us
 
 A message queue can contain at most 10,000 messages. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 				
-				
-
-
 <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
@@ -163,6 +160,7 @@ A message queue can contain at most 10,000 messages. This limit should be suffic
                <b>Windows</b>
                   <b>USERPostMessageLimit</b></pre>
 
+If the function fails, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit.
 
 The minimum acceptable value is 4000.
 

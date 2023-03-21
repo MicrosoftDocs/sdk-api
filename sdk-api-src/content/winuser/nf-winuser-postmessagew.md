@@ -6,7 +6,7 @@ helpviewer_keywords: ["HWND_BROADCAST", "PostMessage", "PostMessage function [Wi
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
-ms.date: 12/05/2018
+ms.date: 03/21/2023
 ms.keywords: HWND_BROADCAST, PostMessage, PostMessage function [Windows and Messages], PostMessageA, PostMessageW, _win32_PostMessage, _win32_postmessage_cpp, winmsg.postmessage, winui._win32_postmessage, winuser/PostMessage, winuser/PostMessageA, winuser/PostMessageW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -151,9 +151,6 @@ Do not post the <a href="/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message us
  An accessibility application can use <b>PostMessage</b> to post <a href="/windows/desktop/inputdev/wm-appcommand">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
 
 There is a limit of 10,000 posted messages per message queue. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
-				
-				
-
 
 <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
@@ -163,6 +160,7 @@ There is a limit of 10,000 posted messages per message queue. This limit should 
                <b>Windows</b>
                   <b>USERPostMessageLimit</b></pre>
 
+If the function fails, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit.
 
 The minimum acceptable value is 4000.
 
