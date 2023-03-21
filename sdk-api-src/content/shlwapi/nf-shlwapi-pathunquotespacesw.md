@@ -68,7 +68,7 @@ A pointer to a null-terminated string of length MAX_PATH that contains the path.
 
 ## -returns
 
-No return value.
+<b>TRUE</b> if the string gets unquoted; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
