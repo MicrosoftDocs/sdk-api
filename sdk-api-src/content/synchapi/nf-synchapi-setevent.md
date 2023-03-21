@@ -81,11 +81,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-The state of a manual-reset event object remains signaled until it is set explicitly to the nonsignaled state by the 
+The state of a **manual-reset** event object remains signaled until it is set explicitly to the nonsignaled state by the 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function. Any number of waiting threads, or threads that subsequently begin wait operations for the specified event object by calling one of the 
 <a href="/windows/desktop/Sync/wait-functions">wait functions</a>, can be released while the object's state is signaled.
 
-The state of an auto-reset event object remains signaled until a single waiting thread is released, at which time the system automatically sets the state to nonsignaled. If no threads are waiting, the event object's state remains signaled.
+By contrast, the state of an **auto-reset** event object remains signaled until a single waiting thread is released, at which time the system automatically sets the state to nonsignaled. If no threads are waiting, the event object's state remains signaled.
 
 Setting an event that is already set has no effect.
 
