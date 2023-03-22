@@ -40,8 +40,6 @@ f1_keywords:
  - inkrenderer/IInkD2DRenderer2::Draw
 dev_langs:
  - c++
-helpviewer_keywords:
- - Draw
 ---
 
 ## -description

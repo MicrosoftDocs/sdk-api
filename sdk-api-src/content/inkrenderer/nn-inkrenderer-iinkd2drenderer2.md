@@ -2,7 +2,6 @@
 UID: NN:inkrenderer.IInkD2DRenderer2
 title: IInkD2DRenderer2 (inkrenderer.h)
 description: An IInkD2DRenderer2 object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
-helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
 ms.date: 03/21/2023
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer2 interface, IInkD2DRenderer2 interface,Draw method, IInkD2DRenderer2.Draw, IInkD2DRenderer2::Draw, inkrenderer/IInkD2DRenderer2::Draw, input_ink.iinkd2drenderer2_draw
 tech.root: input_ink
@@ -21,8 +20,6 @@ req.target-min-winverclnt: Windows 11 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.target-type: Windows
 req.unicode-ansi: 
-topic_type:
- - apiref
 api_type:
  - COM
 api_location:
@@ -37,8 +34,7 @@ dev_langs:
 topic_type:
  - APIRef
  - kbSyntax
-helpviewer_keywords:
- - IInkD2DRenderer2
+helpviewer_keywords: ["IInkD2DRenderer2","Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
 ---
 
 # IInkD2DRenderer2 interface

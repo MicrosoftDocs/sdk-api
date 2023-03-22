@@ -6,7 +6,7 @@ ms.date: 03/21/2023
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer2 interface, IInkD2DRenderer2 interface,Draw method, IInkD2DRenderer2.Draw, IInkD2DRenderer2::Draw, inkrenderer/IInkD2DRenderer2::Draw, input_ink.iinkd2drenderer2_draw
 targetos: Windows
 description: Specifies how the IInkD2DRenderer2 object draws ink (standard and modified) when system is in a contrast theme mode.
-helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
+helpviewer_keywords: ["INK_HIGH_CONTRAST_ADJUSTMENT","Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -35,8 +35,6 @@ f1_keywords:
  - inkrenderer/INK_HIGH_CONTRAST_ADJUSTMENT
 dev_langs:
  - c++
-helpviewer_keywords:
- - __MIDL___MIDL_itf_inkrenderer_0000_0000_0001
 ---
 
 # INK_HIGH_CONTRAST_ADJUSTMENT enum
