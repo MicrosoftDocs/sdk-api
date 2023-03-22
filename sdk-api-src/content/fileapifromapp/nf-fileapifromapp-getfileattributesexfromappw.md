@@ -56,7 +56,7 @@ For information about opting out of the **MAX\_PATH** limitation without prepend
 
 A class of attribute information to retrieve.
 
-This parameter can be the following value from the [**GET\_FILEEX\_INFO\_LEVELS**](../minwinbase/ne-minwinbase-get_fileex_info_levels.md) enumeration.
+This parameter can be the following value from the [GET\_FILEEX\_INFO\_LEVELS](../minwinbase/ne-minwinbase-get_fileex_info_levels.md) enumeration.
 
 | Value | Meaning |
 |--------|--------|
