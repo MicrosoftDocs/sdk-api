@@ -56,21 +56,31 @@ The **BCryptProcessMultiOperations** function processes a sequence of operations
 
 ### -param hObject
 
+*BCRYPT_HANDLE* `[in, out]`
+
 A handle to a multi-object state, such as one created by the [BCryptCreateMultiHash](nf-bcrypt-bcryptcreatemultihash.md) function.
 
 ### -param operationType
 
-A **BCRYPT_OPERATION_TYPE_*** value. Currently the only defined value is **BCRYPT_OPERATION_TYPE_HASH**. This value identifies the _hObject_ parameter as a multi-hash object and the _pOperations_ pointer as pointing to an array of [BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md) elements.
+*BCRYPT_MULTI_OPERATION_TYPE* `[in]`
+
+One of the **BCRYPT_OPERATION_TYPE_**\* values. Currently the only defined value is **BCRYPT_OPERATION_TYPE_HASH**. This value identifies the *hObject* parameter as a multi-hash object and the *pOperations* pointer as pointing to an array of [BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md) elements.
 
 ### -param pOperations
+
+*PVOID* `[in]`
 
 A pointer to an array of operation command structures. For hashing, it is a pointer to an array of [BCRYPT_MULTI_HASH_OPERATION](ns-bcrypt-bcrypt_multi_hash_operation.md) structures.
 
 ### -param cbOperations
 
-The size, in bytes, of the _pOperations_ array.
+*ULONG* `[in]`
+
+The size, in bytes, of the *pOperations* array.
 
 ### -param dwFlags
+
+*ULONG* `[in]`
 
 Specify a value of zero (`0`).
 
@@ -80,7 +90,7 @@ Returns a status code that indicates the success or failure of the function. If 
 
 ## -remarks
 
-Each element of the _pOperations_ array contains instructions for a particular computation to be performed on a single element of the multi-object state. The functional behavior of **BCryptProcessMultiOperations** is equivalent to performing, for each element in the multi-object state, the computations specified in the operations array for that element, one at a time, in order.
+Each element of the *pOperations* array contains instructions for a particular computation to be performed on a single element of the multi-object state. The functional behavior of **BCryptProcessMultiOperations** is equivalent to performing, for each element in the multi-object state, the computations specified in the operations array for that element, one at a time, in order.
 
 The relative order of two operations that operate on different elements of the array is not guaranteed. If an output buffer overlaps an input or output buffer the result is not deterministic.
 

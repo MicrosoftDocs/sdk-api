@@ -60,39 +60,55 @@ The **BCryptCreateMultiHash** function creates a multi-hash state that allows fo
 
 ### -param hAlgorithm
 
+*BCRYPT_ALG_HANDLE* `[in, out]`
+
 The algorithm handle used for all of the hash states in the multi-hash array. The algorithm handle must have been opened with the **BCYRPT_MULTI_FLAG** passed to the [BCryptOpenAlgorithmProvider](nf-bcrypt-bcryptopenalgorithmprovider.md) function. Alternatively, the caller can use the pseudo-handles.
 
 ### -param phHash
+
+*BCRYPT_HASH_HANDLE** `[out]`
 
 A pointer to a **BCRYPT_HASH_HANDLE** value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as [BCryptProcessMultiOperations](nf-bcrypt-bcryptprocessmultioperations.md). When you have finished using this handle, release it by passing it to the [BCryptDestroyHash](nf-bcrypt-bcryptdestroyhash.md) function.
 
 ### -param nHashes
 
-The number of elements in the array. The multi-hash state that this function creates is able to perform parallel computations on _nHashes_ different hash states.
+*ULONG* `[in]`
+
+The number of elements in the array. The multi-hash state that this function creates is able to perform parallel computations on *nHashes* different hash states.
 
 ### -param pbHashObject
+
+*PUCHAR* `[out]`
 
 A pointer to a buffer that receives the multi-hash state.
 
 The size can be calculated from the **cbPerObject** and **cbPerElement** members of the [BCRYPT_MULTI_OBJECT_LENGTH_STRUCT](ns-bcrypt-bcrypt_multi_object_length_struct.md) structure. The value is the following: `cbPerObject + (number of hash states) * cbPerElement`.
 
-If _pbHashObject_ is `NULL` and _cbHashObject_ has a value of zero (`0`), the object buffer is automatically allocated.
+If *pbHashObject* is `NULL` and *cbHashObject* has a value of zero (`0`), the object buffer is automatically allocated.
 
 ### -param cbHashObject
 
-The size of the _pbHashObject_ buffer, or zero (`0`) if _pbHashObject_ is `NULL`.
+*ULONG* `[in]`
+
+The size of the *pbHashObject* buffer, or zero (`0`) if *pbHashObject* is `NULL`.
 
 ### -param pbSecret
 
-A pointer to a buffer that contains the key to use for the hash or MAC. The _cbSecret_ parameter contains the size of this buffer. This key only applies to hash algorithms opened by the [BCryptOpenAlgorithmProvider](nf-bcrypt-bcryptopenalgorithmprovider.md) function by using the **BCRYPT_ALG_HANDLE_HMAC** flag. Otherwise, set this parameter to `NULL`.
+*PUCHAR* `[in]`
+
+A pointer to a buffer that contains the key to use for the hash or MAC. The *cbSecret* parameter contains the size of this buffer. This key only applies to hash algorithms opened by the [BCryptOpenAlgorithmProvider](nf-bcrypt-bcryptopenalgorithmprovider.md) function by using the **BCRYPT_ALG_HANDLE_HMAC** flag. Otherwise, set this parameter to `NULL`.
 
 The same key is used for all elements of the array.
 
 ### -param cbSecret
 
-The size, in bytes, of the _pbSecret_ buffer. If no key is used, set this parameter to zero (`0`).
+*ULONG* `[in]`
+
+The size, in bytes, of the *pbSecret* buffer. If no key is used, set this parameter to zero (`0`).
 
 ### -param dwFlags
+
+*ULONG* `[in]`
 
 Flags that modify the behavior of the function. This can be zero or the values below. Multi-hash objects are always reusable and always behave as if the **BCRYPT_HASH_REUSABLE_FLAG** was passed. This flag is supported here for consistency.
 
