@@ -6,9 +6,10 @@ helpviewer_keywords: ["IInkD2DRenderer","IInkD2DRenderer interface","IInkD2DRend
 old-location: input_ink\iinkd2drenderer.htm
 tech.root: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
-ms.date: 12/05/2018
+ms.date: 03/21/2023
 ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
 req.header: inkrenderer.h
+req.construct-type: iface
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
@@ -47,34 +48,22 @@ api_name:
 
 # IInkD2DRenderer interface
 
-
 ## -description
 
-An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the designated  Direct2D device context of a Universal Windows app, instead of the default <a href="/uwp/api/windows.ui.xaml.controls.inkcanvas">InkCanvas</a> control.
+Enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default [InkCanvas](/uwp/api/windows.ui.xaml.controls.inkcanvas) control.
 
 ## -inheritance
 
-The <b>IInkD2DRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
+The **IInkD2DRenderer** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkD2DRenderer** also has these types of members:
+
+## -remarks
+
+See the [IInkD2DRenderer::Draw](nf-inkrenderer-iinkd2drenderer-draw.md) method if you need to support Windows 11 contrast theme settings.
 
 ## -see-also
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_ink/ink-renderer-interfaces">Ink renderer interfaces</a>
-
-
-
-
-
-
-<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
-
-
-
-<b>Samples</b>
-
-<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
-
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
+[IInkD2DRenderer2 interface](nn-inkrenderer-iinkd2drenderer2.md)
+[Complex ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk)
+[Simple ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk)
+[Ink renderer interfaces](/windows/win32/input_ink/ink-renderer-interfaces)
+[Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions)

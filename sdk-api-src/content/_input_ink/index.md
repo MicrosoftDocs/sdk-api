@@ -19,4 +19,4 @@ To develop Ink input, you need these headers:
  * [inkrenderer.h](../inkrenderer/index.md)
 
 For programming guidance for this technology, see:
-* [Ink input](/previous-versions/windows/desktop/input_ink)
+* [Ink input](/windows/win32/input_ink/input-ink-portal)
