@@ -2,7 +2,9 @@
 UID: NN:inkrenderer.IInkD2DRenderer2
 title: IInkD2DRenderer2 (inkrenderer.h)
 description: An IInkD2DRenderer2 object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
+helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
 ms.date: 03/21/2023
+ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer2 interface, IInkD2DRenderer2 interface,Draw method, IInkD2DRenderer2.Draw, IInkD2DRenderer2::Draw, inkrenderer/IInkD2DRenderer2::Draw, input_ink.iinkd2drenderer2_draw
 tech.root: input_ink
 targetos: Windows
 prerelease: false

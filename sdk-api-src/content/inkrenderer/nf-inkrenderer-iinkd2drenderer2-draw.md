@@ -1,10 +1,12 @@
 ---
 UID: NF:inkrenderer.IInkD2DRenderer2.Draw
-tech.root: input_ink
 title: IInkD2DRenderer2::Draw (inkrenderer.h)
-ms.date: 03/21/2023
-targetos: Windows
 description: Renders the ink stroke to the designated Direct2D device context of the app.
+helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
+tech.root: input_ink
+ms.date: 03/21/2023
+ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer2 interface, IInkD2DRenderer2 interface,Draw method, IInkD2DRenderer2.Draw, IInkD2DRenderer2::Draw, inkrenderer/IInkD2DRenderer2::Draw, input_ink.iinkd2drenderer2_draw
+targetos: Windows
 prerelease: false
 req.assembly: 
 req.construct-type: function

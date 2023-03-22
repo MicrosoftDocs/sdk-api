@@ -3,8 +3,10 @@ UID: NE:inkrenderer.__MIDL___MIDL_itf_inkrenderer_0000_0000_0001
 tech.root: input_ink
 title: INK_HIGH_CONTRAST_ADJUSTMENT (inkrenderer.h)
 ms.date: 03/21/2023
+ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer2 interface, IInkD2DRenderer2 interface,Draw method, IInkD2DRenderer2.Draw, IInkD2DRenderer2::Draw, inkrenderer/IInkD2DRenderer2::Draw, input_ink.iinkd2drenderer2_draw
 targetos: Windows
-description: 
+description: Specifies how the IInkD2DRenderer2 object draws ink (standard and modified) when system is in a contrast theme mode.
+helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer2 interface","IInkD2DRenderer2 interface","Draw method","IInkD2DRenderer2.Draw","IInkD2DRenderer2::Draw","inkrenderer/IInkD2DRenderer2::Draw","input_ink.iinkd2drenderer2_draw"]
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
