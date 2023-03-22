@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzAuthorizationStore object [Security]","Delete method","
 old-location: security\azauthorizationstore_delete.htm
 tech.root: security
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzAuthorizationStore object [Security],Delete method, Delete, Delete method [Security], Delete method [Security],AzAuthorizationStore object, Delete method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Delete method, IAzAuthorizationStore.Delete, IAzAuthorizationStore::Delete, azroles/IAzAuthorizationStore::Delete, security.azauthorizationstore_delete
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::Delete
 
-
 ## -description
 
-The <b>Delete</b> method deletes the policy store currently in use by the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
+The **Delete** method deletes the policy store currently in use by the [AzAuthorizationStore](nn-azroles-iazauthorizationstore.md) object.
 
 ## -parameters
 
@@ -59,9 +58,21 @@ The <b>Delete</b> method deletes the policy store currently in use by the <a hre
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-When the <b>Delete</b> method is called, the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object returns to an uninitialized state. The <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method can then be called to reinitialize the object. 
+When the **Delete** method is called, the [AzAuthorizationStore](nn-azroles-iazauthorizationstore.md) object returns to an uninitialized state. The [Initialize](nf-azroles-iazauthorizationstore-initialize.md) method can then be called to reinitialize the object.
 
-<div class="alert"><b>Important</b>  All objects opened by clients on the policy store  (for example,  <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects created using <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplication">CreateApplication</a>) must be released before you call the <b>Delete</b> method. If the <b>Delete</b> method is called on an <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object whose current policy store contains child objects, HRESULT_FROM_WIN32(ERROR_SERVER_HAS_OPEN_HANDLES) is returned.</div>
-<div> </div>
+>[!IMPORTANT]
+>All objects opened by clients on the policy store (for example, [IAzApplication](nn-azroles-iazapplication.md) objects created using [CreateApplication](nf-azroles-iazauthorizationstore-createapplication.md)) must be released before you call the **Delete** method. If the **Delete** method is called on an [AzAuthorizationStore](nn-azroles-iazauthorizationstore.md) object whose current policy store contains child objects, **HRESULT_FROM_WIN32(ERROR_SERVER_HAS_OPEN_HANDLES)** is returned.
+
+## -see-also
+
+[IAzApplication](nn-azroles-iazapplication.md)
+
+[AzAuthorizationStore](nn-azroles-iazauthorizationstore.md)
+
+[CreateApplication](nf-azroles-iazauthorizationstore-createapplication.md)

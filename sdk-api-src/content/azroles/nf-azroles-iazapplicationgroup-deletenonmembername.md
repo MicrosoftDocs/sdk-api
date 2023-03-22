@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteNonMemberNam
 old-location: security\iazapplicationgroup_deletenonmembername.htm
 tech.root: security
 ms.assetid: 8011e55a-1e62-45a6-a91c-07a488384d84
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMemberName method, DeleteNonMemberName, DeleteNonMemberName method [Security], DeleteNonMemberName method [Security],AzApplicationGroup object, DeleteNonMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMemberName method, IAzApplicationGroup.DeleteNonMemberName, IAzApplicationGroup::DeleteNonMemberName, azroles/IAzApplicationGroup::DeleteNonMemberName, security.iazapplicationgroup_deletenonmembername
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzApplicationGroup::DeleteNonMemberName
 
-
 ## -description
 
-The <b>DeleteNonMemberName</b> method removes the specified account name from the list of  accounts that are refused membership in the application group.
+The **DeleteNonMemberName** method removes the specified account name from the list of accounts that are refused membership in the application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the account name to remove from the list of   accounts that are refused membership in the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to remove from the list of accounts that are refused membership in the application group. The account name must be in user principal name (UPN) format (for example, `someone@example.com`). The [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of account names of accounts that are refused membership in this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a> property.
+To view the list of account names of accounts that are refused membership in this application group, use the [NonMembersName](nf-azroles-iazapplicationgroup-get_nonmembersname.md) property.
+
+## -see-also
+
+[LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea)
+
+[NonMembersName](nf-azroles-iazapplicationgroup-get_nonmembersname.md)

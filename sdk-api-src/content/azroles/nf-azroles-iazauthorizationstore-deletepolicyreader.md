@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyRead
 old-location: security\azauthorizationstore_deletepolicyreader.htm
 tech.root: security
 ms.assetid: 948732bb-4d29-402b-bb12-02d2b73bc443
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzAuthorizationStore object, DeletePolicyReader method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyReader method, IAzAuthorizationStore.DeletePolicyReader, IAzAuthorizationStore::DeletePolicyReader, azroles/IAzAuthorizationStore::DeletePolicyReader, security.azauthorizationstore_deletepolicyreader
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::DeletePolicyReader
 
-
 ## -description
 
-The <b>DeletePolicyReader</b> method removes the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form from the list of principals that act as policy readers.
+The **DeletePolicyReader** method removes the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form from the list of principals that act as policy readers.
 
 ## -parameters
 
@@ -63,8 +62,18 @@ Text form of the SID to remove from the list of policy readers.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. Readers cannot modify the object or its child objects.
+Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the [AccessCheck](nf-azroles-iazclientcontext-accesscheck.md) method. Readers cannot modify the object or its child objects.
 
-To view the list of policy readers, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreaders">PolicyReaders</a> property.
+To view the list of policy readers, use the [PolicyReaders](nf-azroles-iazauthorizationstore-get_policyreaders.md) property.
+
+## -see-also
+
+[AccessCheck](nf-azroles-iazclientcontext-accesscheck.md)
+
+[PolicyReaders](nf-azroles-iazauthorizationstore-get_policyreaders.md)

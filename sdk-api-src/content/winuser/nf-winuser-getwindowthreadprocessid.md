@@ -75,7 +75,7 @@ A handle to the window.
 
 Type: <b>LPDWORD</b>
 
-A pointer to a variable that receives the process identifier. If this parameter is not <b>NULL</b>, <b>GetWindowThreadProcessId</b> copies the identifier of the process to the variable; otherwise, it does not.
+A pointer to a variable that receives the process identifier. If this parameter is not <b>NULL</b>, <b>GetWindowThreadProcessId</b> copies the identifier of the process to the variable; otherwise, it does not. If the function fails, the value of the variable is unchanged.
 
 ## -returns
 

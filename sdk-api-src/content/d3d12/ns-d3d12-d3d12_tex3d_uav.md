@@ -66,6 +66,8 @@ The zero-based index of the first depth slice to be accessed.
 
 The number of depth slices.
 
+Set to -1 to indicate all the depth slices from <b>FirstWSlice</b> to the last slice.
+
 ## -remarks
 
 Use this structure with a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a 3D texture.

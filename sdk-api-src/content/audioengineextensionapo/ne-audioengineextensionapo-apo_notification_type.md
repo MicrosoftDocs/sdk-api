@@ -2,7 +2,7 @@
 UID: NE:audioengineextensionapo.APO_NOTIFICATION_TYPE
 tech.root: audio
 title: APO_NOTIFICATION_TYPE
-ms.date: 06/18/2021
+ms.date: 02/28/2023
 targetos: Windows
 description: Specifies the type of an APO_NOTIFICATION.
 prerelease: false
@@ -38,23 +38,37 @@ Specifies the type of an [APO_NOTIFICATION](ns-audioengineextensionapo-apo_notif
 
 ## -enum-fields
 
-### -field APO_NOTIFICATION_TYPE_NONE
+### -field APO_NOTIFICATION_TYPE_NONE:0
 
 None.
 
-### -field APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME
+### -field APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME:1
 
 Endpoint volume notification.
 
-### -field APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE
+### -field APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE:2
 
 Endpoint property change notification.
 
-### -field APO_NOTIFICATION_TYPE_SYSTEM_EFFECTS_PROPERTY_CHANGE
+### -field APO_NOTIFICATION_TYPE_SYSTEM_EFFECTS_PROPERTY_CHANGE:3
 
 System effects property change notification.
 
+### -field APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME2:4
+
+Endpoint volume notification for an endpoint that includes master and channel volume, in dB.
+
+### -field APO_NOTIFICATION_TYPE_DEVICE_ORIENTATION:5
+
+Display orientation notification for the device.
+
+### -field APO_NOTIFICATION_TYPE_MICROPHONE_BOOST:6
+
+Microphone boost notification.
+
 ## -remarks
+
+Clients use this enumeration to specify requested notification types in their implementations of [GetApoNotificationRegistrationInfo2](./nf-audioengineextensionapo-iaudioprocessingobjectnotifications2-getaponotificationregistrationinfo2.md) and [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md).
 
 For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 

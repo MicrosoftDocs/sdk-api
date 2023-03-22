@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The **SECURITY_STRING** structure is used as the string interface for kernel operations and is a clone of the [UNICODE_STRING](/windows/windows/win32/api/subauth/ns-subauth-unicode_string) structure. This is used for 32-bit mode.
+The **SECURITY_STRING** structure is used as the string interface for kernel operations and is a clone of the [UNICODE_STRING](/windows/win32/api/subauth/ns-subauth-unicode_string) structure. This is used for 32-bit mode.
 
 ## -struct-fields
 

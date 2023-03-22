@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAzBizRuleParameters interface [Security]","RemoveAll met
 old-location: security\iazbizruleparameters_removeall_method.htm
 tech.root: security
 ms.assetid: 5ec13e1b-6b83-4178-a5a5-b278fe7c8c3c
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: IAzBizRuleParameters interface [Security],RemoveAll method, IAzBizRuleParameters.RemoveAll, IAzBizRuleParameters::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleParameters interface, azroles/IAzBizRuleParameters::RemoveAll, security.iazbizruleparameters_removeall_method
 req.header: azroles.h
 req.include-header: 
@@ -47,17 +47,16 @@ api_name:
 
 # IAzBizRuleParameters::RemoveAll
 
-
 ## -description
 
-The <b>IAzBizRuleParameters::RemoveAll</b> method removes all parameters from the list of parameters available to business rule (BizRule) scripts.
+The **IAzBizRuleParameters::RemoveAll** method removes all parameters from the list of parameters available to business rule (BizRule) scripts.
 
+## -returns
 
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
 
 ## -see-also
 
-<a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleparameters">IAzBizRuleParameters</a>
+[IAzBizRuleParameters](nn-azroles-iazbizruleparameters.md)
 
-
-
-<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
+[IAzClientContext3::BizRuleParameters](nf-azroles-iazclientcontext3-get_bizruleparameters.md)

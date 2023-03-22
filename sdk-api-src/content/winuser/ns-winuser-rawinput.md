@@ -68,20 +68,20 @@ The raw input data.
 
 ### -field data.mouse
 
-<b>Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawmouse">RAWMOUSE</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawmouse">RAWMOUSE</a></b>
+
 If the data comes from a mouse, this is the raw input data.
 
 ### -field data.keyboard
 
-<b>Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawkeyboard">RAWKEYBOARD</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawkeyboard">RAWKEYBOARD</a></b>
+
 If the data comes from a keyboard, this is the raw input data.
 
 ### -field data.hid
 
-<b>Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a></b>
+
 If the data comes from an HID, this is the raw input data.
 
 ## -remarks

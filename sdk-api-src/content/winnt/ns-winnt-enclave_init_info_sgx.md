@@ -81,4 +81,4 @@ For more information about the **SIGSTRUCT** and **EINITTOKEN** structures, see 
 
 [ENCLAVE_CREATE_INFO_SGX](ns-winnt-enclave_create_info_sgx.md)
 
-[InitializeEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-initializeenclave.md)
+[InitializeEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-initializeenclave)

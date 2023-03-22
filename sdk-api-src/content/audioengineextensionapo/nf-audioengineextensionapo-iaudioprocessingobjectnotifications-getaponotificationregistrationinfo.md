@@ -46,11 +46,11 @@ Called by the system to allow clients to register to receive notification callba
 
 ## -parameters
 
-### -param apoNotifications
+### -param apoNotifications [out]
 
 Output parameter that returns a pointer to an array of [APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-apo_notification_descriptor.md) specifying the set of APO changes for which notifications are requested.
 
-### -param count
+### -param count [out]
 
 Output parameter specifying the number of items returned in *apoNotifications*.
 

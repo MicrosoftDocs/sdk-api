@@ -154,13 +154,13 @@ The Y (or height) component of the scaling factor to multiply the *ROITensor* co
 
 Type: **[FLOAT](/windows/desktop/WinProg/windows-data-types)**
 
-The offset from `(0,0)` of the input coordinates to the top-left pixel center, typically either 0 or 0.5. When this value is 0, the top-left corner of the pixel is used instead of its center, which usually won't give the expected result, but is useful for compatibility with some frameworks. When this value is 0.5, pixels are treated as being at the center, which is the same behavior as [DML_ROI_ALIGN_OPERATOR_DESC](ns-directml-dml_roi_align_operator_desc.md).
+The offset from `(0,0)` of the input coordinates to the top-left pixel center, typically either 0 or 0.5. When this value is 0, the top-left corner of the pixel is used instead of its center, which usually won't give the expected result, but is useful for compatibility with some frameworks. When this value is 0.5, pixels are treated as being at the center, which is the same behavior as [DML_ROI_ALIGN_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc).
 
 ### -field OutputPixelOffset
 
 Type: **[FLOAT](/windows/desktop/WinProg/windows-data-types)**
 
-The offset from the top-left pixel center to `(0,0)` of the output coordinates, typically either 0 or -0.5. When this value is 0, the top-left corner of the pixel is used instead of its center, which usually won't give the expected result, but is useful for compatibility with some frameworks. When this value is -0.5, pixels are treated as being at the center, which is the same behavior as [DML_ROI_ALIGN_OPERATOR_DESC](ns-directml-dml_roi_align_operator_desc.md).
+The offset from the top-left pixel center to `(0,0)` of the output coordinates, typically either 0 or -0.5. When this value is 0, the top-left corner of the pixel is used instead of its center, which usually won't give the expected result, but is useful for compatibility with some frameworks. When this value is -0.5, pixels are treated as being at the center, which is the same behavior as [DML_ROI_ALIGN_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc).
 
 ### -field OutOfBoundsInputValue
 

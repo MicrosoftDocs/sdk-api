@@ -4,7 +4,7 @@ tech.root: directml
 title: DML_BATCH_NORMALIZATION_TRAINING_GRAD_OPERATOR_DESC
 ms.date: 07/22/2022
 targetos: Windows
-description: Computes backpropagation gradients for [batch normalization training](ns-directml-dml_batch_normalization_training_operator_desc.md).
+description: Computes backpropagation gradients for [batch normalization training](/windows/win32/api/directml/ns-directml-dml_batch_normalization_training_operator_desc).
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-Computes backpropagation gradients for [batch normalization training](ns-directml-dml_batch_normalization_training_operator_desc.md).
+Computes backpropagation gradients for [batch normalization training](/windows/win32/api/directml/ns-directml-dml_batch_normalization_training_operator_desc).
 
 This operator performs multiple computations, which are detailed in the separate output descriptions.
 
@@ -54,7 +54,7 @@ Any dimension in *MeanTensor*, *VarianceTensor*, and *ScaleTensor* can be set to
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A tensor containing the input data. This is typically the same tensor that was provided as the *InputTensor* to [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](ns-directml-dml_batch_normalization_training_operator_desc.md) in the forward pass.
+A tensor containing the input data. This is typically the same tensor that was provided as the *InputTensor* to [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_batch_normalization_training_operator_desc) in the forward pass.
 
 ### -field InputGradientTensor
 
@@ -66,13 +66,13 @@ The incoming gradient tensor. This is typically obtained from the output of back
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A tensor containing the mean data. This is typically the same tensor that was returned by *MeanTensor* from [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](ns-directml-dml_batch_normalization_training_operator_desc.md) in the forward pass.
+A tensor containing the mean data. This is typically the same tensor that was returned by *MeanTensor* from [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_batch_normalization_training_operator_desc) in the forward pass.
 
 ### -field VarianceTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A tensor containing the variance data. This is typically the same tensor that was returned as the *OutputVarianceTensor* from [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](ns-directml-dml_batch_normalization_training_operator_desc.md) in the forward pass. 
+A tensor containing the variance data. This is typically the same tensor that was returned as the *OutputVarianceTensor* from [**DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_batch_normalization_training_operator_desc) in the forward pass. 
 
 ### -field ScaleTensor
 

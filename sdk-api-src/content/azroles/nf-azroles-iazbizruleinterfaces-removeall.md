@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAzBizRuleInterfaces interface [Security]","RemoveAll met
 old-location: security\iazbizruleinterfaces_removeall_method.htm
 tech.root: security
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
 req.header: azroles.h
 req.include-header: 
@@ -47,17 +47,16 @@ api_name:
 
 # IAzBizRuleInterfaces::RemoveAll
 
-
 ## -description
 
-The <b>RemoveAll</b> method removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
+The **RemoveAll** method removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 
+## -returns
 
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
 
 ## -see-also
 
-<a href="/windows/desktop/api/azroles/nf-azroles-iazbizruleinterfaces-addinterface">AddInterface</a>
+[AddInterface](nf-azroles-iazbizruleinterfaces-addinterface.md)
 
-
-
-<a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
+[IAzBizRuleInterfaces](nn-azroles-iazbizruleinterfaces.md)
