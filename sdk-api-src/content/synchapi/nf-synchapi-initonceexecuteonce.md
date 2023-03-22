@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute the specified function while it is being executed by the current thread.
+When multiple threads call InitOnceExecuteOnce passing the same one-time initialization block, only one thread will execute the callback function specified by <i>InitFn</i>. The remaining threads will block until the callback function completes. If the callback function returns <b>TRUE</b> to indicate success, InitOnceExecuteOnce will return <b>TRUE</b> back to all callers at once. If, however, the callback returns <b>FALSE</b> to indicate failure, InitOnceExecuteOnce will return <b>FALSE</b> to only the single thread which executed the callback function. At this same time one of the remaining blocked threads will unblock and execute <i>InitFn</i> once again. Thus, in a scenario where <i>InitFn</i> can fail intermittently and retries are desired, all threads should continue calling InitOnceExecuteOnce until <b>TRUE</b> is returned.
 
 ## -parameters
 
