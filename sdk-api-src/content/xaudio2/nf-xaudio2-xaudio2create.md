@@ -41,6 +41,8 @@ api_type:
  - DllExport
 api_location:
  - Windows.Media.Audio.dll
+ - xaudio2_8.dll
+ - xaudio2_9.dll
 api_name:
  - XAudio2Create
 ---
