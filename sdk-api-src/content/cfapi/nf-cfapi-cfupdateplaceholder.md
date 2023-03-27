@@ -75,7 +75,12 @@ Length, in bytes, of the *FileIdentity*.
 
 ### -param DehydrateRangeArray [in, optional]
 
-A range of an existing placeholder that will no longer be considered valid after the call to **CfUpdatePlaceholder**.
+This array specifies ranges of the existing placeholder that will no longer be considered valid after the update.
+
+The simplest use of this parameter is to pass a single range, telling the platform that the entire byte range of data is now invalid. A more complex use of this parameter is to provide a series of discrete ranges to be considered invalid. This implies that the sync provider can distinguish changes on a sub-file level. All the offsets and lengths should be **PAGE_SIZE** Aligned. The platform will ensure that all the ranges specified get dehydrated as part of the update. If dehydration of any ranges fails the API will fail rather than result in torn file contents.
+
+>[!NOTE]
+>Passing a single range with Offset **0** and Length **CF_EOF** will invalidate the entire file - This has the same effect as passing the flag **CF_UPDATE_FLAG_DEHYDRATE** instead. Also, passing **CF_UPDATE_FLAG_DEHYDRATE** causes *DehydrateRangeArray* to be silently dropped
 
 ### -param DehydrateRangeCount [in]
 
