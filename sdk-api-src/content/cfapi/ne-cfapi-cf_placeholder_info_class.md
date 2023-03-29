@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PLACEHOLDER_INFO_BASIC","CF_PLACEHOLDER_INFO_CLASS","C
 old-location: cloudapi\cf_placeholder_info_class.htm
 tech.root: cloudapi
 ms.assetid: DA05148F-3EF0-4CC3-9233-883859FA00F1
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_PLACEHOLDER_INFO_BASIC, CF_PLACEHOLDER_INFO_CLASS, CF_PLACEHOLDER_INFO_CLASS enumeration, CF_PLACEHOLDER_INFO_STANDARD, cfapi/CF_PLACEHOLDER_INFO_BASIC, cfapi/CF_PLACEHOLDER_INFO_CLASS, cfapi/CF_PLACEHOLDER_INFO_STANDARD, cloudApi.cf_placeholder_info_class
 req.header: cfapi.h
 req.include-header: 
@@ -47,17 +47,22 @@ api_name:
 
 # CF_PLACEHOLDER_INFO_CLASS enumeration
 
-
 ## -description
 
-Information classes for placeholder info.
+An enum that indicates which of the information structures for placeholder info will be used.
 
 ## -enum-fields
 
 ### -field CF_PLACEHOLDER_INFO_BASIC:0
 
-Basic placeholder information.  See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_basic_info">CF_PLACEHOLDER_BASIC_INFO</a>.
+Basic placeholder information. See [CF_PLACEHOLDER_BASIC_INFO](ns-cfapi-cf_placeholder_basic_info.md).
 
 ### -field CF_PLACEHOLDER_INFO_STANDARD:1
 
-Standard placeholder information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_placeholder_standard_info">CF_PLACEHOLDER_STANDARD_INFO</a>.
+Standard placeholder information. See [CF_PLACEHOLDER_STANDARD_INFO](ns-cfapi-cf_placeholder_standard_info.md).
+
+## -see-also
+
+[CF_PLACEHOLDER_BASIC_INFO](ns-cfapi-cf_placeholder_basic_info.md)
+
+[CF_PLACEHOLDER_STANDARD_INFO](ns-cfapi-cf_placeholder_standard_info.md)

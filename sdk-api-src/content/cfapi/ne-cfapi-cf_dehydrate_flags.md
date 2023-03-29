@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_DEHYDRATE_FLAGS","CF_DEHYDRATE_FLAGS enumeration","CF_
 old-location: cloudapi\cf_dehydrate_flags.htm
 tech.root: cloudapi
 ms.assetid: AE8AA67D-F6ED-4A2B-8613-17BBAB4C9F54
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_DEHYDRATE_FLAGS, CF_DEHYDRATE_FLAGS enumeration, CF_DEHYDRATE_FLAG_BACKGROUND, CF_DEHYDRATE_FLAG_NONE, cfapi/CF_DEHYDRATE_FLAGS, cfapi/CF_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_DEHYDRATE_FLAG_NONE, cloudApi.cf_dehydrate_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # CF_DEHYDRATE_FLAGS enumeration
 
-
 ## -description
 
-Placeholder dehydration flags.
+Flags used during dehydration of files using [CfDehydratePlaceholder](/previous-versions/mt827480(v=vs.85)).
 
 ## -enum-fields
 
@@ -62,3 +61,6 @@ No dehydration flags.
 
 If specified, the caller is a system process running in the background. Otherwise, the caller is performing this operation on behalf of a logged-in user.
 
+## -see-also
+
+[CfDehydratePlaceholder](/previous-versions/mt827480(v=vs.85))

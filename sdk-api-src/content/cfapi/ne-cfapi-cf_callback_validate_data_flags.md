@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_VALIDATE_DATA_FLAGS","CF_CALLBACK_VALIDATE_DA
 old-location: cloudapi\cf_callback_validate_data_flags.htm
 tech.root: cloudapi
 ms.assetid: D5BEAEAA-318E-4BA5-8DC5-EDD24E2C26EF
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_VALIDATE_DATA_FLAGS, CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration, CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cloudApi.cf_callback_validate_data_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration
 
-
 ## -description
 
 Flags to validate the data of a placeholder file or directory.
@@ -60,6 +59,13 @@ No data validation flag.
 
 ### -field CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION:0x00000002
 
-<b>Note</b>  This value is new for Windows 10, version 1803.
+>[!NOTE]
+>This value is new for Windows 10, version 1803.
 
-Set if the callback is invoked as a result of a call to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>.
+Set if the callback is invoked as a result of a call to [CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md).
+
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
+
+[CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md)

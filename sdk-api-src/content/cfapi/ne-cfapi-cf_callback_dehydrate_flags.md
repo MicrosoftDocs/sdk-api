@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_DEHYDRATE_FLAGS","CF_CALLBACK_DEHYDRATE_FLAGS
 old-location: cloudapi\cf_callback_dehydrate_flags.htm
 tech.root: cloudapi
 ms.assetid: DCB085EA-1468-44FB-9D45-F5C89693CBE7
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_DEHYDRATE_FLAGS, CF_CALLBACK_DEHYDRATE_FLAGS enumeration, CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, CF_CALLBACK_DEHYDRATE_FLAG_NONE, cfapi/CF_CALLBACK_DEHYDRATE_FLAGS, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_callback_dehydrate_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_DEHYDRATE_FLAGS enumeration
 
-
 ## -description
 
 Callback flags for notifying a sync provider that a placeholder under one of its sync root is going to be dehydrated.
@@ -62,3 +61,6 @@ No dehydrate flag.
 
 A flag set if the dehydration request is initiated by a system background service.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

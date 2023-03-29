@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","CF_CALLBACK_FETCH_
 old-location: cloudapi\cf_callback_fetch_placeholders_flags.htm
 tech.root: cloudapi
 ms.assetid: CD90EB49-8C39-49DD-8688-CBDF77B1EA92
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cloudApi.cf_callback_fetch_placeholders_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration
 
-
 ## -description
 
 Flags for fetching information about the content of a placeholder file or directory.
@@ -58,3 +57,6 @@ Flags for fetching information about the content of a placeholder file or direct
 
 No fetch placeholder flags.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

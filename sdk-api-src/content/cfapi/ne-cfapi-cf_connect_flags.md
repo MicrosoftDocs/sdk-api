@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CONNECT_FLAGS","CF_CONNECT_FLAGS enumeration","CF_CONN
 old-location: cloudapi\cf_connect_flags.htm
 tech.root: cloudapi
 ms.assetid: C1CAC75C-9CB6-4172-A437-AE366D99DA9F
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CONNECT_FLAGS, CF_CONNECT_FLAGS enumeration, CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION, CF_CONNECT_FLAG_NONE, CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH, CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO, cfapi/ CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION, cfapi/CF_CONNECT_FLAGS, cfapi/CF_CONNECT_FLAG_NONE, cfapi/CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH, cfapi/CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO, cloudApi.cf_connect_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CONNECT_FLAGS enumeration
 
-
 ## -description
 
 Additional information that can be requested by a sync provider when its callbacks are invoked.
@@ -68,6 +67,13 @@ When this flag is specified, the platform returns the full path of the placehold
 
 ### -field CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION:0x00000008
 
-<b>Note</b>  This value is new for Windows 10, version 1803.
+>[!NOTE]
+>This value is new for Windows 10, version 1803.
 
-When this flag is specified, The implicit hydration, which is not performed via <a href="/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>, can happen when the anti-virus software scans a sync provider’s file system activities on non-hydrated cloud file placeholders. This kind of implicit hydration is not expected. If the sync provider never initiates implicit hydration operations, it can instruct the platform to block all such implicit hydration operations, as opposed to failing the <b>FETCH_DATA</b> callbacks later.
+When this flag is specified, The implicit hydration, which is not performed via [CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md), can happen when the anti-virus software scans a sync provider’s file system activities on non-hydrated cloud file placeholders. This kind of implicit hydration is not expected. If the sync provider never initiates implicit hydration operations, it can instruct the platform to block all such implicit hydration operations, as opposed to failing the **FETCH_DATA** callbacks later.
+
+## -see-also
+
+[CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md)
+
+[CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md)

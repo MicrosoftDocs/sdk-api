@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPERATION_ACK_DELETE_FLAGS","CF_OPERATION_ACK_DELETE_F
 old-location: cloudapi\cf_operation_ack_delete_flags.htm
 tech.root: cloudapi
 ms.assetid: 407B7035-09A0-43BC-AC07-2CC0973DDBCC
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_OPERATION_ACK_DELETE_FLAGS, CF_OPERATION_ACK_DELETE_FLAGS enumeration, CF_OPERATION_ACK_DELETE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DELETE_FLAGS, cfapi/CF_OPERATION_ACK_DELETE_FLAG_NONE, cloudApi.cf_operation_ack_delete_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_OPERATION_ACK_DELETE_FLAGS enumeration
 
-
 ## -description
 
 Flags to acknowledge the deletion of a placeholder file or directory.
@@ -58,3 +57,6 @@ Flags to acknowledge the deletion of a placeholder file or directory.
 
 No deletion acknowledgment flags.
 
+## -see-also
+
+[CfExecute](nf-cfapi-cfexecute.md)
