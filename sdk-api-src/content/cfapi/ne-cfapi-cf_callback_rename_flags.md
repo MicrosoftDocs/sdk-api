@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_RENAME_FLAGS","CF_CALLBACK_RENAME_FLAGS enume
 old-location: cloudapi\cf_callback_rename_flags.htm
 tech.root: cloudapi
 ms.assetid: 7506ED1D-F6A8-49EB-B03B-B629264DFBB2
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_RENAME_FLAGS, CF_CALLBACK_RENAME_FLAGS enumeration, CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY, CF_CALLBACK_RENAME_FLAG_NONE, CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE, CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE, cfapi/CF_CALLBACK_RENAME_FLAGS, cfapi/CF_CALLBACK_RENAME_FLAG_IS_DIRECTORY, cfapi/CF_CALLBACK_RENAME_FLAG_NONE, cfapi/CF_CALLBACK_RENAME_FLAG_SOURCE_IN_SCOPE, cfapi/CF_CALLBACK_RENAME_FLAG_TARGET_IN_SCOPE, cloudApi.cf_callback_rename_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # CF_CALLBACK_RENAME_FLAGS enumeration
 
-
 ## -description
 
-Call back flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.
+Callback flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.
 
 ## -enum-fields
 
@@ -70,3 +69,6 @@ Flag set if the link to be renamed or moved is within a sync root managed by the
 
 Flag set if the rename or move target is in the same sync root of the source path.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_DELETE_COMPLETION_FLAGS","CF_CALLBACK_DELETE_
 old-location: cloudapi\cf_callback_delete_completion_flags.htm
 tech.root: cloudapi
 ms.assetid: 33971B32-C97B-4C79-B6ED-B2E1C20B912A
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_DELETE_COMPLETION_FLAGS, CF_CALLBACK_DELETE_COMPLETION_FLAGS enumeration, CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_DELETE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_delete_completion_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_DELETE_COMPLETION_FLAGS enumeration
 
-
 ## -description
 
 Callback flags for notifying a sync provider that a placeholder was successfully deleted.
@@ -58,3 +57,6 @@ Callback flags for notifying a sync provider that a placeholder was successfully
 
 No delete completion flag.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
