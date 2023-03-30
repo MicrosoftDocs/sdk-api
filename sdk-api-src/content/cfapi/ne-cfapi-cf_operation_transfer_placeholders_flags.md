@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS","CF_OPERATION_T
 old-location: cloudapi\cf_operation_transfer_placeholders_flags.htm
 tech.root: cloudapi
 ms.assetid: 6C75030D-A5CF-423D-A931-3D2ED6113BD1
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS, CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS enumeration, CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_DISABLE_ON_DEMAND_POPULATION, CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_NONE, CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_STOP_ON_ERROR, cfapi/CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS, cfapi/CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_DISABLE_ON_DEMAND_POPULATION, cfapi/CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_NONE, cfapi/CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAG_STOP_ON_ERROR, cloudApi.cf_operation_transfer_placeholders_flags
 req.header: cfapi.h
 req.include-header: 
@@ -88,3 +88,5 @@ Or it could do the following:
 [CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
 
 [CF_OPERATION_TYPE](ne-cfapi-cf_operation_type.md)
+
+[CfExecute](nf-cfapi-cfexecute.md)

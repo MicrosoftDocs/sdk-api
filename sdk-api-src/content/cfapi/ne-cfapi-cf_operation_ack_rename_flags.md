@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPERATION_ACK_RENAME_FLAGS","CF_OPERATION_ACK_RENAME_F
 old-location: cloudapi\cf_operation_ack_rename_flags.htm
 tech.root: cloudapi
 ms.assetid: 2EAABBAE-8737-4399-8C39-7D63B45C52B3
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_OPERATION_ACK_RENAME_FLAGS, CF_OPERATION_ACK_RENAME_FLAGS enumeration, CF_OPERATION_ACK_RENAME_FLAG_NONE, cfapi/CF_OPERATION_ACK_RENAME_FLAGS, cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE, cloudApi.cf_operation_ack_rename_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_OPERATION_ACK_RENAME_FLAGS enumeration
 
-
 ## -description
 
 Flags for acknowledging placeholder file or directory renaming.
@@ -58,3 +57,6 @@ Flags for acknowledging placeholder file or directory renaming.
 
 No acknowledgment of placeholder renaming.
 
+## -see-also
+
+[CfExecute](nf-cfapi-cfexecute.md)
