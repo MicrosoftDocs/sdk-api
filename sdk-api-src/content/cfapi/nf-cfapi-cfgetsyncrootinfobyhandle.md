@@ -84,3 +84,5 @@ Unlike most placeholder APIs that take a file handle, this one does not modify t
 If the file is not underneath a cloud files sync root, the API will fail. On success, information is returned according to the specific *InfoClass* requested.
 
 ## -see-also
+
+[CfGetSyncRootInfoByPath](nf-cfapi-cfgetsyncrootinfobypath.md)

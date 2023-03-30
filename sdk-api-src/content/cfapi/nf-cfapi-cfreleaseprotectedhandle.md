@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfReleaseProtectedHandle","CfReleaseProtectedHandle funct
 old-location: cloudapi\cfreleaseprotectedhandle.htm
 tech.root: cloudapi
 ms.assetid: BB63C5EE-92D7-4051-8198-09F50BBC75C5
-ms.date: 02/27/2023
+ms.date: 03/30/2023
 ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/CfReleaseProtectedHandle, cloudApi.cfreleaseprotectedhandle
 req.header: cfapi.h
 req.include-header: 
@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Releases a protected handle referenced by [CfReferenceProtectedHandle](/windows/win32/api/cfapi/nf-cfapi-cfreferenceprotectedhandle).
+Releases a protected handle referenced by [CfReferenceProtectedHandle](nf-cfapi-cfreferenceprotectedhandle.md).
 
 ## -parameters
 
@@ -59,4 +59,4 @@ The protected handle to be released.
 
 ## -see-also
 
-[CfReferenceProtectedHandle](/windows/win32/api/cfapi/nf-cfapi-cfreferenceprotectedhandle)
+[CfReferenceProtectedHandle](nf-cfapi-cfreferenceprotectedhandle.md)
