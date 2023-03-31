@@ -76,3 +76,7 @@ If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT
 ## -remarks
 
 The filter automatically tracks the progress of hydrations, by tracking ranges that are transferred and/or acknowledged in response to **FETCH_DATA** callbacks. However, if a provider spends the bulk of its time downloading content to a temporary location before beginning to **TRANSFER_DATA** to the filter, the filter would otherwise be unaware that these activities are in any way related to the request. By calling **CfReportProviderProgress** periodically, the sync provider can make the progress appear smoother.
+
+## -see-also
+
+[CfReportProviderProgress2](nf-cfapi-cfreportproviderprogress2.md)

@@ -2,7 +2,7 @@
 UID: NF:cfapi.CfReportProviderProgress2
 tech.root: cloudapi
 title: CfReportProviderProgress2
-ms.date: 02/23/2022
+ms.date: 03/30/2023
 targetos: Windows
 description: Allows a sync provider to report progress out-of-band. Extends CfReportProviderProgress with additional parameters.
 prerelease: false
@@ -56,7 +56,7 @@ An opaque handle to the placeholder.
 
 ### -param RequestKey
 
-Specifies operation other than hydration.
+Allows the caller to report progress on a specific operation other than hydration.
 
 ### -param ProviderProgressTotal
 
@@ -68,13 +68,14 @@ The completed progress of the sync provider in response to a fetch data callback
 
 ### -param TargetSessionId
 
-The session at which this progress information is targeted.
+Indicates the session at which this progress information is targeted.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
 
+[CfReportProviderProgress](nf-cfapi-cfreportproviderprogress.md)
