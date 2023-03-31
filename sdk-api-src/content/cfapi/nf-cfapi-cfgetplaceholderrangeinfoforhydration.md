@@ -91,15 +91,20 @@ Pointer to a buffer that will receive the data. The buffer is an array of **CF_F
 
 ### -param InfoBufferSize [in]
 
-The length of `InfoBuffer` in bytes.
+The length of *InfoBuffer* in bytes.
 
 ### -param InfoBufferWritten [out, optional]
 
-Receives the number of bytes returned in `InfoBuffer`.
+Receives the number of bytes returned in *InfoBuffer*.
 
 ## -returns
 
-If this function succeeds, it returns `S_OK`. Otherwise, it returns an `HRESULT` error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code. Some common error codes are listed in the following table:
+
+| Error code | Meaning |
+|--------|--------|
+| HRESULT_FROM_WIN32( ERROR_HANDLE_EOF ) | This means that *StartingOffset* >= the position of the end of the file. |
+| HRESULT_FROM_WIN32( ERROR_MORE_DATA ) | This implies that the next **CF_FILE_RANGE** entry doesn't fit in the provided buffer. The caller should verify if any entry is received or not using the returned *InfoBufferWritten* value. |
 
 ## -remarks
 
@@ -118,6 +123,8 @@ Note that the caller always has the `ConnectionKey` obtained via [CfConnectSyncR
 To summarize, when range info is needed from the context of a `CF_CALLBACK_TYPE_FETCH_DATA` callback, this API should be used. In all other cases, including when the provider wants to hydrate the file without being requested by the filter, [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) should be used. The platform can’t recognize which API is called in a specific context and hence the onus is on the provider/Sync Engine to do the right thing.
 
 ## -examples
+
+This is a simple example where the function passes an *InfoBuffer* sufficient to retrieve only one **CF_FILE_RANGE** entry at a time. In practice, the caller could pass an *InfoBuffer* that could correspond to multiple **CF_FILE_RANGE** entries per invocation of the API. Error code **HRESULT_FROM_WIN32( ERROR_MORE_DATA )** could be used to pass a larger buffer if need be.
 
 ```cppwinrt
 #include <cfapi.h>

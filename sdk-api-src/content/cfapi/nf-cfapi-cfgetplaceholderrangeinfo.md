@@ -71,19 +71,24 @@ Length of the range of data. A provider can specify `CF_EOF` for *Length* to ind
 
 ### -param InfoBuffer [out]
 
-Pointer to a buffer that will receive the data. The buffer is an array of `CF_FILE_RANGE` structures, which are offset/length pairs, describing the requested ranges.
+Pointer to a buffer that will receive the data. The buffer is an array of **CF_FILE_RANGE** structures, which are offset/length pairs, describing the requested ranges.
 
 ### -param InfoBufferLength [in]
 
-The length of `InfoBuffer` in bytes.
+The length of *InfoBuffer* in bytes.
 
 ### -param ReturnedLength [out, optional]
 
-The length of the returned range of placeholder data in the `InfoBuffer`.
+The length of the returned range of placeholder data in the *InfoBuffer*.
 
 ## -returns
 
-If this function succeeds, it returns `S_OK`. Otherwise, it returns an `HRESULT` error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code. Some common error codes are listed in the following table:
+
+| Error code | Meaning |
+|--------|--------|
+| HRESULT_FROM_WIN32( ERROR_HANDLE_EOF ) | This means that *StartingOffset* >= the position of the end of the file. |
+| HRESULT_FROM_WIN32( ERROR_MORE_DATA ) | This implies that the next **CF_FILE_RANGE** entry doesn't fit in the provided buffer. The caller should verify if any entry is received or not using the returned *InfoBufferWritten* value. |
 
 ## -remarks
 
