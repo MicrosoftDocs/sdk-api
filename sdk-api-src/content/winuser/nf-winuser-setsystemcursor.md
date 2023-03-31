@@ -75,14 +75,11 @@ The system cursor to replace with the contents of <i>hcur</i>. This parameter ca
 | **OCR\_WAIT**</br>32514 | Busy |
 | **OCR\_CROSS**</br>32515 | Precision select |
 | **OCR\_UP**</br>32516 | Alternate select |
-| **OCR\_SIZE**</br>32640 | Obsolete. Use OCR\_SIZEALL. |
-| **OCR\_ICON**</br>32641 | Obsolete. Use OCR\_NORMAL. |
 | **OCR\_SIZENWSE**</br>32642 | Diagonal resize 1 |
 | **OCR\_SIZENESW**</br>32643 | Diagonal resize 2 |
 | **OCR\_SIZEWE**</br>32644 | Horizontal resize |
 | **OCR\_SIZENS**</br>32645 | Vertical resize |
 | **OCR\_SIZEALL**</br>32646 | Move |
-| **OCR\_ICOCUR**</br>32647 | Obsolete. Use OIC\_WINLOGO. |
 | **OCR\_NO**</br>32648 | Unavailable |
 | **OCR\_HAND**</br>32649 | Link select |
 | **OCR\_APPSTARTING**</br>32650 | Working in background |
