@@ -67,7 +67,7 @@ Offset of the starting point of the range of data.
 
 ### -param Length [in]
 
-Length of the range of data.
+Length of the range of data. A provider can specify `CF_EOF` for *Length* to indicate that range for which information is requested is from *StartingOffset* to end of the file.
 
 ### -param InfoBuffer [out]
 
