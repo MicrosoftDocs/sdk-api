@@ -2,7 +2,7 @@
 UID: NF:cfapi.CfGetPlaceholderRangeInfoForHydration
 tech.root: cloudapi
 title: CfGetPlaceholderRangeInfoForHydration (cfapi.h)
-ms.date: 02/28/2023
+ms.date: 03/31/2023
 targetos: Windows
 description: Gets range information about a placeholder file or folder using ConnectionKey, TransferKey and FileId as identifiers.
 prerelease: false
@@ -44,9 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-Gets range information about a placeholder file or folder.
+Gets range information about a placeholder file or folder. This range information is identical to what [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) returns. However, it doesn’t take a **fileHandle** as a parameter. Instead, it uses `ConnectionKey`, `TransferKey`, and `FileId` to identify the file and the stream for which range information is being requested.
 
-This range information is identical to what [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) returns. However, it doesn’t take a **fileHandle** as a parameter. Instead, it uses `ConnectionKey`, `TransferKey`, and `FileId` to identify the file and the stream for which range information is being requested.
+The platform provides ConnectionKey, TransferKey, and FileIds to all callback functions registered via CfConnectSyncRoot and the provider could use these parameters to obtain range information about a placeholder from the CF_CALLBACK_TYPE_FETCH_DATA Callback without requiring it to open a handle to the file.
+
+If the file is not a cloud files placeholder, the API will fail. On success, range information is returned according to the specific InfoClass requested.
 
 > [!NOTE]
 > This API is available only if the `PlatformVersion.IntegrationNumber` obtained from [CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md) is `0x600` or higher.
@@ -55,15 +57,15 @@ This range information is identical to what [CfGetPlaceholderRangeInfo](nf-cfapi
 
 ### -param ConnectionKey [in]
 
-An opaque handle created by [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md) for a sync root managed by the sync provider. It is returned also in `CF_CALLBACK_INFO` in the `CF_CALLBACK_TYPE_FETCH_DATA` callback and other callbacks.
+An opaque handle created by [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md) for a sync root managed by the sync provider. It is returned also in **CF_CALLBACK_INFO** in the **CF_CALLBACK_TYPE_FETCH_DATA** callback and other callbacks.
 
 ### -param TransferKey [in]
 
-The opaque handle to the placeholder file for which `CF_CALLBACK_TYPE_FETCH_DATA` callback has been invoked.
+The opaque handle to the placeholder file for which **CF_CALLBACK_TYPE_FETCH_DATA** callback has been invoked. It is also returned in **CF_CALLBACK_INFO** in the **CF_CALLBACK_TYPE_FETCH_DATA** callback. This can alternatively be obtained by [CfGetTransferKey](nf-cfapi-cfgettransferkey.md) if the API is not being invoked from **CF_CALLBACK_TYPE_FETCH_DATA** Callback.
 
 ### -param FileId [in]
 
-A 64bit file system-maintained volume-wide unique ID of the placeholder file/directory to be serviced.
+A 64bit file system-maintained volume-wide unique ID of the placeholder file/directory to be serviced. Like *TransferKey*, this is returned in **CF_CALLBACK_INFO** in the **CF_CALLBACK_TYPE_FETCH_DATA** and other callbacks so that the provider doesn’t have to retrieve it again.
 
 ### -param InfoClass [in]
 
@@ -77,15 +79,15 @@ Types of the range of placeholder data. The value can be one of the following:
 
 ### -param StartingOffset [in]
 
-Offset of the starting point of the range of data.
+Offset of the starting point of the range of data. *StartingOffset* and *RangeLength* specify a range in the placeholder file whose information as described by the *InfoClass* parameter is requested
 
 ### -param RangeLength [in]
 
-Length of the range of data.
+Length of the range of data. A provider can specify `CF_EOF` for *RangeLength* to indicate that range for which information is requested is from *StartingOffset* to end of the file.
 
 ### -param InfoBuffer [out]
 
-Pointer to a buffer that will receive the data. The buffer is an array of `CF_FILE_RANGE` structures, which are offset/length pairs, describing the requested ranges.
+Pointer to a buffer that will receive the data. The buffer is an array of **CF_FILE_RANGE** structures, which are offset/length pairs, describing the requested ranges.
 
 ### -param InfoBufferSize [in]
 
@@ -115,6 +117,132 @@ Note that the caller always has the `ConnectionKey` obtained via [CfConnectSyncR
 
 To summarize, when range info is needed from the context of a `CF_CALLBACK_TYPE_FETCH_DATA` callback, this API should be used. In all other cases, including when the provider wants to hydrate the file without being requested by the filter, [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) should be used. The platform can’t recognize which API is called in a specific context and hence the onus is on the provider/Sync Engine to do the right thing.
 
+## -examples
+
+```cppwinrt
+#include <cfapi.h>
+
+// ******************************************************************************************************
+// From within the CF_CALLBACK_TYPE_FETCH_DATA Callback, the provider can use
+// g_PlatformInfo.IntegrationNumber to see if the new API is supported. If it is, the provider can pass
+// ConnectionKey, TransferKey and FileId along with other parameters to obtain information about file
+// ranges which have already been hydrated.
+// *******************************************************************************************************
+
+// The provider could obtain file ranges that are hydrated like this:
+std::vector<CF_FILE_RANGE> hydratedRanges = GetFileRangesFromCallback( CallbackInfo->ConnectionKey,
+                                                                       CallbackInfo->TransferKey,
+                                                                       CallbackInfo->FileId,
+                                                                       CF_PLACEHOLDER_RANGE_INFO_ONDISK
+                                                                       0,
+                                                                       CF_EOF);
+
+// Based on these hydratedRanges, the provider can chose to hydrate only ranges which aren’t on the disk.
+
+// ******************************************************************************************************
+// Implementation of a function that eventually calls this API.
+// ******************************************************************************************************
+
+typedef HRESULT( __stdcall* t_CfGetPlaceholderRangeInfoForHydration )(
+    CF_CONNECTION_KEY ConnectionKey,
+    CF_TRANSFER_KEY TransferKey,
+    LARGE_INTEGER FileId,
+    CF_PLACEHOLDER_RANGE_INFO_CLASS InfoClass,
+    LARGE_INTEGER StartingOffset,
+    LARGE_INTEGER RangeLength,
+    PVOID InfoBuffer,
+    DWORD InfoBufferSize,
+    PDWORD InfoBufferWritten );
+
+t_CfGetPlaceholderRangeInfoForHydration _CfGetPlaceholderRangeInfoForHydration = nullptr;
+
+std::vector<CF_FILE_RANGE>
+GetFileRangesFromCallback( CF_CONNECTION_KEY ConnectionKey,
+                           CF_TRANSFER_KEY TransferKey,
+                           LARGE_INTEGER FileId,
+                           CF_PLACEHOLDER_RANGE_INFO_CLASS RangeInfoClass,
+                           long long StartOffset,
+                           long long Length,
+                           PBOOLEAN UseOldAPI )
+{
+
+    long long StartOffset = 0;
+    CF_FILE_RANGE fileRange;
+    long long Length = 0;
+    LARGE_INTEGER queryOffset = ll2li( StartOffset );
+    LARGE_INTEGER queryLength = ll2li( Length );
+    DWORD inforBufferWritten = 0;
+
+    // This will contain all the hydrated ranges in the file if the function succeeds.
+    std::vector<CF_FILE_RANGE> ranges;
+    bool stop = false;
+
+    CF_PLATFORM_INFO platformInfo;
+
+    hr = (CfGetPlatformInfo( &platformInfo ));
+    if(FAILED(hr)) {
+        *UseOldAPI = TRUE;
+        return ranges; //empty.
+    }
+
+    if (platformInfo.IntegrationNumber < 600) {
+        *UseOldAPI = TRUE;
+        return ranges; //empty.
+    }
+
+    wil::unique_hmodule CloudFilesApi( LoadLibrary( L"cldapi.dll" ) );
+    THROW_LAST_ERROR_IF_NULL( CloudFilesApi );
+
+    _CfGetPlaceholderRangeInfoForHydration = reinterpret_cast<t_CfGetPlaceholderRangeInfoForHydration>(
+            GetProcAddress( CloudFilesApi.get(), "CfGetPlaceholderRangeInfoForHydration" ) );
+    THROW_LAST_ERROR_IF_NULL( _CfGetPlaceholderRangeInfoForHydration );
+
+    while ( !stop ) {
+
+        hr = _CfGetPlaceholderRangeInfoForHydration ( ConnectionKey,
+                                                      TransferKey,
+                                                      FileId,
+                                                      RangeInfoClass,
+                                                      queryOffset,
+                                                      queryLength,
+                                                      &fileRange,
+                                                      sizeof( fileRange ),
+                                                      &infoBufferWritten );
+
+        if ( hr == HRESULT_FROM_WIN32( ERROR_HANDLE_EOF ) ||
+             hr == HRESULT_FROM_WIN32( ERROR_MORE_DATA ) ) {
+
+            // We need to break the loop only if there is no more data.
+            if ( hr == HRESULT_FROM_WIN32( ERROR_HANDLE_EOF ) ) {
+                stop = true;
+            }
+
+            hr = S_OK;
+        }
+
+        if ( FAILED( hr ) || infoBufferWritten == 0 ) {
+            return ranges;
+        }
+
+        ranges.push_back( fileRange );
+        queryOffset.QuadPart = fileRange.StartingOffset.QuadPart + fileRange.Length.QuadPart;
+
+        if ( Length != CF_EOF && queryOffset.QuadPart >= ( StartOffset + Length ) ) {
+            stop = true;
+        } else if ( Length != CF_EOF) {
+            // Update the new query length
+            queryLength.QuadPart = StartOffset + Length - queryOffset.QuadPart
+        
+            if ( queryLength.QuadPart <= 0 ) {
+                stop = true;
+            }
+        }
+    }
+
+    return ranges;
+}
+```
+
 ## -see-also
 
 [CF_PLACEHOLDER_RANGE_INFO_CLASS](ne-cfapi-cf_placeholder_range_info_class.md)
@@ -124,3 +252,5 @@ To summarize, when range info is needed from the context of a `CF_CALLBACK_TYPE_
 [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md)
 
 [CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md)
+
+[CfGetTransferKey](nf-cfapi-cfgettransferkey.md)
