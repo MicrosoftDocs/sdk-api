@@ -2,7 +2,7 @@
 UID: NF:winnt.RtlConvertDeviceFamilyInfoToString
 title: RtlConvertDeviceFamilyInfoToString
 description: Retrieves string representations of device family info.
-tech.root: winrt
+tech.root: Debug
 ms.date: 03/31/2023
 prerelease: false
 req.construct-type: function
