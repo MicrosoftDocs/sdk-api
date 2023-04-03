@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Initiates a transfer of data into a placeholder file or folder.
+**CfGetTransferKey** returns *TransferKey*, which is needed to initiate a transfer of data into a placeholder using the [CfExecute](nf-cfapi-cfexecute.md) API.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT
 
 ## -remarks
 
-**CfGetTransferKey** is used as an alternative to [CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md) to proactively initiate data transfer into a placeholder.
+This API is available for sync providers that may wish to proactively initiate a transfer of data into a placeholder, as an alternative to calling [CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md). **CfGetTransferKey** returns the same *TransferKey* that a fetch data callback would have returned. The sync provider can then pass the *TransferKey* in subsequent calls to the [CfExecute](nf-cfapi-cfexecute.md) API. In this way, the transfer of data is driven by the sync provider rather than the filter.
 
 A sync provider should have **READ_DATA** or **WRITE_DAC** access to the file whose transfer key is to be obtained or **CfGetTransferKey** will be failed with **HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED)**.
 

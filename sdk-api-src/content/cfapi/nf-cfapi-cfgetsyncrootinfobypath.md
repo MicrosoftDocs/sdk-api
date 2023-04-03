@@ -81,7 +81,7 @@ If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT
 
 If the file is not underneath a cloud files sync root, the API will fail. On success, information is returned according to the specific *InfoClass* requested.
 
-The *InfoClass* parameter can be one of the following values:
+The *InfoClass* parameter can be one of the following values from [CF_SYNC_ROOT_INFO_CLASS](ne-cfapi-cf_sync_root_info_class.md):
 
 - CF_SYNC_ROOT_INFO_BASIC
 - CF_SYNC_ROOT_INFO_STANDARD
