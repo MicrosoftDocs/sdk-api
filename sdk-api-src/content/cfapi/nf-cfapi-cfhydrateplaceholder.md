@@ -63,7 +63,7 @@ The starting point offset of the placeholder file data.
 
 ### -param Length [in]
 
-The length, in bytes, of the placeholder file whose data must be available locally on the disk after the API completes successfully. A length of `-1` signifies end of file. For any subrange that is not present in the placeholder, the platform will fetch the data from the sync provider and store it on disk in the placeholder.
+The length, in bytes, of the placeholder file whose data must be available locally on the disk after the API completes successfully. A length of `CF_EOF` (defined as -1) signifies end of file. For any subrange that is not present in the placeholder, the platform will fetch the data from the sync provider and store it on disk in the placeholder.
 
 ### -param HydrateFlags [in]
 
