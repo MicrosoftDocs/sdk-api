@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfGetPlatformInfo","CfGetPlatformInfo function","cfapi/Cf
 old-location: cloudapi\cfgetplatforminfo.htm
 tech.root: cloudapi
 ms.assetid: BCF51702-87C1-405B-A3FF-98F5D0DDA8D5
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformInfo, cloudApi.cfgetplatforminfo
 req.header: cfapi.h
 req.include-header: 
@@ -47,17 +47,24 @@ api_name:
 
 # CfGetPlatformInfo function
 
-
 ## -description
 
-Gets the platform version information.
+Gets version information for the cloud files platform.
 
 ## -parameters
 
 ### -param PlatformVersion [out]
 
-The platform version information. See <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info">CF_PLATFORM_INFO</a> for more details.
+The platform version information. See [CF_PLATFORM_INFO](ns-cfapi-cf_platform_info.md) for more details.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
+
+## -remarks
+
+The *platform* is defined as the combination of the filter and the API library, which are always kept in sync with each other. This API is mainly intended for sync providers that run on multiple Windows versions and need to make decisions based on the platform capabilities. The platform version information consists of three parts: build number, revision number, and integration number. The build number and revision number change when the platform is serviced by Windows Update. The integration number on its own is indicative of the platform capability, both in terms of the API contracts and the availability of critical bug fixes. The integration number increments monotonically. The platform never loses capability with the increment of the integration number. Applications that are cloud files aware may also find this API useful.
+
+## -see-also
+
+[CF_PLATFORM_INFO](ns-cfapi-cf_platform_info.md)

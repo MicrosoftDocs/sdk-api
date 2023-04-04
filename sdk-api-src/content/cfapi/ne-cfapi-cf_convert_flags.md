@@ -77,6 +77,17 @@ When this flag is present, the newly created placeholder will be marked as alway
 
 When specified, the platform allows a sync engine to atomically convert a non-cloud files placeholder (having another reparse tag/data) to a cloud files placeholder. Note that the API normally fails conversion of any non-placeholder file to a placeholder.
 
+The combination **(CF_CONVERT_FLAG_FORCE_CONVERT_TO_CLOUD_FILE | CF_CONVERT_FLAG_DEHYDRATE)** is especially useful in migration scenarios when certain providers are migrating from another platform to cloud files platform and they intend to convert hydrated placeholders on the older platform to dehydrated placeholders on the cloud files platform atomically. Just this flag should be passed for converting full placeholders to cloud files placeholders. If the older platform implements full files as a regular, non-placeholder files, this flag is not needed. Passing this flag on a directory converts directories to cloud files as well, though the **DEHYDRATE** flag doesn’t apply to directories.
+
+Even when the policy **CF_PLACEHOLDER_MANAGEMENT_POLICY_CONVERT_TO_UNRESTRICTED** was specified with [CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md), only processes that have registered/connected to the cloud files sync root are allowed to specify this flag.
+
+>[!NOTE]
+>The flag is supported only if the `PlatformVersion.IntegrationNumber` obtained from [CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md) is `0x500` or higher.
+
 ## -see-also
 
 [CfConvertToPlaceholder](nf-cfapi-cfconverttoplaceholder.md)
+
+[CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md)
+
+[CfGetPlatformInfo](nf-cfapi-cfgetplatforminfo.md)
