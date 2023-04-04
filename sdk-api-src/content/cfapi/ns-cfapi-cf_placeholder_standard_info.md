@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PLACEHOLDER_STANDARD_INFO","CF_PLACEHOLDER_STANDARD_IN
 old-location: cloudapi\cf_placeholder_standard_info.htm
 tech.root: cloudapi
 ms.assetid: F0CDC9CD-7D31-4854-9568-8F13516C6D15
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_PLACEHOLDER_STANDARD_INFO, CF_PLACEHOLDER_STANDARD_INFO structure, cfapi/CF_PLACEHOLDER_STANDARD_INFO, cloudApi.cf_placeholder_standard_info
 req.header: cfapi.h
 req.include-header: 
@@ -57,11 +57,11 @@ Total number of bytes on disk.
 
 ### -field ValidatedDataSize
 
-Total number of bytes in sync with the cloud.
+Total number of bytes that are in sync with the cloud.
 
 ### -field ModifiedDataSize
 
-Total number of bytes that have been overwritten/appended locally that are not in sync with the cloud.
+Total number of bytes that have been overwritten/appended locally and are not in sync with the cloud.
 
 ### -field PropertiesSize
 
@@ -69,11 +69,11 @@ Total number of bytes on disk that are used by all the property blobs.
 
 ### -field PinState
 
-The pin state of the placeholder. See <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
+The [CF_PIN_STATE](ne-cfapi-cf_pin_state.md) of the placeholder. See [CfSetPinState](nf-cfapi-cfsetpinstate.md) for more details.
 
 ### -field InSyncState
 
-The in-sync state of the placeholder. see <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
+The [CF_IN_SYNC_STATE](ne-cfapi-cf_in_sync_state.md) of the placeholder. see [CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md) for more details.
 
 ### -field FileId
 
@@ -85,8 +85,18 @@ The file ID of the sync root directory that contains the file whose placeholder 
 
 ### -field FileIdentityLength
 
-Length, in bytes, of the FileIdentity.
+Length, in bytes, of the *FileIdentity*.
 
 ### -field FileIdentity
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
+
+## -see-also
+
+[CF_PIN_STATE](ne-cfapi-cf_pin_state.md)
+
+[CfSetPinState](nf-cfapi-cfsetpinstate.md)
+
+[CF_IN_SYNC_STATE](ne-cfapi-cf_in_sync_state.md)
+
+[CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md)

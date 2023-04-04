@@ -47,10 +47,9 @@ api_name:
 
 # CF_HYDRATION_POLICY structure
 
-
 ## -description
 
-Specifies the primary hydration policy and its modifier.
+Specifies the [CF_HYDRATION_POLICY_PRIMARY](ne-cfapi-cf_hydration_policy_primary.md) and its [CF_HYDRATION_POLICY_MODIFIER](ne-cfapi-cf_hydration_policy_modifier.md).
 
 ## -struct-fields
 
@@ -62,3 +61,12 @@ The primary hydration policy.
 
 The hydration policy modifier.
 
+## -remarks
+
+The hydration policy allows a sync provider to control how placeholder files should be hydrated by the platform. It consists of a primary policy and a set of policy modifiers.
+
+## -see-also
+
+[CF_HYDRATION_POLICY_PRIMARY](ne-cfapi-cf_hydration_policy_primary.md)
+
+[CF_HYDRATION_POLICY_MODIFIER](ne-cfapi-cf_hydration_policy_modifier.md)

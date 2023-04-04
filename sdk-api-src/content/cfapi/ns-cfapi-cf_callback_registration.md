@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_REGISTRATION","CF_CALLBACK_REGISTRATION struc
 old-location: cloudapi\cf_callback_registration.htm
 tech.root: cloudapi
 ms.assetid: F1633983-DAB2-4072-AA9E-DC7015E6B988
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_REGISTRATION structure
 
-
 ## -description
 
 The callbacks to be registered by the sync provider.
@@ -56,7 +55,7 @@ The callbacks to be registered by the sync provider.
 
 ### -field Type
 
-The type of callback to be registered. See: [CF_CALLBACK_TYPE](./ne-cfapi-cf_callback_type.md).
+The type of callback to be registered. See [CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md).
 
 ### -field Callback
 
@@ -66,5 +65,10 @@ A pointer to the callback function.
 
 This callback registration is how a sync provider communicates to the library which functions to call to execute various requests from the platform.
 
-Note that the sync provider only needs to register implemented callbacks, and <b>CF_CALLBACK_REGISTRATION</b> should always end with <b>CF_CALLBACK_REGISTRATION_END</b>.
+Note that the sync provider only needs to register implemented callbacks, and **CF_CALLBACK_REGISTRATION** should always end with **CF_CALLBACK_REGISTRATION_END**.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
+
+[CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md)

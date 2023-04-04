@@ -90,3 +90,7 @@ Acknowledge and rename a placeholder.
 [Cloud Mirror sample](/windows/win32/cfapi/build-a-cloud-file-sync-engine#cloud-mirror-sample)
 
 [CfExecute](nf-cfapi-cfexecute.md)
+
+[CF_OPERATION_INFO](ns-cfapi-cf_operation_info.md)
+
+[CF_OPERATION_PARAMETERS](ns-cfapi-cf_operation_parameters.md)

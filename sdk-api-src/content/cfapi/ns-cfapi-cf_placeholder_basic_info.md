@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PLACEHOLDER_BASIC_INFO","CF_PLACEHOLDER_BASIC_INFO str
 old-location: cloudapi\cf_placeholder_basic_info.htm
 tech.root: cloudapi
 ms.assetid: 77367235-342D-4BBC-B910-FE798E14B588
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_PLACEHOLDER_BASIC_INFO, CF_PLACEHOLDER_BASIC_INFO structure, cfapi/CF_PLACEHOLDER_BASIC_INFO, cloudApi.cf_placeholder_basic_info
 req.header: cfapi.h
 req.include-header: 
@@ -53,11 +53,11 @@ Basic placeholder information.
 
 ### -field PinState
 
-The pin state of the placeholder. See <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
+The [CF_PIN_STATE](ne-cfapi-cf_pin_state.md) of the placeholder, which is used to represent a user’s intent. See [CfSetPinState](nf-cfapi-cfsetpinstate.md) for more details.
 
 ### -field InSyncState
 
-The in-sync state of the placeholder. see <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
+The [CF_IN_SYNC_STATE](ne-cfapi-cf_in_sync_state.md) of the placeholder. See [CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md) for more details.
 
 ### -field FileId
 
@@ -69,8 +69,18 @@ The file ID of the sync root directory that contains the file whose placeholder 
 
 ### -field FileIdentityLength
 
-Length, in bytes, of the FileIdentity.
+Length, in bytes, of the *FileIdentity*.
 
 ### -field FileIdentity
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
+
+## -see-also
+
+[CF_PIN_STATE](ne-cfapi-cf_pin_state.md)
+
+[CfSetPinState](nf-cfapi-cfsetpinstate.md)
+
+[CF_IN_SYNC_STATE](ne-cfapi-cf_in_sync_state.md)
+
+[CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md)

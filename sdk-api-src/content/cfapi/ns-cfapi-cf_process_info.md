@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PROCESS_INFO","CF_PROCESS_INFO structure","cfapi/CF_PR
 old-location: cloudapi\cf_process_info.htm
 tech.root: cloudapi
 ms.assetid: 912433E9-DC49-41BA-85F7-1A0AF9F88159
-ms.date: 12/05/2018
+ms.date: 04/04/2023
 ms.keywords: CF_PROCESS_INFO, CF_PROCESS_INFO structure, cfapi/CF_PROCESS_INFO, cloudApi.cf_process_info
 req.header: cfapi.h
 req.include-header: 
@@ -47,16 +47,15 @@ api_name:
 
 # CF_PROCESS_INFO structure
 
-
 ## -description
 
-Contains information about a user process.
+Contains information about a user process that triggers a callback.
 
 ## -struct-fields
 
 ### -field StructSize
 
-The size of the structure.
+The size of the **CF_PROCESS_INFO** structure.
 
 ### -field ProcessId
 
@@ -64,7 +63,7 @@ The 32 bit ID of the user process.
 
 ### -field ImagePath
 
-The absolute path of the main executable file including the volume name in the format of NT file path. If the platform failed to retrieve the image path, “UNKNOWN” will be returned.
+The absolute path of the main executable file including the volume name in the format of NT file path. If the platform failed to retrieve the image path, `UNKNOWN` will be returned.
 
 ### -field PackageName
 
@@ -76,18 +75,18 @@ Used for modern applications. The application ID.
 
 ### -field CommandLine
 
-<b>Note</b>  This member was added in Windows 10, version 1803.
+>[!NOTE]
+>This member was added in Windows 10, version 1803.
 
-Used to start the process. If the platform failed to retrieve the command line, “UNKNOWN” will be returned. 
-
-
-
-
-#### SessionId
-
-<b>Note</b>  This member was added in Windows 10, version 1803.
-
-The 32bit ID of the session wherein the user process that triggers the callback resides.
+The string that is used to start the process. If the platform failed to retrieve the command line, `UNKNOWN` will be returned.
 
 ### -field SessionId
 
+>[!NOTE]
+>This member was added in Windows 10, version 1803.
+
+The 32bit ID of the session wherein the user process that triggers the callback resides.
+
+## -see-also
+
+[CF_CALLBACK_INFO](ns-cfapi-cf_callback_info.md)
