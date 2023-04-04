@@ -65,7 +65,7 @@ If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT
 
 Unregisters a sync root that was registered with [CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md). This is typically called at the sync provider uninstall time, when a user account is deleted, or when a user opts to no longer sync a directory tree (if supported by the sync provider). If the sync root to be unregistered has never been registered before, the API fails with **STATUS_CLOUD_FILE_NOT_UNDER_SYNC_ROOT**.
 
-The sync provider should have **WRITE_DATA** or **WRITE_DAC** access to the sync root to be unregistered, or  unregistration will fail with **HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED)**.
+The sync provider should have **WRITE_DATA** or **WRITE_DAC** access to the sync root to be unregistered, or  unregistration will fail with **HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED)**. Unregistration will also fail with **HRESULT(ERROR_CLOUD_FILE_INVALID_REQUEST)** if a sync provider is *connected* to the sync root.
 
 Unregisters a sync root by traversing the directory tree of the sync root.
 

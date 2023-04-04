@@ -59,12 +59,14 @@ A connection key representing a communication channel with the sync filter.
 
 ### -param ProviderStatus [in]
 
-The current status of the sync provider.
+The current status of the sync provider. The status persists for the life of the sync root connection. The sync root connection is torn down either when [CfDisconnectSyncRoot](nf-cfapi-cfdisconnectsyncroot.md) is called or if the sync provider process is terminated.
 
 ## -returns
 
 If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
+
+[CfDisconnectSyncRoot](nf-cfapi-cfdisconnectsyncroot.md)
 
 [CF_SYNC_PROVIDER_STATUS](ne-cfapi-cf_sync_provider_status.md)
