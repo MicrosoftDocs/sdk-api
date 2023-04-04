@@ -71,4 +71,4 @@ The platform will stop the recursion when encountering the first error; otherwis
 
 ## -see-also
 
-[CfSetPinState](nf-cfapi-setpinstate.md)
+[CfSetPinState](nf-cfapi-cfsetpinstate.md)
