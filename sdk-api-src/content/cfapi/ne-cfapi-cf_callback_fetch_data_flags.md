@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_FETCH_DATA_FLAGS","CF_CALLBACK_FETCH_DATA_FLA
 old-location: cloudapi\cf_callback_fetch_data_flags.htm
 tech.root: cloudapi
 ms.assetid: 18C2CF8D-C59F-4181-953E-84B6BEC5F479
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_FETCH_DATA_FLAGS, CF_CALLBACK_FETCH_DATA_FLAGS enumeration, CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION, CF_CALLBACK_FETCH_DATA_FLAG_NONE, CF_CALLBACK_FETCH_DATA_FLAG_RECOVERY, cfapi/ CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION, cfapi/CF_CALLBACK_FETCH_DATA_FLAGS, cfapi/CF_CALLBACK_FETCH_DATA_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_DATA_FLAG_RECOVERY, cloudApi.cf_callback_fetch_data_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_FETCH_DATA_FLAGS enumeration
 
-
 ## -description
 
 Callback flags for fetching data for a placeholder file or folder.
@@ -60,11 +59,17 @@ No data fetch flag.
 
 ### -field CF_CALLBACK_FETCH_DATA_FLAG_RECOVERY:0x00000001
 
-Flag to be used if the callback is invoked as a result of previously interrupted hydration process.
+Flag to be used if the callback is invoked as a result of previously interrupted hydration process, due to either unexpected shutdown of the sync provider or power loss, etc.
 
 ### -field CF_CALLBACK_FETCH_DATA_FLAG_EXPLICIT_HYDRATION:0x00000002
 
-<b>Note</b>  This value is new for Windows 10, version 1803.
+>[!NOTE]
+>This value is new for Windows 10, version 1803.
 
-Flag to be used if the callback is invoked as a 
-result of a call to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>.
+Flag to be used if the callback is invoked as a result of a call to [CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md).
+
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
+
+[CfHydratePlaceholder](nf-cfapi-cfhydrateplaceholder.md)

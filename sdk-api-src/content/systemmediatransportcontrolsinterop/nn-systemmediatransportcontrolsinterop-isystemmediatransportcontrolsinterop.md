@@ -52,8 +52,7 @@ api_name:
 
 Enables interoperability with a WinRT a [SystemMediaTransportControls](/uwp/api/windows.media.systemmediatransportcontrols) object.
 
-
-
+This interface is implemented by the Windows.Media.SystemMediaTransportControls activation factory.
 
 ## -see-also
 

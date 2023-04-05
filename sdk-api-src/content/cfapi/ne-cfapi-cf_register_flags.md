@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_REGISTER_FLAGS","CF_REGISTER_FLAGS enumeration","CF_RE
 old-location: cloudapi\cf_register_flags.htm
 tech.root: cloudapi
 ms.assetid: 043670D7-5908-40B5-82A8-EFF05FCB391B
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_REGISTER_FLAGS, CF_REGISTER_FLAGS enumeration, CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, CF_REGISTER_FLAG_NONE, CF_REGISTER_FLAG_UPDATE, cfapi/CF_REGISTER_FLAGS, cfapi/CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, cfapi/CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, cfapi/CF_REGISTER_FLAG_NONE, cfapi/CF_REGISTER_FLAG_UPDATE, cloudApi.cf_register_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_REGISTER_FLAGS enumeration
 
-
 ## -description
 
 Flags for registering and updating a sync root.
@@ -68,4 +67,10 @@ The on-demand directory/folder population behavior is globally controlled by the
 
 ### -field CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT:0x00000004
 
-This flag allows a sync provider to mark the sync root to be registered in-sync simultaneously at the registration time. An alternative is to call <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> on the sync root later.
+This flag allows a sync provider to mark the sync root to be registered in-sync simultaneously at the registration time. An alternative is to call [CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md) on the sync root later.
+
+## -see-also
+
+[CfSetInSyncState](nf-cfapi-cfsetinsyncstate.md)
+
+[CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md)

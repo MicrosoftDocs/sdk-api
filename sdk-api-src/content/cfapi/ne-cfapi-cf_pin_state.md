@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_PIN_STATE","CF_PIN_STATE enumeration","CF_PIN_STATE_EX
 old-location: cloudapi\cf_pin_state.htm
 tech.root: cloudapi
 ms.assetid: F3074C9A-2805-47DE-9BA0-D7E02C4FF030
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_PIN_STATE, CF_PIN_STATE enumeration, CF_PIN_STATE_EXCLUDED, CF_PIN_STATE_INHERIT, CF_PIN_STATE_PINNED, CF_PIN_STATE_UNPINNED, CF_PIN_STATE_UNSPECIFIED, cfapi/CF_PIN_STATE, cfapi/CF_PIN_STATE_EXCLUDED, cfapi/CF_PIN_STATE_INHERIT, cfapi/CF_PIN_STATE_PINNED, cfapi/CF_PIN_STATE_UNPINNED, cfapi/CF_PIN_STATE_UNSPECIFIED, cloudApi.cf_pin_state
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_PIN_STATE enumeration
 
-
 ## -description
 
 Pin states of a placeholder file or directory.
@@ -60,7 +59,7 @@ The platform can decide freely when the placeholder’s content needs to present
 
 ### -field CF_PIN_STATE_PINNED:1
 
-The sync provider will be notified to fetch the placeholder’s content asynchronously after the pin request is received by the platform. There is no guarantee that the placeholders to be pinned will be fully available locally after a <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> call completes successfully. However, the platform will fail any dehydration request on pinned placeholders.
+The sync provider will be notified to fetch the placeholder’s content asynchronously after the pin request is received by the platform. There is no guarantee that the placeholders to be pinned will be fully available locally after a [CfSetPinState](nf-cfapi-cfsetpinstate.md) call completes successfully. However, the platform will fail any dehydration request on pinned placeholders.
 
 ### -field CF_PIN_STATE_UNPINNED:2
 
@@ -72,7 +71,7 @@ the placeholder will never be synced to the cloud by the sync provider. This sta
 
 ### -field CF_PIN_STATE_INHERIT:4  
 
-The platform treats it as if the caller performs a move operation on the placeholder and hence re-evaluates the placeholder’s pin state based on its parent’s pin state. See the Remarks section for an inheritance table.
+The platform treats it as if the caller performs a move operation on the placeholder and hence re-evaluates the placeholder’s pin state based on its parent’s pin state. See the [Remarks](#-remarks) section for an inheritance table.
 
 ## -remarks
 
@@ -150,3 +149,7 @@ The platform treats it as if the caller performs a move operation on the placeho
 <td>Excluded</td>
 </tr>
 </table>
+
+## -see-also
+
+[CfSetPinState](nf-cfapi-cfsetpinstate.md)

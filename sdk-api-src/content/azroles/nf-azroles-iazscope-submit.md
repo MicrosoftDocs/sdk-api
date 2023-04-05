@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzScope object [Security]","Submit method","IAzScope inte
 old-location: security\iazscope_submit.htm
 tech.root: security
 ms.assetid: c06f1994-71d9-4867-a5ed-8fa90206994f
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzScope object [Security],Submit method, IAzScope interface [Security],Submit method, IAzScope.Submit, IAzScope::Submit, Submit, Submit method [Security], Submit method [Security],AzScope object, Submit method [Security],IAzScope interface, azroles/IAzScope::Submit, security.iazscope_submit
 req.header: azroles.h
 req.include-header: 
@@ -48,23 +48,30 @@ api_name:
 
 # IAzScope::Submit
 
-
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
+The **Submit** method persists changes made to the [IAzScope](nn-azroles-iazscope.md) object.
 
 ## -parameters
 
 ### -param lFlags [in]
 
-Flags that modify the behavior of the <b>Submit</b> method. The default value is zero. If the AZ_SUBMIT_FLAG_ABORT flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
+Flags that modify the behavior of the **Submit** method. The default value is zero. If the **AZ_SUBMIT_FLAG_ABORT** flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object are not persisted until the <b>Submit</b> method is called. 
+Any additions or modifications to an [IAzScope](nn-azroles-iazscope.md) object are not persisted until the **Submit** method is called.
 
-The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
+The **Submit** method does not extend to child objects; child objects  must be individually persisted to the policy store. A created [IAzScope](nn-azroles-iazscope.md) object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
+
+## -see-also
+
+[IAzScope](nn-azroles-iazscope.md)

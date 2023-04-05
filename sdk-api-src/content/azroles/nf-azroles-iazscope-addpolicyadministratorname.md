@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName m
 old-location: security\iazscope_addpolicyadministratorname.htm
 tech.root: security
 ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzScope object, AddPolicyAdministratorName method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministratorName method, IAzScope interface [Security],AddPolicyAdministratorName method, IAzScope.AddPolicyAdministratorName, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
 req.header: azroles.h
 req.include-header: 
@@ -48,34 +48,44 @@ api_name:
 
 # IAzScope::AddPolicyAdministratorName
 
-
 ## -description
 
-The <b>AddPolicyAdministratorName</b> method adds the specified account name to the list of principals that act as policy administrators.
+The **AddPolicyAdministratorName** method adds the specified account name to the list of principals that act as policy administrators.
 
 ## -parameters
 
 ### -param bstrAdmin [in]
 
-The account name to add to the list of policy administrators.  The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If the domain is not  in the "ExampleDomain\UserName" format, the <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+The account name to add to the list of policy administrators. The account name can be in either user principal name (UPN) format (for example, `someone@example.com`) or in the `ExampleDomain\UserName` format. If the domain is not  in the `ExampleDomain\UserName` format, the [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
 Policy administrators for an object can perform the following tasks:
 
-<ul>
-<li>Read the object</li>
-<li>Write attributes to the object</li>
-<li>Read attributes of child objects of the object</li>
-<li>Write attributes to child objects of the object</li>
-<li>Delete the object</li>
-<li>Delete child objects of the object</li>
-<li>Create child objects of the object</li>
-</ul>
-To view the list of policy administrators in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministratorsname">PolicyAdministratorsName</a> property.
+- Read the object
+- Write attributes to the object
+- Read attributes of child objects of the object
+- Write attributes to child objects of the object
+- Delete the object
+- Delete child objects of the object
+- Create child objects of the object
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
+To view the list of policy administrators in account name format, use the [PolicyAdministratorsName](nf-azroles-iazscope-get_policyadministratorsname.md) property.
+
+You must call the [Submit](nf-azroles-iazscope-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea)
+
+[PolicyAdministratorsName](nf-azroles-iazscope-get_policyadministratorsname.md)
+
+[Submit](nf-azroles-iazscope-submit.md)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_RENAME_COMPLETION_FLAGS","CF_CALLBACK_RENAME_
 old-location: cloudapi\cf_callback_rename_completion_flags.htm
 tech.root: cloudapi
 ms.assetid: 60C94543-E0C4-4A79-BBE3-3098401B1123
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_RENAME_COMPLETION_FLAGS, CF_CALLBACK_RENAME_COMPLETION_FLAGS enumeration, CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAGS, cfapi/CF_CALLBACK_RENAME_COMPLETION_FLAG_NONE, cloudApi.cf_callback_rename_completion_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_RENAME_COMPLETION_FLAGS enumeration
 
-
 ## -description
 
 A callback flag to inform the sync provider that a placeholder under one of its sync roots has been successfully renamed.
@@ -58,3 +57,6 @@ A callback flag to inform the sync provider that a placeholder under one of its 
 
 No rename completion flag.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

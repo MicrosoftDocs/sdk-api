@@ -58,7 +58,7 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/windows/win32/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 

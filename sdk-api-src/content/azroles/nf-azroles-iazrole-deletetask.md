@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzRole object [Security]","DeleteTask method","DeleteTask
 old-location: security\iazrole_deletetask.htm
 tech.root: security
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzRole object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzRole object, DeleteTask method [Security],IAzRole interface, IAzRole interface [Security],DeleteTask method, IAzRole.DeleteTask, IAzRole::DeleteTask, azroles/IAzRole::DeleteTask, security.iazrole_deletetask
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzRole::DeleteTask
 
-
 ## -description
 
-The <b>DeleteTask</b> method removes the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name from the role.
+The **DeleteTask** method removes the [IAzTask](nn-azroles-iaztask.md) object with the specified name from the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to remove from the role.
+Name of the [IAzTask](nn-azroles-iaztask.md) object to remove from the role.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> references to an <b>IAzTask</b> object that has been deleted from the cache, the <b>IAzTask</b> object can no longer be used. In C++, you must release references to deleted <b>IAzTask</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any [IAzTask](nn-azroles-iaztask.md) references to an **IAzTask** object that has been deleted from the cache, the **IAzTask** object can no longer be used. In C++, you must release references to deleted **IAzTask** objects by calling the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method. In C# and Visual Basic, references to deleted objects are automatically released.
+
+## -see-also
+
+[IAzTask](nn-azroles-iaztask.md)

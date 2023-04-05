@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPERATION_ACK_DATA_FLAGS","CF_OPERATION_ACK_DATA_FLAGS
 old-location: cloudapi\cf_operation_ack_data_flags.htm
 tech.root: cloudapi
 ms.assetid: 9465B686-7C8A-44AD-BC65-41F22FFEC741
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_OPERATION_ACK_DATA_FLAGS, CF_OPERATION_ACK_DATA_FLAGS enumeration, CF_OPERATION_ACK_DATA_FLAG_NONE, cfapi/CF_OPERATION_ACK_DATA_FLAGS, cfapi/CF_OPERATION_ACK_DATA_FLAG_NONE, cloudApi.cf_operation_ack_data_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_OPERATION_ACK_DATA_FLAGS enumeration
 
-
 ## -description
 
 Flags to verify and acknowledge data for a placeholder file or folder.
@@ -58,3 +57,6 @@ Flags to verify and acknowledge data for a placeholder file or folder.
 
 No acknowledge data flag.
 
+## -see-also
+
+[CF_OPERATION_TYPE](ne-cfapi-cf_operation_type.md)

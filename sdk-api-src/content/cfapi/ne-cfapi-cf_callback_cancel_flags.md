@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_CANCEL_FLAGS","CF_CALLBACK_CANCEL_FLAGS enume
 old-location: cloudapi\cf_callback_cancel_flags.htm
 tech.root: cloudapi
 ms.assetid: 16F0BB1E-FB9E-4AC3-8FD9-A540F72F1155
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_CANCEL_FLAGS, CF_CALLBACK_CANCEL_FLAGS enumeration, CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, CF_CALLBACK_CANCEL_FLAG_NONE, cfapi/CF_CALLBACK_CANCEL_FLAGS, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, cfapi/CF_CALLBACK_CANCEL_FLAG_NONE, cloudApi.cf_callback_cancel_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_CANCEL_FLAGS enumeration
 
-
 ## -description
 
 Callback flags for canceling data fetching for a placeholder file or folder.
@@ -66,3 +65,6 @@ Flag to be set if the user request is cancelled as a result of the expiration of
 
 Flag to be set if the user request is cancelled as a result of the user explicitly terminating the hydration from app-initiated download toast.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)
