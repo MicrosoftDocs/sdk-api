@@ -60,7 +60,7 @@ Retrieves the firmware type of the local computer.
 
 ## -parameters
 
-### -param FirmwareType [in, out]
+### -param FirmwareType [out]
 
 A pointer to a <a href="/windows/desktop/api/winnt/ne-winnt-firmware_type">FIRMWARE_TYPE</a> enumeration.
 
