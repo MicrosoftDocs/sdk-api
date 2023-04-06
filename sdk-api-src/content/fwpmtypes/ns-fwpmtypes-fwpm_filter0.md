@@ -190,7 +190,8 @@ If this is set to IID_NULL, the filter is added to the default sublayer.
 
 ### -field weight
 
-A [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure that specifies the weight of the filter. Possible type values for <b>weight</b> are as follows.
+A [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) structure that specifies the weight of the filter. The weight indicates the priority of the filter, where higher-numbered weights have higher priorities (and will be evaluated before lower-weighted filters).
+Possible type values for <b>weight</b> are as follows.
 
 
 
