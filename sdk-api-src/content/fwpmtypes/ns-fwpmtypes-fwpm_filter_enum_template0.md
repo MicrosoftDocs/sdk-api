@@ -143,13 +143,50 @@ An array of [FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes
 ### -field actionMask
 
 Only filters whose action type contains at least one of the bits in
-   <b>actionMask</b> will be returned.
+   <b>actionMask</b> will be returned. Using the **FWP_ACTION_** constants directly may not
+   work as intended since they contain multiple bits. Some common examples are in the 
+   table below (**^** represents the logical XOR operator).
 
 <table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
 </tr>
+ 
+<tr>
+<td width="40%">
+<dl>
+<dt>FWP_ACTION_BLOCK ^ FWP_ACTION_FLAG_TERMINATING</dt>
+</dl>
+</td>
+<td width="60%">
+ Enumerate filters that have an <b>FWP_ACTION_BLOCK</b> action.
+ </td>
+</tr>
+ 
+<tr>
+<td width="40%">
+<dl>
+<dt>FWP_ACTION_PERMIT ^ FWP_ACTION_FLAG_TERMINATING</dt>
+</dl>
+</td>
+<td width="60%">
+ Enumerate filters that have an <b>FWP_ACTION_PERMIT</b> action.
+ </td>
+</tr>
+ 
+<tr>
+<td width="40%"><a id="FWP_ACTION_FLAG_CALLOUT"></a><a id="fwp_action_flag_callout"></a><dl>
+<dt><b>FWP_ACTION_FLAG_CALLOUT</b></dt>
+</dl>
+</td>
+<td width="60%">
+Enumerate filters that reference callout drivers.
+<div class="alert"><b>Note</b>  <b>calloutKey</b> must not be <b>NULL</b>.</div>
+<div> </div>
+</td>
+</tr>
+ 
 <tr>
 <td width="40%">
 <dl>
@@ -157,23 +194,10 @@ Only filters whose action type contains at least one of the bits in
 </dl>
 </td>
 <td width="60%">
-Ignore the filter's action type when
-   enumerating.
-
+Ignore the filter's action type when enumerating.
 </td>
 </tr>
-<tr>
-<td width="40%"><a id="FWP_ACTION_FLAG_CALLOUT"></a><a id="fwp_action_flag_callout"></a><dl>
-<dt><b>FWP_ACTION_FLAG_CALLOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Enumerate callouts only.
 
-<div class="alert"><b>Note</b>  <b>calloutKey</b> must not be <b>NULL</b>.</div>
-<div> </div>
-</td>
-</tr>
 </table>
 
 ### -field calloutKey
