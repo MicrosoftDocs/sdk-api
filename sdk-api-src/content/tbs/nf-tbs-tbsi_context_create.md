@@ -201,4 +201,4 @@ The [TBS_CONTEXT_PARAMS](./ns-tbs-tbs_context_params.md) structure can be provid
 Applications interacting with version 2.0 TPM will pass a pointer to a [TBS_CONTEXT_PARAMS2](./ns-tbs-tbs_context_params2.md) structure, with the version field set to TPM_VERSION_20. Set the reserved field to 0, and the <b>includeTPm20</b> field to 1. If the application is prepared to interact with a version 1.2 TPM as well (in case the system has no version 2.0 TPM), set the <b>includeTpm12</b> field to 1.
 
 
-If no TPM is present on the system, or the TPM version does not match those requested by the caller, <b>Tbsi_Context_Create</b> will return the TBS_E_TPM_NOT_FOUND (0x8028400) error code.  Application programs must check for both versions and be able to interact with either TPM.
+If no TPM is present on the system, or the TPM version does not match those requested by the caller, <b>Tbsi_Context_Create</b> will return the TBS_E_TPM_NOT_FOUND (0x8028400f) error code.  Application programs must check for both versions and be able to interact with either TPM.
