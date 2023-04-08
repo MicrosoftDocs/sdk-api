@@ -148,6 +148,7 @@ In full-screen mode, there is a dedicated front buffer; in windowed mode, the de
 
 For a <a href="/windows/desktop/direct3ddxgi/dxgi-flip-model">flip-model</a> swap chain (that is, a swap 
      chain that has the 
+     <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_DISCARD</a> or 
      <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
      value set in the <b>SwapEffect</b> member), you must set the 
      <b>Format</b> member to 
