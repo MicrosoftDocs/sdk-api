@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-Implemented by clients to register for and receive common audio-related notifications for APO endpoint and system effect notifications. This interface provides the method [GetApoNotificationRegistrationInfo2](./nf-audioengineextensionapo-iaudioprocessingobjectnotifications2-getaponotificationregistrationinfo2.md), which has the same behavior as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
+Implemented by clients to register for and receive common audio-related notifications for APO endpoint and system effect notifications. This interface provides the method [GetApoNotificationRegistrationInfo2](./nf-audioengineextensionapo-iaudioprocessingobjectnotifications2-getaponotificationregistrationinfo2.md), which has the same behavior as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-audioengineextensionapo-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
 
 ## -remarks
 
