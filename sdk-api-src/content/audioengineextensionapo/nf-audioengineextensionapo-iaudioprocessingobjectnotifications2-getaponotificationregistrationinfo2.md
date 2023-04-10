@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method behaves the same as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
+Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method behaves the same as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-audioengineextensionapo-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
 
 ## -parameters
 
