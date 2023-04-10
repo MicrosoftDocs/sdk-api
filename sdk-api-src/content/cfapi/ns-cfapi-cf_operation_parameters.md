@@ -258,7 +258,7 @@ Dehydrated data acknowledgment flags. See [CF_OPERATION_ACK_DEHYDRATE_FLAGS](ne-
 
 ### -field DUMMYUNIONNAME.AckDehydrate.CompletionStatus
 
-The completion status of the acknowledge dehydration operation.
+The completion status of the acknowledge dehydration operation. This must be set to **STATUS_SUCCESS** if the sync provider is able to allow the dehydration to proceed. If the sync provider intends to disallow the dehydration for any reason it must set a **STATUS_CLOUD_FILE_\*** status in *CompletionStatus*. Any status code returned outside of **STATUS_CLOUD_FILE_\*** range except for **STATUS_SUCCESS** will be converted to **STATUS_CLOUD_FILE_UNSUCCESSFUL** by the platform.
 
 ### -field DUMMYUNIONNAME.AckDehydrate.FileIdentity
 
@@ -276,7 +276,7 @@ Acknowledge rename placeholder flags. See [CF_OPERATION_ACK_RENAME_FLAGS](ne-cfa
 
 ### -field DUMMYUNIONNAME.AckRename.CompletionStatus
 
-The completion status of the acknowledge rename operation.
+The completion status of the acknowledge rename operation. This must be set to **STATUS_SUCCESS** if the sync provider is able to allow the rename operation to proceed. If the sync provider intends to disallow the rename for any reason it must set a **STATUS_CLOUD_FILE_\*** status in *CompletionStatus*. Any status code returned outside of **STATUS_CLOUD_FILE_\*** range except for **STATUS_SUCCESS** will be converted to **STATUS_CLOUD_FILE_UNSUCCESSFUL** by the platform.
 
 ### -field DUMMYUNIONNAME.AckDelete
 
@@ -286,7 +286,7 @@ Acknowledge delete flags. See [CF_OPERATION_ACK_DELETE_FLAGS](ne-cfapi-cf_operat
 
 ### -field DUMMYUNIONNAME.AckDelete.CompletionStatus
 
-The completion status of the acknowledge delete operation.
+The completion status of the acknowledge delete operation. This must be set to **STATUS_SUCCESS** if the sync provider is able to allow the delete operation to proceed. If the sync provider intends to disallow the delete for any reason it must set a **STATUS_CLOUD_FILE_\*** status in *CompletionStatus*. Any status code returned outside of **STATUS_CLOUD_FILE_\*** range except for **STATUS_SUCCESS** will be converted to **STATUS_CLOUD_FILE_UNSUCCESSFUL** by the platform.
 
 ## -see-also
 
