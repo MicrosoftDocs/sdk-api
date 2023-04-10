@@ -9,18 +9,18 @@ ms.keywords: SetCachedSigningLevel
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Advapi32.dll
+req.dll: kernel32.dll
 req.header: securitybaseapi.h
 req.idl: 
 req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: Advapi32.lib 
+req.lib: kernel32.lib 
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
@@ -60,12 +60,14 @@ The source file count.
 
 ### -param Flags [in]
 
-Pointer to the flags set on the file. The following *Flags* are supported:
+The flags set for the file. The following *Flags* are supported:
 
 | Flag | Value |
 |--------|--------|
 | **SIGNING_LEVEL_FILE_CACHE_FLAG_NOT_VALIDATED** | `0x01` |
 | **SIGNING_LEVEL_FILE_CACHE_FLAG_VALIDATE_ONLY** | `0x04` |
+
+Using these flags together (**SIGNING_LEVEL_FILE_CACHE_FLAG_NOT_VALIDATED \| SIGNING_LEVEL_FILE_CACHE_FLAG_VALIDATE_ONLY**) indicates that the file should be validated.
 
 ### -param TargetFile [in, optional]
 
