@@ -56,7 +56,12 @@ Handle to a file.
 
 ### -param Flags [Out]
 
-Pointer to the flags set on the file.
+Pointer to the flags set on the file. The following *Flags* are supported:
+
+| Flag | Value |
+|--------|--------|
+| **SIGNING_LEVEL_FILE_CACHE_FLAG_NOT_VALIDATED** | `0x01` |
+| **SIGNING_LEVEL_FILE_CACHE_FLAG_VALIDATE_ONLY** | `0x04` |
 
 ### -param SigningLevel [Out]
 

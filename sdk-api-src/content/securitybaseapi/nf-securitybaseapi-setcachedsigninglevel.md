@@ -2,7 +2,7 @@
 UID: NF:securitybaseapi.SetCachedSigningLevel
 tech.root: security
 title: SetCachedSigningLevel (securitybaseapi.h)
-ms.date: 12/02/2022
+ms.date: 04/10/2023
 targetos: Windows
 description: Sets the cached signing level.
 ms.keywords: SetCachedSigningLevel
@@ -60,7 +60,12 @@ The source file count.
 
 ### -param Flags [in]
 
-Pointer to the flags set on the file.
+Pointer to the flags set on the file. The following *Flags* are supported:
+
+| Flag | Value |
+|--------|--------|
+| **SIGNING_LEVEL_FILE_CACHE_FLAG_NOT_VALIDATED** | `0x01` |
+| **SIGNING_LEVEL_FILE_CACHE_FLAG_VALIDATE_ONLY** | `0x04` |
 
 ### -param TargetFile [in, optional]
 
