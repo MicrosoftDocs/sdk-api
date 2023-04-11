@@ -59,9 +59,9 @@ A descriptor identifying an unbound socket.
 
 A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
 
-### -param namelen [in]
+### -param addrlen [in]
 
-The length, in bytes, of the value pointed to by the <i>name</i> parameter.
+The length, in bytes, of the value pointed to by the <i>addr</i> parameter.
 
 ## -returns
 
