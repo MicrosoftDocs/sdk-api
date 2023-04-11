@@ -61,7 +61,7 @@ A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> struct
 
 ### -param namelen [in]
 
-The length, in bytes, of the value pointed to by the <i>name</i> parameter.
+The length, in bytes, of the value pointed to by *addr*.
 
 ## -returns
 
