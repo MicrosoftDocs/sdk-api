@@ -102,6 +102,8 @@ The behavior of the function.
 
 If bit 0 is set, a menu is active. In this mode <b>Alt+Numeric keypad</b> key combinations are not handled.
 
+If bit 1 is set, **ToUnicodeEx** will translate scancodes marked as key break events in addition to its usual treatment of key make events.
+
 If bit 2 is set, keyboard state is not changed (Windows 10, version 1607 and newer)
 
 All other bits (through 31) are reserved.
