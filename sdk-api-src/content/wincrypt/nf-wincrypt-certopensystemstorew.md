@@ -58,9 +58,9 @@ The <b>CertOpenSystemStore</b> function is a simplified function that opens the 
 
 ### -param hProv [in]
 
-This parameter is not used and should be set to <b>NULL</b>.
+This parameter is not used and should be set to <b>0</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>NULL</b> to use the default CSP. If <i>hProv</i> is not <b>NULL</b>, it must be a CSP handle created by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Set <i>hProv</i> to <b>0</b> to use the default CSP. If <i>hProv</i> is not <b>0</b>, it must be a CSP handle created by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.This parameter's data type is <b>HCRYPTPROV</b>.
 
 ### -param szSubsystemProtocol [in]
 
