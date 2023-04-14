@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - SspiCli.dll
+ - secur32.dll
 api_name:
  - SspiUnmarshalAuthIdentity
 ---
