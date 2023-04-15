@@ -79,7 +79,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 If this parameter is <b>TRUE</b>, the function creates a manual-reset event object, which requires the use of the 
       <a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function to set the event state to nonsignaled. If 
-      this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and system automatically resets the 
+      this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and the system automatically resets the 
       event state to nonsignaled after a single waiting thread has been released.
 
 ### -param bInitialState [in]
