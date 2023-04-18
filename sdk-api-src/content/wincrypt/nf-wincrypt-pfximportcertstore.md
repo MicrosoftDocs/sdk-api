@@ -55,7 +55,7 @@ The **PFXImportCertStore** function imports a PFX BLOB and returns the handle of
 
 ### -param pPFX [in]
 
-A pointer to a [CRYPT_DATA_BLOB](/previous-versions/windows/win32/legacy/aa381414(v=vs.85)) structure that contains a PFX packet with the exported and encrypted certificates and keys.
+A pointer to a [CRYPT_DATA_BLOB](/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)) structure that contains a PFX packet with the exported and encrypted certificates and keys.
 
 ### -param szPassword [in]
 
@@ -63,7 +63,7 @@ A string password used to decrypt and verify the PFX packet. Whether set to a st
 
 Beginning with Windows 8 and Windows Server 2012, if the PFX packet was created in the [PFXExportCertStoreEx](nf-wincrypt-pfxexportcertstoreex.md) function by using the **PKCS12_PROTECT_TO_DOMAIN_SIDS** flag, the **PFXImportCertStore** function attempts to decrypt the password by using the Active Directory (AD) principal that was used to encrypt it. The AD principal is specified in the *pvPara* parameter. If the *szPassword* parameter in the **PFXExportCertStoreEx** function was an empty string or **NULL** and the *dwFlags* parameter was set to **PKCS12_PROTECT_TO_DOMAIN_SIDS**, that function randomly generated a password and encrypted it to the AD principal specified in the *pvPara* parameter. In that case you should set the password to the value, empty string or **NULL**, that was used when the PFX packet was created. The **PFXImportCertStore** function will use the AD principal to decrypt the random password, and the randomly generated password will be used to decrypt the PFX certificate.
 
-When you have finished using the password, clear it from memory by calling the [SecureZeroMemory](/previous-versions/windows/win32/legacy/aa366877(v=vs.85)) function. For more information about protecting passwords, see [Handling Passwords](/windows/win32/SecBP/handling-passwords).
+When you have finished using the password, clear it from memory by calling the [SecureZeroMemory](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) function. For more information about protecting passwords, see [Handling Passwords](/windows/win32/SecBP/handling-passwords).
 
 ### -param dwFlags [in]
 
