@@ -45,7 +45,10 @@ api_location:
 api_name:
  - IDXGIOutputDuplication.AcquireNextFrame
 ---
+Hi Microsoft team，I used this demo to do a performance test on screen capture + encoding, and encountered several problems:
+1. Assuming that the refresh rate of the display is set to 60, does the system forcibly refresh every 16.7ms, and then perform the capture operation? How is it achieved?
 
+2. During the test, I found that AcquireNextFrame will have time jitter, sometimes exceeding 30ms. What are the factors that affect the jitter of acquireNextFrame? When a problem occurs, the CPU, memory, and io loads are not high.
 # IDXGIOutputDuplication::AcquireNextFrame
 
 
