@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Shcore.lib
-req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
+req.dll: Api-ms-win-core-featurestaging-l1-1-1.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - api-ms-win-core-featurestaging-l1-1-0.dll
+ - api-ms-win-core-featurestaging-l1-1-1.dll
 api_name:
  - GetFeatureVariant
 ---

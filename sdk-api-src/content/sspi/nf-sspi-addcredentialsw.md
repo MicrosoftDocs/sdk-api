@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - sspi.h
+ - secur32.dll
 api_name:
  - AddCredentialsW
  - AddCredentials
