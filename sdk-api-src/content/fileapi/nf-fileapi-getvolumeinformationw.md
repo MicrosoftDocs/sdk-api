@@ -385,7 +385,7 @@ The specified volume is a direct access (DAX) volume.
 
 <tr>
   <td width="40%"><a id="FILE_SUPPORTS_GHOSTING"></a><a id="file_supports_remote_storage"></a>
-    <b>FILE_SUPPORTS_GHOSTING</b><br>0x00000200
+    <b>FILE_SUPPORTS_GHOSTING</b><br>0x40000000
   </td>
   <td width="60%">
   </td>
