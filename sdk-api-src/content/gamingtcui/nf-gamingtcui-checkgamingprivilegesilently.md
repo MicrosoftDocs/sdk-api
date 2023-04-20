@@ -37,8 +37,9 @@ dev_langs:
 topic_type:
  - kbSyntax
 api_type:
- - <TBD>
+ - DllEcport
 api_location:
+ - gamingtcui.dll
 api_name:
  - CheckGamingPrivilegeSilently
 ---

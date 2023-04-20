@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>  from the provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
+Creates a Windows Runtime <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object from the provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
 ## -parameters
 
@@ -66,14 +66,14 @@ Type: <b>BOOL</b>
 
 A value indicating whether the created software bitmap is read-only.
 
-<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object. Access to the underlying WIC bitmap is not restricted.</div>
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a> interface.
+The interface to obtain from the created <a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> object.
+This is usually Windows.Graphics.Imaging.ISoftwareBitmap.
 
 ### -param ppv [out]
 

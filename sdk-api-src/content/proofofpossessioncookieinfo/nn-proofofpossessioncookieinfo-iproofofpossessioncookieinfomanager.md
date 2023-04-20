@@ -45,14 +45,10 @@ api_name:
  - IProofOfPossessionCookieInfoManager
 ---
 
-# IProofOfPossessionCookieInfoManager interface
-
-
 ## -description
 
 Supports the creation of proof of possession cookies.
 
 ## -inheritance
 
-The <b>IProofOfPossessionCookieInfoManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProofOfPossessionCookieInfoManager</b> also has these types of members:
-
+The **IProofOfPossessionCookieInfoManager** interface derives from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
