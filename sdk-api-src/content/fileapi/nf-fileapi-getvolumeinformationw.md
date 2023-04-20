@@ -225,7 +225,7 @@ The specified volume supports reparse points.
 
 <tr>
   <td width="40%"><a id="FILE_SUPPORTS_POSIX_UNLINK_RENAME"></a><a id="file_supports_remote_storage"></a>
-    <b>FILE_SUPPORTS_POSIX_UNLINK_RENAME</b><br>0x04000000
+    <b>FILE_SUPPORTS_POSIX_UNLINK_RENAME</b><br>0x00000400
   </td>
   <td width="60%">
   </td>
