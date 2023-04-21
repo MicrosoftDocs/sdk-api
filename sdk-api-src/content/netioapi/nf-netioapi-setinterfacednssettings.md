@@ -60,7 +60,7 @@ A pointer to a **DNS_INTERFACE_SETTINGS**-type structure that contains the DNS i
 
 If this parameter points to a [**DNS_INTERFACE_SETTINGS**](ns-netioapi-dns_interface_settings.md) structure, then the **DNS_INTERFACE_SETTINGS::Version** member must be set to **DNS_INTERFACE_SETTINGS_VERSION1**.
 
-If this parameter points to a [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex.md) structure, then the version must be set to **DNS_INTERFACE_SETTINGS_VERSION2**.
+If this parameter points to a [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex) structure, then the version must be set to **DNS_INTERFACE_SETTINGS_VERSION2**.
 
 If this parameter points to a [**DNS_INTERFACE_SETTINGS3** ](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure, then the version must to be set to **DNS_INTERFACE_SETTINGS_VERSION3**.
 

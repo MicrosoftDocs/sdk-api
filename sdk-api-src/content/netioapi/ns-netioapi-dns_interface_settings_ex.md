@@ -53,29 +53,9 @@ Represents the DNS settings that can be configured on a given interface by calli
 
 Type: **[DNS_INTERFACE_SETTINGS](ns-netioapi-dns_interface_settings.md)**
 
-**SettingsV1::Version** must be set to **DNS_INTERFACE_SETTINGS_VERSION2**.
+**SettingsV1.Version** must be set to **DNS_INTERFACE_SETTINGS_VERSION2**.
 
-### -field SettingsV1::Flags
-
-Type: **[ULONG64](/windows/win32/winprog/windows-data-types)**
-
-A bitmap of the following options.
-
-**DNS_SETTING_IPV6** (0x0001). Configures the interface settings only for the IPv6 networking stack. If this option is set, then any IP addresses specified in the *NameServer* or *ProfileNameServer* members must be IPv6 addresses. By default, the DNS interface settings specified in this structure are applied only to the IPv4 networking stack.
-
-**DNS_SETTING_NAMESERVER** (0x0002). Configures static adapter DNS servers on the specified interface via the *SettingsV1::NameServer* member.
-
-**DNS_SETTING_SEARCHLIST** (0x0004). Configures the connection-specific DNS suffix search list for the given adapter via the *SettingsV1::SearchList* member.
-
-**DNS_SETTING_REGISTRATION_ENABLED** (0x0008). Enables or disables the dynamic DNS registration for the given adapter. This is system-enabled by default.
-
-**DNS_SETTING_DOMAIN** (0x0020). Configures the connection-specific DNS suffix for the given adapter via the *SettingsV1::Domain* member.
-
-**DNS_SETTINGS_ENABLE_LLMNR** (0x0080). Enables or disables name resolution using LLMNR and mDNS on the specified adapter. This is system-enabled by default.
-
-**DNS_SETTINGS_QUERY_ADAPTER_NAME** (0x0100). Enables or disables the use of the adapter name as a suffix for DNS queries. This is system-enabled by default.
-
-**DNS_SETTING_PROFILE_NAMESERVER** (0x0200). Configures static profile DNS servers on the specified interface via the *SettingsV1::ProfileNameServer* member.
+**SettingsV1.Flags** is configured in the same way as **[DNS_INTERFACE_SETTINGS::Flags](ns-netioapi-dns_interface_settings.md)**, with the additional following bitmap option:
 
 **DNS_SETTING_SUPPLEMENTAL_SEARCH_LIST** (0x0800). Configures the connection-specific DNS supplemental suffix search list for the given adapter via the *SupplementalSearchList* member.
 

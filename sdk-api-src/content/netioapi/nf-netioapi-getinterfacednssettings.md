@@ -62,7 +62,7 @@ You should set only the *Version* member; the *Flags* field must be empty.
 
 If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION1**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS**](ns-netioapi-dns_interface_settings.md) structure.
 
-If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION2**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex.md) structure.
+If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION2**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex) structure.
 
 If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION3**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS3**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure.
 
