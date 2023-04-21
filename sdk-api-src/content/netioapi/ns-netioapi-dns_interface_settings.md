@@ -133,4 +133,5 @@ If the **DNS_SETTING_IPV6** flag is present, then the servers must be IPv6 addre
 
 ## -see-also
 
+* [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 * [SetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)

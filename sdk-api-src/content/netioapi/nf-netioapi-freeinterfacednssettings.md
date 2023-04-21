@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 19041
+req.target-min-winversvr: Windows 10 Build 19041
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

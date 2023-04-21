@@ -77,6 +77,8 @@ A bitmap of the following options.
 
 **DNS_SETTING_PROFILE_NAMESERVER** (0x0200). Configures static profile DNS servers on the specified interface via the *ProfileNameServer* member.
 
+**DNS_SETTING_SUPPLEMENTAL_SEARCH_LIST** (0x0800). Configures the connection-specific DNS supplemental suffix search list for the given adapter via the *SupplementalSearchList* member.
+
 **DNS_SETTING_DOH** (0x1000). Configures DNS-over-HTTPS settings on the specified adapter via the *cServerProperties* and *ServerProperties* members. If this option is set, then the *NameServer* member must point to a valid string containing a series of space- or comma-separated DNS servers.
  
 **DNS_SETTING_DOH_PROFILE** (0x2000). Configures profile DNS-over-HTTPS settings on the specified adapter via the *cProfileServerProperties* and *ProfileServerProperties* members. If this option is set, then the *ProfileNameServer* member must point to a valid string containing a series of space- or comma-separated DNS servers.
@@ -143,7 +145,7 @@ Reserved.
 
 Type: **[PWSTR](/windows/win32/winprog/windows-data-types)**
 
-Reserved.
+A NULL-terminated wide string containing a series of comma- or space-separated search names. For example, L"contoso1.com contoso2.com", or L"contoso1.com, contoso2.com".
 
 ### -field cServerProperties
 
@@ -189,4 +191,5 @@ For example, if the *ProfileNameServer* member is set to L"1.1.1.1, 8.8.8.8, 9.9
 
 ## -see-also
 
+* [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 * [SetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)
