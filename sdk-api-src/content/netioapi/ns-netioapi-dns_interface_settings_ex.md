@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._DNS_INTERFACE_SETTINGS_EX
 title: DNS_INTERFACE_SETTINGS_EX
-description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function. (DNS_INTERFACE_SETTINGS_EX)
+description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function or retrieved for a given interface by calling the [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings) function. (DNS_INTERFACE_SETTINGS_EX)
 tech.root: IpHlp
 ms.date: 07/15/2021
 req.header: netioapi.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function or retrieved for a given interface by calling the [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings) function.
 
 ## -struct-fields
 
