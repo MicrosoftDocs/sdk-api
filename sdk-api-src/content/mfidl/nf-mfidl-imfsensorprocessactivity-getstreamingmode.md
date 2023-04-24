@@ -59,7 +59,7 @@ Gets the streaming mode of the sensor process.
 
 ### -param pMode [out]
 
-Receives mode in MFSensorDeviceMode.
+Receives a value from the MFSensorDeviceMode enumeration specifying the streaming mode of the sensor process.
 
 ## -returns
 
