@@ -81,6 +81,8 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
+An error of ERROR_FILE_NOT_FOUND indicates that the process specified in *hProcess* does not exist.
+
 ## -remarks
 
 The
