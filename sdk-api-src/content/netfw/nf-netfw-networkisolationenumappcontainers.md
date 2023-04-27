@@ -88,7 +88,7 @@ ERROR_OUTOFMEMORY will be returned if memory is unavailable.
 
 ## -remarks
 
-If no app containers are installed on the system, ERROR_SUCCESS will still be returned (and <i>ppPublicAppCs</i> will be empty).
+If no app containers are installed on the system, ERROR_SUCCESS will still be returned (and <i>ppPublicAppCs</i> will be empty).  If ppPublicAppCs is not empty, <a href="https://docs.microsoft.com/en-us/windows/win32/api/netfw/nf-netfw-networkisolationfreeappcontainers">NetworkIsolationFreeAppContainers</a> should be used to free the memory when you are done using it.
 
 ## -see-also
 
