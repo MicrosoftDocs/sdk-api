@@ -88,7 +88,7 @@ Specifies various aspects of a keystroke. This member can be certain combination
 </dl>
 </td>
 <td width="60%">
-If specified, the scan code was preceded by a prefix byte that has the value 0xE0 (224).
+If specified, the <b>wScan</b> scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0. See <a href="/windows/win32/inputdev/about-keyboard-input#extended-key-flag">Extended-Key Flag</a> for more info.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ An additional value associated with the keystroke. Use the <a href="/windows/des
 <b> INPUT_KEYBOARD</b> supports nonkeyboard-input methods—such as handwriting recognition or voice recognition—as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. If <b>KEYEVENTF_UNICODE</b> is specified, <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> sends a <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> or <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> message to the foreground thread's message queue with <i>wParam</i> equal to <b>VK_PACKET</b>. Once <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> obtains this message, passing the message to 
 <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> posts a <a href="/windows/desktop/inputdev/wm-char">WM_CHAR</a> message with the Unicode character originally specified by <b>wScan</b>. This Unicode character will automatically be converted to the appropriate ANSI value if it is posted to an ANSI window.
 
- Set the <b>KEYEVENTF_SCANCODE</b> flag to define keyboard input in terms of the scan code. This is useful to simulate a physical keystroke regardless of which keyboard is currently being used. The virtual key value of a key may alter depending on the current keyboard layout or what other keys were pressed, but the scan code will always be the same.
+Set the <b>KEYEVENTF_SCANCODE</b> flag to define keyboard input in terms of the scan code. This is useful to simulate a physical keystroke regardless of which keyboard is currently being used. You can additionally pass <b>KEYEVENTF_EXTENDEDKEYE</b> flag if scan code is extended key. The virtual key value of a key may alter depending on the current keyboard layout or what other keys were pressed, but the scan code will always be the same.
 
 ## -see-also
 
