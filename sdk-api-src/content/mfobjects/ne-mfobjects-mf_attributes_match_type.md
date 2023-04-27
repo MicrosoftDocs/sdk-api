@@ -56,23 +56,23 @@ Specifies how to compare the attributes on two objects.
 
 ## -enum-fields
 
-### -field MF_ATTRIBUTES_MATCH_OUR_ITEMS
+### -field MF_ATTRIBUTES_MATCH_OUR_ITEMS:0
 
 Check whether all the attributes in <i>pThis</i> exist in <i>pTheirs</i> and have the same data, where <i>pThis</i> is the object whose <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
 
-### -field MF_ATTRIBUTES_MATCH_THEIR_ITEMS
+### -field MF_ATTRIBUTES_MATCH_THEIR_ITEMS:1
 
 Check whether all the attributes in <i>pTheirs</i> exist in <i>pThis</i> and have the same data, where <i>pThis</i> is the object whose <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">Compare</a> method is being called and <i>pTheirs</i> is the object given in the <i>pTheirs</i> parameter.
 
-### -field MF_ATTRIBUTES_MATCH_ALL_ITEMS
+### -field MF_ATTRIBUTES_MATCH_ALL_ITEMS:2
 
 Check whether both objects have identical attributes with the same data.
 
-### -field MF_ATTRIBUTES_MATCH_INTERSECTION
+### -field MF_ATTRIBUTES_MATCH_INTERSECTION:3
 
 Check whether the attributes that exist in both objects have the same data.
 
-### -field MF_ATTRIBUTES_MATCH_SMALLER
+### -field MF_ATTRIBUTES_MATCH_SMALLER:4
 
 Find the object with the fewest number of attributes, and check if those attributes exist in the other object and have the same data.
 

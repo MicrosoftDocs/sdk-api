@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shader._D3D11_LIBRARY_DESC
 title: D3D11_LIBRARY_DESC (d3d11shader.h)
-description: Describes a library.
+description: Describes a library. (D3D11_LIBRARY_DESC)
 helpviewer_keywords: ["D3D11_LIBRARY_DESC","D3D11_LIBRARY_DESC structure [Direct3D 11]","d3d11shader/D3D11_LIBRARY_DESC","direct3d11.d3d11_library_desc"]
 old-location: direct3d11\d3d11_library_desc.htm
 tech.root: direct3d11

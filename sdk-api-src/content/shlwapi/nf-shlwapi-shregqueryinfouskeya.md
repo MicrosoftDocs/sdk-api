@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegQueryInfoUSKeyA
 title: SHRegQueryInfoUSKeyA function (shlwapi.h)
-description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegQueryInfoUSKey","SHRegQueryInfoUSKey function [Windows Shell]","SHRegQueryInfoUSKeyA","SHRegQueryInfoUSKeyW","_win32_SHRegQueryInfoUSKey","shell.SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKeyA","shlwapi/SHRegQueryInfoUSKeyW"]
+description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
+helpviewer_keywords: ["SHRegQueryInfoUSKeyA", "shlwapi/SHRegQueryInfoUSKeyA"]
 old-location: shell\SHRegQueryInfoUSKey.htm
 tech.root: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEXCUBE_SRV
 title: D3D11_TEXCUBE_SRV (d3d11.h)
-description: Specifies the subresource from a cube texture to use in a shader-resource view.
+description: Specifies the subresource from a cube texture to use in a shader-resource view. (D3D11_TEXCUBE_SRV)
 helpviewer_keywords: ["D3D11_TEXCUBE_SRV","D3D11_TEXCUBE_SRV structure [Direct3D 11]","a217170b-8039-8202-2646-a617e73d0023","d3d11/D3D11_TEXCUBE_SRV","direct3d11.d3d11_texcube_srv"]
 old-location: direct3d11\d3d11_texcube_srv.htm
 tech.root: direct3d11

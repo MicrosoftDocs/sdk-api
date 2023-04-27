@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection
 title: PrivateFontCollection::PrivateFontCollection (gdiplusheaders.h)
-description: Creates an empty PrivateFontCollection object.
+description: Creates an empty PrivateFontCollection object. (PrivateFontCollection.PrivateFontCollection)
 helpviewer_keywords: ["PrivateFontCollection","PrivateFontCollection class [GDI+]","PrivateFontCollection constructor","PrivateFontCollection constructor [GDI+]","PrivateFontCollection constructor [GDI+]","PrivateFontCollection class","PrivateFontCollection.PrivateFontCollection","PrivateFontCollection::PrivateFontCollection","_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_","gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_"]
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm
 tech.root: gdiplus

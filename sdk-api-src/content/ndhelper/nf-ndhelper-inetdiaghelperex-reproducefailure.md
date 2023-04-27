@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReproduceFailure
 title: INetDiagHelperEx::ReproduceFailure (ndhelper.h)
-description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
+description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use. (INetDiagHelperEx.ReproduceFailure)
 helpviewer_keywords: ["INetDiagHelperEx interface [NDF]","ReproduceFailure method","INetDiagHelperEx.ReproduceFailure","INetDiagHelperEx::ReproduceFailure","ReproduceFailure","ReproduceFailure method [NDF]","ReproduceFailure method [NDF]","INetDiagHelperEx interface","ndf.inetdiaghelperex_reproducefailure","ndhelper/INetDiagHelperEx::ReproduceFailure"]
 old-location: ndf\inetdiaghelperex_reproducefailure.htm
 tech.root: NDF

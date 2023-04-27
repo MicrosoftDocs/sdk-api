@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteAppMember me
 old-location: security\iazapplicationgroup_deleteappmember.htm
 tech.root: security
 ms.assetid: 856d9b18-927a-462a-b238-78b704bcc58b
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzApplicationGroup object, DeleteAppMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppMember method, IAzApplicationGroup.DeleteAppMember, IAzApplicationGroup::DeleteAppMember, azroles/IAzApplicationGroup::DeleteAppMember, security.iazapplicationgroup_deleteappmember
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzApplicationGroup::DeleteAppMember
 
-
 ## -description
 
-The <b>DeleteAppMember</b> method removes the specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that belong to this application group.
+The **DeleteAppMember** method removes the specified [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object from the list of application groups that belong to this application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to this application group.
+String that contains the [Name](nf-azroles-iazapplicationgroup-get_name.md) property of the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to remove from the list of  application groups that belong to this application group.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of application groups that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appmembers">AppMembers</a> property.
+To view the list of application groups that belong to this application group, use the [AppMembers](nf-azroles-iazapplicationgroup-get_appmembers.md) property.
+
+## -see-also
+
+[IAzApplicationGroup](nn-azroles-iazapplicationgroup.md)

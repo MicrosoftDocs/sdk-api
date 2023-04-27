@@ -58,7 +58,7 @@ An <b>IWMPacketSize2</b> interface can be obtained for either a profile object, 
 
 The <b>IWMPacketSize2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize</a>. <b>IWMPacketSize2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

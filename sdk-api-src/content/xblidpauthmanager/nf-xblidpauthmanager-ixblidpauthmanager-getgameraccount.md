@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetGamerAccount
 title: IXblIdpAuthManager::GetGamerAccount (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager.GetGamerAccount)
 helpviewer_keywords: ["GetGamerAccount","GetGamerAccount method","GetGamerAccount method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetGamerAccount method","IXblIdpAuthManager.GetGamerAccount","IXblIdpAuthManager::GetGamerAccount","xblidp.ixblidpauthmanager_getgameraccount","xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount"]
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
 tech.root: xblidp

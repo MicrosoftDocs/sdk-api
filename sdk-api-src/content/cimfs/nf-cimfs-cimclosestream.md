@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCloseStream
 title: CimCloseStream
-ms.date: 9/9/2019
+description: The CimCloseStream function frees resources associated with the stream handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCloseStream
 targetos: Windows

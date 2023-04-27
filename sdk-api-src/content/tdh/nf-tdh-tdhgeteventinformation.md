@@ -154,7 +154,6 @@ For an example that shows how to retrieve metadata about an event, see <a href="
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>
 
 

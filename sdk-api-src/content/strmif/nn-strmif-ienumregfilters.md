@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IEnumRegFilters
 title: IEnumRegFilters (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IEnumRegFilters)
 helpviewer_keywords: ["IEnumRegFilters","IEnumRegFilters interface [DirectShow]","IEnumRegFilters interface [DirectShow]","described","IEnumRegFiltersInterface","dshow.ienumregfilters","strmif/IEnumRegFilters"]
 old-location: dshow\ienumregfilters.htm
 tech.root: dshow

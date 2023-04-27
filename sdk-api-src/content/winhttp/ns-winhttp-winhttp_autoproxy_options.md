@@ -68,7 +68,7 @@ Mechanisms should be used to obtain the PAC file.
 </td>
 <td width="60%">
 Enables proxy detection via autoconfig URL.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ Enables proxy detection via autoconfig URL.
 </td>
 <td width="60%">
 Enables proxy detection via connection manager.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_STATIC"></a><a id="winhttp_autoproxy_allow_static"></a><dl>
@@ -87,7 +87,7 @@ Enables proxy detection via connection manager.
 </td>
 <td width="60%">
 Enables proxy detection via static configuration.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <tr>

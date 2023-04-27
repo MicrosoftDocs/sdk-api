@@ -59,7 +59,7 @@ The **NET_FW_SERVICE_TYPE** enumerated type specifies the type of service.
 
 ## -enum-fields
 
-### -field NET_FW_SERVICE_FILE_AND_PRINT
+### -field NET_FW_SERVICE_FILE_AND_PRINT:0
 
 Service type is File and Print Sharing.
 

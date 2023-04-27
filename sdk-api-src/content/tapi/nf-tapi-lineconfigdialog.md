@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineConfigDialog
 title: lineConfigDialog function (tapi.h)
-description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
+description: The lineConfigDialog function (tapi.h) causes the provider of the specified line device to display a dialog box.
 helpviewer_keywords: ["_tapi2_lineconfigdialog","lineConfigDialog","lineConfigDialog function [TAPI 2.2]","lineConfigDialogA","lineConfigDialogW","tapi/lineConfigDialog","tapi/lineConfigDialogA","tapi/lineConfigDialogW","tapi2.lineconfigdialog"]
 old-location: tapi2\lineconfigdialog.htm
 tech.root: tapi3
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: _tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog
 req.header: tapi.h
 req.include-header: 

@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.CreateNamedPipeW
 tech.root: ipc 
 title: CreateNamedPipeW
-ms.date: 04/20/2021
-targetos: Windows
-description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations. 
+description: The CreateNamedPipeW (Unicode) function (winbase.h) creates an instance of a named pipe and returns a handle for subsequent pipe operations.
+ms.date: 08/05/2022
+targetos: Windows 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -399,7 +399,7 @@ Whenever a pipe write operation occurs, the system first tries to charge the mem
 
 To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ### Examples
 

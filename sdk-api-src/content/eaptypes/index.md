@@ -4,7 +4,7 @@ title: Eaptypes.h header
 ms.assetid: aa5c1d16-98ea-35f5-b0bc-bd0f3d4ef3d5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: eaphost
 f1_keywords:
  - eaptypes

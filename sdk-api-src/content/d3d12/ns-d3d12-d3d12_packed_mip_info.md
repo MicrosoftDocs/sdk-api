@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_PACKED_MIP_INFO
 title: D3D12_PACKED_MIP_INFO (d3d12.h)
-description: Describes the tile structure of a tiled resource with mipmaps.
+description: Describes the tile structure of a tiled resource with mipmaps. (D3D12_PACKED_MIP_INFO)
 helpviewer_keywords: ["D3D12_PACKED_MIP_INFO","D3D12_PACKED_MIP_INFO structure","d3d12/D3D12_PACKED_MIP_INFO","direct3d12.d3d12_packed_mip_info"]
 old-location: direct3d12\d3d12_packed_mip_info.htm
 tech.root: direct3d12

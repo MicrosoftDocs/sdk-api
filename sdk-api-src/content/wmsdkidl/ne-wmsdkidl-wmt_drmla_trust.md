@@ -56,7 +56,7 @@ Defines the trust state of a DRM license acquisition URL.
 
 ## -enum-fields
 
-### -field WMT_DRMLA_UNTRUSTED
+### -field WMT_DRMLA_UNTRUSTED:0
 
 Indicates that the validity of the license acquisition URL cannot be guaranteed because it is not signed. All protected content created prior to Windows Media 9 Series will cause this value to be returned.
 

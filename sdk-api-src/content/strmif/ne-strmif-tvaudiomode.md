@@ -56,39 +56,39 @@ Specifies the mode of a TV audio control.
 
 ## -enum-fields
 
-### -field AMTVAUDIO_MODE_MONO
+### -field AMTVAUDIO_MODE_MONO:0x1
 
 Mono.
 
-### -field AMTVAUDIO_MODE_STEREO
+### -field AMTVAUDIO_MODE_STEREO:0x2
 
 Stereo.
 
-### -field AMTVAUDIO_MODE_LANG_A
+### -field AMTVAUDIO_MODE_LANG_A:0x10
 
 Language A: Main audio channel.
 
-### -field AMTVAUDIO_MODE_LANG_B
+### -field AMTVAUDIO_MODE_LANG_B:0x20
 
 Languag B: Secondary audio program (SAP).
 
-### -field AMTVAUDIO_MODE_LANG_C
+### -field AMTVAUDIO_MODE_LANG_C:0x40
 
 Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
 
-### -field AMTVAUDIO_PRESET_STEREO
+### -field AMTVAUDIO_PRESET_STEREO:0x200
 
 Stereo preset.
 
-### -field AMTVAUDIO_PRESET_LANG_A
+### -field AMTVAUDIO_PRESET_LANG_A:0x1000
 
 Languag A preset.
 
-### -field AMTVAUDIO_PRESET_LANG_B
+### -field AMTVAUDIO_PRESET_LANG_B:0x2000
 
 Language B preset.
 
-### -field AMTVAUDIO_PRESET_LANG_C
+### -field AMTVAUDIO_PRESET_LANG_C:0x4000
 
 Language C preset.
 

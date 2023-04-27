@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(constXMHALF4&)
 title: XMHALF4::XMHALF4(const XMHALF4 &) (directxpackedvector.h)
-description: Default constructor for XMHALF4.
+description: Default constructor for XMHALF4. (overload 2/3)
 helpviewer_keywords: ["XMHALF4","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 structure","XMHALF4 structure [DirectX Math Support APIs]","XMHALF4 constructor","XMHALF4.XMHALF4","XMHALF4.XMHALF4()","XMHALF4.XMHALF4(const XMHALF4 &)","XMHALF4::XMHALF4","XMHALF4::XMHALF4(const XMHALF4 &)","dxmath.xmhalf4_ctor_1"]
 old-location: 
 tech.root: dxmath

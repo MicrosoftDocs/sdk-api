@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GopherOpenFileW
 title: GopherOpenFileW function (wininet.h)
-description: Begins reading a Gopher data file from a Gopher server.
-helpviewer_keywords: ["GopherOpenFile","GopherOpenFile function [WinINet]","GopherOpenFileA","GopherOpenFileW","_inet_gopheropenfile_function","wininet.gopheropenfile","wininet/GopherOpenFile","wininet/GopherOpenFileA","wininet/GopherOpenFileW"]
+description: Begins reading a Gopher data file from a Gopher server. (Unicode)
+helpviewer_keywords: ["GopherOpenFile", "GopherOpenFile function [WinINet]", "GopherOpenFileW", "_inet_gopheropenfile_function", "wininet.gopheropenfile", "wininet/GopherOpenFile", "wininet/GopherOpenFileW"]
 old-location: wininet\gopheropenfile.htm
 tech.root: wininet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6

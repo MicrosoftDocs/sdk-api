@@ -1,5 +1,5 @@
 ---
-UID: NS:dhcpsapi.__unnamed_struct_1
+UID: NS:dhcpsapi.DHCPV6_STATELESS_SCOPE_STATS
 title: DHCPV6_STATELESS_SCOPE_STATS (dhcpsapi.h)
 description: The DHCPV6_STATELESS_SCOPE_STATS structure defines the address counters for a specific IPv6 stateless subnet. The number of stateless IPv6 clients added and removed from the stateless client inventory are stored in this structure.
 helpviewer_keywords: ["*LPDHCPV6_STATELESS_SCOPE_STATS","*PDHCPV6_STATELESS_SCOPE_STATS","DHCPV6_STATELESS_SCOPE_STATS","DHCPV6_STATELESS_SCOPE_STATS structure [DHCP]","LPDHCPV6_STATELESS_SCOPE_STATS","LPDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP]","PDHCPV6_STATELESS_SCOPE_STATS","PDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP]","dhcp.dhcpv6_stateless_scope_stats","dhcpsapi/DHCPV6_STATELESS_SCOPE_STATS","dhcpsapi/LPDHCPV6_STATELESS_SCOPE_STATS","dhcpsapi/PDHCPV6_STATELESS_SCOPE_STATS"]
@@ -75,3 +75,4 @@ Integer that specifies the number of IPv6 stateless clients that have been remov
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstatistics">DhcpV6GetStatelessStatistics</a>
+

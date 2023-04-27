@@ -3,7 +3,7 @@ UID: NF:sspi.SspiInitializeSecurityContextAsyncW
 title: SspiInitializeSecurityContextAsyncW function
 ms.date: 11/4/2019
 targetos: Windows
-description: Initializes an async security context.
+description: Initializes an async security context. (Unicode)
 tech.root: security
 req.assembly: 
 req.construct-type: function

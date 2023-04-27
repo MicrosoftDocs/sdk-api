@@ -48,9 +48,9 @@ Provides detail about the feature levels supported by a DirectML device. See [ID
 
 ### -field MaxSupportedFeatureLevel
 
-Type: **[DML_FEATURE_LEVEL](/windows/win32/direct3d12/ne-directml-dml_feature_level)**
+Type: **[DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)**
 
-The highest feature level supplied in the query structure's *RequestedFeatureLevels* (see [DML_FEATURE_DATA_FEATURE_LEVELS](/windows/win32/direct3d12/ns-directml-dml_feature_data_feature_levels)) that is supported by this device.
+The highest feature level supplied in the query structure's *RequestedFeatureLevels* (see [DML_FEATURE_DATA_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_data_feature_levels)) that is supported by this device.
 
 > [!NOTE]
 > Because this feature query only ever returns one of the values supplied in *RequestedFeatureLevels*, it's possible that the device supports an even higher feature level than the one returned by this query.
@@ -64,6 +64,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
 
-[DML_FEATURE enumeration](/windows/win32/direct3d12/ne-directml-dml_feature)
+[DML_FEATURE enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 
-[DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/direct3d12/ns-directml-dml_feature_query_feature_levels)
+[DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

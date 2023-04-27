@@ -72,7 +72,7 @@ The y-coordinate, in device units, of the new brush origin. If this value is gre
 
 ### -param lppt [out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous brush origin.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the previous brush origin.
 
 This parameter can be <b>NULL</b> if the previous brush origin is not required.
 
@@ -108,7 +108,7 @@ The system automatically tracks the origin of all window-managed device contexts
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

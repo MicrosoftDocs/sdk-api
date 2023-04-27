@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_AllowSourcePrompts
 title: IUpdateInstaller::get_AllowSourcePrompts (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates.
+description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates. (Get)
 helpviewer_keywords: ["AllowSourcePrompts property [Windows Update Agent]","AllowSourcePrompts property [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","AllowSourcePrompts property","IUpdateInstaller.AllowSourcePrompts","IUpdateInstaller.get_AllowSourcePrompts","IUpdateInstaller::AllowSourcePrompts","IUpdateInstaller::get_AllowSourcePrompts","IUpdateInstaller::put_AllowSourcePrompts","get_AllowSourcePrompts","wua.iupdateinstaller_allowsourceprompts","wuapi/IUpdateInstaller::AllowSourcePrompts","wuapi/IUpdateInstaller::get_AllowSourcePrompts","wuapi/IUpdateInstaller::put_AllowSourcePrompts"]
 old-location: wua\iupdateinstaller_allowsourceprompts.htm
 tech.root: wua

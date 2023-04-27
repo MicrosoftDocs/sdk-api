@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._EXCEPTION_RECORD
 title: EXCEPTION_RECORD (winnt.h)
-description: Describes an exception.
+description: Describes an exception. (EXCEPTION_RECORD)
 helpviewer_keywords: ["*PEXCEPTION_RECORD","EXCEPTION_ACCESS_VIOLATION","EXCEPTION_ARRAY_BOUNDS_EXCEEDED","EXCEPTION_BREAKPOINT","EXCEPTION_DATATYPE_MISALIGNMENT","EXCEPTION_FLT_DENORMAL_OPERAND","EXCEPTION_FLT_DIVIDE_BY_ZERO","EXCEPTION_FLT_INEXACT_RESULT","EXCEPTION_FLT_INVALID_OPERATION","EXCEPTION_FLT_OVERFLOW","EXCEPTION_FLT_STACK_CHECK","EXCEPTION_FLT_UNDERFLOW","EXCEPTION_ILLEGAL_INSTRUCTION","EXCEPTION_INT_DIVIDE_BY_ZERO","EXCEPTION_INT_OVERFLOW","EXCEPTION_INVALID_DISPOSITION","EXCEPTION_IN_PAGE_ERROR","EXCEPTION_NONCONTINUABLE_EXCEPTION","EXCEPTION_PRIV_INSTRUCTION","EXCEPTION_RECORD","EXCEPTION_RECORD structure","EXCEPTION_RECORD64","EXCEPTION_SINGLE_STEP","EXCEPTION_STACK_OVERFLOW","PEXCEPTION_RECORD","PEXCEPTION_RECORD structure pointer","_EXCEPTION_RECORD","_win32_exception_record_str","base.exception_record_str","winnt/EXCEPTION_RECORD","winnt/PEXCEPTION_RECORD"]
 old-location: base\exception_record_str.htm
 tech.root: Debug
@@ -338,7 +338,7 @@ An array of additional arguments that describe the exception. The
 The first element of the array contains a read-write flag that indicates the type of operation that caused the access violation. If this value is zero, the thread attempted to read the inaccessible data. If this value is 1, the thread attempted to write to an inaccessible address. 
 
 
-If this value is 8, the thread causes a user-mode data execution prevention (DEP) violation.
+If this value is 8, the thread caused a user-mode data execution prevention (DEP) violation.
 
 The second array element specifies the virtual address of the inaccessible data.
 
@@ -353,7 +353,7 @@ The second array element specifies the virtual address of the inaccessible data.
 The first element of the array contains a read-write flag that indicates the type of operation that caused the access violation. If this value is zero, the thread attempted to read the inaccessible data. If this value is 1, the thread attempted to write to an inaccessible address. 
 
 
-If this value is 8, the thread causes a user-mode data execution prevention (DEP) violation.
+If this value is 8, the thread caused a user-mode data execution prevention (DEP) violation.
 
 The second array element specifies the virtual address of the inaccessible data.
 

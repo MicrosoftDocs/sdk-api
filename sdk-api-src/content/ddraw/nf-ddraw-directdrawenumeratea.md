@@ -4,7 +4,7 @@ tech.root: directdraw
 title: DirectDrawEnumerateA
 ms.date: 04/14/2021
 targetos: Windows
-description: This function is superseded by the DirectDrawEnumerateEx function.
+description: This function is superseded by the DirectDrawEnumerateEx function. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

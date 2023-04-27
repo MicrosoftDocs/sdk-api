@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesA
 title: DsAddressToSiteNamesA function (dsgetdc.h)
-description: Obtains the site names corresponding to the specified addresses.
-helpviewer_keywords: ["DsAddressToSiteNames","DsAddressToSiteNames function [Active Directory]","DsAddressToSiteNamesA","DsAddressToSiteNamesW","_glines_dsaddresstositenames","ad.dsaddresstositenames","dsgetdc/DsAddressToSiteNames","dsgetdc/DsAddressToSiteNamesA","dsgetdc/DsAddressToSiteNamesW"]
+description: Obtains the site names corresponding to the specified addresses. (ANSI)
+helpviewer_keywords: ["DsAddressToSiteNamesA", "dsgetdc/DsAddressToSiteNamesA"]
 old-location: ad\dsaddresstositenames.htm
 tech.root: ad
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853

@@ -76,11 +76,11 @@ The <b>PlayerState</b> enumeration type provides some basic states of Windows Me
 
 ## -enum-fields
 
-### -field stop_state
+### -field stop_state:0
 
-### -field pause_state
+### -field pause_state:1
 
-### -field play_state
+### -field play_state:2
 
 ## -remarks
 

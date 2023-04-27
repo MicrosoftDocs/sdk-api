@@ -65,7 +65,7 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
 <a href="/windows/desktop/com/url-monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> and 
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> calls returned in <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> in these two download models:
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> calls returned in <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> in these two download models:
 <table>
 <tr>
 <th>IStream method call</th>
@@ -74,17 +74,17 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 </tr>
 <tr>
 <td><b>Read</b> is called to read partial data (that is, not all the available data)</td>
-<td>Returns S_OK. The client must continue to read all available data before returning from <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
-<td>Returns S_OK. Even if the client returns from <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
+<td>Returns S_OK. The client must continue to read all available data before returning from <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
+<td>Returns S_OK. Even if the client returns from <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data</td>
-<td>Returns E_PENDING if the bind operation has not completed, and <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
+<td>Returns E_PENDING if the bind operation has not completed, and <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data and the bind operation is over (end of file)</td>
-<td>Returns S_FALSE. There will be a subsequent call to <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
+<td>Returns S_FALSE. There will be a subsequent call to <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>

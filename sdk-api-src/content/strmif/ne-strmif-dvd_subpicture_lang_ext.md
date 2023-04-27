@@ -56,47 +56,47 @@ Defines the possible language extensions in a specified subpicture stream.
 
 ## -enum-fields
 
-### -field DVD_SP_EXT_NotSpecified
+### -field DVD_SP_EXT_NotSpecified:0
 
 Indicates that no language extensions are present.
 
-### -field DVD_SP_EXT_Caption_Normal
+### -field DVD_SP_EXT_Caption_Normal:1
 
 Indicates that the specified stream contains normal captions.
 
-### -field DVD_SP_EXT_Caption_Big
+### -field DVD_SP_EXT_Caption_Big:2
 
 Indicates that the specified stream contains big captions.
 
-### -field DVD_SP_EXT_Caption_Children
+### -field DVD_SP_EXT_Caption_Children:3
 
 Indicates that the specified stream contains captions for children.
 
-### -field DVD_SP_EXT_CC_Normal
+### -field DVD_SP_EXT_CC_Normal:5
 
 Indicates that the specified stream contains normal closed captions.
 
-### -field DVD_SP_EXT_CC_Big
+### -field DVD_SP_EXT_CC_Big:6
 
 Indicates that the specified stream contains big closed captions.
 
-### -field DVD_SP_EXT_CC_Children
+### -field DVD_SP_EXT_CC_Children:7
 
 Indicates that the specified stream contains closed captions for children.
 
-### -field DVD_SP_EXT_Forced
+### -field DVD_SP_EXT_Forced:9
 
 Indicates that the subpicture stream is forcedly activated, meaning that the application will not be able to turn it off.
 
-### -field DVD_SP_EXT_DirectorComments_Normal
+### -field DVD_SP_EXT_DirectorComments_Normal:13
 
 Indicates that the specified stream contains normal-sized director's comments.
 
-### -field DVD_SP_EXT_DirectorComments_Big
+### -field DVD_SP_EXT_DirectorComments_Big:14
 
 Indicates that the specified stream contains large-sized director's comments.
 
-### -field DVD_SP_EXT_DirectorComments_Children
+### -field DVD_SP_EXT_DirectorComments_Children:15
 
 Indicates that the specified stream contains director's comments for children.
 

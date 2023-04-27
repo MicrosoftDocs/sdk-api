@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetLongPathNameA
 title: GetLongPathNameA function (fileapi.h)
-description: Converts the specified path to its long form.
-helpviewer_keywords: ["GetLongPathName","GetLongPathName function [Files]","GetLongPathNameA","GetLongPathNameW","_win32_getlongpathname","base.getlongpathname","fileapi/GetLongPathName","fileapi/GetLongPathNameA","fileapi/GetLongPathNameW","fs.getlongpathname","winbase/GetLongPathName","winbase/GetLongPathNameA","winbase/GetLongPathNameW"]
+description: Converts the specified path to its long form. (ANSI)
+helpviewer_keywords: ["GetLongPathNameA", "fileapi/GetLongPathNameA"]
 old-location: fs\getlongpathname.htm
 tech.root: fs
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec

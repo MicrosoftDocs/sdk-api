@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Author
 title: IRegistrationInfo::put_Author (taskschd.h)
-description: Gets or sets the author of the task.
+description: Gets or sets the author of the task. (Put)
 helpviewer_keywords: ["Author property [Task Scheduler]","Author property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Author property","IRegistrationInfo.Author","IRegistrationInfo.put_Author","IRegistrationInfo::Author","IRegistrationInfo::get_Author","IRegistrationInfo::put_Author","put_Author","taskschd.iregistrationinfo_author","taskschd/IRegistrationInfo::Author","taskschd/IRegistrationInfo::get_Author","taskschd/IRegistrationInfo::put_Author"]
 old-location: taskschd\iregistrationinfo_author.htm
 tech.root: taskschd

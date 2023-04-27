@@ -81,36 +81,35 @@ If the function fails, the return value is zero. The function will fail if the c
 
 ## -remarks
 
-The system restricts which processes can set the foreground window. A process can set the foreground window only if one of the following conditions is true: 
+The system restricts which processes can set the foreground window. Normally, a process can set the foreground window by calling the [**SetForegroundWindow**](nf-winuser-setforegroundwindow.md) function only if:
 
-<ul>
-<li>The process is the foreground process. </li>
-<li>The process was started by the foreground process. </li>
-<li>The process received the last input event. </li>
-<li>There is no foreground process. </li>
-<li>The foreground process is being debugged. </li>
-<li>The foreground is not locked (see <a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>). </li>
-<li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). </li>
-<li>No menus are active. </li>
-</ul>
-A process that can set the foreground window can enable another process to set the foreground window by calling <b>AllowSetForegroundWindow</b>. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified.
+- All of the following conditions are true:
+  - The calling process belongs to a desktop application, not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
+  - The foreground process has not disabled calls to **SetForegroundWindow** by a previous call to the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
+  - The foreground lock time-out has expired (see [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](nf-winuser-systemparametersinfoa.md#SPI_GETFOREGROUNDLOCKTIMEOUT)).
+  - No menus are active.
+- Additionally, at least one of the following conditions is true:
+  - The calling process is the foreground process.
+  - The calling process was started by the foreground process.
+  - There is currently no foreground window, and thus no foreground process.
+  - The calling process received the last input event.
+  - Either the foreground process or the calling process is being debugged.
+
+A process that can set the foreground window can enable another process to set the foreground window
+by calling **AllowSetForegroundWindow**. The process specified by the *dwProcessId* parameter
+loses the ability to set the foreground window the next time that either the user generates input,
+unless the input is directed at that process, or the next time a process calls
+**AllowSetForegroundWindow**, unless the same process is specified as in the previous call to
+**AllowSetForegroundWindow**.
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
+[LockSetForegroundWindow](nf-winuser-locksetforegroundwindow.md)
 
+**Reference**
 
-<a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>
+[SetForegroundWindow](nf-winuser-setforegroundwindow.md)
 
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
-
-
-
-<a href="/windows/desktop/winmsg/windows">Windows</a>
+[Windows](/windows/win32/winmsg/windows)

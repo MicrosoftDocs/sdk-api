@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.get__NewEnum
 title: IValueMap::get__NewEnum (pla.h)
-description: Retrieves an interface to the enumeration.
+description: Retrieves an interface to the enumeration. (IValueMap.get__NewEnum)
 helpviewer_keywords: ["IValueMap interface [PLA]","_NewEnum property","IValueMap._NewEnum","IValueMap.get__NewEnum","IValueMap::_NewEnum","IValueMap::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","IValueMap interface","get__NewEnum","pla.ivaluemap__newenum","pla/IValueMap::_NewEnum","pla/IValueMap::get__NewEnum"]
 old-location: pla\ivaluemap__newenum.htm
 tech.root: PLA

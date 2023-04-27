@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Clone
 title: IEnumSyncProviderConfigUIInfos::Clone (syncregistration.h)
-description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+description: Clones the enumerator and returns a new enumerator that is in the same state as the current one. (IEnumSyncProviderConfigUIInfos.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumSyncProviderConfigUIInfos interface","IEnumSyncProviderConfigUIInfos interface [Windows Sync]","Clone method","IEnumSyncProviderConfigUIInfos.Clone","IEnumSyncProviderConfigUIInfos::Clone","syncregistration/IEnumSyncProviderConfigUIInfos::Clone","winsync.ienumsyncproviderconfiguiinfos_clone"]
 old-location: winsync\ienumsyncproviderconfiguiinfos_clone.htm
 tech.root: winsync

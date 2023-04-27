@@ -4,7 +4,7 @@ title: Shobjidl.h header
 ms.assetid: 78870113-d823-317f-858e-c902fa3bdd51
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - shobjidl

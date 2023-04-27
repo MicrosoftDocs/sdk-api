@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device4.CreateCommittedResource1
 title: ID3D12Device4::CreateCommittedResource1
-description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap. (ID3D12Device4::CreateCommittedResource1)
 helpviewer_keywords: ["ID3D12Device4 interface","CreateCommittedResource1 method","ID3D12Device4.CreateCommittedResource1","ID3D12Device4::CreateCommittedResource1","CreateCommittedResource1","CreateCommittedResource1 method","CreateCommittedResource1 method","ID3D12Device4 interface","direct3d12.id3d12device4_createcommittedresource1","d3d12/ID3D12Device4::CreateCommittedResource1"]
 tech.root: direct3d12
 ms.date: 10/15/2019

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d9.IDirect3D9ExOverlayExtension
 title: IDirect3D9ExOverlayExtension (d3d9.h)
-description: Queries the overlay hardware capabilities of a Direct3D device.
+description: Queries the overlay hardware capabilities of a Direct3D device. (IDirect3D9ExOverlayExtension)
 helpviewer_keywords: ["IDirect3D9ExOverlayExtension","IDirect3D9ExOverlayExtension interface [Media Foundation]","IDirect3D9ExOverlayExtension interface [Media Foundation]","described","d3d9/IDirect3D9ExOverlayExtension","mf.idirect3d9exoverlayextension"]
 old-location: mf\idirect3d9exoverlayextension.htm
 tech.root: mf

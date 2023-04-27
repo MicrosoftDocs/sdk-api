@@ -4,7 +4,7 @@ title: Fsrmreports.h header
 ms.assetid: 7b8e6d24-09ee-3bf8-b96e-20ec47982599
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fsrm
 f1_keywords:
  - fsrmreports

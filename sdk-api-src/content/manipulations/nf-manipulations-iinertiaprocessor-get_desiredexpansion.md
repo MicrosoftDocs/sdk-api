@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredExpansion
 title: IInertiaProcessor::get_DesiredExpansion (manipulations.h)
-description: The DesiredExpansion property specifies the desired change in the object's average radius.
+description: The DesiredExpansion property specifies the desired change in the object's average radius. (Get)
 helpviewer_keywords: ["DesiredExpansion property [Windows Touch]","DesiredExpansion property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredExpansion property","IInertiaProcessor.DesiredExpansion","IInertiaProcessor.get_DesiredExpansion","IInertiaProcessor::DesiredExpansion","IInertiaProcessor::get_DesiredExpansion","IInertiaProcessor::put_DesiredExpansion","get_DesiredExpansion","manipulations/IInertiaProcessor::DesiredExpansion","manipulations/IInertiaProcessor::get_DesiredExpansion","manipulations/IInertiaProcessor::put_DesiredExpansion","wintouch.iinertiaprocessor_desiredexpansion"]
 old-location: wintouch\iinertiaprocessor_desiredexpansion.htm
 tech.root: wintouch

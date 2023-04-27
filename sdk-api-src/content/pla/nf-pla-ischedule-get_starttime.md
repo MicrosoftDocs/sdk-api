@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ISchedule.get_StartTime
 title: ISchedule::get_StartTime (pla.h)
-description: Retrieves or sets the time of day when the data collector set runs.
+description: Retrieves or sets the time of day when the data collector set runs. (Get)
 helpviewer_keywords: ["ISchedule interface [PLA]","StartTime property","ISchedule.StartTime","ISchedule.get_StartTime","ISchedule::StartTime","ISchedule::get_StartTime","ISchedule::put_StartTime","StartTime property [PLA]","StartTime property [PLA]","ISchedule interface","base.ischedule_starttime","get_StartTime","pla.ischedule_starttime","pla/ISchedule::StartTime","pla/ISchedule::get_StartTime","pla/ISchedule::put_StartTime"]
 old-location: pla\ischedule_starttime.htm
 tech.root: PLA

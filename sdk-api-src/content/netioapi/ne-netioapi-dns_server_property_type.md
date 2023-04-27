@@ -1,7 +1,7 @@
 ---
 UID: NE:netioapi._DNS_SERVER_PROPERTY_TYPE
 title: DNS_SERVER_PROPERTY_TYPE
-description: Defines constants that specify the validity of the property held in the [DNS_SERVER_PROPERTY::Property](ns-netioapi-dns_server_property.md) member.
+description: Defines constants that specify the validity of the property held in the [DNS_SERVER_PROPERTY::Property](/windows/win32/api/netioapi/ns-netioapi-dns_server_property) member.
 tech.root: IpHlp
 ms.date: 07/16/2021
 req.construct-type: enumeration
@@ -45,11 +45,11 @@ api_name:
 
 ## -description
 
-Defines constants that specify the validity of the property held in the [DNS_SERVER_PROPERTY::Property](ns-netioapi-dns_server_property.md) member.
+Defines constants that specify the validity of the property held in the [DNS_SERVER_PROPERTY::Property](/windows/win32/api/netioapi/ns-netioapi-dns_server_property) member.
 
 ## -enum-fields
 
-### -field DnsServerInvalidProperty
+### -field DnsServerInvalidProperty:0
 
 Specifies that the [DNS_SERVER_PROPERTY::Property](ns-netioapi-dns_server_property.md) member doesn't contain a valid DNS server property.
 

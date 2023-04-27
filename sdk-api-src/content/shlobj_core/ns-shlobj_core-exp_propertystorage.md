@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_5
+UID: NS:shlobj_core.EXP_PROPERTYSTORAGE
 title: EXP_PROPERTYSTORAGE (shlobj_core.h)
 description: Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG.
 helpviewer_keywords: ["EXP_PROPERTYSTORAGE","EXP_PROPERTYSTORAGE structure [Windows Shell]","_shell_EXP_PROPERTYSTORAGE","shell.EXP_PROPERTYSTORAGE","shlobj_core/EXP_PROPERTYSTORAGE"]
@@ -75,3 +75,4 @@ A serialized property store in the format defined by SERIALIZEDPROPSTORAGE.
 ## -remarks
 
  EXP_PROPERTYSTORAGE is used to store information serialized by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> object.  It is named with the tag value EXP_PROPERTYSTORAGE_SIG and can be accessed via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>, including operations for add, remove, and copy. This block can be used to inspect the Shell link state.
+

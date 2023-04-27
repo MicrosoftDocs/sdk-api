@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByName
 title: ID3D10EffectPass::GetAnnotationByName (d3d10effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. (ID3D10EffectPass.GetAnnotationByName)
 helpviewer_keywords: ["59f7484c-cbd4-a88c-8046-100697ca30be","GetAnnotationByName","GetAnnotationByName method [Direct3D 10]","GetAnnotationByName method [Direct3D 10]","ID3D10EffectPass interface","ID3D10EffectPass interface [Direct3D 10]","GetAnnotationByName method","ID3D10EffectPass.GetAnnotationByName","ID3D10EffectPass::GetAnnotationByName","d3d10effect/ID3D10EffectPass::GetAnnotationByName","direct3d10.id3d10effectpass_getannotationbyname"]
 old-location: direct3d10\id3d10effectpass_getannotationbyname.htm
 tech.root: direct3d10

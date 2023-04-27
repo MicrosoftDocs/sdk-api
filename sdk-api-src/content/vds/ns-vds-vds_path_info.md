@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_PATH_INFO
 title: VDS_PATH_INFO (vds.h)
-description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
+description: The VDS_PATH_INFO structure (vds.h) defines the information for a LUN path. 
 helpviewer_keywords: ["VDS_PATH_INFO","VDS_PATH_INFO structure","base.vds_path_info","vds/VDS_PATH_INFO","vdshwprv/VDS_PATH_INFO"]
 old-location: base\vds_path_info.htm
 tech.root: base
 ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    information for a LUN path. This structure is returned in the <i>ppPaths</i> parameter of the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">IVdsLunMpio::GetPathInfo</a>  method.

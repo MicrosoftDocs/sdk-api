@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentStatusA
 title: lineGetAgentStatusA function (tapi.h)
-description: The lineGetAgentStatus function obtains the agent-related status on the specified address.
-helpviewer_keywords: ["_tapi2_linegetagentstatus","lineGetAgentStatus","lineGetAgentStatus function [TAPI 2.2]","lineGetAgentStatusA","lineGetAgentStatusW","tapi/lineGetAgentStatus","tapi/lineGetAgentStatusA","tapi/lineGetAgentStatusW","tapi2.linegetagentstatus"]
+description: The lineGetAgentStatus function obtains the agent-related status on the specified address. (ANSI)
+helpviewer_keywords: ["lineGetAgentStatusA", "tapi/lineGetAgentStatusA"]
 old-location: tapi2\linegetagentstatus.htm
 tech.root: tapi3
 ms.assetid: 6736cde5-af38-493d-b09a-a807d9e9a382

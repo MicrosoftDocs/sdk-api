@@ -69,5 +69,4 @@ Offset to the null-terminated Unicode string that contains the localized descrip
 Field value.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>

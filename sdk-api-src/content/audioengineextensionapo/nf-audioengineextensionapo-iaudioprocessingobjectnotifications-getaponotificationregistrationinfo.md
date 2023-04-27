@@ -46,11 +46,11 @@ Called by the system to allow clients to register to receive notification callba
 
 ## -parameters
 
-### -param apoNotifications
+### -param apoNotifications [out]
 
 Output parameter that returns a pointer to an array of [APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-apo_notification_descriptor.md) specifying the set of APO changes for which notifications are requested.
 
-### -param count
+### -param count [out]
 
 Output parameter specifying the number of items returned in *apoNotifications*.
 
@@ -59,6 +59,8 @@ Output parameter specifying the number of items returned in *apoNotifications*.
 An HRESULT.
 
 ## -remarks
+
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 
 ## -see-also
 

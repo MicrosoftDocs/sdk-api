@@ -58,5 +58,7 @@ Returns S_OK on success.
 
 This method should not be used by APOs and should only be used by hardware support apps to register for notifications.
 
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
+
 ## -see-also
 

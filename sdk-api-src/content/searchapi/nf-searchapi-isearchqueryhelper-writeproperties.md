@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.WriteProperties
 title: ISearchQueryHelper::WriteProperties (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchQueryHelper.WriteProperties)
 helpviewer_keywords: ["ISearchQueryHelper interface [search]","WriteProperties method","ISearchQueryHelper.WriteProperties","ISearchQueryHelper::WriteProperties","WriteProperties","WriteProperties method [search]","WriteProperties method [search]","ISearchQueryHelper interface","_search_ISearchQueryHelper_WriteProperties","search._search_ISearchQueryHelper_WriteProperties","searchapi/ISearchQueryHelper::WriteProperties"]
 old-location: search\_search_ISearchQueryHelper_WriteProperties.htm
 tech.root: search

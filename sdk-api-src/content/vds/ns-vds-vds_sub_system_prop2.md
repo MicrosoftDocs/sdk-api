@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_SUB_SYSTEM_PROP2
 title: VDS_SUB_SYSTEM_PROP2 (vds.h)
-description: Defines the properties of a subsystem object. This structure is identical to the VDS_SUB_SYSTEM_PROP structure, except that it includes the supported RAID types and number of enclosures as members.
+description: The VDS_SUB_SYSTEM_PROP2 structure (vds.h) defines the properties of a subsystem object. 
 helpviewer_keywords: ["*PVDS_SUB_SYSTEM_PROP2","PVDS_SUB_SYSTEM_PROP2","PVDS_SUB_SYSTEM_PROP2 structure pointer","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_HEALTHY","VDS_H_UNKNOWN","VDS_SUB_SYSTEM_PROP2","VDS_SUB_SYSTEM_PROP2 structure","base.vds_sub_system_prop2","vds/PVDS_SUB_SYSTEM_PROP2","vds/VDS_SUB_SYSTEM_PROP2","vdshwprv/PVDS_SUB_SYSTEM_PROP2","vdshwprv/VDS_SUB_SYSTEM_PROP2"]
 old-location: base\vds_sub_system_prop2.htm
 tech.root: base
 ms.assetid: 8eb743b5-26e6-42e5-b94b-0849b1280cdb
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2 structure pointer, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP2, VDS_SUB_SYSTEM_PROP2 structure, base.vds_sub_system_prop2, vds/PVDS_SUB_SYSTEM_PROP2, vds/VDS_SUB_SYSTEM_PROP2, vdshwprv/PVDS_SUB_SYSTEM_PROP2, vdshwprv/VDS_SUB_SYSTEM_PROP2'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    properties of a <a href="/windows/desktop/VDS/subsystem-object">subsystem object</a>. This structure is identical to the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> structure, except that it includes the supported RAID types and number of enclosures as members.

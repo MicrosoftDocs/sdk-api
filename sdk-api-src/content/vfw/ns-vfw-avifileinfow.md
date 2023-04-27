@@ -1,7 +1,7 @@
 ---
 UID: NS:vfw._AVIFILEINFOW
 title: AVIFILEINFOW (vfw.h)
-description: The AVIFILEINFO structure contains global information for an entire AVI file.
+description: The AVIFILEINFO structure contains global information for an entire AVI file. (Unicode)
 helpviewer_keywords: ["*LPAVIFILEINFOW","AVIFILECAPS_ALLKEYFRAMES","AVIFILECAPS_CANREAD","AVIFILECAPS_CANWRITE","AVIFILECAPS_NOCOMPRESSION","AVIFILEINFO","AVIFILEINFO structure [Windows Multimedia]","AVIFILEINFOA","AVIFILEINFOW","AVIFILEINFO_COPYRIGHTED","AVIFILEINFO_HASINDEX","AVIFILEINFO_ISINTERLEAVED","AVIFILEINFO_MUSTUSEINDEX","AVIFILEINFO_WASCAPTUREFILE","multimedia.avifileinfo_COLLISION510","multimedia.avifileinfo_struct","vfw/AVIFILEINFO"]
 old-location: multimedia\avifileinfo_struct.htm
 tech.root: Multimedia

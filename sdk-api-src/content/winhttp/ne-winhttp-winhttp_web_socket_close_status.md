@@ -56,52 +56,52 @@ The <b>WINHTTP_WEB_SOCKET_CLOSE_STATUS</b> enumeration includes the status of a 
 
 ## -enum-fields
 
-### -field WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_SUCCESS_CLOSE_STATUS:1000
 
 The connection closed successfully.
 
-### -field WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_ENDPOINT_TERMINATED_CLOSE_STATUS:1001
 
 The peer is going away and terminating the connection.
 
-### -field WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS:1002
 
 A protocol error occurred.
 
-### -field WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS:1003
 
 Invalid data received by the peer.
 
-### -field WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_EMPTY_CLOSE_STATUS:1005
 
 The close message was empty.
 
-### -field WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_ABORTED_CLOSE_STATUS:1006
 
 The connection was aborted.
 
-### -field WINHTTP_WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS:1007
 
 The payload was invalid.
 
-### -field WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS:1008
 
 The message violates an endpoint's policy.
 
-### -field WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS:1009
 
 The message sent was too large to process.
 
-### -field WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS:1010
 
 A client endpoint expected the server to negotiate one or more extensions, but the server didn't return them in the response message of the WebSocket handshake.
 
-### -field WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS:1011
 
 An unexpected condition prevented the server from
       fulfilling the request.
 
-### -field WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS
+### -field WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS:1015
 
 The TLS handshake could not be completed.
 

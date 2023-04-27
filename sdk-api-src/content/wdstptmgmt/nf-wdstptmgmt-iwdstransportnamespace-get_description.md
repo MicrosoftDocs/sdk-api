@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Description
 title: IWdsTransportNamespace::get_Description (wdstptmgmt.h)
-description: Sets or retrieves the description of the namespace.
+description: Sets or retrieves the description of the namespace. (Get)
 helpviewer_keywords: ["Description property [Windows Deployment Services]","Description property [Windows Deployment Services]","IWdsTransportNamespace interface","IWdsTransportNamespace interface [Windows Deployment Services]","Description property","IWdsTransportNamespace.Description","IWdsTransportNamespace.get_Description","IWdsTransportNamespace::Description","IWdsTransportNamespace::get_Description","IWdsTransportNamespace::put_Description","get_Description","wds.iwdstransportnamespace_description","wdstptmgmt/IWdsTransportNamespace::Description","wdstptmgmt/IWdsTransportNamespace::get_Description","wdstptmgmt/IWdsTransportNamespace::put_Description"]
 old-location: wds\iwdstransportnamespace_description.htm
 tech.root: wds

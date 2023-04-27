@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Add_ID_ExA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine.
+description: The CM_Add_ID_Ex function appends a device ID (if not already present) to a device instance's hardware ID list or compatible ID list, on either the local or a remote machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

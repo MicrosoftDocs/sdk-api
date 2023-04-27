@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1BitmapBrush1
 title: ID2D1BitmapBrush1 (d2d1_1.h)
-description: Paints an area with a bitmap.
+description: Paints an area with a bitmap. (ID2D1BitmapBrush1)
 helpviewer_keywords: ["ID2D1BitmapBrush1","ID2D1BitmapBrush1 interface [Direct2D]","ID2D1BitmapBrush1 interface [Direct2D]","described","d2d1_1/ID2D1BitmapBrush1","direct2d.id2d1bitmapbrush1"]
 old-location: direct2d\id2d1bitmapbrush1.htm
 tech.root: Direct2D

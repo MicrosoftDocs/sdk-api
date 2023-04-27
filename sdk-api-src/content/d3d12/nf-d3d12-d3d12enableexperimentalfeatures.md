@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3D12EnableExperimentalFeatures","D3D12EnableExperimental
 old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 tech.root: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 req.header: d3d12.h
 req.include-header: 
@@ -64,7 +64,7 @@ The number of experimental features to enable.
 
 Type: <b>const IID*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 A pointer to an array of IDs that specify which of the available experimental features to enable.
 
@@ -72,7 +72,7 @@ A pointer to an array of IDs that specify which of the available experimental fe
 
 Type: <b>void*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 Structures that contain additional configuration details that some experimental features might need to be enabled.
 
@@ -80,7 +80,7 @@ Structures that contain additional configuration details that some experimental 
 
 Type: <b>UINT*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 The sizes of any configuration structs passed in pConfigurationStructs parameter.
 

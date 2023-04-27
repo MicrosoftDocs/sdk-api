@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_W
 title: SOURCE_MEDIA_W (setupapi.h)
-description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
+description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information. (Unicode)
 helpviewer_keywords: ["*PSOURCE_MEDIA_W","PSOURCE_MEDIA","PSOURCE_MEDIA structure pointer [Setup API]","SOURCE_MEDIA","SOURCE_MEDIA structure [Setup API]","SOURCE_MEDIA_W","_setupapi_source_media_str","setup.source_media_str","setupapi/PSOURCE_MEDIA","setupapi/SOURCE_MEDIA"]
 old-location: setup\source_media_str.htm
 tech.root: setup

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_Columns
 title: IInkRecognizerGuide::put_Columns (msinkaut.h)
-description: Gets or sets the number of columns in the recognition guide box.
+description: Gets or sets the number of columns in the recognition guide box. (Put)
 helpviewer_keywords: ["Columns property [Tablet PC]","Columns property [Tablet PC]","IInkRecognizerGuide interface","IInkRecognizerGuide interface [Tablet PC]","Columns property","IInkRecognizerGuide.Columns","IInkRecognizerGuide.put_Columns","IInkRecognizerGuide::Columns","IInkRecognizerGuide::get_Columns","IInkRecognizerGuide::put_Columns","InkRecognizerGuide.get_Columns","InkRecognizerGuide.put_Columns","dfc2848c-6cd6-4dd6-95b6-4097ef641835","msinkaut/IInkRecognizerGuide::Columns","msinkaut/IInkRecognizerGuide::get_Columns","msinkaut/IInkRecognizerGuide::put_Columns","put_Columns","tablet.inkrecognizerguide_columns"]
 old-location: tablet\inkrecognizerguide_columns.htm
 tech.root: tablet

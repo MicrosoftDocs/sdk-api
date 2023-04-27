@@ -56,7 +56,7 @@ Defines flags for the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabit
 
 ## -enum-fields
 
-### -field MFVideoAlphaBitmap_EntireDDS
+### -field MFVideoAlphaBitmap_EntireDDS:0x1
 
 Alpha-blend the entire DirectDraw surface.
 
@@ -66,13 +66,13 @@ This flag cannot be used if you specify a GDI bitmap for alpha-blending. For a G
 
 This flag does not apply to the <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a> method.
 
-### -field MFVideoAlphaBitmap_SrcColorKey
+### -field MFVideoAlphaBitmap_SrcColorKey:0x2
 
 If this flag is set, the <b>clrSrcKey</b> member of the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a color key for alpha-blending. If this flag is absent, the <b>clrSrcKey</b> member is ignored.
 
 This flag is not valid if you are alpha-blending a Direct3D surface with per-pixel alpha (D3DFMT_A8R8G8B8). When the DirectDraw surface has per-pixel alpha, the pixel alpha values are used for the alpha-blending operation.
 
-### -field MFVideoAlphaBitmap_SrcRect
+### -field MFVideoAlphaBitmap_SrcRect:0x4
 
 Update the source rectangle.
 
@@ -80,19 +80,19 @@ This flag applies to the <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixe
 
 This flag does not apply to the <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">SetAlphaBitmap</a> method.
 
-### -field MFVideoAlphaBitmap_DestRect
+### -field MFVideoAlphaBitmap_DestRect:0x8
 
 If this flag is set, the <b>nrcDest</b> member of the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a normalized rectangle for scaling the bitmap. If this flag is absent, the <b>nrcDest</b> member is ignored.
 
-### -field MFVideoAlphaBitmap_FilterMode
+### -field MFVideoAlphaBitmap_FilterMode:0x10
 
 If this flag is set, the <b>dwFilterMode</b> member of the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a Direct3D filtering mode. If this flag is absent, the <b>dwFilterMode</b> member is ignored.
 
-### -field MFVideoAlphaBitmap_Alpha
+### -field MFVideoAlphaBitmap_Alpha:0x20
 
 If this flag is set, the <b>fAlpha</b> member of the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies an alpha value to apply to the entire image. If this flag is absent, the <b>fAlpha</b> member is ignored.
 
-### -field MFVideoAlphaBitmap_BitMask
+### -field MFVideoAlphaBitmap_BitMask:0x3f
 
 Bitmask to validate flag values. This value is not a valid flag.
 

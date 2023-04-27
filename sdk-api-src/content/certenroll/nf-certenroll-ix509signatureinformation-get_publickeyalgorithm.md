@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_PublicKeyAlgorithm
 title: IX509SignatureInformation::get_PublicKeyAlgorithm (certenroll.h)
-description: Specifies and retrieves an object identifier (OID) for the public key algorithm used in the GetSignatureAlgorithm method.
+description: Specifies and retrieves an object identifier (OID) for the public key algorithm used in the GetSignatureAlgorithm method. (Get)
 helpviewer_keywords: ["IX509SignatureInformation interface [Security]","PublicKeyAlgorithm property","IX509SignatureInformation.PublicKeyAlgorithm","IX509SignatureInformation.get_PublicKeyAlgorithm","IX509SignatureInformation::PublicKeyAlgorithm","IX509SignatureInformation::get_PublicKeyAlgorithm","IX509SignatureInformation::put_PublicKeyAlgorithm","PublicKeyAlgorithm property [Security]","PublicKeyAlgorithm property [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::PublicKeyAlgorithm","certenroll/IX509SignatureInformation::get_PublicKeyAlgorithm","certenroll/IX509SignatureInformation::put_PublicKeyAlgorithm","get_PublicKeyAlgorithm","security.ix509signatureinformation_publickeyalgorithm_property"]
 old-location: security\ix509signatureinformation_publickeyalgorithm_property.htm
 tech.root: security

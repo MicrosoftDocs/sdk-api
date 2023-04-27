@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreatePredicate
 title: ID3D10Device::CreatePredicate (d3d10.h)
-description: Creates a predicate.
+description: Creates a predicate. (ID3D10Device.CreatePredicate)
 helpviewer_keywords: ["2b30a615-97cf-d010-fc84-3802da398aee","CreatePredicate","CreatePredicate method [Direct3D 10]","CreatePredicate method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreatePredicate method","ID3D10Device.CreatePredicate","ID3D10Device::CreatePredicate","d3d10/ID3D10Device::CreatePredicate","direct3d10.id3d10device_createpredicate"]
 old-location: direct3d10\id3d10device_createpredicate.htm
 tech.root: direct3d10

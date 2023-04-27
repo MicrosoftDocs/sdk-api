@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS","CF_CALLBACK_DEHY
 old-location: cloudapi\cf_callback_dehydrate_completion_flags.htm
 tech.root: cloudapi
 ms.assetid: BB39BC4D-A5FF-4204-A7ED-30605B865F15
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS, CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS enumeration, CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND, CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED, CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND, cfapi/CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED, cfapi/CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_dehydrate_completion_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,22 +47,24 @@ api_name:
 
 # CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS enumeration
 
-
 ## -description
 
 A callback flag to inform the sync provider that a placeholder under one of its sync roots has been successfully dehydrated.
 
 ## -enum-fields
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_NONE:0x00000000
 
 No dehydration completion flag.
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_BACKGROUND:0x00000001
 
 A flag set if the dehydration request is initiated by a system background service.
 
-### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED
+### -field CF_CALLBACK_DEHYDRATE_COMPLETION_FLAG_DEHYDRATED:0x00000002
 
 A flag set if the placeholder was hydrated prior to the dehydration request.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

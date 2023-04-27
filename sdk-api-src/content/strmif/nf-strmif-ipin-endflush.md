@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IPin.EndFlush
 title: IPin::EndFlush (strmif.h)
-description: The EndFlush method ends a flush operation.
+description: The EndFlush method ends a flush operation. (IPin.EndFlush)
 helpviewer_keywords: ["EndFlush","EndFlush method [DirectShow]","EndFlush method [DirectShow]","IPin interface","IPin interface [DirectShow]","EndFlush method","IPin.EndFlush","IPin::EndFlush","IPinEndFlush","dshow.ipin_endflush","strmif/IPin::EndFlush"]
 old-location: dshow\ipin_endflush.htm
 tech.root: dshow

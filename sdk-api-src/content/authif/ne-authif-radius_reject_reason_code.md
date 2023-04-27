@@ -57,23 +57,23 @@ api_name:
 
 ## -enum-fields
 
-### -field rrrcUndefined
+### -field rrrcUndefined:0
 
 Reason code undefined.
 
-### -field rrrcAccountUnknown
+### -field rrrcAccountUnknown:1
 
 The authentication attempt is using a user name that does not correspond to any known account.
 
-### -field rrrcAccountDisabled
+### -field rrrcAccountDisabled:2
 
 The authentication attempt is using a user name that corresponds to an account that has been disabled by an administrator.
 
-### -field rrrcAccountExpired
+### -field rrrcAccountExpired:3
 
 The authentication attempt is using a user name that corresponds to an account that has  expired, either by exceeding its natural expiration lifetime or by administrative action.
 
-### -field rrrcAuthenticationFailure
+### -field rrrcAuthenticationFailure:4
 
 The authentication process has failed; possibly due to incorrect credentials.
 

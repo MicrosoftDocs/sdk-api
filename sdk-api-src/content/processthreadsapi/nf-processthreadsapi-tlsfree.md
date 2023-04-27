@@ -4,12 +4,12 @@ title: TlsFree function (processthreadsapi.h)
 description: Releases a thread local storage (TLS) index, making it available for reuse.
 helpviewer_keywords: ["TlsFree","TlsFree function","_win32_tlsfree","base.tlsfree","processthreadsapi/TlsFree","winbase/TlsFree"]
 old-location: base\tlsfree.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b
 ms.date: 12/05/2018
 ms.keywords: TlsFree, TlsFree function, _win32_tlsfree, base.tlsfree, processthreadsapi/TlsFree, winbase/TlsFree
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_ReportFileName
 title: IDataManager::get_ReportFileName (pla.h)
-description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.
+description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML. (Get)
 helpviewer_keywords: ["IDataManager interface [PLA]","ReportFileName property","IDataManager.ReportFileName","IDataManager.get_ReportFileName","IDataManager::ReportFileName","IDataManager::get_ReportFileName","IDataManager::put_ReportFileName","ReportFileName property [PLA]","ReportFileName property [PLA]","IDataManager interface","base.idatamanager_reportfilename","get_ReportFileName","pla.idatamanager_reportfilename","pla/IDataManager::ReportFileName","pla/IDataManager::get_ReportFileName","pla/IDataManager::put_ReportFileName"]
 old-location: pla\idatamanager_reportfilename.htm
 tech.root: PLA

@@ -1,5 +1,5 @@
 ---
-UID: NE:nldef.__unnamed_enum_3
+UID: NE:nldef.NL_ROUTE_PROTOCOL
 title: NL_ROUTE_PROTOCOL (nldef.h)
 description: The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP route was added with, as described in RFC 4292.
 helpviewer_keywords: ["*PNL_ROUTE_PROTOCOL","MIB_IPPROTO_BBN","MIB_IPPROTO_BGP","MIB_IPPROTO_CISCO","MIB_IPPROTO_EGP","MIB_IPPROTO_ES_IS","MIB_IPPROTO_GGP","MIB_IPPROTO_HELLO","MIB_IPPROTO_ICMP","MIB_IPPROTO_IS_IS","MIB_IPPROTO_LOCAL","MIB_IPPROTO_NETMGMT","MIB_IPPROTO_NT_AUTOSTATIC","MIB_IPPROTO_NT_STATIC","MIB_IPPROTO_NT_STATIC_NON_DOD","MIB_IPPROTO_OSPF","MIB_IPPROTO_OTHER","MIB_IPPROTO_RIP","NL_ROUTE_PROTOCOL","NL_ROUTE_PROTOCOL enumeration [Network Drivers Starting with Windows Vista]","PNL_ROUTE_PROTOCOL","PNL_ROUTE_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista]","RouteProtocolBbn","RouteProtocolBgp","RouteProtocolCisco","RouteProtocolEgp","RouteProtocolEsIs","RouteProtocolGgp","RouteProtocolHello","RouteProtocolIcmp","RouteProtocolIsIs","RouteProtocolLocal","RouteProtocolNetMgmt","RouteProtocolOspf","RouteProtocolOther","RouteProtocolRip","iphelper_af0732ae-40e7-4fdf-9ccd-f5c58c4a693b.xml","netvista.nl_route_protocol","nldef/MIB_IPPROTO_BBN","nldef/MIB_IPPROTO_BGP","nldef/MIB_IPPROTO_CISCO","nldef/MIB_IPPROTO_EGP","nldef/MIB_IPPROTO_ES_IS","nldef/MIB_IPPROTO_GGP","nldef/MIB_IPPROTO_HELLO","nldef/MIB_IPPROTO_ICMP","nldef/MIB_IPPROTO_IS_IS","nldef/MIB_IPPROTO_LOCAL","nldef/MIB_IPPROTO_NETMGMT","nldef/MIB_IPPROTO_NT_AUTOSTATIC","nldef/MIB_IPPROTO_NT_STATIC","nldef/MIB_IPPROTO_NT_STATIC_NON_DOD","nldef/MIB_IPPROTO_OSPF","nldef/MIB_IPPROTO_OTHER","nldef/MIB_IPPROTO_RIP","nldef/NL_ROUTE_PROTOCOL","nldef/PNL_ROUTE_PROTOCOL","nldef/RouteProtocolBbn","nldef/RouteProtocolBgp","nldef/RouteProtocolCisco","nldef/RouteProtocolEgp","nldef/RouteProtocolEsIs","nldef/RouteProtocolGgp","nldef/RouteProtocolHello","nldef/RouteProtocolIcmp","nldef/RouteProtocolIsIs","nldef/RouteProtocolLocal","nldef/RouteProtocolNetMgmt","nldef/RouteProtocolOspf","nldef/RouteProtocolOther","nldef/RouteProtocolRip"]
@@ -57,71 +57,71 @@ The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP 
 
 ## -enum-fields
 
-### -field RouteProtocolOther
+### -field RouteProtocolOther:1
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolLocal
+### -field RouteProtocolLocal:2
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolNetMgmt
+### -field RouteProtocolNetMgmt:3
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIcmp
+### -field RouteProtocolIcmp:4
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolEgp
+### -field RouteProtocolEgp:5
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolGgp
+### -field RouteProtocolGgp:6
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolHello
+### -field RouteProtocolHello:7
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolRip
+### -field RouteProtocolRip:8
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIsIs
+### -field RouteProtocolIsIs:9
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolEsIs
+### -field RouteProtocolEsIs:10
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolCisco
+### -field RouteProtocolCisco:11
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolBbn
+### -field RouteProtocolBbn:12
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolOspf
+### -field RouteProtocolOspf:13
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolBgp
+### -field RouteProtocolBgp:14
 
 Reserved for system use. Do not use this value in your driver.
 
-### -field RouteProtocolIdpr
+### -field RouteProtocolIdpr:15
 
-### -field RouteProtocolEigrp
+### -field RouteProtocolEigrp:16
 
-### -field RouteProtocolDvmrp
+### -field RouteProtocolDvmrp:17
 
-### -field RouteProtocolRpl
+### -field RouteProtocolRpl:18
 
-### -field RouteProtocolDhcp
+### -field RouteProtocolDhcp:19
 
 #### - MIB_IPPROTO_BBN
 
@@ -231,3 +231,4 @@ Note that the
     Nldef.h header is automatically included by the 
     Netioapi.h header file. Your driver should never use the 
     Nldef.h header file directly.
+

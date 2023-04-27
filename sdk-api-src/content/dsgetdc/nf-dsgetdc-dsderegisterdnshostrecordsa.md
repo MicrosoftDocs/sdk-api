@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsDeregisterDnsHostRecordsA
 title: DsDeregisterDnsHostRecordsA function (dsgetdc.h)
-description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function.
-helpviewer_keywords: ["DsDeregisterDnsHostRecords","DsDeregisterDnsHostRecords function [Active Directory]","DsDeregisterDnsHostRecordsA","DsDeregisterDnsHostRecordsW","_glines_dsderegisterdnshostrecords","ad.dsderegisterdnshostrecords","dsgetdc/DsDeregisterDnsHostRecords","dsgetdc/DsDeregisterDnsHostRecordsA","dsgetdc/DsDeregisterDnsHostRecordsW"]
+description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function. (ANSI)
+helpviewer_keywords: ["DsDeregisterDnsHostRecordsA", "dsgetdc/DsDeregisterDnsHostRecordsA"]
 old-location: ad\dsderegisterdnshostrecords.htm
 tech.root: ad
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091

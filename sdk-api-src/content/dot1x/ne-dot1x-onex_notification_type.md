@@ -56,7 +56,7 @@ The <b>ONEX_NOTIFICATION_TYPE</b> enumerated type specifies the possible values 
 
 ## -enum-fields
 
-### -field OneXPublicNotificationBase
+### -field OneXPublicNotificationBase:0
 
 Indicates the beginning of the range that specifies the possible values for 802.1X notifications.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IActionCollection.get_Context
 title: IActionCollection::get_Context (taskschd.h)
-description: Gets or sets the identifier of the principal for the task.
+description: Gets or sets the identifier of the principal for the task. (Get)
 helpviewer_keywords: ["Context property [Task Scheduler]","Context property [Task Scheduler]","IActionCollection interface","IActionCollection interface [Task Scheduler]","Context property","IActionCollection.Context","IActionCollection.get_Context","IActionCollection::Context","IActionCollection::get_Context","IActionCollection::put_Context","get_Context","taskschd.iactioncollection_context","taskschd/IActionCollection::Context","taskschd/IActionCollection::get_Context","taskschd/IActionCollection::put_Context"]
 old-location: taskschd\iactioncollection_context.htm
 tech.root: taskschd

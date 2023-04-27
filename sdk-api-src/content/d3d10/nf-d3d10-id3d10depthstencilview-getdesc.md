@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DepthStencilView.GetDesc
 title: ID3D10DepthStencilView::GetDesc (d3d10.h)
-description: Get the depth-stencil view.
+description: Get the depth-stencil view. (ID3D10DepthStencilView.GetDesc)
 helpviewer_keywords: ["4ef9f972-a153-a2f3-2286-73f54733c157","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10DepthStencilView interface","ID3D10DepthStencilView interface [Direct3D 10]","GetDesc method","ID3D10DepthStencilView.GetDesc","ID3D10DepthStencilView::GetDesc","d3d10/ID3D10DepthStencilView::GetDesc","direct3d10.id3d10depthstencilview_getdesc"]
 old-location: direct3d10\id3d10depthstencilview_getdesc.htm
 tech.root: direct3d10

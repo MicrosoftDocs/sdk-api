@@ -1,7 +1,7 @@
 ---
 UID: NN:oledlg.IOleUILinkInfoW
 title: IOleUILinkInfoW (oledlg.h)
-description: An extension of the IOleUILinkContainer interface. It returns the time that an object was last updated, which is link information that IOleUILinkContainer does not provide.
+description: An extension of the IOleUILinkContainer interface. It returns the time that an object was last updated, which is link information that IOleUILinkContainer does not provide. (Unicode)
 helpviewer_keywords: ["IOleUILinkInfo","IOleUILinkInfo interface [COM]","IOleUILinkInfo interface [COM]","described","IOleUILinkInfoA","IOleUILinkInfoW","_ole_IOleUILinkInfo","com.ioleuilinkinfo","oledlg/IOleUILinkInfo"]
 old-location: com\ioleuilinkinfo.htm
 tech.root: com

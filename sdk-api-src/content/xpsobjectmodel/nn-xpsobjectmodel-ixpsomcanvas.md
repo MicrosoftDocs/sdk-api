@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMCanvas interface
 
-
 ## -description
 
 A group of visual elements and related properties.

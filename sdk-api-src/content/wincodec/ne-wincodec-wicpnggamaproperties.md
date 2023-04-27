@@ -54,9 +54,9 @@ Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
 
 ## -enum-fields
 
-### -field WICPngGamaGamma
+### -field WICPngGamaGamma:0x1
 
 [VT_UI4] Indicates the gamma value.
 
-### -field WICPngGamaProperties_FORCE_DWORD
+### -field WICPngGamaProperties_FORCE_DWORD:0x7fffffff
 

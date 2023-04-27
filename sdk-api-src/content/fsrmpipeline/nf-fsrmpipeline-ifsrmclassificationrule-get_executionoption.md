@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.get_ExecutionOption
 title: IFsrmClassificationRule::get_ExecutionOption (fsrmpipeline.h)
-description: Determines how to apply the rule to the file.
+description: Determines how to apply the rule to the file. (Get)
 helpviewer_keywords: ["ExecutionOption property [File Server Resource Manager]","ExecutionOption property [File Server Resource Manager]","IFsrmClassificationRule interface","IFsrmClassificationRule interface [File Server Resource Manager]","ExecutionOption property","IFsrmClassificationRule.ExecutionOption","IFsrmClassificationRule.get_ExecutionOption","IFsrmClassificationRule::ExecutionOption","IFsrmClassificationRule::get_ExecutionOption","IFsrmClassificationRule::put_ExecutionOption","fs.ifsrmclassificationrule_executionoption","fsrm.ifsrmclassificationrule_executionoption","fsrmpipeline/IFsrmClassificationRule::ExecutionOption","fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption","fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption","get_ExecutionOption"]
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm
 tech.root: fsrm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.get_UdpPortPolicy
 title: IWdsTransportServicePolicy2::get_UdpPortPolicy (wdstptmgmt.h)
-description: Recieves the WDSTRANSPORT_UDP_PORT_POLICY value that specifies the UDP port allocation policy to be used by WDS transport services. The value enables a WDS client computer to configure the UDP port allocation policy.
+description: Recieves the WDSTRANSPORT_UDP_PORT_POLICY value that specifies the UDP port allocation policy to be used by WDS transport services. The value enables a WDS client computer to configure the UDP port allocation policy. (Get)
 helpviewer_keywords: ["IWdsTransportServicePolicy2 interface [Windows Deployment Services]","UdpPortPolicy property","IWdsTransportServicePolicy2.UdpPortPolicy","IWdsTransportServicePolicy2.get_UdpPortPolicy","IWdsTransportServicePolicy2::UdpPortPolicy","IWdsTransportServicePolicy2::get_UdpPortPolicy","IWdsTransportServicePolicy2::put_UdpPortPolicy","UdpPortPolicy property [Windows Deployment Services]","UdpPortPolicy property [Windows Deployment Services]","IWdsTransportServicePolicy2 interface","get_UdpPortPolicy","wds.iwdstransportservicepolicy2_udpportpolicy","wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy","wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy","wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy"]
 old-location: wds\iwdstransportservicepolicy2_udpportpolicy.htm
 tech.root: wds

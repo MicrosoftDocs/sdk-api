@@ -54,27 +54,27 @@ The <b>VMRSurfaceAllocationFlags</b> enumeration is used with the <a href="/wind
 
 ## -enum-fields
 
-### -field AMAP_PIXELFORMAT_VALID
+### -field AMAP_PIXELFORMAT_VALID:0x1
 
 Indicates that the <b>lpPxFmt</b> field contains valid data that should be used to create the DirectDraw surface.
 
-### -field AMAP_3D_TARGET
+### -field AMAP_3D_TARGET:0x2
 
 Indicates that the DirectDraw surface created should also be a Direct3D render target that is created with the <b>DDSCAPS_3DDEVICE</b> flag set.
 
-### -field AMAP_ALLOW_SYSMEM
+### -field AMAP_ALLOW_SYSMEM:0x4
 
 Indicates that if you can't allocate the DirectDraw surface in video memory you will try to allocate a system memory DirectDraw surface. (Note you should never allocate an AGP memory surface.)
 
-### -field AMAP_FORCE_SYSMEM
+### -field AMAP_FORCE_SYSMEM:0x8
 
 Force the surface to be created in system memory. Specify this if you will use GDI to process the image before it is rendered. The surface must match the current monitor display format (pixel depth).
 
-### -field AMAP_DIRECTED_FLIP
+### -field AMAP_DIRECTED_FLIP:0x10
 
 Means that when Flip is called you should Flip to the specified DirectDraw Surface passed as a parameter to the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">PresentImage</a> method in the <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenter">IVMRImagePresenter</a> interface. Correct support for this flag is crucial in order to keep DXVA buffers seen by a video decoder in sync with the DXVA buffers seen by the graphics driver.
 
-### -field AMAP_DXVA_TARGET
+### -field AMAP_DXVA_TARGET:0x20
 
 Indicates that this surface will be used as a DXVA target.
 

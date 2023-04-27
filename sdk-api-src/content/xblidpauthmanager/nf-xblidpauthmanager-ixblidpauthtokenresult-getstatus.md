@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetStatus
 title: IXblIdpAuthTokenResult::GetStatus (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetStatus)
 helpviewer_keywords: ["GetStatus","GetStatus method","GetStatus method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetStatus method","IXblIdpAuthTokenResult.GetStatus","IXblIdpAuthTokenResult::GetStatus","xblidp.ixblidpauthtokenresult_getstatus","xblidpauthmanager/IXblIdpAuthTokenResult::GetStatus"]
 old-location: xblidp\ixblidpauthtokenresult_getstatus.htm
 tech.root: xblidp

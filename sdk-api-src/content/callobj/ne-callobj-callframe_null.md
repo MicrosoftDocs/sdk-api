@@ -1,7 +1,7 @@
 ---
 UID: NE:callobj.CALLFRAME_NULL
 title: CALLFRAME_NULL (callobj.h)
-description: Determines the parameter type to be freed.
+description: Determines the parameter type to be freed. (CALLFRAME_NULL)
 helpviewer_keywords: ["CALLFRAME_NULL","CALLFRAME_NULL enumeration [COM]","CALLFRAME_NULL_ALL","CALLFRAME_NULL_INOUT","CALLFRAME_NULL_NONE","CALLFRAME_NULL_OUT","callobj/CALLFRAME_NULL","callobj/CALLFRAME_NULL_ALL","callobj/CALLFRAME_NULL_INOUT","callobj/CALLFRAME_NULL_NONE","callobj/CALLFRAME_NULL_OUT","com.callframe_null"]
 old-location: com\callframe_null.htm
 tech.root: com
@@ -54,19 +54,19 @@ Determines the parameter type to be freed.
 
 ## -enum-fields
 
-### -field CALLFRAME_NULL_NONE
+### -field CALLFRAME_NULL_NONE:0
 
 No values are freed.
 
-### -field CALLFRAME_NULL_INOUT
+### -field CALLFRAME_NULL_INOUT:2
 
 The data referenced by [in, out] parameters are freed.
 
-### -field CALLFRAME_NULL_OUT
+### -field CALLFRAME_NULL_OUT:4
 
 The data referenced by [out] parameters are freed.
 
-### -field CALLFRAME_NULL_ALL
+### -field CALLFRAME_NULL_ALL:6
 
 All [out] and [in, out] parameters are freed.
 

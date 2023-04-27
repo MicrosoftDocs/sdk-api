@@ -56,7 +56,7 @@ The <b>IStreamBufferInitialize</b> interface is used to configure the stream buf
 
 The <b>IStreamBufferInitialize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferInitialize</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

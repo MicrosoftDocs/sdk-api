@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_CHANGE0_
 title: FWPM_SUBLAYER_CHANGE0 (fwpmtypes.h)
-description: Change notification dispatched to subscribers.
+description: Change notification dispatched to subscribers. (FWPM_SUBLAYER_CHANGE0)
 helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE0","FWPM_SUBLAYER_CHANGE0 structure [Filtering]","fwp.fwpm_sublayer_change0_struct","fwpmtypes/FWPM_SUBLAYER_CHANGE0"]
 old-location: fwp\fwpm_sublayer_change0_struct.htm
 tech.root: fwp

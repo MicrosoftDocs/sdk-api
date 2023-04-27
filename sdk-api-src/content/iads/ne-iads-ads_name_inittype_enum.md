@@ -56,15 +56,15 @@ The <b>ADS_NAME_INITTYPE_ENUM</b> enumeration specifies the types of initializat
 
 ## -enum-fields
 
-### -field ADS_NAME_INITTYPE_DOMAIN
+### -field ADS_NAME_INITTYPE_DOMAIN:1
 
 Initializes a <b>NameTranslate</b> object by setting the domain that the object binds to.
 
-### -field ADS_NAME_INITTYPE_SERVER
+### -field ADS_NAME_INITTYPE_SERVER:2
 
 Initializes a <b>NameTranslate</b> object by setting the server that the object binds to.
 
-### -field ADS_NAME_INITTYPE_GC
+### -field ADS_NAME_INITTYPE_GC:3
 
 Initializes a <b>NameTranslate</b> object by locating the global catalog that the object binds to.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetUserA
 title: WNetGetUserA function (winnetwk.h)
-description: The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.
-helpviewer_keywords: ["WNetGetUser","WNetGetUser function [Windows Networking (WNet)]","WNetGetUserA","WNetGetUserW","_win32_wnetgetuser","winnetwk/WNetGetUser","winnetwk/WNetGetUserA","winnetwk/WNetGetUserW","wnet.wnetgetuser"]
+description: The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection. (ANSI)
+helpviewer_keywords: ["WNetGetUserA", "winnetwk/WNetGetUserA"]
 old-location: wnet\wnetgetuser.htm
 tech.root: WNet
 ms.assetid: 8e73d2a9-c776-4661-81ab-84b7cf037cbd

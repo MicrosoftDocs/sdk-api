@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(Image,REAL,REAL)
 title: Graphics::DrawImage(IN Image,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image at a specified location.
+description: The Graphics::DrawImage method draws an image at a specified location. (overload 1/2)
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN REAL","IN REAL)","Graphics.DrawImage(Image*","REAL","REAL)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_.htm
 tech.root: gdiplus

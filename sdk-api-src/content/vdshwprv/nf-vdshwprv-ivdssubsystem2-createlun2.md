@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.CreateLun2
 title: IVdsSubSystem2::CreateLun2 (vdshwprv.h)
-description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+description: The IVdsSubSystem2::CreateLun2 (vdshwprv.h) method creates a LUN and is identical to the IVdsSubSystem::CreateLun method.
 helpviewer_keywords: ["CreateLun2","CreateLun2 method","CreateLun2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","CreateLun2 method","IVdsSubSystem2.CreateLun2","IVdsSubSystem2::CreateLun2","base.ivdssubsystem2_createlun2","vds/IVdsSubSystem2::CreateLun2","vdshwprv/IVdsSubSystem2::CreateLun2"]
 old-location: base\ivdssubsystem2_createlun2.htm
 tech.root: base
 ms.assetid: 1fa046dd-fac9-4246-a90b-1837206b164c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: CreateLun2, CreateLun2 method, CreateLun2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,CreateLun2 method, IVdsSubSystem2.CreateLun2, IVdsSubSystem2::CreateLun2, base.ivdssubsystem2_createlun2, vds/IVdsSubSystem2::CreateLun2, vdshwprv/IVdsSubSystem2::CreateLun2
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates a LUN. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method, except that automagic hints are provided using a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure instead of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreNameWStr
 title: IEnroll::get_RootStoreNameWStr (xenroll.h)
-description: The RootStoreNameWStr property of IEnroll4 sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
+description: The RootStoreNameWStr property of IEnroll4 sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","RootStoreNameWStr property","IEnroll.RootStoreNameWStr","IEnroll.get_RootStoreNameWStr","IEnroll::RootStoreNameWStr","IEnroll::get_RootStoreNameWStr","IEnroll::put_RootStoreNameWStr","RootStoreNameWStr property [Security]","RootStoreNameWStr property [Security]","IEnroll interface","get_RootStoreNameWStr","security.ienroll4_rootstorenamewstr","xenroll/IEnroll::RootStoreNameWStr","xenroll/IEnroll::get_RootStoreNameWStr","xenroll/IEnroll::put_RootStoreNameWStr"]
 old-location: security\ienroll4_rootstorenamewstr.htm
 tech.root: security

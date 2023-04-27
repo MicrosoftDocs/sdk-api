@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction (uiautomationclient.h)
-description: Performs the Microsoft Active Accessibility default action for the element.
+description: Performs the Microsoft Active Accessibility default action for the element. (IUIAutomationLegacyIAccessiblePattern.DoDefaultAction)
 helpviewer_keywords: ["DoDefaultAction","DoDefaultAction method [Windows Accessibility]","DoDefaultAction method [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","DoDefaultAction method","IUIAutomationLegacyIAccessiblePattern.DoDefaultAction","IUIAutomationLegacyIAccessiblePattern::DoDefaultAction","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction","uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction.htm
 tech.root: WinAuto

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Renderer
 title: IInkCollector::get_Renderer (msinkaut.h)
-description: Gets or sets the InkRenderer object that is used to draw ink.
+description: Gets or sets the InkRenderer object that is used to draw ink. (IInkCollector.get_Renderer)
 helpviewer_keywords: ["1abd8f85-88f5-4dc6-a0b8-9156b57c57a5","IInkCollector interface [Tablet PC]","Renderer property","IInkCollector.Renderer","IInkCollector.get_Renderer","IInkCollector::Renderer","IInkCollector::get_Renderer","IInkCollector::putref_Renderer","InkCollector.get_Renderer","Put_Renderer","Renderer property [Tablet PC]","Renderer property [Tablet PC]","IInkCollector interface","get_Renderer","msinkaut/IInkCollector::Renderer","msinkaut/IInkCollector::get_Renderer","msinkaut/IInkCollector::putref_Renderer","tablet.inkcollector_renderer"]
 old-location: tablet\inkcollector_renderer.htm
 tech.root: tablet

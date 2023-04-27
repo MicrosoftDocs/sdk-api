@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.GetAllSettings
 title: ICodecAPI::GetAllSettings (strmif.h)
-description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
+description: The GetAllSettings method gets the codec's current properties and writes them to a stream. (ICodecAPI.GetAllSettings)
 helpviewer_keywords: ["GetAllSettings","GetAllSettings method [DirectShow]","GetAllSettings method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetAllSettings method","ICodecAPI.GetAllSettings","ICodecAPI::GetAllSettings","ICodecAPIGetAllSettings","dshow.icodecapi_getallsettings","strmif/ICodecAPI::GetAllSettings"]
 old-location: dshow\icodecapi_getallsettings.htm
 tech.root: dshow

@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageW
 title: MsiGetFeatureUsageW function (msi.h)
-description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
-helpviewer_keywords: ["MsiGetFeatureUsage","MsiGetFeatureUsage function","MsiGetFeatureUsageA","MsiGetFeatureUsageW","_msi_msigetfeatureusage","msi/MsiGetFeatureUsage","msi/MsiGetFeatureUsageA","msi/MsiGetFeatureUsageW","setup.msigetfeatureusage"]
+description: The MsiGetFeatureUsage function returns the usage metrics for a product feature. (Unicode)
+helpviewer_keywords: ["MsiGetFeatureUsage", "MsiGetFeatureUsage function", "MsiGetFeatureUsageW", "_msi_msigetfeatureusage", "msi/MsiGetFeatureUsage", "msi/MsiGetFeatureUsageW", "setup.msigetfeatureusage"]
 old-location: setup\msigetfeatureusage.htm
 tech.root: setup
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f

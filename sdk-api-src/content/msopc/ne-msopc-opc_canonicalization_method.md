@@ -56,15 +56,15 @@ Describes the canonicalization method  to be applied to XML markup.
 
 ## -enum-fields
 
-### -field OPC_CANONICALIZATION_NONE
+### -field OPC_CANONICALIZATION_NONE:0
 
 No canonicalization method is applied.
 
-### -field OPC_CANONICALIZATION_C14N
+### -field OPC_CANONICALIZATION_C14N:1
 
 The C14N canonicalization method that removes comments is applied.
 
-### -field OPC_CANONICALIZATION_C14N_WITH_COMMENTS
+### -field OPC_CANONICALIZATION_C14N_WITH_COMMENTS:2
 
 The C14N canonicalization method that preserves comments is applied.
 

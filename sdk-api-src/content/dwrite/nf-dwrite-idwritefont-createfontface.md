@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFont.CreateFontFace
 title: IDWriteFont::CreateFontFace (dwrite.h)
-description: Creates a font face object for the font.
+description: Creates a font face object for the font. (IDWriteFont.CreateFontFace)
 helpviewer_keywords: ["CreateFontFace","CreateFontFace method [Direct Write]","CreateFontFace method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","CreateFontFace method","IDWriteFont.CreateFontFace","IDWriteFont::CreateFontFace","directwrite.IDWriteFont_CreateFontFace","dwrite/IDWriteFont::CreateFontFace"]
 old-location: directwrite\IDWriteFont_CreateFontFace.htm
 tech.root: DirectWrite

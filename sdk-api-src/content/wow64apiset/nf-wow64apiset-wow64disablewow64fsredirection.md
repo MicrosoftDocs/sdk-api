@@ -6,7 +6,7 @@ helpviewer_keywords: ["Wow64DisableWow64FsRedirection","Wow64DisableWow64FsRedir
 old-location: fs\wow64disablewow64fsredirection.htm
 tech.root: fs
 ms.assetid: 44bedfa3-5a92-4e78-9e38-8278a7efe9b7
-ms.date: 12/05/2018
+ms.date: 04/14/2022
 ms.keywords: Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection
 req.header: wow64apiset.h
 req.include-header: Windows.h
@@ -83,13 +83,13 @@ This function is useful for 32-bit applications that want to gain access to the 
     default, WOW64 file system redirection is enabled.
 
 The 
-    <b>Wow64DisableWow64FsRedirection</b>/<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
+    <b>Wow64DisableWow64FsRedirection</b>/<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
     function pairing is a replacement for the functionality of the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> 
+    <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> 
     function.
 
 To restore file system redirection, call the 
-    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
+    <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
     function. Every successful call to the 
     <b>Wow64DisableWow64FsRedirection</b> function 
     must have a matching call to the 
@@ -105,7 +105,7 @@ To restore file system redirection, call the
      system redirection is re-enabled. To avoid these problems, disable file system redirection immediately before 
      calls to specific file I/O functions (such as <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>) 
      that must not be redirected, and re-enable file system redirection immediately afterward using 
-     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>.</div>
+     <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>.</div>
 <div> </div>
 Disabling file system redirection affects only operations made by the current thread. Some functions, such as 
     <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>, do their work on another 
@@ -235,14 +235,8 @@ void main()
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
-
-
 <a href="/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>
 
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 
-
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
-
-
-
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>

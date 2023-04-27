@@ -4,7 +4,7 @@ title: Windows Storage Management API
 ms.assetid: fed686a4-e53a-34a6-b295-162c136ae428
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Storage Management API

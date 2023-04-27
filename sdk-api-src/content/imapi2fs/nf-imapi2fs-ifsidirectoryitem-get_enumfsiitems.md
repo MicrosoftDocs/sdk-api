@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_EnumFsiItems
 title: IFsiDirectoryItem::get_EnumFsiItems (imapi2fs.h)
-description: Retrieves a list of child items contained within the directory in the file system image.
+description: Retrieves a list of child items contained within the directory in the file system image. (IFsiDirectoryItem.get_EnumFsiItems)
 helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","get_EnumFsiItems method","IFsiDirectoryItem.get_EnumFsiItems","IFsiDirectoryItem::get_EnumFsiItems","get_EnumFsiItems","get_EnumFsiItems method [IMAPI]","get_EnumFsiItems method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_get_enumfsiitems","imapi2fs/IFsiDirectoryItem::get_EnumFsiItems"]
 old-location: imapi\ifsidirectoryitem_get_enumfsiitems.htm
 tech.root: imapi

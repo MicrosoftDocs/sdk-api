@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectAttributeW
 title: GetNtmsObjectAttributeW function (ntmsapi.h)
-description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object.
-helpviewer_keywords: ["GetNtmsObjectAttribute","GetNtmsObjectAttribute function [Files]","GetNtmsObjectAttributeA","GetNtmsObjectAttributeW","_zaw_getntmsobjectattribute","base.getntmsobjectattribute","fs.getntmsobjectattribute","ntmsapi/GetNtmsObjectAttribute","ntmsapi/GetNtmsObjectAttributeA","ntmsapi/GetNtmsObjectAttributeW"]
+description: The GetNtmsObjectAttribute function retrieves the extended attribute (named private data) from the specified RSM object. (Unicode)
+helpviewer_keywords: ["GetNtmsObjectAttribute", "GetNtmsObjectAttribute function [Files]", "GetNtmsObjectAttributeW", "_zaw_getntmsobjectattribute", "base.getntmsobjectattribute", "fs.getntmsobjectattribute", "ntmsapi/GetNtmsObjectAttribute", "ntmsapi/GetNtmsObjectAttributeW"]
 old-location: fs\getntmsobjectattribute.htm
 tech.root: fs
 ms.assetid: 9a92d60c-a25f-4775-adb9-1a02af3c8917

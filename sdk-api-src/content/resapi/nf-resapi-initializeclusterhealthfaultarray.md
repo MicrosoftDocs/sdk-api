@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.InitializeClusterHealthFaultArray
 title: InitializeClusterHealthFaultArray function (resapi.h)
-description: TBD.
+description: The InitializeClusterHealthFaultArray function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["InitializeClusterHealthFaultArray","InitializeClusterHealthFaultArray function [Failover Cluster]","mscs.initializeclusterhealthfaultarray","resapi/InitializeClusterHealthFaultArray"]
 old-location: mscs\initializeclusterhealthfaultarray.htm
 tech.root: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
 req.header: resapi.h
 req.include-header: 

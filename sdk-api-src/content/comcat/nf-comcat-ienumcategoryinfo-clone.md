@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Clone
 title: IEnumCATEGORYINFO::Clone (comcat.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumCATEGORYINFO.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumCATEGORYINFO interface","IEnumCATEGORYINFO interface [COM]","Clone method","IEnumCATEGORYINFO.Clone","IEnumCATEGORYINFO::Clone","_com_ienumcategoryinfo_clone","com.ienumcategoryinfo_clone","comcat/IEnumCATEGORYINFO::Clone"]
 old-location: com\ienumcategoryinfo_clone.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_TEMPLATE_V1_W
 title: RPC_BINDING_HANDLE_TEMPLATE_V1_W (rpcdce.h)
-description: Contains the basic options with which to create an RPC binding handle.
+description: Contains the basic options with which to create an RPC binding handle. (Unicode)
 helpviewer_keywords: ["*PRPC_BINDING_HANDLE_TEMPLATE_V1_W","RPC_BHT_OBJECT_UUID_VALID","RPC_BINDING_HANDLE_TEMPLATE","RPC_BINDING_HANDLE_TEMPLATE structure [RPC]","RPC_BINDING_HANDLE_TEMPLATE_V1","RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC]","RPC_BINDING_HANDLE_TEMPLATE_V1_A","RPC_BINDING_HANDLE_TEMPLATE_V1_W","_RPC_BINDING_HANDLE_TEMPLATE_V1_A","_RPC_BINDING_HANDLE_TEMPLATE_V1_W","ncacn_http","ncacn_ip_tcp","ncacn_np","ncalrpc","rpc.rpc_binding_handle_template_v1","rpcdce/RPC_BINDING_HANDLE_TEMPLATE","rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"]
 old-location: rpc\rpc_binding_handle_template_v1.htm
 tech.root: Rpc

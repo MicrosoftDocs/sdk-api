@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_9
+UID: NS:lpmapi.Scope_list_ipv4
 title: Scope_list_ipv4 (lpmapi.h)
 description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
 helpviewer_keywords: ["Scope_list_ipv4","Scope_list_ipv4 structure [QOS]","lpmapi/Scope_list_ipv4","qos.scope_list_ipv4"]
@@ -62,3 +62,4 @@ Variable-length list of IP sender addresses, expressed as an array of <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
+

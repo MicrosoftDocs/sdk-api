@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.PutInstance(constCInstance&,long)
 title: Provider::PutInstance(const CInstance &,long) (provider.h)
-description: The PutInstance method updates an instance.
+description: The PutInstance method updates an instance. (overload 2/2)
 helpviewer_keywords: ["Provider interface [Windows Management Instrumentation]","PutInstance method","Provider.PutInstance","Provider.PutInstance(const CInstance &","long)","Provider::PutInstance","Provider::PutInstance(const CInstance &","long)","PutInstance","PutInstance method [Windows Management Instrumentation]","PutInstance method [Windows Management Instrumentation]","Provider interface","_hmm_provider_putinstance","provider/Provider::PutInstance","wmi.provider_putinstance"]
 old-location: wmi\provider_putinstance.htm
 tech.root: wmi

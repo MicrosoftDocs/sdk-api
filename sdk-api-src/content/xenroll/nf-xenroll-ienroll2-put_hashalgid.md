@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll2.put_HashAlgID
 title: IEnroll2::put_HashAlgID (xenroll.h)
-description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS
+description: The HashAlgID property of IEnroll4 sets or retrieves the hash algorithm used when signing a PKCS (Put)
 helpviewer_keywords: ["HashAlgID property [Security]","HashAlgID property [Security]","IEnroll2 interface","HashAlgID property [Security]","IEnroll4 interface","IEnroll2 interface [Security]","HashAlgID property","IEnroll2.HashAlgID","IEnroll2.put_HashAlgID","IEnroll2::HashAlgID","IEnroll2::get_HashAlgID","IEnroll2::put_HashAlgID","IEnroll4 interface [Security]","HashAlgID property","IEnroll4.HashAlgID","IEnroll4::get_HashAlgID","IEnroll4::put_HashAlgID","get_HashAlgID","put_HashAlgID","security.ienroll4_hashalgid","xenroll/IEnroll2::HashAlgID","xenroll/IEnroll2::get_HashAlgID","xenroll/IEnroll2::put_HashAlgID","xenroll/IEnroll4::HashAlgID","xenroll/IEnroll4::get_HashAlgID","xenroll/IEnroll4::put_HashAlgID"]
 old-location: security\ienroll4_hashalgid.htm
 tech.root: security

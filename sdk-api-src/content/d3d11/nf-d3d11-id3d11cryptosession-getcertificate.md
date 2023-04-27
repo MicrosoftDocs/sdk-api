@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificate
 title: ID3D11CryptoSession::GetCertificate (d3d11.h)
-description: Gets the driver's certificate chain.
+description: Gets the driver's certificate chain. (ID3D11CryptoSession.GetCertificate)
 helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","ID3D11CryptoSession interface","ID3D11CryptoSession interface [Media Foundation]","GetCertificate method","ID3D11CryptoSession.GetCertificate","ID3D11CryptoSession::GetCertificate","d3d11/ID3D11CryptoSession::GetCertificate","mf.id3d11cryptosession_getcertificate"]
 old-location: mf\id3d11cryptosession_getcertificate.htm
 tech.root: mf

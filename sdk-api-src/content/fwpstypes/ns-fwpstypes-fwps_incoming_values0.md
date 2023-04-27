@@ -82,7 +82,14 @@ A pointer to an array of
 ## -remarks
 
 The filter engine passes a pointer to an FWPS_INCOMING_VALUES0 structure to a callout's 
-    <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
+
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. 
+    The values in this array depend on the **layerId**; each layer has an associated set of available indexes as outlined in the **FWPS_FIELDS_&lt;LAYER_ID&gt;** enumerations. 
+    For example, for the **ALE_AUTH_CONNECT_V4** layer, the available indexes are listed in the [FWPS_FIELDS_ALE_AUTH_CONNECT_V4 enumeration](windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_fields_ale_auth_connect_v4_). 
+
+
+
+
 
 ## -see-also
 

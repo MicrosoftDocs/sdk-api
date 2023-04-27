@@ -54,19 +54,19 @@ Specifies how the decoded video stream is interlaced. This enumeration is used w
 
 ## -enum-fields
 
-### -field eAVDecVideoInputScan_Unknown
+### -field eAVDecVideoInputScan_Unknown:0
 
 The interlacing is not known.
 
-### -field eAVDecVideoInputScan_Progressive
+### -field eAVDecVideoInputScan_Progressive:1
 
 Decoded frames are progressive.
 
-### -field eAVDecVideoInputScan_Interlaced_UpperFieldFirst
+### -field eAVDecVideoInputScan_Interlaced_UpperFieldFirst:2
 
 Decoded frames are interlaced, with the upper field appearing first.
 
-### -field eAVDecVideoInputScan_Interlaced_LowerFieldFirst
+### -field eAVDecVideoInputScan_Interlaced_LowerFieldFirst:3
 
 Decoded frames are interlaced, with the lower field appearing first.
 

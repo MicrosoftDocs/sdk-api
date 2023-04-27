@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmUnregisterWordA
 title: ImmUnregisterWordA function (immdev.h)
-description: Removes a register string from the dictionary of the IME associated with the specified input locale.
-helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmUnregisterWord","ImmUnregisterWord function [Internationalization for Windows Applications]","ImmUnregisterWordA","ImmUnregisterWordW","_win32_ImmUnregisterWord","imm/ImmUnregisterWord","imm/ImmUnregisterWordA","imm/ImmUnregisterWordW","intl.immunregisterword"]
+description: The ImmUnregisterWordA (ANSI) function (immdev.h) removes a register string from the dictionary of the IME associated with the specified input locale.
+helpviewer_keywords: ["Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST", "IME_REGWORD_STYLE_EUDC", "ImmUnregisterWordA"]
 old-location: intl\immunregisterword.htm
 tech.root: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

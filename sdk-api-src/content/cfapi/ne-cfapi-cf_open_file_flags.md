@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPEN_FILE_FLAGS","CF_OPEN_FILE_FLAGS enumeration","CF_
 old-location: cloudapi\cf_open_file_flags.htm
 tech.root: cloudapi
 ms.assetid: 4A9D87AB-7B81-46DF-80C3-DB2F63C76964
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_OPEN_FILE_FLAGS, CF_OPEN_FILE_FLAGS enumeration, CF_OPEN_FILE_FLAG_DELETE_ACCESS, CF_OPEN_FILE_FLAG_EXCLUSIVE, CF_OPEN_FILE_FLAG_NONE, CF_OPEN_FILE_FLAG_WRITE_ACCESS, cfapi/CF_OPEN_FILE_FLAGS, cfapi/CF_OPEN_FILE_FLAG_DELETE_ACCESS, cfapi/CF_OPEN_FILE_FLAG_EXCLUSIVE, cfapi/CF_OPEN_FILE_FLAG_NONE, cfapi/CF_OPEN_FILE_FLAG_WRITE_ACCESS, cloudApi.cf_open_file_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,27 +47,30 @@ api_name:
 
 # CF_OPEN_FILE_FLAGS enumeration
 
-
 ## -description
 
 Flags to request various permissions on opening a file.
 
 ## -enum-fields
 
-### -field CF_OPEN_FILE_FLAG_NONE
+### -field CF_OPEN_FILE_FLAG_NONE:0x00000000
 
 No open file flags.
 
-### -field CF_OPEN_FILE_FLAG_EXCLUSIVE
+### -field CF_OPEN_FILE_FLAG_EXCLUSIVE:0x00000001
 
-When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ\|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
+When specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ\|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
 
-### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS
+### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS:0x00000002
 
-When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY and FILE_WRITE_DATA/FILE_ADD_FILE access; otherwise it attempts to open the file or directory with FILE_READ_DATA/ FILE_LIST_DIRECTORY.
+When specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY and FILE_WRITE_DATA/FILE_ADD_FILE access; otherwise it attempts to open the file or directory with FILE_READ_DATA/FILE_LIST_DIRECTORY.
 
-### -field CF_OPEN_FILE_FLAG_DELETE_ACCESS
+### -field CF_OPEN_FILE_FLAG_DELETE_ACCESS:0x00000004
 
-When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> attempts to open the file or directory with DELETE access; otherwise it opens the file normally.
+When specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) attempts to open the file or directory with DELETE access; otherwise it opens the file normally.
 
-### -field CF_OPEN_FILE_FLAG_FOREGROUND
+### -field CF_OPEN_FILE_FLAG_FOREGROUND:0x00000008
+
+## -see-also
+
+[CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md)

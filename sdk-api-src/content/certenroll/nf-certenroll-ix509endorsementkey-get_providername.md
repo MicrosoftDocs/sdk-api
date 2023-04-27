@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.get_ProviderName
 title: IX509EndorsementKey::get_ProviderName (certenroll.h)
-description: The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the ProviderName property before you call the Open method. You cannot change the ProviderName property after you have called the Open method.
+description: The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the ProviderName property before you call the Open method. You cannot change the ProviderName property after you have called the Open method. (Get)
 helpviewer_keywords: ["IX509EndorsementKey interface [Security]","ProviderName property","IX509EndorsementKey.ProviderName","IX509EndorsementKey.get_ProviderName","IX509EndorsementKey::ProviderName","IX509EndorsementKey::get_ProviderName","IX509EndorsementKey::put_ProviderName","ProviderName property [Security]","ProviderName property [Security]","IX509EndorsementKey interface","certenroll/IX509EndorsementKey::ProviderName","certenroll/IX509EndorsementKey::get_ProviderName","certenroll/IX509EndorsementKey::put_ProviderName","get_ProviderName","security.ix509endorsementkey_providername"]
 old-location: security\ix509endorsementkey_providername.htm
 tech.root: security

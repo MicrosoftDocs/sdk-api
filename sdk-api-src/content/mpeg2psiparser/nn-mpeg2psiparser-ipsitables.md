@@ -58,6 +58,6 @@ The <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-inform
 
 The <b>IPSITables</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSITables</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

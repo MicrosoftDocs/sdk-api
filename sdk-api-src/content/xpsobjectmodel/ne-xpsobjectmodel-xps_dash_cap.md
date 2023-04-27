@@ -56,7 +56,7 @@ Specifies the style of a dash cap  on a dashed stroke.
 
 ## -enum-fields
 
-### -field XPS_DASH_CAP_FLAT
+### -field XPS_DASH_CAP_FLAT:1
 
 Flat-line cap.
 

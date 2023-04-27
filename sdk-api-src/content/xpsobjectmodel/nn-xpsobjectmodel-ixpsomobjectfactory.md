@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMObjectFactory interface
 
-
 ## -description
 
 Creates objects in    the XPS document object model.

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService4.ActivateView
 title: IBrowserService4::ActivateView (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService4.ActivateView)
 helpviewer_keywords: ["ActivateView","ActivateView method [Windows Shell]","ActivateView method [Windows Shell]","IBrowserService4 interface","IBrowserService4 interface [Windows Shell]","ActivateView method","IBrowserService4.ActivateView","IBrowserService4::ActivateView","_shell_IBrowserService4_ActivateView","shdeprecated/IBrowserService4::ActivateView","shell.IBrowserService4_ActivateView"]
 old-location: shell\IBrowserService4_ActivateView.htm
 tech.root: shell

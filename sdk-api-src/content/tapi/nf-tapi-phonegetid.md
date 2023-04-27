@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.phoneGetID
 title: phoneGetID function (tapi.h)
-description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
+description: The phoneGetID function (tapi.h) returns a device identifier for the given device class associated with the specified phone device.
 helpviewer_keywords: ["_tapi2_phonegetid","phoneGetID","phoneGetID function [TAPI 2.2]","phoneGetIDA","phoneGetIDW","tapi/phoneGetID","tapi/phoneGetIDA","tapi/phoneGetIDW","tapi2.phonegetid"]
 old-location: tapi2\phonegetid.htm
 tech.root: tapi3
 ms.assetid: 6a9c90ca-7a9e-43de-8075-240185658538
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_phonegetid, phoneGetID, phoneGetID function [TAPI 2.2], phoneGetIDA, phoneGetIDW, tapi/phoneGetID, tapi/phoneGetIDA, tapi/phoneGetIDW, tapi2.phonegetid
 req.header: tapi.h
 req.include-header: 

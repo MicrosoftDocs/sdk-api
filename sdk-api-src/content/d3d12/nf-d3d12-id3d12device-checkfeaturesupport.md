@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CheckFeatureSupport
 title: ID3D12Device::CheckFeatureSupport (d3d12.h)
-description: Gets information about the features that are supported by the current graphics driver.
+description: Gets information about the features that are supported by the current graphics driver. (ID3D12Device.CheckFeatureSupport)
 helpviewer_keywords: ["CheckFeatureSupport","CheckFeatureSupport method","CheckFeatureSupport method","ID3D12Device interface","ID3D12Device interface","CheckFeatureSupport method","ID3D12Device.CheckFeatureSupport","ID3D12Device::CheckFeatureSupport","d3d12/ID3D12Device::CheckFeatureSupport","direct3d12.id3d12device_checkfeaturesupport"]
 old-location: direct3d12\id3d12device_checkfeaturesupport.htm
 tech.root: direct3d12

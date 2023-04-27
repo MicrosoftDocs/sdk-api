@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Connect_MachineA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Connect_Machine function creates a connection to a remote machine.
+description: The CM_Connect_Machine function creates a connection to a remote machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

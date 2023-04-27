@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetType
 title: IWICColorContext::GetType (wincodec.h)
-description: Retrieves the color context type.
+description: Retrieves the color context type. (IWICColorContext.GetType)
 helpviewer_keywords: ["GetType","GetType method [Windows Imaging Component]","GetType method [Windows Imaging Component]","IWICColorContext interface","IWICColorContext interface [Windows Imaging Component]","GetType method","IWICColorContext.GetType","IWICColorContext::GetType","_wic_codec_iwiccolorcontext_gettype","wic._wic_codec_iwiccolorcontext_gettype","wincodec/IWICColorContext::GetType"]
 old-location: wic\_wic_codec_iwiccolorcontext_gettype.htm
 tech.root: wic

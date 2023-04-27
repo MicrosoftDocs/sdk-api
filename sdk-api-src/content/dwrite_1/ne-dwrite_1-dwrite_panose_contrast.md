@@ -54,59 +54,59 @@ The <b>DWRITE_PANOSE_CONTRAST</b> enumeration contains values that specify the r
 
 ## -enum-fields
 
-### -field DWRITE_PANOSE_CONTRAST_ANY
+### -field DWRITE_PANOSE_CONTRAST_ANY:0
 
 Any contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_NO_FIT
+### -field DWRITE_PANOSE_CONTRAST_NO_FIT:1
 
 No fit contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_NONE
+### -field DWRITE_PANOSE_CONTRAST_NONE:2
 
 No contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_VERY_LOW
+### -field DWRITE_PANOSE_CONTRAST_VERY_LOW:3
 
 Very low contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_LOW
+### -field DWRITE_PANOSE_CONTRAST_LOW:4
 
 Low contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_MEDIUM_LOW
+### -field DWRITE_PANOSE_CONTRAST_MEDIUM_LOW:5
 
 Medium low contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_MEDIUM
+### -field DWRITE_PANOSE_CONTRAST_MEDIUM:6
 
 Medium contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_MEDIUM_HIGH
+### -field DWRITE_PANOSE_CONTRAST_MEDIUM_HIGH:7
 
 Medium high contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_HIGH
+### -field DWRITE_PANOSE_CONTRAST_HIGH:8
 
 High contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_VERY_HIGH
+### -field DWRITE_PANOSE_CONTRAST_VERY_HIGH:9
 
 Very high contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_LOW
+### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_LOW:10
 
 Horizontal low contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_MEDIUM
+### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_MEDIUM:11
 
 Horizontal medium contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_HIGH
+### -field DWRITE_PANOSE_CONTRAST_HORIZONTAL_HIGH:12
 
 Horizontal high contrast.
 
-### -field DWRITE_PANOSE_CONTRAST_BROKEN
+### -field DWRITE_PANOSE_CONTRAST_BROKEN:13
 
 Broken contrast.
 

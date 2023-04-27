@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTVGETINFOTIPA
 title: NMTVGETINFOTIPA (commctrl.h)
-description: Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the TVN_GETINFOTIP notification code.
+description: Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the TVN_GETINFOTIP notification code. (ANSI)
 helpviewer_keywords: ["*LPNMTVGETINFOTIPA","LPNMTVGETINFOTIP","LPNMTVGETINFOTIP structure pointer [Windows Controls]","NMTVGETINFOTIP","NMTVGETINFOTIP structure [Windows Controls]","NMTVGETINFOTIPA","NMTVGETINFOTIPW","_win32_NMTVGETINFOTIP","_win32_NMTVGETINFOTIP_cpp","commctrl/LPNMTVGETINFOTIP","commctrl/NMTVGETINFOTIP","commctrl/NMTVGETINFOTIPA","commctrl/NMTVGETINFOTIPW","controls.NMTVGETINFOTIP","controls._win32_NMTVGETINFOTIP"]
 old-location: controls\NMTVGETINFOTIP.htm
 tech.root: Controls

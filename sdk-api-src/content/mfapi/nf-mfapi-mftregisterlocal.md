@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFTRegisterLocal
 title: MFTRegisterLocal function (mfapi.h)
-description: Registers a Media Foundation transform (MFT) in the caller's process.
+description: Registers a Media Foundation transform (MFT) in the caller's process. (MFTRegisterLocal)
 helpviewer_keywords: ["MFTRegisterLocal","MFTRegisterLocal function [Media Foundation]","mf.mftregisterlocal","mfapi/MFTRegisterLocal"]
 old-location: mf\mftregisterlocal.htm
 tech.root: mf

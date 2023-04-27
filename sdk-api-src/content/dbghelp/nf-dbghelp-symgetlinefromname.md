@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetLineFromName
 title: SymGetLineFromName function (dbghelp.h)
-description: Locates a source line for the specified module, file name, and line number.
+description: Locates a source line for the specified module, file name, and line number. (SymGetLineFromName)
 helpviewer_keywords: ["SymGetLineFromName","SymGetLineFromName function","SymGetLineFromName64","SymGetLineFromName64 function","SymGetLineFromNameW64","_win32_symgetlinefromname64","base.symgetlinefromname64","dbghelp/SymGetLineFromName","dbghelp/SymGetLineFromName64","dbghelp/SymGetLineFromNameW64"]
 old-location: base\symgetlinefromname64.htm
 tech.root: Debug

@@ -85,10 +85,13 @@ function.
 
 A pointer to the data.
 
-> **Important:** This is a 64-bit unsigned integer value in both 32-bit and
+> [!Important]
+> This is a 64-bit unsigned integer value in both 32-bit and
 > 64-bit architectures. To properly set this value, cast your data pointer to an
 > unsigned integer before assigning it to the `Ptr` field, e.g.
-> `EventDataDescriptor.Ptr = (UINT_PTR)dataPointer;`.
+> `EventDataDescriptor.Ptr = (UINT_PTR)dataPointer;`, or use the
+> [EventDataDescCreate](/windows/win32/api/evntprov/nf-evntprov-eventdatadesccreate)
+> function.
 
 ### -field Size
 

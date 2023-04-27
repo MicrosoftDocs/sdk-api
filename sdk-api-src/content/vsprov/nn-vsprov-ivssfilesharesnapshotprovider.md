@@ -1,7 +1,7 @@
 ---
 UID: NN:vsprov.IVssFileShareSnapshotProvider
 title: IVssFileShareSnapshotProvider (vsprov.h)
-description: .
+description: . (IVssFileShareSnapshotProvider)
 helpviewer_keywords: ["IVssFileShareSnapshotProvider","IVssFileShareSnapshotProvider interface [VSS]","IVssFileShareSnapshotProvider interface [VSS]","described","base.ivssfilesharesnapshotprovider","vsprov/IVssFileShareSnapshotProvider"]
 old-location: base\ivssfilesharesnapshotprovider.htm
 tech.root: base

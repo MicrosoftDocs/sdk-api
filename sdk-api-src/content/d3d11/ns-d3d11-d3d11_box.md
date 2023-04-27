@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_BOX
 title: D3D11_BOX (d3d11.h)
-description: Defines a 3D box.
+description: Defines a 3D box. (D3D11_BOX)
 helpviewer_keywords: ["D3D11_BOX","D3D11_BOX structure [Direct3D 11]","b76b0218-be11-7108-701a-e9002dd6f441","d3d11/D3D11_BOX","direct3d11.d3d11_box"]
 old-location: direct3d11\d3d11_box.htm
 tech.root: direct3d11

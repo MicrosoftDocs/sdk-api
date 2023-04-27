@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc(constRectF&,REAL,REAL)
 title: GraphicsPath::AddArc
-description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
+description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path. (overload 4/4)
 tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddArc"]
 ms.assetid: 2616a8ff-8193-413b-ab7f-56c0dd82c17b

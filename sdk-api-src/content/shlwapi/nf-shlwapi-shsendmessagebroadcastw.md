@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHSendMessageBroadcastW
 title: SHSendMessageBroadcastW function (shlwapi.h)
-description: Sends a message to all top-level windows in the system.
-helpviewer_keywords: ["SHSendMessageBroadcast","SHSendMessageBroadcast function [Windows Shell]","SHSendMessageBroadcastA","SHSendMessageBroadcastW","_shell_SHSendMessageBroadcast","shell.SHSendMessageBroadcast","shlwapi/SHSendMessageBroadcast","shlwapi/SHSendMessageBroadcastA","shlwapi/SHSendMessageBroadcastW"]
+description: Sends a message to all top-level windows in the system. (Unicode)
+helpviewer_keywords: ["SHSendMessageBroadcast", "SHSendMessageBroadcast function [Windows Shell]", "SHSendMessageBroadcastW", "_shell_SHSendMessageBroadcast", "shell.SHSendMessageBroadcast", "shlwapi/SHSendMessageBroadcast", "shlwapi/SHSendMessageBroadcastW"]
 old-location: shell\SHSendMessageBroadcast.htm
 tech.root: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6

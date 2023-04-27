@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.get_IsRoleDefinition
 title: IAzTask::get_IsRoleDefinition (azroles.h)
-description: Sets or retrieves a value that indicates whether the task is a role definition.
+description: Sets or retrieves a value that indicates whether the task is a role definition. (Get)
 helpviewer_keywords: ["AzTask object [Security]","IsRoleDefinition property","IAzTask interface [Security]","IsRoleDefinition property","IAzTask.IsRoleDefinition","IAzTask.get_IsRoleDefinition","IAzTask::IsRoleDefinition","IAzTask::get_IsRoleDefinition","IAzTask::put_IsRoleDefinition","IsRoleDefinition property [Security]","IsRoleDefinition property [Security]","AzTask object","IsRoleDefinition property [Security]","IAzTask interface","azroles/IAzTask::IsRoleDefinition","azroles/IAzTask::get_IsRoleDefinition","azroles/IAzTask::put_IsRoleDefinition","get_IsRoleDefinition","security.iaztask_isroledefinition"]
 old-location: security\iaztask_isroledefinition.htm
 tech.root: security

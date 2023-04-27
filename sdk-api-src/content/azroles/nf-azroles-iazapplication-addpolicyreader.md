@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyReader
 title: IAzApplication::AddPolicyReader (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers. (IAzApplication.AddPolicyReader)
 helpviewer_keywords: ["AddPolicyReader","AddPolicyReader method [Security]","AddPolicyReader method [Security]","AzApplication object","AddPolicyReader method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyReader method","IAzApplication interface [Security]","AddPolicyReader method","IAzApplication.AddPolicyReader","IAzApplication::AddPolicyReader","azroles/IAzApplication::AddPolicyReader","security.iazapplication_addpolicyreader"]
 old-location: security\iazapplication_addpolicyreader.htm
 tech.root: security
 ms.assetid: fb44461c-e494-4393-bdcd-0e759f6fbae1
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzApplication object, AddPolicyReader method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReader method, IAzApplication interface [Security],AddPolicyReader method, IAzApplication.AddPolicyReader, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzApplication::AddPolicyReader
 
-
 ## -description
 
-The <b>AddPolicyReader</b> method adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as policy readers.
+The **AddPolicyReader** method adds the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form to the list of principals that act as policy readers.
 
 ## -parameters
 
@@ -63,10 +62,22 @@ Text form of the SID to add to the list of policy readers.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. Readers cannot modify the object or its child objects.
+Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the [AccessCheck](nf-azroles-iazclientcontext-accesscheck.md) method. Readers cannot modify the object or its child objects.
 
-To view the list of policy readers, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_policyreaders">PolicyReaders</a> property.
+To view the list of policy readers, use the [PolicyReaders](nf-azroles-iazapplication-get_policyreaders.md) property.
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazapplication-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[AccessCheck](nf-azroles-iazclientcontext-accesscheck.md)
+
+[Submit](nf-azroles-iazapplication-submit.md)
+
+[PolicyReaders](nf-azroles-iazapplication-get_policyreaders.md)

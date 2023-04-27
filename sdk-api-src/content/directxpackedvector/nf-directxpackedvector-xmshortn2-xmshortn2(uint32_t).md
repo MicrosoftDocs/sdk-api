@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(uint32_t)
 title: XMSHORTN2::XMSHORTN2(uint32_t) (directxpackedvector.h)
-description: A constructor for XMSHORTN2.
+description: A constructor for XMSHORTN2. (overload 1/3)
 helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(uint32_t)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(uint32_t)","dxmath.xmshortn2_ctor_1"]
 old-location: 
 tech.root: dxmath

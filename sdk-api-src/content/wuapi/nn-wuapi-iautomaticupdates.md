@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdates
 title: IAutomaticUpdates (wuapi.h)
-description: Contains the functionality of Automatic Updates.
+description: Contains the functionality of Automatic Updates. (IAutomaticUpdates)
 helpviewer_keywords: ["IAutomaticUpdates","IAutomaticUpdates interface [Windows Update Agent]","IAutomaticUpdates interface [Windows Update Agent]","described","wua.iautomaticupdates","wuapi/IAutomaticUpdates"]
 old-location: wua\iautomaticupdates.htm
 tech.root: wua

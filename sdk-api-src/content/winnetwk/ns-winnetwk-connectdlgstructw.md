@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._CONNECTDLGSTRUCTW
 title: CONNECTDLGSTRUCTW (winnetwk.h)
-description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
+description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters. (Unicode)
 helpviewer_keywords: ["*LPCONNECTDLGSTRUCTW","CONNDLG_CONN_POINT","CONNDLG_HIDE_BOX","CONNDLG_NOT_PERSIST","CONNDLG_PERSIST","CONNDLG_RO_PATH","CONNDLG_USE_MRU","CONNECTDLGSTRUCT","CONNECTDLGSTRUCT structure [Windows Networking (WNet)]","CONNECTDLGSTRUCTA","CONNECTDLGSTRUCTW","LPCONNECTDLGSTRUCT","LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)]","SidTypeUser","_win32_connectdlgstruct_str","winnetwk/CONNECTDLGSTRUCT","winnetwk/CONNECTDLGSTRUCTA","winnetwk/CONNECTDLGSTRUCTW","winnetwk/LPCONNECTDLGSTRUCT","wnet.connectdlgstruct_str"]
 old-location: wnet\connectdlgstruct_str.htm
 tech.root: WNet

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_4.ID3D11VideoContext3
 title: ID3D11VideoContext3
-description: Provides the video functionality of a Microsoft Direct3D 11 device.
+description: Provides the video functionality of a Microsoft Direct3D 11 device. (ID3D11VideoContext3)
 tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoContext3"]
 ms.date: 4/26/2019

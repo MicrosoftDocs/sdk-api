@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_MouseIcon
 title: IInkEdit::put_MouseIcon (inked.h)
-description: Gets or sets the custom mouse icon for the InkEdit control.
+description: Gets or sets the custom mouse icon for the InkEdit control. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","MouseIcon property","IInkEdit.MouseIcon","IInkEdit.put_MouseIcon","IInkEdit::MouseIcon","IInkEdit::get_MouseIcon","IInkEdit::put_MouseIcon","InkEdit.get_MouseIcon","InkEdit.put_MouseIcon","InkEdit.putref_MouseIcon","MouseIcon property [Tablet PC]","MouseIcon property [Tablet PC]","IInkEdit interface","get_MouseIcon","inked/IInkEdit::MouseIcon","inked/IInkEdit::get_MouseIcon","inked/IInkEdit::put_MouseIcon","put_MouseIcon","putref_MouseIcon","tablet.inkedit_mouseicon"]
 old-location: tablet\inkedit_mouseicon.htm
 tech.root: tablet

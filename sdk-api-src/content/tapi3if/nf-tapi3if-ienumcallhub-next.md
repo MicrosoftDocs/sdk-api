@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumCallHub.Next
 title: IEnumCallHub::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumCallHub.Next)
 helpviewer_keywords: ["IEnumCallHub interface [TAPI 2.2]","Next method","IEnumCallHub.Next","IEnumCallHub::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumCallHub interface","_tapi3_ienumcallhub_next","tapi3.ienumcallhub_next","tapi3if/IEnumCallHub::Next"]
 old-location: tapi3\ienumcallhub_next.htm
 tech.root: tapi3

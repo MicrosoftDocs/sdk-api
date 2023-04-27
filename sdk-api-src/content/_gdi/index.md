@@ -4,7 +4,7 @@ title: Windows GDI
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows GDI

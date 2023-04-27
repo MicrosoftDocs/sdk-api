@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_20
+UID: NE:webservices.WS_TRANSFER_MODE
 title: WS_TRANSFER_MODE (webservices.h)
 description: Whether messages that are sent or received are streamed or buffered.
 helpviewer_keywords: ["WS_BUFFERED_TRANSFER_MODE","WS_STREAMED_INPUT_TRANSFER_MODE","WS_STREAMED_OUTPUT_TRANSFER_MODE","WS_STREAMED_TRANSFER_MODE","WS_TRANSFER_MODE","WS_TRANSFER_MODE enumeration [Web Services for Windows]","webservices/WS_BUFFERED_TRANSFER_MODE","webservices/WS_STREAMED_INPUT_TRANSFER_MODE","webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE","webservices/WS_STREAMED_TRANSFER_MODE","webservices/WS_TRANSFER_MODE","wsw.ws_transfer_mode"]
@@ -54,7 +54,7 @@ Whether messages that are sent or received are streamed or buffered.
 
 ## -enum-fields
 
-### -field WS_STREAMED_INPUT_TRANSFER_MODE
+### -field WS_STREAMED_INPUT_TRANSFER_MODE:0x1
 
 Setting this flag means messages are delivered in chunks.  The start of the message
                     (opening tag, headers, and opening body tag) will be returned to the application
@@ -66,7 +66,7 @@ Setting this flag means messages are delivered in chunks.  The start of the mess
 Not setting this flag means the entire message is read and buffered
                     in memory before <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> indicates completion.
 
-### -field WS_STREAMED_OUTPUT_TRANSFER_MODE
+### -field WS_STREAMED_OUTPUT_TRANSFER_MODE:0x2
 
 Setting this flag means messages are transmitted in chunks.  The start of the message (opening
                     envelope tag, headers, and opening body tag) will be transmitted when <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> is called.  It is up to the application to call <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> after writing each chunk 
@@ -78,7 +78,7 @@ Setting this flag means messages are transmitted in chunks.  The start of the me
 Not setting this flag means the entire message is buffered in 
                     memory and is only transmitted once <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> is called.
 
-### -field WS_BUFFERED_TRANSFER_MODE
+### -field WS_BUFFERED_TRANSFER_MODE:0x0
 
 Messages that are written or read are buffered.
                 
@@ -105,3 +105,4 @@ This value is specified for a channel using the
 The streaming programming model can be used regardless of which 
                 transfer mode is used.  In the case where streaming is not used, the calls
                 to the calls to <a href="/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> are NOPs.
+

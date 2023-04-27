@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemInterconnect
 title: IVdsSubSystemInterconnect (vdshwprv.h)
-description: Provides a method to query the interconnect types that are supported by a subsystem.
+description: The IVdsSubSystemInterconnect interface (vdshwprv.h) provides a method to query the interconnect types that are supported by a subsystem. 
 helpviewer_keywords: ["IVdsSubSystemInterconnect","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","described","base.ivdssubsysteminterconnect","vds/IVdsSubSystemInterconnect","vdshwprv/IVdsSubSystemInterconnect"]
 old-location: base\ivdssubsysteminterconnect.htm
 tech.root: base
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to query the interconnect types that are supported by a subsystem.
 

@@ -3,7 +3,7 @@ UID: NS:directml.DML_ELEMENT_WISE_IF_OPERATOR_DESC
 title: DML_ELEMENT_WISE_IF_OPERATOR_DESC
 description: Selects elements either from *ATensor* or *BTensor*, depending on the value of the corresponding element in *ConditionTensor*. Non-zero elements of *ConditionTensor* select from *ATensor*, while zero-valued elements select from *BTensor*.
 tech.root: directml
-ms.date: 10/29/2020
+ms.date: 01/19/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -89,6 +89,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 * *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ConditionTensor | Input | 1 to 8 | UINT8 |
+| ATensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

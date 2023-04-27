@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMCoreProperties interface
 
-
 ## -description
 
 This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.

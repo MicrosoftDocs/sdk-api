@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkWordList
 title: IInkWordList (msinkaut.h)
-description: .
+description: . (IInkWordList)
 helpviewer_keywords: ["IInkWordList","IInkWordList interface [Tablet PC]","IInkWordList interface [Tablet PC]","described","msinkaut/IInkWordList","tablet.iinkwordlist"]
 old-location: tablet\iinkwordlist.htm
 tech.root: tablet

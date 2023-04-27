@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_88
+UID: NE:webservices.WS_SERVICE_CANCEL_REASON
 title: WS_SERVICE_CANCEL_REASON (webservices.h)
 description: The reasons for a cancellation.
 helpviewer_keywords: ["WS_SERVICE_CANCEL_REASON","WS_SERVICE_CANCEL_REASON enumeration [Web Services for Windows]","WS_SERVICE_CHANNEL_FAULTED","WS_SERVICE_HOST_ABORT","webservices/WS_SERVICE_CANCEL_REASON","webservices/WS_SERVICE_CHANNEL_FAULTED","webservices/WS_SERVICE_HOST_ABORT","wsw.ws_service_cancel_reason"]
@@ -54,11 +54,11 @@ The reasons for a cancellation.
 
 ## -enum-fields
 
-### -field WS_SERVICE_HOST_ABORT
+### -field WS_SERVICE_HOST_ABORT:0
 
 A service host is going through an abort.
 
-### -field WS_SERVICE_CHANNEL_FAULTED
+### -field WS_SERVICE_CHANNEL_FAULTED:1
 
 The underlying channel faulted.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperat
 old-location: security\iaztask_addoperation.htm
 tech.root: security
 ms.assetid: 73da7094-440c-4e68-8d43-9f4ba26dd14b
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzTask object, AddOperation method [Security],IAzTask interface, AzTask object [Security],AddOperation method, IAzTask interface [Security],AddOperation method, IAzTask.AddOperation, IAzTask::AddOperation, azroles/IAzTask::AddOperation, security.iaztask_addoperation
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzTask::AddOperation
 
-
 ## -description
 
-The <b>AddOperation</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the task.
+The **AddOperation** method adds the [IAzOperation](nn-azroles-iazoperation.md) object with the specified name to the task.
 
 ## -parameters
 
 ### -param bstrOp [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to add to the task.
+Name of the [IAzOperation](nn-azroles-iazoperation.md) object to add to the task.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iaztask-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzOperation](nn-azroles-iazoperation.md)
+
+[Submit](nf-azroles-iaztask-submit.md)

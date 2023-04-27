@@ -56,63 +56,63 @@ Values that are used in activation calls to indicate the execution contexts in w
 
 ## -enum-fields
 
-### -field CLSCTX_INPROC_SERVER
+### -field CLSCTX_INPROC_SERVER:0x1
 
 The code that creates and manages objects of this class is a DLL that runs in the same process as the caller of the function specifying the class context.
 
-### -field CLSCTX_INPROC_HANDLER
+### -field CLSCTX_INPROC_HANDLER:0x2
 
 The code that manages objects of this class is an in-process handler. This is a DLL that runs in the client process and implements client-side structures of this class when instances of the class are accessed remotely.
 
-### -field CLSCTX_LOCAL_SERVER
+### -field CLSCTX_LOCAL_SERVER:0x4
 
 The EXE code that creates and manages objects of this class runs on same machine but is loaded in a separate process space.
 
-### -field CLSCTX_INPROC_SERVER16
+### -field CLSCTX_INPROC_SERVER16:0x8
 
 Obsolete.
 
-### -field CLSCTX_REMOTE_SERVER
+### -field CLSCTX_REMOTE_SERVER:0x10
 
 A remote context. The <a href="/windows/desktop/com/localserver32">LocalServer32</a> or <a href="/windows/desktop/com/localservice">LocalService</a> code that creates and manages objects of this class is run on a different computer.
 
-### -field CLSCTX_INPROC_HANDLER16
+### -field CLSCTX_INPROC_HANDLER16:0x20
 
 Obsolete.
 
-### -field CLSCTX_RESERVED1
+### -field CLSCTX_RESERVED1:0x40
 
 Reserved.
 
-### -field CLSCTX_RESERVED2
+### -field CLSCTX_RESERVED2:0x80
 
 Reserved.
 
-### -field CLSCTX_RESERVED3
+### -field CLSCTX_RESERVED3:0x100
 
 Reserved.
 
-### -field CLSCTX_RESERVED4
+### -field CLSCTX_RESERVED4:0x200
 
 Reserved.
 
-### -field CLSCTX_NO_CODE_DOWNLOAD
+### -field CLSCTX_NO_CODE_DOWNLOAD:0x400
 
 Disables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_ENABLE_CODE_DOWNLOAD.
 
-### -field CLSCTX_RESERVED5
+### -field CLSCTX_RESERVED5:0x800
 
 Reserved.
 
-### -field CLSCTX_NO_CUSTOM_MARSHAL
+### -field CLSCTX_NO_CUSTOM_MARSHAL:0x1000
 
 Specify if you want the activation to fail if it uses custom marshalling.
 
-### -field CLSCTX_ENABLE_CODE_DOWNLOAD
+### -field CLSCTX_ENABLE_CODE_DOWNLOAD:0x2000
 
 Enables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_NO_CODE_DOWNLOAD.
 
-### -field CLSCTX_NO_FAILURE_LOG
+### -field CLSCTX_NO_FAILURE_LOG:0x4000
 
 The CLSCTX_NO_FAILURE_LOG can be used to override the logging of failures in <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>.
 
@@ -125,40 +125,40 @@ If the ActivationFailureLoggingLevel is created, the following values can determ
 </li>
 </ul>
 
-### -field CLSCTX_DISABLE_AAA
+### -field CLSCTX_DISABLE_AAA:0x8000
 
 Disables activate-as-activator (AAA) activations for this activation only. This flag overrides the setting of the EOAC_DISABLE_AAA flag from the EOLE_AUTHENTICATION_CAPABILITIES enumeration. This flag cannot be set at the same time as CLSCTX_ENABLE_AAA. Any activation where a server process would be launched under the caller's identity is known as an activate-as-activator (AAA) activation. Disabling AAA activations allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components. Library applications that use activation calls should always set this flag during those calls. This helps prevent the library application from being used in an escalation-of-privilege security attack. This is the only way to disable AAA activations in a library application because the EOAC_DISABLE_AAA flag from the EOLE_AUTHENTICATION_CAPABILITIES enumeration is applied only to the server process and not to the library application.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
-### -field CLSCTX_ENABLE_AAA
+### -field CLSCTX_ENABLE_AAA:0x10000
 
 Enables activate-as-activator (AAA) activations for this activation only. This flag overrides the setting of the EOAC_DISABLE_AAA flag from the EOLE_AUTHENTICATION_CAPABILITIES enumeration. This flag cannot be set at the same time as CLSCTX_DISABLE_AAA. Any activation where a server process would be launched under the caller's identity is known as an activate-as-activator (AAA) activation. Enabling this flag allows an application to transfer its identity to an activated component. 
 
 <b>Windows 2000:  </b>This flag is not supported.
 
-### -field CLSCTX_FROM_DEFAULT_CONTEXT
+### -field CLSCTX_FROM_DEFAULT_CONTEXT:0x20000
 
 Begin this activation from the default context of the current apartment.
 
-### -field CLSCTX_ACTIVATE_X86_SERVER
+### -field CLSCTX_ACTIVATE_X86_SERVER:0x40000
 
 ### -field CLSCTX_ACTIVATE_32_BIT_SERVER
 
 Activate or connect to a 32-bit version of the server; fail if one is not registered.
 
-### -field CLSCTX_ACTIVATE_64_BIT_SERVER
+### -field CLSCTX_ACTIVATE_64_BIT_SERVER:0x80000
 
 Activate or connect to a 64 bit version of the server; fail if one is not registered.
 
-### -field CLSCTX_ENABLE_CLOAKING
+### -field CLSCTX_ENABLE_CLOAKING:0x100000
 
 When this flag is specified, COM uses the impersonation token of the thread, if one is present, for the activation request made by the thread. When this flag is not specified or if the thread does not have an impersonation token, COM uses the process token of the thread's process for the activation request made by the thread.
 
 
 <b>Windows Vista or later:  </b>This flag is supported.
 
-### -field CLSCTX_APPCONTAINER
+### -field CLSCTX_APPCONTAINER:0x400000
 
 Indicates activation is for an app container.
 
@@ -166,7 +166,7 @@ Indicates activation is for an app container.
 <div class="alert"><b>Note</b>  This flag is reserved for internal use and is not intended to be used directly from your code.</div>
 <div> </div>
 
-### -field CLSCTX_ACTIVATE_AAA_AS_IU
+### -field CLSCTX_ACTIVATE_AAA_AS_IU:0x800000
 
 Specify this flag for Interactive User activation behavior for As-Activator servers. A strongly named Medium IL Windows Store app can use this flag to launch an "As Activator" COM server without a strong name. Also, you can use this flag to bind to a running instance of the COM server that's launched by a desktop application.
 
@@ -182,11 +182,11 @@ This flag has no effect for in-process servers.
 
 Off-machine activations fail when they use this flag.
 
-### -field CLSCTX_RESERVED6
+### -field CLSCTX_RESERVED6:0x1000000
 
-### -field CLSCTX_ACTIVATE_ARM32_SERVER
+### -field CLSCTX_ACTIVATE_ARM32_SERVER:0x2000000
 
-### -field CLSCTX_PS_DLL
+### -field CLSCTX_PS_DLL:0x80000000
 
 Used for loading Proxy/Stub DLLs.
 

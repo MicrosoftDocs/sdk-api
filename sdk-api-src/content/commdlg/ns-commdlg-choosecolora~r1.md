@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORA~r1
 title: CHOOSECOLORA
-ms.date: 01/30/2019
+description: The CHOOSECOLORA (ANSI) structure r1 (commdlg.h) contains information the ChooseColor function uses to initialize the Color dialog box.
+ms.date: 08/16/2022
 ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
 targetos: Windows
 req.construct-type: structure

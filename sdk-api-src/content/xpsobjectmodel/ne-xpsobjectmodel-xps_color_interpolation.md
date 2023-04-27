@@ -56,7 +56,7 @@ Describes the gamma function used for color interpolation.
 
 ## -enum-fields
 
-### -field XPS_COLOR_INTERPOLATION_SCRGBLINEAR
+### -field XPS_COLOR_INTERPOLATION_SCRGBLINEAR:1
 
 First, the color values are converted to scRGB, then a linear interpolation is performed between them.
 

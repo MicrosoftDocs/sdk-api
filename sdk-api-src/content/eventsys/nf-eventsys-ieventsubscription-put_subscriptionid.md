@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionID
 title: IEventSubscription::put_SubscriptionID (eventsys.h)
-description: The unique ID for the subscription object.
+description: The unique ID for the subscription object. (Put)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","SubscriptionID property","IEventSubscription.SubscriptionID","IEventSubscription.put_SubscriptionID","IEventSubscription::SubscriptionID","IEventSubscription::get_SubscriptionID","IEventSubscription::put_SubscriptionID","SubscriptionID property [COM+]","SubscriptionID property [COM+]","IEventSubscription interface","cos.ieventsubscription_subscriptionid","eventsys/IEventSubscription::SubscriptionID","eventsys/IEventSubscription::get_SubscriptionID","eventsys/IEventSubscription::put_SubscriptionID","put_SubscriptionID"]
 old-location: cos\ieventsubscription_subscriptionid.htm
 tech.root: cos

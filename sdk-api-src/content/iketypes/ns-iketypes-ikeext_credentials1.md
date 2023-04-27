@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIALS1_
 title: IKEEXT_CREDENTIALS1 (iketypes.h)
-description: Is used to store multiple credential pairs.
+description: Is used to store multiple credential pairs. (IKEEXT_CREDENTIALS1)
 helpviewer_keywords: ["IKEEXT_CREDENTIALS1","IKEEXT_CREDENTIALS1 structure [Filtering]","fwp.ikeext_credentials1","iketypes/IKEEXT_CREDENTIALS1"]
 old-location: fwp\ikeext_credentials1.htm
 tech.root: fwp

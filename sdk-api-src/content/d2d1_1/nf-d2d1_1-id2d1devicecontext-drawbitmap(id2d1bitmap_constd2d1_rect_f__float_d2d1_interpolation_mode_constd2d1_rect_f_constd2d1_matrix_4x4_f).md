@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.DrawBitmap(ID2D1Bitmap,constD2D1_RECT_F&,FLOAT,D2D1_INTERPOLATION_MODE,constD2D1_RECT_F,constD2D1_MATRIX_4X4_F)
 title: ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F,const D2D1_MATRIX_4X4_F) (d2d1_1.h)
-description: Draws a bitmap to the render target.
+description: Draws a bitmap to the render target. (overload 3/5)
 helpviewer_keywords: ["DrawBitmap","DrawBitmap method [Direct2D]","DrawBitmap method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","DrawBitmap method","ID2D1DeviceContext.DrawBitmap","ID2D1DeviceContext.DrawBitmap(ID2D1Bitmap","const D2D1_RECT_F &","FLOAT","D2D1_INTERPOLATION_MODE","const D2D1_RECT_F","const D2D1_MATRIX_4X4_F)","ID2D1DeviceContext::DrawBitmap","ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap","const D2D1_RECT_F &","FLOAT","D2D1_INTERPOLATION_MODE","const D2D1_RECT_F &","const D2D1_MATRIX_4X4_F &)","ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap","const D2D1_RECT_F &","FLOAT","D2D1_INTERPOLATION_MODE","const D2D1_RECT_F","const D2D1_MATRIX_4X4_F)","d2d1_1/ID2D1DeviceContext::DrawBitmap","direct2d.id2d1devicecontext_drawbitmap"]
 old-location: direct2d\id2d1devicecontext_drawbitmap.htm
 tech.root: Direct2D

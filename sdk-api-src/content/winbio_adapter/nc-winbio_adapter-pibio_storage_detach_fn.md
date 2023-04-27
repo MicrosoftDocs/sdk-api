@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DETACH_FN
 title: PIBIO_STORAGE_DETACH_FN (winbio_adapter.h)
-description: Releases adapter-specific resources attached to the pipeline.
+description: Releases adapter-specific resources attached to the pipeline.S
 helpviewer_keywords: ["PIBIO_STORAGE_DETACH_FN","PIBIO_STORAGE_DETACH_FN callback","StorageAdapterDetach","StorageAdapterDetach callback function [Windows Biometric Framework API]","secbiomet.storageadapterdetach","winbio_adapter/StorageAdapterDetach"]
 old-location: secbiomet\storageadapterdetach.htm
 tech.root: SecBioMet

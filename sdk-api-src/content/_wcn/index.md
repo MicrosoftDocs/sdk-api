@@ -4,7 +4,7 @@ title: Windows Connect Now
 ms.assetid: 0f160390-e9fe-3eb7-acb4-311e3c3278c6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Connect Now

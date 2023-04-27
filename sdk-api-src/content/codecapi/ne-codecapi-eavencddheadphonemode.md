@@ -54,15 +54,15 @@ Specifies headphone mode for a Dolby Digital audio stream. This enumeration is u
 
 ## -enum-fields
 
-### -field eAVEncDDHeadphoneMode_NotIndicated
+### -field eAVEncDDHeadphoneMode_NotIndicated:0
 
 Headphone mode is not indicated.
 
-### -field eAVEncDDHeadphoneMode_NotEncoded
+### -field eAVEncDDHeadphoneMode_NotEncoded:1
 
 Headphone mode is disabled.
 
-### -field eAVEncDDHeadphoneMode_Encoded
+### -field eAVEncDDHeadphoneMode_Encoded:2
 
 Headphone mode is enabled.
 

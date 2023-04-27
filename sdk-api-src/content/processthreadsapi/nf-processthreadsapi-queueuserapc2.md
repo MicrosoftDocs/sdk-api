@@ -1,10 +1,10 @@
 ---
 UID: NF:processthreadsapi.QueueUserAPC2
-tech.root: backup
+tech.root: processthreadsapi
 title: QueueUserAPC2 function (processthreadsapi.h)
-ms.date: 10/14/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
+description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread. (QueueUserAPC2)
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -12,15 +12,15 @@ req.ddi-compliance:
 req.dll: Kernel32.dll
 req.header: processthreadsapi.h
 req.idl: 
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 11 (Build 22000)
+req.target-min-winversvr: Windows Server 2022 (Build 20348)
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
@@ -52,7 +52,7 @@ Adds a user-mode [asynchronous procedure call](/windows/win32/sync/asynchronous-
 
 A pointer to the application-supplied APC function to be called when the specified thread performs an alertable wait operation. For more information, see [APCProc](/windows/desktop/api/winnt/nc-winnt-papcfunc).
 
-For special user-mode APCs, an alertable wait is not required. See [Remarks](#-remarks) for more information about special user-mode APCs.
+For special user-mode APCs, an alertable wait is not required. See [Remarks](#remarks) for more information about special user-mode APCs.
 
 ### -param Thread
 
@@ -64,13 +64,13 @@ A single value that is passed to the APC function pointed to by the *ApcRoutine*
 
 ### -param Flags
 
-A value from [QUEUE_USER_APC_FLAGS](ne-processthreadsapi-queue_user_apc_flags.md) to modify the behavior of the user-mode APC.
+A value from [QUEUE_USER_APC_FLAGS enumeration](ne-processthreadsapi-queue_user_apc_flags.md) that modifies the behavior of the user-mode APC.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror). **Windows Server 2003 and Windows XP:** There are no error values defined for this function that can be retrieved by calling [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 

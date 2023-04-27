@@ -1,5 +1,5 @@
 ---
-UID: NS:http.__unnamed_struct_0
+UID: NS:http.HTTP_SERVICE_CONFIG_CACHE_SET
 title: HTTP_SERVICE_CONFIG_CACHE_SET (http.h)
 description: Used in the pConfigInformation parameter of the HttpSetServiceConfiguration function.
 helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_CACHE_SET","HTTP_SERVICE_CONFIG_CACHE_SET","HTTP_SERVICE_CONFIG_CACHE_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_CACHE_SET","PHTTP_SERVICE_CONFIG_CACHE_SET structure pointer [HTTP]","http.http_service_config_cache_set","http/HTTP_SERVICE_CONFIG_CACHE_SET","http/PHTTP_SERVICE_CONFIG_CACHE_SET"]
@@ -67,3 +67,4 @@ Configuration cache parameter.
 ## -see-also
 
 <a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+

@@ -53,21 +53,21 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid flags for provider query operations. Callers can query for hardware providers, software providers, or both.
 
 ## -enum-fields
 
-### -field VDS_QUERY_SOFTWARE_PROVIDERS
+### -field VDS_QUERY_SOFTWARE_PROVIDERS:0x1
 
 If set, the operation queries for software providers.
 
-### -field VDS_QUERY_HARDWARE_PROVIDERS
+### -field VDS_QUERY_HARDWARE_PROVIDERS:0x2
 
 If set, the operation queries for hardware providers.
 
-### -field VDS_QUERY_VIRTUALDISK_PROVIDERS
+### -field VDS_QUERY_VIRTUALDISK_PROVIDERS:0x4
 
 If set, the operation queries for virtual disk providers.
 

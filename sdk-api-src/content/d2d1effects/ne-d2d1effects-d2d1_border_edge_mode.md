@@ -54,16 +54,16 @@ The edge mode for the <a href="/windows/desktop/Direct2D/border">Border effect</
 
 ## -enum-fields
 
-### -field D2D1_BORDER_EDGE_MODE_CLAMP
+### -field D2D1_BORDER_EDGE_MODE_CLAMP:0
 
 Repeats the pixels from the edges of the image.
 
-### -field D2D1_BORDER_EDGE_MODE_WRAP
+### -field D2D1_BORDER_EDGE_MODE_WRAP:1
 
 Uses pixels from the opposite end edge of the image.
 
-### -field D2D1_BORDER_EDGE_MODE_MIRROR
+### -field D2D1_BORDER_EDGE_MODE_MIRROR:2
 
 Reflects pixels about the edge of the image.
 
-### -field D2D1_BORDER_EDGE_MODE_FORCE_DWORD
+### -field D2D1_BORDER_EDGE_MODE_FORCE_DWORD:0xffffffff

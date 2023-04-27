@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_34
+UID: NS:lpmapi.ID_ERROR_OBJECT
 title: ID_ERROR_OBJECT (lpmapi.h)
 description: The ID_ERROR_OBJECT structure contains error message information for Identity Policy Elements for RSVP.
 helpviewer_keywords: ["ID_ERROR_OBJECT","ID_ERROR_OBJECT structure [QOS]","lpmapi/ID_ERROR_OBJECT","qos.id_error_object"]
@@ -82,3 +82,4 @@ Identity Policy Element error data.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
+

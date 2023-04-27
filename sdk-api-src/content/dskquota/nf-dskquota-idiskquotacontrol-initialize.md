@@ -140,7 +140,7 @@ The requested file path is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_NOTSUPPORTED</b></dt>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

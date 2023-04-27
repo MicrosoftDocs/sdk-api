@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialAngularVelocity
 title: IInertiaProcessor::get_InitialAngularVelocity (manipulations.h)
-description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins.
+description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins. (Get)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialAngularVelocity property","IInertiaProcessor.InitialAngularVelocity","IInertiaProcessor.get_InitialAngularVelocity","IInertiaProcessor::InitialAngularVelocity","IInertiaProcessor::get_InitialAngularVelocity","IInertiaProcessor::put_InitialAngularVelocity","InitialAngularVelocity property [Windows Touch]","InitialAngularVelocity property [Windows Touch]","IInertiaProcessor interface","get_InitialAngularVelocity","manipulations/IInertiaProcessor::InitialAngularVelocity","manipulations/IInertiaProcessor::get_InitialAngularVelocity","manipulations/IInertiaProcessor::put_InitialAngularVelocity","wintouch.iinertiaprocessor_initialangularvelocity"]
 old-location: wintouch\iinertiaprocessor_initialangularvelocity.htm
 tech.root: wintouch

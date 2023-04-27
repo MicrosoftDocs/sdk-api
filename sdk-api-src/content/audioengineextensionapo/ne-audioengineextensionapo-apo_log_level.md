@@ -38,31 +38,33 @@ Specifies the level of an APO event logged with [IAudioProcessingObjectLoggingSe
 
 ## -enum-fields
 
-### -field APO_LOG_LEVEL_ALWAYS
+### -field APO_LOG_LEVEL_ALWAYS:0
 
 All events.
 
-### -field APO_LOG_LEVEL_CRITICAL
+### -field APO_LOG_LEVEL_CRITICAL:1
 
 Abnormal exit or termination events.
 
-### -field APO_LOG_LEVEL_ERROR
+### -field APO_LOG_LEVEL_ERROR:2
 
 Severe error events.
 
-### -field APO_LOG_LEVEL_WARNING
+### -field APO_LOG_LEVEL_WARNING:3
 
 Warning events such as allocation failures.
 
-### -field APO_LOG_LEVEL_INFO
+### -field APO_LOG_LEVEL_INFO:4
 
 Non-error events such as entry or exit events.
 
-### -field APO_LOG_LEVEL_VERBOSE
+### -field APO_LOG_LEVEL_VERBOSE:5
 
 Detailed trace events.
 
 ## -remarks
+
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 
 ## -see-also
 

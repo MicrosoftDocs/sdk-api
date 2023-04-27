@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.gethostbyaddr
 title: gethostbyaddr function (winsock2.h)
-description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
+description: The gethostbyaddr function  retrieves the host information corresponding to a network address. (gethostbyaddr is no longer recommended, use getnameinfo instead)
 helpviewer_keywords: ["AF_INET","AF_INET6","AF_NETBIOS","_win32_gethostbyaddr_2","gethostbyaddr","gethostbyaddr function [Winsock]","winsock.gethostbyaddr_2","wsipv6ok/gethostbyaddr"]
 old-location: winsock\gethostbyaddr_2.htm
 tech.root: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.BeginEvent
 title: ID3D12CommandQueue::BeginEvent (d3d12.h)
-description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
+description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue. (ID3D12CommandQueue.BeginEvent)
 helpviewer_keywords: ["BeginEvent","BeginEvent method","BeginEvent method","ID3D12CommandQueue interface","ID3D12CommandQueue interface","BeginEvent method","ID3D12CommandQueue.BeginEvent","ID3D12CommandQueue::BeginEvent","d3d12/ID3D12CommandQueue::BeginEvent","direct3d12.id3d12commandqueue_beginevent"]
 old-location: direct3d12\id3d12commandqueue_beginevent.htm
 tech.root: direct3d12

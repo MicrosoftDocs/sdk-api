@@ -52,31 +52,31 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid disk SAN policy flags.
 
 ## -enum-fields
 
-### -field VDS_SP_UNKNOWN
+### -field VDS_SP_UNKNOWN:0
 
 The SAN policy is unknown.
 
-### -field VDS_SP_ONLINE
+### -field VDS_SP_ONLINE:0x1
 
 All newly discovered disks are brought online and made read-write.
 
-### -field VDS_SP_OFFLINE_SHARED
+### -field VDS_SP_OFFLINE_SHARED:0x2
 
 All newly discovered disks that do not reside on a shared bus are brought online and made read-write.
 
-### -field VDS_SP_OFFLINE
+### -field VDS_SP_OFFLINE:0x3
 
 All newly discovered disks remain offline and read-only.
 
-### -field VDS_SP_OFFLINE_INTERNAL
+### -field VDS_SP_OFFLINE_INTERNAL:0x4
 
-### -field VDS_SP_MAX
+### -field VDS_SP_MAX:0x5
 
 ## -remarks
 

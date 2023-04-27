@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DVolumeTexture9
 title: IDirect3DVolumeTexture9 (d3d9.h)
-description: Applications use the methods of the IDirect3DVolumeTexture9 interface to manipulate a volume texture resource.
+description: The IDirect3DVolumeTexture9 (d3d9.h) interface is used by applications to manipulate a volume texture resource.
 helpviewer_keywords: ["IDirect3DVolumeTexture9","IDirect3DVolumeTexture9 interface [Direct3D 9]","IDirect3DVolumeTexture9 interface [Direct3D 9]","described","ac7e332f-4255-e077-7804-d9a2e2476d37","d3d9helper/IDirect3DVolumeTexture9","direct3d9.idirect3dvolumetexture9"]
 old-location: direct3d9\idirect3dvolumetexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], IDirect3DVolumeTexture9 interface [Direct3D 9],described, ac7e332f-4255-e077-7804-d9a2e2476d37, d3d9helper/IDirect3DVolumeTexture9, direct3d9.idirect3dvolumetexture9
 req.header: d3d9.h
 req.include-header: D3D9.h

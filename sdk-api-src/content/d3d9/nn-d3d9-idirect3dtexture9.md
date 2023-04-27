@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DTexture9
 title: IDirect3DTexture9 (d3d9.h)
-description: Applications use the methods of the IDirect3DTexture9 interface to manipulate a texture resource.
+description: The IDirect3DTexture9 (d3d9.h) interface is used by applications to manipulate a texture resource.
 helpviewer_keywords: ["IDirect3DTexture9","IDirect3DTexture9 interface [Direct3D 9]","IDirect3DTexture9 interface [Direct3D 9]","described","d3d9helper/IDirect3DTexture9","direct3d9.idirect3dtexture9","f2bb39fa-d156-a3ea-9ea0-656a78998f7a"]
 old-location: direct3d9\idirect3dtexture9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], IDirect3DTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DTexture9, direct3d9.idirect3dtexture9, f2bb39fa-d156-a3ea-9ea0-656a78998f7a
 req.header: d3d9.h
 req.include-header: D3D9.h

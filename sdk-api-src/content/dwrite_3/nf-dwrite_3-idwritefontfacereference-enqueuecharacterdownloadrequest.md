@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.EnqueueCharacterDownloadRequest
 title: IDWriteFontFaceReference::EnqueueCharacterDownloadRequest (dwrite_3.h)
-description: Adds a request to the font download queue (IDWriteFontDownloadQueue).
+description: Adds a request to the font download queue (IDWriteFontDownloadQueue). (IDWriteFontFaceReference.EnqueueCharacterDownloadRequest)
 helpviewer_keywords: ["EnqueueCharacterDownloadRequest","EnqueueCharacterDownloadRequest method [Direct Write]","EnqueueCharacterDownloadRequest method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","EnqueueCharacterDownloadRequest method","IDWriteFontFaceReference.EnqueueCharacterDownloadRequest","IDWriteFontFaceReference::EnqueueCharacterDownloadRequest","directwrite.idwritefontfacereference_enqueuecharacterdownloadrequest","dwrite_3/IDWriteFontFaceReference::EnqueueCharacterDownloadRequest"]
 old-location: directwrite\idwritefontfacereference_enqueuecharacterdownloadrequest.htm
 tech.root: DirectWrite

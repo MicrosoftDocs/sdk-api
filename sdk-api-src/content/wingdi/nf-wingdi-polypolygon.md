@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that define the vertices of the polygons, in logical coordinates. The polygons are specified consecutively. Each polygon is closed automatically by drawing a line from the last vertex to the first. Each vertex should be specified once.
+A pointer to an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures that define the vertices of the polygons, in logical coordinates. The polygons are specified consecutively. Each polygon is closed automatically by drawing a line from the last vertex to the first. Each vertex should be specified once.
 
 ### -param asz [in]
 
@@ -99,7 +99,7 @@ Any extra points are ignored. To draw the polygons with more points, divide your
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT
+<a href="/windows/win32/api/windef/ns-windef-point">POINT
       </a>
 
 

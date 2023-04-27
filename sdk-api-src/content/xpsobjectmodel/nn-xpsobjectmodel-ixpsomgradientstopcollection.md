@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGradientStopCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface pointers.

@@ -1,5 +1,5 @@
 ---
-UID: NS:batclass.__unnamed_struct_3
+UID: NS:batclass.BATTERY_MINIPORT_INFO_V1_1
 title: BATTERY_MINIPORT_INFO_V1_1 (batclass.h)
 description: Battery miniclass drivers fill in the BATTERY_MINIPORT_INFO_V1_1 structure before calling the battery class driver's BatteryClassInitializeDevice routine. BATTERY_MINIPORT_INFO_V1_1 is an updated version of the previous structure BATTERY_MINIPORT_INFO.
 helpviewer_keywords: ["*PBATTERY_MINIPORT_INFO_V1_1","BATTERY_MINIPORT_INFO_V1_1","BATTERY_MINIPORT_INFO_V1_1 structure [Battery Devices]","PBATTERY_MINIPORT_INFO_V1_1","PBATTERY_MINIPORT_INFO_V1_1 structure pointer [Battery Devices]","batclass/BATTERY_MINIPORT_INFO_V1_1","batclass/PBATTERY_MINIPORT_INFO_V1_1","battery.battery_miniport_info_v1_1"]
@@ -103,3 +103,4 @@ Pointer to a Unicode string; should be NULL.
 ### -field Fdo
 
 Pointer to the FDO (functional device object) for the battery device.
+

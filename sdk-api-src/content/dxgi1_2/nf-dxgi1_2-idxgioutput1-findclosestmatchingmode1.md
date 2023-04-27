@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.FindClosestMatchingMode1
 title: IDXGIOutput1::FindClosestMatchingMode1 (dxgi1_2.h)
-description: Finds the display mode that most closely matches the requested display mode.
+description: Finds the display mode that most closely matches the requested display mode. (IDXGIOutput1.FindClosestMatchingMode1)
 helpviewer_keywords: ["FindClosestMatchingMode1","FindClosestMatchingMode1 method [DXGI]","FindClosestMatchingMode1 method [DXGI]","IDXGIOutput1 interface","IDXGIOutput1 interface [DXGI]","FindClosestMatchingMode1 method","IDXGIOutput1.FindClosestMatchingMode1","IDXGIOutput1::FindClosestMatchingMode1","direct3ddxgi.idxgioutput1_findclosestmatchingmode1","dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1"]
 old-location: direct3ddxgi\idxgioutput1_findclosestmatchingmode1.htm
 tech.root: direct3ddxgi

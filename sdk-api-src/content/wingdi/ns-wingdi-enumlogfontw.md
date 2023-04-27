@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTW
 title: ENUMLOGFONTW (wingdi.h)
-description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font.
+description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font. (Unicode)
 helpviewer_keywords: ["*LPENUMLOGFONTW","ENUMLOGFONT","ENUMLOGFONT structure [Windows GDI]","ENUMLOGFONTA","ENUMLOGFONTW","LPENUMLOGFONT","LPENUMLOGFONT structure pointer [Windows GDI]","_win32_ENUMLOGFONT_str","gdi.enumlogfont","wingdi/ENUMLOGFONT","wingdi/ENUMLOGFONTA","wingdi/ENUMLOGFONTW","wingdi/LPENUMLOGFONT"]
 old-location: gdi\enumlogfont.htm
 tech.root: gdi

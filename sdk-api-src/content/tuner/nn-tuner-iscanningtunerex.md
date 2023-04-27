@@ -53,13 +53,13 @@ api_name:
 This topic applies to Windows Vista.
         
 
-The <b>IScanningTunerEx</b> interface is an extended version of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> and is exposed by the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter. It inherits from <b>IScanningTuner</b> and permits direct control of a tuner that supports searching for valid programming. The client must provide a valid tuning space (using <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tuningspace">ITuner::put_TuningSpace</a> or <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tunerequest">ITuner::put_TuneRequest</a>) before calling any of the methods in this interface. This interface is meant to be used in conjunction with the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> outbound interface.
+The <b>IScanningTunerEx</b> interface is an extended version of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> and is exposed by the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter. It inherits from <b>IScanningTuner</b> and permits direct control of a tuner that supports searching for valid programming. The client must provide a valid tuning space (using <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tuningspace">ITuner::put_TuningSpace</a> or <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tunerequest">ITuner::put_TuneRequest</a>) before calling any of the methods in this interface. This interface is meant to be used in conjunction with the <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a> outbound interface.
 
 ## -inheritance
 
 The <b>IScanningTunerEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a>. <b>IScanningTunerEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

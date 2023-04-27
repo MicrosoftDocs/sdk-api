@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANAMESPACE_INFOEXA
 title: WSANAMESPACE_INFOEXA (winsock2.h)
-description: Contains all registration information for a namespace provider.
+description: Contains all registration information for a namespace provider. (WSANAMESPACE_INFOEXA)
 helpviewer_keywords: ["*LPWSANAMESPACE_INFOEXA","*PWSANAMESPACE_INFOEXA","LPWSANAMESPACE_INFOEX","LPWSANAMESPACE_INFOEX structure pointer [Winsock]","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","PWSANAMESPACE_INFOEX","PWSANAMESPACE_INFOEX structure pointer [Winsock]","WSANAMESPACE_INFOEX","WSANAMESPACE_INFOEX structure [Winsock]","WSANAMESPACE_INFOEXA","WSANAMESPACE_INFOEXW","winsock.wsanamespace_infoex","winsock2/LPWSANAMESPACE_INFOEX","winsock2/PWSANAMESPACE_INFOEX","winsock2/WSANAMESPACE_INFOEX","winsock2/WSANAMESPACE_INFOEXA","winsock2/WSANAMESPACE_INFOEXW"]
 old-location: winsock\wsanamespace_infoex.htm
 tech.root: WinSock

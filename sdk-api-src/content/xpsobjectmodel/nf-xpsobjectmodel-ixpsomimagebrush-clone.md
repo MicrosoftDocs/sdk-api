@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.Clone
 title: IXpsOMImageBrush::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMImageBrush.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMImageBrush interface","IXpsOMImageBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMImageBrush.Clone","IXpsOMImageBrush::Clone","xps.ixpsomimagebrush_clone","xpsobjectmodel/IXpsOMImageBrush::Clone"]
 old-location: xps\ixpsomimagebrush_clone.htm
 tech.root: xps

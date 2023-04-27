@@ -1,7 +1,7 @@
 ---
-UID: NS:commctrl.__unnamed_struct_2
+UID: NS:commctrl.TBBUTTONINFOA
 title: TBBUTTONINFOA (commctrl.h)
-description: Contains or receives information for a specific button in a toolbar.
+description: Contains or receives information for a specific button in a toolbar. (ANSI)
 helpviewer_keywords: ["*LPTBBUTTONINFOA","LPTBBUTTONINFO","LPTBBUTTONINFO structure pointer [Windows Controls]","TBBUTTONINFO","TBBUTTONINFO structure [Windows Controls]","TBBUTTONINFOA","TBBUTTONINFOW","TBIF_BYINDEX","TBIF_COMMAND","TBIF_IMAGE","TBIF_LPARAM","TBIF_SIZE","TBIF_STATE","TBIF_STYLE","TBIF_TEXT","_win32_TBBUTTONINFO","_win32_TBBUTTONINFO_cpp","commctrl/LPTBBUTTONINFO","commctrl/TBBUTTONINFO","commctrl/TBBUTTONINFOA","commctrl/TBBUTTONINFOW","controls.TBBUTTONINFO","controls._win32_TBBUTTONINFO"]
 old-location: controls\TBBUTTONINFO.htm
 tech.root: Controls
@@ -214,3 +214,4 @@ Size of the buffer at <b>pszText</b>. If the button information is being set, th
 
 > [!NOTE]
 > The commctrl.h header defines TBBUTTONINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

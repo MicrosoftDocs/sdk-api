@@ -4,7 +4,7 @@ title: Windows Sidebar
 ms.assetid: 5b5f5c9e-0112-3ee8-962d-1fc7c54df431
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 archived: true
 ---
 

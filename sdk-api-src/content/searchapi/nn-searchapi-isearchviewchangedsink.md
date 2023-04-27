@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchViewChangedSink
 title: ISearchViewChangedSink (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchViewChangedSink)
 helpviewer_keywords: ["ISearchViewChangedSink","ISearchViewChangedSink interface [search]","ISearchViewChangedSink interface [search]","described","_search_ISearchViewChangedSink","search._search_ISearchViewChangedSink","searchapi/ISearchViewChangedSink"]
 old-location: search\_search_ISearchViewChangedSink.htm
 tech.root: search

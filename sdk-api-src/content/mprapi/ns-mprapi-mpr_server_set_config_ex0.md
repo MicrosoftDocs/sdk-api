@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._MPR_SERVER_SET_CONFIG_EX0
 title: MPR_SERVER_SET_CONFIG_EX0 (mprapi.h)
-description: Used to get or set the tunnel configuration information of a RAS server.
+description: Used to get or set the tunnel configuration information of a RAS server. (MPR_SERVER_SET_CONFIG_EX0)
 helpviewer_keywords: ["*PMPR_SERVER_SET_CONFIG_EX0","MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2","MPRAPI_SET_CONFIG_PROTOCOL_FOR_L2TP","MPRAPI_SET_CONFIG_PROTOCOL_FOR_PPTP","MPRAPI_SET_CONFIG_PROTOCOL_FOR_SSTP","MPR_SERVER_SET_CONFIG_EX","MPR_SERVER_SET_CONFIG_EX structure [RAS]","MPR_SERVER_SET_CONFIG_EX0","MPR_SERVER_SET_CONFIG_EX1","PMPR_SERVER_SET_CONFIG_EX","PMPR_SERVER_SET_CONFIG_EX structure pointer [RAS]","_MPR_SERVER_SET_CONFIG_EX0","_MPR_SERVER_SET_CONFIG_EX1","mprapi/MPR_SERVER_SET_CONFIG_EX","mprapi/PMPR_SERVER_SET_CONFIG_EX","rras.mpr_server_set_config_ex"]
 old-location: rras\mpr_server_set_config_ex.htm
 tech.root: RRAS

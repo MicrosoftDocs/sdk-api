@@ -68,9 +68,6 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
-      </a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink</a>
+- <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

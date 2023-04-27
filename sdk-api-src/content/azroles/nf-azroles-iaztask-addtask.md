@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddTask","AddTask method [Security]","AddTask method [Sec
 old-location: security\iaztask_addtask.htm
 tech.root: security
 ms.assetid: 6b3057d1-26aa-443c-857f-0057ef9d2072
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzTask object, AddTask method [Security],IAzTask interface, AzTask object [Security],AddTask method, IAzTask interface [Security],AddTask method, IAzTask.AddTask, IAzTask::AddTask, azroles/IAzTask::AddTask, security.iaztask_addtask
 req.header: azroles.h
 req.include-header: 
@@ -48,23 +48,32 @@ api_name:
 
 # IAzTask::AddTask
 
-
 ## -description
 
-The <b>AddTask</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name to the task.
+The **AddTask** method adds the [IAzTask](nn-azroles-iaztask.md) object with the specified name to the task.
 
 ## -parameters
 
 ### -param bstrTask [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to add to the task.
+Name of the [IAzTask](nn-azroles-iaztask.md) object to add to the task.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-This method allows the nesting of <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects within another <b>IAzTask</b> object.
+This method allows the nesting of [IAzTask](nn-azroles-iaztask.md) objects within another **IAzTask** object.
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iaztask-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzTask](nn-azroles-iaztask.md)
+
+[Submit](nf-azroles-iaztask-submit.md)

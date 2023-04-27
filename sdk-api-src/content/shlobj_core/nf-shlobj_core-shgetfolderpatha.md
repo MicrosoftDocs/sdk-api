@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathA
 title: SHGetFolderPathA function (shlobj_core.h)
-description: Deprecated.
+description: Deprecated. (SHGetFolderPathA)
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212

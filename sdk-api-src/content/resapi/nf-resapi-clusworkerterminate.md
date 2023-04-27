@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusWorkerTerminate
 title: ClusWorkerTerminate
-description: Waits for a worker thread to terminate up to the specified timeout.
+description: Waits for a worker thread to terminate up to the specified timeout. (ClusWorkerTerminate)
 helpviewer_keywords: ["ClusWorkerTerminate"]
 ms.date: 07/01/2019
 tech.root: MsCS

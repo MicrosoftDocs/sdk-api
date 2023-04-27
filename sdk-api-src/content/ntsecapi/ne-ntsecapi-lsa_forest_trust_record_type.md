@@ -1,5 +1,5 @@
 ---
-UID: NE:ntsecapi.__unnamed_enum_0
+UID: NE:ntsecapi.LSA_FOREST_TRUST_RECORD_TYPE
 title: LSA_FOREST_TRUST_RECORD_TYPE (ntsecapi.h)
 description: Defines the type of a Local Security Authority forest trust record.
 helpviewer_keywords: ["ForestTrustDomainInfo","ForestTrustRecordTypeLast","ForestTrustTopLevelName","ForestTrustTopLevelNameEx","LSA_FOREST_TRUST_RECORD_TYPE","LSA_FOREST_TRUST_RECORD_TYPE enumeration [Security]","ntsecapi/ForestTrustDomainInfo","ntsecapi/ForestTrustRecordTypeLast","ntsecapi/ForestTrustTopLevelName","ntsecapi/ForestTrustTopLevelNameEx","ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE","security.lsa_forest_trust_record_type"]
@@ -73,3 +73,4 @@ Marks the end of an enumeration.
 ## -remarks
 
 This enumeration is used by the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structure.
+

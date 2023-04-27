@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._DNS_SERVER_PROPERTY
 title: DNS_SERVER_PROPERTY
-description: Describes a DNS server property, which is set in the [**DNS_INTERFACE_SETTINGS3**](ns-netioapi-dns_interface_settings3.md) structure, and configured through the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+description: Describes a DNS server property, which is set in the [**DNS_INTERFACE_SETTINGS3**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure, and configured through the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
 tech.root: IpHlp
 ms.date: 07/15/2021
 req.header: netioapi.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Describes a DNS server property, which is set in the [**DNS_INTERFACE_SETTINGS3**](ns-netioapi-dns_interface_settings3.md) structure, and configured through the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+Describes a DNS server property, which is set in the [**DNS_INTERFACE_SETTINGS3**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure, and configured through the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ Must be set to **DNS_INTERFACE_SETTINGS_VERSION1**.
 
 Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
 
-Must be the index of the corresponding server present in the [**DNS_INTERFACE_SETTINGS3::NameServer**](ns-netioapi-dns_interface_settings3.md) or **::ProfileNameServer** member. For proper usage, see the *ServerProperties* and *ProfileServerProperties* members in the topic for the [**DNS_INTERFACE_SETTINGS3**](ns-netioapi-dns_interface_settings3.md) structure.
+Must be the index of the corresponding server present in the [**DNS_INTERFACE_SETTINGS3::NameServer**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) or **::ProfileNameServer** member. For proper usage, see the *ServerProperties* and *ProfileServerProperties* members in the topic for the [**DNS_INTERFACE_SETTINGS3**](ns-netioapi-dns_interface_settings3.md) structure.
 
 ### -field Type
 

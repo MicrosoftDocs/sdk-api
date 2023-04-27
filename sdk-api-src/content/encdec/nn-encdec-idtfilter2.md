@@ -56,7 +56,7 @@ The <b>IDTFilter2</b> interface extends the <a href="/previous-versions/windows/
 
 The <b>IDTFilter2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter</a>. <b>IDTFilter2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

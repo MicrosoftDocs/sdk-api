@@ -54,11 +54,11 @@ The <b>X509ProviderType</b> enumeration specifies the type of cryptographic prov
 
 ## -enum-fields
 
-### -field XCN_PROV_NONE
+### -field XCN_PROV_NONE:0
 
 No provider is identified.
 
-### -field XCN_PROV_RSA_FULL
+### -field XCN_PROV_RSA_FULL:1
 
 Supports the following algorithms:
 
@@ -69,7 +69,7 @@ Supports the following algorithms:
 <li>Signatures: RSA</li>
 </ul>
 
-### -field XCN_PROV_RSA_SIG
+### -field XCN_PROV_RSA_SIG:2
 
 Supports the following algorithms:
 
@@ -78,7 +78,7 @@ Supports the following algorithms:
 <li>Signatures: RSA</li>
 </ul>
 
-### -field XCN_PROV_DSS
+### -field XCN_PROV_DSS:3
 
 Supports the following algorithms. This is a subset of the XCN_PROV_DSS_DH provider type.
 
@@ -87,7 +87,7 @@ Supports the following algorithms. This is a subset of the XCN_PROV_DSS_DH provi
 <li>Signatures: <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS)</li>
 </ul>
 
-### -field XCN_PROV_FORTEZZA
+### -field XCN_PROV_FORTEZZA:4
 
 Supports the Fortezza cryptographic card developed by NSA. This includes support for the following algorithms:
 
@@ -98,7 +98,7 @@ Supports the Fortezza cryptographic card developed by NSA. This includes support
 <li>Signatures: DSS</li>
 </ul>
 
-### -field XCN_PROV_MS_EXCHANGE
+### -field XCN_PROV_MS_EXCHANGE:5
 
 Supports cryptographic algorithms used by the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.
 This includes the following:
@@ -110,7 +110,7 @@ This includes the following:
 <li>Signatures: RSA</li>
 </ul>
 
-### -field XCN_PROV_SSL
+### -field XCN_PROV_SSL:6
 
 Supports the <a href="/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a>. This includes the following algorithms:
 
@@ -121,7 +121,7 @@ Supports the <a href="/windows/desktop/SecGloss/s-gly">Secure Sockets Layer prot
 <li>Signatures: RSA</li>
 </ul>
 
-### -field XCN_PROV_RSA_SCHANNEL
+### -field XCN_PROV_RSA_SCHANNEL:12
 
 Supports RSA and <a href="/windows/desktop/SecGloss/s-gly">Schannel</a> protocols. This includes the following algorithms:
 
@@ -132,7 +132,7 @@ Supports RSA and <a href="/windows/desktop/SecGloss/s-gly">Schannel</a> protocol
 <li>Signatures: RSA</li>
 </ul>
 
-### -field XCN_PROV_DSS_DH
+### -field XCN_PROV_DSS_DH:13
 
 Supports the following algorithms:
 
@@ -143,23 +143,23 @@ Supports the following algorithms:
 <li>Signatures: DSS</li>
 </ul>
 
-### -field XCN_PROV_EC_ECDSA_SIG
+### -field XCN_PROV_EC_ECDSA_SIG:14
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_EC_ECNRA_SIG
+### -field XCN_PROV_EC_ECNRA_SIG:15
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_EC_ECDSA_FULL
+### -field XCN_PROV_EC_ECDSA_FULL:16
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_EC_ECNRA_FULL
+### -field XCN_PROV_EC_ECNRA_FULL:17
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_DH_SCHANNEL
+### -field XCN_PROV_DH_SCHANNEL:18
 
 Supports the Diffie-Hellman and Schannel protocols. This includes the following algorithms:
 
@@ -170,23 +170,23 @@ Supports the Diffie-Hellman and Schannel protocols. This includes the following 
 <li>Signatures: DSS</li>
 </ul>
 
-### -field XCN_PROV_SPYRUS_LYNKS
+### -field XCN_PROV_SPYRUS_LYNKS:20
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_RNG
+### -field XCN_PROV_RNG:21
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_INTEL_SEC
+### -field XCN_PROV_INTEL_SEC:22
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_REPLACE_OWF
+### -field XCN_PROV_REPLACE_OWF:23
 
 Microsoft currently does not provide a CSP of this type.
 
-### -field XCN_PROV_RSA_AES
+### -field XCN_PROV_RSA_AES:24
 
 Supports the following algorithms:
 

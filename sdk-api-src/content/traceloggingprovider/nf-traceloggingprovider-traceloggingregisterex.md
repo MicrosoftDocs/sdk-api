@@ -1,81 +1,134 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegisterEx
 title: TraceLoggingRegisterEx function (traceloggingprovider.h)
-description: Registers a TraceLogging provider with callback so that it can be used for to log events.
-helpviewer_keywords: ["TraceLoggingRegisterEx","TraceLoggingRegisterEx function","tracelogging.traceloggingregisterex","traceloggingprovider/TraceLoggingRegisterEx"]
+description:
+  Registers a TraceLogging provider so that it can be used to log events,
+  specifying an ETW enable callback.
+helpviewer_keywords:
+  [
+    "TraceLoggingRegisterEx",
+    "TraceLoggingRegisterEx function",
+    "tracelogging.traceloggingregisterex",
+    "traceloggingprovider/TraceLoggingRegisterEx",
+  ]
 old-location: tracelogging\traceloggingregisterex.htm
 tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
-ms.date: 12/05/2018
-ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
+ms.date: 06/06/2022
+ms.keywords:
+  TraceLoggingRegisterEx, TraceLoggingRegisterEx function,
+  tracelogging.traceloggingregisterex,
+  traceloggingprovider/TraceLoggingRegisterEx
 req.header: traceloggingprovider.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: N/A
-req.irql: 
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceLoggingRegisterEx
- - traceloggingprovider/TraceLoggingRegisterEx
+  - TraceLoggingRegisterEx
+  - traceloggingprovider/TraceLoggingRegisterEx
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - DllExport
+  - DllExport
 api_location:
- - N/A
+  - N/A
 api_name:
- - TraceLoggingRegisterEx
+  - TraceLoggingRegisterEx
 ---
 
 # TraceLoggingRegisterEx function
 
-
 ## -description
 
-Registers a TraceLogging provider with callback so that it can be used for to log events.
+Registers a TraceLogging provider so that it can be used to log events,
+specifying an ETW enable callback. The registration is valid until the provider
+is unregistered or the process exits.
 
 ## -parameters
 
-### -param unnamedParam1 [in, out]
+### -param hProvider [in, out]
 
-The handle of the provider to register.
+The handle of the TraceLogging provider to register. The handle must not already
+be registered.
 
-### -param unnamedParam2 [in, optional]
+### -param pEnableCallback [in, optional]
 
-Callback that ETW calls to notify you when a session enables or disables your provider. Defaults to <b>NULL</b>.
+[ETW Enable Callback](../evntprov/nc-evntprov-penablecallback.md) that will be
+invoked when a trace session enables or disables your provider.
 
-### -param unnamedParam3 [in, optional]
+### -param pCallbackContext [in, optional]
 
-Provider-defined context data to pass to the callback when the provider is enabled or disabled. Defaults to <b>NULL</b>.
+Optional provider-defined context pointer to pass to the callback.
 
 ## -returns
 
-If you call this function from user mode code, the function returns a HRESULT. Use the SUCCEEDED() macro to determine if the function succeeds.
+If you call this function from user-mode code, the function returns an
+`HRESULT`. Use the `SUCCEEDED()` macro to determine whether the function
+succeeds.
 
- If you call this function from kernel mode code, the function returns a NTSTATUS. Use the NT_SUCCESS() macro to determine if the function succeeds.
+If you call this function from kernel-mode code, the function returns an
+`NTSTATUS`. Use the `NT_SUCCESS()` macro to determine whether the function
+succeeds.
+
+> [!NOTE]
+> The error code returned by TraceLoggingRegisterEx is primarily
+> intended for use in debugging and diagnostic scenarios. Most production code
+> should continue to run even if an ETW provider failed to register, so release
+> builds should usually ignore the error code returned by
+> TraceLoggingRegisterEx.
 
 ## -remarks
 
-Call this function to register your provider. You need to register before you can use it. If you attempt to register a provider that is already registered, the registration will fail. You can unregister a handler and the register it again if necessary. If registration does fail, all write and unregister commands will have no effect.
+See [TraceLoggingRegister](./nf-traceloggingprovider-traceloggingregister.md)
+for details on registering providers. See
+[ETW Enable Callback](../evntprov/nc-evntprov-penablecallback.md) for details on
+the callback behavior.
 
-Use the SUCCEEDED macro to see if registration was successful.
+**TraceLoggingRegisterEx** does the following:
 
-This function will return an error on versions of Windows that do not support the Event Tracing for Windows (ETW) API, e.g. <a href="/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation</a>.
+- Calls **EventRegister** to open the connection to ETW.
+- If **EventRegister** succeeds, calls
+  [TraceLoggingSetInformation](./nf-traceloggingprovider-traceloggingsetinformation.md)
+  with _InformationClass_
+  [EventProviderSetTraits](../evntprov/ne-evntprov-event_info_class.md) to
+  configure the provider for TraceLogging support.
+
+A call to
+[**TraceLoggingRegister**](./nf-traceloggingprovider-traceloggingregister.md) is
+the same as a call to **TraceLoggingRegisterEx** with NULL for the _callback_
+and _context_ parameters. Use **TraceLoggingRegisterEx** if you need to receive
+an ETW Enable Callback when sessions enable or disable your provider.
+
+## -see-also
+
+[ETW Enable Callback](../evntprov/nc-evntprov-penablecallback.md)
+
+[EventRegister](../evntprov/nf-evntprov-eventregister.md)
+
+[TraceLoggingRegister](./nf-traceloggingprovider-traceloggingregister.md)
+
+[TraceLoggingUnregister](./nf-traceloggingprovider-traceloggingunregister.md)
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TRACELOGGING_DEFINE_PROVIDER](./nf-traceloggingprovider-tracelogging_define_provider.md)

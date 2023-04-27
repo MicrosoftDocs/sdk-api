@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter2
 title: IAppxPackageWriter2 (appxpackaging.h)
-description: Provides a write-only object model for app packages.
+description: Provides a write-only object model for app packages. (IAppxPackageWriter2)
 helpviewer_keywords: ["IAppxPackageWriter2","IAppxPackageWriter2 interface [App packaging and management]","IAppxPackageWriter2 interface [App packaging and management]","described","appxpackaging/IAppxPackageWriter2","appxpkg.iappxpackagewriter2"]
 old-location: appxpkg\iappxpackagewriter2.htm
 tech.root: appxpkg

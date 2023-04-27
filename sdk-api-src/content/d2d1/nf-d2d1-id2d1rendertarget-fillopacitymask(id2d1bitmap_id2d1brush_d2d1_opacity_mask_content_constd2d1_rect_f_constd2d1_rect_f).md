@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,constD2D1_RECT_F,constD2D1_RECT_F)
 title: ID2D1RenderTarget::FillOpacityMask (d2d1.h)
-description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.
+description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target. (overload 2/2)
 helpviewer_keywords: ["FillOpacityMask","FillOpacityMask method [Direct2D]","FillOpacityMask method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillOpacityMask method","ID2D1RenderTarget.FillOpacityMask","ID2D1RenderTarget::FillOpacityMask","ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap","ID2D1Brush","D2D1_OPACITY_MASK_CONTENT","const D2D1_RECT_F","const D2D1_RECT_F)","d2d1/ID2D1RenderTarget::FillOpacityMask","direct2d.ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA"]
 old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ptr_D2D_RECT_F_ptr_D2D_RECT_F_ptr_D2D1_GAMMA.htm
 tech.root: Direct2D

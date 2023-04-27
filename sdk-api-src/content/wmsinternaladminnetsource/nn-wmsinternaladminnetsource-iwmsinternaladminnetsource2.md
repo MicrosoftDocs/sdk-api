@@ -59,7 +59,7 @@ To obtain a pointer to an instance of this interface, call the <b>QueryInterface
 
 The <b>IWMSInternalAdminNetSource2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSInternalAdminNetSource2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

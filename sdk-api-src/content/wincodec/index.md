@@ -4,7 +4,7 @@ title: Wincodec.h header
 ms.assetid: 0309ff9a-dec7-37c4-8350-152dfe3e195d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wic
 f1_keywords:
  - wincodec

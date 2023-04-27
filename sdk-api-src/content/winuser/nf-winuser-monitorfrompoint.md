@@ -60,7 +60,7 @@ The <b>MonitorFromPoint</b> function retrieves a handle to the display monitor t
 
 ### -param pt [in]
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
 
 ### -param dwFlags [in]
 
@@ -72,20 +72,10 @@ This parameter can be one of the following values.
 <tr>
 <th>Value</th>
 <th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MONITOR_DEFAULTTONEAREST"></a><a id="monitor_defaulttonearest"></a><dl>
-<dt><b>MONITOR_DEFAULTTONEAREST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Returns a handle to the display monitor that is nearest to the point.
-
-</td>
-</tr>
 <tr>
 <td width="40%"><a id="MONITOR_DEFAULTTONULL"></a><a id="monitor_defaulttonull"></a><dl>
 <dt><b>MONITOR_DEFAULTTONULL</b></dt>
+<dt>0x00000000</dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,10 +86,24 @@ Returns <b>NULL</b>.
 <tr>
 <td width="40%"><a id="MONITOR_DEFAULTTOPRIMARY"></a><a id="monitor_defaulttoprimary"></a><dl>
 <dt><b>MONITOR_DEFAULTTOPRIMARY</b></dt>
+<dt>0x00000001</dt>
 </dl>
 </td>
 <td width="60%">
 Returns a handle to the primary display monitor.
+
+</td>
+</tr>
+ 
+ </tr>
+<tr>
+<td width="40%"><a id="MONITOR_DEFAULTTONEAREST"></a><a id="monitor_defaulttonearest"></a><dl>
+<dt><b>MONITOR_DEFAULTTONEAREST</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Returns a handle to the display monitor that is nearest to the point.
 
 </td>
 </tr>

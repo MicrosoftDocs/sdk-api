@@ -54,19 +54,19 @@ Specifies a dialog box that might exist in a Video for Windows compression (code
 
 ## -enum-fields
 
-### -field VfwCompressDialog_Config
+### -field VfwCompressDialog_Config:0x1
 
 Configure dialog box.
 
-### -field VfwCompressDialog_About
+### -field VfwCompressDialog_About:0x2
 
 About dialog box.
 
-### -field VfwCompressDialog_QueryConfig
+### -field VfwCompressDialog_QueryConfig:0x4
 
 Specifies whether the Configure dialog box is available.
 
-### -field VfwCompressDialog_QueryAbout
+### -field VfwCompressDialog_QueryAbout:0x8
 
 Specifies whether the About dialog box is available.
 

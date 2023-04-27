@@ -67,7 +67,7 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Specifies the coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

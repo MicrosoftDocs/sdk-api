@@ -4,7 +4,7 @@ title: Compression API
 ms.assetid: 865b4105-cb5f-37f2-b782-91e1abe4269c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Compression API

@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_2
+UID: NS:dsclient.DSPROPERTYPAGEINFO
 title: DSPROPERTYPAGEINFO (dsclient.h)
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 helpviewer_keywords: ["*LPDSPROPERTYPAGEINFO","DSPROPERTYPAGEINFO","DSPROPERTYPAGEINFO structure [Active Directory]","LPDSPROPERTYPAGEINFO","LPDSPROPERTYPAGEINFO structure pointer [Active Directory]","_glines_dspropertypageinfo","ad.dspropertypageinfo","dsclient/DSPROPERTYPAGEINFO","dsclient/LPDSPROPERTYPAGEINFO"]
@@ -75,3 +75,4 @@ The  <b>DSPROPETYPAGEINFO</b> structure contains the optional string that the ex
 
 
 <a href="/windows/desktop/AD/registering-the-property-page-com-object-in-a-display-specifier">Registering the Property Page COM Object in a Display Specifier</a>
+

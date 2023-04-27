@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsProvider.GetProperties
 title: IVdsProvider::GetProperties (vds.h)
-description: Returns the properties of a provider.
+description: The IVdsProvider::GetProperties method (vds.h) returns the properties of a provider.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsProvider interface","IVdsProvider interface [VDS]","GetProperties method","IVdsProvider.GetProperties","IVdsProvider::GetProperties","base.ivdsprovider_getproperties","vds/IVdsProvider::GetProperties","vdshwprv/IVdsProvider::GetProperties"]
 old-location: base\ivdsprovider_getproperties.htm
 tech.root: base
 ms.assetid: a4cb18c5-2cda-4d0a-9be0-4a548ec2f6eb
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsProvider interface, IVdsProvider interface [VDS],GetProperties method, IVdsProvider.GetProperties, IVdsProvider::GetProperties, base.ivdsprovider_getproperties, vds/IVdsProvider::GetProperties, vdshwprv/IVdsProvider::GetProperties
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the 
    properties of a provider.

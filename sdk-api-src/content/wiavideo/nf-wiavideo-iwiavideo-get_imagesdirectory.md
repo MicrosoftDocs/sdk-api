@@ -1,7 +1,7 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_ImagesDirectory
 title: IWiaVideo::get_ImagesDirectory (wiavideo.h)
-description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method.
+description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method. (Get)
 helpviewer_keywords: ["IWiaVideo interface [WIA]","ImagesDirectory property","IWiaVideo.ImagesDirectory","IWiaVideo.get_ImagesDirectory","IWiaVideo::ImagesDirectory","IWiaVideo::get_ImagesDirectory","IWiaVideo::put_ImagesDirectory","ImagesDirectory property [WIA]","ImagesDirectory property [WIA]","IWiaVideo interface","_wia_IWiaVideo_ImagesDirectory","get_ImagesDirectory","wia._wia_IWiaVideo_ImagesDirectory","wiavideo/IWiaVideo::ImagesDirectory","wiavideo/IWiaVideo::get_ImagesDirectory","wiavideo/IWiaVideo::put_ImagesDirectory"]
 old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm
 tech.root: wia

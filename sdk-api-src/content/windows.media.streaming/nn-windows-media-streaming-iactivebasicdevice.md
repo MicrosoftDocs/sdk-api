@@ -56,7 +56,7 @@ Represents an active <a href="/windows/desktop/mediastreaming/ibasicdevice">IBas
 
 The <b>IActiveBasicDevice</b> interface inherits from <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>. <b>IActiveBasicDevice</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

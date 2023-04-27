@@ -56,9 +56,9 @@ Defines values for the type of encoding of a keyboard.
 
 ## -enum-fields
 
-### -field RDPSRAPI_KBD_CODE_SCANCODE
+### -field RDPSRAPI_KBD_CODE_SCANCODE:0
 
-### -field RDPSRAPI_KBD_CODE_UNICODE
+### -field RDPSRAPI_KBD_CODE_UNICODE:1
 
 ## -see-also
 

@@ -54,11 +54,11 @@ The <b>WM_AETYPE</b> enumeration specifies the permissions for an entry in an IP
 
 ## -enum-fields
 
-### -field WM_AETYPE_INCLUDE
+### -field WM_AETYPE_INCLUDE:0x69
 
 IP addresses that match the access entry are allowed to connect to the network sink.
 
-### -field WM_AETYPE_EXCLUDE
+### -field WM_AETYPE_EXCLUDE:0x65
 
 IP addresses that match the access entry are not allowed to connect to the network sink.
 

@@ -45,31 +45,28 @@ api_name:
  - IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
 ---
 
-# IProofOfPossessionCookieInfoManager::GetCookieInfoForUri
-
-
 ## -description
 
-Gets cookie information for the supplied URI to be used for proof of possession cookies.
+Retrieves cookie information for the supplied URI to be used for proof of possession cookies.
 
 ## -parameters
 
 ### -param uri [in]
 
-The URI to get cookie information for. The URI is case-sensitive.
+The URI to retrieve cookie information for. The URI is case-sensitive.
 
 ### -param cookieInfoCount [out]
 
-The number of cookies found for the <i>uri</i>.
+The number of cookies found. `*cookieInfoCount` contains the number of elements in  *cookieInfo*.
 
 ### -param cookieInfo [out]
 
-The cookie information for the <i>uri</i>.
+A returned array of cookie information objects. You should free the returned array by using [FreeProofOfPossessionCookieInfoArray](./nf-proofofpossessioncookieinfo-freeproofofpossessioncookieinfoarray.md).
 
 ## -returns
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="/windows/desktop/api/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager">IProofOfPossessionCookieInfoManager</a>
+[IProofOfPossessionCookieInfoManager](./nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager)

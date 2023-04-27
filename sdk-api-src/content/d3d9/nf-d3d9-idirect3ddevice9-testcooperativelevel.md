@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.TestCooperativeLevel
 title: IDirect3DDevice9::TestCooperativeLevel (d3d9.h)
-description: Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
+description: The IDirect3DDevice9::TestCooperativeLevel method (d3d9.h) reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 helpviewer_keywords: ["613a6a7b-3b6f-b565-1f3a-2b5322844deb","IDirect3DDevice9 interface [Direct3D 9]","TestCooperativeLevel method","IDirect3DDevice9.TestCooperativeLevel","IDirect3DDevice9::TestCooperativeLevel","TestCooperativeLevel","TestCooperativeLevel method [Direct3D 9]","TestCooperativeLevel method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::TestCooperativeLevel","direct3d9.idirect3ddevice9__testcooperativelevel"]
 old-location: direct3d9\idirect3ddevice9__testcooperativelevel.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__testcooperativelevel.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 613a6a7b-3b6f-b565-1f3a-2b5322844deb, IDirect3DDevice9 interface [Direct3D 9],TestCooperativeLevel method, IDirect3DDevice9.TestCooperativeLevel, IDirect3DDevice9::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [Direct3D 9], TestCooperativeLevel method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::TestCooperativeLevel, direct3d9.idirect3ddevice9__testcooperativelevel
 req.header: d3d9.h
 req.include-header: D3D9.h

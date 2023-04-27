@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathCommonPrefixW
 title: PathCommonPrefixW function (shlwapi.h)
-description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&quot;C:\\&quot;, &quot;.&quot;, &quot;..&quot;, &quot;..\\&quot;.
-helpviewer_keywords: ["PathCommonPrefix","PathCommonPrefix function [Windows Shell]","PathCommonPrefixA","PathCommonPrefixW","_win32_PathCommonPrefix","shell.PathCommonPrefix","shlwapi/PathCommonPrefix","shlwapi/PathCommonPrefixA","shlwapi/PathCommonPrefixW"]
+description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&quot;C:\\&quot;, &quot;.&quot;, &quot;..&quot;, &quot;..\\&quot;. (Unicode)
+helpviewer_keywords: ["PathCommonPrefix", "PathCommonPrefix function [Windows Shell]", "PathCommonPrefixW", "_win32_PathCommonPrefix", "shell.PathCommonPrefix", "shlwapi/PathCommonPrefix", "shlwapi/PathCommonPrefixW"]
 old-location: shell\PathCommonPrefix.htm
 tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get__NewEnum
 title: IAlternativeNames::get__NewEnum (certenroll.h)
-description: Retrieves the enumerator for the collection.
+description: Retrieves the enumerator for the collection. (IAlternativeNames.get__NewEnum)
 helpviewer_keywords: ["IAlternativeNames interface [Security]","_NewEnum property","IAlternativeNames._NewEnum","IAlternativeNames.get__NewEnum","IAlternativeNames::_NewEnum","IAlternativeNames::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IAlternativeNames interface","certenroll/IAlternativeNames::_NewEnum","certenroll/IAlternativeNames::get__NewEnum","get__NewEnum","security.ialternativenames__newenum_property"]
 old-location: security\ialternativenames__newenum_property.htm
 tech.root: security

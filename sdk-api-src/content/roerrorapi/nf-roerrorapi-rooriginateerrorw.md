@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoOriginateErrorW
 title: RoOriginateErrorW function
-description: Reports an error and an informative string to an attached debugger.
+description: Reports an error and an informative string to an attached debugger. (RoOriginateErrorW)
 helpviewer_keywords: ["RoOriginateErrorW","RoOriginateErrorW function [Windows Runtime]","WinRTOriginateErrorW","roerrorapi/RoOriginateErrorW","roerrorapi/WinRTOriginateErrorW","winrt.rooriginateerrorw","winrt.winrtoriginateerrorw"]
 old-location: winrt\rooriginateerrorw.htm
 tech.root: WinRT

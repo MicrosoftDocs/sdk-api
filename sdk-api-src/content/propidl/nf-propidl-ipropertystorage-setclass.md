@@ -1,12 +1,12 @@
 ---
 UID: NF:propidl.IPropertyStorage.SetClass
 title: IPropertyStorage::SetClass (propidl.h)
-description: The SetClass method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
+description: The IPropertyStorage::SetClass method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
 helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","SetClass","IPropertyStorage interface [Structured Storage]","SetClass method","IPropertyStorage.SetClass","IPropertyStorage::SetClass","SetClass","SetClass method [Structured Storage]","SetClass method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_setclass","propidl/IPropertyStorage::SetClass","stg.ipropertystorage_setclass"]
 old-location: stg\ipropertystorage_setclass.htm
 tech.root: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

@@ -54,7 +54,7 @@ The <b>WMPLibraryType</b> enumeration type defines the possible library types to
 
 ## -enum-fields
 
-### -field wmpltUnknown
+### -field wmpltUnknown:0
 
 Not a valid library type.
 

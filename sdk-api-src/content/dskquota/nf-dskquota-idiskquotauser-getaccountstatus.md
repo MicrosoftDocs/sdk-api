@@ -47,7 +47,6 @@ api_name:
 
 # IDiskQuotaUser::GetAccountStatus
 
-
 ## -description
 
 Retrieves the status of the user object's account. User information is identified in the quota system by user security identifier (SID). This SID must resolve to a user account for the user's account name information to be retrieved.
@@ -76,8 +75,8 @@ The SID was resolved to a user account. Names are available through
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="DISKQUOTA_USER_ABLE"></a><a id="diskquota_user_able"></a><dl>
-<dt><b>DISKQUOTA_USER_ABLE</b></dt>
+<td width="40%"><a id="DISKQUOTA_USER_ACCOUNT_UNAVAILABLE"></a><a id="diskquota_user_account_unavailable"></a><dl>
+<dt><b>DISKQUOTA_USER_ACCOUNT_UNAVAILABLE</b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -167,12 +166,8 @@ The <i>pdwStatus</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+[Disk Management Interfaces](/windows/win32/FileIO/disk-management-interfaces)
 
+[Disk Quotas](/windows/win32/FileIO/managing-disk-quotas)
 
-
-<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
+[IDiskQuotaUser](/windows/win32/api/dskquota/nn-dskquota-idiskquotauser)

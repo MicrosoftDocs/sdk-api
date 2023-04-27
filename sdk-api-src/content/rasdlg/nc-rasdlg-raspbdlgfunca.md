@@ -1,7 +1,7 @@
 ---
 UID: NC:rasdlg.RASPBDLGFUNCA
 title: RASPBDLGFUNCA (rasdlg.h)
-description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open.
+description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open. (ANSI)
 helpviewer_keywords: ["RASPBDEVENT_AddEntry","RASPBDEVENT_DialEntry","RASPBDEVENT_EditEntry","RASPBDEVENT_EditGlobals","RASPBDEVENT_NoUser","RASPBDEVENT_NoUserEdit","RASPBDEVENT_RemoveEntry","RasPBDlgFunc","RasPBDlgFunc callback","RasPBDlgFunc callback function [RAS]","RasPBDlgFuncA","RasPBDlgFuncW","_ras_raspbdlgfunc","rasdlg/RasPBDlgFunc","rasdlg/RasPBDlgFuncA","rasdlg/RasPBDlgFuncW","rras.raspbdlgfunc"]
 old-location: rras\raspbdlgfunc.htm
 tech.root: RRAS

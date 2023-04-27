@@ -54,15 +54,15 @@ Specifies whether Direct2D provides synchronization for an <a href="/windows/win
 
 ## -enum-fields
 
-### -field D2D1_FACTORY_TYPE_SINGLE_THREADED
+### -field D2D1_FACTORY_TYPE_SINGLE_THREADED:0
 
 No synchronization is provided for accessing or writing to the factory or the objects it creates. If the factory or the objects are called from multiple threads, it is up to the application to provide access locking.
 
-### -field D2D1_FACTORY_TYPE_MULTI_THREADED
+### -field D2D1_FACTORY_TYPE_MULTI_THREADED:1
 
 Direct2D provides synchronization for accessing and writing to the factory and the objects it creates, enabling safe access from multiple threads.
 
-### -field D2D1_FACTORY_TYPE_FORCE_DWORD
+### -field D2D1_FACTORY_TYPE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

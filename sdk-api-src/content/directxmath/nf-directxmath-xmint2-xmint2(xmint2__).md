@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMINT2.XMINT2(XMINT2&&)
 title: XMINT2::XMINT2(XMINT2 &&) (directxmath.h)
-description: A constructor for XMINT2.
+description: A constructor for XMINT2. (overload 1/2)
 helpviewer_keywords: ["XMINT2","XMINT2 constructor [DirectX Math Support APIs]","XMINT2 constructor [DirectX Math Support APIs]","XMINT2 structure","XMINT2 structure [DirectX Math Support APIs]","XMINT2 constructor","XMINT2.XMINT2","XMINT2.XMINT2()","XMINT2.XMINT2(XMINT2 &&)","XMINT2::XMINT2","XMINT2::XMINT2(XMINT2 &&)","dxmath.xmint2_ctor_1"]
 old-location: 
 tech.root: dxmath

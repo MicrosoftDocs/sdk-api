@@ -56,7 +56,7 @@ Retrieves the UI Automation element at the specified point on the desktop.
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The desktop coordinates of the UI Automation element.
 

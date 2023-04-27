@@ -1,5 +1,5 @@
 ---
-UID: NS:dhcpsapi.__unnamed_struct_0
+UID: NS:dhcpsapi.DHCPV6_STATELESS_PARAMS
 title: DHCPV6_STATELESS_PARAMS (dhcpsapi.h)
 description: The DHCPV6_STATELESS_PARAMS structure defines the DHCPv6 stateless client inventory configuration settings at server and scope level.
 helpviewer_keywords: ["*LPDHCPV6_STATELESS_PARAMS","*PDHCPV6_STATELESS_PARAMS","DHCPV6_STATELESS_PARAMS","DHCPV6_STATELESS_PARAMS structure [DHCP]","LPDHCPV6_STATELESS_PARAMS","LPDHCPV6_STATELESS_PARAMS structure pointer [DHCP]","PDHCPV6_STATELESS_PARAMS","PDHCPV6_STATELESS_PARAMS structure pointer [DHCP]","dhcp.dhcpv6_stateless_params","dhcpsapi/DHCPV6_STATELESS_PARAMS","dhcpsapi/LPDHCPV6_STATELESS_PARAMS","dhcpsapi/PDHCPV6_STATELESS_PARAMS"]
@@ -75,3 +75,4 @@ Integer that specifies the maximum time interval, in hours, that stateless IPv6 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6setstatelessstoreparams">Dhcpv6SetStatelessStoreParams</a>
+

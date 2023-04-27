@@ -1,8 +1,8 @@
 ---
 UID: NF:winver.GetFileVersionInfoExA
 title: GetFileVersionInfoExA function (winver.h)
-description: Retrieves version information for the specified file.
-helpviewer_keywords: ["FILE_VER_GET_LOCALISED","FILE_VER_GET_NEUTRAL","FILE_VER_GET_PREFETCHED","GetFileVersionInfoEx","GetFileVersionInfoEx function [Menus and Other Resources]","GetFileVersionInfoExA","GetFileVersionInfoExW","_win32_GetFileVersionInfoEx","_win32_getfileversioninfoex_cpp","menurc.getfileversioninfoex","winui._win32_getfileversioninfoex","winver/GetFileVersionInfoEx","winver/GetFileVersionInfoExA","winver/GetFileVersionInfoExW"]
+description: Retrieves version information for the specified file. (GetFileVersionInfoExA)
+helpviewer_keywords: ["FILE_VER_GET_LOCALISED", "FILE_VER_GET_NEUTRAL", "FILE_VER_GET_PREFETCHED", "GetFileVersionInfoExA", "winver/GetFileVersionInfoExA"]
 old-location: menurc\getfileversioninfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfoex.htm
@@ -119,7 +119,7 @@ The name of the file. If a full path is not specified, the function uses the sea
 
 Type: <b>DWORD</b>
 
-This parameter is ignored.
+This parameter is reserved, and expected to be zero (0).
 
 ### -param dwLen [in]
 

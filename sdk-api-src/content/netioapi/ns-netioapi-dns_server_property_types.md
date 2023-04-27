@@ -1,7 +1,7 @@
 ---
 UID: NS:netioapi._DNS_SERVER_PROPERTY_TYPES
 title: DNS_SERVER_PROPERTY_TYPES
-description: Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](ns-netioapi-dns_server_property.md).
+description: Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](/windows/win32/api/netioapi/ns-netioapi-dns_server_property).
 tech.root: IpHlp
 ms.date: 07/16/2021
 req.header: netioapi.h
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](ns-netioapi-dns_server_property.md).
+Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](/windows/win32/api/netioapi/ns-netioapi-dns_server_property).
 
 ## -struct-fields
 

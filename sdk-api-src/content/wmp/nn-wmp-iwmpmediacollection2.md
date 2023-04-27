@@ -56,7 +56,7 @@ The <b>IWMPMediaCollection2</b> interface provides methods that supplement the <
 
 The <b>IWMPMediaCollection2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection</a>. <b>IWMPMediaCollection2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

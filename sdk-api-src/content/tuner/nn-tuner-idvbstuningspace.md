@@ -56,7 +56,7 @@ The <b>IDVBSTuningSpace</b> interface is implemented on the <b>DVBTuningSpace</b
 
 The <b>IDVBSTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a>. <b>IDVBSTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

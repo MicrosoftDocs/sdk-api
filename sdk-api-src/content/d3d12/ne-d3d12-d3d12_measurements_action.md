@@ -48,7 +48,7 @@ Defines constants that specify what should be done with the results of earlier w
 
 ## -enum-fields
 
-### -field D3D12_MEASUREMENTS_ACTION_KEEP_ALL
+### -field D3D12_MEASUREMENTS_ACTION_KEEP_ALL:0
 
 The default setting. Specifies that all results should be kept.
 

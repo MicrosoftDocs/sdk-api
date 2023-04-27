@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsService.QueryMaskedDisks
 title: IVdsService::QueryMaskedDisks (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsService.QueryMaskedDisks)
 helpviewer_keywords: ["IVdsService interface [VDS]","QueryMaskedDisks method","IVdsService.QueryMaskedDisks","IVdsService::QueryMaskedDisks","QueryMaskedDisks","QueryMaskedDisks method [VDS]","QueryMaskedDisks method [VDS]","IVdsService interface","base.ivdsservice_querymaskeddisks","vds/IVdsService::QueryMaskedDisks"]
 old-location: base\ivdsservice_querymaskeddisks.htm
 tech.root: base
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

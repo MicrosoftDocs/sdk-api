@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_RenewalCertificate
 title: IEnroll::get_RenewalCertificate (xenroll.h)
-description: Specifies the certificate context for the renewal certificate.
+description: Specifies the certificate context for the renewal certificate. (Get)
 helpviewer_keywords: ["IEnroll interface [Security]","RenewalCertificate property","IEnroll.RenewalCertificate","IEnroll.get_RenewalCertificate","IEnroll::RenewalCertificate","IEnroll::get_RenewalCertificate","IEnroll::put_RenewalCertificate","RenewalCertificate property [Security]","RenewalCertificate property [Security]","IEnroll interface","get_RenewalCertificate","security.ienroll4_renewalcertificate","xenroll/IEnroll::RenewalCertificate","xenroll/IEnroll::get_RenewalCertificate","xenroll/IEnroll::put_RenewalCertificate"]
 old-location: security\ienroll4_renewalcertificate.htm
 tech.root: security

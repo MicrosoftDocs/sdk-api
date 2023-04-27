@@ -49,7 +49,6 @@ api_name:
 
 # EVENT_MAP_ENTRY structure
 
-
 ## -description
 
 Defines a single value map entry.
@@ -75,5 +74,4 @@ The offset is used for pattern maps and WMI value maps that map strings to strin
 For maps defined in a manifest, the string will contain a space at the end of the string. For example, if the value is mapped to "Monday" in the manifest, the string is returned as "Monday ".
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>

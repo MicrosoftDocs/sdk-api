@@ -56,15 +56,15 @@ Specifies how the user's credentials will be used.
 
 ## -enum-fields
 
-### -field MFNET_AUTHENTICATION_PROXY
+### -field MFNET_AUTHENTICATION_PROXY:0x1
 
 The credentials will be used to authenticate with a proxy.
 
-### -field MFNET_AUTHENTICATION_CLEAR_TEXT
+### -field MFNET_AUTHENTICATION_CLEAR_TEXT:0x2
 
 The credentials will be sent over the network unencrypted.
 
-### -field MFNET_AUTHENTICATION_LOGGED_ON_USER
+### -field MFNET_AUTHENTICATION_LOGGED_ON_USER:0x4
 
 The credentials must be from a user who is currently logged on.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DataCacheEnabled
 title: IDynamicRenderer::get_DataCacheEnabled (rtscom.h)
-description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
+description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object. (Get)
 helpviewer_keywords: ["1b2435ee-4682-4499-aa5c-35201ab2ba95","DataCacheEnabled property [Tablet PC]","DataCacheEnabled property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","DataCacheEnabled property","IDynamicRenderer.DataCacheEnabled","IDynamicRenderer.get_DataCacheEnabled","IDynamicRenderer.put_DataCacheEnabled","IDynamicRenderer::DataCacheEnabled","IDynamicRenderer::get_DataCacheEnabled","IDynamicRenderer::put_DataCacheEnabled","get_DataCacheEnabled","rtscom/IDynamicRenderer::DataCacheEnabled","rtscom/IDynamicRenderer::get_DataCacheEnabled","rtscom/IDynamicRenderer::put_DataCacheEnabled","tablet.idynamicrenderer_datacacheenabled"]
 old-location: tablet\idynamicrenderer_datacacheenabled.htm
 tech.root: tablet

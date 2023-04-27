@@ -1,7 +1,8 @@
 ---
 UID: NS:winnls._nlsversioninfo~r1
 title: NLSVERSIONINFO
-ms.date: 01/30/2019
+description: The NLSVERSIONINFO structure (winnls.h) is deprecated and should not be used.
+ms.date: 08/19/2022
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
 targetos: Windows
 req.construct-type: structure

@@ -5,7 +5,7 @@ tech.root: cimfs
 title: cimfs
 ms.date: 9/9/2019
 ms.keywords: cimfs
-ms.topic: portal
+ms.topic: overview
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -54,5 +54,3 @@ This header is used by CimFS. For more information, see:
 - [CimFS](../_cimfs/index.md)
 
 ## -see-also
-
-## -examples

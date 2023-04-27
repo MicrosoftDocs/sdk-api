@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.put_Enabled
 title: IRealTimeStylus::put_Enabled (rtscom.h)
-description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data.
+description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data. (Put)
 helpviewer_keywords: ["Enabled property [Tablet PC]","Enabled property [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","Enabled property","IRealTimeStylus.Enabled","IRealTimeStylus.get_Enabled","IRealTimeStylus.put_Enabled","IRealTimeStylus::Enabled","IRealTimeStylus::get_Enabled","IRealTimeStylus::put_Enabled","e96e27d7-b453-49a7-b684-b3dd5f94c378","put_Enabled","rtscom/IRealTimeStylus::Enabled","rtscom/IRealTimeStylus::get_Enabled","rtscom/IRealTimeStylus::put_Enabled","tablet.irealtimestylus_enabled"]
 old-location: tablet\irealtimestylus_enabled.htm
 tech.root: tablet

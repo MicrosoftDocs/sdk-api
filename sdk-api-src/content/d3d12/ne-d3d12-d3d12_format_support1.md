@@ -54,54 +54,54 @@ Specifies resources that are supported for a provided format.
 
 ## -enum-fields
 
-### -field D3D12_FORMAT_SUPPORT1_NONE
+### -field D3D12_FORMAT_SUPPORT1_NONE:0
 
 No resources are supported.
 
-### -field D3D12_FORMAT_SUPPORT1_BUFFER
+### -field D3D12_FORMAT_SUPPORT1_BUFFER:0x1
 
 Buffer resources supported.
 
-### -field D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER
+### -field D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER:0x2
 
 Vertex buffers supported.
 
-### -field D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER
+### -field D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER:0x4
 
 Index buffers supported.
 
-### -field D3D12_FORMAT_SUPPORT1_SO_BUFFER
+### -field D3D12_FORMAT_SUPPORT1_SO_BUFFER:0x8
 
 Streaming output buffers supported.
 
-### -field D3D12_FORMAT_SUPPORT1_TEXTURE1D
+### -field D3D12_FORMAT_SUPPORT1_TEXTURE1D:0x10
 
 1D texture resources supported.
 
-### -field D3D12_FORMAT_SUPPORT1_TEXTURE2D
+### -field D3D12_FORMAT_SUPPORT1_TEXTURE2D:0x20
 
 2D texture resources supported.
 
-### -field D3D12_FORMAT_SUPPORT1_TEXTURE3D
+### -field D3D12_FORMAT_SUPPORT1_TEXTURE3D:0x40
 
 3D texture resources supported.
 
-### -field D3D12_FORMAT_SUPPORT1_TEXTURECUBE
+### -field D3D12_FORMAT_SUPPORT1_TEXTURECUBE:0x80
 
 Cube texture resources supported.
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_LOAD
+### -field D3D12_FORMAT_SUPPORT1_SHADER_LOAD:0x100
 
 The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function for texture objects is supported.
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE
+### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE:0x200
 
 The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> function for texture objects is supported.
 
 <div class="alert"><b>Note</b>  If the device supports the format as a resource (1D, 2D, 3D, or cube map) but doesn't support this option, the resource can still use the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> method but must use only the point filtering sampler state to perform the sample.</div>
 <div> </div>
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON
+### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON:0x400
 
 The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> functions for texture objects are supported.
 
@@ -109,75 +109,75 @@ The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">S
 </div>
 <div> </div>
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT
+### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT:0x800
 
 Reserved.
 
-### -field D3D12_FORMAT_SUPPORT1_MIP
+### -field D3D12_FORMAT_SUPPORT1_MIP:0x1000
 
 Mipmaps are supported.
 
-### -field D3D12_FORMAT_SUPPORT1_RENDER_TARGET
+### -field D3D12_FORMAT_SUPPORT1_RENDER_TARGET:0x4000
 
 Render targets are supported.
 
-### -field D3D12_FORMAT_SUPPORT1_BLENDABLE
+### -field D3D12_FORMAT_SUPPORT1_BLENDABLE:0x8000
 
 Blend operations supported.
 
-### -field D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL
+### -field D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL:0x10000
 
 Depth stencils supported.
 
-### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE
+### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE:0x40000
 
 Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a>.
 
-### -field D3D12_FORMAT_SUPPORT1_DISPLAY
+### -field D3D12_FORMAT_SUPPORT1_DISPLAY:0x80000
 
 Format can be displayed on screen.
 
-### -field D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT
+### -field D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT:0x100000
 
 Format can't be cast to another format.
 
-### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET
+### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET:0x200000
 
 Format can be used as a multi-sampled render target.
 
-### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD
+### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD:0x400000
 
 Format can be used as a multi-sampled texture and read into a shader with the HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function.
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_GATHER
+### -field D3D12_FORMAT_SUPPORT1_SHADER_GATHER:0x800000
 
 Format can be used with the HLSL gather function. This value is available in DirectX 10.1 or higher.
 
-### -field D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST
+### -field D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST:0x1000000
 
 Format supports casting when the resource is a back buffer.
 
-### -field D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW
+### -field D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW:0x2000000
 
 Format can be used for an unordered access view.
 
-### -field D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON
+### -field D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON:0x4000000
 
 Format can be used with the HLSL gather with comparison function.
 
-### -field D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT
+### -field D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT:0x8000000
 
 Format can be used with the decoder output.
 
-### -field D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT
+### -field D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT:0x10000000
 
 Format can be used with the video processor output.
 
-### -field D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT
+### -field D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT:0x20000000
 
 Format can be used with the video processor input.
 
-### -field D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER
+### -field D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER:0x40000000
 
 Format can be used with the video encoder.
 

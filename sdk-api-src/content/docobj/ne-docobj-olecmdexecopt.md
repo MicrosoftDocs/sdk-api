@@ -54,19 +54,19 @@ Specifies command execution options.
 
 ## -enum-fields
 
-### -field OLECMDEXECOPT_DODEFAULT
+### -field OLECMDEXECOPT_DODEFAULT:0
 
 Prompt the user for input or not, whichever is the default behavior.
 
-### -field OLECMDEXECOPT_PROMPTUSER
+### -field OLECMDEXECOPT_PROMPTUSER:1
 
 Execute the command after obtaining user input.
 
-### -field OLECMDEXECOPT_DONTPROMPTUSER
+### -field OLECMDEXECOPT_DONTPROMPTUSER:2
 
 Execute the command without prompting the user. For example, clicking the Print toolbar button causes a document to be immediately printed without user input.
 
-### -field OLECMDEXECOPT_SHOWHELP
+### -field OLECMDEXECOPT_SHOWHELP:3
 
 Show help for the corresponding command, but do not execute.
 

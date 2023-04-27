@@ -4,12 +4,12 @@ title: ResumeThread function (processthreadsapi.h)
 description: Decrements a thread's suspend count. When the suspend count is decremented to zero, the execution of the thread is resumed.
 helpviewer_keywords: ["ResumeThread","ResumeThread function","_win32_resumethread","base.resumethread","processthreadsapi/ResumeThread","winbase/ResumeThread"]
 old-location: base\resumethread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: ffc4e474-635b-4bf7-a68f-073899fb3fde
 ms.date: 12/05/2018
 ms.keywords: ResumeThread, ResumeThread function, _win32_resumethread, base.resumethread, processthreadsapi/ResumeThread, winbase/ResumeThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

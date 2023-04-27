@@ -56,7 +56,7 @@ The <b>ColorChannelFlags</b> enumeration specifies individual channels in the CM
 
 ## -enum-fields
 
-### -field ColorChannelFlagsC
+### -field ColorChannelFlagsC:0
 
 Specifies the cyan color channel.
 

@@ -60,46 +60,46 @@ The
 
 ## -enum-fields
 
-### -field MMC_VERB_NONE
+### -field MMC_VERB_NONE:0x0000
 
 No verbs specified. Snap-ins can use this verb in calls to 
 <a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">IConsoleVerb::SetDefaultVerb</a> to specify that the selected item does not have a default verb.
 
-### -field MMC_VERB_OPEN
+### -field MMC_VERB_OPEN:0x8000
 
 Allows the selected item to be opened.
 
-### -field MMC_VERB_COPY
+### -field MMC_VERB_COPY:0x8001
 
 Allows the selected item to be copied to the clipboard. When the user activates this verb, MMC calls the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">IComponentData::QueryDataObject</a> or <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> implementation to request a data object for the selected item.
 
-### -field MMC_VERB_PASTE
+### -field MMC_VERB_PASTE:0x8002
 
 Allows the selected item that has been cut or copied to be pasted into the result pane. When the user activates this verb, MMC sends the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method a <a href="/previous-versions/windows/desktop/mmc/mmcn-query-paste">MMCN_QUERY_PASTE</a> notification message.
 
-### -field MMC_VERB_DELETE
+### -field MMC_VERB_DELETE:0x8003
 
 Allows the selected item to be deleted. When the user activates this verb, MMC sends the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method a <a href="/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a> notification message.
 
-### -field MMC_VERB_PROPERTIES
+### -field MMC_VERB_PROPERTIES:0x8004
 
 The console instructs the snap-in and all snap-in extensions to provide property pages for the currently selected item. When the user activates this verb, MMC calls the <a href="/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a> method of all snap-ins (primary and extension) that add property pages for the selected item.
 
 Be aware that primary snap-ins are responsible for enabling the <b>MMC_VERB_PROPERTIES</b> verb. Extensions snap-ins cannot do this, because they do not own the item for which the verb is enabled.
 
-### -field MMC_VERB_RENAME
+### -field MMC_VERB_RENAME:0x8005
 
 Allows the selected item to be renamed. When the user activates this verb, MMC sends the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> or <a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> method a <a href="/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a> notification message.
 
-### -field MMC_VERB_REFRESH
+### -field MMC_VERB_REFRESH:0x8006
 
 Determines whether the currently selected scope item (folder) can be refreshed. When the user activates this verb, MMC sends the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> a <a href="/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a> notification message.
 
-### -field MMC_VERB_PRINT
+### -field MMC_VERB_PRINT:0x8007
 
 Determines whether the currently selected item can be printed. When the user activates this verb, MMC sends the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> a <a href="/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a> notification message.
 
-### -field MMC_VERB_CUT
+### -field MMC_VERB_CUT:0x8008
 
 (Applies to MMC 1.1 and later.) Used only to explicitly disable or hide the cut verb, when the copy and paste verbs are enabled. When the user activates this verb, MMC calls the snap-in's <a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">IComponentData::QueryDataObject</a> or <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> implementation to request a data object for the cut item.
 

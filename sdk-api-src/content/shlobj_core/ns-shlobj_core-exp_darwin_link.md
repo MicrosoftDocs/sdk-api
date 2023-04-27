@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_2
+UID: NS:shlobj_core.EXP_DARWIN_LINK
 title: EXP_DARWIN_LINK (shlobj_core.h)
 description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.
 helpviewer_keywords: ["*LPEXP_DARWIN_LINK","EXP_DARWIN_ID_SIG","EXP_DARWIN_LINK","EXP_DARWIN_LINK structure [Windows Shell]","LPEXP_DARWIN_LINK","LPEXP_DARWIN_LINK structure pointer [Windows Shell]","_win32_EXP_DARWIN_LINK_str","shell.EXP_DARWIN_LINK_str","shlobj_core/EXP_DARWIN_LINK","shlobj_core/LPEXP_DARWIN_LINK"]
@@ -90,3 +90,4 @@ The link's ID in the form of an Unicode string.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a>
+

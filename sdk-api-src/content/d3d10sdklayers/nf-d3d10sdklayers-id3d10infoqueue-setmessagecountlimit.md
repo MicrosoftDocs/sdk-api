@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.SetMessageCountLimit
 title: ID3D10InfoQueue::SetMessageCountLimit (d3d10sdklayers.h)
-description: Set the maximum number of messages that can be added to the message queue.
+description: Set the maximum number of messages that can be added to the message queue. (ID3D10InfoQueue.SetMessageCountLimit)
 helpviewer_keywords: ["27e01700-9801-1813-918b-c6687b02eb6f","ID3D10InfoQueue interface [Direct3D 10]","SetMessageCountLimit method","ID3D10InfoQueue.SetMessageCountLimit","ID3D10InfoQueue::SetMessageCountLimit","SetMessageCountLimit","SetMessageCountLimit method [Direct3D 10]","SetMessageCountLimit method [Direct3D 10]","ID3D10InfoQueue interface","d3d10sdklayers/ID3D10InfoQueue::SetMessageCountLimit","direct3d10.id3d10infoqueue_setmessagecountlimit"]
 old-location: direct3d10\id3d10infoqueue_setmessagecountlimit.htm
 tech.root: direct3d10

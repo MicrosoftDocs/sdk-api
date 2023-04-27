@@ -47,7 +47,6 @@ api_name:
 
 # IPrintDocumentPackageStatusEvent interface
 
-
 ## -description
 
 Represents the progress of the print job.
@@ -56,3 +55,21 @@ Represents the progress of the print job.
 
 The <b>IPrintDocumentPackageStatusEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPrintDocumentPackageStatusEvent</b> also has these types of members:
 
+## -members
+
+The <b>IPrintDocumentPackageStatusEvent</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a>
+</td>
+<td align="left" width="63%">
+Updates the status of the package when the  print job in progress raises an event, or the job completes.
+
+</td>
+</tr>
+</table> 

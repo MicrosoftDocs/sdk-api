@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.put_Description
 title: IAzApplicationGroup::put_Description (azroles.h)
-description: Sets or retrieves a comment that describes the application group.
+description: Sets or retrieves a comment that describes the application group. (Put)
 helpviewer_keywords: ["AzApplicationGroup object [Security]","Description property","Description property [Security]","Description property [Security]","AzApplicationGroup object","Description property [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","Description property","IAzApplicationGroup.Description","IAzApplicationGroup.put_Description","IAzApplicationGroup::Description","IAzApplicationGroup::get_Description","IAzApplicationGroup::put_Description","azroles/IAzApplicationGroup::Description","azroles/IAzApplicationGroup::get_Description","azroles/IAzApplicationGroup::put_Description","put_Description","security.iazapplicationgroup_description"]
 old-location: security\iazapplicationgroup_description.htm
 tech.root: security

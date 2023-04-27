@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_ScheduleType
 title: IFaxDocument::put_ScheduleType (faxcomex.h)
-description: The IFaxDocument::get_ScheduleType property indicates when to schedule the fax job; for example, you can specify that the fax service send the fax immediately, at a specified time, or during a predefined discount period.
+description: The IFaxDocument::get_ScheduleType property indicates when to schedule the fax job; for example, you can specify that the fax service send the fax immediately, at a specified time, or during a predefined discount period. (Put)
 helpviewer_keywords: ["IFaxDocument interface [Fax Service]","ScheduleType property","IFaxDocument.ScheduleType","IFaxDocument.get_ScheduleType","IFaxDocument.put_ScheduleType","IFaxDocument::ScheduleType","IFaxDocument::get_ScheduleType","IFaxDocument::put_ScheduleType","ScheduleType property [Fax Service]","ScheduleType property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.scheduletype","fax._mfax_faxdocument_cpp_mfax_faxdocument_scheduletype_cpp","fax._mfax_faxdocument_scheduletype","faxcomex/IFaxDocument::ScheduleType","faxcomex/IFaxDocument::get_ScheduleType","faxcomex/IFaxDocument::put_ScheduleType","put_ScheduleType"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_scheduletype_cpp.htm
 tech.root: Fax

@@ -65,7 +65,7 @@ Receives the relative tilt. See <a href="/windows/desktop/api/vidcap/nf-vidcap-i
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 

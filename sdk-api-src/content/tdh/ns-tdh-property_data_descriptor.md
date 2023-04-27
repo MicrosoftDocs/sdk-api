@@ -137,7 +137,6 @@ To describe a member of a structure, define an array of two <b>PROPERTY_DATA_DES
 If the structure is an element of an array of structures, set ArrayIndex in the first descriptor to the zero-based index of the structure in the array.
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
 
 

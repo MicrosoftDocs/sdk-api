@@ -58,38 +58,38 @@ Defines values for the mode pages that are supported by CD and DVD devices.
 
 ## -enum-fields
 
-### -field IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY
+### -field IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY:0x1
 
 The mode page specifies the error recovery parameters the
 drive uses during any command that performs a data read or write operation from the media.
 
-### -field IMAPI_MODE_PAGE_TYPE_MRW
+### -field IMAPI_MODE_PAGE_TYPE_MRW:0x3
 
 The mode page provides a method by which the host may control the special features of a
 MRW CD-RW Drive.
 
-### -field IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS
+### -field IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS:0x5
 
 The mode page provides parameters that are often needed in the execution of
 commands that write to the media.
 
-### -field IMAPI_MODE_PAGE_TYPE_CACHING
+### -field IMAPI_MODE_PAGE_TYPE_CACHING:0x8
 
 The mode page contains parameters to enable or disable caching during read or write operations.
 
-### -field IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS
+### -field IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS:0x1c
 
 The mode page contains parameters for exception reporting mechanisms that result in specific sense code errors when failures are predicted.  This mode page is related to the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">S.M.A.R.T.</a> feature.
 
-### -field IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT
+### -field IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT:0x1d
 
 The mode page contains command time-out values that are  suggested by the device.
 
-### -field IMAPI_MODE_PAGE_TYPE_POWER_CONDITION
+### -field IMAPI_MODE_PAGE_TYPE_POWER_CONDITION:0x1a
 
 The mode page contains power management settings for the drive. The parameters define how long the logical unit delays before changing its internal power state.
 
-### -field IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES
+### -field IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES:0x2a
 
 The mode page contains legacy device capabilities. These are superseded by the feature pages returned through the GetConfiguration command.
 

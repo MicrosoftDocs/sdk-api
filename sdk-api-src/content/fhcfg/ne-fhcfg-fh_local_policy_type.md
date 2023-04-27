@@ -58,7 +58,7 @@ Specifies the type of a local policy for the File History feature. Each local po
 
 ## -enum-fields
 
-### -field FH_FREQUENCY
+### -field FH_FREQUENCY:0
 
 This local policy specifies how frequently backups are to be performed for the current user. The numeric parameter contains the time, in seconds, from the end of one backup until the start of the next one. The default value of the numeric parameter for this policy is 3600 seconds (1 hour).
 

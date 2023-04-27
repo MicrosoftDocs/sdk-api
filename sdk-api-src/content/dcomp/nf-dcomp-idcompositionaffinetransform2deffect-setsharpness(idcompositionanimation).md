@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation)
 title: IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation) (dcomp.h)
-description: Sets the sharpness of the effect.
+description: Sets the sharpness of the effect. (overload 1/2)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetSharpness method","IDCompositionAffineTransform2DEffect.SetSharpness","IDCompositionAffineTransform2DEffect.SetSharpness(IDCompositionAnimation)","IDCompositionAffineTransform2DEffect::SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness(IDCompositionAnimation)","SetSharpness","SetSharpness method [DirectComposition]","SetSharpness method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetSharpness","directcomp.idcompositionaffinetransform2deffect_setsharpness_2"]
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness_2.htm
 tech.root: directcomp

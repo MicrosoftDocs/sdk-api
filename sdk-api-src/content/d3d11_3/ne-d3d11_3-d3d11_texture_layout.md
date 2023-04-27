@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11_3.D3D11_TEXTURE_LAYOUT
 title: D3D11_TEXTURE_LAYOUT (d3d11_3.h)
-description: Specifies texture layout options.
+description: Specifies texture layout options. (D3D11_TEXTURE_LAYOUT)
 helpviewer_keywords: ["D3D11_TEXTURE_LAYOUT","D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11]","D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE","D3D11_TEXTURE_LAYOUT_ROW_MAJOR","D3D11_TEXTURE_LAYOUT_UNDEFINED","d3d11_3/D3D11_TEXTURE_LAYOUT","d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE","d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR","d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED","direct3d11.d3d11_texture_layout"]
 old-location: direct3d11\d3d11_texture_layout.htm
 tech.root: direct3d11
@@ -54,15 +54,15 @@ Specifies texture layout options.
 
 ## -enum-fields
 
-### -field D3D11_TEXTURE_LAYOUT_UNDEFINED
+### -field D3D11_TEXTURE_LAYOUT_UNDEFINED:0
 
 The texture layout is undefined, and is selected by the driver.
 
-### -field D3D11_TEXTURE_LAYOUT_ROW_MAJOR
+### -field D3D11_TEXTURE_LAYOUT_ROW_MAJOR:1
 
 Data for the texture is stored in row major (sometimes called pitch-linear) order.
 
-### -field D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE
+### -field D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE:2
 
 A default texture uses the standardized swizzle pattern.
 

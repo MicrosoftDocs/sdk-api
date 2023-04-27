@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEXTURE2D_DESC
 title: D3D11_TEXTURE2D_DESC (d3d11.h)
-description: Describes a 2D texture.
+description: Describes a 2D texture. (D3D11_TEXTURE2D_DESC)
 helpviewer_keywords: ["0e4a1b3e-1d71-7891-e22e-f3f18ab0f0b9","D3D11_TEXTURE2D_DESC","D3D11_TEXTURE2D_DESC structure [Direct3D 11]","d3d11/D3D11_TEXTURE2D_DESC","direct3d11.d3d11_texture2d_desc"]
 old-location: direct3d11\d3d11_texture2d_desc.htm
 tech.root: direct3d11

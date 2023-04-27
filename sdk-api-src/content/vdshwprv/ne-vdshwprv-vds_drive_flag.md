@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_DRIVE_FLAG
 title: VDS_DRIVE_FLAG (vdshwprv.h)
-description: Defines the set of valid flags for a drive object.
+description: The VDS_DRIVE_FLAG enumeration (vdshwprv.h) defines the set of valid flags for a drive object.
 helpviewer_keywords: ["*PVDS_DRIVE_FLAG","VDS_DRF_ASSIGNED","VDS_DRF_HOTSPARE","VDS_DRF_HOTSPARE_IN_USE","VDS_DRF_HOTSPARE_STANDBY","VDS_DRF_UNASSIGNED","VDS_DRIVE_FLAG","VDS_DRIVE_FLAG enumeration [VDS]","base.vds_drive_flag","vds/VDS_DRF_ASSIGNED","vds/VDS_DRF_HOTSPARE","vds/VDS_DRF_HOTSPARE_IN_USE","vds/VDS_DRF_HOTSPARE_STANDBY","vds/VDS_DRF_UNASSIGNED","vds/VDS_DRIVE_FLAG","vdshwprv/VDS_DRF_ASSIGNED","vdshwprv/VDS_DRF_HOTSPARE","vdshwprv/VDS_DRF_HOTSPARE_IN_USE","vdshwprv/VDS_DRF_HOTSPARE_STANDBY","vdshwprv/VDS_DRF_UNASSIGNED","vdshwprv/VDS_DRIVE_FLAG"]
 old-location: base\vds_drive_flag.htm
 tech.root: base
 ms.assetid: 50ddb9d1-32c9-4fee-bb88-498380a34c85
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_DRIVE_FLAG, VDS_DRF_ASSIGNED, VDS_DRF_HOTSPARE, VDS_DRF_HOTSPARE_IN_USE, VDS_DRF_HOTSPARE_STANDBY, VDS_DRF_UNASSIGNED, VDS_DRIVE_FLAG, VDS_DRIVE_FLAG enumeration [VDS], base.vds_drive_flag, vds/VDS_DRF_ASSIGNED, vds/VDS_DRF_HOTSPARE, vds/VDS_DRF_HOTSPARE_IN_USE, vds/VDS_DRF_HOTSPARE_STANDBY, vds/VDS_DRF_UNASSIGNED, vds/VDS_DRIVE_FLAG, vdshwprv/VDS_DRF_ASSIGNED, vdshwprv/VDS_DRF_HOTSPARE, vdshwprv/VDS_DRF_HOTSPARE_IN_USE, vdshwprv/VDS_DRF_HOTSPARE_STANDBY, vdshwprv/VDS_DRF_UNASSIGNED, vdshwprv/VDS_DRIVE_FLAG'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,35 +55,35 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid flags for a <a href="/windows/desktop/VDS/drive-object">drive object</a>.
 
 ## -enum-fields
 
-### -field VDS_DRF_HOTSPARE
+### -field VDS_DRF_HOTSPARE:0x1
 
 The drive is reserved for use only as a hot spare.
 
-### -field VDS_DRF_ASSIGNED
+### -field VDS_DRF_ASSIGNED:0x2
 
 The drive is assigned to a RAID group or <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_UNASSIGNED
+### -field VDS_DRF_UNASSIGNED:0x4
 
 The drive is not assigned to a RAID group or storage pool.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_IN_USE
+### -field VDS_DRF_HOTSPARE_IN_USE:0x8
 
 The drive is in use as a hot spare.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-### -field VDS_DRF_HOTSPARE_STANDBY
+### -field VDS_DRF_HOTSPARE_STANDBY:0x10
 
 The drive is on standby as a hot spare.
 

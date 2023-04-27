@@ -1,12 +1,12 @@
 ---
 UID: NS:imm.tagCANDIDATEFORM
 title: CANDIDATEFORM (imm.h)
-description: Contains position information for the candidate window.
+description: The CANDIDATEFORM (imm.h) structure contains position information for the candidate window. 
 helpviewer_keywords: ["*LPCANDIDATEFORM","*NPCANDIDATEFORM","*PCANDIDATEFORM","CANDIDATEFORM","CANDIDATEFORM structure [Internationalization for Windows Applications]","PCANDIDATEFORM","PCANDIDATEFORM structure pointer [Internationalization for Windows Applications]","_win32_CANDIDATEFORM_str","imm/CANDIDATEFORM","imm/PCANDIDATEFORM","intl.candidateform","tagCANDIDATEFORM"]
 old-location: intl\candidateform.htm
 tech.root: Intl
 ms.assetid: 86edcfe0-07f7-4bd7-9444-3a884aeb7926
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM'
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
@@ -83,7 +83,7 @@ Position style. This member can be one of the following values.
 
 ### -field ptCurrentPos
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the coordinates of the upper left corner of the candidate window or the caret position, depending on the value of <b>dwStyle</b>.
 
 ### -field rcArea
 

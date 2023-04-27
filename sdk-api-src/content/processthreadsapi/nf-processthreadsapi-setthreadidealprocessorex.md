@@ -4,7 +4,7 @@ title: SetThreadIdealProcessorEx function (processthreadsapi.h)
 description: Sets the ideal processor for the specified thread and optionally retrieves the previous ideal processor.
 helpviewer_keywords: ["SetThreadIdealProcessorEx","SetThreadIdealProcessorEx function","base.setthreadidealprocessorex","processthreadsapi/SetThreadIdealProcessorEx","winbase/SetThreadIdealProcessorEx"]
 old-location: base\setthreadidealprocessorex.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.date: 12/05/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx

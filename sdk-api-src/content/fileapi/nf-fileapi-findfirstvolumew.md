@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.FindFirstVolumeW
 title: FindFirstVolumeW function (fileapi.h)
-description: Retrieves the name of a volume on a computer.
+description: Retrieves the name of a volume on a computer. (FindFirstVolumeW)
 helpviewer_keywords: ["FindFirstVolume","FindFirstVolume function [Files]","FindFirstVolumeA","FindFirstVolumeW","_win32_findfirstvolume","base.findfirstvolume","fileapi/FindFirstVolume","fileapi/FindFirstVolumeA","fileapi/FindFirstVolumeW","fs.findfirstvolume","winbase/FindFirstVolume","winbase/FindFirstVolumeA","winbase/FindFirstVolumeW"]
 old-location: fs\findfirstvolume.htm
 tech.root: fs

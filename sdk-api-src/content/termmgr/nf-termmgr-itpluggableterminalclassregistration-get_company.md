@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Company
 title: ITPluggableTerminalClassRegistration::get_Company (termmgr.h)
-description: The get_Company method gets the name of the company that issued this pluggable terminal.
+description: The get_Company method gets the name of the company that issued this pluggable terminal. (ITPluggableTerminalClassRegistration.get_Company)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Company method","ITPluggableTerminalClassRegistration.get_Company","ITPluggableTerminalClassRegistration::get_Company","_tapi3_itpluggableterminalclassregistration_get_company","get_Company","get_Company method [TAPI 2.2]","get_Company method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_company","termmgr/ITPluggableTerminalClassRegistration::get_Company"]
 old-location: tapi3\itpluggableterminalclassregistration_get_company.htm
 tech.root: tapi3

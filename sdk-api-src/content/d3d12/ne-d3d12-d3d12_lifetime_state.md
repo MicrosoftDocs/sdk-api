@@ -39,7 +39,7 @@ Defines constants that specify the lifetime state of a lifetime-tracked object.
 
 ## -enum-fields
 
-### -field D3D12_LIFETIME_STATE_IN_USE
+### -field D3D12_LIFETIME_STATE_IN_USE:0
 
 Specifies that the lifetime-tracked object is in use.
 

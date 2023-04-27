@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderAction.put_Size
 title: IFolderAction::put_Size (pla.h)
-description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
+description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions. (Put)
 helpviewer_keywords: ["IFolderAction interface [PLA]","Size property","IFolderAction.Size","IFolderAction.put_Size","IFolderAction::Size","IFolderAction::get_Size","IFolderAction::put_Size","Size property [PLA]","Size property [PLA]","IFolderAction interface","base.ifolderaction_size","pla.ifolderaction_size","pla/IFolderAction::Size","pla/IFolderAction::get_Size","pla/IFolderAction::put_Size","put_Size"]
 old-location: pla\ifolderaction_size.htm
 tech.root: PLA

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemNaming.SetFriendlyName
 title: IVdsSubSystemNaming::SetFriendlyName (vdshwprv.h)
-description: Sets the friendly name of a subsystem.
+description: The IVdsSubSystemNaming::SetFriendlyName (vdshwprv.h) method sets the friendly name of a subsystem.
 helpviewer_keywords: ["IVdsSubSystemNaming interface","SetFriendlyName method","IVdsSubSystemNaming.SetFriendlyName","IVdsSubSystemNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method","SetFriendlyName method","IVdsSubSystemNaming interface","base.ivdssubsystemnaming_setfriendlyname","vds/IVdsSubSystemNaming::SetFriendlyName","vdshwprv/IVdsSubSystemNaming::SetFriendlyName"]
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm
 tech.root: base
 ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the friendly name of a subsystem.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Fired when the SBE2 source filter receives any event fired through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface, other than  the <b>EVENTID_DTFilterRatingChange</b> event.
+Fired when the SBE2 source filter receives any event fired through the <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a> interface, other than  the <b>EVENTID_DTFilterRatingChange</b> event.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
+<a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_UseArchive
 title: IFaxConfiguration::put_UseArchive (faxcomex.h)
-description: Sets or retrieves a value that indicates whether faxes should be archived.
+description: Sets or retrieves a value that indicates whether faxes should be archived. (Put)
 helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","UseArchive property","IFaxConfiguration.UseArchive","IFaxConfiguration.put_UseArchive","IFaxConfiguration::UseArchive","IFaxConfiguration::get_UseArchive","IFaxConfiguration::put_UseArchive","UseArchive property [Fax Service]","UseArchive property [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_UseArchive","fax._mfax_IFaxConfiguration_UseArchive","faxcomex/IFaxConfiguration::UseArchive","faxcomex/IFaxConfiguration::get_UseArchive","faxcomex/IFaxConfiguration::put_UseArchive","put_UseArchive"]
 old-location: fax\_mfax_IFaxConfiguration_UseArchive.htm
 tech.root: Fax

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMenuItemInfoA
 title: GetMenuItemInfoA function (winuser.h)
-description: Retrieves information about a menu item.
-helpviewer_keywords: ["GetMenuItemInfo","GetMenuItemInfo function [Menus and Other Resources]","GetMenuItemInfoA","GetMenuItemInfoW","_win32_GetMenuItemInfo","_win32_getmenuiteminfo_cpp","menurc.getmenuiteminfo","winui._win32_getmenuiteminfo","winuser/GetMenuItemInfo","winuser/GetMenuItemInfoA","winuser/GetMenuItemInfoW"]
+description: Retrieves information about a menu item. (ANSI)
+helpviewer_keywords: ["GetMenuItemInfoA", "winuser/GetMenuItemInfoA"]
 old-location: menurc\getmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm

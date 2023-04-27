@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 title: IDiscFormat2Data::put_BufferUnderrunFreeDisabled (imapi2.h)
-description: Determines if Buffer Underrun Free recording is enabled.
+description: Determines if Buffer Underrun Free recording is enabled. (IDiscFormat2Data.put_BufferUnderrunFreeDisabled)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_BufferUnderrunFreeDisabled method","IDiscFormat2Data.put_BufferUnderrunFreeDisabled","IDiscFormat2Data::put_BufferUnderrunFreeDisabled","imapi.idiscformat2data_put_bufferunderrunfreedisabled","imapi2/IDiscFormat2Data::put_BufferUnderrunFreeDisabled","put_BufferUnderrunFreeDisabled","put_BufferUnderrunFreeDisabled method [IMAPI]","put_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_bufferunderrunfreedisabled.htm
 tech.root: imapi

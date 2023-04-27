@@ -52,25 +52,25 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a volume plex.
 
 ## -enum-fields
 
-### -field VDS_VPS_UNKNOWN
+### -field VDS_VPS_UNKNOWN:0
 
 This value is reserved.
 
-### -field VDS_VPS_ONLINE
+### -field VDS_VPS_ONLINE:1
 
 The volume plex is available.
 
-### -field VDS_VPS_NO_MEDIA
+### -field VDS_VPS_NO_MEDIA:3
 
 The volume plex has no media.
 
-### -field VDS_VPS_FAILED
+### -field VDS_VPS_FAILED:5
 
 The volume plex is unavailable.
 

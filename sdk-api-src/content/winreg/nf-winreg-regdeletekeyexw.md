@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteKeyExW
 title: RegDeleteKeyExW function (winreg.h)
-description: Deletes a subkey and its values from the specified platform-specific view of the registry.
-helpviewer_keywords: ["KEY_WOW64_32KEY","KEY_WOW64_64KEY","RegDeleteKeyEx","RegDeleteKeyEx function","RegDeleteKeyExA","RegDeleteKeyExW","base.regdeletekeyex","winreg/RegDeleteKeyEx","winreg/RegDeleteKeyExA","winreg/RegDeleteKeyExW"]
+description: Deletes a subkey and its values from the specified platform-specific view of the registry. (Unicode)
+helpviewer_keywords: ["KEY_WOW64_32KEY", "KEY_WOW64_64KEY", "RegDeleteKeyEx", "RegDeleteKeyEx function", "RegDeleteKeyExW", "base.regdeletekeyex", "winreg/RegDeleteKeyEx", "winreg/RegDeleteKeyExW"]
 old-location: base\regdeletekeyex.htm
 tech.root: winprog
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136

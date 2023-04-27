@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeDecode
 title: IX509ExtensionMSApplicationPolicies::InitializeDecode (certenroll.h)
-description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
+description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value. (IX509ExtensionMSApplicationPolicies.InitializeDecode)
 helpviewer_keywords: ["IX509ExtensionMSApplicationPolicies interface [Security]","InitializeDecode method","IX509ExtensionMSApplicationPolicies.InitializeDecode","IX509ExtensionMSApplicationPolicies::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionMSApplicationPolicies interface","certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode","security.ix509extensionmsapplicationpolicies_initializedecode_method"]
 old-location: security\ix509extensionmsapplicationpolicies_initializedecode_method.htm
 tech.root: security

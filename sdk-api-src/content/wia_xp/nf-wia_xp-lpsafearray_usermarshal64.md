@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserMarshal64
 title: LPSAFEARRAY_UserMarshal64 function (wia_xp.h)
-description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
+description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side. (LPSAFEARRAY_UserMarshal64)
 helpviewer_keywords: ["LPSAFEARRAY_UserMarshal64","LPSAFEARRAY_UserMarshal64 function [Automation]","automat.lpsafearray_usermarshal64","wia_xp/LPSAFEARRAY_UserMarshal64"]
 old-location: automat\lpsafearray_usermarshal64.htm
 tech.root: automat

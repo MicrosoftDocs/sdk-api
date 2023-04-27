@@ -1,5 +1,5 @@
 ---
-UID: NS:winuser.__unnamed_struct_2
+UID: NS:winuser.BSMINFO
 title: BSMINFO (winuser.h)
 description: Contains information about a window that denied a request from BroadcastSystemMessageEx.
 helpviewer_keywords: ["*PBSMINFO","BSMINFO","BSMINFO structure [Windows and Messages]","PBSMINFO","PBSMINFO structure pointer [Windows and Messages]","_win32_BSMINFO_str","_win32_bsminfo_str_cpp","winmsg.bsminfo","winui._win32_bsminfo_str","winuser/BSMINFO","winuser/PBSMINFO"]
@@ -96,3 +96,4 @@ A locally unique identifier (LUID) for the window.
 
 
 <b>Reference</b>
+

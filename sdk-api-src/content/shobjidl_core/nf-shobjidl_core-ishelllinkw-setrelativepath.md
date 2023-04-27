@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetRelativePath
 title: IShellLinkW::SetRelativePath (shobjidl_core.h)
-description: Sets the relative path to the Shell link object.
+description: Sets the relative path to the Shell link object. (Unicode)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetRelativePath method","IShellLink::SetRelativePath","IShellLinkA interface [Windows Shell]","SetRelativePath method","IShellLinkA::SetRelativePath","IShellLinkW interface [Windows Shell]","SetRelativePath method","IShellLinkW.SetRelativePath","IShellLinkW::SetRelativePath","SetRelativePath","SetRelativePath method [Windows Shell]","SetRelativePath method [Windows Shell]","IShellLink interface","SetRelativePath method [Windows Shell]","IShellLinkA interface","SetRelativePath method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetRelativePath","shell.IShellLink_SetRelativePath","shobjidl_core/IShellLink::SetRelativePath","shobjidl_core/IShellLinkA::SetRelativePath","shobjidl_core/IShellLinkW::SetRelativePath"]
 old-location: shell\IShellLink_SetRelativePath.htm
 tech.root: shell

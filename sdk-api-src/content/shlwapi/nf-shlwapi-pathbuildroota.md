@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathBuildRootA
 title: PathBuildRootA function (shlwapi.h)
-description: Creates a root path from a given drive number.
-helpviewer_keywords: ["PathBuildRoot","PathBuildRoot function [Windows Shell]","PathBuildRootA","PathBuildRootW","_win32_PathBuildRoot","shell.PathBuildRoot","shlwapi/PathBuildRoot","shlwapi/PathBuildRootA","shlwapi/PathBuildRootW"]
+description: Creates a root path from a given drive number. (ANSI)
+helpviewer_keywords: ["PathBuildRootA", "shlwapi/PathBuildRootA"]
 old-location: shell\PathBuildRoot.htm
 tech.root: shell
 ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMMatrixTransform interface
 
-
 ## -description
 
 Specifies an affine matrix transform that can be applied to other objects in the object model.

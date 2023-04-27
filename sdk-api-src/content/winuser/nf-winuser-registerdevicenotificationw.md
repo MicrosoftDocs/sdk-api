@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RegisterDeviceNotificationW
 title: RegisterDeviceNotificationW function (winuser.h)
-description: Registers the device or type of device for which a window will receive notifications.
-helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES","DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterDeviceNotification","RegisterDeviceNotification function","RegisterDeviceNotificationA","RegisterDeviceNotificationW","_win32_registerdevicenotification","base.registerdevicenotification","winuser/RegisterDeviceNotification","winuser/RegisterDeviceNotificationA","winuser/RegisterDeviceNotificationW"]
+description: Registers the device or type of device for which a window will receive notifications. (Unicode)
+helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES", "DEVICE_NOTIFY_SERVICE_HANDLE", "DEVICE_NOTIFY_WINDOW_HANDLE", "RegisterDeviceNotification", "RegisterDeviceNotification function", "RegisterDeviceNotificationW", "_win32_registerdevicenotification", "base.registerdevicenotification", "winuser/RegisterDeviceNotification", "winuser/RegisterDeviceNotificationW"]
 old-location: base\registerdevicenotification.htm
 tech.root: base
 ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
@@ -61,6 +61,9 @@ req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Registers the device or type of device for which a window will receive notifications.
+
+> [!NOTE]
+> You can use <a href="/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> instead of <b>RegisterDeviceNotification</b> if your code targets Windows 8 or newer versions of Windows. The advantage of <b>CM_Register_Notification</b> is that it does not require a window handle to work.
 
 ## -parameters
 

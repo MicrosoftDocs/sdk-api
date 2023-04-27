@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
-description: Sets an element of the color matrix.
+description: Sets an element of the color matrix. (overload 2/2)
 helpviewer_keywords: ["IDCompositionColorMatrixEffect interface [DirectComposition]","SetMatrixElement method","IDCompositionColorMatrixEffect.SetMatrixElement","IDCompositionColorMatrixEffect.SetMatrixElement(int","int","IDCompositionAnimation)","IDCompositionColorMatrixEffect::SetMatrixElement","IDCompositionColorMatrixEffect::SetMatrixElement(int","int","IDCompositionAnimation)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionColorMatrixEffect interface","dcomp/IDCompositionColorMatrixEffect::SetMatrixElement","directcomp.idcompositioncolormatrixeffect_setmatrixelement_2"]
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement_2.htm
 tech.root: directcomp

@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmEnumRegisterWordW
 title: ImmEnumRegisterWordW function (immdev.h)
-description: Enumerates the register strings having the specified reading string, style, and register string.
-helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
+description: The ImmEnumRegisterWordW (Unicode) function (immdev.h) enumerates the register strings having the specified reading string, style, and register string.
+helpviewer_keywords: ["ImmEnumRegisterWord", "ImmEnumRegisterWord function [Internationalization for Windows Applications]", "ImmEnumRegisterWordW", "_win32_ImmEnumRegisterWord", "intl.immenumregisterword"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

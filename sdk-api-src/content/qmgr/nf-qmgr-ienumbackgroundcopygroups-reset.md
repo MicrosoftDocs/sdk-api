@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Reset
 title: IEnumBackgroundCopyGroups::Reset (qmgr.h)
-description: Use the Reset method to reset the enumeration sequence to the beginning.
+description: Use the Reset method to reset the enumeration sequence to the beginning. (IEnumBackgroundCopyGroups.Reset)
 helpviewer_keywords: ["IEnumBackgroundCopyGroups interface [BITS]","Reset method","IEnumBackgroundCopyGroups.Reset","IEnumBackgroundCopyGroups::Reset","Reset","Reset method [BITS]","Reset method [BITS]","IEnumBackgroundCopyGroups interface","bits.ienumbackgroundcopygroups_reset","qmgr/IEnumBackgroundCopyGroups::Reset"]
 old-location: bits\ienumbackgroundcopygroups_reset.htm
 tech.root: Bits

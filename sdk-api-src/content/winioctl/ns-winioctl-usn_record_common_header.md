@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_24
+UID: NS:winioctl.USN_RECORD_COMMON_HEADER
 title: USN_RECORD_COMMON_HEADER
 description: Contains the information for an update sequence number (USN) common header which is common through USN_RECORD_V2, USN_RECORD_V3 and USN_RECORD_V4.
 helpviewer_keywords: ["*PUSN_RECORD_COMMON_HEADER","PUSN_RECORD_COMMON_HEADER","PUSN_RECORD_COMMON_HEADER structure pointer [Files]","USN_RECORD_COMMON_HEADER","USN_RECORD_COMMON_HEADER structure [Files]","fs.usn_record_common_header","winioctl/PUSN_RECORD_COMMON_HEADER","winioctl/USN_RECORD_COMMON_HEADER"]
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains the information for an update sequence number (USN) common header which is common through <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a>, <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> and <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>.
+Contains the information for an update sequence number (USN) common header which is common through <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a>, <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> and [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md).
 
 ## -struct-fields
 
@@ -61,7 +61,7 @@ The total length of a record, in bytes.
 
 Because USN record is a variable size, the <b>RecordLength</b> member should be used when calculating the address of the next record in an output buffer, for example, a buffer that is returned from operations for the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function that work with different USN record types.
 
-For <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>, the size in bytes of any change journal record is at most the size of the structure, plus (NumberOfExtents-1) times size of the <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a>.
+For [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md), the size in bytes of any change journal record is at most the size of the structure, plus (NumberOfExtents-1) times size of the <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a>.
 
 ### -field MajorVersion
 
@@ -84,7 +84,7 @@ For example, if the change journal software is version 4.0, the major version nu
 </tr>
 <tr>
 <td>4</td>
-<td>The structure is a <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.</td>
+<td>The structure is a [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md) and the remainder of the structure should be parsed using that layout.</td>
 </tr>
 </table>
 
@@ -106,8 +106,9 @@ The minor version number of the change journal software for this record. For exa
 
 
 
-<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
+[USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md)
 
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

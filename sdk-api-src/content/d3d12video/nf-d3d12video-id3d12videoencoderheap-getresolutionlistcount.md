@@ -2,9 +2,9 @@
 UID: NF:d3d12video.ID3D12VideoEncoderHeap.GetResolutionListCount
 tech.root: mf
 title: ID3D12VideoEncoderHeap::GetResolutionListCount
-ms.date: 06/23/2021
+description: The ID3D12VideoEncoderHeap::GetResolutionListCount method (d3d12video.h) gets the resolution list count associated with the video encoder heap.
+ms.date: 08/16/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

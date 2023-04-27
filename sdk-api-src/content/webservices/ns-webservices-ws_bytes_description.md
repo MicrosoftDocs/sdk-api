@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_BYTES_DESCRIPTION
 title: WS_BYTES_DESCRIPTION (webservices.h)
-description: Specifies constraints on the set of values which can be deserialized.
+description: Specifies constraints on the set of values which can be deserialized. (WS_BYTES_DESCRIPTION)
 helpviewer_keywords: ["WS_BYTES_DESCRIPTION","WS_BYTES_DESCRIPTION structure [Web Services for Windows]","webservices/WS_BYTES_DESCRIPTION","wsw.ws_bytes_description"]
 old-location: wsw\ws_bytes_description.htm
 tech.root: wsw

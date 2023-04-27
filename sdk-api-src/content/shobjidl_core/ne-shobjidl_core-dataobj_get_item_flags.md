@@ -54,22 +54,22 @@ Values used by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-
 
 ## -enum-fields
 
-### -field DOGIF_DEFAULT
+### -field DOGIF_DEFAULT:0
 
 0x0000. No special options.
 
-### -field DOGIF_TRAVERSE_LINK
+### -field DOGIF_TRAVERSE_LINK:0x1
 
 0x0001. If the source object is a link, base the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> on the link's target rather than the link file itself.
 
-### -field DOGIF_NO_HDROP
+### -field DOGIF_NO_HDROP:0x2
 
 0x0002. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="/windows/desktop/shell/clipboard">CF_HDROP</a> format, which uses a file path, as an alternative in the transfer.
 
-### -field DOGIF_NO_URL
+### -field DOGIF_NO_URL:0x4
 
 0x0004. If the source data object does not contain data in the CFSTR_SHELLIDLIST format, which identifies the object through an IDList, do not revert to the <a href="/windows/desktop/shell/clipboard">CFSTR_INETURL</a> clipboard format, which uses a URL, as an alternative in the transfer.
 
-### -field DOGIF_ONLY_IF_ONE
+### -field DOGIF_ONLY_IF_ONE:0x8
 
 0x0008. If the source object is an array of items, use it only if the array contains just one item.

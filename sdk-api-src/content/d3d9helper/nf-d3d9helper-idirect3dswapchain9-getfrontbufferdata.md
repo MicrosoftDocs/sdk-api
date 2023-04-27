@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetFrontBufferData
 title: IDirect3DSwapChain9::GetFrontBufferData (d3d9helper.h)
-description: Generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application.
+description: The IDirect3DSwapChain9::GetFrontBufferData method (d3d9helper.h) generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application. 
 helpviewer_keywords: ["8f442969-657a-a5ab-1aa3-ff227fe2f705","GetFrontBufferData","GetFrontBufferData method [Direct3D 9]","GetFrontBufferData method [Direct3D 9]","IDirect3DSwapChain9 interface","IDirect3DSwapChain9 interface [Direct3D 9]","GetFrontBufferData method","IDirect3DSwapChain9.GetFrontBufferData","IDirect3DSwapChain9::GetFrontBufferData","d3d9helper/IDirect3DSwapChain9::GetFrontBufferData","direct3d9.idirect3dswapchain9__getfrontbufferdata"]
 old-location: direct3d9\idirect3dswapchain9__getfrontbufferdata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getfrontbufferdata.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 8f442969-657a-a5ab-1aa3-ff227fe2f705, GetFrontBufferData, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetFrontBufferData method, IDirect3DSwapChain9.GetFrontBufferData, IDirect3DSwapChain9::GetFrontBufferData, d3d9helper/IDirect3DSwapChain9::GetFrontBufferData, direct3d9.idirect3dswapchain9__getfrontbufferdata
 req.header: d3d9helper.h
 req.include-header: D3D9.h

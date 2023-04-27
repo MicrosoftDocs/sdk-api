@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialAddressA
 title: RasGetAutodialAddressA function (ras.h)
-description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
-helpviewer_keywords: ["RasGetAutodialAddress","RasGetAutodialAddress function [RAS]","RasGetAutodialAddressA","RasGetAutodialAddressW","_ras_rasgetautodialaddress","ras/RasGetAutodialAddress","ras/RasGetAutodialAddressA","ras/RasGetAutodialAddressW","rras.rasgetautodialaddress"]
+description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database. (ANSI)
+helpviewer_keywords: ["RasGetAutodialAddressA", "ras/RasGetAutodialAddressA"]
 old-location: rras\rasgetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150

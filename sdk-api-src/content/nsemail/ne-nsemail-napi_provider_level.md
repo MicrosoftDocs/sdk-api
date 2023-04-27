@@ -56,7 +56,7 @@ The <b>NAPI_PROVIDER_LEVEL</b> enumeration specifies the provider authority leve
 
 ## -enum-fields
 
-### -field ProviderLevel_None
+### -field ProviderLevel_None:0
 
 The namespace provider does not support the current domain. This value can be used to temporarily turn off the support for a domain without removing it from the list of supported domains. 
 

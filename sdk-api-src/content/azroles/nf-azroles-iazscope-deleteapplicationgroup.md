@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzScope object [Security]","DeleteApplicationGroup method
 old-location: security\iazscope_deleteapplicationgroup.htm
 tech.root: security
 ms.assetid: 9571bff3-dfe5-48fa-be51-38d61da40414
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzScope object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzScope object, DeleteApplicationGroup method [Security],IAzScope interface, IAzScope interface [Security],DeleteApplicationGroup method, IAzScope.DeleteApplicationGroup, IAzScope::DeleteApplicationGroup, azroles/IAzScope::DeleteApplicationGroup, security.iazscope_deleteapplicationgroup
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzScope::DeleteApplicationGroup
 
-
 ## -description
 
-The <b>DeleteApplicationGroup</b> method removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name from the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
+The **DeleteApplicationGroup** method removes the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object with the specified name from the [IAzScope](nn-azroles-iazscope.md) object.
 
 ## -parameters
 
 ### -param bstrGroupName [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to delete.
+Name of the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to delete.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) references to an **IAzApplicationGroup** object that has been deleted from the cache, the **IAzApplicationGroup** object can no longer be used. In C++, you must release references to deleted **IAzApplicationGroup** objects by calling the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method. In C# and Visual Basic, references to deleted objects are automatically released.
+
+## -see-also
+
+[IAzApplicationGroup](nn-azroles-iazapplicationgroup.md)

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCopyW
 title: StringCchCopyW function (strsafe.h)
-description: Copies one string to another.
-helpviewer_keywords: ["StringCchCopy","StringCchCopy function [Menus and Other Resources]","StringCchCopyA","StringCchCopyW","_shell_StringCchCopy","_shell_stringcchcopy_cpp","menurc.stringcchcopy","strsafe/StringCchCopy","strsafe/StringCchCopyA","strsafe/StringCchCopyW","winui._shell_stringcchcopy"]
+description: Copies one string to another. (StringCchCopyW)
+helpviewer_keywords: ["StringCchCopy", "StringCchCopy function [Menus and Other Resources]", "StringCchCopyW", "_shell_StringCchCopy", "_shell_stringcchcopy_cpp", "menurc.stringcchcopy", "strsafe/StringCchCopy", "strsafe/StringCchCopyW", "winui._shell_stringcchcopy"]
 old-location: menurc\stringcchcopy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm

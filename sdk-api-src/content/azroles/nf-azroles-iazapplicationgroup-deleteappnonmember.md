@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteAppNonMember
 old-location: security\iazapplicationgroup_deleteappnonmember.htm
 tech.root: security
 ms.assetid: d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteAppNonMember method, DeleteAppNonMember, DeleteAppNonMember method [Security], DeleteAppNonMember method [Security],AzApplicationGroup object, DeleteAppNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteAppNonMember method, IAzApplicationGroup.DeleteAppNonMember, IAzApplicationGroup::DeleteAppNonMember, azroles/IAzApplicationGroup::DeleteAppNonMember, security.iazapplicationgroup_deleteappnonmember
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzApplicationGroup::DeleteAppNonMember
 
-
 ## -description
 
-The <b>DeleteAppNonMember</b> method removes the specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that are refused membership in this application group.
+The **DeleteAppNonMember** method removes the specified [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object from the list of application groups that are refused membership in this application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of the application groups that are refused membership in this application group.
+String that contains the [Name](nf-azroles-iazapplicationgroup-get_name.md) property of the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to remove from the list of the application groups that are refused membership in this application group.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of application groups that are refused membership in this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appnonmembers">AppNonMembers</a> property.
+To view the list of application groups that are refused membership in this application group, use the [AppNonMembers](nf-azroles-iazapplicationgroup-get_appnonmembers.md) property.
+
+## -see-also
+
+[IAzApplicationGroup](nn-azroles-iazapplicationgroup.md)

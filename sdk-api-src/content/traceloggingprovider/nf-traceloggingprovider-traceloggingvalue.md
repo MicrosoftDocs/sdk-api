@@ -1,56 +1,66 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingValue
 title: TraceLoggingValue macro (traceloggingprovider.h)
-description: Wrapper macro for event fields. Automatically deduces value type.
-helpviewer_keywords: ["TraceLoggingValue","TraceLoggingValue macro","tracelogging.traceloggingvalue","traceloggingprovider/TraceLoggingValue"]
+description:
+  TraceLogging wrapper macro for C++ that adds a field with an
+  automatically-deduced type to the event.
+helpviewer_keywords:
+  [
+    "TraceLoggingValue",
+    "TraceLoggingValue macro",
+    "tracelogging.traceloggingvalue",
+    "traceloggingprovider/TraceLoggingValue",
+  ]
 old-location: tracelogging\traceloggingvalue.htm
 tech.root: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
-ms.date: 12/05/2018
-ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
+ms.date: 06/06/2022
+ms.keywords:
+  TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue,
+  traceloggingprovider/TraceLoggingValue
 req.header: traceloggingprovider.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceLoggingValue
- - traceloggingprovider/TraceLoggingValue
+  - TraceLoggingValue
+  - traceloggingprovider/TraceLoggingValue
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - HeaderDef
+  - HeaderDef
 api_location:
- - traceloggingprovider.h
+  - traceloggingprovider.h
 api_name:
- - TraceLoggingValue
+  - TraceLoggingValue
 ---
 
 # TraceLoggingValue macro
 
-
 ## -description
 
-Wrapper macro for event fields. Automatically deduces value type.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+for C++ that adds a field with an automatically-deduced type to the event.
 
 ## -parameters
 
@@ -58,18 +68,66 @@ Wrapper macro for event fields. Automatically deduces value type.
 
 The event field value.
 
+### -param __VA_ARGS__ [in, optional]
 
-#### - description [in, optional]
+Optional _name_, _description_, and _tags_ parameters for the field definition.
 
-The description of the event field's value. If provided, the description parameter must be a string literal, and will be included in the PDB. 
+TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example, `TraceLoggingValue(a+b)`
+is equivalent to `TraceLoggingValue(a+b, "a+b", "", 0)`.
 
+- `[in, optional] name`
 
-#### - name [in, optional]
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _value_.
 
-The name of the event field. If provided, the name parameter must be a string literal (not a variable) and must not  contain any '\0' characters.
+- `[in, optional] description`
 
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
 
-#### - tags [in, optional]
+- `[in, optional] tags`
 
-An integer value. The low 28 bits of the value will be included in the field's metadata. The semantics of the tags  are defined by the event consumer. During event processing, this tag can be retrieved from the EVENT_PROPERTY_INFO Tags field.
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
+## -remarks
+
+In C++ code, `TraceLoggingValue(value, ...)` can be used as a parameter to an
+invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
+TraceLoggingValue parameter adds one field to the event.
+
+The type of the field in the ETW event is automatically deduced from the type of
+the _value_ expression. Based on the type of _value_,
+`TraceLoggingValue(value, ...)` is equivalent to one of the standard
+TraceLogging wrapper macros as follows:
+
+| Type of _value_ | Equivalent to          | Notes                                                    |
+| --------------- | ---------------------- | -------------------------------------------------------- |
+| `bool`          | TraceLoggingBoolean    |
+| `char`          | TraceLoggingChar       | Only for char, not for signed char or unsigned char.     |
+| `char16_t`      | TraceLoggingChar16     |
+| `wchar_t`       | TraceLoggingWChar      | Only for native wchar_t, not for USHORT.                 |
+| `intNN_t`       | TraceLoggingIntNN      | For signed char, short, int, long, and long long.        |
+| `uintNN_t`      | TraceLoggingUIntNN     | For unsigned char, short, int, long, and long long.      |
+| `float`         | TraceLoggingFloat32    |
+| `double`        | TraceLoggingFloat64    |
+| `GUID`          | TraceLoggingGuid       |
+| `FILETIME`      | TraceLoggingFileTime   |
+| `SYSTEMTIME`    | TraceLoggingSystemTime |
+| `SID*`          | TraceLoggingSid        | Must be non-NULL and must point to a valid `SID`.        |
+| `void*`         | TraceLoggingPointer    | Logs the pointer value, not the referenced data.         |
+| `char*`         | TraceLoggingString     | Zero-terminated CP_ACP string. NULL is treated as `""`.  |
+| `char16_t*`     | TraceLoggingString16   | Zero-terminated UTF-16 string. NULL is treated as `u""`. |
+| `wchar_t*`      | TraceLoggingWideString | Zero-terminated UTF-16 string. NULL is treated as `L""`. |
+
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

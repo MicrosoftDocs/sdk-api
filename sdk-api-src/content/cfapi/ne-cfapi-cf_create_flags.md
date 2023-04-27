@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CREATE_FLAGS","CF_CREATE_FLAGS enumeration","CF_CREATE
 old-location: cloudapi\cf_create_flags.htm
 tech.root: cloudapi
 ms.assetid: F70ECFDB-8542-4395-9EDD-7DABC2E5225D
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,18 +47,20 @@ api_name:
 
 # CF_CREATE_FLAGS enumeration
 
-
 ## -description
 
 Flags for creating a placeholder file or directory.
 
 ## -enum-fields
 
-### -field CF_CREATE_FLAG_NONE
+### -field CF_CREATE_FLAG_NONE:0x00000000
 
 Default mode. All entries are processed.
 
-### -field CF_CREATE_FLAG_STOP_ON_ERROR
+### -field CF_CREATE_FLAG_STOP_ON_ERROR:0x00000001
 
 Causes the API to return immediately if placeholder creation fails. If creation fails, the error code will be returned by the API.
 
+## -see-also
+
+[CfCreatePlaceholders](nf-cfapi-cfcreateplaceholders.md)

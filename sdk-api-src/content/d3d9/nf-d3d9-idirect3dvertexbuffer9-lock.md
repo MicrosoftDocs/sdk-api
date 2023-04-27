@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DVertexBuffer9.Lock
 title: IDirect3DVertexBuffer9::Lock (d3d9.h)
-description: Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
+description: The IDirect3DVertexBuffer9::Lock (d3d9.h) method locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 helpviewer_keywords: ["50b9d9ea-bb70-b92b-dbd4-0e355b29ab40","IDirect3DVertexBuffer9 interface [Direct3D 9]","Lock method","IDirect3DVertexBuffer9.Lock","IDirect3DVertexBuffer9::Lock","Lock","Lock method [Direct3D 9]","Lock method [Direct3D 9]","IDirect3DVertexBuffer9 interface","d3d9helper/IDirect3DVertexBuffer9::Lock","direct3d9.idirect3dvertexbuffer9__lock"]
 old-location: direct3d9\idirect3dvertexbuffer9__lock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__lock.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interface [Direct3D 9],Lock method, IDirect3DVertexBuffer9.Lock, IDirect3DVertexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Lock, direct3d9.idirect3dvertexbuffer9__lock
 req.header: d3d9.h
 req.include-header: D3D9.h

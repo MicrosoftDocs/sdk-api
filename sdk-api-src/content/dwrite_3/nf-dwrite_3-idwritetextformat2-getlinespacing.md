@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat2.GetLineSpacing
 title: IDWriteTextFormat2::GetLineSpacing (dwrite_3.h)
-description: Gets the line spacing adjustment set for a multiline text paragraph.
+description: Gets the line spacing adjustment set for a multiline text paragraph. (IDWriteTextFormat2.GetLineSpacing)
 helpviewer_keywords: ["GetLineSpacing","GetLineSpacing method [Direct Write]","GetLineSpacing method [Direct Write]","IDWriteTextFormat2 interface","IDWriteTextFormat2 interface [Direct Write]","GetLineSpacing method","IDWriteTextFormat2.GetLineSpacing","IDWriteTextFormat2::GetLineSpacing","directwrite.idwritetextformat2_getlinespacing","dwrite_3/IDWriteTextFormat2::GetLineSpacing"]
 old-location: directwrite\idwritetextformat2_getlinespacing.htm
 tech.root: DirectWrite

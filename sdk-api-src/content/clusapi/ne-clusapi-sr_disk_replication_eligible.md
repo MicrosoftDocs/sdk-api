@@ -59,51 +59,51 @@ Specifies the various reasons a disk on a cluster node can be eligible or inelig
 
 ## -enum-fields
 
-### -field SrDiskReplicationEligibleNone
+### -field SrDiskReplicationEligibleNone:0
 
 None of the disks on the node are eligible for replication.
 
-### -field SrDiskReplicationEligibleYes
+### -field SrDiskReplicationEligibleYes:1
 
 The disk is eligible for replication.
 
-### -field SrDiskReplicationEligibleOffline
+### -field SrDiskReplicationEligibleOffline:2
 
 The disk is offline.
 
-### -field SrDiskReplicationEligibleNotGpt
+### -field SrDiskReplicationEligibleNotGpt:3
 
 The disk is not formatted with a GUID partition table (GPT).
 
-### -field SrDiskReplicationEligiblePartitionLayoutMismatch
+### -field SrDiskReplicationEligiblePartitionLayoutMismatch:4
 
 There are a different number of target and source partitions.
 
-### -field SrDiskReplicationEligibleInsufficientFreeSpace
+### -field SrDiskReplicationEligibleInsufficientFreeSpace:5
 
 There is not enough free space on the disk.
 
-### -field SrDiskReplicationEligibleNotInSameSite
+### -field SrDiskReplicationEligibleNotInSameSite:6
 
 The disk is not on the same site at the target disk.
 
-### -field SrDiskReplicationEligibleInSameSite
+### -field SrDiskReplicationEligibleInSameSite:7
 
 The disk is on the same site as the target disk.
 
-### -field SrDiskReplicationEligibleFileSystemNotSupported
+### -field SrDiskReplicationEligibleFileSystemNotSupported:8
 
 The file system on the disk is not supported.
 
-### -field SrDiskReplicationEligibleAlreadyInReplication
+### -field SrDiskReplicationEligibleAlreadyInReplication:9
 
 The disk is already being replicated.
 
-### -field SrDiskReplicationEligibleSameAsSpecifiedDisk
+### -field SrDiskReplicationEligibleSameAsSpecifiedDisk:10
 
 The disk is the target disk.
 
-### -field SrDiskReplicationEligibleOther
+### -field SrDiskReplicationEligibleOther:9999
 
 Other.
 

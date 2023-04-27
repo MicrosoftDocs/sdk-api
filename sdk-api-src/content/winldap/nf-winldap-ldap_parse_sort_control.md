@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_parse_sort_control
 title: ldap_parse_sort_control function (winldap.h)
-description: The ldap_parse_sort_control function parses the sort control returned by the server.
+description: The ldap_parse_sort_control function (winldap.h) parses the sort control returned by the server.  
 helpviewer_keywords: ["_ldap_ldap_parse_sort_control","ldap.ldap__parse__sort__control","ldap.ldap_parse_sort_control","ldap_parse_sort_control","ldap_parse_sort_control function [LDAP]","ldap_parse_sort_controlA","ldap_parse_sort_controlW","winldap/ldap_parse_sort_control","winldap/ldap_parse_sort_controlA","winldap/ldap_parse_sort_controlW"]
 old-location: ldap\ldap_parse_sort_control.htm
 tech.root: ldap
 ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW
 req.header: winldap.h
 req.include-header: 

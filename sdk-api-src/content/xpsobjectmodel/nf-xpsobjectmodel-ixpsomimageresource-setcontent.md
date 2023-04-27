@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.SetContent
 title: IXpsOMImageResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMImageResource.SetContent)
 helpviewer_keywords: ["IXpsOMImageResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMImageResource.SetContent","IXpsOMImageResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMImageResource interface","xps.ixpsomimageresource_setcontent","xpsobjectmodel/IXpsOMImageResource::SetContent"]
 old-location: xps\ixpsomimageresource_setcontent.htm
 tech.root: xps

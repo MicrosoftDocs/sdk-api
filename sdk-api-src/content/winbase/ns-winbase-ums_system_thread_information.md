@@ -56,6 +56,9 @@ api_name:
 
 Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function uses this structure.
 
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
+
 ## -struct-fields
 
 ### -field UmsVersion

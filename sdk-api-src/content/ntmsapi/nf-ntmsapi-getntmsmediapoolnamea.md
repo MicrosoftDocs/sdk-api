@@ -1,8 +1,8 @@
 ---
 UID: NF:ntmsapi.GetNtmsMediaPoolNameA
 title: GetNtmsMediaPoolNameA function (ntmsapi.h)
-description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy.
-helpviewer_keywords: ["GetNtmsMediaPoolName","GetNtmsMediaPoolName function [Files]","GetNtmsMediaPoolNameA","GetNtmsMediaPoolNameW","_zaw_getntmsmediapoolname","base.getntmsmediapoolname","fs.getntmsmediapoolname","ntmsapi/GetNtmsMediaPoolName","ntmsapi/GetNtmsMediaPoolNameA","ntmsapi/GetNtmsMediaPoolNameW"]
+description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy. (ANSI)
+helpviewer_keywords: ["GetNtmsMediaPoolNameA", "ntmsapi/GetNtmsMediaPoolNameA"]
 old-location: fs\getntmsmediapoolname.htm
 tech.root: fs
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2

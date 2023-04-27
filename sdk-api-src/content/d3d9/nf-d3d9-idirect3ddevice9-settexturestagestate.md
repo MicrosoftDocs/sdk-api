@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetTextureStageState
 title: IDirect3DDevice9::SetTextureStageState (d3d9.h)
-description: Sets the state value for the currently assigned texture.
+description: The IDirect3DDevice9::SetTextureStageState method (d3d9helper.h) sets the state value for the currently assigned texture. 
 helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","SetTextureStageState method","IDirect3DDevice9.SetTextureStageState","IDirect3DDevice9::SetTextureStageState","SetTextureStageState","SetTextureStageState method [Direct3D 9]","SetTextureStageState method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetTextureStageState","d527a1a7-ab83-8b59-b7eb-084188448dc6","direct3d9.idirect3ddevice9__settexturestagestate"]
 old-location: direct3d9\idirect3ddevice9__settexturestagestate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexturestagestate.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetTextureStageState method, IDirect3DDevice9.SetTextureStageState, IDirect3DDevice9::SetTextureStageState, SetTextureStageState, SetTextureStageState method [Direct3D 9], SetTextureStageState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTextureStageState, d527a1a7-ab83-8b59-b7eb-084188448dc6, direct3d9.idirect3ddevice9__settexturestagestate
 req.header: d3d9.h
 req.include-header: D3D9.h

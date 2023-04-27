@@ -64,11 +64,11 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> data structu
 
 ### -field dsBmih
 
-A <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the color format of the DIB.
+A <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains information about the color format of the DIB.
 
 ### -field dsBitfields
 
-Specifies three color masks for the DIB. This field is only valid when the <b>BitCount</b> member of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure has a value greater than 8. Each color mask indicates the bits that are used to encode one of the three color channels (red, green, and blue).
+Specifies three color masks for the DIB. This field is only valid when the <b>BitCount</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure has a value greater than 8. Each color mask indicates the bits that are used to encode one of the three color channels (red, green, and blue).
 
 ### -field dshSection
 
@@ -87,7 +87,7 @@ The offset to the bitmap's bit values within the file mapping object referenced 
 
 
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

@@ -58,7 +58,7 @@ This interface is implemented as part of the metadata editor object. To obtain a
 
 The <b>IWMMetadataEditor2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a>. <b>IWMMetadataEditor2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

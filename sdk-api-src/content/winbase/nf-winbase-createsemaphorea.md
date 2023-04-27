@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSemaphoreA
 title: CreateSemaphoreA function (winbase.h)
-description: Creates or opens a named or unnamed semaphore object.
+description: Creates or opens a named or unnamed semaphore object. (CreateSemaphoreA)
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
 tech.root: backup

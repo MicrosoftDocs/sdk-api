@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TransactionId
 title: IX509CertificateRequestCmc::get_TransactionId (certenroll.h)
-description: Specifies or retrieves a transaction identifier that can be used to track a certificate request or response.
+description: Specifies or retrieves a transaction identifier that can be used to track a certificate request or response. (Get)
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","TransactionId property","IX509CertificateRequestCmc.TransactionId","IX509CertificateRequestCmc.get_TransactionId","IX509CertificateRequestCmc::TransactionId","IX509CertificateRequestCmc::get_TransactionId","IX509CertificateRequestCmc::put_TransactionId","TransactionId property [Security]","TransactionId property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::TransactionId","certenroll/IX509CertificateRequestCmc::get_TransactionId","certenroll/IX509CertificateRequestCmc::put_TransactionId","get_TransactionId","security.ix509certificaterequestcmc_transactionid_property"]
 old-location: security\ix509certificaterequestcmc_transactionid_property.htm
 tech.root: security

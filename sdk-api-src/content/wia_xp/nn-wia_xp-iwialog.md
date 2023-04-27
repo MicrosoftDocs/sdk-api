@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaLog
 title: IWiaLog (wia_xp.h)
-description: This interface is not supported.
+description: This interface is not supported. (IWiaLog)
 helpviewer_keywords: ["IWiaLog","IWiaLog interface [WIA]","IWiaLog interface [WIA]","described","_wia_IWiaLog","wia._wia_IWiaLog","wia_xp/IWiaLog"]
 old-location: wia\_wia_IWiaLog.htm
 tech.root: wia

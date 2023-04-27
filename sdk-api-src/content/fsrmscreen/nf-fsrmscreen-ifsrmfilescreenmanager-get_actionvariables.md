@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.get_ActionVariables
 title: IFsrmFileScreenManager::get_ActionVariables (fsrmscreen.h)
-description: Retrieves a list of macros that you can specify in action property values.
+description: Retrieves a list of macros that you can specify in action property values. (IFsrmFileScreenManager.get_ActionVariables)
 helpviewer_keywords: ["ActionVariables property [File Server Resource Manager]","ActionVariables property [File Server Resource Manager]","FsrmFileScreenManager class","ActionVariables property [File Server Resource Manager]","IFsrmFileScreenManager interface","FsrmFileScreenManager class [File Server Resource Manager]","ActionVariables property","IFsrmFileScreenManager interface [File Server Resource Manager]","ActionVariables property","IFsrmFileScreenManager.ActionVariables","IFsrmFileScreenManager.get_ActionVariables","IFsrmFileScreenManager::ActionVariables","IFsrmFileScreenManager::get_ActionVariables","fs.ifsrmfilescreenmanager_actionvariables","fsrm.ifsrmfilescreenmanager_actionvariables","fsrmscreen/IFsrmFileScreenManager::ActionVariables","fsrmscreen/IFsrmFileScreenManager::get_ActionVariables","get_ActionVariables"]
 old-location: fsrm\ifsrmfilescreenmanager_actionvariables.htm
 tech.root: fsrm

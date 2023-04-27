@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetString
 title: MI_DestinationOptions_SetString function (mi.h)
-description: Sets a custom string option.
+description: Sets a custom string option. (MI_DestinationOptions_SetString)
 helpviewer_keywords: ["MI_DestinationOptions_SetString","MI_DestinationOptions_SetString function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetString","wmi_v2.mi_destinationoptions_setstring"]
 old-location: wmi_v2\mi_destinationoptions_setstring.htm
 tech.root: wmi_v2

@@ -54,23 +54,23 @@ Represents the action to take on a file that exists or doesn't exist.
 
 ## -enum-fields
 
-### -field HCO_CREATE_NEW
+### -field HCO_CREATE_NEW:0x1
 
 Create a new file, only if it doesn't already exist.
 
-### -field HCO_CREATE_ALWAYS
+### -field HCO_CREATE_ALWAYS:0x2
 
 Create a new file, always.
 
-### -field HCO_OPEN_EXISTING
+### -field HCO_OPEN_EXISTING:0x3
 
 Open a file only if it exists.
 
-### -field HCO_OPEN_ALWAYS
+### -field HCO_OPEN_ALWAYS:0x4
 
 Open a file, always.
 
-### -field HCO_TRUNCATE_EXISTING
+### -field HCO_TRUNCATE_EXISTING:0x5
 
 Open a file and truncates it so that its size is zero bytes, only if it exists.
 

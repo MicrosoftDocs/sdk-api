@@ -1,7 +1,7 @@
 ---
 UID: NC:psapi.PENUM_PAGE_FILE_CALLBACKA
 title: PENUM_PAGE_FILE_CALLBACKA (psapi.h)
-description: An application-defined callback function used with the EnumPageFiles function.
+description: An application-defined callback function used with the EnumPageFiles function. (ANSI)
 helpviewer_keywords: ["EnumPageFilesProc","EnumPageFilesProc callback","EnumPageFilesProc callback function [PSAPI]","PENUM_PAGE_FILE_CALLBACKA","PENUM_PAGE_FILE_CALLBACKW","_win32_enumpagefilesproc","base.enumpagefilesproc","psapi.enumpagefilesproc","psapi/EnumPageFilesProc","psapi/PENUM_PAGE_FILE_CALLBACKA","psapi/PENUM_PAGE_FILE_CALLBACKW"]
 old-location: psapi\enumpagefilesproc.htm
 tech.root: psapi

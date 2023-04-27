@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.GetParameterRange
 title: ICodecAPI::GetParameterRange
 ms.date: 09/22/2020
 targetos: Windows
-description: The GetParameterRange method gets the range of values for a codec property.
+description: The GetParameterRange method gets the range of values for a codec property. (ICodecAPI::GetParameterRange)
 helpviewer_keywords: ["GetParameterRange","GetParameterRange method [DirectShow]","GetParameterRange method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterRange method","ICodecAPI.GetParameterRange","ICodecAPI::GetParameterRange","ICodecAPIGetParameterRange","dshow.icodecapi_getparameterrange","icodecapi/ICodecAPI::GetParameterRange"]
 tech.root: mf
 req.assembly: 

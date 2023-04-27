@@ -47,36 +47,18 @@ api_name:
 
 # IInkPresenterDesktop::OnHighContrastChanged
 
-
 ## -description
 
-Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.
-
-
+Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings in Windows 10 and earlier (Settings -> Ease of Access -> High Contrast -> Use high contrast).
 
 ## -returns
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex ink sample</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a>
-
-
-
-
-
-
-<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
-
-
-
-<b>Samples</b>
-
-<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
-
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
+IInkPresenterDesktop
+[Complex ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk)
+[Simple ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk)
+[Ink renderer interfaces](/windows/win32/input_ink/ink-renderer-interfaces)
+[Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions)

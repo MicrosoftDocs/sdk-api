@@ -56,15 +56,15 @@ The <b>DRT_MATCH_TYPE</b> enumeration defines the exactness of a search result r
 
 ## -enum-fields
 
-### -field DRT_MATCH_EXACT
+### -field DRT_MATCH_EXACT:0
 
 The node  found is publishing the target key or is publishing a key within the specified range.
 
-### -field DRT_MATCH_NEAR
+### -field DRT_MATCH_NEAR:1
 
 The node found is publishing the numerically closest key to the specified target key.
 
-### -field DRT_MATCH_INTERMEDIATE
+### -field DRT_MATCH_INTERMEDIATE:2
 
 The node returned is  an intermediate node. An application will  receive this node match type if <b>fIterative</b> is set to <b>TRUE</b>.
 

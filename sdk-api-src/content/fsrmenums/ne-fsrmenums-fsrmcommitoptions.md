@@ -56,11 +56,11 @@ Defines the options for committing a collection of objects.
 
 ## -enum-fields
 
-### -field FsrmCommitOptions_None
+### -field FsrmCommitOptions_None:0
 
 Use no options and commit the collection of objects synchronously.
 
-### -field FsrmCommitOptions_Asynchronous
+### -field FsrmCommitOptions_Asynchronous:0x1
 
 Reserved. Do not use.
 

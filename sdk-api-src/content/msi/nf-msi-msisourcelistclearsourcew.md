@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearSourceW
 title: MsiSourceListClearSourceW function (msi.h)
-description: Removes an existing source for a product or patch in a specified context.
-helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearSource","MsiSourceListClearSource function","MsiSourceListClearSourceA","MsiSourceListClearSourceW","NULL","User SID","msi/MsiSourceListClearSource","msi/MsiSourceListClearSourceA","msi/MsiSourceListClearSourceW","setup.msisourcelistclearsource"]
+description: Removes an existing source for a product or patch in a specified context. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListClearSource", "MsiSourceListClearSource function", "MsiSourceListClearSourceW", "NULL", "User SID", "msi/MsiSourceListClearSource", "msi/MsiSourceListClearSourceW", "setup.msisourcelistclearsource"]
 old-location: setup\msisourcelistclearsource.htm
 tech.root: setup
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79

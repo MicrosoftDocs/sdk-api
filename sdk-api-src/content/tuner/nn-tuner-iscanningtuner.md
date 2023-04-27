@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IScanningTuner</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter. It inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner</a> and permits direct control of a tuner that supports searching for valid programming. The client must provide a valid tuning space (using <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tuningspace">ITuner::put_TuningSpace</a> or <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tunerequest">ITuner::put_TuneRequest</a>) before calling any of the methods in this interface. This interface is meant to be used in conjunction with the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> outbound interface.
+The <b>IScanningTuner</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter. It inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner</a> and permits direct control of a tuner that supports searching for valid programming. The client must provide a valid tuning space (using <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tuningspace">ITuner::put_TuningSpace</a> or <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-put_tunerequest">ITuner::put_TuneRequest</a>) before calling any of the methods in this interface. This interface is meant to be used in conjunction with the <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a> outbound interface.
 
 <div class="alert"><b>Note</b>  Only applications intended to run on Microsoft® Windows® 98 or Windows 2000 should use this interface. On Windows XP, the Video Control handles all tuning interactions with the Network Provider.</div>
 <div> </div>
@@ -59,7 +59,7 @@ The <b>IScanningTuner</b> interface is implemented on the <a href="/previous-ver
 
 The <b>IScanningTuner</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">ITuner</a>. <b>IScanningTuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

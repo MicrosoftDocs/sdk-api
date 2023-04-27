@@ -1,7 +1,7 @@
 ---
 UID: NS:pdh._PDH_COUNTER_PATH_ELEMENTS_W
 title: PDH_COUNTER_PATH_ELEMENTS_W (pdh.h)
-description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path.
+description: The PDH_COUNTER_PATH_ELEMENTS structure contains the components of a counter path. (Unicode)
 helpviewer_keywords: ["*PPDH_COUNTER_PATH_ELEMENTS_W","PDH_COUNTER_PATH_ELEMENTS","PDH_COUNTER_PATH_ELEMENTS structure [Perf]","PDH_COUNTER_PATH_ELEMENTS_A","PDH_COUNTER_PATH_ELEMENTS_W","PPDH_COUNTER_PATH_ELEMENTS","PPDH_COUNTER_PATH_ELEMENTS structure pointer [Perf]","_win32_pdh_counter_path_elements_str","base.pdh_counter_path_elements_str","pdh/PDH_COUNTER_PATH_ELEMENTS","pdh/PDH_COUNTER_PATH_ELEMENTS_A","pdh/PDH_COUNTER_PATH_ELEMENTS_W","pdh/PPDH_COUNTER_PATH_ELEMENTS","perf.pdh_counter_path_elements_str"]
 old-location: perf\pdh_counter_path_elements_str.htm
 tech.root: perf

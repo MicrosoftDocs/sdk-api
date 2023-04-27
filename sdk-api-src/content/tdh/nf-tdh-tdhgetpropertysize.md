@@ -153,5 +153,4 @@ For an example that shows how to call this function, see <a href="/windows/deskt
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>

@@ -59,3 +59,5 @@ The <b>IExplorerCommand</b> interface inherits from the <a href="/windows/deskto
 ## -remarks
 
 None of the methods of this interface should communicate with network resources. These methods are called on the UI thread, so communication with network resources could cause the UI to stop responding.
+
+Note: Windows 11 refines the behavior of the contextual file operations in the right-click context menu of File Explorer and the Share dialog. Please see  <a href="/windows/apps/get-started/make-apps-great-for-windows">Top 11 things you can do to make your app great on Windows 11 </a>

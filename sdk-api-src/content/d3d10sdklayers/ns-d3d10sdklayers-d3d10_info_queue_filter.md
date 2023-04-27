@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10sdklayers.D3D10_INFO_QUEUE_FILTER
 title: D3D10_INFO_QUEUE_FILTER (d3d10sdklayers.h)
-description: Debug message filter; contains a lists of message types to allow or deny.
+description: Debug message filter; contains a lists of message types to allow or deny. (D3D10_INFO_QUEUE_FILTER)
 helpviewer_keywords: ["9c94d10b-2b6f-b70e-75d1-72a61687e2b9","D3D10_INFO_QUEUE_FILTER","D3D10_INFO_QUEUE_FILTER structure [Direct3D 10]","d3d10sdklayers/D3D10_INFO_QUEUE_FILTER","direct3d10.d3d10_info_queue_filter"]
 old-location: direct3d10\d3d10_info_queue_filter.htm
 tech.root: direct3d10

@@ -58,11 +58,11 @@ Specifies how to mix the karaoke audio channels.
 
 ### -field dwDownmix
 
-A bitwise OR of <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> flags telling the decoder which channels are downmixed to channels 0 or 1.
+A bitwise OR of <a href="/windows/win32/api/strmif/ne-strmif-dvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> flags telling the decoder which channels are downmixed to channels 0 or 1.
 
 ### -field dwSpeakerAssignment
 
-A valid <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_assignment">DVD_KARAOKE_ASSIGNMENT</a> value that indicates which speakers the output is going to.
+A valid <a href="/windows/win32/api/strmif/ne-strmif-dvd_karaoke_assignment">DVD_KARAOKE_ASSIGNMENT</a> value that indicates which speakers the output is going to.
 
 ## -remarks
 

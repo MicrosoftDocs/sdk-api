@@ -161,7 +161,7 @@ Unless you include the DDLOCK_NOSYSLOCK flag, <b>Lock</b> causes DirectDraw to h
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Lock</b> method.
+
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfReportProviderProgress","CfReportProviderProgress funct
 old-location: cloudapi\cfreportproviderprogress.htm
 tech.root: cloudapi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfReportProviderProgress function
 
-
 ## -description
 
 Allows a sync provider to report progress out-of-band.
@@ -72,5 +71,16 @@ The completed progress of the sync provider in response to a fetch data callback
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
+## -remarks
+
+The filter automatically tracks the progress of hydrations, by tracking ranges that are transferred and/or acknowledged in response to **FETCH_DATA** callbacks. However, if a provider spends the bulk of its time downloading content to a temporary location before beginning to **TRANSFER_DATA** to the filter, the filter would otherwise be unaware that these activities are in any way related to the request.
+
+By calling **CfReportProviderProgress** periodically, the sync provider can report progress to the filter, thereby resetting the 60 second timeout period corresponding to the **CF_CALLBACK_TYPE_FETCH_DATA** callback. This will also make the progress appear smoother.
+
+## -see-also
+
+[CfReportProviderProgress2](nf-cfapi-cfreportproviderprogress2.md)
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

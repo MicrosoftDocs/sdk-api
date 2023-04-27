@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesSimpleProgress
 title: IOfflineFilesSimpleProgress (cscobj.h)
-description: Used to report progress back to callers of lengthy Offline Files operations.
+description: Used to report progress back to callers of lengthy Offline Files operations. (IOfflineFilesSimpleProgress)
 helpviewer_keywords: ["IOfflineFilesSimpleProgress","IOfflineFilesSimpleProgress interface [Offline Files]","IOfflineFilesSimpleProgress interface [Offline Files]","described","cscobj/IOfflineFilesSimpleProgress","of.iofflinefilessimpleprogress"]
 old-location: of\iofflinefilessimpleprogress.htm
 tech.root: of

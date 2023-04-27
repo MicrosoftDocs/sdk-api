@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.InitializeLogEx
 title: IWiaLogEx::InitializeLogEx (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLogEx.InitializeLogEx)
 helpviewer_keywords: ["IWiaLogEx interface [WIA]","InitializeLogEx method","IWiaLogEx.InitializeLogEx","IWiaLogEx::InitializeLogEx","InitializeLogEx","InitializeLogEx method [WIA]","InitializeLogEx method [WIA]","IWiaLogEx interface","_wia_IWiaLogEx_InitializeLogEx","wia._wia_IWiaLogEx_InitializeLogEx","wia_xp/IWiaLogEx::InitializeLogEx"]
 old-location: wia\_wia_IWiaLogEx_InitializeLogEx.htm
 tech.root: wia

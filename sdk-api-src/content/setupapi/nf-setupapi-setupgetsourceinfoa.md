@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetSourceInfoA
 title: SetupGetSourceInfoA function (setupapi.h)
-description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file.
-helpviewer_keywords: ["SetupGetSourceInfo","SetupGetSourceInfo function [Setup API]","SetupGetSourceInfoA","SetupGetSourceInfoW","_setupapi_setupgetsourceinfo","setup.setupgetsourceinfo","setupapi/SetupGetSourceInfo","setupapi/SetupGetSourceInfoA","setupapi/SetupGetSourceInfoW"]
+description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file. (ANSI)
+helpviewer_keywords: ["SetupGetSourceInfoA", "setupapi/SetupGetSourceInfoA"]
 old-location: setup\setupgetsourceinfo.htm
 tech.root: setup
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f

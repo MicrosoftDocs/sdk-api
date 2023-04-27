@@ -4,7 +4,7 @@ title: Dvbsiparser.h header
 ms.assetid: 6023ac95-b3bf-3b01-93d7-5e8986099aff
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mstv
 archived: true
 f1_keywords:
@@ -19,5 +19,5 @@ f1_keywords:
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
 

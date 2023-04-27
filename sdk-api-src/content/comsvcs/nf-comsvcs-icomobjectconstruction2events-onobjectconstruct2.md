@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectConstruction2Events.OnObjectConstruct2
 title: IComObjectConstruction2Events::OnObjectConstruct2 (comsvcs.h)
-description: Generated when a constructed object is created.
+description: Generated when a constructed object is created. (IComObjectConstruction2Events.OnObjectConstruct2)
 helpviewer_keywords: ["IComObjectConstruction2Events interface [COM+]","OnObjectConstruct2 method","IComObjectConstruction2Events.OnObjectConstruct2","IComObjectConstruction2Events::OnObjectConstruct2","OnObjectConstruct2","OnObjectConstruct2 method [COM+]","OnObjectConstruct2 method [COM+]","IComObjectConstruction2Events interface","_dtc_IComObjectConstruction2Events_OnObjectConstruct2","comsvcs/IComObjectConstruction2Events::OnObjectConstruct2","cos.icomobjectconstruction2events_onobjectconstruct2"]
 old-location: cos\icomobjectconstruction2events_onobjectconstruct2.htm
 tech.root: cos

@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Skip
 title: IEnumNetSharingPrivateConnection::Skip (netcon.h)
-description: The Skip method skips the specified number of privately-shared connections for this enumeration.
+description: The Skip method skips the specified number of privately-shared connections for this enumeration. (IEnumNetSharingPrivateConnection.Skip)
 helpviewer_keywords: ["IEnumNetSharingPrivateConnection interface [ICS/ICF]","Skip method","IEnumNetSharingPrivateConnection.Skip","IEnumNetSharingPrivateConnection::Skip","Skip","Skip method [ICS/ICF]","Skip method [ICS/ICF]","IEnumNetSharingPrivateConnection interface","_ics_ienumnetsharingprivateconnection_skip","ics.ienumnetsharingprivateconnection_skip","netcon/IEnumNetSharingPrivateConnection::Skip"]
 old-location: ics\ienumnetsharingprivateconnection_skip.htm
 tech.root: ics

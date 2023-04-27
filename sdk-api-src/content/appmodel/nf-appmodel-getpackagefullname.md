@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-Kernel32-package-l1-1-2.dll
  - ext-ms-win-kernel32-package-l1-1-1.dll
  - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+ - kernelbase.dll
 api_name:
  - GetPackageFullName
 ---

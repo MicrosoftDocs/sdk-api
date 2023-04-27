@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_SelCharOffset
 title: IInkEdit::get_SelCharOffset (inked.h)
-description: Returns or sets a value that determines whether text in the InkEdit control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline.
+description: Returns or sets a value that determines whether text in the InkEdit control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline. (Get)
 helpviewer_keywords: ["0","IInkEdit interface [Tablet PC]","SelCharOffset property","IInkEdit.SelCharOffset","IInkEdit.get_SelCharOffset","IInkEdit::SelCharOffset","IInkEdit::get_SelCharOffset","IInkEdit::put_SelCharOffset","InkEdit.get_SelCharOffset","InkEdit.put_SelCharOffset","NULL","Negative integer","Positive integer","SelCharOffset property [Tablet PC]","SelCharOffset property [Tablet PC]","IInkEdit interface","get_SelCharOffset","inked/IInkEdit::SelCharOffset","inked/IInkEdit::get_SelCharOffset","inked/IInkEdit::put_SelCharOffset","put_SelCharOffset","tablet.inkedit_selcharoffset"]
 old-location: tablet\inkedit_selcharoffset.htm
 tech.root: tablet

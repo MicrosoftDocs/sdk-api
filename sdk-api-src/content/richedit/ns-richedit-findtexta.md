@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._findtext
 title: FINDTEXTA (richedit.h)
-description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message.
+description: Contains information about a search operation in a rich edit control. This structure is used with the EM_FINDTEXT message. (ANSI)
 helpviewer_keywords: ["FINDTEXT","FINDTEXT structure [Windows Controls]","FINDTEXTA","FINDTEXTW","_win32_FINDTEXT_str","_win32_FINDTEXT_str_cpp","controls.FINDTEXT","controls._win32_FINDTEXT_str","richedit/FINDTEXT","richedit/FINDTEXTA","richedit/FINDTEXTW"]
 old-location: controls\FINDTEXT.htm
 tech.root: Controls

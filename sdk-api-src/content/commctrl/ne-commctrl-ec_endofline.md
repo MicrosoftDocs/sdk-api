@@ -56,19 +56,19 @@ Indicates the end of line character used by an edit control.
 
 ## -enum-fields
 
-### -field EC_ENDOFLINE_DETECTFROMCONTENT
+### -field EC_ENDOFLINE_DETECTFROMCONTENT:0
 
 End of line character specified in content.
 
-### -field EC_ENDOFLINE_CRLF
+### -field EC_ENDOFLINE_CRLF:1
 
 End of line character is CRLF.
 
-### -field EC_ENDOFLINE_CR
+### -field EC_ENDOFLINE_CR:2
 
 End of line character is CR.
 
-### -field EC_ENDOFLINE_LF
+### -field EC_ENDOFLINE_LF:3
 
 End of line character is LF.
 

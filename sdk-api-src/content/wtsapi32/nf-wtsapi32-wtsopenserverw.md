@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerW
 title: WTSOpenServerW function (wtsapi32.h)
-description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSOpenServer","WTSOpenServer function [Remote Desktop Services]","WTSOpenServerA","WTSOpenServerW","_win32_wtsopenserver","termserv.wtsopenserver","wtsapi32/WTSOpenServer","wtsapi32/WTSOpenServerA","wtsapi32/WTSOpenServerW"]
+description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server. (Unicode)
+helpviewer_keywords: ["WTSOpenServer", "WTSOpenServer function [Remote Desktop Services]", "WTSOpenServerW", "_win32_wtsopenserver", "termserv.wtsopenserver", "wtsapi32/WTSOpenServer", "wtsapi32/WTSOpenServerW"]
 old-location: termserv\wtsopenserver.htm
 tech.root: TermServ
 ms.assetid: f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3

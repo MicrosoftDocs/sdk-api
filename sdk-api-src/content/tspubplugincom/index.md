@@ -4,7 +4,7 @@ title: Tspubplugincom.h header
 ms.assetid: db5925cd-1105-35d1-afda-0717160667d6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: termserv
 f1_keywords:
  - tspubplugincom

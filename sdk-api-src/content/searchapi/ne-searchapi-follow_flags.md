@@ -57,10 +57,10 @@ Used to help define behavior when crawling or indexing.  These flags are used by
 
 ## -enum-fields
 
-### -field FF_INDEXCOMPLEXURLS
+### -field FF_INDEXCOMPLEXURLS:0x1
 
 Specifies whether complex URLs (those containing a '?') should be indexed.
 
-### -field FF_SUPPRESSINDEXING
+### -field FF_SUPPRESSINDEXING:0x2
 
 Follow but do not index this URL.

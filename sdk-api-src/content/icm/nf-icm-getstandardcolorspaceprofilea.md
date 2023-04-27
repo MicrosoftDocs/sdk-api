@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetStandardColorSpaceProfileA
 title: GetStandardColorSpaceProfileA
-description: Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/c).
+description: Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/c). (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

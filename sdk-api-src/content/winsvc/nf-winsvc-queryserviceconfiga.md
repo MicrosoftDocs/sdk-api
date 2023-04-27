@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.QueryServiceConfigA
 title: QueryServiceConfigA function (winsvc.h)
-description: Retrieves the configuration parameters of the specified service.
-helpviewer_keywords: ["QueryServiceConfig","QueryServiceConfig function","QueryServiceConfigA","QueryServiceConfigW","_win32_queryserviceconfig","base.queryserviceconfig","winsvc/QueryServiceConfig","winsvc/QueryServiceConfigA","winsvc/QueryServiceConfigW"]
+description: Retrieves the configuration parameters of the specified service. (ANSI)
+helpviewer_keywords: ["QueryServiceConfigA", "winsvc/QueryServiceConfigA"]
 old-location: base\queryserviceconfig.htm
 tech.root: security
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050

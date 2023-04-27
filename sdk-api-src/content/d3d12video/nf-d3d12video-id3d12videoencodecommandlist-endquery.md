@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.EndQuery
 title: ID3D12VideoEncodeCommandList::EndQuery
 ms.date: 11/4/2019
 targetos: Windows
-description: Ends a query.
+description: Ends a query. (ID3D12VideoEncodeCommandList::EndQuery)
 tech.root: mf
 req.assembly: 
 req.construct-type: function
