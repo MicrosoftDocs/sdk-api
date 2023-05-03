@@ -85,7 +85,7 @@ The low bit, if set, indicates that the key is toggled on. In this function, onl
 
 Type: <b>LPWORD</b>
 
-A pointer to the buffer that receives the translated character or characters. 
+A pointer to the buffer that receives the translated character or characters.
 
 ### -param uFlags [in]
 
