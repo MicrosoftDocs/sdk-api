@@ -57,7 +57,7 @@ api_name:
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
 
 > [!NOTE]
-> This method may not work properly with some <a href="/globalization/windows-keyboard-layouts">keyboard layouts</a> may emit several characters and/or supplementary Unicode characters on a single key press. It is highly recommended to use the <a href="/windows/win32/api/winuser/nf-winuser-tounicode">ToUnicode</a> or <a href="/windows/win32/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> methods that handles such cases properly.
+> This method may not work properly with some <a href="/globalization/windows-keyboard-layouts">keyboard layouts</a> that may produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters on a single key press. It is highly recommended to use the <a href="/windows/win32/api/winuser/nf-winuser-tounicode">ToUnicode</a> or <a href="/windows/win32/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> methods that handles such cases properly.
 
 ## -parameters
 
