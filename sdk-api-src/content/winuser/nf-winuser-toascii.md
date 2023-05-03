@@ -56,6 +56,9 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a> function.
 
+> [!NOTE]
+> This method may not work properly with some <a href="/globalization/windows-keyboard-layouts">keyboard layouts</a> may emit several characters and/or supplementary Unicode characters on a single key press. It is highly recommended to use the <a href="/windows/win32/api/winuser/nf-winuser-tounicode">ToUnicode</a> or <a href="/windows/win32/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> methods that handles such cases properly.
+
 ## -parameters
 
 ### -param uVirtKey [in]
