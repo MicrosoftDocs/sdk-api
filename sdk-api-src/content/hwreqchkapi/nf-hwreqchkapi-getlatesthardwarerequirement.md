@@ -9,13 +9,13 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: HWREQCHK.DLL
 req.header: hwreqchkapi.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: HWREQCHK.LIB
 req.max-support: 
 req.namespace: 
 req.redist: 

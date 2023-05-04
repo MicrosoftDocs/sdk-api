@@ -8,11 +8,11 @@ description: Contains the results of a single hardware requirement check.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
-req.dll: 
+req.dll: HWREQCHK.DLL
 req.header: hwreqchkapi.h
 req.include-header: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: HWREQCHK.LIB
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: 

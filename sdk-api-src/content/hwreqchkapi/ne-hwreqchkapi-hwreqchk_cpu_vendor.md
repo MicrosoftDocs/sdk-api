@@ -9,6 +9,8 @@ prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: hwreqchkapi.h
+req.lib: HWREQCHK.LIB
+req.dll: HWREQCHK.DLL
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
