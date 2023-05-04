@@ -97,7 +97,7 @@ This parameter must be 1 if a menu is active, or 0 otherwise.
 
 Type: <b>int</b>
 
-If the specified key is a dead key, the return value is negative. Otherwise, it is one of the following values.
+The return value is one of the following values.
 
 <table>
 <tr>
