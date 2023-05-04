@@ -69,6 +69,8 @@ Pointer to an object to receive the type of information specified by the *Proces
 
 If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must point to a [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md).
 
+If the *ProcessInformationClass* parameter is **ProcessPowerThrottling**, this parameter must point to a [PROCESS_POWER_THROTTLING_STATE structure](ns-processthreadsapi-process_power_throttling_state.md).
+
 If the *ProcessInformationClass* parameter is **ProcessProtectionLevelInfo**, this parameter must point to a [PROCESS_PROTECTION_LEVEL_INFORMATION structure](ns-processthreadsapi-process_protection_level_information.md).
 
 If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this parameter must point to a [PROCESS_LEAP_SECOND_INFO structure](ns-processthreadsapi-process_leap_second_info.md).
