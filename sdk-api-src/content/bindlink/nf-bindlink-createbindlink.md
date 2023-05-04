@@ -9,13 +9,13 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: bindlink.dll
 req.header: bindlink.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: bindlink.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

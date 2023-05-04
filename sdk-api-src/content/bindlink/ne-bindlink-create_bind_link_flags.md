@@ -9,6 +9,8 @@ prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: bindlink.h
+req.dll: bindlink.dll
+req.lib: bindlink.lib
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
