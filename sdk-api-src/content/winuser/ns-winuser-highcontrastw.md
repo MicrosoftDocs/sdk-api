@@ -179,7 +179,7 @@ The hot key associated with the high contrast feature can be enabled. An applica
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Points to a string that contains the name of the color scheme that will be set to the default scheme.
+Points to a string that contains the name of the color scheme that will be set to the default scheme. The system allocates this buffer, free it with LocalFree.
 
 ## -remarks
 
