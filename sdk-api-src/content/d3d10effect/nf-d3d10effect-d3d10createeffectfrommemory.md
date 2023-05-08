@@ -40,7 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - D3D10.dll
+ - d3d10.dll
+ - d3d10_1.dll
 api_name:
  - D3D10CreateEffectFromMemory
 ---
