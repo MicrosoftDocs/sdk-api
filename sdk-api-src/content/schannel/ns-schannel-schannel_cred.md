@@ -286,6 +286,32 @@ Transport Layer Security 1.2 client side.
 </td>
 </tr>
 <tr>
+ <tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_SERVER"></a><a id="sp_prot_tls1_3_server"></a><dl>
+<dt><b>SP_PROT_TLS1_3_SERVER</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 server side.
+
+<b>Windows 11 and Windows Server 2022:  </b>Support added.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_CLIENT"></a><a id="sp_prot_tls1_3_client"></a><dl>
+<dt><b>SP_PROT_TLS1_3_CLIENT</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 client side.
+
+<b>Windows 11 and Windows Server 2022:  </b>Support added.
+ 
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="SP_PROT_DTLS_SERVER"></a><a id="sp_prot_dtls_server"></a><dl>
 <dt><b>SP_PROT_DTLS_SERVER</b></dt>
 <dt>0x00010000</dt>
