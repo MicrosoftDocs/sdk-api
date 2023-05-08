@@ -92,7 +92,7 @@ To run a batch file, you must start the command interpreter; set <i>lpApplicatio
 The command line to be executed. 
 
 
-The maximum length of this string is 32,767 characters, including the Unicode terminating null character. If <i>lpApplicationName</i> is <b>NULL</b>, the module name portion of <i>lpCommandLine</i> is limited to <b>MAX_PATH</b> characters.
+The maximum length of this string is 32,767 characters, including the Unicode terminating null character. 
 
 The Unicode version of this function, <b>CreateProcessW</b>, can modify the contents of this string. Therefore, this parameter cannot be a pointer to read-only memory (such as a <b>const</b> variable or a literal string). If this parameter is a constant string, the function may cause an access violation.
 
