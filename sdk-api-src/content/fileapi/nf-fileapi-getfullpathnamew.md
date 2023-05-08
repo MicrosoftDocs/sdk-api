@@ -79,8 +79,7 @@ The name of the  file.
 This parameter can be a short (the 8.3 form) or long file name. This string can also be a share or volume 
        name.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFullPathNameW</b>).
+
 
 ### -param nBufferLength [in]
 

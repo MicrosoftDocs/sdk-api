@@ -76,10 +76,7 @@ For more information about file and path names, see
 
 The path to be converted.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> (260) 
-       characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and 
-       prepend "\\?\" to the path. For more information, see 
-      <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+
 
 The path must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.

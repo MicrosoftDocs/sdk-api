@@ -66,10 +66,7 @@ Determines whether a file is an executable (.exe) file, and if so, which subsyst
 
 The full path of the file whose executable type is to be determined.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+
 
 ### -param lpBinaryType [out]
 

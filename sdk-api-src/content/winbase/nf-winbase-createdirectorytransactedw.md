@@ -75,10 +75,7 @@ Creates a new directory as a transacted operation, with the attributes of a spec
 The path of the directory to use as a template when creating the new directory.  This parameter can be 
        <b>NULL</b>.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+
 
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
@@ -87,10 +84,6 @@ The directory must reside on the local computer; otherwise, the function fails a
 
 The path of the directory to be created.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param lpSecurityAttributes [in, optional]
 
