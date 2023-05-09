@@ -5,7 +5,7 @@ title: CreateBindLink (bindlink.h)
 ms.date: 05/01/2023
 targetos: Windows
 description: This API allows admins to create a bind link between a virtual path and a backing path.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

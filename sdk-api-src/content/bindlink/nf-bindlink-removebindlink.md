@@ -5,7 +5,7 @@ title: RemoveBindLink (bindlink.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: This API allows a user to remove a link that was previously created by calling CreateBindLink.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

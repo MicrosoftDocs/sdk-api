@@ -5,7 +5,7 @@ title: bindlink (bindlink.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: This API allows admin users to bind a filesystem namespace to a local virtual path via the Bind Filter.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

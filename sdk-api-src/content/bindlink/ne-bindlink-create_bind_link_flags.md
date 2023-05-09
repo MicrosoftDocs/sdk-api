@@ -5,7 +5,7 @@ title: CREATE_BIND_LINK_FLAGS (bindlink.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: These flags can be passed in to CreateBindLink to change the default bind link behavior to suit the needs of the user.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: bindlink.h
