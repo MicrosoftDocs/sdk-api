@@ -5,7 +5,7 @@ title: HWREQCHK_CPU_VENDOR (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Indicates the CPU vendor.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: hwreqchkapi.h

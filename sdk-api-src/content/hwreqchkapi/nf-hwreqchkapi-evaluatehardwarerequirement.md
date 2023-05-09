@@ -5,7 +5,7 @@ title: EvaluateHardwareRequirement (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Evaluates a specific requirement and returns a pass or fail result informing the caller whether the device meets the hardware requirement.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

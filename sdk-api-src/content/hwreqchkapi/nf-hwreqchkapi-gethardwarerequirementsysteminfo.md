@@ -5,7 +5,7 @@ title: GetHardwareRequirementSystemInfo (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Provides the actual hardware device system information that is used to evaluate and compare against a given hardware requirement.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

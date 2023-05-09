@@ -5,7 +5,7 @@ title: HWREQCHK_DEVICE_HARDWARE_SYSINFO (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Provides information about the device hardware.
-prerelease: false
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: HWREQCHK.DLL

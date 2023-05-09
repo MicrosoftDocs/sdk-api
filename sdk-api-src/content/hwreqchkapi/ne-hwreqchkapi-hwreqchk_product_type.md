@@ -5,7 +5,7 @@ title: HWREQCHK_PRODUCT_TYPE (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Indicates the type of product.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: hwreqchkapi.h

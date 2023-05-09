@@ -5,7 +5,7 @@ title: HWREQCHK_DEVICE_HARDWARE_EVALUATION (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Contains the results of a single hardware requirement check.
-prerelease: false
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: HWREQCHK.DLL

@@ -5,7 +5,7 @@ title: GetHardwareRequirements (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Returns a collection of defined hardware requirements for all product-types.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

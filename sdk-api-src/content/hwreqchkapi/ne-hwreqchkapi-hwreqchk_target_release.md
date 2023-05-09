@@ -5,7 +5,7 @@ title: HWREQCHK_TARGET_RELEASE (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Indicates the target Windows release.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: hwreqchkapi.h

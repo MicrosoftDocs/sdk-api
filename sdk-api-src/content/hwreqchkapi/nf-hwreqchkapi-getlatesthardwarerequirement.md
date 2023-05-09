@@ -5,7 +5,7 @@ title: GetLatestHardwareRequirement (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: Returns the latest defined requirement for a given product type.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

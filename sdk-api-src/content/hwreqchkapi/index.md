@@ -5,7 +5,7 @@ title: hwreqchkapi (hwreqchkapi.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: The hardware requirement evaluator (HWREQCHK) library is a set of APIs that allows callers to get information about a hardware device and determine if the machine is eligible to run a specific version of Windows.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
