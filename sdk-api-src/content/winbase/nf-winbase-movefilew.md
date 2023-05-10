@@ -75,14 +75,26 @@ To perform this operation as a transacted operation, use the
 
 The current name of the file or directory on the local computer.
 
-> [!TIP]
-> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
+       "\\?\" to the path. For more information, see 
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div> </div>
 
 ### -param lpNewFileName [in]
 
 The new name for the file or directory. The new name must not already exist. A new file may be on a 
        different file system or drive. A new directory must be on the same drive.
 
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
+       "\\?\" to the path. For more information, see 
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div> </div>
 
 ## -returns
 

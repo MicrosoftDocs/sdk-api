@@ -73,7 +73,8 @@ To perform this operation as a transacted operation, which results in a handle t
 
 The name of the file or device to be created or opened. You may use either forward slashes (/) or backslashes (\\) in this name.
 
-
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+To extend this limit to 32,767 wide characters, use this Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 For information on special device names, see 
        <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
@@ -81,8 +82,8 @@ For information on special device names, see
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
        information, see <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
 
-> [!TIP]
-> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div> </div>
 
 ### -param dwDesiredAccess [in]
 
