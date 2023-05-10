@@ -71,10 +71,8 @@ Copies an existing file to a new file as a transacted operation, notifying the a
 
 The name of an existing file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 If <i>lpExistingFileName</i> does not exist, the 
        <b>CopyFileTransacted</b> function fails, and the 
@@ -88,10 +86,7 @@ The file must reside on the local computer; otherwise, the function fails and th
 
 The name of the new file.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+
 
 ### -param lpProgressRoutine [in, optional]
 
