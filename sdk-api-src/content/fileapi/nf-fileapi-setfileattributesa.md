@@ -71,6 +71,13 @@ To perform this operation as a transacted operation, use the
 The name of the file whose attributes are to be set.
       
 
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>SetFileAttributesW</b>) and prepend 
+       "\\\\?\\" to the path. For more information, see 
+       <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>SetFileAttributesW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div> </div>
 
 ### -param dwFileAttributes [in]
 
