@@ -91,7 +91,7 @@ A shadow link is one where the virtual path exists on the volume prior to the li
 
 When a link is created with C:\\Foo as the virtual path and C:\\Bar as the backing path, the C:\\Foo path will then show Cow.txt and Mouse.txt to all users while Cat.txt and Dog.txt will be hidden, until the link is removed.
 
-## -examples
+#### Examples
 
 The following sample shows how to create and remove bind links.
 
