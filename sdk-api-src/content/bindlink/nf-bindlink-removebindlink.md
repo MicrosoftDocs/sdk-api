@@ -86,6 +86,8 @@ int wmain(int argc, wchar_t* argv[])
 }
 ```
 
+For a full example of how to use the **CreateBindLink** and **RemoveBindLink** APIs, see the [bind link example](/windows/win32/bindlink/bindlink-example) page.
+
 ## -see-also
 
 [CreateBindLink](nf-bindlink-createbindlink.md)
