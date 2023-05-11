@@ -93,125 +93,139 @@ When a link is created with C:\\Foo as the virtual path and C:\\Bar as the backi
 
 ## -examples
 
-The following example illustrates how a user can configure a link from C:\\test to C:\\Windows.
+The following sample shows how to create and remove bind links.
 
 ```cpp
-#include <iostream>
 #include <wil\resource.h>
 #include <string>
 #include <iostream>
-#include <filesystem>
-#include <bindlink.h>   
+#include <iomanip>
+#if !__has_include(<bindlink.h>)
+#error This sample requires the Windows SDK version 10.0.25314.0 or higher.
+#endif
+#include <bindlink.h>
 
-using namespace std::filesystem;
-
-void print_file_status(const path& p, file_status s)
+void usage(FILE* fp)
 {
-    std::cout << p;
-    switch (s.type())
+    fprintf(fp, "Usage: BindLink command command-parameters [command-options]\n");
+    fprintf(fp, "Commands:\n");
+    fprintf(fp, "   CREATE virtPath targetPath\n");
+    fprintf(fp, "   REMOVE virtPath\n");
+    fprintf(fp, "Command options for CREATE:\n");
+    fprintf(fp, "   /merge             merge bind links\n");
+    fprintf(fp, "   /read-only         read only bind links\n");
+}
+
+void printErrorDetails(PCWSTR command, HRESULT hr)
+{
+    std::wcout << command << " failed with HRESULT 0x" << std::hex << std::setw(8) << std::setfill(L'0') << hr << "\n";
+    wchar_t buffer[32768];
+    if (FormatMessageW(FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, nullptr, hr,
+        0, buffer, ARRAYSIZE(buffer), nullptr))
     {
-    case file_type::regular:
-        std::cout << " is a regular file\n";
-        break;
-    
-    case file_type::directory:
-        std::cout << " is a directory\n";
-        break;
-    
-    case file_type::block:
-        std::cout << " is a block device\n";
-        break;
-    
-    case file_type::character:
-        std::cout << " is a character device\n";
-        break;
-    
-    case file_type::fifo:
-        std::cout << " is a named IPC pipe\n";
-        break;
-   
-    case file_type::socket:
-        std::cout << " is a named IPC socket\n";
-        break;
-    
-    case file_type::symlink:
-        std::cout << " is a symlink\n";
-        break;
-    
-    case file_type::junction:
-        std::cout << " is a junction\n";
-        break;
-    
-    case file_type::unknown:
-        std::cout << " type could not be determined\n";
-        break;
-    
-    case file_type::not_found:
-        std::cout << " could not be found.\n";
-        break;
-    
-    default:
-        std::cerr << " failed to determine file type.\n";
-        break;
+        std::wcout << buffer << "\n";
     }
 }
 
-void listDirectoryElements(const std::wstring& dirPath)
+int handleCreateCommand(int argc, wchar_t* argv[])
 {
-    path directoryPath(dirPath);
+    // argv[0] = program name
+    // argv[1] = "CREATE"
+    // argv[2] = virtPath
+    // argv[3] = backingPath
+    // argv[4...] = options
 
-    for (const auto& entry : directory_iterator(directoryPath))
+    if (argc < 4)
     {
-        print_file_status(entry.path(), entry.status());  
+        usage(stderr);
+        return 1;
     }
-}    
+
+    PCWSTR virtPath = argv[2];
+    PCWSTR backingPath = argv[3];
+
+    auto bindLinkFlags = CREATE_BIND_LINK_FLAG_NONE;
+
+    for (int index = 4; index < argc && argv[index][0] == L'/'; ++index)
+    {
+        if (!_wcsicmp(argv[index], L"/read-only"))
+        {
+            WI_SetFlag(bindLinkFlags, CREATE_BIND_LINK_FLAG_READ_ONLY);
+        }
+        else if (!_wcsicmp(argv[index], L"/merge"))
+        {
+            WI_SetFlag(bindLinkFlags, CREATE_BIND_LINK_FLAG_MERGED);
+        }
+        else
+        {
+            usage(stderr);
+            return 1;
+        }
+    }
+
+    auto hr = CreateBindLink(virtPath, backingPath, bindLinkFlags, 0, nullptr);
+
+    if (FAILED(hr))
+    {
+        printErrorDetails(L"CreateBindLink", hr);
+        return hr;
+    }
+
+    std::wcout << "Bind Link Created.\n";
+    std::wcout << "\"" << virtPath << "\" draws content from \"" << backingPath << "\"\n";
+
+    return 0;
+}
+
+int handleRemoveCommand(int argc, wchar_t* argv[])
+{
+    // argv[0] = program name
+    // argv[1] = "REMOVE"
+    // argv[2] = virtPath
+
+    if (argc != 3)
+    {
+        usage(stderr);
+        return 1;
+    }
+
+    PCWSTR virtPath = argv[2];
+
+    auto hr = RemoveBindLink(virtPath);
+
+    if (FAILED(hr))
+    {
+        printErrorDetails(L"RemoveBindLink", hr);
+        return hr;
+    }
+
+    std::wcout << "Bind Link for \"" << virtPath << "\" removed.\n";
+
+    return 0;
+}
 
 int wmain(int argc, wchar_t* argv[])
 {
-    constexpr PCWSTR virtPath = L"C:\\test";
-    constexpr PCWSTR backingPath = L"C:\\Windows";
-    auto bindLinkFlags = CREATE_BIND_LINK_FLAG_NONE;
-    HRESULT hr = S_OK;
-        
-    hr = CreateBindLink(virtPath, targetPath, bindLinkFlags, 0, nullptr);
+    if (argc < 2) {
+        usage(stderr);
+        return 1;
+    }
 
-    if(FAILED(hr))
+    if (!_wcsicmp(argv[1], L"CREATE"))
     {
-        std::cerr << "CreateBindLink Failed with Err: " << hr;
-        return hr;
+        return handleCreateCommand(argc, argv);
     }
-  
-    std::cout << "Link Configured!\n";
+    else if (!_wcsicmp(argv[1], L"REMOVE"))
+    {
+        return handleRemoveCommand(argc, argv);
+    }
+    else
+    {
+        usage(stderr);
+        return 1;
+    }
 
-    // Now that the link is created, virtPath can be traversed as any other path on the system.
-    // Since virtPath maps to C:\Windows, listing contents of virtPath resembles contents of 
-    // C:\Windows. 
-
-    try 
-    {
-        listDirectoryElements(std::wstring(virtPath));
-    }
-    catch (const std::filesystem::filesystem_error& ex) 
-    {
-        std::cerr
-            << "what():  " << ex.what() << '\n'
-            << "path1(): " << ex.path1() << '\n'
-            << "path2(): " << ex.path2() << '\n'
-            << "code().value():    " << ex.code().value() << '\n'
-            << "code().message():  " << ex.code().message() << '\n'
-            << "code().category(): " << ex.code().category().name() << '\n';
-    }
-    catch (const std::system_error& ex) 
-    {
-        std::cerr
-            << "Caught system_error with code " << ex.code()
-            << "what():  " << ex.what() << '\n';
-    }
-    catch (const std::exception& ex) 
-    {
-        std::cerr
-            << "what():  " << ex.what() << '\n';
-    }
+    return 0;
 }
 ```
 
