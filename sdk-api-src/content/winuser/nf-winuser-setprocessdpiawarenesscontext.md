@@ -50,9 +50,10 @@ api_name:
 
 ## -description
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
-
 Sets the current process to a specified dots per inch (dpi) awareness context. The DPI awareness contexts are from the <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value.
+
+> [!NOTE]
+> It is recommended that you set the process-default DPI awareness via application manifest, not an API call. See <a href="/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
 ## -parameters
 
