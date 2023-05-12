@@ -65,8 +65,8 @@ If the function succeeds, the return value is nonzero. Otherwise, the return val
 
 ## -remarks
 
-For more information, see <a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a>.
+For more information, see <a href="/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process">Setting the default DPI awareness for a process</a>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a>
+<a href="/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process">Setting the default DPI awareness for a process</a>
