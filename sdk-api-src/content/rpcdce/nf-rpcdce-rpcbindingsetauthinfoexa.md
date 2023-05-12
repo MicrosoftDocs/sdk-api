@@ -98,10 +98,6 @@ Specify a null value to use the security login context for the current address s
 
 Authorization service implemented by the server for the interface of interest. The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service. See Note.
 
-### -param SecurityQos
-
-TBD
-
 ### -param SecurityQOS
 
 Pointer to the 
