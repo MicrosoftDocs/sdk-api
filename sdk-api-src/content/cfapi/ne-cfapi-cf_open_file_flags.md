@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_OPEN_FILE_FLAGS","CF_OPEN_FILE_FLAGS enumeration","CF_
 old-location: cloudapi\cf_open_file_flags.htm
 tech.root: cloudapi
 ms.assetid: 4A9D87AB-7B81-46DF-80C3-DB2F63C76964
-ms.date: 03/29/2023
+ms.date: 05/15/2023
 ms.keywords: CF_OPEN_FILE_FLAGS, CF_OPEN_FILE_FLAGS enumeration, CF_OPEN_FILE_FLAG_DELETE_ACCESS, CF_OPEN_FILE_FLAG_EXCLUSIVE, CF_OPEN_FILE_FLAG_NONE, CF_OPEN_FILE_FLAG_WRITE_ACCESS, cfapi/CF_OPEN_FILE_FLAGS, cfapi/CF_OPEN_FILE_FLAG_DELETE_ACCESS, cfapi/CF_OPEN_FILE_FLAG_EXCLUSIVE, cfapi/CF_OPEN_FILE_FLAG_NONE, cfapi/CF_OPEN_FILE_FLAG_WRITE_ACCESS, cloudApi.cf_open_file_flags
 req.header: cfapi.h
 req.include-header: 
@@ -71,6 +71,10 @@ When specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) attempt
 
 ### -field CF_OPEN_FILE_FLAG_FOREGROUND:0x00000008
 
+If a caller doesn’t want to use oplocks (for example when doing a foreground operation) they should use this flag when calling [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md). It implies that **FILE_OPEN_REQUIRING_OPLOCK** wouldn’t be set when the API calls [CreateFile](../fileapi/nf-fileapi-createfilea.md) underneath if this flag is passed to the API.
+
 ## -see-also
 
 [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md)
+
+[CreateFile](../fileapi/nf-fileapi-createfilea.md)

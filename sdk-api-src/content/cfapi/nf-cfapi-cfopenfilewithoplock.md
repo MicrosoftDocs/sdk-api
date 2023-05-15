@@ -64,6 +64,7 @@ The flags to specify permissions on opening the file. *Flags* can be set to a co
 - If **CF_OPEN_FILE_FLAG_EXCLUSIVE** is specified, the API returns a share-none handle and requests an **RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE)** oplock on the file; otherwise a share-all handle is opened and an **R (OPLOCK_LEVEL_CACHE_READ)** is requested.
 - If **CF_OPEN_FILE_FLAG_WRITE_ACCESS** is specified, the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY** and **FILE_WRITE_DATA**/**FILE_ADD_FILE** access; otherwise the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY**.
 - If **CF_OPEN_FILE_FLAG_DELETE_ACCESS** is specified, the API attempts to open the file or directory with **DELETE** access; otherwise it opens the file normally.
+- If **CF_OPEN_FILE_FLAG_FOREGROUND** is specified, it implies that **FILE_OPEN_REQUIRING_OPLOCK** would not be set when the API calls [CreateFile](../fileapi/nf-fileapi-createfilea.md) underneath. This flag should be used when a caller doesn’t want to use oplocks (for example when doing a foreground operation) they should use this flag.
 
 ### -param ProtectedHandle [out]
 
@@ -82,3 +83,5 @@ This aims to remove the complexity related to oplock usages. The caller must clo
 ## -see-also
 
 [CfCloseHandle](nf-cfapi-cfclosehandle.md)
+
+[CreateFile](../fileapi/nf-fileapi-createfilea.md)
