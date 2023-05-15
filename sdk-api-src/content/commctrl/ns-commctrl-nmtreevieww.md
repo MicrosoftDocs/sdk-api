@@ -92,17 +92,17 @@ For the possible action flag values, see <a href="/windows/desktop/Controls/tvm-
 
 ### -field itemOld
 
-Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemw">TVITEM</a></b>
 
 
-<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemw">TVITEM</a> structure that contains information about the old item state. This member is zero for notification messages that do not use it.
 
 ### -field itemNew
 
-Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemw">TVITEM</a></b>
 
 
-<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemw">TVITEM</a> structure that contains information about the new item state. This member is zero for notification messages that do not use it.
 
 ### -field ptDrag
 
