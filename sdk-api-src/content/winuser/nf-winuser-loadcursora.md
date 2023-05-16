@@ -61,7 +61,9 @@ api_name:
 ## -description
 
 Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
-<div class="alert"><b>Note</b>  This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.</div><div> </div>
+
+> [!NOTE]
+> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagew">LoadImage</a> function.
 
 ## -parameters
 
