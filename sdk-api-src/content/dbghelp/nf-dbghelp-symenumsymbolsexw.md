@@ -147,7 +147,7 @@ If <i>BaseOfDll</i> is zero, then
 
 ### -param EnumSymbolsCallback [in]
 
-A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
+A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callbackw">SymEnumSymbolsProcW</a> callback function that 
       receives the symbol information.
 
 ### -param UserContext [in, optional]
