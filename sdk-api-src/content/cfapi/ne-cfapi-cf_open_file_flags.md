@@ -71,7 +71,12 @@ When specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) attempt
 
 ### -field CF_OPEN_FILE_FLAG_FOREGROUND:0x00000008
 
-If a caller doesn’t want to use oplocks (for example when doing a foreground operation) they should use this flag when calling [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md). It implies that **FILE_OPEN_REQUIRING_OPLOCK** wouldn’t be set when the API calls [CreateFile](../fileapi/nf-fileapi-createfilea.md) underneath if this flag is passed to the API.
+When this flag is used, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) does not request an oplock. This should be used when the caller is acting as a foreground application. i.e., they don’t care whether the file handle created by this API causes sharing violations for other callers, and they don’t care about breaking any oplocks that may already be on the file. So, they open the handle without requesting an oplock.
+
+>[!NOTE]
+>The default *background* behavior requests an oplock when opening the file handle so that their call fails if there’s already an oplock, and they can be told to close their handle if they need to get out of the way to avoid causing a sharing violation later.
+>
+>Unless the caller specifies **CF_OPEN_FILE_FLAG_EXCLUSIVE** to CfOpenFileWithOplock, the oplock they get will be only **OPLOCK_LEVEL_CACHE_READ**, not **(OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE)**, so there won’t be the sharing violation protection a background app might normally want.
 
 ## -see-also
 
