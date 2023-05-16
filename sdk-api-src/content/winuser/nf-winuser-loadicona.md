@@ -61,7 +61,9 @@ req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Loads the specified icon resource from the executable (.exe) file associated with an application instance.
-<div class="alert"><b>Note</b>  This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.</div><div> </div>
+
+> [!NOTE]
+> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagew">LoadImage</a> function.
 
 ## -parameters
 
