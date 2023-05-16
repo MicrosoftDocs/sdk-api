@@ -55,6 +55,9 @@ api_name:
 
 Creates a cursor based on data contained in a file.
 
+> [!NOTE]
+> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagew">LoadImage</a> function.
+
 ## -parameters
 
 ### -param lpFileName [in]
