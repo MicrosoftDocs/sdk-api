@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: D3D10.lib
-req.dll: d3d10.dll, d3d10_1.dll
+req.lib: d3d10_1.lib, d3d10.lib
+req.dll: d3d10_1.dll, d3d10.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -96,8 +96,8 @@ Returns one of the following <a href="/windows/win32/direct3d10/d3d10-graphics-r
 
 ## -remarks
 
-> [!IMPORTANT]
-> You should use the implementation of this function that's in the `d3d10_1.dll` module. That implementation is part of the Direct3D10.1 programming model.
+> [!NOTE]
+> Linking `d3d10_1.lib` gives you the implementation in `d3d10_1.dll`, which is the Direct3D10.1 programming model implementation. Linking `d3d10.lib` gives you the implementation in `d3d10.dll`, which is the Direct3D10 programming model implementation.
 
 This method is used to create an <a href="/windows/win32/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a> object from an effect that has been compiled before runtime and loaded into memory. For help precompiling an effect, see <a href="/windows/win32/direct3dtools/dx-graphics-tools-fxc-using">Offline Compiling</a>. To load and compile an ASCII .fx file see <a href="/windows/win32/direct3d10/d3d10-graphics-programming-guide-effects-compile">Compile an Effect (Direct3D 10)</a>.
 
