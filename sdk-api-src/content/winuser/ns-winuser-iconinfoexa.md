@@ -99,19 +99,23 @@ A handle to the icon color <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 Type: <b>WORD</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+Resource identifier of the resource in <b>szModName</b> module. If the icon or cursor was loaded by name, then <b>wResID</b> is zero and <b>szResName</b> contains the resource name.
+
+You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a>(wResID) macro to convert resource identifier to a resource name type compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szModName
 
 Type: <b>TCHAR[MAX_PATH]</b>
 
-The fully qualified path of the module.
+Name of the module from which an icon or a cursor was loaded.
+
+You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szResName
 
 Type: <b>TCHAR[MAX_PATH]</b>
 
-The fully qualified path of the resource.
+Resource name of the resource in <b>szModName</b> module. 
 
 ## -remarks
 
