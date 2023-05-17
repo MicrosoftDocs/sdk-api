@@ -92,7 +92,7 @@ The name of the resource for which the language is being enumerated. Alternately
 
 Type: <b>ENUMRESLANGPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource language. For more information, see <a href="https://msdn.microsoft.com/58c1a42d-15d2-4157-8c57-f9b1d389b917">EnumResLangProc</a>.
+A pointer to the callback function to be called for each enumerated resource language. For more information, see [EnumResLangProcA](nc-libloaderapi-enumreslangproca.md).
 
 ### -param lParam [in]
 
@@ -214,8 +214,7 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/58c1a42d-15d2-4157-8c57-f9b1d389b917">EnumResLangProc</a>
-
+[EnumResLangProcA](nc-libloaderapi-enumreslangproca.md)
 
 
 <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a>
