@@ -82,13 +82,13 @@ The version number of the icon or cursor format for the resource bits pointed to
 
 Type: <b>int</b>
 
-The desired width, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width.
+The desired width, in pixels, of the icon or cursor. If <b>LR_DEFAULTSIZE</b> flag is set and this parameter is zero, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width.
 
 ### -param cyDesired [in]
 
 Type: <b>int</b>
 
-The desired height, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height.
+The desired height, in pixels, of the icon or cursor. If <b>LR_DEFAULTSIZE</b> flag is set and this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height.
 
 ### -param Flags [in]
 
