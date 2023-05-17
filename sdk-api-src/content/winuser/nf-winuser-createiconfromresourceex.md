@@ -58,7 +58,7 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions. If you provide a value in any other way, make sure that the pointer value is DWORD-aligned.
+The DWORD-aligned buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
 
 ### -param dwResSize [in]
 
