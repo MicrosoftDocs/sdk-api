@@ -54,6 +54,7 @@ api_location:
   - API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
   - EventSetInformation
+  - EtwSetInformation
 ---
 
 # EventSetInformation function
