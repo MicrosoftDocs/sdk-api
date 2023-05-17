@@ -6,7 +6,7 @@ helpviewer_keywords: ["EnumResourceLanguagesExA", "RESOURCE_ENUM_LN", "RESOURCE_
 old-location: menurc\enumresourcelanguagesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguagesex.htm
-ms.date: 12/05/2018
+ms.date: 05/17/2023
 ms.keywords: EnumResourceLanguagesEx, EnumResourceLanguagesEx function [Menus and Other Resources], EnumResourceLanguagesExA, EnumResourceLanguagesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_MUI_SYSTEM, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceLanguagesEx, _win32_enumresourcelanguagesex_cpp, libloaderapi/EnumResourceLanguagesEx, libloaderapi/EnumResourceLanguagesExA, libloaderapi/EnumResourceLanguagesExW, menurc.enumresourcelanguagesex, winui._win32_enumresourcelanguagesex
 req.header: libloaderapi.h
 req.include-header: Windows.h

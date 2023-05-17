@@ -6,7 +6,7 @@ helpviewer_keywords: ["EnumResLangProc","EnumResLangProc callback","EnumResLangP
 old-location: menurc\enumreslangproc.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumreslangproc.htm
-ms.date: 12/05/2018
+ms.date: 05/17/2023
 ms.keywords: EnumResLangProc, EnumResLangProc callback, EnumResLangProc callback function [Menus and Other Resources], EnumResLangProcW, EnumResLangProcW, _win32_EnumResLangProc, _win32_enumreslangproc_cpp, libloaderapi/EnumResLangProc, libloaderapi/EnumResLangProcW, libloaderapi/EnumResLangProcW, menurc.enumreslangproc, winui._win32_enumreslangproc
 req.header: libloaderapi.h
 req.include-header: Windows.h
