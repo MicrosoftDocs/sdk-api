@@ -125,6 +125,8 @@ For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same siz
 
 You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> structure. The bitmap bits can be obtained with call to <a href="/windows/win32/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> on the bitmaps in this structure.
 
+<b>ICONINFOEX</b> is an extended version of <b>ICONINFO</b> structure with additional <b>szModName</b>/<b>szResName</b>/<b>wResID</b> members that can be used to query an icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-findresourcew">FindResource</a>, <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>, <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> and <a href="/windows/win32/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions.
+
 > [!NOTE]
 > The winuser.h header defines ICONINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
