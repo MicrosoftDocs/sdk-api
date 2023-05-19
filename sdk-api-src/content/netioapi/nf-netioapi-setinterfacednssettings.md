@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 19041
+req.target-min-winversvr: Windows 10 Build 19041
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,9 +58,11 @@ Type: \_In\_ const **[DNS_INTERFACE_SETTINGS](ns-netioapi-dns_interface_settings
 
 A pointer to a **DNS_INTERFACE_SETTINGS**-type structure that contains the DNS interface settings.
 
-If this parameter points to a **DNS_INTERFACE_SETTINGS** structure, then the **DNS_INTERFACE_SETTINGS::Version** member must be set to **DNS_INTERFACE_SETTINGS_VERSION1**.
+If this parameter points to a [**DNS_INTERFACE_SETTINGS**](ns-netioapi-dns_interface_settings.md) structure, then the **DNS_INTERFACE_SETTINGS::Version** member must be set to **DNS_INTERFACE_SETTINGS_VERSION1**.
 
-If this parameter points to a **DNS_INTERFACE_SETTINGS3** structure, then the version must to be set to **DNS_INTERFACE_SETTINGS_VERSION3**.
+If this parameter points to a [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex) structure, then the version must be set to **DNS_INTERFACE_SETTINGS_VERSION2**.
+
+If this parameter points to a [**DNS_INTERFACE_SETTINGS3** ](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure, then the version must to be set to **DNS_INTERFACE_SETTINGS_VERSION3**.
 
 You must set appropriately all the desired options in the **DNS_INTERFACE_SETTINGS::Flags** field, and populate only the fields for which an option was set. You must zero out all other fields that don't have a corresponding option.
 
@@ -71,3 +73,5 @@ Returns **NO_ERROR** if successful. A non-zero return value indicates failure.
 ## -remarks
 
 ## -see-also
+
+* [GetInterfaceDnsSettings](nf-netioapi-getinterfacednssettings.md)

@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - Mapi.h
+ - mapi32.dll
 api_name:
  - MAPISendMailW
 ---
