@@ -63,10 +63,10 @@ Contains information about a tree-view notification message. This structure is i
 
 ### -field hdr
 
-Type: <b><a href="/windows/win32/api/winuser/ns-winuser-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="/windows/win32/api/winuser/ns-winuser-nmhdr">NMHDR</a> structure that contains information about this notification message.
+<a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
 
 ### -field action
 
