@@ -52,6 +52,11 @@ api_name:
 
 Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
 
+If more than one image exists in resource group, this method uses the following criteria to choose an image:
+-   The image closest in size to the requested size is chosen.
+-   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
+-   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
+
 ## -parameters
 
 ### -param presbits [in]
@@ -125,7 +130,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 A resource file of type <b>RT_GROUP_ICON</b> (<b>RT_GROUP_CURSOR</b> indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. <b>LookupIconIdFromDirectoryEx</b> searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The <a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> and <a href="/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> functions use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with this identifier to locate the resource in the module. 
 
-The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon to be loaded. <b>LookupIconIdFromDirectoryEx</b> returns an integer identifier that is the resource name of the icon that best fits the current display device. 
+The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) to be loaded. <b>LookupIconIdFromDirectoryEx</b> returns an integer identifier that is the resource name of the icon that best fits the current display device. 
 
 The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device. 
 
