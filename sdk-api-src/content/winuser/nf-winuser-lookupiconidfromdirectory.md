@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
 
 To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function.
 
@@ -72,7 +72,7 @@ Indicates whether an icon or a cursor is sought. If this parameter is <b>TRUE</b
 
 Type: <b>int</b>
 
-If the function succeeds, the return value is an integer resource identifier for the icon or cursor that best fits the current display device. 
+If the function succeeds, the return value is an integer resource identifier for the icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) that best fits the current display device. 
 
 If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
