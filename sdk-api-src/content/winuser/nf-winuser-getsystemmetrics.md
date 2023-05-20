@@ -669,7 +669,7 @@ The height of a horizontal scroll bar, in
 </dl>
 </td>
 <td width="60%">
-The system large height of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions SM_CXICON and SM_CYICON. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
+The system large height of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions that SM_CXICON and SM_CYICON specifies. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
