@@ -52,7 +52,7 @@ api_name:
 
 Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
 
-To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function.
+To specify a desired height or width, use the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> function. This function calls it by passing zero in the <b>cxDesired</b>/<b>cyDesired</b> parameters.
 
 ## -parameters
 
