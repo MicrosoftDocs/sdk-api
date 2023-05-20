@@ -82,7 +82,7 @@ The name of the resource for which the language is being enumerated. Alternately
 
 Type: <b>ENUMRESLANGPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource language. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)">EnumResLangProc</a>.
+A pointer to the callback function to be called for each enumerated resource language. For more information, see [EnumResLangProcA](nc-libloaderapi-enumreslangproca.md).
 
 ### -param lParam [in]
 
