@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_RTV
 title: D3D10_TEX2DMS_RTV (d3d10.h)
-description: Specifies the subresource from a multisampled 2D texture to use in a render-target view.
+description: Specifies the subresource from a multisampled 2D texture to use in a render-target view. (D3D10_TEX2DMS_RTV)
 helpviewer_keywords: ["D3D10_TEX2DMS_RTV","D3D10_TEX2DMS_RTV structure [Direct3D 10]","b35fccdd-d7a7-672b-7f33-80eef15788d6","d3d10/D3D10_TEX2DMS_RTV","direct3d10.d3d10_tex2dms_rtv"]
 old-location: direct3d10\d3d10_tex2dms_rtv.htm
 tech.root: direct3d10

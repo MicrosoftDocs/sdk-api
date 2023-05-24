@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_9
+UID: NS:processsnapshot.PSS_VA_SPACE_ENTRY
 title: PSS_VA_SPACE_ENTRY (processsnapshot.h)
 description: Holds the MEMORY_BASIC_INFORMATION returned by PssWalkSnapshot for a virtual address (VA) region.
 helpviewer_keywords: ["PSS_VA_SPACE_ENTRY","PSS_VA_SPACE_ENTRY structure","proc_snap.pss_va_space_entry","processsnapshot/PSS_VA_SPACE_ENTRY"]
@@ -113,3 +113,4 @@ If section information was captured, this is the file path backing the section (
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

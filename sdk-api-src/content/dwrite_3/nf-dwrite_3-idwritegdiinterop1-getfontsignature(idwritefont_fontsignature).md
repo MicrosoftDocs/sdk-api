@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetFontSignature(IDWriteFont,FONTSIGNATURE)
 title: IDWriteGdiInterop1::GetFontSignature(IDWriteFont,FONTSIGNATURE) (dwrite_3.h)
-description: Reads the font signature from the given font.
+description: Reads the font signature from the given font. (overload 2/2)
 helpviewer_keywords: ["GetFontSignature","GetFontSignature method [Direct Write]","GetFontSignature method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","GetFontSignature method","IDWriteGdiInterop1.GetFontSignature","IDWriteGdiInterop1.GetFontSignature(IDWriteFont","FONTSIGNATURE)","IDWriteGdiInterop1::GetFontSignature","IDWriteGdiInterop1::GetFontSignature(IDWriteFont","FONTSIGNATURE)","directwrite.idwritegdiinterop1_getfontsignature","dwrite_3/IDWriteGdiInterop1::GetFontSignature"]
 old-location: directwrite\idwritegdiinterop1_getfontsignature.htm
 tech.root: DirectWrite

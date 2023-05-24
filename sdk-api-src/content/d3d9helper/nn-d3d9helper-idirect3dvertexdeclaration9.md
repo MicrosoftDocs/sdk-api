@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DVertexDeclaration9
 title: IDirect3DVertexDeclaration9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DVertexDeclaration9 interface to encapsulate the vertex shader declaration.
+description: The IDirect3DVertexDeclaration9 interface (d3d9helper.h) provides methods that encapsulate the vertex shader declaration.
 helpviewer_keywords: ["IDirect3DVertexDeclaration9","IDirect3DVertexDeclaration9 interface [Direct3D 9]","IDirect3DVertexDeclaration9 interface [Direct3D 9]","described","d3d9helper/IDirect3DVertexDeclaration9","direct3d9.idirect3dvertexdeclaration9","f42aaa68-f7f3-0eec-ac4e-7d8617f131ae"]
 old-location: direct3d9\idirect3dvertexdeclaration9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], IDirect3DVertexDeclaration9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexDeclaration9, direct3d9.idirect3dvertexdeclaration9, f42aaa68-f7f3-0eec-ac4e-7d8617f131ae
 req.header: d3d9helper.h
 req.include-header: D3D9.h

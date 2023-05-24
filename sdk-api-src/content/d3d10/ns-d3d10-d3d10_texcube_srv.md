@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEXCUBE_SRV
 title: D3D10_TEXCUBE_SRV (d3d10.h)
-description: Specifies the subresource from a cube texture to use in a shader-resource view.
+description: Specifies the subresource from a cube texture to use in a shader-resource view. (D3D10_TEXCUBE_SRV)
 helpviewer_keywords: ["D3D10_TEXCUBE_SRV","D3D10_TEXCUBE_SRV structure [Direct3D 10]","d3d10/D3D10_TEXCUBE_SRV","da9fa33a-8f0a-d5f0-db0c-b31a70335b19","direct3d10.d3d10_texcube_srv"]
 old-location: direct3d10\d3d10_texcube_srv.htm
 tech.root: direct3d10

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfRevertPlaceholder","CfRevertPlaceholder function","cfap
 old-location: cloudapi\cfrevertplaceholder.htm
 tech.root: cloudapi
 ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
-ms.date: 12/05/2018
+ms.date: 03/31/2023
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfRevertPlaceholder function
 
-
 ## -description
 
 Reverts a placeholder back to a regular file, stripping away all special characteristics such as the reparse tag, the file identity, etc.
@@ -56,26 +55,32 @@ Reverts a placeholder back to a regular file, stripping away all special charact
 
 ### -param FileHandle [in]
 
-A handle to the file or directory placeholder that is about to be reverted to normal file or directory. An attribute or no-access handle is sufficient.
+A handle to the file or directory placeholder that is about to be reverted to a normal file or directory. The platform properly synchronizes the revert operation with other active requests. An attribute or no-access handle is sufficient.
 
 ### -param RevertFlags [in]
 
-Placeholder revert flags.
+Placeholder revert flags. *RevertFlags* should be set to **CF_REVERT_FLAG_NONE**.
 
 ### -param Overlapped [in, out, optional]
 
-When specified and combined with an asynchronous <i>FileHandle</i>, <i>Overlapped</i> allows the platform to perform the <b>CfRevertPlaceholder</b> call asynchronously. See the Remarks for more details.
+When specified and combined with an asynchronous *FileHandle*, *Overlapped* allows the platform to perform the **CfRevertPlaceholder** call asynchronously. See the [Remarks](#-remarks) for more details.
 
 If not specified, the platform will perform the API call synchronously, regardless of how the handle was created.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-The caller must have WRITE_DATA or WRITE_DAC access to the placeholder to be reverted.
+The caller must have **WRITE_DATA** or **WRITE_DAC** access to the placeholder to be reverted.
 
-If the placeholder is not already fully hydrated at the time of the call, then the filter will send a FETCH_DATA callback to the sync provider  to hydrate the file.  If the file can’t be hydrated, the revert will fail.
+If the placeholder is not already fully hydrated at the time of the call, then the filter will send a **FETCH_DATA** callback to the sync provider  to hydrate the file. If the file can’t be hydrated, the revert will fail with status **STATUS_CLOUD_FILE_ACCESS_DENIED**.
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>.
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using *Overlapped* asynchronously, the caller can then wait using [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult).
+
+## -see-also
+
+[GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult)
+
+[CF_REVERT_FLAGS](ne-cfapi-cf_revert_flags.md)

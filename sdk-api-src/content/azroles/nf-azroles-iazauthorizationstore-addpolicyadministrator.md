@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministrator
 title: IAzAuthorizationStore::AddPolicyAdministrator (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators. (IAzAuthorizationStore.AddPolicyAdministrator)
 helpviewer_keywords: ["AddPolicyAdministrator","AddPolicyAdministrator method [Security]","AddPolicyAdministrator method [Security]","AzAuthorizationStore object","AddPolicyAdministrator method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyAdministrator method","IAzAuthorizationStore interface [Security]","AddPolicyAdministrator method","IAzAuthorizationStore.AddPolicyAdministrator","IAzAuthorizationStore::AddPolicyAdministrator","azroles/IAzAuthorizationStore::AddPolicyAdministrator","security.azauthorizationstore_addpolicyadministrator"]
 old-location: security\azauthorizationstore_addpolicyadministrator.htm
 tech.root: security
 ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzAuthorizationStore object, AddPolicyAdministrator method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministrator method, IAzAuthorizationStore interface [Security],AddPolicyAdministrator method, IAzAuthorizationStore.AddPolicyAdministrator, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::AddPolicyAdministrator
 
-
 ## -description
 
-The <b>AddPolicyAdministrator</b> method adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
+The **AddPolicyAdministrator** method adds the specified [security identifier](/windows/win32/SecGloss/s-gly) (SID) in text form to the list of principals that act as policy administrators.
 
 ## -parameters
 
@@ -63,19 +62,26 @@ Text form of the SID to add to the list of policy administrators.
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
 Policy administrators for an object can perform the following tasks:
 
-<ul>
-<li>Read the object</li>
-<li>Write attributes to the object</li>
-<li>Read attributes of child objects of the object</li>
-<li>Write attributes to child objects of the object</li>
-<li>Delete the object</li>
-<li>Delete child objects of the object</li>
-<li>Create child objects of the object</li>
-</ul>
-To view the list of policy administrators, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministrators">PolicyAdministrators</a> property.
+- Read the object
+- Write attributes to the object
+- Read attributes of child objects of the object
+- Write attributes to child objects of the object
+- Delete the object
+- Delete child objects of the object
+- Create child objects of the object
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
+To view the list of policy administrators, use the [PolicyAdministrators](nf-azroles-iazauthorizationstore-get_policyadministrators.md) property.
+
+You must call the [Submit](nf-azroles-iazauthorizationstore-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[PolicyAdministrators](nf-azroles-iazauthorizationstore-get_policyadministrators.md)

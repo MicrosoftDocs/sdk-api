@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMLinearGradientBrush interface
 
-
 ## -description
 
 Specifies a linear gradient, which is the color gradient along a vector.

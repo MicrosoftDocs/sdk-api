@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.GetSystemFontCollection
 title: IDWriteFactory6::GetSystemFontCollection
-description: Retrieves a collection of fonts, grouped into families.
+description: Retrieves a collection of fonts, grouped into families. (IDWriteFactory6::GetSystemFontCollection)
 helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","GetSystemFontCollection method","IDWriteFactory6.GetSystemFontCollection","IDWriteFactory6::GetSystemFontCollection","GetSystemFontCollection","GetSystemFontCollection method [Direct Write]","GetSystemFontCollection method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_getsystemfontcollection","dwrite_3/IDWriteFactory6::GetSystemFontCollection"]
 tech.root: DirectWrite
 ms.date: 09/12/2019

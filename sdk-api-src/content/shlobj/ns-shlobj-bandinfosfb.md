@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj.__unnamed_struct_1
+UID: NS:shlobj.BANDINFOSFB
 title: BANDINFOSFB (shlobj.h)
 description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
 helpviewer_keywords: ["*PBANDINFOSFB","BANDINFOSFB","BANDINFOSFB structure [Windows Shell]","ISFBVIEWMODE_LARGEICONS","ISFBVIEWMODE_LOGOS","ISFBVIEWMODE_SMALLICONS","ISFB_MASK_BKCOLOR","ISFB_MASK_COLORS","ISFB_MASK_IDLIST","ISFB_MASK_SHELLFOLDER","ISFB_MASK_STATE","ISFB_MASK_VIEWMODE","ISFB_STATE_ALLOWRENAME","ISFB_STATE_BTNMINSIZE","ISFB_STATE_CHANNELBAR","ISFB_STATE_DEBOSSED","ISFB_STATE_DEFAULT","ISFB_STATE_FULLOPEN","ISFB_STATE_NONAMESORT","ISFB_STATE_NOSHOWTEXT","ISFB_STATE_QLINKSMODE","PBANDINFOSFB","PBANDINFOSFB structure pointer [Windows Shell]","_win32_BANDINFOSFB","shell.BANDINFOSFB","shlobj/BANDINFOSFB","shlobj/PBANDINFOSFB"]
@@ -223,3 +223,4 @@ A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ish
 Type: <b>PIDLIST_ABSOLUTE</b>
 
 A PIDL.
+

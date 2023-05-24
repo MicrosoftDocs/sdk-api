@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_CLOSE_COMPLETION_FLAGS","CF_CALLBACK_CLOSE_CO
 old-location: cloudapi\cf_callback_close_completion_flags.htm
 tech.root: cloudapi
 ms.assetid: D80D95FB-C53B-4A31-97B9-389BE73BE966
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_CALLBACK_CLOSE_COMPLETION_FLAGS, CF_CALLBACK_CLOSE_COMPLETION_FLAGS enumeration, CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_close_completion_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_CALLBACK_CLOSE_COMPLETION_FLAGS enumeration
 
-
 ## -description
 
 Callback flags for notifying a sync provider that a placeholder under one of its sync roots that has been previously opened for read/write/delete access is now closed.
@@ -62,3 +61,6 @@ No close completion flags.
 
 A flag set if a placeholder is deleted as a result of the close.
 
+## -see-also
+
+[CF_CALLBACK_TYPE](ne-cfapi-cf_callback_type.md)

@@ -113,12 +113,12 @@ This structure is passed into the following methods:
 </li>
 </ul>
 
-To get the handle increment size use <a href="/windows/desktop/api/d3d12/getdescriptorhandleincrementsize">ID3D12Device.GetDescriptorHandleIncrementSize</a>
+To get the handle increment size use <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize">ID3D12Device.GetDescriptorHandleIncrementSize</a>
 
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/cd3dx12-cpu-descriptor-handle">CD3DX12_CPU_DESCRIPTOR_HANDLE</a>
-<a href="/windows/desktop/api/d3d12/getdescriptorhandleincrementsize">ID3D12Device.GetDescriptorHandleIncrementSize</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize">ID3D12Device.GetDescriptorHandleIncrementSize</a>
 
 
 <a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

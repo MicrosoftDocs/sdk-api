@@ -1,7 +1,7 @@
 ---
 UID: NC:libloaderapi.ENUMRESNAMEPROCA
 title: ENUMRESNAMEPROCA (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.
+description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions. (ANSI)
 helpviewer_keywords: ["EnumResNameProc","EnumResNameProc callback","EnumResNameProc callback function [Menus and Other Resources]","EnumResNameProcA","EnumResNameProcW","_win32_EnumResNameProc","_win32_enumresnameproc_cpp","libloaderapi/EnumResNameProc","libloaderapi/EnumResNameProcA","libloaderapi/EnumResNameProcW","menurc.enumresnameproc","winui._win32_enumresnameproc"]
 old-location: menurc\enumresnameproc.htm
 tech.root: menurc
@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-An application-defined callback function used with the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> functions. It receives the type and name of a resource. The <b>ENUMRESNAMEPROC</b> type defines a pointer to this callback function. <i>EnumResNameProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function used with the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> functions. It receives the type and name of a resource. The <b>ENUMRESNAMEPROC</b> type defines a pointer to this callback function. <i>EnumResNameProc</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ The name of a resource of the type being enumerated. Alternately, rather than a 
 
 Type: <b>LONG_PTR</b>
 
-An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function. This parameter can be used in error checking. 
+An application-defined parameter passed to the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function. This parameter can be used in error checking. 
 
 ## -returns
 
@@ -89,9 +89,9 @@ If <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE
 
 Similarly, if <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource.
 
-An application must register this function by passing its address to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function.
+An application must register this function by passing its address to the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> function.
 
-If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
+If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
 
 > [!NOTE]
 > The libloaderapi.h header defines ENUMRESNAMEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
@@ -102,7 +102,7 @@ If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

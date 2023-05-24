@@ -4,7 +4,7 @@ title: Windows Runtime C++ reference
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.date: 05/17/2022
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Runtime C++ reference
@@ -55,7 +55,7 @@ To develop C++ apps that interoperate with the associated Windows Runtime APIs, 
  * [windows.graphics.imaging.interop.h](../windows.graphics.imaging.interop/index.md)
  * [windows.media.core.interop.h](../windows.media.core.interop/index.md)
  * [windows.ui.composition.interop.h](../windows.ui.composition.interop/index.md)
- * [windows.ui.viewmanagement.core.coreframeworkinputviewinterop.h](../windows.ui.viewmanagement.core.coreframeworkinputviewinterop.h/index.md)
+ * [windows.ui.viewmanagement.core.coreframeworkinputviewinterop.h](/windows/win32/api/windows.ui.viewmanagement.core.coreframeworkinputviewinterop)
  * [windows.ui.xaml.hosting.desktopwindowxamlsource.h](../windows.ui.xaml.hosting.desktopwindowxamlsource/index.md)
  * [windows.ui.xaml.hosting.referencetracker.h](../windows.ui.xaml.hosting.referencetracker/index.md)
  * [windows.ui.xaml.media.dxinterop.h](../windows.ui.xaml.media.dxinterop/index.md)

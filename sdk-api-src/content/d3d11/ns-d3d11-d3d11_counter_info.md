@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_COUNTER_INFO
 title: D3D11_COUNTER_INFO (d3d11.h)
-description: Information about the video card's performance counter capabilities.
+description: Information about the video card's performance counter capabilities. (D3D11_COUNTER_INFO)
 helpviewer_keywords: ["D3D11_COUNTER_INFO","D3D11_COUNTER_INFO structure [Direct3D 11]","a2dae015-a80c-d3f9-238a-93195e884579","d3d11/D3D11_COUNTER_INFO","direct3d11.d3d11_counter_info"]
 old-location: direct3d11\d3d11_counter_info.htm
 tech.root: direct3d11

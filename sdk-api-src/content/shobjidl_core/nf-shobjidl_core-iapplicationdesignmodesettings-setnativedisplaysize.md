@@ -60,7 +60,7 @@ You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinit
 
 ### -param nativeDisplaySizePixels [in]
 
-The native size of the display to spoof, as a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>.
+The native size of the display to spoof, as a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>.
 
 ## -returns
 

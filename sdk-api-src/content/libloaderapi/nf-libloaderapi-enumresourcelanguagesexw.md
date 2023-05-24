@@ -1,12 +1,12 @@
 ---
 UID: NF:libloaderapi.EnumResourceLanguagesExW
 title: EnumResourceLanguagesExW function (libloaderapi.h)
-description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration.
-helpviewer_keywords: ["EnumResourceLanguagesEx","EnumResourceLanguagesEx function [Menus and Other Resources]","EnumResourceLanguagesExA","EnumResourceLanguagesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_MUI_SYSTEM","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceLanguagesEx","_win32_enumresourcelanguagesex_cpp","libloaderapi/EnumResourceLanguagesEx","libloaderapi/EnumResourceLanguagesExA","libloaderapi/EnumResourceLanguagesExW","menurc.enumresourcelanguagesex","winui._win32_enumresourcelanguagesex"]
+description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration. (Unicode)
+helpviewer_keywords: ["EnumResourceLanguagesEx", "EnumResourceLanguagesEx function [Menus and Other Resources]", "EnumResourceLanguagesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_MUI_SYSTEM", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceLanguagesEx", "_win32_enumresourcelanguagesex_cpp", "libloaderapi/EnumResourceLanguagesEx", "libloaderapi/EnumResourceLanguagesExW", "menurc.enumresourcelanguagesex", "winui._win32_enumresourcelanguagesex"]
 old-location: menurc\enumresourcelanguagesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguagesex.htm
-ms.date: 12/05/2018
+ms.date: 05/17/2023
 ms.keywords: EnumResourceLanguagesEx, EnumResourceLanguagesEx function [Menus and Other Resources], EnumResourceLanguagesExA, EnumResourceLanguagesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_MUI_SYSTEM, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceLanguagesEx, _win32_enumresourcelanguagesex_cpp, libloaderapi/EnumResourceLanguagesEx, libloaderapi/EnumResourceLanguagesExA, libloaderapi/EnumResourceLanguagesExW, menurc.enumresourcelanguagesex, winui._win32_enumresourcelanguagesex
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -92,7 +92,7 @@ The name of the resource for which the language is being enumerated. Alternately
 
 Type: <b>ENUMRESLANGPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource language. For more information, see <a href="https://msdn.microsoft.com/58c1a42d-15d2-4157-8c57-f9b1d389b917">EnumResLangProc</a>.
+A pointer to the callback function to be called for each enumerated resource language. For more information, see [EnumResLangProcW](nc-libloaderapi-enumreslangprocw.md).
 
 ### -param lParam [in]
 
@@ -214,8 +214,7 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/58c1a42d-15d2-4157-8c57-f9b1d389b917">EnumResLangProc</a>
-
+[EnumResLangProcW](nc-libloaderapi-enumreslangprocw.md)
 
 
 <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a>

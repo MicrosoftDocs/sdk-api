@@ -4,7 +4,7 @@ title: Delivery Optimization
 ms.assetid: b7d48541-7824-3223-b8f5-5b2639663019
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Delivery Optimization

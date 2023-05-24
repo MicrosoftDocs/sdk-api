@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplateName.InitializeDecode
 title: IX509ExtensionTemplateName::InitializeDecode (certenroll.h)
-description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
+description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value. (IX509ExtensionTemplateName.InitializeDecode)
 helpviewer_keywords: ["IX509ExtensionTemplateName interface [Security]","InitializeDecode method","IX509ExtensionTemplateName.InitializeDecode","IX509ExtensionTemplateName::InitializeDecode","InitializeDecode","InitializeDecode method [Security]","InitializeDecode method [Security]","IX509ExtensionTemplateName interface","certenroll/IX509ExtensionTemplateName::InitializeDecode","security.ix509extensiontemplatename_initializedecode_method"]
 old-location: security\ix509extensiontemplatename_initializedecode_method.htm
 tech.root: security

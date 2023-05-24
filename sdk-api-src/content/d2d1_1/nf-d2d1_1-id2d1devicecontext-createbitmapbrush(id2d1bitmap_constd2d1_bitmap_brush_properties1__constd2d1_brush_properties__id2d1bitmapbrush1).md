@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,constD2D1_BITMAP_BRUSH_PROPERTIES1&,constD2D1_BRUSH_PROPERTIES&,ID2D1BitmapBrush1)
 title: ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES1 &,const D2D1_BRUSH_PROPERTIES &,ID2D1BitmapBrush1) (d2d1_1.h)
-description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
+description: Creates a bitmap brush, the input image is a Direct2D bitmap object. (overload 4/4)
 helpviewer_keywords: ["CreateBitmapBrush","CreateBitmapBrush method [Direct2D]","CreateBitmapBrush method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateBitmapBrush method","ID2D1DeviceContext.CreateBitmapBrush","ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap","const D2D1_BITMAP_BRUSH_PROPERTIES1 &","const D2D1_BRUSH_PROPERTIES &","ID2D1BitmapBrush1)","ID2D1DeviceContext::CreateBitmapBrush","ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap","const D2D1_BITMAP_BRUSH_PROPERTIES1 &","const D2D1_BRUSH_PROPERTIES &","ID2D1BitmapBrush1)","d2d1_1/ID2D1DeviceContext::CreateBitmapBrush","direct2d.id2d1devicecontext_createbitmapbrush"]
 old-location: direct2d\id2d1devicecontext_createbitmapbrush.htm
 tech.root: Direct2D

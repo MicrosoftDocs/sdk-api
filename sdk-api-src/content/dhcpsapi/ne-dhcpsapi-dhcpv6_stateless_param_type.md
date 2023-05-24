@@ -1,5 +1,5 @@
 ---
-UID: NE:dhcpsapi.__unnamed_enum_6
+UID: NE:dhcpsapi.DHCPV6_STATELESS_PARAM_TYPE
 title: DHCPV6_STATELESS_PARAM_TYPE (dhcpsapi.h)
 description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
 helpviewer_keywords: ["DHCPV6_STATELESS_PARAM_TYPE","DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP]","DhcpStatelessPurgeInterval","DhcpStatelessStatus","dhcp.dhcpv6_stateless_param_type","dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE","dhcpsapi/DhcpStatelessPurgeInterval","dhcpsapi/DhcpStatelessStatus"]
@@ -69,3 +69,4 @@ The parameter type is the client inventory enabled/disabled status in the DHCP s
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6setstatelessstoreparams">Dhcpv6SetStatelessStoreParams</a>
+

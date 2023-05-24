@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetAutodialParamW
 title: RasSetAutodialParamW function (ras.h)
-description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
-helpviewer_keywords: ["RASADP_ConnectionQueryTimeout","RASADP_DisableConnectionQuery","RASADP_FailedConnectionTimeout","RASADP_LoginSessionDisable","RASADP_SavedAddressesLimit","RasSetAutodialParam","RasSetAutodialParam function [RAS]","RasSetAutodialParamA","RasSetAutodialParamW","_ras_rassetautodialparam","ras/RasSetAutodialParam","ras/RasSetAutodialParamA","ras/RasSetAutodialParamW","rras.rassetautodialparam"]
+description: The RasSetAutodialParam function sets the value of an AutoDial parameter. (Unicode)
+helpviewer_keywords: ["RASADP_ConnectionQueryTimeout", "RASADP_DisableConnectionQuery", "RASADP_FailedConnectionTimeout", "RASADP_LoginSessionDisable", "RASADP_SavedAddressesLimit", "RasSetAutodialParam", "RasSetAutodialParam function [RAS]", "RasSetAutodialParamW", "_ras_rassetautodialparam", "ras/RasSetAutodialParam", "ras/RasSetAutodialParamW", "rras.rassetautodialparam"]
 old-location: rras\rassetautodialparam.htm
 tech.root: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448

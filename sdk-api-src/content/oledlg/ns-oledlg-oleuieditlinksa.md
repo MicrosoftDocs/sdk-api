@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUIEDITLINKSA
 title: OLEUIEDITLINKSA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed. (ANSI)
 helpviewer_keywords: ["*LPOLEUIEDITLINKSA","*POLEUIEDITLINKSA","ELF_DISABLECANCELLINK","ELF_DISABLECHANGESOURCE","ELF_DISABLEOPENSOURCE","ELF_DISABLEUPDATENOW","ELF_SHOWHELP","LPOLEUIEDITLINKS","LPOLEUIEDITLINKS structure pointer [COM]","OLEUIEDITLINKS","OLEUIEDITLINKS structure [COM]","OLEUIEDITLINKSA","OLEUIEDITLINKSW","POLEUIEDITLINKS","POLEUIEDITLINKS structure pointer [COM]","_ole_OLEUIEDITLINKS_str","com.oleuieditlinks_struct","oledlg/LPOLEUIEDITLINKS","oledlg/OLEUIEDITLINKS","oledlg/OLEUIEDITLINKSA","oledlg/OLEUIEDITLINKSW","oledlg/POLEUIEDITLINKS"]
 old-location: com\oleuieditlinks_struct.htm
 tech.root: com

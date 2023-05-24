@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_AUTH_TYPE
 title: VDS_ISCSI_AUTH_TYPE (vdshwprv.h)
-description: Defines the set of valid types for authentication when logging into an iSCSI target.
+description: The VDS_ISCSI_AUTH_TYPE enumeration (vdshwprv.h) defines the set of valid types for authentication when logging into an iSCSI target.
 helpviewer_keywords: ["VDS_IAT_CHAP","VDS_IAT_MUTUAL_CHAP","VDS_IAT_NONE","VDS_ISCSI_AUTH_TYPE","VDS_ISCSI_AUTH_TYPE enumeration [VDS]","base.vds_iscsi_auth_type","vds/VDS_IAT_CHAP","vds/VDS_IAT_MUTUAL_CHAP","vds/VDS_IAT_NONE","vds/VDS_ISCSI_AUTH_TYPE","vdshwprv/VDS_IAT_CHAP","vdshwprv/VDS_IAT_MUTUAL_CHAP","vdshwprv/VDS_IAT_NONE","vdshwprv/VDS_ISCSI_AUTH_TYPE"]
 old-location: base\vds_iscsi_auth_type.htm
 tech.root: base
 ms.assetid: 7e445b10-552a-4a89-aee8-9699db79c5a3
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_IAT_CHAP, VDS_IAT_MUTUAL_CHAP, VDS_IAT_NONE, VDS_ISCSI_AUTH_TYPE, VDS_ISCSI_AUTH_TYPE enumeration [VDS], base.vds_iscsi_auth_type, vds/VDS_IAT_CHAP, vds/VDS_IAT_MUTUAL_CHAP, vds/VDS_IAT_NONE, vds/VDS_ISCSI_AUTH_TYPE, vdshwprv/VDS_IAT_CHAP, vdshwprv/VDS_IAT_MUTUAL_CHAP, vdshwprv/VDS_IAT_NONE, vdshwprv/VDS_ISCSI_AUTH_TYPE
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for authentication when logging into an iSCSI target.
 

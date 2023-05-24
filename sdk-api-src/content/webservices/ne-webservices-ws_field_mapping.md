@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_82
+UID: NE:webservices.WS_FIELD_MAPPING
 title: WS_FIELD_MAPPING (webservices.h)
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
 helpviewer_keywords: ["WS_ANY_ATTRIBUTES_FIELD_MAPPING","WS_ANY_CONTENT_FIELD_MAPPING","WS_ATTRIBUTE_FIELD_MAPPING","WS_ELEMENT_CHOICE_FIELD_MAPPING","WS_ELEMENT_FIELD_MAPPING","WS_FIELD_MAPPING","WS_FIELD_MAPPING enumeration [Web Services for Windows]","WS_NO_FIELD_MAPPING","WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","WS_REPEATING_ELEMENT_FIELD_MAPPING","WS_TEXT_FIELD_MAPPING","WS_TYPE_ATTRIBUTE_FIELD_MAPPING","WS_XML_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING","webservices/WS_ANY_CONTENT_FIELD_MAPPING","webservices/WS_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_ELEMENT_FIELD_MAPPING","webservices/WS_FIELD_MAPPING","webservices/WS_NO_FIELD_MAPPING","webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING","webservices/WS_TEXT_FIELD_MAPPING","webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING","webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING","wsw.ws_field_mapping"]
@@ -285,7 +285,6 @@ s.field = 1;
 
 ```
 
-
 ### -field WS_XML_ATTRIBUTE_FIELD_MAPPING:6
 
 The field corresponds to a reserved xml attribute (such as xml:lang).
@@ -320,7 +319,6 @@ s.field = ...; // 'true'
 // Example of xml:space
 &lt;Struct xml:space='true'&gt;
 ```
-
 
 ### -field WS_ELEMENT_CHOICE_FIELD_MAPPING:7
 
@@ -701,3 +699,4 @@ The <b>WS_FIELD_MAPPING</b> indicates how different parts of the XML content
 
 The order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
                 See <b>WS_STRUCT_DESCRIPTION</b> for more information on the ordering.
+

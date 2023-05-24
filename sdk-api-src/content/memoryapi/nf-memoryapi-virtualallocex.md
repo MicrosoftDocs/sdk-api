@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualAllocEx
 title: VirtualAllocEx function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
+description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero. (VirtualAllocEx)
 helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","VirtualAllocEx","VirtualAllocEx function","_win32_virtualallocex","base.virtualallocex","winbase/VirtualAllocEx"]
 old-location: base\virtualallocex.htm
 tech.root: base

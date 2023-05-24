@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValue
 title: ICodecAPI::SetValue (strmif.h)
-description: The SetValue method sets the value of a codec property.
+description: The SetValue method sets the value of a codec property. (ICodecAPI.SetValue)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetValue method","ICodecAPI.SetValue","ICodecAPI::SetValue","ICodecAPISetValue","SetValue","SetValue method [DirectShow]","SetValue method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setvalue","strmif/ICodecAPI::SetValue"]
 old-location: dshow\icodecapi_setvalue.htm
 tech.root: dshow

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_8
+UID: NE:webservices.WS_VALUE_TYPE
 title: WS_VALUE_TYPE (webservices.h)
 description: The types of fixed-size primitives.
 helpviewer_keywords: ["WS_BOOL_VALUE_TYPE","WS_DATETIME_VALUE_TYPE","WS_DECIMAL_VALUE_TYPE","WS_DOUBLE_VALUE_TYPE","WS_DURATION_VALUE_TYPE","WS_FLOAT_VALUE_TYPE","WS_GUID_VALUE_TYPE","WS_INT16_VALUE_TYPE","WS_INT32_VALUE_TYPE","WS_INT64_VALUE_TYPE","WS_INT8_VALUE_TYPE","WS_TIMESPAN_VALUE_TYPE","WS_UINT16_VALUE_TYPE","WS_UINT32_VALUE_TYPE","WS_UINT64_VALUE_TYPE","WS_UINT8_VALUE_TYPE","WS_VALUE_TYPE","WS_VALUE_TYPE enumeration [Web Services for Windows]","webservices/WS_BOOL_VALUE_TYPE","webservices/WS_DATETIME_VALUE_TYPE","webservices/WS_DECIMAL_VALUE_TYPE","webservices/WS_DOUBLE_VALUE_TYPE","webservices/WS_DURATION_VALUE_TYPE","webservices/WS_FLOAT_VALUE_TYPE","webservices/WS_GUID_VALUE_TYPE","webservices/WS_INT16_VALUE_TYPE","webservices/WS_INT32_VALUE_TYPE","webservices/WS_INT64_VALUE_TYPE","webservices/WS_INT8_VALUE_TYPE","webservices/WS_TIMESPAN_VALUE_TYPE","webservices/WS_UINT16_VALUE_TYPE","webservices/WS_UINT32_VALUE_TYPE","webservices/WS_UINT64_VALUE_TYPE","webservices/WS_UINT8_VALUE_TYPE","webservices/WS_VALUE_TYPE","wsw.ws_value_type"]
@@ -117,3 +117,4 @@ Used to indicate a GUID.
 ### -field WS_DURATION_VALUE_TYPE:15
 
 Used to indicate a <a href="/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.
+

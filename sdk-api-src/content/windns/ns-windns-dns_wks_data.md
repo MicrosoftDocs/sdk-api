@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_14
+UID: NS:windns.DNS_WKS_DATA
 title: DNS_WKS_DATA (windns.h)
 description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.
 helpviewer_keywords: ["*PDNS_WKS_DATA","DNS_WKS_DATA","DNS_WKS_DATA structure [DNS]","PDNS_WKS_DATA","PDNS_WKS_DATA structure pointer [DNS]","Transmission Control Protocol (TCP)","User Datagram Protocol (UDP)","_dns_dns_wks_data","dns.dns_wks_data","windns/DNS_WKS_DATA","windns/PDNS_WKS_DATA"]
@@ -86,3 +86,4 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

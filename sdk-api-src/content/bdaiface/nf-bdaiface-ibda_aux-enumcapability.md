@@ -103,7 +103,7 @@ Receives the number of analog video standards that the connector supports.
 
 ### -param AnalogStds [out]
 
-Receives a bitwise <b>OR</b> of flags from the <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
+Receives a bitwise <b>OR</b> of flags from the <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
 
 ## -returns
 

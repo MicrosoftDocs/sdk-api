@@ -1,5 +1,5 @@
 ---
-UID: NE:srpapi.__unnamed_enum_0
+UID: NE:srpapi.ENTERPRISE_DATA_POLICIES
 title: ENTERPRISE_DATA_POLICIES (srpapi.h)
 description: Indicates whether the app is enlightened for Windows Information Protection (WIP) and whether the app is managed by policy.
 helpviewer_keywords: ["EDP.enterprise_data_policies","ENTERPRISE_DATA_POLICIES","ENTERPRISE_DATA_POLICIES enumeration","ENTERPRISE_POLICY_ALLOWED","ENTERPRISE_POLICY_ENLIGHTENED","ENTERPRISE_POLICY_EXEMPT","ENTERPRISE_POLICY_NONE","srpapi/ENTERPRISE_DATA_POLICIES","srpapi/ENTERPRISE_POLICY_ALLOWED","srpapi/ENTERPRISE_POLICY_ENLIGHTENED","srpapi/ENTERPRISE_POLICY_EXEMPT","srpapi/ENTERPRISE_POLICY_NONE"]
@@ -49,9 +49,6 @@ api_name:
 
 
 ## -description
-
-
-
 
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
 <div> </div>Indicates whether the app is enlightened for Windows Information Protection (WIP) and whether the app is managed by policy.

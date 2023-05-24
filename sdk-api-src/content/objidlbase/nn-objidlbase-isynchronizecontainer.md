@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.ISynchronizeContainer
 title: ISynchronizeContainer (objidlbase.h)
-description: Manages a group of unsignaled synchronization objects.
+description: The ISynchronizeContainer (objidlbase.h) interface manages a group of unsignaled synchronization objects.
 helpviewer_keywords: ["ISynchronizeContainer","ISynchronizeContainer interface [COM]","ISynchronizeContainer interface [COM]","described","_com_isynchronizecontainer","com.isynchronizecontainer","objidlbase/ISynchronizeContainer"]
 old-location: com\isynchronizecontainer.htm
 tech.root: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

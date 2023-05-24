@@ -61,8 +61,8 @@ The <b>ID3DDestructionNotifier</b> can be used to track resources which are bein
 
 ## -see-also
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback">ID3DDestructionNotifier::RegisterDestructionCallback</a>
 
-<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>

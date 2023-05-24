@@ -4,12 +4,12 @@ title: GetExitCodeThread function (processthreadsapi.h)
 description: Retrieves the termination status of the specified thread.
 helpviewer_keywords: ["GetExitCodeThread","GetExitCodeThread function","_win32_getexitcodethread","base.getexitcodethread","processthreadsapi/GetExitCodeThread","winbase/GetExitCodeThread"]
 old-location: base\getexitcodethread.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.date: 12/05/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10RenderTargetView.GetDesc
 title: ID3D10RenderTargetView::GetDesc (d3d10.h)
-description: Get the properties of a render target view.
+description: Get the properties of a render target view. (ID3D10RenderTargetView.GetDesc)
 helpviewer_keywords: ["00748511-34f4-ea6c-71a8-8ee7172ca5af","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10RenderTargetView interface","ID3D10RenderTargetView interface [Direct3D 10]","GetDesc method","ID3D10RenderTargetView.GetDesc","ID3D10RenderTargetView::GetDesc","d3d10/ID3D10RenderTargetView::GetDesc","direct3d10.id3d10rendertargetview_getdesc"]
 old-location: direct3d10\id3d10rendertargetview_getdesc.htm
 tech.root: direct3d10

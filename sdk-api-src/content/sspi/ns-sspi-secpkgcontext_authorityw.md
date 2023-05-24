@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_AuthorityW
 title: SecPkgContext_AuthorityW (sspi.h)
-description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
+description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available. (Unicode)
 helpviewer_keywords: ["*PSecPkgContext_AuthorityW","PSecPkgContext_Authority","PSecPkgContext_Authority structure pointer [Security]","SecPkgContext_Authority","SecPkgContext_Authority structure [Security]","SecPkgContext_AuthorityA","SecPkgContext_AuthorityW","_ssp_secpkgcontext_authority","security.secpkgcontext_authority","sspi/PSecPkgContext_Authority","sspi/SecPkgContext_Authority","sspi/SecPkgContext_AuthorityA","sspi/SecPkgContext_AuthorityW"]
 old-location: security\secpkgcontext_authority.htm
 tech.root: security

@@ -81,7 +81,7 @@ Specifies the number of additional ports that the method will attempt to use if 
 
 ### -param ppRegistrationResponseMsg [out]
 
-Address of a variable that receives the address of the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
+Address of a variable that receives the address of the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on the buffer object containing the registration response message. You must send this message data to the device.
 
 ### -param pCallback [in]
 

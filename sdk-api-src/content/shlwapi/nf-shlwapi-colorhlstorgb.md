@@ -61,18 +61,21 @@ Converts colors from hue-luminance-saturation (HLS) to RGB format.
 Type: <b>WORD</b>
 
 The original HLS hue value.
+Can range from 0 to 240.
 
 ### -param wLuminance
 
 Type: <b>WORD</b>
 
 The original HLS luminance value.
+Can range from 0 to 240.
 
 ### -param wSaturation
 
 Type: <b>WORD</b>
 
 The original HLS saturation value.
+Can range from 0 to 240.
 
 ## -returns
 

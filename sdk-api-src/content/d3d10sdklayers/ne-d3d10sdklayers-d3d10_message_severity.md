@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10sdklayers.D3D10_MESSAGE_SEVERITY
 title: D3D10_MESSAGE_SEVERITY (d3d10sdklayers.h)
-description: Debug message severity levels for an information queue.
+description: Debug message severity levels for an information queue. (D3D10_MESSAGE_SEVERITY)
 helpviewer_keywords: ["D3D10_MESSAGE_SEVERITY","D3D10_MESSAGE_SEVERITY enumeration [Direct3D 10]","D3D10_MESSAGE_SEVERITY_CORRUPTION","D3D10_MESSAGE_SEVERITY_ERROR","D3D10_MESSAGE_SEVERITY_INFO","D3D10_MESSAGE_SEVERITY_WARNING","b48ff3e8-3124-4d3c-9284-db459579b3d2","d3d10sdklayers/D3D10_MESSAGE_SEVERITY","d3d10sdklayers/D3D10_MESSAGE_SEVERITY_CORRUPTION","d3d10sdklayers/D3D10_MESSAGE_SEVERITY_ERROR","d3d10sdklayers/D3D10_MESSAGE_SEVERITY_INFO","d3d10sdklayers/D3D10_MESSAGE_SEVERITY_WARNING","direct3d10.d3d10_message_severity"]
 old-location: direct3d10\d3d10_message_severity.htm
 tech.root: direct3d10

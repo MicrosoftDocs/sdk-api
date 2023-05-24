@@ -4,7 +4,7 @@ tech.root: menurc
 title: FindResourceW
 ms.date: 04/19/2021 
 targetos: Windows
-description: Determines the location of a resource with the specified type and name in the specified module.
+description: Determines the location of a resource with the specified type and name in the specified module. (FindResourceW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

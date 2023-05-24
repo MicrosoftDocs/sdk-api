@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_PORT_NOTIFICATION
 title: VDS_PORT_NOTIFICATION (vdshwprv.h)
-description: Defines the details of controller port events.
+description: The VDS_PORT_NOTIFICATION structure (vdshwprv.h) defines the details of controller port events.
 helpviewer_keywords: ["VDS_NF_PORT_ARRIVE","VDS_NF_PORT_DEPART","VDS_NF_PORT_MODIFY","VDS_NF_PORT_REMOVED","VDS_PORT_NOTIFICATION","VDS_PORT_NOTIFICATION structure [VDS]","base.vds_port_notification","vds/_VDS_PORT_NOTIFICATION","vdshwprv/_VDS_PORT_NOTIFICATION"]
 old-location: base\vds_port_notification.htm
 tech.root: base
 ms.assetid: 4de0969f-fed5-42c7-a5f8-0bd6c58dc237
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_NF_PORT_ARRIVE, VDS_NF_PORT_DEPART, VDS_NF_PORT_MODIFY, VDS_NF_PORT_REMOVED, VDS_PORT_NOTIFICATION, VDS_PORT_NOTIFICATION structure [VDS], base.vds_port_notification, vds/_VDS_PORT_NOTIFICATION, vdshwprv/_VDS_PORT_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the details of controller port events.

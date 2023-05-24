@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLun.RemovePlex
 title: IVdsLun::RemovePlex (vds.h)
-description: Removes a plex from a LUN.
+description: The IVdsLun::RemovePlex method (vds.h) removes a plex from a LUN.
 helpviewer_keywords: ["IVdsLun interface [VDS]","RemovePlex method","IVdsLun.RemovePlex","IVdsLun::RemovePlex","RemovePlex","RemovePlex method [VDS]","RemovePlex method [VDS]","IVdsLun interface","base.ivdslun_removeplex","vds/IVdsLun::RemovePlex","vdshwprv/IVdsLun::RemovePlex"]
 old-location: base\ivdslun_removeplex.htm
 tech.root: base
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVdsLun::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsLun interface, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Removes a plex from a 
    LUN.

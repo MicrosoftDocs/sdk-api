@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.LoadLibraryW
 title: LoadLibraryW function (libloaderapi.h)
-description: Loads the specified module into the address space of the calling process.
-helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
+description: Loads the specified module into the address space of the calling process. (LoadLibraryW)
+helpviewer_keywords: ["LoadLibrary", "LoadLibrary function", "LoadLibraryW", "_win32_loadlibrary", "base.loadlibrary", "libloaderapi/LoadLibrary", "libloaderapi/LoadLibraryW"]
 old-location: base\loadlibrary.htm
 tech.root: base
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
@@ -68,14 +68,20 @@ Loads the specified  module into the address space of the calling process. The s
     module may cause other modules to be loaded.
 
 For additional load options, use the
-    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> function.
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a> function.
 
 ## -parameters
 
 ### -param lpLibFileName [in]
 
 The name of the module. This can be either a library module (a .dll file) or an executable
-       module (an .exe file). The name specified is the file name of the module and is not related to the
+module (an .exe file).
+If the specified module is an executable module, static imports are not loaded;
+instead, the module is loaded as if by
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a>
+with the `DONT_RESOLVE_DLL_REFERENCES` flag.
+
+The name specified is the file name of the module and is not related to the
        name stored in the library module itself, as specified by the <b>LIBRARY</b> keyword in
        the module-definition (.def) file.
 

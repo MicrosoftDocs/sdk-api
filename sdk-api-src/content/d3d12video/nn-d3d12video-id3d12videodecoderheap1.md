@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecoderHeap1
 title: ID3D12VideoDecoderHeap1
-ms.date: 8/19/2019
+description: The ID3D12VideoDecoderHeap1 interface (d3d12video.h) inherits from ID3D12VideoDecoderHeap and introduces support for protected resources.
+ms.date: 08/16/2022
 ms.keywords: ID3D12VideoDecoderHeap1
 targetos: Windows
 req.assembly: 

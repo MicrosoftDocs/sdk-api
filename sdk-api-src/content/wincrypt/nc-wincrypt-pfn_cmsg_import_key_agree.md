@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_IMPORT_KEY_AGREE
 title: PFN_CMSG_IMPORT_KEY_AGREE (wincrypt.h)
-description: Imports a content encryption key for a key transport recipient of an enveloped message.
+description: Imports a content encryption key for a key transport recipient of an enveloped message. (PFN_CMSG_IMPORT_KEY_AGREE)
 helpviewer_keywords: ["PFN_CMSG_IMPORT_KEY_AGREE","PFN_CMSG_IMPORT_KEY_AGREE callback","PFN_CMSG_IMPORT_KEY_AGREE callback function [Security]","security.pfn_cmsg_import_key_agree","wincrypt/PFN_CMSG_IMPORT_KEY_AGREE"]
 old-location: security\pfn_cmsg_import_key_agree.htm
 tech.root: security

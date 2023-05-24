@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetCustomAuthDataA
 title: RasGetCustomAuthDataA function (ras.h)
-description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user.
-helpviewer_keywords: ["RasGetCustomAuthData","RasGetCustomAuthData function [RAS]","RasGetCustomAuthDataA","RasGetCustomAuthDataW","_ras_rasgetcustomauthdata","ras/RasGetCustomAuthData","ras/RasGetCustomAuthDataA","ras/RasGetCustomAuthDataW","rras.rasgetcustomauthdata"]
+description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user. (ANSI)
+helpviewer_keywords: ["RasGetCustomAuthDataA", "ras/RasGetCustomAuthDataA"]
 old-location: rras\rasgetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618

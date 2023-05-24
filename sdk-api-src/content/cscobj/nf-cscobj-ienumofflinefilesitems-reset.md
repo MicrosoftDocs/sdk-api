@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesItems.Reset
 title: IEnumOfflineFilesItems::Reset (cscobj.h)
-description: Resets the enumeration to the beginning.
+description: Resets the enumeration to the beginning. (IEnumOfflineFilesItems.Reset)
 helpviewer_keywords: ["IEnumOfflineFilesItems interface [Offline Files]","Reset method","IEnumOfflineFilesItems.Reset","IEnumOfflineFilesItems::Reset","Reset","Reset method [Offline Files]","Reset method [Offline Files]","IEnumOfflineFilesItems interface","cscobj/IEnumOfflineFilesItems::Reset","of.ienumofflinefilesitems_reset"]
 old-location: of\ienumofflinefilesitems_reset.htm
 tech.root: of

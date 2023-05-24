@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC","DML_ELEMENT_WISE_
 old-location: direct3d12\dml_element_wise_divide_operator_desc.htm
 tech.root: directml
 ms.assetid: DBAA1EF2-B85A-421E-BB64-3E0812D03FFD
-ms.date: 10/29/2020
+ms.date: 05/02/2023
 ms.keywords: DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC, DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC structure, direct3d12.dml_element_wise_divide_operator_desc, directml/DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -84,6 +84,20 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_6_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

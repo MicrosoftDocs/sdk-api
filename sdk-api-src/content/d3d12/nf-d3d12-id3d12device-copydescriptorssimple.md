@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CopyDescriptorsSimple
 title: ID3D12Device::CopyDescriptorsSimple (d3d12.h)
-description: Copies descriptors from a source to a destination.
+description: Copies descriptors from a source to a destination. (ID3D12Device.CopyDescriptorsSimple)
 helpviewer_keywords: ["CopyDescriptorsSimple","CopyDescriptorsSimple method","CopyDescriptorsSimple method","ID3D12Device interface","ID3D12Device interface","CopyDescriptorsSimple method","ID3D12Device.CopyDescriptorsSimple","ID3D12Device::CopyDescriptorsSimple","d3d12/ID3D12Device::CopyDescriptorsSimple","direct3d12.id3d12device_copydescriptorssimple"]
 old-location: direct3d12\id3d12device_copydescriptorssimple.htm
 tech.root: direct3d12

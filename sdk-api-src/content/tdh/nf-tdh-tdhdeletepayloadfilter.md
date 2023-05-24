@@ -88,7 +88,6 @@ On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can b
 The <b>TdhDeletePayloadFilter</b> function is used to free memory allocated for a single payload filter that is returned by the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function.
 
 ## -see-also
-
 <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 

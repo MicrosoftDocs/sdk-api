@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteTextAnalyzer1
 title: IDWriteTextAnalyzer1 (dwrite_1.h)
-description: Analyzes various text properties for complex script processing.
+description: Analyzes various text properties for complex script processing. (IDWriteTextAnalyzer1)
 helpviewer_keywords: ["IDWriteTextAnalyzer1","IDWriteTextAnalyzer1 interface [Direct Write]","IDWriteTextAnalyzer1 interface [Direct Write]","described","directwrite.idwritetextanalyzer1","dwrite_1/IDWriteTextAnalyzer1"]
 old-location: directwrite\idwritetextanalyzer1.htm
 tech.root: DirectWrite

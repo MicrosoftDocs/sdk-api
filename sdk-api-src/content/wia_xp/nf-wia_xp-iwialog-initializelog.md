@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLog.InitializeLog
 title: IWiaLog::InitializeLog (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLog.InitializeLog)
 helpviewer_keywords: ["IWiaLog interface [WIA]","InitializeLog method","IWiaLog.InitializeLog","IWiaLog::InitializeLog","InitializeLog","InitializeLog method [WIA]","InitializeLog method [WIA]","IWiaLog interface","_wia_IWiaLog_InitializeLog","wia._wia_IWiaLog_InitializeLog","wia_xp/IWiaLog::InitializeLog"]
 old-location: wia\_wia_IWiaLog_InitializeLog.htm
 tech.root: wia

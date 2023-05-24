@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetConnectA
 title: InternetConnectA function (wininet.h)
-description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
-helpviewer_keywords: ["InternetConnect","InternetConnect function [WinINet]","InternetConnectA","InternetConnectW","_win32_internetconnect","wininet.internetconnect","wininet/InternetConnect","wininet/InternetConnectA","wininet/InternetConnectW"]
+description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site. (ANSI)
+helpviewer_keywords: ["InternetConnectA", "wininet/InternetConnectA"]
 old-location: wininet\internetconnect.htm
 tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c

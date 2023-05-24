@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetViewName
 title: IMultipleViewProvider::GetViewName (uiautomationcore.h)
-description: Retrieves the name of a control-specific view.
+description: Retrieves the name of a control-specific view. (IMultipleViewProvider.GetViewName)
 helpviewer_keywords: ["GetViewName","GetViewName method [Windows Accessibility]","GetViewName method [Windows Accessibility]","IMultipleViewProvider interface","IMultipleViewProvider interface [Windows Accessibility]","GetViewName method","IMultipleViewProvider.GetViewName","IMultipleViewProvider::GetViewName","uiauto.uiauto_IMultipleViewProvider_GetViewName","uiauto_IMultipleViewProvider_GetViewName","uiautomationcore/IMultipleViewProvider::GetViewName","winauto.uiauto_IMultipleViewProvider_GetViewName"]
 old-location: winauto\uiauto_IMultipleViewProvider_GetViewName.htm
 tech.root: WinAuto

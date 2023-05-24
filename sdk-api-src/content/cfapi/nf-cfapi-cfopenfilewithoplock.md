@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfOpenFileWithOplock","CfOpenFileWithOplock function","cf
 old-location: cloudapi\cfopenfilewithoplock.htm
 tech.root: cloudapi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfOpenFileWithOplock function
 
-
 ## -description
 
 Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.
@@ -60,7 +59,17 @@ Fully qualified path to the file or directory to be opened.
 
 ### -param Flags [in]
 
-Flags to specify permissions on opening the file.
+The flags to specify permissions on opening the file. *Flags* can be set to a combination of the following values:
+
+- If **CF_OPEN_FILE_FLAG_EXCLUSIVE** is specified, the API returns a share-none handle and requests an **RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE)** oplock on the file; otherwise a share-all handle is opened and an **R (OPLOCK_LEVEL_CACHE_READ)** is requested.
+- If **CF_OPEN_FILE_FLAG_WRITE_ACCESS** is specified, the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY** and **FILE_WRITE_DATA**/**FILE_ADD_FILE** access; otherwise the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY**.
+- If **CF_OPEN_FILE_FLAG_DELETE_ACCESS** is specified, the API attempts to open the file or directory with **DELETE** access; otherwise it opens the file normally.
+- If **CF_OPEN_FILE_FLAG_FOREGROUND** is specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) does not request an oplock. This should be used when the caller is acting as a foreground application. i.e., they don’t care whether the file handle created by this API causes sharing violations for other callers, and they don’t care about breaking any oplocks that may already be on the file. So, they open the handle without requesting an oplock.
+
+    >[!NOTE]
+    >The default *background* behavior requests an oplock when opening the file handle so that their call fails if there’s already an oplock, and they can be told to close their handle if they need to get out of the way to avoid causing a sharing violation later.
+    >
+    >Unless the caller specifies **CF_OPEN_FILE_FLAG_EXCLUSIVE** to CfOpenFileWithOplock, the oplock they get will be only **OPLOCK_LEVEL_CACHE_READ**, not **(OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE)**, so there won’t be the sharing violation protection a background app might normally want.
 
 ### -param ProtectedHandle [out]
 
@@ -68,10 +77,16 @@ An opaque handle to the file or directory that is just opened. Note that this is
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-When the oplock is broken, the API will handle the break notification automatically on behalf of the caller by draining all active requests and then closing the underneath Win32 handle.  
+When the oplock is broken, the API will handle the break notification automatically on behalf of the caller by draining all active requests and then closing the underlying Win32 handle.  
 
-This aims to removing the complexity related to oplock usages. The caller must close the handle returned by <b>CfOpenFileWithOplock</b> with <a href="/windows/desktop/api/cfapi/nf-cfapi-cfclosehandle">CfCloseHandle</a>.
+This aims to remove the complexity related to oplock usages. The caller must close the handle returned by **CfOpenFileWithOplock** with [CfCloseHandle](nf-cfapi-cfclosehandle.md).
+
+## -see-also
+
+[CfCloseHandle](nf-cfapi-cfclosehandle.md)
+
+[CreateFile](../fileapi/nf-fileapi-createfilea.md)

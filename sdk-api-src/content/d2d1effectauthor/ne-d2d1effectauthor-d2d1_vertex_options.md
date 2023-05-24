@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_VERTEX_OPTIONS
 title: D2D1_VERTEX_OPTIONS (d2d1effectauthor.h)
-description: Describes flags that influence how the renderer interacts with a custom vertex shader.
+description: Describes flags that influence how the renderer interacts with a custom vertex shader. (D2D1_VERTEX_OPTIONS)
 helpviewer_keywords: ["D2D1_VERTEX_OPTIONS","D2D1_VERTEX_OPTIONS enumeration [Direct2D]","D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP","D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR","D2D1_VERTEX_OPTIONS_NONE","D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER","d2d1effectauthor/D2D1_VERTEX_OPTIONS","d2d1effectauthor/D2D1_VERTEX_OPTIONS_ASSUME_NO_OVERLAP","d2d1effectauthor/D2D1_VERTEX_OPTIONS_DO_NOT_CLEAR","d2d1effectauthor/D2D1_VERTEX_OPTIONS_NONE","d2d1effectauthor/D2D1_VERTEX_OPTIONS_USE_DEPTH_BUFFER","direct2d.d2d1_vertex_options"]
 old-location: direct2d\d2d1_vertex_options.htm
 tech.root: Direct2D

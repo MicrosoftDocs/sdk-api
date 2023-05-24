@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryLeft
 title: IInertiaProcessor::put_BoundaryLeft (manipulations.h)
-description: The BoundaryLeft property limits how far towards the left of the screen the target object can move.
+description: The BoundaryLeft property limits how far towards the left of the screen the target object can move. (Put)
 helpviewer_keywords: ["BoundaryLeft property [Windows Touch]","BoundaryLeft property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","BoundaryLeft property","IInertiaProcessor.BoundaryLeft","IInertiaProcessor.put_BoundaryLeft","IInertiaProcessor::BoundaryLeft","IInertiaProcessor::get_BoundaryLeft","IInertiaProcessor::put_BoundaryLeft","manipulations/IInertiaProcessor::BoundaryLeft","manipulations/IInertiaProcessor::get_BoundaryLeft","manipulations/IInertiaProcessor::put_BoundaryLeft","put_BoundaryLeft","wintouch.iinertiaprocessor_leftboundary"]
 old-location: wintouch\iinertiaprocessor_leftboundary.htm
 tech.root: wintouch

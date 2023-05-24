@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityWithMultipleInheritance
 title: CreatePrivateObjectSecurityWithMultipleInheritance function (securitybaseapi.h)
-description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
+description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function. (CreatePrivateObjectSecurityWithMultipleInheritance)
 helpviewer_keywords: ["CreatePrivateObjectSecurityWithMultipleInheritance","CreatePrivateObjectSecurityWithMultipleInheritance function [Security]","SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","_win32_createprivateobjectsecuritywithmultipleinheritance","security.createprivateobjectsecuritywithmultipleinheritance","securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance"]
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm
 tech.root: security

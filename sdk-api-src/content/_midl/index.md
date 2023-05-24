@@ -4,7 +4,7 @@ title: Microsoft Interface Definition Language (MIDL)
 ms.assetid: 3f1eed36-d44b-35c5-9917-505d875b7b05
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Microsoft Interface Definition Language (MIDL)

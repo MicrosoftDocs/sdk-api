@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_BUFFER_DESC
 title: D3D10_SHADER_BUFFER_DESC (d3d10shader.h)
-description: Describes a shader constant-buffer.
+description: Describes a shader constant-buffer. (D3D10_SHADER_BUFFER_DESC)
 helpviewer_keywords: ["149ee7ef-e8fe-d33d-b3e6-f8e1b0c4a83a","D3D10_SHADER_BUFFER_DESC","D3D10_SHADER_BUFFER_DESC structure [Direct3D 10]","d3d10shader/D3D10_SHADER_BUFFER_DESC","direct3d10.d3d10_shader_buffer_desc"]
 old-location: direct3d10\d3d10_shader_buffer_desc.htm
 tech.root: direct3d10

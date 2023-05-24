@@ -96,7 +96,7 @@ Window to which this message was targeted. If the pointer is captured, either im
 
 ### -field ptPixelLocation
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The predicted screen coordinates of the pointer, in pixels. 
 
@@ -104,7 +104,7 @@ The predicted value is based on the pointer position reported by the digitizer a
 
 ### -field ptHimetricLocation
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The predicted screen coordinates of the pointer, in HIMETRIC units. 
 
@@ -112,13 +112,13 @@ The predicted value is based on the pointer position reported by the digitizer a
 
 ### -field ptPixelLocationRaw
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The screen coordinates of the pointer, in pixels. For adjusted screen coordinates, see <b>ptPixelLocation</b>.
 
 ### -field ptHimetricLocationRaw
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The screen coordinates of the pointer, in HIMETRIC units. For adjusted screen coordinates, see <b>ptHimetricLocation</b>.
 
@@ -155,13 +155,15 @@ Count of inputs that were coalesced into this message. This count matches the to
 
 Type: <b>DWORD</b>
 
- Indicates which keyboard modifier keys were pressed at the time the input was generated. May be zero or a combination of the following values.
+ Indicates which keyboard modifier keys were pressed at the time the input was generated. May be zero, or a combination of the following values from [Modifier Key State](/windows/win32/inputmsg/modifier-key-states-constants).
 
 
 POINTER_MOD_SHIFT – A SHIFT key was pressed.
 
 
 POINTER_MOD_CTRL – A CTRL key was pressed.
+
+Use <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>.
 
 ### -field PerformanceCount
 
@@ -188,5 +190,6 @@ When flags indicate <b>POINTER_FLAG_WHEEL</b>, this value indicates the distance
 When flags indicate <b>POINTER_FLAG_HWHEEL,</b> this value indicates the distance the wheel is rotated, expressed in multiples or factors of WHEEL_DELTA. A positive value indicates that the wheel was rotated to the right and a negative value indicates that the wheel was rotated to the left.
 
 ## -see-also
+
 
 <a href="/windows/win32/inputmsg/structures">Structures</a>

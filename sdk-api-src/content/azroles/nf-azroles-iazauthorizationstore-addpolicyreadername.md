@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReaderName
 title: IAzAuthorizationStore::AddPolicyReaderName (azroles.h)
-description: Adds the specified account name to the list of principals that act as policy readers.
+description: Adds the specified account name to the list of principals that act as policy readers. (IAzAuthorizationStore.AddPolicyReaderName)
 helpviewer_keywords: ["AddPolicyReaderName","AddPolicyReaderName method [Security]","AddPolicyReaderName method [Security]","AzAuthorizationStore object","AddPolicyReaderName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyReaderName method","IAzAuthorizationStore interface [Security]","AddPolicyReaderName method","IAzAuthorizationStore.AddPolicyReaderName","IAzAuthorizationStore::AddPolicyReaderName","azroles/IAzAuthorizationStore::AddPolicyReaderName","security.azauthorizationstore_addpolicyreadername"]
 old-location: security\azauthorizationstore_addpolicyreadername.htm
 tech.root: security

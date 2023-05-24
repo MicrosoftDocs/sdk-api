@@ -1,12 +1,12 @@
 ---
 UID: NF:vsbackup.CreateVssBackupComponentsInternal
 title: CreateVssBackupComponentsInternal function (vsbackup.h)
-description: The CreateVssBackupComponents function creates an IVssBackupComponents interface object and returns a pointer to it.
+description: The CreateVssBackupComponents function (vsbackup.h) creates an IVssBackupComponents interface object and returns a pointer to it.
 helpviewer_keywords: ["CreateVssBackupComponents","CreateVssBackupComponents function [VSS]","CreateVssBackupComponentsInternal","_win32_createvssbackupcomponents","base.createvssbackupcomponents","vsbackup/CreateVssBackupComponents","vsbackup/CreateVssBackupComponentsInternal"]
 old-location: base\createvssbackupcomponents.htm
 tech.root: base
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

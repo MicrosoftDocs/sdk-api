@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasDeleteSubEntryA
 title: RasDeleteSubEntryA function (ras.h)
-description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
-helpviewer_keywords: ["RasDeleteSubEntry","RasDeleteSubEntry function [RAS]","RasDeleteSubEntryA","RasDeleteSubEntryW","_ras_rasdeletesubentry","ras/RasDeleteSubEntry","ras/RasDeleteSubEntryA","ras/RasDeleteSubEntryW","rras.rasdeletesubentry"]
+description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry. (ANSI)
+helpviewer_keywords: ["RasDeleteSubEntryA", "ras/RasDeleteSubEntryA"]
 old-location: rras\rasdeletesubentry.htm
 tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956

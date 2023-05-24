@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.wsprintfA
 title: wsprintfA function (winuser.h)
-description: Writes formatted data to the specified buffer.
-helpviewer_keywords: ["_win32_wsprintf","_win32_wsprintf_cpp","menurc.wsprintf","winui._win32_wsprintf","winuser/wsprintf","winuser/wsprintfA","winuser/wsprintfW","wsprintf","wsprintf function [Menus and Other Resources]","wsprintfA","wsprintfW"]
+description: Writes formatted data to the specified buffer. (ANSI)
+helpviewer_keywords: ["winuser/wsprintfA", "wsprintfA"]
 old-location: menurc\wsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
@@ -145,14 +145,14 @@ Output the corresponding argument as a character, a string, or a number. This fi
 
 
 <dl>
-<dt><a id="c"></a><a id="C"></a><code>c</code></dt>
+<dt><a id="c"></a><code>c</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>WCHAR</b> if the calling application defines Unicode and as type <b>__wchar_t</b> otherwise.
+Single character. This value is interpreted as type <b>CHAR</b>.
 
 </dd>
-<dt><a id="C"></a><a id="c"></a><code>C</code></dt>
+<dt><a id="C"></a></a><code>C</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>__wchar_t</b> if the calling application defines Unicode and as type <b>WCHAR</b> otherwise.
+Single character. This value is interpreted as type <b>WCHAR</b>.
 
 </dd>
 <dt><a id="d"></a><a id="D"></a><code>d</code></dt>
@@ -162,7 +162,7 @@ Signed decimal integer. This value is equivalent to <code>i</code>.
 </dd>
 <dt><a id="hc__hC"></a><a id="hc__hc"></a><a id="HC__HC"></a><code>hc</code>, <code>hC</code></dt>
 <dd>
-Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>__wchar_t</b>, even when the calling application defines Unicode.
+Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>CHAR</b>, even when the calling application defines Unicode.
 
 </dd>
 <dt><a id="hd"></a><a id="HD"></a><code>hd</code></dt>
@@ -235,7 +235,7 @@ String. This value is interpreted as type <b>LPWSTR</b> when the calling applica
 String. This value is interpreted as type <b>LPSTR</b> when the calling application defines Unicode and as type <b>LPWSTR</b> otherwise.
 
 </dd>
-<dt><a id="u"></a><a id="U"></a><code></code>u</dt>
+<dt><a id="u"></a><a id="U"></a><code>u</code></dt>
 <dd>
 Unsigned integer argument.
 

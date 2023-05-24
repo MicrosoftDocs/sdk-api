@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Schedule
 title: IUIAnimationStoryboard2::Schedule (uianimation.h)
-description: Directs the storyboard to schedule itself for play.
+description: Directs the storyboard to schedule itself for play. (IUIAnimationStoryboard2.Schedule)
 helpviewer_keywords: ["IUIAnimationStoryboard2 interface [Windows Animation]","Schedule method","IUIAnimationStoryboard2.Schedule","IUIAnimationStoryboard2::Schedule","Schedule","Schedule method [Windows Animation]","Schedule method [Windows Animation]","IUIAnimationStoryboard2 interface","uianimation.iuianimationstoryboard2_schedule","uianimation/IUIAnimationStoryboard2::Schedule"]
 old-location: uianimation\iuianimationstoryboard2_schedule.htm
 tech.root: UIAnimation

@@ -68,5 +68,4 @@ The layout of the event data is determined by the XML fragment included in the e
 ### -field TEMPLATE_CONTROL_GUID:4 
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>

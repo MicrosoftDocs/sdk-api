@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.SetReferent
 title: INewShortcutHookW::SetReferent (shlobj.h)
-description: Sets the referent of the shortcut object.
+description: Sets the referent of the shortcut object. (Unicode)
 helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetReferent method","INewShortcutHook::SetReferent","INewShortcutHookA","INewShortcutHookA interface [Windows Shell]","SetReferent method","INewShortcutHookA::SetReferent","INewShortcutHookW","INewShortcutHookW interface [Windows Shell]","SetReferent method","INewShortcutHookW.SetReferent","INewShortcutHookW::SetReferent","SetReferent","SetReferent method [Windows Shell]","SetReferent method [Windows Shell]","INewShortcutHook interface","SetReferent method [Windows Shell]","INewShortcutHookA interface","SetReferent method [Windows Shell]","INewShortcutHookW interface","_win32_INewShortcutHook_SetReferent","shell.INewShortcutHook_SetReferent","shlobj/INewShortcutHook::SetReferent","shlobj/INewShortcutHookA::SetReferent","shlobj/INewShortcutHookW::SetReferent"]
 old-location: shell\INewShortcutHook_SetReferent.htm
 tech.root: shell

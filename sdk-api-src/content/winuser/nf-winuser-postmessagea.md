@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.PostMessageA
 title: PostMessageA function (winuser.h)
-description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
-helpviewer_keywords: ["HWND_BROADCAST","PostMessage","PostMessage function [Windows and Messages]","PostMessageA","PostMessageW","_win32_PostMessage","_win32_postmessage_cpp","winmsg.postmessage","winui._win32_postmessage","winuser/PostMessage","winuser/PostMessageA","winuser/PostMessageW"]
+description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message. (ANSI)
+helpviewer_keywords: ["HWND_BROADCAST", "PostMessageA", "winuser/PostMessageA"]
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
@@ -132,7 +132,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -152,9 +152,6 @@ Do not post the <a href="/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message us
 
 A message queue can contain at most 10,000 messages. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 				
-				
-
-
 <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
@@ -163,6 +160,7 @@ A message queue can contain at most 10,000 messages. This limit should be suffic
                <b>Windows</b>
                   <b>USERPostMessageLimit</b></pre>
 
+If the function fails, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. <b>GetLastError</b> returns <b>ERROR_NOT_ENOUGH_QUOTA</b> when the limit is hit.
 
 The minimum acceptable value is 4000.
 

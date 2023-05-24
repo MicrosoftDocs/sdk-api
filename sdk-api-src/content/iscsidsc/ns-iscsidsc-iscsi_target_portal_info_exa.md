@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_11
+UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_INFO_EXA
 title: ISCSI_TARGET_PORTAL_INFO_EXA (iscsidsc.h)
-description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal.
+description: The ISCSI_TARGET_PORTAL_INFO_EX structure contains information about login credentials to a target portal. (ANSI)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_INFO_EXA","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","ISCSI_TARGET_PORTAL_INFO_EX","ISCSI_TARGET_PORTAL_INFO_EX structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_INFO_EXA","ISCSI_TARGET_PORTAL_INFO_EXW","PISCSI_TARGET_PORTAL_INFO_EX","PISCSI_TARGET_PORTAL_INFO_EX structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_info_ex","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA","iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXW","iscsidsc/PISCSI_TARGET_PORTAL_INFO_EX"]
 old-location: iscsidisc\iscsi_target_portal_info_ex.htm
 tech.root: iSCSIDisc
@@ -175,3 +175,4 @@ A pointer to an <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscs
 
 > [!NOTE]
 > The iscsidsc.h header defines ISCSI_TARGET_PORTAL_INFO_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

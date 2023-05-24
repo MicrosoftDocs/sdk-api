@@ -3,7 +3,7 @@ UID: NF:traceloggingprovider.TraceLoggingRegister
 title: TraceLoggingRegister
 description:
   Registers a TraceLogging provider so that it can be used to log events.
-ms.date: 5/7/2019
+ms.date: 06/06/2022
 ms.keywords: TraceLoggingRegister
 targetos: Windows
 req.assembly:
@@ -61,7 +61,7 @@ If you call this function from kernel-mode code, the function returns an
 `NTSTATUS`. Use the `NT_SUCCESS()` macro to determine whether the function
 succeeds.
 
-> [!Note]
+> [!NOTE]
 > The error code returned by **TraceLoggingRegister** is primarily
 > intended for use in debugging and diagnostic scenarios. Most production code
 > should continue to run even if an ETW provider failed to register, so release
@@ -97,7 +97,7 @@ and all uses of the provider handle will be safe no-ops. In particular, it is a
 safe no-op to call **TraceLoggingWrite** or **TraceLoggingUnregister** with an
 unregistered provider handle.
 
-> [!Important]
+> [!IMPORTANT]
 > If your DLL or driver calls **TraceLoggingRegister** on a
 > provider handle, it **must** call **TraceLoggingUnregister** on that provider
 > handle before the DLL or driver unloads. If a DLL unloads without calling
@@ -108,7 +108,7 @@ unregistered provider handle.
 > If the callback is not cancelled and the module unloads, a crash will occur
 > the next time ETW tries to invoke the callback.
 
-> [!Warning]
+> [!WARNING]
 > If your driver calls **TraceLoggingRegister** and then encounters
 > an error during _DriverEntry_, it must call **TraceLoggingUnregister** before
 > returning the error from _DriverEntry_. Normal driver cleanup routines will

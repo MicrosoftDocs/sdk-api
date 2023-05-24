@@ -4,7 +4,7 @@ title: Spatialinteractionmanagerinterop.h header
 ms.assetid: 4eeec980-4fd8-3352-85de-a0d584fa00d8
 ms.date: 01/25/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mixedreality
 archived: true
 f1_keywords:

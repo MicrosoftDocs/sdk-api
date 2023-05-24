@@ -1,5 +1,5 @@
 ---
-UID: NE:nldef.__unnamed_enum_2
+UID: NE:nldef.NL_DAD_STATE
 title: NL_DAD_STATE (nldef.h)
 description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 helpviewer_keywords: ["IP_DAD_STATE","IP_DAD_STATE enumeration [IP Helper]","IpDadStateDeprecated","IpDadStateDuplicate","IpDadStateInvalid","IpDadStatePreferred","IpDadStateTentative","NL_DAD_STATE","iphlp.ip_dad_state","iptypes/IP_DAD_STATE","iptypes/IpDadStateDeprecated","iptypes/IpDadStateDuplicate","iptypes/IpDadStateInvalid","iptypes/IpDadStatePreferred","iptypes/IpDadStateTentative","nldef/IP_DAD_STATE","nldef/IpDadStateDeprecated","nldef/IpDadStateDuplicate","nldef/IpDadStateInvalid","nldef/IpDadStatePreferred","nldef/IpDadStateTentative"]
@@ -9,7 +9,7 @@ ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
 ms.date: 12/05/2018
 ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, iphlp.ip_dad_state, iptypes/IP_DAD_STATE, iptypes/IpDadStateDeprecated, iptypes/IpDadStateDuplicate, iptypes/IpDadStateInvalid, iptypes/IpDadStatePreferred, iptypes/IpDadStateTentative, nldef/IP_DAD_STATE, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative
 req.header: nldef.h
-req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
+req.include-header: Iphlpapi.h on Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -94,3 +94,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
+

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfGetSyncRootInfoByPath","CfGetSyncRootInfoByPath functio
 old-location: cloudapi\cfgetsyncrootinfobypath.htm
 tech.root: cloudapi
 ms.assetid: 0FEEF910-3545-4D94-BFF9-88AEE084F454
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfGetSyncRootInfoByPath, CfGetSyncRootInfoByPath function, cfapi/CfGetSyncRootInfoByPath, cloudApi.cfgetsyncrootinfobypath
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfGetSyncRootInfoByPath function
 
-
 ## -description
 
 Gets various sync root information given a file under the sync root.
@@ -56,7 +55,7 @@ Gets various sync root information given a file under the sync root.
 
 ### -param FilePath [in]
 
-A fully qualified path to a file whose sync root information is to be queried
+A fully qualified path to a file whose sync root information is to be queried.
 
 ### -param InfoClass [in]
 
@@ -68,12 +67,28 @@ A pointer to a buffer that will receive the sync root information.
 
 ### -param InfoBufferLength [in]
 
-Length, in bytes, of the <i>InfoBuffer</i>.
+Length, in bytes, of the *InfoBuffer*.
 
 ### -param ReturnedLength [out, optional]
 
-Length, in bytes, of the returned sync root information. Refer to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfregistersyncroot">CfRegisterSyncRoot</a> for details about the sync root information.
+Length, in bytes, of the returned sync root information. Refer to [CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md) for details about the sync root information.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
+
+## -remarks
+
+If the file is not underneath a cloud files sync root, the API will fail. On success, information is returned according to the specific *InfoClass* requested.
+
+The *InfoClass* parameter can be one of the following values from [CF_SYNC_ROOT_INFO_CLASS](ne-cfapi-cf_sync_root_info_class.md):
+
+- CF_SYNC_ROOT_INFO_BASIC
+- CF_SYNC_ROOT_INFO_STANDARD
+- CF_SYNC_ROOT_INFO_PROVIDER
+
+## -see-also
+
+[CfRegisterSyncRoot](nf-cfapi-cfregistersyncroot.md)
+
+[CfGetSyncRootInfoByHandle](nf-cfapi-cfgetsyncrootinfobyhandle.md)

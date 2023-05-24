@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.QueryActiveControllerPorts
 title: IVdsLunControllerPorts::QueryActiveControllerPorts (vds.h)
-description: Returns an enumeration of currently active controller ports.
+description: The IVdsLunControllerPorts::QueryActiveControllerPorts method (vds.h) returns an enumeration of currently active controller ports.
 helpviewer_keywords: ["IVdsLunControllerPorts interface","QueryActiveControllerPorts method","IVdsLunControllerPorts.QueryActiveControllerPorts","IVdsLunControllerPorts::QueryActiveControllerPorts","QueryActiveControllerPorts","QueryActiveControllerPorts method","QueryActiveControllerPorts method","IVdsLunControllerPorts interface","base.ivdsluncontrollerports_queryactivecontrollerports","vds/IVdsLunControllerPorts::QueryActiveControllerPorts","vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts"]
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
 tech.root: base
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an enumeration of currently active controller ports— 
     the controller ports through which the LUN can be accessed. This method replaces 

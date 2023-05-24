@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTREEVIEWA
 title: NMTREEVIEWA (commctrl.h)
-description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.
+description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions. (ANSI)
 helpviewer_keywords: ["*LPNMTREEVIEWA","LPNMTREEVIEW","LPNMTREEVIEW structure pointer [Windows Controls]","NMTREEVIEW","NMTREEVIEW structure [Windows Controls]","NMTREEVIEWA","NMTREEVIEWW","_win32_NMTREEVIEW","_win32_NMTREEVIEW_cpp","commctrl/LPNMTREEVIEW","commctrl/NMTREEVIEW","commctrl/NMTREEVIEWA","commctrl/NMTREEVIEWW","controls.NMTREEVIEW","controls._win32_NMTREEVIEW"]
 old-location: controls\NMTREEVIEW.htm
 tech.root: Controls
@@ -106,10 +106,10 @@ Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a><
 
 ### -field ptDrag
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent.
 
 ## -see-also
 

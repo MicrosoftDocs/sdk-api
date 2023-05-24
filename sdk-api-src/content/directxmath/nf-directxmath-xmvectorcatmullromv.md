@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorCatmullRomV
 title: XMVectorCatmullRomV function (directxmath.h)
-description: Performs a Catmull-Rom interpolation, using the specified position vectors.
+description: Performs a Catmull-Rom interpolation, using the specified position vectors. (XMVectorCatmullRomV)
 helpviewer_keywords: ["Use DirectX..XMVectorCatmullRomV","XMVectorCatmullRomV","XMVectorCatmullRomV method [DirectX Math Support APIs]","dxmath.xmvectorcatmullromv"]
 old-location: dxmath\xmvectorcatmullromv.htm
 tech.root: dxmath

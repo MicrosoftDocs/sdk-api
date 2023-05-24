@@ -1,7 +1,7 @@
 ---
 UID: NE:vds._VDS_LUN_RESERVE_MODE
 title: VDS_LUN_RESERVE_MODE (vds.h)
-description: Not supported.This enumeration is reserved for future use.
+description: Not supported.This enumeration is reserved for future use. (VDS_LUN_RESERVE_MODE)
 helpviewer_keywords: ["VDS_LRM_EXCLUSIVE_RO","VDS_LRM_EXCLUSIVE_RW","VDS_LRM_NONE","VDS_LRM_SHARED_RO","VDS_LRM_SHARED_RW","VDS_LUN_RESERVE_MODE","VDS_LUN_RESERVE_MODE enumeration [VDS]","base.vds_lun_reserve_mode","vds/VDS_LRM_EXCLUSIVE_RO","vds/VDS_LRM_EXCLUSIVE_RW","vds/VDS_LRM_NONE","vds/VDS_LRM_SHARED_RO","vds/VDS_LRM_SHARED_RW","vds/VDS_LUN_RESERVE_MODE"]
 old-location: base\vds_lun_reserve_mode.htm
 tech.root: base
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

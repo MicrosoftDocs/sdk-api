@@ -1,9 +1,10 @@
 ---
 UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify~r1
 title: BCryptUnregisterConfigChangeNotify
+description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.
 ms.date: 01/30/2019
 ms.keywords: BCryptUnregisterConfigChangeNotify
-targetos: Windows
+ms.topic: language-reference
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -37,6 +38,8 @@ api_location:
  - bcrypt.h
 api_name:
  - BCryptUnregisterConfigChangeNotify
+product: Windows
+targetos: Windows
 ---
 
 # BCryptUnregisterConfigChangeNotify function

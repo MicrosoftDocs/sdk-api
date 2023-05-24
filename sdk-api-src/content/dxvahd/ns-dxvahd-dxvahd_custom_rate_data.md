@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_CUSTOM_RATE_DATA
 title: DXVAHD_CUSTOM_RATE_DATA (dxvahd.h)
-description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
+description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC). (DXVAHD_CUSTOM_RATE_DATA)
 helpviewer_keywords: ["DXVAHD_CUSTOM_RATE_DATA","DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation]","dxvahd/DXVAHD_CUSTOM_RATE_DATA","mf.dxvahd_custom_rate_data"]
 old-location: mf\dxvahd_custom_rate_data.htm
 tech.root: mf

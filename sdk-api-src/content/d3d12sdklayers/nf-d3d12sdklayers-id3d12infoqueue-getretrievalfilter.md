@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilter
 title: ID3D12InfoQueue::GetRetrievalFilter (d3d12sdklayers.h)
-description: Get the retrieval filter at the top of the retrieval-filter stack.
+description: Get the retrieval filter at the top of the retrieval-filter stack. (ID3D12InfoQueue.GetRetrievalFilter)
 helpviewer_keywords: ["GetRetrievalFilter","GetRetrievalFilter method","GetRetrievalFilter method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetRetrievalFilter method","ID3D12InfoQueue.GetRetrievalFilter","ID3D12InfoQueue::GetRetrievalFilter","d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter","direct3d12.id3d12infoqueue_getretrievalfilter"]
 old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Csid
 title: IFaxPort::put_Csid (faxcom.h)
-description: The IFaxPort::get_Csid property is a null-terminated string that contains the called station identifier (CSID) associated with the fax port.
+description: The IFaxPort::get_Csid property is a null-terminated string that contains the called station identifier (CSID) associated with the fax port. (Put)
 helpviewer_keywords: ["Csid property [Fax Service]","Csid property [Fax Service]","IFaxPort interface","IFaxPort interface [Fax Service]","Csid property","IFaxPort.Csid","IFaxPort.put_Csid","IFaxPort::Csid","IFaxPort::get_Csid","IFaxPort::put_Csid","_mfax_ifaxport_get_csid","fax._mfax_ifaxport_get_csid","fax._mfax_ifaxport_mfax_ifaxport_get_csid_cpp","faxcom/IFaxPort::Csid","faxcom/IFaxPort::get_Csid","faxcom/IFaxPort::put_Csid","put_Csid"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_csid_cpp.htm
 tech.root: Fax

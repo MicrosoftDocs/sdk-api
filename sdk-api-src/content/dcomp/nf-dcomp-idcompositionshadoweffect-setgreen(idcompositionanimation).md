@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation) (dcomp.h)
-description: Sets the green value for the color of the shadow.
+description: Sets the green value for the color of the shadow. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetGreen method","IDCompositionShadowEffect.SetGreen","IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)","IDCompositionShadowEffect::SetGreen","IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)","SetGreen","SetGreen method [DirectComposition]","SetGreen method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetGreen","directcomp.idcompositionshadoweffect_setgreen_2"]
 old-location: directcomp\idcompositionshadoweffect_setgreen_2.htm
 tech.root: directcomp

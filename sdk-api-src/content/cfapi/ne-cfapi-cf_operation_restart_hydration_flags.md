@@ -47,10 +47,9 @@ api_name:
 
 # CF_OPERATION_RESTART_HYDRATION_FLAGS enumeration
 
-
 ## -description
 
-Flags to restart data  hydration on a placeholder file or folder.
+Flags to restart data hydration on a placeholder file or folder.
 
 ## -enum-fields
 
@@ -60,5 +59,10 @@ No restart data hydration flag.
 
 ### -field CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC:0x00000001
 
-If this flag is specified, the placeholder will be marked in-sync upon a successful RESTART_HYDRATION operation.
+If this flag is specified, the placeholder will be marked in-sync upon a successful **RESTART_HYDRATION** operation.
 
+## -see-also
+
+[CfExecute](nf-cfapi-cfexecute.md)
+
+[CF_OPERATION_TYPE](ne-cfapi-cf_operation_type.md)

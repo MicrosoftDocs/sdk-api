@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlIsA
 title: UrlIsA function (shlwapi.h)
-description: Tests whether a URL is a specified type.
-helpviewer_keywords: ["URLIS_APPLIABLE","URLIS_DIRECTORY","URLIS_FILEURL","URLIS_HASQUERY","URLIS_NOHISTORY","URLIS_OPAQUE","URLIS_URL","UrlIs","UrlIs function [Windows Shell]","UrlIsA","UrlIsW","_win32_UrlIs","shell.UrlIs","shlwapi/UrlIs","shlwapi/UrlIsA","shlwapi/UrlIsW"]
+description: Tests whether a URL is a specified type. (ANSI)
+helpviewer_keywords: ["UrlIsA", "shlwapi/UrlIsA"]
 old-location: shell\UrlIs.htm
 tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374

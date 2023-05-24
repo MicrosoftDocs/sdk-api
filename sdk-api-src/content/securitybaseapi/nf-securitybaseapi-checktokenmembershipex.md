@@ -9,7 +9,7 @@ ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.date: 12/05/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 req.header: securitybaseapi.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Advapi32.lib 
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows

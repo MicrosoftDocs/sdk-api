@@ -61,7 +61,7 @@ This interface is an outgoing connection-point interface. To receive events from
 
 The <b>IMSVidVideoRendererEvent</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>. <b>IMSVidVideoRendererEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

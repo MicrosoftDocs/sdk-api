@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Company
 title: IFaxSender::get_Company (faxcomex.h)
-description: The IFaxSender::get_Company property is a null-terminated string that contains the company name associated with the sender.
+description: The IFaxSender::get_Company property is a null-terminated string that contains the company name associated with the sender. (Get)
 helpviewer_keywords: ["Company property [Fax Service]","Company property [Fax Service]","IFaxSender interface","IFaxSender interface [Fax Service]","Company property","IFaxSender.Company","IFaxSender.get_Company","IFaxSender::Company","IFaxSender::get_Company","IFaxSender::put_Company","_mfax_faxsender.company","fax._mfax_faxsender_company","fax._mfax_faxsender_cpp_mfax_faxsender_company_cpp","faxcomex/IFaxSender::Company","faxcomex/IFaxSender::get_Company","faxcomex/IFaxSender::put_Company","get_Company"]
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_company_cpp.htm
 tech.root: Fax

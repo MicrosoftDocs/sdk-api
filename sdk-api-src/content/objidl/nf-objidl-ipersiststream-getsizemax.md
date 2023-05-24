@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IPersistStream.GetSizeMax
 title: IPersistStream::GetSizeMax (objidl.h)
-description: Retrieves the size of the stream needed to save the object.
+description: Retrieves the size of the stream needed to save the object. (IPersistStream.GetSizeMax)
 helpviewer_keywords: ["GetSizeMax","GetSizeMax method [COM]","GetSizeMax method [COM]","IPersistStream interface","IPersistStream interface [COM]","GetSizeMax method","IPersistStream.GetSizeMax","IPersistStream::GetSizeMax","_com_ipersiststream_getsizemax","com.ipersiststream_getsizemax","objidl/IPersistStream::GetSizeMax"]
 old-location: com\ipersiststream_getsizemax.htm
 tech.root: com

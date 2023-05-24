@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Extension.get_RawData
 title: IX509Extension::get_RawData (certenroll.h)
-description: Retrieves a byte array that contains the extension value.
+description: Retrieves a byte array that contains the extension value. (IX509Extension.get_RawData)
 helpviewer_keywords: ["IX509Extension interface [Security]","RawData property","IX509Extension.RawData","IX509Extension.get_RawData","IX509Extension::RawData","IX509Extension::get_RawData","RawData property [Security]","RawData property [Security]","IX509Extension interface","certenroll/IX509Extension::RawData","certenroll/IX509Extension::get_RawData","get_RawData","security.ix509extension_rawdata_property"]
 old-location: security\ix509extension_rawdata_property.htm
 tech.root: security

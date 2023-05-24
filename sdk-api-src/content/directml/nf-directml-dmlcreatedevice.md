@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.DMLCreateDevice
 title: DMLCreateDevice function
-description: Creates a DirectML device for a given Direct3D 12 device.
+description: Creates a DirectML device for a given Direct3D 12 device. (DMLCreateDevice)
 helpviewer_keywords: ["DMLCreateDevice","DMLCreateDevice function","direct3d12.dmlcreatedevice","directml/DMLCreateDevice"]
 old-location: direct3d12\dmlcreatedevice.htm
 tech.root: directml
@@ -81,8 +81,6 @@ A pointer to a memory block that receives a pointer to the device. This is the a
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
 If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRESULT](/windows/desktop/winprog/windows-data-types) error code.
-
-The Graphics Tools Feature on Demand (FOD) must be installed in order to use the DirectML debug layers. If the [DML_CREATE_DEVICE_FLAG_DEBUG](/windows/win32/api/directml/ne-directml-dml_create_device_flags) flag is specified in *flags* and the debug layers are not installed, then **DMLCreateDevice** returns **DXGI_ERROR_SDK_COMPONENT_MISSING**.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Resource.GetEvictionPriority
 title: ID3D10Resource::GetEvictionPriority (d3d10.h)
-description: Get the eviction priority of a resource.
+description: Get the eviction priority of a resource. (ID3D10Resource.GetEvictionPriority)
 helpviewer_keywords: ["83f59a92-75b3-4efe-03ec-ca8afea155dc","GetEvictionPriority","GetEvictionPriority method [Direct3D 10]","GetEvictionPriority method [Direct3D 10]","ID3D10Resource interface","ID3D10Resource interface [Direct3D 10]","GetEvictionPriority method","ID3D10Resource.GetEvictionPriority","ID3D10Resource::GetEvictionPriority","d3d10/ID3D10Resource::GetEvictionPriority","direct3d10.id3d10resource_getevictionpriority"]
 old-location: direct3d10\id3d10resource_getevictionpriority.htm
 tech.root: direct3d10

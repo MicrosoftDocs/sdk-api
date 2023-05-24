@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure into a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure into a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure.
 
 ## -parameters
 
 ### -param pt
 
-The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure to receive the contents of the <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure to receive the contents of the <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ### -param pts
 
-The <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure to copy.
+The <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure to copy.
 
 ## -see-also
 

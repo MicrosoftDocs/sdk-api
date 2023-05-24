@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITTAPICallCenter
 title: ITTAPICallCenter (tapi3.h)
-description: The ITTAPICallCenter interface provides an entry point into call center controls.
+description: The ITTAPICallCenter interface (tapi3.h) provides an entry point into call center controls. 
 helpviewer_keywords: ["ITTAPICallCenter","ITTAPICallCenter interface [TAPI 2.2]","ITTAPICallCenter interface [TAPI 2.2]","described","_tapi3_ittapicallcenter","tapi3.ittapicallcenter","tapi3cc/ITTAPICallCenter"]
 old-location: tapi3\ittapicallcenter.htm
 tech.root: tapi3
 ms.assetid: 871cb217-a44f-421e-9cb4-7d8771335d08
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICallCenter interface [TAPI 2.2],described, _tapi3_ittapicallcenter, tapi3.ittapicallcenter, tapi3cc/ITTAPICallCenter
 req.header: tapi3.h
 req.include-header: Tapi3.h

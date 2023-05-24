@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapcontrolA
 title: LDAPControlA (winldap.h)
-description: Represents both client-side and server controls.
+description: Represents both client-side and server controls. (ANSI)
 helpviewer_keywords: ["*PLDAPControlA","LDAPControl","LDAPControl structure [LDAP]","LDAPControlA","LDAPControlW","PLDAPControl","PLDAPControl structure pointer [LDAP]","_ldap_ldapcontrol","ldap.ldapcontrol","winldap/LDAPControl","winldap/LDAPControlA","winldap/LDAPControlW","winldap/PLDAPControl"]
 old-location: ldap\ldapcontrol.htm
 tech.root: ldap

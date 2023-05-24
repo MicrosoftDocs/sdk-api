@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Reset
 title: IEnumBitsPeers::Reset (bits3_0.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumBitsPeers.Reset)
 helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Reset method","IEnumBitsPeers.Reset","IEnumBitsPeers::Reset","Reset","Reset method [BITS]","Reset method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_reset","bits3_0/IEnumBitsPeers::Reset"]
 old-location: bits\ienumbitspeers_reset.htm
 tech.root: Bits

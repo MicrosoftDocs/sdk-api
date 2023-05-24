@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Data
 title: IInkRectangle::get_Data (msinkaut.h)
-description: Gets or sets access to the rectangle structure (C++ only).
+description: Gets or sets access to the rectangle structure (C++ only). (Get)
 helpviewer_keywords: ["Data property [Tablet PC]","Data property [Tablet PC]","IInkRectangle interface","IInkRectangle interface [Tablet PC]","Data property","IInkRectangle.Data","IInkRectangle.get_Data","IInkRectangle::Data","IInkRectangle::get_Data","IInkRectangle::put_Data","InkRectangle.get_Data","InkRectangle.put_Data","fd0d265e-c5d1-463a-bb4f-4dfa23cf6251","get_Data","msinkaut/IInkRectangle::Data","msinkaut/IInkRectangle::get_Data","msinkaut/IInkRectangle::put_Data","tablet.inkrectangle_data"]
 old-location: tablet\inkrectangle_data.htm
 tech.root: tablet

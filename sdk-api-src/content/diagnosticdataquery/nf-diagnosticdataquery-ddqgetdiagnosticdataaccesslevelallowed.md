@@ -47,7 +47,7 @@ Returns the highest available data access level for the API caller. This can be 
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 This output parameter is a pointer to the highest access level available for the API caller.
 
 ## -returns

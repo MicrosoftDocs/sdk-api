@@ -71,7 +71,7 @@ An HRESULT including the following:
 
 ## -remarks
 
-The symbolic link can be obtained from an   [MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK](/win32/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link) attribute returned by [MFEnumDeviceSources](nf-mfidl-mfenumdevicesources.md) or obtained by accessing the [DeviceInformation.Id](/uwp/api/windows.devices.enumeration.deviceinformation.id) property obtained through the [Windows.Devices.Enumeration](/uwp/api/windows.devices.enumeration) APIs.  
+The symbolic link can be obtained from an   [MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK](/windows/win32/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link) attribute returned by [MFEnumDeviceSources](nf-mfidl-mfenumdevicesources.md) or obtained by accessing the [DeviceInformation.Id](/uwp/api/windows.devices.enumeration.deviceinformation.id) property obtained through the [Windows.Devices.Enumeration](/uwp/api/windows.devices.enumeration) APIs.  
 
 ## -see-also
 

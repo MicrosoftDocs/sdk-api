@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Reset
 title: IEnumNetSharingEveryConnection::Reset (netcon.h)
-description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration. (IEnumNetSharingEveryConnection.Reset)
 helpviewer_keywords: ["IEnumNetSharingEveryConnection interface [ICS/ICF]","Reset method","IEnumNetSharingEveryConnection.Reset","IEnumNetSharingEveryConnection::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingEveryConnection interface","_ics_ienumnetsharingeveryconnection_reset","ics.ienumnetsharingeveryconnection_reset","netcon/IEnumNetSharingEveryConnection::Reset"]
 old-location: ics\ienumnetsharingeveryconnection_reset.htm
 tech.root: ics

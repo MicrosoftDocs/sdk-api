@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_TYPE
 title: VDS_FILE_SYSTEM_TYPE (vds.h)
-description: Defines the set of valid types for a file system.
+description: The VDS_FILE_SYSTEM_TYPE (vds.h) enumeration defines the set of valid types for a file system.
 helpviewer_keywords: ["VDS_FILE_SYSTEM_TYPE","VDS_FILE_SYSTEM_TYPE enumeration [VDS]","VDS_FST_CDFS","VDS_FST_EXFAT","VDS_FST_FAT","VDS_FST_FAT32","VDS_FST_NTFS","VDS_FST_RAW","VDS_FST_UDF","VDS_FST_UNKNOWN","base.vds_file_system_type","vds/VDS_FILE_SYSTEM_TYPE","vds/VDS_FST_CDFS","vds/VDS_FST_EXFAT","vds/VDS_FST_FAT","vds/VDS_FST_FAT32","vds/VDS_FST_NTFS","vds/VDS_FST_RAW","vds/VDS_FST_UDF","vds/VDS_FST_UNKNOWN","vdshwprv/VDS_FILE_SYSTEM_TYPE","vdshwprv/VDS_FST_CDFS","vdshwprv/VDS_FST_EXFAT","vdshwprv/VDS_FST_FAT","vdshwprv/VDS_FST_FAT32","vdshwprv/VDS_FST_NTFS","vdshwprv/VDS_FST_RAW","vdshwprv/VDS_FST_UDF","vdshwprv/VDS_FST_UNKNOWN"]
 old-location: base\vds_file_system_type.htm
 tech.root: base
 ms.assetid: 56f2d969-eb1c-44c2-8a12-077a02ae40dc
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_FILE_SYSTEM_TYPE, VDS_FILE_SYSTEM_TYPE enumeration [VDS], VDS_FST_CDFS, VDS_FST_EXFAT, VDS_FST_FAT, VDS_FST_FAT32, VDS_FST_NTFS, VDS_FST_RAW, VDS_FST_UDF, VDS_FST_UNKNOWN, base.vds_file_system_type, vds/VDS_FILE_SYSTEM_TYPE, vds/VDS_FST_CDFS, vds/VDS_FST_EXFAT, vds/VDS_FST_FAT, vds/VDS_FST_FAT32, vds/VDS_FST_NTFS, vds/VDS_FST_RAW, vds/VDS_FST_UDF, vds/VDS_FST_UNKNOWN, vdshwprv/VDS_FILE_SYSTEM_TYPE, vdshwprv/VDS_FST_CDFS, vdshwprv/VDS_FST_EXFAT, vdshwprv/VDS_FST_FAT, vdshwprv/VDS_FST_FAT32, vdshwprv/VDS_FST_NTFS, vdshwprv/VDS_FST_RAW, vdshwprv/VDS_FST_UDF, vdshwprv/VDS_FST_UNKNOWN
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for a file system.
 

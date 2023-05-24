@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
-description: Sets an element of the transform matrix of the effect.
+description: Sets an element of the transform matrix of the effect. (overload 2/2)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetTransformMatrixElement method","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement","IDCompositionAffineTransform2DEffect.SetTransformMatrixElement(int","int","IDCompositionAnimation)","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","IDCompositionAffineTransform2DEffect::SetTransformMatrixElement(int","int","IDCompositionAnimation)","SetTransformMatrixElement","SetTransformMatrixElement method [DirectComposition]","SetTransformMatrixElement method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetTransformMatrixElement","directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_2"]
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement_2.htm
 tech.root: directcomp

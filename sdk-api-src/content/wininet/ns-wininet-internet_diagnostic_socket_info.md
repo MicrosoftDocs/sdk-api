@@ -1,5 +1,5 @@
 ---
-UID: NS:wininet.__unnamed_struct_1
+UID: NS:wininet.INTERNET_DIAGNOSTIC_SOCKET_INFO
 title: INTERNET_DIAGNOSTIC_SOCKET_INFO (wininet.h)
 description: The INTERNET_DIAGNOSTIC_SOCKET_INFO structure is returned by the InternetQueryOption function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request.
 helpviewer_keywords: ["* LPINTERNET_DIAGNOSTIC_SOCKET_INFO","* LPINTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet]","*LPINTERNET_DIAGNOSTIC_SOCKET_INFO","IDSI_FLAG_KEEP_ALIVE","IDSI_FLAG_PROXY","IDSI_FLAG_SECURE","IDSI_FLAG_TUNNEL","INTERNET_DIAGNOSTIC_SOCKET_INFO","INTERNET_DIAGNOSTIC_SOCKET_INFO structure [WinINet]","wininet.internet_diagnostic_socket_info","wininet/* LPINTERNET_DIAGNOSTIC_SOCKET_INFO","wininet/INTERNET_DIAGNOSTIC_SOCKET_INFO"]
@@ -125,3 +125,4 @@ Set if a proxy is being used to create a tunnel.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
+

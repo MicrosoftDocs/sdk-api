@@ -4,7 +4,7 @@ title: Wsmandisp.h header
 ms.assetid: f9530b7e-e909-3279-8f5d-9bb8aad08c11
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrm
 f1_keywords:
  - wsmandisp

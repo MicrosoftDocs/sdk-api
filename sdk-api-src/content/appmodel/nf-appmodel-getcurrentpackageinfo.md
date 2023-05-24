@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo
 title: GetCurrentPackageInfo function (appmodel.h)
-description: Gets the package information for the calling process.
+description: Gets the package information for the calling process. (GetCurrentPackageInfo)
 helpviewer_keywords: ["GetCurrentPackageInfo","GetCurrentPackageInfo function [App packaging and management]","appmodel/GetCurrentPackageInfo","appxpkg.getcurrentpackageinfo"]
 old-location: appxpkg\getcurrentpackageinfo.htm
 tech.root: appxpkg
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
+ - kernelbase.dll
  - API-MS-Win-AppModel-Runtime-l1-1-0.dll
  - kernel32legacy.dll
  - Ext-MS-Win-kernel32-package-current-l1-1-0.dll

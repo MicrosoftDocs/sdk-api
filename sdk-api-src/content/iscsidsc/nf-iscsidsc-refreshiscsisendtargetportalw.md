@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RefreshIScsiSendTargetPortalW
 title: RefreshIScsiSendTargetPortalW function (iscsidsc.h)
-description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
-helpviewer_keywords: ["RefreshIScsiSendTargetPortalW","RefreshIscsiSendTargetPortal","RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API]","RefreshIscsiSendTargetPortalA","RefreshIscsiSendTargetPortalW","iscsidisc.refreshiscsisendtargetportal","iscsidsc/RefreshIscsiSendTargetPortal","iscsidsc/RefreshIscsiSendTargetPortalA","iscsidsc/RefreshIscsiSendTargetPortalW"]
+description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service. (Unicode)
+helpviewer_keywords: ["RefreshIScsiSendTargetPortalW", "RefreshIscsiSendTargetPortal", "RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API]", "RefreshIscsiSendTargetPortalW", "iscsidisc.refreshiscsisendtargetportal", "iscsidsc/RefreshIscsiSendTargetPortal", "iscsidsc/RefreshIscsiSendTargetPortalW"]
 old-location: iscsidisc\refreshiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.PostThreadMessageW
 title: PostThreadMessageW function (winuser.h)
-description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
-helpviewer_keywords: ["PostThreadMessage","PostThreadMessage function [Windows and Messages]","PostThreadMessageA","PostThreadMessageW","_win32_PostThreadMessage","_win32_postthreadmessage_cpp","winmsg.postthreadmessage","winui._win32_postthreadmessage","winuser/PostThreadMessage","winuser/PostThreadMessageA","winuser/PostThreadMessageW"]
+description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message. (Unicode)
+helpviewer_keywords: ["PostThreadMessage", "PostThreadMessage function [Windows and Messages]", "PostThreadMessageW", "_win32_PostThreadMessage", "_win32_postthreadmessage_cpp", "winmsg.postthreadmessage", "winui._win32_postthreadmessage", "winuser/PostThreadMessage", "winuser/PostThreadMessageW"]
 old-location: winmsg\postthreadmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm
@@ -136,7 +136,7 @@ Set the event, to indicate that the thread is ready to receive posted messages.
 </ul>
 The thread to which the message is posted retrieves the message by calling the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function. The <b>hwnd</b> member of the returned <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure is <b>NULL</b>.
 
-Messages sent by <b>PostThreadMessage</b> are not associated with a window. As a general rule, messages that are not associated with a window cannot be dispatched by the <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> function. Therefore, if the recipient thread is in a modal loop (as used by <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>), the messages will be lost. To intercept thread messages while in a modal loop, use a thread-specific hook.
+Messages posted by <b>PostThreadMessage</b> are not associated with a window. As a general rule, messages that are not associated with a window cannot be dispatched by the <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> function. Therefore, if the recipient thread is in a modal loop (as used by <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>), the messages will be lost. To intercept thread messages while in a modal loop, use a thread-specific hook.
 
 The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 

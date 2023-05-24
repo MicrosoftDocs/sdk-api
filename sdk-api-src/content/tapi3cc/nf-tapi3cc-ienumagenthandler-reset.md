@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.IEnumAgentHandler.Reset
 title: IEnumAgentHandler::Reset (tapi3cc.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The IEnumAgentHandler::Next method (tapi3cc.h) resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumAgentHandler interface [TAPI 2.2]","Reset method","IEnumAgentHandler.Reset","IEnumAgentHandler::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumAgentHandler interface","_tapi3_ienumagenthandler_reset","tapi3.ienumagenthandler_reset","tapi3cc/IEnumAgentHandler::Reset"]
 old-location: tapi3\ienumagenthandler_reset.htm
 tech.root: tapi3
 ms.assetid: cb113db5-718d-4c5e-92ad-4eb605911c71
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Reset method, IEnumAgentHandler.Reset, IEnumAgentHandler::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_reset, tapi3.ienumagenthandler_reset, tapi3cc/IEnumAgentHandler::Reset
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

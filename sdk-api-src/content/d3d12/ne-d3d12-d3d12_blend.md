@@ -123,6 +123,18 @@ The blend factor is data sources as alpha data output by a pixel shader. There i
 
 The blend factor is data sources as alpha data output by a pixel shader. The pre-blend operation inverts the data, generating 1 - A. This blend factor supports dual-source color blending.
 
+### -field D3D12_BLEND_ALPHA_FACTOR:20
+
+The blend factor is (A, A, A, A), where the constant, A, is taken from the blend factor set with [OMSetBlendFactor](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor).
+
+To successfully use this constant on a target machine, the [D3D12_FEATURE_DATA_D3D12_OPTIONS13](ns-d3d12-d3d12_feature_data_d3d12_options13.md) returned from [capability querying](/windows/win32/direct3d12/capability-querying) must have its *AlphaBlendFactorSupported* set to `TRUE`.
+
+### -field D3D12_BLEND_INV_ALPHA_FACTOR:21
+
+The blend factor is (1 – A, 1 – A, 1 – A, 1 – A), where the constant, A, is taken from the blend factor set with [OMSetBlendFactor](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetblendfactor).
+
+To successfully use this constant on a target machine, the [D3D12_FEATURE_DATA_D3D12_OPTIONS13](ns-d3d12-d3d12_feature_data_d3d12_options13.md) returned from [capability querying](/windows/win32/direct3d12/capability-querying) must have its *AlphaBlendFactorSupported* set to `TRUE`.
+
 ## -remarks
 
 Source and destination blend operations are specified in a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateFontFromLOGFONT
 title: IDWriteGdiInterop::CreateFontFromLOGFONT (dwrite.h)
-description: Creates a font object that matches the properties specified by the LOGFONT structure.
+description: Creates a font object that matches the properties specified by the LOGFONT structure. (IDWriteGdiInterop.CreateFontFromLOGFONT)
 helpviewer_keywords: ["CreateFontFromLOGFONT","CreateFontFromLOGFONT method [Direct Write]","CreateFontFromLOGFONT method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateFontFromLOGFONT method","IDWriteGdiInterop.CreateFontFromLOGFONT","IDWriteGdiInterop::CreateFontFromLOGFONT","directwrite.IDWriteGdiInterop_CreateFontFromLOGFONT","dwrite/IDWriteGdiInterop::CreateFontFromLOGFONT"]
 old-location: directwrite\IDWriteGdiInterop_CreateFontFromLOGFONT.htm
 tech.root: DirectWrite

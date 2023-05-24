@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Delete_Device_Interface_KeyW
 title: CM_Delete_Device_Interface_KeyW function (cfgmgr32.h)
-description: The CM_Delete_Device_Interface_Key function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
-helpviewer_keywords: ["CM_Delete_Device_Interface_Key","CM_Delete_Device_Interface_Key function [Device and Driver Installation]","CM_Delete_Device_Interface_KeyW","cfgmgr32/CM_Delete_Device_Interface_Key","cfgmgr32/CM_Delete_Device_Interface_KeyW","devinst.cm_delete_device_interface_key"]
+description: The CM_Delete_Device_Interface_Key function deletes the registry subkey that is used by applications and drivers to store interface-specific information. (Unicode)
+helpviewer_keywords: ["CM_Delete_Device_Interface_Key", "CM_Delete_Device_Interface_Key function [Device and Driver Installation]", "CM_Delete_Device_Interface_KeyW", "cfgmgr32/CM_Delete_Device_Interface_Key", "cfgmgr32/CM_Delete_Device_Interface_KeyW", "devinst.cm_delete_device_interface_key"]
 old-location: devinst\cm_delete_device_interface_key.htm
 tech.root: devinst
 ms.assetid: 3DA5BD50-54AE-47A5-A99C-9E24CB2FA3D6

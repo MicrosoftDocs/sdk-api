@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.InetNtopW
 title: InetNtopW function (ws2tcpip.h)
-description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop.
+description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop. (InetNtopW)
 helpviewer_keywords: ["AF_INET","AF_INET6","InetNtop","InetNtop function [Winsock]","InetNtopA","InetNtopA or inet_ntop","InetNtopW","inet_ntop","winsock.inet_ntop","ws2tcpip/InetNtop","ws2tcpip/InetNtopA or inet_ntop","ws2tcpip/InetNtopW"]
 old-location: winsock\inet_ntop.htm
 tech.root: WinSock

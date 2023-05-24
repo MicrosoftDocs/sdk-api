@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._DOCINFOW
 title: DOCINFOW (wingdi.h)
-description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.
+description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function. (Unicode)
 helpviewer_keywords: ["*LPDOCINFOW","DOCINFO","DOCINFO structure [Windows GDI]","DOCINFOW","LPDOCINFO","LPDOCINFO structure pointer [Windows GDI]","_win32_DOCINFO_str","gdi.docinfo","wingdi/DOCINFO","wingdi/LPDOCINFO"]
 old-location: gdi\docinfo.htm
 tech.root: xps

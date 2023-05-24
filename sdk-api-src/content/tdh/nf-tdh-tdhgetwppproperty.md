@@ -138,7 +138,6 @@ One or more of the parameters is incorrect. This error is returned if the <i>Han
 To retrieve only the decoded event message without specifying a property name, call <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetwppmessage">TdhGetWppMessage</a>.
 
 ## -see-also
-
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
 
 

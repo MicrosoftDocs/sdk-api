@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.CreateEventA
 title: CreateEventA function (synchapi.h)
-description: Creates or opens a named or unnamed event object.
-helpviewer_keywords: ["CreateEvent","CreateEvent function","CreateEventA","CreateEventW","_win32_createevent","base.createevent","synchapi/CreateEvent","synchapi/CreateEventA","synchapi/CreateEventW","winbase/CreateEvent","winbase/CreateEventA","winbase/CreateEventW"]
+description: Creates or opens a named or unnamed event object. (ANSI)
+helpviewer_keywords: ["CreateEventA", "synchapi/CreateEventA"]
 old-location: base\createevent.htm
 tech.root: base
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.date: 12/05/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -79,7 +79,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 If this parameter is <b>TRUE</b>, the function creates a manual-reset event object, which requires the use of the 
       <a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a> function to set the event state to nonsignaled. If 
-      this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and system automatically resets the 
+      this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and the system automatically resets the 
       event state to nonsignaled after a single waiting thread has been released.
 
 ### -param bInitialState [in]

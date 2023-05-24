@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.put_RequesterName
 title: IX509CertificateRequestPkcs7::put_RequesterName (certenroll.h)
-description: Specifies or retrieves a string that contains the Security Account Manager (SAM) name of the end-entity requesting the certificate.
+description: Specifies or retrieves a string that contains the Security Account Manager (SAM) name of the end-entity requesting the certificate. (Put)
 helpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","RequesterName property","IX509CertificateRequestPkcs7.RequesterName","IX509CertificateRequestPkcs7.put_RequesterName","IX509CertificateRequestPkcs7::RequesterName","IX509CertificateRequestPkcs7::get_RequesterName","IX509CertificateRequestPkcs7::put_RequesterName","RequesterName property [Security]","RequesterName property [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::RequesterName","certenroll/IX509CertificateRequestPkcs7::get_RequesterName","certenroll/IX509CertificateRequestPkcs7::put_RequesterName","put_RequesterName","security.ix509certificaterequestpkcs7_requestername_property"]
 old-location: security\ix509certificaterequestpkcs7_requestername_property.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_RenewalCertificate
 title: IX509CertificateRequest::get_RenewalCertificate (certenroll.h)
-description: Specifies or retrieves a byte array that contains the Distinguished Encoding Rules (DER) encoded certificate that is being renewed.
+description: Specifies or retrieves a byte array that contains the Distinguished Encoding Rules (DER) encoded certificate that is being renewed. (Get)
 helpviewer_keywords: ["IX509CertificateRequest interface [Security]","RenewalCertificate property","IX509CertificateRequest.RenewalCertificate","IX509CertificateRequest.get_RenewalCertificate","IX509CertificateRequest::RenewalCertificate","IX509CertificateRequest::get_RenewalCertificate","IX509CertificateRequest::put_RenewalCertificate","RenewalCertificate property [Security]","RenewalCertificate property [Security]","IX509CertificateRequest interface","certenroll/IX509CertificateRequest::RenewalCertificate","certenroll/IX509CertificateRequest::get_RenewalCertificate","certenroll/IX509CertificateRequest::put_RenewalCertificate","get_RenewalCertificate","security.ix509certificaterequest_renewalcertificate_property"]
 old-location: security\ix509certificaterequest_renewalcertificate_property.htm
 tech.root: security

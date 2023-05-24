@@ -70,7 +70,7 @@ If it fails, the method can return one of the following error values:
 
 An application should not save the information that <b>GetDisplayMode</b> returns to restore the display mode on clean-up. The application should instead use the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-restoredisplaymode">IDirectDraw7::RestoreDisplayMode</a> method to restore the mode on clean-up, thus avoiding mode-setting conflicts that could arise in a multiprocess environment.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDisplayMode</b> method.
+
 
 ## -see-also
 

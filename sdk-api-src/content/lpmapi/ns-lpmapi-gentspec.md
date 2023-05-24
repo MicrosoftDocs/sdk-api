@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_19
+UID: NS:lpmapi.GenTspec
 title: GenTspec (lpmapi.h)
 description: The GenTspec structure stores generic Tspec information.
 helpviewer_keywords: ["GenTspec","GenTspec structure [QOS]","lpmapi/GenTspec","qos.gentspec"]
@@ -98,3 +98,4 @@ Tspec parameters, expressed as a <a href="/previous-versions/windows/desktop/api
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
+

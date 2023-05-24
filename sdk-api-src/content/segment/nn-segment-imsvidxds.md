@@ -60,7 +60,7 @@ The <b>IMSVidXDS</b> interface provides access to the extended data services. Th
 
 The <b>IMSVidXDS</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

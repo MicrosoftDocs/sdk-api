@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.ColorimetricToDeviceColors
 title: IDeviceModelPlugIn::ColorimetricToDeviceColors (wcsplugin.h)
-description: Returns the appropriate XYZ colors in response to the specified number of colors, channels, device colors and the proprietary plug-in algorithms.
+description: Returns the appropriate XYZ colors in response to the specified number of colors, channels, device colors and the proprietary plug-in algorithms. (IDeviceModelPlugIn.ColorimetricToDeviceColors)
 helpviewer_keywords: ["ColorimetricToDeviceColors","ColorimetricToDeviceColors method [Windows Color System]","ColorimetricToDeviceColors method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","ColorimetricToDeviceColors method","IDeviceModelPlugIn.ColorimetricToDeviceColors","IDeviceModelPlugIn::ColorimetricToDeviceColors","_color_IDeviceModelPlugIn::ColorimetricToDeviceColors","wcs.IDeviceModelPlugIn_ColorimetricToDeviceColors","wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColors"]
 old-location: wcs\IDeviceModelPlugIn_ColorimetricToDeviceColors.htm
 tech.root: WCS

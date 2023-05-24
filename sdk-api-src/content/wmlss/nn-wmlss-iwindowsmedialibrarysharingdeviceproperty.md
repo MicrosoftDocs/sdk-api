@@ -56,7 +56,7 @@ The <b>IWindowsMediaLibrarySharingDeviceProperty</b> interface defines methods t
 
 The <b>IWindowsMediaLibrarySharingDeviceProperty</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDeviceProperty</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Texture3D
 title: ID3D11Texture3D (d3d11.h)
-description: A 3D texture interface accesses texel data, which is structured memory.
+description: A 3D texture interface accesses texel data, which is structured memory. (ID3D11Texture3D)
 helpviewer_keywords: ["28ce947f-3bc9-9f8f-f8e7-667b8d30bf8e","ID3D11Texture3D","ID3D11Texture3D interface [Direct3D 11]","ID3D11Texture3D interface [Direct3D 11]","described","d3d11/ID3D11Texture3D","direct3d11.id3d11texture3d"]
 old-location: direct3d11\id3d11texture3d.htm
 tech.root: direct3d11

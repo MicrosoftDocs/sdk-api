@@ -83,7 +83,7 @@ A pointer to an array of integers that receives partial glyph extents. Each elem
 
 ### -param lpSize [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the glyph indices array, in logical units. This value cannot be <b>NULL</b>.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the dimensions of the glyph indices array, in logical units. This value cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -95,7 +95,7 @@ If the function fails, the return value is zero.
 
 If both the <i>lpnFit</i> and <i>alpDx</i> parameters are <b>NULL</b>, calling the <b>GetTextExtentExPointI</b> function is equivalent to calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointi">GetTextExtentPointI</a> function.
 
-When this function returns the text extent, it assumes that the text is horizontal, that is, that the escapement is always 0. This is true for both the horizontal and vertical measurements of the text. Even if you use a font that specifies a nonzero escapement, this function doesn't use the angle while it computes the text extent. The app must convert it explicitly. However, when the graphics mode is set to <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">GM_ADVANCED</a> and the character orientation is 90 degrees from the print orientation, the values that this function return do not follow this rule. When the character orientation and the print orientation match for a given string, this function returns the dimensions of the string in the <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure as { cx : 116, cy : 18 }.  When the character orientation and the print orientation are 90 degrees apart for the same string, this function returns the dimensions of the string in the <b>SIZE</b> structure as { cx : 18, cy : 116 }.
+When this function returns the text extent, it assumes that the text is horizontal, that is, that the escapement is always 0. This is true for both the horizontal and vertical measurements of the text. Even if you use a font that specifies a nonzero escapement, this function doesn't use the angle while it computes the text extent. The app must convert it explicitly. However, when the graphics mode is set to <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">GM_ADVANCED</a> and the character orientation is 90 degrees from the print orientation, the values that this function return do not follow this rule. When the character orientation and the print orientation match for a given string, this function returns the dimensions of the string in the <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure as { cx : 116, cy : 18 }.  When the character orientation and the print orientation are 90 degrees apart for the same string, this function returns the dimensions of the string in the <b>SIZE</b> structure as { cx : 18, cy : 116 }.
 
 ## -see-also
 
@@ -111,4 +111,4 @@ When this function returns the text extent, it assumes that the text is horizont
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

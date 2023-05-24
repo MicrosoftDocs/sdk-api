@@ -56,7 +56,7 @@ The <b>IMPEG2Component</b> interface contains methods for getting and setting pr
 
 The <b>IMPEG2Component</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>. <b>IMPEG2Component</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

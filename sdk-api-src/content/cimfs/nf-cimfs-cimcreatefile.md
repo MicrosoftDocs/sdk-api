@@ -1,7 +1,8 @@
 ---
 UID: NF:cimfs.CimCreateFile
 title: CimCreateFile
-ms.date: 9/9/2019
+description: The CimCreateFile function adds a new file or directory with the specified metadata at a path relative to the image represented by the image handle.
+ms.date: 08/01/2022
 tech.root: cimfs
 ms.keywords: CimCreateFile
 targetos: Windows

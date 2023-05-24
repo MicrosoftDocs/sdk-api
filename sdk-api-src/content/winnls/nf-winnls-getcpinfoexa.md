@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.GetCPInfoExA
 title: GetCPInfoExA function (winnls.h)
-description: Retrieves information about any valid installed or available code page.
-helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","GetCPInfoEx","GetCPInfoEx function [Internationalization for Windows Applications]","GetCPInfoExA","GetCPInfoExW","_win32_GetCPInfoEx","intl.getcpinfoex","winnls/GetCPInfoEx","winnls/GetCPInfoExA","winnls/GetCPInfoExW"]
+description: Retrieves information about any valid installed or available code page. (GetCPInfoExA)
+helpviewer_keywords: ["CP_ACP", "CP_MACCP", "CP_OEMCP", "CP_THREAD_ACP", "GetCPInfoExA", "winnls/GetCPInfoExA"]
 old-location: intl\getcpinfoex.htm
 tech.root: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a

@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceTypesExW
 title: EnumResourceTypesExW function (libloaderapi.h)
-description: Enumerates resource types associated with a specified binary module.
-helpviewer_keywords: ["EnumResourceTypesEx","EnumResourceTypesEx function [Menus and Other Resources]","EnumResourceTypesExA","EnumResourceTypesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceTypesEx","_win32_enumresourcetypesex_cpp","libloaderapi/EnumResourceTypesEx","libloaderapi/EnumResourceTypesExA","libloaderapi/EnumResourceTypesExW","menurc.enumresourcetypesex","winui._win32_enumresourcetypesex"]
+description: Enumerates resource types associated with a specified binary module. (Unicode)
+helpviewer_keywords: ["EnumResourceTypesEx", "EnumResourceTypesEx function [Menus and Other Resources]", "EnumResourceTypesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceTypesEx", "_win32_enumresourcetypesex_cpp", "libloaderapi/EnumResourceTypesEx", "libloaderapi/EnumResourceTypesExW", "menurc.enumresourcetypesex", "winui._win32_enumresourcetypesex"]
 old-location: menurc\enumresourcetypesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypesex.htm

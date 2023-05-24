@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsMaintenance
 title: IVdsMaintenance (vdshwprv.h)
-description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
+description: The IVdsMaintenance interface (vdshwprv.h) provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive. 
 helpviewer_keywords: ["IVdsMaintenance","IVdsMaintenance interface [VDS]","IVdsMaintenance interface [VDS]","described","base.ivdsmaintenance","vds/IVdsMaintenance","vdshwprv/IVdsMaintenance"]
 old-location: base\ivdsmaintenance.htm
 tech.root: base
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
 

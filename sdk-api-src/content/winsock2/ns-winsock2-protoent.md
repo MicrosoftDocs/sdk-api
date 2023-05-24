@@ -1,12 +1,12 @@
 ---
 UID: NS:winsock2.protoent
 title: PROTOENT (winsock2.h)
-description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
+description: The PROTOENT structure (winsock2.h) contains the name and protocol numbers that correspond to a given protocol name.  
 helpviewer_keywords: ["*LPPROTOENT","*PPROTOENT","PROTOENT","_win32_protoent_2","protoent","protoent structure [Winsock]","winsock.protoent_2","winsock/protoent"]
 old-location: winsock\protoent_2.htm
 tech.root: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent'
 req.header: winsock2.h
 req.include-header: Winsock2.h

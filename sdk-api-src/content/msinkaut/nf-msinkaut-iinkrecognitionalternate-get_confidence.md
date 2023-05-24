@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Confidence
 title: IInkRecognitionAlternate::get_Confidence (msinkaut.h)
-description: Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in the recognition of an IInkRecognitionAlternate object or a gesture.
+description: Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in the recognition of an IInkRecognitionAlternate object or a gesture. (IInkRecognitionAlternate.get_Confidence)
 helpviewer_keywords: ["049a5742-fc4f-4a9a-91d5-5eec56dc8e8b","Confidence property [Tablet PC]","Confidence property [Tablet PC]","IInkRecognitionAlternate interface","IInkRecognitionAlternate interface [Tablet PC]","Confidence property","IInkRecognitionAlternate.Confidence","IInkRecognitionAlternate.get_Confidence","IInkRecognitionAlternate::Confidence","IInkRecognitionAlternate::get_Confidence","get_Confidence","msinkaut/IInkRecognitionAlternate::Confidence","msinkaut/IInkRecognitionAlternate::get_Confidence","tablet.iinkrecognitionalternate_confidence"]
 old-location: tablet\iinkrecognitionalternate_confidence.htm
 tech.root: tablet

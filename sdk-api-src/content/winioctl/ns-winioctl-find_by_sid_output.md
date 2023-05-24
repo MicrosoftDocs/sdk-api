@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_13
+UID: NS:winioctl.FIND_BY_SID_OUTPUT
 title: FIND_BY_SID_OUTPUT
 description: Represents a file name.
 helpviewer_keywords: ["*PFIND_BY_SID_OUTPUT","FIND_BY_SID_OUTPUT","FIND_BY_SID_OUTPUT structure [Files]","PFIND_BY_SID_OUTPUT","PFIND_BY_SID_OUTPUT structure pointer [Files]","base.find_by_sid_output","fs.find_by_sid_output","winioctl/FIND_BY_SID_OUTPUT","winioctl/PFIND_BY_SID_OUTPUT"]
@@ -74,3 +74,4 @@ A null-terminated string that specifies the file name.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
+

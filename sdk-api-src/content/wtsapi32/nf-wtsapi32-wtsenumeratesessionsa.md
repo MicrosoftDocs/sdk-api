@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsA
 title: WTSEnumerateSessionsA function (wtsapi32.h)
-description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSEnumerateSessions","WTSEnumerateSessions function [Remote Desktop Services]","WTSEnumerateSessionsA","WTSEnumerateSessionsW","_win32_wtsenumeratesessions","termserv.wtsenumeratesessions","wtsapi32/WTSEnumerateSessions","wtsapi32/WTSEnumerateSessionsA","wtsapi32/WTSEnumerateSessionsW"]
+description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSEnumerateSessionsA", "wtsapi32/WTSEnumerateSessionsA"]
 old-location: termserv\wtsenumeratesessions.htm
 tech.root: TermServ
 ms.assetid: 6f9dd7d4-48dc-411c-85f1-cd1239d1e106
@@ -99,10 +99,6 @@ To get extended error information, call
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-For more information, and an extended example on how to use this function, see the following <a href="https://support.microsoft.com/help/291789">kb article</a>.
-
-
 
 
 

@@ -4,7 +4,7 @@ title: Windns.h header
 ms.assetid: 1f0a19ca-f09d-385e-ac7b-b5c4765917c4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: dns
 f1_keywords:
  - windns

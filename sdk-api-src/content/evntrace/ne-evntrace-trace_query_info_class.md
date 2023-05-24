@@ -297,7 +297,7 @@ by the operating system. Returns a ULONG. Used with
 The value is supported on Windows 10, version 1709, Windows Server, version
 1709, and later.
 
-### -field TraceLbrConfigurationInfo
+### -field TraceLbrConfigurationInfo:20
 
 Enables Last Branch Record tracing for the given session, and configures
 corresponding LBR filters.
@@ -305,7 +305,7 @@ corresponding LBR filters.
 The value is supported on Windows 10, version 19H1, Windows Server, version
 1903, and later.
 
-### -field TraceLbrEventListInfo
+### -field TraceLbrEventListInfo:21
 
 Configures the list of events that will trigger ETW to trace Last Branch Record
 information as configured by `TraceLbrConfigurationInfo`.
@@ -313,7 +313,7 @@ information as configured by `TraceLbrConfigurationInfo`.
 The value is supported on Windows 10, version 19H1, Windows Server, version
 1903, and later.
 
-### -field TraceMaxPmcCounterQuery
+### -field TraceMaxPmcCounterQuery:22
 
 Queries the maximum number of profiling sources that may be simultaneously
 configured for use with ETW.
@@ -321,7 +321,7 @@ configured for use with ETW.
 The value is supported on Windows 10, version 19H1, Windows Server, version
 1903, and later.
 
-### -field TraceStreamCount
+### -field TraceStreamCount:23
 
 Queries the configured stream count for a session. This is usually, but not
 always, equal to the number of processors on the system, or 1 if no
@@ -330,7 +330,7 @@ per-processor buffering is configured for the session.
 The value is supported on Windows 10, version 21H2, Windows Server 2022, and
 later.
 
-### -field TraceStackCachingInfo
+### -field TraceStackCachingInfo:24
 
 Instructs ETW to begin caching stack traces for RegisterTraceGuids-based
 ("Classic") events in this session.
@@ -338,7 +338,7 @@ Instructs ETW to begin caching stack traces for RegisterTraceGuids-based
 The value is supported on Windows 10, version 21H2, Windows Server 2022, and
 later.
 
-### -field TracePmcCounterOwners
+### -field TracePmcCounterOwners:25
 
 Queries ETW for a list of processor performance monitoring counters currently in
 use. This list may contain counters in use by facilities other than ETW.
@@ -346,7 +346,7 @@ use. This list may contain counters in use by facilities other than ETW.
 The value is supported on Windows 10, version 21H2, Windows Server 2022, and
 later.
 
-### -field TraceUnifiedStackCachingInfo
+### -field TraceUnifiedStackCachingInfo:26
 
 Instructs ETW to begin caching stack traces for both RegisterTraceGuids-based
 ("Classic") and EventRegister-based events.
@@ -354,7 +354,13 @@ Instructs ETW to begin caching stack traces for both RegisterTraceGuids-based
 The value is supported on Windows 10, version 21H2, Windows Server 2022, and
 later.
 
-### -field MaxTraceSetInfoClass
+### -field TracePmcSessionInformation:27
+
+Query all sessions for their PMC configuration set via `TracePmcEventListInfo` and `TracePmcCounterListInfo`.
+
+The value is supported on Windows 10, version 22H2 and later.
+
+### -field MaxTraceSetInfoClass:28
 
 Marks the last value in the enumeration. Do not use.
 

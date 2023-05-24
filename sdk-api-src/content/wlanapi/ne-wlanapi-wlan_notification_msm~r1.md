@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_MSM~r1
 title: WLAN_NOTIFICATION_MSM
-ms.date: 01/30/2019
+description: The WLAN_NOTIFICATION_MSM enumeration specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 targetos: Windows
 req.construct-type: enumeration

@@ -128,7 +128,7 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
+<a href="/windows/win32/api/wow64apiset/">Wow64SetThreadContext</a>
  
 
  

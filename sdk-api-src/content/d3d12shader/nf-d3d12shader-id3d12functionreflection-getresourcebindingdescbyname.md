@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetResourceBindingDescByName
 title: ID3D12FunctionReflection::GetResourceBindingDescByName (d3d12shader.h)
-description: Gets a description of how a resource is bound to a function.
+description: Gets a description of how a resource is bound to a function. (ID3D12FunctionReflection.GetResourceBindingDescByName)
 helpviewer_keywords: ["GetResourceBindingDescByName","GetResourceBindingDescByName method","GetResourceBindingDescByName method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetResourceBindingDescByName method","ID3D12FunctionReflection.GetResourceBindingDescByName","ID3D12FunctionReflection::GetResourceBindingDescByName","d3d12shader/ID3D12FunctionReflection::GetResourceBindingDescByName","direct3d12.id3d12functionreflection_getresourcebindingdescbyname"]
 old-location: direct3d12\id3d12functionreflection_getresourcebindingdescbyname.htm
 tech.root: direct3d12

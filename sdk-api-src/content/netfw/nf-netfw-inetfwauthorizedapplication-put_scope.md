@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Scope
 title: INetFwAuthorizedApplication::put_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.
+description: Controls the network scope from which the port can listen. (INetFwAuthorizedApplication.put_Scope)
 helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","Scope property","INetFwAuthorizedApplication.Scope","INetFwAuthorizedApplication.put_Scope","INetFwAuthorizedApplication::Scope","INetFwAuthorizedApplication::get_Scope","INetFwAuthorizedApplication::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_scope","netfw/INetFwAuthorizedApplication::Scope","netfw/INetFwAuthorizedApplication::get_Scope","netfw/INetFwAuthorizedApplication::put_Scope","put_Scope"]
 old-location: ics\inetfwauthorizedapplication_scope.htm
 tech.root: ics

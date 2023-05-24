@@ -56,7 +56,7 @@ The <b>IWMPStringCollection</b> interface provides methods that work with a coll
 
 The <b>IWMPStringCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPStringCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

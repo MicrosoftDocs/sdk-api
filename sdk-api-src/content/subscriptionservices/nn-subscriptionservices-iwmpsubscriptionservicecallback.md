@@ -58,7 +58,7 @@ The <b>IWMPSubscriptionServicesCallback</b> interface defines a method that onli
 
 The <b>IWMPSubscriptionServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionServiceCallback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite,
   traceloggingprovider/TraceLoggingWrite
@@ -72,7 +72,7 @@ to use for writing the event.
 A short and unique name to use for identifying the event. This must be a string
 literal and not a variable. It cannot have any embedded `'\0'` characters.
 
-#### - args [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
 Up to 99 additional parameters to configure or add fields to the event. Each
 parameter must be one of the
@@ -81,7 +81,7 @@ such as [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md),
 [TraceLoggingKeyword](./nf-traceloggingprovider-traceloggingkeyword.md), or
 [TraceLoggingValue](./nf-traceloggingprovider-traceloggingvalue.md).
 
-> [!Important]
+> [!IMPORTANT]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
 > Always assign a non-zero level and keyword to every event.
@@ -115,7 +115,7 @@ The generated event will be constructed as follows:
 - The event's level will come from the
   [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md) argument.
   If no TraceLoggingLevel argument is present, the event's level will be 5
-  (TRACE_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
+  (WINEVENT_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
   the last argument will be used. To enable effective event filtering, always
   assign a meaningful non-zero level to every event.
 - The event's keyword will come from the
@@ -143,7 +143,7 @@ For example:
 TraceLoggingWrite(
     g_hProvider,
     "MyEvent1",
-    TraceLoggingLevel(TRACE_LEVEL_WARNING),
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
     TraceLoggingKeyword(MyNetworkingKeyword),
     TraceLoggingString(operationName), // Adds an "operationName" field.
     TraceLoggingHResult(hr, "NetStatus")); // Adds a "NetStatus" field.
@@ -161,7 +161,7 @@ if (TraceLoggingProviderEnabled(hProvider, eventLevel, eventKeyword))
 }
 ```
 
-> [!Note]
+> [!NOTE]
 > Each **TraceLoggingWrite** macro automatically checks
 > [**TraceLoggingProviderEnabled**](./nf-traceloggingprovider-traceloggingproviderenabled.md)
 > so the event will only be written if a consumer is listening for events from
@@ -182,7 +182,7 @@ Since each parameter may require the use of 0, 1, or 2 descriptors, it is
 possible to hit the data descriptor limit (128) before hitting the argument
 limit (99).
 
-> [!Important]
+> [!IMPORTANT]
 > Try to avoid large events. ETW is primarily designed for handling
 > small events. **TraceLoggingWrite** will silently drop any event that is too
 > large. The event's size is based on the total of the event's headers (added by
@@ -200,6 +200,7 @@ with NULL for the _pActivityId_ and _pRelatedActivityId_ parameters. Use
 
 ```c
 #include <windows.h> // or <wdm.h> for kernel-mode.
+#include <winmeta.h> // For event level definitions.
 #include <TraceLoggingProvider.h>
 
 TRACELOGGING_DEFINE_PROVIDER( // defines g_hProvider
@@ -215,6 +216,8 @@ int main(int argc, char* argv[]) // or DriverEntry for kernel-mode.
     TraceLoggingWrite(
         g_hProvider,
         "MyEvent1",
+        TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+        TraceLoggingKeyword(MyEventCategories), // Provider-defined categories
         TraceLoggingString(argv[0], "arg0"), // field name is "arg0"
         TraceLoggingInt32(argc)); // field name is implicitly "argc"
 

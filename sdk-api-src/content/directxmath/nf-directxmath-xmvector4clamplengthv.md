@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4ClampLengthV
 title: XMVector4ClampLengthV function (directxmath.h)
-description: Clamps the length of a 4D vector to a given range.
+description: Clamps the length of a 4D vector to a given range. (XMVector4ClampLengthV)
 helpviewer_keywords: ["Use DirectX..XMVector4ClampLengthV","XMVector4ClampLengthV","XMVector4ClampLengthV method [DirectX Math Support APIs]","dxmath.xmvector4clamplengthv"]
 old-location: dxmath\xmvector4clamplengthv.htm
 tech.root: dxmath

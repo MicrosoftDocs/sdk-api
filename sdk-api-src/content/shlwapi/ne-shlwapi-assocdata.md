@@ -1,5 +1,5 @@
 ---
-UID: NE:shlwapi.__unnamed_enum_8
+UID: NE:shlwapi.ASSOCDATA
 title: ASSOCDATA (shlwapi.h)
 description: Used by IQueryAssociations::GetData to define the type of data that is to be returned.
 helpviewer_keywords: ["ASSOCDATA","ASSOCDATA enumeration [Windows Shell]","ASSOCDATA_EDITFLAGS","ASSOCDATA_HASPERUSERASSOC","ASSOCDATA_MSIDESCRIPTOR","ASSOCDATA_NOACTIVATEHANDLER","ASSOCDATA_QUERYCLASSSTORE","ASSOCDATA_VALUE","_win32_ASSOCDATA_str","shell.ASSOCDATA_str","shlwapi/ASSOCDATA","shlwapi/ASSOCDATA_EDITFLAGS","shlwapi/ASSOCDATA_HASPERUSERASSOC","shlwapi/ASSOCDATA_MSIDESCRIPTOR","shlwapi/ASSOCDATA_NOACTIVATEHANDLER","shlwapi/ASSOCDATA_QUERYCLASSSTORE","shlwapi/ASSOCDATA_VALUE"]
@@ -81,3 +81,4 @@ Defaults to user specified association.
 #### - ASSOCDATA_QUERYCLASSSTORE
 
 If this value is present, applications should check the Windows 2000 class store.
+

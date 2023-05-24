@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetUTF8
 title: DnsReplaceRecordSetUTF8 function (windns.h)
-description: Replaces an existing resource record (RR) set.
+description: Replaces an existing resource record (RR) set. (DnsReplaceRecordSetUTF8)
 helpviewer_keywords: ["DnsReplaceRecordSet","DnsReplaceRecordSet function [DNS]","DnsReplaceRecordSetA","DnsReplaceRecordSetUTF8","DnsReplaceRecordSetW","_dns_dnsreplacerecordset","dns.dnsreplacerecordset","windns/DnsReplaceRecordSet","windns/DnsReplaceRecordSetA","windns/DnsReplaceRecordSetUTF8","windns/DnsReplaceRecordSetW"]
 old-location: dns\dnsreplacerecordset.htm
 tech.root: DNS

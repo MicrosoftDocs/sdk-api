@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORA
 title: FILEDESCRIPTORA (shlobj_core.h)
-description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
+description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation. (ANSI)
 helpviewer_keywords: ["*LPFILEDESCRIPTORA","FD_ACCESSTIME","FD_ATTRIBUTES","FD_CLSID","FD_CREATETIME","FD_FILESIZE","FD_LINKUI","FD_PROGRESSUI","FD_SIZEPOINT","FD_UNICODE","FD_WRITESTIME","FILEDESCRIPTOR","FILEDESCRIPTOR structure [Windows Shell]","FILEDESCRIPTORA","FILEDESCRIPTORW","LPFILEDESCRIPTOR","LPFILEDESCRIPTOR structure pointer [Windows Shell]","_FILEDESCRIPTORA","_FILEDESCRIPTORW","_win32_FILEDESCRIPTOR","shell.FILEDESCRIPTOR","shlobj_core/FILEDESCRIPTOR","shlobj_core/LPFILEDESCRIPTOR"]
 old-location: shell\FILEDESCRIPTOR.htm
 tech.root: shell
@@ -140,7 +140,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
 The screen coordinates of the file object.
 

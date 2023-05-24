@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetKeyLengthList
 title: IMSCEPSetup::GetKeyLengthList (casetup.h)
-description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
+description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP). (IMSCEPSetup.GetKeyLengthList)
 helpviewer_keywords: ["GetKeyLengthList","GetKeyLengthList method [Security]","GetKeyLengthList method [Security]","IMSCEPSetup interface","IMSCEPSetup interface [Security]","GetKeyLengthList method","IMSCEPSetup.GetKeyLengthList","IMSCEPSetup::GetKeyLengthList","casetup/IMSCEPSetup::GetKeyLengthList","security.imscepsetup_getkeylengthlist"]
 old-location: security\imscepsetup_getkeylengthlist.htm
 tech.root: security

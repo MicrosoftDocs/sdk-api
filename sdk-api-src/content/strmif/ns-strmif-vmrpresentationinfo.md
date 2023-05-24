@@ -87,7 +87,7 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
+Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 ### -field dwInterlaceFlags
 

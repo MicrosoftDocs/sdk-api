@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FaxNumber
 title: IFaxDoc::put_FaxNumber (faxcom.h)
-description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
+description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission. (Put)
 helpviewer_keywords: ["FaxNumber property [Fax Service]","FaxNumber property [Fax Service]","IFaxDoc interface","IFaxDoc interface [Fax Service]","FaxNumber property","IFaxDoc.FaxNumber","IFaxDoc.put_FaxNumber","IFaxDoc::FaxNumber","IFaxDoc::get_FaxNumber","IFaxDoc::put_FaxNumber","_mfax_ifaxdoc_get_faxnumber","fax._mfax_ifaxdoc_get_faxnumber","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp","faxcom/IFaxDoc::FaxNumber","faxcom/IFaxDoc::get_FaxNumber","faxcom/IFaxDoc::put_FaxNumber","put_FaxNumber"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp.htm
 tech.root: Fax

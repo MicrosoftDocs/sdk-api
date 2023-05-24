@@ -108,7 +108,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
 
 
 

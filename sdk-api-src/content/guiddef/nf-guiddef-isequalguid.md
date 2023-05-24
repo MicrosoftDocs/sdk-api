@@ -46,6 +46,15 @@ helpviewer_keywords:
 
 Evaluates to a Boolean value that indicates whether two GUIDs are equal.
 
+## -syntax
+
+```cpp
+BOOL IsEqualGUID(
+  rguid1,
+  rguid2
+);
+```
+
 ## -parameters
 
 ### -param rguid1

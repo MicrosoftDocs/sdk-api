@@ -47,7 +47,6 @@ api_name:
 
 # IPrintDocumentPackageTargetFactory interface
 
-
 ## -description
 
 Used with <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a> for starting a print job.
@@ -56,3 +55,21 @@ Used with <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintd
 
 The <b>IPrintDocumentPackageTargetFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDocumentPackageTargetFactory</b> also has these types of members:
 
+## -members
+
+The <b>IPrintDocumentPackageTargetFactory</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagetargetfactory-createdocumentpackagetargetforprintjob">CreateDocumentPackageTargetForPrintJob</a>
+</td>
+<td align="left" width="63%">
+Acts as the entry point for creating an <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a> object.
+
+</td>
+</tr>
+</table> 

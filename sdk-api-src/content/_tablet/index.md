@@ -4,7 +4,7 @@ title: Tablet PC
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Tablet PC

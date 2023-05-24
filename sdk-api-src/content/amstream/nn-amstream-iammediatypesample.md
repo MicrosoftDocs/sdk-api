@@ -60,7 +60,7 @@ The methods in this interface parallel those of the <a href="/windows/desktop/ap
 
 The <b>IAMMediaTypeSample</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IAMMediaTypeSample</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

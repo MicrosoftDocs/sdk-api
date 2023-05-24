@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.put_SerialNumber
 title: IX509CertificateRequestCertificate::put_SerialNumber (certenroll.h)
-description: Specifies and retrieves the certificate serial number.
+description: Specifies and retrieves the certificate serial number. (Put)
 helpviewer_keywords: ["IX509CertificateRequestCertificate interface [Security]","SerialNumber property","IX509CertificateRequestCertificate.SerialNumber","IX509CertificateRequestCertificate.put_SerialNumber","IX509CertificateRequestCertificate::SerialNumber","IX509CertificateRequestCertificate::get_SerialNumber","IX509CertificateRequestCertificate::put_SerialNumber","SerialNumber property [Security]","SerialNumber property [Security]","IX509CertificateRequestCertificate interface","certenroll/IX509CertificateRequestCertificate::SerialNumber","certenroll/IX509CertificateRequestCertificate::get_SerialNumber","certenroll/IX509CertificateRequestCertificate::put_SerialNumber","put_SerialNumber","security.ix509certificaterequestcertificate_serialnumber_property"]
 old-location: security\ix509certificaterequestcertificate_serialnumber_property.htm
 tech.root: security

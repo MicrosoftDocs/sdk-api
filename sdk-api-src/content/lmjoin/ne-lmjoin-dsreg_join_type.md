@@ -68,5 +68,5 @@ The device is joined to Azure Active Directory (Azure AD).
 
 ### -field DSREG_WORKPLACE_JOIN:2
 
-An Azure AD work account is added on the device.
+The device is registered to Azure Active Directory (Azure AD), meaning an Azure AD work account is added on the device.
 

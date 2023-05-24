@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddKeyframeAtOffset
 title: IUIAnimationStoryboard2::AddKeyframeAtOffset (uianimation.h)
-description: Adds a keyframe at the specified offset from an existing keyframe.
+description: Adds a keyframe at the specified offset from an existing keyframe. (IUIAnimationStoryboard2.AddKeyframeAtOffset)
 helpviewer_keywords: ["AddKeyframeAtOffset","AddKeyframeAtOffset method [Windows Animation]","AddKeyframeAtOffset method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","AddKeyframeAtOffset method","IUIAnimationStoryboard2.AddKeyframeAtOffset","IUIAnimationStoryboard2::AddKeyframeAtOffset","uianimation.iuianimationstoryboard2_addkeyframeatoffset","uianimation/IUIAnimationStoryboard2::AddKeyframeAtOffset"]
 old-location: uianimation\iuianimationstoryboard2_addkeyframeatoffset.htm
 tech.root: UIAnimation

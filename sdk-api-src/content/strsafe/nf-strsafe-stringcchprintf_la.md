@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchPrintf_lA
 title: StringCchPrintf_lA function (strsafe.h)
-description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-helpviewer_keywords: ["StringCchPrintf_l","StringCchPrintf_l function [Menus and Other Resources]","StringCchPrintf_lA","StringCchPrintf_lW","menurc.stringcchprintf_l","strsafe/StringCchPrintf_l","strsafe/StringCchPrintf_lA","strsafe/StringCchPrintf_lW"]
+description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCchPrintf_lA)
+helpviewer_keywords: ["StringCchPrintf_lA", "strsafe/StringCchPrintf_lA"]
 old-location: menurc\stringcchprintf_l.htm
 tech.root: menurc
 ms.assetid: 9484d792-3f4e-42cd-96e3-7ce0b16859cc

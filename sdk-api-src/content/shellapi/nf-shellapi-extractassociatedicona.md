@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconA
 title: ExtractAssociatedIconA function (shellapi.h)
-description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
-helpviewer_keywords: ["ExtractAssociatedIcon","ExtractAssociatedIcon function [Windows Shell]","ExtractAssociatedIconA","ExtractAssociatedIconW","_shell_ExtractAssociatedIcon","shell.ExtractAssociatedIcon","shellapi/ExtractAssociatedIcon","shellapi/ExtractAssociatedIconA","shellapi/ExtractAssociatedIconW"]
+description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file. (ANSI)
+helpviewer_keywords: ["ExtractAssociatedIconA", "shellapi/ExtractAssociatedIconA"]
 old-location: shell\ExtractAssociatedIcon.htm
 tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3

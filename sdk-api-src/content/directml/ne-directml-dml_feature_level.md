@@ -80,11 +80,19 @@ Specifies feature level 3_1.
 
 Specifies feature level 4_0.
 
+### -field DML_FEATURE_LEVEL_4_1
+
+Specifies feature level 4_1.
+
+### -field DML_FEATURE_LEVEL_5_0
+
+Specifies feature level 5_0.
+
 ## -remarks
 
-The **DML_FEATURE_LEVEL_5_0** constant was introduced in `DML_FEATURE_LEVEL_5_0`. **DML_FEATURE_LEVEL_5_0** specifies [feature level 5_0](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_0).
+The **DML_FEATURE_LEVEL_5_1** constant was introduced in `DML_FEATURE_LEVEL_5_1`. **DML_FEATURE_LEVEL_5_1** specifies [feature level 5_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_1).
 
-The **DML_FEATURE_LEVEL_4_1** constant was introduced in `DML_FEATURE_LEVEL_4_1`. **DML_FEATURE_LEVEL_4_1** specifies [feature level 4_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_4_1).
+The **DML_FEATURE_LEVEL_5_2** constant was introduced in `DML_FEATURE_LEVEL_5_2`. **DML_FEATURE_LEVEL_5_2** specifies [feature level 5_2](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_2).
 
 ## Availability
 

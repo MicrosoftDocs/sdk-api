@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._CABINET_INFO_A
 title: CABINET_INFO_A (setupapi.h)
-description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine.
+description: The CABINET_INFO structure stores information about a cabinet file. The SetupIterateCabinet function specifies this structure as a parameter when it sends a SPFILENOTIFY_NEEDNEWCABINET notification to the cabinet callback routine. (ANSI)
 helpviewer_keywords: ["*PCABINET_INFO_A","CABINET_INFO","CABINET_INFO structure [Setup API]","CABINET_INFO_A","PCABINET_INFO","PCABINET_INFO structure pointer [Setup API]","_setupapi_cabinet_info_str","setup.cabinet_info_str","setupapi/CABINET_INFO","setupapi/PCABINET_INFO"]
 old-location: setup\cabinet_info_str.htm
 tech.root: setup

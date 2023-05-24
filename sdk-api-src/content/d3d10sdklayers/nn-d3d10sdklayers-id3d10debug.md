@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10Debug
 title: ID3D10Debug (d3d10sdklayers.h)
-description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
+description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on. (ID3D10Debug)
 helpviewer_keywords: ["9243084e-1ae3-39f6-3e6b-d8150af7e0cc","ID3D10Debug","ID3D10Debug interface [Direct3D 10]","ID3D10Debug interface [Direct3D 10]","described","d3d10sdklayers/ID3D10Debug","direct3d10.id3d10debug"]
 old-location: direct3d10\id3d10debug.htm
 tech.root: direct3d10

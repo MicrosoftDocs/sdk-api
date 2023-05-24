@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.get_RemoteAddresses
 title: INetFwRemoteAdminSettings::get_RemoteAddresses (netfw.h)
-description: Specifies a set of remote addresses from which remote administration is allowed.
+description: Specifies a set of remote addresses from which remote administration is allowed. (Get)
 helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","RemoteAddresses property","INetFwRemoteAdminSettings.RemoteAddresses","INetFwRemoteAdminSettings.get_RemoteAddresses","INetFwRemoteAdminSettings::RemoteAddresses","INetFwRemoteAdminSettings::get_RemoteAddresses","INetFwRemoteAdminSettings::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwRemoteAdminSettings interface","get_RemoteAddresses","ics.inetfwremoteadminsettings_remoteaddresses","netfw/INetFwRemoteAdminSettings::RemoteAddresses","netfw/INetFwRemoteAdminSettings::get_RemoteAddresses","netfw/INetFwRemoteAdminSettings::put_RemoteAddresses"]
 old-location: ics\inetfwremoteadminsettings_remoteaddresses.htm
 tech.root: ics

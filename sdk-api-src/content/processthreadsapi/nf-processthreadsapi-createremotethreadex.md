@@ -4,12 +4,12 @@ title: CreateRemoteThreadEx function (processthreadsapi.h)
 description: Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.
 helpviewer_keywords: ["CREATE_SUSPENDED","CreateRemoteThreadEx","CreateRemoteThreadEx function","STACK_SIZE_PARAM_IS_A_RESERVATION","base.createremotethreadex","processthreadsapi/CreateRemoteThreadEx","winbase/CreateRemoteThreadEx"]
 old-location: base\createremotethreadex.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 9c2d9e20-7614-4010-9b8b-4f0e9bc2e6fe
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThreadEx, CreateRemoteThreadEx function, STACK_SIZE_PARAM_IS_A_RESERVATION, base.createremotethreadex, processthreadsapi/CreateRemoteThreadEx, winbase/CreateRemoteThreadEx
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]

@@ -1,7 +1,7 @@
 ---
-UID: NS:windns.__unnamed_struct_41
+UID: NS:windns.DNS_WINSR_DATAW
 title: DNS_WINSR_DATAW (windns.h)
-description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
+description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record. (Unicode)
 helpviewer_keywords: ["*PDNS_WINSR_DATA","*PDNS_WINSR_DATAW","DNS_WINSR_DATA","DNS_WINSR_DATA structure [DNS]","DNS_WINSR_DATAW","DNS_WINS_FLAG_LOCAL","DNS_WINS_FLAG_SCOPE","PDNS_WINSR_DATA","PDNS_WINSR_DATA structure pointer [DNS]","_dns_dns_winsr_data","dns.dns_winsr_data","windns/DNS_WINSR_DATA","windns/PDNS_WINSR_DATA"]
 old-location: dns\dns_winsr_data.htm
 tech.root: DNS

@@ -44,5 +44,6 @@ Represents a camera control monitor that is used to subscribe and unsubscribe to
 
 Get an instance of this interface by calling [MFCreateCameraControlMonitor](nf-mfidl-mfcreatecameracontrolmonitor.md). Clients implement the [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md) interface to receive notifications.
 
+
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_check_filterW
 title: ldap_check_filterW function (winldap.h)
-description: The ldap_check_filter function is used to verify filter syntax.
-helpviewer_keywords: ["_ldap_ldap_check_filter","ldap.ldap__check__filter","ldap.ldap_check_filter","ldap_check_filter","ldap_check_filter function [LDAP]","ldap_check_filterA","ldap_check_filterW","winldap/ldap_check_filter","winldap/ldap_check_filterA","winldap/ldap_check_filterW"]
+description: The ldap_check_filter function is used to verify filter syntax. (Unicode)
+helpviewer_keywords: ["_ldap_ldap_check_filter", "ldap.ldap__check__filter", "ldap.ldap_check_filter", "ldap_check_filter", "ldap_check_filter function [LDAP]", "ldap_check_filterW", "winldap/ldap_check_filter", "winldap/ldap_check_filterW"]
 old-location: ldap\ldap_check_filter.htm
 tech.root: ldap
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492

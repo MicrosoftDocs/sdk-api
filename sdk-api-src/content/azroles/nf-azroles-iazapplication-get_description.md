@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_Description
 title: IAzApplication::get_Description (azroles.h)
-description: Sets or retrieves a comment that describes the application.
+description: Sets or retrieves a comment that describes the application. (Get)
 helpviewer_keywords: ["AzApplication object [Security]","Description property","Description property [Security]","Description property [Security]","AzApplication object","Description property [Security]","IAzApplication interface","IAzApplication interface [Security]","Description property","IAzApplication.Description","IAzApplication.get_Description","IAzApplication::Description","IAzApplication::get_Description","IAzApplication::put_Description","azroles/IAzApplication::Description","azroles/IAzApplication::get_Description","azroles/IAzApplication::put_Description","get_Description","security.iazapplication_description"]
 old-location: security\iazapplication_description.htm
 tech.root: security

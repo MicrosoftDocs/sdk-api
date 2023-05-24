@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawEllipse(constPen,REAL,REAL,REAL,REAL)
 title: Graphics::DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawEllipse method draws an ellipse.
+description: The Graphics::DrawEllipse method draws an ellipse. (overload 4/4)
 helpviewer_keywords: ["DrawEllipse","DrawEllipse method [GDI+]","DrawEllipse method [GDI+]","Graphics class","Graphics class [GDI+]","DrawEllipse method","Graphics.DrawEllipse","Graphics.DrawEllipse(IN const Pen","IN REAL","IN REAL","IN REAL","IN REAL)","Graphics.DrawEllipse(const Pen*","REAL","REAL","REAL","REAL)","Graphics::DrawEllipse","Graphics::DrawEllipse(IN const Pen","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_REAL_x_REAL_y_REAL_width_REAL_height_","gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_REAL_x_REAL_y_REAL_width_REAL_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Pen_pen_REAL_x_REAL_y_REAL_width_REAL_height_.htm
 tech.root: gdiplus

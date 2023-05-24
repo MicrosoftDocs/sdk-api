@@ -219,6 +219,8 @@ The function returns 0 if it does not succeed. To get extended error information
 
 This function can be used with multimedia applications that display file time and sporting event applications that display finish times.
 
+The function ignores the first three members of the [SYSTEMTIME](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-systemtime) structure: **wYear**, **wMonth**, and **wDayOfWeek**.
+
 This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 The following are characteristics of duration format strings:
@@ -257,11 +259,11 @@ Following are examples of duration formats and corresponding outputs for specifi
 </tr>
 <tr>
 <td>hh:mm:ss:ff</td>
-<td>338:45:12.24</td>
+<td>338:45:12:24</td>
 </tr>
 <tr>
 <td>hh:mm:ss:fff</td>
-<td>338:45:12.247</td>
+<td>338:45:12:247</td>
 </tr>
 <tr>
 <td>h' h 'mm' m 'ss' s'</td>
@@ -316,15 +318,15 @@ Following are examples of duration formats and corresponding outputs for specifi
 <th>Output</th>
 </tr>
 <tr>
-<td>ss:fff</td>
+<td>s.fff</td>
 <td>5.123</td>
 </tr>
 <tr>
-<td>ss:ffffff</td>
+<td>s.ffffff</td>
 <td>5.123456</td>
 </tr>
 <tr>
-<td>ss:fffffffff</td>
+<td>s.fffffffff</td>
 <td>5.123456700 (add trailing zeros)</td>
 </tr>
 <tr>

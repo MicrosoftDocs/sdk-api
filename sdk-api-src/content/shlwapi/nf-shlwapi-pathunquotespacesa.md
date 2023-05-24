@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathUnquoteSpacesA
 title: PathUnquoteSpacesA function (shlwapi.h)
-description: Removes quotes from the beginning and end of a path.
-helpviewer_keywords: ["PathUnquoteSpaces","PathUnquoteSpaces function [Windows Shell]","PathUnquoteSpacesA","PathUnquoteSpacesW","_win32_PathUnquoteSpaces","shell.PathUnquoteSpaces","shlwapi/PathUnquoteSpaces","shlwapi/PathUnquoteSpacesA","shlwapi/PathUnquoteSpacesW"]
+description: Removes quotes from the beginning and end of a path. (ANSI)
+helpviewer_keywords: ["PathUnquoteSpacesA", "shlwapi/PathUnquoteSpacesA"]
 old-location: shell\PathUnquoteSpaces.htm
 tech.root: shell
 ms.assetid: 00474c95-ec59-489a-bee3-191b98a47567
@@ -68,7 +68,7 @@ A pointer to a null-terminated string of length MAX_PATH that contains the path.
 
 ## -returns
 
-No return value.
+<b>TRUE</b> if the string gets unquoted; otherwise, <b>FALSE</b>.
 
 ## -remarks
 

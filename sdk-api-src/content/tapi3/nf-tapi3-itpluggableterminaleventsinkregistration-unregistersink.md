@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSinkRegistration.UnregisterSink
 title: ITPluggableTerminalEventSinkRegistration::UnregisterSink (tapi3.h)
-description: The UnregisterSink method clears event registration for pluggable terminal events.
+description: The ITPluggableTerminalEventSinkRegistration::UnregisterSink (tapi3.h) method clears event registration for pluggable terminal events.
 helpviewer_keywords: ["ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2]","UnregisterSink method","ITPluggableTerminalEventSinkRegistration.UnregisterSink","ITPluggableTerminalEventSinkRegistration::UnregisterSink","UnregisterSink","UnregisterSink method [TAPI 2.2]","UnregisterSink method [TAPI 2.2]","ITPluggableTerminalEventSinkRegistration interface","_tapi3_itpluggableterminaleventsinkregistration_unregistersink","msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink","tapi3.itpluggableterminaleventsinkregistration_unregistersink"]
 old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm
 tech.root: tapi3
 ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],UnregisterSink method, ITPluggableTerminalEventSinkRegistration.UnregisterSink, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
 req.header: tapi3.h
 req.include-header: Tapi3.h

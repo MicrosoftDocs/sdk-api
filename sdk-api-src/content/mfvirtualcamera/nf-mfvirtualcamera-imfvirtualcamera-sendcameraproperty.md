@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-A wrapper around the internal [IKsControl::KsProperty](/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty) method, which sets a property or retrieves property information, along with any other defined support operations available on a property set.
+A wrapper around the internal [IKsControl::KsProperty](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty) method, which sets a property or retrieves property information, along with any other defined support operations available on a property set.
 
 ## -parameters
 
@@ -92,6 +92,6 @@ Returns an HRESULT value, including but not limited to the following values:
 
 ## -see-also
 
-[IKsControl::KsProperty](/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty)
+[IKsControl::KsProperty](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty)
 
 [KSPROPERTY Structure](/windows-hardware/drivers/stream/ksmethod-structure)

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetSelectedDriverW
 title: SetupDiGetSelectedDriverW function (setupapi.h)
-description: The SetupDiGetSelectedDriver function retrieves the selected driver for a device information set or a particular device information element.
-helpviewer_keywords: ["SetupDiGetSelectedDriver","SetupDiGetSelectedDriver function [Device and Driver Installation]","SetupDiGetSelectedDriverA","SetupDiGetSelectedDriverW","devinst.setupdigetselecteddriver","di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml","setupapi/SetupDiGetSelectedDriver"]
+description: The SetupDiGetSelectedDriver function retrieves the selected driver for a device information set or a particular device information element. (Unicode)
+helpviewer_keywords: ["SetupDiGetSelectedDriver", "SetupDiGetSelectedDriver function [Device and Driver Installation]", "SetupDiGetSelectedDriverW", "devinst.setupdigetselecteddriver", "di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml", "setupapi/SetupDiGetSelectedDriver"]
 old-location: devinst\setupdigetselecteddriver.htm
 tech.root: devinst
 ms.assetid: dd3d9736-755c-497c-a523-18ca66557ae7

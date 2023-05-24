@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.WaitNamedPipeW
 tech.root: ipc 
 title: WaitNamedPipeW
-ms.date: 04/20/2021 
+ms.date: 08/05/2022
 targetos: Windows
-description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe). 
+description: The WaitNamedPipeW (Unicode) function (winbase.h) waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -116,7 +116,7 @@ If the time-out interval expires, the <b>WaitNamedPipe</b> function will fail wi
 
 If the function succeeds, the process should use the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open a handle to the named pipe. A return value of <b>TRUE</b> indicates that there is at least one instance of the pipe available. A subsequent <b>CreateFile</b> call to the pipe can fail, because the instance was closed by the server or opened by another client.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ### Examples
 

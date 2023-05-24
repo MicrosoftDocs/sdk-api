@@ -4,7 +4,7 @@ title: Winreg.h header
 ms.assetid: 7eb36e33-d454-3b76-a359-7d06c195c1ee
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - winreg

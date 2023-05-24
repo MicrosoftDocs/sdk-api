@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_ADHOC_NETWORK_STATE~r1
 title: WLAN_ADHOC_NETWORK_STATE
-ms.date: 01/30/2019
+description: The WLAN_ADHOC_NETWORK_STATE enumeration specifies the connection state of an ad hoc network.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE
 targetos: Windows
 req.construct-type: enumeration

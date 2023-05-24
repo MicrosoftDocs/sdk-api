@@ -56,7 +56,7 @@ The <b>put__MixerBitmap</b> method specifies the static bitmap image.
 
 ### -param MixerPicture [in]
 
-A pointer to a <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A pointer to a <a href="/previous-versions/ms788081(v=vs.85)">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 ## -returns
 

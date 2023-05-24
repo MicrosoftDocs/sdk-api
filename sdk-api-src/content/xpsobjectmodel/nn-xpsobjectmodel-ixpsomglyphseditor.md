@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGlyphsEditor interface
 
-
 ## -description
 
 Allows batch modification of properties that affect the text content in an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interface.

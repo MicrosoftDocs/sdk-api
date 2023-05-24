@@ -1,8 +1,8 @@
 ---
 UID: NF:intshcut.URLAssociationDialogA
 title: URLAssociationDialogA function (intshcut.h)
-description: Invokes the unregistered URL protocol dialog box.
-helpviewer_keywords: ["URLASSOCDLG_FL_REGISTER_ASSOC","URLASSOCDLG_FL_USE_DEFAULT_NAME","URLAssociationDialog","URLAssociationDialog function [Windows Shell]","URLAssociationDialogA","URLAssociationDialogW","_win32_URLAssociationDialog","intshcut/URLAssociationDialog","intshcut/URLAssociationDialogA","intshcut/URLAssociationDialogW","shell.URLAssociationDialog"]
+description: Invokes the unregistered URL protocol dialog box. (ANSI)
+helpviewer_keywords: ["URLASSOCDLG_FL_REGISTER_ASSOC", "URLASSOCDLG_FL_USE_DEFAULT_NAME", "URLAssociationDialogA", "intshcut/URLAssociationDialogA"]
 old-location: shell\URLAssociationDialog.htm
 tech.root: shell
 ms.assetid: 3158e819-f131-4f57-8516-998955100377

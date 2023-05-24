@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(XMU565&&)
 title: XMU565::XMU565(XMU565 &&) (directxpackedvector.h)
-description: A constructor for XMU565.
+description: A constructor for XMU565. (overload 1/2)
 helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(XMU565 &&)","XMU565::XMU565","XMU565::XMU565(XMU565 &&)","dxmath.xmu565_ctor_1"]
 old-location: 
 tech.root: dxmath

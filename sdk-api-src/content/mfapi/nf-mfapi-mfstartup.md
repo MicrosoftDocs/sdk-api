@@ -166,6 +166,7 @@ Media Foundation is not implemented on the system.  This error can occur if the 
 
 An application must call this function before using Media Foundation. Before your application quits, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
       
+**MFStartup** should be called during should be called during app initialization and not from static constructors during process initialization.
 
 Do not call <b>MFStartup</b> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="/windows/desktop/medfound/work-queues">Work Queues</a>.
       

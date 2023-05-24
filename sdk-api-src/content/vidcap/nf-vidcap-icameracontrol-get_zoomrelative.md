@@ -82,7 +82,7 @@ Receives the relative zoom. The size of the value represents the desired zoom sp
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 

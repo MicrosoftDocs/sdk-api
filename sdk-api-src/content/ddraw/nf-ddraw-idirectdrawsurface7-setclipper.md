@@ -75,7 +75,7 @@ When you set a clipper to a surface for the first time, <b>SetClipper</b> increm
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetClipper</b> method.
+
 
 
 

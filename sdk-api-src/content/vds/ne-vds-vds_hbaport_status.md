@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_HBAPORT_STATUS
 title: VDS_HBAPORT_STATUS (vds.h)
-description: Defines the set of valid statuses for an HBA port.
+description: The VDS_HBAPORT_STATUS (vds.h) enumeration defines the set of valid statuses for an HBA port.
 helpviewer_keywords: ["VDS_HBAPORT_STATUS","VDS_HBAPORT_STATUS enumeration [VDS]","VDS_HPS_BYPASSED","VDS_HPS_DIAGNOSTICS","VDS_HPS_ERROR","VDS_HPS_LINKDOWN","VDS_HPS_LOOPBACK","VDS_HPS_OFFLINE","VDS_HPS_ONLINE","VDS_HPS_UNKNOWN","base.vds_hbaport_status","vds/VDS_HBAPORT_STATUS","vds/VDS_HPS_BYPASSED","vds/VDS_HPS_DIAGNOSTICS","vds/VDS_HPS_ERROR","vds/VDS_HPS_LINKDOWN","vds/VDS_HPS_LOOPBACK","vds/VDS_HPS_OFFLINE","vds/VDS_HPS_ONLINE","vds/VDS_HPS_UNKNOWN","vdshwprv/VDS_HBAPORT_STATUS","vdshwprv/VDS_HPS_BYPASSED","vdshwprv/VDS_HPS_DIAGNOSTICS","vdshwprv/VDS_HPS_ERROR","vdshwprv/VDS_HPS_LINKDOWN","vdshwprv/VDS_HPS_LOOPBACK","vdshwprv/VDS_HPS_OFFLINE","vdshwprv/VDS_HPS_ONLINE","vdshwprv/VDS_HPS_UNKNOWN"]
 old-location: base\vds_hbaport_status.htm
 tech.root: base
 ms.assetid: 67ef9025-c929-476b-8644-7e085dff91c4
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_HBAPORT_STATUS, VDS_HBAPORT_STATUS enumeration [VDS], VDS_HPS_BYPASSED, VDS_HPS_DIAGNOSTICS, VDS_HPS_ERROR, VDS_HPS_LINKDOWN, VDS_HPS_LOOPBACK, VDS_HPS_OFFLINE, VDS_HPS_ONLINE, VDS_HPS_UNKNOWN, base.vds_hbaport_status, vds/VDS_HBAPORT_STATUS, vds/VDS_HPS_BYPASSED, vds/VDS_HPS_DIAGNOSTICS, vds/VDS_HPS_ERROR, vds/VDS_HPS_LINKDOWN, vds/VDS_HPS_LOOPBACK, vds/VDS_HPS_OFFLINE, vds/VDS_HPS_ONLINE, vds/VDS_HPS_UNKNOWN, vdshwprv/VDS_HBAPORT_STATUS, vdshwprv/VDS_HPS_BYPASSED, vdshwprv/VDS_HPS_DIAGNOSTICS, vdshwprv/VDS_HPS_ERROR, vdshwprv/VDS_HPS_LINKDOWN, vdshwprv/VDS_HPS_LOOPBACK, vdshwprv/VDS_HPS_OFFLINE, vdshwprv/VDS_HPS_ONLINE, vdshwprv/VDS_HPS_UNKNOWN
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of valid statuses for an HBA port. These values are used in the 

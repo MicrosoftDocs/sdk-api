@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-Kernel32-Package-L1-1-2.dll
  - Kernel.AppCore.dll
  - Kernel32Legacy.dll
+ - kernelbase.dll
 api_name:
  - GetPackageFullNameFromToken
 ---

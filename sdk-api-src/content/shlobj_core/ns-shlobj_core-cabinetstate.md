@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_10
+UID: NS:shlobj_core.CABINETSTATE
 title: CABINETSTATE (shlobj_core.h)
 description: CABINETSTATE may be altered or unavailable.
 helpviewer_keywords: ["*LPCABINETSTATE","CABINETSTATE","CABINETSTATE structure [Windows Shell]","FALSE","SHCONTF_FOLDERS","SHCONTF_NONFOLDERS","TRUE","_win32_CABINETSTATE","shell.CABINETSTATE","shlobj_core/CABINETSTATE"]
@@ -197,3 +197,4 @@ Display folders.
 #### SHCONTF_NONFOLDERS
 
 Display non-folder items.
+

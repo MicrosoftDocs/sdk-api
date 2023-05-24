@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._IMAGE_NT_HEADERS64
 title: IMAGE_NT_HEADERS64 (winnt.h)
-description: Represents the PE header format.
+description: Represents the PE header format. (64 bit)
 helpviewer_keywords: ["*PIMAGE_NT_HEADERS64","IMAGE_NT_HEADERS","IMAGE_NT_HEADERS structure","IMAGE_NT_HEADERS32","IMAGE_NT_HEADERS64","PIMAGE_NT_HEADERS","PIMAGE_NT_HEADERS structure pointer","_IMAGE_NT_HEADERS","_win32_image_nt_headers_str","base.image_nt_headers_str","winnt/IMAGE_NT_HEADERS","winnt/PIMAGE_NT_HEADERS"]
 old-location: base\image_nt_headers_str.htm
 tech.root: Debug

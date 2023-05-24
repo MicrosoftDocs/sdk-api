@@ -9,7 +9,7 @@ ms.assetid: e22a4910-45dd-4eb6-9ed5-a8e0bcdfad7b
 ms.date: 12/05/2018
 ms.keywords: GetProcessGroupAffinity, GetProcessGroupAffinity function, base.getprocessgroupaffinity, processtopologyapi/GetProcessGroupAffinity, winbase/GetProcessGroupAffinity
 req.header: processtopologyapi.h
-req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]

@@ -70,6 +70,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
 
-[DML_FEATURE enumeration](/windows/win32/direct3d12/ne-directml-dml_feature)
+[DML_FEATURE enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 
 [DML_FEATURE_DATA_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_data_feature_levels)

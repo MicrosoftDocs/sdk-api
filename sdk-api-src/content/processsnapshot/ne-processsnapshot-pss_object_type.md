@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_1
+UID: NE:processsnapshot.PSS_OBJECT_TYPE
 title: PSS_OBJECT_TYPE (processsnapshot.h)
 description: Specifies the object type in a PSS_HANDLE_ENTRY structure.
 helpviewer_keywords: ["PSS_OBJECT_TYPE","PSS_OBJECT_TYPE enumeration","PSS_OBJECT_TYPE_EVENT","PSS_OBJECT_TYPE_MUTANT","PSS_OBJECT_TYPE_PROCESS","PSS_OBJECT_TYPE_SECTION","PSS_OBJECT_TYPE_THREAD","PSS_OBJECT_TYPE_UNKNOWN","proc_snap.pss_object_type","processsnapshot/PSS_OBJECT_TYPE","processsnapshot/PSS_OBJECT_TYPE_EVENT","processsnapshot/PSS_OBJECT_TYPE_MUTANT","processsnapshot/PSS_OBJECT_TYPE_PROCESS","processsnapshot/PSS_OBJECT_TYPE_SECTION","processsnapshot/PSS_OBJECT_TYPE_THREAD","processsnapshot/PSS_OBJECT_TYPE_UNKNOWN"]
@@ -83,3 +83,4 @@ The object is a file-mapping object.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

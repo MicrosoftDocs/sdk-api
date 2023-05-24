@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IExpDispSupport
 title: IExpDispSupport (shdeprecated.h)
-description: Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
+description: Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events. (IExpDispSupport)
 helpviewer_keywords: ["IExpDispSupport","IExpDispSupport interface [Windows Shell]","IExpDispSupport interface [Windows Shell]","described","shdeprecated/IExpDispSupport","shell.IExpDispSupport","zone_IExpDispSupport"]
 old-location: shell\IExpDispSupport.htm
 tech.root: shell

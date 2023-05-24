@@ -56,13 +56,13 @@ Registers a third-party Microsoft UI Automation event.
 
 ### -param event [in]
 
-Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationeventinfo">UIAutomationEventInfo</a>*</b>
+Type: **<a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationeventinfo">UIAutomationEventInfo</a>***
 
 A pointer to a  structure that contains information about the event to register.
 
 ### -param eventId [out]
 
-Type: <b>EVENTID*</b>
+Type: **EVENTID***
 
 Receives the event identifier. For a list of event IDs, see <a href="/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
@@ -70,7 +70,7 @@ Receives the event identifier. For a list of event IDs, see <a href="/windows/de
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

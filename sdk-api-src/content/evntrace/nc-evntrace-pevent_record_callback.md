@@ -176,7 +176,7 @@ might not be delivered in their original order.
 > implementation assumes that all events in a buffer are sorted by timestamp and
 > that each buffer contains events for a single span of time that does not
 > overlap the span of any other buffer in that buffer's stream. When these
-> assumptions are not met, ProcessTrace may deliver events out-of-order.
+> assumptions are not met,[ProcessTrace](nf-evntrace-processtrace.md)may deliver events out-of-order.
 
 When a real-time trace collection session has no associated trace processing
 sessions, collected events will be buffered by the system until the buffer is

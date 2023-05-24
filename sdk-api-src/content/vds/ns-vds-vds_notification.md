@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_NOTIFICATION
 title: VDS_NOTIFICATION (vds.h)
-description: Defines the VDS notification structures specific to each notification target type (subject).
+description: The VDS_NOTIFICATION structure (vds.h) defines the VDS notification structures specific to each notification target type.
 helpviewer_keywords: ["VDS_NOTIFICATION","VDS_NOTIFICATION structure [VDS]","VDS_NTT_CONTROLLER","VDS_NTT_DISK","VDS_NTT_DRIVE","VDS_NTT_DRIVE_LETTER","VDS_NTT_FILE_SYSTEM","VDS_NTT_LUN","VDS_NTT_MOUNT_POINT","VDS_NTT_PACK","VDS_NTT_PARTITION","VDS_NTT_PORT","VDS_NTT_PORTAL","VDS_NTT_PORTAL_GROUP","VDS_NTT_SUB_SYSTEM","VDS_NTT_TARGET","VDS_NTT_VOLUME","base.vds_notification","vds/_VDS_NOTIFICATION","vdshwprv/_VDS_NOTIFICATION"]
 old-location: base\vds_notification.htm
 tech.root: base
 ms.assetid: 59d21cd3-1cff-47be-be98-f4c55f044306
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_NOTIFICATION, VDS_NOTIFICATION structure [VDS], VDS_NTT_CONTROLLER, VDS_NTT_DISK, VDS_NTT_DRIVE, VDS_NTT_DRIVE_LETTER, VDS_NTT_FILE_SYSTEM, VDS_NTT_LUN, VDS_NTT_MOUNT_POINT, VDS_NTT_PACK, VDS_NTT_PARTITION, VDS_NTT_PORT, VDS_NTT_PORTAL, VDS_NTT_PORTAL_GROUP, VDS_NTT_SUB_SYSTEM, VDS_NTT_TARGET, VDS_NTT_VOLUME, base.vds_notification, vds/_VDS_NOTIFICATION, vdshwprv/_VDS_NOTIFICATION
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the VDS 
    notification structures specific to each notification target type (subject).

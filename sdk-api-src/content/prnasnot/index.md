@@ -4,7 +4,7 @@ title: Prnasnot.h header
 ms.assetid: 1eb91635-73d3-3f0b-9f59-38a93fa05834
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdi
 f1_keywords:
  - prnasnot

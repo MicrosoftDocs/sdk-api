@@ -1,8 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditLookupSubCategoryNameW
 title: AuditLookupSubCategoryNameW function (ntsecapi.h)
-description: Retrieves the display name of the specified audit-policy subcategory.
-helpviewer_keywords: ["AuditLookupSubCategoryName","AuditLookupSubCategoryName function [Security]","AuditLookupSubCategoryNameA","AuditLookupSubCategoryNameW","ntsecapi/AuditLookupSubCategoryName","ntsecapi/AuditLookupSubCategoryNameA","ntsecapi/AuditLookupSubCategoryNameW","security.auditlookupsubcategoryname_func"]
+description: Retrieves the display name of the specified audit-policy subcategory. (Unicode)
+helpviewer_keywords: ["AuditLookupSubCategoryName", "AuditLookupSubCategoryName function [Security]", "AuditLookupSubCategoryNameW", "ntsecapi/AuditLookupSubCategoryName", "ntsecapi/AuditLookupSubCategoryNameW", "security.auditlookupsubcategoryname_func"]
 old-location: security\auditlookupsubcategoryname_func.htm
 tech.root: security
 ms.assetid: 65ccd0f6-ee43-4b4d-98fd-b7a49f23ad9d

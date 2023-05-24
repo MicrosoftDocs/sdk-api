@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetModuleFileNameExW
 title: GetModuleFileNameExW function (psapi.h)
-description: Retrieves the fully qualified path for the file containing the specified module.
-helpviewer_keywords: ["GetModuleFileNameEx","GetModuleFileNameEx function [PSAPI]","GetModuleFileNameExA","GetModuleFileNameExW","K32GetModuleFileNameEx","K32GetModuleFileNameExA","K32GetModuleFileNameExW","_win32_getmodulefilenameex","base.getmodulefilenameex","psapi.getmodulefilenameex","psapi/GetModuleFileNameEx","psapi/GetModuleFileNameExA","psapi/GetModuleFileNameExW","psapi/K32GetModuleFileNameEx","psapi/K32GetModuleFileNameExA","psapi/K32GetModuleFileNameExW"]
+description: Retrieves the fully qualified path for the file containing the specified module. (Unicode)
+helpviewer_keywords: ["GetModuleFileNameEx", "GetModuleFileNameEx function [PSAPI]", "GetModuleFileNameExW", "K32GetModuleFileNameEx", "K32GetModuleFileNameExW", "_win32_getmodulefilenameex", "base.getmodulefilenameex", "psapi.getmodulefilenameex", "psapi/GetModuleFileNameEx", "psapi/GetModuleFileNameExW", "psapi/K32GetModuleFileNameEx", "psapi/K32GetModuleFileNameExW"]
 old-location: psapi\getmodulefilenameex.htm
 tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
@@ -70,6 +70,8 @@ Retrieves the fully qualified path for the file containing the specified module.
 A handle to the process that contains the module.  
 
 The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+
+<b>Windows 10 and later, Windows Server 2016 and later</b>: If the <i>hModule</i> parameter is NULL, then the handle requires only <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access rights.
 
 The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a>.
 

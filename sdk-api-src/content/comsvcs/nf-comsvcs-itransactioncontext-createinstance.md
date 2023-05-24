@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ITransactionContext.CreateInstance
 title: ITransactionContext::CreateInstance (comsvcs.h)
-description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
+description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object. (ITransactionContext.CreateInstance)
 helpviewer_keywords: ["CreateInstance","CreateInstance method [COM+]","CreateInstance method [COM+]","ITransactionContext interface","ITransactionContext interface [COM+]","CreateInstance method","ITransactionContext.CreateInstance","ITransactionContext::CreateInstance","_cos_ITransactionContext_CreateInstance","comsvcs/ITransactionContext::CreateInstance","cos.itransactioncontext_createinstance"]
 old-location: cos\itransactioncontext_createinstance.htm
 tech.root: cos

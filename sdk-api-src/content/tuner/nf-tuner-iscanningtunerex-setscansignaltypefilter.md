@@ -68,7 +68,7 @@ Specifies the modulation types, as a bitwise OR of flags from the <a href="/prev
 
 ### -param AnalogVideoStandard
 
-Specifies the analog standards, as a bitwise OR of flags from the <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
+Specifies the analog standards, as a bitwise OR of flags from the <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
 
 ## -returns
 

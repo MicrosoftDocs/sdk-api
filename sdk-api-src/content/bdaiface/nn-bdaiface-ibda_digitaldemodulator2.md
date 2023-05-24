@@ -56,7 +56,7 @@ Controls a Broadcast Driver Architecture (BDA) demodulator filter. Demodulation 
 
 The <b>IBDA_DigitalDemodulator2</b> interface inherits from <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator</a>. <b>IBDA_DigitalDemodulator2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

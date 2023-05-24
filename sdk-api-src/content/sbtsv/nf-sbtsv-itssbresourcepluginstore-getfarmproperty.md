@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetFarmProperty
 title: ITsSbResourcePluginStore::GetFarmProperty (sbtsv.h)
-description: Retrieves a property of a farm.
+description: Retrieves a property of a farm. (ITsSbResourcePluginStoreEx.GetFarmProperty)
 helpviewer_keywords: ["GetFarmProperty","GetFarmProperty method [Remote Desktop Services]","GetFarmProperty method [Remote Desktop Services]","ITsSbResourcePluginStore interface","GetFarmProperty method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","GetFarmProperty method","ITsSbResourcePluginStore.GetFarmProperty","ITsSbResourcePluginStore::GetFarmProperty","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","GetFarmProperty method","ITsSbResourcePluginStoreEx::GetFarmProperty","sbtsv/ITsSbResourcePluginStore::GetFarmProperty","sbtsv/ITsSbResourcePluginStoreEx::GetFarmProperty","termserv.itssbresourcepluginstore_getfarmproperty"]
 old-location: termserv\itssbresourcepluginstore_getfarmproperty.htm
 tech.root: TermServ

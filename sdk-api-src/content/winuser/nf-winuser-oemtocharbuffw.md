@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.OemToCharBuffW
 title: OemToCharBuffW function (winuser.h)
-description: Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.
-helpviewer_keywords: ["OemToCharBuff","OemToCharBuff function [Menus and Other Resources]","OemToCharBuffA","OemToCharBuffW","_win32_OemToCharBuff","_win32_oemtocharbuff_cpp","menurc.oemtocharbuff","winui._win32_oemtocharbuff","winuser/OemToCharBuff","winuser/OemToCharBuffA","winuser/OemToCharBuffW"]
+description: Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string. (Unicode)
+helpviewer_keywords: ["OemToCharBuff", "OemToCharBuff function [Menus and Other Resources]", "OemToCharBuffW", "_win32_OemToCharBuff", "_win32_oemtocharbuff_cpp", "menurc.oemtocharbuff", "winui._win32_oemtocharbuff", "winuser/OemToCharBuff", "winuser/OemToCharBuffW"]
 old-location: menurc\oemtocharbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtocharbuff.htm

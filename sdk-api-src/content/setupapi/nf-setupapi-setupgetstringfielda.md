@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetStringFieldA
 title: SetupGetStringFieldA function (setupapi.h)
-description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
-helpviewer_keywords: ["SetupGetStringField","SetupGetStringField function [Setup API]","SetupGetStringFieldA","SetupGetStringFieldW","_setupapi_setupgetstringfield","setup.setupgetstringfield","setupapi/SetupGetStringField","setupapi/SetupGetStringFieldA","setupapi/SetupGetStringFieldW"]
+description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file. (ANSI)
+helpviewer_keywords: ["SetupGetStringFieldA", "setupapi/SetupGetStringFieldA"]
 old-location: setup\setupgetstringfield.htm
 tech.root: setup
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69

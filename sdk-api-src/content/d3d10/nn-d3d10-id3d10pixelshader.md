@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10PixelShader
 title: ID3D10PixelShader (d3d10.h)
-description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.
+description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage. (ID3D10PixelShader)
 helpviewer_keywords: ["ID3D10PixelShader","ID3D10PixelShader interface [Direct3D 10]","ID3D10PixelShader interface [Direct3D 10]","described","af8a1f54-5d9a-91f5-ed3f-377a9ad029d2","d3d10/ID3D10PixelShader","direct3d10.id3d10pixelshader"]
 old-location: direct3d10\id3d10pixelshader.htm
 tech.root: direct3d10

@@ -4,7 +4,7 @@ tech.root: IpHlp
 title: RtlIpv4StringToAddressExA
 ms.date: 04/14/2021
 targetos: Windows
-description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
+description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -116,8 +116,8 @@ An import library containing the <b>RtlIpv4StringToAddressEx</b> function is not
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>  
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>  
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>  
-<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntop">InetNtop</a>  
-<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetpton">InetPton</a>  
+<a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_ntop">InetNtop</a>  
+<a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_pton">InetPton</a>  
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>  
 <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>  
 <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexa">RtlIpv4AddressToStringEx</a>  

@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardListReadersW
 title: SCardListReadersW function (winscard.h)
-description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
-helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardListReaders","SCardListReaders function [Security]","SCardListReadersA","SCardListReadersW","_smart_scardlistreaders","security.scardlistreaders","winscard/SCardListReaders","winscard/SCardListReadersA","winscard/SCardListReadersW"]
+description: Provides the list of readers within a set of named reader groups, eliminating duplicates. (Unicode)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardListReaders", "SCardListReaders function [Security]", "SCardListReadersW", "_smart_scardlistreaders", "security.scardlistreaders", "winscard/SCardListReaders", "winscard/SCardListReadersW"]
 old-location: security\scardlistreaders.htm
 tech.root: security
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad

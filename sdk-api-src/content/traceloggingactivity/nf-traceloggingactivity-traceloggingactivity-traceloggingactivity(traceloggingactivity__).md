@@ -3,7 +3,7 @@ UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity(TraceLogg
 title:
   TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&)
   (traceloggingactivity.h)
-description: Creates a new TraceLoggingActivity object.
+description: Creates a new TraceLoggingActivity object. (overload 2/2)
 helpviewer_keywords:
   [
     "TraceLoggingActivity",
@@ -70,7 +70,7 @@ api_name:
 ## -description
 
 Creates a new
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
 object.
 
 **TraceLoggingActivity** is a class template.
@@ -95,4 +95,4 @@ Template parameters are:
 
 ## -see-also
 
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md)
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.IsEqual2
 title: ITextFont2::IsEqual2 (tom.h)
-description: Determines whether this text font object has the same properties as the specified text font object.
+description: Determines whether this text font object has the same properties as the specified text font object. (ITextFont2.IsEqual2)
 helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","IsEqual2 method","ITextFont2.IsEqual2","ITextFont2::IsEqual2","IsEqual2","IsEqual2 method [Windows Controls]","IsEqual2 method [Windows Controls]","ITextFont2 interface","controls.itextfont2_isequal2","tom/ITextFont2::IsEqual2"]
 old-location: controls\itextfont2_isequal2.htm
 tech.root: Controls

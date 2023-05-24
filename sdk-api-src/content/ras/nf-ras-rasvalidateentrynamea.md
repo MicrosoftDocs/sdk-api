@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasValidateEntryNameA
 title: RasValidateEntryNameA function (ras.h)
-description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
-helpviewer_keywords: ["RasValidateEntryName","RasValidateEntryName function [RAS]","RasValidateEntryNameA","RasValidateEntryNameW","_ras_rasvalidateentryname","ras/RasValidateEntryName","ras/RasValidateEntryNameA","ras/RasValidateEntryNameW","rras.rasvalidateentryname"]
+description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character. (ANSI)
+helpviewer_keywords: ["RasValidateEntryNameA", "ras/RasValidateEntryNameA"]
 old-location: rras\rasvalidateentryname.htm
 tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560

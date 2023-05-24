@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoA
 title: GetUrlCacheEntryInfoA function (wininet.h)
-description: Retrieves information about a cache entry.
-helpviewer_keywords: ["GetUrlCacheEntryInfo","GetUrlCacheEntryInfo function [WinINet]","GetUrlCacheEntryInfoA","GetUrlCacheEntryInfoW","_inet_geturlcacheentryinfo_function","wininet.geturlcacheentryinfo","wininet/GetUrlCacheEntryInfo","wininet/GetUrlCacheEntryInfoA","wininet/GetUrlCacheEntryInfoW"]
+description: Retrieves information about a cache entry. (ANSI)
+helpviewer_keywords: ["GetUrlCacheEntryInfoA", "wininet/GetUrlCacheEntryInfoA"]
 old-location: wininet\geturlcacheentryinfo.htm
 tech.root: wininet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
@@ -111,7 +111,7 @@ The size of
 
 ## -remarks
 
-<b>GetUrlCacheEntryInfo</b> does not do any URL parsing, so a URL containing an anchor (#) will not be found in the cache, even if the resource is cached. For example, if the URL http://example.com/example.htm#sample is passed, the function returns <b>ERROR_FILE_NOT_FOUND</b> even if http://example.com/example.htm is in the cache.
+<b>GetUrlCacheEntryInfo</b> does not do any URL parsing, so a URL containing an anchor (#) will not be found in the cache, even if the resource is cached. For example, if the URL `http://example.com/example.htm#sample` is passed, the function returns <b>ERROR_FILE_NOT_FOUND</b> even if `http://example.com/example.htm` is in the cache.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 

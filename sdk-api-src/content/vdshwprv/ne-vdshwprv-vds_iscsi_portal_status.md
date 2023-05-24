@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_PORTAL_STATUS
 title: VDS_ISCSI_PORTAL_STATUS (vdshwprv.h)
-description: Defines the set of valid status values for an iSCSI portal.
+description: The VDS_ISCSI_PORTAL_STATUS enumeration (vdshwprv.h) defines the set of valid status values for an iSCSI portal.
 helpviewer_keywords: ["VDS_IPS_FAILED","VDS_IPS_NOT_READY","VDS_IPS_OFFLINE","VDS_IPS_ONLINE","VDS_IPS_UNKNOWN","VDS_ISCSI_PORTAL_STATUS","VDS_ISCSI_PORTAL_STATUS enumeration [VDS]","base.vds_iscsi_portal_status","vds/VDS_IPS_FAILED","vds/VDS_IPS_NOT_READY","vds/VDS_IPS_OFFLINE","vds/VDS_IPS_ONLINE","vds/VDS_IPS_UNKNOWN","vds/VDS_ISCSI_PORTAL_STATUS","vdshwprv/VDS_IPS_FAILED","vdshwprv/VDS_IPS_NOT_READY","vdshwprv/VDS_IPS_OFFLINE","vdshwprv/VDS_IPS_ONLINE","vdshwprv/VDS_IPS_UNKNOWN","vdshwprv/VDS_ISCSI_PORTAL_STATUS"]
 old-location: base\vds_iscsi_portal_status.htm
 tech.root: base
 ms.assetid: ae39dfb8-6519-4307-8038-3af670553f51
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_IPS_FAILED, VDS_IPS_NOT_READY, VDS_IPS_OFFLINE, VDS_IPS_ONLINE, VDS_IPS_UNKNOWN, VDS_ISCSI_PORTAL_STATUS, VDS_ISCSI_PORTAL_STATUS enumeration [VDS], base.vds_iscsi_portal_status, vds/VDS_IPS_FAILED, vds/VDS_IPS_NOT_READY, vds/VDS_IPS_OFFLINE, vds/VDS_IPS_ONLINE, vds/VDS_IPS_UNKNOWN, vds/VDS_ISCSI_PORTAL_STATUS, vdshwprv/VDS_IPS_FAILED, vdshwprv/VDS_IPS_NOT_READY, vdshwprv/VDS_IPS_OFFLINE, vdshwprv/VDS_IPS_ONLINE, vdshwprv/VDS_IPS_UNKNOWN, vdshwprv/VDS_ISCSI_PORTAL_STATUS
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid status values for an iSCSI portal.
 

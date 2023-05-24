@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_STORAGE_POOL_TYPE
 title: VDS_STORAGE_POOL_TYPE (vds.h)
-description: Defines the set of storage pool types.
+description: The VDS_STORAGE_POOL_TYPE (vds.h) enumeration defines the set of storage pool types.
 helpviewer_keywords: ["VDS_SPT_CONCRETE","VDS_SPT_PRIMORDIAL","VDS_SPT_UNKNOWN","VDS_STORAGE_POOL_TYPE","VDS_STORAGE_POOL_TYPE enumeration","base.vds_storage_pool_type","vds/VDS_SPT_CONCRETE","vds/VDS_SPT_PRIMORDIAL","vds/VDS_SPT_UNKNOWN","vds/VDS_STORAGE_POOL_TYPE","vdshwprv/VDS_SPT_CONCRETE","vdshwprv/VDS_SPT_PRIMORDIAL","vdshwprv/VDS_SPT_UNKNOWN","vdshwprv/VDS_STORAGE_POOL_TYPE"]
 old-location: base\vds_storage_pool_type.htm
 tech.root: base
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_POOL_TYPE, VDS_STORAGE_POOL_TYPE enumeration, base.vds_storage_pool_type, vds/VDS_SPT_CONCRETE, vds/VDS_SPT_PRIMORDIAL, vds/VDS_SPT_UNKNOWN, vds/VDS_STORAGE_POOL_TYPE, vdshwprv/VDS_SPT_CONCRETE, vdshwprv/VDS_SPT_PRIMORDIAL, vdshwprv/VDS_SPT_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_TYPE
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a> types. These values are used in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_prop">type</a> member of the <b>VDS_STORAGE_POOL_PROP</b> structure.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DlgDirSelectComboBoxExA
 title: DlgDirSelectComboBoxExA function (winuser.h)
-description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
-helpviewer_keywords: ["DlgDirSelectComboBoxEx","DlgDirSelectComboBoxEx function [Windows Controls]","DlgDirSelectComboBoxExA","DlgDirSelectComboBoxExW","_win32_DlgDirSelectComboBoxEx","_win32_DlgDirSelectComboBoxEx_cpp","controls.DlgDirSelectComboBoxEx","controls._win32_DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxEx","winuser/DlgDirSelectComboBoxExA","winuser/DlgDirSelectComboBoxExW"]
+description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name. (ANSI)
+helpviewer_keywords: ["DlgDirSelectComboBoxExA", "winuser/DlgDirSelectComboBoxExA"]
 old-location: controls\DlgDirSelectComboBoxEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
@@ -104,7 +104,7 @@ You can use this function with all three types of combo boxes (<a href="/windows
 
 <b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="/archive/msdn-magazine/2001/october/mslu-develop-unicode-applications-for-windows-9x-platforms-with-the-microsoft-layer-for-unicode">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 

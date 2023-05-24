@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_TaskUserTextArguments
 title: IAlertDataCollector::put_TaskUserTextArguments (pla.h)
-description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
+description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property. (IAlertDataCollector.put_TaskUserTextArguments)
 helpviewer_keywords: ["IAlertDataCollector interface [PLA]","TaskUserTextArguments property","IAlertDataCollector.TaskUserTextArguments","IAlertDataCollector.put_TaskUserTextArguments","IAlertDataCollector::TaskUserTextArguments","IAlertDataCollector::get_TaskUserTextArguments","IAlertDataCollector::put_TaskUserTextArguments","TaskUserTextArguments property [PLA]","TaskUserTextArguments property [PLA]","IAlertDataCollector interface","pla.ialertdatacollector_taskusertextarguments","pla/IAlertDataCollector::TaskUserTextArguments","pla/IAlertDataCollector::get_TaskUserTextArguments","pla/IAlertDataCollector::put_TaskUserTextArguments","put_TaskUserTextArguments"]
 old-location: pla\ialertdatacollector_taskusertextarguments.htm
 tech.root: PLA

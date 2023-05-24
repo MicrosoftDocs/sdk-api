@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLSetGenuineInformation
 title: SLSetGenuineInformation function (slpublic.h)
-description: Specifies information about the genuine status of a Windows computer.
+description: Specifies information about the genuine status of a Windows computer. (SLSetGenuineInformation)
 helpviewer_keywords: ["SLSetGenuineInformation","SLSetGenuineInformation function [Security]","SL_BRT_COMMIT","SL_BRT_DATA","security.slsetgenuineinformation","slpublic/SLSetGenuineInformation"]
 old-location: security\slsetgenuineinformation.htm
 tech.root: security

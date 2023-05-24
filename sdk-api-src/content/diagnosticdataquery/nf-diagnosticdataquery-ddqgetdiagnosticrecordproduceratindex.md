@@ -57,7 +57,7 @@ The index of the producer to fetch.
 
 ### -param producerDescription
 
-Type: **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)**
+Type: **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)**
 This output parameter is the pointer to the resource that describes the fetched producer.
 
 ## -returns

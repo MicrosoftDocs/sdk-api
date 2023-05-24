@@ -59,7 +59,7 @@ The <b>IDVBTuningSpace</b> interface is implemented on the DVBTuningSpace object
 
 The <b>IDVBTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IDVBTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

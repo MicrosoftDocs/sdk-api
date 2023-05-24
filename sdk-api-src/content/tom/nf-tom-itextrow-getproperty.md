@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.GetProperty
 title: ITextRow::GetProperty (tom.h)
-description: Gets the value of the specified property.
+description: Gets the value of the specified property. (ITextRow.GetProperty)
 helpviewer_keywords: ["GetProperty","GetProperty method [Windows Controls]","GetProperty method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetProperty method","ITextRow.GetProperty","ITextRow::GetProperty","controls.itextrow_getproperty","tom/ITextRow::GetProperty"]
 old-location: controls\itextrow_getproperty.htm
 tech.root: Controls

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_REVERT_FLAGS","CF_REVERT_FLAGS enumeration","CF_REVERT
 old-location: cloudapi\cf_revert_flags.htm
 tech.root: cloudapi
 ms.assetid: 71FDE7FA-99FC-4773-A857-8E1BF89ED7E4
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, cfapi/CF_REVERT_FLAGS, cfapi/CF_REVERT_FLAG_NONE, cloudApi.cf_revert_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_REVERT_FLAGS enumeration
 
-
 ## -description
 
 Flags for reverting a placeholder file to a regular file.
@@ -58,3 +57,6 @@ Flags for reverting a placeholder file to a regular file.
 
 No placeholder revert flags.
 
+## -see-also
+
+[CfRevertPlaceholder](nf-cfapi-cfrevertplaceholder.md)

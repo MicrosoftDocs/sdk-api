@@ -1,7 +1,7 @@
 ---
-UID: NS:winioctl.__unnamed_struct_19
+UID: NS:winioctl.READ_USN_JOURNAL_DATA_V1
 title: READ_USN_JOURNAL_DATA_V1
-description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.
+description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.R
 helpviewer_keywords: ["*PREAD_USN_JOURNAL_DATA","*PREAD_USN_JOURNAL_DATA_V1","PREAD_USN_JOURNAL_DATA","PREAD_USN_JOURNAL_DATA structure pointer [Files]","PREAD_USN_JOURNAL_DATA_V0","PREAD_USN_JOURNAL_DATA_V0 structure pointer [Files]","READ_USN_JOURNAL_DATA","READ_USN_JOURNAL_DATA structure [Files]","READ_USN_JOURNAL_DATA_V0","READ_USN_JOURNAL_DATA_V0 structure [Files]","READ_USN_JOURNAL_DATA_V1","USN_REASON_BASIC_INFO_CHANGE","USN_REASON_CLOSE","USN_REASON_COMPRESSION_CHANGE","USN_REASON_DATA_EXTEND","USN_REASON_DATA_OVERWRITE","USN_REASON_DATA_TRUNCATION","USN_REASON_EA_CHANGE","USN_REASON_ENCRYPTION_CHANGE","USN_REASON_FILE_CREATE","USN_REASON_FILE_DELETE","USN_REASON_HARD_LINK_CHANGE","USN_REASON_INDEXABLE_CHANGE","USN_REASON_NAMED_DATA_EXTEND","USN_REASON_NAMED_DATA_OVERWRITE","USN_REASON_NAMED_DATA_TRUNCATION","USN_REASON_OBJECT_ID_CHANGE","USN_REASON_RENAME_NEW_NAME","USN_REASON_RENAME_OLD_NAME","USN_REASON_REPARSE_POINT_CHANGE","USN_REASON_SECURITY_CHANGE","USN_REASON_STREAM_CHANGE","_win32_read_usn_journal_data_str","base.read_usn_journal_data_str","fs.read_usn_journal_data_str","winioctl/PREAD_USN_JOURNAL_DATA","winioctl/PREAD_USN_JOURNAL_DATA_V0","winioctl/READ_USN_JOURNAL_DATA","winioctl/READ_USN_JOURNAL_DATA_v0"]
 old-location: fs\read_usn_journal_data_str.htm
 tech.root: fs
@@ -458,3 +458,4 @@ The NTFS file system can miss putting events in the change journal if the change
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_TerminalClass
 title: ITPluggableTerminalClassRegistration::get_TerminalClass (termmgr.h)
-description: The get_TerminalClass method gets the terminal's terminal class.
+description: The get_TerminalClass method gets the terminal's terminal class. (ITPluggableTerminalClassRegistration.get_TerminalClass)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_TerminalClass method","ITPluggableTerminalClassRegistration.get_TerminalClass","ITPluggableTerminalClassRegistration::get_TerminalClass","_tapi3_itpluggableterminalclassregistration_get_terminalclass","get_TerminalClass","get_TerminalClass method [TAPI 2.2]","get_TerminalClass method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_terminalclass","termmgr/ITPluggableTerminalClassRegistration::get_TerminalClass"]
 old-location: tapi3\itpluggableterminalclassregistration_get_terminalclass.htm
 tech.root: tapi3

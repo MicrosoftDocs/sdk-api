@@ -8,8 +8,8 @@ req.construct-type: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 19041
+req.target-min-winversvr: Windows 10 Build 19041
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -62,7 +62,9 @@ You should set only the *Version* member; the *Flags* field must be empty.
 
 If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION1**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS**](ns-netioapi-dns_interface_settings.md) structure.
 
-If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION3**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS3**](ns-netioapi-dns_interface_settings3.md) structure.
+If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION2**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS_EX**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings_ex) structure.
+
+If you set the *Version* member to **DNS_INTERFACE_SETTINGS_VERSION3**, then the *Settings* parameter must point to a valid [**DNS_INTERFACE_SETTINGS3**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3) structure.
 
 ## -returns
 
@@ -72,4 +74,5 @@ Returns **NO_ERROR** if successful. A non-zero return value indicates failure.
 
 ## -see-also
 
+* [SetInterfaceDnsSettings](nf-netioapi-setinterfacednssettings.md)
 * [FreeInterfaceDnsSettings](nf-netioapi-freeinterfacednssettings.md)

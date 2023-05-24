@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTablets.IsPacketPropertySupported
 title: IInkTablets::IsPacketPropertySupported (msinkaut.h)
-description: Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported.
+description: Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported. (IInkTablets.IsPacketPropertySupported)
 helpviewer_keywords: ["4bf2e2b0-d45a-4392-990e-5e9320333c0b","IInkTablets interface [Tablet PC]","IsPacketPropertySupported method","IInkTablets.IsPacketPropertySupported","IInkTablets::IsPacketPropertySupported","IsPacketPropertySupported","IsPacketPropertySupported method [Tablet PC]","IsPacketPropertySupported method [Tablet PC]","IInkTablets interface","msinkaut/IInkTablets::IsPacketPropertySupported","tablet.inktablets_ispacketpropertysupported"]
 old-location: tablet\inktablets_ispacketpropertysupported.htm
 tech.root: tablet

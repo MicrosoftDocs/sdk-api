@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_SET_PIN_FLAGS","CF_SET_PIN_FLAGS enumeration","CF_SET_
 old-location: cloudapi\cf_set_pin_flags.htm
 tech.root: cloudapi
 ms.assetid: 6766931E-B2D4-4166-9B6E-E6D8F57E57B3
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_SET_PIN_FLAGS, CF_SET_PIN_FLAGS enumeration, CF_SET_PIN_FLAG_NONE, CF_SET_PIN_FLAG_RECURSE, CF_SET_PIN_FLAG_RECURSE_ONLY, CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cfapi/CF_SET_PIN_FLAGS, cfapi/CF_SET_PIN_FLAG_NONE, cfapi/CF_SET_PIN_FLAG_RECURSE, cfapi/CF_SET_PIN_FLAG_RECURSE_ONLY, cfapi/CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cloudApi.cf_set_pin_flags
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CF_SET_PIN_FLAGS enumeration
 
-
 ## -description
 
 The placeholder pin flags.
@@ -60,13 +59,16 @@ No pin flag.
 
 ### -field CF_SET_PIN_FLAG_RECURSE:0x00000001
 
-The platform applies the pin state to the placeholder <i>FileHandle</i> and every file recursively beneath it (relevant only if <i>FileHandle</i> is a handle to a directory).
+The platform applies the pin state to the placeholder *FileHandle* and every file recursively beneath it (relevant only if *FileHandle* is a handle to a directory).
 
 ### -field CF_SET_PIN_FLAG_RECURSE_ONLY:0x00000002
 
-The platform applies the pin state to every file recursively beneath the placeholder <i>FileHandle</i>, but not to <i>FileHandle</i> itself.
+The platform applies the pin state to every file recursively beneath the placeholder *FileHandle*, but not to *FileHandle* itself.
 
 ### -field CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR:0x00000004
 
 The platform will stop the recursion when encountering the first error; otherwise the platform skips the error and continues the recursion.
 
+## -see-also
+
+[CfSetPinState](nf-cfapi-cfsetpinstate.md)

@@ -70,168 +70,25 @@ Type: <b>UINT</b>
 
 The types of messages for which to check. This parameter can be one or more of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLEVENTS"></a><a id="qs_allevents"></a><dl>
-<dt><b>QS_ALLEVENTS</b></dt>
-<dt>(QS_INPUT | QS_POSTMESSAGE | QS_TIMER | QS_PAINT | QS_HOTKEY)</dt>
-</dl>
-</td>
-<td width="60%">
-An input, <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>, <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>, <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>, or posted message is in the queue.
+| Value | Meaning |
+|-------|---------|
+| **QS\_KEY**<br>0x0001 | A [WM\_KEYUP](/windows/desktop/inputdev/wm-keyup), [WM\_KEYDOWN](/windows/desktop/inputdev/wm-keydown), [WM\_SYSKEYUP](/windows/desktop/inputdev/wm-syskeyup), or [WM\_SYSKEYDOWN](/windows/desktop/inputdev/wm-syskeydown) message is in the queue. |
+| **QS\_MOUSEMOVE**<br>0x0002 | A [WM\_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove) message is in the queue. |
+| **QS\_MOUSEBUTTON**<br>0x0004 | A mouse-button message ([WM\_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM\_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown), and so on). |
+| **QS\_POSTMESSAGE**<br>0x0008 | A posted message (other than those listed here) is in the queue. For more information, see [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagew).<br>This value is cleared when you call [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/win32/api/winuser/nf-winuser-peekmessagew), whether or not you are filtering messages. |
+| **QS\_TIMER**<br>0x0010 | A [WM\_TIMER](/windows/desktop/winmsg/wm-timer) message is in the queue. |
+| **QS\_PAINT**<br>0x0020 | A [WM\_PAINT](/windows/desktop/gdi/wm-paint) message is in the queue. |
+| **QS\_SENDMESSAGE**<br>0x0040 | A message sent by another thread or application is in the queue. For more information, see [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessagew). |
+| **QS\_HOTKEY**<br>0x0080 | A [WM\_HOTKEY](/windows/desktop/inputdev/wm-hotkey) message is in the queue. |
+| **QS\_ALLPOSTMESSAGE**<br>0x0100 | A posted message (other than those listed here) is in the queue. For more information, see [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagew).<br>This value is cleared when you call GetMessage or PeekMessage without filtering messages. | 
+| **QS\_RAWINPUT**<br>0x0400 | Windows XP and newer: A raw input message is in the queue. For more information, see [Raw Input](/windows/desktop/inputdev/raw-input). |
+| **QS\_TOUCH**<br>0x0800 | Windows 8 and newer: A touch input message is in the queue. For more information, see [Touch Input](/windows/win32/wintouch/windows-touch-portal). |
+| **QS\_POINTER**<br>0x1000 | Windows 8 and newer: A pointer input message is in the queue. For more information, see [Pointer Input](/windows/win32/inputmsg/messages-and-notifications-portal). |
+| **QS\_MOUSE**<br>(QS\_MOUSEMOVE \| QS\_MOUSEBUTTON) | A [WM\_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove) message or mouse-button message ([WM\_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM\_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown), and so on). |
+| **QS\_INPUT**<br>(QS\_MOUSE \| QS\_KEY \| QS\_RAWINPUT \| QS\_TOUCH \| QS\_POINTER) | An input message is in the queue. |
+| **QS\_ALLEVENTS**<br>(QS\_INPUT \| QS\_POSTMESSAGE \| QS\_TIMER \| QS\_PAINT \| QS\_HOTKEY) | An input, [WM\_TIMER](/windows/desktop/winmsg/wm-timer), [WM\_PAINT](/windows/desktop/gdi/wm-paint), [WM\_HOTKEY](/windows/desktop/inputdev/wm-hotkey), or posted message is in the queue. |
+| **QS\_ALLINPUT**<br>(QS\_INPUT \| QS\_POSTMESSAGE \| QS\_TIMER \| QS\_PAINT \| QS\_HOTKEY \| QS\_SENDMESSAGE) | Any message is in the queue. |
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLINPUT"></a><a id="qs_allinput"></a><dl>
-<dt><b>QS_ALLINPUT</b></dt>
-<dt>(QS_INPUT | QS_POSTMESSAGE | QS_TIMER | QS_PAINT | QS_HOTKEY | QS_SENDMESSAGE)</dt>
-</dl>
-</td>
-<td width="60%">
-Any message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_ALLPOSTMESSAGE"></a><a id="qs_allpostmessage"></a><dl>
-<dt><b>QS_ALLPOSTMESSAGE</b></dt>
-<dt>0x0100</dt>
-</dl>
-</td>
-<td width="60%">
-A posted message (other than those listed here) is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_HOTKEY"></a><a id="qs_hotkey"></a><dl>
-<dt><b>QS_HOTKEY</b></dt>
-<dt>0x0080</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_INPUT"></a><a id="qs_input"></a><dl>
-<dt><b>QS_INPUT</b></dt>
-<dt>(QS_MOUSE | QS_KEY | QS_RAWINPUT)</dt>
-</dl>
-</td>
-<td width="60%">
-An input message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_KEY"></a><a id="qs_key"></a><dl>
-<dt><b>QS_KEY</b></dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>, or <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSE"></a><a id="qs_mouse"></a><dl>
-<dt><b>QS_MOUSE</b></dt>
-<dt>(QS_MOUSEMOVE | QS_MOUSEBUTTON)</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message or mouse-button message (<a href="/windows/desktop/inputdev/wm-lbuttonup">WM_LBUTTONUP</a>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSEBUTTON"></a><a id="qs_mousebutton"></a><dl>
-<dt><b>QS_MOUSEBUTTON</b></dt>
-<dt>0x0004</dt>
-</dl>
-</td>
-<td width="60%">
-A mouse-button message (<a href="/windows/desktop/inputdev/wm-lbuttonup">WM_LBUTTONUP</a>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_MOUSEMOVE"></a><a id="qs_mousemove"></a><dl>
-<dt><b>QS_MOUSEMOVE</b></dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_PAINT"></a><a id="qs_paint"></a><dl>
-<dt><b>QS_PAINT</b></dt>
-<dt>0x0020</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_POSTMESSAGE"></a><a id="qs_postmessage"></a><dl>
-<dt><b>QS_POSTMESSAGE</b></dt>
-<dt>0x0008</dt>
-</dl>
-</td>
-<td width="60%">
-A posted message (other than those listed here) is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_RAWINPUT"></a><a id="qs_rawinput"></a><dl>
-<dt><b>QS_RAWINPUT</b></dt>
-<dt>0x0400</dt>
-</dl>
-</td>
-<td width="60%">
-A raw input message is in the queue. For more information, see <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>.
-
-<b>Windows 2000:  </b>This flag is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_SENDMESSAGE"></a><a id="qs_sendmessage"></a><dl>
-<dt><b>QS_SENDMESSAGE</b></dt>
-<dt>0x0040</dt>
-</dl>
-</td>
-<td width="60%">
-A message sent by another thread or application is in the queue.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="QS_TIMER"></a><a id="qs_timer"></a><dl>
-<dt><b>QS_TIMER</b></dt>
-<dt>0x0010</dt>
-</dl>
-</td>
-<td width="60%">
-A <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message is in the queue.
-
-</td>
-</tr>
-</table>
 
 ## -returns
 

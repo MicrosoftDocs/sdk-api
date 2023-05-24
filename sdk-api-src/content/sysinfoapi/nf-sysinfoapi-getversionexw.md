@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetVersionExW
 title: GetVersionExW function (sysinfoapi.h)
-description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
-helpviewer_keywords: ["GetVersionEx","GetVersionEx function","GetVersionExA","GetVersionExW","_win32_getversionex","base.getversionex","sysinfoapi/GetVersionEx","sysinfoapi/GetVersionExA","sysinfoapi/GetVersionExW"]
+description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested. (Unicode)
+helpviewer_keywords: ["GetVersionEx", "GetVersionEx function", "GetVersionExW", "_win32_getversionex", "base.getversionex", "sysinfoapi/GetVersionEx", "sysinfoapi/GetVersionExW"]
 old-location: base\getversionex.htm
 tech.root: winprog
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de

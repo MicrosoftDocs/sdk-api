@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_44
+UID: NE:webservices.WS_ADDRESSING_VERSION
 title: WS_ADDRESSING_VERSION (webservices.h)
 description: Identifies the version of the specification used for the addressing headers.
 helpviewer_keywords: ["WS_ADDRESSING_VERSION","WS_ADDRESSING_VERSION enumeration [Web Services for Windows]","WS_ADDRESSING_VERSION_0_9","WS_ADDRESSING_VERSION_1_0","WS_ADDRESSING_VERSION_TRANSPORT","webservices/WS_ADDRESSING_VERSION","webservices/WS_ADDRESSING_VERSION_0_9","webservices/WS_ADDRESSING_VERSION_1_0","webservices/WS_ADDRESSING_VERSION_TRANSPORT","wsw.ws_addressing_version"]
@@ -81,3 +81,4 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_
 This addressing version is only supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                     Since the SOAP over HTTP protocol does not support sending an action on a reply,
                     the value of the <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_ACTION_HEADER</a> will not be transmitted by the channel.
+

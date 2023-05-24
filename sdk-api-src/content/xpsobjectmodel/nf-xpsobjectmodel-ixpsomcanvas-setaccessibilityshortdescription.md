@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityShortDescription
 title: IXpsOMCanvas::SetAccessibilityShortDescription (xpsobjectmodel.h)
-description: Sets the short textual description of the object's contents.
+description: Sets the short textual description of the object's contents. (IXpsOMCanvas.SetAccessibilityShortDescription)
 helpviewer_keywords: ["IXpsOMCanvas interface [XPS Documents and Packaging]","SetAccessibilityShortDescription method","IXpsOMCanvas.SetAccessibilityShortDescription","IXpsOMCanvas::SetAccessibilityShortDescription","SetAccessibilityShortDescription","SetAccessibilityShortDescription method [XPS Documents and Packaging]","SetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","xps.ixpsomcanvas_setaccessibilityshortdescription","xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription"]
 old-location: xps\ixpsomcanvas_setaccessibilityshortdescription.htm
 tech.root: xps

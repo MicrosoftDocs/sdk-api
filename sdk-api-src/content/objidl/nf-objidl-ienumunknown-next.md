@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IEnumUnknown.Next
 title: IEnumUnknown::Next (objidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: The IEnumUnknown::Next method (objidl.h) retrieves the specified number of items in the enumeration sequence.
 helpviewer_keywords: ["IEnumUnknown interface [COM]","Next method","IEnumUnknown.Next","IEnumUnknown::Next","Next","Next method [COM]","Next method [COM]","IEnumUnknown interface","_com_ienumunknown_next","com.ienumunknown_next","objidlbase/IEnumUnknown::Next"]
 old-location: com\ienumunknown_next.htm
 tech.root: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
 req.header: objidl.h
 req.include-header: ObjIdl.h

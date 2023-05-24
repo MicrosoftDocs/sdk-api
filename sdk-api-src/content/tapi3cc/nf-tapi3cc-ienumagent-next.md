@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.IEnumAgent.Next
 title: IEnumAgent::Next (tapi3cc.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The IEnumAgentHandler::Next method (tapi3cc.h) gets the next specified number of elements in the enumeration sequence. 
 helpviewer_keywords: ["IEnumAgent interface [TAPI 2.2]","Next method","IEnumAgent.Next","IEnumAgent::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumAgent interface","_tapi3_ienumagent_next","tapi3.ienumagent_next","tapi3cc/IEnumAgent::Next"]
 old-location: tapi3\ienumagent_next.htm
 tech.root: tapi3
 ms.assetid: 68a7842c-557a-4da4-aa2b-e7c15a6d4f4a
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumAgent interface [TAPI 2.2],Next method, IEnumAgent.Next, IEnumAgent::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_next, tapi3.ienumagent_next, tapi3cc/IEnumAgent::Next
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

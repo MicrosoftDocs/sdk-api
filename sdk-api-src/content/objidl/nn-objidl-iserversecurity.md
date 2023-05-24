@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IServerSecurity
 title: IServerSecurity (objidl.h)
-description: Used by a server to help authenticate the client and to manage impersonation of the client.
+description: The IServerSecurity (objidl.h) interface is used by a server to help authenticate the client and to manage impersonation of the client.
 helpviewer_keywords: ["IServerSecurity","IServerSecurity interface [COM]","IServerSecurity interface [COM]","described","_com_iserversecurity","com.iserversecurity","objidlbase/IServerSecurity"]
 old-location: com\iserversecurity.htm
 tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
 req.header: objidl.h
 req.include-header: ObjIdl.h

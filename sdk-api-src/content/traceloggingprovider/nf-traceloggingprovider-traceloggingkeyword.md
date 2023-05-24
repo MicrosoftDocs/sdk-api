@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingkeyword.htm
 tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingKeyword, TraceLoggingKeyword macro,
   tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
@@ -67,7 +67,7 @@ that sets the keyword for the event.
 A 64-bit bitmask used to indicate an event's membership in a set of event
 categories. This value must be a compile-time constant.
 
-> [!Important]
+> [!IMPORTANT]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
 > Always assign a meaningful non-zero level and keyword to every event.
@@ -84,7 +84,7 @@ events. Always assign a meaningful (non-zero) keyword to every event.
 
 If no **TraceLoggingKeyword** macros are provided to a **TraceLoggingWrite**
 call, the event's default keyword is 0. If multiple **TraceLoggingKeyword**
-macros are provided, they are OR'ed together.
+macros are provided, the values are OR'ed together.
 
 The top 16 bits of the keyword (bitmask 0xFFFF000000000000) are defined by
 Microsoft. The low 48 bits of the keyword (bitmask 0x0000FFFFFFFFFFFF) are

@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_WWN
 title: VDS_WWN (vdshwprv.h)
-description: Defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.
+description: The VDS_WWN structure (vdshwprv.h) defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.
 helpviewer_keywords: ["VDS_WWN","VDS_WWN structure [VDS]","base.vds_wwn","vds/VDS_WWN","vdshwprv/VDS_WWN"]
 old-location: base\vds_wwn.htm
 tech.root: base
 ms.assetid: a6d546bd-26ba-4f49-aeed-1f5462cc0bab
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: VDS_WWN, VDS_WWN structure [VDS], base.vds_wwn, vds/VDS_WWN, vdshwprv/VDS_WWN
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines a world-wide name (WWN). This 
    structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.

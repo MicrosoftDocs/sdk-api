@@ -59,7 +59,7 @@ The <b>IXMLGraphBuilder</b>  interface is used to persist a DirectShow filter gr
 
 The <b>IXMLGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLGraphBuilder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLunMpio.GetLoadBalancePolicy
 title: IVdsLunMpio::GetLoadBalancePolicy (vds.h)
-description: Returns the current load balance policy on the LUN.
+description: The IVdsLunMpio::GetLoadBalancePolicy method (vds.h) returns the current load balance policy on the LUN.
 helpviewer_keywords: ["GetLoadBalancePolicy","GetLoadBalancePolicy method [VDS]","GetLoadBalancePolicy method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetLoadBalancePolicy method","IVdsLunMpio.GetLoadBalancePolicy","IVdsLunMpio::GetLoadBalancePolicy","base.ivdslunmpio_getloadbalancepolicy","vds/IVdsLunMpio::GetLoadBalancePolicy","vdshwprv/IVdsLunMpio::GetLoadBalancePolicy"]
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
 tech.root: base
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetLoadBalancePolicy method, IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy, vdshwprv/IVdsLunMpio::GetLoadBalancePolicy
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the current load balance policy on the LUN.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.SetBreakOnID
 title: ID3D11InfoQueue::SetBreakOnID (d3d11sdklayers.h)
-description: Set a message identifier to break on when a message with that identifier passes through the storage filter.
+description: Set a message identifier to break on when a message with that identifier passes through the storage filter. (ID3D11InfoQueue.SetBreakOnID)
 helpviewer_keywords: ["61b0771c-e26b-3275-edc2-79e49d2f26f0","ID3D11InfoQueue interface [Direct3D 11]","SetBreakOnID method","ID3D11InfoQueue.SetBreakOnID","ID3D11InfoQueue::SetBreakOnID","SetBreakOnID","SetBreakOnID method [Direct3D 11]","SetBreakOnID method [Direct3D 11]","ID3D11InfoQueue interface","d3d11sdklayers/ID3D11InfoQueue::SetBreakOnID","direct3d11.id3d11infoqueue_setbreakonid"]
 old-location: direct3d11\id3d11infoqueue_setbreakonid.htm
 tech.root: direct3d11

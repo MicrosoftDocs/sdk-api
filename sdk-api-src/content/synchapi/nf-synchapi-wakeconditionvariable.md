@@ -9,7 +9,7 @@ ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6
 ms.date: 12/05/2018
 ms.keywords: WakeConditionVariable, WakeConditionVariable function, base.wakeconditionvariable, synchapi/WakeConditionVariable, winbase/WakeConditionVariable
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

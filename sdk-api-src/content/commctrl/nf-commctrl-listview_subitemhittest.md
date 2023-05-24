@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SubItemHitTest
 title: ListView_SubItemHitTest macro (commctrl.h)
-description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
+description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly. (ListView_SubItemHitTest)
 helpviewer_keywords: ["ListView_SubItemHitTest","ListView_SubItemHitTest macro [Windows Controls]","_win32_ListView_SubItemHitTest","_win32_ListView_SubItemHitTest_cpp","commctrl/ListView_SubItemHitTest","controls.ListView_SubItemHitTest","controls._win32_ListView_SubItemHitTest"]
 old-location: controls\ListView_SubItemHitTest.htm
 tech.root: Controls
@@ -64,4 +64,4 @@ A handle to the list-view control that will be hit-tested.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure. The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested.
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure. The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested.

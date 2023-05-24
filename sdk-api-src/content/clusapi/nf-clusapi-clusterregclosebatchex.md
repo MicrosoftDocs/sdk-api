@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchEx
 title: ClusterRegCloseBatchEx function (clusapi.h)
-description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
+description: Executes or ignores the batch created by the ClusterRegCreateBatch function. (ClusterRegCloseBatchEx)
 helpviewer_keywords: ["ClusterRegCloseBatchEx","ClusterRegCloseBatchEx function [Failover Cluster]","clusapi/ClusterRegCloseBatchEx","mscs.clusterregclosebatchex"]
 old-location: mscs\clusterregclosebatchex.htm
 tech.root: MsCS

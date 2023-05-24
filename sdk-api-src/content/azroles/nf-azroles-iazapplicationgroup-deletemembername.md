@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteMemberName m
 old-location: security\iazapplicationgroup_deletemembername.htm
 tech.root: security
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzApplicationGroup object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzApplicationGroup object, DeleteMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMemberName method, IAzApplicationGroup.DeleteMemberName, IAzApplicationGroup::DeleteMemberName, azroles/IAzApplicationGroup::DeleteMemberName, security.iazapplicationgroup_deletemembername
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,30 @@ api_name:
 
 # IAzApplicationGroup::DeleteMemberName
 
-
 ## -description
 
-The <b>DeleteMemberName</b> method removes  the specified account name from the list of  accounts that belong to the application group.
+The **DeleteMemberName** method removes  the specified account name from the list of accounts that belong to the application group.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the account name to remove from the list of   accounts that belong to the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to remove from the list of accounts that belong to the application group. The account name must be in user principal name (UPN) format (for example, `someone@example.com`). The [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of account names of  accounts that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
+To view the list of account names of  accounts that belong to this application group, use the [MembersName](nf-azroles-iazapplicationgroup-get_membersname.md) property.
+
+## -see-also
+
+[MembersName](nf-azroles-iazapplicationgroup-get_membersname.md)
+
+[LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea)

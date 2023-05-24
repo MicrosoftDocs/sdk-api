@@ -56,7 +56,7 @@ The <b>IATSCTuningSpace</b> interface is implemented on <a href="/previous-versi
 
 The <b>IATSCTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace</a>. <b>IATSCTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

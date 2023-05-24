@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_12
+UID: NE:webservices.WS_XML_WRITER_ENCODING_TYPE
 title: WS_XML_WRITER_ENCODING_TYPE (webservices.h)
 description: The type of WS_XML_WRITER_ENCODING structure.
 helpviewer_keywords: ["WS_XML_WRITER_ENCODING_TYPE","WS_XML_WRITER_ENCODING_TYPE enumeration [Web Services for Windows]","WS_XML_WRITER_ENCODING_TYPE_BINARY","WS_XML_WRITER_ENCODING_TYPE_MTOM","WS_XML_WRITER_ENCODING_TYPE_TEXT","webservices/WS_XML_WRITER_ENCODING_TYPE","webservices/WS_XML_WRITER_ENCODING_TYPE_BINARY","webservices/WS_XML_WRITER_ENCODING_TYPE_MTOM","webservices/WS_XML_WRITER_ENCODING_TYPE_TEXT","wsw.ws_xml_writer_encoding_type"]
@@ -61,3 +61,4 @@ The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writ
 ### -field WS_XML_WRITER_ENCODING_TYPE_MTOM:3
 
 ### -field WS_XML_WRITER_ENCODING_TYPE_RAW:4
+

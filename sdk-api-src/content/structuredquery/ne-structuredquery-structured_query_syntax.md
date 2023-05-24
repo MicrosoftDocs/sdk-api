@@ -1,7 +1,7 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
 title: STRUCTURED_QUERY_SYNTAX (structuredquery.h)
-description: Specifies the type of query syntax.
+description: Specifies the type of query syntax. (STRUCTURED_QUERY_SYNTAX)
 helpviewer_keywords: ["SQS_ADVANCED_QUERY_SYNTAX","SQS_NATURAL_QUERY_SYNTAX","SQS_NO_SYNTAX","STRUCTURED_QUERY_SYNTAX","STRUCTURED_QUERY_SYNTAX enumeration [search]","_search_STRUCTURED_QUERY_SYNTAX","search._search_STRUCTURED_QUERY_SYNTAX","structuredquery/SQS_ADVANCED_QUERY_SYNTAX","structuredquery/SQS_NATURAL_QUERY_SYNTAX","structuredquery/SQS_NO_SYNTAX","structuredquery/STRUCTURED_QUERY_SYNTAX"]
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 tech.root: search

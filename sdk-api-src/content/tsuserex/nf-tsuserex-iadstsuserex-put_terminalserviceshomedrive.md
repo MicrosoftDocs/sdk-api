@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesHomeDrive
 title: IADsTSUserEx::put_TerminalServicesHomeDrive (tsuserex.h)
-description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped.
+description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesHomeDrive property","IADsTSUserEx.TerminalServicesHomeDrive","IADsTSUserEx.put_TerminalServicesHomeDrive","IADsTSUserEx::TerminalServicesHomeDrive","IADsTSUserEx::get_TerminalServicesHomeDrive","IADsTSUserEx::put_TerminalServicesHomeDrive","TerminalServicesHomeDrive property [Remote Desktop Services]","TerminalServicesHomeDrive property [Remote Desktop Services]","IADsTSUserEx interface","put_TerminalServicesHomeDrive","termserv.iadstsuserex_terminalserviceshomedrive","tsuserex/IADsTSUserEx::TerminalServicesHomeDrive","tsuserex/IADsTSUserEx::get_TerminalServicesHomeDrive","tsuserex/IADsTSUserEx::put_TerminalServicesHomeDrive"]
 old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm
 tech.root: TermServ

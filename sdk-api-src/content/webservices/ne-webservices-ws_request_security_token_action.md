@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_53
+UID: NE:webservices.WS_REQUEST_SECURITY_TOKEN_ACTION
 title: WS_REQUEST_SECURITY_TOKEN_ACTION (webservices.h)
 description: Defines which set of actions to use when negotiating security tokens using WS-Trust.
 helpviewer_keywords: ["WS_REQUEST_SECURITY_TOKEN_ACTION","WS_REQUEST_SECURITY_TOKEN_ACTION enumeration [Web Services for Windows]","WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE","WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT","WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT","webservices/WS_REQUEST_SECURITY_TOKEN_ACTION","webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE","webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT","webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT","wsw.ws_request_security_token_action"]
@@ -65,3 +65,4 @@ Use the "request" action defined in WS-SecureConversation.
 ### -field WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT:3
 
 Use the "renew" action defined in WS-SecureConversation. Requires <a href="/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN</a>.
+

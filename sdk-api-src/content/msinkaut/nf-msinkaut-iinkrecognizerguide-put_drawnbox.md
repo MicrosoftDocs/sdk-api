@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_DrawnBox
 title: IInkRecognizerGuide::put_DrawnBox (msinkaut.h)
-description: Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place.
+description: Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place. (Put)
 helpviewer_keywords: ["DrawnBox property [Tablet PC]","DrawnBox property [Tablet PC]","IInkRecognizerGuide interface","IInkRecognizerGuide interface [Tablet PC]","DrawnBox property","IInkRecognizerGuide.DrawnBox","IInkRecognizerGuide.put_DrawnBox","IInkRecognizerGuide::DrawnBox","IInkRecognizerGuide::get_DrawnBox","IInkRecognizerGuide::put_DrawnBox","InkRecognizerGuide.get_DrawnBox","InkRecognizerGuide.put_DrawnBox","f99095e1-8e7f-47eb-9234-70f651ebf793","msinkaut/IInkRecognizerGuide::DrawnBox","msinkaut/IInkRecognizerGuide::get_DrawnBox","msinkaut/IInkRecognizerGuide::put_DrawnBox","put_DrawnBox","tablet.inkrecognizerguide_drawnbox"]
 old-location: tablet\inkrecognizerguide_drawnbox.htm
 tech.root: tablet

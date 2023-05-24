@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingToStringBindingA
 title: RpcBindingToStringBindingA function (rpcdce.h)
-description: The RpcBindingToStringBinding function returns a string representation of a binding handle.
-helpviewer_keywords: ["RpcBindingToStringBinding","RpcBindingToStringBinding function [RPC]","RpcBindingToStringBindingA","RpcBindingToStringBindingW","_rpc_rpcbindingtostringbinding","rpc.rpcbindingtostringbinding","rpcdce/RpcBindingToStringBinding","rpcdce/RpcBindingToStringBindingA","rpcdce/RpcBindingToStringBindingW"]
+description: The RpcBindingToStringBinding function returns a string representation of a binding handle. (RpcBindingToStringBindingA)
+helpviewer_keywords: ["RpcBindingToStringBindingA", "rpcdce/RpcBindingToStringBindingA"]
 old-location: rpc\rpcbindingtostringbinding.htm
 tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5

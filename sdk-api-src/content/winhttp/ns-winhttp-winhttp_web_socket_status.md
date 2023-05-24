@@ -74,10 +74,6 @@ A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callbac
 
 A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callback of <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a> when <i>dwInternetStatus</i>  is <b>WINHTTP_CALLBACK_STATUS_WRITE_COMPLETE</b>.
 
-A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callback of <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a> when <i>dwInternetStatus</i>  is <b>WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE</b>.
-
-A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callback of <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a> when <i>dwInternetStatus</i>  is <b>WINHTTP_CALLBACK_STATUS_SHUTDOWN_COMPLETE</b>.
-
 ## -see-also
 
 <a href="/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a>

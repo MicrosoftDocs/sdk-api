@@ -3,7 +3,7 @@ UID: NS:directml.DML_ELEMENT_WISE_ADD1_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ADD1_OPERATOR_DESC
 description: Adds every element in *ATensor* to its corresponding element in *BTensor* and places the result into the corresponding element of *OutputTensor*, with the option for fused activation.
 tech.root: directml
-ms.date: 10/29/2020
+ms.date: 12/01/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -72,7 +72,7 @@ The output tensor to write the results to.
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the addition.
+An optional fused activation layer to apply after the addition. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 Fused activation may be used only when the output datatype is **FLOAT16** or **FLOAT32**.
 
@@ -102,4 +102,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
 ## -see-also
 
-[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

@@ -61,6 +61,6 @@ Decoder filters should not have to use this interface to connect to the Overlay 
 
 The <b>IDirectDrawMediaSampleAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSampleAllocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

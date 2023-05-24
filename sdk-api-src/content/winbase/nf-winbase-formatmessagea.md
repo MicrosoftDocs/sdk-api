@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FormatMessageA
 title: FormatMessageA function (winbase.h)
-description: Formats a message string.
-helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER","FORMAT_MESSAGE_ARGUMENT_ARRAY","FORMAT_MESSAGE_FROM_HMODULE","FORMAT_MESSAGE_FROM_STRING","FORMAT_MESSAGE_FROM_SYSTEM","FORMAT_MESSAGE_IGNORE_INSERTS","FORMAT_MESSAGE_MAX_WIDTH_MASK","FormatMessage","FormatMessage function","FormatMessageA","FormatMessageW","_win32_formatmessage","base.formatmessage","winbase/FormatMessage","winbase/FormatMessageA","winbase/FormatMessageW"]
+description: Formats a message string. (FormatMessageA)
+helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER", "FORMAT_MESSAGE_ARGUMENT_ARRAY", "FORMAT_MESSAGE_FROM_HMODULE", "FORMAT_MESSAGE_FROM_STRING", "FORMAT_MESSAGE_FROM_SYSTEM", "FORMAT_MESSAGE_IGNORE_INSERTS", "FORMAT_MESSAGE_MAX_WIDTH_MASK", "FormatMessageA", "winbase/FormatMessageA"]
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c

@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingwriteactivity.htm
 tech.root: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingWriteActivity, TraceLoggingWriteActivity macro,
   tracelogging.traceloggingwriteactivity,
@@ -81,7 +81,7 @@ The activity ID for the event, or NULL to use the default.
 
 The related activity ID for the event, or NULL for no related activity ID.
 
-#### - args [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
 Up to 99 additional parameters to configure or add fields to the event. Each
 parameter must be one of the
@@ -90,7 +90,7 @@ such as [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md),
 [TraceLoggingKeyword](./nf-traceloggingprovider-traceloggingkeyword.md), or
 [TraceLoggingValue](./nf-traceloggingprovider-traceloggingvalue.md).
 
-> [!Important]
+> [!IMPORTANT]
 > ProviderId, Level and Keyword are the primary means for filtering
 > events. Other kinds of filtering are possible but have much higher overhead.
 > Always assign a non-zero level and keyword to every event.
@@ -129,7 +129,7 @@ The generated event will be constructed as follows:
 - The event's level will come from the
   [TraceLoggingLevel](./nf-traceloggingprovider-tracelogginglevel.md) argument.
   If no TraceLoggingLevel argument is present, the event's level will be 5
-  (TRACE_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
+  (WINEVENT_LEVEL_VERBOSE). If more than one TraceLoggingLevel argument is present,
   the last argument will be used. To enable effective event filtering, always
   assign a meaningful non-zero level to every event.
 - The event's keyword will come from the
@@ -159,8 +159,8 @@ TraceLoggingWriteActivity(
     "MyEvent1",
     &myActivityGuid,
     NULL, // no related activity ID
-    TraceLoggingLevel(TRACE_LEVEL_WARNING),
-    TraceLoggingKeyword(MyNetworkingKeyword),
+    TraceLoggingLevel(WINEVENT_LEVEL_WARNING), // Levels defined in <winmeta.h>
+    TraceLoggingKeyword(MyNetworkingKeyword), // Provider-defined categories
     TraceLoggingHResult(hr, "NetStatus")); // Adds a "NetStatus" field.
 ```
 
@@ -177,7 +177,7 @@ if (TraceLoggingProviderEnabled(hProvider, eventLevel, eventKeyword))
 }
 ```
 
-> [!Note]
+> [!NOTE]
 > Each **TraceLoggingWriteActivity** macro automatically checks
 > [**TraceLoggingProviderEnabled**](./nf-traceloggingprovider-traceloggingproviderenabled.md)
 > so the event will only be written if a consumer is listening for events from
@@ -198,7 +198,7 @@ Since each parameter may require the use of 0, 1, or 2 descriptors, it is
 possible to hit the data descriptor limit (128) before hitting the argument
 limit (99).
 
-> [!Important]
+> [!IMPORTANT]
 > Try to avoid large events. ETW is primarily designed for handling
 > small events. **TraceLoggingWriteActivity** will silently drop any event that
 > is too large. The event's size is based on the total of the event's headers

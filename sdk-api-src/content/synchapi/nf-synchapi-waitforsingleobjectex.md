@@ -9,7 +9,7 @@ ms.assetid: 530b5340-f8b2-4e00-a3ca-87a7c7372482
 ms.date: 12/05/2018
 ms.keywords: WaitForSingleObjectEx, WaitForSingleObjectEx function, _win32_waitforsingleobjectex, base.waitforsingleobjectex, synchapi/WaitForSingleObjectEx, winbase/WaitForSingleObjectEx
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

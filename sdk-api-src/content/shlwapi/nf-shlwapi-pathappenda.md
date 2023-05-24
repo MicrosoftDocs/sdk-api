@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathAppendA
 title: PathAppendA function (shlwapi.h)
-description: Appends one path to the end of another.
-helpviewer_keywords: ["PathAppend","PathAppend function [Windows Shell]","PathAppendA","PathAppendW","_win32_PathAppend","shell.PathAppend","shlwapi/PathAppend","shlwapi/PathAppendA","shlwapi/PathAppendW"]
+description: Appends one path to the end of another. (ANSI)
+helpviewer_keywords: ["PathAppendA", "shlwapi/PathAppendA"]
 old-location: shell\PathAppend.htm
 tech.root: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9

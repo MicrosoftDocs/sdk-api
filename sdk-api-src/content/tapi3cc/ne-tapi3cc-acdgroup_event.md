@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3cc.ACDGROUP_EVENT
 title: ACDGROUP_EVENT (tapi3cc.h)
-description: The ACDGROUP_EVENT enum describes ACD group events. The ITACDGroupEvent::get_Event method returns a member of this enum to indicate the type of ACD group event that occurred.
+description: The ACDGROUP_EVENT enumeration (tapi3cc.h) describes ACD group events.
 helpviewer_keywords: ["ACDGE_GROUP_REMOVED","ACDGE_NEW_GROUP","ACDGROUP_EVENT","ACDGROUP_EVENT enumeration [TAPI 2.2]","_tapi3_acdgroup_event","tapi3.acdgroup_event","tapi3cc/ACDGE_GROUP_REMOVED","tapi3cc/ACDGE_NEW_GROUP","tapi3cc/ACDGROUP_EVENT"]
 old-location: tapi3\acdgroup_event.htm
 tech.root: tapi3
 ms.assetid: fb3de7e5-5a29-4f7b-8b2a-252536dedae6
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ACDGE_GROUP_REMOVED, ACDGE_NEW_GROUP, ACDGROUP_EVENT, ACDGROUP_EVENT enumeration [TAPI 2.2], _tapi3_acdgroup_event, tapi3.acdgroup_event, tapi3cc/ACDGE_GROUP_REMOVED, tapi3cc/ACDGE_NEW_GROUP, tapi3cc/ACDGROUP_EVENT
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

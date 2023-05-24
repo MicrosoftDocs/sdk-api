@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetVisibleRanges
 title: ITextProvider::GetVisibleRanges (uiautomationcore.h)
-description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
+description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text. (ITextProvider.GetVisibleRanges)
 helpviewer_keywords: ["GetVisibleRanges","GetVisibleRanges method [Windows Accessibility]","GetVisibleRanges method [Windows Accessibility]","ITextProvider interface","ITextProvider interface [Windows Accessibility]","GetVisibleRanges method","ITextProvider.GetVisibleRanges","ITextProvider::GetVisibleRanges","uiauto.uiauto_ITextProvider_GetVisibleRanges","uiauto_ITextProvider_GetVisibleRanges","uiautomationcore/ITextProvider::GetVisibleRanges","winauto.uiauto_ITextProvider_GetVisibleRanges"]
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
 tech.root: WinAuto

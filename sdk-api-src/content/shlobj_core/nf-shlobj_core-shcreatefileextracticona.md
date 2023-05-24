@@ -4,7 +4,7 @@ tech.root: shell
 title: SHCreateFileExtractIconA
 ms.date: 04/14/2021
 targetos: Windows
-description: SHCreateFileExtractIcon may be altered or unavailable.
+description: SHCreateFileExtractIcon may be altered or unavailable. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

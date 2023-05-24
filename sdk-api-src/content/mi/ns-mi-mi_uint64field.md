@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Uint64Field
 title: MI_Uint64Field (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Uint64Field)
 helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Uint64Field","MI_Uint64Field structure [Windows Management Infrastructure (MI)]","mi/MI_Uint64Field","wmi._mi_uint64field","wmi_v2.mi_uint64field"]
 old-location: wmi_v2\mi_uint64field.htm
 tech.root: wmi_v2

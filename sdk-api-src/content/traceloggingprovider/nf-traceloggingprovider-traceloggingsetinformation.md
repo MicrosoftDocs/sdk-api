@@ -2,7 +2,7 @@
 UID: NF:traceloggingprovider.TraceLoggingSetInformation
 title: TraceLoggingSetInformation
 description: Configures a TraceLogging provider by calling EventSetInformation.
-ms.date: 5/7/2019
+ms.date: 06/06/2022
 ms.keywords: TraceLoggingSetInformation
 targetos: Windows
 req.assembly:

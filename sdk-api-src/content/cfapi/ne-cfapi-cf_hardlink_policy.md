@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_HARDLINK_POLICY","CF_HARDLINK_POLICY enumeration","CF_
 old-location: cloudapi\cf_hardlink_policy.htm
 tech.root: cloudapi
 ms.assetid: 23FFC4E8-0CB7-4FF4-A3C3-2E8FB2C74497
-ms.date: 12/05/2018
+ms.date: 03/29/2023
 ms.keywords: CF_HARDLINK_POLICY, CF_HARDLINK_POLICY enumeration, CF_HARDLINK_POLICY_ALLOWED, CF_HARDLINK_POLICY_DEFAULT, cfapi/CF_HARDLINK_POLICY, cfapi/CF_HARDLINK_POLICY_ALLOWED, cfapi/CF_HARDLINK_POLICY_DEFAULT, cloudApi.cf_hardlink_policy
 req.header: cfapi.h
 req.include-header: 
@@ -61,5 +61,8 @@ Hard links can be created on a placeholder under the same sync root or no sync r
 
 ## -remarks
 
-If hard links are enabled, applications can create as many hard links as the file system supports so long as the links are under the same sync root or no sync root. Hard links and placeholder operations that are not compatible with this policy will fail with the error: HRESULT(ERROR_CLOUD_FILES_INCOMPATIBLE_HARDLINKS).
+If hard links are enabled, applications can create as many hard links as the file system supports so long as the links are under the same sync root or no sync root. Hard links and placeholder operations that are not compatible with this policy will fail with the error: **HRESULT(ERROR_CLOUD_FILES_INCOMPATIBLE_HARDLINKS)**.
 
+## -see-also
+
+[CF_SYNC_POLICIES](ns-cfapi-cf_sync_policies.md)

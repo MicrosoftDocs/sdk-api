@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDocumentCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument">IXpsOMDocument</a> interface pointers.

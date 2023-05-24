@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel (uiautomationclient.h)
-description: Retrieves an interface used to access the underlying object model of the provider.
+description: Retrieves an interface used to access the underlying object model of the provider. (IUIAutomationObjectModelPattern.GetUnderlyingObjectModel)
 helpviewer_keywords: ["GetUnderlyingObjectModel","GetUnderlyingObjectModel method [Windows Accessibility]","GetUnderlyingObjectModel method [Windows Accessibility]","IUIAutomationObjectModelPattern interface","IUIAutomationObjectModelPattern interface [Windows Accessibility]","GetUnderlyingObjectModel method","IUIAutomationObjectModelPattern.GetUnderlyingObjectModel","IUIAutomationObjectModelPattern::GetUnderlyingObjectModel","uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel","winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel"]
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel.htm
 tech.root: WinAuto

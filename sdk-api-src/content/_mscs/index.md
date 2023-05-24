@@ -4,7 +4,7 @@ title: Windows Clustering
 ms.assetid: 4a4e5260-2486-38d5-9a4b-e7c5cebf7cdf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Clustering

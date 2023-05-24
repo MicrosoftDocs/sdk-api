@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgCredentials_SSIProviderA
 title: SecPkgCredentials_SSIProviderA (sspi.h)
-description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure.
+description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure. (ANSI)
 helpviewer_keywords: ["*PSecPkgCredentials_SSIProviderA","PSecPkgCredentials_SSIProvider","PSecPkgCredentials_SSIProvider structure pointer [Security]","SecPkgCredentials_SSIProvider","SecPkgCredentials_SSIProvider structure [Security]","SecPkgCredentials_SSIProviderA","SecPkgCredentials_SSIProviderW","security.secpkgcredentials_ssiprovider","sspi/PSecPkgCredentials_SSIProvider","sspi/SecPkgCredentials_SSIProvider","sspi/SecPkgCredentials_SSIProviderA","sspi/SecPkgCredentials_SSIProviderW"]
 old-location: security\secpkgcredentials_ssiprovider.htm
 tech.root: security

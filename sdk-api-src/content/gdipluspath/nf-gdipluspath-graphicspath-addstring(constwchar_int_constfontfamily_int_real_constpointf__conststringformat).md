@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString(constWCHAR,INT,constFontFamily,INT,REAL,constPointF&,constStringFormat)
 title: GraphicsPath::AddString
-description: The GraphicsPath::AddString method adds the outline of a string to this path.
+description: The GraphicsPath::AddString method adds the outline of a string to this path. (overload 1/3)
 tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddString"]
 ms.assetid: 1bed1611-addc-464c-a7c9-64810e922a5e

@@ -1,5 +1,5 @@
 ---
-UID: NE:dvdmedia.__unnamed_enum_3
+UID: NE:dvdmedia.AM_DVDCOPYSTATE
 title: AM_DVDCOPYSTATE (dvdmedia.h)
 description: Specifies the copy protection state.
 helpviewer_keywords: ["AM_DVDCOPYSTATE","AM_DVDCOPYSTATE enumeration [DirectShow]","AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED","AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED","AM_DVDCOPYSTATE_DONE","AM_DVDCOPYSTATE_INITIALIZE","AM_DVDCOPYSTATE_INITIALIZE_TITLE","dshow.am_dvdcopystate","dvdmedia/AM_DVDCOPYSTATE","dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED","dvdmedia/AM_DVDCOPYSTATE_AUTHENTICATION_REQUIRED","dvdmedia/AM_DVDCOPYSTATE_DONE","dvdmedia/AM_DVDCOPYSTATE_INITIALIZE","dvdmedia/AM_DVDCOPYSTATE_INITIALIZE_TITLE"]
@@ -81,3 +81,4 @@ The <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
+

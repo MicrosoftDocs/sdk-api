@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Documentation
 title: IRegistrationInfo::put_Documentation (taskschd.h)
-description: Gets or sets any additional documentation for the task.
+description: Gets or sets any additional documentation for the task. (Put)
 helpviewer_keywords: ["Documentation property [Task Scheduler]","Documentation property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Documentation property","IRegistrationInfo.Documentation","IRegistrationInfo.put_Documentation","IRegistrationInfo::Documentation","IRegistrationInfo::get_Documentation","IRegistrationInfo::put_Documentation","put_Documentation","taskschd.iregistrationinfo_documentation","taskschd/IRegistrationInfo::Documentation","taskschd/IRegistrationInfo::get_Documentation","taskschd/IRegistrationInfo::put_Documentation"]
 old-location: taskschd\iregistrationinfo_documentation.htm
 tech.root: taskschd

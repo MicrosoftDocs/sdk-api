@@ -90,10 +90,10 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a>
+<a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new[]</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
+The <a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
 
 </td>
 </tr>

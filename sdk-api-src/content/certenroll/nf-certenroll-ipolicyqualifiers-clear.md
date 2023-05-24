@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Clear
 title: IPolicyQualifiers::Clear (certenroll.h)
-description: Removes all objects from the collection.
+description: Removes all objects from the collection. (IPolicyQualifiers.Clear)
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IPolicyQualifiers interface","IPolicyQualifiers interface [Security]","Clear method","IPolicyQualifiers.Clear","IPolicyQualifiers::Clear","certenroll/IPolicyQualifiers::Clear","security.ipolicyqualifiers_clear_method"]
 old-location: security\ipolicyqualifiers_clear_method.htm
 tech.root: security

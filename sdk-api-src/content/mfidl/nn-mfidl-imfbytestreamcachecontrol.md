@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFByteStreamCacheControl
 title: IMFByteStreamCacheControl (mfidl.h)
-description: Controls how a network byte stream transfers data to a local cache.
+description: Controls how a network byte stream transfers data to a local cache. (IMFByteStreamCacheControl)
 helpviewer_keywords: ["IMFByteStreamCacheControl","IMFByteStreamCacheControl interface [Media Foundation]","IMFByteStreamCacheControl interface [Media Foundation]","described","mf.imfbytestreamcachecontrol","mfidl/IMFByteStreamCacheControl"]
 old-location: mf\imfbytestreamcachecontrol.htm
 tech.root: mf

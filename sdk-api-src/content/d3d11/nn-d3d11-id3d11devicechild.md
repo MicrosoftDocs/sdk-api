@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11DeviceChild
 title: ID3D11DeviceChild (d3d11.h)
-description: A device-child interface accesses data used by a device.
+description: A device-child interface accesses data used by a device. (ID3D11DeviceChild)
 helpviewer_keywords: ["ID3D11DeviceChild","ID3D11DeviceChild interface [Direct3D 11]","ID3D11DeviceChild interface [Direct3D 11]","described","d3d11/ID3D11DeviceChild","direct3d11.id3d11devicechild","ea2a7e4d-06b6-a8d0-51ff-52cc4806e595"]
 old-location: direct3d11\id3d11devicechild.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInputArea
 title: ITextInputPanel::get_DefaultInputArea (peninputpanel.h)
-description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
+description: Gets or sets the default input area as specified by the PanelInputArea Enumeration. (Get)
 helpviewer_keywords: ["3e221516-631a-4d15-a9ef-bd05c6928067","DefaultInputArea property [Tablet PC]","DefaultInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInputArea property","ITextInputPanel.DefaultInputArea","ITextInputPanel.get_DefaultInputArea","ITextInputPanel.put_DefaultInputArea","ITextInputPanel::DefaultInputArea","ITextInputPanel::get_DefaultInputArea","ITextInputPanel::put_DefaultInputArea","get_DefaultInputArea","peninputpanel/ITextInputPanel::DefaultInputArea","peninputpanel/ITextInputPanel::get_DefaultInputArea","peninputpanel/ITextInputPanel::put_DefaultInputArea","tablet.itextinputpanel_defaultinputarea"]
 old-location: tablet\itextinputpanel_defaultinputarea.htm
 tech.root: tablet

@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.CHString
 title: CHString::CHString
-description: 
+description: The CHString::CHString function initializes a new CHString object with the specified data.
 tech.root: wmi
 helpviewer_keywords: ["CHString::CHString"]
 ms.assetid: cb7da79b-f808-4f2d-ac33-559fdc9a9978
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::CHString
 targetos: Windows
 req.assembly: 

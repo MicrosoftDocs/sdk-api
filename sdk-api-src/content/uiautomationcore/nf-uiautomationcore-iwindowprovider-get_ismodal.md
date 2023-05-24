@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_IsModal
 title: IWindowProvider::get_IsModal (uiautomationcore.h)
-description: Indicates whether the window is modal.
+description: Indicates whether the window is modal. (IWindowProvider.get_IsModal)
 helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","IsModal property","IWindowProvider.IsModal","IWindowProvider.get_IsModal","IWindowProvider::IsModal","IWindowProvider::get_IsModal","IsModal property [Windows Accessibility]","IsModal property [Windows Accessibility]","IWindowProvider interface","get_IsModal","uiauto.uiauto_IWindowProvider_IsModal","uiauto_IWindowProvider_IsModal","uiautomationcore/IWindowProvider::IsModal","uiautomationcore/IWindowProvider::get_IsModal","winauto.uiauto_IWindowProvider_IsModal"]
 old-location: winauto\uiauto_IWindowProvider_IsModal.htm
 tech.root: WinAuto

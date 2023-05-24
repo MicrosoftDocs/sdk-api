@@ -59,7 +59,7 @@ The <b>IMSVidAnalogTuner2</b> interface represents an analog-only tuner card tha
 
 The <b>IMSVidAnalogTuner2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>. <b>IMSVidAnalogTuner2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

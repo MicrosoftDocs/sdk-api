@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignatureId
 title: IXpsSigningOptions::SetSignatureId (xpsdigitalsignature.h)
-description: Sets the value of the Id attribute of the Signature element.
+description: Sets the value of the Id attribute of the Signature element. (IXpsSigningOptions.SetSignatureId)
 helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetSignatureId method","IXpsSigningOptions.SetSignatureId","IXpsSigningOptions::SetSignatureId","SetSignatureId","SetSignatureId method [XPS Documents and Packaging]","SetSignatureId method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setsignatureid","xpsdigitalsignature/IXpsSigningOptions::SetSignatureId"]
 old-location: xps\ixpssigningoptions_setsignatureid.htm
 tech.root: xps

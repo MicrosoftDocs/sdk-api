@@ -1,7 +1,7 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryUIBlobFromInteractiveUIInputFields
 title: EapPeerQueryUIBlobFromInteractiveUIInputFields function (eapmethodpeerapis.h)
-description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
+description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions. (EapPeerQueryUIBlobFromInteractiveUIInputFields)
 helpviewer_keywords: ["EapPeerQueryUIBlobFromInteractiveUIInputFields","EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost]","eaphost.eappeerqueryuiblobfrominteractiveuiinputfields","eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields"]
 old-location: eaphost\eappeerqueryuiblobfrominteractiveuiinputfields.htm
 tech.root: eaphost

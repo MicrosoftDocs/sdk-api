@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfReferenceProtectedHandle","CfReferenceProtectedHandle f
 old-location: cloudapi\cfreferenceprotectedhandle.htm
 tech.root: cloudapi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfReferenceProtectedHandle function
 
-
 ## -description
 
 Allows the caller to reference a protected handle to a Win32 handle which can be used with non-CfApi Win32 APIs.
@@ -60,10 +59,14 @@ The protected handle of a placeholder file.
 
 ## -returns
 
-If this function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
+If this function succeeds, it returns `TRUE`. Otherwise, it returns `FALSE`.
 
 ## -remarks
 
-Every <b>CfReferenceProtectedHandle</b> call must be matched  with a <a href="/windows/desktop/api/cfapi/nf-cfapi-cfreleaseprotectedhandle">CfReleaseProtectedHandle</a> call. It is not recommended to reference a protected handle for a long period of time, as doing so will prevent the oplock break notification from being acknowledged.
+Every **CfReferenceProtectedHandle** call must be matched  with a [CfReleaseProtectedHandle](nf-cfapi-cfreleaseprotectedhandle.md) call. It is not recommended to reference a protected handle for a long period of time, as doing so will prevent the oplock break notification from being acknowledged.
 
- The caller should instead break up long running tasks into smaller sub-tasks and reference/release the protected handle for each sub-task.
+The caller should instead break up long running tasks into smaller sub-tasks and reference/release the protected handle for each sub-task.
+
+## -see-also
+
+[CfReleaseProtectedHandle](nf-cfapi-cfreleaseprotectedhandle.md)

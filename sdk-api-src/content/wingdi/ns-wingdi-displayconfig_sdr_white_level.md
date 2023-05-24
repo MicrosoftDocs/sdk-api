@@ -2,9 +2,9 @@
 UID: NS:wingdi._DISPLAYCONFIG_SDR_WHITE_LEVEL
 tech.root: 
 title: DISPLAYCONFIG_SDR_WHITE_LEVEL
-ms.date: 
+ms.date: 08/08/2022
 targetos: Windows
-description: 
+description: The DISPLAYCONFIG_SDR_WHITE_LEVEL structure (wingdi.h) contains information about a display's current SDR white level.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

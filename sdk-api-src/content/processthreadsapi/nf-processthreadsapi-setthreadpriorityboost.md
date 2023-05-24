@@ -4,12 +4,12 @@ title: SetThreadPriorityBoost function (processthreadsapi.h)
 description: Disables or enables the ability of the system to temporarily boost the priority of a thread.
 helpviewer_keywords: ["SetThreadPriorityBoost","SetThreadPriorityBoost function","_win32_setthreadpriorityboost","base.setthreadpriorityboost","processthreadsapi/SetThreadPriorityBoost","winbase/SetThreadPriorityBoost"]
 old-location: base\setthreadpriorityboost.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33
 ms.date: 12/05/2018
 ms.keywords: SetThreadPriorityBoost, SetThreadPriorityBoost function, _win32_setthreadpriorityboost, base.setthreadpriorityboost, processthreadsapi/SetThreadPriorityBoost, winbase/SetThreadPriorityBoost
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

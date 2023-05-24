@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IEnumVdsObject
 title: IEnumVdsObject (vds.h)
-description: Enumerates through a set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, disk packs, disks, volumes, or volume plexes.
+description: The IEnumVdsObject interface (vds.h) enumerates through a set of VDS objects of a given type.
 helpviewer_keywords: ["IEnumVdsObject","IEnumVdsObject interface [VDS]","IEnumVdsObject interface [VDS]","described","base.ienumvdsobject","vds/IEnumVdsObject","vdshwprv/IEnumVdsObject"]
 old-location: base\ienumvdsobject.htm
 tech.root: base
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Enumerates through a 
    set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, 

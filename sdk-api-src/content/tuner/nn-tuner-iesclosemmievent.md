@@ -56,7 +56,7 @@ Receives <b>CloseMMI</b> events from a Media Sink Device (MSD) device under the 
 
 The <b>IESCloseMmiEvent</b> interface inherits from <b>IESEvent</b>. <b>IESCloseMmiEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

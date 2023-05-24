@@ -2,7 +2,7 @@
 UID: NE:spatialaudioclient.SPATIAL_AUDIO_STREAM_OPTIONS
 tech.root: CoreAudio
 title: SPATIAL_AUDIO_STREAM_OPTIONS
-ms.date: 01/31/2022
+ms.date: 08/16/2022
 targetos: Windows
 description: Specifies audio stream options for calls to ActivateSpatialAudioStream.
 prerelease: false
@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-Specifies audio stream options for calls to <href:NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream>.
+Specifies audio stream options for calls to <xref:NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream>.
 
 ## -enum-fields
 

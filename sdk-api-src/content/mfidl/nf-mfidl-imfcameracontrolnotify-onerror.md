@@ -61,6 +61,7 @@ The internal error code associated with the error. Possible error values include
 
 After the call to this function returns, the system will cleanup and remove the reference to the [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md). Clients do not need to call [IMFCameraControlMonitor::Shutdown](nf-mfidl-imfcameracontrolmonitor-shutdown.md) after receiving an **OnError** notification.
 
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointY(float)
 title: IDCompositionBrightnessEffect::SetBlackPointY (dcomp.h)
-description: Sets the y value of the black point.
+description: Sets the y value of the black point. (overload 1/2)
 helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointY method","IDCompositionBrightnessEffect.SetBlackPointY","IDCompositionBrightnessEffect::SetBlackPointY","IDCompositionBrightnessEffect::SetBlackPointY(float)","SetBlackPointY","SetBlackPointY method [DirectComposition]","SetBlackPointY method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointY","directcomp.idcompositionbrightnesseffect_setblackpointy"]
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy.htm
 tech.root: directcomp

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMRemoteDictionaryResourceCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface pointers.

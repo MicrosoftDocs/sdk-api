@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_ReceiptAddress
 title: IFaxDocument::get_ReceiptAddress (faxcomex.h)
-description: The IFaxDocument::get_ReceiptAddress property is a null-terminated string that indicates the email address to which the fax service should send a delivery receipt when the fax job reaches a final state.
+description: The IFaxDocument::get_ReceiptAddress property is a null-terminated string that indicates the email address to which the fax service should send a delivery receipt when the fax job reaches a final state. (Get)
 helpviewer_keywords: ["IFaxDocument interface [Fax Service]","ReceiptAddress property","IFaxDocument.ReceiptAddress","IFaxDocument.get_ReceiptAddress","IFaxDocument.put_ReceiptAddress","IFaxDocument::ReceiptAddress","IFaxDocument::get_ReceiptAddress","IFaxDocument::put_ReceiptAddress","ReceiptAddress property [Fax Service]","ReceiptAddress property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.receiptaddress","fax._mfax_faxdocument_cpp_mfax_faxdocument_receiptaddress_cpp","fax._mfax_faxdocument_receiptaddress","faxcomex/IFaxDocument::ReceiptAddress","faxcomex/IFaxDocument::get_ReceiptAddress","faxcomex/IFaxDocument::put_ReceiptAddress","get_ReceiptAddress"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_receiptaddress_cpp.htm
 tech.root: Fax

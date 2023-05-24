@@ -1,5 +1,5 @@
 ---
-UID: NE:secext.__unnamed_enum_0
+UID: NE:secext.EXTENDED_NAME_FORMAT
 title: EXTENDED_NAME_FORMAT (secext.h)
 description: Specifies a format for a directory service object name.
 helpviewer_keywords: ["*PEXTENDED_NAME_FORMAT","EXTENDED_NAME_FORMAT","EXTENDED_NAME_FORMAT enumeration","NameCanonical","NameCanonicalEx","NameDisplay","NameDnsDomain","NameFullyQualifiedDN","NameSamCompatible","NameServicePrincipal","NameUniqueId","NameUnknown","NameUserPrincipal","PEXTENDED_NAME_FORMAT","PEXTENDED_NAME_FORMAT enumeration pointer","_win32_extended_name_format_str","base.extended_name_format_str","secext/EXTENDED_NAME_FORMAT","secext/NameCanonical","secext/NameCanonicalEx","secext/NameDisplay","secext/NameDnsDomain","secext/NameFullyQualifiedDN","secext/NameSamCompatible","secext/NameServicePrincipal","secext/NameUniqueId","secext/NameUnknown","secext/NameUserPrincipal","secext/PEXTENDED_NAME_FORMAT"]
@@ -99,7 +99,11 @@ The DNS domain name followed by a backward-slash and the SAM user name.
 
 ### -field NameGivenName:13
 
+The first name or given name of the user. Note: This type is only available for **GetUserNameEx** calls for an Active Directory user.
+
 ### -field NameSurname:14
+
+The last name or surname of the user. Note: This type is only available for **GetUserNameEx** calls for an Active Directory user.
 
 ## -see-also
 
@@ -112,3 +116,4 @@ The DNS domain name followed by a backward-slash and the SAM user name.
 
 
 <a href="/windows/desktop/api/secext/nf-secext-translatenamea">TranslateName</a>
+

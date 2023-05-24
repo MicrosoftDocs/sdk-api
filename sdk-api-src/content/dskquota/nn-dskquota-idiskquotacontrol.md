@@ -55,7 +55,7 @@ Controls the disk quota facilities of a single NTFS file system volume. The clie
 
 ## -inheritance
 
-The <b>IDiskQuotaControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaControl</b> also has these types of members:
+The <b>IDiskQuotaControl</b> interface inherits from the <a href="/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> interface. <b>IDiskQuotaControl</b> also has these types of members:
 
 ## -see-also
 

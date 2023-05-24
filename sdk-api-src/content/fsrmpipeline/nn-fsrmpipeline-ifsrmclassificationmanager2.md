@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationManager2
 title: IFsrmClassificationManager2 (fsrmpipeline.h)
-description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
+description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting. (IFsrmClassificationManager2)
 helpviewer_keywords: ["IFsrmClassificationManager2","IFsrmClassificationManager2 interface [File Server Resource Manager]","IFsrmClassificationManager2 interface [File Server Resource Manager]","described","fs.ifsrmclassificationmanager2","fsrm.ifsrmclassificationmanager2","fsrmpipeline/IFsrmClassificationManager2"]
 old-location: fsrm\ifsrmclassificationmanager2.htm
 tech.root: fsrm

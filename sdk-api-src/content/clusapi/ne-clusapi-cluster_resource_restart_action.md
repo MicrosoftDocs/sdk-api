@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_RESTART_ACTION
 title: CLUSTER_RESOURCE_RESTART_ACTION (clusapi.h)
-description: Used by the RestartAction resource common property to specify the action to be taken by the cluster service if the resource fails.
+description: CLUSTER_RESOURCE_RESTART_ACTION (clusapi.h) is used by the RestartAction resource common property to specify the action to be taken by the cluster service if the resource fails.
 helpviewer_keywords: ["CLUSTER_RESOURCE_RESTART_ACTION","CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster]","CRRA","CRRA enumeration [Failover Cluster]","ClusterResourceDontRestart","ClusterResourceRestartActionCount","ClusterResourceRestartNoNotify","ClusterResourceRestartNotify","_CLUSTER_RESOURCE_RESTART_ACTION","_CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster]","clusapi/CLUSTER_RESOURCE_RESTART_ACTION","clusapi/CRRA","clusapi/ClusterResourceDontRestart","clusapi/ClusterResourceRestartActionCount","clusapi/ClusterResourceRestartNoNotify","clusapi/ClusterResourceRestartNotify","clusapi/_CLUSTER_RESOURCE_RESTART_ACTION","msclus/CLUSTER_RESOURCE_RESTART_ACTION","msclus/CRRA","msclus/ClusterResourceDontRestart","msclus/ClusterResourceRestartActionCount","msclus/ClusterResourceRestartNoNotify","msclus/ClusterResourceRestartNotify","msclus/_CLUSTER_RESOURCE_RESTART_ACTION","mscs.cluster_resource_restart_action"]
 old-location: mscs\cluster_resource_restart_action.htm
 tech.root: MsCS
 ms.assetid: 6300bdb7-2349-44f8-913a-dd84813bd3bd
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_RESOURCE_RESTART_ACTION, CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], CRRA, CRRA enumeration [Failover Cluster], ClusterResourceDontRestart, ClusterResourceRestartActionCount, ClusterResourceRestartNoNotify, ClusterResourceRestartNotify, _CLUSTER_RESOURCE_RESTART_ACTION, _CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_RESTART_ACTION, clusapi/CRRA, clusapi/ClusterResourceDontRestart, clusapi/ClusterResourceRestartActionCount, clusapi/ClusterResourceRestartNoNotify, clusapi/ClusterResourceRestartNotify, clusapi/_CLUSTER_RESOURCE_RESTART_ACTION, msclus/CLUSTER_RESOURCE_RESTART_ACTION, msclus/CRRA, msclus/ClusterResourceDontRestart, msclus/ClusterResourceRestartActionCount, msclus/ClusterResourceRestartNoNotify, msclus/ClusterResourceRestartNotify, msclus/_CLUSTER_RESOURCE_RESTART_ACTION, mscs.cluster_resource_restart_action
 req.header: clusapi.h
 req.include-header: 

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DStateBlock9.Capture
 title: IDirect3DStateBlock9::Capture (d3d9.h)
-description: Capture the current value of states that are included in a stateblock.
+description: The IDirect3DStateBlock9::Capture (d3d9.h) method captures the current value of states that are included in a stateblock.
 helpviewer_keywords: ["2f57837a-b161-c1f5-e5ba-7e4fda75185f","Capture","Capture method [Direct3D 9]","Capture method [Direct3D 9]","IDirect3DStateBlock9 interface","IDirect3DStateBlock9 interface [Direct3D 9]","Capture method","IDirect3DStateBlock9.Capture","IDirect3DStateBlock9::Capture","d3d9helper/IDirect3DStateBlock9::Capture","direct3d9.idirect3dstateblock9__capture"]
 old-location: direct3d9\idirect3dstateblock9__capture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9__capture.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 2f57837a-b161-c1f5-e5ba-7e4fda75185f, Capture, Capture method [Direct3D 9], Capture method [Direct3D 9],IDirect3DStateBlock9 interface, IDirect3DStateBlock9 interface [Direct3D 9],Capture method, IDirect3DStateBlock9.Capture, IDirect3DStateBlock9::Capture, d3d9helper/IDirect3DStateBlock9::Capture, direct3d9.idirect3dstateblock9__capture
 req.header: d3d9.h
 req.include-header: D3D9.h

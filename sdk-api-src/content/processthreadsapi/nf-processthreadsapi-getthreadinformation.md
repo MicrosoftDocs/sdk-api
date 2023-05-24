@@ -1,10 +1,10 @@
 ---
 UID: NF:processthreadsapi.GetThreadInformation
 title: GetThreadInformation function (processthreadsapi.h)
-description: Retrieves information about the specified thread.
+description: Retrieves information about the specified thread. (GetThreadInformation)
 helpviewer_keywords: ["GetThreadInformation","GetThreadInformation function","base.getthreadinformation","processthreadsapi/GetThreadInformation"]
 old-location: base\getthreadinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
 ms.date: 01/21/2022
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation

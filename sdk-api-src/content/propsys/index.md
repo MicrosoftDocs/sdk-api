@@ -4,7 +4,7 @@ title: Propsys.h header
 ms.assetid: 165088b4-d689-36a0-a379-9c0eac613e05
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: properties
 f1_keywords:
  - propsys

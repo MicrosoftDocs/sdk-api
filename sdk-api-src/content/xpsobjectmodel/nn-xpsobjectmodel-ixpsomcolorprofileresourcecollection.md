@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMColorProfileResourceCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface pointers.

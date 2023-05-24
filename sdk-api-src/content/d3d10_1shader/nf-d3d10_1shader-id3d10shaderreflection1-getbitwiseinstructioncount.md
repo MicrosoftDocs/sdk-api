@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetBitwiseInstructionCount
 title: ID3D10ShaderReflection1::GetBitwiseInstructionCount (d3d10_1shader.h)
-description: Gets the number of bitwise instructions.
+description: Gets the number of bitwise instructions. (ID3D10ShaderReflection1.GetBitwiseInstructionCount)
 helpviewer_keywords: ["GetBitwiseInstructionCount","GetBitwiseInstructionCount method [Direct3D 10]","GetBitwiseInstructionCount method [Direct3D 10]","ID3D10ShaderReflection1 interface","ID3D10ShaderReflection1 interface [Direct3D 10]","GetBitwiseInstructionCount method","ID3D10ShaderReflection1.GetBitwiseInstructionCount","ID3D10ShaderReflection1::GetBitwiseInstructionCount","d3d10_1shader/ID3D10ShaderReflection1::GetBitwiseInstructionCount","direct3d10.id3d10shaderreflection1_getbitwiseinstructioncount","f02502a1-d6e6-ca62-6303-d73c0804a05b"]
 old-location: direct3d10\id3d10shaderreflection1_getbitwiseinstructioncount.htm
 tech.root: direct3d10

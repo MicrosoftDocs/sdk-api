@@ -49,7 +49,7 @@ api_name:
  - EventAccessRemove
 ---
 
-# EventAccessRemove function
+# EventAccessRemove function (evntcons.h)
 
 
 ## -description

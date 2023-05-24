@@ -4,7 +4,7 @@ title: XPS Documents
 ms.assetid: 047318b5-29f7-3069-a13a-0bf4c2391b71
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # XPS Documents

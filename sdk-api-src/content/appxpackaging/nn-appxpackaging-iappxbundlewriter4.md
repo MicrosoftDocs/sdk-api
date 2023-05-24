@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter4
 title: IAppxBundleWriter4 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.
+description: Provides a write-only object model for bundle packages. (IAppxBundleWriter4)
 helpviewer_keywords: ["IAppxBundleWriter4","IAppxBundleWriter4 interface [App packaging and management]","IAppxBundleWriter4 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter4","appxpkg.iappxbundlewriter4"]
 old-location: appxpkg\iappxbundlewriter4.htm
 tech.root: appxpkg

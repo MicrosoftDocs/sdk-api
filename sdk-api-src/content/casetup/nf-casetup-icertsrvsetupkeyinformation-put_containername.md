@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_ContainerName
 title: ICertSrvSetupKeyInformation::put_ContainerName (casetup.h)
-description: Gets or sets the name used by the cryptographic service provider (CSP) to generate, store, or access the key.
+description: Gets or sets the name used by the cryptographic service provider (CSP) to generate, store, or access the key. (Put)
 helpviewer_keywords: ["ContainerName property [Security]","ContainerName property [Security]","ICertSrvSetupKeyInformation interface","ICertSrvSetupKeyInformation interface [Security]","ContainerName property","ICertSrvSetupKeyInformation.ContainerName","ICertSrvSetupKeyInformation.put_ContainerName","ICertSrvSetupKeyInformation::ContainerName","ICertSrvSetupKeyInformation::get_ContainerName","ICertSrvSetupKeyInformation::put_ContainerName","casetup/ICertSrvSetupKeyInformation::ContainerName","casetup/ICertSrvSetupKeyInformation::get_ContainerName","casetup/ICertSrvSetupKeyInformation::put_ContainerName","put_ContainerName","security.icertsrvsetupkeyinformation_containername"]
 old-location: security\icertsrvsetupkeyinformation_containername.htm
 tech.root: security

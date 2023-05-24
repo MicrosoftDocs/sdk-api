@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.operator-not-equal-to~r1
 title: operator!= (not equal to)
-description: 
+description: The chstring.operator-not-equal-to~r1 function compares two strings. These operators are a convenient substitute for the case-sensitive Compare method.
 tech.root: wmi
 helpviewer_keywords: ["operator!="]
 ms.assetid: 1104b5d3-fac7-4256-9fe5-0dcd428065f6
-ms.date: 05/20/2019
+ms.date: 08/10/2022
 ms.keywords: operator!=
 targetos: Windows
 req.assembly: 

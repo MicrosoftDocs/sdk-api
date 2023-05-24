@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderType.GetProviderType
 title: IVdsHwProviderType::GetProviderType (vdshwprv.h)
-description: Retrieves the type of the hardware provider.
+description: The IVdsHwProviderType::GetProviderType (vdshwprv.h) method retrieves the type of the hardware provider.
 helpviewer_keywords: ["GetProviderType","GetProviderType method [VDS]","GetProviderType method [VDS]","IVdsHwProviderType interface","IVdsHwProviderType interface [VDS]","GetProviderType method","IVdsHwProviderType.GetProviderType","IVdsHwProviderType::GetProviderType","base.ivdshwprovidertype_getprovidertype","vds/IVdsHwProviderType::GetProviderType","vdshwprv/IVdsHwProviderType::GetProviderType"]
 old-location: base\ivdshwprovidertype_getprovidertype.htm
 tech.root: base
 ms.assetid: e88fd2df-531d-46d8-a91b-9b9f8578e57b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProviderType, GetProviderType method [VDS], GetProviderType method [VDS],IVdsHwProviderType interface, IVdsHwProviderType interface [VDS],GetProviderType method, IVdsHwProviderType.GetProviderType, IVdsHwProviderType::GetProviderType, base.ivdshwprovidertype_getprovidertype, vds/IVdsHwProviderType::GetProviderType, vdshwprv/IVdsHwProviderType::GetProviderType
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Retrieves the type of the hardware provider.
 

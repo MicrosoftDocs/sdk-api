@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_SUBRESOURCE_DATA
 title: D3D10_SUBRESOURCE_DATA (d3d10.h)
-description: Specifies data for initializing a subresource.
+description: Specifies data for initializing a subresource. (D3D10_SUBRESOURCE_DATA)
 helpviewer_keywords: ["D3D10_SUBRESOURCE_DATA","D3D10_SUBRESOURCE_DATA structure [Direct3D 10]","d3d10/D3D10_SUBRESOURCE_DATA","direct3d10.d3d10_subresource_data","e1c1f9a8-c810-27f6-5e4c-85302c900510"]
 old-location: direct3d10\d3d10_subresource_data.htm
 tech.root: direct3d10

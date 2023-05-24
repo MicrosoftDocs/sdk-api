@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflection
 title: ID3D11ShaderReflection (d3d11shader.h)
-description: A shader-reflection interface accesses shader information.
+description: A shader-reflection interface accesses shader information. (ID3D11ShaderReflection)
 helpviewer_keywords: ["83fba8f9-987e-26d3-4909-fd45ac6e9df2","ID3D11ShaderReflection","ID3D11ShaderReflection interface [Direct3D 11]","ID3D11ShaderReflection interface [Direct3D 11]","described","d3d11shader/ID3D11ShaderReflection","direct3d11.id3d11shaderreflection"]
 old-location: direct3d11\id3d11shaderreflection.htm
 tech.root: direct3d11

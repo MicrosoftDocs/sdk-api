@@ -4,7 +4,7 @@ title: PROCESS_LEAP_SECOND_INFO (processthreadsapi.h)
 description: Specifies how the system handles positive leap seconds.
 helpviewer_keywords: ["*PPROCESS_LEAP_SECOND_INFO","PPROCESS_LEAP_SECOND_INFO","PPROCESS_LEAP_SECOND_INFO structure pointer","PROCESS_LEAP_SECOND_INFO","PROCESS_LEAP_SECOND_INFO structure","PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND","base.process_leap_second_info","processthreadsapi/PPROCESS_LEAP_SECOND_INFO","processthreadsapi/PROCESS_LEAP_SECOND_INFO"]
 old-location: base\process_leap_second_info.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 63AA6F71-506C-47EA-A7EF-8A8309B84257
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO structure pointer, PROCESS_LEAP_SECOND_INFO, PROCESS_LEAP_SECOND_INFO structure, PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND, base.process_leap_second_info, processthreadsapi/PPROCESS_LEAP_SECOND_INFO, processthreadsapi/PROCESS_LEAP_SECOND_INFO'

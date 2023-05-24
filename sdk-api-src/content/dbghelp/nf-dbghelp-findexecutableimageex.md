@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.FindExecutableImageEx
 title: FindExecutableImageEx function (dbghelp.h)
-description: Locates the specified executable file.
+description: The FindExecutableImageEx function (dbghelp.h) locates the specified executable file.
 helpviewer_keywords: ["FindExecutableImageEx","FindExecutableImageEx function","FindExecutableImageExW","_win32_findexecutableimageex","base.findexecutableimageex","dbghelp/FindExecutableImageEx","dbghelp/FindExecutableImageExW"]
 old-location: base\findexecutableimageex.htm
 tech.root: Debug
 ms.assetid: 7571e168-2e91-4c97-9139-8225d28cc399
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
 req.header: dbghelp.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_SPACE_TO_DEPTH_OPERATOR_DESC
 title: DML_SPACE_TO_DEPTH_OPERATOR_DESC
-description: Rearranges blocks of spatial data into depth. The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.
+description: Rearranges blocks of spatial data into depth. The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension. (DML_SPACE_TO_DEPTH_OPERATOR_DESC)
 helpviewer_keywords: ["DML_SPACE_TO_DEPTH_OPERATOR_DESC","DML_SPACE_TO_DEPTH_OPERATOR_DESC structure","direct3d12.dml_space_to_depth_operator_desc","directml/DML_SPACE_TO_DEPTH_OPERATOR_DESC"]
 old-location: direct3d12\dml_space_to_depth_operator_desc.htm
 tech.root: directml

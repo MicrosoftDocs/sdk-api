@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl.MF_MEDIASOURCE_STATUS_INFO
 title: MF_MEDIASOURCE_STATUS_INFO (mfidl.h)
-description: .
+description: . (MF_MEDIASOURCE_STATUS_INFO)
 helpviewer_keywords: ["MF_MEDIASOURCE_STATUS_INFO","MF_MEDIASOURCE_STATUS_INFO enumeration [Streaming Media Devices]","MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED","MF_MEDIASOURCE_STATUS_INFO_UNKNOWN","mfidl/MF_MEDIASOURCE_STATUS_INFO","mfidl/MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED","mfidl/MF_MEDIASOURCE_STATUS_INFO_UNKNOWN","stream.mf_mediasource_status_info"]
 old-location: stream\mf_mediasource_status_info.htm
 tech.root: stream

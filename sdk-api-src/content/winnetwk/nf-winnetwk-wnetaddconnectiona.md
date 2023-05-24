@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetAddConnectionA
 title: WNetAddConnectionA function (winnetwk.h)
-description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
-helpviewer_keywords: ["WNetAddConnection","WNetAddConnection function [Windows Networking (WNet)]","WNetAddConnectionA","WNetAddConnectionW","_win32_wnetaddconnection","winnetwk/WNetAddConnection","winnetwk/WNetAddConnectionA","winnetwk/WNetAddConnectionW","wnet.wnetaddconnection"]
+description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations. (ANSI)
+helpviewer_keywords: ["WNetAddConnectionA", "winnetwk/WNetAddConnectionA"]
 old-location: wnet\wnetaddconnection.htm
 tech.root: WNet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452

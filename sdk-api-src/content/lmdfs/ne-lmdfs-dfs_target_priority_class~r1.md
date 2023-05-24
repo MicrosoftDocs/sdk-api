@@ -1,7 +1,8 @@
 ---
 UID: NE:lmdfs._DFS_TARGET_PRIORITY_CLASS~r1
 title: DFS_TARGET_PRIORITY_CLASS
-ms.date: 01/30/2019
+description: The DFS_TARGET_PRIORITY_CLASS enumeration r1 (lmdfs.h) defines the set of possible DFS target priority class settings.
+ms.date: 08/16/2022
 ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
 targetos: Windows
 req.construct-type: enumeration

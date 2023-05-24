@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_6
+UID: NE:ntdsapi.DS_REPSYNCALL_EVENT
 title: DS_REPSYNCALL_EVENT (ntdsapi.h)
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
 helpviewer_keywords: ["DS_REPSYNCALL_EVENT","DS_REPSYNCALL_EVENT enumeration [Active Directory]","DS_REPSYNCALL_EVENT_ERROR","DS_REPSYNCALL_EVENT_FINISHED","DS_REPSYNCALL_EVENT_SYNC_COMPLETED","DS_REPSYNCALL_EVENT_SYNC_STARTED","ad.ds_repsyncall_event","ntdsapi/DS_REPSYNCALL_EVENT","ntdsapi/DS_REPSYNCALL_EVENT_ERROR","ntdsapi/DS_REPSYNCALL_EVENT_FINISHED","ntdsapi/DS_REPSYNCALL_EVENT_SYNC_COMPLETED","ntdsapi/DS_REPSYNCALL_EVENT_SYNC_STARTED"]
@@ -73,3 +73,4 @@ Execution of <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla"
 ## -see-also
 
 <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a>
+

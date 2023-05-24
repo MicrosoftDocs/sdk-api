@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegQueryValueA
 title: RegQueryValueA function (winreg.h)
-description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
-helpviewer_keywords: ["RegQueryValue","RegQueryValue function","RegQueryValueA","RegQueryValueW","_win32_regqueryvalue","base.regqueryvalue","winreg/RegQueryValue","winreg/RegQueryValueA","winreg/RegQueryValueW"]
+description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string. (ANSI)
+helpviewer_keywords: ["RegQueryValueA", "winreg/RegQueryValueA"]
 old-location: base\regqueryvalue.htm
 tech.root: winprog
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52

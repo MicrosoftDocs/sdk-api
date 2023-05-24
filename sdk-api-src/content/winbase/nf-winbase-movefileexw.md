@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.MoveFileExW
 title: MoveFileExW function (winbase.h)
-description: Moves an existing file or directory, including its children, with various move options.
+description: Moves an existing file or directory, including its children, with various move options. (Unicode)
 old-location: fs\movefileex.htm
 tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
@@ -84,7 +84,7 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, the
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "`\\?\`" to the path. For more information, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 
@@ -110,7 +110,7 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> and
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
+       "`\\?\`" to the path. For more information, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 

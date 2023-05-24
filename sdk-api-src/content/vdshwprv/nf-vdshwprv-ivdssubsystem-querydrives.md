@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryDrives
 title: IVdsSubSystem::QueryDrives (vdshwprv.h)
-description: Returns an object that enumerates the drives in the subsystem.
+description: The IVdsSubSystem::QueryDrives (vdshwprv.h) method returns an object that enumerates the drives in the subsystem.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","QueryDrives method","IVdsSubSystem.QueryDrives","IVdsSubSystem::QueryDrives","QueryDrives","QueryDrives method [VDS]","QueryDrives method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_querydrives","vds/IVdsSubSystem::QueryDrives","vdshwprv/IVdsSubSystem::QueryDrives"]
 old-location: base\ivdssubsystem_querydrives.htm
 tech.root: base
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.QueryDrives, IVdsSubSystem::QueryDrives, QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an object 
    that enumerates the drives in the subsystem.

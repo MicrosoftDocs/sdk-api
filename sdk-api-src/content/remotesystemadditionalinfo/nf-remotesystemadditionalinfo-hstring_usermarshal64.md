@@ -1,12 +1,12 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserMarshal64
 title: HSTRING_UserMarshal64 function (remotesystemadditionalinfo.h)
-description: Marshals an HSTRING object into the RPC buffer.
+description: The HSTRING_UserMarshal64 function marshals an HSTRING object into the RPC buffer. (HSTRING_UserMarshal64)
 helpviewer_keywords: ["HSTRING_UserMarshal64","HSTRING_UserMarshal64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserMarshal64","winrt.hstring_usermarshal64"]
 old-location: winrt\hstring_usermarshal64.htm
 tech.root: WinRT
 ms.assetid: 31B9885A-FE5B-4375-883E-F8DBD5F2F4D1
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserMarshal64, HSTRING_UserMarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal64, winrt.hstring_usermarshal64
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h

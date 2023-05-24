@@ -60,7 +60,7 @@ The handle of the key storage provider to create the key in. This handle is obta
 
 ### -param phKey [out]
 
-The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
+The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function. To delete the key file on disk, pass the handle to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptdeletekey">NCryptDeleteKey</a> function. This will also release the handle. So applications may pass the handle to either <b>NCryptFreeObject</b> or <b>NCryptDeleteKey</b>, but not both. 
 
 ### -param pszAlgId [in]
 

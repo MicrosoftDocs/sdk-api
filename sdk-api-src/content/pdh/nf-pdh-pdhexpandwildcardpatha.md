@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathA
 title: PdhExpandWildCardPathA function (pdh.h)
-description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function.
-helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPath","PdhExpandWildCardPath function [Perf]","PdhExpandWildCardPathA","PdhExpandWildCardPathW","_win32_pdhexpandwildcardpath","base.pdhexpandwildcardpath","pdh/PdhExpandWildCardPath","pdh/PdhExpandWildCardPathA","pdh/PdhExpandWildCardPathW","perf.pdhexpandwildcardpath"]
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters. To use handles to data sources, use the PdhExpandWildCardPathH function. (ANSI)
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS", "PDH_NOEXPANDINSTANCES", "PdhExpandWildCardPathA", "pdh/PdhExpandWildCardPathA"]
 old-location: perf\pdhexpandwildcardpath.htm
 tech.root: perf
 ms.assetid: 415da310-de56-4d58-8959-231426867526
@@ -112,6 +112,16 @@ Do not expand the counter name if the path contains a wildcard character for cou
 <td width="60%">
 Do not expand the instance name if the path contains a wildcard character for parent instance, instance name, or instance index.
 
+</td>
+</tr>
+	
+<tr>
+<td width="40%"><a id="PDH_REFRESHCOUNTERS"></a><a id="pdh_PDH_REFRESHCOUNTERS"></a><dl>
+<dt><b>PDH_REFRESHCOUNTERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Refresh the counter list.
 </td>
 </tr>
 </table>

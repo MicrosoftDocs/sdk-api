@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetInputParameterDesc
 title: ID3D11ShaderReflection::GetInputParameterDesc (d3d11shader.h)
-description: Get an input-parameter description for a shader.
+description: Get an input-parameter description for a shader. (ID3D11ShaderReflection.GetInputParameterDesc)
 helpviewer_keywords: ["06783a52-4fd2-1c86-8b0d-40efb3e6ac1e","GetInputParameterDesc","GetInputParameterDesc method [Direct3D 11]","GetInputParameterDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetInputParameterDesc method","ID3D11ShaderReflection.GetInputParameterDesc","ID3D11ShaderReflection::GetInputParameterDesc","d3d11shader/ID3D11ShaderReflection::GetInputParameterDesc","direct3d11.id3d11shaderreflection_getinputparameterdesc"]
 old-location: direct3d11\id3d11shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d11

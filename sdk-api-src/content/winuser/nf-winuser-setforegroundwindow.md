@@ -76,33 +76,33 @@ A handle to the window that should be activated and brought to the foreground.
 Type: <b>BOOL</b>
 
 If the window was brought to the foreground, the return value is nonzero.
-                    
-                    
 
 If the window was not brought to the foreground, the return value is zero.
 
 ## -remarks
 
- The system restricts which processes can set the foreground window. A process can set the foreground window only if one of the following conditions is true:
 
-				
+The system restricts which processes can set the foreground window. A process can set the foreground window by calling **SetForegroundWindow** only if:
 
-<ul>
-<li>The process is the foreground process.</li>
-<li>The process was started by the foreground process.</li>
-<li>The process received the last input event.</li>
-<li>There is no foreground process.</li>
-<li>The process is being debugged.</li>
-<li>The foreground process is not a Modern Application or the Start Screen.</li>
-<li>The foreground is not locked (see <a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>).</li>
-<li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>).</li>
-<li>No menus are active.</li>
-</ul>
+- All of the following conditions are true:
+  - The calling process belongs to a desktop application, not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
+  - The foreground process has not disabled calls to **SetForegroundWindow** by a previous call to the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
+  - The foreground lock time-out has expired (see [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](nf-winuser-systemparametersinfoa.md#SPI_GETFOREGROUNDLOCKTIMEOUT)).
+  - No menus are active.
+- Additionally, at least one of the following conditions is true:
+  - The calling process is the foreground process.
+  - The calling process was started by the foreground process.
+  - There is currently no foreground window, and thus no foreground process.
+  - The calling process received the last input event.
+  - Either the foreground process or the calling process is being debugged.
+
+It is possible for a process to be denied the right to set the foreground window even if it meets these conditions.
+
 An application cannot force a window to the foreground while the user is working with another window. Instead, Windows flashes the taskbar button of the window to notify the user.
 
-A process that can set the foreground window can enable another process to set the foreground window by calling the <a href="/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a> function. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
+A process that can set the foreground window can enable another process to set the foreground window by calling the [**AllowSetForegroundWindow**](nf-winuser-allowsetforegroundwindow.md) function. The process specified by the *dwProcessId* parameter to **AllowSetForegroundWindow** loses the ability to set the foreground window the next time that either the user generates input, unless the input is directed at that process, or the next time a process calls **AllowSetForegroundWindow**, unless the same process is specified as in the previous call to **AllowSetForegroundWindow**.
 
-The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a> function.
+The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
 
 ## Example
 
@@ -113,14 +113,11 @@ The following code example demonstrates the use of **SetForegroundWindow**
 // foreground focus. If the window is visible it will also be made the
 // topmost window without the foreground focus. If wParam is TRUE then
 // for both cases the window will be forced into the foreground focus
-
 if (uMsg == m_ShowStageMessage) {
-
     BOOL bVisible = IsWindowVisible(hwnd);
     SetWindowPos(hwnd, HWND_TOP, 0, 0, 0, 0,
                     SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW |
                     (bVisible ? SWP_NOACTIVATE : 0));
-
     // Should we bring the window to the foreground
     if (wParam == TRUE) {
         SetForegroundWindow(hwnd);
@@ -131,35 +128,20 @@ if (uMsg == m_ShowStageMessage) {
 
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a>
+[AllowSetForegroundWindow](nf-winuser-allowsetforegroundwindow.md)
 
 
+**Conceptual**
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
+[FlashWindowEx](nf-winuser-flashwindowex.md)
 
 
+[GetForegroundWindow](nf-winuser-getforegroundwindow.md)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>
-
-
-<b>Other Resources</b>
-
-
+[LockSetForegroundWindow](nf-winuser-locksetforegroundwindow.md)
 
 <b>Reference</b>
 
+[SetActiveWindow](nf-winuser-setactivewindow.md)
 
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setactivewindow">SetActiveWindow</a>
-
-
-
-<a href="/windows/desktop/winmsg/windows">Windows</a>
+[Windows](/windows/win32/winmsg/windows)

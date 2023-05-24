@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCBT_CREATEWNDW
 title: CBT_CREATEWNDW (winuser.h)
-description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.
+description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created. (Unicode)
 helpviewer_keywords: ["*LPCBT_CREATEWNDW","CBT_CREATEWND","CBT_CREATEWND structure [Windows and Messages]","CBT_CREATEWNDA","CBT_CREATEWNDW","LPCBT_CREATEWND","LPCBT_CREATEWND structure pointer [Windows and Messages]","_win32_CBT_CREATEWND_str","_win32_cbt_createwnd_str_cpp","winmsg.cbt_createwnd","winui._win32_cbt_createwnd_str","winuser/CBT_CREATEWND","winuser/CBT_CREATEWNDA","winuser/CBT_CREATEWNDW","winuser/LPCBT_CREATEWND"]
 old-location: winmsg\cbt_createwnd.htm
 tech.root: winmsg

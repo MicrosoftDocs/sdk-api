@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfHydratePlaceholder","CfHydratePlaceholder function","cf
 old-location: cloudapi\cfhydrateplaceholder.htm
 tech.root: cloudapi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfHydratePlaceholder function
 
-
 ## -description
 
 Hydrates a placeholder file by ensuring that the specified byte range is present on-disk in the placeholder. This is valid for files only.
@@ -64,24 +63,28 @@ The starting point offset of the placeholder file data.
 
 ### -param Length [in]
 
-The length, in bytes,  of the placeholder file whose data must be available locally on the disk after the API completes successfully. A length of -1 signifies end of file.
+The length, in bytes, of the placeholder file whose data must be available locally on the disk after the API completes successfully. A length of `CF_EOF` (defined as -1) signifies end of file. For any subrange that is not present in the placeholder, the platform will fetch the data from the sync provider and store it on disk in the placeholder.
 
 ### -param HydrateFlags [in]
 
-Placeholder hydration flags.
+The placeholder hydration flags. *HydrateFlags* must be set to **CF_HYDRATE_FLAG_NONE**.
 
 ### -param Overlapped [in, out, optional]
 
-When specified and combined with an asynchronous <i>FileHandle</i>, <i>Overlapped</i> allows the platform to perform the <b>CfHydratePlaceholder</b> call asynchronously. See the Remarks for more details.
+When specified and combined with an asynchronous *FileHandle*, *Overlapped* allows the platform to perform the **CfHydratePlaceholder** call asynchronously. See the [Remarks](#-remarks) for more details.
 
 If not specified, the platform will perform the API call synchronously, regardless of how the handle was created.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-The caller must have READ_DATA or WRITE_DAC access to the placeholder to be hydrated. 
+The caller must have **READ_DATA** or **WRITE_DAC** access to the placeholder to be hydrated.
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>.
+If the API returns **HRESULT_FROM_WIN32(ERROR_IO_PENDING)** when using *Overlapped* asynchronously, the caller can then wait using [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult).
+
+## -see-also
+
+[GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult)

@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.FindItem
 title: IOfflineFilesCache::FindItem (cscobj.h)
-description: Locates a particular file or directory item in the cache.
+description: Locates a particular file or directory item in the cache. (IOfflineFilesCache.FindItem)
 helpviewer_keywords: ["FindItem","FindItem method [Offline Files]","FindItem method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","FindItem method","IOfflineFilesCache.FindItem","IOfflineFilesCache::FindItem","OFFLINEFILES_ITEM_QUERY_ADMIN","OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE","OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE","OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT","OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT","OFFLINEFILES_ITEM_QUERY_REMOTEINFO","cscobj/IOfflineFilesCache::FindItem","of.iofflinefilescache_finditem"]
 old-location: of\iofflinefilescache_finditem.htm
 tech.root: of

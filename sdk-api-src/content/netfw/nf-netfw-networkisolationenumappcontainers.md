@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.NetworkIsolationEnumAppContainers
 title: NetworkIsolationEnumAppContainers function (netfw.h)
-description: Enumerates all of the app containers that have been created in the system.
+description: The NetworkIsolationEnumAppContainers function enumerates all of the app containers that have been created in the system. 
 helpviewer_keywords: ["NetworkIsolationEnumAppContainers","NetworkIsolationEnumAppContainers function [ICS/ICF]","ics.networkisolationenumappcontainers","networkisolation/NetworkIsolationEnumAppContainers"]
 old-location: ics\networkisolationenumappcontainers.htm
 tech.root: ics
 ms.assetid: 9a940eb5-712a-459e-9932-0115fdfb512b
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: NetworkIsolationEnumAppContainers, NetworkIsolationEnumAppContainers function [ICS/ICF], ics.networkisolationenumappcontainers, networkisolation/NetworkIsolationEnumAppContainers
 req.header: netfw.h
 req.include-header: Netfw.h
@@ -88,7 +88,7 @@ ERROR_OUTOFMEMORY will be returned if memory is unavailable.
 
 ## -remarks
 
-If no app containers are installed on the system, ERROR_SUCCESS will still be returned (and <i>ppPublicAppCs</i> will be empty).
+If no app containers are installed on the system, ERROR_SUCCESS will still be returned (and <i>ppPublicAppCs</i> will be empty).  If ppPublicAppCs is not empty, <a href="https://docs.microsoft.com/en-us/windows/win32/api/netfw/nf-netfw-networkisolationfreeappcontainers">NetworkIsolationFreeAppContainers</a> should be used to free the memory when you are done using it.
 
 ## -see-also
 

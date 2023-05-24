@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxFactory
 title: IAppxFactory (appxpackaging.h)
-description: Creates objects for reading and writing app packages.
+description: Creates objects for reading and writing app packages. (IAppxFactory)
 helpviewer_keywords: ["IAppxFactory","IAppxFactory interface [App packaging and management]","IAppxFactory interface [App packaging and management]","described","appxpackaging/IAppxFactory","appxpkg.iappxfactory"]
 old-location: appxpkg\iappxfactory.htm
 tech.root: appxpkg

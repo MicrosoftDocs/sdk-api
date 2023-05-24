@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.put_DisplayName
 title: IPrincipal::put_DisplayName (taskschd.h)
-description: Gets or sets the name of the principal.
+description: Gets or sets the name of the principal. (Put)
 helpviewer_keywords: ["DisplayName property [Task Scheduler]","DisplayName property [Task Scheduler]","IPrincipal interface","IPrincipal interface [Task Scheduler]","DisplayName property","IPrincipal.DisplayName","IPrincipal.put_DisplayName","IPrincipal::DisplayName","IPrincipal::get_DisplayName","IPrincipal::put_DisplayName","put_DisplayName","taskschd.iprincipal_displayname","taskschd/IPrincipal::DisplayName","taskschd/IPrincipal::get_DisplayName","taskschd/IPrincipal::put_DisplayName"]
 old-location: taskschd\iprincipal_displayname.htm
 tech.root: taskschd

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_UAV_FLAGS
 title: D3D12_BUFFER_UAV_FLAGS (d3d12.h)
-description: Identifies unordered-access view options for a buffer resource.
+description: Identifies unordered-access view options for a buffer resource. (D3D12_BUFFER_UAV_FLAGS)
 helpviewer_keywords: ["D3D12_BUFFER_UAV_FLAGS","D3D12_BUFFER_UAV_FLAGS enumeration","D3D12_BUFFER_UAV_FLAG_NONE","D3D12_BUFFER_UAV_FLAG_RAW","d3d12/D3D12_BUFFER_UAV_FLAGS","d3d12/D3D12_BUFFER_UAV_FLAG_NONE","d3d12/D3D12_BUFFER_UAV_FLAG_RAW","direct3d12.d3d12_buffer_uav_flags"]
 old-location: direct3d12\d3d12_buffer_uav_flags.htm
 tech.root: direct3d12

@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_INTF_OPCODE~r1
 title: WLAN_INTF_OPCODE
-ms.date: 01/30/2019
+description: The WLAN_INTF_OPCODE enumeration defines various opcodes used to set and query parameters on a wireless interface.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
 targetos: Windows
 req.construct-type: enumeration

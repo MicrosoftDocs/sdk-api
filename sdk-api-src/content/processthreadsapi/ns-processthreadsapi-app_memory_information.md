@@ -4,7 +4,7 @@ title: APP_MEMORY_INFORMATION (processthreadsapi.h)
 description: Represents app memory usage at a single point in time. This structure is used by the PROCESS_INFORMATION_CLASS class.
 helpviewer_keywords: ["*PAPP_MEMORY_INFORMATION","APP_MEMORY_INFORMATION","APP_MEMORY_INFORMATION structure","PAPP_MEMORY_INFORMATION","PAPP_MEMORY_INFORMATION structure pointer","base.app_memory_information","processthreadsapi/APP_MEMORY_INFORMATION","processthreadsapi/PAPP_MEMORY_INFORMATION"]
 old-location: base\app_memory_information.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
 ms.date: 12/05/2018
 ms.keywords: '*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION'

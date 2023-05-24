@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.ComputeLength(constD2D1_MATRIX_3X2_F,FLOAT)
 title: ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F,FLOAT) (d2d1.h)
-description: Calculates the length of the geometry as though each segment were unrolled into a line.
+description: Calculates the length of the geometry as though each segment were unrolled into a line. (overload 2/4)
 helpviewer_keywords: ["ComputeLength","ComputeLength method [Direct2D]","ComputeLength method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","ComputeLength method","ID2D1Geometry.ComputeLength","ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F","FLOAT)","ID2D1Geometry::ComputeLength","ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F","FLOAT)","ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F","FLOAT","FLOAT)","d2d1/ID2D1Geometry::ComputeLength","direct2d.ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT"]
 old-location: direct2d\ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
 tech.root: Direct2D

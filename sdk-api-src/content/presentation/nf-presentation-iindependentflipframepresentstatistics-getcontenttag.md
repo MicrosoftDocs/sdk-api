@@ -4,7 +4,7 @@ tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetContentTag
 ms.date: 06/08/2021
 targetos: Windows
-description: Gets the tag of the content on which statistics are being reporting.
+description: Gets the tag of the content on which statistics are being reporting. (IIndependentFlipFramePresentStatistics::GetContentTag)
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckCounterInfo
 title: ID3D11Device::CheckCounterInfo (d3d11.h)
-description: Get a counter's information.
+description: Get a counter's information. (ID3D11Device.CheckCounterInfo)
 helpviewer_keywords: ["CheckCounterInfo","CheckCounterInfo method [Direct3D 11]","CheckCounterInfo method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CheckCounterInfo method","ID3D11Device.CheckCounterInfo","ID3D11Device::CheckCounterInfo","d3d11/ID3D11Device::CheckCounterInfo","direct3d11.id3d11device_checkcounterinfo","ec4e1637-70d9-68d9-e0e6-1e92e0765a9e"]
 old-location: direct3d11\id3d11device_checkcounterinfo.htm
 tech.root: direct3d11

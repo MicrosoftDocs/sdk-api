@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiPersistentLoginsA
 title: ReportIScsiPersistentLoginsA function (iscsidsc.h)
-description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets.
-helpviewer_keywords: ["ReportIScsiPersistentLoginsA","ReportIscsiPersistentLogins","ReportIscsiPersistentLogins function [iSCSI Discovery Library API]","ReportIscsiPersistentLoginsA","ReportIscsiPersistentLoginsW","iscsidisc.reportiscsipersistentlogins","iscsidsc/ReportIscsiPersistentLogins","iscsidsc/ReportIscsiPersistentLoginsA","iscsidsc/ReportIscsiPersistentLoginsW"]
+description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets. (ANSI)
+helpviewer_keywords: ["ReportIScsiPersistentLoginsA", "ReportIscsiPersistentLoginsA", "iscsidsc/ReportIscsiPersistentLoginsA"]
 old-location: iscsidisc\reportiscsipersistentlogins.htm
 tech.root: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
