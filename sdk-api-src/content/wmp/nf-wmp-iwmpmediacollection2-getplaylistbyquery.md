@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMediaCollection2 interface [Windows Media Player]","g
 old-location: wmp\iwmpmediacollection2_getplaylistbyquery.htm
 tech.root: WMP
 ms.assetid: b3d4586b-c999-447c-b974-15bd0ef160a6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getPlaylistByQuery method, IWMPMediaCollection2.getPlaylistByQuery, IWMPMediaCollection2::getPlaylistByQuery, IWMPMediaCollection2getPlaylistByQuery, getPlaylistByQuery, getPlaylistByQuery method [Windows Media Player], getPlaylistByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getplaylistbyquery, wmp/IWMPMediaCollection2::getPlaylistByQuery
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getPlaylistByQuery</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface. This interface represents a playlist that contains media items that match the query conditions.
 

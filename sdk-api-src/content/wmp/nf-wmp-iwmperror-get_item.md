@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPError interface [Windows Media Player]","get_item met
 old-location: wmp\iwmperror_get_item.htm
 tech.root: WMP
 ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPError interface [Windows Media Player],get_item method, IWMPError.get_item, IWMPError::get_item, IWMPErrorget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_item, wmp/IWMPError::get_item
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_item</b> method retrieves a pointer to an <b>IWMPErrorItem</b> interface from the error queue.
 

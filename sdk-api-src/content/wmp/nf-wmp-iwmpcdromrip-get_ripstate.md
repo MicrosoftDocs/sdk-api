@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","get_ripSt
 old-location: wmp\iwmpcdromrip_get_ripstate.htm
 tech.root: WMP
 ms.assetid: 81c7ba1d-81d7-4f64-9f7d-c88d6959bee0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripState method, IWMPCdromRip.get_ripState, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_ripState</b> method retrieves an enumeration value that indicates the current state of the ripping process.
 

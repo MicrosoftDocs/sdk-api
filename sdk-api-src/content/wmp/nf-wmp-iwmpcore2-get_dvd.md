@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore2 interface [Windows Media Player]","get_dvd meth
 old-location: wmp\iwmpcore2_get_dvd.htm
 tech.root: WMP
 ms.assetid: b20a0661-b54b-4953-81df-499c19611a15
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore2 interface [Windows Media Player],get_dvd method, IWMPCore2.get_dvd, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player],IWMPCore2 interface, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_dvd</b> method retrieves a pointer to an <b>IWMPDVD</b> interface.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Buffering","Buffering method [Windows Media Player]","Buf
 old-location: wmp\iwmpevents_iwmpevents__buffering.htm
 tech.root: WMP
 ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: Buffering, Buffering method [Windows Media Player], Buffering method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Buffering method, IWMPEvents.Buffering, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Buffering</b> event occurs when the Windows Media Player control begins or ends buffering.
 
