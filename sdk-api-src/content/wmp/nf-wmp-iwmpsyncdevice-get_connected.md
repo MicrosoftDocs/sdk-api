@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_con
 old-location: wmp\iwmpsyncdevice_get_connected.htm
 tech.root: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_connected method, IWMPSyncDevice.get_connected, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_connected</b> method retrieves a value indicating whether the device is connected to Windows Media Player.
 

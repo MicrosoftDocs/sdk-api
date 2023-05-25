@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCaps","GetCaps method [Windows Media Player]","GetCaps
 old-location: wmp\iwmpplugin_getcaps.htm
 tech.root: WMP
 ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetCaps method, IWMPPlugin.GetCaps, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPPlugin::GetCaps</b> method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
 
