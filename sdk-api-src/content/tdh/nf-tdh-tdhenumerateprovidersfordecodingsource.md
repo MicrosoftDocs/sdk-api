@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Windows 11 [desktop apps only]
+req.target-min-winversvr: Windows Server 2022 [desktop apps only]
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
