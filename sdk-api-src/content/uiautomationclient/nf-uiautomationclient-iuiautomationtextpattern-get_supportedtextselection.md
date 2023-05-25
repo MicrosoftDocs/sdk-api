@@ -69,12 +69,6 @@ Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
-## -syntax
-
-```cpp
-HRESULT SupportedTextSelection (SupportedTextSelection *supportedTextSelection);
-```
-
 ## -remarks
 
 > ### Parameters
