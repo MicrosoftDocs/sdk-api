@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_WMT_EVENT_DATA","AM_WMT_EVENT_DATA structure [windows 
 old-location: wmformat\am_wmt_event_data.htm
 tech.root: wmformat
 ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
 req.header: evcode.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_WMT_EVENT_DATA</b> structure contains information pertaining to an <a href="/windows/desktop/wmformat/ec-wmt-event">EC_WMT_EVENT</a> and the associated status code returned by the Windows Media Format SDK.
 
