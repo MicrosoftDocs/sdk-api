@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimeco
 old-location: dshow\iamtimecodereader_gettimecode.htm
 tech.root: dshow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetTimecode</code> method retrieves the most recent timecode, userbit, and flag values available in the stream.
 

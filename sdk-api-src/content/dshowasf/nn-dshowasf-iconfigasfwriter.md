@@ -6,7 +6,7 @@ helpviewer_keywords: ["IConfigAsfWriter","IConfigAsfWriter interface [DirectShow
 old-location: dshow\iconfigasfwriter.htm
 tech.root: dshow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
 req.header: dshowasf.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IConfigAsfWriter</code> interface configures the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. It provides methods for getting and setting the profiles and indexing mode.
 
