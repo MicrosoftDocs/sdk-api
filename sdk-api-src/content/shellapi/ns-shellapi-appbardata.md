@@ -84,7 +84,7 @@ A value that specifies an edge of the screen. This member is used when sending o
                         
 <ul>
 <li>
-<a href="/windows/desktop/shell/conversion-functions-bumper">ABM_GETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-getautohidebar">ABM_GETAUTOHIDEBAR</a>
 </li>
 <li>
 <a href="/windows/desktop/shell/abm-setautohidebar">ABM_SETAUTOHIDEBAR</a>
