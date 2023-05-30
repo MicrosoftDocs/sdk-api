@@ -63,7 +63,7 @@ The number of elements in the resource.
 
 ### -field StructureByteStride
 
-The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer.
+The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer.  The size must match the struct size declared in shaders that access the view.
 
 ### -field Flags
 
