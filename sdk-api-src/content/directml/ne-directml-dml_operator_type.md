@@ -682,6 +682,14 @@ Indicates the operator described by the [DML_ELEMENT_WISE_NEGATE_OPERATOR_DESC](
 
 ## -remarks
 
+### DML_FEATURE_LEVEL_6_1
+
+DirectML [feature level 6_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_1) introduces the following operator type.
+
+#### DML_OPERATOR_MULTIHEAD_ATTENTION
+
+Indicates the operator described by the [DML_MULTIHEAD_ATTENTION_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_multihead_attention_operator_desc) structure.
+
 ### DML_FEATURE_LEVEL_5_1
 
 DirectML [feature level 5_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_5_1) introduces the following operator types.

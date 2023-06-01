@@ -104,6 +104,8 @@ multithreaded applications and shared library code should avoid
 using relative paths so that they are unaffected by changes to the
 current directory performed by other threads.
 
+Note that the current directory for a process is locked while the process is executing. This will prevent the directory from being deleted, moved, or renamed.
+
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 <table>

@@ -1202,11 +1202,13 @@ The <i>pvParam</i> parameter must point to an integer variable that receives a v
 </dl>
 </td>
 <td width="60%">
-Retrieves the routing setting for wheel button input. The routing setting determines whether wheel button input is sent to the app with focus (foreground) or the app under the mouse cursor.
+Retrieves the routing setting for mouse wheel input. The routing setting determines whether mouse wheel input is sent to the app with focus (foreground) or the app under the mouse cursor.
 
-The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. 
-If  the value is zero or MOUSEWHEEL_ROUTING_FOCUS, mouse wheel input is delivered to the app with focus. If the value is 1 or MOUSEWHEEL_ROUTING_HYBRID (default), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse cursor (Windows Store apps).
-The <i>uiParam</i> parameter is not used.
+The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. The <i>uiParam</i> parameter is not used.
+
+If  the value is zero (MOUSEWHEEL_ROUTING_FOCUS), mouse wheel input is delivered to the app with focus. If the value is 1 (MOUSEWHEEL_ROUTING_HYBRID), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse pointer (Windows Store apps).
+ 
+<b>Starting with Windows 10:</b> If the value is 2 (MOUSEWHEEL_ROUTING_MOUSE_POS), mouse wheel input is delivered to the app under the mouse pointer. This is the new default, and MOUSEWHEEL_ROUTING_HYBRID is no longer available in Settings.
 
 </td>
 </tr>
@@ -1530,12 +1532,13 @@ To disable the feature, set the <i>uiParam</i> parameter to zero or 1. To enable
 </dl>
 </td>
 <td width="60%">
-Sets the routing setting for wheel button input. The routing setting determines whether wheel button input is sent to the app with focus (foreground) or the app under the mouse cursor.
+Sets the routing setting for mouse wheel input. The routing setting determines whether mouse wheel input is sent to the app with focus (foreground) or the app under the mouse cursor.
 
-The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. 
-If  the value is zero or MOUSEWHEEL_ROUTING_FOCUS, mouse wheel input is delivered to the app with focus. If the value is 1 or MOUSEWHEEL_ROUTING_HYBRID (default), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse cursor (Windows Store apps).
-Set the <i>uiParam</i> parameter to zero.
-
+The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the routing option. Set the <i>uiParam</i> parameter to zero.
+ 
+If  the value is zero (MOUSEWHEEL_ROUTING_FOCUS), mouse wheel input is delivered to the app with focus. If the value is 1 (MOUSEWHEEL_ROUTING_HYBRID), mouse wheel input is delivered to the app with focus (desktop apps) or the app under the mouse pointer (Windows Store apps).
+ 
+<b>Starting with Windows 10:</b> If the value is 2 (MOUSEWHEEL_ROUTING_MOUSE_POS), mouse wheel input is delivered to the app under the mouse pointer. This is the new default, and MOUSEWHEEL_ROUTING_HYBRID is no longer available in Settings.
 </td>
 </tr>
 <tr>

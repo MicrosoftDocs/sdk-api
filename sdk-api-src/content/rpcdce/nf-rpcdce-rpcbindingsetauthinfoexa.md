@@ -100,10 +100,6 @@ Authorization service implemented by the server for the interface of interest. T
 
 ### -param SecurityQos
 
-TBD
-
-### -param SecurityQOS
-
 Pointer to the 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 
 

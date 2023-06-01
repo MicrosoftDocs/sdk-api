@@ -1,17 +1,18 @@
 ---
-UID: NF:d3d12.ID3D12Device4.GetResourceAllocationInfo1
-title: ID3D12Device4::GetResourceAllocationInfo1
-description: Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. (ID3D12Device4::GetResourceAllocationInfo1)
-helpviewer_keywords: ["ID3D12Device4 interface","GetResourceAllocationInfo1 method","ID3D12Device4.GetResourceAllocationInfo1","ID3D12Device4::GetResourceAllocationInfo1","GetResourceAllocationInfo1","GetResourceAllocationInfo1 method","GetResourceAllocationInfo1 method","ID3D12Device4 interface","direct3d12.id3d12device4_getresourceallocationinfo1","d3d12/ID3D12Device4::GetResourceAllocationInfo1"]
+UID: NF:d3d12.ID3D12Device.GetResourceAllocationInfo(UINT,UINT,constD3D12_RESOURCE_DESC)
+title: ID3D12Device::GetResourceAllocationInfo
+description: Gets the size and alignment of memory required for a collection of resources on this adapter.
+helpviewer_keywords: ["GetResourceAllocationInfo","GetResourceAllocationInfo method","GetResourceAllocationInfo method","ID3D12Device interface","ID3D12Device interface","GetResourceAllocationInfo method","ID3D12Device.GetResourceAllocationInfo","ID3D12Device::GetResourceAllocationInfo","d3d12/ID3D12Device::GetResourceAllocationInfo","direct3d12.id3d12device_getresourceallocationinfo"]
+old-location: direct3d12\id3d12device_getresourceallocationinfo.htm
 tech.root: direct3d12
-ms.date: 10/15/2019
-ms.keywords: ID3D12Device4 interface,GetResourceAllocationInfo1 method, ID3D12Device4.GetResourceAllocationInfo1, ID3D12Device4::GetResourceAllocationInfo1, GetResourceAllocationInfo1, GetResourceAllocationInfo1 method, GetResourceAllocationInfo1 method,ID3D12Device4 interface, direct3d12.id3d12device4_getresourceallocationinfo1, d3d12/ID3D12Device4::GetResourceAllocationInfo1
-req.construct-type: function
+ms.assetid: 43467E09-835B-4DB9-B0A4-F75868DE4609
+ms.date: 12/05/2018
+ms.keywords: GetResourceAllocationInfo, GetResourceAllocationInfo method, GetResourceAllocationInfo method,ID3D12Device interface, ID3D12Device interface,GetResourceAllocationInfo method, ID3D12Device.GetResourceAllocationInfo, ID3D12Device::GetResourceAllocationInfo, d3d12/ID3D12Device::GetResourceAllocationInfo, direct3d12.id3d12device_getresourceallocationinfo
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -21,15 +22,16 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: d3d12.lib
-req.dll: d3d12.dll
+req.lib: D3D12.lib
+req.dll: D3D12.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: 19H1
 f1_keywords:
- - ID3D12Device4::GetResourceAllocationInfo1
- - d3d12/ID3D12Device4::GetResourceAllocationInfo1
+ - ID3D12Device::GetResourceAllocationInfo
+ - d3d12/ID3D12Device::GetResourceAllocationInfo
 dev_langs:
  - c++
 topic_type:
@@ -38,17 +40,14 @@ topic_type:
 api_type:
  - COM
 api_location:
- - d3d12.lib
- - d3d12.dll
+ - D3D12.dll
 api_name:
- - ID3D12Device4::GetResourceAllocationInfo1
+ - ID3D12Device.GetResourceAllocationInfo
 ---
 
 ## -description
 
-Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. Also see [ID3D12Device::GetResourceAllocationInfo](./nf-d3d12-id3d12device-getresourceallocationinfo.md).
-
-In addition to the [D3D12_RESOURCE_ALLOCATION_INFO](./ns-d3d12-d3d12_resource_allocation_info.md) returned from the method, this version also returns an array of [D3D12_RESOURCE_ALLOCATION_INFO1](./ns-d3d12-d3d12_resource_allocation_info1.md) structures, which provide additional details for each resource description passed as input. See the *pResourceAllocationInfo1* parameter.
+Gets the size and alignment of memory required for a collection of resources on this adapter.
 
 ## -parameters
 
@@ -62,7 +61,7 @@ For single-GPU operation, set this to zero. If there are multiple GPU nodes, the
 
 Type: **[UINT](/windows/win32/WinProg/windows-data-types)**
 
-The number of resource descriptors in the *pResourceDescs* array. This is also the size (the number of elements in) *pResourceAllocationInfo1*.
+The number of resource descriptors in the *pResourceDescs* array.
 
 ### -param pResourceDescs [in]
 
@@ -70,17 +69,13 @@ Type: **const [D3D12_RESOURCE_DESC](./ns-d3d12-d3d12_resource_desc.md)\***
 
 An array of **D3D12_RESOURCE_DESC** structures that described the resources to get info about.
 
-### -param pResourceAllocationInfo1 [out]
-
-Type: **[D3D12_RESOURCE_ALLOCATION_INFO1](./ns-d3d12-d3d12_resource_allocation_info1.md)\***
-
-An array of [D3D12_RESOURCE_ALLOCATION_INFO1](./ns-d3d12-d3d12_resource_allocation_info1.md) structures, containing additional details for each resource description passed as input. This makes it simpler for your application to allocate a heap for multiple resources, and without manually computing offsets for where each resource should be placed.
-
 ## -returns
 
 Type: **[D3D12_RESOURCE_ALLOCATION_INFO](./ns-d3d12-d3d12_resource_allocation_info.md)**
 
 A [D3D12_RESOURCE_ALLOCATION_INFO](./ns-d3d12-d3d12_resource_allocation_info.md) structure that provides info about video memory allocated for the specified array of resources.
+
+If an error occurs, then **D3D12_RESOURCE_ALLOCATION_INFO::SizeInBytes** equals **UINT64_MAX**.
 
 ## -remarks
 
@@ -96,4 +91,4 @@ When multiple resource descriptions are passed in, the C++ algorithm for calcula
 
 ## -see-also
 
-[ID3D12Device4](./nn-d3d12-id3d12device4.md)
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

@@ -54,7 +54,7 @@ req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, vers
 
 Retrieves the 16-bit (<b>WORD</b>) value at the specified offset into the extra class memory for the window class to which the specified window belongs. 
 		
-<div class="alert"><b>Note</b>  This function is deprecated for any use other than <i>nIndex</i> set to <b>GCW_ATOM</b>. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLongPtr</a> or <a href="/windows/desktop/api/winuser/nf-winuser-getclasslongptra">GetClassLongPtr</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated for any use other than <i>nIndex</i> set to <b>GCW_ATOM</b>. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a> or <a href="/windows/desktop/api/winuser/nf-winuser-getclasslongptra">GetClassLongPtr</a> function.</div><div> </div>
 
 ## -parameters
 

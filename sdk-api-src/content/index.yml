@@ -218,3 +218,5 @@ landingContent:
             url: _cmpapi/index.md
           - text: Activity Coordinator
             url: _activity_coordinator/index.md
+          - text: Hardware Requirement Evaluator (HWREQCHK)
+            url: _hwreqchk/index.md

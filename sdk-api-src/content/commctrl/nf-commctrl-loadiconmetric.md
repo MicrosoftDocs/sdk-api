@@ -60,8 +60,6 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>.
 
-                    
-
 To load a predefined icon or a standalone icon file, set this parameter to <b>NULL</b>.
 
 ### -param pszName [in]
@@ -69,8 +67,6 @@ To load a predefined icon or a standalone icon file, set this parameter to <b>NU
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. It is interpreted as follows:
-        
-                    
 
 If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> can specify one of two things.
 
@@ -124,7 +120,7 @@ Corresponds to <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics
 </dl>
 </td>
 <td width="60%">
-Corresponds to<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">SM_CXICON</a>, the default pixel width of an icon.
+Corresponds to <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">SM_CXICON</a>, the default pixel width of an icon.
 
 </td>
 </tr>
@@ -166,8 +162,6 @@ The contents of the buffer pointed to by <i>pszName</i> do not fit any of the ex
 
 Icons are extracted or created as follows.
 
-                
-
 <ol>
 <li>If an exact size match is found in the resource, that icon is used.</li>
 <li>If an exact size match cannot be found and a larger icon is available, a new icon is created by scaling the larger version down to the desired size.</li>
@@ -175,14 +169,13 @@ Icons are extracted or created as follows.
 </ol>
 Comparative calls are shown here for <b>LoadIconMetric</b> and <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>.
 
-
-``` syntax
+```cpp
 NOTIFYICONDATA  nidIconData  = {0};
 nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
 
 // Or...
 
-HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);
+HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &nidIconData.hIcon);
 ```
 
 The application is responsible for calling <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> on the retrieved icon.

@@ -299,8 +299,7 @@ The width of the thumb box in a horizontal scroll bar, in pixels.
 </dl>
 </td>
 <td width="60%">
-The default width of an icon, in pixels. The 
-       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the  dimensions that SM_CXICON and SM_CYICON specifies.
+The system large width of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions that SM_CXICON and SM_CYICON specifies. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -470,8 +469,7 @@ This value is the same as SM_CXFRAME.
 </dl>
 </td>
 <td width="60%">
-The recommended width of a small icon, in pixels. Small icons typically appear in window captions and in
-       small icon view.
+The system small width of an icon, in pixels. Small icons typically appear in window captions and in small icon view. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -671,9 +669,7 @@ The height of a horizontal scroll bar, in
 </dl>
 </td>
 <td width="60%">
-The default height of an icon, in pixels. The 
-       <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the
-       dimensions SM_CXICON and SM_CYICON.
+The system large height of an icon, in pixels. The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function can load only icons with the dimensions that SM_CXICON and SM_CYICON specifies. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>
@@ -864,8 +860,7 @@ The height of a small caption, in pixels.
 </dl>
 </td>
 <td width="60%">
-The recommended height of a small icon, in pixels. Small icons typically appear in window captions and in
-       small icon view.
+The system small height of an icon, in pixels. Small icons typically appear in window captions and in small icon view. See <a href="/windows/win32/menurc/about-icons#icon-sizes">Icon Sizes</a> for more info.
 
 </td>
 </tr>

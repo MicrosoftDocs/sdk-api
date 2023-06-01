@@ -202,7 +202,7 @@ Obsolete. Do not use.
 ## -syntax
 
 ```
-typedef struct _WIN32_FIND_DATAW {
+typedef struct _WIN32_FIND_DATAA {
   DWORD    dwFileAttributes;
   FILETIME ftCreationTime;
   FILETIME ftLastAccessTime;
@@ -211,12 +211,12 @@ typedef struct _WIN32_FIND_DATAW {
   DWORD    nFileSizeLow;
   DWORD    dwReserved0;
   DWORD    dwReserved1;
-  WCHAR    cFileName[MAX_PATH];
-  WCHAR    cAlternateFileName[14];
+  CHAR     cFileName[MAX_PATH];
+  CHAR     cAlternateFileName[14];
   DWORD    dwFileType; // Obsolete. Do not use.
   DWORD    dwCreatorType; // Obsolete. Do not use
   WORD     wFinderFlags; // Obsolete. Do not use
-} WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW;
+} WIN32_FIND_DATAA, *PWIN32_FIND_DATAA, *LPWIN32_FIND_DATAA;
 ```
 
 ## -remarks
@@ -230,7 +230,7 @@ If a file has a long file name, the complete name appears in the <b>cFileName</b
     value. This remains true for all subsequent calls to the 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function. As an alternative method of 
     retrieving the 8.3 format version of a file name, you can use the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> function. For more information about 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamea">GetShortPathName</a> function. For more information about
     file names, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 Not all file systems can record creation and last access times, and not all file systems record them in the 
@@ -284,4 +284,4 @@ Not all file systems can record creation and last access times, and not all file
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamea">GetShortPathName</a>
