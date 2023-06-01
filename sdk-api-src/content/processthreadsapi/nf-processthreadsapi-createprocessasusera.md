@@ -109,7 +109,7 @@ If the executable module is a 16-bit application, <i>lpApplicationName</i> shoul
 
 ### -param lpCommandLine [in, out, optional]
 
-The command line to be executed. The maximum length of this string is 32K characters. 
+The command line to be executed. The maximum length of this string is 32K characters. If <i>lpApplicationName</i> is <b>NULL</b>, the module name portion of <i>lpCommandLine</i> is limited to <b>MAX_PATH</b> characters.
 
 The Unicode version of this function, <b>CreateProcessAsUserW</b>, can modify the contents of this string. Therefore, this parameter cannot be a pointer to read-only memory (such as a <b>const</b> variable or a literal string). If this parameter is a constant string, the function may cause an access violation.
 
