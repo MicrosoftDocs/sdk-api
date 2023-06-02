@@ -101,7 +101,7 @@ Type: <b>WORD</b>
 
 Resource identifier of the resource in <b>szModName</b> module. If the icon or cursor was loaded by name, then <b>wResID</b> is zero and <b>szResName</b> contains the resource name.
 
-You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a>(wResID) macro to convert resource identifier to a resource name type compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
+You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(wResID) macro to convert resource identifier to a resource name type compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szModName
 
@@ -109,7 +109,7 @@ Type: <b>TCHAR[MAX_PATH]</b>
 
 Name of the module from which an icon or a cursor was loaded.
 
-You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
+You can use <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szResName
 
