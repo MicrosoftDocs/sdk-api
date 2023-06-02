@@ -110,7 +110,7 @@ Type: <b>TCHAR[MAX_PATH]</b>
 
 Name of the module from which an icon or a cursor was loaded.
 
-You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
+You can use <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szResName
 
