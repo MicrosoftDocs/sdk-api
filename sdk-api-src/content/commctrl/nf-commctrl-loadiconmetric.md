@@ -58,40 +58,19 @@ Loads a specified icon resource with a client-specified system metric.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
-A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>.
+A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a>.
 
-To load a predefined icon or a standalone icon file, set this parameter to <b>NULL</b>.
+To load a predefined system icon or a standalone icon file, set this parameter to <b>NULL</b>.
 
 ### -param pszName [in]
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
-A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. It is interpreted as follows:
+A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. 
 
-If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> can specify one of two things.
+If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i> specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro.
 
-<ol>
-<li>The name of a standalone icon (.ico) file.</li>
-<li>The identifier of a predefined icon to load. These identifiers are recognized:</li>
-
-<ul>
-<li>IDI_APPLICATION</li>
-<li>IDI_INFORMATION</li>
-<li>IDI_ERROR</li>
-<li>IDI_WARNING</li>
-<li>IDI_SHIELD</li>
-<li>IDI_QUESTION
-
-To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
-</ul>
-</ol>
-
-If <i>hinst</i> is non-null, <i>pszName</i> can specify one of two things.
-
-<ol>
-<li>The name of the icon resource, if the icon resource is to be loaded by name from the module.</li>
-<li>The icon ordinal, if the icon resource is to be loaded by ordinal from the module. This ordinal must be packaged by using the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.</li>
-</ol>
+If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the [identifier begin with the IDI\_ prefix](/windows/win32/menurc/about-icons) of a predefined system icon to load.
 
 ### -param lims [in]
 

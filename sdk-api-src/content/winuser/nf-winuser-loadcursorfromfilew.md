@@ -55,6 +55,9 @@ api_name:
 
 Creates a cursor based on data contained in a file.
 
+> [!NOTE]
+> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagew">LoadImage</a> function with <b>LR_DEFAULTSIZE</b> and <b>LR_LOADFROMFILE</b> flags set.
+
 ## -parameters
 
 ### -param lpFileName [in]
@@ -71,8 +74,7 @@ Type: <b>HCURSOR</b>
 
 If the function is successful, the return value is a handle to the new cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-						<b>GetLastError</b> may return the following value.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return the following value.
 
 <table>
 <tr>
@@ -97,10 +99,6 @@ The specified file cannot be found.
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
 
-
-
-
-
 > [!NOTE]
 > The winuser.h header defines LoadCursorFromFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
@@ -108,22 +106,12 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/menurc/cursors">Cursors</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
-
-
 <b>Reference</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setsystemcursor">SetSystemCursor</a>
