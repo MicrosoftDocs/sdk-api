@@ -10,8 +10,8 @@ ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, 
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP
-req.target-min-winversvr: Windows Server 2003
+req.target-min-winverclnt: Windows XP
+req.target-min-winversvr: Windows Server 2003
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
