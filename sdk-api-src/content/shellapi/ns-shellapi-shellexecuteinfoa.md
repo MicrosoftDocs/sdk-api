@@ -134,7 +134,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_NO_UI (0x00000400)</td>
-<td>Do not display an error message box if an error occurs.</td>
+<td>Do not display any user interface (UI) including error dialogs, security warnings or other user interface that would normally be presented without this option.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_UNICODE (0x00004000)
