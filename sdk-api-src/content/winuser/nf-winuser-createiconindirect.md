@@ -77,22 +77,16 @@ The system copies the bitmaps in the <a href="/windows/desktop/api/winuser/ns-wi
 
 When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
+#### Examples
+
+For an example, see <a href="/windows/win32/menurc/using-cursors#creating-a-cursor">Creating a Cursor</a>.
+
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
-
-
 
 <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
-
-
 <a href="/windows/desktop/menurc/icons">Icons</a>
-
-
-
-<b>Reference</b>
