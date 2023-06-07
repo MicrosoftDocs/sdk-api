@@ -171,9 +171,12 @@ Be aware that if the bitmap uses a color table or color masks, then the size of 
 <h3><a id="Calculating_Surface_Stride"></a><a id="calculating_surface_stride"></a><a id="CALCULATING_SURFACE_STRIDE"></a>Calculating Surface Stride</h3>
 In an uncompressed bitmap, the stride is the number of bytes needed to go from the start of one row of pixels to the start of the next row. The image format defines a minimum stride for an image. In addition, the graphics hardware might require a larger stride for the surface that contains the image.
 
-For uncompressed RGB formats, the minimum stride is always the image width in bytes, rounded up to the nearest <b>DWORD</b>. You can use the following formula to calculate the stride: 
+For uncompressed RGB formats, the minimum stride is always the image width in bytes, rounded up to the nearest <b>DWORD</b>. You can use the following formula to calculate the stride and image size: 
 
-<code>stride = ((((biWidth * biBitCount) + 31) &amp; ~31) &gt;&gt; 3)</code>
+```cpp
+stride = ((((biWidth * biBitCount) + 31) & ~31) >> 3);
+biSizeImage = abs(biHeight) * stride;
+```
 
 For YUV formats, there is no general rule for calculating the minimum stride. You must understand the rules for the particular YUV format. For a description of the most common YUV formats, see <a href="/windows/desktop/medfound/recommended-8-bit-yuv-formats-for-video-rendering">Recommended 8-Bit YUV Formats for Video Rendering</a>.
 
