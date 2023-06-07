@@ -144,6 +144,96 @@ A value that contains a combination of one or more shader requirements #define f
 <td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b> of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
+ 
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_WAVE_OPS</b></td>
+<td>Shader requires that the graphics driver and hardware support wave ops. For more info, see the member <b>WaveOps</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options1">D3D12_FEATURE_DATA_D3D12_OPTIONS1</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_INT64_OPS</b></td>
+<td>Shader requires that the graphics driver and hardware support 64-bit integer ops. For more info, see the member <b>Int64ShaderOps</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options1">D3D12_FEATURE_DATA_D3D12_OPTIONS1</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_VIEW_ID</b></td>
+<td>Shader requires that the graphics driver and hardware support view instancing using <b>SV_ViewID</b>. For more info, see the member <b>ViewInstancingTier</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3">D3D12_FEATURE_DATA_D3D12_OPTIONS3</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_BARYCENTRICS</b></td>
+<td>Shader requires that the graphics driver and hardware support barycentrics using <b>SV_Barycentrics</b>. For more info, see the member <b>BarycentricsSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3">D3D12_FEATURE_DATA_D3D12_OPTIONS3</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_NATIVE_16BIT_OPS</b></td>
+<td>Shader requires that the graphics driver and hardware support native 16-bit ops. For more info, see the member <b>Native16BitShaderOpsSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4">D3D12_FEATURE_DATA_D3D12_OPTIONS4</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_SHADING_RATE</b></td>
+<td>Shader requires that the graphics driver and hardware support the Variable Shading Rate (VRS) feature. For more info, see the member <b>VariableShadingRateTier</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6">D3D12_FEATURE_DATA_D3D12_OPTIONS6</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_RAYTRACING_TIER_1_1</b></td>
+<td>Shader requires that the graphics driver and hardware support DXR tier 1.1. For more info, see the member <b>RaytracingTier</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_SAMPLER_FEEDBACK</b></td>
+<td>Shader requires that the graphics driver and hardware support Sampler Feedback. For more info, see the member <b>SamplerFeedbackTier</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7">D3D12_FEATURE_DATA_D3D12_OPTIONS7</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_TYPED_RESOURCE</b></td>
+<td>Shader requires that the graphics driver and hardware support int64 atomics on typed resources. For more info, see the member <b>AtomicInt64OnTypedResourceSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9">D3D12_FEATURE_DATA_D3D12_OPTIONS9</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_GROUP_SHARED</b></td>
+<td>Shader requires that the graphics driver and hardware support int64 atomics on groupshared memory. For more info, see the member <b>AtomicInt64OnGroupSharedSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9">D3D12_FEATURE_DATA_D3D12_OPTIONS9</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_DERIVATIVES_IN_MESH_AND_AMPLIFICATION_SHADERS</b></td>
+<td>Shader requires that the graphics driver and hardware support derivatives in mesh and amplification shaders. For more info, see the member <b>DerivativesInMeshAndAmplificationShadersSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9">D3D12_FEATURE_DATA_D3D12_OPTIONS9</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_RESOURCE_DESCRIPTOR_HEAP_INDEXING</b></td>
+<td>Shader requires that the graphics driver and hardware support Dynamic Resources (a requirement for Shader Model 6.6) and the <b>ResourceDescriptorHeap</b> in particular. For more info, see the <a href="/DirectX-Specs/d3d/HLSL_SM_6_6_DynamicResources.html">HLSL Dynamic Resources</a> spec document.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_SAMPLER_DESCRIPTOR_HEAP_INDEXING</b></td>
+<td>Shader requires that the graphics driver and hardware support Dynamic Resources (a requirement for Shader Model 6.6) and the <b>SamplerDescriptorHeap</b> in particular. For more info, see the <a href="/DirectX-Specs/d3d/HLSL_SM_6_6_DynamicResources.html">HLSL Dynamic Resources</a> spec document.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_WAVE_MMA</b></td>
+<td>Shader requires that the graphics driver and hardware support Wave MMA. For more info, see the member <b>WaveMMATier</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9">D3D12_FEATURE_DATA_D3D12_OPTIONS9</a> structure.</td>
+</tr>
+
+</tr>
+<tr>
+<td><b>D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_DESCRIPTOR_HEAP_RESOURCE</b></td>
+<td>Shader requires that the graphics driver and hardware support int64 atomics on descriptor heap resources. For more info, see the member <b>AtomicInt64OnDescriptorHeapResourceSupported</b> of the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11">D3D12_FEATURE_DATA_D3D12_OPTIONS11</a> structure.</td>
+</tr>
 </table>
 
 ## -remarks
@@ -167,7 +257,21 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 #define D3D_SHADER_REQUIRES_TYPED_UAV_LOAD_ADDITIONAL_FORMATS                               0x00000800
 #define D3D_SHADER_REQUIRES_ROVS                                                            0x00001000
 #define D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER  0x00002000
-
+#define D3D_SHADER_REQUIRES_WAVE_OPS                                                        0x00004000
+#define D3D_SHADER_REQUIRES_INT64_OPS                                                       0x00008000
+#define D3D_SHADER_REQUIRES_VIEW_ID                                                         0x00010000
+#define D3D_SHADER_REQUIRES_BARYCENTRICS                                                    0x00020000
+#define D3D_SHADER_REQUIRES_NATIVE_16BIT_OPS                                                0x00040000
+#define D3D_SHADER_REQUIRES_SHADING_RATE                                                    0x00080000
+#define D3D_SHADER_REQUIRES_RAYTRACING_TIER_1_1                                             0x00100000
+#define D3D_SHADER_REQUIRES_SAMPLER_FEEDBACK                                                0x00200000
+#define D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_TYPED_RESOURCE                                  0x00400000
+#define D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_GROUP_SHARED                                    0x00800000
+#define D3D_SHADER_REQUIRES_DERIVATIVES_IN_MESH_AND_AMPLIFICATION_SHADERS                   0x01000000
+#define D3D_SHADER_REQUIRES_RESOURCE_DESCRIPTOR_HEAP_INDEXING                               0x02000000
+#define D3D_SHADER_REQUIRES_SAMPLER_DESCRIPTOR_HEAP_INDEXING                                0x04000000
+#define D3D_SHADER_REQUIRES_WAVE_MMA                                                        0x08000000
+#define D3D_SHADER_REQUIRES_ATOMIC_INT64_ON_DESCRIPTOR_HEAP_RESOURCE                        0x10000000
 ```
 
 ## -see-also
