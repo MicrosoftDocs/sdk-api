@@ -175,7 +175,7 @@ For uncompressed RGB formats, the minimum stride is always the image width in by
 
 ```cpp
 stride = ((((biWidth * biBitCount) + 31) & ~31) >> 3);
-biSizeImage = biHeight * stride;
+biSizeImage = abs(biHeight) * stride;
 ```
 
 For YUV formats, there is no general rule for calculating the minimum stride. You must understand the rules for the particular YUV format. For a description of the most common YUV formats, see <a href="/windows/desktop/medfound/recommended-8-bit-yuv-formats-for-video-rendering">Recommended 8-Bit YUV Formats for Video Rendering</a>.
