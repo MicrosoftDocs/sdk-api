@@ -6,7 +6,7 @@ helpviewer_keywords: ["SW_FORCEMINIMIZE","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","
 old-location: winmsg\showwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindow.htm
-ms.date: 12/05/2018
+ms.date: 06/06/2023
 ms.keywords: SW_FORCEMINIMIZE, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShowWindow, ShowWindow function [Windows and Messages], _win32_ShowWindow, _win32_showwindow_cpp, winmsg.showwindow, winui._win32_showwindow, winuser/ShowWindow
 req.header: winuser.h
 req.include-header: Windows.h
@@ -80,7 +80,7 @@ Controls how the window is to be shown. This parameter is ignored the first time
 | Value | Meaning |
 |-------|---------|
 | **SW\_HIDE**<br>0 | Hides the window and activates another window. |
-| **SW\_SHOWNORMAL**<br>**SW\_NORMAL**<br>1 | Activates and displays a window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time. |
+| **SW\_SHOWNORMAL**<br>**SW\_NORMAL**<br>1 | Activates and displays a window. If the window is minimized, maximized, or arranged, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time. |
 | **SW\_SHOWMINIMIZED**<br>2 | Activates the window and displays it as a minimized window. |
 | **SW\_SHOWMAXIMIZED**<br>**SW\_MAXIMIZE**<br>3 | Activates the window and displays it as a maximized window. |
 | **SW\_SHOWNOACTIVATE**<br>4 | Displays a window in its most recent size and position. This value is similar to **SW_SHOWNORMAL**, except that the window is not activated. |
@@ -88,7 +88,7 @@ Controls how the window is to be shown. This parameter is ignored the first time
 | **SW\_MINIMIZE**<br>6 | Minimizes the specified window and activates the next top-level window in the Z order. |
 | **SW\_SHOWMINNOACTIVE**<br>7 | Displays the window as a minimized window. This value is similar to **SW_SHOWMINIMIZED**, except the window is not activated. |
 | **SW\_SHOWNA**<br>8 | Displays the window in its current size and position. This value is similar to **SW\_SHOW**, except that the window is not activated. |
-| **SW\_RESTORE**<br>9 | Activates and displays the window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when restoring a minimized window. |
+| **SW\_RESTORE**<br>9 | Activates and displays the window. If the window is minimized, maximized, or arranged, the system restores it to its original size and position. An application should specify this flag when restoring a minimized window. |
 | **SW\_SHOWDEFAULT**<br>10 | Sets the show state based on the **SW\_** value specified in the [STARTUPINFO](/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure passed to the [CreateProcess](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that started the application. |
 | **SW\_FORCEMINIMIZE**<br>11 | Minimizes a window, even if the thread that owns the window is not responding. This flag should only be used when minimizing windows from a different thread. |
 
