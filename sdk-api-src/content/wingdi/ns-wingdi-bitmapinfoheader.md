@@ -174,7 +174,7 @@ In an uncompressed bitmap, the stride is the number of bytes needed to go from t
 For uncompressed RGB formats, the minimum stride is always the image width in bytes, rounded up to the nearest <b>DWORD</b>. You can use the following formula to calculate the stride and image size: 
 
 ```cpp
-DWORD stride = ((((biWidth * biBitCount) + 31) & ~31) >> 3);
+stride = ((((biWidth * biBitCount) + 31) & ~31) >> 3);
 biSizeImage = biHeight * stride;
 ```
 
