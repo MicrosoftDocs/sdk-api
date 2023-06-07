@@ -1,12 +1,13 @@
 ---
 UID: NF:winuser.DrawTextW
 title: DrawTextW function (winuser.h)
-description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth). (DrawTextW)
+description: The DrawTextW (Unicode) function draws formatted text in the specified rectangle. (DrawTextW function)
 helpviewer_keywords: ["DT_BOTTOM", "DT_CALCRECT", "DT_CENTER", "DT_EDITCONTROL", "DT_END_ELLIPSIS", "DT_EXPANDTABS", "DT_EXTERNALLEADING", "DT_HIDEPREFIX", "DT_INTERNAL", "DT_LEFT", "DT_MODIFYSTRING", "DT_NOCLIP", "DT_NOFULLWIDTHCHARBREAK", "DT_NOPREFIX", "DT_PATH_ELLIPSIS", "DT_PREFIXONLY", "DT_RIGHT", "DT_RTLREADING", "DT_SINGLELINE", "DT_TABSTOP", "DT_TOP", "DT_VCENTER", "DT_WORDBREAK", "DT_WORD_ELLIPSIS", "DrawText", "DrawText function [Windows GDI]", "DrawTextW", "_win32_DrawText", "gdi.drawtext", "winuser/DrawText", "winuser/DrawTextW"]
+
 old-location: gdi\drawtext.htm
 tech.root: gdi
 ms.assetid: fe412280-d797-4abd-8a29-107a9cd96145
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawText, DrawText function [Windows GDI], DrawTextA, DrawTextW, _win32_DrawText, gdi.drawtext, winuser/DrawText, winuser/DrawTextA, winuser/DrawTextW
 req.header: winuser.h
 req.include-header: Windows.h
