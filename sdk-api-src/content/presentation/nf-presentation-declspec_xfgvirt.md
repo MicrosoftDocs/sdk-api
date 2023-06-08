@@ -2,7 +2,8 @@
 UID: NF:presentation.DECLSPEC_XFGVIRT
 tech.root: comp_swapchain
 title: DECLSPEC_XFGVIRT
-ms.date: 06/08/2021
+description: The DECLSPEC_XFGVIRT function is used with presentation.h headers to develop with composition swapchain.
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

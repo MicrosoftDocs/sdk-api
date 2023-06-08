@@ -2,7 +2,8 @@
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub
 tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub
-ms.date: 06/08/2021
+description: The IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub function refers to the display adapter where the independent-flip present occurred.
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false
