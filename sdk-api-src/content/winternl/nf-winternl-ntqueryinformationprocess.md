@@ -134,6 +134,22 @@ Retrieves a <b>ULONG</b> value indicating whether the process is considered crit
 <div> </div>
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="processtelemetryidinformation"></a><a id="processtelemetryidinformation"></a><a id="PROCESSTELEMETRYIDINFORMATION"></a><dl>
+<dt><b>ProcessTelemetryIdInformation</b></dt>
+<dt>64</dt>
+</dl>
+</td>
+<td width="60%">
+
+
+Retrieves a <b><a href="xx">PROCESS_TELEMETRY_ID_INFORMATION_TYPE</a></b> value that contains metadata about a process.
+</td>
+</tr>
+
+
+
 <tr>
 <td width="40%"><a id="ProcessSubsystemInformation"></a><a id="processsubsysteminformation"></a><a id="PROCESSSUBSYSTEMINFORMATION"></a><dl>
 <dt><b>ProcessSubsystemInformation</b></dt>
