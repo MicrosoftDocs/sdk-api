@@ -62,7 +62,7 @@ Type: <b>HICON</b>
 
 A handle to the icon or cursor.
 
-To retrieve information about a standard icon or cursor, specify the [identifier begin with the IDI\_ prefix](/windows/win32/menurc/about-icons) or the [identifier begin with IDC\_ prefix](/windows/win32/menurc/about-cursors) in this parameter.
+To retrieve information about a standard icon or cursor, specify the [identifier beginning with the IDI\_ prefix](/windows/win32/menurc/about-icons) or the [identifier beginning with the IDC\_ prefix](/windows/win32/menurc/about-cursors) in this parameter.
 
 ### -param piconinfo [in, out]
 
