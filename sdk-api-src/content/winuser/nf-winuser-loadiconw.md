@@ -80,7 +80,7 @@ Type: <b>LPCTSTR</b>
 
 If <i>hInstance</i> is non-<b>NULL</b>, <i>lpIconName</i> specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro.
 
-If <i>hInstance</i> is <b>NULL</b>, <i>lpIconName</i> specifies the [identifier begin with the IDI\_ prefix](/windows/win32/menurc/about-icons) of a predefined system icon to load.
+If <i>hInstance</i> is <b>NULL</b>, <i>lpIconName</i> specifies the [identifier (beginning with the IDI\_ prefix)](/windows/win32/menurc/about-icons) of a predefined system icon to load.
 
 ## -returns
 
