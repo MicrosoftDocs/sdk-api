@@ -144,7 +144,7 @@ Retrieves a <b>ULONG</b> value indicating whether the process is considered crit
 <td width="60%">
 
 
-Retrieves a <b><a href="xx">PROCESS_TELEMETRY_ID_INFORMATION_TYPE</a></b> value that contains metadata about a process.
+Retrieves a <b><a href="/windows/win32/devnotes/process_telemetry_id_information_type">PROCESS_TELEMETRY_ID_INFORMATION_TYPE</a></b> value that contains metadata about a process.
 </td>
 </tr>
 
