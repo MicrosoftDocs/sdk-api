@@ -70,7 +70,7 @@ A pointer to a null-terminated, Unicode buffer that contains location informatio
 
 If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i> specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro.
 
-If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the [identifier begin with the IDI\_ prefix](/windows/win32/menurc/about-icons) of a predefined system icon to load.
+If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the [identifier (beginning with the IDI\_ prefix)](/windows/win32/menurc/about-icons) of a predefined system icon to load.
 
 ### -param cx [in]
 
