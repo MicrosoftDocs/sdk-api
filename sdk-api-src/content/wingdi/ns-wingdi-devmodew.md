@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPDEVMODEW","*NPDEVMODEW","*PDEVMODEW","DEVMODE","DEVMOD
 old-location: display\devmodew.htm
 tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
-ms.date: 12/05/2018
+ms.date: 06/13/2023
 ms.keywords: '*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW'
 req.header: wingdi.h
 req.include-header: Wingdi.h
@@ -48,9 +48,6 @@ api_location:
 api_name:
  - DEVMODEW
 ---
-
-# DEVMODEW structure
-
 
 ## -description
 
@@ -153,7 +150,7 @@ This member is not used for displays.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For displays, specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
+For displays, specifies a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
 
 This member is not used for printers.
 
@@ -327,7 +324,7 @@ This member is not used for displays.
 
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/win32/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 This member is not used for printers.
 
@@ -369,9 +366,8 @@ Specifies the device's display mode. This member can be a combination of the fol
 <td>Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.</td>
 </tr>
 </table>
- 
 
-Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Display drivers use this member; for example, in the [ChangeDisplaySettings](/windows/win32/api/winuser/nf-winuser-changedisplaysettingsa) function. Printer drivers don't use this member.
 
 ### -field DUMMYUNIONNAME2.dmNup
 
@@ -502,4 +498,4 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 
-<a href="/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
+<a href="/windows/win32/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
