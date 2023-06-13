@@ -133,7 +133,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)">EnumResLangProc</a>
+<a href="nc-libloaderapi-enumreslangproca.md">EnumResLangProc</a>
 
 
 
