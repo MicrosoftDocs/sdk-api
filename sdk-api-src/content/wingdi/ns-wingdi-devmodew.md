@@ -353,11 +353,25 @@ This member is not used for printers.
 
 ### -field DUMMYUNIONNAME2.dmDisplayFlags
 
-For displays, specifies a display device's display mode. This member can be one of the following values:
+Specifies the device's display mode. This member can be a combination of the following values.
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>DM_GRAYSCALE</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed. This flag is no longer valid.</td>
+</tr>
+<tr>
+<td>DM_INTERLACED</td>
+<td>Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.</td>
+</tr>
+</table>
+ 
 
-
-This member is not used for printers.
+Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2.dmNup
 
