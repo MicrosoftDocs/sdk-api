@@ -100,7 +100,7 @@ Restricts usage to <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStre
 
 #### BHID_LinkTargetItem
 
-CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="/windows/desktop/shell/sfgao">SFGAO</a> for a description of SFGAO_LINK.
+CLSID_ShellItem is initialized with the target of this item (can only be SFGAO_LINK). See <a href="/windows/win32/shell/sfgao">SFGAO</a> for a description of SFGAO_LINK.
 
 
 
