@@ -1,5 +1,5 @@
 ---
-UID: NF:dcomp.IDCompositionTexture.GetAvailableFence
+UID: NF:dcomp.IDCompositionDevice4.CheckCompositionTextureSupport
 title: IDCompositionDevice4::CheckCompositionTextureSupport
 description: Queries whether the Direct3D device that you're using to render supports composition textures.
 tech.root: directcomp
