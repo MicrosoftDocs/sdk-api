@@ -48,4 +48,6 @@ The **IDCompositionTexture** interface derives from the [IUnknown](/windows/win3
 
 ## -remarks
 
+The lifetime of a composition texture is designed to work without intervention from your app. Your app doesn't need to keep a texture alive for the sake of what the system might be doing. If your app releases a texture that the system is still displaying in a visual tree, then the system will keep that texture alive until it's no longer necessary to do so. Your app can operate under the assumption that it needs to keep a composition texture alive only if it wants to explicitly reference it again.
+
 ## -see-also
