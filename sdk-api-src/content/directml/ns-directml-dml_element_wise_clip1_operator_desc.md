@@ -2,7 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC
 tech.root: directml
 title: DML_ELEMENT_WISE_CLIP1_OPERATOR_DESC
-ms.date: 07/22/2022
+ms.date: 06/16/2023
 targetos: Windows
 description: Performs a clamping (or limiting) operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 prerelease: false
@@ -43,7 +43,7 @@ helpviewer_keywords:
 Performs the following operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*. This operator clamps (or limits) every element in the input within the closed interval [*Min*, *Max*].
 
 ```
-f(x) = min(Max, max(Min, x))
+f(x) = max(Min, min(x, Max))
 ```
 
 Where `max(a,b)` returns the larger of the two values, and `min(a,b)` returns the smaller of the two values a,b.
