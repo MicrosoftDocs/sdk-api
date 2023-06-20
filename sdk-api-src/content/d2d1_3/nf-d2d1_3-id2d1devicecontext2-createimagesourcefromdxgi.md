@@ -176,7 +176,7 @@ When Surface Count is 2:
 When Surface Count is 3:
 
 <ul>
-<li>{DXGI_FORMAT_R8_UNORM, DXGI_FORMAT_R8_UNORM, DXGI_FORMAT_R8_UNORM}</li>
+<li>{DXGI_FORMAT_A8_UNORM, DXGI_FORMAT_A8_UNORM, DXGI_FORMAT_A8_UNORM}</li>
 </ul>
 </td>
 </tr>
