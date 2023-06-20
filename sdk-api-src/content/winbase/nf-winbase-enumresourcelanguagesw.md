@@ -106,7 +106,7 @@ Starting with Windows Vista, the binary module is typically a <a href="/windows
 
 For each resource found, <b>EnumResourceLanguages</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the language identifier (see <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>) of the language for which a resource was found, as well as the various other parameters that were passed to <b>EnumResourceLanguages</b>.
 
-Alternately, applications can call <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">EnumResourceLanguagesEx</a>, which provides more precise control of what resources are enumerated.
+Alternately, applications can call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw">EnumResourceLanguagesEx</a>, which provides more precise control of what resources are enumerated.
 
 The <b>EnumResourceLanguages</b> function continues to enumerate resource languages until the callback function returns <b>FALSE</b> or all resource languages have been enumerated.
 
@@ -137,7 +137,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">EnumResourceLanguagesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw">EnumResourceLanguagesEx</a>
 
 
 
