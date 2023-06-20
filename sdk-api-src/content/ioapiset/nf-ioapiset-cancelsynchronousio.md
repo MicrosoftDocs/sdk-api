@@ -85,7 +85,7 @@ If there are any pending I/O operations in progress for the specified thread, th
     completion before they are actually canceled and the caller is notified. The 
     <b>CancelSynchronousIo</b> function does not wait for 
     all canceled operations to complete. For more information, see 
-    <a href="https://www.microsoft.com/whdc/driver/kernel/iocancel.mspx">I/O Completion/Cancellation Guidelines</a>.
+    <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/canceling-pending-i-o-operations">Canceling Pending I/O Operations</a>.
 
 The operation being canceled is completed with one of three statuses; you must check the completion status to 
     determine the completion state. The three statuses are:
