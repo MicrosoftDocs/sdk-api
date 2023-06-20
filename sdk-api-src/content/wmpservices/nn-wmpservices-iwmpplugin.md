@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlugin","IWMPPlugin interface [Windows Media Player]"
 old-location: wmp\iwmpplugin.htm
 tech.root: WMP
 ms.assetid: e384aa43-72ab-44b7-b6bd-7a29335b5197
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlugin, IWMPPlugin interface [Windows Media Player], IWMPPlugin interface [Windows Media Player],described, IWMPPluginInterfaceDSP, wmp.iwmpplugin, wmpservices/IWMPPlugin
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPPlugin</b> interface is implemented by the plug-in. It manages the connection to Windows Media Player.
 

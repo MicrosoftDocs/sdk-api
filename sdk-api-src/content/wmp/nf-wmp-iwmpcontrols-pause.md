@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","pause met
 old-location: wmp\iwmpcontrols_pause.htm
 tech.root: WMP
 ms.assetid: ef8a3f0e-b424-43ab-bb42-83e9f80f5d19
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls interface [Windows Media Player],pause method, IWMPControls.pause, IWMPControls::pause, IWMPControlspause, pause, pause method [Windows Media Player], pause method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_pause, wmp/IWMPControls::pause
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>pause</b> method pauses playback of the media item.
 

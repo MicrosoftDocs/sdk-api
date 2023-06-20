@@ -6,7 +6,7 @@ helpviewer_keywords: ["WM_CLIENT_PROPERTIES","WM_CLIENT_PROPERTIES structure [wi
 old-location: wmformat\wm_client_properties.htm
 tech.root: wmformat
 ms.assetid: 62a5bafd-cc49-4a60-be03-038920e5b073
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WM_CLIENT_PROPERTIES, WM_CLIENT_PROPERTIES structure [windows Media Format], wmformat.wm_client_properties, wmsdkidl/WM_CLIENT_PROPERTIES
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WM_CLIENT_PROPERTIES</b> structure records information about the client.
 

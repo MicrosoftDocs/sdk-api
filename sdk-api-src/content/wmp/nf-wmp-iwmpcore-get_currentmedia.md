@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_currentMe
 old-location: wmp\iwmpcore_get_currentmedia.htm
 tech.root: WMP
 ms.assetid: 4f199336-0555-40de-8d27-780b05ef9510
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCore interface [Windows Media Player],get_currentMedia method, IWMPCore.get_currentMedia, IWMPCore::get_currentMedia, IWMPCoreget_currentMedia, get_currentMedia, get_currentMedia method [Windows Media Player], get_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_currentmedia, wmp/IWMPCore::get_currentMedia
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_currentMedia</b> method retrieves a pointer to an <b>IWMPMedia</b> interface corresponding to the current media item.
 

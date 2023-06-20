@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","topMenu method
 old-location: wmp\iwmpdvd_topmenu.htm
 tech.root: WMP
 ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>topMenu</b> method stops playback and displays the top (or root) menu for the current title.
 

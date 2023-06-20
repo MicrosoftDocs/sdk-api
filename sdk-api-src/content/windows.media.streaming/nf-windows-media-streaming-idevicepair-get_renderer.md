@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDevicePair interface [Media Streaming API]","get_Rendere
 old-location: mediastreaming\idevicepair_renderer.htm
 tech.root: mediastreaming
 ms.assetid: A130AB29-285A-4BBB-B02F-8DA515E0E529
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDevicePair interface [Media Streaming API],get_Renderer method, IDevicePair.get_Renderer, IDevicePair.streaming, IDevicePair::get_Renderer, IDevicePair::streaming, get_Renderer, get_Renderer method [Media Streaming API], get_Renderer method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_renderer, windows/IDevicePair::get_Renderer
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Gets the renderer for the active basic device pair.
 

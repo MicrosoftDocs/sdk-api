@@ -6,7 +6,7 @@ helpviewer_keywords: ["DoubleClick","DoubleClick method [Windows Media Player]",
 old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
 tech.root: WMP
 ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>DoubleClick</b> event occurs when the user double-clicks a mouse button.
 

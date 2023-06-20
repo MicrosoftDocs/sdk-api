@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMediaCollection2 interface [Windows Media Player]","g
 old-location: wmp\iwmpmediacollection2_getstringcollectionbyquery.htm
 tech.root: WMP
 ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getStringCollectionByQuery method, IWMPMediaCollection2.getStringCollectionByQuery, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getStringCollectionByQuery</b> method retrieves a pointer to an <b>IWMPStringCollection</b> interface. This interface represents a set of all string values for a specified attribute that match the query conditions.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","Noti
 old-location: mediastreaming\iactivebasicdevice_notifystreamingstatus.htm
 tech.root: mediastreaming
 ms.assetid: D62E8571-1DE9-4BAB-A291-415FD6E9F9C8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],NotifyStreamingStatus method, IActiveBasicDevice.NotifyStreamingStatus, IActiveBasicDevice.streaming, IActiveBasicDevice::NotifyStreamingStatus, IActiveBasicDevice::streaming, NotifyStreamingStatus, NotifyStreamingStatus method [Media Streaming API], NotifyStreamingStatus method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_notifystreamingstatus, windows/IActiveBasicDevice::NotifyStreamingStatus
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Called by the application to indicate  that  the device is being used for active streaming.
 

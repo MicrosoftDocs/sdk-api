@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPRipState","WMPRipState enumeration [Windows Media Play
 old-location: wmp\wmpripstate.htm
 tech.root: WMP
 ms.assetid: bd62cae1-3f63-4355-afc7-e429a444189d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPRipState, WMPRipState enumeration [Windows Media Player], wmp.wmpripstate, wmp/WMPRipState, wmp/wmprsRipping, wmp/wmprsStopped, wmp/wmprsUnknown, wmprsRipping, wmprsStopped, wmprsUnknown
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMPRipState</b> enumeration type defines the possible operational states of Windows Media Player as it rips a CD.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPacketSize2 interface [windows Media Format]","SetMinP
 old-location: wmformat\iwmpacketsize2_setminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 6d58da65-710c-46ea-8fb9-9d161df06483
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize method, IWMPacketSize2.SetMinPacketSize, IWMPacketSize2::SetMinPacketSize, IWMPacketSize2SetMinPacketSize, SetMinPacketSize, SetMinPacketSize method [windows Media Format], SetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize2_setminpacketsize, wmsdkidl/IWMPacketSize2::SetMinPacketSize
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetMinPacketSize</b> method sets the minimum <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 

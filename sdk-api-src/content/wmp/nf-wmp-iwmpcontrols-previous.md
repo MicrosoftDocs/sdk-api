@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","previous 
 old-location: wmp\iwmpcontrols_previous.htm
 tech.root: WMP
 ms.assetid: e26eca59-1e2d-4a1f-b133-e337a934014b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls interface [Windows Media Player],previous method, IWMPControls.previous, IWMPControls::previous, IWMPControlsprevious, previous, previous method [Windows Media Player], previous method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_previous, wmp/IWMPControls::previous
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>previous</b> method sets the previous item in the playlist as the current item.
 

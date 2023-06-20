@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_sourceUR
 old-location: wmp\iwmpmedia_get_sourceurl.htm
 tech.root: WMP
 ms.assetid: 99a9bd0f-0429-41b0-96fc-b84d895f6b38
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_sourceURL method, IWMPMedia.get_sourceURL, IWMPMedia2 interface [Windows Media Player],get_sourceURL method, IWMPMedia2::get_sourceURL, IWMPMedia3 interface [Windows Media Player],get_sourceURL method, IWMPMedia3::get_sourceURL, IWMPMedia::get_sourceURL, IWMPMediaget_sourceURL, get_sourceURL, get_sourceURL method [Windows Media Player], get_sourceURL method [Windows Media Player],IWMPMedia interface, get_sourceURL method [Windows Media Player],IWMPMedia2 interface, get_sourceURL method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_sourceurl, wmp/IWMPMedia2::get_sourceURL, wmp/IWMPMedia3::get_sourceURL, wmp/IWMPMedia::get_sourceURL
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_sourceURL</b> method retrieves the URL of the media item.
 
