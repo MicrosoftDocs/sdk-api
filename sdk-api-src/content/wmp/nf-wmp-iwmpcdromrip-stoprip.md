@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","stopRip m
 old-location: wmp\iwmpcdromrip_stoprip.htm
 tech.root: WMP
 ms.assetid: 2a6c5a25-f69c-4258-a92f-7f693b201a01
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdromRip interface [Windows Media Player],stopRip method, IWMPCdromRip.stopRip, IWMPCdromRip::stopRip, IWMPCdromRipstopRip, stopRip, stopRip method [Windows Media Player], stopRip method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_stoprip, wmp/IWMPCdromRip::stopRip
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>stopRip</b> method stops the CD ripping process.
 

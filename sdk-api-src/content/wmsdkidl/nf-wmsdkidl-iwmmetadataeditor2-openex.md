@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMMetadataEditor2 interface [windows Media Format]","Ope
 old-location: wmformat\iwmmetadataeditor2_openex.htm
 tech.root: wmformat
 ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, IWMMetadataEditor2.OpenEx, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format],IWMMetadataEditor2 interface, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>OpenEx</b> method opens a file for use by the metadata editor object. <b>OpenEx</b> opens ASF files and MP3 files, though the metadata editor has limited capabilities when working with MP3 files.
 

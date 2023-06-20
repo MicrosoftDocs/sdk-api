@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPLibrary2 interface [Windows Media Player]","getItemIn
 old-location: wmp\iwmplibrary2_getiteminfo.htm
 tech.root: WMP
 ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getItemInfo</b> method retrieves the value of the <b>LibraryID</b> attribute.
 

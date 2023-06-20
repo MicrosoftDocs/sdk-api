@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetEnableHTTP","GetEnableHTTP method [windows Media Forma
 old-location: wmformat\iwmreadernetworkconfig_getenablehttp.htm
 tech.root: wmformat
 ms.assetid: 892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetEnableHTTP, GetEnableHTTP method [windows Media Format], GetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableHTTP method, IWMReaderNetworkConfig.GetEnableHTTP, IWMReaderNetworkConfig::GetEnableHTTP, IWMReaderNetworkConfigGetEnableHTTP, wmformat.iwmreadernetworkconfig_getenablehttp, wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetEnableHTTP</b> method queries whether HTTP is enabled for protocol rollover.
 

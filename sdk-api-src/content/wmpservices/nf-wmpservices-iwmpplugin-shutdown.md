@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlugin interface [Windows Media Player]","Shutdown me
 old-location: wmp\iwmpplugin_shutdown.htm
 tech.root: WMP
 ms.assetid: 80a8fe19-3660-49cb-8bbb-0267b3f11b63
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlugin interface [Windows Media Player],Shutdown method, IWMPPlugin.Shutdown, IWMPPlugin::Shutdown, IWMPPluginShutdownDSP, Shutdown, Shutdown method [Windows Media Player], Shutdown method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_shutdown, wmpservices/IWMPPlugin::Shutdown
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPPlugin::Shutdown</b> method is called when Windows Media Player shuts down the plug-in.
 

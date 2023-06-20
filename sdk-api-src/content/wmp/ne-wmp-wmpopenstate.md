@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPOpenState","WMPOpenState enumeration [Windows Media Pl
 old-location: wmp\wmpopenstate.htm
 tech.root: WMP
 ms.assetid: 535c8f56-d854-449b-ad50-72e5dd32710a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPOpenState, WMPOpenState enumeration [Windows Media Player], wmp.wmpopenstate, wmp/WMPOpenState, wmp/wmposBeginCodecAcquisition, wmp/wmposBeginIndividualization, wmp/wmposBeginLicenseAcquisition, wmp/wmposEndCodecAcquisition, wmp/wmposEndIndividualization, wmp/wmposEndLicenseAcquisition, wmp/wmposMediaChanging, wmp/wmposMediaConnecting, wmp/wmposMediaLoading, wmp/wmposMediaLocating, wmp/wmposMediaOpen, wmp/wmposMediaOpening, wmp/wmposMediaWaiting, wmp/wmposOpeningUnknownURL, wmp/wmposPlaylistChanged, wmp/wmposPlaylistChanging, wmp/wmposPlaylistConnecting, wmp/wmposPlaylistLoading, wmp/wmposPlaylistLocating, wmp/wmposPlaylistOpenNoMedia, wmp/wmposPlaylistOpening, wmp/wmposUndefined, wmposBeginCodecAcquisition, wmposBeginIndividualization, wmposBeginLicenseAcquisition, wmposEndCodecAcquisition, wmposEndIndividualization, wmposEndLicenseAcquisition, wmposMediaChanging, wmposMediaConnecting, wmposMediaLoading, wmposMediaLocating, wmposMediaOpen, wmposMediaOpening, wmposMediaWaiting, wmposOpeningUnknownURL, wmposPlaylistChanged, wmposPlaylistChanging, wmposPlaylistConnecting, wmposPlaylistLoading, wmposPlaylistLocating, wmposPlaylistOpenNoMedia, wmposPlaylistOpening, wmposUndefined
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMPOpenState</b> enumeration type defines the possible operational states of Windows Media Player as it opens a digital media file.
 

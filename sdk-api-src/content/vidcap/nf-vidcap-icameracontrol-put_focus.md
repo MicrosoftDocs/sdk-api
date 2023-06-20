@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Focus method"
 old-location: dshow\icameracontrol_put_focus.htm
 tech.root: dshow
 ms.assetid: c896bf2b-33b6-4e7c-bf84-b7dd8f57a4d4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICameraControl interface [DirectShow],put_Focus method, ICameraControl.put_Focus, ICameraControl::put_Focus, ICameraControlput_Focus, dshow.icameracontrol_put_focus, put_Focus, put_Focus method [DirectShow], put_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Focus
 req.header: vidcap.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_Focus</code> method sets the distance that is optimally in focus.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetLoggingUrl","GetLoggingUrl method [windows Media Forma
 old-location: wmformat\iwmreadernetworkconfig_getloggingurl.htm
 tech.root: wmformat
 ms.assetid: 27c5a97b-e04b-4d15-b19a-3c0d78feee95
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetLoggingUrl, GetLoggingUrl method [windows Media Format], GetLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrl method, IWMReaderNetworkConfig.GetLoggingUrl, IWMReaderNetworkConfig::GetLoggingUrl, IWMReaderNetworkConfigGetLoggingUrl, wmformat.iwmreadernetworkconfig_getloggingurl, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetLoggingUrl</b> method retrieves a URL from the list of servers that receive logging information from the reader object. Use the <b>IWMReaderNetworkConfig::GetLoggingUrl</b> method to add servers to the list.
 

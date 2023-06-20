@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPAudioRenderConfig interface [Windows Media Player]","
 old-location: wmp\iwmpaudiorenderconfig_put_audiooutputdevice.htm
 tech.root: WMP
 ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOutputDevice method, IWMPAudioRenderConfig.put_audioOutputDevice, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
 req.header: wmprealestate.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_audioOutputDevice</b> sets the current audio output device for the Windows Media Player ActiveX control.
 

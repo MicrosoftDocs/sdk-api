@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPStringCollection","IWMPStringCollection interface [Wi
 old-location: wmp\iwmpstringcollection.htm
 tech.root: WMP
 ms.assetid: 8cdabea9-7e37-4e63-9d6c-b6f63aa536ea
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], IWMPStringCollection interface [Windows Media Player],described, IWMPStringCollectionInterface, wmp.iwmpstringcollection, wmp/IWMPStringCollection
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPStringCollection</b> interface provides methods that work with a collection of strings.
 

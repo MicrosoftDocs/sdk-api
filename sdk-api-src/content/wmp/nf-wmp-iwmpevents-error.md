@@ -6,7 +6,7 @@ helpviewer_keywords: ["Error","Error method [Windows Media Player]","Error metho
 old-location: wmp\iwmpevents_iwmpevents__error.htm
 tech.root: WMP
 ms.assetid: 65c17590-3988-40d8-b6d8-b32b2e883059
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: Error, Error method [Windows Media Player], Error method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Error method, IWMPEvents.Error, IWMPEvents::Error, IWMPEventsError, wmp.iwmpevents_iwmpevents__error, wmp/IWMPEvents::Error
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Error</b> event occurs when the Windows Media Player control has an error condition..
 

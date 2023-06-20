@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_STORAGE_FORMAT","WMT_STORAGE_FORMAT enumeration [wind
 old-location: wmformat\wmt_storage_format.htm
 tech.root: wmformat
 ms.assetid: 49f49ca8-8953-47a6-97c3-fd011d5f88cd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_STORAGE_FORMAT, WMT_STORAGE_FORMAT enumeration [windows Media Format], WMT_Storage_Format_MP3, WMT_Storage_Format_V1, wmformat.wmt_storage_format, wmsdkidl/WMT_STORAGE_FORMAT, wmsdkidl/WMT_Storage_Format_MP3, wmsdkidl/WMT_Storage_Format_V1
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_STORAGE_FORMAT</b> enumeration type defines the file types that can be manipulated with this SDK.
 

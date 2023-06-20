@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPWAVEFORMATIEEEFLOATEX","*LPWAVEFORMATPCMEX","*NPWAVEFO
 old-location: multimedia\waveformatextensible.htm
 tech.root: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Windows Multimedia], WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, _win32_WAVEFORMATEXTENSIBLE_str, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE, multimedia.waveformatextensible'
 req.header: mmreg.h
 req.include-header: 
@@ -48,6 +48,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>. It can also be used to define any format that can be defined by <b>WAVEFORMATEX</b>.
 

@@ -28,6 +28,8 @@ topic_type:
  - apiref
 api_location:
 - Kernel32.dll
+- sqlite.dll
+- api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - DeleteFileFromAppW
 - DeleteFileFromApp

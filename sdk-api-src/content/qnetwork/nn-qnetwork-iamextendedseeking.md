@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMExtendedSeeking","IAMExtendedSeeking interface [Direct
 old-location: dshow\iamextendedseeking.htm
 tech.root: dshow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IAMExtendedSeeking</code> interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter and the <a href="/windows/desktop/DirectShow/wm-asf-reader-filter">WM ASF Reader</a> filter.
 
