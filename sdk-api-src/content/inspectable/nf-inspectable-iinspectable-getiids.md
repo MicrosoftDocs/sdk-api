@@ -65,7 +65,7 @@ The number of interfaces that are implemented by the current Windows Runtime obj
 
 Type: <b>IID**</b>
 
-A pointer to an array that contains an IID for   each interface implemented by the current Windows Runtime object. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
+A pointer to an array that contains an IID for each interface implemented by the current Windows Runtime object. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
 
 ## -returns
 
@@ -85,8 +85,7 @@ This function can return the following values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
-
+The IID array was allocated and saved in <i>iids</i> successfully.
 </td>
 </tr>
 <tr>
