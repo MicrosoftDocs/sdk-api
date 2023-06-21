@@ -63,7 +63,7 @@ api_name:
 
 ## -description
 
-Loads a string resource from the executable file associated with a specified module and either copies the string into a buffer with a terminating null character or returns a read-only pointer to the string resource itself.
+Loads a string resource from the executable file associated with a specified module and copies the string into a buffer with a terminating null character.
 
 ## -parameters
 
@@ -83,29 +83,21 @@ The identifier of the string to be loaded.
 
 Type: <b>LPTSTR</b>
 
-The buffer to receive the string (if *cchBufferMax* is non-zero) or a read-only pointer to the string resource itself (if *cchBufferMax* is zero). Must be of sufficient length to hold a pointer (8 bytes).
+The buffer to receive the string.
 
 ### -param cchBufferMax [in]
 
 Type: <b>int</b>
 
-The size of the buffer, in characters. The string is truncated and null-terminated if it is longer than the number of characters specified. If this parameter is 0, then <i>lpBuffer</i> receives a read-only pointer to the string resource itself.
+The size of the buffer, in characters. The string is truncated and null-terminated if it is longer than the number of characters specified.
 
 ## -returns
 
 Type: <b>int</b>
 
-If the function succeeds, the return value is one of the following:
-
-- The number of characters copied into the buffer (if *cchBufferMax* is non-zero), not including the terminating null character.
-- The number of characters in the string resource that *lpBuffer* points to (if *cchBufferMax* is zero). The string resource is not guaranteed to be null-terminated in the module's resource table, and you can use this value to determine where the string resource ends.
-- Zero if the string resource does not exist. 
- 
-To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the number of characters copied into the buffer, not including the terminating null character, or zero if the string resource does not exist. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-If you pass 0 to *cchBufferMax* to return a read-only pointer to the string resource in the *lpBuffer* parameter, use the number of characters in the return value to determine the length of the string resource. String resources are not guaranteed to be null-terminated in the module's resource table. However, resource tables can contain null characters. String resources are stored in blocks of 16 strings, and any empty slots within a block are indicated by null characters. 
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 Using this function incorrectly can compromise the security of your application. Incorrect use includes specifying the wrong size in the <i>nBufferMax</i> parameter. For example, if <i>lpBuffer</i> points to a buffer <i>szBuffer</i> which is declared as <code>TCHAR szBuffer[100]</code>, then sizeof(szBuffer) gives the size of the buffer in bytes, which could lead to a buffer overflow for the Unicode version of the function. Buffer overflow situations are the cause of many security problems in applications. In this case, using <code>sizeof(szBuffer)/sizeof(TCHAR)</code> or <code>sizeof(szBuffer)/sizeof(szBuffer[0])</code> would give the proper size of the buffer.
