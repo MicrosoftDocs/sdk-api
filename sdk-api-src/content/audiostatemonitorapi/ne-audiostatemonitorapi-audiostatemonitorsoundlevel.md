@@ -1,8 +1,8 @@
 ---
 UID: NE:audiostatemonitorapi.AudioStateMonitorSoundLevel
-tech.root: 
+tech.root: CoreAudio
 title: AudioStateMonitorSoundLevel
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
 description: 
 prerelease: false
@@ -37,13 +37,21 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies a sound level for audio streams being queried with a call to [IAudioStateMonitor::GetSoundLevel](nf-audiostatemonitorapi-iaudiostatemonitor-getsoundlevel.md)
+
 ## -enum-fields
 
 ### -field Muted
 
+The audio is muted.
+
 ### -field Low
 
+The audio level is low.
+
 ### -field Full
+
+The audio level is full.
 
 ## -remarks
 

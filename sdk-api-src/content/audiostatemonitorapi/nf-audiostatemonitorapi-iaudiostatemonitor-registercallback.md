@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.IAudioStateMonitor.RegisterCallback
-tech.root: 
+tech.root: CoreAudio
 title: IAudioStateMonitor::RegisterCallback
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Registers an implementation of AudioStateMonitorCallback that is called when the system changes the sound level of the audio streams being monitored by an IAudioStateMonitor.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+Registers an implementation of [AudioStateMonitorCallback](nc-audiostatemonitorapi-audiostatemonitorcallback.md) that is called when the system changes the sound level of the audio streams being monitored by an [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md).
+
 ## -parameters
 
-### -param callback
+### -param callback [in]
 
-### -param context
+A pointer to the **AudioStateMonitorCallback** function implementation.
 
-### -param registration
+### -param context [in, optional]
+
+A optional void pointer that points to context information provided by the client in the call to [IAudioStateMonitor::RegisterCallback](nf-audiostatemonitorapi-iaudiostatemonitor-registercallback.md).
+
+### -param registration [out]
+
+An Int64 representing the handle to a registration. Pass this handle to [IAudioStateMonitor::UnregisterCallback](nf-audiostatemonitorapi-iaudiostatemonitor-unregistercallback.md) to unregister the callback.
 
 ## -returns
+
+Returns an HRESULT including the following values.
+
+| Value | Description |
+|-------|-------------|
+| S_OK  | Success.    |
 
 ## -remarks
 

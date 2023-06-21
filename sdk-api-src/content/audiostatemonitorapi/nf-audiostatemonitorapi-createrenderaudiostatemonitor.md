@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.CreateRenderAudioStateMonitor
-tech.root: 
+tech.root: CoreAudio
 title: CreateRenderAudioStateMonitor
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Creates a new instance of IAudioStateMonitor for the default render stream.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,21 @@ helpviewer_keywords:
 
 ## -description
 
+Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for the default render stream.
+
 ## -parameters
 
-### -param audioStateMonitor
+### -param audioStateMonitor [out]
+
+Receives a pointer to the created **IAudioStateMonitor**.
 
 ## -returns
+
+Returns an HRESULT including the following values.
+
+| Value | Description |
+|-------|-------------|
+| S_OK  | Success.    |
 
 ## -remarks
 

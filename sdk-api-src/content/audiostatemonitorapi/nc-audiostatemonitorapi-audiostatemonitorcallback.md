@@ -1,10 +1,10 @@
 ---
 UID: NC:audiostatemonitorapi.AudioStateMonitorCallback
-tech.root: 
+tech.root: CoreAudio
 title: AudioStateMonitorCallback
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Occurs when the system changes the sound level of the audio streams being monitored by an IAudioStreamStateMonitor.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,23 @@ helpviewer_keywords:
 
 ## -description
 
+Called when the system changes the sound level of the audio streams being monitored by an [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md).
+
 ## -parameters
 
-### -param audioStateMonitor
+### -param audioStateMonitor [in]
 
-### -param context
+The **IAudioStateMonitor** with which the callback was registered.
+
+### -param context [in, optional]
+
+A void pointer that points to context information provided by the client in the call to [IAudioStateMonitor::RegisterCallback](nf-audiostatemonitorapi-iaudiostatemonitor-registercallback.md).
 
 ## -remarks
+
+Windows dynamically mutes or lowers the level of audio streams in response to system events. For example, the volume of a podcast app's audio render stream may be lowered while an alarm is ringing. Or an audio recording app may have their capture stream muted when the app moves to the background. Register an implementation of this callback with a call to [IAudioStateMonitor::RegisterCallback](nf-audiostatemonitorapi-iaudiostatemonitor-registercallback.md) to receive notifications when the sound level for a stream changes, and then call [IAudioStateMonitor::GetSoundLevel](nf-audiostatemonitorapi-iaudiostatemonitor-getsoundlevel.md) property to determine the new current audio level.
+
+
 
 ## -see-also
 

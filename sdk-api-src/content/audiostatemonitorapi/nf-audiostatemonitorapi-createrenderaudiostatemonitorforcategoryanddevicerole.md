@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.CreateRenderAudioStateMonitorForCategoryAndDeviceRole
-tech.root: 
+tech.root: CoreAudio
 title: CreateRenderAudioStateMonitorForCategoryAndDeviceRole
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Creates a new instance of IAudioStateMonitor for the default render stream for the specified audio category and audio device role.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for the default render stream for the specified audio category and audio device role.
+
 ## -parameters
 
-### -param category
+### -param category [in]
 
-### -param role
+A member of the [AUDIO_STREAM_CATEGORY](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) enumeration specifying the audio stream category for which the audio state monitor is created.
 
-### -param audioStateMonitor
+### -param role [in]
+
+A member of the [ERole](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole) enumeration specifying the audio device role for which the audio state monitor is created.
+
+### -param audioStateMonitor [out]
+
+Receives a pointer to the created **IAudioStateMonitor**.
 
 ## -returns
+
+Returns an HRESULT including the following values.
+
+| Value | Description |
+|-------|-------------|
+| S_OK  | Success.    |
 
 ## -remarks
 

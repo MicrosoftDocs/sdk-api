@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.IAudioStateMonitor.UnregisterCallback
-tech.root: 
+tech.root: CoreAudio
 title: IAudioStateMonitor::UnregisterCallback
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Unregisters an AudioStateMonitorCallback previously registered with a call to IAudioStateMonitor::RegisterCallback.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
+Unregisters an [AudioStateMonitorCallback](nc-audiostatemonitorapi-audiostatemonitorcallback.md) previously registered with a call to [IAudioStateMonitor::RegisterCallback](nf-audiostatemonitorapi-iaudiostatemonitor-registercallback.md).
+
 ## -parameters
 
 ### -param registration
 
+The registration handle obtained from the *registration* output parameter to **RegisterCallback**.
+
 ## -remarks
+
+If any callbacks are in progress, this method will block until the callbacks have completed. This method may be called from within the callback, and in this case it will not block.
 
 ## -see-also
 

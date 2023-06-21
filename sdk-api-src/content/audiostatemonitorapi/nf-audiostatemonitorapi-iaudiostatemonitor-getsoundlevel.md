@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.IAudioStateMonitor.GetSoundLevel
-tech.root: 
+tech.root: CoreAudio
 title: IAudioStateMonitor::GetSoundLevel
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Gets the current sound level for the audio streams associated with an IAudioStateMonitor.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,9 +44,15 @@ helpviewer_keywords:
 
 ## -description
 
+Gets the current sound level for the audio streams associated with an [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md).
+
 ## -returns
 
+A value from the [AudioStateMonitorSoundLevel](ne-audiostatemonitorapi-audiostatemonitorsoundlevel.md) enumeration specifying the current sound level for the audio stream.
+
 ## -remarks
+
+Windows dynamically mutes or lowers the level of audio streams in response to system events. For example, the volume of a podcast app's audio render stream may be lowered while an alarm is ringing. Or an audio recording app may have their capture stream muted when the app moves to the background. Register an implementation of the [AudioStateMonitorCallback](nc-audiostatemonitorapi-audiostatemonitorcallback.md) event to receive notifications when the sound level for a category of audio streams changes.
 
 ## -see-also
 

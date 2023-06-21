@@ -1,10 +1,10 @@
 ---
 UID: NF:audiostatemonitorapi.CreateCaptureAudioStateMonitorForCategoryAndDeviceId
-tech.root: 
+tech.root: CoreAudio
 title: CreateCaptureAudioStateMonitorForCategoryAndDeviceId
-ms.date: 
+ms.date: 06/21/2023
 targetos: Windows
-description: 
+description: Creates a new instance of IAudioStateMonitor for the default capture stream for the specified audio category and audio device ID.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for the default capture stream for the specified audio category and audio device ID.
+
 ## -parameters
 
-### -param category
+### -param category [in]
 
-### -param deviceId
+A member of the [AUDIO_STREAM_CATEGORY](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) enumeration specifying the audio stream category for which the audio state monitor is created.
 
-### -param audioStateMonitor
+### -param deviceId [in]
+
+The unique identifier of the audio device for which the audio state monitor is created. The endpoint may be specified using the MMDevice ID, obtained using [IMMDevice::GetId](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid), or by using its SWD ID, obtained using [Windows.Devices.Enumeration](/uwp/api/windows.devices.enumeration) or [Windows.Media.Devices.MediaDevice](/uwp/api/windows.media.devices.mediadevice).
+
+### -param audioStateMonitor [out]
+
+Receives a pointer to the created **IAudioStateMonitor**.
 
 ## -returns
+
+Returns an HRESULT including the following values.
+
+| Value | Description |
+|-------|-------------|
+| S_OK  | Success.    |
 
 ## -remarks
 
