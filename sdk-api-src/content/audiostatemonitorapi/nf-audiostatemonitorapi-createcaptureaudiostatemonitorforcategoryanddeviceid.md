@@ -4,7 +4,7 @@ tech.root: CoreAudio
 title: CreateCaptureAudioStateMonitorForCategoryAndDeviceId
 ms.date: 06/21/2023
 targetos: Windows
-description: Creates a new instance of IAudioStateMonitor for the default capture stream for the specified audio category and audio device ID.
+description: Creates a new instance of IAudioStateMonitor for capture streams with the specified audio category and audio device ID.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for the default capture stream for the specified audio category and audio device ID.
+Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for capture streams with the specified audio category and audio device ID.
 
 ## -parameters
 

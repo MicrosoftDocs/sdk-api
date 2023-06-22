@@ -4,7 +4,7 @@ tech.root: CoreAudio
 title: CreateRenderAudioStateMonitorForCategoryAndDeviceRole
 ms.date: 06/21/2023
 targetos: Windows
-description: Creates a new instance of IAudioStateMonitor for the default render stream for the specified audio category and audio device role.
+description: Creates a new instance of IAudioStateMonitor for render streams with the specified audio category and audio device role.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for the default render stream for the specified audio category and audio device role.
+Creates a new instance of [IAudioStateMonitor](nn-audiostatemonitorapi-iaudiostatemonitor.md) for render streams with the specified audio category and audio device role.
 
 ## -parameters
 
