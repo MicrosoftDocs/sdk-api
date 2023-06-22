@@ -95,7 +95,7 @@ If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omi
 | **OCR\_** | OEM cursors |
 | **IDI\_** | [Standard icons](/windows/win32/menurc/about-icons) |
 | **IDC\_** | [Standard cursors](/windows/win32/menurc/about-cursors) |
- 
+
 To pass OEM image identifiers constants to the <b>LoadImage</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
 
 If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the standalone resource (icon, cursor, or bitmap file), - for example, `c:\myicon.ico`.
