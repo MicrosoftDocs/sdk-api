@@ -177,7 +177,7 @@ Uses the width or height specified by the system metric values for cursors or ic
 </dl>
 </td>
 <td width="60%">
-Loads the standalone image from the file specified by  <i>name</i> (icon, cursor, or bitmap file).
+Loads the standalone image from the file specified by <i>name</i> (icon, cursor, or bitmap file).
 
 </td>
 </tr>
