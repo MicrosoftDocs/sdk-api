@@ -3,9 +3,7 @@ UID: NF:winuser.GET_DEVICE_LPARAM
 title: GET_DEVICE_LPARAM macro (winuser.h)
 description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_DEVICE_LPARAM","GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_DEVICE_LPARAM","_win32_get_device_lparam_cpp","inputdev.get_device_lparam","winui._win32_get_device_lparam","winuser/GET_DEVICE_LPARAM"]
-old-location: inputdev\get_device_lparam.htm
 tech.root: inputdev
-ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_device_lparam.htm
 ms.date: 12/05/2018
 ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM
 req.header: winuser.h

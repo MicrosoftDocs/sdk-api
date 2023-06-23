@@ -41,7 +41,6 @@ api_location:
  - Winuser.h
 api_name:
  - GET_MOUSEORKEY_LPARAM
-
 ---
 
 # GET\_MOUSEORKEY\_LPARAM macro
