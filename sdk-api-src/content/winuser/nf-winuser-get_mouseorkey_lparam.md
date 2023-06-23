@@ -43,7 +43,7 @@ api_name:
  - GET_MOUSEORKEY_LPARAM
 ---
 
-# GET\_MOUSEORKEY\_LPARAM macro
+# GET_MOUSEORKEY_LPARAM macro
 
 Retrieves the input device type from the specified **LPARAM** value.
 
