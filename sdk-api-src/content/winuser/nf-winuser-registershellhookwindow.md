@@ -60,7 +60,7 @@ api_name:
 
 Registers a specified Shell window to receive certain messages for events or notifications that are useful to Shell applications.
 
-The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages    are the same as those that can be received after calling the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> and not through a call back procedure.
+The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages    are the same as those that can be received after calling the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> and not through a call back procedure.
 
 ## -parameters
 
@@ -177,7 +177,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
+<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
 
 
 
@@ -189,7 +189,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>
 
 
 
