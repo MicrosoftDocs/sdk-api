@@ -57,6 +57,8 @@ This property is read-only.
 
 ## -parameters
 
+### -param retVal
+
 ## -remarks
 
 This property is supported by controls such as scroll bars and sliders that can have either a vertical or a horizontal orientation.

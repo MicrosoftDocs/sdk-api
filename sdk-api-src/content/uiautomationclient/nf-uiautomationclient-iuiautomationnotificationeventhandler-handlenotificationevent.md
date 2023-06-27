@@ -58,11 +58,11 @@ Handles a Microsoft UI Automation notification event.
 
 A pointer to the element that raised the event.
 
-### -param unnamedParam2
+### -param notificationKind
 
 The type of notification.
 
-### -param unnamedParam3
+### -param notificationProcessing
 
 Indicates how to process notifications.
 
