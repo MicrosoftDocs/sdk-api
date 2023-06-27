@@ -99,7 +99,7 @@ The pen style, which can be one of the following values.
 
 ### -field lopnWidth
 
-The <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the pen width, in logical units. If the <b>x</b> member is <b>NULL</b>, the pen is one pixel wide on raster devices. The <b>y</b> member in the <b>POINT</b> structure for <b>lopnWidth</b> is not used.
+The [POINT](/windows/win32/api/windef/ns-windef-point) structure that contains the pen width, in logical units. If the **x** member is **NULL**, then the pen is one pixel wide on raster devices. The **y** member in the **POINT** structure for **lopnWidth** isn't used.
 
 ### -field lopnColor
 
