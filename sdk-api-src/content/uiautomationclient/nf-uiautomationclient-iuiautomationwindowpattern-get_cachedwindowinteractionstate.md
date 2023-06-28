@@ -57,6 +57,8 @@ This property is read-only.
 
 ## -parameters
 
+### -param retVal
+
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
