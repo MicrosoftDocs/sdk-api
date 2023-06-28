@@ -91,32 +91,4 @@ An application installs the hook procedure by specifying the <a href="/windows/d
 
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+[CWPRETSTRUCT structure](ns-winuser-cwpretstruct.md), [CallNextHookEx function](nf-winuser-callnexthookex.md), [CallWindowProcW function](nf-winuser-callwindowprocw.md), [CallWindowProcA function](nf-winuser-callwindowproca.md), [SendMessage](/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](/windows/desktop/winmsg/hooks)

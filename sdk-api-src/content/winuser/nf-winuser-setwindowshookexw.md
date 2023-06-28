@@ -82,7 +82,7 @@ The type of hook procedure to be installed. This parameter can be one of the fol
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a> hook procedure.
+Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the [CallWindowProcW function](nf-winuser-callwindowprocw.md)/[CallWindowProcA function](nf-winuser-callwindowproca.md) hook procedure.
 
 </td>
 </tr>
@@ -417,8 +417,9 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
+[CallWindowProcW function](nf-winuser-callwindowprocw.md)
 
+[CallWindowProcA function](nf-winuser-callwindowproca.md)
 
 
 <a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
