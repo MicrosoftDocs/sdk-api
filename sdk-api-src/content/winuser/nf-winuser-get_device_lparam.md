@@ -91,8 +91,8 @@ The return value is the bit of the high-order word representing the input device
 
 ## -remarks
 
-This macro is identical to the [GET_MOUSEORKEY_LPARAM macro](nf-winuser-get_mouseorkey_lparam.md).
+This macro is identical to the [GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam).
 
 ## -see-also
 
-[GET_MOUSEORKEY_LPARAM macro](nf-winuser-get_mouseorkey_lparam.md), [Mouse Input](/windows/win32/inputdev/mouse-input)
+[GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam), [Mouse Input](/windows/win32/inputdev/mouse-input)
