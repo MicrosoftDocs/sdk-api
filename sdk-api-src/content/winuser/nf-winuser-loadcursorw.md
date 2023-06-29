@@ -63,7 +63,7 @@ api_name:
 Loads the specified cursor resource from the executable (.exe) file associated with an application instance.
 
 > [!NOTE]
-> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagew">LoadImage</a> function with <b>LR_DEFAULTSIZE</b> and <b>LR_SHARED</b> flags set.
+> This function has been superseded by the [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagew) function (with **LR_DEFAULTSIZE** and **LR_SHARED** flags set).
 
 ## -parameters
 
