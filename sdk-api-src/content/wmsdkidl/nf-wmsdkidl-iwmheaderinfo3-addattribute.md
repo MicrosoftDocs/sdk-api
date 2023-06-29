@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddAttribute","AddAttribute method [windows Media Format]
 old-location: wmformat\iwmheaderinfo3_addattribute.htm
 tech.root: wmformat
 ms.assetid: 15ecb34d-f70d-43a3-b369-2d9c2532945e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddAttribute method, IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AddAttribute</b> method adds a metadata attribute. To change the value of an existing attribute, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">IWMHeaderInfo3::ModifyAttribute</a> method.
 

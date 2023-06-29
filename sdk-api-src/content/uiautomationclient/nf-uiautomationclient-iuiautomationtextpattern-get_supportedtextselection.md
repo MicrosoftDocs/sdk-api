@@ -72,7 +72,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 ## -syntax
 
 ```cpp
-HRESULT SupportedTextSelection (SupportedTextSelection *supportedTextSelection);
+HRESULT get_SupportedTextSelection 
+    [out, retval] (SupportedTextSelection *supportedTextSelection);
 ```
 
 ## -remarks

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia3 interface [Windows Media Player]","getItemInfo
 old-location: wmp\iwmpmedia3_getiteminfobytype.htm
 tech.root: WMP
 ms.assetid: 2a77029b-fbae-49af-bd91-c688c11b3b16
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>getItemInfoByType</b> method retrieves the value of the attribute corresponding to the specified attribute type and index.
 

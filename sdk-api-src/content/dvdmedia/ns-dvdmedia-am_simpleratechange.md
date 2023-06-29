@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_SimpleRateChange","AM_SimpleRateChange structure [Dire
 old-location: dshow\am_simpleratechange.htm
 tech.root: dshow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 req.header: dvdmedia.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_SimpleRateChange</b> structure is used to change the playback rate for an MPEG-2 stream.
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsCharLowerW
 title: IsCharLowerW
-ms.date: 4/26/2019
+description: The IsCharLowerW (Unicode) function determines whether a character is lowercase. (IsCharLowerW)
+ms.date: 08/02/2022
 ms.keywords: IsCharLowerW
 targetos: Windows
 req.assembly: 

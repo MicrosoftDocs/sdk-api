@@ -100,19 +100,23 @@ A handle to the icon color <a href="/windows/win32/gdi/bitmaps">bitmap</a>.
 
 Type: <b>WORD</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+Resource identifier of the resource in <b>szModName</b> module. If the icon or cursor was loaded by name, then <b>wResID</b> is zero and <b>szResName</b> contains the resource name.
+
+You can use <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a>(wResID) macro to convert resource identifier to a resource name type compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szModName
 
 Type: <b>TCHAR[MAX_PATH]</b>
 
-The fully qualified path of the module.
+Name of the module from which an icon or a cursor was loaded.
+
+You can use <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a> function to convert it to the module handle compatible with the <a href="/windows/win32/menurc/resources-functions">resource-management functions</a>.
 
 ### -field szResName
 
 Type: <b>TCHAR[MAX_PATH]</b>
 
-The fully qualified path of the resource.
+Resource name of the resource in <b>szModName</b> module.
 
 ## -remarks
 
@@ -121,6 +125,8 @@ For monochrome icons, the <b>hbmMask</b> is twice the height of the icon (with t
 For color icons, the <b>hbmMask</b> and <b>hbmColor</b> bitmaps are the same size, each of which is the size of the icon.
 
 You can use a <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to get contents of <b>hbmMask</b> and <b>hbmColor</b> in the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> structure. The bitmap bits can be obtained with call to <a href="/windows/win32/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> on the bitmaps in this structure.
+
+<b>ICONINFOEX</b> is an extended version of <b>ICONINFO</b> structure with additional <b>szModName</b>/<b>szResName</b>/<b>wResID</b> members that can be used to query an icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-findresourcew">FindResource</a>, <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>, <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> and <a href="/windows/win32/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions.
 
 > [!NOTE]
 > The winuser.h header defines ICONINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

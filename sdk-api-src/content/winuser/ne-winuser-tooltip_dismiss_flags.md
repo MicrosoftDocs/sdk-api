@@ -2,7 +2,8 @@
 UID: NE:winuser.TOOLTIP_DISMISS_FLAGS
 tech.root: inputdev
 title: TOOLTIP_DISMISS_FLAGS
-ms.date: 06/17/2022
+description: The TOOLTIP_DISMISS_FLAGS enumeration defines constants that indicate whether a window is registered or unregistered to receive tooltip dismiss notifications.
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

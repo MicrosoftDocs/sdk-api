@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_imageSou
 old-location: wmp\iwmpmedia_get_imagesourcewidth.htm
 tech.root: WMP
 ms.assetid: 57480abb-9852-46a5-a6e4-2a1ba517a9cb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia.get_imageSourceWidth, IWMPMedia2 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia2::get_imageSourceWidth, IWMPMedia3 interface [Windows Media Player],get_imageSourceWidth method, IWMPMedia3::get_imageSourceWidth, IWMPMedia::get_imageSourceWidth, IWMPMediaget_imageSourceWidth, get_imageSourceWidth, get_imageSourceWidth method [Windows Media Player], get_imageSourceWidth method [Windows Media Player],IWMPMedia interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia2 interface, get_imageSourceWidth method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_imagesourcewidth, wmp/IWMPMedia2::get_imageSourceWidth, wmp/IWMPMedia3::get_imageSourceWidth, wmp/IWMPMedia::get_imageSourceWidth
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_imageSourceWidth</b> method retrieves the width of the current media item in pixels.
 

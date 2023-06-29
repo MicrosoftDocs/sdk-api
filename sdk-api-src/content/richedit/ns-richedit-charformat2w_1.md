@@ -891,10 +891,6 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved; the value must be zero. 
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved; the value must be zero.
-
 ### -field sStyle
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>

@@ -1,0 +1,7 @@
+{
+    "tech": "hwreqchk",
+    "headers": [
+      "hwreqchkapi.h"
+    ],
+    "displayName": "Hardware Requirement Evaluator (HWREQCHK)"
+  }

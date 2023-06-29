@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_PROXY_SETTINGS","WMT_PROXY_SETTINGS enumeration [wind
 old-location: wmformat\wmt_proxy_settings.htm
 tech.root: wmformat
 ms.assetid: a055259e-e207-426c-b6ca-a27bc3d0e88c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_PROXY_SETTINGS, WMT_PROXY_SETTINGS enumeration [windows Media Format], WMT_PROXY_SETTING_AUTO, WMT_PROXY_SETTING_BROWSER, WMT_PROXY_SETTING_MANUAL, WMT_PROXY_SETTING_MAX, WMT_PROXY_SETTING_NONE, enumeration [windows Media Format], wmformat.wmt_proxy_settings, wmsdkidl/WMT_PROXY_SETTINGS, wmsdkidl/WMT_PROXY_SETTING_AUTO, wmsdkidl/WMT_PROXY_SETTING_BROWSER, wmsdkidl/WMT_PROXY_SETTING_MANUAL, wmsdkidl/WMT_PROXY_SETTING_MAX, wmsdkidl/WMT_PROXY_SETTING_NONE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_PROXY_SETTINGS</b> enumeration type defines network proxy settings for use with a reader object.
 

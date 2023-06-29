@@ -321,7 +321,7 @@ This member is not used for displays.
 
 ### -field dmFormName
 
-For printers, specifies the name of the form to use; such as "Letter" or "Legal". This must be a name that can be obtain by calling the Win32 <b>EnumForms</b> function (described in the Microsoft Window SDK documentation).
+For printers, specifies the name of the form to use; such as "Letter" or "Legal". This must be a name that can be obtain by calling the Win32 <a href="/windows/win32/printdocs/enumforms">EnumForms</a> function.
 
 This member is not used for displays.
 

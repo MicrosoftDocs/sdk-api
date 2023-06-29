@@ -72,7 +72,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>ENUMRESTYPEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms648041(v=vs.85)">EnumResTypeProc</a> function.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a> function.
 
 ### -param lParam [in]
 
@@ -115,7 +115,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms648041(v=vs.85)">EnumResTypeProc</a>
+<a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a>
 
 
 

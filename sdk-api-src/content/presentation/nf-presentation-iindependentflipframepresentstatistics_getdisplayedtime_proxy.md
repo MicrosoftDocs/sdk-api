@@ -2,7 +2,8 @@
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetDisplayedTime_Proxy
 tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetDisplayedTime_Proxy
-ms.date: 06/08/2021
+description: The IIndependentFlipFramePresentStatistics_GetDisplayedTime_Proxy function (presentation.h) gets the time the present was displayed.
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

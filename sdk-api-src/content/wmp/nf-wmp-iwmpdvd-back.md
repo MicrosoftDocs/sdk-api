@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","back method","
 old-location: wmp\iwmpdvd_back.htm
 tech.root: WMP
 ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>back</b> method returns the display from a submenu to its parent menu.
 

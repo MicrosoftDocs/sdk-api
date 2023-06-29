@@ -124,10 +124,10 @@ If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT
 
 To update a placeholder:
 
-- The placeholder to be updated must be contained in a registered sync root tree; it can be the sync root directory itself, or any descendant directory; otherwise, the call with be failed with **HRESULT(ERROR_CLOUD_FILE_NOT_UNDER_SYNC_ROOT)**.
+- The placeholder to be updated must be contained in a registered sync root tree; it can be the sync root directory itself, or any descendant directory; otherwise, the call will be failed with **HRESULT(ERROR_CLOUD_FILE_NOT_UNDER_SYNC_ROOT)**.
 - If dehydration is requested, the sync root must be registered with a valid hydration policy that is not **CF_HYDRATION_POLICY_ALWAYS_FULL**; otherwise the call will be failed with **HRESULT(ERROR_CLOUD_FILE_NOT_SUPPORTED)**.
-- If dehydration is requested, the placeholder must not be pinned locally or the call with be failed with **HRESULT(ERROR_CLOUD_FILE_PINNED)**.
-- If dehydration is requested, the placeholder must be in sync or the call with be failed with **HRESULT(ERROR_CLOUD_FILE_NOT_IN_SYNC)**.
+- If dehydration is requested, the placeholder must not be pinned locally or the call will be failed with **HRESULT(ERROR_CLOUD_FILE_PINNED)**.
+- If dehydration is requested, the placeholder must be in sync or the call will be failed with **HRESULT(ERROR_CLOUD_FILE_NOT_IN_SYNC)**.
 - The caller must have **WRITE_DATA** or **WRITE_DAC** access to the placeholder to be updated. Otherwise the operation will be failed with **HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED)**.
 
 If the API returns **HRESULT_FROM_WIN32(ERROR_IO_PENDING)** when using *Overlapped* asynchronously, the caller can then wait using [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult).

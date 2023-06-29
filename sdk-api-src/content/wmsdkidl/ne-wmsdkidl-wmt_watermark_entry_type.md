@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_WATERMARK_ENTRY_TYPE","WMT_WATERMARK_ENTRY_TYPE enume
 old-location: wmformat\wmt_watermark_entry_type.htm
 tech.root: wmformat
 ms.assetid: 213fcf75-bc15-43a0-aafd-f9cd3c51de93
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_WATERMARK_ENTRY_TYPE, WMT_WATERMARK_ENTRY_TYPE enumeration [windows Media Format], WMT_WMETYPE_AUDIO, WMT_WMETYPE_VIDEO, wmformat.wmt_watermark_entry_type, wmsdkidl/WMT_WATERMARK_ENTRY_TYPE, wmsdkidl/WMT_WMETYPE_AUDIO, wmsdkidl/WMT_WMETYPE_VIDEO
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_WATERMARK_ENTRY_TYPE</b> enumeration type identifies the types of watermarking systems. Each watermarking system is a DirectX media object (DMO) that embeds some sort of digital watermark in digital media content.
 

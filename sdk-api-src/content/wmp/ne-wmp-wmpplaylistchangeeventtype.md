@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPPlaylistChangeEventType","WMPPlaylistChangeEventType e
 old-location: wmp\wmpplaylistchangeeventtype.htm
 tech.root: WMP
 ms.assetid: ebddaf22-9052-4180-9cc4-75059f9d286c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPPlaylistChangeEventType, WMPPlaylistChangeEventType enumeration [Windows Media Player], wmp.wmpplaylistchangeeventtype, wmp/WMPPlaylistChangeEventType, wmp/wmplcAppend, wmp/wmplcClear, wmp/wmplcDelete, wmp/wmplcInfoChange, wmp/wmplcInsert, wmp/wmplcLast, wmp/wmplcMorph, wmp/wmplcMove, wmp/wmplcNameChange, wmp/wmplcPrivate, wmp/wmplcSort, wmp/wmplcUnknown, wmplcAppend, wmplcClear, wmplcDelete, wmplcInfoChange, wmplcInsert, wmplcLast, wmplcMorph, wmplcMove, wmplcNameChange, wmplcPrivate, wmplcSort, wmplcUnknown
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMPPlaylistChangeEventType</b> enumeration type defines the types of changes that can be made to a playlist.
 

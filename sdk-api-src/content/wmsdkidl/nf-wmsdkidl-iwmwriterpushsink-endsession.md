@@ -6,7 +6,7 @@ helpviewer_keywords: ["EndSession","EndSession method [windows Media Format]","E
 old-location: wmformat\iwmwriterpushsink_endsession.htm
 tech.root: wmformat
 ms.assetid: c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EndSession, EndSession method [windows Media Format], EndSession method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],EndSession method, IWMWriterPushSink.EndSession, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>EndSession</b> method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncServices","IWMPSyncServices interface [Windows Me
 old-location: wmp\iwmpsyncservices.htm
 tech.root: WMP
 ms.assetid: 57db3646-2f79-4087-98b2-2bc9d2f3c866
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncServices, IWMPSyncServices interface [Windows Media Player], IWMPSyncServices interface [Windows Media Player],described, IWMPSyncServicesInterface, wmp.iwmpsyncservices, wmp/IWMPSyncServices
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPSyncServices</b> interface provides methods to enumerate available devices that can synchronize digital media files with Windows Media Player 10 or later.
 

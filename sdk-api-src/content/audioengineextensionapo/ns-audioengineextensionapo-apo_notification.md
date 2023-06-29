@@ -70,7 +70,11 @@ When *type* is APO_NOTIFICATION_TYPE_DEVICE_ORIENTATION, the union value is a [D
 
 ### -field DUMMYUNIONNAME.audioMicrophoneBoostChange
 
-When *type* is APO_NOTIFICATION_TYPE_MICROPHONE_BOOST, the union value is a [AUDIO_MICROPHONE_BOOST_NOTIFICATION](ns-audioengineextensionapo-audio_microphone_boost_apo_notification_descriptor.md) representing an endpoint microphone boost APO notification..
+When *type* is APO_NOTIFICATION_TYPE_MICROPHONE_BOOST, the union value is a [AUDIO_MICROPHONE_BOOST_NOTIFICATION](ns-audioengineextensionapo-audio_microphone_boost_apo_notification_descriptor.md) representing an endpoint microphone boost APO notification.
+
+### -field DUMMYUNIONNAME.audioEnvironmentChange
+
+When *type* is APO_NOTIFICATION_TYPE_AUDIO_ENVIRONMENT_STATE_CHANGE, the union value is a [AUDIO_ENVIRONMENT_STATE_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_environment_state_change_notification.md) representing an audio environment change APO notification.
 
 ## -remarks
 

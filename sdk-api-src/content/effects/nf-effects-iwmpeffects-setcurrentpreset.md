@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsSetCurrentPreset","IWMPEffects interface [Windows 
 old-location: wmp\iwmpeffects_setcurrentpreset.htm
 tech.root: WMP
 ms.assetid: 090e5f9b-e7f1-48b6-9018-3d0797493d42
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsSetCurrentPreset, IWMPEffects interface [Windows Media Player],SetCurrentPreset method, IWMPEffects.SetCurrentPreset, IWMPEffects::SetCurrentPreset, SetCurrentPreset, SetCurrentPreset method [Windows Media Player], SetCurrentPreset method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::SetCurrentPreset, wmp.iwmpeffects_setcurrentpreset
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetCurrentPreset</b> method gets the current preset from Windows Media Player and sets it in the visualization.
 

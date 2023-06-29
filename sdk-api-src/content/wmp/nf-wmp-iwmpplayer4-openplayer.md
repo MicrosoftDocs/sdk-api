@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","openPlayer
 old-location: wmp\iwmpplayer4_openplayer.htm
 tech.root: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWMPPlayer4.openPlayer, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>openPlayer</b> method opens Windows Media Player using the specified URL.
 

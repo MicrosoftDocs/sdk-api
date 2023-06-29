@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_COLORSPACEINFO_EXTENSION_DATA","WMT_COLORSPACEINFO_EX
 old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
 tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_COLORSPACEINFO_EXTENSION_DATA</b> structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
 

@@ -2,12 +2,12 @@
 UID: NS:richedit._charformatw
 title: CHARFORMATW (richedit.h)
 description: Contains information about character formatting in a rich edit control. (CHARFORMATW)
-helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE.","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
+helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
 old-location: controls\CHARFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
 ms.date: 12/05/2018
-ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE., CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
+ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE, CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -189,8 +189,8 @@ The CFE_STRIKEOUT value of the <b>dwEffects</b> member is valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="CFM_UNDERLINE."></a><a id="cfm_underline."></a><dl>
-<dt><b>CFM_UNDERLINE.</b></dt>
+<td width="40%"><a id="CFM_UNDERLINE"></a><a id="cfm_underline."></a><dl>
+<dt><b>CFM_UNDERLINE</b></dt>
 </dl>
 </td>
 <td width="60%">

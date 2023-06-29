@@ -58,7 +58,9 @@ Creates an icon or cursor from resource bits describing the icon.
 
 Type: <b>PBYTE</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+The DWORD-aligned buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+
+See <a href="/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources">Cursor and Icon Resources</a> for more info on icon and cursor resource format.
 
 ### -param dwResSize [in]
 
@@ -72,6 +74,8 @@ Type: <b>BOOL</b>
 
 Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created.
 
+The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure defines cursor hotspot and is the first data read from the cursor resource bits.
+
 ### -param dwVer [in]
 
 Type: <b>DWORD</b>
@@ -82,13 +86,13 @@ The version number of the icon or cursor format for the resource bits pointed to
 
 Type: <b>int</b>
 
-The desired width, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width.
+The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>Flags</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
 
 ### -param cyDesired [in]
 
 Type: <b>int</b>
 
-The desired height, in pixels, of the icon or cursor. If this parameter is zero, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height.
+The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>Flags</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
 
 ### -param Flags [in]
 

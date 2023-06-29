@@ -45,29 +45,28 @@ api_name:
  - HRESULT_FACILITY
 ---
 
-# HRESULT_FACILITY macro
-
-
 ## -description
 
-Extracts the facility of the specified <b>HRESULT</b>, which indicates what API or framework originated this error.
+Extracts the facility of the specified **HRESULT**, which indicates what API or framework originated this error.
 
 ## -parameters
 
 ### -param hr
 
-The <b>HRESULT</b> value.
+The **HRESULT** value.
 
 ## -remarks
 
-The facility of an HRESULT is stored in bits 16-26 of the HRESULT.
+The facility of an **HRESULT** is stored in bits 16-26 of the **HRESULT**.
 
 This macro is defined as follows:
 
 ``` syntax
 #define HRESULT_FACILITY(hr)  (((hr) << 16) & 0x1fff)
 ```
-## -Possible values
+
+## Possible values
+
 <!-- List from https://learn.microsoft.com/en-us/archive/blogs/andrew_richards/hresult-facility-by-value -->
 
 | FACILITY                                          | Decimal | Hex   |
@@ -199,8 +198,6 @@ This macro is defined as follows:
 | FACILITY_USERMODE_SDBUS                           | 2305    | 0x901 |
 | FACILITY_JSCRIPT                                  | 2306    | 0x902 |
 | FACILITY_PIDGENX                                  | 2561    | 0xA01 |
-
-
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer2","IWMPPlayer2 interface [Windows Media Player
 old-location: wmp\iwmpplayer2.htm
 tech.root: WMP
 ms.assetid: bf51d54d-d0aa-42ad-8180-d1f6487baac8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], IWMPPlayer2 interface [Windows Media Player],described, IWMPPlayer2Interface, wmp.iwmpplayer2, wmp/IWMPPlayer2
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPPlayer2</b> interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface. These methods also supplement the <b>IWMPCore</b> interface.
 

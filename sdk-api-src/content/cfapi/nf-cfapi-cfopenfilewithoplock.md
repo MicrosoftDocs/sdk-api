@@ -64,6 +64,12 @@ The flags to specify permissions on opening the file. *Flags* can be set to a co
 - If **CF_OPEN_FILE_FLAG_EXCLUSIVE** is specified, the API returns a share-none handle and requests an **RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE)** oplock on the file; otherwise a share-all handle is opened and an **R (OPLOCK_LEVEL_CACHE_READ)** is requested.
 - If **CF_OPEN_FILE_FLAG_WRITE_ACCESS** is specified, the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY** and **FILE_WRITE_DATA**/**FILE_ADD_FILE** access; otherwise the API attempts to open the file or directory with **FILE_READ_DATA**/**FILE_LIST_DIRECTORY**.
 - If **CF_OPEN_FILE_FLAG_DELETE_ACCESS** is specified, the API attempts to open the file or directory with **DELETE** access; otherwise it opens the file normally.
+- If **CF_OPEN_FILE_FLAG_FOREGROUND** is specified, [CfOpenFileWithOplock](nf-cfapi-cfopenfilewithoplock.md) does not request an oplock. This should be used when the caller is acting as a foreground application. i.e., they don’t care whether the file handle created by this API causes sharing violations for other callers, and they don’t care about breaking any oplocks that may already be on the file. So, they open the handle without requesting an oplock.
+
+    >[!NOTE]
+    >The default *background* behavior requests an oplock when opening the file handle so that their call fails if there’s already an oplock, and they can be told to close their handle if they need to get out of the way to avoid causing a sharing violation later.
+    >
+    >Unless the caller specifies **CF_OPEN_FILE_FLAG_EXCLUSIVE** to CfOpenFileWithOplock, the oplock they get will be only **OPLOCK_LEVEL_CACHE_READ**, not **(OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE)**, so there won’t be the sharing violation protection a background app might normally want.
 
 ### -param ProtectedHandle [out]
 
@@ -82,3 +88,5 @@ This aims to remove the complexity related to oplock usages. The caller must clo
 ## -see-also
 
 [CfCloseHandle](nf-cfapi-cfclosehandle.md)
+
+[CreateFile](../fileapi/nf-fileapi-createfilea.md)

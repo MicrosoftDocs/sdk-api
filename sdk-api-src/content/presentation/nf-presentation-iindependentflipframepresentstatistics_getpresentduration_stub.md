@@ -2,7 +2,8 @@
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetPresentDuration_Stub
 tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetPresentDuration_Stub
-ms.date: 06/08/2021
+description: The IIndependentFlipFramePresentStatistics_GetPresentDuration_Stub function gets the actual amount of time the present was displayed.
+ms.date: 08/02/2022
 targetos: Windows
 description: 
 prerelease: false

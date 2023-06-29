@@ -81,7 +81,7 @@ This parameter should not be <b>NULL</b>, an invalid string (for example, an emp
 If the string ends with a wildcard, period, or  directory name, the user must have access to the root and all 
        subdirectories on the path.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+In the  of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to approximately 32,000 wide characters, call the Unicode version of the function (<b>FindFirstFileExW</b>), and 
        prepend "\\\\?\\" to the path. For more information, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.

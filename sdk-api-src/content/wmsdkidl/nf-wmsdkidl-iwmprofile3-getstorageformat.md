@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetStorageFormat","GetStorageFormat method [windows Media
 old-location: wmformat\iwmprofile3_getstorageformat.htm
 tech.root: wmformat
 ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetStorageFormat</b> method is not implemented.
 

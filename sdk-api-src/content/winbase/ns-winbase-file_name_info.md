@@ -70,7 +70,7 @@ The file name that is returned.
 
 ## -remarks
 
-If the call to `GetFileInformationByHandleEx` fails because there was not enough
+If the call to `GetFileInformationByHandleEx` fails with `ERROR_MORE_DATA` because there was not enough
 buffer space for the full length of the <b>FileName</b> then the `FileNameLength`
 field will contain the required length of the <b>FileName</b> in bytes.
 

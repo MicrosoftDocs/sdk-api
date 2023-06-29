@@ -75,7 +75,7 @@ The following table indicates the return value of <b>GetDpiForWindow</b> based o
 </tr>
 <tr>
 <td>DPI_AWARENESS_UNAWARE</td>
-<td>96</td>
+<td>The base value of DPI is which is set to 96 (defined as `USER_DEFAULT_SCREEN_DPI`)</td>
 </tr>
 <tr>
 <td>DPI_AWARENESS_SYSTEM_AWARE</td>

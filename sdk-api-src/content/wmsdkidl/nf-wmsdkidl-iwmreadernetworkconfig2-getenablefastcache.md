@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetEnableFastCache","GetEnableFastCache method [windows M
 old-location: wmformat\iwmreadernetworkconfig2_getenablefastcache.htm
 tech.root: wmformat
 ms.assetid: 50f904a3-5a2d-4c0f-92fe-76a1ff195c91
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetEnableFastCache, GetEnableFastCache method [windows Media Format], GetEnableFastCache method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableFastCache method, IWMReaderNetworkConfig2.GetEnableFastCache, IWMReaderNetworkConfig2::GetEnableFastCache, IWMReaderNetworkConfig2GetEnableFastCache, wmformat.iwmreadernetworkconfig2_getenablefastcache, wmsdkidl/IWMReaderNetworkConfig2::GetEnableFastCache
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetEnableFastCache</b> method queries whether Fast Cache streaming is enabled. Fast Cache streaming enables network content to be streamed faster than the playback rate, if bandwidth allows.
 

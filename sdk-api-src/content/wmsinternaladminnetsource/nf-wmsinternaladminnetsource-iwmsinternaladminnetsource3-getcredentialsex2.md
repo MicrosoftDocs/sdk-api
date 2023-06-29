@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCredentialsEx2","GetCredentialsEx2 method [windows Med
 old-location: wmformat\iwmsinternaladminnetsource3_getcredentialsex2.htm
 tech.root: wmformat
 ms.assetid: e351f403-4699-4666-b98f-2aed0b80e548
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCredentialsEx2, GetCredentialsEx2 method [windows Media Format], GetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],GetCredentialsEx2 method, IWMSInternalAdminNetSource3.GetCredentialsEx2, IWMSInternalAdminNetSource3::GetCredentialsEx2, IWMSInternalAdminNetSource3GetCredentialsEx2, wmformat.iwmsinternaladminnetsource3_getcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::GetCredentialsEx2
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetCredentialsEx2</b> method retrieves a cached password. This improved version of <b>IWMSInternalAdminNetSource2::GetCredentialsEx</b> adds a flag (<i>fClearTextAuthentication</i>) that indicates whether credentials were sent in unencrypted form over the network.
 

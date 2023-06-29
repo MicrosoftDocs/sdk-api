@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","SwitchedToC
 old-location: wmp\iwmpevents_iwmpevents__switchedtocontrol.htm
 tech.root: WMP
 ms.assetid: 3f6d6a77-8d8a-4ed8-8222-95086c08037c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToControl method, IWMPEvents.SwitchedToControl, IWMPEvents::SwitchedToControl, IWMPEventsSwitchedToControl, SwitchedToControl, SwitchedToControl method [Windows Media Player], SwitchedToControl method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtocontrol, wmp/IWMPEvents::SwitchedToControl
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SwitchedToControl</b> event occurs when a remoted Windows Media Player control switches to the docked state.
 

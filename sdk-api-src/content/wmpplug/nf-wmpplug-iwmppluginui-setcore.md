@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPluginUI interface [Windows Media Player]","SetCore m
 old-location: wmp\iwmppluginui_setcore.htm
 tech.root: WMP
 ms.assetid: 6b6e6878-1d9d-4f45-94a9-316e86da85df
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetCore method, IWMPPluginUI.SetCore, IWMPPluginUI::SetCore, IWMPPluginUISetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setcore, wmpplug/IWMPPluginUI::SetCore
 req.header: wmpplug.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetCore</b> method is called by Windows Media Player to provide plug-in access to the core Windows Media Player APIs.
 

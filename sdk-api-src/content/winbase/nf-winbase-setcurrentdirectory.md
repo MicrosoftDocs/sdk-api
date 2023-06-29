@@ -67,13 +67,15 @@ The path to the new current directory. This parameter may specify a relative pat
 
 
 For more information, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+ 
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
- The final character before the null character must be a backslash ('\\'). If you do not specify the backslash, it will be added for you; therefore, specify <b>MAX_PATH</b>-2 characters for the path unless you  include the trailing backslash, in which case, specify <b>MAX_PATH</b>-1 characters for the path.
+The final character before the null character must be a backslash ('\\'). If you do not specify the backslash, it will be added for you; therefore, specify <b>MAX_PATH</b>-2 characters for the path unless you  include the trailing backslash, in which case, specify <b>MAX_PATH</b>-1 characters for the path.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>SetCurrentDirectoryW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation. See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+
 
 ## -returns
 
@@ -101,6 +103,8 @@ Conversely,
 multithreaded applications and shared library code should avoid
 using relative paths so that they are unaffected by changes to the
 current directory performed by other threads.
+
+Note that the current directory for a process is locked while the process is executing. This will prevent the directory from being deleted, moved, or renamed.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

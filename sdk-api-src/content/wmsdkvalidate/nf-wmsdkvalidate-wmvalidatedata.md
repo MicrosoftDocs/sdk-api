@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMValidateData","WMValidateData function [windows Media F
 old-location: wmformat\wmvalidatedata.htm
 tech.root: wmformat
 ms.assetid: 0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMValidateData</b> function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.
 

@@ -956,7 +956,7 @@ Specifies the device's display mode. This member can be a combination of the fol
 </tr>
 <tr>
 <td>DM_GRAYSCALE</td>
-<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed.</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed. This flag is no longer valid.</td>
 </tr>
 <tr>
 <td>DM_INTERLACED</td>

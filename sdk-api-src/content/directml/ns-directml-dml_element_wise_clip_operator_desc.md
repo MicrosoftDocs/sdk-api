@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_CLIP_OPERATOR_DESC","DML_ELEMENT_WISE_CL
 old-location: direct3d12\dml_element_wise_clip_operator_desc.htm
 tech.root: directml
 ms.assetid: 980CC8B8-A0D8-40BB-8506-ECB8F9EFAB11
-ms.date: 01/19/2022
+ms.date: 06/16/2023
 ms.keywords: DML_ELEMENT_WISE_CLIP_OPERATOR_DESC, DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure, direct3d12.dml_element_wise_clip_operator_desc, directml/DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -50,7 +50,7 @@ api_name:
 Performs the following operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*. This operator clamps (or limits) every element in the input within the closed interval [Min, Max].
 
 ```
-f(x) = min(Max, max(Min, x))
+f(x) = max(Min, min(x, Max))
 ```
 
 Where max(a,b) returns the larger of the two values, and min(a,b) returns the smaller of the two values a,b.

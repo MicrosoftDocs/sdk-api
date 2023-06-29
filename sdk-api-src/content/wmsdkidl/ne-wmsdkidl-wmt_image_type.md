@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_IMAGE_TYPE","WMT_IMAGE_TYPE enumeration [windows Medi
 old-location: wmformat\wmt_image_type.htm
 tech.root: wmformat
 ms.assetid: 727cfed7-d818-4c0f-9e9f-a35d9a8c195e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_IMAGE_TYPE, WMT_IMAGE_TYPE enumeration [windows Media Format], WMT_IT_BITMAP, WMT_IT_GIF, WMT_IT_JPEG, WMT_IT_NONE, wmformat.wmt_image_type, wmsdkidl/WMT_IMAGE_TYPE, wmsdkidl/WMT_IT_BITMAP, wmsdkidl/WMT_IT_GIF, wmsdkidl/WMT_IT_JPEG, wmsdkidl/WMT_IT_NONE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_IMAGE_TYPE</b> enumeration type defines the types of images that can be used for banner ads. This type is used as the value of the <a href="/windows/desktop/wmformat/bannerimagetype">BannerImageType</a> attribute.
 

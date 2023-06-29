@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCodecProp","GetCodecProp method [windows Media Format]
 old-location: wmformat\iwmcodecinfo3_getcodecprop.htm
 tech.root: wmformat
 ms.assetid: 444f5789-c5e5-4eeb-a2b4-11f959641206
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetCodecProp</b> method retrieves a codec property.
 

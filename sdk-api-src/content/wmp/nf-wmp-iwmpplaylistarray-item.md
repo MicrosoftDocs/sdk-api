@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlaylistArray interface [Windows Media Player]","item
 old-location: wmp\iwmpplaylistarray_item.htm
 tech.root: WMP
 ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],item method, IWMPPlaylistArray.item, IWMPPlaylistArray::item, IWMPPlaylistArrayitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_item, wmp/IWMPPlaylistArray::item
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>item</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface representing the playlist at the specified index.
 

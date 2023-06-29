@@ -11,8 +11,8 @@ ms.keywords: ProcessIdToSessionId, ProcessIdToSessionId function [Remote Desktop
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

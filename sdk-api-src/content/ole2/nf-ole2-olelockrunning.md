@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Ole32.dll
+ - ext-ms-win-com-ole32-l1-1-0.dll
 api_name:
  - OleLockRunning
 ---

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetMaxPacketSize","GetMaxPacketSize method [windows Media
 old-location: wmformat\iwmpacketsize_getmaxpacketsize.htm
 tech.root: wmformat
 ms.assetid: 8410c524-9c27-48ac-9a48-c17cae782764
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetMaxPacketSize, GetMaxPacketSize method [windows Media Format], GetMaxPacketSize method [windows Media Format],IWMPacketSize interface, GetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize.GetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize2::GetMaxPacketSize, IWMPacketSize::GetMaxPacketSize, IWMPacketSizeGetMaxPacketSize, wmformat.iwmpacketsize_getmaxpacketsize, wmsdkidl/IWMPacketSize2::GetMaxPacketSize, wmsdkidl/IWMPacketSize::GetMaxPacketSize
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,6 +54,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> in an ASF file.
 
