@@ -85,7 +85,7 @@ The low bit, if set, indicates that the key is toggled on. In this function, onl
 
 Type: <b>LPWORD</b>
 
-A pointer to the buffer that receives the translated character or two characters packed into a single <b>WORD</b> value. The low-order byte contains first character and the high-order byte contains second character, if present.
+A pointer to the buffer that receives the translated character (or two characters packed into a single **WORD** value, where the low-order byte contains the first character and the high-order byte contains the second character).
 
 ### -param uFlags [in]
 
