@@ -70,7 +70,7 @@ If the function fails, the return value is NULL.
 ## -remarks
 
 The 
-<b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables). Each environment block contains the environment variables in the following format:
+<b>GetEnvironmentStrings</b> function returns a pointer to a block of memory that contains the environment variables of the calling process (both the system and the user environment variables).
 
 Each environment block contains the environment variables in the following format:
 
