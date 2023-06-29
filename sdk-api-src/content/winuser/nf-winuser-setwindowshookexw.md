@@ -104,7 +104,7 @@ Installs a hook procedure that monitors messages after they have been processed 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="/windows/win32/winmsg/cbtproc">CBTProc</a> hook procedure.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Installs a hook procedure that receives notifications useful to a CBT applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure useful for debugging other hook procedures. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> hook procedure.
+Installs a hook procedure useful for debugging other hook procedures. For more information, see the [*DebugProc*](/windows/win32/winmsg/debugproc) hook procedure.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Installs a hook procedure useful for debugging other hook procedures. For more i
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a> hook procedure. 
+Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the [ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc) hook procedure. 
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Installs a hook procedure that will be called when the application's foreground 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages posted to a message queue. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages posted to a message queue. For more information, see the [GetMsgProc](/windows/win32/winmsg/getmsgproc) hook procedure.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -409,7 +409,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
 
 
 
@@ -430,15 +430,12 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
+[*DebugProc*](/windows/win32/winmsg/debugproc)
 
 
+[ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc)
 
-<a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a>
+[GetMsgProc](/windows/win32/winmsg/getmsgproc)
 
 
 
@@ -454,7 +451,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a>
+<a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a>
 
 
 
