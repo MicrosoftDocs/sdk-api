@@ -198,8 +198,7 @@ Additional information associated with the message.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
-
+[LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
 
 
 <b>Reference</b>
