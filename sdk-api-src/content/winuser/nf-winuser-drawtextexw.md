@@ -364,7 +364,7 @@ A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">
 
 ## -returns
 
-If the function succeeds, the return value is the text height in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lprc-&gt;top</code> to the bottom of the drawn text
+If the function succeeds, the return value is the text height in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lprc-&gt;top</code> to the bottom of the drawn text.
 
 If the function fails, the return value is zero.
 
