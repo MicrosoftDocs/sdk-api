@@ -114,7 +114,7 @@ For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
+<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
 
 
 
@@ -126,4 +126,4 @@ For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
+<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>

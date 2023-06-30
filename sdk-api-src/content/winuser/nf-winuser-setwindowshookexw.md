@@ -200,7 +200,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors mouse messages. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a> hook procedure.
+Installs a hook procedure that monitors mouse messages. For more information, see the <a href="/windows/win32/winmsg/mouseproc">MouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
- Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a> hook procedure.
+ Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="/windows/win32/winmsg/messageproc">MessageProc</a> hook procedure.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Installs a hook procedure that monitors messages generated as a result of an inp
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="/windows/win32/winmsg/shellproc">ShellProc</a> hook procedure.
 
 </td>
 </tr>
@@ -459,15 +459,15 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
+<a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
+<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
 
 
 
@@ -475,7 +475,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
+<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
 
 
 
