@@ -177,7 +177,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
+<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
 
 
 

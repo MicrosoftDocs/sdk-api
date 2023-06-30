@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>.
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/windows/win32/winmsg/mouseproc">MouseProc</a>.
 
 ## -struct-fields
 
@@ -92,7 +92,7 @@ Additional information associated with the message.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
 
 
 

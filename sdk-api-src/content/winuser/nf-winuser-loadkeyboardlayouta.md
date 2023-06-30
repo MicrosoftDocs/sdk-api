@@ -99,7 +99,7 @@ Specifies how the input locale identifier is to be loaded. This parameter can be
 </dl>
 </td>
 <td width="60%">
-<b>Prior to Windows 8:</b> Prevents a <a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
+<b>Prior to Windows 8:</b> Prevents a <a href="/windows/win32/winmsg/shellproc">ShellProc</a> hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
 
 <b>Beginning in  Windows 8:</b> In this scenario, the last input locale identifier is set for the entire system.
 
