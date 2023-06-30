@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the message parameters passed to a <b>WH_CALLWNDPROCRET</b> hook procedure, <a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>.
+Defines the message parameters passed to a <b>WH_CALLWNDPROCRET</b> hook procedure, [HOOKPROC callback function](nc-winuser-hookproc.md).
 
 ## -struct-fields
 
@@ -94,7 +94,7 @@ A handle to the window that processed the message specified by the
 
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">HOOKPROC</a>
 
 
 
