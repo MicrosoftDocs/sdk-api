@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 > [!Note]
->This  function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>. For modern versions of Windows this function always returns <b>FALSE</b>.
+>This function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>. For modern versions of Windows this function always returns <b>FALSE</b>.
 
 Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.
 
