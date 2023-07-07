@@ -11,7 +11,7 @@ ms.keywords: IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Techno
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
  Implements methods that get data from  an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) descriptor. The CA descriptor appears in the ISDB service information as part of the conditional access table (CAT) or program map table (PMT) and indicates the program identifiers (PIDs) of transport stream packets that contain entitlement control message (ECM) data or entitlement management message (EMM) data.
 

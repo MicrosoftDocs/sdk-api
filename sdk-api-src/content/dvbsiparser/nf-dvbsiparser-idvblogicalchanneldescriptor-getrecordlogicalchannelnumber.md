@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 title: IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber (dvbsiparser.h)
-description: NoteÂ Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.Â .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 helpviewer_keywords: ["GetRecordLogicalChannelNumber","GetRecordLogicalChannelNumber method [DirectShow]","GetRecordLogicalChannelNumber method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetRecordLogicalChannelNumber method","IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber","dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber"]
 old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.htm
 tech.root: mstv
@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
+<div> </div>
 
 
 

@@ -11,7 +11,7 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_Rate metho
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>put_Rate</b> method sets the playback rate.
 
@@ -101,10 +103,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
-Â 
+ 
 
-<div class="alert"><b>Note</b>Â Â The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  The value ERROR_INVALID_STATE is converted to an <b>HRESULT</b> with the <b>HRESULT_FROM_WIN32</b> macro.</div>
+<div> </div>
 
 ## -remarks
 

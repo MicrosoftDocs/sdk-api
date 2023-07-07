@@ -11,7 +11,7 @@ ms.keywords: IEnumStreamBufferRecordingAttrib, IEnumStreamBufferRecordingAttrib 
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>IEnumStreamBufferRecordingAttrib</b> interface enumerates a collection of attributes on a stream buffer file. <i>Attributes</i> are metadata that describe the physical file (such as the bit rate and the duration) or the content of the file (such as the author or title). To obtain this interface, call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-enumattributes">IStreamBufferRecordingAttribute::EnumAttributes</a> method.
 

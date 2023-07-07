@@ -11,7 +11,7 @@ ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Tec
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 
 ## -parameters
@@ -87,8 +89,8 @@ ITU-T | ISO/IEC Reserved.
 </td>
 <td width="60%">
 As specified in Table 2.29 (Stream type assignments)
-of <i>ITU-T Rec. H.222.0 | ISO/IEC 13818-1:1996, Information Technology â€” Generic
-coding of moving pictures and associated audio â€” Part 1: Systems (normative)</i>.
+of <i>ITU-T Rec. H.222.0 | ISO/IEC 13818-1:1996, Information Technology — Generic
+coding of moving pictures and associated audio — Part 1: Systems (normative)</i>.
 
 </td>
 </tr>
