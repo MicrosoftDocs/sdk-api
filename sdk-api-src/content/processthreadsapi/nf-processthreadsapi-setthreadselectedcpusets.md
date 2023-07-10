@@ -65,6 +65,8 @@ Specifies the number of IDs in the list passed in the **CpuSetIds** argument. If
 
 ## -returns
 
+If the function succeeds, the return value is nonzero.
+
 This function cannot fail when passed valid parameters.
 
 ## -remarks
