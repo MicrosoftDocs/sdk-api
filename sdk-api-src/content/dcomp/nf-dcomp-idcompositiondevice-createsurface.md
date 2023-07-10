@@ -45,9 +45,6 @@ api_name:
  - IDCompositionDevice.CreateSurface
 ---
 
-# IDCompositionDevice::CreateSurface
-
-
 ## -description
 
 Creates an updateable surface object that can be associated with one or more visuals for composition.
@@ -78,43 +75,11 @@ Type: <b><a href="/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_alpha_mode">DXGI_
 
 The format of the alpha channel, if an alpha channel is included in the pixel format. It can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DXGI_ALPHA_MODE_UNSPECIFIED"></a><a id="dxgi_alpha_mode_unspecified"></a><dl>
-<dt><b>DXGI_ALPHA_MODE_UNSPECIFIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The alpha channel is not specified. This value has the same effect as <b>DXGI_ALPHA_MODE_IGNORE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DXGI_ALPHA_MODE_PREMULTIPLIED"></a><a id="dxgi_alpha_mode_premultiplied"></a><dl>
-<dt><b>DXGI_ALPHA_MODE_PREMULTIPLIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The color channels contain values that are premultiplied with the alpha channel.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="DXGI_ALPHA_MODE_IGNORE"></a><a id="dxgi_alpha_mode_ignore"></a><dl>
-<dt><b>DXGI_ALPHA_MODE_IGNORE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The alpha channel should be ignored and the bitmap should be rendered opaquely.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| - | - |
+| **DXGI_ALPHA_MODE_UNSPECIFIED** | The alpha channel isn't specified. This value has the same effect as **DXGI_ALPHA_MODE_IGNORE**. |
+| **DXGI_ALPHA_MODE_PREMULTIPLIED** | The color channels contain values that are premultiplied with the alpha channel. |
+| **DXGI_ALPHA_MODE_IGNORE** | The alpha channel should be ignored, and the bitmap should be rendered opaquely. |
 
 ### -param surface [out]
 
