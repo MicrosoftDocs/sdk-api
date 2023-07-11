@@ -96,7 +96,7 @@ For more information about the <b>hDevMode</b> and <b>hDevNames</b> members, see
 
 Type: <b>HDC</b>
 
-A handle to a device context or an information context, depending on whether the <b>Flags</b> member specifies the <b>PD_RETURNDC</b> or <b>PC_RETURNIC</b> flag. If neither flag is specified, the value of this member is undefined. If both flags are specified, <b>PD_RETURNDC</b> has priority.
+A handle to a device context or an information context, depending on whether the <b>Flags</b> member specifies the <b>PD_RETURNDC</b> or <b>PC_RETURNIC</b> flag. If neither flag is specified, then the value of this member is undefined. If both flags are specified, then <b>PD_RETURNDC</b> has priority. If <b>hDC</b> isn't <b>NULL</b>, then you must call <a href="/windows/win32/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> to free the GDI object after you no longer need it; otherwise you'll leak GDI objects whenever you call <a href="/windows/win32/api/commdlg/nc-commdlg-printdlgw"> PrintDlgw </a> APIs.
 
 ### -field Flags
 
