@@ -62,10 +62,6 @@ The size of the structure, in bytes.
 
 A mask that controls which options are valid in this structure. You can specify one or more of the following values:
 
-WER_DUMP_MASK_DUMPTYPE
-
-wer_dump_mask_dumptype
-
 #### WER_DUMP_MASK_DUMPTYPE
 
 <a id="WER_DUMP_MASK_ONLY_THISTHREAD"></a>
@@ -122,69 +118,69 @@ A mask that controls which options are valid in this structure. You can specify 
 
 ### -field dwDumpFlags
 
-The type information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> flags. 
+The type information to include in the minidump. You can specify one or more of the [MINIDUMP_TYPE](../minidumpapiset/ne-minidumpapiset-minidump_type.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_DUMPTYPE.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_DUMPTYPE.
 
 ### -field bOnlyThisThread
 
-If this member is <b>TRUE</b> and <b>dwMask</b> contains WER_DUMP_MASK_ONLY_THISTHREAD, the minidump is to be collected only for the calling thread.
+If this member is **TRUE** and **dwMask** contains WER_DUMP_MASK_ONLY_THISTHREAD, the minidump is to be collected only for the calling thread.
 
 ### -field dwExceptionThreadFlags
 
-The type of thread information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> flags.
+The type of thread information to include in the minidump. You can specify one or more of the [THREAD_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-thread_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_THREADFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_THREADFLAGS.
 
 ### -field dwOtherThreadFlags
 
-The type of thread information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> flags.
+The type of thread information to include in the minidump. You can specify one or more of the [THREAD_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-thread_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_OTHERTHREADFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_OTHERTHREADFLAGS.
 
 ### -field dwExceptionThreadExFlags
 
-The type of thread information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> flags.
+The type of thread information to include in the minidump. You can specify one or more of the [THREAD_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-thread_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_THREADFLAGS_EX.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_THREADFLAGS_EX.
 
 ### -field dwOtherThreadExFlags
 
-The type of thread information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> flags.
+The type of thread information to include in the minidump. You can specify one or more of the [THREAD_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-thread_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_OTHERTHREADFLAGS_EX.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_OTHERTHREADFLAGS_EX.
 
 ### -field dwPreferredModuleFlags
 
-The type of module information to include in the minidump for modules specified in the <b>wzPreferredModuleList</b> member. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> flags.
+The type of module information to include in the minidump for modules specified in the **wzPreferredModuleList** member. You can specify one or more of the [MODULE_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-module_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
 
 ### -field dwOtherModuleFlags
 
-The type of module information to include in the minidump. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> flags.
+The type of module information to include in the minidump. You can specify one or more of the [MODULE_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-module_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_OTHER_MODULESFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_OTHER_MODULESFLAGS.
 
 ### -field wzPreferredModuleList[WER_MAX_PREFERRED_MODULES_BUFFER]
 
-A list of module names (do not include the path) to which the <b>dwPreferredModuleFlags</b> flags apply. Each name must be null-terminated, and the list must be terminated with two null characters (for example, module1.dll\0module2.dll\0\0).
+A list of module names (do not include the path) to which the **dwPreferredModuleFlags** flags apply. Each name must be null-terminated, and the list must be terminated with two null characters (for example, module1.dll\0module2.dll\0\0).
 
-To specify that all modules are preferred, set this member to "*\0\0". If you include * in a list with other module names, the * is ignored. 
+To specify that all modules are preferred, set this member to `*\0\0`. If you include `*` in a list with other module names, the `*` is ignored.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_PREFERRED_MODULE_LIST.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_PREFERRED_MODULE_LIST.
 
 ### -field dwPreferredModuleResetFlags
 
-The preferred type of module information to include in the minidump for modules specified in the <b>wzPreferredModuleList</b> member. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> flags.
+The preferred type of module information to include in the minidump for modules specified in the **wzPreferredModuleList** member. You can specify one or more of the [MODULE_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-module_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
 
 ### -field dwOtherModuleResetFlags
 
-Other types of module information to include in the minidump for modules specified in the <b>wzPreferredModuleList</b> member. You can specify one or more of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> flags.
+Other types of module information to include in the minidump for modules specified in the **wzPreferredModuleList** member. You can specify one or more of the [MODULE_WRITE_FLAGS](../minidumpapiset/ne-minidumpapiset-module_write_flags.md) flags.
 
-This member is valid only if <b>dwMask</b> contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
+This member is valid only if **dwMask** contains WER_DUMP_MASK_PREFERRED_MODULESFLAGS.
 
 ### -field pvDumpKey
 
@@ -202,4 +198,4 @@ The thread ID.
 
 ## -see-also
 
-[**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md) 
+[WerReportAddDump function](nf-werapi-werreportadddump.md), [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md)
