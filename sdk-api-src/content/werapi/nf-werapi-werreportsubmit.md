@@ -63,7 +63,7 @@ A handle to the report. This handle is returned by the <a href="/windows/desktop
 
 ### -param consent [in]
 
-The consent status. This parameter can be one of the following values from the <b>WER_CONSENT</b> enumeration type.
+The consent status. This parameter can be one of the following values from the [**WER_CONSENT**](ne-werapi-wer_consent.md) enumeration type.
 
 <table>
 <tr>
