@@ -11,7 +11,7 @@ ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair me
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>ParseXDSBytePair</b> method parses a single byte pair from an XDS stream. If the byte pair is the last pair in a completed ratings packet, the method returns the rating information.
 
@@ -139,7 +141,7 @@ Return the following values for non-ratings packets.
 <td><b>BfAttrNone</b></td>
 </tr>
 </table>
-Â 
+ 
 
 For details, see section 9.5.1.5.4 (General Content Advisory Requirements) of the EIA/CEA-608-B specification.
 

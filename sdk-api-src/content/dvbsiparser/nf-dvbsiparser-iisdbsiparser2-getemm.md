@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
  
   Gets the entitlement management message (EMM) table from an Integrated Services Digital Broadcast (ISDB) transport stream. An EMM contains conditional access data, such as contract
   information for subscribers, keys to decrypt common information, and the

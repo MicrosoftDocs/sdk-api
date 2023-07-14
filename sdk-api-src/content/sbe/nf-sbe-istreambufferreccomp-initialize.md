@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferRecComp interface [Microsoft TV Technologies],Initiali
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>Initialize</b> method sets the file name and the profile for the new recording. Call this method once, after creating the <a href="/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object.
 
