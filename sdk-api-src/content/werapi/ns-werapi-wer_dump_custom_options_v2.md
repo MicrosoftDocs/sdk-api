@@ -61,14 +61,6 @@ The size of the structure, in bytes.
 ### -field dwMask
 
 A mask that controls which options are valid in this structure. You can specify one or more of the following values:
-#### WER_DUMP_MASK_DUMPTYPE
-
-<a id="WER_DUMP_MASK_ONLY_THISTHREAD"></a>
-<a id="wer_dump_mask_only_thisthread"></a>
-
-### -field dwMask
-
-A mask that controls which options are valid in this structure. You can specify one or more of the following values:
 
 <a id="WER_DUMP_MASK_DUMPTYPE"></a>
 <a id="wer_dump_mask_dumptype"></a>
