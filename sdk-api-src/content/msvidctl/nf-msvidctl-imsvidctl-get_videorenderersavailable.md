@@ -11,7 +11,7 @@ ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRenderersA
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>get_VideoRenderersAvailable</b> method retrieves a collection of video renderers available on the local system.
 
 ## -parameters
@@ -66,8 +68,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method returns a collection of video renderer devices. Use the returned <a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices</a> pointer to enumerate the collection.
 
-<div class="alert"><b>Note</b>Â Â In the current implementation, the collection always contains exactly one item: an <a href="/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object that represents the Video Mixing Renderer filter.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  In the current implementation, the collection always contains exactly one item: an <a href="/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object that represents the Video Mixing Renderer filter.</div>
+<div> </div>
 
 ## -see-also
 

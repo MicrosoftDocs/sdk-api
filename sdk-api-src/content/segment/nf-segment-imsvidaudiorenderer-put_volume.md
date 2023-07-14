@@ -11,7 +11,7 @@ ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Volum
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>put_Volume</b> method specifies the audio renderer's volume level.
 
 ## -parameters
@@ -64,7 +66,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-Full volume is 0 and silence is â€“10,000. Multiply the desired decibel level by 100; for example, â€“100 dB is â€“10,000.
+Full volume is 0 and silence is –10,000. Multiply the desired decibel level by 100; for example, –100 dB is –10,000.
 
 ## -see-also
 

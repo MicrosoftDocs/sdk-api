@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFF
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP2 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>SetFFTransitionRates</b> method sets the behavior of fast-forward play ("trick mode") in the Stream Buffer Engine.
 
@@ -108,7 +110,7 @@ At higher playback rates, the Stream Buffer Engine drops frames in order to main
 <td>Key-frame playback with seeking: All delta frames are skipped, and some key frames are skipped. The number of skipped key frames is proportional to the rate.</td>
 </tr>
 </table>
-Â 
+ 
 
 The decoder may drop frames as well, depending on the data rate, the monitor refresh rate, and the CPU load.
 
