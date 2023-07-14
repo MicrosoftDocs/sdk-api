@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IBDA_NullTransform</b> interface is implemented on all BDA device filters. The Network Provider filter calls these methods to instruct the filter to either pass data through without modifying it, or else to perform its particular transformation on the data.
 
 ## -inheritance

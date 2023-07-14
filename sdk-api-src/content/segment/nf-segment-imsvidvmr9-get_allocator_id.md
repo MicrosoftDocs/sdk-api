@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
@@ -61,7 +63,7 @@ The <b>get_Allocator_ID</b> method retrieves the identifier of the application's
 
 ### -param ID [out]
 
-Receives the identifier. If the application did not set an allocator-presenter, the value is â€“1.
+Receives the identifier. If the application did not set an allocator-presenter, the value is –1.
 
 ## -returns
 

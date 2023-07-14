@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>MPEG_HEADER_BITS</b> structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.
 
 ## -struct-fields

@@ -11,7 +11,7 @@ ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], I
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>IDVBTLocator</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/dvbtlocator-object">DVBTLocator</a> object. It provides methods to enable a tuner to acquire a terrestrial DVB (DVB-T) transport stream. The data types are defined in Bdatypes.h. Locator data is meant for consumption by the BDA hardware drivers. Applications do not need to interpret any of this data except perhaps for some debugging purposes.
 

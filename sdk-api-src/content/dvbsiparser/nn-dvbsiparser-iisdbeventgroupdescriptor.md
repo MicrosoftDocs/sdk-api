@@ -11,7 +11,7 @@ ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Mic
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor. The event group  descriptor appears in the ISDB service information as part of the event information table (EIT) and describes a group of related events.
 

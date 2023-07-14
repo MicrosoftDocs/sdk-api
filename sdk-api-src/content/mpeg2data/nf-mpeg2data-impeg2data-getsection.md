@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetSection
 title: IMpeg2Data::GetSection (mpeg2data.h)
-description: GetSection is no longer available for use as of WindowsÂ 7.
+description: GetSection is no longer available for use as of Windows 7.
 helpviewer_keywords: ["GetSection","GetSection method [Microsoft TV Technologies]","GetSection method [Microsoft TV Technologies]","IMpeg2Data interface","IMpeg2Data interface [Microsoft TV Technologies]","GetSection method","IMpeg2Data.GetSection","IMpeg2Data::GetSection","IMpeg2DataGetSection","mpeg2data/IMpeg2Data::GetSection","mstv.impeg2data_getsection"]
 old-location: mstv\impeg2data_getsection.htm
 tech.root: mstv
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetSection</b> is no longer available for use as of WindowsÂ 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<p class="CCE_Message">[<b>GetSection</b> is no longer available for use as of Windows 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>GetSection</b> method retrieves an MPEG-2 table section. This method blocks until the filter receives a matching table section, or until the specified time out elapses.
 

@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ScanDown</b> method changes the channel to the next lower channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 
 ## -parameters

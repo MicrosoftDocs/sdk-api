@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetStreamOfSections
 title: IMpeg2Data::GetStreamOfSections (mpeg2data.h)
-description: GetStreamOfSections is no longer available for use as of WindowsÂ 7.
+description: GetStreamOfSections is no longer available for use as of Windows 7.
 helpviewer_keywords: ["GetStreamOfSections","GetStreamOfSections method [Microsoft TV Technologies]","GetStreamOfSections method [Microsoft TV Technologies]","IMpeg2Data interface","IMpeg2Data interface [Microsoft TV Technologies]","GetStreamOfSections method","IMpeg2Data.GetStreamOfSections","IMpeg2Data::GetStreamOfSections","IMpeg2DataGetStreamOfSections","mpeg2data/IMpeg2Data::GetStreamOfSections","mstv.impeg2data_getstreamofsections"]
 old-location: mstv\impeg2data_getstreamofsections.htm
 tech.root: mstv
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of WindowsÂ 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of Windows 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>GetStreamOfSections</b> method starts an ongoing request for specific MPEG-2 table sections.
 
