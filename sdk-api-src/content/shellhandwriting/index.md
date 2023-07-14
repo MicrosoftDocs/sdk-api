@@ -4,7 +4,7 @@ title: Shellhandwriting.h header
 ms.date: 07/14/2023
 ms.keywords: 
 ms.topic: overview
-tech.root: properties
+tech.root: input_ink
 f1_keywords:
  - shellhandwriting
  - shellhandwriting/shellhandwriting
