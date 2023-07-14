@@ -1,0 +1,56 @@
+---
+UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetTopLevelWindow
+tech.root: 
+title: ITfFocusHandwritingTargetArgs::GetTopLevelWindow
+ms.date: 
+targetos: Windows
+description: 
+prerelease: false
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: shellhandwriting.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - shellhandwriting.h
+api_name:
+ - ITfFocusHandwritingTargetArgs::GetTopLevelWindow
+f1_keywords:
+ - ITfFocusHandwritingTargetArgs::GetTopLevelWindow
+ - shellhandwriting/ITfFocusHandwritingTargetArgs::GetTopLevelWindow
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - GetTopLevelWindow
+---
+
+## -description
+
+## -parameters
+
+### -param topLevelWindow
+
+## -returns
+
+## -remarks
+
+## -see-also
+
