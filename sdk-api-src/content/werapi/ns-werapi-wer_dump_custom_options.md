@@ -67,57 +67,15 @@ The size of the structure, in bytes.
 
 A mask that controls which options are valid in this structure. You can specify one or more of the following values:
 
-<a id="WER_DUMP_MASK_DUMPTYPE"></a>
-<a id="wer_dump_mask_dumptype"></a>
-
-
-#### WER_DUMP_MASK_DUMPTYPE
-
-<a id="WER_DUMP_MASK_ONLY_THISTHREAD"></a>
-<a id="wer_dump_mask_only_thisthread"></a>
-
-
-#### WER_DUMP_MASK_ONLY_THISTHREAD
-
-<a id="WER_DUMP_MASK_OTHER_MODULESFLAGS"></a>
-<a id="wer_dump_mask_other_modulesflags"></a>
-
-
-#### WER_DUMP_MASK_OTHER_MODULESFLAGS
-
-<a id="WER_DUMP_MASK_OTHERTHREADFLAGS"></a>
-<a id="wer_dump_mask_otherthreadflags"></a>
-
-
-#### WER_DUMP_MASK_OTHERTHREADFLAGS
-
-<a id="WER_DUMP_MASK_OTHERTHREADFLAGS_EX"></a>
-<a id="wer_dump_mask_otherthreadflags_ex"></a>
-
-
-#### WER_DUMP_MASK_OTHERTHREADFLAGS_EX
-
-<a id="WER_DUMP_MASK_PREFERRED_MODULE_LIST"></a>
-<a id="wer_dump_mask_preferred_module_list"></a>
-
-
-#### WER_DUMP_MASK_PREFERRED_MODULE_LIST
-
-<a id="WER_DUMP_MASK_PREFERRED_MODULESFLAGS"></a>
-<a id="wer_dump_mask_preferred_modulesflags"></a>
-
-
-#### WER_DUMP_MASK_PREFERRED_MODULESFLAGS
-
-<a id="WER_DUMP_MASK_THREADFLAGS"></a>
-<a id="wer_dump_mask_threadflags"></a>
-
-#### WER_DUMP_MASK_THREADFLAGS
-
-<a id="WER_DUMP_MASK_THREADFLAGS_EX"></a>
-<a id="wer_dump_mask_threadflags_ex"></a>
-
-#### WER_DUMP_MASK_THREADFLAGS_EX
+- WER_DUMP_MASK_DUMPTYPE
+- WER_DUMP_MASK_ONLY_THISTHREAD
+- WER_DUMP_MASK_OTHER_MODULESFLAGS
+- WER_DUMP_MASK_OTHERTHREADFLAGS
+- WER_DUMP_MASK_OTHERTHREADFLAGS_EX
+- WER_DUMP_MASK_PREFERRED_MODULE_LIST
+- WER_DUMP_MASK_PREFERRED_MODULESFLAGS
+- WER_DUMP_MASK_THREADFLAGS
+- WER_DUMP_MASK_THREADFLAGS_EX
 
 ### -field dwDumpFlags
 
