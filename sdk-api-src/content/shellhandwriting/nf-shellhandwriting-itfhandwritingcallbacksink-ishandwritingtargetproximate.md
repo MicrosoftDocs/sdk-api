@@ -2,10 +2,10 @@
 UID: NF:shellhandwriting.ITfHandwritingCallbackSink.IsHandwritingTargetProximate
 tech.root: 
 title: ITfHandwritingCallbackSink::IsHandwritingTargetProximate
-ms.date: 
+ms.date: 07/17/2023
 targetos: Windows
 description: 
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

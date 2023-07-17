@@ -2,10 +2,10 @@
 UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetTopLevelWindow
 tech.root: 
 title: ITfFocusHandwritingTargetArgs::GetTopLevelWindow
-ms.date: 
+ms.date: 07/17/2023
 targetos: Windows
 description: 
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -2,10 +2,10 @@
 UID: NE:shellhandwriting.TfHandwritingState
 tech.root: 
 title: TfHandwritingState
-ms.date: 
+ms.date: 07/17/2023
 targetos: Windows
 description: 
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: shellhandwriting.h

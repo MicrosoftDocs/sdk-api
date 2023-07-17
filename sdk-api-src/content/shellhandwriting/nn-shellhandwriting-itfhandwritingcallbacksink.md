@@ -2,10 +2,10 @@
 UID: NN:shellhandwriting.ITfHandwritingCallbackSink
 tech.root: 
 title: ITfHandwritingCallbackSink
-ms.date: 
+ms.date: 07/17/2023
 targetos: Windows
 description: 
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
