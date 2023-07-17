@@ -3,7 +3,7 @@ UID: NS:windns._DNS_QUERY_RAW_REQUEST
 title: DNS_QUERY_RAW_REQUEST
 description: Represents a DNS raw query request (see [DnsQueryRaw](./nf-windns-dnsqueryraw.md)).
 tech.root: DNS
-ms.date: 07/12/2023
+ms.date: 07/17/2023
 targetos: Windows
 prerelease: true
 req.construct-type: structure
@@ -99,7 +99,7 @@ The interface index to send the query over. If 0, then all interfaces will be us
 
 ### -field queryCompletionCallback
 
-Type: **[DNS_QUERY_RAW_COMPLETION_ROUTINE](./nc-windns-dns_query_completion_routine.md)**
+Type: **[DNS_QUERY_RAW_COMPLETION_ROUTINE](./nc-windns-dns_query_raw_completion_routine.md)**
 
 Pointer to a callback function that will be called when the query finishes. This field is required.
 
@@ -135,6 +135,8 @@ Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
 
 The DNS protocol used for the source query in *dnsQueryRaw*, and what the caller expects the response to be in. You can use this to change a DNS query response to match the original query, regardless of what protocol is used by the DNS system underneath. For example, if the caller specifies UDP, and the DNS systems decides to use DNS over HTTPS (DoH), and gets a response larger than UDP allows, then the API will truncate the packet as appropriate to match the behavior of what a UDP server responds with if the result is too large. If TCP is requested by the caller, then the packet must be prefixed with the 2-byte length, as specified in section 4.2.2 of [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035.html).
 
+The allowed values are **DNS_PROTOCOL_UDP** (0x1) and **DNS_PROTOCOL_TCP** (0x2).
+
 ### -field sourceAddr
 
 Type: **[SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet)**
@@ -145,7 +147,7 @@ The address of the source of the DNS raw query.
 
 Type: **[CHAR](/windows/win32/winprog/windows-data-types)\[\]**
 
-You can use the *maxSa* array in code that doesn't have the [SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet) type defined.
+The address of the source of the DNS raw query. You can use the *maxSa* array in code that doesn't have the [SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet) type defined.
 
 ## -remarks
 
