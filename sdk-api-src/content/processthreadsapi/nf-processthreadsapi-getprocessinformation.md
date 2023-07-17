@@ -57,7 +57,7 @@ Retrieves information about the specified process.
 
 ### -param hProcess [in]
 
-A handle to the process. This handle must have the **PROCESS_QUERY_LIMITED_INFORMATION** access right. For more information, see [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights).
+A handle to the process. This handle must have at least the **PROCESS_QUERY_LIMITED_INFORMATION** access right. For more information, see [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights).
 
 ### -param ProcessInformationClass [in]
 
