@@ -51,7 +51,7 @@ An [[IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) objec
 
 ### -field propertyKey
 
-The [PROPERTYKEY](s/windows/win32/api/wtypes/ns-wtypes-propertykey) that has a new value.
+The [PROPERTYKEY](/windows/win32/api/wtypes/ns-wtypes-propertykey) that has a new value.
 
 ## -remarks
 
