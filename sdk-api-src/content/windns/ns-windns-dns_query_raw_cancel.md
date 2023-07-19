@@ -50,7 +50,7 @@ This structure must persist until the query completion callback is made (see [DN
 
 ## -struct-fields
 
-### -field reserved[32]
+### -field reserved
 
 Type: **[CHAR](/windows/win32/winprog/windows-data-types)\[\]**
 
