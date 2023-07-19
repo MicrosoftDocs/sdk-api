@@ -11,7 +11,7 @@ ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [M
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Gets information from the Service Location Descriptor in an Advanced Television Systems Committee  (ATSC) Virtual Channel Table (VCT). The Service Location Descriptor lists the program IDs (PIDs) in an ATSC transport stream. The VCT is a Program and System Information Protocol (PSIP) table that describes the elementary streams for the virtual channels in an ATSC transport stream.
 

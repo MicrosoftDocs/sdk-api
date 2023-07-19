@@ -54,13 +54,13 @@ Moves one endpoint of the text range the specified number of text units within t
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param endpoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
 A value specifying the endpoint (start or end) to move.
 
-### -param unnamedParam2 [in]
+### -param unit [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 

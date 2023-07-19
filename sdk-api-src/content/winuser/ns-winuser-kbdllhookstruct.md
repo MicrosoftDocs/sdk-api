@@ -196,10 +196,7 @@ Additional information associated with the message.
 
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
-
-
-<a href="/windows/win32/winmsg/lowlevelkeyboardproc">LowLevelKeyboardProc</a>
-
+[LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
 
 
 <b>Reference</b>

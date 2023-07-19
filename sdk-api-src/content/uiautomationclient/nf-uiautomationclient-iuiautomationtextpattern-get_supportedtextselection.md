@@ -57,7 +57,7 @@ This property is read-only.
 
 ## -parameters
 
-*supportedTextSelection*
+### -param supportedTextSelection
 
 Type: **[SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md)\***
 

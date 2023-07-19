@@ -11,7 +11,7 @@ ms.keywords: GetListRecordLogicalChannelAndVisibility, GetListRecordLogicalChann
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Gets the visible_service_flag and logical_channel_number fields from a Digital Video Broadcast (DVB) logical channel descriptor.  The visible_service_flag indicates whether a service record in the DVB logical channel descriptor is visible through the receiver service list and can be selected. The logical_channel_number field contains a broadcaster-defined channel number that is used to order services.
 

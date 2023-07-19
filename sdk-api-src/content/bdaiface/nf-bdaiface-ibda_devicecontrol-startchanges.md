@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>StartChanges</b> method is called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
 
 

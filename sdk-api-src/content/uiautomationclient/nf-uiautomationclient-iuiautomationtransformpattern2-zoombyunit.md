@@ -54,7 +54,7 @@ Zooms the viewport of the control by the specified unit.
 
 ## -parameters
 
-#### - zoomUnit
+### -param zoomUnit
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-zoomunit">ZoomUnit</a></b>
 

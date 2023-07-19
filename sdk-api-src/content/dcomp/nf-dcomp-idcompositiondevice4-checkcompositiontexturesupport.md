@@ -46,6 +46,8 @@ helpviewer_keywords:
 
 Queries whether the Direct3D device that you're using to render supports composition textures (without having to first allocate a Direct3D texture on that device). Before you attempt to create composition textures for Direct3D textures backed by a given Direct3D device, you should call **CheckCompositionTextureSupport**, passing that backing device.
 
+Generally speaking, a rendering device that reports support for monitored fences via [DXGI_ADAPTER_FLAG3](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) is able to support composition textures. But in rare cases, the operating system (OS) itself can disable the composition textures feature; in which case **CheckCompositionTextureSupport** will also report unsupported.
+
 ## -parameters
 
 ### -param renderingDevice

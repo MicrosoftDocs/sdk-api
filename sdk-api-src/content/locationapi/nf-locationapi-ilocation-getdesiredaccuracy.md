@@ -61,7 +61,7 @@ Retrieves the current requested accuracy setting.
 
 <b>REFIID</b> that specifies the report type for which to get the requested accuracy.
 
-### -param unnamedParam2 [out]
+### -param pDesiredAccuracy [out]
 
 The address of a <a href="/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
 

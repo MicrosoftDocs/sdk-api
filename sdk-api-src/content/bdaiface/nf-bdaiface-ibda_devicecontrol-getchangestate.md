@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>GetChangeState</b> method returns a value indicating whether any uncommitted changes are currently pending in the filter.
 
 ## -parameters

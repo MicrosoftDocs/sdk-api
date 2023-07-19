@@ -49,7 +49,7 @@ Hash digest type for ShaderHash.
 
 One of **DXC_HASHFLAG_Xxx**.
 
-### -field HashDigest[16]
+### -field HashDigest
 
 The hash digest.
 

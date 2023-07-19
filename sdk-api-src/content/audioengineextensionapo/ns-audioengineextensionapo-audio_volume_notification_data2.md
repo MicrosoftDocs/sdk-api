@@ -75,13 +75,10 @@ An unsigned integer value representing the current step in the volume range. Is 
 
 An unsigned integer value representing the number of steps in the volume range. This value remains constant for the lifetime of the audio device specified in the associated **AUDIO_ENDPOINT_VOLUME_APO_NOTIFICATION_DESCRIPTOR**.
 
-
-### -field channelVolumesInDb[1]
+### -field channelVolumesInDb
 
 The first element in an array of channel volumes in dB. This element contains the current volume level of channel 0 in the audio stream. If the audio stream contains more than one channel, the volume levels for the additional channels immediately follow the **AUDIO_VOLUME_NOTIFICATION_DATA2** structure.
 
 ## -remarks
 
-
 ## -see-also
-

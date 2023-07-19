@@ -50,7 +50,7 @@ Creates a read-only bundle object that reads its contents from an [IStream](../o
 
 ### -param inputStream [in]
 
-The input stream that delivers the content of the package for reading. The stream must support [ISequentialStream::Read](../objidl/nf-objidl-isequentialstream-read.md), [IStream::Seek](../objidl/nf-objidl-istream-seek.md), and [IStream::Stat](/objidl/nf-objidl-istream-stat.md). If these methods fail, their error codes may be passed to and returned by this method.
+The input stream that delivers the content of the package for reading. The stream must support [ISequentialStream::Read](../objidl/nf-objidl-isequentialstream-read.md), [IStream::Seek](../objidl/nf-objidl-istream-seek.md), and [IStream::Stat](../objidl/nf-objidl-istream-stat.md). If these methods fail, their error codes may be passed to and returned by this method.
 
 ### -param expectedDigest [in,optional]
 

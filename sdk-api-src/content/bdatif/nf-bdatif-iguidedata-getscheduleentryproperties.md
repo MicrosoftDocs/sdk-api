@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>GetScheduleEntryProperties</b> method retrieves the properties for a specified schedule entry.
 
 ## -parameters
@@ -116,7 +118,7 @@ The returned collection includes the following properties.
 <td>Identifies the service that carries the program represented by this schedule entry. The value of this property corresponds to the Description.ID property of the service.</td>
 </tr>
 </table>
-Â 
+ 
 
 The method fails if the TIF has not received the schedule information from the PSI tables in the transport stream. The client should implement the <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataevent">IGuideDataEvent</a> interface and wait for the <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-scheduleentrychanged">IGuideDataEvent::ScheduleEntryChanged</a> event to be fired.
 

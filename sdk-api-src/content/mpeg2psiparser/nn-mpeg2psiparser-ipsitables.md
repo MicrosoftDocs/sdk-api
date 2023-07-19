@@ -11,7 +11,7 @@ ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSIT
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
 

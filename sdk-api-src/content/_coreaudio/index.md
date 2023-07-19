@@ -21,6 +21,7 @@ To develop Core Audio APIs, you need these headers:
  * [audioengineendpoint.h](../audioengineendpoint/index.md)
  * [audiopolicy.h](../audiopolicy/index.md)
  * [audiosessiontypes.h](../audiosessiontypes/index.md)
+ * [audiostatemonitorapi.h](../audiostatemonitorapi/index.md)
  * [devicetopology.h](../devicetopology/index.md)
  * [endpointvolume.h](../endpointvolume/index.md)
  * [mmdeviceapi.h](../mmdeviceapi/index.md)

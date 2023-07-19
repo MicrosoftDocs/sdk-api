@@ -1,9 +1,9 @@
 ---
 UID: NF:dcomp.IDCompositionTexture.SetAlphaMode
 title: IDCompositionTexture::SetAlphaMode
-description: TBD
+description: Informs the DWM whether alpha pixels in the texture should be honored or ignored.
 tech.root: directcomp
-ms.date: 06/09/2023
+ms.date: 07/10/2023
 targetos: Windows
 prerelease: true
 req.assembly: 
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-TBD
+Informs the [Desktop Window Manager (DWM)](/windows/win32/dwm/dwm-overview) whether alpha pixels in the texture should be honored or ignored.
 
 ## -parameters
 
@@ -52,7 +52,13 @@ TBD
 
 Type: \_In\_ **[DXGI_ALPHA_MODE](/windows/win32/api/dxgi1_2/ne-dxgi1_2-dxgi_alpha_mode)**
 
-TBD
+Indicates whether alpha pixels in the texture should be honored or ignored.
+
+| Value | Meaning |
+| - | - |
+| **DXGI_ALPHA_MODE_UNSPECIFIED** | The alpha channel isn't specified. This value has the same effect as **DXGI_ALPHA_MODE_IGNORE**. |
+| **DXGI_ALPHA_MODE_PREMULTIPLIED** | The color channels contain values that are premultiplied with the alpha channel. |
+| **DXGI_ALPHA_MODE_IGNORE** | The alpha channel should be ignored, and the bitmap should be rendered opaquely. |
 
 ## -returns
 

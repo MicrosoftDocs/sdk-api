@@ -3,9 +3,7 @@ UID: NF:winuser.GET_DEVICE_LPARAM
 title: GET_DEVICE_LPARAM macro (winuser.h)
 description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_DEVICE_LPARAM","GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_DEVICE_LPARAM","_win32_get_device_lparam_cpp","inputdev.get_device_lparam","winui._win32_get_device_lparam","winuser/GET_DEVICE_LPARAM"]
-old-location: inputdev\get_device_lparam.htm
 tech.root: inputdev
-ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_device_lparam.htm
 ms.date: 12/05/2018
 ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM
 req.header: winuser.h
@@ -47,11 +45,9 @@ api_name:
 
 # GET_DEVICE_LPARAM macro
 
-
 ## -description
 
-Retrieves the input device type from the specified 
-			<b>LPARAM</b> value.
+Retrieves the input device type from the specified **LPARAM** value.
 
 ## -parameters
 
@@ -59,22 +55,44 @@ Retrieves the input device type from the specified
 
 The value to be converted.
 
+## Return value
+
+The return value is the bit of the high-order word representing the input device type. It can be one of the following values.
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Return code/value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FAPPCOMMAND_KEY</strong>
+0</td>
+<td><p>User pressed a key.</p></td>
+</tr>
+<tr class="even">
+<td><strong>FAPPCOMMAND_MOUSE</strong>
+0x8000</td>
+<td><p>User clicked a mouse button.</p></td>
+</tr>
+<tr class="odd">
+<td><strong>FAPPCOMMAND_OEM</strong>
+0x1000</td>
+<td><p>An unidentified hardware source generated the event. It could be a mouse or a keyboard event.</p></td>
+</tr>
+</tbody>
+</table>
+
 ## -remarks
 
-This macro is identical to the <a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
+This macro is identical to the [GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam).
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a>
-
-
-
-<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
-
-
-
-<b>Reference</b>
+[GET_MOUSEORKEY_LPARAM macro](/windows/win32/winmsg/nf-winuser-get_mouseorkey_lparam), [Mouse Input](/windows/win32/inputdev/mouse-input)

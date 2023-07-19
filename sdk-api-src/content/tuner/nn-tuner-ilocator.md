@@ -11,7 +11,7 @@ ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator 
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>ILocator</b> interface is implemented (through derived interfaces such as <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>) on Locator objects that contain tuning information about the tuning space. This base interface is never used directly, but only through the derived interfaces that are specific for a given network type.
 

@@ -54,7 +54,7 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 ## -parameters
 
-### -param unit [in]
+### -param textUnit [in]
 
 Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
 

@@ -85,6 +85,6 @@ The data length of the storage device in the storage node,  in units of kilobyte
 
 The data offset from the beginning of the data structure. The buffer contains an array of <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 
-### -field Reserved [3]
+### -field Reserved
 
 Specifies if the storage adapter is reserved.

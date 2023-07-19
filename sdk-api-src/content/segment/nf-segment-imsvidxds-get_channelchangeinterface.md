@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidXDS.get_ChannelChangeInterface
 title: IMSVidXDS::get_ChannelChangeInterface (segment.h)
-description: NoteÂ Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.Â .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 helpviewer_keywords: ["IMSVidXDS interface [Microsoft TV Technologies]","get_ChannelChangeInterface method","IMSVidXDS.get_ChannelChangeInterface","IMSVidXDS::get_ChannelChangeInterface","IMSVidXDSgetChannelChangeInterface","get_ChannelChangeInterface","get_ChannelChangeInterface method [Microsoft TV Technologies]","get_ChannelChangeInterface method [Microsoft TV Technologies]","IMSVidXDS interface","mstv.imsvidxds_get_channelchangeinterface","segment/IMSVidXDS::get_ChannelChangeInterface"]
 old-location: mstv\imsvidxds_get_channelchangeinterface.htm
 tech.root: mstv
@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
+<div> </div>
 
 
 

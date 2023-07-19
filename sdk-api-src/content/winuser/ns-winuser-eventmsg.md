@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the <a href="/windows/win32/winmsg/journalplaybackproc">JournalPlaybackProc</a> callback function.
+Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc) callback function.
 
 ## -struct-fields
 
@@ -98,11 +98,7 @@ A handle to the window to which the message was posted.
 
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
-
-
-<a href="/windows/win32/winmsg/journalplaybackproc">JournalPlaybackProc</a>
-
-
+[JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
 
 <b>Reference</b>
 

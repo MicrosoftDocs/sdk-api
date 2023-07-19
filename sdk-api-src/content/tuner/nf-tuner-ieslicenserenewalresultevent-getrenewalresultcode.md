@@ -11,7 +11,7 @@ ms.keywords: GetRenewalResultCode, GetRenewalResultCode method [DirectShow], Get
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Gets a constant from a Protected Broadcast Driver Architecture (PBDA) <b>LicenseRenewalResult</b> event that indicates which step in the renewal process caused the renewal to succeed or fail. A client can call the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-isrenewalsuccessful">IsRenewalSuccessful</a> method to determine if the renewal was successful, and then call this method to get information about the reason for any failure.
 
