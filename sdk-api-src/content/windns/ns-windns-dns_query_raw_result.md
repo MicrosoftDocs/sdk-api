@@ -123,12 +123,16 @@ Type: **[SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet)**
 
 The address of the source of the DNS raw response.
 
-### -field maxSa[DNS_ADDR_MAX_SOCKADDR_LENGTH]
+### -field maxSa
+
+The address of the source of the DNS raw response.
+
+## -remarks
+
+### maxSa[DNS_ADDR_MAX_SOCKADDR_LENGTH]
 
 Type: **[CHAR](/windows/win32/winprog/windows-data-types)\[\]**
 
 The address of the source of the DNS raw response. You can use the *maxSa* array in code that doesn't have the [SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet) type defined.
-
-## -remarks
 
 ## -see-also
