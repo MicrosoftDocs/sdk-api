@@ -1,6 +1,6 @@
 ---
 UID: NE:shellhandwriting.TfHandwritingTargetProximateResponse
-tech.root: 
+tech.root: input_ink
 title: TfHandwritingTargetProximateResponse
 ms.date: 07/17/2023
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetTopLevelWindow
-tech.root: 
+tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs::GetTopLevelWindow
 ms.date: 07/17/2023
 targetos: Windows

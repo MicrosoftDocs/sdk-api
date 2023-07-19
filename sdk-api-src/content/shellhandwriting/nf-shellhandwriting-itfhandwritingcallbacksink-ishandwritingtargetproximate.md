@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfHandwritingCallbackSink.IsHandwritingTargetProximate
-tech.root: 
+tech.root: input_ink
 title: ITfHandwritingCallbackSink::IsHandwritingTargetProximate
 ms.date: 07/17/2023
 targetos: Windows

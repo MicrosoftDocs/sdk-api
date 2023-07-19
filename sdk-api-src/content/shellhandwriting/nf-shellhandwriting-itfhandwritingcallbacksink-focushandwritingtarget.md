@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfHandwritingCallbackSink.FocusHandwritingTarget
-tech.root: 
+tech.root: input_ink
 title: ITfHandwritingCallbackSink::FocusHandwritingTarget
 ms.date: 07/17/2023
 targetos: Windows

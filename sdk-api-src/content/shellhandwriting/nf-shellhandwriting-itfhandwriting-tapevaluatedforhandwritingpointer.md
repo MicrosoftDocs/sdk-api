@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfHandwriting.TapEvaluatedForHandwritingPointer
-tech.root: 
+tech.root: input_ink
 title: ITfHandwriting::TapEvaluatedForHandwritingPointer
 ms.date: 07/17/2023
 targetos: Windows

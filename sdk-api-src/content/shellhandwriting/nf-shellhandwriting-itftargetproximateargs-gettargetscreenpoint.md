@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfTargetProximateArgs.GetTargetScreenPoint
-tech.root: 
+tech.root: input_ink
 title: ITfTargetProximateArgs::GetTargetScreenPoint
 ms.date: 07/17/2023
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingDistanceBuffer
-tech.root: 
+tech.root: input_ink
 title: ITfHandwriting::GetHandwritingDistanceBuffer
 ms.date: 07/17/2023
 targetos: Windows

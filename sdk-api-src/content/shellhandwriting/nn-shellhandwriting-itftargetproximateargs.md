@@ -1,6 +1,6 @@
 ---
 UID: NN:shellhandwriting.ITfTargetProximateArgs
-tech.root: 
+tech.root: input_ink
 title: ITfTargetProximateArgs
 ms.date: 07/17/2023
 targetos: Windows

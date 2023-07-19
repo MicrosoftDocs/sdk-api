@@ -1,6 +1,6 @@
 ---
 UID: NE:shellhandwriting.TfHandwritingFocusTargetResponse
-tech.root: 
+tech.root: input_ink
 title: TfHandwritingFocusTargetResponse
 ms.date: 07/17/2023
 targetos: Windows

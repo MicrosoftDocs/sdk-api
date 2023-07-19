@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetDistanceBufferPixels
-tech.root: 
+tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs::GetDistanceBufferPixels
 ms.date: 07/17/2023
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NA:shellhandwriting
-tech.root: 
+tech.root: input_ink
 title: shellhandwriting
 ms.date: 07/17/2023
 targetos: Windows

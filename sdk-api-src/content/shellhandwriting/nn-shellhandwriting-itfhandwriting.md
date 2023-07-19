@@ -1,6 +1,6 @@
 ---
 UID: NN:shellhandwriting.ITfHandwriting
-tech.root: 
+tech.root: input_ink
 title: ITfHandwriting
 ms.date: 07/17/2023
 targetos: Windows

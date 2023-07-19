@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetTargetScreenArea
-tech.root: 
+tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs::GetTargetScreenArea
 ms.date: 07/17/2023
 targetos: Windows

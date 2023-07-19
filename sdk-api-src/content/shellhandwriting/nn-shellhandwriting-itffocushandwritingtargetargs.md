@@ -1,6 +1,6 @@
 ---
 UID: NN:shellhandwriting.ITfFocusHandwritingTargetArgs
-tech.root: 
+tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs
 ms.date: 07/17/2023
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.IHandwritingInputRoutingCallback.GetThreadIdForInput
-tech.root: 
+tech.root: input_ink
 title: IHandwritingInputRoutingCallback::GetThreadIdForInput
 ms.date: 07/17/2023
 targetos: Windows

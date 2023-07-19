@@ -1,6 +1,6 @@
 ---
 UID: NF:shellhandwriting.RegisterHandwritingInputRoutingCallback
-tech.root: 
+tech.root: input_ink
 title: RegisterHandwritingInputRoutingCallback
 ms.date: 07/17/2023
 targetos: Windows

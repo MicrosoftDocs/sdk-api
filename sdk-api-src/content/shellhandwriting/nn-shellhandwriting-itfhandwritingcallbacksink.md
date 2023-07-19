@@ -1,6 +1,6 @@
 ---
 UID: NN:shellhandwriting.ITfHandwritingCallbackSink
-tech.root: 
+tech.root: input_ink
 title: ITfHandwritingCallbackSink
 ms.date: 07/17/2023
 targetos: Windows
