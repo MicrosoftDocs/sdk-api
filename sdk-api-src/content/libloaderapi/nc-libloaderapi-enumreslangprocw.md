@@ -75,7 +75,7 @@ A handle to the module whose executable file contains the resources for which th
 
 Type: **LPCWSTR**
 
-The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [**MAKEINTRESOURCE**](../winuser/nf-winuser-makeintresourcew.md)(ID), where ID is an integer value representing a predefined resource type. For standard resource types, see [Resource Types](windows/desktop/menurc/resource-types). For more information, see the Remarks section below.
+The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be [**MAKEINTRESOURCE**](../winuser/nf-winuser-makeintresourcew.md)(ID), where ID is an integer value representing a predefined resource type. For standard resource types, see [Resource Types](/windows/win32/menurc/resource-types). For more information, see the Remarks section below.
 
 ### -param lpName [in]
 
