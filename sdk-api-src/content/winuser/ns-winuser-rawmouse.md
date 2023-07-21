@@ -139,20 +139,35 @@ If **MOUSE_MOVE_ABSOLUTE** value is specified, **lLastX** and **lLastY** contain
 If **MOUSE_VIRTUAL_DESKTOP** is specified in addition to **MOUSE_MOVE_ABSOLUTE**, the coordinates map to the entire virtual desktop.
 
 ```cpp
-if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+case WM_INPUT: 
 {
-    bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
+    UINT dwSize = sizeof(RAWINPUT);
+    static BYTE lpb[sizeof(RAWINPUT)];
 
-    int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
-    int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &dwSize, sizeof(RAWINPUTHEADER));
 
-    int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
-    int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
-}
-else if (rawMouse.lLastX != 0 || rawMouse.lLastY != 0)
-{
-    int relativeX = rawMouse.lLastX;
-    int relativeY = rawMouse.lLastY;
+    RAWINPUT* raw = (RAWINPUT*)lpb;
+
+    if (raw->header.dwType == RIM_TYPEMOUSE) 
+    {
+        if ((raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+        {
+            bool isVirtualDesktop = (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
+        
+            int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
+            int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+        
+            int absoluteX = MulDiv(raw->mouse.lLastX, width, 65535);
+            int absoluteY = MulDiv(raw->mouse.lLastY, height, 65535);
+            ...
+        }
+        else if (raw->mouse.lLastX != 0 || raw->mouse.lLastY != 0)
+        {
+            int relativeX = raw->mouse.lLastX;
+            int relativeY = raw->mouse.lLastY;
+            ...
+        }
+    }
 }
 ```
 
