@@ -150,16 +150,20 @@ case WM_INPUT:
 
     if (raw->header.dwType == RIM_TYPEMOUSE) 
     {
-        if ((raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+        if (raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE)
         {
-            bool isVirtualDesktop = (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
-        
-            int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
-            int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
-        
-            int absoluteX = MulDiv(raw->mouse.lLastX, width, 65535);
-            int absoluteY = MulDiv(raw->mouse.lLastY, height, 65535);
-            ...
+            if (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP)
+            {
+                int absoluteX = MulDiv(raw->mouse.lLastX, GetSystemMetrics(SM_CXVIRTUALSCREEN), 65535) + GetSystemMetrics(XVIRTUALSCREEN);
+                int absoluteY = MulDiv(raw->mouse.lLastY, GetSystemMetrics(SM_CYVIRTUALSCREEN), 65535) + GetSystemMetrics(YVIRTUALSCREEN);
+                ...
+            }
+            else
+            {
+                int absoluteX = MulDiv(raw->mouse.lLastX, GetSystemMetrics(SM_CXSCREEN), 65535);
+                int absoluteY = MulDiv(raw->mouse.lLastY, GetSystemMetrics(SM_CXSCREEN), 65535);
+                ...
+            }
         }
         else if (raw->mouse.lLastX != 0 || raw->mouse.lLastY != 0)
         {
@@ -167,6 +171,7 @@ case WM_INPUT:
             int relativeY = raw->mouse.lLastY;
             ...
         }
+        ...
     }
 }
 ```
