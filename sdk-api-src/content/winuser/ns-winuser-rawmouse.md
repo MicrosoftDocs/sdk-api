@@ -152,18 +152,25 @@ case WM_INPUT:
     {
         if (raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE)
         {
+            RECT rect;
             if (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP)
             {
-                int absoluteX = MulDiv(raw->mouse.lLastX, GetSystemMetrics(SM_CXVIRTUALSCREEN), 65535) + GetSystemMetrics(XVIRTUALSCREEN);
-                int absoluteY = MulDiv(raw->mouse.lLastY, GetSystemMetrics(SM_CYVIRTUALSCREEN), 65535) + GetSystemMetrics(YVIRTUALSCREEN);
-                ...
+                rect.left = GetSystemMetrics(SM_XVIRTUALSCREEN);
+                rect.top = GetSystemMetrics(SM_YVIRTUALSCREEN);
+                rect.right = GetSystemMetrics(SM_CXVIRTUALSCREEN);
+                rect.bottom = GetSystemMetrics(SM_CYVIRTUALSCREEN);
             }
             else
             {
-                int absoluteX = MulDiv(raw->mouse.lLastX, GetSystemMetrics(SM_CXSCREEN), 65535);
-                int absoluteY = MulDiv(raw->mouse.lLastY, GetSystemMetrics(SM_CXSCREEN), 65535);
-                ...
+                rect.left =  0;
+                rect.top = 0;
+                rect.right = GetSystemMetrics(SM_CXSCREEN);
+                rect.bottom = GetSystemMetrics(SM_CYSCREEN);
             }
+
+            int absoluteX = MulDiv(raw->mouse.lLastX, rect.right, 65535) + rect.left;
+            int absoluteY = MulDiv(raw->mouse.lLastY, rect.bottom, 65535) + rect.top;
+            ...
         }
         else if (raw->mouse.lLastX != 0 || raw->mouse.lLastY != 0)
         {
