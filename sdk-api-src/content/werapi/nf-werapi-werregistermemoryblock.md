@@ -66,7 +66,7 @@ The size of the memory block, in bytes. The maximum value for this parameter is 
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
+<dt>**WER_E_INVALID_STATE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The process state is not valid. For example, the process is in <a href="/windows
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
+<dt>**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,6 @@ To remove the block from this list, call the <a href="/windows/desktop/api/werap
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -118,4 +117,4 @@ To remove the block from this list, call the <a href="/windows/desktop/api/werap
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

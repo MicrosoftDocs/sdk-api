@@ -1,8 +1,8 @@
 ---
 UID: NS:werapi._WER_REPORT_INFORMATION_V3
-tech.root: 
+tech.root: wer
 title: WER_REPORT_INFORMATION_V3
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false

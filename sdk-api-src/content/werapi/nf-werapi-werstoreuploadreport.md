@@ -1,8 +1,8 @@
 ---
 UID: NF:werapi.WerStoreUploadReport
-tech.root: 
+tech.root: wer
 title: WerStoreUploadReport
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false

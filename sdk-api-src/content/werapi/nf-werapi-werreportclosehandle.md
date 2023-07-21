@@ -63,11 +63,10 @@ A handle to the report. This handle is returned by the <a href="/windows/desktop
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -75,4 +74,4 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

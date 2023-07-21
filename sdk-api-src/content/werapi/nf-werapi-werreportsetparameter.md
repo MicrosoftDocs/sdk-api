@@ -127,7 +127,7 @@ The identifier of the parameter to be set. This parameter can be one of the foll
 
 ### -param pwzName [in, optional]
 
-A pointer to a Unicode string that contains the name of the parameter. If this parameter is <b>NULL</b>, the default name is P<i>x</i>, where <i>x</i> matches the integer portion of the value specified in <i>dwparamID</i>.
+A pointer to a Unicode string that contains the name of the parameter. If this parameter is **NULL**, the default name is P*x*, where *x* matches the integer portion of the value specified in *dwparamID*.
 
 ### -param pwzValue [in]
 
@@ -135,7 +135,7 @@ The parameter value.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -145,7 +145,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_HANDLE</b></dt>
+<dt>**E_HANDLE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +156,7 @@ The specified handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_LENGTH_EXCEEDED</b></dt>
+<dt>**WER_E_LENGTH_EXCEEDED**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -168,11 +168,10 @@ The length of one or more string arguments has exceeded its limit.
 
 ## -remarks
 
-Each report supports parameters P0 through P9. This function sets one parameter at a time. If parameter P<i>x</i> is set, then all parameters from P0 and P<i>x</i> must be set.
+Each report supports parameters P0 through P9. This function sets one parameter at a time. If parameter P*x* is set, then all parameters from P0 and P*x* must be set.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -180,4 +179,4 @@ Each report supports parameters P0 through P9. This function sets one parameter 
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

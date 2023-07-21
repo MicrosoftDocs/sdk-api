@@ -62,7 +62,7 @@ The full path to the file. This file must have been registered using the <a href
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
+<dt>**WER_E_INVALID_STATE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,7 +83,7 @@ The process state is not valid. For example, the process is in <a href="/windows
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_NOT_FOUND</b></dt>
+<dt>**WER_E_NOT_FOUND**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,6 @@ The list of registered files does not contain the specified file.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -103,4 +102,4 @@ The list of registered files does not contain the specified file.
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

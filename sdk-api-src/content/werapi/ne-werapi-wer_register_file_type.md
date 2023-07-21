@@ -1,10 +1,10 @@
 ---
 UID: NE:werapi._WER_REGISTER_FILE_TYPE
-tech.root: 
+tech.root: wer
 title: WER_REGISTER_FILE_TYPE
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Defines the Windows Error Reporting (WER) file types that can be registered.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -38,17 +38,28 @@ helpviewer_keywords:
  - _WER_REGISTER_FILE_TYPE
 ---
 
+# WER_REGISTER_FILE_TYPE enumeration
+
 ## -description
+
+Defines the [Windows Error Reporting](../_wer/index.md) (WER) file types that can be registered.
 
 ## -enum-fields
 
 ### -field WerRegFileTypeUserDocument
 
+User document.
+
 ### -field WerRegFileTypeOther
 
+Other.
+
 ### -field WerRegFileTypeMax
+
+Maximum data dump.
 
 ## -remarks
 
 ## -see-also
 
+[WerRegisterFile function](nf-werapi-werregisterfile.md), [Windows Error Reporting](/windows/desktop/wer)

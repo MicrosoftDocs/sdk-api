@@ -1,8 +1,8 @@
 ---
 UID: NF:werapi.WerStoreQueryReportMetadataV3
-tech.root: 
+tech.root: wer
 title: WerStoreQueryReportMetadataV3
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false

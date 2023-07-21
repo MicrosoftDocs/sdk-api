@@ -94,7 +94,7 @@ The number of data files included in the report.
 
 ### -field SizeOfFileNames
 
-The total size of the file name fields, in count of <b>WCHAR</b>s, including the terminating character for each name and one more at the end of the record.
+The total size of the file name fields, in count of **WCHAR**s, including the terminating character for each name and one more at the end of the record.
 
 ### -field FileNames
 

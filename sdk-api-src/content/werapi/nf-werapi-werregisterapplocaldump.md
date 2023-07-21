@@ -87,7 +87,7 @@ The process cannot store the memory dump, or WER cannot create a location to sto
 </dl>
 </td>
 <td width="60%">
-The <i>localAppDataRelativePath</i> parameter is NULL or is longer than 64 characters.
+The *localAppDataRelativePath* parameter is NULL or is longer than 64 characters.
 
 </td>
 </tr>

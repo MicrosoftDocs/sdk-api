@@ -1,10 +1,10 @@
 ---
 UID: NE:werapi._WER_REPORT_TYPE
-tech.root: 
+tech.root: wer
 title: WER_REPORT_TYPE
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Defines the Windows Error Reporting (WER) report types.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -38,23 +38,40 @@ helpviewer_keywords:
  - _WER_REPORT_TYPE
 ---
 
+# WER_REPORT_TYPE enumeration
+
 ## -description
+
+Defines the [Windows Error Reporting](../_wer/index.md) (WER) report types.
 
 ## -enum-fields
 
 ### -field WerReportNonCritical
 
+Non-critical.
+
 ### -field WerReportCritical
+
+Critical.
 
 ### -field WerReportApplicationCrash
 
+Application crash.
+
 ### -field WerReportApplicationHang
+
+Application hang.
 
 ### -field WerReportKernel
 
+Kernel.
+
 ### -field WerReportInvalid
+
+Invalid.
 
 ## -remarks
 
 ## -see-also
 
+[WerReportCreate function](nf-werapi-werreportcreate.md), [Windows Error Reporting](../_wer/index.md)

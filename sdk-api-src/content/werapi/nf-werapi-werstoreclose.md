@@ -62,7 +62,6 @@ The error report store to close (previously retrieved with <a href="/windows/des
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -70,4 +69,4 @@ The error report store to close (previously retrieved with <a href="/windows/des
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

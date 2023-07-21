@@ -67,7 +67,7 @@ The fault reporting settings. You can specify one or more of the following value
 </tr>
 <tr>
 <td width="40%"><a id="WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION"></a><a id="wer_fault_reporting_flag_disable_thread_suspension"></a><dl>
-<dt><b>WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION</b></dt>
+<dt>**WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -77,7 +77,7 @@ Do not suspend the process threads before reporting the error.
 </tr>
 <tr>
 <td width="40%"><a id="WER_FAULT_REPORTING_FLAG_NOHEAP"></a><a id="wer_fault_reporting_flag_noheap"></a><dl>
-<dt><b>WER_FAULT_REPORTING_FLAG_NOHEAP</b></dt>
+<dt>**WER_FAULT_REPORTING_FLAG_NOHEAP**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ Do not collect heap information in the event of an application crash or non-resp
 </tr>
 <tr>
 <td width="40%"><a id="WER_FAULT_REPORTING_FLAG_QUEUE"></a><a id="wer_fault_reporting_flag_queue"></a><dl>
-<dt><b>WER_FAULT_REPORTING_FLAG_QUEUE</b></dt>
+<dt>**WER_FAULT_REPORTING_FLAG_QUEUE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ Queue critical reports.
 </tr>
 <tr>
 <td width="40%"><a id="WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD"></a><a id="wer_fault_reporting_flag_queue_upload"></a><dl>
-<dt><b>WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD</b></dt>
+<dt>**WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ Queue critical reports and upload from the queue.
 </tr>
 <tr>
 <td width="40%"><a id="WER_FAULT_REPORTING_ALWAYS_SHOW_UI"></a><a id="wer_fault_reporting_always_show_ui"></a><dl>
-<dt><b>WER_FAULT_REPORTING_ALWAYS_SHOW_UI</b></dt>
+<dt>**WER_FAULT_REPORTING_ALWAYS_SHOW_UI**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,11 +119,10 @@ Always show error reporting UI for this process. This is applicable for interact
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -131,4 +130,4 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

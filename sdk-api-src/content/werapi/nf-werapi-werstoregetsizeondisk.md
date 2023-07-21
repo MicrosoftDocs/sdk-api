@@ -1,8 +1,8 @@
 ---
 UID: NF:werapi.WerStoreGetSizeOnDisk
-tech.root: 
+tech.root: wer
 title: WerStoreGetSizeOnDisk
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false

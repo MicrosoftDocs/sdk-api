@@ -66,7 +66,7 @@ The size of the memory block, in bytes.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
 <table>
 <tr>
@@ -76,18 +76,18 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_INVALIDARG</b></dt>
+<dt>**E_INVALIDARG**</dt>
 </dl>
 </td>
 <td width="60%">
-<i>address</i> is <b>NULL</b> or <i>size</i> is 0.
+*address* is **NULL** or *size* is 0.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
+<dt>**E_OUTOFMEMORY**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,18 +98,18 @@ WER could not allocate a large enough heap for the data
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
+<dt>**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**</dt>
 </dl>
 </td>
 <td width="60%">
-The number of registered entries exceeds the limit (<b>WER_MAX_REGISTERED_ENTRIES</b>).
+The number of registered entries exceeds the limit (**WER_MAX_REGISTERED_ENTRIES**).
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
+<dt>**WER_E_INVALID_STATE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +125,6 @@ This mechanism is intended for applications that hold large amounts of data in m
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -133,4 +132,4 @@ This mechanism is intended for applications that hold large amounts of data in m
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

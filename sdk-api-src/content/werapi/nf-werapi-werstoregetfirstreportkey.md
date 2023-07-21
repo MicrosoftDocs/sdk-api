@@ -66,7 +66,7 @@ A pointer to the report key string. On a successful call, this will point to the
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_INVALID_ARG</b></dt>
+<dt>**E_INVALID_ARG**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ One of the arguments is not a valid value.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_NO_MORE_FILES</b></dt>
+<dt>**ERROR_NO_MORE_FILES**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,11 +99,10 @@ There are no error reports in the store.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>
+{WerStoreGetNextReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey)
 
 
 
@@ -111,4 +110,4 @@ There are no error reports in the store.
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

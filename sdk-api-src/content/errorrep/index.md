@@ -13,10 +13,8 @@ f1_keywords:
 
 # Errorrep.h header
 
-
 ## -description
 
 This header is used by Windows Error Reporting. For more information, see:
 
 - [Windows Error Reporting](../_wer/index.md)
-

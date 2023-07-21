@@ -63,7 +63,7 @@ A pointer to a Unicode string that specifies the name of the event.
 
 ### -param repType [in]
 
-The type of report. This parameter can be one of the following values from the <b>WER_REPORT_TYPE</b> enumeration type.
+The type of report. This parameter can be one of the following values from the **WER_REPORT_TYPE** enumeration type.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ The type of report. This parameter can be one of the following values from the <
 </tr>
 <tr>
 <td width="40%"><a id="WerReportApplicationCrash"></a><a id="werreportapplicationcrash"></a><a id="WERREPORTAPPLICATIONCRASH"></a><dl>
-<dt><b>WerReportApplicationCrash</b></dt>
+<dt>**WerReportApplicationCrash**</dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ An error that has caused the application to stop running has occurred.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportApplicationHang"></a><a id="werreportapplicationhang"></a><a id="WERREPORTAPPLICATIONHANG"></a><dl>
-<dt><b>WerReportApplicationHang</b></dt>
+<dt>**WerReportApplicationHang**</dt>
 <dt>3</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ An error that has caused the application to stop responding has occurred.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportInvalid"></a><a id="werreportinvalid"></a><a id="WERREPORTINVALID"></a><dl>
-<dt><b>WerReportInvalid</b></dt>
+<dt>**WerReportInvalid**</dt>
 <dt>5</dt>
 </dl>
 </td>
@@ -105,7 +105,7 @@ An error that has called out a return that is not valid has occurred.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportKernel"></a><a id="werreportkernel"></a><a id="WERREPORTKERNEL"></a><dl>
-<dt><b>WerReportKernel</b></dt>
+<dt>**WerReportKernel**</dt>
 <dt>4</dt>
 </dl>
 </td>
@@ -116,7 +116,7 @@ An error in the kernel has occurred.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportCritical"></a><a id="werreportcritical"></a><a id="WERREPORTCRITICAL"></a><dl>
-<dt><b>WerReportCritical</b></dt>
+<dt>**WerReportCritical**</dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -127,7 +127,7 @@ A critical error, such as a crash or non-response, has occurred. By default, pro
 </tr>
 <tr>
 <td width="40%"><a id="WerReportNonCritical"></a><a id="werreportnoncritical"></a><a id="WERREPORTNONCRITICAL"></a><dl>
-<dt><b>WerReportNonCritical</b></dt>
+<dt>**WerReportNonCritical**</dt>
 <dt>0</dt>
 </dl>
 </td>
@@ -144,11 +144,11 @@ A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_informa
 
 ### -param phReportHandle [out]
 
-A handle to the report. If the function fails, this handle is <b>NULL</b>.
+A handle to the report. If the function fails, this handle is **NULL**.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
@@ -169,7 +169,6 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -185,4 +184,4 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

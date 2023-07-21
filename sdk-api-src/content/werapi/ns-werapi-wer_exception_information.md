@@ -64,7 +64,7 @@ A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers"
 
 ### -field bClientPointers
 
-A process (calling process) can provide error reporting functionality for another process (client process). If this member is <b>TRUE</b>, the exception pointer is located inside the  address space of the client process. If this member is <b>FALSE</b>, the exception pointer is located inside the address space of the calling process.
+A process (calling process) can provide error reporting functionality for another process (client process). If this member is **TRUE**, the exception pointer is located inside the  address space of the client process. If this member is **FALSE**, the exception pointer is located inside the address space of the calling process.
 
 ## -see-also
 

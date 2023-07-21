@@ -1,8 +1,8 @@
 ---
 UID: NF:werapi.WerStorePurge
-tech.root: 
+tech.root: wer
 title: WerStorePurge
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false

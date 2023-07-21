@@ -64,15 +64,15 @@ The size of this structure, in bytes.
 
 ### -field hProcess
 
-A handle to the process for which the report is being generated. If this member is <b>NULL</b>, this is the calling process.
+A handle to the process for which the report is being generated. If this member is **NULL**, this is the calling process.
 
 ### -field wzConsentKey
 
-The name used to look up consent settings. If this member is empty, the default is the name specified by the <i>pwzEventType</i> parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
+The name used to look up consent settings. If this member is empty, the default is the name specified by the *pwzEventType* parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
 
 ### -field wzFriendlyEventName
 
-The display name. If this member is empty, the default is the name specified by <i>pwzEventType</i> parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
+The display name. If this member is empty, the default is the name specified by *pwzEventType* parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
 
 ### -field wzApplicationName
 
@@ -84,7 +84,7 @@ The full path to the application.
 
 ### -field wzDescription
 
-A description of the problem. This description is displayed in <b>Problem Reports and Solutions</b> on Windows Vista or the problem reports pane of the <b>Action Center</b> on Windows 7.
+A description of the problem. This description is displayed in **Problem Reports and Solutions** on Windows Vista or the problem reports pane of the **Action Center** on Windows 7.
 
 ### -field hwndParent
 

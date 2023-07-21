@@ -62,7 +62,7 @@ The starting address of the memory block. This memory block must have been regis
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
+<dt>**WER_E_INVALID_STATE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,6 @@ The process state is not valid. For example, the process is in <a href="/windows
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -92,4 +91,4 @@ The process state is not valid. For example, the process is in <a href="/windows
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

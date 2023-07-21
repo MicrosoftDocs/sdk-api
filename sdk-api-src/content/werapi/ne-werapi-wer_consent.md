@@ -1,10 +1,10 @@
 ---
 UID: NE:werapi._WER_CONSENT
-tech.root: 
+tech.root: wer
 title: WER_CONSENT
-ms.date: 
+description: Defines the possible Windows Error Reporting (WER) user consent states.
+ms.date: 07/21/2023
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -42,7 +42,7 @@ helpviewer_keywords:
 
 ## -description
 
-Specifies the possible Windows Error Reporting (WER) user consent states.
+Defines the possible [Windows Error Reporting](../_wer/index.md) (WER) user consent states.
 
 ## -enum-fields
 
@@ -70,4 +70,4 @@ The maximum value for this enumeration.
 
 ## -see-also
 
-[WerReportSubmit function](nf-werapi-werreportsubmit.md)
+[WerReportSubmit function](nf-werapi-werreportsubmit.md), [Windows Error Reporting](/windows/desktop/wer)

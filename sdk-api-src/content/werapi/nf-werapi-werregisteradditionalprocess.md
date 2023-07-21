@@ -49,7 +49,6 @@ api_name:
 
 # WerRegisterAdditionalProcess function
 
-
 ## -description
 
 Registers a process to be included in the error report along with the main application process. Optionally specifies a thread within that registered process to get additional data from.
@@ -66,58 +65,14 @@ The Id of a thread within the registered process from which more information is 
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value of <i>processId</i> is 0.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-WER could not allocate a large enough heap for the data.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
-</dl>
-</td>
-<td width="60%">
-Number of WER registered entries (memory blocks, metadata, files) exceeds max (<b>WER_MAX_REGISTERED_ENTRIES</b>) or number of processes exceeds max (<b>WER_MAX_REGISTERED_DUMPCOLLECTION</b>)
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALIDARG**|The value of *processId* is 0.|
+|**E_OUTOFMEMORY**|WER could not allocate a large enough heap for the data.|
+|**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**|Number of WER registered entries (memory blocks, metadata, files) exceeds max (**WER_MAX_REGISTERED_ENTRIES**) or number of processes exceeds max (**WER_MAX_REGISTERED_DUMPCOLLECTION**)|
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
 
 ## -remarks
 
@@ -125,12 +80,4 @@ This API is for applications that have multiple processes interacting with each 
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werunregisteradditionalprocess">WerUnregisterAdditionalProcess</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerUnregisterAdditionalProcess](/windows/desktop/api/werapi/nf-werapi-werunregisteradditionalprocess), [Windows Error Reporting](/windows/desktop/wer)

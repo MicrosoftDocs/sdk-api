@@ -72,7 +72,7 @@ The consent status. This parameter can be one of the following values from the [
 </tr>
 <tr>
 <td width="40%"><a id="WerConsentAlwaysPrompt"></a><a id="werconsentalwaysprompt"></a><a id="WERCONSENTALWAYSPROMPT"></a><dl>
-<dt><b>WerConsentAlwaysPrompt</b></dt>
+<dt>**WerConsentAlwaysPrompt**</dt>
 <dt>4</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ The user is always asked to submit the request.
 </tr>
 <tr>
 <td width="40%"><a id="WerConsentApproved"></a><a id="werconsentapproved"></a><a id="WERCONSENTAPPROVED"></a><dl>
-<dt><b>WerConsentApproved</b></dt>
+<dt>**WerConsentApproved**</dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ The user has approved the submission request.
 </tr>
 <tr>
 <td width="40%"><a id="WerConsentDenied"></a><a id="werconsentdenied"></a><a id="WERCONSENTDENIED"></a><dl>
-<dt><b>WerConsentDenied</b></dt>
+<dt>**WerConsentDenied**</dt>
 <dt>3</dt>
 </dl>
 </td>
@@ -105,18 +105,18 @@ The user has denied the submission request.
 </tr>
 <tr>
 <td width="40%"><a id="WerConsentMax"></a><a id="werconsentmax"></a><a id="WERCONSENTMAX"></a><dl>
-<dt><b>WerConsentMax</b></dt>
+<dt>**WerConsentMax**</dt>
 <dt>5</dt>
 </dl>
 </td>
 <td width="60%">
-The maximum value for the <b>WER_CONSENT</b> enumeration type.
+The maximum value for the **WER_CONSENT** enumeration type.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="WerConsentNotAsked"></a><a id="werconsentnotasked"></a><a id="WERCONSENTNOTASKED"></a><dl>
-<dt><b>WerConsentNotAsked</b></dt>
+<dt>**WerConsentNotAsked**</dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -138,18 +138,18 @@ This parameter can be one or more of the following values.
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_ADD_REGISTERED_DATA"></a><a id="wer_submit_add_registered_data"></a><dl>
-<dt><b>WER_SUBMIT_ADD_REGISTERED_DATA</b></dt>
+<dt>**WER_SUBMIT_ADD_REGISTERED_DATA**</dt>
 <dt>16</dt>
 </dl>
 </td>
 <td width="60%">
-Add the data registered by <a href="/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>, <a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>, and <a href="/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> to the report.
+Add the data registered by [WerSetFlags](/windows/desktop/api/werapi/nf-werapi-wersetflags), <a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>, and <a href="/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> to the report.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_HONOR_RECOVERY"></a><a id="wer_submit_honor_recovery"></a><dl>
-<dt><b>WER_SUBMIT_HONOR_RECOVERY</b></dt>
+<dt>**WER_SUBMIT_HONOR_RECOVERY**</dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -160,7 +160,7 @@ Honor any recovery registration for the application. For more information, see <
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_HONOR_RESTART"></a><a id="wer_submit_honor_restart"></a><dl>
-<dt><b>WER_SUBMIT_HONOR_RESTART</b></dt>
+<dt>**WER_SUBMIT_HONOR_RESTART**</dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -171,7 +171,7 @@ Honor any restart registration for the application. For more information, see <a
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_NO_ARCHIVE"></a><a id="wer_submit_no_archive"></a><dl>
-<dt><b>WER_SUBMIT_NO_ARCHIVE</b></dt>
+<dt>**WER_SUBMIT_NO_ARCHIVE**</dt>
 <dt>256</dt>
 </dl>
 </td>
@@ -182,7 +182,7 @@ Do not archive the report.
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_NO_CLOSE_UI"></a><a id="wer_submit_no_close_ui"></a><dl>
-<dt><b>WER_SUBMIT_NO_CLOSE_UI</b></dt>
+<dt>**WER_SUBMIT_NO_CLOSE_UI**</dt>
 <dt>64</dt>
 </dl>
 </td>
@@ -193,7 +193,7 @@ Do not display the close dialog box for the critical report.
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_NO_QUEUE"></a><a id="wer_submit_no_queue"></a><dl>
-<dt><b>WER_SUBMIT_NO_QUEUE</b></dt>
+<dt>**WER_SUBMIT_NO_QUEUE**</dt>
 <dt>128</dt>
 </dl>
 </td>
@@ -207,7 +207,7 @@ The report is discarded for any action that would require the report to be queue
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_OUTOFPROCESS"></a><a id="wer_submit_outofprocess"></a><dl>
-<dt><b>WER_SUBMIT_OUTOFPROCESS</b></dt>
+<dt>**WER_SUBMIT_OUTOFPROCESS**</dt>
 <dt>32</dt>
 </dl>
 </td>
@@ -221,18 +221,18 @@ Spawn another process to submit the report. The calling thread is blocked until 
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_OUTOFPROCESS_ASYNC"></a><a id="wer_submit_outofprocess_async"></a><dl>
-<dt><b>WER_SUBMIT_OUTOFPROCESS_ASYNC</b></dt>
+<dt>**WER_SUBMIT_OUTOFPROCESS_ASYNC**</dt>
 <dt>1024</dt>
 </dl>
 </td>
 <td width="60%">
-Spawn another process to submit the report and return from this function call immediately. Note that the contents of the <i>pSubmitResult</i> parameter are undefined and there is no way to query when the reporting completes or the completion status.
+Spawn another process to submit the report and return from this function call immediately. Note that the contents of the *pSubmitResult* parameter are undefined and there is no way to query when the reporting completes or the completion status.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_QUEUE"></a><a id="wer_submit_queue"></a><dl>
-<dt><b>WER_SUBMIT_QUEUE</b></dt>
+<dt>**WER_SUBMIT_QUEUE**</dt>
 <dt>4</dt>
 </dl>
 </td>
@@ -243,7 +243,7 @@ Add the report to the WER queue without notifying the user.  The report is queue
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_SHOW_DEBUG"></a><a id="wer_submit_show_debug"></a><dl>
-<dt><b>WER_SUBMIT_SHOW_DEBUG</b></dt>
+<dt>**WER_SUBMIT_SHOW_DEBUG**</dt>
 <dt>8</dt>
 </dl>
 </td>
@@ -254,7 +254,7 @@ Show the debug button.
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_START_MINIMIZED"></a><a id="wer_submit_start_minimized"></a><dl>
-<dt><b>WER_SUBMIT_START_MINIMIZED</b></dt>
+<dt>**WER_SUBMIT_START_MINIMIZED**</dt>
 <dt>512</dt>
 </dl>
 </td>
@@ -265,40 +265,40 @@ The initial UI is minimized and flashing.
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_BYPASS_DATA_THROTTLING"></a><a id="wer_submit_bypass_data_throttling"></a><dl>
-<dt><b>WER_SUBMIT_BYPASS_DATA_THROTTLING</b></dt>
+<dt>**WER_SUBMIT_BYPASS_DATA_THROTTLING**</dt>
 <dt>2048</dt>
 </dl>
 </td>
 <td width="60%">
 Bypass data throttling for the report.
 
-<b>Windows 7 or earlier:  </b>This parameter is not available.
+**Windows 7 or earlier:  **This parameter is not available.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY"></a><a id="wer_submit_archive_parameters_only"></a><dl>
-<dt><b>WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY</b></dt>
+<dt>**WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY**</dt>
 <dt>4096</dt>
 </dl>
 </td>
 <td width="60%">
 Archive only the parameters; the cab is discarded. This flag overrides the <a href="/windows/desktop/wer/wer-settings">ConfigureArchive</a> WER setting.
 
-<b>Windows 7 or earlier:  </b>This parameter is not available.
+**Windows 7 or earlier:  **This parameter is not available.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="WER_SUBMIT_REPORT_MACHINE_ID"></a><a id="wer_submit_report_machine_id"></a><dl>
-<dt><b>WER_SUBMIT_REPORT_MACHINE_ID</b></dt>
+<dt>**WER_SUBMIT_REPORT_MACHINE_ID**</dt>
 <dt>8192</dt>
 </dl>
 </td>
 <td width="60%">
 Always send the unique, 128-bit computer identifier with the report, regardless of the consent with which the report was submitted. See Remarks for additional information.
 
-<b>Windows 7 or earlier:  </b>This parameter is not available.
+**Windows 7 or earlier:  **This parameter is not available.
 
 </td>
 </tr>
@@ -306,7 +306,7 @@ Always send the unique, 128-bit computer identifier with the report, regardless 
 
 ### -param pSubmitResult [out, optional]
 
-The result of the submission. This parameter can be one of the following values from the <b>WER_SUBMIT_RESULT</b> enumeration type.
+The result of the submission. This parameter can be one of the following values from the **WER_SUBMIT_RESULT** enumeration type.
 
 <table>
 <tr>
@@ -315,7 +315,7 @@ The result of the submission. This parameter can be one of the following values 
 </tr>
 <tr>
 <td width="40%"><a id="WerCustomAction"></a><a id="wercustomaction"></a><a id="WERCUSTOMACTION"></a><dl>
-<dt><b>WerCustomAction</b></dt>
+<dt>**WerCustomAction**</dt>
 <dt>9</dt>
 </dl>
 </td>
@@ -326,7 +326,7 @@ Error reporting can be customized.
 </tr>
 <tr>
 <td width="40%"><a id="WerDisabled"></a><a id="werdisabled"></a><a id="WERDISABLED"></a><dl>
-<dt><b>WerDisabled</b></dt>
+<dt>**WerDisabled**</dt>
 <dt>5</dt>
 </dl>
 </td>
@@ -337,7 +337,7 @@ Error reporting was disabled.
 </tr>
 <tr>
 <td width="40%"><a id="WerDisabledQueue"></a><a id="werdisabledqueue"></a><a id="WERDISABLEDQUEUE"></a><dl>
-<dt><b>WerDisabledQueue</b></dt>
+<dt>**WerDisabledQueue**</dt>
 <dt>7</dt>
 </dl>
 </td>
@@ -348,7 +348,7 @@ Queuing was disabled.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportAsync"></a><a id="werreportasync"></a><a id="WERREPORTASYNC"></a><dl>
-<dt><b>WerReportAsync</b></dt>
+<dt>**WerReportAsync**</dt>
 <dt>8</dt>
 </dl>
 </td>
@@ -359,7 +359,7 @@ The report was asynchronous.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportCancelled"></a><a id="werreportcancelled"></a><a id="WERREPORTCANCELLED"></a><dl>
-<dt><b>WerReportCancelled</b></dt>
+<dt>**WerReportCancelled**</dt>
 <dt>6</dt>
 </dl>
 </td>
@@ -370,7 +370,7 @@ The report was canceled.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportDebug"></a><a id="werreportdebug"></a><a id="WERREPORTDEBUG"></a><dl>
-<dt><b>WerReportDebug</b></dt>
+<dt>**WerReportDebug**</dt>
 <dt>3</dt>
 </dl>
 </td>
@@ -381,7 +381,7 @@ The Debug button was clicked.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportFailed"></a><a id="werreportfailed"></a><a id="WERREPORTFAILED"></a><dl>
-<dt><b>WerReportFailed</b></dt>
+<dt>**WerReportFailed**</dt>
 <dt>4</dt>
 </dl>
 </td>
@@ -392,7 +392,7 @@ The report submission failed.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportQueued"></a><a id="werreportqueued"></a><a id="WERREPORTQUEUED"></a><dl>
-<dt><b>WerReportQueued</b></dt>
+<dt>**WerReportQueued**</dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -403,7 +403,7 @@ The report was queued.
 </tr>
 <tr>
 <td width="40%"><a id="WerReportUploaded"></a><a id="werreportuploaded"></a><a id="WERREPORTUPLOADED"></a><dl>
-<dt><b>WerReportUploaded</b></dt>
+<dt>**WerReportUploaded**</dt>
 <dt>2</dt>
 </dl>
 </td>
@@ -416,11 +416,11 @@ The report was uploaded.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
-After the application calls this function, WER collects the specified data. If the <i>consent</i> parameter is WerConsentApproved, it submits the report to Microsoft. If <i>consent</i> is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the <i>pSubmitResult</i> parameter.
+After the application calls this function, WER collects the specified data. If the *consent* parameter is WerConsentApproved, it submits the report to Microsoft. If *consent* is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the *pSubmitResult* parameter.
 
 In the event of a critical application event, applications that have <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">registered for restart</a> will be restarted.
 
@@ -438,7 +438,6 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -446,4 +445,4 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

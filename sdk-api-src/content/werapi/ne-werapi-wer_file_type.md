@@ -1,8 +1,8 @@
 ---
 UID: NE:werapi._WER_FILE_TYPE
-tech.root: 
+tech.root: wer
 title: WER_FILE_TYPE
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
 description: 
 prerelease: false
@@ -38,33 +38,60 @@ helpviewer_keywords:
  - _WER_FILE_TYPE
 ---
 
+# WER_FILE_TYPE enumeration
+
 ## -description
+
+Defines the possible [Windows Error Reporting](../_wer/index.md) (WER) file types for the minidump report.
 
 ## -enum-fields
 
 ### -field WerFileTypeMicrodump
 
+Micro dump.
+
 ### -field WerFileTypeMinidump
+
+Mini dump.
 
 ### -field WerFileTypeHeapdump
 
+Heap dump.
+
 ### -field WerFileTypeUserDocument
+
+User document.
 
 ### -field WerFileTypeOther
 
+Other.
+
 ### -field WerFileTypeTriagedump
+
+Triage dump.
 
 ### -field WerFileTypeCustomDump
 
+Custom dump.
+
 ### -field WerFileTypeAuxiliaryDump
+
+Auxiliary dump.
 
 ### -field WerFileTypeEtlTrace
 
+Event Trace Logging (ETL) trace.
+
 ### -field WerFileTypeAuxiliaryHeapDump
 
+Auxiliary heap dump.
+
 ### -field WerFileTypeMax
+
+Maximum data dump.
 
 ## -remarks
 
 ## -see-also
 
+[WerReportAddFile function](nf-werapi-werreportaddfile.md), [Windows Error Reporting](/windows/desktop/wer)

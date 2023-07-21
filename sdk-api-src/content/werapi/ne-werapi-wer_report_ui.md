@@ -1,10 +1,10 @@
 ---
 UID: NE:werapi._WER_REPORT_UI
-tech.root: 
+tech.root: wer
 title: WER_REPORT_UI
-ms.date: 
+ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Defines the indexes of the Windows Error Reporting (WER) report's customizable UI strings.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -38,33 +38,60 @@ helpviewer_keywords:
  - _WER_REPORT_UI
 ---
 
+# WER_REPORT_UI enumeration
+
 ## -description
+
+Defines the indexes of the [Windows Error Reporting](../_wer/index.md) (WER) report's customizable UI strings.
 
 ## -enum-fields
 
 ### -field WerUIAdditionalDataDlgHeader
 
+Additional data dialog header.
+
 ### -field WerUIIconFilePath
+
+Icon file path.
 
 ### -field WerUIConsentDlgHeader
 
+Consent dialog header.
+
 ### -field WerUIConsentDlgBody
+
+Consent dialog body.
 
 ### -field WerUIOnlineSolutionCheckText
 
+Online solution check text.
+
 ### -field WerUIOfflineSolutionCheckText
+
+Offline solution check text.
 
 ### -field WerUICloseText
 
+Close text.
+
 ### -field WerUICloseDlgHeader
+
+Close dialog header.
 
 ### -field WerUICloseDlgBody
 
+Close dialog body.
+
 ### -field WerUICloseDlgButtonText
 
+Close dialog button text.
+
 ### -field WerUIMax
+
+Maximum text load.
 
 ## -remarks
 
 ## -see-also
 
+[WerReportSetUIOption function](nf-werapi-werreportsetuioption.md), [Windows Error Reporting](../_wer/index.md)

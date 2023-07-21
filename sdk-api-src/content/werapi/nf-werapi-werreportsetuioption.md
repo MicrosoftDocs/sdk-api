@@ -60,7 +60,7 @@ A handle to the report. This handle is returned by the <a href="/windows/desktop
 
 ### -param repUITypeID [in]
 
-The user interface element to be customized. This parameter can be one of the following values from the <b>WER_REPORT_UI</b> enumeration type.
+The user interface element to be customized. This parameter can be one of the following values from the **WER_REPORT_UI** enumeration type.
 
 <table>
 <tr>
@@ -69,7 +69,7 @@ The user interface element to be customized. This parameter can be one of the fo
 </tr>
 <tr>
 <td width="40%"><a id="WerUIAdditionalDataDlgHeader"></a><a id="weruiadditionaldatadlgheader"></a><a id="WERUIADDITIONALDATADLGHEADER"></a><dl>
-<dt><b>WerUIAdditionalDataDlgHeader</b></dt>
+<dt>**WerUIAdditionalDataDlgHeader**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -79,7 +79,7 @@ The instructions for the additional data dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUICloseDlgBody"></a><a id="weruiclosedlgbody"></a><a id="WERUICLOSEDLGBODY"></a><dl>
-<dt><b>WerUICloseDlgBody</b></dt>
+<dt>**WerUICloseDlgBody**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ The contents of the close dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUICloseDlgButtonText"></a><a id="weruiclosedlgbuttontext"></a><a id="WERUICLOSEDLGBUTTONTEXT"></a><dl>
-<dt><b>WerUICloseDlgButtonText</b></dt>
+<dt>**WerUICloseDlgButtonText**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ The text for the button in the close dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUICloseDlgHeader"></a><a id="weruiclosedlgheader"></a><a id="WERUICLOSEDLGHEADER"></a><dl>
-<dt><b>WerUICloseDlgHeader</b></dt>
+<dt>**WerUICloseDlgHeader**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The main instructions for the close dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUICloseText"></a><a id="weruiclosetext"></a><a id="WERUICLOSETEXT"></a><dl>
-<dt><b>WerUICloseText</b></dt>
+<dt>**WerUICloseText**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The text for the link to just terminate the application.
 </tr>
 <tr>
 <td width="40%"><a id="WerUIConsentDlgBody"></a><a id="weruiconsentdlgbody"></a><a id="WERUICONSENTDLGBODY"></a><dl>
-<dt><b>WerUIConsentDlgBody</b></dt>
+<dt>**WerUIConsentDlgBody**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ The contents of the consent dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUIConsentDlgHeader"></a><a id="weruiconsentdlgheader"></a><a id="WERUICONSENTDLGHEADER"></a><dl>
-<dt><b>WerUIConsentDlgHeader</b></dt>
+<dt>**WerUIConsentDlgHeader**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ The main instructions for the consent dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUIIconFilePath"></a><a id="weruiiconfilepath"></a><a id="WERUIICONFILEPATH"></a><dl>
-<dt><b>WerUIIconFilePath</b></dt>
+<dt>**WerUIIconFilePath**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The icon to be displayed in the consent dialog box.
 </tr>
 <tr>
 <td width="40%"><a id="WerUIOfflineSolutionCheckText"></a><a id="weruiofflinesolutionchecktext"></a><a id="WERUIOFFLINESOLUTIONCHECKTEXT"></a><dl>
-<dt><b>WerUIOfflineSolutionCheckText</b></dt>
+<dt>**WerUIOfflineSolutionCheckText**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,7 +159,7 @@ The text for the link to check for a solution when offline.
 </tr>
 <tr>
 <td width="40%"><a id="WerUIOnlineSolutionCheckText"></a><a id="weruionlinesolutionchecktext"></a><a id="WERUIONLINESOLUTIONCHECKTEXT"></a><dl>
-<dt><b>WerUIOnlineSolutionCheckText</b></dt>
+<dt>**WerUIOnlineSolutionCheckText**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -171,15 +171,14 @@ The text for the link to check for a solution when online.
 
 ### -param pwzValue [in]
 
-A pointer to a Unicode string that specifies the custom text. For more information, see the description of <i>repUITypeID</i>.
+A pointer to a Unicode string that specifies the custom text. For more information, see the description of *repUITypeID*.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -187,4 +186,4 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

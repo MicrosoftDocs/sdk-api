@@ -62,15 +62,15 @@ The error report store (previously retrieved with <a href="/windows/desktop/api/
 
 ### -param pszReportKey
 
-The string identifying which report is being queried (previously retrieved with <a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a> or <a href="/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>).
+The string identifying which report is being queried (previously retrieved with [WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey) or {WerStoreGetNextReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey)).
 
 ### -param pReportMetadata
 
-A pointer to the report store metadata in the form of a <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure. The field <b>SizeOfFileNames</b> should be set to 0 during the first call. The function updates this field with the required size to hold the file names associated with the report. The field <b>FileNames</b> should then be allocated with <b>SizeOfFileNames</b> bytes and the function should be called again to get all of the file names.
+A pointer to the report store metadata in the form of a <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure. The field **SizeOfFileNames** should be set to 0 during the first call. The function updates this field with the required size to hold the file names associated with the report. The field **FileNames** should then be allocated with **SizeOfFileNames** bytes and the function should be called again to get all of the file names.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_INVALID_ARG</b></dt>
+<dt>**E_INVALID_ARG**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -91,11 +91,11 @@ One of the arguments is not a valid value.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
+<dt>**ERROR_INSUFFICIENT_BUFFER**</dt>
 </dl>
 </td>
 <td width="60%">
-There is not enough memory available to retrieve the metadata. In this case, the caller should allocate memory of size <b>SizeOfFileNames</b> for the <b>FileNames</b> field, found in the <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure, and call the function again. 
+There is not enough memory available to retrieve the metadata. In this case, the caller should allocate memory of size **SizeOfFileNames** for the **FileNames** field, found in the <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure, and call the function again. 
 
 </td>
 </tr>
@@ -103,7 +103,6 @@ There is not enough memory available to retrieve the metadata. In this case, the
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -111,12 +110,12 @@ There is not enough memory available to retrieve the metadata. In this case, the
 
 
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
+[WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey)
 
 
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey">WerStoreGetNextReportKey</a>
+{WerStoreGetNextReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetnextreportkey)
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

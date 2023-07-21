@@ -67,7 +67,7 @@ A pointer to a Unicode string that contains the full path to the file to be adde
 
 ### -param repFileType [in]
 
-The type of file. This parameter can be one of the following values from the <b>WER_FILE_TYPE</b> enumeration type.
+The type of file. This parameter can be one of the following values from the **WER_FILE_TYPE** enumeration type.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ The type of file. This parameter can be one of the following values from the <b>
 </tr>
 <tr>
 <td width="40%"><a id="WerFileTypeHeapdump"></a><a id="werfiletypeheapdump"></a><a id="WERFILETYPEHEAPDUMP"></a><dl>
-<dt><b>WerFileTypeHeapdump</b></dt>
+<dt>**WerFileTypeHeapdump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -86,7 +86,7 @@ An extended minidump that contains additional data such as the process memory.
 </tr>
 <tr>
 <td width="40%"><a id="WerFileTypeMicrodump"></a><a id="werfiletypemicrodump"></a><a id="WERFILETYPEMICRODUMP"></a><dl>
-<dt><b>WerFileTypeMicrodump</b></dt>
+<dt>**WerFileTypeMicrodump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ A limited minidump that contains only a stack trace.
 </tr>
 <tr>
 <td width="40%"><a id="WerFileTypeMinidump"></a><a id="werfiletypeminidump"></a><a id="WERFILETYPEMINIDUMP"></a><dl>
-<dt><b>WerFileTypeMinidump</b></dt>
+<dt>**WerFileTypeMinidump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ A minidump file.
 </tr>
 <tr>
 <td width="40%"><a id="WerFileTypeOther"></a><a id="werfiletypeother"></a><a id="WERFILETYPEOTHER"></a><dl>
-<dt><b>WerFileTypeOther</b></dt>
+<dt>**WerFileTypeOther**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ Any other type of file. This file will always get added to the cab (but only if 
 </tr>
 <tr>
 <td width="40%"><a id="WerFileTypeUserDocument"></a><a id="werfiletypeuserdocument"></a><a id="WERFILETYPEUSERDOCUMENT"></a><dl>
-<dt><b>WerFileTypeUserDocument</b></dt>
+<dt>**WerFileTypeUserDocument**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +137,7 @@ This parameter can be one or more of the following values.
 </tr>
 <tr>
 <td width="40%"><a id="WER_FILE_ANONYMOUS_DATA"></a><a id="wer_file_anonymous_data"></a><dl>
-<dt><b>WER_FILE_ANONYMOUS_DATA</b></dt>
+<dt>**WER_FILE_ANONYMOUS_DATA**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,7 +147,7 @@ The file does not contain personal information that could be used to identify or
 </tr>
 <tr>
 <td width="40%"><a id="WER_FILE_DELETE_WHEN_DONE"></a><a id="wer_file_delete_when_done"></a><dl>
-<dt><b>WER_FILE_DELETE_WHEN_DONE</b></dt>
+<dt>**WER_FILE_DELETE_WHEN_DONE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,7 +159,7 @@ Automatically delete the file after the report is submitted.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</b></dt>
+<dt>**HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,7 +180,7 @@ The specified file does not exist.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b></dt>
+<dt>**HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +196,6 @@ Although this function can also be used to add memory dumps (using specific flag
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -204,4 +203,4 @@ Although this function can also be used to add memory dumps (using specific flag
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

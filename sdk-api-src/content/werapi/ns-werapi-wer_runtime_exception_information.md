@@ -84,4 +84,4 @@ A pointer to a constant, null-terminated string that contains the size of the ex
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a>
+[OutOfProcessExceptionEventCallback](/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event)

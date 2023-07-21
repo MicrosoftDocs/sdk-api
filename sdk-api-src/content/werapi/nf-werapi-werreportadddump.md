@@ -67,11 +67,11 @@ A handle to the process for which the report is being generated. This handle mus
 
 ### -param hThread [in, optional]
 
-A handle to the thread of <i>hProcess</i> for which the report is being generated. If <i>dumpType</i> is WerDumpTypeMicro, this parameter is required. For other dump types, this parameter may be <b>NULL</b>.
+A handle to the thread of *hProcess* for which the report is being generated. If *dumpType* is WerDumpTypeMicro, this parameter is required. For other dump types, this parameter may be **NULL**.
 
 ### -param dumpType [in]
 
-The type of <a href="/windows/desktop/Debug/minidump-files">minidump</a>. This parameter can be one of the following values from the <b>WER_DUMP_TYPE</b> enumeration type.
+The type of <a href="/windows/desktop/Debug/minidump-files">minidump</a>. This parameter can be one of the following values from the **WER_DUMP_TYPE** enumeration type.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ The type of <a href="/windows/desktop/Debug/minidump-files">minidump</a>. This p
 </tr>
 <tr>
 <td width="40%"><a id="WerDumpTypeHeapDump"></a><a id="werdumptypeheapdump"></a><a id="WERDUMPTYPEHEAPDUMP"></a><dl>
-<dt><b>WerDumpTypeHeapDump</b></dt>
+<dt>**WerDumpTypeHeapDump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +103,7 @@ This type is equivalent to creating a minidump with the following options: <ul>
 </tr>
 <tr>
 <td width="40%"><a id="WerDumpTypeMicroDump"></a><a id="werdumptypemicrodump"></a><a id="WERDUMPTYPEMICRODUMP"></a><dl>
-<dt><b>WerDumpTypeMicroDump</b></dt>
+<dt>**WerDumpTypeMicroDump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ This type is equivalent to creating a minidump with the following options: <ul>
 </tr>
 <tr>
 <td width="40%"><a id="WerDumpTypeMiniDump"></a><a id="werdumptypeminidump"></a><a id="WERDUMPTYPEMINIDUMP"></a><dl>
-<dt><b>WerDumpTypeMiniDump</b></dt>
+<dt>**WerDumpTypeMiniDump**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_exception_info
 
 ### -param pDumpCustomOptions [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a> structure that specifies custom minidump options. If this parameter is <b>NULL</b>, the standard minidump information is collected.
+A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a> structure that specifies custom minidump options. If this parameter is **NULL**, the standard minidump information is collected.
 
 ### -param dwFlags [in]
 
@@ -158,7 +158,7 @@ This parameter can be 0 or the following value.
 </tr>
 <tr>
 <td width="40%"><a id="WER_DUMP_NOHEAP_ONQUEUE"></a><a id="wer_dump_noheap_onqueue"></a><dl>
-<dt><b>WER_DUMP_NOHEAP_ONQUEUE</b></dt>
+<dt>**WER_DUMP_NOHEAP_ONQUEUE**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -170,13 +170,13 @@ If the report is being queued, do not include a heap dump. Using this flag saves
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
 Use this function only for generic reporting—it has no effect on operating system crash or no-response reporting.
 
-If the server asks for a mini dump and you specify <b>WerDumpTypeHeapDump</b> for the <i>dumpType</i> parameter, WER will not send the heap dump to the Watson server. However, if the server asks for a heap dump and the <i>dumpType</i> is <b>WerDumpTypeMiniDump</b>, WER will send the mini dump to the server. Thus, it is recommended that you set <i>dumpType</i> to <b>WerDumpTypeMiniDump</b>.
+If the server asks for a mini dump and you specify **WerDumpTypeHeapDump** for the *dumpType* parameter, WER will not send the heap dump to the Watson server. However, if the server asks for a heap dump and the *dumpType* is **WerDumpTypeMiniDump**, WER will send the mini dump to the server. Thus, it is recommended that you set *dumpType* to **WerDumpTypeMiniDump**.
 
 ## -see-also
 
@@ -184,7 +184,6 @@ If the server asks for a mini dump and you specify <b>WerDumpTypeHeapDump</b> fo
 
 
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -200,4 +199,4 @@ If the server asks for a mini dump and you specify <b>WerDumpTypeHeapDump</b> fo
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)

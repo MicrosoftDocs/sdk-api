@@ -66,7 +66,7 @@ A pointer to a report store. On a successful call, this will point to the retrie
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_INVALIDARG</b></dt>
+<dt>**E_INVALIDARG**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,13 +88,12 @@ One of the arguments is not a valid value.
 
 ## -remarks
 
-A <i>storeType</i> value of <b>E_STORE_MACHINE_QUEUE</b> opens the queue of all error reports on the machine that have not yet been sent to Microsoft. A value of  <b>E_STORE_MACHINE_ARCHIVE</b> opens the store of error reports that have already been sent.
+A *storeType* value of **E_STORE_MACHINE_QUEUE** opens the queue of all error reports on the machine that have not yet been sent to Microsoft. A value of  **E_STORE_MACHINE_ARCHIVE** opens the store of error reports that have already been sent.
 
 The Windows Error Report (WER) Store is the queue of error reports that have been marked to be sent to Microsoft but have not yet been uploaded. The upload of an error report can be postponed under a number of circumstances. The WerStore functions allow developers to access the stored reports and query the status of each one.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
@@ -102,8 +101,8 @@ The Windows Error Report (WER) Store is the queue of error reports that have bee
 
 
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
+[WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey)
 
 
 
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Windows Error Reporting](/windows/desktop/wer)
