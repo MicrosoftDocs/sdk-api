@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IBDA_FrequencyFilter</b> interface is implemented on a BDA tuner device, and is used by the Network Provider to tell the tuner how to set its frequencies.
 
 ## -inheritance

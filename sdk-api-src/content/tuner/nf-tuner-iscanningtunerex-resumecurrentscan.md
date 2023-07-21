@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows Vista and later.
         
 
@@ -106,7 +108,7 @@ Success.
 </td>
 </tr>
 </table>
-Â 
+ 
 
 When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 

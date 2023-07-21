@@ -98,11 +98,7 @@ A handle to the window to which the message was posted.
 
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
-
-
 [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
-
-
 
 <b>Reference</b>
 

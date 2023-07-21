@@ -183,7 +183,7 @@ The return data. This is optionally set. Some protocols such as NVMe, may return
 
 Reserved for future use.
 
-### -field Command [ANYSIZE_ARRAY]
+### -field Command
 
 The vendor-specific command that is to be passed-through to the device.
 

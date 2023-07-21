@@ -157,4 +157,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

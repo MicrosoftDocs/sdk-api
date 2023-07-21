@@ -172,6 +172,7 @@ Installs a hook procedure that posts messages previously recorded by a <a href="
 > [!WARNING]
 > Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
+
 Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the [JournalRecordProc](/windows/win32/winmsg/journalrecordproc) hook procedure.
 
 </td>
@@ -184,7 +185,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/keyboardproc">KeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -196,7 +197,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </td>
 <td width="60%">
 
- Installs a hook procedure that monitors low-level keyboard input events. For more information, see the [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc) hook procedure.
+Installs a hook procedure that monitors low-level keyboard input events. For more information, see the [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc) hook procedure.
 
 </td>
 </tr>
@@ -219,8 +220,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
-
- Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a> hook procedure.
+Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -255,9 +255,7 @@ Installs a hook procedure that receives notifications useful to shell applicatio
 </dl>
 </td>
 <td width="60%">
-
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a> hook procedure.
-
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a> hook procedure.
 </td>
 </tr>
 </table>
@@ -447,8 +445,6 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
-
-
 [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
 
 
@@ -462,7 +458,6 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
-
 
 
 <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
@@ -485,7 +480,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
+<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
 
 
 

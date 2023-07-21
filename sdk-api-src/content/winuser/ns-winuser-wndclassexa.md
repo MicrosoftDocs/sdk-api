@@ -79,7 +79,7 @@ The class style(s). This member can be any combination of the <a href="/windows/
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
+A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>.
 
 ### -field cbClsExtra
 

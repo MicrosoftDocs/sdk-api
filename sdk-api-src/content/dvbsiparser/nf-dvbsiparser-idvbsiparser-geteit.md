@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
@@ -79,11 +81,11 @@ Specifies the table identifier of the EIT. Use one of the values in the followin
 <td>Present/following EIT for another transport stream.</td>
 </tr>
 <tr>
-<td>0x50 â€“ 0x5F</td>
+<td>0x50 – 0x5F</td>
 <td>Schedule EIT for this transport stream.</td>
 </tr>
 <tr>
-<td>0x60 â€“ 0x6F</td>
+<td>0x60 – 0x6F</td>
 <td>Schedule EIT for another transport stream.</td>
 </tr>
 </table>
