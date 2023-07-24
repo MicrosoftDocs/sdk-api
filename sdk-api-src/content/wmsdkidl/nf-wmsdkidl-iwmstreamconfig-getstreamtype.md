@@ -94,17 +94,6 @@ The <i>pguidStreamType</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>GUID_NULL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>pMediaType</i> parameter is <b>NULL</b>.
-
-</td>
-</tr>
 </table>
 
 ## -remarks
