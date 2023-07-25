@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerReportSetParameter
 title: WerReportSetParameter function (werapi.h)
-description: Sets the parameters that uniquely identify an event for the specified report.
+description: Sets the parameters that uniquely identify an event for the specified Windows Error Reporting (WER) report.
 helpviewer_keywords: ["WER_P0","WER_P1","WER_P2","WER_P3","WER_P4","WER_P5","WER_P6","WER_P7","WER_P8","WER_P9","WerReportSetParameter","WerReportSetParameter function [Windows Error Reporting]","base.werreportsetparameter","wer.werreportsetparameter","werapi/WerReportSetParameter"]
 old-location: wer\werreportsetparameter.htm
 tech.root: wer
 ms.assetid: accf423d-6f03-41e2-b5e9-4a0b630bc918
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WER_P0, WER_P1, WER_P2, WER_P3, WER_P4, WER_P5, WER_P6, WER_P7, WER_P8, WER_P9, WerReportSetParameter, WerReportSetParameter function [Windows Error Reporting], base.werreportsetparameter, wer.werreportsetparameter, werapi/WerReportSetParameter
 req.header: werapi.h
 req.include-header: 
@@ -50,80 +50,30 @@ api_name:
 
 # WerReportSetParameter function
 
-
 ## -description
 
-Sets the parameters that uniquely identify an event for the specified report.
+Sets the parameters that uniquely identify an event for the specified [Windows Error Reporting](../_wer/index.md) (WER) report.
 
 ## -parameters
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ### -param dwparamID [in]
 
 The identifier of the parameter to be set. This parameter can be one of the following values.
 
-<a id="WER_P0"></a>
-<a id="wer_p0"></a>
-
-
-#### WER_P0
-
-<a id="WER_P1"></a>
-<a id="wer_p1"></a>
-
-
-#### WER_P1
-
-<a id="WER_P2"></a>
-<a id="wer_p2"></a>
-
-
-#### WER_P2
-
-<a id="WER_P3"></a>
-<a id="wer_p3"></a>
-
-
-#### WER_P3
-
-<a id="WER_P4"></a>
-<a id="wer_p4"></a>
-
-
-#### WER_P4
-
-<a id="WER_P5"></a>
-<a id="wer_p5"></a>
-
-
-#### WER_P5
-
-<a id="WER_P6"></a>
-<a id="wer_p6"></a>
-
-
-#### WER_P6
-
-<a id="WER_P7"></a>
-<a id="wer_p7"></a>
-
-
-#### WER_P7
-
-<a id="WER_P8"></a>
-<a id="wer_p8"></a>
-
-
-#### WER_P8
-
-<a id="WER_P9"></a>
-<a id="wer_p9"></a>
-
-
-#### WER_P9
+- WER_P0
+- WER_P1
+- WER_P2
+- WER_P3
+- WER_P4
+- WER_P5
+- WER_P6
+- WER_P7
+- WER_P8
+- WER_P9
 
 ### -param pwzName [in, optional]
 
@@ -137,34 +87,10 @@ The parameter value.
 
 This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**E_HANDLE**</dt>
-</dl>
-</td>
-<td width="60%">
-The specified handle is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_LENGTH_EXCEEDED**</dt>
-</dl>
-</td>
-<td width="60%">
-The length of one or more string arguments has exceeded its limit.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_HANDLE**|The specified handle is not valid.|
+|**WER_E_LENGTH_EXCEEDED**|The length of one or more string arguments has exceeded its limit.|
 
 ## -remarks
 
@@ -172,11 +98,4 @@ Each report supports parameters P0 through P9. This function sets one parameter 
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-[Windows Error Reporting](/windows/desktop/wer)
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](/windows/desktop/wer)

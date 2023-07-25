@@ -6,7 +6,7 @@ helpviewer_keywords: ["WerRegisterCustomMetadata","WerRegisterCustomMetadata fun
 old-location: wer\werregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 55FB3110-314A-4327-AA8F-3AF77B7006DD
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata
 req.header: werapi.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Registers app-specific metadata to be collected (in the form of key/value strings) for the Windows Error Reporting (WER) error report.
+Registers app-specific metadata to be collected (in the form of key/value strings) for the [Windows Error Reporting](../_wer/index.md) (WER) error report.
 
 ## -parameters
 

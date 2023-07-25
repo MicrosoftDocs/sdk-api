@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains exception information for the <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function.
+Contains exception information for the [WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump) function.
 
 ## -struct-fields
 
@@ -68,4 +68,4 @@ A process (calling process) can provide error reporting functionality for anothe
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
+[WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump)

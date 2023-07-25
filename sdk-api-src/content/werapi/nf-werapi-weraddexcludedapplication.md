@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Adds the specified application to the list of applications that are to be excluded from error reporting.
+Adds the specified application to the list of applications that are to be excluded from [Windows Error Reporting](../_wer/index.md) (WER).
 
 ## -parameters
 

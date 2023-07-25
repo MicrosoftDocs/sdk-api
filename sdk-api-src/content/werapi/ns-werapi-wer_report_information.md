@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information used by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+Contains information used by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ## -struct-fields
 
@@ -68,11 +68,11 @@ A handle to the process for which the report is being generated. If this member 
 
 ### -field wzConsentKey
 
-The name used to look up consent settings. If this member is empty, the default is the name specified by the *pwzEventType* parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
+The name used to look up consent settings. If this member is empty, the default is the name specified by the *pwzEventType* parameter of [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate).
 
 ### -field wzFriendlyEventName
 
-The display name. If this member is empty, the default is the name specified by *pwzEventType* parameter of <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>.
+The display name. If this member is empty, the default is the name specified by *pwzEventType* parameter of [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate).
 
 ### -field wzApplicationName
 
@@ -92,4 +92,4 @@ A handle to the parent window.
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate)

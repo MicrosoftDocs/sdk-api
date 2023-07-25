@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the fault reporting settings for the specified process.
+Retrieves the [Windows Error Reporting](../_wer/index.md) (WER) fault reporting settings for the specified process.
 
 ## -parameters
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["WerRegisterAppLocalDump","WerRegisterAppLocalDump functio
 old-location: wer\werregisterapplocaldump.htm
 tech.root: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
 req.header: werapi.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Registers a path (relative to the [LocalFolder](/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application) where a copy should be saved of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding.
+Registers a path (relative to the [LocalFolder](/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application) where a copy should be saved of the diagnostic memory dump that [Windows Error Reporting](../_wer/index.md) (WER) collects when one of the processes for the application stops responding.
 
 ## -parameters
 
@@ -76,4 +76,4 @@ WER does not manage storage at the location that the relative path specifies or 
 
 ## -see-also
 
-[WerUnregisterAppLocalDump function](nf-werapi-werunregisterapplocaldump.md)
+[WerUnregisterAppLocalDump function](nf-werapi-werunregisterapplocaldump.md), [Windows Error Reporting](/windows/desktop/wer)

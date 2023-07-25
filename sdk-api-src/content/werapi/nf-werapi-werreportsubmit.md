@@ -50,7 +50,6 @@ api_name:
 
 # WerReportSubmit function
 
-
 ## -description
 
 Submits the specified report.
@@ -59,7 +58,7 @@ Submits the specified report.
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ### -param consent [in]
 
@@ -434,14 +433,14 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 ## -see-also
 
-<a href="/windows/desktop/wsw/portal">Application Recovery and Restart</a>
+[Application Recovery and Restart](/windows/desktop/wsw/portal)
 
 
 
 
 
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate)
 
 
 

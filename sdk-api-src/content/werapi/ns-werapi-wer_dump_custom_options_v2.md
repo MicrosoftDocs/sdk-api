@@ -50,7 +50,7 @@ helpviewer_keywords: ["*PWER_DUMP_CUSTOM_OPTIONS_V2","PWER_DUMP_CUSTOM_OPTIONS_V
 
 ## -description
 
-Specifies custom minidump information to be collected by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function.
+Specifies custom minidump information to be collected by the [WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump) function.
 
 ## -struct-fields
 
