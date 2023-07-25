@@ -1,11 +1,9 @@
 ---
 UID: NE:dxcore_interface.DXCoreNotificationType
 title: DXCoreNotificationType
-description: Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects.
-author: windows-sdk-content
+description: Defines constants that specify types of notifications raised by IDXCoreAdapter or IDXCoreAdapterList objects.
 tech.root: dxcore
-ms.author: windowssdkdev
-ms.date: 06/11/2019
+ms.date: 07/18/2023
 ms.keywords: DXCoreNotificationType enumeration, dxcore_interface.dxcorenotificationtype
 ms.localizationpriority: low
 ms.topic: reference
@@ -43,7 +41,7 @@ api_name:
 
 ## -description
 
-Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects.
+Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects.
 
 You can register and unregister for these notifications by calling [IDXCoreAdapterFactory::RegisterEventNotification](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification) and [IDXCoreAdapterFactory::UnregisterEventNotification](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification), respectively.
 

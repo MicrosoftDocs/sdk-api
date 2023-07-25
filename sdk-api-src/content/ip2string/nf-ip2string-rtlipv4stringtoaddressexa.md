@@ -89,6 +89,10 @@ An invalid parameter was passed to the function. This error is returned if the <
 
 This error code is defined in the Ntstatus.h header file.
 
+</td>
+</tr>
+</table>
+
 ## -remarks
 
 The <b>RtlIpv4StringToAddressEx</b> function is used to convert a string representation of the IPv4 address and port number to a binary IPv4 address and a port number. The IPv4 address is returned in network order (bytes ordered from left to right). The port number is returned in network order.

@@ -3,7 +3,7 @@ UID: NF:windns.DnsQueryRaw
 title: DnsQueryRaw
 description: Enables you to perform a DNS query that accepts either a raw packet containing a DNS query, or a query name and type.
 tech.root: DNS
-ms.date: 07/11/2023
+ms.date: 07/17/2023
 targetos: Windows
 prerelease: true
 req.assembly: 
@@ -73,7 +73,7 @@ A **DNS_STATUS** value indicating success or failure. If **DNS_REQUEST_PENDING**
 
 ## -remarks
 
-The structure of a raw packet is the wire representation of the DNS query and response as documented by RFC 1035. A 12-byte DNS header is followed by either a question section for the query, or by a variable number (can be 0) of records for the response. If TCP is used, then the raw packet must be prefixed with a 2-byte *length* field. That can be used to apply host NRPT rules, or to perform encrypted DNS queries, among other things.
+The structure of a raw packet is the wire representation of the DNS query and response as documented by RFC 1035. A 12-byte DNS header is followed by either a question section for the query, or by a variable number (can be 0) of records for the response. If TCP is used, then the raw packet must be prefixed with a 2-byte *length* field. You can use this API to apply host NRPT rules, or to perform encrypted DNS queries, among other things.
 
 ## Examples
 

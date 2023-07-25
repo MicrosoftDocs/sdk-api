@@ -379,7 +379,7 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 
 ## -returns
 
-If the function succeeds, the return value is the height of the text in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lpRect-&gt;top</code> to the bottom of the drawn text
+If the function succeeds, the return value is the height of the text in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lpRect-&gt;top</code> to the bottom of the drawn text.
 
 If the function fails, the return value is zero.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PTOKEN_INFORMATION_CLASS","MaxTokenInfoClass","PTOKEN_IN
 old-location: security\token_information_class.htm
 tech.root: security
 ms.assetid: cb606665-1266-4e71-a145-9b04bf157cdc
-ms.date: 12/05/2018
+ms.date: 07/24/2023
 ms.keywords: '*PTOKEN_INFORMATION_CLASS, MaxTokenInfoClass, PTOKEN_INFORMATION_CLASS, PTOKEN_INFORMATION_CLASS enumeration pointer [Security], TOKEN_INFORMATION_CLASS, TOKEN_INFORMATION_CLASS enumeration [Security], TokenAccessInformation, TokenAppContainerNumber, TokenAppContainerSid, TokenAuditPolicy, TokenCapabilities, TokenDefaultDacl, TokenDeviceClaimAttributes, TokenDeviceGroups, TokenElevation, TokenElevationType, TokenGroups, TokenGroupsAndPrivileges, TokenHasRestrictions, TokenImpersonationLevel, TokenIntegrityLevel, TokenIsAppContainer, TokenIsRestricted, TokenLinkedToken, TokenLogonSid, TokenMandatoryPolicy, TokenOrigin, TokenOwner, TokenPrimaryGroup, TokenPrivileges, TokenRestrictedDeviceClaimAttributes, TokenRestrictedDeviceGroups, TokenRestrictedSids, TokenRestrictedUserClaimAttributes, TokenSandBoxInert, TokenSecurityAttributes, TokenSessionId, TokenSessionReference, TokenSource, TokenStatistics, TokenType, TokenUIAccess, TokenUser, TokenUserClaimAttributes, TokenVirtualizationAllowed, TokenVirtualizationEnabled, _win32_token_information_class_str, security.token_information_class, winnt/MaxTokenInfoClass, winnt/PTOKEN_INFORMATION_CLASS, winnt/TOKEN_INFORMATION_CLASS, winnt/TokenAccessInformation, winnt/TokenAppContainerNumber, winnt/TokenAppContainerSid, winnt/TokenAuditPolicy, winnt/TokenCapabilities, winnt/TokenDefaultDacl, winnt/TokenDeviceClaimAttributes, winnt/TokenDeviceGroups, winnt/TokenElevation, winnt/TokenElevationType, winnt/TokenGroups, winnt/TokenGroupsAndPrivileges, winnt/TokenHasRestrictions, winnt/TokenImpersonationLevel, winnt/TokenIntegrityLevel, winnt/TokenIsAppContainer, winnt/TokenIsRestricted, winnt/TokenLinkedToken, winnt/TokenLogonSid, winnt/TokenMandatoryPolicy, winnt/TokenOrigin, winnt/TokenOwner, winnt/TokenPrimaryGroup, winnt/TokenPrivileges, winnt/TokenRestrictedDeviceClaimAttributes, winnt/TokenRestrictedDeviceGroups, winnt/TokenRestrictedSids, winnt/TokenRestrictedUserClaimAttributes, winnt/TokenSandBoxInert, winnt/TokenSecurityAttributes, winnt/TokenSessionId, winnt/TokenSessionReference, winnt/TokenSource, winnt/TokenStatistics, winnt/TokenType, winnt/TokenUIAccess, winnt/TokenUser, winnt/TokenUserClaimAttributes, winnt/TokenVirtualizationAllowed, winnt/TokenVirtualizationEnabled'
 req.header: winnt.h
 req.include-header: Windows.h
@@ -48,9 +48,6 @@ api_location:
 api_name:
  - TOKEN_INFORMATION_CLASS
 ---
-
-# TOKEN_INFORMATION_CLASS enumeration
-
 
 ## -description
 
@@ -257,6 +254,10 @@ This value is reserved.
 ### -field TokenChildProcessFlags
 
 ### -field TokenIsLessPrivilegedAppContainer
+
+Refers to a Least Privileged AppContainer (LPAC). An LPAC is effectively an AppContainer that's disregarded by the **ALL_APPLICATION_PACKAGES** SID. For info about what an AppContainer is, see [AppContainer for legacy apps](/windows/win32/secauthz/appcontainer-for-legacy-applications-).
+
+Many resources across Windows are ACL'd with **ALL_APPLICATION_PACKAGES**, as described in [DoNotAddAllApplicationPackagesToRestrictions](/windows/win32/com/donotaddallapplicationpackagestorestrictions). In scenarios where you want a process running with no rights to any resources except what you explicitly grant (for example, a web browser sandboxing a child worker process), an AppContaoiner has too much access to the system because of **ALL_APPLICATION_PACKAGES**. That's where an LPAC comes in. You can create an LPAC only imperatively via APIs; not declaratively via `appxmanifest.xml`.
 
 ### -field MaxTokenInfoClass
 

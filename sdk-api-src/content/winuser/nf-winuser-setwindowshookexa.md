@@ -183,7 +183,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/keyboardproc">KeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -194,9 +194,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
-
- Installs a hook procedure that monitors low-level keyboard input events. For more information, see the [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc) hook procedure.
-
+Installs a hook procedure that monitors low-level keyboard input events. For more information, see the [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc) hook procedure.
 </td>
 </tr>
 <tr>
@@ -428,12 +426,28 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 
+<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
+
+
+
+<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
+
+
+
+<a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
+
+
 [GetMsgProc](/windows/win32/winmsg/getmsgproc)
 
-
 <a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-
 
 [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
 
@@ -448,7 +462,6 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
-
 
 
 <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
@@ -467,5 +480,10 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 <a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
 
+<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
+
+
+
+<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
 
 [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)

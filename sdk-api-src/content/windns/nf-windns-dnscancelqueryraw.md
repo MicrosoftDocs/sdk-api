@@ -3,7 +3,7 @@ UID: NF:windns.DnsCancelQueryRaw
 title: DnsCancelQueryRaw
 description: Cancels a query that was initiated by calling DnsQueryRaw.
 tech.root: DNS
-ms.date: 07/11/2023
+ms.date: 07/17/2023
 targetos: Windows
 prerelease: true
 req.assembly: 
@@ -46,6 +46,8 @@ helpviewer_keywords:
 ## -description
 
 Cancels a query that was initiated by calling [DnsQueryRaw](./nf-windns-dnsqueryraw.md).
+
+If the query completion callback (see [DNS_QUERY_RAW_COMPLETION_ROUTINE](nc-windns-dns_query_raw_completion_routine.md)) hasn't been called by the time **DnsCancelQueryRaw** returns, then the query completion callback will lead to the callback being made with a *queryStatus* of **ERROR_CANCELLED** in the *queryResults* parameter.
 
 ## -parameters
 
