@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher2::LaunchProcess2 (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Launches a process in an isolated environment.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

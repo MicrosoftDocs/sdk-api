@@ -5,7 +5,7 @@ title: IsProcessInWDAGContainer (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Determines if a process is running in a Windows Defender Application Guard (WDAG) container.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher::GetContainerGuid (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Returns the container/VM ID.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

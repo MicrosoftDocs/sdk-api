@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher::LaunchProcess (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Launches a process inside the container.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

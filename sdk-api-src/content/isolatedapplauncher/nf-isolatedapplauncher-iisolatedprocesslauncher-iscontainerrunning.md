@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher::IsContainerRunning (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Determines if a container is running or suspended.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

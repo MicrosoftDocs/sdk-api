@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Enables apps to determine whether processes are running in a Windows Defender Application Guard (WDAG) container (VM container environment).
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
