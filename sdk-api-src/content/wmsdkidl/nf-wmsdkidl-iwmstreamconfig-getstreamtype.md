@@ -61,7 +61,7 @@ The <b>GetStreamType</b> method retrieves the major type of the stream (audio, v
 
 ### -param pguidStreamType [out]
 
-Pointer to a GUID object specifying the major type of the stream.
+Pointer to a GUID object specifying the major type of the stream. Receives the value GUID_NULL if the *pMediaType* parameter is NULL.
 
 ## -returns
 

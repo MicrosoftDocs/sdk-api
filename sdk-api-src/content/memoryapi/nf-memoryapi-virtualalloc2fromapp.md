@@ -72,11 +72,13 @@ The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more info
 
 The pointer that specifies a desired starting address for the region of pages that you want to allocate.
 
- If an explicit base address is specified, then it must be a multiple of the system allocation granularity. To determine the size of a page and the allocation granularity on the host computer, use the 
-       <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
-
 If <i>BaseAddress</i> is <b>NULL</b>, the function determines where to 
        allocate the region.
+
+If <i>BaseAddress</i> is not <b>NULL</b>, then
+any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes,
+and the base address must be a multiple of the system allocation granularity. To determine the allocation granularity, use the 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
 
 ### -param Size [in]
 
@@ -152,7 +154,8 @@ Other memory allocation functions, such as <b>malloc</b> and
 </dl>
 </td>
 <td width="60%">
- Replaces a placeholder with a normal private allocation. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>Size</i> must exactly match those of the placeholder.
+ Replaces a placeholder with a normal private allocation. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>Size</i> must exactly match those of the placeholder,
+and any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes.
 
 After you replace a placeholder with a private allocation, to free that allocation back to a placeholder, see the <i>dwFreeType</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
 
