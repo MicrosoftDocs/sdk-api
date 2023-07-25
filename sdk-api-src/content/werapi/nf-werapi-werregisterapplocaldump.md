@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerRegisterAppLocalDump
 title: WerRegisterAppLocalDump function (werapi.h)
-description: Registers a path relative to the local app store for the calling application where Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
+description: Registers a path (relative to the LocalFolder of the packaged application) where a copy should be saved of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding.
 helpviewer_keywords: ["WerRegisterAppLocalDump","WerRegisterAppLocalDump function [Windows Error Reporting]","wer.werregisterapplocaldump","werapi/WerRegisterAppLocalDump"]
 old-location: wer\werregisterapplocaldump.htm
 tech.root: wer
@@ -49,53 +49,28 @@ api_name:
 
 # WerRegisterAppLocalDump function
 
-
 ## -description
 
-Registers a path, relative to the [LocalFolder](/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application, where a copy of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding should be saved.
+Registers a path (relative to the [LocalFolder](/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application) where a copy should be saved of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding.
 
 ## -parameters
 
 ### -param localAppDataRelativePath [in]
 
-The path relative to the local app store for the calling application where WER should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding. The maximum length for this relative path in characters is **WER_MAX_LOCAL_DUMP_SUBPATH_LENGTH**, which has a value of 64. This maximum length includes the null-termination character.
+The path relative to the local app store for the calling application. This is where a copy is saved of the diagnostic memory dump that WER collects when one of the processes for the application stops responding. The maximum length for this relative path in characters is **WER_MAX_LOCAL_DUMP_SUBPATH_LENGTH**, which has a value of 64. This maximum length includes the null-termination character.
 
 ## -returns
 
 This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_INVALID_STATE**</dt>
-</dl>
-</td>
-<td width="60%">
-The process cannot store the memory dump, or WER cannot create a location to store the memory dump.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**E_INVALIDARG**</dt>
-</dl>
-</td>
-<td width="60%">
-The *localAppDataRelativePath* parameter is NULL or is longer than 64 characters.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**WER_E_INVALID_STATE**|The process cannot store the memory dump, or WER cannot create a location to store the memory dump.|
+|**E_INVALIDARG**|The *localAppDataRelativePath* parameter is NULL or is longer than 64 characters.|
 
 ## -remarks
 
-A packaged application calls **WerRegisterAppLocalDump** when the application launches to request a copy of the diagnostic memory dump that WER collects  if or when one of the processes  for the application stops responding.
+A packaged application calls **WerRegisterAppLocalDump** when the application launches to request a copy of the diagnostic memory dump that WER collects if or when one of the processes for the application stops responding.
 
 WER does not manage storage at the location that the relative path specifies or the number of memory dumps that are collected for the application.
 

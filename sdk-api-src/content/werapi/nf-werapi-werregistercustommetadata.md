@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerRegisterCustomMetadata
 title: WerRegisterCustomMetadata function (werapi.h)
-description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
+description: Registers app-specific metadata to be collected (in the form of key/value strings) for the Windows Error Reporting (WER) error report.
 helpviewer_keywords: ["WerRegisterCustomMetadata","WerRegisterCustomMetadata function [Windows Error Reporting]","wer.werregistercustommetadata","werapi/WerRegisterCustomMetadata"]
 old-location: wer\werregistercustommetadata.htm
 tech.root: wer
@@ -49,10 +49,9 @@ api_name:
 
 # WerRegisterCustomMetadata function
 
-
 ## -description
 
-Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
+Registers app-specific metadata to be collected (in the form of key/value strings) for the Windows Error Reporting (WER) error report.
 
 ## -parameters
 
@@ -68,56 +67,12 @@ The value string for the metadata element being registered.
 
 This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**E_INVALIDARG**</dt>
-</dl>
-</td>
-<td width="60%">
-Strings were **NULL**, key length was greater than 64 characters or was an invalid xml element name, or *value* length was greater than 128 characters or contained characters that were not ASCII printable characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**E_OUTOFMEMORY**</dt>
-</dl>
-</td>
-<td width="60%">
-WER could not allocate a large enough heap for the data
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**</dt>
-</dl>
-</td>
-<td width="60%">
-The maximum number of registered entries (**WER_MAX_REGISTERED_ENTRIES**) or  maximum amount of registered metadata (**WER_MAX_REGISTERED_METADATA**) has been reached.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_INVALID_STATE**</dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALIDARG**|Strings were **NULL**, key length was greater than 64 characters or was an invalid xml element name, or *value* length was greater than 128 characters or contained characters that were not ASCII printable characters.|
+|**E_OUTOFMEMORY**|WER could not allocate a large enough heap for the data|
+|**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**|The maximum number of registered entries (**WER_MAX_REGISTERED_ENTRIES**) or  maximum amount of registered metadata (**WER_MAX_REGISTERED_METADATA**) has been reached.|
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
 
 ## -remarks
 
@@ -125,11 +80,4 @@ This API allows apps to integrate their own app-level telemetry with system-leve
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werunregistercustommetadata">WerUnregisterCustomMetadata</a>
-
-
-
-[Windows Error Reporting](/windows/desktop/wer)
+[WerUnregisterCustomMetadata](/windows/desktop/api/werapi/nf-werapi-werunregistercustommetadata), [Windows Error Reporting](/windows/desktop/wer)

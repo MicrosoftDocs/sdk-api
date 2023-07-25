@@ -6,7 +6,7 @@ helpviewer_keywords: ["WerRegisterAdditionalProcess","WerRegisterAdditionalProce
 old-location: wer\werregisteradditionalprocess.htm
 tech.root: wer
 ms.assetid: F4E44C22-6BE1-4512-80F6-1B6741E3ADBB
-ms.date: 12/05/2018
+ms.date: 07/21/2023
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
 req.header: werapi.h
 req.include-header: 
