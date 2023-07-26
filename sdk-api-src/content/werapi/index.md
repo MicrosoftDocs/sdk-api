@@ -1,8 +1,9 @@
 ---
 UID: NA:werapi
 title: Werapi.h header
+description: This header is used by Windows Error Reporting (WER).
 ms.assetid: 742a570f-0083-381a-b67e-189ee442556e
-ms.date: 01/11/2019
+ms.date: 07/21/2023
 ms.keywords: 
 ms.topic: overview
 tech.root: wer
@@ -13,10 +14,6 @@ f1_keywords:
 
 # Werapi.h header
 
-
 ## -description
 
-This header is used by Windows Error Reporting. For more information, see:
-
-- [Windows Error Reporting](../_wer/index.md)
-
+This header is used by [Windows Error Reporting](../_wer/index.md) (WER).
