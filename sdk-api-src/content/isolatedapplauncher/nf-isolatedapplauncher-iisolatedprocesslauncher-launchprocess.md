@@ -68,7 +68,7 @@ Returns an **HRESULT** success or error code.
 
 This process must exist inside the container already either by being in windows image itself, or in a folder that is shared in through the [ShareDirectory](nf-isolatedapplauncher-iisolatedprocesslauncher-sharedirectory.md) API. The process being launched here has to be Microsoft-signed to launch successfully, or else it will be blocked by Code Integrity policy. It also needs to show some UI to the user within 30 seconds. This function dictates all the restrictions third party needs to follow in order to work in a Microsft Defender Application Guard (MDAG) Edge environment.
 
-## -examples
+#### Examples
 
 This example assumes `c:\hostfolder1` is already shared into the container by following the [ShareDirectory](nf-isolatedapplauncher-iisolatedprocesslauncher-sharedirectory.md) example.
 

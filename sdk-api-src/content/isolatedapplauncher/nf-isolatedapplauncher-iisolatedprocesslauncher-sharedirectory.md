@@ -66,7 +66,9 @@ Determines if the directory is shared as read-only or read-write.
 
 This is actually more of a deferred share, actual sharing of the folder doesn’t happen until [LaunchProcess](nf-isolatedapplauncher-iisolatedprocesslauncher-launchprocess.md) is invoked. This allows the caller to share multiple folders and then launch the process, which is more efficient than sharing one folder, launching the process, sharing another folder, launching the process, etc.
 
-## -examples
+#### Examples
+
+The following example shows how to use the `ShareDirectory` method.
 
 ```cpp
 wil::com_ptr<IIsolatedProcessLauncher> isolatedProcessLauncher;

@@ -62,7 +62,9 @@ The *guid* (container Id) is a parameter needed to open hvsocket communication f
 
 This call will fail if the container hasn't been created yet.
 
-## -examples
+#### Examples
+
+The following example shows how to use the `GetContainerGuid` method.
 
 ```cpp
 wil::com_ptr<IIsolatedProcessLauncher> isolatedProcessLauncher;

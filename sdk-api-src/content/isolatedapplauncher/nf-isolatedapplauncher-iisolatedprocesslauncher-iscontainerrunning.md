@@ -58,7 +58,9 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
-## -examples
+#### Examples
+
+The following example shows how to use the `IsContainerRunning` method.
 
 ```cpp
 wil::com_ptr<IIsolatedProcessLauncher> isolatedProcessLauncher; 
