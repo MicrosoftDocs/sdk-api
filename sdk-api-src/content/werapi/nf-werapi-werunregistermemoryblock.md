@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerUnregisterMemoryBlock
 title: WerUnregisterMemoryBlock function (werapi.h)
-description: Removes a memory block from the list of data to be collected during error reporting for the application.
+description: Removes a memory block from the list of data to be collected during Windows Error Reporting (WER) for the application.
 helpviewer_keywords: ["WerUnregisterMemoryBlock","WerUnregisterMemoryBlock function [Windows Error Reporting]","base.werunregistermemoryblock","wer.werunregistermemoryblock","werapi/WerUnregisterMemoryBlock"]
 old-location: wer\werunregistermemoryblock.htm
 tech.root: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
 req.header: werapi.h
 req.include-header: 
@@ -49,57 +49,25 @@ api_name:
 
 # WerUnregisterMemoryBlock function
 
-
 ## -description
 
-Removes a memory block from the list of data to be collected during error reporting for the application.
+Removes a memory block from the list of data to be collected during [Windows Error Reporting](../_wer/index.md) (WER) for the application.
 
 ## -parameters
 
 ### -param pvAddress [in]
 
-The starting address of the memory block. This memory block must have been registered using the <a href="/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> function.
+The starting address of the memory block. This memory block must have been registered using the [WerRegisterMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock) function.
 
 ## -returns
 
 This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_INVALID_STATE**</dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_NOT_FOUND**</dt>
-</dl>
-</td>
-<td width="60%">
-The list of registered memory blocks does not contain the specified memory block.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
+|**WER_E_NOT_FOUND**|The list of registered memory blocks does not contain the specified memory block.|
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a>
-
-
-
-[Windows Error Reporting](/windows/desktop/wer)
+[WerRegisterMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock), [Windows Error Reporting](/windows/desktop/wer)

@@ -4,7 +4,7 @@ tech.root: wer
 title: WerStoreGetSizeOnDisk
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Gets the size of the Windows Error Reporting (WER) error report store, in bytes.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,29 @@ helpviewer_keywords:
  - WerStoreGetSizeOnDisk
 ---
 
+# WerStoreGetSizeOnDisk function
+
 ## -description
+
+Gets the size of the [Windows Error Reporting](../_wer/index.md) (WER) error report store, in bytes.
 
 ## -parameters
 
 ### -param hReportStore
 
+The error report store (previously retrieved with [WerStoreOpen](/windows/desktop/api/werapi/nf-werapi-werstoreopen)).
+
 ### -param pqwSizeInBytes
 
+The error report store size, in bytes.
+
 ## -returns
+
+|Return code|Description|
+|--- |--- |
+|**E_INVALID_ARG**|One of the arguments is not a valid value.|
+|**ERROR_NO_MORE_FILES**|There are no more error reports in the store.|
 
 ## -remarks
 
 ## -see-also
-

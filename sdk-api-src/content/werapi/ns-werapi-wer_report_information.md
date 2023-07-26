@@ -1,12 +1,13 @@
 ---
 UID: NS:werapi._WER_REPORT_INFORMATION
 title: WER_REPORT_INFORMATION (werapi.h)
-description: Contains information used by the WerReportCreate function.
+description: Contains Windows Error Reporting (WER) information used by the WerReportCreate function.
+
 helpviewer_keywords: ["*PWER_REPORT_INFORMATION","PWER_REPORT_INFORMATION","PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting]","WER_REPORT_INFORMATION","WER_REPORT_INFORMATION structure [Windows Error Reporting]","base.wer_report_information","wer.wer_report_information","werapi/PWER_REPORT_INFORMATION","werapi/WER_REPORT_INFORMATION"]
 old-location: wer\wer_report_information.htm
 tech.root: wer
 ms.assetid: 3efe2b43-53ac-48e3-bc39-4a9fe6041fca
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: '*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION'
 req.header: werapi.h
 req.include-header: 
@@ -51,10 +52,9 @@ api_name:
 
 # WER_REPORT_INFORMATION structure
 
-
 ## -description
 
-Contains information used by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
+Contains [Windows Error Reporting](../_wer/index.md) (WER) information used by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ## -struct-fields
 
@@ -92,4 +92,4 @@ A handle to the parent window.
 
 ## -see-also
 
-[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate)
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](../_wer/index.md)

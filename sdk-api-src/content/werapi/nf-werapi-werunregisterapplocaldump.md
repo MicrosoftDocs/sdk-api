@@ -6,7 +6,7 @@ helpviewer_keywords: ["WerUnregisterAppLocalDump","WerUnregisterAppLocalDump fun
 old-location: wer\werunregisterapplocaldump.htm
 tech.root: wer
 ms.assetid: A3AD976A-9C44-494C-ABF0-90D151001E30
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Windows Error Reporting], wer.werunregisterapplocaldump, werapi/WerUnregisterAppLocalDump
 req.header: werapi.h
 req.include-header: 
@@ -49,12 +49,9 @@ api_name:
 
 # WerUnregisterAppLocalDump function
 
-
 ## -description
 
-Cancels the registration that was made by calling the <a href="/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump">WerRegisterAppLocalDump</a> function to specify that Windows Error Reporting (WER) should  save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
-
-
+Cancels the registration that was made through the [WerRegisterAppLocalDump](/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump) function, which specifies that [Windows Error Reporting](../_wer/index.md) (WER) should  save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 
 ## -returns
 
@@ -62,4 +59,4 @@ If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESU
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump">WerRegisterAppLocalDump</a>
+[WerRegisterAppLocalDump](/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump), [Windows Error Reporting](../_wer/index.md) (WER)

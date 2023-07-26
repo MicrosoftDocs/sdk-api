@@ -4,7 +4,7 @@ tech.root: wer
 title: WER_REPORT_INFORMATION_V3
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Contains Windows Error Reporting (WER) information used by the WerReportCreate function.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -42,16 +42,24 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - _WER_REPORT_INFORMATION_V3
+ - WER_REPORT_INFORMATION_V3
 ---
 
+# WER_REPORT_INFORMATION_V3 function
+
 ## -description
+
+Contains [Windows Error Reporting](../_wer/index.md) (WER) information used by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ## -struct-fields
 
 ### -field dwSize
 
+The size of this structure, in bytes.
+
 ### -field hProcess
+
+A handle to the process for which the report is being generated. If this member is **NULL**, this is the calling process.
 
 ### -field wzConsentKey[64]
 
@@ -65,6 +73,8 @@ helpviewer_keywords:
 
 ### -field hwndParent
 
+A handle to the parent window.
+
 ### -field wzNamespacePartner[64]
 
 ### -field wzNamespaceGroup[64]
@@ -73,3 +83,4 @@ helpviewer_keywords:
 
 ## -see-also
 
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](../_wer/index.md)

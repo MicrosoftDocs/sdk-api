@@ -4,7 +4,7 @@ tech.root: wer
 title: WerSetMaxProcessHoldMilliseconds
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Sets the maximum process hold time for Windows Error Reporting (WER), in milliseconds.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,22 @@ helpviewer_keywords:
  - WerSetMaxProcessHoldMilliseconds
 ---
 
+# WerSetMaxProcessHoldMilliseconds function
+
 ## -description
+
+Sets the maximum process hold time for [Windows Error Reporting](../_wer/index.md) (WER), in milliseconds.
 
 ## -parameters
 
 ### -param dwMilliseconds
 
+The process hold time, in milliseconds.
+
 ## -returns
+
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
 ## -see-also
-

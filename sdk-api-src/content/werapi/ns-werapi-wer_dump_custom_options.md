@@ -2,9 +2,9 @@
 UID: NS:werapi._WER_DUMP_CUSTOM_OPTIONS
 tech.root: wer
 title: WER_DUMP_CUSTOM_OPTIONS (werapi.h)
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 targetos: Windows
-description: Specifies custom minidump information to be collected by the WerReportAddDump function.
+description: Specifies custom Windows Error Reporting (WER) minidump information to be collected by the WerReportAddDump function.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -55,7 +55,7 @@ helpviewer_keywords: ["*PWER_DUMP_CUSTOM_OPTIONS","PWER_DUMP_CUSTOM_OPTIONS","PW
 
 ## -description
 
-Specifies custom minidump information to be collected by the [WerReportAddDump function](nf-werapi-werreportadddump.md) function.
+Specifies custom [Windows Error Reporting](../_wer/index.md) (WER) minidump information to be collected by the [WerReportAddDump](nf-werapi-werreportadddump.md) function.
 
 ## -struct-fields
 
@@ -141,4 +141,4 @@ If the callback input type is **ModuleCallback**, the  **ModuleWriteFlags** memb
 
 ## -see-also
 
-[WerReportAddDump function](nf-werapi-werreportadddump.md)
+[WerReportAddDump function](nf-werapi-werreportadddump.md), [Windows Error Reporting](/windows/desktop/wer)

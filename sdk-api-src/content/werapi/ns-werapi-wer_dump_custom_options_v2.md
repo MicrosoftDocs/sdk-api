@@ -2,9 +2,9 @@
 UID: NS:werapi._WER_DUMP_CUSTOM_OPTIONS_V2
 tech.root: wer
 title: WER_DUMP_CUSTOM_OPTIONS_V2 (werapi.h)
-ms.date: 07/12/2023
+ms.date: 07/26/2023
 targetos: Windows
-description: Specifies custom minidump information to be collected in the background (without pausing the process) by the [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md) function.
+description: Specifies custom Windows Error Reporting (WER) minidump information to be collected by the WerReportAddDump function.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -50,7 +50,7 @@ helpviewer_keywords: ["*PWER_DUMP_CUSTOM_OPTIONS_V2","PWER_DUMP_CUSTOM_OPTIONS_V
 
 ## -description
 
-Specifies custom minidump information to be collected by the [WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump) function.
+Specifies custom [Windows Error Reporting](../_wer/index.md) (WER) minidump information to be collected by the [WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump) function.
 
 ## -struct-fields
 
@@ -142,4 +142,4 @@ This member is valid only if **dwMask** contains WER_DUMP_MASK_PREFERRED_MODULES
 
 ## -see-also
 
-[WerReportAddDump function](nf-werapi-werreportadddump.md)
+[WerReportAddDump function](nf-werapi-werreportadddump.md), [Windows Error Reporting](/windows/desktop/wer)

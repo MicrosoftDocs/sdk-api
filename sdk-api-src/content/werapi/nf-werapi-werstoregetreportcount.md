@@ -4,7 +4,7 @@ tech.root: wer
 title: WerStoreGetReportCount
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Gets the number of Windows Error Reporting (WER) reports in the error report store.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,33 @@ helpviewer_keywords:
  - WerStoreGetReportCount
 ---
 
+# WerStoreGetReportCount function
+
 ## -description
+
+Gets the number of [Windows Error Reporting](../_wer/index.md) (WER) reports in the error report store.
 
 ## -parameters
 
 ### -param hReportStore
 
+The error report store (previously retrieved with [WerStoreOpen](/windows/desktop/api/werapi/nf-werapi-werstoreopen)).
+
 ### -param pdwReportCount
 
+The report count.
+
 ## -returns
+
+This function returns **S_OK** on success or an error code on failure, including the following error code.
+
+|Return code|Description|
+|--- |--- |
+|**E_INVALID_ARG**|One of the arguments is not a valid value.|
+|**ERROR_NO_MORE_FILES**|There are no more error reports in the store.|
 
 ## -remarks
 
 ## -see-also
 
+[Windows Error Reporting](/windows/desktop/wer)

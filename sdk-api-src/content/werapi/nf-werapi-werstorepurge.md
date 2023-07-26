@@ -4,7 +4,7 @@ tech.root: wer
 title: WerStorePurge
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Purges the Windows Error Reporting (WER) report store.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,16 @@ helpviewer_keywords:
  - WerStorePurge
 ---
 
+# WerStorePurge function
+
 ## -description
 
+Purges the [Windows Error Reporting](../_wer/index.md) (WER) report store.
+
 ## -returns
+
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
 ## -see-also
-

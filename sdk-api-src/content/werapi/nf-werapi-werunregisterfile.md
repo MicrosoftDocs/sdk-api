@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerUnregisterFile
 title: WerUnregisterFile function (werapi.h)
-description: Removes a file from the list of files to be added to reports generated for the current process.
+description: Removes a file from the list of files to be added to Windows Error Reporting (WER) reports generated for the current process.
 helpviewer_keywords: ["WerUnregisterFile","WerUnregisterFile function [Windows Error Reporting]","base.werunregisterfile","wer.werunregisterfile","werapi/WerUnregisterFile"]
 old-location: wer\werunregisterfile.htm
 tech.root: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
 req.header: werapi.h
 req.include-header: 
@@ -49,57 +49,25 @@ api_name:
 
 # WerUnregisterFile function
 
-
 ## -description
 
-Removes a file from the list of files to be added to reports generated for the current process.
+Removes a file from the list of files to be added to [Windows Error Reporting](../_wer/index.md) (WER) reports generated for the current process.
 
 ## -parameters
 
 ### -param pwzFilePath [in]
 
-The full path to the file. This file must have been registered using the <a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a> function.
+The full path to the file. This file must have been registered using the [WerRegisterFile](/windows/desktop/api/werapi/nf-werapi-werregisterfile) function.
 
 ## -returns
 
 This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_INVALID_STATE**</dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**WER_E_NOT_FOUND**</dt>
-</dl>
-</td>
-<td width="60%">
-The list of registered files does not contain the specified file.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
+|**WER_E_NOT_FOUND**|The list of registered files does not contain the specified file.|
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>
-
-
-
-[Windows Error Reporting](/windows/desktop/wer)
+[WerRegisterFile](/windows/desktop/api/werapi/nf-werapi-werregisterfile), [Windows Error Reporting](/windows/desktop/wer)

@@ -4,7 +4,7 @@ tech.root: wer
 title: WER_DUMP_CUSTOM_OPTIONS_V3 (werapi.h)
 ms.date: 07/12/2023
 targetos: Windows
-description: Specifies custom minidump information to be collected in the background (without pausing the process) by the [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md) function.
+description: Specifies custom Windows Error Reporting (WER) minidump information to be collected in the background (without pausing the process) by the PssCaptureSnapshot function.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -50,7 +50,7 @@ helpviewer_keywords: ["*PWER_DUMP_CUSTOM_OPTIONS_V3","PWER_DUMP_CUSTOM_OPTIONS_V
 
 ## -description
 
-Specifies custom minidump information to be collected in the background (without pausing the process) by the [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md) function.
+Specifies custom [Windows Error Reporting](../_wer/index.md) (WER) minidump information to be collected in the background (without pausing the process) by the [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md) function.
 
 ## -struct-fields
 
@@ -154,4 +154,4 @@ The thread ID.
 
 ## -see-also
 
-[WerReportAddDump function](nf-werapi-werreportadddump.md), [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md)
+[WerReportAddDump function](nf-werapi-werreportadddump.md), [**PssCaptureSnapshot**](../processsnapshot/nf-processsnapshot-psscapturesnapshot.md), [Windows Error Reporting](/windows/desktop/wer)

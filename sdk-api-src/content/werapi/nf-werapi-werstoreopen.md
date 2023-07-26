@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerStoreOpen
 title: WerStoreOpen function (werapi.h)
-description: Opens the collection of stored error reports.
+description: Opens the collection of stored Windows Error Reporting (WER) error reports.
 helpviewer_keywords: ["WerStoreOpen","WerStoreOpen function [Windows Error Reporting]","wer.werstoreopen","werapi/WerStoreOpen"]
 old-location: wer\werstoreopen.htm
 tech.root: wer
 ms.assetid: FA7E0EC6-00F1-45E2-BE34-D732965FBA15
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
 req.header: werapi.h
 req.include-header: 
@@ -49,10 +49,9 @@ api_name:
 
 # WerStoreOpen function
 
-
 ## -description
 
-Opens the collection of stored error reports.
+Opens the collection of stored [Windows Error Reporting](../_wer/index.md) (WER) error reports.
 
 ## -parameters
 
@@ -68,23 +67,9 @@ A pointer to a report store. On a successful call, this will point to the retrie
 
 This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**E_INVALIDARG**</dt>
-</dl>
-</td>
-<td width="60%">
-One of the arguments is not a valid value.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALIDARG**|One of the arguments is not a valid value.|
 
 ## -remarks
 
@@ -94,15 +79,4 @@ The Windows Error Report (WER) Store is the queue of error reports that have bee
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoreclose">WerStoreClose</a>
-
-
-
-[WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey)
-
-
-
-[Windows Error Reporting](/windows/desktop/wer)
+[WerStoreClose](/windows/desktop/api/werapi/nf-werapi-werstoreclose), [WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey), [Windows Error Reporting](/windows/desktop/wer)
