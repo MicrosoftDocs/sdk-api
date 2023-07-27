@@ -4,7 +4,7 @@ tech.root: wer
 title: WER_FILE_TYPE
 ms.date: 07/21/2023
 targetos: Windows
-description: 
+description: Defines the possible Windows Error Reporting (WER) file types for the minidump report.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
