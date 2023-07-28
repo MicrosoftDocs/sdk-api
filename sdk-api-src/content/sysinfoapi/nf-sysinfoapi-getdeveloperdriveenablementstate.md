@@ -56,6 +56,35 @@ Returns a [DEVELOPER_DRIVE_ENABLEMENT_STATE](ne-sysinfoapi-developer_drive_enabl
 
 If **GetDeveloperDriveEnablementState** fails, it returns **DeveloperDriveEnablementStateError** and sets the last error.
 
+#### Examples
+
+The following example shows how to use **GetDeveloperDriveEnablementState** to determine whether the developer drive is enabled.
+
+```cpp
+#include <Windows.h>
+
+void PrintDevDriveEnabledStatus()
+{
+    DEVELOPER_DRIVE_ENABLEMENT_STATE state = GetDeveloperDriveEnablementState();
+
+    switch (state) {
+    case DeveloperDriveEnabled:
+        printf("Developer drive is enabled.\n");
+        break;
+    case DeveloperDriveDisabledByGroupPolicy:
+        printf("Developer drive is disabled by Group Policy.\n");
+        break;
+    case DeveloperDriveEnablementStateError:
+        printf("Error querying developer drive info: %d\n", GetLastError());
+        break;
+    case DeveloperDriveDisabledBySystemPolicy:
+    default:
+        printf("Developer drive is disabled.");
+        break;
+    }
+}
+```
+
 ## -see-also
 
 [DEVELOPER_DRIVE_ENABLEMENT_STATE](ne-sysinfoapi-developer_drive_enablement_state.md)
