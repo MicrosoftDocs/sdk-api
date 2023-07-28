@@ -47,12 +47,12 @@ api_name:
  - CM_Get_DevNode_Status
 ---
 
-# CM_Get_DevNode_Status function
-
-
 ## -description
 
 The <b>CM_Get_DevNode_Status</b> function obtains the status of a device instance from its device node (<a href="/windows-hardware/drivers/">devnode</a>) in the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+
+> [!NOTE]
+> In Windows Vista, and later, the [unified device property model](/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-) uses the [**DEVPKEY_Device_DevNodeStatus**](/windows-hardware/drivers/install/devpkey-device-devnodestatus) [property key](/windows-hardware/drivers/install/property-keys) to represent the device instance identifier. For details, see [Retrieving the status and problem code for a device instance](/windows-hardware/drivers/install/retrieving-the-status-and-problem-code-for-a-device-instance).
 
 ## -parameters
 
