@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an <a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a> notification code, enabling the parent to change the message or prevent it from being processed.
+Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an <a href="https://learn.microsoft.com/en-us/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a> notification code, enabling the parent to change the message or prevent it from being processed.
 
 ## -struct-fields
 
@@ -84,4 +84,4 @@ The
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a>
+<a href="https://learn.microsoft.com/en-us/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a>
