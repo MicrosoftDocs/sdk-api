@@ -152,7 +152,7 @@ Note that <b>CreateThread</b> may succeed even if
 
 ## -remarks
 
-The number of threads a process can create is limited by the available virtual memory. By default, every thread has one megabyte of stack space. Therefore, you can create at most 2,048 threads. If you reduce the default stack size, you can create more threads. However, your application will have better performance if you create one thread per processor and build queues of requests for which the application maintains the context information. A thread would process all requests in a queue before processing requests in the next queue.
+The number of threads a process can create is limited by the available virtual memory. By default, every thread has one megabyte of stack space. Therefore, you cannot create 2,048 or more threads on a 32-bit system without `/3GB` boot.ini option. If you reduce the default stack size, you can create more threads. However, your application will have better performance if you create one thread per processor and build queues of requests for which the application maintains the context information. A thread would process all requests in a queue before processing requests in the next queue.
 
 The new thread handle is created with the <b>THREAD_ALL_ACCESS</b> access right. If a security descriptor is not provided when the thread is created, a default security descriptor is constructed for the new thread using the primary token of the   process that is creating the thread. When a caller attempts to access the thread  with the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function, the effective token of the caller is evaluated against this  security descriptor to grant or deny access. 
 
