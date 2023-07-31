@@ -80,7 +80,7 @@ Describes the required PSO using a <a href="../d3d12/ns-d3d12-d3d12_pipeline_sta
 
 Type: <b>REFIID</b>
 
-Specifies a REFIID for the ID3D12PipelineStateState object.
+Specifies a REFIID for the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a> object.
 
 Applications should typically set this argument and the following argument, ppPipelineState, by using the macro IID_PPV_ARGS(&amp;PSO1), where PSO1 is the name of the object.
 
