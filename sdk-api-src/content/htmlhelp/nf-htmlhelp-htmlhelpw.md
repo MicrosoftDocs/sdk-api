@@ -6,7 +6,7 @@ helpviewer_keywords: ["HtmlHelp", "HtmlHelp function [HTML Help Workshop]", "Htm
 old-location: htmlhelp\htmlhelp.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconhowcallingthehtmlhelpapi.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2023
 ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
 req.header: htmlhelp.h
 req.include-header: 
