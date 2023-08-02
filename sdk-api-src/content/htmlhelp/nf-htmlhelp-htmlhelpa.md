@@ -38,7 +38,7 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - LibDef
 api_location:
  - hhctrl.ocx
 api_name:
