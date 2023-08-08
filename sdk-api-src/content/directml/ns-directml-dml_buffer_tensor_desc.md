@@ -72,13 +72,13 @@ The number of dimensions of the tensor. This member determines the size of the <
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is invalid, and will result in an error. For operators where the axes have semantic meaning (e.g. batch, channel, depth, height, width), the *Sizes* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5. Otherwise the dimensions generally have no particular meaning.
+The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is invalid, and will result in an error. For operators where the axes have semantic meaning (for example, batch, channel, depth, height, width), the *Sizes* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5. Otherwise, the dimensions generally have no particular meaning.
 
 ### -field Strides
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and (n+1) in that dimension is 5 elements when traversing the buffer linearly. For operators where the axes have semantic meaning (e.g. batch, channel, depth, height, width), the *Strides* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
+Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and (n+1) in that dimension is 5 elements when traversing the buffer linearly. For operators where the axes have semantic meaning (for example, batch, channel, depth, height, width), the *Strides* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
 
 <i>Strides</i> can be used to express broadcasting (by specifying a stride of 0) as well as padding (for example, by using a stride larger than the physical size of a row, to pad the end of a row).
 
