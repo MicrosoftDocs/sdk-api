@@ -1,0 +1,7 @@
+{
+  "tech": "input_radial",
+  "headers": [
+    "radialcontrollerinterop.h"
+  ],
+  "displayName": "Radial controller input"
+}
