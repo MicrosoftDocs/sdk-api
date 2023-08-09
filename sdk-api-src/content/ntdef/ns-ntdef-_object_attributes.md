@@ -60,11 +60,11 @@ The number of bytes of data contained in this structure. The [InitializeObjectAt
 
 ### -field RootDirectory
 
-Optional handle to the root object directory for the path name specified by the **ObjectName** member. If **RootDirectory** is `NULL`, **ObjectName** must point to a fully qualified object name that includes the full path to the target object. If **RootDirectory** is non-`NULL`, **ObjectName** specifies an object name relative to the **RootDirectory** directory. The **RootDirectory** handle can refer to a file system directory or an object directory in the object manager namespace.
+Optional handle to the root object directory for the path name specified by the *ObjectName* member. If *RootDirectory* is `NULL`, *ObjectName* must point to a fully qualified object name that includes the full path to the target object. If *RootDirectory* is non-`NULL`, *ObjectName* specifies an object name relative to the *RootDirectory* directory. The *RootDirectory* handle can refer to a file system directory or an object directory in the object manager namespace.
 
 ### -field ObjectName
 
-Pointer to a [Unicode string](ns-ntdef-_unicode_string.md) that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the **RootDirectory** member.
+Pointer to a [Unicode string](ns-ntdef-_unicode_string.md) that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the *RootDirectory* member.
 
 ### -field Attributes
 
@@ -86,7 +86,7 @@ Bitmask of flags that specify object handle attributes. This member can contain 
 
 ### -field SecurityDescriptor
 
-Specifies a security descriptor ([SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor)) for the object when the object is created. If this member is `NULL`, the object will receive default security settings. See [DACL for a New Object](/windows/win32/secauthz/dacl-for-a-new-object).
+Specifies a security descriptor ([SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor)) for the object when the object is created. If *SecurityDescriptor* is `NULL`, the object will receive default security settings. See [DACL for a New Object](/windows/win32/secauthz/dacl-for-a-new-object).
 
 ### -field SecurityQualityOfService
 
@@ -94,13 +94,13 @@ Optional quality of service to be applied to the object when it is created. Used
 
 ## -remarks
 
-Use the [InitializeObjectAttributes](nf-ntdef-initializeobjectattributes.md) macro to initialize the members of the **OBJECT_ATTRIBUTES** structure. Note that **InitializeObjectAttributes** initializes the **SecurityQualityOfService** member to `NULL`. If you must specify a non-`NULL` value, set the **SecurityQualityOfService** member after initialization.
+Use the [InitializeObjectAttributes](nf-ntdef-initializeobjectattributes.md) macro to initialize the members of the **OBJECT_ATTRIBUTES** structure. Note that **InitializeObjectAttributes** initializes the *SecurityQualityOfService* member to `NULL`. If you must specify a non-`NULL` value, set the *SecurityQualityOfService* member after initialization.
 
 To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as [ZwCreateFile](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile) or [ZwCreateDirectoryObject](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject).
 
 All members of this structure are read-only. If a member of this structure is a pointer, the object that this member points to is read-only as well. Read-only members and objects can be used to acquire relevant information but must not be modified. To set the members of this structure, use the **InitializeObjectAttributes** macro.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the **Attributes** member (by using the **InitializeObjectAttributes** macro). This restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
+Driver routines that run in a process context other than that of the system process must set the **OBJ_KERNEL_HANDLE** flag for the *Attributes* member (by using the **InitializeObjectAttributes** macro). This restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
 ## -see-also
 
