@@ -5,7 +5,6 @@ title: IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub
 description: The IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub function refers to the display adapter where the independent-flip present occurred.
 ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
