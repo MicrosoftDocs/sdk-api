@@ -1,7 +1,7 @@
 ---
 UID: NF:winineti.InternetGetConnectedStateExA
 title: InternetGetConnectedStateExA function (winineti.h)
-description: The InternetGetConnectedStateExA (ANSI) function retrieves the connected state of the specified Internet connection. Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead.
+description: "The InternetGetConnectedStateExA (ANSI) function retrieves the connected state of the specified Internet connection. Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead."
 helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED", "INTERNET_CONNECTION_LAN", "INTERNET_CONNECTION_MODEM", "INTERNET_CONNECTION_MODEM_BUSY", "INTERNET_CONNECTION_OFFLINE", "INTERNET_CONNECTION_PROXY", "InternetGetConnectedStateExA", "winineti/InternetGetConnectedStateExA"]
 old-location: wininet\internetgetconnectedstateex.htm
 tech.root: wininet
