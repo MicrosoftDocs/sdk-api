@@ -77,7 +77,9 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 This function creates an in-memory property store object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a>, <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>.
 
-This is the same object identified by `InMemoryPropertyStore` and `InMemoryPropertyStoreMarshalByValue` (constructed with CoCreateInstance). `InMemoryPropertyStoreMarshalByValue` can be used in designs that pass objects
+This is the same object identified by `InMemoryPropertyStore` (`CLSID_InMemoryPropertyStore`) and `InMemoryPropertyStoreMarshalByValue` (`CLSID_InMemoryPropertyStoreMarshalByValue`), constructed with CoCreateInstance.
+
+`InMemoryPropertyStoreMarshalByValue` can be used in designs that pass objects
 between processes to make them more efficient. It implements [marshal by value](https://devblogs.microsoft.com/oldnewthing/20220617-41/?p=106760), creating a copy of the object in the
 unmarshal context and avoids inter-process communication that can be expensive.
 
