@@ -5,7 +5,6 @@ description: The IXpsOMPage1::Write1 method (xpsobjectmodel_1.h) writes the page
 ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
