@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdef._OBJECT_ATTRIBUTES
 title: _OBJECT_ATTRIBUTES (ntdef.h)
-description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
+description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles.
 helpviewer_keywords: ["*POBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture]","POBJECT_ATTRIBUTES","POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture]","_OBJECT_ATTRIBUTES","kernel.object_attributes","kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml","ntdef/OBJECT_ATTRIBUTES","ntdef/POBJECT_ATTRIBUTES"]
 old-location: kernel\object_attributes.htm
 tech.root: kernel
