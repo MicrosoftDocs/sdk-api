@@ -91,7 +91,7 @@ When set to 1, the process is not be able to successfully make NtFsControlFile s
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditDisallowFsctlSystemCalls
 
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags : 30
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
 
