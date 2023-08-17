@@ -43,19 +43,19 @@ Represents the PnP hardware ID parts for an adapter.
 
 ## -struct-fields
 
-### -field vendorId
+### -field vendorID
 
 Type: **uint32_t\***
 
 The PCI ID of the adapter's hardware vendor.
 
-### -field deviceId
+### -field deviceID
 
 Type: **uint32_t\***
 
 The PCI ID of the adapter's hardware device.
 
-### -field subSysId
+### -field subSysID
 
 Type: **uint32_t\***
 
