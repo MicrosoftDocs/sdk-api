@@ -6,7 +6,7 @@ helpviewer_keywords: ["CREATE_SUSPENDED","CreateThread","CreateThread function",
 old-location: base\createthread.htm
 tech.root: processthreadsapi
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
-ms.date: 31/07/2023
+ms.date: 07/31/2023
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
 req.header: processthreadsapi.h
 req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
