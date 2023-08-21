@@ -71,6 +71,6 @@ This method always returns <b>S_OK</b>.
 
 <a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+
+[winrt::get_trust_level](/uwp/cpp-ref-for-winrt/get-trust-level), the C++/WinRT wrapper for this function
