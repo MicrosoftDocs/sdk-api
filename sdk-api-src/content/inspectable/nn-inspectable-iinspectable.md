@@ -64,6 +64,10 @@ The <b>IInspectable</b> interface inherits from the <a href="/windows/desktop/ap
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
+
+The C++/WinRT equivalents of IInspectable's member functions:
+
+* [winrt::get_interfaces](/uwp/cpp-ref-for-winrt/get-interfaces), wraps `::GetIids`
+* [winrt::get_class_name](/uwp/cpp-ref-for-winrt/get-class-name), wraps `::GetRuntimeClassName`
+* [winrt::get_trust_level](/uwp/cpp-ref-for-winrt/get-trust-level), wraps `::GetTrustLevel`
