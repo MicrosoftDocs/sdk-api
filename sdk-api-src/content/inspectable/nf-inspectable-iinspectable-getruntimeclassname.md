@@ -150,6 +150,6 @@ The <b>GetRuntimeClassName</b> method returns <b>E_ILLEGAL_METHOD_CALL</b> if th
 
 <a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+
+[winrt::get_class_name](/uwp/cpp-ref-for-winrt/get-class-name), the C++/WinRT wrapper for this function
