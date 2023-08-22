@@ -49,7 +49,6 @@ api_name:
 
 # IUIAutomation6::get_CoalesceEvents
 
-
 ## -description
 
 Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
@@ -58,17 +57,14 @@ This property is read/write.
 
 ## -parameters
 
-## -remarks
+### -param coalesceEventsOptions [in]
 
-> ### Parameters
->
-> `coalesceEventsOptions` [in]
->
-> Type: **CoalesceEventsOptions**
->
-> Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+Type: [**CoalesceEventsOptions**](ne-uiautomationclient-coalesceeventsoptions.md)
+
+Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+
+## -remarks
 
 ## -see-also
 
 [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
-
