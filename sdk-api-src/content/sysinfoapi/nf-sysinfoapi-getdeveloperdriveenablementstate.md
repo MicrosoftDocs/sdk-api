@@ -9,13 +9,13 @@ prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Kernel32.dll
+req.dll: api-ms-win-core-sysinfo-l1-2-6.dll
 req.header: sysinfoapi.h
 req.idl: 
 req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 

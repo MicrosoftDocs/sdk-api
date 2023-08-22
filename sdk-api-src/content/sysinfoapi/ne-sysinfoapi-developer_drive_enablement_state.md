@@ -43,7 +43,7 @@ An enum of possible values for the developer drive enablement state.
 
 ### -field DeveloperDriveEnablementStateError
 
-Indicates that there was an error determining the developer drive enablement state.
+Indicates that there was an error determining the developer drive enablement state. After this is returned, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get the error value.
 
 ### -field DeveloperDriveEnabled
 
