@@ -1,0 +1,8 @@
+{
+  "tech": "miscmediaarchive",
+  "headers": [
+    "strmif.h",
+    "systemmediatransportcontrolsinterop.h"
+  ],
+  "displayName": "Miscellaneous archived media headers"
+}
