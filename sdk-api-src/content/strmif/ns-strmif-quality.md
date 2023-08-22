@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - Quality
+archived: true
 ---
 
 # Quality structure

@@ -45,6 +45,7 @@ api_location:
 api_name:
  - IFileSinkFilter.SetFileName
  - IFileSinkFilter2.SetFileName
+archived: true
 ---
 
 # IFileSinkFilter::SetFileName

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample.SetActualDataLength
+archived: true
 ---
 
 # IMediaSample::SetActualDataLength

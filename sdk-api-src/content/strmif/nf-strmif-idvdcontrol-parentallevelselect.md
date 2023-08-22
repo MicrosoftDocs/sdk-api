@@ -43,6 +43,7 @@ api_location:
  - Quartz.dll
 api_name:
  - IDvdControl.ParentalLevelSelect
+archived: true
 ---
 
 # IDvdControl::ParentalLevelSelect

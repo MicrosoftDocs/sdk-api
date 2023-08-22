@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVideoFrameStep.Step
+archived: true
 ---
 
 # IVideoFrameStep::Step

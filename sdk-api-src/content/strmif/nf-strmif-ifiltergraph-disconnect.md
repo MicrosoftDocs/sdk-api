@@ -47,6 +47,7 @@ api_name:
  - IFilterGraph.Disconnect
  - IGraphBuilder.Disconnect
  - IGraphBuilder.Disconnect
+archived: true
 ---
 
 # IFilterGraph::Disconnect

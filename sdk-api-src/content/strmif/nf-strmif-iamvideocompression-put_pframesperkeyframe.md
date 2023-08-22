@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoCompression.put_PFramesPerKeyFrame
+archived: true
 ---
 
 # IAMVideoCompression::put_PFramesPerKeyFrame

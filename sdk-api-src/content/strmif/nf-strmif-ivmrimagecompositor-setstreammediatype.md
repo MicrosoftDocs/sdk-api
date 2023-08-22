@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRImageCompositor.SetStreamMediaType
+archived: true
 ---
 
 # IVMRImageCompositor::SetStreamMediaType

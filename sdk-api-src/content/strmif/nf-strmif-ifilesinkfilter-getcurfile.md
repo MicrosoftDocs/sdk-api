@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFileSinkFilter.GetCurFile
+archived: true
 ---
 
 # IFileSinkFilter::GetCurFile

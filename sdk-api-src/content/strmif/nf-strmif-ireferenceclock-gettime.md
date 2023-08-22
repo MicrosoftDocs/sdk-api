@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IReferenceClock.GetTime
+archived: true
 ---
 
 # IReferenceClock::GetTime

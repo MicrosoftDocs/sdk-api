@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetCurrentAudio
+archived: true
 ---
 
 # IDvdInfo2::GetCurrentAudio

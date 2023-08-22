@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MenuAttributes
+archived: true
 ---
 
 # DVD_MenuAttributes structure

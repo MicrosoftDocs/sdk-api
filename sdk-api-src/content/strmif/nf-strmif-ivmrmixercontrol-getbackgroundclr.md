@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerControl.GetBackgroundClr
+archived: true
 ---
 
 # IVMRMixerControl::GetBackgroundClr

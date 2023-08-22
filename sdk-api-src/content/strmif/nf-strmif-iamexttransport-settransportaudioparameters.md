@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.SetTransportAudioParameters
+archived: true
 ---
 
 # IAMExtTransport::SetTransportAudioParameters

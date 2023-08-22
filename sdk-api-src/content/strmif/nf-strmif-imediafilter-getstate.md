@@ -45,6 +45,7 @@ api_location:
 api_name:
  - IMediaFilter.GetState
  - IBaseFilter.GetState
+archived: true
 ---
 
 # IMediaFilter::GetState

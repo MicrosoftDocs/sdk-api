@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMGraphStreams.SetMaxGraphLatency
+archived: true
 ---
 
 # IAMGraphStreams::SetMaxGraphLatency

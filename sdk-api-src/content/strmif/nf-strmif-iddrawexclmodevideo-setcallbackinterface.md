@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDDrawExclModeVideo.SetCallbackInterface
+archived: true
 ---
 
 # IDDrawExclModeVideo::SetCallbackInterface

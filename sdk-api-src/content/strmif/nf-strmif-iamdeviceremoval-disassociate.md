@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMDeviceRemoval.Disassociate
+archived: true
 ---
 
 # IAMDeviceRemoval::Disassociate

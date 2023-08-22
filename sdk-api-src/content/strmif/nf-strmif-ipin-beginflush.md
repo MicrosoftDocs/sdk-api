@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.BeginFlush
+archived: true
 ---
 
 # IPin::BeginFlush

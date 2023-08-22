@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumPins.Skip
+archived: true
 ---
 
 # IEnumPins::Skip

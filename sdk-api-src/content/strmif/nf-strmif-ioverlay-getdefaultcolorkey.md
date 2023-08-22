@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlay.GetDefaultColorKey
+archived: true
 ---
 
 # IOverlay::GetDefaultColorKey

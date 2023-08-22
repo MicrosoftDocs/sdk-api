@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IQualityControl.SetSink
+archived: true
 ---
 
 # IQualityControl::SetSink

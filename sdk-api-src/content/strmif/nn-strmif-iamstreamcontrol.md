@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamControl
+archived: true
 ---
 
 # IAMStreamControl interface

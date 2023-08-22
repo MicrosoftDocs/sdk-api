@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFileSinkFilter2.GetMode
+archived: true
 ---
 
 # IFileSinkFilter2::GetMode

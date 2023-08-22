@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.TimeSearch
+archived: true
 ---
 
 # IDvdControl::TimeSearch

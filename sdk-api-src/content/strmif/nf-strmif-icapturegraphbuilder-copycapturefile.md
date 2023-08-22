@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - ICaptureGraphBuilder.CopyCaptureFile
+archived: true
 ---
 
 # ICaptureGraphBuilder::CopyCaptureFile

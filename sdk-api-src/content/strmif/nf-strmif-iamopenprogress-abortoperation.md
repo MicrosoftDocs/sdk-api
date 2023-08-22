@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMOpenProgress.AbortOperation
+archived: true
 ---
 
 # IAMOpenProgress::AbortOperation

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCertifiedOutputProtection.ProtectionStatus
+archived: true
 ---
 
 # IAMCertifiedOutputProtection::ProtectionStatus

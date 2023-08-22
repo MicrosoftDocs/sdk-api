@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IBPCSatelliteTuner.IsTapingPermitted
+archived: true
 ---
 
 # IBPCSatelliteTuner::IsTapingPermitted

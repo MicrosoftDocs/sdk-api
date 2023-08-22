@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_KaraokeAttributes
+archived: true
 ---
 
 # DVD_KaraokeAttributes structure

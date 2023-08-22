@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.NextPGSearch
+archived: true
 ---
 
 # IDvdControl::NextPGSearch

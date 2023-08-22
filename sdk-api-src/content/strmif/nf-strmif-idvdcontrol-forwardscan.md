@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.ForwardScan
+archived: true
 ---
 
 # IDvdControl::ForwardScan

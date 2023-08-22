@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PLAYBACK_LOCATION2
+archived: true
 ---
 
 # DVD_PLAYBACK_LOCATION2 structure

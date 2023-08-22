@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_HMSF_TIMECODE
+archived: true
 ---
 
 # DVD_HMSF_TIMECODE structure

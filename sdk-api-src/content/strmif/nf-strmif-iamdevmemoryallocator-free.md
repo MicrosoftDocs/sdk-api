@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMDevMemoryAllocator.Free
+archived: true
 ---
 
 # IAMDevMemoryAllocator::Free

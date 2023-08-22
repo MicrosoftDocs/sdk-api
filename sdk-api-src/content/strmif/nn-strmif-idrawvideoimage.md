@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - IDrawVideoImage
+archived: true
 ---
 
 # IDrawVideoImage interface

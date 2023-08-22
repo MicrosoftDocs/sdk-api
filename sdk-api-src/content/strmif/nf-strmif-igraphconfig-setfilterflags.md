@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfig.SetFilterFlags
+archived: true
 ---
 
 # IGraphConfig::SetFilterFlags

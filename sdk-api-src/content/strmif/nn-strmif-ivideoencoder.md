@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - IVideoEncoder
+archived: true
 ---
 
 # IVideoEncoder interface

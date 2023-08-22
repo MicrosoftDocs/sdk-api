@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRSurface.IsSurfaceLocked
+archived: true
 ---
 
 # IVMRSurface::IsSurfaceLocked

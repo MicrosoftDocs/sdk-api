@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_NavCmdType
+archived: true
 ---
 
 # DVD_NavCmdType enumeration

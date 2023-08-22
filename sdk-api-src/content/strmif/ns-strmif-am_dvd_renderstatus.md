@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - AM_DVD_RENDERSTATUS
+archived: true
 ---
 
 # AM_DVD_RENDERSTATUS structure

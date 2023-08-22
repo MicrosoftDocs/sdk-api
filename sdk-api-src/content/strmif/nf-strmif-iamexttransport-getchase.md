@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.GetChase
+archived: true
 ---
 
 # IAMExtTransport::GetChase

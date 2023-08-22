@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVfwCaptureDialogs.HasDialog
+archived: true
 ---
 
 # IAMVfwCaptureDialogs::HasDialog

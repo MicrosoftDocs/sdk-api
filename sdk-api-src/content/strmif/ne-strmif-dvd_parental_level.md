@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PARENTAL_LEVEL
+archived: true
 ---
 
 # DVD_PARENTAL_LEVEL enumeration

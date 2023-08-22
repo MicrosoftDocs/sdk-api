@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - ICaptureGraphBuilder.RenderStream
+archived: true
 ---
 
 # ICaptureGraphBuilder::RenderStream

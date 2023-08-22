@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICodecAPI.GetParameterValues
+archived: true
 ---
 
 # ICodecAPI::GetParameterValues

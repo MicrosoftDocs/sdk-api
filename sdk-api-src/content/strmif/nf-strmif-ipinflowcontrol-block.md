@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPinFlowControl.Block
+archived: true
 ---
 
 # IPinFlowControl::Block

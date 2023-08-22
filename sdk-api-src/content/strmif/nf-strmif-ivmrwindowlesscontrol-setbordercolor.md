@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl.SetBorderColor
+archived: true
 ---
 
 # IVMRWindowlessControl::SetBorderColor

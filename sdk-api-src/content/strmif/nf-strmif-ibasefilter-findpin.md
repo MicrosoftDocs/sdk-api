@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IBaseFilter.FindPin
+archived: true
 ---
 
 # IBaseFilter::FindPin

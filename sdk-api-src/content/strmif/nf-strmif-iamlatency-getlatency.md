@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMLatency.GetLatency
+archived: true
 ---
 
 # IAMLatency::GetLatency

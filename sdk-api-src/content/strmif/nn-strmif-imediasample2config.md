@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample2Config
+archived: true
 ---
 
 # IMediaSample2Config interface

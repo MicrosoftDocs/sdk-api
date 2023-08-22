@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.NewSegment
+archived: true
 ---
 
 # IPin::NewSegment

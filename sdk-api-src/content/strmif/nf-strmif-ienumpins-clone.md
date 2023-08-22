@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumPins.Clone
+archived: true
 ---
 
 # IEnumPins::Clone

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IConfigAviMux.SetOutputCompatibilityIndex
+archived: true
 ---
 
 # IConfigAviMux::SetOutputCompatibilityIndex

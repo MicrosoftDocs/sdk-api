@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - AM_STREAM_INFO_FLAGS
+archived: true
 ---
 
 # AM_STREAM_INFO_FLAGS enumeration

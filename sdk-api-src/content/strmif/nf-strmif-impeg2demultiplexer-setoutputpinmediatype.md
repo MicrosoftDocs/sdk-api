@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMpeg2Demultiplexer.SetOutputPinMediaType
+archived: true
 ---
 
 # IMpeg2Demultiplexer::SetOutputPinMediaType

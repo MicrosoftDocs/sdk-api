@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.ConnectionMediaType
+archived: true
 ---
 
 # IPin::ConnectionMediaType

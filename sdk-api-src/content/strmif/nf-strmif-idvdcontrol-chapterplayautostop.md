@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.ChapterPlayAutoStop
+archived: true
 ---
 
 # IDvdControl::ChapterPlayAutoStop

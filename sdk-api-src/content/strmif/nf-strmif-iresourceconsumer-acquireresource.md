@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceConsumer.AcquireResource
+archived: true
 ---
 
 # IResourceConsumer::AcquireResource

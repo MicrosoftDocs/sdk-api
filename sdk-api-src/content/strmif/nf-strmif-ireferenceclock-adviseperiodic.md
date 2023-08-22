@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IReferenceClock.AdvisePeriodic
+archived: true
 ---
 
 # IReferenceClock::AdvisePeriodic

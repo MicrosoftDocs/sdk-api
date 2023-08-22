@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRFilterConfig.GetRenderingMode
+archived: true
 ---
 
 # IVMRFilterConfig::GetRenderingMode

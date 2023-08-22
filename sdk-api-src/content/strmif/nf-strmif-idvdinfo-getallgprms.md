@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdInfo.GetAllGPRMs
+archived: true
 ---
 
 # IDvdInfo::GetAllGPRMs

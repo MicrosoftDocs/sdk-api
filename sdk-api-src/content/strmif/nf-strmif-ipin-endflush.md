@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.EndFlush
+archived: true
 ---
 
 # IPin::EndFlush

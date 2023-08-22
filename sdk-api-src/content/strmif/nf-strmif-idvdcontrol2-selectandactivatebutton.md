@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SelectAndActivateButton
+archived: true
 ---
 
 # IDvdControl2::SelectAndActivateButton

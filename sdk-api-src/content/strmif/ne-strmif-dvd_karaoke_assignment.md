@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_KARAOKE_ASSIGNMENT
+archived: true
 ---
 
 # DVD_KARAOKE_ASSIGNMENT enumeration

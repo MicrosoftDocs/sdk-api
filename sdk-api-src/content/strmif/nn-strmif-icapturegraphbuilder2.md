@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2
+archived: true
 ---
 
 # ICaptureGraphBuilder2 interface

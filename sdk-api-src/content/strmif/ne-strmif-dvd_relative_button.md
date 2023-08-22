@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_RELATIVE_BUTTON
+archived: true
 ---
 
 # DVD_RELATIVE_BUTTON enumeration

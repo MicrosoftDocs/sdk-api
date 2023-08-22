@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.PlayBackwards
+archived: true
 ---
 
 # IDvdControl2::PlayBackwards

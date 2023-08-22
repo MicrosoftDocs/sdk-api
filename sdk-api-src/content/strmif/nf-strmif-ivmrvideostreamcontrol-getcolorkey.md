@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRVideoStreamControl.GetColorKey
+archived: true
 ---
 
 # IVMRVideoStreamControl::GetColorKey

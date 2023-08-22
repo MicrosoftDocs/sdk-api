@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtDevice.Calibrate
+archived: true
 ---
 
 # IAMExtDevice::Calibrate

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking
+archived: true
 ---
 
 # IMediaSeeking interface

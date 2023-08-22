@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IConfigInterleaving.put_Interleaving
+archived: true
 ---
 
 # IConfigInterleaving::put_Interleaving

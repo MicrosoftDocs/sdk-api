@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlayNotify2.OnDisplayChange
+archived: true
 ---
 
 # IOverlayNotify2::OnDisplayChange

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAnalogVideoDecoder.get_NumberOfLines
+archived: true
 ---
 
 # IAMAnalogVideoDecoder::get_NumberOfLines

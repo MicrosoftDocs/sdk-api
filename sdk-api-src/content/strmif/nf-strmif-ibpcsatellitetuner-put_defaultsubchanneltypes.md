@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IBPCSatelliteTuner.put_DefaultSubChannelTypes
+archived: true
 ---
 
 # IBPCSatelliteTuner::put_DefaultSubChannelTypes

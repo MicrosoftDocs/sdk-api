@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.put_Channel
+archived: true
 ---
 
 # IAMTuner::put_Channel

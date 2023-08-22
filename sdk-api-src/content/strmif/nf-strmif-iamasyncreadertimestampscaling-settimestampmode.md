@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMAsyncReaderTimestampScaling.SetTimestampMode
+archived: true
 ---
 
 # IAMAsyncReaderTimestampScaling::SetTimestampMode

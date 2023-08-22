@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - AM_MEDIA_TYPE
+archived: true
 ---
 
 # AM_MEDIA_TYPE structure

@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - AM_STREAM_INFO
+archived: true
 ---
 
 # AM_STREAM_INFO structure

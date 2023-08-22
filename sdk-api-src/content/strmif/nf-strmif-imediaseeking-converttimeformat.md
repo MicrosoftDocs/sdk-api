@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.ConvertTimeFormat
+archived: true
 ---
 
 # IMediaSeeking::ConvertTimeFormat

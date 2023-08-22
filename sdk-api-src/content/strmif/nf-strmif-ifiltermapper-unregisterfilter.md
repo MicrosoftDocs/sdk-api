@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IFilterMapper.UnregisterFilter
+archived: true
 ---
 
 # IFilterMapper::UnregisterFilter

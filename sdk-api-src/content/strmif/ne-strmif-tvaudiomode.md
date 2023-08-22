@@ -45,6 +45,7 @@ api_location:
  - Strmif.h
 api_name:
  - TVAudioMode
+archived: true
 ---
 
 # TVAudioMode enumeration

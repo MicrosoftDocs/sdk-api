@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCameraControl.GetRange
+archived: true
 ---
 
 # IAMCameraControl::GetRange

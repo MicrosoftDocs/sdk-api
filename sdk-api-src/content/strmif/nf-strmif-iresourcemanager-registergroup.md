@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceManager.RegisterGroup
+archived: true
 ---
 
 # IResourceManager::RegisterGroup

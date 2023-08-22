@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.ControlStream
+archived: true
 ---
 
 # ICaptureGraphBuilder2::ControlStream

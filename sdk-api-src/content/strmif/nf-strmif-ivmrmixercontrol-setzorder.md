@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerControl.SetZOrder
+archived: true
 ---
 
 # IVMRMixerControl::SetZOrder

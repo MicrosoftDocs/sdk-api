@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DOMAIN
+archived: true
 ---
 
 # DVD_DOMAIN enumeration

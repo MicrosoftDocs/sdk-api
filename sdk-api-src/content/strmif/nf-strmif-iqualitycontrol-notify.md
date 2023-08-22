@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IQualityControl.Notify
+archived: true
 ---
 
 # IQualityControl::Notify

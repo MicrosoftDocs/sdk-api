@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAsyncReader.Length
+archived: true
 ---
 
 # IAsyncReader::Length

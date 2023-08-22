@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl.GetMinIdealVideoSize
+archived: true
 ---
 
 # IVMRWindowlessControl::GetMinIdealVideoSize

@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMDevMemoryAllocator.GetDevMemoryObject
+archived: true
 ---
 
 # IAMDevMemoryAllocator::GetDevMemoryObject

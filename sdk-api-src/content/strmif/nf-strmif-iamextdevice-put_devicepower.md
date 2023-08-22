@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtDevice.put_DevicePower
+archived: true
 ---
 
 # IAMExtDevice::put_DevicePower

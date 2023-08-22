@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMemInputPin.ReceiveMultiple
+archived: true
 ---
 
 # IMemInputPin::ReceiveMultiple

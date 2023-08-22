@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TextStringType
+archived: true
 ---
 
 # DVD_TextStringType enumeration

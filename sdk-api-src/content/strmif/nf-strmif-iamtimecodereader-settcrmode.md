@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeReader.SetTCRMode
+archived: true
 ---
 
 # IAMTimecodeReader::SetTCRMode

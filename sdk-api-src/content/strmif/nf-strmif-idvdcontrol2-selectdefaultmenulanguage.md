@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SelectDefaultMenuLanguage
+archived: true
 ---
 
 # IDvdControl2::SelectDefaultMenuLanguage

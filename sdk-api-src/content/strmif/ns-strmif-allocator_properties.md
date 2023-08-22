@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - ALLOCATOR_PROPERTIES
+archived: true
 ---
 
 # ALLOCATOR_PROPERTIES structure

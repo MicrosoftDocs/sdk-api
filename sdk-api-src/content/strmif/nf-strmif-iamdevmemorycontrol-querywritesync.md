@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMDevMemoryControl.QueryWriteSync
+archived: true
 ---
 
 # IAMDevMemoryControl::QueryWriteSync

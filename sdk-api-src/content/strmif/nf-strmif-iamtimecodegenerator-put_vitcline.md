@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeGenerator.put_VITCLine
+archived: true
 ---
 
 # IAMTimecodeGenerator::put_VITCLine

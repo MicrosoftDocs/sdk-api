@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SelectButton
+archived: true
 ---
 
 # IDvdControl2::SelectButton

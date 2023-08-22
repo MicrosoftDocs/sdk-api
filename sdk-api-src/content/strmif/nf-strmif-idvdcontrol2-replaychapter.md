@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.ReplayChapter
+archived: true
 ---
 
 # IDvdControl2::ReplayChapter

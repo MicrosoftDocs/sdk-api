@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_SUBPICTURE_CODING
+archived: true
 ---
 
 # DVD_SUBPICTURE_CODING enumeration

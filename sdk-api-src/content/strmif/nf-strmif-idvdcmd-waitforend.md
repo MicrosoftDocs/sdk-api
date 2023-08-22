@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdCmd.WaitForEnd
+archived: true
 ---
 
 # IDvdCmd::WaitForEnd

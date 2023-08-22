@@ -9,6 +9,7 @@ tech.root: mstv
 f1_keywords:
  - strmif
  - strmif/strmif
+archived: true
 ---
 
 # Strmif.h header

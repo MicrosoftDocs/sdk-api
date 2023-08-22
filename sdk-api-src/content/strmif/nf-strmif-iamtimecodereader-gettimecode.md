@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeReader.GetTimecode
+archived: true
 ---
 
 # IAMTimecodeReader::GetTimecode

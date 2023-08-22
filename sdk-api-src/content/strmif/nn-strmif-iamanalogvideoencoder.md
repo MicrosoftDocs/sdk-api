@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - IAMAnalogVideoEncoder
+archived: true
 ---
 
 # IAMAnalogVideoEncoder interface

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.AllocCapFile
+archived: true
 ---
 
 # ICaptureGraphBuilder2::AllocCapFile

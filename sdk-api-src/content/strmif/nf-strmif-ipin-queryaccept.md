@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.QueryAccept
+archived: true
 ---
 
 # IPin::QueryAccept

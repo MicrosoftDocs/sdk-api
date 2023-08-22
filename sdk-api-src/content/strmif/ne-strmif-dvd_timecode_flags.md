@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TIMECODE_FLAGS
+archived: true
 ---
 
 # DVD_TIMECODE_FLAGS enumeration

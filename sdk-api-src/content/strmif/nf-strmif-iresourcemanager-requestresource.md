@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceManager.RequestResource
+archived: true
 ---
 
 # IResourceManager::RequestResource

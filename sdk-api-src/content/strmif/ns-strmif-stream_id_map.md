@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - STREAM_ID_MAP
+archived: true
 ---
 
 # STREAM_ID_MAP structure

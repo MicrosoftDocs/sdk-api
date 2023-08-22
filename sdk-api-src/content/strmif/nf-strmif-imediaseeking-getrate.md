@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.GetRate
+archived: true
 ---
 
 # IMediaSeeking::GetRate

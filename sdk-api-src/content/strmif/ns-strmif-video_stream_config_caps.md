@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - VIDEO_STREAM_CONFIG_CAPS
+archived: true
 ---
 
 # VIDEO_STREAM_CONFIG_CAPS structure

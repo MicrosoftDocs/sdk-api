@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.ChannelMinMax
+archived: true
 ---
 
 # IAMTuner::ChannelMinMax

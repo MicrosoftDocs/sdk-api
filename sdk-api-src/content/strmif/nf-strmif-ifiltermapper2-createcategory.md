@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterMapper2.CreateCategory
+archived: true
 ---
 
 # IFilterMapper2::CreateCategory

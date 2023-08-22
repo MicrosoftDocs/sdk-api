@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMFilterGraphCallback.UnableToRender
+archived: true
 ---
 
 # IAMFilterGraphCallback::UnableToRender

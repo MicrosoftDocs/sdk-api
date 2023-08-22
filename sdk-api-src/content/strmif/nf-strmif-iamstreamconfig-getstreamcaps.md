@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamConfig.GetStreamCaps
+archived: true
 ---
 
 # IAMStreamConfig::GetStreamCaps

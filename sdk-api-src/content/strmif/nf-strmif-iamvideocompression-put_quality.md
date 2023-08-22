@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoCompression.put_Quality
+archived: true
 ---
 
 # IAMVideoCompression::put_Quality

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.GetStopPosition
+archived: true
 ---
 
 # IMediaSeeking::GetStopPosition

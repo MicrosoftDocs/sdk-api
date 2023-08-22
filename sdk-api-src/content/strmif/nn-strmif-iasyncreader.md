@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAsyncReader
+archived: true
 ---
 
 # IAsyncReader interface

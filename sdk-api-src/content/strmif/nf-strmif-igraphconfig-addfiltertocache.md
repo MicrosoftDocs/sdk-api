@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfig.AddFilterToCache
+archived: true
 ---
 
 # IGraphConfig::AddFilterToCache

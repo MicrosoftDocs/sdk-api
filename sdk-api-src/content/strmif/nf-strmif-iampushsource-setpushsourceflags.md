@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMPushSource.SetPushSourceFlags
+archived: true
 ---
 
 # IAMPushSource::SetPushSourceFlags

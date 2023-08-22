@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICodecAPI.GetValue
+archived: true
 ---
 
 # ICodecAPI::GetValue

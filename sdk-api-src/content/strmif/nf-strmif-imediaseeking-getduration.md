@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.GetDuration
+archived: true
 ---
 
 # IMediaSeeking::GetDuration

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.SetOutputFileName
+archived: true
 ---
 
 # ICaptureGraphBuilder2::SetOutputFileName

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IRegisterServiceProvider.RegisterService
+archived: true
 ---
 
 # IRegisterServiceProvider::RegisterService

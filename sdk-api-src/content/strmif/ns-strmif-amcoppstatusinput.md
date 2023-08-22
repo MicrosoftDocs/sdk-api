@@ -47,6 +47,7 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPStatusInput
+archived: true
 ---
 
 # AMCOPPStatusInput structure

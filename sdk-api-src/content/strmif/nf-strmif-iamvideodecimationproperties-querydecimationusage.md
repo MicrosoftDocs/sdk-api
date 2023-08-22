@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoDecimationProperties.QueryDecimationUsage
+archived: true
 ---
 
 # IAMVideoDecimationProperties::QueryDecimationUsage

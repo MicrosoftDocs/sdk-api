@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdState.GetDiscID
+archived: true
 ---
 
 # IDvdState::GetDiscID

@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IEnumRegFilters.Next
+archived: true
 ---
 
 # IEnumRegFilters::Next

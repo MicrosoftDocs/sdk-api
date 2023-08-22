@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterGraph2.AddSourceFilterForMoniker
+archived: true
 ---
 
 # IFilterGraph2::AddSourceFilterForMoniker

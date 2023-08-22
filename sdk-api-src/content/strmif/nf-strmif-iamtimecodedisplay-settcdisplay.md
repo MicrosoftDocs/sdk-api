@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeDisplay.SetTCDisplay
+archived: true
 ---
 
 # IAMTimecodeDisplay::SetTCDisplay

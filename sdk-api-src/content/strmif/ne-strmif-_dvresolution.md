@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - _DVRESOLUTION
+archived: true
 ---
 
 # _DVRESOLUTION enumeration

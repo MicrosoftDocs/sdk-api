@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVTuner.get_AudioFrequency
+archived: true
 ---
 
 # IAMTVTuner::get_AudioFrequency

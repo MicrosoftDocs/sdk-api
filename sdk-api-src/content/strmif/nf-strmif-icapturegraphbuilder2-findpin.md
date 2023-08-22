@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.FindPin
+archived: true
 ---
 
 # ICaptureGraphBuilder2::FindPin

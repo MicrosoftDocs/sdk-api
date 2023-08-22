@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMTunerNotification.OnEvent
+archived: true
 ---
 
 # IAMTunerNotification::OnEvent

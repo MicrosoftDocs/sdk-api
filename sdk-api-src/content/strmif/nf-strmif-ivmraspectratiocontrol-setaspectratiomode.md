@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRAspectRatioControl.SetAspectRatioMode
+archived: true
 ---
 
 # IVMRAspectRatioControl::SetAspectRatioMode

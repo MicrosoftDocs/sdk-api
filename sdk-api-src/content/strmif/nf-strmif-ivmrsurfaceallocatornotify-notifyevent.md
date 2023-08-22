@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRSurfaceAllocatorNotify.NotifyEvent
+archived: true
 ---
 
 # IVMRSurfaceAllocatorNotify::NotifyEvent

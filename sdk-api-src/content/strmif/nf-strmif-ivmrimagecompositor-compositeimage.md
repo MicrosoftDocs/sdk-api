@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRImageCompositor.CompositeImage
+archived: true
 ---
 
 # IVMRImageCompositor::CompositeImage

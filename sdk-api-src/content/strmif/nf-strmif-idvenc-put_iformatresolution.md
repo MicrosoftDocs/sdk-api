@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDVEnc.put_IFormatResolution
+archived: true
 ---
 
 # IDVEnc::put_IFormatResolution

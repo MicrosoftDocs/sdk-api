@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphBuilder.Connect
+archived: true
 ---
 
 # IGraphBuilder::Connect

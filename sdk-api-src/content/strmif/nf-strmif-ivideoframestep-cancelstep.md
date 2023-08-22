@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVideoFrameStep.CancelStep
+archived: true
 ---
 
 # IVideoFrameStep::CancelStep

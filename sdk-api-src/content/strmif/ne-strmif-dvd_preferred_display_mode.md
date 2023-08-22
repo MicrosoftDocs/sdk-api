@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PREFERRED_DISPLAY_MODE
+archived: true
 ---
 
 # DVD_PREFERRED_DISPLAY_MODE enumeration

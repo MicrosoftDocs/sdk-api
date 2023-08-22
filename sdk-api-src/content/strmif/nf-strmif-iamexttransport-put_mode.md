@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.put_Mode
+archived: true
 ---
 
 # IAMExtTransport::put_Mode

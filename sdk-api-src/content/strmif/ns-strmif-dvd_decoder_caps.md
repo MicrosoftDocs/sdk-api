@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DECODER_CAPS
+archived: true
 ---
 
 # DVD_DECODER_CAPS structure

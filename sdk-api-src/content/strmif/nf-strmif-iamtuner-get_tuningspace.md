@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.get_TuningSpace
+archived: true
 ---
 
 # IAMTuner::get_TuningSpace

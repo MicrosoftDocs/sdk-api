@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMemInputPin.GetAllocatorRequirements
+archived: true
 ---
 
 # IMemInputPin::GetAllocatorRequirements

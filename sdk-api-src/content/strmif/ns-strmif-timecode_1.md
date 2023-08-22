@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - TIMECODE
+archived: true
 ---
 
 # TIMECODE structure

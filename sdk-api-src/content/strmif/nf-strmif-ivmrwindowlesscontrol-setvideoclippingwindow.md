@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl.SetVideoClippingWindow
+archived: true
 ---
 
 # IVMRWindowlessControl::SetVideoClippingWindow

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVPManager.SetVideoPortIndex
+archived: true
 ---
 
 # IVPManager::SetVideoPortIndex

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoControl.GetCaps
+archived: true
 ---
 
 # IAMVideoControl::GetCaps

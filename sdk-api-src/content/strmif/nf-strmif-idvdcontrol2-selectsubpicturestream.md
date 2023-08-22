@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SelectSubpictureStream
+archived: true
 ---
 
 # IDvdControl2::SelectSubpictureStream

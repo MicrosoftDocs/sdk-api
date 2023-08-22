@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAnalogVideoDecoder.get_HorizontalLocked
+archived: true
 ---
 
 # IAMAnalogVideoDecoder::get_HorizontalLocked

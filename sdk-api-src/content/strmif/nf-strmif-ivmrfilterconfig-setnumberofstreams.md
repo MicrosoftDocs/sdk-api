@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRFilterConfig.SetNumberOfStreams
+archived: true
 ---
 
 # IVMRFilterConfig::SetNumberOfStreams

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.SetBump
+archived: true
 ---
 
 # IAMExtTransport::SetBump

@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - AMOVERLAYFX
+archived: true
 ---
 
 # AMOVERLAYFX enumeration

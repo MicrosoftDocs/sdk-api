@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoControl.GetCurrentActualFrameRate
+archived: true
 ---
 
 # IAMVideoControl::GetCurrentActualFrameRate

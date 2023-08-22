@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPersistMediaPropertyBag.Load
+archived: true
 ---
 
 # IPersistMediaPropertyBag::Load

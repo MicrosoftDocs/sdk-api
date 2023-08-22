@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample.SetMediaType
+archived: true
 ---
 
 # IMediaSample::SetMediaType

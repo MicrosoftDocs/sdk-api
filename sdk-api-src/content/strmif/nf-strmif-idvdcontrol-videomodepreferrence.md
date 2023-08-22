@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.VideoModePreferrence
+archived: true
 ---
 
 # IDvdControl::VideoModePreferrence

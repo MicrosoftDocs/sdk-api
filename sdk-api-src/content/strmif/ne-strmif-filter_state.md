@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - FILTER_STATE
+archived: true
 ---
 
 # FILTER_STATE enumeration

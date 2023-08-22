@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaPropertyBag
+archived: true
 ---
 
 # IMediaPropertyBag interface

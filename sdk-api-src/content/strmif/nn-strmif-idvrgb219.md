@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDVRGB219
+archived: true
 ---
 
 # IDVRGB219 interface

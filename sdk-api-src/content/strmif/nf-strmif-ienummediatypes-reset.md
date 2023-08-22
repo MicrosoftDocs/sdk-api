@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumMediaTypes.Reset
+archived: true
 ---
 
 # IEnumMediaTypes::Reset

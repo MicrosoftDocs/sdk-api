@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMDroppedFrames.GetAverageFrameSize
+archived: true
 ---
 
 # IAMDroppedFrames::GetAverageFrameSize

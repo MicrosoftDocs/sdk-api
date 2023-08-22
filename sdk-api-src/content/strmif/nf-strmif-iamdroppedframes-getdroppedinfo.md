@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMDroppedFrames.GetDroppedInfo
+archived: true
 ---
 
 # IAMDroppedFrames::GetDroppedInfo

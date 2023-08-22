@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerBitmap.UpdateAlphaBitmapParameters
+archived: true
 ---
 
 # IVMRMixerBitmap::UpdateAlphaBitmapParameters

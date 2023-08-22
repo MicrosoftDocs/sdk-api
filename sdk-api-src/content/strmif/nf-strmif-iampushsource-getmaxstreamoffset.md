@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMPushSource.GetMaxStreamOffset
+archived: true
 ---
 
 # IAMPushSource::GetMaxStreamOffset

@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - _DVENCODERVIDEOFORMAT
+archived: true
 ---
 
 # _DVENCODERVIDEOFORMAT enumeration

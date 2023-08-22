@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterMapper3
+archived: true
 ---
 
 # IFilterMapper3 interface

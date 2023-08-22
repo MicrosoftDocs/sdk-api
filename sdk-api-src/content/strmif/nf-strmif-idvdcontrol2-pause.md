@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.Pause
+archived: true
 ---
 
 # IDvdControl2::Pause

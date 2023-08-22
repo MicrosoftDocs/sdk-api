@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMovieSetup.Register
+archived: true
 ---
 
 # IAMovieSetup::Register

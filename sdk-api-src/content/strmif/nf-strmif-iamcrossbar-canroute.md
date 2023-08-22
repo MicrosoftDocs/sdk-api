@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCrossbar.CanRoute
+archived: true
 ---
 
 # IAMCrossbar::CanRoute

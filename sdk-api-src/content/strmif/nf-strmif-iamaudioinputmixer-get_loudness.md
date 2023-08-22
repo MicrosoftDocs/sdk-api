@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAudioInputMixer.get_Loudness
+archived: true
 ---
 
 # IAMAudioInputMixer::get_Loudness

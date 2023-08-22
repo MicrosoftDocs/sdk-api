@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.GetEditPropertySet
+archived: true
 ---
 
 # IAMExtTransport::GetEditPropertySet

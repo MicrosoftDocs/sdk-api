@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.Connect
+archived: true
 ---
 
 # IPin::Connect

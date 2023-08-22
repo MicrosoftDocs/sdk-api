@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaFilter.Run
+archived: true
 ---
 
 # IMediaFilter::Run

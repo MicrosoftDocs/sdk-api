@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICodecAPI.SetAllSettings
+archived: true
 ---
 
 # ICodecAPI::SetAllSettings

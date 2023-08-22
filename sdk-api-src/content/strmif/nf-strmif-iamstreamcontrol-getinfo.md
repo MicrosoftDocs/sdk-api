@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamControl.GetInfo
+archived: true
 ---
 
 # IAMStreamControl::GetInfo

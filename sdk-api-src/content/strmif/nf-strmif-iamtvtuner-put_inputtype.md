@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVTuner.put_InputType
+archived: true
 ---
 
 # IAMTVTuner::put_InputType

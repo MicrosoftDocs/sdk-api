@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtDevice.get_DevicePort
+archived: true
 ---
 
 # IAMExtDevice::get_DevicePort

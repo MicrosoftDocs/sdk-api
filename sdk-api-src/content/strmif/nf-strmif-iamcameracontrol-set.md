@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCameraControl.Set
+archived: true
 ---
 
 # IAMCameraControl::Set

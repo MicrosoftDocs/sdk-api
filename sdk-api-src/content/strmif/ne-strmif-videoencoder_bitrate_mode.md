@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - VIDEOENCODER_BITRATE_MODE
+archived: true
 ---
 
 # VIDEOENCODER_BITRATE_MODE enumeration

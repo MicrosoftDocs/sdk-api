@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IBaseFilter.QueryVendorInfo
+archived: true
 ---
 
 # IBaseFilter::QueryVendorInfo

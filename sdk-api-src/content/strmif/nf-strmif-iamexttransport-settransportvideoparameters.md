@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.SetTransportVideoParameters
+archived: true
 ---
 
 # IAMExtTransport::SetTransportVideoParameters

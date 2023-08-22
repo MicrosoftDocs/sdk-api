@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMOverlayFX.GetOverlayFX
+archived: true
 ---
 
 # IAMOverlayFX::GetOverlayFX

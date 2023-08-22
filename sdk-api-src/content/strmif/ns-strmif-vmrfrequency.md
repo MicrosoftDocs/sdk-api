@@ -46,6 +46,7 @@ api_location:
  - strmif.h
 api_name:
  - VMRFrequency
+archived: true
 ---
 
 # VMRFrequency structure

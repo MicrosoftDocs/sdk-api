@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.GoUp
+archived: true
 ---
 
 # IDvdControl::GoUp

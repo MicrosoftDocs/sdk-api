@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IBaseFilter
+archived: true
 ---
 
 # IBaseFilter interface

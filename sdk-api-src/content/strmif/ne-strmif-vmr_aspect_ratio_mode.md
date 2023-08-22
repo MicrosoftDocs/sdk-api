@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - VMR_ASPECT_RATIO_MODE
+archived: true
 ---
 
 # VMR_ASPECT_RATIO_MODE enumeration

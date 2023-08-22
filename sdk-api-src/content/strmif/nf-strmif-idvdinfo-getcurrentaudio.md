@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdInfo.GetCurrentAudio
+archived: true
 ---
 
 # IDvdInfo::GetCurrentAudio

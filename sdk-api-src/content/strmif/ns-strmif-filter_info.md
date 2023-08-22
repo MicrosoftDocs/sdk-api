@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - FILTER_INFO
+archived: true
 ---
 
 # FILTER_INFO structure

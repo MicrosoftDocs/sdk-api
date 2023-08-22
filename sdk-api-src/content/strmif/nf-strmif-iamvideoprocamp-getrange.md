@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoProcAmp.GetRange
+archived: true
 ---
 
 # IAMVideoProcAmp::GetRange

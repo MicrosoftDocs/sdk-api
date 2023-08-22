@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRImagePresenterConfig.SetRenderingPrefs
+archived: true
 ---
 
 # IVMRImagePresenterConfig::SetRenderingPrefs

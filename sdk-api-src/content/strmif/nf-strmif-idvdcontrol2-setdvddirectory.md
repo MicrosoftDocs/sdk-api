@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SetDVDDirectory
+archived: true
 ---
 
 # IDvdControl2::SetDVDDirectory

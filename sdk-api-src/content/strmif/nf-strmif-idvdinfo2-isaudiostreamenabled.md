@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.IsAudioStreamEnabled
+archived: true
 ---
 
 # IDvdInfo2::IsAudioStreamEnabled

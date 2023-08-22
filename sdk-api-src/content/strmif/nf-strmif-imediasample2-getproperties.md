@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample2.GetProperties
+archived: true
 ---
 
 # IMediaSample2::GetProperties

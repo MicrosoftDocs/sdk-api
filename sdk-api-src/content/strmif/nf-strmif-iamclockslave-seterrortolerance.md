@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMClockSlave.SetErrorTolerance
+archived: true
 ---
 
 # IAMClockSlave::SetErrorTolerance

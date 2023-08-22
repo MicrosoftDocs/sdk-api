@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfig.PushThroughData
+archived: true
 ---
 
 # IGraphConfig::PushThroughData

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMonitorConfig.GetDefaultMonitor
+archived: true
 ---
 
 # IVMRMonitorConfig::GetDefaultMonitor

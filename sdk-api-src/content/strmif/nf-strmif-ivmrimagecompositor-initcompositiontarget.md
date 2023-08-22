@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRImageCompositor.InitCompositionTarget
+archived: true
 ---
 
 # IVMRImageCompositor::InitCompositionTarget

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.GetTransportBasicParameters
+archived: true
 ---
 
 # IAMExtTransport::GetTransportBasicParameters

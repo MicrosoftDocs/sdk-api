@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVTuner.get_TVFormat
+archived: true
 ---
 
 # IAMTVTuner::get_TVFormat

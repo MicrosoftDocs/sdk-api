@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetButtonRect
+archived: true
 ---
 
 # IDvdInfo2::GetButtonRect

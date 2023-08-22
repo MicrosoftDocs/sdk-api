@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_KARAOKE_DOWNMIX
+archived: true
 ---
 
 # DVD_KARAOKE_DOWNMIX enumeration

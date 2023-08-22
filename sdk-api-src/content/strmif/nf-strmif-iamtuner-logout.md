@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.Logout
+archived: true
 ---
 
 # IAMTuner::Logout

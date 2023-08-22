@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetDVDDirectory
+archived: true
 ---
 
 # IDvdInfo2::GetDVDDirectory

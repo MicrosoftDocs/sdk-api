@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMpeg2Demultiplexer.CreateOutputPin
+archived: true
 ---
 
 # IMpeg2Demultiplexer::CreateOutputPin

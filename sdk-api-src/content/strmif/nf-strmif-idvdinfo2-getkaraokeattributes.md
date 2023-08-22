@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetKaraokeAttributes
+archived: true
 ---
 
 # IDvdInfo2::GetKaraokeAttributes

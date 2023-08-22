@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterGraph.FindFilterByName
+archived: true
 ---
 
 # IFilterGraph::FindFilterByName

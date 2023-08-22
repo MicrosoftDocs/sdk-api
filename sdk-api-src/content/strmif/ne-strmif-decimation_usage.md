@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DECIMATION_USAGE
+archived: true
 ---
 
 # DECIMATION_USAGE enumeration

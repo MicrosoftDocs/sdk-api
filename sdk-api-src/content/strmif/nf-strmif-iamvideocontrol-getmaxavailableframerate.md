@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoControl.GetMaxAvailableFrameRate
+archived: true
 ---
 
 # IAMVideoControl::GetMaxAvailableFrameRate

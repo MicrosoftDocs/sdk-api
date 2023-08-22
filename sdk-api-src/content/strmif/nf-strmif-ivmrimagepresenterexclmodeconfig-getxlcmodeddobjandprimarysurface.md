@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
+archived: true
 ---
 
 # IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface

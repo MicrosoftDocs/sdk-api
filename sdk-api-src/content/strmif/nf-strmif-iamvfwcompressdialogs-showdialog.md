@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVfwCompressDialogs.ShowDialog
+archived: true
 ---
 
 # IAMVfwCompressDialogs::ShowDialog

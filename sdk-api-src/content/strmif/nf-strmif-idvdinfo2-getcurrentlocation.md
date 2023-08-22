@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetCurrentLocation
+archived: true
 ---
 
 # IDvdInfo2::GetCurrentLocation

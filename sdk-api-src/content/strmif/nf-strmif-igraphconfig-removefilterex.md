@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfig.RemoveFilterEx
+archived: true
 ---
 
 # IGraphConfig::RemoveFilterEx

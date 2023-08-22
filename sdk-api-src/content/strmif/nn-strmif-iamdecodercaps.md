@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMDecoderCaps
+archived: true
 ---
 
 # IAMDecoderCaps interface

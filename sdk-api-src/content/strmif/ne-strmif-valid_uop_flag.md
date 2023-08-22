@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - VALID_UOP_FLAG
+archived: true
 ---
 
 # VALID_UOP_FLAG enumeration

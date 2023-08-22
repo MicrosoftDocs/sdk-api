@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.get_EditStart
+archived: true
 ---
 
 # IAMExtTransport::get_EditStart

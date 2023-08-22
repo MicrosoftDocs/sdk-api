@@ -45,6 +45,7 @@ api_location:
 api_name:
  - IAMTuner.get_Channel
  - IAMTVTuner.get_Channel
+archived: true
 ---
 
 # IAMTuner::get_Channel

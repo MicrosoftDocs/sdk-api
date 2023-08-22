@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - CameraControlProperty
+archived: true
 ---
 
 # CameraControlProperty enumeration

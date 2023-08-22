@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - ICaptureGraphBuilder.AllocCapFile
+archived: true
 ---
 
 # ICaptureGraphBuilder::AllocCapFile

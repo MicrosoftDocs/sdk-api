@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlay.Advise
+archived: true
 ---
 
 # IOverlay::Advise

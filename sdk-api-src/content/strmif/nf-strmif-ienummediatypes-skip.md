@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumMediaTypes.Skip
+archived: true
 ---
 
 # IEnumMediaTypes::Skip

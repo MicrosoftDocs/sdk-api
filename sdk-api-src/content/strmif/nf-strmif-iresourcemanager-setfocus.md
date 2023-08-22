@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceManager.SetFocus
+archived: true
 ---
 
 # IResourceManager::SetFocus

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoProcAmp.Get
+archived: true
 ---
 
 # IAMVideoProcAmp::Get

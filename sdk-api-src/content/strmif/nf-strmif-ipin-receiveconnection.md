@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.ReceiveConnection
+archived: true
 ---
 
 # IPin::ReceiveConnection

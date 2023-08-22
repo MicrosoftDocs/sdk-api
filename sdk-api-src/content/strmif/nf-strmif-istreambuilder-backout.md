@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IStreamBuilder.Backout
+archived: true
 ---
 
 # IStreamBuilder::Backout

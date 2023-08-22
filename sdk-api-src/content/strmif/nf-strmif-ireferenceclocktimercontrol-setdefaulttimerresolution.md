@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IReferenceClockTimerControl.SetDefaultTimerResolution
+archived: true
 ---
 
 # IReferenceClockTimerControl::SetDefaultTimerResolution

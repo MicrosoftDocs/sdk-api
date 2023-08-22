@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_VIDEO_COMPRESSION
+archived: true
 ---
 
 # DVD_VIDEO_COMPRESSION enumeration

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMonitorConfig.GetAvailableMonitors
+archived: true
 ---
 
 # IVMRMonitorConfig::GetAvailableMonitors

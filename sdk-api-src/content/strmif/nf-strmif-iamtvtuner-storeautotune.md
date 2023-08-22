@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVTuner.StoreAutoTune
+archived: true
 ---
 
 # IAMTVTuner::StoreAutoTune

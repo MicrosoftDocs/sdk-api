@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMPluginControl.SetDisabled
+archived: true
 ---
 
 # IAMPluginControl::SetDisabled

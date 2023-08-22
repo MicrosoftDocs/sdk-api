@@ -43,6 +43,7 @@ api_location:
  - strmif.h
 api_name:
  - _DVENCODERRESOLUTION
+archived: true
 ---
 
 # _DVENCODERRESOLUTION enumeration

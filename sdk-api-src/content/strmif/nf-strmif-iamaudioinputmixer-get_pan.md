@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAudioInputMixer.get_Pan
+archived: true
 ---
 
 # IAMAudioInputMixer::get_Pan

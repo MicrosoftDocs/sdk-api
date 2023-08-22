@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlayNotify.OnPaletteChange
+archived: true
 ---
 
 # IOverlayNotify::OnPaletteChange

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.GetAvailableModes
+archived: true
 ---
 
 # IAMTuner::GetAvailableModes

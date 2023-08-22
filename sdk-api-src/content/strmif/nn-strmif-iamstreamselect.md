@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamSelect
+archived: true
 ---
 
 # IAMStreamSelect interface

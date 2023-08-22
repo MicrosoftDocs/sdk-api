@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVAudio.get_TVAudioMode
+archived: true
 ---
 
 # IAMTVAudio::get_TVAudioMode

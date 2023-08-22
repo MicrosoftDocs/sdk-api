@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamSelect.Enable
+archived: true
 ---
 
 # IAMStreamSelect::Enable

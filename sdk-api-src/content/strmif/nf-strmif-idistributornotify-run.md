@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDistributorNotify.Run
+archived: true
 ---
 
 # IDistributorNotify::Run

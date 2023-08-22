@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRVideoStreamControl.GetStreamActiveState
+archived: true
 ---
 
 # IVMRVideoStreamControl::GetStreamActiveState

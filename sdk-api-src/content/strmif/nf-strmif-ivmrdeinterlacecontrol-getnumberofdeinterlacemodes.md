@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
+archived: true
 ---
 
 # IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes

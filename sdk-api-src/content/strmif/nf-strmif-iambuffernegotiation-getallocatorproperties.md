@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMBufferNegotiation.GetAllocatorProperties
+archived: true
 ---
 
 # IAMBufferNegotiation::GetAllocatorProperties

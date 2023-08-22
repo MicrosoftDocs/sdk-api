@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaFilter.Stop
+archived: true
 ---
 
 # IMediaFilter::Stop

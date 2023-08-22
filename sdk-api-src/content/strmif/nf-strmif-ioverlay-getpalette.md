@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlay.GetPalette
+archived: true
 ---
 
 # IOverlay::GetPalette

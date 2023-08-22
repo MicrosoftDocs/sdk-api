@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICreateDevEnum.CreateClassEnumerator
+archived: true
 ---
 
 # ICreateDevEnum::CreateClassEnumerator

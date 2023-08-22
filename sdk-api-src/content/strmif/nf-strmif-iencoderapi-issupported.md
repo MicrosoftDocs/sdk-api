@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEncoderAPI.IsSupported
+archived: true
 ---
 
 # IEncoderAPI::IsSupported

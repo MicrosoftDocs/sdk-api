@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPSignature
+archived: true
 ---
 
 # AMCOPPSignature structure

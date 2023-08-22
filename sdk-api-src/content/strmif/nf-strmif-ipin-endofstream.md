@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.EndOfStream
+archived: true
 ---
 
 # IPin::EndOfStream

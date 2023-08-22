@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoProcAmp
+archived: true
 ---
 
 # IAMVideoProcAmp interface

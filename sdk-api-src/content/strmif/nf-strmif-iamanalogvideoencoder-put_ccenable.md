@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMAnalogVideoEncoder.put_CCEnable
+archived: true
 ---
 
 # IAMAnalogVideoEncoder::put_CCEnable

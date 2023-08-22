@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IEnumRegFilters.Clone
+archived: true
 ---
 
 # IEnumRegFilters::Clone

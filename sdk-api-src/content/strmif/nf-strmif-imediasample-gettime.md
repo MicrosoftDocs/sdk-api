@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample.GetTime
+archived: true
 ---
 
 # IMediaSample::GetTime

@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVfwCaptureDialogs.SendDriverMessage
+archived: true
 ---
 
 # IAMVfwCaptureDialogs::SendDriverMessage

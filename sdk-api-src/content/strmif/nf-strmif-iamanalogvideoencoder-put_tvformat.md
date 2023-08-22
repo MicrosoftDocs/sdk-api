@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IAMAnalogVideoEncoder.put_TVFormat
+archived: true
 ---
 
 # IAMAnalogVideoEncoder::put_TVFormat

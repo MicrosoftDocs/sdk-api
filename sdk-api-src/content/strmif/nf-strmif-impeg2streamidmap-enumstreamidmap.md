@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMPEG2StreamIdMap.EnumStreamIdMap
+archived: true
 ---
 
 # IMPEG2StreamIdMap::EnumStreamIdMap

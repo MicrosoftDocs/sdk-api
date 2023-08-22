@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl.GetVideoPosition
+archived: true
 ---
 
 # IVMRWindowlessControl::GetVideoPosition

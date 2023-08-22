@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - PIN_INFO
+archived: true
 ---
 
 # PIN_INFO structure

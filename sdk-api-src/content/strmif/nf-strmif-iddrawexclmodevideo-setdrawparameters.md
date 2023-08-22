@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDDrawExclModeVideo.SetDrawParameters
+archived: true
 ---
 
 # IDDrawExclModeVideo::SetDrawParameters

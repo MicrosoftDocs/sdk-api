@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl.GetBorderColor
+archived: true
 ---
 
 # IVMRWindowlessControl::GetBorderColor

@@ -43,6 +43,7 @@ api_location:
  - Quartz.dll
 api_name:
  - IMediaSample.GetActualDataLength
+archived: true
 ---
 
 # IMediaSample::GetActualDataLength

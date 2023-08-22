@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVfwCompressDialogs.GetState
+archived: true
 ---
 
 # IAMVfwCompressDialogs::GetState

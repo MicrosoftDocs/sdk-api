@@ -43,6 +43,7 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.KaraokeAudioPresentationModeChange
+archived: true
 ---
 
 # IDvdControl::KaraokeAudioPresentationModeChange

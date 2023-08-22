@@ -44,6 +44,7 @@ api_location:
  - strmif.h
 api_name:
  - VMRDeinterlacePrefs
+archived: true
 ---
 
 # VMRDeinterlacePrefs enumeration

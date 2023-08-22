@@ -44,6 +44,7 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRDeinterlaceControl.GetDeinterlaceModeCaps
+archived: true
 ---
 
 # IVMRDeinterlaceControl::GetDeinterlaceModeCaps

@@ -47,6 +47,7 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPStatusOutput
+archived: true
 ---
 
 # AMCOPPStatusOutput structure

@@ -45,6 +45,7 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TITLE_APPMODE
+archived: true
 ---
 
 # DVD_TITLE_APPMODE enumeration
