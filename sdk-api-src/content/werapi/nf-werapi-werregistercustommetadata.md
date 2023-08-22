@@ -41,7 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-1.dll
  - KernelBase.dll
 api_name:
  - WerRegisterCustomMetadata

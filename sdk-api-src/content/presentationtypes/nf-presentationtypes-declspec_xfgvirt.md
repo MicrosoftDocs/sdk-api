@@ -5,7 +5,6 @@ title: DECLSPEC_XFGVIRT
 description: The DECLSPEC_XFGVIRT function is part of the presentationtypes.h header used by composition swapchain.
 ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

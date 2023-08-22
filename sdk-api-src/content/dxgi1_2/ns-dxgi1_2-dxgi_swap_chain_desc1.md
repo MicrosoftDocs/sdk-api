@@ -153,8 +153,8 @@ For a <a href="/windows/desktop/direct3ddxgi/dxgi-flip-model">flip-model</a> swa
      value set in the <b>SwapEffect</b> member), you must set the 
      <b>Format</b> member to 
      <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R16G16B16A16_FLOAT</a>, 
-     <b>DXGI_FORMAT_B8G8R8A8_UNORM</b>, or 
-     <b>DXGI_FORMAT_R8G8B8A8_UNORM</b>; you must set the 
+     <b>DXGI_FORMAT_B8G8R8A8_UNORM</b>, 
+     <b>DXGI_FORMAT_R8G8B8A8_UNORM</b>, or <b>DXGI_FORMAT_R10G10B10A10_UNORM</b>; you must set the 
      <b>Count</b> member of the 
      <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a> structure that the 
      <b>SampleDesc</b> member specifies to one and the <b>Quality</b> member 

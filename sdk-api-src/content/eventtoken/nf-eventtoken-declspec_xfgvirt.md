@@ -40,8 +40,6 @@ f1_keywords:
  - eventtoken/DECLSPEC_XFGVIRT
 dev_langs:
  - c++
-helpviewer_keywords:
- - DECLSPEC_XFGVIRT
 ---
 
 DECLSPEC_XFGVIRT function (eventtoken.h)

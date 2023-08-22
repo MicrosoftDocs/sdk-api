@@ -2,7 +2,7 @@
 UID: NF:winuser.GetIconInfoExA
 title: GetIconInfoExA function (winuser.h)
 description: Retrieves information about the specified icon or cursor. GetIconInfoEx extends GetIconInfo by using the newer ICONINFOEX structure. (ANSI)
-helpviewer_keywords: ["GetIconInfoExA" "winuser/GetIconInfoExA"]
+helpviewer_keywords: ["GetIconInfoExA", "winuser/GetIconInfoExA"]
 old-location: menurc\geticoninfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfoex.htm
