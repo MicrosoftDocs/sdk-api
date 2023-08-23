@@ -46,9 +46,6 @@ api_name:
  - IInputPaneInterop.GetIids
 ---
 
-# IInspectable::GetIids
-
-
 ## -description
 
 Gets the interfaces that are implemented by the current Windows Runtime class.
@@ -113,6 +110,6 @@ The caller is responsible for freeing the IID array by using the <a href="/windo
 
 <a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+
+[winrt::get_interfaces](/uwp/cpp-ref-for-winrt/get-interfaces)
