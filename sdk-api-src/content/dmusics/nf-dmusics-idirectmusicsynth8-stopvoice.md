@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.StopVoice
+archived: true
 ---
 
 # IDirectMusicSynth8::StopVoice

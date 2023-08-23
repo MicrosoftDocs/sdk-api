@@ -45,6 +45,7 @@ api_location:
  - Dmusics.h
 api_name:
  - DMUS_VOICE_STATE
+archived: true
 ---
 
 # DMUS_VOICE_STATE structure

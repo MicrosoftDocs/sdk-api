@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth8
+archived: true
 ---
 
 # IDirectMusicSynth8 interface

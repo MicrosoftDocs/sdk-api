@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.Refresh
+archived: true
 ---
 
 # IDirectMusicSynth8::Refresh

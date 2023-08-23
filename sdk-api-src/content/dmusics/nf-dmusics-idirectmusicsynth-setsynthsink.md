@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.SetSynthSink
+archived: true
 ---
 
 # IDirectMusicSynth::SetSynthSink

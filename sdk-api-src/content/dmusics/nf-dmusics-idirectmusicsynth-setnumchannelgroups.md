@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.SetNumChannelGroups
+archived: true
 ---
 
 # IDirectMusicSynth::SetNumChannelGroups

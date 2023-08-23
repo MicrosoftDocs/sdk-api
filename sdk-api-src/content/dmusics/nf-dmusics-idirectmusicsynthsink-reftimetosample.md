@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.RefTimeToSample
+archived: true
 ---
 
 # IDirectMusicSynthSink::RefTimeToSample

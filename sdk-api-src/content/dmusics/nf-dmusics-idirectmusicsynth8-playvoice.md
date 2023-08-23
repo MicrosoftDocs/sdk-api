@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.PlayVoice
+archived: true
 ---
 
 # IDirectMusicSynth8::PlayVoice

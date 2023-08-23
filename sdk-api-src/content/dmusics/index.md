@@ -9,6 +9,7 @@ tech.root: audio
 f1_keywords:
  - dmusics
  - dmusics/dmusics
+archived: true
 ---
 
 # Dmusics.h header
