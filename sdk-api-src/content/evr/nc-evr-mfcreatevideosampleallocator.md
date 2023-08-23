@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoSampleAllocator
+archived: true
 ---
 
 # MFCreateVideoSampleAllocator callback function

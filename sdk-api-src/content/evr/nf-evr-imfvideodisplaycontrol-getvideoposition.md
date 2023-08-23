@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetVideoPosition
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetVideoPosition

@@ -44,6 +44,7 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFDesiredSample
+archived: true
 ---
 
 # IMFDesiredSample interface

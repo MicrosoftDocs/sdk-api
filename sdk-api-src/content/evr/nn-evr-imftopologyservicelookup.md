@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFTopologyServiceLookup
+archived: true
 ---
 
 # IMFTopologyServiceLookup interface

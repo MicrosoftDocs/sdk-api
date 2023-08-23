@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - IEVRFilterConfigEx.GetConfigPrefs
+archived: true
 ---
 
 # IEVRFilterConfigEx::GetConfigPrefs

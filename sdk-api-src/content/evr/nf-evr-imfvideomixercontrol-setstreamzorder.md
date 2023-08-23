@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoMixerControl.SetStreamZOrder
+archived: true
 ---
 
 # IMFVideoMixerControl::SetStreamZOrder

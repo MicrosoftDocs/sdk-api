@@ -44,6 +44,7 @@ api_location:
  - mfuuid.dll
 api_name:
  - IEVRTrustedVideoPlugin.SetConstriction
+archived: true
 ---
 
 # IEVRTrustedVideoPlugin::SetConstriction

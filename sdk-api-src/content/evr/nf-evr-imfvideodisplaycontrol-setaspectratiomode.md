@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetAspectRatioMode
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetAspectRatioMode

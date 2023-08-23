@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFDesiredSample.Clear
+archived: true
 ---
 
 # IMFDesiredSample::Clear

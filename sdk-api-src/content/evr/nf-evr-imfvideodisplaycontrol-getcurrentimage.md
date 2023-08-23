@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetCurrentImage
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetCurrentImage

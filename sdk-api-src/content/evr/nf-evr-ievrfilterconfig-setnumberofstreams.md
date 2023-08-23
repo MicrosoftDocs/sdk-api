@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IEVRFilterConfig.SetNumberOfStreams
+archived: true
 ---
 
 # IEVRFilterConfig::SetNumberOfStreams

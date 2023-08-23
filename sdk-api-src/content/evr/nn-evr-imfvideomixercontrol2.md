@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - IMFVideoMixerControl2
+archived: true
 ---
 
 # IMFVideoMixerControl2 interface

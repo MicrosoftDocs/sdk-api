@@ -45,6 +45,7 @@ api_location:
  - evr.h
 api_name:
  - MFVideoMixPrefs
+archived: true
 ---
 
 # MFVideoMixPrefs enumeration

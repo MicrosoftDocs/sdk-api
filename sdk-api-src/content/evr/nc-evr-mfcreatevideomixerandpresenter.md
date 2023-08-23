@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoMixerAndPresenter
+archived: true
 ---
 
 # MFCreateVideoMixerAndPresenter callback function

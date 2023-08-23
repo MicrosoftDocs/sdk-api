@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFVideoRenderPrefs
+archived: true
 ---
 
 # MFVideoRenderPrefs enumeration

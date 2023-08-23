@@ -45,6 +45,7 @@ api_location:
  - evr.h
 api_name:
  - EVRFilterConfigPrefs
+archived: true
 ---
 
 # EVRFilterConfigPrefs enumeration

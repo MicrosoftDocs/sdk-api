@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetBorderColor
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetBorderColor

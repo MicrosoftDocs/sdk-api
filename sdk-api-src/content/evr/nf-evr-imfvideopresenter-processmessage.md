@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoPresenter.ProcessMessage
+archived: true
 ---
 
 # IMFVideoPresenter::ProcessMessage

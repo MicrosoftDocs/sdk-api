@@ -9,6 +9,7 @@ tech.root: mf
 f1_keywords:
  - evr
  - evr/evr
+archived: true
 ---
 
 # Evr.h header

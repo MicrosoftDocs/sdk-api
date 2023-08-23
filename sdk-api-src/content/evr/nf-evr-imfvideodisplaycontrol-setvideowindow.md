@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetVideoWindow
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetVideoWindow

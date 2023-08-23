@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFVP_MESSAGE_TYPE
+archived: true
 ---
 
 # MFVP_MESSAGE_TYPE enumeration

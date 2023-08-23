@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoMixerControl.SetStreamOutputRect
+archived: true
 ---
 
 # IMFVideoMixerControl::SetStreamOutputRect

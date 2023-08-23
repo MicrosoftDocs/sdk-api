@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetRenderingPrefs
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetRenderingPrefs
