@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetCurrentImage (evr.h)
 description: Gets a copy of the current image being displayed by the video renderer.
 helpviewer_keywords: ["25ec4c23-04dd-4e18-9cc1-de9e57271e8f","GetCurrentImage","GetCurrentImage method [Media Foundation]","GetCurrentImage method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetCurrentImage method","IMFVideoDisplayControl.GetCurrentImage","IMFVideoDisplayControl::GetCurrentImage","evr/IMFVideoDisplayControl::GetCurrentImage","mf.imfvideodisplaycontrol_getcurrentimage"]
 old-location: mf\imfvideodisplaycontrol_getcurrentimage.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f
 ms.date: 12/05/2018
 ms.keywords: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f, GetCurrentImage, GetCurrentImage method [Media Foundation], GetCurrentImage method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetCurrentImage method, IMFVideoDisplayControl.GetCurrentImage, IMFVideoDisplayControl::GetCurrentImage, evr/IMFVideoDisplayControl::GetCurrentImage, mf.imfvideodisplaycontrol_getcurrentimage

@@ -4,7 +4,7 @@ title: MFCreateVideoMixer (evr.h)
 description: Creates the default video mixer for the enhanced video renderer (EVR).
 helpviewer_keywords: ["MFCreateVideoMixer","MFCreateVideoMixer callback","MFCreateVideoMixer callback function [Media Foundation]","evr/MFCreateVideoMixer","fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e","mf.mfcreatevideomixer"]
 old-location: mf\mfcreatevideomixer.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoMixer, MFCreateVideoMixer callback, MFCreateVideoMixer callback function [Media Foundation], evr/MFCreateVideoMixer, fd817e1b-6f11-4cdc-aa21-e4ecda16bf1e, mf.mfcreatevideomixer

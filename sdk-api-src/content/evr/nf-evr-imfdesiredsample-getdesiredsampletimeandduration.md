@@ -4,7 +4,7 @@ title: IMFDesiredSample::GetDesiredSampleTimeAndDuration (evr.h)
 description: Called by the mixer to get the time and duration of the sample requested by the presenter.
 helpviewer_keywords: ["095202ed-0272-4bda-a268-6a407ef74a94","GetDesiredSampleTimeAndDuration","GetDesiredSampleTimeAndDuration method [Media Foundation]","GetDesiredSampleTimeAndDuration method [Media Foundation]","IMFDesiredSample interface","IMFDesiredSample interface [Media Foundation]","GetDesiredSampleTimeAndDuration method","IMFDesiredSample.GetDesiredSampleTimeAndDuration","IMFDesiredSample::GetDesiredSampleTimeAndDuration","evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration","mf.imfdesiredsample_getdesiredsampletimeandduration"]
 old-location: mf\imfdesiredsample_getdesiredsampletimeandduration.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
 ms.date: 12/05/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],GetDesiredSampleTimeAndDuration method, IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration

@@ -4,7 +4,7 @@ title: IMFVideoMixerControl (evr.h)
 description: Controls how the Enhanced Video Renderer (EVR) mixes video substreams.
 helpviewer_keywords: ["8b5f54e3-c6da-4201-857a-9c718ad911db","IMFVideoMixerControl","IMFVideoMixerControl interface [Media Foundation]","IMFVideoMixerControl interface [Media Foundation]","described","evr/IMFVideoMixerControl","mf.imfvideomixercontrol"]
 old-location: mf\imfvideomixercontrol.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.date: 12/05/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol

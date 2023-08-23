@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetRenderingPrefs (evr.h)
 description: Sets various preferences related to video rendering.
 helpviewer_keywords: ["7603aaf8-1671-4b35-bee5-335f656de3c5","IMFVideoDisplayControl interface [Media Foundation]","SetRenderingPrefs method","IMFVideoDisplayControl.SetRenderingPrefs","IMFVideoDisplayControl::SetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [Media Foundation]","SetRenderingPrefs method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetRenderingPrefs","mf.imfvideodisplaycontrol_setrenderingprefs"]
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5
 ms.date: 12/05/2018
 ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl interface [Media Foundation],SetRenderingPrefs method, IMFVideoDisplayControl.SetRenderingPrefs, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs

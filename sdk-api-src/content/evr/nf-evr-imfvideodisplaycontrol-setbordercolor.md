@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetBorderColor (evr.h)
 description: Sets the border color for the video.
 helpviewer_keywords: ["4a3647a8-4789-4f18-979b-4a9ee1ce7b71","IMFVideoDisplayControl interface [Media Foundation]","SetBorderColor method","IMFVideoDisplayControl.SetBorderColor","IMFVideoDisplayControl::SetBorderColor","SetBorderColor","SetBorderColor method [Media Foundation]","SetBorderColor method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetBorderColor","mf.imfvideodisplaycontrol_setbordercolor"]
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
 ms.date: 12/05/2018
 ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor

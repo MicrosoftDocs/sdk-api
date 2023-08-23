@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetFullscreen (evr.h)
 description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 helpviewer_keywords: ["GetFullscreen","GetFullscreen method [Media Foundation]","GetFullscreen method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetFullscreen method","IMFVideoDisplayControl.GetFullscreen","IMFVideoDisplayControl::GetFullscreen","ee564655-be8a-46f7-9682-acf3b38d056a","evr/IMFVideoDisplayControl::GetFullscreen","mf.imfvideodisplaycontrol_getfullscreen"]
 old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
 ms.date: 12/05/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
