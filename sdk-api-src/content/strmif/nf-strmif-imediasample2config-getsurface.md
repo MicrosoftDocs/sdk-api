@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample2Config.GetSurface
-archived: true
 ---
 
 # IMediaSample2Config::GetSurface

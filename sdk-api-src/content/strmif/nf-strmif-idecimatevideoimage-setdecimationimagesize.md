@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDecimateVideoImage.SetDecimationImageSize
-archived: true
 ---
 
 # IDecimateVideoImage::SetDecimationImageSize

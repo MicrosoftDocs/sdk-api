@@ -47,7 +47,6 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPCommand
-archived: true
 ---
 
 # AMCOPPCommand structure

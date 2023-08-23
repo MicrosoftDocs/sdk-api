@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IConfigInterleaving.get_Mode
-archived: true
 ---
 
 # IConfigInterleaving::get_Mode

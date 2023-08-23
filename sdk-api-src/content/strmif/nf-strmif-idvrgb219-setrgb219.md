@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDVRGB219.SetRGB219
-archived: true
 ---
 
 # IDVRGB219::SetRGB219

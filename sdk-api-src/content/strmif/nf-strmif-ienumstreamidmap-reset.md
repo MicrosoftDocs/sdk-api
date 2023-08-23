@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumStreamIdMap.Reset
-archived: true
 ---
 
 # IEnumStreamIdMap::Reset

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IPin.Disconnect
-archived: true
 ---
 
 # IPin::Disconnect

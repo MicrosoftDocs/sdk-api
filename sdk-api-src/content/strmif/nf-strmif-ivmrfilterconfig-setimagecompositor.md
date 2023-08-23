@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRFilterConfig.SetImageCompositor
-archived: true
 ---
 
 # IVMRFilterConfig::SetImageCompositor

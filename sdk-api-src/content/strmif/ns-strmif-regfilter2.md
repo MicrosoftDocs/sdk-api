@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - REGFILTER2
-archived: true
 ---
 
 # REGFILTER2 structure

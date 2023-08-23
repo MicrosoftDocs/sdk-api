@@ -42,7 +42,6 @@ targetos: Windows
 req.typenames: TIMECODE
 req.redist: 
 ms.custom: 19H1
-archived: true
 ---
 
 # TIMECODE structure

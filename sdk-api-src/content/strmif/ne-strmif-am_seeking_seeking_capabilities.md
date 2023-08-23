@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_SEEKING_SEEKING_CAPABILITIES
-archived: true
 ---
 
 # AM_SEEKING_SEEKING_CAPABILITIES enumeration

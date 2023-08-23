@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCopyCaptureFileProgress.Progress
-archived: true
 ---
 
 # IAMCopyCaptureFileProgress::Progress

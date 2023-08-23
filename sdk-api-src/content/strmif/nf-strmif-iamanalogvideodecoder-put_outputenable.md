@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAnalogVideoDecoder.put_OutputEnable
-archived: true
 ---
 
 # IAMAnalogVideoDecoder::put_OutputEnable

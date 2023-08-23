@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AM_OVERLAY_NOTIFY_FLAGS
-archived: true
 ---
 
 # _AM_OVERLAY_NOTIFY_FLAGS enumeration

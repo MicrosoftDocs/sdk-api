@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MUA_MixingInfo
-archived: true
 ---
 
 # DVD_MUA_MixingInfo structure

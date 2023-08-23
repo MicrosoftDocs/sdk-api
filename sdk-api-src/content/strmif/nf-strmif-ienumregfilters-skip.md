@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IEnumRegFilters.Skip
-archived: true
 ---
 
 # IEnumRegFilters::Skip

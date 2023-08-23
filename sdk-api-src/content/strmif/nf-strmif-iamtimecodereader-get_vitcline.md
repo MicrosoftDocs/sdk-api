@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeReader.get_VITCLine
-archived: true
 ---
 
 # IAMTimecodeReader::get_VITCLine

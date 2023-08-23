@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_DVD_GRAPH_FLAGS
-archived: true
 ---
 
 # AM_DVD_GRAPH_FLAGS enumeration

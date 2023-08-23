@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IReferenceClock.AdviseTime
-archived: true
 ---
 
 # IReferenceClock::AdviseTime

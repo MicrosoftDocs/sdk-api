@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.SelectAudioStream
-archived: true
 ---
 
 # IDvdControl2::SelectAudioStream

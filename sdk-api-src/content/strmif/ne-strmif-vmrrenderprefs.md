@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRRenderPrefs
-archived: true
 ---
 
 # VMRRenderPrefs enumeration

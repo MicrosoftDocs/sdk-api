@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_OPTION_FLAG
-archived: true
 ---
 
 # DVD_OPTION_FLAG enumeration

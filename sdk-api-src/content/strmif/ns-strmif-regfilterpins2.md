@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - REGFILTERPINS2
-archived: true
 ---
 
 # REGFILTERPINS2 structure

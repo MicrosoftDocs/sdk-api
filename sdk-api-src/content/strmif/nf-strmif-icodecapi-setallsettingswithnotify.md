@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICodecAPI.SetAllSettingsWithNotify
-archived: true
 ---
 
 # ICodecAPI::SetAllSettingsWithNotify

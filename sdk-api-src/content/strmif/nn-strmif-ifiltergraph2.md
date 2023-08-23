@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterGraph2
-archived: true
 ---
 
 # IFilterGraph2 interface

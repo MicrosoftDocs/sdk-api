@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.Logon
-archived: true
 ---
 
 # IAMTuner::Logon

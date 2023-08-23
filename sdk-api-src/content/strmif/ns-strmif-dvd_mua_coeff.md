@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MUA_Coeff
-archived: true
 ---
 
 # DVD_MUA_Coeff structure

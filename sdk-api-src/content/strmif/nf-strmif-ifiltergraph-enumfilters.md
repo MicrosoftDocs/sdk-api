@@ -46,7 +46,6 @@ api_name:
  - IFilterGraph.EnumFilters
  - IGraphBuilder.EnumFilters
  - IGraphBuilder.EnumFilters
-archived: true
 ---
 
 # IFilterGraph::EnumFilters

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IIPDVDec.put_IPDisplay
-archived: true
 ---
 
 # IIPDVDec::put_IPDisplay

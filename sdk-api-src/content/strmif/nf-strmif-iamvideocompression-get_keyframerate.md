@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoCompression.get_KeyFrameRate
-archived: true
 ---
 
 # IAMVideoCompression::get_KeyFrameRate

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterChain.StopChain
-archived: true
 ---
 
 # IFilterChain::StopChain

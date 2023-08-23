@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IAMPhysicalPinInfo.GetPhysicalType
-archived: true
 ---
 
 # IAMPhysicalPinInfo::GetPhysicalType

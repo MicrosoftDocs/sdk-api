@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMemAllocatorCallbackTemp.SetNotify
-archived: true
 ---
 
 # IMemAllocatorCallbackTemp::SetNotify

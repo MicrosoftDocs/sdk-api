@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AM_FILTER_MISC_FLAGS
-archived: true
 ---
 
 # _AM_FILTER_MISC_FLAGS enumeration

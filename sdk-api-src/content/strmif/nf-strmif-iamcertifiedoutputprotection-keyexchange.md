@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCertifiedOutputProtection.KeyExchange
-archived: true
 ---
 
 # IAMCertifiedOutputProtection::KeyExchange

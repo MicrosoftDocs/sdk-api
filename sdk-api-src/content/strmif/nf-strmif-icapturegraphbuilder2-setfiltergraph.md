@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.SetFiltergraph
-archived: true
 ---
 
 # ICaptureGraphBuilder2::SetFiltergraph

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMemAllocator.SetProperties
-archived: true
 ---
 
 # IMemAllocator::SetProperties

@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_AUDIO_FORMAT
-archived: true
 ---
 
 # DVD_AUDIO_FORMAT enumeration

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetNumberOfChapters
-archived: true
 ---
 
 # IDvdInfo2::GetNumberOfChapters

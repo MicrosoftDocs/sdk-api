@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamConfig.GetNumberOfCapabilities
-archived: true
 ---
 
 # IAMStreamConfig::GetNumberOfCapabilities

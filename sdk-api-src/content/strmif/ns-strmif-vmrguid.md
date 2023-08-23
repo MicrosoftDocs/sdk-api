@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRGUID
-archived: true
 ---
 
 # VMRGUID structure

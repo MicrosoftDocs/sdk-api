@@ -43,7 +43,6 @@ api_location:
  - Quartz.dll
 api_name:
  - ICaptureGraphBuilder.SetOutputFileName
-archived: true
 ---
 
 # ICaptureGraphBuilder::SetOutputFileName

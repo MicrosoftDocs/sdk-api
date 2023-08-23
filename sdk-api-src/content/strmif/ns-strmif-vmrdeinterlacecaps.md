@@ -46,7 +46,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRDeinterlaceCaps
-archived: true
 ---
 
 # VMRDeinterlaceCaps structure

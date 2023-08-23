@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.ChapterSearch
-archived: true
 ---
 
 # IDvdControl::ChapterSearch

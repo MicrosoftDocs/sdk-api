@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterGraph2.RenderEx
-archived: true
 ---
 
 # IFilterGraph2::RenderEx

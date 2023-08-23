@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TextCharSet
-archived: true
 ---
 
 # DVD_TextCharSet enumeration

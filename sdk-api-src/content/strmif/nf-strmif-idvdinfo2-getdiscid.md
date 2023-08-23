@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetDiscID
-archived: true
 ---
 
 # IDvdInfo2::GetDiscID

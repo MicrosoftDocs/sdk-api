@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_CMD_FLAGS
-archived: true
 ---
 
 # DVD_CMD_FLAGS enumeration

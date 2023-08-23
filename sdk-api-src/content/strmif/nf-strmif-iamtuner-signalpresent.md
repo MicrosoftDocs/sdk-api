@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.SignalPresent
-archived: true
 ---
 
 # IAMTuner::SignalPresent

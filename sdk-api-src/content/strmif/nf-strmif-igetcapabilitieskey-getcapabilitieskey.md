@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGetCapabilitiesKey.GetCapabilitiesKey
-archived: true
 ---
 
 # IGetCapabilitiesKey::GetCapabilitiesKey

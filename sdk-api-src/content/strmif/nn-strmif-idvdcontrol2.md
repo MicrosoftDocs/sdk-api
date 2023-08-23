@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2
-archived: true
 ---
 
 # IDvdControl2 interface

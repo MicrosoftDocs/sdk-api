@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMCrossbar.get_CrossbarPinInfo
-archived: true
 ---
 
 # IAMCrossbar::get_CrossbarPinInfo

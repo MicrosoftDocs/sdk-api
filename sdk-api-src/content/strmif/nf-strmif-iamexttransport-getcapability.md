@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.GetCapability
-archived: true
 ---
 
 # IAMExtTransport::GetCapability

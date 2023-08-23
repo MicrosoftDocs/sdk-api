@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - tagAM_SAMPLE_PROPERTY_FLAGS
-archived: true
 ---
 
 # tagAM_SAMPLE_PROPERTY_FLAGS enumeration

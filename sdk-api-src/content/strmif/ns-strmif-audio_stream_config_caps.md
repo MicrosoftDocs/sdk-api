@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - AUDIO_STREAM_CONFIG_CAPS
-archived: true
 ---
 
 # AUDIO_STREAM_CONFIG_CAPS structure

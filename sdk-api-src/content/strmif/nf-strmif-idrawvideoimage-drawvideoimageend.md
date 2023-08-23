@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDrawVideoImage.DrawVideoImageEnd
-archived: true
 ---
 
 # IDrawVideoImage::DrawVideoImageEnd

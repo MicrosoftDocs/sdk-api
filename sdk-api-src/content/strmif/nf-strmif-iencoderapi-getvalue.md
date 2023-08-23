@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEncoderAPI.GetValue
-archived: true
 ---
 
 # IEncoderAPI::GetValue

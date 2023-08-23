@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRSurfaceAllocationFlags
-archived: true
 ---
 
 # VMRSurfaceAllocationFlags enumeration

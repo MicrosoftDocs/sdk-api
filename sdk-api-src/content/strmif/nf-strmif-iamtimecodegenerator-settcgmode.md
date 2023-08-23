@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeGenerator.SetTCGMode
-archived: true
 ---
 
 # IAMTimecodeGenerator::SetTCGMode

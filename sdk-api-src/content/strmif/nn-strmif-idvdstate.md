@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdState
-archived: true
 ---
 
 # IDvdState interface

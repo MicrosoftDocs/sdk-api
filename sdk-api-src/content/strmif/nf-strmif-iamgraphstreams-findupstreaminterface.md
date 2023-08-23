@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMGraphStreams.FindUpstreamInterface
-archived: true
 ---
 
 # IAMGraphStreams::FindUpstreamInterface

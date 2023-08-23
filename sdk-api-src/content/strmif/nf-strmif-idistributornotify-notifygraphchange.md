@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDistributorNotify.NotifyGraphChange
-archived: true
 ---
 
 # IDistributorNotify::NotifyGraphChange

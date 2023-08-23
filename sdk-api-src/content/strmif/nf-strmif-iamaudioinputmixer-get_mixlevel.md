@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAudioInputMixer.get_MixLevel
-archived: true
 ---
 
 # IAMAudioInputMixer::get_MixLevel

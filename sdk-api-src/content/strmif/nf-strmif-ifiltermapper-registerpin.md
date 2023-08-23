@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IFilterMapper.RegisterPin
-archived: true
 ---
 
 # IFilterMapper::RegisterPin

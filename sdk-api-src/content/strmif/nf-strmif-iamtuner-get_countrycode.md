@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.get_CountryCode
-archived: true
 ---
 
 # IAMTuner::get_CountryCode

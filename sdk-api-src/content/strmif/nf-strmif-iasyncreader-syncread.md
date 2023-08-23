@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAsyncReader.SyncRead
-archived: true
 ---
 
 # IAsyncReader::SyncRead

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICodecAPI.IsSupported
-archived: true
 ---
 
 # ICodecAPI::IsSupported

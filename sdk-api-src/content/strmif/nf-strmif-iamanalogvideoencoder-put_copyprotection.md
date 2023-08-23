@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IAMAnalogVideoEncoder.put_CopyProtection
-archived: true
 ---
 
 # IAMAnalogVideoEncoder::put_CopyProtection

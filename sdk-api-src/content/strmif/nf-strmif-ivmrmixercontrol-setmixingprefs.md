@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerControl.SetMixingPrefs
-archived: true
 ---
 
 # IVMRMixerControl::SetMixingPrefs

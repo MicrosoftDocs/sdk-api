@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IAMPluginControl.GetPreferredClsidByIndex
-archived: true
 ---
 
 # IAMPluginControl::GetPreferredClsidByIndex

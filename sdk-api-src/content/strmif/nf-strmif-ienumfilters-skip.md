@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumFilters.Skip
-archived: true
 ---
 
 # IEnumFilters::Skip

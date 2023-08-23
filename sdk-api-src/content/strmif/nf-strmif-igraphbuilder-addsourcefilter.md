@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphBuilder.AddSourceFilter
-archived: true
 ---
 
 # IGraphBuilder::AddSourceFilter

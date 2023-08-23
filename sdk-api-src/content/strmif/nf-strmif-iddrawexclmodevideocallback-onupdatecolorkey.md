@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDDrawExclModeVideoCallback.OnUpdateColorKey
-archived: true
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateColorKey

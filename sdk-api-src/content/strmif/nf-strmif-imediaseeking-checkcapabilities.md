@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.CheckCapabilities
-archived: true
 ---
 
 # IMediaSeeking::CheckCapabilities

@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - QualityMessageType
-archived: true
 ---
 
 # QualityMessageType enumeration

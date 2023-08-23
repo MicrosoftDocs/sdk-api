@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_SUBPICTURE_LANG_EXT
-archived: true
 ---
 
 # DVD_SUBPICTURE_LANG_EXT enumeration

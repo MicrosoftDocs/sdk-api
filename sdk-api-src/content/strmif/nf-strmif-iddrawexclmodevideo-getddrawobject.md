@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDDrawExclModeVideo.GetDDrawObject
-archived: true
 ---
 
 # IDDrawExclModeVideo::GetDDrawObject

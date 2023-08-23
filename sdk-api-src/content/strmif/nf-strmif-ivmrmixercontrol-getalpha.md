@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerControl.GetAlpha
-archived: true
 ---
 
 # IVMRMixerControl::GetAlpha

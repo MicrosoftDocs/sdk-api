@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - _AM_INTF_SEARCH_FLAGS
-archived: true
 ---
 
 # _AM_INTF_SEARCH_FLAGS enumeration

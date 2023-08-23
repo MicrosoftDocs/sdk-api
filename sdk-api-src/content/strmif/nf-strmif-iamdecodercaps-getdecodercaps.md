@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMDecoderCaps.GetDecoderCaps
-archived: true
 ---
 
 # IAMDecoderCaps::GetDecoderCaps

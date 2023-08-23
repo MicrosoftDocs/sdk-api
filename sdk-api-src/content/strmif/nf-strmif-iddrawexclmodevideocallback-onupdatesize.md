@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDDrawExclModeVideoCallback.OnUpdateSize
-archived: true
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateSize

@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AMRESCTL_RESERVEFLAGS
-archived: true
 ---
 
 # _AMRESCTL_RESERVEFLAGS enumeration

@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - ICaptureGraphBuilder.ControlStream
-archived: true
 ---
 
 # ICaptureGraphBuilder::ControlStream

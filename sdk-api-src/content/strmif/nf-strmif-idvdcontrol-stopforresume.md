@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.StopForResume
-archived: true
 ---
 
 # IDvdControl::StopForResume

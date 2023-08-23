@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.TopPGSearch
-archived: true
 ---
 
 # IDvdControl::TopPGSearch

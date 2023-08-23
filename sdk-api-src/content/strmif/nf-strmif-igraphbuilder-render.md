@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphBuilder.Render
-archived: true
 ---
 
 # IGraphBuilder::Render

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVAudio.RegisterNotificationCallBack
-archived: true
 ---
 
 # IAMTVAudio::RegisterNotificationCallBack

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoControl.GetMode
-archived: true
 ---
 
 # IAMVideoControl::GetMode

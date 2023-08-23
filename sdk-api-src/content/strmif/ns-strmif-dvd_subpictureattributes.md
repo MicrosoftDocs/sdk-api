@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_SubpictureAttributes
-archived: true
 ---
 
 # DVD_SubpictureAttributes structure

@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IFilterMapper.UnregisterPin
-archived: true
 ---
 
 # IFilterMapper::UnregisterPin

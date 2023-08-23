@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdInfo.GetPlayerParentalLevel
-archived: true
 ---
 
 # IDvdInfo::GetPlayerParentalLevel

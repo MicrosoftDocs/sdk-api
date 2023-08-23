@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - InterleavingMode
-archived: true
 ---
 
 # InterleavingMode enumeration

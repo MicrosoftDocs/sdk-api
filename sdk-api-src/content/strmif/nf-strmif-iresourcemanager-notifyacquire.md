@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceManager.NotifyAcquire
-archived: true
 ---
 
 # IResourceManager::NotifyAcquire

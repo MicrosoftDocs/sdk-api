@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterChain
-archived: true
 ---
 
 # IFilterChain interface

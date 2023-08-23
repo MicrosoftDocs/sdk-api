@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetAudioLanguage
-archived: true
 ---
 
 # IDvdInfo2::GetAudioLanguage

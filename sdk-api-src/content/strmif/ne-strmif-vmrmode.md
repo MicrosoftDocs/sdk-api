@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRMode
-archived: true
 ---
 
 # VMRMode enumeration

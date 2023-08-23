@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_SAMPLE2_PROPERTIES
-archived: true
 ---
 
 # AM_SAMPLE2_PROPERTIES structure

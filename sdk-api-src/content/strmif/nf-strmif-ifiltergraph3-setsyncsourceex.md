@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterGraph3.SetSyncSourceEx
-archived: true
 ---
 
 # IFilterGraph3::SetSyncSourceEx

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ISeekingPassThru.Init
-archived: true
 ---
 
 # ISeekingPassThru::Init

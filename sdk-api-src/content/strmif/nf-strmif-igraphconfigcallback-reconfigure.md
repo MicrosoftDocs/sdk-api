@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfigCallback.Reconfigure
-archived: true
 ---
 
 # IGraphConfigCallback::Reconfigure

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IGraphConfig.Reconnect
-archived: true
 ---
 
 # IGraphConfig::Reconnect

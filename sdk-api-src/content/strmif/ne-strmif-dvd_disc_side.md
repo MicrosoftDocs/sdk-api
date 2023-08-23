@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DISC_SIDE
-archived: true
 ---
 
 # DVD_DISC_SIDE enumeration

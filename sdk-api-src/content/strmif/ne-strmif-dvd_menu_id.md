@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MENU_ID
-archived: true
 ---
 
 # DVD_MENU_ID enumeration

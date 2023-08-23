@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamConfig.SetFormat
-archived: true
 ---
 
 # IAMStreamConfig::SetFormat

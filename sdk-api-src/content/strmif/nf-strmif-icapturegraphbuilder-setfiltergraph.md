@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - ICaptureGraphBuilder.SetFiltergraph
-archived: true
 ---
 
 # ICaptureGraphBuilder::SetFiltergraph

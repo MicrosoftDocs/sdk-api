@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMemAllocatorCallbackTemp.GetFreeCount
-archived: true
 ---
 
 # IMemAllocatorCallbackTemp::GetFreeCount

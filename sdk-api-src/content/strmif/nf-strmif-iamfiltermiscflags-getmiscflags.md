@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMFilterMiscFlags.GetMiscFlags
-archived: true
 ---
 
 # IAMFilterMiscFlags::GetMiscFlags

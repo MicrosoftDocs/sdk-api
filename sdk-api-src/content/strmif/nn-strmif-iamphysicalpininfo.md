@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - IAMPhysicalPinInfo
-archived: true
 ---
 
 # IAMPhysicalPinInfo interface

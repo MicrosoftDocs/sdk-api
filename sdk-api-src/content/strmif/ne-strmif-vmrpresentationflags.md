@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRPresentationFlags
-archived: true
 ---
 
 # VMRPresentationFlags enumeration

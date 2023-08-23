@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IEnumFilters
-archived: true
 ---
 
 # IEnumFilters interface

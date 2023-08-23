@@ -46,7 +46,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRMONITORINFO
-archived: true
 ---
 
 # VMRMONITORINFO structure

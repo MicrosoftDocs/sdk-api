@@ -43,7 +43,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdControl.RightButtonSelect
-archived: true
 ---
 
 # IDvdControl::RightButtonSelect

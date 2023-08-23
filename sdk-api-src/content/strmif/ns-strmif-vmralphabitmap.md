@@ -47,7 +47,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRALPHABITMAP
-archived: true
 ---
 
 # VMRALPHABITMAP structure

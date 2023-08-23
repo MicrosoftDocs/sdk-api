@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFileSourceFilter.Load
-archived: true
 ---
 
 # IFileSourceFilter::Load

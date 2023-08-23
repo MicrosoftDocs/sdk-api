@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IResourceManager.NotifyRelease
-archived: true
 ---
 
 # IResourceManager::NotifyRelease

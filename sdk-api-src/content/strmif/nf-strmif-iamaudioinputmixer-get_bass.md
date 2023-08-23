@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAudioInputMixer.get_Bass
-archived: true
 ---
 
 # IAMAudioInputMixer::get_Bass

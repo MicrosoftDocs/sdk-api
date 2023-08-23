@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.IsUsingTimeFormat
-archived: true
 ---
 
 # IMediaSeeking::IsUsingTimeFormat

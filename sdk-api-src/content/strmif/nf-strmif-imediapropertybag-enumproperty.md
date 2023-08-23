@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaPropertyBag.EnumProperty
-archived: true
 ---
 
 # IMediaPropertyBag::EnumProperty

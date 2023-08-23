@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamControl.StopAt
-archived: true
 ---
 
 # IAMStreamControl::StopAt

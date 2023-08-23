@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IOverlay.GetVideoPosition
-archived: true
 ---
 
 # IOverlay::GetVideoPosition

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.get_LocalControl
-archived: true
 ---
 
 # IAMExtTransport::get_LocalControl

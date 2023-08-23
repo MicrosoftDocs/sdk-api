@@ -45,7 +45,6 @@ api_location:
  - Strmif.h
 api_name:
  - AM_DVD_STREAM_FLAGS
-archived: true
 ---
 
 # AM_DVD_STREAM_FLAGS enumeration

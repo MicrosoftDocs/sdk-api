@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_GRAPH_CONFIG_RECONNECT_FLAGS
-archived: true
 ---
 
 # AM_GRAPH_CONFIG_RECONNECT_FLAGS enumeration

@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_FRAMERATE
-archived: true
 ---
 
 # DVD_FRAMERATE enumeration

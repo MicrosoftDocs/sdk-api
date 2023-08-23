@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamSelect.Count
-archived: true
 ---
 
 # IAMStreamSelect::Count

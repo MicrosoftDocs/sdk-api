@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMPushSource.SetStreamOffset
-archived: true
 ---
 
 # IAMPushSource::SetStreamOffset

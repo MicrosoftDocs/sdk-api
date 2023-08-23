@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - IAMTunerNotification
-archived: true
 ---
 
 # IAMTunerNotification interface

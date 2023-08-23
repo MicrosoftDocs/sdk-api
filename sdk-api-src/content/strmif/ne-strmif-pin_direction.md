@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - PIN_DIRECTION
-archived: true
 ---
 
 # PIN_DIRECTION enumeration

@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAnalogVideoDecoder.get_TVFormat
-archived: true
 ---
 
 # IAMAnalogVideoDecoder::get_TVFormat

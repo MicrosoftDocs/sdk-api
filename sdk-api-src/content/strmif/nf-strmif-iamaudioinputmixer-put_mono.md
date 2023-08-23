@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAudioInputMixer.put_Mono
-archived: true
 ---
 
 # IAMAudioInputMixer::put_Mono

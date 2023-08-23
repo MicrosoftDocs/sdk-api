@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IFilterMapper2.UnregisterFilter
-archived: true
 ---
 
 # IFilterMapper2::UnregisterFilter

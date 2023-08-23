@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMExtTransport.put_MediaState
-archived: true
 ---
 
 # IAMExtTransport::put_MediaState

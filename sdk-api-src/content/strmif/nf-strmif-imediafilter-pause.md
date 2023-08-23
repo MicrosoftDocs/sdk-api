@@ -45,7 +45,6 @@ api_location:
 api_name:
  - IMediaFilter.Pause
  - IBaseFilter.Pause
-archived: true
 ---
 
 # IMediaFilter::Pause

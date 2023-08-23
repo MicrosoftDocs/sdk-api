@@ -45,7 +45,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_VideoAttributes
-archived: true
 ---
 
 # DVD_VideoAttributes structure

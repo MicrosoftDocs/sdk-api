@@ -43,7 +43,6 @@ api_location:
  - strmif.h
 api_name:
  - _REM_FILTER_FLAGS
-archived: true
 ---
 
 # _REM_FILTER_FLAGS enumeration

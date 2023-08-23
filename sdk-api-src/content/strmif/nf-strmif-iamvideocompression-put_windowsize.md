@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMVideoCompression.put_WindowSize
-archived: true
 ---
 
 # IAMVideoCompression::put_WindowSize

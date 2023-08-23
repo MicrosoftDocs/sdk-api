@@ -44,7 +44,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdInfo2.GetCurrentButton
-archived: true
 ---
 
 # IDvdInfo2::GetCurrentButton
