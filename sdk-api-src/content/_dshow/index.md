@@ -32,6 +32,7 @@ To develop DirectShow, you need these headers:
  * [dmoimpl.h](../dmoimpl/index.md)
  * [dmoreg.h](../dmoreg/index.md)
  * [dmort.h](../dmort/index.md)
+ * [dmusics.h](../dmusics/index.md)
  * [dshowasf.h](../dshowasf/index.md)
  * [dvdevcod.h](../dvdevcod/index.md)
  * [dvdmedia.h](../dvdmedia/index.md)
