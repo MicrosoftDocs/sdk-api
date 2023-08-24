@@ -54,9 +54,6 @@ Allows a sync provider to control how placeholder files should be hydrated by th
 > [!WARNING]
 > **CF_HYDRATION_POLICY_PARTIAL** policy is not currently supported.
 
-> [!NOTE]
-> Sync providers who opt in for **CF_HYDRATION_POLICY_PROGRESSIVE** may not assume that hydration callbacks arrive sequentially from offset 0. In other words, sync providers with **CF_HYDRATION_POLICY_PROGRESSIVE** policy are expected to handle random seeks on the placeholder.
-
 ## -enum-fields
 
 ### -field CF_HYDRATION_POLICY_PARTIAL:0
@@ -65,7 +62,7 @@ The same behavior as **CF_HYDRATION_POLICY_PROGRESSIVE**, except that **CF_HYDRA
 
 ### -field CF_HYDRATION_POLICY_PROGRESSIVE:1
 
-When **CF_HYDRATION_POLICY_PROGRESSIVE** is selected, the platform will allow a placeholder to be dehydrated. When the platform detects access to a dehydrated placeholder, it will complete the user IO request as soon as it determines that sufficient data is received from the sync provider. However, the platform will continue requesting the remaining content in the placeholder from the sync provider in the background until either the full content of the placeholder is available locally, or the last user handle on the placeholder is closed.
+When **CF_HYDRATION_POLICY_PROGRESSIVE** is selected, the platform will allow a placeholder to be dehydrated. When the platform detects access to a dehydrated placeholder, it will complete the user IO request as soon as it determines that sufficient data is received from the sync provider. However, the platform will continue requesting the remaining content in the placeholder from the sync provider in the background until either the full content of the placeholder is available locally, or the last user handle on the placeholder is closed. <br><br>**NOTE**<br>Sync providers who opt in for **CF_HYDRATION_POLICY_PROGRESSIVE** may not assume that hydration callbacks arrive sequentially from offset 0. In other words, sync providers with **CF_HYDRATION_POLICY_PROGRESSIVE** policy are expected to handle random seeks on the placeholder.
 
 ### -field CF_HYDRATION_POLICY_FULL:2
 
