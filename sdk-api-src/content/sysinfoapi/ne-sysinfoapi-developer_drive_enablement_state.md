@@ -4,7 +4,7 @@ tech.root: winprog
 title: DEVELOPER_DRIVE_ENABLEMENT_STATE (sysinfoapi.h)
 ms.date: 07/31/2023
 targetos: Windows
-description: Enum for possible values of developer drive enablement state.
+description: An enumeration of the possible values of the developer drive enablement state.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -34,6 +34,8 @@ dev_langs:
 helpviewer_keywords:
  - DEVELOPER_DRIVE_ENABLEMENT_STATE
 ---
+
+# DEVELOPER_DRIVE_ENABLEMENT_STATE enumeration
 
 ## -description
 
