@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetDeveloperDriveEnablementState
 ---
 
+# GetDeveloperDriveEnablementState function
+
 ## -description
 
 Gets a value indicating whether the developer drive is enabled.
