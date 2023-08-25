@@ -6,7 +6,7 @@ helpviewer_keywords: ["CF_CALLBACK_TYPE","CF_CALLBACK_TYPE enumeration","CF_CALL
 old-location: cloudapi\cf_callback_type.htm
 tech.root: cloudapi
 ms.assetid: 0BA978D3-110C-47FC-8949-C5D98A59654C
-ms.date: 03/27/2023
+ms.date: 08/25/2023
 ms.keywords: CF_CALLBACK_TYPE, CF_CALLBACK_TYPE enumeration, CF_CALLBACK_TYPE_CANCEL_FETCH_DATA, CF_CALLBACK_TYPE_CANCEL_FETCH_PLACEHOLDERS, CF_CALLBACK_TYPE_FETCH_DATA, CF_CALLBACK_TYPE_FETCH_PLACEHOLDERS, CF_CALLBACK_TYPE_NONE, CF_CALLBACK_TYPE_NOTIFY_DEHYDRATE, CF_CALLBACK_TYPE_NOTIFY_DEHYDRATE_COMPLETION, CF_CALLBACK_TYPE_NOTIFY_DELETE, CF_CALLBACK_TYPE_NOTIFY_DELETE_COMPLETION, CF_CALLBACK_TYPE_NOTIFY_FILE_CLOSE_COMPLETION, CF_CALLBACK_TYPE_NOTIFY_FILE_OPEN_COMPLETION, CF_CALLBACK_TYPE_NOTIFY_RENAME, CF_CALLBACK_TYPE_NOTIFY_RENAME_COMPLETION, CF_CALLBACK_TYPE_VALIDATE_DATA, cfapi/CF_CALLBACK_TYPE, cfapi/CF_CALLBACK_TYPE_CANCEL_FETCH_DATA, cfapi/CF_CALLBACK_TYPE_CANCEL_FETCH_PLACEHOLDERS, cfapi/CF_CALLBACK_TYPE_FETCH_DATA, cfapi/CF_CALLBACK_TYPE_FETCH_PLACEHOLDERS, cfapi/CF_CALLBACK_TYPE_NONE, cfapi/CF_CALLBACK_TYPE_NOTIFY_DEHYDRATE, cfapi/CF_CALLBACK_TYPE_NOTIFY_DEHYDRATE_COMPLETION, cfapi/CF_CALLBACK_TYPE_NOTIFY_DELETE, cfapi/CF_CALLBACK_TYPE_NOTIFY_DELETE_COMPLETION, cfapi/CF_CALLBACK_TYPE_NOTIFY_FILE_CLOSE_COMPLETION, cfapi/CF_CALLBACK_TYPE_NOTIFY_FILE_OPEN_COMPLETION, cfapi/CF_CALLBACK_TYPE_NOTIFY_RENAME, cfapi/CF_CALLBACK_TYPE_NOTIFY_RENAME_COMPLETION, cfapi/CF_CALLBACK_TYPE_VALIDATE_DATA, cloudApi.cf_callback_type
 req.header: cfapi.h
 req.include-header: 
@@ -75,11 +75,11 @@ This callback is used to inform the sync provider that the contents of a placeho
 
 ### -field CF_CALLBACK_TYPE_NOTIFY_FILE_OPEN_COMPLETION
 
-This callback is used to inform the sync provider that a placeholder under one of its sync roots has been successfully opened for read/write/delete access. The user application that performs the open is not blocked. No response is expected from the sync provider. Implementation of this callback is optional.
+This callback is used to inform the sync provider that a placeholder under one of its sync roots has been successfully opened for read/write/delete access. The user application that performs the open is not blocked. No response is expected from the sync provider. This notification doesn’t apply to directories. Implementation of this callback is optional.
 
 ### -field CF_CALLBACK_TYPE_NOTIFY_FILE_CLOSE_COMPLETION
 
-This callback is used to inform the sync provider that a placeholder under one of its sync roots that has been previously opened for read/write/delete access is now closed. The user application that performs the close is not blocked. No response is expected from the sync provider. Implementation of this callback is optional.
+This callback is used to inform the sync provider that a placeholder under one of its sync roots that has been previously opened for read/write/delete access is now closed. The user application that performs the close is not blocked. No response is expected from the sync provider. This notification doesn’t apply to directories. Implementation of this callback is optional.
 
 ### -field CF_CALLBACK_TYPE_NOTIFY_DEHYDRATE
 
