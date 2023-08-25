@@ -47,7 +47,7 @@ api_name:
 
 The **DisconnectEx** function closes a connection on a socket, and allows the socket handle to be reused.
 
-> [!Note]  
+> [!NOTE]  
 > This function is a Microsoft-specific extension to the Windows Sockets specification.
 
 ## -parameters
@@ -64,8 +64,9 @@ A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) stru
 
 A set of flags that customizes processing of the function call. When this parameter is set to zero, no flags are set. The *dwFlags* parameter can have the following value.
 
-<table><colgroup><col /><col /></colgroup><thead><tr class="header"><th>Flag</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="TF_REUSE_SOCKET"></span><span id="tf_reuse_socket"></span><dl> <dt><strong>TF_REUSE_SOCKET</strong></dt> </dl></td><td>Prepares the socket handle to be reused. When the <strong>DisconnectEx</strong> request completes, the socket handle can be passed to the [<strong>AcceptEx</strong>](./nf-mswsock-acceptex.md) or [<strong>ConnectEx</strong>](./nc-mswsock-lpfn_connectex.md) function.<br/><blockquote>[!Note]<br />
-The socket level disconnect is subject to the behavior of the underlying transport. For example, a TCP socket may be subject to the TCP TIME_WAIT state, causing the <strong>DisconnectEx</strong> call to be delayed.</blockquote><br/> <br/></td></tr></tbody></table>
+| Flag | Meaning |
+|--|--|
+| **TF_REUSE_SOCKET** | Prepares the socket handle to be reused. When the **DisconnectEx** request completes, the socket handle can be passed to the [**AcceptEx**](./nf-mswsock-acceptex.md) or [**ConnectEx**](./nc-mswsock-lpfn_connectex.md) function.  <br/> **Note:** The socket level disconnect is subject to the behavior of the underlying transport. For example, a TCP socket may be subject to the TCP TIME_WAIT state, causing the **DisconnectEx** call to be delayed. |
 
 ### -param dwReserved
 
@@ -75,22 +76,22 @@ Reserved. Must be zero. If nonzero, [WSAEINVAL](/windows/win32/winsock/windows-s
 
 On success, the **DisconnectEx** function returns **TRUE**. On failure, the function returns **FALSE**. Use the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function to get extended error information. If a call to the **WSAGetLastError** function returns **ERROR\_IO\_PENDING**, the operation initiated successfully and is in progress. Under such circumstances, the call may still fail when the operation completes.
 
-| Error code                                                                                                                                 | Description                                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl>    | The system detected an invalid pointer address in attempting to use a pointer argument. This error is returned if an invalid pointer value was passed in the <i>lpOverlapped</i> parameter.<br/>                                                                                                                                   |
-| <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>    | The invalid parameter was passed. This error is returned if the *dwFlags* parameter was specified with a zero value other than **TF\_REUSE\_SOCKET**.<br/>                                                                                                                                                                    |
-| <dl> <dt>**[WSAENOTCONN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeisconn)**</dt> </dl> | The socket is not connected. This error is returned if the socket *s* parameter was not in a connected state. This error can also be returned if the socket was in the transmit closing state from a previous request and the *dwFlags* parameter was not set to **TF\_REUSE\_SOCKET** to request a reuse of the socket.<br/> |
+| Error code | Description |
+|-|-|
+| **[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)** | The system detected an invalid pointer address in attempting to use a pointer argument. This error is returned if an invalid pointer value was passed in the *lpOverlapped* parameter. |
+| **[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | The invalid parameter was passed. This error is returned if the *dwFlags* parameter was specified with a zero value other than **TF\_REUSE\_SOCKET**. |
+| **[WSAENOTCONN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeisconn)** | The socket is not connected. This error is returned if the socket *s* parameter was not in a connected state. This error can also be returned if the socket was in the transmit closing state from a previous request and the *dwFlags* parameter was not set to **TF\_REUSE\_SOCKET** to request a reuse of the socket. |
 
 ## -remarks
 
 The **DisconnectEx** function does not support datagram sockets. Therefore, the socket specified by *hSocket* must be connection-oriented, such as a SOCK\_STREAM, SOCK\_SEQPACKET, or SOCK\_RDM socket.
 
-> [!Note]  
+> [!NOTE]  
 > The function pointer for the **DisconnectEx** function must be obtained at run time by making a call to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_DISCONNECTEX**, a globally unique identifier (GUID) whose value identifies the **DisconnectEx** extension function. On success, the output returned by the **WSAIoctl** function contains a pointer to the **DisconnectEx** function. The **WSAID\_DISCONNECTEX** GUID is defined in the *Mswsock.h* header file.
 
-When <i>lpOverlapped</i> is not **NULL**, overlapped I/O might not finish before **DisconnectEx** returns, resulting in the **DisconnectEx** function returning **FALSE** and a call to the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function returning **ERROR\_IO\_PENDING**. This design enables the caller to continue processing while the disconnect operation completes. Upon completion of the request, Windows sets either the event specified by the <b>hEvent</b> member of the [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure, or the socket specified by *hSocket*, to the signaled state.
+When *lpOverlapped* is not **NULL**, overlapped I/O might not finish before **DisconnectEx** returns, resulting in the **DisconnectEx** function returning **FALSE** and a call to the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function returning **ERROR\_IO\_PENDING**. This design enables the caller to continue processing while the disconnect operation completes. Upon completion of the request, Windows sets either the event specified by the **hEvent** member of the [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure, or the socket specified by *hSocket*, to the signaled state.
 
-> [!Note]  
+> [!NOTE]  
 > All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See [**ExitThread**](../processthreadsapi/nf-processthreadsapi-exitthread.md) for more information.
 
 The TIME\_WAIT state determines the time that must elapse before TCP can release a closed connection and reuse its resources. This interval between closure and release is known as the TIME\_WAIT state or 2MSL state. During this time, the connection can be reopened at much less cost to the client and server than establishing a new connection. The TIME\_WAIT behavior is specified in [RFC 793](https://www.ietf.org/rfc/rfc793.txt) which requires that TCP maintains a closed connection for an interval at least equal to twice the maximum segment lifetime (MSL) of the network. When a connection is released, its socket pair and internal resources used for the socket can be used to support another connection.
