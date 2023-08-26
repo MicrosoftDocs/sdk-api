@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
 title: IDXGISwapChain3::CheckColorSpaceSupport (dxgi1_4.h)
-description: Checks the swap chain's support for color space.
+description: Checks the swap chain's support for color space. Some color spaces like `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` (scRGB) might be returned as unsupported even if calling <a href="windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> would succesfully set them, independently of whether the current display in running in Advanced Color mode or not.
 helpviewer_keywords: ["CheckColorSpaceSupport","CheckColorSpaceSupport method [DXGI]","CheckColorSpaceSupport method [DXGI]","IDXGISwapChain3 interface","IDXGISwapChain3 interface [DXGI]","CheckColorSpaceSupport method","IDXGISwapChain3.CheckColorSpaceSupport","IDXGISwapChain3::CheckColorSpaceSupport","direct3ddxgi.idxgiswapchain3_checkcolorspacesupport","dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport"]
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
 tech.root: direct3ddxgi
