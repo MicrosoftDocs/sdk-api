@@ -24,6 +24,8 @@ api_type:
  - HeaderDef
 api_location:
  - sysinfoapi.h
+ - api-ms-win-core-sysinfo-l1-2-6.dll
+ - api-ms-win-core-sysinfo-l1-2-7.dll
 api_name:
  - DEVELOPER_DRIVE_ENABLEMENT_STATE
 f1_keywords:
