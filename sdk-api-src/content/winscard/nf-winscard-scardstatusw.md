@@ -152,7 +152,7 @@ The card has been reset and specific <a href="/windows/desktop/SecGloss/c-gly">c
 
 ### -param pdwProtocol [out, optional]
 
-Current protocol, if any. The returned value is meaningful only if the returned value of <i>pdwState</i> is SCARD_SPECIFICMODE.
+Current protocol, if any. The returned value is meaningful only if the returned value of <i>pdwState</i> is SCARD_SPECIFIC.
 
 <table>
 <tr>
