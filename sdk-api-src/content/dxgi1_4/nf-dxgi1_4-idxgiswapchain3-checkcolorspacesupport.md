@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
 title: IDXGISwapChain3::CheckColorSpaceSupport (dxgi1_4.h)
-description: Checks the swap chain's support for color space. Some color spaces like `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` (scRGB) might be returned as unsupported even if calling <a href="windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> would succesfully set them, independently of whether the current display in running in Advanced Color mode or not.
+description: Checks the swap chain's support for color space.
 helpviewer_keywords: ["CheckColorSpaceSupport","CheckColorSpaceSupport method [DXGI]","CheckColorSpaceSupport method [DXGI]","IDXGISwapChain3 interface","IDXGISwapChain3 interface [DXGI]","CheckColorSpaceSupport method","IDXGISwapChain3.CheckColorSpaceSupport","IDXGISwapChain3::CheckColorSpaceSupport","direct3ddxgi.idxgiswapchain3_checkcolorspacesupport","dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport"]
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
 tech.root: direct3ddxgi
@@ -72,6 +72,10 @@ A pointer to a variable that receives a combination of <a href="/windows/desktop
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns <b>S_OK</b> on success, or it returns one of the error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
+
+## -remarks
+
+Some color spaces like `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` (scRGB) might be returned as unsupported even if calling <a href="/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> would succesfully set them, independently of whether the current display in running in Advanced Color mode or not.
 
 ## -see-also
 
