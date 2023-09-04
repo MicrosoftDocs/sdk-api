@@ -283,7 +283,7 @@ Reserved; must be 0.
 
 If the function succeeds when used for string mapping, it returns the number of characters in the translated string (see *cchSrc* and *cchDest* for more details).
 
-If the function succeeds when used for string mapping it returns the number of bytes in the sort key.
+If the function succeeds when used for generating a sort key, it returns the number of bytes in the sort key.
 
 This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
