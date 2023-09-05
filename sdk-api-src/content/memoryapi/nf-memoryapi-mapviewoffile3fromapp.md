@@ -74,8 +74,12 @@ A <b>HANDLE</b> to a process into which the section
 
 The desired base address of the view.
                   The address is rounded down to the nearest 64k boundary.
+
                   If this parameter is <b>NULL</b>, the system picks the base
                   address.
+
+If <i>BaseAddress</i> is not <b>NULL</b>, then
+any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes.
 
 ### -param Offset [in]
 
@@ -116,7 +120,8 @@ Maps a reserved view.
 </dl>
 </td>
 <td width="60%">
- Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder.
+ Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder,
+and any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure must consist of all zeroes.
 
 After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
 

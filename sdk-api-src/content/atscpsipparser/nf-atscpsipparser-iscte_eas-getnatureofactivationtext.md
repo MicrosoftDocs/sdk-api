@@ -11,7 +11,7 @@ ms.keywords: GetNatureOfActivationText, GetNatureOfActivationText method [Micros
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>GetNatureOfActivationText</b> method gets a textual representation of the alert for a specified ISO 639 language code.
 
@@ -100,8 +102,8 @@ The specified language is not present.
 
 The returned string is taken from the nature_of_activation_text field, as defined by ANSI-J-STD-042-A.
 
-<div class="alert"><b>Note</b>Â Â An earlier version of the documentation gave an incorrect signature for this method.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  An earlier version of the documentation gave an incorrect signature for this method.</div>
+<div> </div>
 
 ## -see-also
 

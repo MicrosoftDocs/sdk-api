@@ -54,7 +54,7 @@ Causes the Microsoft UI Automation provider to start listening for mouse or keyb
 
 ## -parameters
 
-#### - inputType [in]
+### -param inputType [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
 

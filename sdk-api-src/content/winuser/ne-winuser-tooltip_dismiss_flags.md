@@ -5,7 +5,6 @@ title: TOOLTIP_DISMISS_FLAGS
 description: The TOOLTIP_DISMISS_FLAGS enumeration defines constants that indicate whether a window is registered or unregistered to receive tooltip dismiss notifications.
 ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -72,13 +72,13 @@ A handle to the device context.
 
 ### -param lpchText [in, out]
 
-A pointer to the string that specifies the text to be drawn. If the <i>nCount</i> parameter is -1, the string must be null-terminated.
+A pointer to the string that specifies the text to be drawn. If the <i>cchText</i> parameter is -1, the string must be null-terminated.
 
 If <i>uFormat</i> includes DT_MODIFYSTRING, the function could add up to four additional characters to this string. The buffer containing the string should be large enough to accommodate these extra characters.
 
 ### -param cchText [in]
 
-The length, in characters, of the string. If <i>nCount</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
+The length, in characters, of the string. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
 
 ### -param lprc [in, out]
 

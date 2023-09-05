@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IBDA_DigitalDemodulator</b> interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal. A Network Provider calls these methods on the filter to provide the demodulator with the information it needs to acquire a particular signal. The Network Provider obtains these values from the <a href="/previous-versions/windows/desktop/legacy/dd695081(v=vs.85)">Locator</a> object associated with the tune request or tuning space.
 
 <b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.

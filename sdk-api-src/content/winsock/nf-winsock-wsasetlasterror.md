@@ -91,7 +91,7 @@ The
 <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call for the current thread. Note that any subsequent Windows Sockets routine called by the application will override the error code as set by this routine.
 
 The error code set by 
-<b>WSASetLastError</b> is different from the error code reset by calling the function 
+<b>WSASetLastError</b> is different from the error code returned by calling the function 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> with SO_ERROR. 
 
 The Windows Sockets error codes used by this function are listed under <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.

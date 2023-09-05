@@ -57,7 +57,7 @@ Retrieves information about the specified process.
 
 ### -param hProcess [in]
 
-A handle to the process. This handle must have the **PROCESS_SET_INFORMATION** access right. For more information, see [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights).
+A handle to the process. This handle must have at least the **PROCESS_QUERY_LIMITED_INFORMATION** access right. For more information, see [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights).
 
 ### -param ProcessInformationClass [in]
 
@@ -68,6 +68,8 @@ A member of the [PROCESS_INFORMATION_CLASS](./ne-processthreadsapi-process_infor
 Pointer to an object to receive the type of information specified by the *ProcessInformationClass* parameter.
 
 If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must point to a [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md).
+
+If the *ProcessInformationClass* parameter is **ProcessPowerThrottling**, this parameter must point to a [PROCESS_POWER_THROTTLING_STATE structure](ns-processthreadsapi-process_power_throttling_state.md).
 
 If the *ProcessInformationClass* parameter is **ProcessProtectionLevelInfo**, this parameter must point to a [PROCESS_PROTECTION_LEVEL_INFORMATION structure](ns-processthreadsapi-process_protection_level_information.md).
 

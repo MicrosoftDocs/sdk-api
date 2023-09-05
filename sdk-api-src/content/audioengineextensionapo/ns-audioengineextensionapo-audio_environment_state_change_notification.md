@@ -47,11 +47,11 @@ Represents an audio environment change APO notification.
 
 ### -field propertyStore
 
-An [[IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object representing the property store that the change occurred on. Use this object to query the new value of the property specified in *propertyKey*.
+An [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object representing the property store that the change occurred on. Use this object to query the new value of the property specified in *propertyKey*.
 
 ### -field propertyKey
 
-The [PROPERTYKEY](s/windows/win32/api/wtypes/ns-wtypes-propertykey) that has a new value.
+The [PROPERTYKEY](/windows/win32/api/wtypes/ns-wtypes-propertykey) that has a new value.
 
 ## -remarks
 

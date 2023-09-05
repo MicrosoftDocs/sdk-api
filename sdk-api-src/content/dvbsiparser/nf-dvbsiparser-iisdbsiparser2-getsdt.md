@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets a
   service description table (SDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDT
   lists the names and other parameters of the services in an MPEG-2 transport stream.

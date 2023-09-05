@@ -180,7 +180,7 @@ The audio engine might be able to support an even wider range of shared-mode for
 
 For example, a particular LFX APO might accept a 6-channel surround sound stream from a client and convert the stream to a stereo format that can be played through headphones. Typically, an LFX APO supports only client formats with sample rates that match the sample rate of the mix format.
 
-For more information about APOs, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing the Windows Vista Audio System Effects" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website. For more information about the <b>IsFormatSupported</b> method, see <a href="/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
+For more information about APOs, see [Windows Audio Processing Objects](/windows-hardware/drivers/audio/windows-audio-processing-objects). For more information about the <b>IsFormatSupported</b> method, see <a href="/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
 
 ## -see-also
 

@@ -44,15 +44,13 @@ helpviewer_keywords:
  - _EVENT_EXTENDED_ITEM_PMC_COUNTERS
 ---
 
-# EVENT_EXTENDED_ITEM_PMC_COUNTERS structure (evntcons.h)
-
 ## -description
 
 Defines an extended item Performance Monitoring Unit (PMC) counter.
 
 ## -struct-fields
 
-### -field Counter[ANYSIZE_ARRAY]
+### -field Counter
 
 The counter.
 

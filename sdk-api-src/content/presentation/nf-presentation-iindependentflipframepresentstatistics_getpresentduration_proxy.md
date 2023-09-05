@@ -5,7 +5,6 @@ title: IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy
 description: The IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy function gets the actual amount of time the present was displayed.
 ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

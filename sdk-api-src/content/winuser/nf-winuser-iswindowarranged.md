@@ -2,7 +2,7 @@
 UID: NF:winuser.IsWindowArranged
 tech.root: winmsg
 title: IsWindowArranged function (winuser.h)
-ms.date: 06/07/2023
+ms.date: 06/27/2023
 targetos: Windows
 description: Determines whether the specified window is arranged (that is, whether it's snapped).
 prerelease: true
@@ -30,7 +30,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - winuser.h
+ - user32.dll
 api_name:
  - IsWindowArranged
 f1_keywords:

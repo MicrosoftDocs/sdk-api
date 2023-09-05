@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerRegisterMemoryBlock
 title: WerRegisterMemoryBlock function (werapi.h)
-description: Registers a memory block to be collected when WER creates an error report.
+description: Registers a memory block to be collected when Windows Error Reporting (WER) creates an error report.
 helpviewer_keywords: ["WerRegisterMemoryBlock","WerRegisterMemoryBlock function [Windows Error Reporting]","base.werregistermemoryblock","wer.werregistermemoryblock","werapi/WerRegisterMemoryBlock"]
 old-location: wer\werregistermemoryblock.htm
 tech.root: wer
 ms.assetid: 10fa2bf3-ec12-4c7c-b986-9b22cdaa7319
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
 req.header: werapi.h
 req.include-header: 
@@ -49,10 +49,9 @@ api_name:
 
 # WerRegisterMemoryBlock function
 
-
 ## -description
 
-Registers a memory block to be collected when WER creates an error report.
+Registers a memory block to be collected when [Windows Error Reporting](../_wer/index.md) (WER) creates an error report.
 
 ## -parameters
 
@@ -66,36 +65,12 @@ The size of the memory block, in bytes. The maximum value for this parameter is 
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The number of registered memory blocks and files exceeds the limit.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
+|**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**|The number of registered memory blocks and files exceeds the limit.|
 
 ## -remarks
 
@@ -103,19 +78,10 @@ Memory registered with this function is only added to heap or larger dump files.
 
 For crashes and no response, the operating system automatically provides error reporting (you do not need to provide any error reporting code in your application). If you use this function to register a memory block, the operating system will add the memory block information to the dump file at the time of the crash or non-response. The memory block is added to the dump file for the report only when additional data is requested by the server.
 
-For generic event reporting, the application has to call the WER generic event reporting functions directly. To add the memory block to a generic report, call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function and then call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function and specify the  WER_SUBMIT_ADD_REGISTERED_DATA flag.
+For generic event reporting, the application has to call the WER generic event reporting functions directly. To add the memory block to a generic report, call the [WerReportAddDump](/windows/desktop/api/werapi/nf-werapi-werreportadddump) function and then call the [WerReportSubmit](/windows/desktop/api/werapi/nf-werapi-werreportsubmit) function and specify the  WER_SUBMIT_ADD_REGISTERED_DATA flag.
 
-
-To remove the block from this list, call the <a href="/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a> function.
+To remove the block from this list, call the [WerUnregisterMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock) function.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerUnregisterMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock), [Windows Error Reporting](/windows/desktop/wer)

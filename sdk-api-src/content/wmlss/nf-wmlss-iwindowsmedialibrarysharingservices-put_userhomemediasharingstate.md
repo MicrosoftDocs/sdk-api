@@ -11,8 +11,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Librar
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
-req.target-min-winversvr: Windows ServerÂ 2008Â R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). Media Casting has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use Media Casting instead of #FEATURENAMENOLINK#, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_userHomeMediaSharingState</b> method enables or disables sharing of the current user's media library on the home network.
 
@@ -88,8 +90,8 @@ If home media sharing is not allowed for the computer, other users will not have
 
 If home media sharing is allowed for the computer and home media sharing is enabled for the current user, other users on the home network will have access to the current user's media library.
 
-<div class="alert"><b>Warning</b>Â Â If home media sharing is enabled for the current user, the computer updates the access control list (ACL) of each file in the user's media library to grant Read access to the NT SERVICE\WMPNetworkSvc account. This behavior might change in future versions of Windows.</div>
-<div>Â </div>
+<div class="alert"><b>Warning</b>  If home media sharing is enabled for the current user, the computer updates the access control list (ACL) of each file in the user's media library to grant Read access to the NT SERVICE\WMPNetworkSvc account. This behavior might change in future versions of Windows.</div>
+<div> </div>
 
 ## -see-also
 

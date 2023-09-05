@@ -1,9 +1,9 @@
 ---
 UID: NF:dcomp.IDCompositionTexture.SetColorSpace
 title: IDCompositionTexture::SetColorSpace
-description: TBD
+description: Informs the system of the color space that it should map the texture into.
 tech.root: directcomp
-ms.date: 06/09/2023
+ms.date: 07/10/2023
 targetos: Windows
 prerelease: true
 req.assembly: 
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-TBD
+Informs the system of the color space that it should map the texture into.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ TBD
 
 Type: \_In\_ **[DXGI_COLOR_SPACE_TYPE](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type)**
 
-TBD
+Specifies the color space to use.
 
 ## -returns
 
