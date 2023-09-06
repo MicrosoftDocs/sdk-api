@@ -73,10 +73,6 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 
 This method returns <b>S_OK</b> on success, or it returns one of the error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
 
-## -remarks
-
-Some color spaces like `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` (scRGB) might be returned as unsupported even if calling <a href="/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> would succesfully set them, independently of whether the current display in running in Advanced Color mode or not.
-
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3">IDXGISwapChain3</a>
