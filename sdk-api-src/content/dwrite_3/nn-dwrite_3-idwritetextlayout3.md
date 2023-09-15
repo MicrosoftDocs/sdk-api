@@ -54,9 +54,9 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b>IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
+The <b>IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2">IDWriteTextLayout2</a>
 

@@ -42,9 +42,9 @@ api_name:
 
 Describes the font and paragraph properties used to format text, and it describes locale information.
 
-This interface extends [IDWriteTextFormat2](/windows/win32/directwrite/idwritetextformat2).
+This interface extends [IDWriteTextFormat2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2).
 
 ## -see-also
 
-[IDWriteTextFormat2](/windows/win32/directwrite/idwritetextformat2)
+[IDWriteTextFormat2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2)
 

@@ -76,7 +76,7 @@ A Boolean flag that indicates whether to ignore user overrides.
 
 ### -param numberSubstitution [out]
 
-Type: <b><a href="/windows/win32/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
 
 When this method returns, contains an address to  a pointer to the number substitution object created by this method.
 
