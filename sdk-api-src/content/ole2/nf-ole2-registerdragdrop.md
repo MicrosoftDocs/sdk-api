@@ -119,7 +119,7 @@ Insufficient memory for the operation.
 
 If your application can accept dropped objects during OLE drag-and-drop operations, you must call the <b>RegisterDragDrop</b> function. Do this whenever one of your application windows is available as a potential drop target, i.e., when the window appears unobscured on the screen.
 
-The application thread that calls the <b>RegisterDragDrop</b> function must be pumping messages, presumably by calling the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function with a <b>NULL</b><i>hWnd</i> parameter, because OLE creates windows on the thread that need messages processed. If this requirement is not met, any application that drags an object over the window that is registered as a drop target will hang until the target application closes.
+The application thread that calls the <b>RegisterDragDrop</b> function must be pumping messages, presumably by calling the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function with a <b>NULL</b> <i>hWnd</i> parameter, because OLE creates windows on the thread that need messages processed. If this requirement is not met, any application that drags an object over the window that is registered as a drop target will hang until the target application closes.
 
 The <b>RegisterDragDrop</b> function only registers one window at a time, so you must call it for each application window capable of accepting dropped objects.
 
