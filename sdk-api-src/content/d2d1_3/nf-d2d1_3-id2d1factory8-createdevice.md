@@ -56,7 +56,7 @@ The IDXGIDevice from which to create the Direct2D device.
 
 ### -param d2dDevice6
 
-Type: <b>ID2D1Device6**</b>
+Type: **[ID2D1Device7](./nn-d2d1_3-id2d1device7.md) \*\***
 
 The created device.
 
