@@ -74,9 +74,11 @@ A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</
 
 ## -returns
 
-If the function succeeds and <i>dwCount</i> specifies an adequate number of bytes, the return value is always <i>dwCount</i>. If <i>dwCount</i> is too small or the function fails, the return value is 0. If <i>lpRgnData</i> is <b>NULL</b>, the return value is the required number of bytes.
+If the function succeeds and <i>dwCount</i> specifies an adequate number of bytes, the return value is always <i>dwCount</i>.
 
-If the function fails, the return value is zero.
+If <i>dwCount</i> is too small or the function fails, the return value is zero.
+
+If <i>lpRgnData</i> is <b>NULL</b>, the return value is the required number of bytes.
 
 ## -remarks
 
