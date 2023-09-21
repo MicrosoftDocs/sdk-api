@@ -91,14 +91,30 @@ This parameter may be **NULL** if the application does not want to receive the a
 
 A set of flags that modify the behavior of the **RIOSendEx** function.
 
-The *Flags* parameter can contain a combination of the following options defined in the *Mswsockdef.h* header file:
+The *Flags* parameter can contain a combination of the following options, defined in the `Mswsockdef.h` header file:
 
-> , *pLocalAddress*, *pRemoteAddress*, *pControlContext*, *pFlags*, and *RequestContext* parameters must be NULL and the *DataBufferCount* parameter must be zero.  
-> This flag would normally be used occasionally after a number of requests were issued with the **RIO_MSG_DEFER** flag set. This eliminates the need when using the **RIO_MSG_DEFER** flag to make the last request without the **RIO_MSG_DEFER** flag, which causes the last request to complete much slower than other requests.  
-> Unlike other calls to the **RIOSendEx** function, when the **RIO_MSG_COMMIT_ONLY** flag is set calls to the **RIOSendEx** function do not need to be serialized. For a single [**RIO_RQ**](/windows/win32/winsock/riorqueue), the **RIOSendEx** function can be called with **RIO_MSG_COMMIT_ONLY** on one thread while calling the **RIOSendEx** function on another thread.  
-> [**RIO_RQ**](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter without the **RIO_MSG_DEFER** flag set. To trigger execution for all sends in a send queue, call the [**RIOSend**](./nc-mswsock-lpfn_riosend.md) or **RIOSendEx** function without the **RIO_MSG_DEFER** flag set.  
->> [!NOTE]
->> The send request is charged against the outstanding I/O capacity on the [**RIO_RQ**](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter regardless of whether **RIO_MSG_DEFER** is set.
+#### RIO_MSG_COMMIT_ONLY
+
+Previous requests added with **RIO_MSG_DEFER** flag will be committed.
+
+When the **RIO_MSG_COMMIT_ONLY** flag is set, no other flags may be specified. When the **RIO_MSG_COMMIT_ONLY** flag is set, the *pData*, *pLocalAddress*, *pRemoteAddress*, *pControlContext*, *pFlags*, and *RequestContext* arguments must be NULL, and the *DataBufferCount* argument must be zero.
+
+This flag would normally be used occasionally after a number of requests were issued with the **RIO_MSG_DEFER** flag set. This eliminates the need when using the **RIO_MSG_DEFER** flag to make the last request without the **RIO_MSG_DEFER** flag, which causes the last request to complete much more slowly than other requests.
+
+Unlike other calls to the **RIOSendEx** function, when the **RIO_MSG_COMMIT_ONLY** flag is set, calls to the **RIOSendEx** function do not need to be serialized. For a single [RIO_RQ](/windows/win32/winsock/riorqueue), the **RIOSendEx** function can be called with **RIO_MSG_COMMIT_ONLY** on one thread while calling the **RIOSendEx** function on another thread.  
+
+#### RIO_MSG_DONT_NOTIFY
+
+The request should not trigger the [RIONotify](./nc-mswsock-lpfn_rionotify.md) function when request completion is inserted into its completion queue.
+
+#### RIO_MSG_DEFER
+
+The request doesn't need to be executed immediately. This will insert the request into the request queue, but it may or may not trigger the execution of the request.
+
+Sending data might be delayed until a send request is made on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter without the **RIO_MSG_DEFER** flag set. To trigger execution for all sends in a send queue, call the [RIOSend](./nc-mswsock-lpfn_riosend.md) or **RIOSendEx** function without the **RIO_MSG_DEFER** flag set.  
+
+> [!NOTE]
+> The send request is charged against the outstanding I/O capacity on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter regardless of whether **RIO_MSG_DEFER** is set.
 
 ### -param RequestContext
 

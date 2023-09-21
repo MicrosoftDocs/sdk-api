@@ -69,21 +69,40 @@ This parameter should be set to zero if the *pData* is NULL. Otherwise, this par
 
 A set of flags that modify the behavior of the **RIOReceive** function.
 
-The *Flags* parameter can contain a combination of the following options defined in the *Mswsockdef.h* header file:
+The *Flags* parameter can contain a combination of the following options, defined in the `Mswsockdef.h` header file:
 
-> and *RequestContext* parameters must be NULL and the *DataBufferCount* parameter must be zero.  
-> This flag would normally be used occasionally after a number of requests were issued with the **RIO_MSG_DEFER** flag set. This eliminates the need when using the **RIO_MSG_DEFER** flag to make the last request without the **RIO_MSG_DEFER** flag, which causes the last request to complete much slower than other requests.  
-> Unlike other calls to the **RIOReceive** function, when the **RIO_MSG_COMMIT_ONLY** flag is set calls to the **RIOReceive** function do not need to be serialized. For a single [**RIO_RQ**](/windows/win32/winsock/riorqueue), the **RIOReceive** function can be called with **RIO_MSG_COMMIT_ONLY** on one thread while calling the **RIOReceive** function on another thread.  
-> [**RIO_RQ**](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter without the **RIO_MSG_DEFER** flag set. To trigger execution for all receives in a request queue, call the **RIOReceive** or [**RIOReceiveEx**](./nc-mswsock-lpfn_rioreceiveex.md) function without the **RIO_MSG_DEFER** flag set.  
->> [!NOTE]
->> The receive request is charged against the outstanding I/O capacity on the [**RIO_RQ**](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter regardless of whether **RIO_MSG_DEFER** is set.  
->
-> parameter is completely full.  
->
-> - The connection has been closed.  
-> - The request has been canceled or an error occurred.  
->
-> This flag is not supported on UDP sockets.  
+#### RIO_MSG_COMMIT_ONLY
+
+Previous requests added with **RIO_MSG_DEFER** flag will be committed.
+
+When the **RIO_MSG_COMMIT_ONLY** flag is set, no other flags may be specified. When the **RIO_MSG_COMMIT_ONLY** flag is set, the *pData* and *RequestContext* arguments must be NULL, and the *DataBufferCount* argument must be zero.
+
+This flag would normally be used occasionally after a number of requests were issued with the **RIO_MSG_DEFER** flag set. This eliminates the need when using the **RIO_MSG_DEFER** flag to make the last request without the **RIO_MSG_DEFER** flag, which causes the last request to complete much more slowly than other requests.
+
+Unlike other calls to the **RIOReceive** function, when the **RIO_MSG_COMMIT_ONLY** flag is set calls to the **RIOReceive** function do not need to be serialized. For a single [RIO_RQ](/windows/win32/winsock/riorqueue), the **RIOReceive** function can be called with **RIO_MSG_COMMIT_ONLY** on one thread while calling the **RIOReceive** function on another thread.  
+
+#### RIO_MSG_DONT_NOTIFY
+
+The request should not trigger the [RIONotify](./nc-mswsock-lpfn_rionotify.md) function when request completion is inserted into its completion queue.
+
+#### RIO_MSG_DEFER
+
+The request doesn't need to be executed immediately. This will insert the request into the request queue, but it may or may not trigger the execution of the request.
+
+Data reception might be delayed until a receive request is made on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter without the **RIO_MSG_DEFER** flag set. To trigger execution for all receives in a request queue, call the **RIOReceive** or [RIOReceiveEx](./nc-mswsock-lpfn_rioreceiveex.md) function without the **RIO_MSG_DEFER** flag set.  
+
+> [!NOTE]
+> The receive request is charged against the outstanding I/O capacity on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter regardless of whether **RIO_MSG_DEFER** is set.
+
+#### RIO_MSG_WAITALL
+
+The **RIOReceive** function won't complete until one of the following events occurs:
+
+* The buffer segment supplied by the caller in the *pData* parameter is completely full.
+* The connection has been closed.  
+* The request has been canceled or an error occurred.  
+
+This flag is not supported on UDP sockets.
 
 ### -param RequestContext
 

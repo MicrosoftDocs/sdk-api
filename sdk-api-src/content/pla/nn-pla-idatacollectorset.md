@@ -179,7 +179,7 @@ To use the data collector set elements to initialize the property values of a da
         <TaskArguments/>
         <TaskRunAsSelf/>            <!-- 0 (false), nonzero (true) -->
         <TaskUserTextArguments/>
-        <tr>
+        <TriggerDataCollectorSet/>
 
         <!-- Data collector elements go here. -->
     </AlertDataCollector>
