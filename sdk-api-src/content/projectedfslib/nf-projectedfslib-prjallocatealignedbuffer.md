@@ -66,3 +66,7 @@ The size of the buffer required, in bytes.
 
 Returns NULL if the buffer could not be allocated.
 
+## -remarks
+
+Use <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer">PrjFreeAlignedBuffer</a> to deallocate memory obtained by `PrjAllocateAlignedBuffer`.
+
