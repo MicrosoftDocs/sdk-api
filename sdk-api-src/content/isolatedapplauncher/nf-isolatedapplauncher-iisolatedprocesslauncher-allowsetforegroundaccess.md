@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher::AllowSetForegroundAccess (isolatedapplauncher.h
 ms.date: 07/24/2023
 targetos: Windows
 description: Allows the remote window to reflecting what is going on in the container.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

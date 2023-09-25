@@ -5,7 +5,7 @@ title: IsolatedAppLauncherTelemetryParameters (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: A struct that provides telemetry parameters to be used when launching an app inside the container.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

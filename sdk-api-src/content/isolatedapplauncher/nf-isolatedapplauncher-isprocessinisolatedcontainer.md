@@ -5,7 +5,7 @@ title: IsProcessInIsolatedContainer (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Determines if a process is running in an isolated container.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

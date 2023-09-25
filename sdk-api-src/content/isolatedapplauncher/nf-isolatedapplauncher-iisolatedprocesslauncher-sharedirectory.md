@@ -5,7 +5,7 @@ title: IIsolatedProcessLauncher::ShareDirectory (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
 description: Shares a host directory into the container, either as read-only or supporting modification.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
