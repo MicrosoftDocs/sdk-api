@@ -5,7 +5,7 @@ title: DEVELOPER_DRIVE_ENABLEMENT_STATE (sysinfoapi.h)
 ms.date: 07/31/2023
 targetos: Windows
 description: An enumeration of the possible values of the developer drive enablement state.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: sysinfoapi.h

@@ -5,7 +5,7 @@ title: GetDeveloperDriveEnablementState (sysinfoapi.h)
 ms.date: 07/31/2023
 targetos: Windows
 description: Gets a value indicating whether the developer drive is enabled.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
