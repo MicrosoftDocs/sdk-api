@@ -76,6 +76,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_RDPSRAPI_EVENT_ON_WINDOW_UPDATE = 321 | [OnWindowUpdate](/previous-versions/windows/desktop/rdp/onwindowupdate) |
 | DISPID_RDPSRAPI_EVENT_ON_CTRLLEVEL_CHANGE_REQUEST = 309 | [OnControlLevelChangeRequest](/previous-versions/windows/desktop/rdp/oncontrollevelchangerequest) |
 | DISPID_RDPSRAPI_EVENT_ON_VIEWER_CONNECTED = 305 | [OnConnectionEstablished](/previous-versions/windows/desktop/rdp/onconnectionestablished) |
+| DISPID_RDPSRAPI_EVENT_ON_VIEWER_CONNECTFAILED = 308 | [OnConnectionFailed](/previous-versions/windows/desktop/rdp/onconnectionfailed) |
 | DISPID_RDPSRAPI_EVENT_ON_VIEWER_AUTHENTICATED = 307 | [OnConnectionAuthenticated](/previous-versions/windows/desktop/rdp/onconnectionauthenticated) |
 | DISPID_RDPSRAPI_EVENT_ON_VIEWER_DISCONNECTED = 306 | [OnConnectionTerminated](/previous-versions/windows/desktop/rdp/onconnectionterminated) |
 | DISPID_RDPSRAPI_EVENT_ON_APPFILTER_UPDATE = 322 | None. A notification that the application filter returned by IRDPSRAPISharingSession::get_ApplicationFilter has changed.
