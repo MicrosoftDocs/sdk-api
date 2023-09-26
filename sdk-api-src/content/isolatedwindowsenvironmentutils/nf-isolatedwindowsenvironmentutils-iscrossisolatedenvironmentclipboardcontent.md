@@ -4,7 +4,7 @@ tech.root: security
 title: IsCrossIsolatedEnvironmentClipboardContent
 ms.date: 03/09/2023
 targetos: Windows
-description: IsCrossIsolatedEnvironmentClipboardContent is called after an app detects a paste failure to determine if the content being pasted came from the other side of a Windows Defender Application Guard (WDAG) boundary.
+description: IsCrossIsolatedEnvironmentClipboardContent is called after an app detects a paste failure to determine if the content being pasted came from the other side of a Microsoft Defender Application Guard (MDAG) boundary.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-**IsCrossIsolatedEnvironmentClipboardContent** can be called after an app detects a paste failure to determine if the content being pasted came from the other side of a [Windows Defender Application Guard (WDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) boundary. In this scenario, applications can display a custom error message to help users understand that the clipboard operation was intentionally blocked by WDAG.
+**IsCrossIsolatedEnvironmentClipboardContent** can be called after an app detects a paste failure to determine if the content being pasted came from the other side of a [Microsoft Defender Application Guard (MDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) boundary. In this scenario, applications can display a custom error message to help users understand that the clipboard operation was intentionally blocked by MDAG.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ helpviewer_keywords:
 
 `[out]`
 
-A pointer to a boolean value that receives the result of the API. This parameter will be `true` if the clipboard content came from the other side of a WDAG boundary, `false` otherwise.
+A pointer to a boolean value that receives the result of the API. This parameter will be `true` if the clipboard content came from the other side of a MDAG boundary, `false` otherwise.
 
 ## -returns
 
@@ -67,7 +67,7 @@ This API can be called from both the host and Isolated Windows Environment app i
 - Scenario 2 -  Called from an Isolated Windows Environment document (ex: pasting content to Isolated Environment)
   - Returns true if the clipboard content came from the host, or from a different Isolated Windows Environment.
 
-This API also allows apps to continue to show their default paste error handler where appropriate. For example, copy/pasting content within the same Isolated Environment is not subject to WDAG clipboard policy. Any failure would be due to an unrelated paste error, such as corrupted data. In this case, **IsCrossIsolatedEnvironmentClipboardContent** would return false, so the app knows to follow their default paste error handler flow.
+This API also allows apps to continue to show their default paste error handler where appropriate. For example, copy/pasting content within the same Isolated Environment is not subject to MDAG clipboard policy. Any failure would be due to an unrelated paste error, such as corrupted data. In this case, **IsCrossIsolatedEnvironmentClipboardContent** would return false, so the app knows to follow their default paste error handler flow.
 
 #### Examples
 
@@ -100,7 +100,7 @@ LRESULT CALLBACK SampleAppWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM
 
     if (retVal != ERROR_SUCCESS)
     {
-      // Show a WDAG specific error message if the clipboard content crossed the host/isolated
+      // Show a MDAG specific error message if the clipboard content crossed the host/isolated
       // environment boundary. Otherwise, show the app’s default paste error message.
       if (SUCCEEDED(hr) && isCrossEnvContent)
       {
@@ -110,7 +110,7 @@ LRESULT CALLBACK SampleAppWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM
         IsProcessInIsolatedWindowsEnvironment(&isIsolatedWindowsEnvironment);
         std::wstring direction = isIsolatedWindowsEnvironment ? L"into" : L"from";
 
-        SampleAppHelperClass::DisplayMsgBox(hWnd, L"Pasting content %s a WDAG document failed, verify this operation is permitted by your administrator.\n", direction.c_str());
+        SampleAppHelperClass::DisplayMsgBox(hWnd, L"Pasting content %s a MDAG document failed, verify this operation is permitted by your administrator.\n", direction.c_str());
       }
       else
       {
@@ -126,7 +126,7 @@ LRESULT CALLBACK SampleAppWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM
 }
 ```
 
-The second code snippet shows an app’s paste handler to demonstrate how clipboard actions may fail if blocked by WDAG.
+The second code snippet shows an app’s paste handler to demonstrate how clipboard actions may fail if blocked by MDAG.
 
 ```cpp
 // Invoked by user Paste action, such as Ctr+V or clicking the Paste button.

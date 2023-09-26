@@ -4,7 +4,7 @@ tech.root: winprog
 title: IIsolatedProcessLauncher2 (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
-description: Enables apps to determine whether processes are running in a Windows Defender Application Guard container (VM container environment).
+description: Enables apps to determine whether processes are running in a Microsoft Defender Application Guard (MDAG) container (VM container environment).
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-Enables apps to determine whether processes are running in a Windows Defender Application Guard container (VM container environment).
+Enables apps to determine whether processes are running in a Microsoft Defender Application Guard (MDAG) container (VM container environment).
 
 ## -remarks
 

@@ -106,4 +106,4 @@ Enumeration value of the container type. the value may be one of the following:
   template virtual machine.
 
 - **VmDirectUvm** (4): For events originating from applications running with
-  [Windows Defender Application Guard](/windows/desktop/winmsg/windows).
+  [Microsoft Defender Application Guard (MDAG)](/windows/security/application-security/application-isolation/microsoft-defender-application-guard/md-app-guard-overview).

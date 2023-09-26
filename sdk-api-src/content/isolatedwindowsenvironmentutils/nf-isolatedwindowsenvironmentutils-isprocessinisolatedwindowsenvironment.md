@@ -60,7 +60,7 @@ Returns `S_OK` if the function succeeds. If it fails, it returns an `HRESULT` er
 
 ## -remarks
 
-Any application using [Windows Defender Application Guard (WDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) will require the ability to find which execution environment it is running in. This is needed so that the app can behave appropriately to protect user/enterprise data, user identity, and the business interests of the app.
+Any application using [Microsoft Defender Application Guard (MDAG)](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) will require the ability to find which execution environment it is running in. This is needed so that the app can behave appropriately to protect user/enterprise data, user identity, and the business interests of the app.
 
 #### Examples
 
