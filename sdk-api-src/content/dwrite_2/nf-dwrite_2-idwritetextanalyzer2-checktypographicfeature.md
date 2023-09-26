@@ -88,5 +88,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
 

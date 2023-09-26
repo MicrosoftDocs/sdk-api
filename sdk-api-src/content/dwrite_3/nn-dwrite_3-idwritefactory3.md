@@ -54,7 +54,7 @@ The root factory interface for all <a href="/windows/win32/DirectWrite/direct-wr
 
 ## -inheritance
 
-The <b>IDWriteFactory3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>. <b>IDWriteFactory3</b> also has these types of members:
+The <b>IDWriteFactory3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefactory2">IDWriteFactory2</a>. <b>IDWriteFactory3</b> also has these types of members:
 
 ## -see-also
 
@@ -62,5 +62,5 @@ The <b>IDWriteFactory3</b> interface inherits from <a href="/windows/win32/Direc
 
 
 
-<a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefactory2">IDWriteFactory2</a>
 

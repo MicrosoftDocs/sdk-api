@@ -70,7 +70,7 @@ The following example shows the XML that you can use to initialize this object i
     <TaskArguments/>
     <TaskRunAsSelf/>
     <TaskUserTextArguments/>
-    <tr>
+    <TriggerDataCollectorSet/>
 </AlertDataCollector>
 ```
 

@@ -120,9 +120,9 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-This is equivalent to calling <a href="/windows/win32/DirectWrite/idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a> and using only the advance width and height. 
+This is equivalent to calling <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a> and using only the advance width and height. 
 
-Like <a href="/windows/win32/DirectWrite/idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a>, these are in
+Like <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getgdicompatibleglyphmetrics">GetGdiCompatibleGlyphMetrics</a>, these are in
     design units, meaning they must be scaled down by
     DWRITE_FONT_METRICS::designUnitsPerEm.
 

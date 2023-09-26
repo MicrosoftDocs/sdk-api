@@ -101,10 +101,10 @@ Zero-based index of the color palette to use. Valid indices are less than the nu
 
 ### -param colorLayers [out]
 
-Type: <b><a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>**</b>
 
 If the original glyph run contains color glyphs, this parameter receives a pointer to 
-            an <a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a> interface. 
+            an <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a> interface. 
             The client uses the returned interface to get information about glyph runs and associated colors to render instead of the original glyph run. 
             If the original glyph run does not contain color glyphs, this method returns <b>DWRITE_E_NOCOLOR</b> and the output pointer is <b>NULL</b>.
 
@@ -123,5 +123,5 @@ If the code calls this method with a glyph run that contains no color informatio
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefactory2">IDWriteFactory2</a>
 

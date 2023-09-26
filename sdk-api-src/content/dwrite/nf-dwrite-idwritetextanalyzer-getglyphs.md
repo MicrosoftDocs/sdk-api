@@ -102,7 +102,7 @@ The locale to use when selecting glyphs.
 
 ### -param numberSubstitution [optional]
 
-Type: <b><a href="/windows/win32/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
 
 A pointer to an optional number substitution which selects the appropriate glyphs for digits and related numeric characters, depending on the results obtained from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzenumbersubstitution">AnalyzeNumberSubstitution</a>. Passing <b>NULL</b> indicates that no substitution is needed and that the digits should receive nominal glyphs.
 
