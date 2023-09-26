@@ -54,7 +54,7 @@ Implement this interface to receive notifications when events occur.
 
 ## -remarks
 
-The RDPViewer COM object is a connectable object. To receive events from the object about the connection sharing session, an application can implement _IRdpSessionEvents and perform the following steps.
+The RDPViewer COM object is a connectable object. To receive events from the object about the connection sharing session, an application can implement **_IRdpSessionEvents** and perform the following steps.
 
 1. Call [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) on the RDPViewer to obtain a pointer to the [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface.
 1. Call [IConnectionPointContainer::FindConnectionPoint](/windows/win32/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint), specifying `__uuidof(_IRdpSessionEvents)` as the *riid* parameter, to obtain a pointer to the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) interface of the client control events. 
