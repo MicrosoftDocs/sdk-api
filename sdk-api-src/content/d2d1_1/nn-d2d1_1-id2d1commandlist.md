@@ -107,39 +107,39 @@ The following pseudocode illustrates the different cases where a target is set a
 ``` syntax
 //create a D2D device from an already created DXGI device 
 ID2D1Device *pD2D1Device;
-pD2D1Factory-&gt;CreateDevice(pDxgiDevice, &amp;pD2D1Device);
+pD2D1Factory->CreateDevice(pDxgiDevice, &amp;pD2D1Device);
 
 //create a D2D device context from the D2D device
 ID2D1DeviceContext *pD2D1DeviceContext;
-pD2D1Device-&gt;CreateD2D1DeviceContext(&amp;pD2D1DeviceContext);
+pD2D1Device->CreateD2D1DeviceContext(&amp;pD2D1DeviceContext);
 
 //create command list
 ID2D1CommandList *pCommandList1;
-pD2D1DeviceContext-&gt;CreateCommandList(&amp;pCommandList1);
+pD2D1DeviceContext->CreateCommandList(&amp;pCommandList1);
 
 //CreateBitmap
 ID2D1Bitmap *pBitmap1;
 ID2D1Bitmap *pBitmap2;
-pD2D1DeviceContext-&gt;CreateBitmap(…, &amp;pBitmap1);
-pD2D1DeviceContext-&gt;CreateBitmap(…, &amp;pBitmap2);
+pD2D1DeviceContext->CreateBitmap(…, &amp;pBitmap1);
+pD2D1DeviceContext->CreateBitmap(…, &amp;pBitmap2);
 
 //Set the bitmap as the target
-pD2D1DeviceContext-&gt;SetTarget(pBitmap1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pBitmap1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyVectorContent(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Set the command list as the target
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyVectorContent(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Drawing a command list to a bitmap target
-pD2D1DeviceContext-&gt;SetTarget(pBitmap2);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList1);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pBitmap2);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList1);
+pD2D1DeviceContext->EndDraw();
 ```
 
 <ul>
@@ -158,24 +158,24 @@ The following psuedocode illustrates the process of using a command list with an
 ``` syntax
 //Draw the pattern to the command list
 ID2D1CommandList *pCommandList;
-pD2D1DeviceContext-&gt;SetTarget(pCommandList);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList);
+pD2D1DeviceContext->BeginDraw();
 DrawMyPattern(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //Create the image brush from the command list
 ID2D1ImageBrush *pImageBrush;
-pD2D1DeviceContext-&gt;CreateImageBrush(
+pD2D1DeviceContext->CreateImageBrush(
 	pCommandList, 
 	pImageBrushProperties,
 	pBrushProperties,
 	&amp;pImageBrush);
 
 //Fill the ellipse with the pattern brush
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;FillEllipse(pEllipse, pImageBrush);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pTargetBitmap);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->FillEllipse(pEllipse, pImageBrush);
+pD2D1DeviceContext->EndDraw();
 
 ```
 Because the brush accepts an image, it has the following other benefits as well:<ul>
@@ -190,71 +190,71 @@ The following pseudo code illustrates this point.
 
 
 ``` syntax
-pD2D1Device-&gt;CreateDeviceContext(&amp;pD2D1DeviceContext);
-pRenderTarget-&gt;CreateCompatibleRenderTarget(…, &amp;pCompatibleRenderTarget);
+pD2D1Device->CreateDeviceContext(&amp;pD2D1DeviceContext);
+pRenderTarget->CreateCompatibleRenderTarget(…, &amp;pCompatibleRenderTarget);
 
 //render to the compatible render target
-pCompatibleRenderTarget-&gt;BeginDraw();
+pCompatibleRenderTarget->BeginDraw();
 RenderMyScene1(pCompatibleRenderTarget);
-pCompatibleRenderTarget-&gt;EndDraw();
+pCompatibleRenderTarget->EndDraw();
 
 //get the bitmap from the compatible render target
-pCompatibleRenderTarget-&gt;GetBitmap(pCompatBitmap);
+pCompatibleRenderTarget->GetBitmap(pCompatBitmap);
 
 //draw this bitmap on the device context
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap)
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawBitmap(pCompatBitmap);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pTargetBitmap)
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawBitmap(pCompatBitmap);
+pD2D1DeviceContext->EndDraw();
 
 //draw something else on the compatible render target
-pCompatibleRenderTarget-&gt;BeginDraw();
-pCompatibleRenderTarget-&gt;Clear();
+pCompatibleRenderTarget->BeginDraw();
+pCompatibleRenderTarget->Clear();
 pCompatibleRenderTarget&gt;RenderScene2();
-pCompatibleRenderTarget-&gt;EndDraw();
+pCompatibleRenderTarget->EndDraw();
 
 //get the bitmap from the compatible render target
-pCompatibleRenderTarget-&gt;GetBitmap(pCompatBitmap);
+pCompatibleRenderTarget->GetBitmap(pCompatBitmap);
 
 //draw this bitmap on the device context
-pD2D1DeviceContext-&gt;SetTarget(pTargetBitmap)
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawBitmap(pCompatBitmap);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pTargetBitmap)
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawBitmap(pCompatBitmap);
+pD2D1DeviceContext->EndDraw();
 
 
 //Use a command list instead for better quality and performance 
 
 //store the original target
-pOriginalTarget = pD2D1DeviceContext-&gt;GetTarget();
+pOriginalTarget = pD2D1DeviceContext->GetTarget();
 
-pD2D1DeviceContext-&gt;CreateCommandList(pCommandList1);
+pD2D1DeviceContext->CreateCommandList(pCommandList1);
 
 //draw to command list 1
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
 RenderMyScene1(pD2D1DeviceContext);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->EndDraw();
 
 //draw the command list to the original target
-pD2D1DeviceContext-&gt;SetTarget(pOriginalTarget);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList1);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pOriginalTarget);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList1);
+pD2D1DeviceContext->EndDraw();
 
-pD2D1DeviceContext-&gt;CreateCommandList(pCommandList2);
+pD2D1DeviceContext->CreateCommandList(pCommandList2);
 
 //draw something else to a new command list
-pD2D1DeviceContext-&gt;SetTarget(pCommandList2);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;RenderScene2();
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pCommandList2);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->RenderScene2();
+pD2D1DeviceContext->EndDraw();
 
 //draw the new command list on the old command list
-pD2D1DeviceContext-&gt;SetTarget(pCommandList1);
-pD2D1DeviceContext-&gt;BeginDraw();
-pD2D1DeviceContext-&gt;DrawImage(pCommandList2);
-pD2D1DeviceContext-&gt;EndDraw();
+pD2D1DeviceContext->SetTarget(pCommandList1);
+pD2D1DeviceContext->BeginDraw();
+pD2D1DeviceContext->DrawImage(pCommandList2);
+pD2D1DeviceContext->EndDraw();
 
 ```
 
