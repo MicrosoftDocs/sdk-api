@@ -4,7 +4,7 @@ title: IDirectMusicSynth8::Refresh (dmusics.h)
 description: Refresh is unsupported and may be altered or unavailable in the future.
 helpviewer_keywords: ["IDirectMusicSynth8 interface [Audio Devices]","Refresh method","IDirectMusicSynth8.Refresh","IDirectMusicSynth8::Refresh","Refresh","Refresh method [Audio Devices]","Refresh method [Audio Devices]","IDirectMusicSynth8 interface","audio.idirectmusicsynth8_refresh","dmusics/IDirectMusicSynth8::Refresh"]
 old-location: audio\idirectmusicsynth8_refresh.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: BA04A6F5-19D9-471D-9F53-DAB555E9F1A5
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.Refresh
+archived: true
 ---
 
 # IDirectMusicSynth8::Refresh

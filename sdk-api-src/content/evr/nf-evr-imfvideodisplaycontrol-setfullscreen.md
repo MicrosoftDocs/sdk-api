@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetFullscreen (evr.h)
 description: Sets or unsets full-screen rendering mode.
 helpviewer_keywords: ["95c85fb2-9267-477f-aa47-1c050ccc1bdd","IMFVideoDisplayControl interface [Media Foundation]","SetFullscreen method","IMFVideoDisplayControl.SetFullscreen","IMFVideoDisplayControl::SetFullscreen","SetFullscreen","SetFullscreen method [Media Foundation]","SetFullscreen method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetFullscreen","mf.imfvideodisplaycontrol_setfullscreen"]
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
 ms.date: 12/05/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetFullscreen
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetFullscreen

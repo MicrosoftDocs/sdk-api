@@ -4,7 +4,7 @@ title: MFCreateVideoPresenter (evr.h)
 description: Creates the default video presenter for the enhanced video renderer (EVR).
 helpviewer_keywords: ["04a1ce0d-f1ed-4b8a-827c-600297660442","MFCreateVideoPresenter","MFCreateVideoPresenter callback","MFCreateVideoPresenter callback function [Media Foundation]","evr/MFCreateVideoPresenter","mf.mfcreatevideopresenter"]
 old-location: mf\mfcreatevideopresenter.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 04a1ce0d-f1ed-4b8a-827c-600297660442
 ms.date: 12/05/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoPresenter
+archived: true
 ---
 
 ## -description

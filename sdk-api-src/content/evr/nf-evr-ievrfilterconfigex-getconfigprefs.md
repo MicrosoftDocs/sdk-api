@@ -4,7 +4,7 @@ title: IEVRFilterConfigEx::GetConfigPrefs (evr.h)
 description: Gets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter filter.
 helpviewer_keywords: ["GetConfigPrefs","GetConfigPrefs method [Media Foundation]","GetConfigPrefs method [Media Foundation]","IEVRFilterConfigEx interface","IEVRFilterConfigEx interface [Media Foundation]","GetConfigPrefs method","IEVRFilterConfigEx.GetConfigPrefs","IEVRFilterConfigEx::GetConfigPrefs","evr/IEVRFilterConfigEx::GetConfigPrefs","mf.ievrfilterconfigex_getconfigprefs"]
 old-location: mf\ievrfilterconfigex_getconfigprefs.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 8b286b77-de5f-44ce-82f4-d11a76fe2c4d
 ms.date: 12/05/2018
 ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, IEVRFilterConfigEx interface [Media Foundation],GetConfigPrefs method, IEVRFilterConfigEx.GetConfigPrefs, IEVRFilterConfigEx::GetConfigPrefs, evr/IEVRFilterConfigEx::GetConfigPrefs, mf.ievrfilterconfigex_getconfigprefs
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - IEVRFilterConfigEx.GetConfigPrefs
+archived: true
 ---
 
 # IEVRFilterConfigEx::GetConfigPrefs

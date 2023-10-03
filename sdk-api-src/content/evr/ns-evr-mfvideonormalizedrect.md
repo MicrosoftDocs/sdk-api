@@ -4,7 +4,7 @@ title: MFVideoNormalizedRect (evr.h)
 description: The MFVideoNormalizedRect (evr.h) structure defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 helpviewer_keywords: ["MFVideoNormalizedRect","MFVideoNormalizedRect structure [Media Foundation]","c1dd42ca-64a0-4f30-82e1-eda3f4721526","evr/MFVideoNormalizedRect","mf.mfvideonormalizedrect"]
 old-location: mf\mfvideonormalizedrect.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
 ms.date: 08/05/2022
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFVideoNormalizedRect
+archived: true
 ---
 
 # MFVideoNormalizedRect structure

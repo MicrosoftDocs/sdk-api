@@ -4,7 +4,7 @@ title: IDirectMusicSynthSink::SetMasterClock (dmusics.h)
 description: The SetMasterClock method provides the synth sink with a master time source, which is required for synchronization with the rest of DirectMusic.
 helpviewer_keywords: ["IDirectMusicSynthSink interface [Audio Devices]","SetMasterClock method","IDirectMusicSynthSink.SetMasterClock","IDirectMusicSynthSink::SetMasterClock","SetMasterClock","SetMasterClock method [Audio Devices]","SetMasterClock method [Audio Devices]","IDirectMusicSynthSink interface","audio.idirectmusicsynthsink_setmasterclock","audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml","dmusics/IDirectMusicSynthSink::SetMasterClock"]
 old-location: audio\idirectmusicsynthsink_setmasterclock.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 91c996cc-04e1-47fb-a82d-1cb17fe191e2
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetMasterClock method, IDirectMusicSynthSink.SetMasterClock, IDirectMusicSynthSink::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setmasterclock, audmp-routines_45d219a0-1877-4a19-961f-6f3666bc9a1a.xml, dmusics/IDirectMusicSynthSink::SetMasterClock
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.SetMasterClock
+archived: true
 ---
 
 # IDirectMusicSynthSink::SetMasterClock

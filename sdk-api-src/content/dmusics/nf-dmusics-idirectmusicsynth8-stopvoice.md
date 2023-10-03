@@ -4,7 +4,7 @@ title: IDirectMusicSynth8::StopVoice (dmusics.h)
 description: StopVoice is unsupported and may be altered or unavailable in the future.
 helpviewer_keywords: ["IDirectMusicSynth8 interface [Audio Devices]","StopVoice method","IDirectMusicSynth8.StopVoice","IDirectMusicSynth8::StopVoice","StopVoice","StopVoice method [Audio Devices]","StopVoice method [Audio Devices]","IDirectMusicSynth8 interface","audio.idirectmusicsynth8_stopvoice","dmusics/IDirectMusicSynth8::StopVoice"]
 old-location: audio\idirectmusicsynth8_stopvoice.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 9DF47B73-B8D1-49C8-8839-7AB0700CC4CC
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],StopVoice method, IDirectMusicSynth8.StopVoice, IDirectMusicSynth8::StopVoice, StopVoice, StopVoice method [Audio Devices], StopVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_stopvoice, dmusics/IDirectMusicSynth8::StopVoice
@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.StopVoice
+archived: true
 ---
 
 # IDirectMusicSynth8::StopVoice

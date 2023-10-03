@@ -4,7 +4,7 @@ title: IDirectMusicSynth::Open (dmusics.h)
 description: The Open method opens a DirectMusic synthesizer &quot;port&quot;.
 helpviewer_keywords: ["IDirectMusicSynth interface [Audio Devices]","Open method","IDirectMusicSynth.Open","IDirectMusicSynth::Open","Open","Open method [Audio Devices]","Open method [Audio Devices]","IDirectMusicSynth interface","audio.idirectmusicsynth_open","audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml","dmusics/IDirectMusicSynth::Open"]
 old-location: audio\idirectmusicsynth_open.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 15a16b27-7693-4fc6-80ae-e8aedcf879d0
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Open method, IDirectMusicSynth.Open, IDirectMusicSynth::Open, Open, Open method [Audio Devices], Open method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_open, audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml, dmusics/IDirectMusicSynth::Open
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.Open
+archived: true
 ---
 
 # IDirectMusicSynth::Open

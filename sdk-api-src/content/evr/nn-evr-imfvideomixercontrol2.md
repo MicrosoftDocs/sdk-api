@@ -4,7 +4,7 @@ title: IMFVideoMixerControl2 (evr.h)
 description: Controls preferences for video deinterlacing.
 helpviewer_keywords: ["IMFVideoMixerControl2","IMFVideoMixerControl2 interface [Media Foundation]","IMFVideoMixerControl2 interface [Media Foundation]","described","evr/IMFVideoMixerControl2","mf.imfvideomixercontrol2"]
 old-location: mf\imfvideomixercontrol2.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - IMFVideoMixerControl2
+archived: true
 ---
 
 # IMFVideoMixerControl2 interface

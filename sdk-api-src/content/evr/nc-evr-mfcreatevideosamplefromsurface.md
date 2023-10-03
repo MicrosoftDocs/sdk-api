@@ -4,7 +4,7 @@ title: MFCreateVideoSampleFromSurface (evr.h)
 description: Creates a media sample that manages a Direct3D surface.
 helpviewer_keywords: ["MFCreateVideoSampleFromSurface","MFCreateVideoSampleFromSurface callback","MFCreateVideoSampleFromSurface callback function [Media Foundation]","d34d423b-4510-44ce-ab46-51560b01f205","evr/MFCreateVideoSampleFromSurface","mf.mfcreatevideosamplefromsurface"]
 old-location: mf\mfcreatevideosamplefromsurface.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoSampleFromSurface
+archived: true
 ---
 
 # MFCreateVideoSampleFromSurface callback function
