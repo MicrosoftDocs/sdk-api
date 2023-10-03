@@ -4,7 +4,7 @@ tech.root: winprog
 title: IsProcessInWDAGContainer (isolatedapplauncher.h)
 ms.date: 07/24/2023
 targetos: Windows
-description: Determines if a process is running in a Windows Defender Application Guard (WDAG) container.
+description: Determines if a process is running in a Microsoft Defender Application Guard (MDAG) container.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Determines if a process is running in a Windows Defender Application Guard (WDAG) container.
+Determines if a process is running in a Microsoft Defender Application Guard (MDAG) container.
 
 ## -parameters
 
@@ -54,12 +54,15 @@ This parameter is reserved for future use.
 
 ### -param isProcessInWDAGContainer
 
-This indicates whether the process is running in a WDAG container.
+This indicates whether the process is running in a MDAG container.
 
 ## -returns
 
 Returns an **HRESULT** success or error code.
 
 ## -remarks
+
+> [!NOTE]
+> Windows Defender Application Guard (WDAG) is now Microsoft Defender Application Guard (MDAG). The WDAG name is deprecated, but it is still used in some APIs.
 
 ## -see-also
