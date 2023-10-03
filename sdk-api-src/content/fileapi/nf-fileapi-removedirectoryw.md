@@ -91,9 +91,11 @@ The <b>RemoveDirectory</b> function marks a directory for
 To recursively delete the files in a directory, use the 
     <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
-<b>RemoveDirectory</b> removes a directory junction, even 
-    if the contents of the target are not empty; the function removes directory junctions regardless of the state of 
-    the target object. For more information on junctions, see 
+<b>RemoveDirectory</b> can be used to remove a directory junction. Since the target directory and its contents 
+    will remain accessible through its canonical path, the target directory itself is not affected by removing a 
+    junction which targets it. For this reason, when <b>lpPathName</b> refers to a directory junction, 
+    <b>RemoveDirectory</b> will remove the specified link regardless of whether the target directory is 
+    empty or not. For more information on junctions, see 
     <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
