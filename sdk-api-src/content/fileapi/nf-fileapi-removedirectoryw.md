@@ -96,7 +96,7 @@ To recursively delete the files in a directory, use the
     junction which targets it. For this reason, when <i>lpPathName</i> refers to a directory junction, 
     <b>RemoveDirectory</b> will remove the specified link regardless of whether the target directory is 
     empty or not. For more information on junctions, see 
-    <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
+    <a href="/windows/win32/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
