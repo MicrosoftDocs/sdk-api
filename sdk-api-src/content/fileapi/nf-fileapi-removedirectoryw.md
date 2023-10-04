@@ -93,7 +93,7 @@ To recursively delete the files in a directory, use the
 
 <b>RemoveDirectory</b> can be used to remove a directory junction. Since the target directory and its contents 
     will remain accessible through its canonical path, the target directory itself is not affected by removing a 
-    junction which targets it. For this reason, when <b>lpPathName</b> refers to a directory junction, 
+    junction which targets it. For this reason, when <i>lpPathName</i> refers to a directory junction, 
     <b>RemoveDirectory</b> will remove the specified link regardless of whether the target directory is 
     empty or not. For more information on junctions, see 
     <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
