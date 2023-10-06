@@ -5,7 +5,6 @@ description: The CHOOSECOLORA (ANSI) function (commdlg.h) contains information t
 ms.date: 08/16/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
 tech.root: dlgbox
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ title: IMFVideoMixerControl::SetStreamOutputRect (evr.h)
 description: Sets the position of a video stream within the composition rectangle.
 helpviewer_keywords: ["7075b8cf-2106-4b13-abc7-8aedae18bb62","IMFVideoMixerControl interface [Media Foundation]","SetStreamOutputRect method","IMFVideoMixerControl.SetStreamOutputRect","IMFVideoMixerControl::SetStreamOutputRect","SetStreamOutputRect","SetStreamOutputRect method [Media Foundation]","SetStreamOutputRect method [Media Foundation]","IMFVideoMixerControl interface","evr/IMFVideoMixerControl::SetStreamOutputRect","mf.imfvideomixercontrol_setstreamoutputrect"]
 old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
 ms.date: 12/05/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoMixerControl.SetStreamOutputRect
+archived: true
 ---
 
 # IMFVideoMixerControl::SetStreamOutputRect

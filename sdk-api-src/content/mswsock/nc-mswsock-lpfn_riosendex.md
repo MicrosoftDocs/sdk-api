@@ -91,12 +91,30 @@ This parameter may be **NULL** if the application does not want to receive the a
 
 A set of flags that modify the behavior of the **RIOSendEx** function.
 
-The *Flags* parameter can contain a combination of the following options defined in the *Mswsockdef.h* header file:
+The *Flags* parameter can contain a combination of the following options, defined in the `Mswsockdef.h` header file:
 
+#### RIO_MSG_COMMIT_ONLY
 
+Previous requests added with **RIO_MSG_DEFER** flag will be committed.
 
-<table><colgroup><col /><col /></colgroup><thead><tr>, <em>pLocalAddress</em>, <em>pRemoteAddress</em>, <em>pControlContext</em>, <em>pFlags</em>, and <em>RequestContext</em> parameters must be NULL and the <em>DataBufferCount</em> parameter must be zero. <br/> This flag would normally be used occasionally after a number of requests were issued with the <strong>RIO_MSG_DEFER</strong> flag set. This eliminates the need when using the <strong>RIO_MSG_DEFER</strong> flag to make the last request without the <strong>RIO_MSG_DEFER</strong> flag, which causes the last request to complete much slower than other requests. <br/> Unlike other calls to the <strong>RIOSendEx</strong> function, when the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set calls to the <strong>RIOSendEx</strong> function do not need to be serialized. For a single [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue), the <strong>RIOSendEx</strong> function can be called with <strong>RIO_MSG_COMMIT_ONLY</strong> on one thread while calling the <strong>RIOSendEx</strong> function on another thread.<br/></td></tr><tr>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter without the <strong>RIO_MSG_DEFER</strong> flag set. To trigger execution for all sends in a send queue, call the [<strong>RIOSend</strong>](./nc-mswsock-lpfn_riosend.md) or <strong>RIOSendEx</strong> function without the <strong>RIO_MSG_DEFER</strong> flag set. <br/><blockquote>[!Note]<br />
-The send request is charged against the outstanding I/O capacity on the [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter regardless of whether <strong>RIO_MSG_DEFER</strong> is set.</blockquote><br/></td></tr></tbody></table>
+When the **RIO_MSG_COMMIT_ONLY** flag is set, no other flags may be specified. When the **RIO_MSG_COMMIT_ONLY** flag is set, the *pData*, *pLocalAddress*, *pRemoteAddress*, *pControlContext*, *pFlags*, and *RequestContext* arguments must be NULL, and the *DataBufferCount* argument must be zero.
+
+This flag would normally be used occasionally after a number of requests were issued with the **RIO_MSG_DEFER** flag set. This eliminates the need when using the **RIO_MSG_DEFER** flag to make the last request without the **RIO_MSG_DEFER** flag, which causes the last request to complete much more slowly than other requests.
+
+Unlike other calls to the **RIOSendEx** function, when the **RIO_MSG_COMMIT_ONLY** flag is set, calls to the **RIOSendEx** function do not need to be serialized. For a single [RIO_RQ](/windows/win32/winsock/riorqueue), the **RIOSendEx** function can be called with **RIO_MSG_COMMIT_ONLY** on one thread while calling the **RIOSendEx** function on another thread.  
+
+#### RIO_MSG_DONT_NOTIFY
+
+The request should not trigger the [RIONotify](./nc-mswsock-lpfn_rionotify.md) function when request completion is inserted into its completion queue.
+
+#### RIO_MSG_DEFER
+
+The request doesn't need to be executed immediately. This will insert the request into the request queue, but it may or may not trigger the execution of the request.
+
+Sending data might be delayed until a send request is made on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter without the **RIO_MSG_DEFER** flag set. To trigger execution for all sends in a send queue, call the [RIOSend](./nc-mswsock-lpfn_riosend.md) or **RIOSendEx** function without the **RIO_MSG_DEFER** flag set.  
+
+> [!NOTE]
+> The send request is charged against the outstanding I/O capacity on the [RIO_RQ](/windows/win32/winsock/riorqueue) passed in the *SocketQueue* parameter regardless of whether **RIO_MSG_DEFER** is set.
 
 ### -param RequestContext
 
@@ -108,14 +126,12 @@ If no error occurs, the **RIOSendEx** function returns **TRUE**. In this case, t
 
 A value of **FALSE** indicates the function failed, the operation was not successfully initiated and no completion indication will be queued. A specific error code can be retrieved by calling the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function.
 
-
-
-| Return code                                                                                                                                         | Description                                                                                                                                                                                                                                                                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl>             | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if a buffer identifier is deregistered or a buffer is freed for any of the [**RIO\_BUF**](../mswsockdef/ns-mswsockdef-rio_buf.md) structures passed in parameters before the operation is queued or invoked.<br/>                                |
-| <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>             | An invalid parameter was passed to the function. <br/> This error is returned if the *SocketQueue* parameter is not valid, the *Flags* parameter contains a value not valid for a send operation, or the integrity of the completion queue has been compromised. This error can also be returned for other issues with parameters.<br/> |
-| <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl>           | Sufficient memory could not be allocated. This error is returned if the I/O completion queue associated with the *SocketQueue* parameter is full or the I/O completion queue was created with zero send entries.<br/>                                                                                                                          |
-| <dl> <dt>**[WSA\_IO\_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)**</dt> </dl> | The operation has been successfully initiated and the completion will be queued at a later time.<br/>                                                                                                                                                                                                                                          |
+| Return code | Description |
+|--|--|
+| **[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)** | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if a buffer identifier is deregistered or a buffer is freed for any of the [**RIO\_BUF**](../mswsockdef/ns-mswsockdef-rio_buf.md) structures passed in parameters before the operation is queued or invoked. |
+| **[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)** | An invalid parameter was passed to the function. <br/> This error is returned if the *SocketQueue* parameter is not valid, the *Flags* parameter contains a value not valid for a send operation, or the integrity of the completion queue has been compromised. This error can also be returned for other issues with parameters. |
+| **[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)** | Sufficient memory could not be allocated. This error is returned if the I/O completion queue associated with the *SocketQueue* parameter is full or the I/O completion queue was created with zero send entries. |
+| **[WSA\_IO\_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending)** | The operation has been successfully initiated and the completion will be queued at a later time. |
 
 ## -remarks
 
@@ -127,51 +143,34 @@ The *pLocalAddress* parameter can be used to retrieve the local address from whi
 
 The following table summarizes the various uses of control data available for use with the control information in the *pControlContext* member.
 
-
-
-| Protocol | cmsg\_level   | cmsg\_type     | Description                                                                                                                                                                                         |
-|----------|---------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IPv4     | IPPROTO\_IP   | IP\_PKTINFO    | Specifies/receives packet information.<br/> For more information, see the [IPPROTO_IP Socket Options](/windows/win32/winsock/ipproto-ip-socket-options) for the IP\_PKTINFO socket option.<br/>       |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_DSTOPTS  | Specifies/receives destination options.<br/>                                                                                                                                                  |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_HOPLIMIT | Specifies/receives hop limit.<br/> For more information, see the [**IPPROTO\_IPV6 Socket Options**](/windows/win32/winsock/ipproto-ipv6-socket-options) for the IPV6\_HOPLIMIT socket option.<br/>         |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_HOPOPTS  | Specifies/receives hop-by-hop options.<br/>                                                                                                                                                   |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_NEXTHOP  | Specifies next-hop address.<br/>                                                                                                                                                              |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_PKTINFO  | Specifies/receives packet information.<br/> For more information, see the [**IPPROTO\_IPV6 Socket Options**](/windows/win32/winsock/ipproto-ipv6-socket-options) for the IPV6\_PKTINFO socket option.<br/> |
-| IPv6     | IPPROTO\_IPV6 | IPV6\_RTHDR    | Specifies/receives routing header.<br/>                                                                                                                                                       |
-
-
-
- 
+| Protocol | cmsg\_level | cmsg\_type | Description |
+|--|---|--|--|
+| IPv4 | IPPROTO\_IP | IP\_PKTINFO | Specifies/receives packet information.<br/> For more information, see the [IPPROTO_IP Socket Options](/windows/win32/winsock/ipproto-ip-socket-options) for the IP\_PKTINFO socket option. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_DSTOPTS  | Specifies/receives destination options. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_HOPLIMIT | Specifies/receives hop limit.<br/> For more information, see the [**IPPROTO\_IPV6 Socket Options**](/windows/win32/winsock/ipproto-ipv6-socket-options) for the IPV6\_HOPLIMIT socket option. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_HOPOPTS  | Specifies/receives hop-by-hop options. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_NEXTHOP  | Specifies next-hop address. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_PKTINFO  | Specifies/receives packet information.<br/> For more information, see the [**IPPROTO\_IPV6 Socket Options**](/windows/win32/winsock/ipproto-ipv6-socket-options) for the IPV6\_PKTINFO socket option. |
+| IPv6 | IPPROTO\_IPV6 | IPV6\_RTHDR    | Specifies/receives routing header. |
 
 Control data is made up of one or more control data objects, each beginning with a **WSACMSGHDR** structure, defined as the following:
-
 
 ```C++
 } WSACMSGHDR;
 ```
 
-
-
 The members of the **WSACMSGHDR** structure are as follows:
 
-
-
-| Term                                                                             | Description                                                                                                                                                  |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="cmsg_len"></span><span id="CMSG_LEN"></span>cmsg\_len<br/>       | The number of bytes of data starting from the beginning of the **WSACMSGHDR** to the end of data (excluding padding bytes that may follow data). <br/> |
-| <span id="cmsg_level"></span><span id="CMSG_LEVEL"></span>cmsg\_level<br/> | The protocol that originated the control information. <br/>                                                                                            |
-| <span id="cmsg_type"></span><span id="CMSG_TYPE"></span>cmsg\_type<br/>    | The protocol-specific type of control information.<br/>                                                                                                |
-
-
-
- 
+| Term | Description |
+|--|--|
+| <span id="cmsg_len"></span><span id="CMSG_LEN"></span>cmsg\_len | The number of bytes of data starting from the beginning of the **WSACMSGHDR** to the end of data (excluding padding bytes that may follow data). |
+| <span id="cmsg_level"></span><span id="CMSG_LEVEL"></span>cmsg\_level | The protocol that originated the control information.  |
+| <span id="cmsg_type"></span><span id="CMSG_TYPE"></span>cmsg\_type | The protocol-specific type of control information. |
 
 The *Flags* parameter can be used to influence the behavior of the **RIOSendEx** function beyond the options specified for the associated socket. The behavior of this function is determined by a combination of any socket options set on the socket associated with the *SocketQueue* parameter and the values specified in the *Flags* parameter.
 
-> [!Note]  
+> [!NOTE]  
 > The function pointer to the **RIOSendEx** function must be obtained at run time by making a call to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](./ns-mswsock-rio_extension_function_table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
-
- 
 
 **Windows Phone 8:** This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 

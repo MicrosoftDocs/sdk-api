@@ -1,12 +1,12 @@
 ---
 UID: NS:werapi._WER_RUNTIME_EXCEPTION_INFORMATION
 title: WER_RUNTIME_EXCEPTION_INFORMATION (werapi.h)
-description: Contains the exception information that you use to determine whether you want to claim the crash.
+description: Contains the Windows Error Reporting (WER) exception information used to determine whether you want to claim the crash.
 helpviewer_keywords: ["*PWER_RUNTIME_EXCEPTION_INFORMATION","PWER_RUNTIME_EXCEPTION_INFORMATION","PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting]","WER_RUNTIME_EXCEPTION_INFORMATION","WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting]","wer.wer_runtime_exception_information","werapi/PWER_RUNTIME_EXCEPTION_INFORMATION","werapi/WER_RUNTIME_EXCEPTION_INFORMATION"]
 old-location: wer\wer_runtime_exception_information.htm
 tech.root: wer
 ms.assetid: fcf956ac-6015-439c-aec6-8f6a826ff269
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: '*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_RUNTIME_EXCEPTION_INFORMATION, WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting], wer.wer_runtime_exception_information, werapi/PWER_RUNTIME_EXCEPTION_INFORMATION, werapi/WER_RUNTIME_EXCEPTION_INFORMATION'
 req.header: werapi.h
 req.include-header: 
@@ -51,10 +51,9 @@ api_name:
 
 # WER_RUNTIME_EXCEPTION_INFORMATION structure
 
-
 ## -description
 
-Contains the exception information that you use to determine whether you want to claim the crash.
+Contains the [Windows Error Reporting](../_wer/index.md) (WER) exception information used to determine whether you want to claim the crash.
 
 ## -struct-fields
 
@@ -72,11 +71,11 @@ The handle to the thread that crashed.
 
 ### -field exceptionRecord
 
-An <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure that contains the exception information.
+An [EXCEPTION_RECORD](/windows/desktop/api/winnt/ns-winnt-exception_record) structure that contains the exception information.
 
 ### -field context
 
-A <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains the context information.
+A [CONTEXT](/windows/desktop/api/winnt/ns-winnt-arm64_nt_context) structure that contains the context information.
 
 ### -field pwszReportId
 
@@ -84,4 +83,4 @@ A pointer to a constant, null-terminated string that contains the size of the ex
 
 ## -see-also
 
-<a href="/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event">OutOfProcessExceptionEventCallback</a>
+[OutOfProcessExceptionEventCallback](/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event), [Windows Error Reporting](../_wer/index.md)

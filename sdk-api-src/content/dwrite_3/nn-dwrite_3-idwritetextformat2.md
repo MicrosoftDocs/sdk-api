@@ -54,9 +54,9 @@ Describes the font and paragraph properties used to format text, and it describe
 
 ## -inheritance
 
-The <b>IDWriteTextFormat2</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
+The <b>IDWriteTextFormat2</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextformat1">IDWriteTextFormat1</a>
 

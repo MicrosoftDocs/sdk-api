@@ -68,21 +68,30 @@ This member is reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DisallowWin32kSystemCalls
 
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditDisallowWin32kSystemCalls
-
-### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
-
- 
-
-
-
-
-#### - DisallowWin32kSystemCalls : 1
-
 When set to 1, the process is not permitted to perform GUI system calls.
 
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditDisallowWin32kSystemCalls
 
-#### - ReservedFlags : 31
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DisallowFsctlSystemCalls
+
+When set to 1, the process is not be able to successfully make NtFsControlFile system calls, with the following FsControlCode exceptions.
+
+- FSCTL_IS_VOLUME_MOUNTED
+- FSCTL_PIPE_IMPERSONATE
+- FSCTL_PIPE_LISTEN
+- FSCTL_PIPE_DISCONNECT
+- FSCTL_PIPE_TRANSCEIVE
+- FSCTL_PIPE_WAIT
+- FSCTL_PIPE_GET_PIPE_ATTRIBUTE
+- FSCTL_PIPE_GET_CONNECTION_ATTRIBUTE
+- FSCTL_PIPE_GET_HANDLE_ATTRIBUTE
+- FSCTL_PIPE_PEEK
+- FSCTL_PIPE_EVENT_SELECT
+- FSCTL_PIPE_EVENT_ENUM
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditDisallowFsctlSystemCalls
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
 

@@ -4,7 +4,7 @@ title: IMFVideoRenderer (evr.h)
 description: Sets a new mixer or presenter for the Enhanced Video Renderer (EVR).
 helpviewer_keywords: ["70596630-5131-460f-9cb3-adcea201c3b2","IMFVideoRenderer","IMFVideoRenderer interface [Media Foundation]","IMFVideoRenderer interface [Media Foundation]","described","evr/IMFVideoRenderer","mf.imfvideorenderer"]
 old-location: mf\imfvideorenderer.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
 ms.date: 12/05/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoRenderer
+archived: true
 ---
 
 # IMFVideoRenderer interface

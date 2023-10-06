@@ -5,7 +5,6 @@ title: IUserActivitySourceHostInterop
 description: The IUserActivitySourceHostInterop interface enables interoperability with a WinRT a UserActivityChannel or a UserActivity object.
 ms.date: 08/02/2022
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

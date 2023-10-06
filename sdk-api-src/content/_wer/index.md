@@ -15,9 +15,9 @@ Overview of the Windows Error Reporting technology.
 
 To develop Windows Error Reporting, you need these headers:
 
- * [errorrep.h](../errorrep/index.md)
- * [werapi.h](../werapi/index.md)
+- [errorrep.h](../errorrep/index.md)
+- [werapi.h](../werapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Error Reporting](/windows/desktop/wer)
 
+- [Windows Error Reporting](/windows/desktop/wer)

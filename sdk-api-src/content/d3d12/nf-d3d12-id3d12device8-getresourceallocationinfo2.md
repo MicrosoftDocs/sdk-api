@@ -1,5 +1,5 @@
 ---
-UID: NF:d3d12.ID3D12Device8.GetResourceAllocationInfo2(UINT,UINT,constD3D12_RESOURCE_DESC1,D3D12_RESOURCE_ALLOCATION_INFO1)
+UID: NF:d3d12.ID3D12Device8.GetResourceAllocationInfo2
 title: ID3D12Device8::GetResourceAllocationInfo2
 description: Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. (ID3D12Device8::GetResourceAllocationInfo2)
 helpviewer_keywords: ["ID3D12Device8 interface","GetResourceAllocationInfo2 method","ID3D12Device8.GetResourceAllocationInfo2","ID3D12Device8::GetResourceAllocationInfo2","GetResourceAllocationInfo2","GetResourceAllocationInfo2 method","GetResourceAllocationInfo2 method","ID3D12Device8 interface","direct3d12.id3d12device7_getresourceallocationinfo2","d3d12/ID3D12Device8::GetResourceAllocationInfo2"]

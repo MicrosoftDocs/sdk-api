@@ -27,7 +27,6 @@
     "mfmediaengine.h",
     "mfmp2dlna.h",
     "mfreadwrite.h",
-    "evr.h",
     "dxva2api.h",
     "mfplay.h",
     "mfsharingengine.h",

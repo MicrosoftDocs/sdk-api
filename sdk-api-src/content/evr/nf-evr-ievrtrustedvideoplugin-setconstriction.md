@@ -4,7 +4,7 @@ title: IEVRTrustedVideoPlugin::SetConstriction (evr.h)
 description: Limits the effective video resolution.
 helpviewer_keywords: ["IEVRTrustedVideoPlugin interface [Media Foundation]","SetConstriction method","IEVRTrustedVideoPlugin.SetConstriction","IEVRTrustedVideoPlugin::SetConstriction","SetConstriction","SetConstriction method [Media Foundation]","SetConstriction method [Media Foundation]","IEVRTrustedVideoPlugin interface","evr/IEVRTrustedVideoPlugin::SetConstriction","f2e9b199-969f-453c-8714-fa85c89a191a","mf.ievrtrustedvideoplugin_setconstriction"]
 old-location: mf\ievrtrustedvideoplugin_setconstriction.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
 ms.date: 12/05/2018
 ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction method, IEVRTrustedVideoPlugin.SetConstriction, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
@@ -44,6 +44,7 @@ api_location:
  - mfuuid.dll
 api_name:
  - IEVRTrustedVideoPlugin.SetConstriction
+archived: true
 ---
 
 # IEVRTrustedVideoPlugin::SetConstriction

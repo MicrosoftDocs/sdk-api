@@ -4,7 +4,7 @@ title: IDirectMusicSynth8::PlayVoice (dmusics.h)
 description: PlayVoice is unsupported and may be altered or unavailable in the future.
 helpviewer_keywords: ["IDirectMusicSynth8 interface [Audio Devices]","PlayVoice method","IDirectMusicSynth8.PlayVoice","IDirectMusicSynth8::PlayVoice","PlayVoice","PlayVoice method [Audio Devices]","PlayVoice method [Audio Devices]","IDirectMusicSynth8 interface","audio.idirectmusicsynth8_playvoice","dmusics/IDirectMusicSynth8::PlayVoice"]
 old-location: audio\idirectmusicsynth8_playvoice.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: BFD0D40E-C880-4574-BB66-C393F806FAFA
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDirectMusicSynth8.PlayVoice, IDirectMusicSynth8::PlayVoice, PlayVoice, PlayVoice method [Audio Devices], PlayVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_playvoice, dmusics/IDirectMusicSynth8::PlayVoice
@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.PlayVoice
+archived: true
 ---
 
 # IDirectMusicSynth8::PlayVoice

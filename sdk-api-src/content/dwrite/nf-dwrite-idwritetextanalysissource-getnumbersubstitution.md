@@ -68,7 +68,7 @@ Contains  the length of the text, in characters, remaining in the text range up 
 
 ### -param numberSubstitution [out]
 
-Type: <b><a href="/windows/win32/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
 
 Contains an address of a pointer to an object, which was created with <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution">IDWriteFactory::CreateNumberSubstitution</a>, that holds the appropriate digits and numeric punctuation for a given locale.
 

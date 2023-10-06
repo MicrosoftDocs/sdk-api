@@ -62,7 +62,7 @@ The following example shows the XML that you can use to initialize this object i
 
 
 ```xml
-<tr>
+<TraceDataCollector>
     <BufferSize/>
     <BuffersLost/>  <!-- Output only -->
     <BuffersWritten/>  <!-- Output only -->
@@ -83,7 +83,7 @@ The following example shows the XML that you can use to initialize this object i
     <SessionName/>
     <SessionThreadId/>  <!-- Output only -->
     <StreamMode/>
-    <tr>  <!-- Specify for each provider -->
+    <TraceDataProvider>  <!-- Specify for each provider -->
         <DisplayName/>
         <FilterData/>
         <FilterType/>

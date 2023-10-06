@@ -1,5 +1,5 @@
 ---
-UID: NF:d3d12.ID3D12Device.GetCustomHeapProperties(UINT,D3D12_HEAP_TYPE)
+UID: NF:d3d12.ID3D12Device.GetCustomHeapProperties
 title: ID3D12Device::GetCustomHeapProperties (d3d12.h)
 description: Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
 helpviewer_keywords: ["GetCustomHeapProperties","GetCustomHeapProperties method","GetCustomHeapProperties method","ID3D12Device interface","ID3D12Device interface","GetCustomHeapProperties method","ID3D12Device.GetCustomHeapProperties","ID3D12Device::GetCustomHeapProperties","d3d12/ID3D12Device::GetCustomHeapProperties","direct3d12.id3d12device_getcustomheapproperties"]
