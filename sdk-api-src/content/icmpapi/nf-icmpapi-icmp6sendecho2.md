@@ -117,8 +117,7 @@ The time, in milliseconds, to wait for replies. This parameter is only used if t
 
 ## -returns
 
-When called synchronously, the <b>Icmp6SendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+When called synchronously, the <b>Icmp6SendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>.
 
 When called asynchronously, the <b>Icmp6SendEcho2</b> function returns ERROR_IO_PENDING  to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
 
