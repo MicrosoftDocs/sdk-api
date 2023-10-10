@@ -57,7 +57,10 @@ Queries for information on the current update sequence number (USN) change journ
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       Device,          // handle to volume
-                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode(LPVOID)       NULL,            // lpInBuffer(DWORD)        0,               // nInBufferSize(LPVOID)       lpOutBuffer,     // output buffer
+                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode
+                 (LPVOID)       NULL,            // lpInBuffer
+                 (DWORD)        0,               // nInBufferSize
+                 (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
                  (LPDWORD)      lpBytesReturned, // number of bytes returned
                  (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
