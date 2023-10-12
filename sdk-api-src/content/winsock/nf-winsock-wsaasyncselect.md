@@ -541,6 +541,7 @@ If any event has occurred when the application calls
 <li>The application calls 
 <b>WSAAsyncSelect</b> specifying that it requires receiving <b>FD_ACCEPT</b> messages for the socket. Due to the persistence of events, Windows Sockets 2 posts an <b>FD_ACCEPT</b> message immediately.</li>
 </ol>
+
 The <b>FD_WRITE</b> event is handled slightly differently. An <b>FD_WRITE</b> message is posted when a socket is first connected with 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> or 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a> (after FD_CONNECT, if also registered) or accepted with 
