@@ -407,9 +407,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 [CallNextHookEx function](nf-winuser-callnexthookex.md)
 
-[CallWindowProcW function](nf-winuser-callwindowprocw.md)
-
-[CallWindowProcA function](nf-winuser-callwindowproca.md)
+[CallWindowProc function](nf-winuser-callwindowproca.md)
 
 [HOOKPROC callback function](nc-winuser-hookproc.md)
 
