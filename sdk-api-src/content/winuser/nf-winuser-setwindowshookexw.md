@@ -413,74 +413,47 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 ## -see-also
 
-<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
-
-
-
 [CallNextHookEx function](nf-winuser-callnexthookex.md)
-
-
 
 [CallWindowProcW function](nf-winuser-callwindowprocw.md)
 
 [CallWindowProcA function](nf-winuser-callwindowproca.md)
 
-
 [HOOKPROC callback function](nc-winuser-hookproc.md)
 
+[UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
 
+[CBTProc](/windows/win32/winmsg/cbtproc)
 
-<b>Conceptual</b>
+[CallWndProc](/windows/win32/winmsg/callwndproc)
 
-
-
-[*DebugProc*](/windows/win32/winmsg/debugproc)
-
+[DebugProc](/windows/win32/winmsg/debugproc)
 
 [ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc)
 
 [GetMsgProc](/windows/win32/winmsg/getmsgproc)
 
-
-
-<a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
 [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
-
-
 
 [JournalRecordProc](/windows/win32/winmsg/journalrecordproc)
 
-
-
-<a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a>
-
-
+[KeyboardProc](/windows/win32/winmsg/keyboardproc)
 
 [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
 
+[LowLevelMouseProc](/windows/win32/winmsg/lowlevelmouseproc)
 
-<a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
+[MessageProc](/windows/win32/winmsg/messageproc)
 
+[MouseProc](/windows/win32/winmsg/mouseproc)
 
+[ShellProc](/windows/win32/winmsg/shellproc)
 
-<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
+[SysMsgProc](/windows/win32/winmsg/sysmsgproc)
 
+<b>Conceptual</b>
 
-
-<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
-
-
-
-<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
+[Hooks](/windows/desktop/winmsg/hooks)
 
 
 
