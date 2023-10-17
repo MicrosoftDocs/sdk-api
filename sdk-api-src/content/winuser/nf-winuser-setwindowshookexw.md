@@ -415,9 +415,7 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 [CallNextHookEx function](nf-winuser-callnexthookex.md)
 
-[CallWindowProcW function](nf-winuser-callwindowprocw.md)
-
-[CallWindowProcA function](nf-winuser-callwindowproca.md)
+[CallWindowProc function](nf-winuser-callwindowprocw.md)
 
 [HOOKPROC callback function](nc-winuser-hookproc.md)
 
@@ -454,7 +452,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 <b>Conceptual</b>
 
 [Hooks](/windows/desktop/winmsg/hooks)
-
-
-
-[UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
