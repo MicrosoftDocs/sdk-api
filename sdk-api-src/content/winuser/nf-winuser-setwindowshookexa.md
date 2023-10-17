@@ -409,13 +409,13 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 [CallWindowProc function](nf-winuser-callwindowproca.md)
 
-[HOOKPROC callback function](nc-winuser-hookproc.md)
-
 [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
 
 [CBTProc](/windows/win32/winmsg/cbtproc)
 
 [CallWndProc](/windows/win32/winmsg/callwndproc)
+
+[CallWndRetProc](nc-winuser-hookproc.md)
 
 [DebugProc](/windows/win32/winmsg/debugproc)
 
