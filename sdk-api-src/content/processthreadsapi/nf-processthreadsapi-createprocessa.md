@@ -143,6 +143,8 @@ For additional discussion of inheritable handles, see Remarks.
 
 <b>Protected Process Light (PPL) processes:  </b>The generic handle inheritance is blocked when a PPL process creates a non-PPL process since PROCESS_DUP_HANDLE is not allowed from a non-PPL process to a PPL process. See <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>
 
+<b>Windows 7:  </b>STD_INPUT_HANDLE, STD_OUTPUT_HANDLE, and STD_ERROR_HANDLE are inherited, even when the parameter is FALSE.
+
 ### -param dwCreationFlags [in]
 
 The flags that control the priority class and the creation of the process. For a list of values, see 
