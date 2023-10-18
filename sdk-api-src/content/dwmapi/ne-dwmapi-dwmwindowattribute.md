@@ -118,11 +118,11 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. If the window is cloaked, provides one of the following values explaining why.
 
-<b>DWM_CLOAKED_APP</b> (value 0x0000001). The window was cloaked by its owner application.
+<b>DWM_CLOAKED_APP</b> (value 0x00000001). The window was cloaked by its owner application.
 
-<b>DWM_CLOAKED_SHELL</b> (value 0x0000002). The window was cloaked by the Shell.
+<b>DWM_CLOAKED_SHELL</b> (value 0x00000002). The window was cloaked by the Shell.
 
-<b>DWM_CLOAKED_INHERITED</b> (value 0x0000004). The cloak value was inherited from its owner window.
+<b>DWM_CLOAKED_INHERITED</b> (value 0x00000004). The cloak value was inherited from its owner window.
 
 <b>Windows 7 and earlier: </b>This value is not supported.
 
