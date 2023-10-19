@@ -90,7 +90,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was created successfully.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new [**HSTRING**](/windows/win32/winrt/hstring).
+Failed to allocate the new <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>.
 
 </td>
 </tr>

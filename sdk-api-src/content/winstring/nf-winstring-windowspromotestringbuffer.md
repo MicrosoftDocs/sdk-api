@@ -83,7 +83,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was created successfully.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 </dl>
 </td>
 <td width="60%">
-<i>bufferHandle</i> was not created by calling the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the   terminating NUL character in  <i>bufferHandle</i>.
+<i>bufferHandle</i> was not created by calling the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the terminating NULL character in  <i>bufferHandle</i>.
 
 </td>
 </tr>
