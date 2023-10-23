@@ -265,8 +265,6 @@ The file or directory is truncated.
 <td width="60%">
 The user made a change to the extended attributes of a file or directory.
 
-These NTFS file system attributes are not accessible to Windows-based applications.
-
 </td>
 </tr>
 <tr>
