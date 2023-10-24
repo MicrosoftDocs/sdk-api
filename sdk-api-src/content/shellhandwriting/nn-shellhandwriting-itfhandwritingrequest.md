@@ -1,7 +1,7 @@
 ---
-UID: NN:shellhandwriting.IHandwritingInputRoutingCallback
+UID: NN:shellhandwriting.ITfHandwritingRequest
 tech.root: 
-title: IHandwritingInputRoutingCallback
+title: ITfHandwritingRequest
 ms.date: 
 targetos: Windows
 description: 
@@ -26,14 +26,14 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - IHandwritingInputRoutingCallback
+ - ITfHandwritingRequest
 f1_keywords:
- - IHandwritingInputRoutingCallback
- - shellhandwriting/IHandwritingInputRoutingCallback
+ - ITfHandwritingRequest
+ - shellhandwriting/ITfHandwritingRequest
 dev_langs:
  - c++
 helpviewer_keywords:
- - IHandwritingInputRoutingCallback
+ - ITfHandwritingRequest
 ---
 
 ## -description

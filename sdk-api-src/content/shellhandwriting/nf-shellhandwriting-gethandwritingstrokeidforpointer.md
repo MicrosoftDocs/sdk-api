@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.GetHandwritingStrokeIdForPointer
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: GetHandwritingStrokeIdForPointer
 ms.date: 
 targetos: Windows
 description: 
@@ -28,18 +28,18 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - COM
+ - 
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - GetHandwritingStrokeIdForPointer
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - GetHandwritingStrokeIdForPointer
+ - shellhandwriting/GetHandwritingStrokeIdForPointer
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - GetHandwritingStrokeIdForPointer
 ---
 
 ## -description
@@ -49,10 +49,6 @@ helpviewer_keywords:
 ### -param pointerId
 
 ### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
 
 ## -returns
 

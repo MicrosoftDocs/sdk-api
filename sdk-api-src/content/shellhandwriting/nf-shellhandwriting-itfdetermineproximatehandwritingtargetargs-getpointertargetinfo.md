@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.GetPointerTargetInfo
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,25 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
+ - shellhandwriting/ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - GetPointerTargetInfo
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
+### -param targetWindow
 
-### -param handwritingStrokeId
+### -param targetScreenPoint
 
-### -param requestAccepted
-
-### -param request
+### -param distanceThreshold
 
 ## -returns
 

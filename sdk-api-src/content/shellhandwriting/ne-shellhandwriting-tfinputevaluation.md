@@ -1,42 +1,49 @@
 ---
-UID: NN:shellhandwriting.IHandwritingInputRoutingCallback
+UID: NE:shellhandwriting.TfInputEvaluation
 tech.root: 
-title: IHandwritingInputRoutingCallback
+title: TfInputEvaluation
 ms.date: 
 targetos: Windows
 description: 
 prerelease: false
-req.assembly: 
-req.construct-type: iface
+req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: shellhandwriting.h
-req.idl: 
 req.include-header: 
+req.kmdf-ver: 
 req.max-support: 
-req.namespace: 
-req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.unicode-ansi: 
+req.typenames: 
+typedef_isUnnamed: false
+req.umdf-ver: 
 topic_type:
  - apiref
 api_type:
- - COM
+ - HeaderDef
 api_location:
  - shellhandwriting.h
 api_name:
- - IHandwritingInputRoutingCallback
+ - TfInputEvaluation
 f1_keywords:
- - IHandwritingInputRoutingCallback
- - shellhandwriting/IHandwritingInputRoutingCallback
+ - TfInputEvaluation
+ - shellhandwriting/TfInputEvaluation
 dev_langs:
  - c++
 helpviewer_keywords:
- - IHandwritingInputRoutingCallback
+ - TfInputEvaluation
 ---
 
 ## -description
+
+## -enum-fields
+
+### -field TF_IE_HANDWRITING
+
+### -field TF_IE_TAP
+
+### -field TF_IE_CANCEL_HANDWRITING
 
 ## -remarks
 

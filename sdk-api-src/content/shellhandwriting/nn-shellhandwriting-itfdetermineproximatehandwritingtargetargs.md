@@ -1,7 +1,7 @@
 ---
-UID: NN:shellhandwriting.IHandwritingInputRoutingCallback
+UID: NN:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs
 tech.root: 
-title: IHandwritingInputRoutingCallback
+title: ITfDetermineProximateHandwritingTargetArgs
 ms.date: 
 targetos: Windows
 description: 
@@ -26,14 +26,14 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - IHandwritingInputRoutingCallback
+ - ITfDetermineProximateHandwritingTargetArgs
 f1_keywords:
- - IHandwritingInputRoutingCallback
- - shellhandwriting/IHandwritingInputRoutingCallback
+ - ITfDetermineProximateHandwritingTargetArgs
+ - shellhandwriting/ITfDetermineProximateHandwritingTargetArgs
 dev_langs:
  - c++
 helpviewer_keywords:
- - IHandwritingInputRoutingCallback
+ - ITfDetermineProximateHandwritingTargetArgs
 ---
 
 ## -description

@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfHandwritingRequest.SetInputEvaluation
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfHandwritingRequest::SetInputEvaluation
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingRequest::SetInputEvaluation
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingRequest::SetInputEvaluation
+ - shellhandwriting/ITfHandwritingRequest::SetInputEvaluation
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - SetInputEvaluation
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
+### -param inputEvaluation
 
 ## -returns
 

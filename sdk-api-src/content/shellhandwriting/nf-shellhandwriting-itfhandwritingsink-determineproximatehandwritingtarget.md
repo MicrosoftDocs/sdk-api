@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfHandwritingSink.DetermineProximateHandwritingTarget
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfHandwritingSink::DetermineProximateHandwritingTarget
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingSink::DetermineProximateHandwritingTarget
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingSink::DetermineProximateHandwritingTarget
+ - shellhandwriting/ITfHandwritingSink::DetermineProximateHandwritingTarget
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - DetermineProximateHandwritingTarget
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
+### -param determineProximateHandwritingTargetArgs
 
 ## -returns
 

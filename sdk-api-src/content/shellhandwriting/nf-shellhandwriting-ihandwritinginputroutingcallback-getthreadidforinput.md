@@ -1,11 +1,11 @@
 ---
 UID: NF:shellhandwriting.IHandwritingInputRoutingCallback.GetThreadIdForInput
-tech.root: input_ink
+tech.root: 
 title: IHandwritingInputRoutingCallback::GetThreadIdForInput
-ms.date: 07/17/2023
+ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -46,13 +46,13 @@ helpviewer_keywords:
 
 ## -parameters
 
-### -param PointerId
+### -param pointerId
 
 ### -param targetScreenPoint
 
 ### -param targetHWnd
 
-### -param threadId
+### -param uiThreadId
 
 ## -returns
 

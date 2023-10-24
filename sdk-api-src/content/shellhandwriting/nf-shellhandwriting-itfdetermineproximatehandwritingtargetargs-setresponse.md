@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.SetResponse
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfDetermineProximateHandwritingTargetArgs::SetResponse
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfDetermineProximateHandwritingTargetArgs::SetResponse
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfDetermineProximateHandwritingTargetArgs::SetResponse
+ - shellhandwriting/ITfDetermineProximateHandwritingTargetArgs::SetResponse
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - SetResponse
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
+### -param response
 
 ## -returns
 

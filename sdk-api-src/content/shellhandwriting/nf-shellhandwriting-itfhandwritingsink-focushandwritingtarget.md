@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfHandwritingSink.FocusHandwritingTarget
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfHandwritingSink::FocusHandwritingTarget
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingSink::FocusHandwritingTarget
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwritingSink::FocusHandwritingTarget
+ - shellhandwriting/ITfHandwritingSink::FocusHandwritingTarget
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - FocusHandwritingTarget
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
+### -param focusHandwritingTargetArgs
 
 ## -returns
 

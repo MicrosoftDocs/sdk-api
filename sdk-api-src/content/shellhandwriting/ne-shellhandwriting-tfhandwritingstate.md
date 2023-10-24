@@ -35,15 +35,13 @@ helpviewer_keywords:
  - TfHandwritingState
 ---
 
-# TfHandwritingState enumeration
-
 ## -description
 
 Specifies how handwriting is supported by the system.
 
 ## -enum-fields
 
-### -field TF_HANDWRITING_DEFAULT
+### -field TF_HANDWRITING_AUTO
 
 The default system state for the thread.
 

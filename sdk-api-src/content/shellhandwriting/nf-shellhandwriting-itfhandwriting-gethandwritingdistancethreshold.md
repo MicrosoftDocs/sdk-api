@@ -1,7 +1,7 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer
+UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingDistanceThreshold
 tech.root: 
-title: ITfHandwriting::RequestHandwritingForPointer
+title: ITfHandwriting::GetHandwritingDistanceThreshold
 ms.date: 
 targetos: Windows
 description: 
@@ -32,27 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwriting::GetHandwritingDistanceThreshold
 f1_keywords:
- - ITfHandwriting::RequestHandwritingForPointer
- - shellhandwriting/ITfHandwriting::RequestHandwritingForPointer
+ - ITfHandwriting::GetHandwritingDistanceThreshold
+ - shellhandwriting/ITfHandwriting::GetHandwritingDistanceThreshold
 dev_langs:
  - c++
 helpviewer_keywords:
- - RequestHandwritingForPointer
+ - GetHandwritingDistanceThreshold
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param handwritingStrokeId
-
-### -param requestAccepted
-
-### -param request
+### -param distanceThresholdPixels
 
 ## -returns
 

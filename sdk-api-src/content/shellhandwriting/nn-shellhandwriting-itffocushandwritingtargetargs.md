@@ -1,11 +1,11 @@
 ---
 UID: NN:shellhandwriting.ITfFocusHandwritingTargetArgs
-tech.root: input_ink
+tech.root: 
 title: ITfFocusHandwritingTargetArgs
-ms.date: 07/17/2023
+ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
