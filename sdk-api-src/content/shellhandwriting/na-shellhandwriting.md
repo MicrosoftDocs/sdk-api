@@ -1,8 +1,8 @@
 ---
 UID: NA:shellhandwriting
-tech.root: 
+tech.root: input_ink
 title: shellhandwriting
-ms.date: 
+ms.date: 10/24/2023
 targetos: Windows
 description: 
 prerelease: false

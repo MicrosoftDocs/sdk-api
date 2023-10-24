@@ -2,10 +2,10 @@
 UID: NE:shellhandwriting.TfHandwritingState
 tech.root: input_ink
 title: TfHandwritingState enumeration (shellhandwriting.h)
-ms.date: 07/17/2023
+ms.date: 10/24/2023
 targetos: Windows
 description: Specifies how handwriting is supported by the system.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: shellhandwriting.h

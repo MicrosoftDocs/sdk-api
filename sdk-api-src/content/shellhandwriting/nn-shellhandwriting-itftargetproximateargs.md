@@ -2,10 +2,10 @@
 UID: NN:shellhandwriting.ITfTargetProximateArgs
 tech.root: input_ink
 title: ITfTargetProximateArgs
-ms.date: 07/17/2023
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shellhandwriting.ITfHandwritingRequest.SetInputEvaluation
-tech.root: 
+tech.root: input_ink
 title: ITfHandwritingRequest::SetInputEvaluation
-ms.date: 
+ms.date: 10/24/2023
 targetos: Windows
 description: 
 prerelease: false

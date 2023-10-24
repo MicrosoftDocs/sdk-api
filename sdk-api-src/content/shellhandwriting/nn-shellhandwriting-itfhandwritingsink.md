@@ -1,8 +1,8 @@
 ---
 UID: NN:shellhandwriting.ITfHandwritingSink
-tech.root: 
+tech.root: input_ink
 title: ITfHandwritingSink
-ms.date: 
+ms.date: 10/24/2023
 targetos: Windows
 description: 
 prerelease: false

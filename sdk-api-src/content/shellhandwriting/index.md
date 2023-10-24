@@ -1,8 +1,8 @@
 ---
 UID: NA:shellhandwriting
 title: Shellhandwriting.h header
-ms.date: 07/17/2023
-prerelease: true
+ms.date: 10/24/2023
+prerelease: false
 ms.keywords: 
 ms.topic: overview
 tech.root: input_ink

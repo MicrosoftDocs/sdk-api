@@ -1,8 +1,8 @@
 ---
 UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.SetResponse
-tech.root: 
+tech.root: input_ink
 title: ITfDetermineProximateHandwritingTargetArgs::SetResponse
-ms.date: 
+ms.date: 10/24/2023
 targetos: Windows
 description: 
 prerelease: false

@@ -1,8 +1,8 @@
 ---
 UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingDistanceThreshold
-tech.root: 
+tech.root: input_ink
 title: ITfHandwriting::GetHandwritingDistanceThreshold
-ms.date: 
+ms.date: 10/24/2023
 targetos: Windows
 description: 
 prerelease: false
