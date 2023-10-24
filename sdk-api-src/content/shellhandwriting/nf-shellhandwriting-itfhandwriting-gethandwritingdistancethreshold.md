@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetDistanceBufferPixels
+UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingDistanceThreshold
 tech.root: input_ink
-title: ITfFocusHandwritingTargetArgs::GetDistanceBufferPixels
-ms.date: 07/17/2023
+title: ITfHandwriting::GetHandwritingDistanceThreshold
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfFocusHandwritingTargetArgs::GetDistanceBufferPixels
+ - ITfHandwriting::GetHandwritingDistanceThreshold
 f1_keywords:
- - ITfFocusHandwritingTargetArgs::GetDistanceBufferPixels
- - shellhandwriting/ITfFocusHandwritingTargetArgs::GetDistanceBufferPixels
+ - ITfHandwriting::GetHandwritingDistanceThreshold
+ - shellhandwriting/ITfHandwriting::GetHandwritingDistanceThreshold
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetDistanceBufferPixels
+ - GetHandwritingDistanceThreshold
 ---
 
 ## -description
 
 ## -parameters
 
-### -param distanceBuffer
+### -param distanceThresholdPixels
 
 ## -returns
 

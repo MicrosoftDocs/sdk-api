@@ -1,11 +1,11 @@
 ---
-UID: NE:shellhandwriting.TfHandwritingTargetProximateResponse
+UID: NE:shellhandwriting.TfInputEvaluation
 tech.root: input_ink
-title: TfHandwritingTargetProximateResponse
-ms.date: 07/17/2023
+title: TfInputEvaluation
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: shellhandwriting.h
@@ -25,27 +25,25 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - TfHandwritingTargetProximateResponse
+ - TfInputEvaluation
 f1_keywords:
- - TfHandwritingTargetProximateResponse
- - shellhandwriting/TfHandwritingTargetProximateResponse
+ - TfInputEvaluation
+ - shellhandwriting/TfInputEvaluation
 dev_langs:
  - c++
 helpviewer_keywords:
- - TfHandwritingTargetProximateResponse
+ - TfInputEvaluation
 ---
 
 ## -description
 
 ## -enum-fields
 
-### -field TF_USE_SYSTEM_DEFAULT
+### -field TF_IE_HANDWRITING
 
-### -field TF_NO_HANDWRITING_TARGET_PROXIMATE
+### -field TF_IE_TAP
 
-### -field TF_HANDWRITING_TARGET_PROXIMATE
-
-### -field TF_USE_POINTER_DELIVERY
+### -field TF_IE_CANCEL_HANDWRITING
 
 ## -remarks
 

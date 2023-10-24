@@ -2,10 +2,10 @@
 UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingState
 tech.root: input_ink
 title: ITfHandwriting::GetHandwritingState (shellhandwriting.h)
-ms.date: 07/17/2023
+ms.date: 10/24/2023
 targetos: Windows
 description: Retrieves the current handwriting state for the Text Services Framework (TSF) thread manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -41,8 +41,6 @@ dev_langs:
 helpviewer_keywords:
  - GetHandwritingState
 ---
-
-# GetHandwritingState method
 
 ## -description
 

@@ -1,11 +1,11 @@
 ---
-UID: NN:shellhandwriting.ITfTargetProximateArgs
+UID: NN:shellhandwriting.ITfHandwritingRequest
 tech.root: input_ink
-title: ITfTargetProximateArgs
-ms.date: 07/17/2023
+title: ITfHandwritingRequest
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -26,14 +26,14 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfTargetProximateArgs
+ - ITfHandwritingRequest
 f1_keywords:
- - ITfTargetProximateArgs
- - shellhandwriting/ITfTargetProximateArgs
+ - ITfHandwritingRequest
+ - shellhandwriting/ITfHandwritingRequest
 dev_langs:
  - c++
 helpviewer_keywords:
- - ITfTargetProximateArgs
+ - ITfHandwritingRequest
 ---
 
 ## -description

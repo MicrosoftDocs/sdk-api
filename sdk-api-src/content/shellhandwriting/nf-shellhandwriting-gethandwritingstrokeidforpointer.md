@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.GetHandwritingDistanceBuffer
+UID: NF:shellhandwriting.GetHandwritingStrokeIdForPointer
 tech.root: input_ink
-title: ITfHandwriting::GetHandwritingDistanceBuffer
-ms.date: 07/17/2023
+title: GetHandwritingStrokeIdForPointer
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,25 +28,27 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - COM
+ - 
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::GetHandwritingDistanceBuffer
+ - GetHandwritingStrokeIdForPointer
 f1_keywords:
- - ITfHandwriting::GetHandwritingDistanceBuffer
- - shellhandwriting/ITfHandwriting::GetHandwritingDistanceBuffer
+ - GetHandwritingStrokeIdForPointer
+ - shellhandwriting/GetHandwritingStrokeIdForPointer
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetHandwritingDistanceBuffer
+ - GetHandwritingStrokeIdForPointer
 ---
 
 ## -description
 
 ## -parameters
 
-### -param distanceBufferPixels
+### -param pointerId
+
+### -param handwritingStrokeId
 
 ## -returns
 

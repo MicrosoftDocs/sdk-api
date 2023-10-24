@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfTargetProximateArgs.GetTopLevelWindow
+UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.GetPointerTargetInfo
 tech.root: input_ink
-title: ITfTargetProximateArgs::GetTopLevelWindow
-ms.date: 07/17/2023
+title: ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,25 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfTargetProximateArgs::GetTopLevelWindow
+ - ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
 f1_keywords:
- - ITfTargetProximateArgs::GetTopLevelWindow
- - shellhandwriting/ITfTargetProximateArgs::GetTopLevelWindow
+ - ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
+ - shellhandwriting/ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetTopLevelWindow
+ - GetPointerTargetInfo
 ---
 
 ## -description
 
 ## -parameters
 
-### -param topLevelWindow
+### -param targetWindow
+
+### -param targetScreenPoint
+
+### -param distanceThreshold
 
 ## -returns
 

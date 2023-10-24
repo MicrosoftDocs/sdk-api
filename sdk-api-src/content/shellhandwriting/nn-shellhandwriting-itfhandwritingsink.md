@@ -1,11 +1,11 @@
 ---
-UID: NN:shellhandwriting.ITfHandwritingCallbackSink
+UID: NN:shellhandwriting.ITfHandwritingSink
 tech.root: input_ink
-title: ITfHandwritingCallbackSink
-ms.date: 07/17/2023
+title: ITfHandwritingSink
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -26,14 +26,14 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwritingCallbackSink
+ - ITfHandwritingSink
 f1_keywords:
- - ITfHandwritingCallbackSink
- - shellhandwriting/ITfHandwritingCallbackSink
+ - ITfHandwritingSink
+ - shellhandwriting/ITfHandwritingSink
 dev_langs:
  - c++
 helpviewer_keywords:
- - ITfHandwritingCallbackSink
+ - ITfHandwritingSink
 ---
 
 ## -description

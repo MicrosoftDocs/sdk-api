@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfHandwriting.TapEvaluatedForHandwritingPointer
+UID: NF:shellhandwriting.ITfHandwritingSink.FocusHandwritingTarget
 tech.root: input_ink
-title: ITfHandwriting::TapEvaluatedForHandwritingPointer
-ms.date: 07/17/2023
+title: ITfHandwritingSink::FocusHandwritingTarget
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,23 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwriting::TapEvaluatedForHandwritingPointer
+ - ITfHandwritingSink::FocusHandwritingTarget
 f1_keywords:
- - ITfHandwriting::TapEvaluatedForHandwritingPointer
- - shellhandwriting/ITfHandwriting::TapEvaluatedForHandwritingPointer
+ - ITfHandwritingSink::FocusHandwritingTarget
+ - shellhandwriting/ITfHandwritingSink::FocusHandwritingTarget
 dev_langs:
  - c++
 helpviewer_keywords:
- - TapEvaluatedForHandwritingPointer
+ - FocusHandwritingTarget
 ---
 
 ## -description
 
 ## -parameters
 
-### -param pointerId
-
-### -param wasTapDetected
+### -param focusHandwritingTargetArgs
 
 ## -returns
 

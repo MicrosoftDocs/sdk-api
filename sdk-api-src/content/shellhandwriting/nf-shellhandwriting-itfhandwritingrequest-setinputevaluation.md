@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfTargetProximateArgs.GetTargetScreenPoint
+UID: NF:shellhandwriting.ITfHandwritingRequest.SetInputEvaluation
 tech.root: input_ink
-title: ITfTargetProximateArgs::GetTargetScreenPoint
-ms.date: 07/17/2023
+title: ITfHandwritingRequest::SetInputEvaluation
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfTargetProximateArgs::GetTargetScreenPoint
+ - ITfHandwritingRequest::SetInputEvaluation
 f1_keywords:
- - ITfTargetProximateArgs::GetTargetScreenPoint
- - shellhandwriting/ITfTargetProximateArgs::GetTargetScreenPoint
+ - ITfHandwritingRequest::SetInputEvaluation
+ - shellhandwriting/ITfHandwritingRequest::SetInputEvaluation
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetTargetScreenPoint
+ - SetInputEvaluation
 ---
 
 ## -description
 
 ## -parameters
 
-### -param targetScreenPoint
+### -param inputEvaluation
 
 ## -returns
 

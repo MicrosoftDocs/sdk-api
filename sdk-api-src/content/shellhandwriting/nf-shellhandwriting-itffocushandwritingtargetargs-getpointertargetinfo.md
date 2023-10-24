@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfHandwritingCallbackSink.IsHandwritingTargetProximate
+UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetPointerTargetInfo
 tech.root: input_ink
-title: ITfHandwritingCallbackSink::IsHandwritingTargetProximate
-ms.date: 07/17/2023
+title: ITfFocusHandwritingTargetArgs::GetPointerTargetInfo
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,25 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfHandwritingCallbackSink::IsHandwritingTargetProximate
+ - ITfFocusHandwritingTargetArgs::GetPointerTargetInfo
 f1_keywords:
- - ITfHandwritingCallbackSink::IsHandwritingTargetProximate
- - shellhandwriting/ITfHandwritingCallbackSink::IsHandwritingTargetProximate
+ - ITfFocusHandwritingTargetArgs::GetPointerTargetInfo
+ - shellhandwriting/ITfFocusHandwritingTargetArgs::GetPointerTargetInfo
 dev_langs:
  - c++
 helpviewer_keywords:
- - IsHandwritingTargetProximate
+ - GetPointerTargetInfo
 ---
 
 ## -description
 
 ## -parameters
 
-### -param targetProximateArgs
+### -param targetWindow
+
+### -param targetScreenArea
+
+### -param distanceThreshold
 
 ## -returns
 

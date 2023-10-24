@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfTargetProximateArgs.GetDistanceBufferPixels
+UID: NF:shellhandwriting.ITfHandwritingSink.DetermineProximateHandwritingTarget
 tech.root: input_ink
-title: ITfTargetProximateArgs::GetDistanceBufferPixels
-ms.date: 07/17/2023
+title: ITfHandwritingSink::DetermineProximateHandwritingTarget
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfTargetProximateArgs::GetDistanceBufferPixels
+ - ITfHandwritingSink::DetermineProximateHandwritingTarget
 f1_keywords:
- - ITfTargetProximateArgs::GetDistanceBufferPixels
- - shellhandwriting/ITfTargetProximateArgs::GetDistanceBufferPixels
+ - ITfHandwritingSink::DetermineProximateHandwritingTarget
+ - shellhandwriting/ITfHandwritingSink::DetermineProximateHandwritingTarget
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetDistanceBufferPixels
+ - DetermineProximateHandwritingTarget
 ---
 
 ## -description
 
 ## -parameters
 
-### -param distanceBuffer
+### -param determineProximateHandwritingTargetArgs
 
 ## -returns
 

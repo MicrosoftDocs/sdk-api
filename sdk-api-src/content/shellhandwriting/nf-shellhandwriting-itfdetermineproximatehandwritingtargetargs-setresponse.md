@@ -1,11 +1,11 @@
 ---
-UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetTargetScreenArea
+UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.SetResponse
 tech.root: input_ink
-title: ITfFocusHandwritingTargetArgs::GetTargetScreenArea
-ms.date: 07/17/2023
+title: ITfDetermineProximateHandwritingTargetArgs::SetResponse
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -32,21 +32,21 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - ITfFocusHandwritingTargetArgs::GetTargetScreenArea
+ - ITfDetermineProximateHandwritingTargetArgs::SetResponse
 f1_keywords:
- - ITfFocusHandwritingTargetArgs::GetTargetScreenArea
- - shellhandwriting/ITfFocusHandwritingTargetArgs::GetTargetScreenArea
+ - ITfDetermineProximateHandwritingTargetArgs::SetResponse
+ - shellhandwriting/ITfDetermineProximateHandwritingTargetArgs::SetResponse
 dev_langs:
  - c++
 helpviewer_keywords:
- - GetTargetScreenArea
+ - SetResponse
 ---
 
 ## -description
 
 ## -parameters
 
-### -param targetScreenArea
+### -param response
 
 ## -returns
 

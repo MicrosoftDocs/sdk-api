@@ -1,7 +1,7 @@
 ---
-UID: NE:shellhandwriting.TfHandwritingFocusTargetResponse
+UID: NE:shellhandwriting.TfProximateHandwritingTargetResponse
 tech.root: input_ink
-title: TfHandwritingFocusTargetResponse
+title: TfProximateHandwritingTargetResponse
 ms.date: 10/24/2023
 targetos: Windows
 description: 
@@ -25,27 +25,27 @@ api_type:
 api_location:
  - shellhandwriting.h
 api_name:
- - TfHandwritingFocusTargetResponse
+ - TfProximateHandwritingTargetResponse
 f1_keywords:
- - TfHandwritingFocusTargetResponse
- - shellhandwriting/TfHandwritingFocusTargetResponse
+ - TfProximateHandwritingTargetResponse
+ - shellhandwriting/TfProximateHandwritingTargetResponse
 dev_langs:
  - c++
 helpviewer_keywords:
- - TfHandwritingFocusTargetResponse
+ - TfProximateHandwritingTargetResponse
 ---
 
 ## -description
 
 ## -enum-fields
 
-### -field TF_NO_HANDWRITING_TARGET
+### -field TF_NO_HANDWRITING_TARGET_PROXIMATE
 
-### -field TF_HANDWRITING_TARGET_FOCUSED
+### -field TF_HANDWRITING_TARGET_PROXIMATE
 
-### -field TF_HANDWRITING_TARGET_FOCUSED_NO_CORRECTIONS
+### -field TF_USE_SYSTEM_TARGETING
 
-### -field TF_PERFORM_SYSTEM_TARGETING
+### -field TF_USE_POINTER_DELIVERY
 
 ## -remarks
 
