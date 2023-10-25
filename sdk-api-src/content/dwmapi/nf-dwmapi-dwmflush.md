@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmFlush
 title: DwmFlush function (dwmapi.h)
-description: Issues a flush call that blocks the caller until the next present, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
+description: Issues a flush call that blocks the caller until the next call to a Present method, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
 helpviewer_keywords: ["DwmFlush","DwmFlush function [Desktop Window Manager]","_udwm_dwmflush","_udwm_dwmflush_cpp","dwm.dwmflush","dwmapi/DwmFlush","winui._udwm_dwmflush"]
 old-location: dwm\dwmflush.htm
 tech.root: dwm
@@ -48,14 +48,9 @@ api_name:
  - DwmFlush
 ---
 
-# DwmFlush function
-
-
 ## -description
 
-Issues a flush call that blocks the caller until the next present, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
-
-
+Issues a flush call that blocks the caller until the next call to a Present method, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
 
 ## -returns
 
@@ -64,4 +59,3 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 ## -remarks
 
 <b>DwmFlush</b> waits for any queued DirectX changes that were queued by the calling application to be drawn to the screen before returning. It does not flush the entire session rendering batch.
-
