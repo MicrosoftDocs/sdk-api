@@ -51,7 +51,7 @@ api_name:
 
 This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
 
-The contents of the Core Properties part are described in  the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>.
+The contents of the Core Properties part are described in  the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>.
 
 ## -inheritance
 
@@ -75,7 +75,7 @@ The meaning and use of these properties is determined by the user or context.
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
