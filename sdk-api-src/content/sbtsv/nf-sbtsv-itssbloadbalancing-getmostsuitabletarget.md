@@ -45,15 +45,9 @@ api_name:
  - ITsSbLoadBalancing.GetMostSuitableTarget
 ---
 
-# ITsSbLoadBalancing::GetMostSuitableTarget
-
-
 ## -description
 
-Determines the most suitable target to which to direct an incoming client 
-connection.
-
-Remote Desktop Connection Broker (RD Connection Broker) calls this method when it needs to redirect an incoming client connection.
+This is a callback method that you implement in your app, in order to determines the most suitable target to which to direct an incoming client connection. The Remote Desktop Connection Broker (RD Connection Broker) calls your implementation when the broker needs to redirect an incoming client connection. 
 
 ## -parameters
 
@@ -68,10 +62,7 @@ A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalancingn
 
 ## -returns
 
-This method can return one of these values.
-
-
-If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list.
+If the method succeeds, then return <b>S_OK</b>. Otherwise, indicate failure by returning *any* failure <b>HRESULT</b>.
 
 ## -remarks
 
