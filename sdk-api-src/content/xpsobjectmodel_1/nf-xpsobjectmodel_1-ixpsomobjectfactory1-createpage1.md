@@ -84,6 +84,6 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 [The Internet Engineering Task Force (IETF) RFC 3066](https://go.microsoft.com/fwlink/p/?linkid=161490)
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 
 [XML Paper Specification](https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85))
