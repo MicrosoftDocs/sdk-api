@@ -147,11 +147,11 @@ One or more arguments is invalid.
 <b>CoSetProxyBlanket</b> sets the authentication information that will be used to make calls on the specified proxy. This function encapsulates the following sequence of common calls (error handling excluded).
 
 
-``` syntax
-    pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
-    pcs-&gt;SetBlanket(pProxy, dwAuthnSvc, dwAuthzSvc, pServerPrincName, 
+```C++
+    pProxy->QueryInterface(IID_IClientSecurity, (void**)&pcs);
+    pcs->SetBlanket(pProxy, dwAuthnSvc, dwAuthzSvc, pServerPrincName, 
         dwAuthnLevel, dwImpLevel, pAuthInfo, dwCapabilities);
-    pcs-&gt;Release();
+    pcs->Release();
 
 ```
 
