@@ -39,5 +39,24 @@ Allows apps to retrieve an instance of [IMFExtendedCameraControl](nn-mfidl-imfex
 
 ## -remarks
 
+The IMFExtendedCameraController interface can be obtained through the [IMFMediaSource](nn-mfidl-imfmediasource.md) that represents the video capture device and its [IMFGetService](nn-mfidl-imfgetservice.md) implementation.
+In this case, guidService parameter of the IMFGetService::GetService function must be `GUID_NULL`, please see following code snippet.
+
+```
+HRESULT GetExtendedCameraController(_In_ IMFMediaSource cameraSource)
+{
+    wil::com_ptr_nothrow<IMFExtendedCameraController> extCameraController;
+    wil::com_ptr_nothrow<IMFGetService> getService;
+
+    RETURN_IF_FAILED(extCameraController.query_to(&getService));
+
+    RETURN_IF_FAILED(getService->GetService(GUID_NULL, IID_PPV_ARGS(&extCameraController)));
+
+    // Use the IMFExtendedCameraController
+
+    return S_OK;
+}
+```
+
 ## -see-also
 
