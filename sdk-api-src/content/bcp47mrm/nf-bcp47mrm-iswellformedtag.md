@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - bcp47mrm.h
 api_name:
