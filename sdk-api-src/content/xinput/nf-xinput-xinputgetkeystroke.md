@@ -82,7 +82,7 @@ If the function fails, the return value is an error code defined in Winerror.h. 
 
 ## -remarks
 
-Wireless controllers are not considered active upon system startup, and calls to any of the <i>XInput</i> functions before a wireless controller is made active return <b>ERROR_DEVICE_NOT_CONNECTED</b>. Game titles must examine the return code and be prepared to handle this condition. Wired controllers are automatically activated when they are inserted. Wireless controllers are activated when the user presses the START or Xbox Guide button to power on the controller.
+Wireless controllers are not considered active upon system startup, and calls to any of the <i>XInput</i> functions before a wireless controller is made active return <b>ERROR_DEVICE_NOT_CONNECTED</b>. Game titles must examine the return code and be prepared to handle this condition. Wired controllers are automatically activated when they are inserted. Wireless controllers are activated when the user power on the controller.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)

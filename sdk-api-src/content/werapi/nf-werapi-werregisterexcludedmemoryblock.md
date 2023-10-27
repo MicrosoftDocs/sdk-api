@@ -76,7 +76,7 @@ This function returns **S_OK** on success or an error code on failure, including
 
 ## -remarks
 
-This mechanism is intended for applications that hold large amounts of data in memory that aren't useful for root cause debugging and increase the size of the dump file unnecessarily.  For example, some Xbox One games hold large amounts of texture data in memory that is included in error dumps by default.
+This mechanism is intended for applications that hold large amounts of data in memory that aren't useful for root cause debugging and increase the size of the dump file unnecessarily.  For example, some games hold large amounts of texture data in memory that is included in error dumps by default.
 
 ## -see-also
 

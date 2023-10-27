@@ -64,7 +64,7 @@ State packet number. The packet number indicates whether there have been any cha
 
 ### -field Gamepad
 
-<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of a controller.
 
 ## -remarks
 
