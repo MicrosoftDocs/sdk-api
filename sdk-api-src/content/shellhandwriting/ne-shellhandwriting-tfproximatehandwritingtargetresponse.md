@@ -35,6 +35,8 @@ helpviewer_keywords:
  - TfProximateHandwritingTargetResponse
 ---
 
+# TfProximateHandwritingTargetResponse enumeration
+
 ## -description
 
 ## -enum-fields

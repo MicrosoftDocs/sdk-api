@@ -35,6 +35,8 @@ helpviewer_keywords:
  - TfHandwritingState
 ---
 
+# TfHandwritingState enumeration
+
 ## -description
 
 Specifies how handwriting is supported by the system.

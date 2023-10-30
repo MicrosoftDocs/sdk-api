@@ -4,7 +4,7 @@ tech.root: input_ink
 title: GetHandwritingStrokeIdForPointer
 ms.date: 10/24/2023
 targetos: Windows
-description: 
+description: Retrieves the unique ID of the ink stroke associated with the specified pointer ID.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,17 +42,33 @@ helpviewer_keywords:
  - GetHandwritingStrokeIdForPointer
 ---
 
+# GetHandwritingStrokeIdForPointer function
+
 ## -description
+
+Retrieves the unique ID of the ink stroke associated with the specified pointer ID.
 
 ## -parameters
 
-### -param pointerId
+### -param pointerId [in]
 
-### -param handwritingStrokeId
+The pointer ID associated with the ink stroke.
+
+### -param handwritingStrokeId [out]
+
+The ID of the ink stroke associated with the *pointerId*.
 
 ## -returns
 
+If the method succeeds, it returns **S_OK**; otherwise, it returns an **HRESULT** error code.
+
 ## -remarks
+
+Clients that have configured <xref:NF:shellhandwriting.ITfHandwriting.SetHandwritingState>
+
+Clients that have configured the handwriting state as Pointer Delivery must call this function to retrieve the unique Id of the stroke being started by a WM_POINTERDOWN message in order to provide that Id to a RequestHandwritingForPointer call.
+
+<xref:NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer>
 
 ## -see-also
 

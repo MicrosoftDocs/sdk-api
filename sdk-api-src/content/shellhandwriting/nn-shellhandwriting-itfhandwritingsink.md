@@ -36,6 +36,8 @@ helpviewer_keywords:
  - ITfHandwritingSink
 ---
 
+# ITfHandwritingSink interface
+
 ## -description
 
 ## -remarks

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RegisterHandwritingInputRoutingCallback
 ---
 
+# RegisterHandwritingInputRoutingCallback function
+
 ## -description
 
 ## -parameters

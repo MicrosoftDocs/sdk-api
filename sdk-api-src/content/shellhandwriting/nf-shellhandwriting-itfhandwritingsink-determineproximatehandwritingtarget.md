@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DetermineProximateHandwritingTarget
 ---
 
+# DetermineProximateHandwritingTarget function
+
 ## -description
 
 ## -parameters

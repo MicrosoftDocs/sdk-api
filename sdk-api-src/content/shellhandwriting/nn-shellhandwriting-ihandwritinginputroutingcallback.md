@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IHandwritingInputRoutingCallback
 ---
 
+# IHandwritingInputRoutingCallback interface
+
 ## -description
 
 ## -remarks

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - ITfDetermineProximateHandwritingTargetArgs
 ---
 
+# ITfDetermineProximateHandwritingTargetArgs interface
+
 ## -description
 
 ## -remarks

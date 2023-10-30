@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetThreadIdForInput
 ---
 
+# GetThreadIdForInput function
+
 ## -description
 
 ## -parameters

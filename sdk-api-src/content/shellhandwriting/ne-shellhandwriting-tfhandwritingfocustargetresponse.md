@@ -35,6 +35,8 @@ helpviewer_keywords:
  - TfHandwritingFocusTargetResponse
 ---
 
+# TfHandwritingFocusTargetResponse enumeration
+
 ## -description
 
 ## -enum-fields

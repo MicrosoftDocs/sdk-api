@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPointerTargetInfo
 ---
 
+# GetPointerTargetInfo function
+
 ## -description
 
 ## -parameters

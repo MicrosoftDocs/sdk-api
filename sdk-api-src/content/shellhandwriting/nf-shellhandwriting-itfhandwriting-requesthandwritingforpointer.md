@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RequestHandwritingForPointer
 ---
 
+# RequestHandwritingForPointer function
+
 ## -description
 
 ## -parameters

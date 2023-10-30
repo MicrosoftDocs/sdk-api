@@ -36,6 +36,8 @@ helpviewer_keywords:
  - ITfFocusHandwritingTargetArgs
 ---
 
+# ITfFocusHandwritingTargetArgs interface
+
 ## -description
 
 ## -remarks

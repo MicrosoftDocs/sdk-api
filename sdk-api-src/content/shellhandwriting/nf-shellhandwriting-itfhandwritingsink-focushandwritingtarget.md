@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FocusHandwritingTarget
 ---
 
+# FocusHandwritingTarget function
+
 ## -description
 
 ## -parameters

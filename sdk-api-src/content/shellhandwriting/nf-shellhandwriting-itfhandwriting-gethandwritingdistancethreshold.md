@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetHandwritingDistanceThreshold
 ---
 
+# GetHandwritingDistanceThreshold function
+
 ## -description
 
 ## -parameters

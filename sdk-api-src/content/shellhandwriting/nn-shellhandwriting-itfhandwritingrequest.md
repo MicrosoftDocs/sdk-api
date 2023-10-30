@@ -36,6 +36,8 @@ helpviewer_keywords:
  - ITfHandwritingRequest
 ---
 
+# ITfHandwritingRequest interface
+
 ## -description
 
 ## -remarks
