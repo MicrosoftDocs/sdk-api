@@ -84,7 +84,7 @@ exist: (A) the server authentication process makes sure that the
 message (and hence the token) is sent only to a server that can speak
 for the address specified by the client application; (B) keyless
 (bearer) tokens are typically usable only at one server (e.g.,
-contoso.com gains little from passing on a contoso.com
+`contoso.com` gains little from passing on a contoso.com
 username/password token to another site -- the application security
 design should make sure this property holds); (C) symmetric keyed
 tokens are unusable at any server that doesn't share the same

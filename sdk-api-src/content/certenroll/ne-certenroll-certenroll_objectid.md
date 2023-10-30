@@ -557,7 +557,7 @@ Contains disambiguating information for a relative distinguished name. The attri
 
 ### -field XCN_OID_DOMAIN_COMPONENT:162
 
-Contains a component of a DNS domain name. For example, if  the DNS name is contoso.com, contoso and com represent separate domain components.
+Contains a component of a DNS domain name. For example, if  the DNS name is `contoso.com`, contoso and com represent separate domain components.
 
 ### -field XCN_OID_PKCS_12_FRIENDLY_NAME_ATTR:163
 

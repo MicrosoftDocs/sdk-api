@@ -65,7 +65,7 @@ The object allows you to do the following:
 
 ### -param bstrDomain [in]
 
-Name of the domain specified as a string. This must be a full Domain Name System (DNS) name, such as contoso.com.
+Name of the domain specified as a string. This must be a full Domain Name System (DNS) name, such as `contoso.com`.
 
 ### -param bstrDomainController [in]
 

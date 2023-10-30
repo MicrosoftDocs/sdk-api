@@ -106,7 +106,7 @@ The method succeeded.
 
 ## -remarks
 
-We recommend that the catalog URL specify the version as part of the path. For example, http://www.contoso.com/Catalogs/210/catalog.wmdb.
+We recommend that the catalog URL specify the version as part of the path. For example, `http://www.contoso.com/Catalogs/210/catalog.wmdb`.
 
 ## -see-also
 
