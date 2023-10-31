@@ -60,7 +60,7 @@ A <a href="/windows/desktop/api/certenroll/ne-certenroll-requestclientinfoclient
 
 ### -param strMachineDnsName [in, optional]
 
-A <b>BSTR</b> variable that contains the Domain Name System (DNS) name of the computer on which the request was created, for example <i>ComputerName.contoso.com</i>. If you do not supply a name, the method calls the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function. If a name cannot be found, the method fails.
+A <b>BSTR</b> variable that contains the Domain Name System (DNS) name of the computer on which the request was created, for example <i>`ComputerName.contoso.com`</i>. If you do not supply a name, the method calls the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a> function. If a name cannot be found, the method fails.
 
 ### -param strUserSamName [in, optional]
 
