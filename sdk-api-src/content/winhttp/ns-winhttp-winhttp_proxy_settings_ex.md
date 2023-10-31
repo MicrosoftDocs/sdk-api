@@ -66,7 +66,7 @@ Flags for the proxy settings (for example, **WINHTTP_PROXY_TYPE_DIRECT**).
 
 Type: **[PCWSTR](/windows/win32/winprog/windows-data-types)**
 
-The PAC URL for the network (for example, L"http://proxy.contoso.com/wpad.dat").
+The PAC URL for the network (for example, L"`http://proxy.contoso.com/wpad.dat`").
 
 ### -field pcwszProxy
 
@@ -90,7 +90,7 @@ The number of entries in the proxy bypass list (*rgpcwszProxyBypasses*).
 
 Type: **[PCWSTR](/windows/win32/winprog/windows-data-types)\***
 
-An array of strings containing each site in the proxy bypass list. (for example, L"contoso.com").
+An array of strings containing each site in the proxy bypass list. (for example, L"`contoso.com`").
 
 ### -field dwInterfaceIndex
 
