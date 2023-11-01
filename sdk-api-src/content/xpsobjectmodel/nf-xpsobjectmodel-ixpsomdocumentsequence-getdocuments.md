@@ -101,7 +101,7 @@ If the document sequence does not have any documents, the document collection th
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

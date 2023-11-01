@@ -104,7 +104,7 @@ An XPS package has not yet been opened in the signature manager.
 
 ## -remarks
 
-The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+The signature collection that is returned in <i>signatures</i> might include digital signatures that do not comply with the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
 ## -see-also
 
@@ -116,7 +116,7 @@ The signature collection that is returned in <i>signatures</i> might include dig
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 
