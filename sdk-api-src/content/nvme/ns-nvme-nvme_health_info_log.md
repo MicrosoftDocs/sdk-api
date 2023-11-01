@@ -46,7 +46,7 @@ dev_langs:
 
 Contains fields that specify the information contained in the SMART / Health Information Log page.
 
-The SMART / Health Information Log page provides SMART and general health information over the life of the controller that is retained across power cycles. The log page is supported on a global basis. To request the global log page, specify the the namespace `FFFFFFFFh`.
+The SMART / Health Information Log page provides SMART and general health information over the life of the controller that is retained across power cycles. The log page is supported on a global basis. To request the global log page, specify the namespace `FFFFFFFFh`.
 
 The SMART / Health Information Log page may also be supported on a per namespace basis, as indicated in the [Identify Controller](ns-nvme-nvme_identify_controller_data.md) data structure. If the log page is not supported on a per namespace basis, specifying any namespace other than `FFFFFFFFh` should abort the command with a status of [NVME_STATUS_INVALID_FIELD_IN_COMMAND](ne-nvme-nvme_status_generic_command_codes.md). In NVMe version 1.3, there is no namespace specific information defined in the SMART / Health log page, thus the global log page and namespaces specific log page contain identical information.
 

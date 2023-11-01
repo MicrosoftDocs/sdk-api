@@ -132,7 +132,7 @@ of <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_tran
                     may not be used.
 
 
-Alternatively, this property may be set set to <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</a>.
+Alternatively, this property may be set to <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</a>.
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b> must not be combined with any other value and cannot be used to 
                     authenticate to an HTTP proxy server.                    
                 

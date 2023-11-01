@@ -51,7 +51,7 @@ Because the quotient is rounded towards 0, the result will have the same sign as
 f(a, b) = a - (b * trunc(a / b))
 ```
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 

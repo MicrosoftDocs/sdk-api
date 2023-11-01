@@ -167,7 +167,7 @@ This parameter must not be <b>NULL</b> if the <i>pProvisionBinData</i> parameter
 
 An optional pointer that will receive the opaque binary blob of serialized metadata required by <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a> function to complete an offline domain join, if the <b>NetProvisionComputerAccount</b> function completes successfully.  The data is returned in string form for embedding in an unattended setup answer file.  
 
-If this parameter is <b>NULL</b>, then the <i>pProvisionBinData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the  the <i>pProvisionBinData</i> parameter must be <b>NULL</b>.
+If this parameter is <b>NULL</b>, then the <i>pProvisionBinData</i> parameter must not be <b>NULL</b>. If this parameter is not <b>NULL</b>, then the <i>pProvisionBinData</i> parameter must be <b>NULL</b>.
 
 ## -returns
 

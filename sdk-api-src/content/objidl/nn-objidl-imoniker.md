@@ -156,7 +156,7 @@ The URL moniker implementation of <b>IMoniker</b> is found on a URL moniker obje
 
 
 
-The <a href="/previous-versions/ms775081(v=vs.85)">IAsyncMoniker</a> interface is simply <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. (There are no additional methods.) It is is used to allow clients to determine whether a moniker supports asynchronous binding.
+The <a href="/previous-versions/ms775081(v=vs.85)">IAsyncMoniker</a> interface is simply <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. (There are no additional methods.) It is used to allow clients to determine whether a moniker supports asynchronous binding.
 
 To get a pointer to the <b>IMoniker</b> interface on this object, call the <b>CreateURLMonikerEx</b> function.
 

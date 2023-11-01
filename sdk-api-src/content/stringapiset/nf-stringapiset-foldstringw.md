@@ -160,7 +160,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 ## -remarks
 
-The values of the <i>lpSrcStr</i> and  and <i>lpDestStr</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
+The values of the <i>lpSrcStr</i> and <i>lpDestStr</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 
 The compatibility zone in Unicode consists of characters in the range 0xF900 through 0xFFEF that are assigned to characters from other encoding standards for characters but are actually variants of characters already in Unicode. The compatibility zone is used to support round-trip mapping to these standards. Applications can use the MAP_FOLDCZONE flag to avoid supporting the duplication of characters in the compatibility zone.
 

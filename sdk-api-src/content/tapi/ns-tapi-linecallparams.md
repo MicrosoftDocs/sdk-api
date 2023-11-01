@@ -148,7 +148,7 @@ Size of the called-party information, in bytes.
 
 ### -field dwCalledPartyOffset
 
-Offset from the beginning of the structure to to the variably sized field holding called-party information. This information can be specified by the application that makes the call and is made available in the call's information structure for logging purposes. The format of this field is that of <b>dwStringFormat</b>, as specified in 
+Offset from the beginning of the structure to the variably sized field holding called-party information. This information can be specified by the application that makes the call and is made available in the call's information structure for logging purposes. The format of this field is that of <b>dwStringFormat</b>, as specified in 
 <a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. The size of the field is specified by <b>dwCalledPartySize</b>.
 
 ### -field dwCommentSize

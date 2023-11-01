@@ -60,7 +60,7 @@ Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-wi
 
 ### -param EngineInfo [out]
 
-Pointer to the the <a href="/windows/desktop/SecBioMet/winbio-extended-engine-info">WINBIO_EXTENDED_ENGINE_INFO</a> structure that contains the engine information returned by this function.
+Pointer to the <a href="/windows/desktop/SecBioMet/winbio-extended-engine-info">WINBIO_EXTENDED_ENGINE_INFO</a> structure that contains the engine information returned by this function.
 
 ### -param EngineInfoSize [in]
 

@@ -152,7 +152,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <li>The start time cannot be greater than the end time.</li>
 <li>A valid <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> pointer must be provided.</li>
 <li>The source rectangle cannot be larger than the input surface.</li>
-<li>The destination rectangle cannot be larger than than the destination surface.</li>
+<li>The destination rectangle cannot be larger than the destination surface.</li>
 <li>The planar alpha must be in the range [0...1] inclusive.</li>
 </ul>
 </li>

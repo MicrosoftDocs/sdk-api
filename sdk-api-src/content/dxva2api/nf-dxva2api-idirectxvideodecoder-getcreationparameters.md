@@ -64,7 +64,7 @@ Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc"
 
 ### -param pConfig [out]
 
-Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_configpicturedecode">DXVA2_ConfigPictureDecode</a> structure structure that receives the decoder configuration. This parameter can be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_configpicturedecode">DXVA2_ConfigPictureDecode</a> structure that receives the decoder configuration. This parameter can be <b>NULL</b>.
 
 ### -param pDecoderRenderTargets [out]
 

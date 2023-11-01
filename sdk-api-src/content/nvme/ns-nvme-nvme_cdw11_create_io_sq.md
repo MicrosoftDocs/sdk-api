@@ -74,7 +74,7 @@ This field is only used when the weighted round robin with urgent priority class
 
 The Queue Identifier (QID) field indicates the identifier of the Completion Queue to utilize for any command completions entries associated with this Submission Queue.
 
-The value of `0h` (Admin Completion Queue) should not not be specified. 
+The value of `0h` (Admin Completion Queue) should not be specified. 
 
 If the value specified is `0h` or does not correspond to a valid I/O Completion Queue, the controller should return an error of [NVME_STATUS_INVALID_QUEUE_IDENTIFIER](ne-nvme-nvme_status_command_specific_codes.md).
 

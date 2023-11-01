@@ -66,7 +66,7 @@ The part is a subunit. A subunit is an audio-processing node in a device topolog
 
 ## -remarks
 
-The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getparttype">IPart::GetPartType</a> method uses the constants defined in the <b>PartType</b> enumeration to indicate whether an <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> object represents a connector or a subunit. If an <b>IPart</b> object represents a connector, a client can query that that object for its <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface. If an <b>IPart</b> object represents a subunit, a client can query that that object for its <a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit</a> interface.
+The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getparttype">IPart::GetPartType</a> method uses the constants defined in the <b>PartType</b> enumeration to indicate whether an <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> object represents a connector or a subunit. If an <b>IPart</b> object represents a connector, a client can query that object for its <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface. If an <b>IPart</b> object represents a subunit, a client can query that object for its <a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit</a> interface.
 
 For more information about connectors and subunits, see <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 

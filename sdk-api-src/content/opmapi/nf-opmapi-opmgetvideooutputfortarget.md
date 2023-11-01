@@ -60,7 +60,7 @@ The LUID for the adapter where the target is located.
 
 ### -param VidPnTarget [in]
 
-Target ID for the target on the specified adapter adapter.
+Target ID for the target on the specified adapter.
 
 ### -param vos [in]
 

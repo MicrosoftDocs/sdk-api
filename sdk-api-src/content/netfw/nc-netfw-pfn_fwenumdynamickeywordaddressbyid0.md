@@ -76,7 +76,7 @@ If the function succeeds, then it returns **ERROR_SUCCESS**.
 
 If the object returned via *dynamicKeywordAddressData* is non-NULL, then its *pNext* field is always null.
 
-You must free the the returned addresses object by calling [FWFreeDynamicKeywordAddressData0](nc-netfw-pfn_fwfreedynamickeywordaddressdata0.md).
+You must free the returned addresses object by calling [FWFreeDynamicKeywordAddressData0](nc-netfw-pfn_fwfreedynamickeywordaddressdata0.md).
 
 ## -see-also
 

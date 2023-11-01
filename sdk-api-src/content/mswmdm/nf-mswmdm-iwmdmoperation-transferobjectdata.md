@@ -67,7 +67,7 @@ Pointer to a buffer containing the data. This buffer is always allocated and fre
 
 Pointer to a <b>DWORD</b> that specifies the transfer buffer size.
 
-<b>BeginRead</b>[in, out] On input, the size of the incoming data in <i>pData</i>. On output, the amount of data the application has actually actually read.
+<b>BeginRead</b>[in, out] On input, the size of the incoming data in <i>pData</i>. On output, the amount of data the application has actually read.
 
 <b>BeginWriteOn</b> input, the size of the <i>pData</i> buffer. On output, the actual size of the data sent out.
 

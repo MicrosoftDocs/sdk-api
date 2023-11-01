@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Repair data corruption by selecting the proper copy to use. This control code was introduced in Windows 8 and Windows Server 2012 for use on  on Storage Spaces and Streams on NTFS and ReFS and non-integrity streams on ReFS (streams with integrity on ReFS handle this automatically.)
+Repair data corruption by selecting the proper copy to use. This control code was introduced in Windows 8 and Windows Server 2012 for use on Storage Spaces and Streams on NTFS and ReFS and non-integrity streams on ReFS (streams with integrity on ReFS handle this automatically.)
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
