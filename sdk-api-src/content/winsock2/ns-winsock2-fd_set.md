@@ -65,7 +65,7 @@ The number of sockets in the set.
 
 ### -field fd_array
 
-An array of sockets that are in the set.
+An array of sockets that are in the set. The variable <b>FD_SETSIZE</b> defaults to 64.
 
 ## -see-also
 
