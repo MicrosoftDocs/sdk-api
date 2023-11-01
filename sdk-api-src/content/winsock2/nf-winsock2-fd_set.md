@@ -50,12 +50,17 @@ api_name:
 
 ## -description
 
-The 
-<b>fd_set</b> structure is used by various Windows Sockets functions and service providers, such as the 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function, to place sockets into a "set" for various purposes, such as testing a given socket for readability using the <i>readfds</i> parameter of the 
-<b>select</b> function.
+The <b>FD_SET</b> macro add a file descriptor to a <a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a>. If the file descriptor already exist within the set, a duplicate will not be added.
 
 ## -parameters
+
+### -param fd
+
+A descriptor identifying a socket which will be added to the set.
+
+### -param set
+
+A pointer to a <b>fd_set</b>.
 
 ## -see-also
 
