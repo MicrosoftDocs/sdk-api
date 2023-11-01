@@ -64,11 +64,8 @@ If the method succeeds, it returns **S_OK**; otherwise, it returns an **HRESULT*
 
 ## -remarks
 
-Clients that have configured <xref:NF:shellhandwriting.ITfHandwriting.SetHandwritingState>
+Clients using the [SetHandwritingState function](nf-shellhandwriting-itfhandwriting-sethandwritingstate.md) to configure the current handwriting state to [TF_HANDWRITING_POINTERDELIVERY](ne-shellhandwriting-tfhandwritingstate.md) must call this function to retrieve the unique ID of the stroke started by a [WM_POINTERDOWN](/windows/win32/inputmsg/wm-pointerdown) message (to pass to the [RequestHandwritingForPointer function](nf-shellhandwriting-itfhandwriting-requesthandwritingforpointer.md)).
 
-Clients that have configured the handwriting state as Pointer Delivery must call this function to retrieve the unique Id of the stroke being started by a WM_POINTERDOWN message in order to provide that Id to a RequestHandwritingForPointer call.
-
-<xref:NF:shellhandwriting.ITfHandwriting.RequestHandwritingForPointer>
+This function must be called on the same thread as the one handling the WM_POINTERDOWN message.
 
 ## -see-also
-
