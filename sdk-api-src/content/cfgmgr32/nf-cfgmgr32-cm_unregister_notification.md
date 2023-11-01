@@ -81,7 +81,7 @@ Instead, if you want to unregister from the notification callback, you must do s
 <li>When the threadpool thread runs, the work item calls <b>CM_Unregister_Notification</b>.</li>
 <li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork">CloseThreadpoolWork</a> to release the work object.</li>
 </ol>
-If you are finished with the context structure, don't forget to release resources and and free the structure.
+If you are finished with the context structure, don't forget to release resources and free the structure.
 
 <div class="alert"><b>Caution</b>  Do not free the context structure until after the work item has called <b>CM_Unregister_Notification</b>.  You can still receive notifications after submitting the threadpool work item and before the work item calls <b>CM_Unregister_Notification</b>.</div>
 <div> </div>

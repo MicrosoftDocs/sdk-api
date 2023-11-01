@@ -115,7 +115,7 @@ WsReadEndAttribute(...)
 
 ### -field WS_ELEMENT_CONTENT_TYPE_MAPPING:3
 
-This is used when when the type corresponds to all or part of the 
+This is used when the type corresponds to all or part of the 
                     content (text and child elements) of an element.
                     The definition of the type may include mappings to text or child
                     elements, but must not include any attributes.
@@ -154,7 +154,7 @@ WsReadEndElement(...)
 
 ### -field WS_ANY_ELEMENT_TYPE_MAPPING:4
 
-This is used when when the type corresponds to the complete
+This is used when the type corresponds to the complete
                     element, including the name and namespace of the element.
                     The definition may include attributes and child elements
                     and text.

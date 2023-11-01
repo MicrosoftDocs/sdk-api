@@ -49,7 +49,7 @@ The conversion from the source format and colorspace to destination format and c
 
 ### -field D3D12_VIDEO_PROCESS_SUPPORT_FLAG_SUPPORTED 
 
-The conversion from the source format and colorspace to destination format and colorspace are are supported.
+The conversion from the source format and colorspace to destination format and colorspace are supported.
 
 ## -remarks
 

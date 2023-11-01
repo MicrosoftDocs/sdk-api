@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionFilterEffect.SetInput
 title: IDCompositionFilterEffect::SetInput (dcomp.h)
-description: Sets the the input at an index to the specified filter effect.
+description: Sets the input at an index to the specified filter effect.
 helpviewer_keywords: ["IDCompositionFilterEffect interface [DirectComposition]","SetInput method","IDCompositionFilterEffect.SetInput","IDCompositionFilterEffect::SetInput","SetInput","SetInput method [DirectComposition]","SetInput method [DirectComposition]","IDCompositionFilterEffect interface","dcomp/IDCompositionFilterEffect::SetInput","directcomp.idcompositionfiltereffect_setinput"]
 old-location: directcomp\idcompositionfiltereffect_setinput.htm
 tech.root: directcomp
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the the input at an index to the specified filter effect.
+Sets the input at an index to the specified filter effect.
 
 ## -parameters
 

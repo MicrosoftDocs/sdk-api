@@ -124,7 +124,7 @@ A method may have input parameters, output parameters, both input and output par
 <li>
 Set the output parameters in the <i>pOutParams</i> parameter, using the Set methods of the <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="/windows/desktop/api/instance/nf-instance-cinstance-setbyte">CInstance::SetByte</a> or <a href="/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">CInstance::SetStringArray</a>.
 
-In addition to declaring the [out] properties as specified in the return declaration, you must also declare the return value for the method, as defined in the <b>ReturnValue</b> property. You do not have to declare a return value if if the return value is <b>void</b>.
+In addition to declaring the [out] properties as specified in the return declaration, you must also declare the return value for the method, as defined in the <b>ReturnValue</b> property. You do not have to declare a return value if the return value is <b>void</b>.
 
 </li>
 </ol>

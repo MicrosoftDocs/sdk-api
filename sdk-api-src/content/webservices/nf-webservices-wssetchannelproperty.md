@@ -70,7 +70,7 @@ A void pointer to the property value to set.
 
 ### -param valueSize [in]
 
-The size in bytes of of the property value.
+The size in bytes of the property value.
 
 ### -param error [in, optional]
 

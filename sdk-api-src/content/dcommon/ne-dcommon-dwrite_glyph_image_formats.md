@@ -52,7 +52,7 @@ api_name:
 
 Defines constants that specify which formats are supported in a font, either at a font-wide level or per glyph.
 
-For color fonts, these formats can be used to represent color glyphs. Fonts can contain multiple drawable data formats for glyphs. And an app can use these values to to tell DirectWrite which formats to return when splitting a color glyph run.
+For color fonts, these formats can be used to represent color glyphs. Fonts can contain multiple drawable data formats for glyphs. And an app can use these values to tell DirectWrite which formats to return when splitting a color glyph run.
 
 ## -enum-fields
 

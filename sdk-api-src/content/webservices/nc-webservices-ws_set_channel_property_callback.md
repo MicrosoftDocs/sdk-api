@@ -72,7 +72,7 @@ The pointer to the property value to set.
 
 ### -param valueSize [in]
 
-The size of of the property value.
+The size of the property value.
 
 ### -param error [in, optional]
 

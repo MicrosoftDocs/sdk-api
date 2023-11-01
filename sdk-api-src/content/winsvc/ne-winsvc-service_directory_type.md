@@ -38,7 +38,7 @@ Specifies the type of a per-service state directory.
 
 ### -field ServiceDirectoryPersistentState:0
 
-Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and and OS updates.
+Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and OS updates.
 
 ### -field ServiceDirectoryTypeMax:1
 

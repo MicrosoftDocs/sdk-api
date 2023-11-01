@@ -102,7 +102,7 @@ You can also call <b>GetDC</b> on the back buffer at index 0 of a swap chain by 
 IDXGISwapChain* g_pSwapChain = NULL;
 IDXGISurface1* g_pSurface1 = NULL;
 ...
-//Setup the device and and swapchain
+//Setup the device and the swapchain
 g_pSwapChain->GetBuffer(0, __uuidof(IDXGISurface1), (void**) &g_pSurface1);
 g_pSurface1->GetDC( FALSE, &g_hDC );
 ...      

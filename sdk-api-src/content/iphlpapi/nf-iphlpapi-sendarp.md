@@ -148,7 +148,7 @@ The supplied user buffer is not valid for the requested operation. This error is
 </dl>
 </td>
 <td width="60%">
-Element not found. This error is returned on Windows Vista if the  the <i>SrcIp</i> parameter does not specify a source IPv4 address on an interface on the local computer or the <b>INADDR_ANY</b> IP address (an IPv4 address of 0.0.0.0). 
+Element not found. This error is returned on Windows Vista if the <i>SrcIp</i> parameter does not specify a source IPv4 address on an interface on the local computer or the <b>INADDR_ANY</b> IP address (an IPv4 address of 0.0.0.0). 
 
 </td>
 </tr>

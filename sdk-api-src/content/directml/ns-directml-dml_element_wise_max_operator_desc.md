@@ -52,7 +52,7 @@ Takes the greater of two corresponding elements from the input tensors, and plac
 f(a, b) = max(a, b)
 ```
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 

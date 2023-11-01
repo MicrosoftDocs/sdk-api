@@ -118,7 +118,7 @@ The video renderer filter is not connected.
 
 ## -remarks
 
-When the Filter Graph Manager is switching to full-screen mode, it calls this method to determine whether the current video renderer supports this mode. If the renderer does not have inherent support for full-screen playback, it should return E_NOTIMPL. If if does, it should return S_OK, and also return the correct value in the <i>FullScreenMode</i> parameter.
+When the Filter Graph Manager is switching to full-screen mode, it calls this method to determine whether the current video renderer supports this mode. If the renderer does not have inherent support for full-screen playback, it should return E_NOTIMPL. If it does, it should return S_OK, and also return the correct value in the <i>FullScreenMode</i> parameter.
 
 ## -see-also
 

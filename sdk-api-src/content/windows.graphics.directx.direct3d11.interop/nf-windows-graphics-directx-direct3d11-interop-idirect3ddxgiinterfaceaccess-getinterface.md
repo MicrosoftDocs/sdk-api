@@ -62,7 +62,7 @@ A reference to the globally unique identifier (GUID) of the interface that you w
 
 Type: **void\*\***
 
-A pointer to a memory block that receives a pointer to the the DXGI interface.
+A pointer to a memory block that receives a pointer to the DXGI interface.
 
 ## -returns
 

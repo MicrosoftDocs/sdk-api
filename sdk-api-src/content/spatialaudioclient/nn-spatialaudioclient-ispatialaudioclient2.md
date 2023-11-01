@@ -42,7 +42,7 @@ The **ISpatialAudioClient2** interface inherits from [ISpatialAudioClient](xref:
 
 
 
-Audio offloading allows an app to submit a large audio buffer (typically 1 to 2 seconds) the the audio device driver. Without offload, a typical audio buffer only contains 10ms of data, requiring the app to be awakened around 100 times per second to provide additional audio data. Using offloaded large buffers can provide battery savings, particularly for the scenario where the user is listening to audio with the screen off.
+Audio offloading allows an app to submit a large audio buffer (typically 1 to 2 seconds) to the audio device driver. Without offload, a typical audio buffer only contains 10ms of data, requiring the app to be awakened around 100 times per second to provide additional audio data. Using offloaded large buffers can provide battery savings, particularly for the scenario where the user is listening to audio with the screen off.
 
 To use this feature, the driver for the audio device must support offloading. Query for support by calling [IsOffloadCapable](xref:NF:spatialaudioclient.ISpatialAudioClient2.IsOffloadCapable). Determine the maximum number of audio frames supported for offloading by calling [GetMaxFrameCountForCategory](xref:NF:spatialaudioclient.ISpatialAudioClient2.GetMaxFrameCountForCategory).
 

@@ -66,7 +66,7 @@ A <b>HANDLE</b> to the process from which the section
 The base address of a previously mapped
 view that is to be unmapped.  This value must be
 identical to the value returned by a previous call
-to one of the the functions in the
+to one of the functions in the
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> family.
 
 ### -param UnmapFlags [in]

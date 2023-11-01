@@ -64,7 +64,7 @@ A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-is
 
 Type: <b>DWORD</b>
 
-A flag that can can take one of the following two values.
+A flag that can take one of the following two values.
 
 
 
