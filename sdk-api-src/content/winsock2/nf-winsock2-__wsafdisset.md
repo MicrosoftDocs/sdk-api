@@ -60,7 +60,7 @@ Descriptor identifying a socket.
 
 ### -param unnamedParam2
 
-Pointer to an <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
+Pointer to an <a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
 
 ## -remarks
 
@@ -78,7 +78,7 @@ Pointer to an <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a
 
 
 
-<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a>
 
 
 
