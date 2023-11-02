@@ -47,14 +47,10 @@ api_name:
  - fd_set
 ---
 
-# fd_set structure
-
-
 ## -description
 
-The 
-<b>fd_set</b> structure is used by various Windows Sockets functions and service providers, such as the 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function, to place sockets into a "set" for various purposes, such as testing a given socket for readability using the <i>readfds</i> parameter of the 
+The <b>fd_set</b> structure is used by various Windows Sockets functions and service providers, such as the 
+<a href="/windows/win32/api/winsock2/nf-winsock2-select">select</a> function, to place sockets into a "set" for various purposes, such as testing a given socket for readability using the <i>readfds</i> parameter of the 
 <b>select</b> function.
 
 ## -struct-fields
@@ -69,16 +65,16 @@ An array of sockets that are in the set.
 
 ## -remarks
 
-The <b>FD_SET</b> typedef of <b>fd_set</b> structure should not be confused with the <a href="/windows/desktop/api/winsock2/nf-winsock2-fd_set">FD_SET</a> macro. However, <b>fd_set</b> structure and <b>FD_SET</b> macro are related and often used in conjunction.
+Be careful not to confuse the **FD_SET** typedef of the **fd_set** structure with the [FD_SET](/windows/win32/api/winsock2/nf-winsock2-fd_set) macro. That said, the **FD_SET** macro and the **fd_set** structure are related, and often used in conjunction.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/win32/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
+<a href="/windows/win32/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
 
 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+<a href="/windows/win32/api/winsock2/nf-winsock2-select">select</a>
