@@ -81,7 +81,7 @@ The <b>IXpsOMShareable</b> interface inherits from the <a href="/windows/desktop
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
  
 
  

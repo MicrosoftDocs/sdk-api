@@ -93,7 +93,7 @@ The interface is not connected to the signature manager.
 
 ## -remarks
 
-The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a> interface returned in <i>certificateEnumerator</i> can be empty; however the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a> requires that at least the signing certificate be included in the XPS package. Package producers may include additional certificates as well. For example, the entire certificate trust chain could be included in the XPS package.
+The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator">IOpcCertificateEnumerator</a> interface returned in <i>certificateEnumerator</i> can be empty; however the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a> requires that at least the signing certificate be included in the XPS package. Package producers may include additional certificates as well. For example, the entire certificate trust chain could be included in the XPS package.
 
 ## -see-also
 
@@ -113,7 +113,7 @@ The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertifica
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

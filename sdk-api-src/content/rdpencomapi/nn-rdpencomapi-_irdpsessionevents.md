@@ -87,7 +87,7 @@ Application can use the following DISPIDs when implementing **IDispatch::Invoke*
 | DISPID_RDPSRAPI_EVENT_ON_SHARED_RECT_CHANGED = 323 | [OnSharedRectChanged](/previous-versions/windows/desktop/rdp/onsharedrectchanged) |
 | DISPID_RDPSRAPI_EVENT_ON_FOCUSRELEASED = 324 | [OnFocusReleased](/previous-versions/windows/desktop/rdp/onfocusreleased) |
 | DISPID_RDPSRAPI_EVENT_ON_SHARED_DESKTOP_SETTINGS_CHANGED = 325 | [OnSharedDesktopSettingsChanged](/previous-versions/windows/desktop/rdp/onshareddesktopsettingschanged) |
-| DISPID_RDPAPI_EVENT_ON_BOUNDING_RECT_CHANGED = 340 | [OnViewingSizeChanged](/previous-versions/windows/desktop/rdp/onviewingsizechanged) |
+| DISPID_RDPAPI_EVENT_ON_BOUNDING_RECT_CHANGED = 340 | [OnViewingSizeChanged](/previous-versions/windows/desktop/legacy/hh802749(v=vs.85)) |
 
 
 ## -see-also
