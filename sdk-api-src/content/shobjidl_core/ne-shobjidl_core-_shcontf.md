@@ -96,7 +96,7 @@ Determines the types of items included in an enumeration. These values are used 
 
 ### -field SHCONTF_FLATLIST:0x4000
 
-0x04000. <b>Windows Vista and later</b>. Enumerate items as a simple list even if the folder itself is not structured in that way.
+0x04000. <b>Windows Vista and later</b>. Obsolete. Do not use.
 
 ### -field SHCONTF_ENABLE_ASYNC:0x8000
 
@@ -110,5 +110,5 @@ Determines the types of items included in an enumeration. These values are used 
 
 By setting the <b><b>SHCONTF_INIT_ON_FIRST_NEXT</b></b> flag, the calling application suggests that the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method can expedite the enumeration process by returning an uninitialized enumeration object. Initialization can be deferred until the enumeration process starts. If initializing the enumeration object is a lengthy process, the method implementation should immediately return an uninitialized object. Defer initialization until the first time the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">IEnumIDList::Next</a> method is called. If initialization requires user input, the method implementation should use <i>hwnd</i> as the parent window for the user interface. For an explanation of what to do when <i>hwnd</i> is set to <b>NULL</b>, see the <b>IShellFolder::EnumObjects</b> reference.
 
-<div class="alert"><b>Note</b>  The name of this enumeration was changed to <b>SHCONTF</b> in Windows Vista. Earlier, it was named <b>SHCONTF</b>. The name <b>SHCONTF</b> is still defined through a typedef statement, however, so it can continue to be used by legacy code.</div>
+<div class="alert"><b>Note</b>  The name of this enumeration was changed to <b>_SHCONTF</b> in Windows Vista. Earlier, it was named <b>tagSHCONTF</b>. For compatibility with legacy code, the name <b>SHCONTF</b> is defined through a typedef statement to be a synonym for <b>DWORD</b>.</div>
 <div> </div>

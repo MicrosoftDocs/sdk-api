@@ -706,7 +706,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a contrast value that is used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Retrieves a contrast value that is used in <a href="/typography/cleartype/">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -850,7 +850,7 @@ To enable the feature, set the <i>uiParam</i> parameter to <b>TRUE</b>. To disab
 </dl>
 </td>
 <td width="60%">
-Sets the contrast value used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Sets the contrast value used in <a href="/typography/cleartype/">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>SPI_SETFONTSMOOTHINGTYPE</b> must also be set to <b>FE_FONTSMOOTHINGCLEARTYPE</b>.
 
@@ -878,7 +878,7 @@ Sets the font smoothing orientation. The <i>pvParam</i> parameter is either <b>F
 </dl>
 </td>
 <td width="60%">
-Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
+Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="/typography/cleartype/">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
 
 <b>SPI_SETFONTSMOOTHING</b> must also be set.
 

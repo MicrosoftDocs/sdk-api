@@ -30,7 +30,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - wow64apiset.h
 api_name:

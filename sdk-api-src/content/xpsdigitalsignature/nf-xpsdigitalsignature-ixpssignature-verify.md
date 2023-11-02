@@ -111,7 +111,7 @@ The interface is not connected to the signature manager.
 
 ## -remarks
 
-This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+This method detects the signature status in the order that is specified in section 10.2.1.2 of the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
     The sequence of detection is as follows: incompliant, incomplete, broken, questionable, and, finally, valid.
     This means that  if, for example,  a signature is found to be incompliant, no digest will be calculated  if the signature is also broken.
 
@@ -135,7 +135,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

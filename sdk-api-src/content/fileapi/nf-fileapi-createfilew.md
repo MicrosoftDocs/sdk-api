@@ -249,7 +249,7 @@ This parameter must be one of the following values, which cannot be combined:
 <td width="60%">
 Creates a new file, always.
 
-If the specified file exists and is writable, the function overwrites the file, the function succeeds, and 
+If the specified file exists and is writable, the function truncates the file, the function succeeds, and 
          last-error code is set to <b>ERROR_ALREADY_EXISTS</b> (183).
 
 If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and 

@@ -77,7 +77,7 @@ Value that indicates a member of the <a href="/previous-versions/windows/interne
 
 #### IID_IPropertyNotifySink
 
-Value that indicates a member of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink&preserve-view=true">IPropertyNotifySink</a> interface.
+Value that indicates a member of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> interface.
 
 ### -param ppccp [out]
 

@@ -159,7 +159,7 @@ A message-dependent value. This member is used with these messages:
 <a href="/windows/desktop/shell/abm-setautohidebarex">ABM_SETAUTOHIDEBAREX</a>
 </li>
 <li>
-<a href="windows/desktop/shell/abm-setstate">ABM_SETSTATE</a>
+<a href="/windows/desktop/shell/abm-setstate">ABM_SETSTATE</a>
 </li>
 </ul>
 
