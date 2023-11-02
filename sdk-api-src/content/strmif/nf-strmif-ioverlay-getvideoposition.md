@@ -63,7 +63,7 @@ Pointer to a <b>RECT</b> structure that receives the source rectangle.
 
 ### -param pDestinationRect [in]
 
-Pointer to to a <b>RECT</b> structure that receives the destination rectangle.
+Pointer to a <b>RECT</b> structure that receives the destination rectangle.
 
 ## -returns
 

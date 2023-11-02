@@ -56,7 +56,7 @@ A string containing the provider ID.
 
 Type: \_In\_ **[PCWSTR](/windows/win32/winprog/windows-data-types)**
 
-A string containing containing the config info (the data to write).
+A string containing the config info (the data to write).
 
 ## -returns
 

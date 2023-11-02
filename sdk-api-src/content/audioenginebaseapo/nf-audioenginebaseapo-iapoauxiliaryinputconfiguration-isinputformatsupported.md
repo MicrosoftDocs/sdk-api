@@ -67,7 +67,7 @@ HRESULT
 | S_FALSE | Format is not supported. The APO should return a suggested supported format in *ppSupportedInputFormat* |
 | APOERR_FORMAT_NOT_SUPPORTED | Format is not supported. The APO should not modify *ppSupportedInputFormat*|
 | E_POINTER | Invalid pointer passed to this function. |
-| Other values | Another component is causing a failure. These failures are tracked by the the system. |
+| Other values | Another component is causing a failure. These failures are tracked by the system. |
 
 
 

@@ -58,7 +58,7 @@ Gets the current fallback. If none was ever set since creating the layout, it wi
 
 Type: <b><a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback">IDWriteFontFallback</a>**</b>
 
-Contains an address of a pointer to the the current font fallback object.
+Contains an address of a pointer to the current font fallback object.
 
 ## -returns
 

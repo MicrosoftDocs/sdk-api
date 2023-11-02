@@ -52,7 +52,7 @@ Subtracts each element of *BTensor* from the corresponding element of *ATensor*,
 f(a, b) = a - b
 ```
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 

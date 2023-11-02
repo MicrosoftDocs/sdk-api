@@ -58,7 +58,7 @@ Remote Access Service (RAS) calls the
 ### -param pRasConn [in]
 
 A pointer to a 
-<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure structure that describes this connection.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure that describes this connection.
 
 ## -returns
 

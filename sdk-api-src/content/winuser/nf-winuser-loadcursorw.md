@@ -80,7 +80,7 @@ Type: <b>LPCTSTR</b>
 
 If <i>hInstance</i> is non-<b>NULL</b>, <i>lpCursorName</i> specifies the cursor resource either by name or ordinal. This ordinal must be packaged by using the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro.
 
-If <i>hInstance</i> is <b>NULL</b>, <i>lpCursorName</i> specifies the [identifier begin with the IDC\_ prefix](/windows/win32/menurc/about-cursors) of a predefined system cursor to load.
+If <i>hInstance</i> is <b>NULL</b>, <i>lpCursorName</i> specifies the identifier that begins with the [IDC\_ prefix](/windows/win32/menurc/about-cursors) of a predefined system cursor to load.
 
 ## -returns
 

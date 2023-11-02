@@ -56,7 +56,7 @@ Cancels a connection that was previously established by using <a href="/windows/
 
 ### -param dwCookie [in]
 
-A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
+A token that uniquely identifies the connection to cancel, which is provided by a previous call to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
 
 ## -returns
 
