@@ -57,6 +57,10 @@ The
 
 ## -parameters
 
+## -remarks
+
+The <b>FD_SET<b> macro should not be confused with the <b>FD_SET</b> typedef of <a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a> structure. However, <b>FD_SET</b> macro and <b>fd_set</b> structure are related and often used in conjunction.
+
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>

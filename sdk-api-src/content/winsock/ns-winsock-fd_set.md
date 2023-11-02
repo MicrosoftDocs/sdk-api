@@ -67,6 +67,10 @@ The number of sockets in the set.
 
 An array of sockets that are in the set.
 
+## -remarks
+
+The <b>FD_SET</b> typedef of <b>fd_set</b> structure should not be confused with the <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">FD_SET</a> macro. However, <b>fd_set</b> structure and <b>FD_SET</b> macro are related and often used in conjunction.
+
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
