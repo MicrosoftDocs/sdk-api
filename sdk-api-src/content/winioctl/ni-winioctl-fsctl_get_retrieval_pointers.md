@@ -92,7 +92,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The **FSCTL_GET_RETRIEVAL_POINTERS** operation retrieves a variably sized data structure that describes the allocation and location on disk of a specific file. The structure describes the mapping between virtual cluster numbers (VCN offsets within the file or stream space) and logical cluster numbers (LCN offsets within the volume space).
 
-The **FSCTL_GET_RETRIEVAL_POINTERS** control code is supported for file or directory operations on NTFS, FAT, exFAT, and UDF file systems.
+The **FSCTL_GET_RETRIEVAL_POINTERS** control code is supported for file or directory operations on NTFS, FAT, exFAT, UDF, and ReFS file systems.
 
 On supported file systems, the **FSCTL_GET_RETRIEVAL_POINTERS** operation returns the extent locations of nonresident data.  Resident data never has extent locations.
 
