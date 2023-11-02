@@ -60,7 +60,7 @@ The <code>get_CopyProtection</code> method determines whether copy protection is
 
 ### -param lVideoCopyProtection [out]
 
-Specifies a pointer to a <b>long</b> integer to receive the current copy protection level, as defined in the <a href="/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
+Specifies a pointer to a <b>long</b> integer to receive the current copy protection level, as defined in the <a href="/previous-versions/ms778997(v=vs.85)">AM_COPY_MACROVISION_LEVEL</a> enumeration.
 
 ## -returns
 
