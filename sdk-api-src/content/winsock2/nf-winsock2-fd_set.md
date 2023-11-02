@@ -45,12 +45,9 @@ api_name:
  - fd_set
 ---
 
-# FD_SET macro
-
-
 ## -description
 
-The <b>FD_SET</b> macro add a file descriptor to a <a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a>. If the file descriptor already exist within the set, a duplicate will not be added.
+The <b>FD_SET</b> macro adds a file descriptor to an <a href="/windows/win32/api/winsock2/ns-winsock2-fd_set">fd_set</a>. If the file descriptor already exist within the set, a duplicate will not be added.
 
 ## -parameters
 
