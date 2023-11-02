@@ -45,9 +45,6 @@ api_name:
  - fd_set
 ---
 
-# FD_SET macro
-
-
 ## -description
 
 The 
@@ -57,14 +54,18 @@ The
 
 ## -parameters
 
+## -remarks
+
+Be careful not to confuse the **FD_SET** macro with the typedef of the [fd_set](/windows/win32/api/winsock/ns-winsock-fd_set) structure that's also named **FD_SET**. That said, the **FD_SET** macro and the **fd_set** structure are related, and often used in conjunction.
+
 ## -see-also
 
-<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/win32/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
+<a href="/windows/win32/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
 
 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+<a href="/windows/win32/api/winsock2/nf-winsock2-select">select</a>
