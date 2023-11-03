@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcUtils::BuildArguments
 ms.date: 04/05/2023
 targetos: Windows
-description: Build arguments that can be passed to the [Compile](./nf-dxcapi-idxccompiler3-compile) method.
+description: Build arguments that can be passed to the [Compile](./nf-dxcapi-idxccompiler3-compile.md) method.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Build arguments that can be passed to the [Compile](./nf-dxcapi-idxccompiler3-compile) method.
+Build arguments that can be passed to the [Compile](./nf-dxcapi-idxccompiler3-compile.md) method.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ The number of defines.
 
 ### -param ppArgs
 
-Arguments that you can use with the [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile) method.
+Arguments that you can use with the [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md) method.
 
 ## -returns
 

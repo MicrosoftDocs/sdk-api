@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Interface representing the DXC shader validator.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcValidator**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcValidator**.
 
 ## -remarks
 

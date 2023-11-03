@@ -190,10 +190,6 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 
-<a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
-
-
-
 <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a>
 
 

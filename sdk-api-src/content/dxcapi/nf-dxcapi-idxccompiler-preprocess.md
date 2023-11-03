@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Preprocess source text. **IDxcCompiler::Preprocess** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile) with the `-P` argument instead.
+Preprocess source text. **IDxcCompiler::Preprocess** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md) with the `-P` argument instead.
 
 ## -parameters
 

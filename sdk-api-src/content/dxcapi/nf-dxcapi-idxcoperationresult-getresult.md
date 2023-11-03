@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 Retrieves the primary output of the operation. This corresponds to:
 
-* [DXC_OUT_OBJECT](./ne-dxcapi-dxc_out_kind). **Compile** with shader or library target.
+* [DXC_OUT_OBJECT](./ne-dxcapi-dxc_out_kind.md). **Compile** with shader or library target.
 * **DXC_OUT_DISASSEMBLY**. **Disassemble**.
 * **DXC_OUT_HLSL**. **Compile** with `-P`.
 * **DXC_OUT_ROOT_SIGNATURE**. **Compile** with with `rootsig_* target`.

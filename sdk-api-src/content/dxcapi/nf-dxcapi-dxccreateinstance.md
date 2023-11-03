@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a single uninitialized object of the class associated with a specified CLSID. Also see [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2).
+Creates a single uninitialized object of the class associated with a specified CLSID. Also see [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2.md).
 
 ## -parameters
 

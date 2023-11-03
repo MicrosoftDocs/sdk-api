@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcCompiler2::CompileWithDebug
 ms.date: 04/05/2023
 targetos: Windows
-description: Compile a single entry point to the target shader model with debug information. **IDxcCompiler::CompileWithDebug** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-disassemble) instead.
+description: Compile a single entry point to the target shader model with debug information. **IDxcCompiler::CompileWithDebug** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-disassemble.md) instead.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Compile a single entry point to the target shader model with debug information. **IDxcCompiler::CompileWithDebug** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-disassemble) instead.
+Compile a single entry point to the target shader model with debug information. **IDxcCompiler::CompileWithDebug** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-disassemble.md) instead.
 
 ## -parameters
 

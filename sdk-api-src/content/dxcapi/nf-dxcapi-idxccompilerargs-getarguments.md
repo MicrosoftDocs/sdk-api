@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 Retrieves the array of arguments.
 
-You can pass the value returned by **GetArguments** directly to the *pArguments* parameter of [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile).
+You can pass the value returned by **GetArguments** directly to the *pArguments* parameter of [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md).
 
 ## -returns
 
