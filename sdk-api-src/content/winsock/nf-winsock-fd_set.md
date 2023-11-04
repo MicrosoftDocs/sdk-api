@@ -57,7 +57,7 @@ A descriptor identifying a socket which will be added to the set.
 
 ### -param set
 
-A pointer to a <b>>fd_set</b>.
+A pointer to an [fd_set](/windows/win32/api/winsock/ns-winsock-fd_set).
 
 ## -remarks
 
