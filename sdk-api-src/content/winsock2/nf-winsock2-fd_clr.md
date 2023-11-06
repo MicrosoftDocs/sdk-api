@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **FD_CLR** macro removes a file descriptor from an [fd_set]("/windows/win32/api/winsock2/ns-winsock2-fd_set) structure. If there are multiple matches, only the first file descriptor will be removed.
+The **FD_CLR** macro removes a file descriptor from an [fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set) structure. If there are multiple matches, only the first file descriptor will be removed.
 
 ## -parameters
 
