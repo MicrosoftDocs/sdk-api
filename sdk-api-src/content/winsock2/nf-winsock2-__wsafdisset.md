@@ -45,12 +45,9 @@ api_name:
  - __WSAFDIsSet
 ---
 
-# __WSAFDIsSet function
-
-
 ## -description
 
-The **__WSAFDIsSet** function returns whether a socket is included in a set of socket descriptors.
+The **__WSAFDIsSet** function returns a value indicating whether a socket is included in a set of socket descriptors.
 
 ## -parameters
 
@@ -76,10 +73,7 @@ The **FD_ISSET** macro expands to a call of function **__WSAFDIsSet**.
 
 ## -see-also
 
-[WSAAsyncSelect](/windows/win32/api/winsock2/nf-winsock2-wsaasyncselect)
-
-[WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect)
-
-[fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set)
-
-[select](/windows/win32/api/winsock2/nf-winsock2-select)
+* [WSAAsyncSelect](/windows/win32/api/winsock2/nf-winsock2-wsaasyncselect)
+* [WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect)
+* [fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set)
+* [select](/windows/win32/api/winsock2/nf-winsock2-select)
