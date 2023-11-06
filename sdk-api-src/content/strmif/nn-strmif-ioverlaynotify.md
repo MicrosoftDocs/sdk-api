@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOverlayNotify","IOverlayNotify interface [DirectShow]","
 old-location: dshow\ioverlaynotify.htm
 tech.root: dshow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IOverlayNotify</code> interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window. This includes notifications of changes to the palette, color key, and window position, and visible region (clipping) changes.
 

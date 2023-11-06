@@ -543,7 +543,7 @@ Refer to
 </dl>
 </td>
 <td width="60%">
-Create a socket that allows the the ability to set a security descriptor on the socket that contains a security access control list (SACL) as opposed to just a discretionary access control list (DACL).
+Create a socket that allows the ability to set a security descriptor on the socket that contains a security access control list (SACL) as opposed to just a discretionary access control list (DACL).
 
 SACLs are used for generating audits and alarms when an access check occurs on the object. For a socket, an access check occurs to determine whether the socket should be allowed to bind to a specific address specified to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
 
@@ -801,7 +801,7 @@ The <b>WSASocket</b> function can be used to create a socket to be used by a ser
 <ul>
 <li>Call the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the <b>SE_SECURITY_NAME</b> privilege in the access token for the process. This privilege is required to set the  <b>ACCESS_SYSTEM_SECURITY</b> access rights on the security descriptor for an object. </li>
 <li>Call the <b>WSASocket</b> function to create a socket with <i>dwFlag</i> with the <b>WSA_FLAG_ACCESS_SYSTEM_SECURITY</b> option set. The <b>WSASocket</b> function will fail if the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function is not called first to enable the <b>SE_SECURITY_NAME</b> privilege needed for this operation.</li>
-<li>Call the <a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> function to set a security descriptor with a System Access Control List (SACL) on the socket. The socket handle returned by the <b>WSASocket</b> function is passed in the <i>handle</i> parameter. If the function succeeds, this will set the the  <b>ACCESS_SYSTEM_SECURITY</b> access right on the security descriptor for the socket.</li>
+<li>Call the <a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> function to set a security descriptor with a System Access Control List (SACL) on the socket. The socket handle returned by the <b>WSASocket</b> function is passed in the <i>handle</i> parameter. If the function succeeds, this will set the <b>ACCESS_SYSTEM_SECURITY</b> access right on the security descriptor for the socket.</li>
 <li>Call the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function to bind the socket to a specific port. If the <b>bind</b> function succeeds, then an audit entry is generated if another socket tries to bind to the same port. </li>
 <li>Call the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to remove the <b>SE_SECURITY_NAME</b> privilege in the access token for the process, since this is no longer needed. </li>
 </ul>

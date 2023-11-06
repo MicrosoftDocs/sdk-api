@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFilterMapper2 interface [DirectShow]","UnregisterFilter 
 old-location: dshow\ifiltermapper2_unregisterfilter.htm
 tech.root: dshow
 ms.assetid: cfba764d-ec94-49a2-9aaf-2b107b742f83
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFilterMapper2 interface [DirectShow],UnregisterFilter method, IFilterMapper2.UnregisterFilter, IFilterMapper2::UnregisterFilter, IFilterMapper2UnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_unregisterfilter, strmif/IFilterMapper2::UnregisterFilter
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>UnregisterFilter</code> method removes filter information from the registry.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_autoS
 old-location: wmp\iwmpsettings_put_autostart.htm
 tech.root: WMP
 ms.assetid: 34f80fa4-6e9c-4435-b360-55c2856f89fb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSettings interface [Windows Media Player],put_autoStart method, IWMPSettings.put_autoStart, IWMPSettings::put_autoStart, IWMPSettingsput_autoStart, put_autoStart, put_autoStart method [Windows Media Player], put_autoStart method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_autostart, wmp/IWMPSettings::put_autoStart
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_autoStart</b> method specifies a value indicating whether the current media item begins playing automatically.
 

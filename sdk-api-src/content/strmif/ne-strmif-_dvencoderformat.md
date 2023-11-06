@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVENCODERFORMAT","DVENCODERFORMATEnumeration","DVENCODERF
 old-location: dshow\dvencoderformat.htm
 tech.root: dshow
 ms.assetid: 462c8034-5931-435d-8f18-b58842f2e234
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVENCODERFORMAT, DVENCODERFORMATEnumeration, DVENCODERFORMAT_DVHD, DVENCODERFORMAT_DVSD, DVENCODERFORMAT_DVSL, _DVENCODERFORMAT, _DVENCODERFORMAT enumeration [DirectShow], dshow.dvencoderformat, strmif/DVENCODERFORMAT_DVHD, strmif/DVENCODERFORMAT_DVSD, strmif/DVENCODERFORMAT_DVSL, strmif/_DVENCODERFORMAT
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Indicates the digital video (DV) format.
 

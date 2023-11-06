@@ -6,7 +6,7 @@ helpviewer_keywords: ["VideoControlFlag_ExternalTriggerEnable","VideoControlFlag
 old-location: dshow\videocontrolflags.htm
 tech.root: dshow
 ms.assetid: 9d7feb46-fb07-46d8-a9a5-511578873cf3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VideoControlFlag_ExternalTriggerEnable, VideoControlFlag_FlipHorizontal, VideoControlFlag_FlipVertical, VideoControlFlag_Trigger, VideoControlFlags, VideoControlFlags enumeration [DirectShow], VideoControlFlagsEnumeration, dshow.videocontrolflags, strmif/VideoControlFlag_ExternalTriggerEnable, strmif/VideoControlFlag_FlipHorizontal, strmif/VideoControlFlag_FlipVertical, strmif/VideoControlFlag_Trigger, strmif/VideoControlFlags
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the video mode of operation for a video device.
 

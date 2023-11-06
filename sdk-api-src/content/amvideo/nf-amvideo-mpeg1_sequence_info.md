@@ -6,7 +6,7 @@ helpviewer_keywords: ["MPEG1_SEQUENCE_INFO","MPEG1_SEQUENCE_INFO macro [DirectSh
 old-location: dshow\mpeg1_sequence_info.htm
 tech.root: dshow
 ms.assetid: 2c3f7dd7-3437-49ab-969c-d2425a75352b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MPEG1_SEQUENCE_INFO, MPEG1_SEQUENCE_INFO macro [DirectShow], amvideo/MPEG1_SEQUENCE_INFO, dshow.mpeg1_sequence_info
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence header inside an <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPMPEG1WAVEFORMAT","*NPMPEG1WAVEFORMAT","*PMPEG1WAVEFORM
 old-location: dshow\mpeg1waveformat.htm
 tech.root: dshow
 ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag'
 req.header: mmreg.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>MPEG1WAVEFORMAT</code> structure describes the format of MPEG-1 audio data.
 

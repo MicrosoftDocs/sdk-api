@@ -14,7 +14,8 @@
     "audiosessiontypes.h",
     "functiondiscoverykeys_devpkey.h",
     "audioenginebaseapo.h",
-    "audioclientactivationparams.h"
+    "audioclientactivationparams.h",
+    "audiostatemonitorapi.h"
   ],
   "displayName": "Core Audio APIs"
 }

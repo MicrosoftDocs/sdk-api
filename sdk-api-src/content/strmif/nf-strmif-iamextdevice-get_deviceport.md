@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMExtDevice interface [DirectShow]","get_DevicePort meth
 old-location: dshow\iamextdevice_get_deviceport.htm
 tech.root: dshow
 ms.assetid: 307ad6ee-1084-4a83-bb19-f766f2328a0d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePort method, IAMExtDevice.get_DevicePort, IAMExtDevice::get_DevicePort, IAMExtDeviceget_DevicePort, dshow.iamextdevice_get_deviceport, get_DevicePort, get_DevicePort method [DirectShow], get_DevicePort method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePort
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_DevicePort</code> method retrieves the communication port to which the external device is connected.
 

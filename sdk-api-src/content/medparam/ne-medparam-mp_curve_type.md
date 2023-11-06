@@ -6,7 +6,7 @@ helpviewer_keywords: ["MP_CURVE_INVSQUARE","MP_CURVE_JUMP","MP_CURVE_LINEAR","MP
 old-location: dshow\mp_curve_type.htm
 tech.root: dshow
 ms.assetid: 0665796e-5589-4e6c-b101-e19eddec7e0d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MP_CURVE_INVSQUARE, MP_CURVE_JUMP, MP_CURVE_LINEAR, MP_CURVE_SINE, MP_CURVE_SQUARE, MP_CURVE_TYPE, MP_CURVE_TYPE , MP_CURVE_TYPE enumeration [DirectShow], MP_CURVE_TYPEEnumeration, dshow.mp_curve_type, medparam/MP_CURVE_INVSQUARE, medparam/MP_CURVE_JUMP, medparam/MP_CURVE_LINEAR, medparam/MP_CURVE_SINE, medparam/MP_CURVE_SQUARE, medparam/MP_CURVE_TYPE
 req.header: medparam.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>MP_CURVE_TYPE</code> enumeration defines the curve that a media parameter follows within an envelope segment.
 

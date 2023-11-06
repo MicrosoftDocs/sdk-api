@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPMPEGLAYER3WAVEFORMAT","*NPMPEGLAYER3WAVEFORMAT","*PMPE
 old-location: dshow\mpeglayer3waveformat.htm
 tech.root: dshow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag'
 req.header: mmreg.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>MPEGLAYER3WAVEFORMAT</b> structure describes an MPEG Audio Layer-3 (MP3) audio format.
 

@@ -60,5 +60,5 @@ The optical alignment.
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextformat1">IDWriteTextFormat1</a>
 

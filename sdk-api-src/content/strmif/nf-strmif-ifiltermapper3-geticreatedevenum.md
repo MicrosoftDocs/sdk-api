@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetICreateDevEnum","GetICreateDevEnum method [DirectShow]
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm
 tech.root: dshow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetICreateDevEnum</code> method returns a pointer to the <b>ICreateDevEnum</b> interface. You can use the <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 

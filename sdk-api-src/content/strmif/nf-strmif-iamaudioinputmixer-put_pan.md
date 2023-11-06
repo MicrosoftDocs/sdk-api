@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","put_Pan metho
 old-location: dshow\iamaudioinputmixer_put_pan.htm
 tech.root: dshow
 ms.assetid: eb0528e0-81d0-45a3-831a-8cf3ff1232b6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Pan method, IAMAudioInputMixer.put_Pan, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Pan
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_Pan</code> method sets the pan level.
 

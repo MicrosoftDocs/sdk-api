@@ -6,7 +6,7 @@ helpviewer_keywords: ["RenderPrefs9_DoNotRenderBorder","RenderPrefs9_Mask","VMR9
 old-location: dshow\vmr9renderprefs.htm
 tech.root: dshow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: RenderPrefs9_DoNotRenderBorder, RenderPrefs9_Mask, VMR9RenderPrefs, VMR9RenderPrefs , VMR9RenderPrefs enumeration [DirectShow], VMR9RenderPrefsEnumeration, dshow.vmr9renderprefs, vmr9/RenderPrefs9_DoNotRenderBorder, vmr9/RenderPrefs9_Mask, vmr9/VMR9RenderPrefs
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetOutputFormat
 old-location: dshow\iamline21decoder_setoutputformat.htm
 tech.root: dshow
 ms.assetid: 72d63092-8ac6-42c5-a0da-6c64f3a127c5
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetOutputFormat method, IAMLine21Decoder.SetOutputFormat, IAMLine21Decoder::SetOutputFormat, IAMLine21DecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setoutputformat, il21dec/IAMLine21Decoder::SetOutputFormat
 req.header: il21dec.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetOutputFormat</code> method sets the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
 

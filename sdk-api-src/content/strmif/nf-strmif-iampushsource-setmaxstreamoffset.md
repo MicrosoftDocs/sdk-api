@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetMaxStreamOffset
 old-location: dshow\iampushsource_setmaxstreamoffset.htm
 tech.root: dshow
 ms.assetid: bbe0aa06-f680-4637-beb3-b94139ee0d54
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMPushSource interface [DirectShow],SetMaxStreamOffset method, IAMPushSource.SetMaxStreamOffset, IAMPushSource::SetMaxStreamOffset, IAMPushSourceSetMaxStreamOffset, SetMaxStreamOffset, SetMaxStreamOffset method [DirectShow], SetMaxStreamOffset method [DirectShow],IAMPushSource interface, dshow.iampushsource_setmaxstreamoffset, strmif/IAMPushSource::SetMaxStreamOffset
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetMaxStreamOffset</code> method specifies the stream offset that will be allowed in the filter graph.
 

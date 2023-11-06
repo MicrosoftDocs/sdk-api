@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMCertifiedOutputProtection","IAMCertifiedOutputProtecti
 old-location: dshow\iamcertifiedoutputprotection.htm
 tech.root: dshow
 ms.assetid: e5da271d-9528-4bcb-8b76-56fbec2e5855
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], IAMCertifiedOutputProtection interface [DirectShow],described, IAMCertifiedOutputProtectionInterface, dshow.iamcertifiedoutputprotection, strmif/IAMCertifiedOutputProtection
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IAMCertifiedOutputProtection</code> interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver. This interface is exposed by the Video Mixing Renderer 7 (VMR-7) and Video Mixing Renderer 9 (VMR-9) filters.
 

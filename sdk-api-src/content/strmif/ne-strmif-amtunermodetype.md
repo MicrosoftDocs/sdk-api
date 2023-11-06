@@ -6,7 +6,7 @@ helpviewer_keywords: ["AMTUNER_MODE_AM_RADIO","AMTUNER_MODE_DEFAULT","AMTUNER_MO
 old-location: dshow\amtunermodetype.htm
 tech.root: dshow
 ms.assetid: ce5e6f6d-da79-4a86-abd4-bb28e66d5947
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AMTUNER_MODE_AM_RADIO, AMTUNER_MODE_DEFAULT, AMTUNER_MODE_DSS, AMTUNER_MODE_FM_RADIO, AMTUNER_MODE_TV, AMTunerModeType, AMTunerModeType enumeration [DirectShow], AMTunerModeTypeEnumeration, dshow.amtunermodetype, strmif/AMTUNER_MODE_AM_RADIO, strmif/AMTUNER_MODE_DEFAULT, strmif/AMTUNER_MODE_DSS, strmif/AMTUNER_MODE_FM_RADIO, strmif/AMTUNER_MODE_TV, strmif/AMTunerModeType
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the frequency of a TV tuner (cable or antenna).
 

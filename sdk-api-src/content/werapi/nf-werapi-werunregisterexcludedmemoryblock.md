@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerUnregisterExcludedMemoryBlock
 title: WerUnregisterExcludedMemoryBlock function (werapi.h)
-description: Removes a memory block that was previously marked as excluded (it will again be included in error reports).
+description: Removes a memory block that was previously marked as excluded, which will again be included in Windows Error Reporting] (WER) error reports.
 helpviewer_keywords: ["WerUnregisterExcludedMemoryBlock","WerUnregisterExcludedMemoryBlock function [Windows Error Reporting]","wer.werunregisterexcludedmemoryblock","werapi/WerUnregisterExcludedMemoryBlock"]
 old-location: wer\werunregisterexcludedmemoryblock.htm
 tech.root: wer
 ms.assetid: 99FF746E-8EFC-47DB-AEE6-EC46F7BC7F0B
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerUnregisterExcludedMemoryBlock, WerUnregisterExcludedMemoryBlock function [Windows Error Reporting], wer.werunregisterexcludedmemoryblock, werapi/WerUnregisterExcludedMemoryBlock
 req.header: werapi.h
 req.include-header: 
@@ -49,47 +49,24 @@ api_name:
 
 # WerUnregisterExcludedMemoryBlock function
 
-
 ## -description
 
-Removes a memory block that was  previously marked as excluded (it will again be included in error reports).
+Removes a memory block that was previously marked as excluded, which will again be included in [Windows Error Reporting](../_wer/index.md) (WER) error reports.
 
 ## -parameters
 
 ### -param address
 
-The starting address of the memory block. This memory block must have been registered using the <a href="/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock">WerRegisterExcludedMemoryBlock</a> function.
+The starting address of the memory block. This memory block must have been registered using the [WerRegisterExcludedMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock) function.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock">WerRegisterExcludedMemoryBlock</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerRegisterExcludedMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werregisterexcludedmemoryblock), [Windows Error Reporting](/windows/desktop/wer)

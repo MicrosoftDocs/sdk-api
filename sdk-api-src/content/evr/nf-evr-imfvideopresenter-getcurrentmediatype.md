@@ -4,7 +4,7 @@ title: IMFVideoPresenter::GetCurrentMediaType (evr.h)
 description: Retrieves the presenter's media type.
 helpviewer_keywords: ["4b8f0e56-35de-4b4f-9897-32a7e14171c8","GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFVideoPresenter interface","IMFVideoPresenter interface [Media Foundation]","GetCurrentMediaType method","IMFVideoPresenter.GetCurrentMediaType","IMFVideoPresenter::GetCurrentMediaType","evr/IMFVideoPresenter::GetCurrentMediaType","mf.imfvideopresenter_getcurrentmediatype"]
 old-location: mf\imfvideopresenter_getcurrentmediatype.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8
 ms.date: 12/05/2018
 ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFVideoPresenter interface, IMFVideoPresenter interface [Media Foundation],GetCurrentMediaType method, IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoPresenter.GetCurrentMediaType
+archived: true
 ---
 
 # IMFVideoPresenter::GetCurrentMediaType

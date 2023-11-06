@@ -82,7 +82,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-When this function is called, the system sends the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
+When this function is called, the system sends the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <a href="/windows/desktop/winmsg/wm-windowposchanged">WM_WINDOWPOSCHANGED</a> messages to the window.
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
@@ -107,3 +107,7 @@ To obtain the window region of a window, call the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>
+
+
+
+<a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGED</a>

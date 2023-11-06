@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Indicates how pixel shader sampling will be restricted. This indicates whether the vertex buffer is large and tends to change infrequently or smaller and changes frequently (typically frame over frame).
+Indicates how pixel shader sampling will be restricted.
 
 ## -enum-fields
 

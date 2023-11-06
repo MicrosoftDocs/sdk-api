@@ -186,7 +186,7 @@ This error causes the immediate failure of the merge and the
 <td>12</td>
 <td>The authoring tool has returned a Null value for an item marked with the msmConfigItemNonNullable attribute. An error of this type returns msmErrorBadNullResponse in the 
 <b>Type</b> property and enters "ModuleSubstitution" and the keys from the 
-<a href="/windows/desktop/Msi/modulesubstitution-table">ModuleSubstitution table</a> for for the item into the 
+<a href="/windows/desktop/Msi/modulesubstitution-table">ModuleSubstitution table</a> for the item into the 
 <a href="/windows/desktop/Msi/error-moduletable">ModuleTable</a> property. All other properties of the 
 <a href="/windows/desktop/Msi/error-object">Error</a> object are set to an empty string or -1. 
 

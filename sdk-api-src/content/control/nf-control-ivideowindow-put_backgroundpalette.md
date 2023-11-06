@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_BackgroundPalet
 old-location: dshow\ivideowindow_put_backgroundpalette.htm
 tech.root: dshow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_BackgroundPalette</code> method specifies whether the video window realizes its palette in the background.
 

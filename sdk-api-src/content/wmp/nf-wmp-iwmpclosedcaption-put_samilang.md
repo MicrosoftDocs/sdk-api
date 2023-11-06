@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","put_
 old-location: wmp\iwmpclosedcaption_put_samilang.htm
 tech.root: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>put_SAMILang</b> method specifies the language displayed for closed captioning.
 

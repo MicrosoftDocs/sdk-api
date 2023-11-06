@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_CONFIGASFWRITER_PARAM_AUTOINDEX","AM_CONFIGASFWRITER_P
 old-location: wmformat\_am_asfwriterconfig_param_enumeration.htm
 tech.root: wmformat
 ms.assetid: 773f9b98-8b88-4b2d-b1f0-40bb1e0c0ab0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_CONFIGASFWRITER_PARAM_AUTOINDEX, AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, AM_CONFIGASFWRITER_PARAM_MULTIPASS, _AM_ASFWRITERCONFIG_PARAM, _AM_ASFWRITERCONFIG_PARAM enumeration [windows Media Format], dshowasf/AM_CONFIGASFWRITER_PARAM_AUTOINDEX, dshowasf/AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, dshowasf/AM_CONFIGASFWRITER_PARAM_MULTIPASS, dshowasf/_AM_ASFWRITERCONFIG_PARAM, wmformat._am_asfwriterconfig_param_enumeration
 req.header: dshowasf.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>_AM_ASFWRITERCONFIG_PARAM</b> DirectShow QASF enumeration type defines filter configuration parameters used in the <a href="/windows/desktop/wmformat/iconfigasfwriter2-getparam">IConfigAsfWriter2::GetParam</a> and <a href="/windows/desktop/wmformat/iconfigasfwriter2-setparam">SetParam</a> methods.
 

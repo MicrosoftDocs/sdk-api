@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPServices_StreamState","WMPServices_StreamState enumera
 old-location: wmp\wmpservices_streamstate.htm
 tech.root: WMP
 ms.assetid: 82c4699a-197c-4429-afa8-b1fc47a1f47a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windows Media Player], WMPServices_StreamStateDSP, WMPServices_StreamState_Pause, WMPServices_StreamState_Play, WMPServices_StreamState_Stop, wmp.wmpservices_streamstate, wmpservices/WMPServices_StreamState, wmpservices/WMPServices_StreamState_Pause, wmpservices/WMPServices_StreamState_Play, wmpservices/WMPServices_StreamState_Stop
 req.header: wmpservices.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMPServices_StreamState</b> enumeration indicates whether the stream is currently stopped, paused, or playing.
 

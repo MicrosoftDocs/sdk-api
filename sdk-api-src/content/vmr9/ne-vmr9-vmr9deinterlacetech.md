@@ -6,7 +6,7 @@ helpviewer_keywords: ["DeinterlaceTech9_BOBLineReplicate","DeinterlaceTech9_BOBV
 old-location: dshow\vmr9deinterlacetech.htm
 tech.root: dshow
 ms.assetid: 2b0b56b7-bab3-4184-a453-2da880aa38c9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DeinterlaceTech9_BOBLineReplicate, DeinterlaceTech9_BOBVerticalStretch, DeinterlaceTech9_EdgeFiltering, DeinterlaceTech9_FieldAdaptive, DeinterlaceTech9_MedianFiltering, DeinterlaceTech9_MotionVectorSteered, DeinterlaceTech9_PixelAdaptive, DeinterlaceTech9_Unknown, VMR9DeinterlaceTech, VMR9DeinterlaceTech , VMR9DeinterlaceTech enumeration [DirectShow], VMR9DeinterlaceTechEnumeration, dshow.vmr9deinterlacetech, vmr9/DeinterlaceTech9_BOBLineReplicate, vmr9/DeinterlaceTech9_BOBVerticalStretch, vmr9/DeinterlaceTech9_EdgeFiltering, vmr9/DeinterlaceTech9_FieldAdaptive, vmr9/DeinterlaceTech9_MedianFiltering, vmr9/DeinterlaceTech9_MotionVectorSteered, vmr9/DeinterlaceTech9_PixelAdaptive, vmr9/DeinterlaceTech9_Unknown, vmr9/VMR9DeinterlaceTech
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>VMR9DeinterlaceTech</code> enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 

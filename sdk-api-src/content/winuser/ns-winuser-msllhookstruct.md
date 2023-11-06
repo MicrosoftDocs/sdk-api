@@ -159,7 +159,7 @@ Additional information associated with the message.
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
+<a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
 
 
 

@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>put_Range</b> method specifies the tuner range. The <i>tuner range</i> is the frequency domain on which to find a particular carrier frequency
 
 ## -parameters

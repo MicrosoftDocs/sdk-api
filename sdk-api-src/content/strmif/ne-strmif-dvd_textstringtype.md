@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_Channel_Audio","DVD_General_Comments","DVD_General_Na
 old-location: dshow\dvd_textstringtype.htm
 tech.root: dshow
 ms.assetid: e8308432-a9a1-40d5-abec-aa6f86af9e5b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_Channel_Audio, DVD_General_Comments, DVD_General_Name, DVD_Other_Cut, DVD_Other_Scene, DVD_Other_Take, DVD_Stream_Angle, DVD_Stream_Audio, DVD_Stream_Subpicture, DVD_Struct_Cell, DVD_Struct_ParentalID, DVD_Struct_PartOfTitle, DVD_Struct_Title, DVD_Struct_Volume, DVD_TextStringType, DVD_TextStringType , DVD_TextStringType enumeration [DirectShow], DVD_TextStringTypeEnumeration, DVD_Title_Album, DVD_Title_Movie, DVD_Title_Orig_Album, DVD_Title_Orig_Movie, DVD_Title_Orig_Other, DVD_Title_Orig_Series, DVD_Title_Orig_Song, DVD_Title_Orig_Video, DVD_Title_Other, DVD_Title_Series, DVD_Title_Song, DVD_Title_Sub_Album, DVD_Title_Sub_Movie, DVD_Title_Sub_Other, DVD_Title_Sub_Series, DVD_Title_Sub_Song, DVD_Title_Sub_Video, DVD_Title_Video, _DVD_TextStringType, dshow.dvd_textstringtype, strmif/DVD_Channel_Audio, strmif/DVD_General_Comments, strmif/DVD_General_Name, strmif/DVD_Other_Cut, strmif/DVD_Other_Scene, strmif/DVD_Other_Take, strmif/DVD_Stream_Angle, strmif/DVD_Stream_Audio, strmif/DVD_Stream_Subpicture, strmif/DVD_Struct_Cell, strmif/DVD_Struct_ParentalID, strmif/DVD_Struct_PartOfTitle, strmif/DVD_Struct_Title, strmif/DVD_Struct_Volume, strmif/DVD_TextStringType, strmif/DVD_Title_Album, strmif/DVD_Title_Movie, strmif/DVD_Title_Orig_Album, strmif/DVD_Title_Orig_Movie, strmif/DVD_Title_Orig_Other, strmif/DVD_Title_Orig_Series, strmif/DVD_Title_Orig_Song, strmif/DVD_Title_Orig_Video, strmif/DVD_Title_Other, strmif/DVD_Title_Series, strmif/DVD_Title_Song, strmif/DVD_Title_Sub_Album, strmif/DVD_Title_Sub_Movie, strmif/DVD_Title_Sub_Other, strmif/DVD_Title_Sub_Series, strmif/DVD_Title_Sub_Song, strmif/DVD_Title_Sub_Video, strmif/DVD_Title_Video
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Defines a subset of the DVD text-string types.
 

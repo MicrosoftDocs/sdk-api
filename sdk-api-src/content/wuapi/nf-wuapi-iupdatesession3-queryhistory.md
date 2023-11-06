@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Synchronously queries the computer for the history of update events. This method method returns a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
+Synchronously queries the computer for the history of update events. This method returns a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
 
 ## -parameters
 

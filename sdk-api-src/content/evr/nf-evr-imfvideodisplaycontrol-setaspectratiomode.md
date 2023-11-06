@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetAspectRatioMode (evr.h)
 description: Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 helpviewer_keywords: ["IMFVideoDisplayControl interface [Media Foundation]","SetAspectRatioMode method","IMFVideoDisplayControl.SetAspectRatioMode","IMFVideoDisplayControl::SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [Media Foundation]","SetAspectRatioMode method [Media Foundation]","IMFVideoDisplayControl interface","dd49a110-1c11-4eca-9e7b-6021f3bdd397","evr/IMFVideoDisplayControl::SetAspectRatioMode","mf.imfvideodisplaycontrol_setaspectratiomode"]
 old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: dd49a110-1c11-4eca-9e7b-6021f3bdd397
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],SetAspectRatioMode method, IMFVideoDisplayControl.SetAspectRatioMode, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetAspectRatioMode
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetAspectRatioMode

@@ -45,9 +45,6 @@ api_name:
  - PRJ_PLACEHOLDER_INFO
 ---
 
-# PRJ_PLACEHOLDER_INFO structure
-
-
 ## -description
 
 A buffer of metadata for the placeholder file or directory.
@@ -94,10 +91,10 @@ The size, in bytes, of alternate data stream information for the placeholder. If
 
 The offset, in bytes, from the start of the <b>PRJ_PLACEHOLDER_INFO</b> structure to the first FILE_STREAM_INFORMATION entry.
 
-### -field VariableData [1]
+### -field VariableData
 
 Start of the variable-length buffer to hold EAs, a custom security descriptor, and alternate data stream information.
 
 ### -field versionInfo
 
-Version information for the placeholder (see <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
+Version information for the placeholder (see <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO).

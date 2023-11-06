@@ -42,10 +42,10 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The **IDWriteTextLayout4** interface inherits from [IDWriteTextLayout3](nn-dwrite_3-idwritetextlayout3.md)
+The **IDWriteTextLayout4** interface inherits from [IDWriteTextLayout3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3)
 
 ## -remarks
 
 ## -see-also
 
-* [IDWriteTextLayout3](nn-dwrite_3-idwritetextlayout3.md)
+* [IDWriteTextLayout3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3)

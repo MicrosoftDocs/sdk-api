@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerStoreGetNextReportKey
 title: WerStoreGetNextReportKey function (werapi.h)
-description: Gets a reference to the next report in the error report store.
+description: Gets a reference to the next Windows Error Reporting (WER) report in the error report store.
 helpviewer_keywords: ["WerStoreGetNextReportKey","WerStoreGetNextReportKey function [Windows Error Reporting]","wer.werstoregetnextreportkey","werapi/WerStoreGetNextReportKey"]
 old-location: wer\werstoregetnextreportkey.htm
 tech.root: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
 req.header: werapi.h
 req.include-header: 
@@ -49,16 +49,15 @@ api_name:
 
 # WerStoreGetNextReportKey function
 
-
 ## -description
 
-Gets a reference to the next report in the error report store.
+Gets a reference to the next [Windows Error Reporting](../_wer/index.md) (WER) report in the error report store.
 
 ## -parameters
 
 ### -param hReportStore
 
-The error report store (previously retrieved with <a href="/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
+The error report store (previously retrieved with [WerStoreOpen](/windows/desktop/api/werapi/nf-werapi-werstoreopen)).
 
 ### -param ppszReportKey
 
@@ -66,45 +65,13 @@ A pointer to the report key string. On a successful call, this will point to the
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
+This function returns **S_OK** on success or an error code on failure, including the following error code.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALID_ARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the arguments is not a valid value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NO_MORE_FILES</b></dt>
-</dl>
-</td>
-<td width="60%">
-There are no more error reports in the store.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALID_ARG**|One of the arguments is not a valid value.|
+|**ERROR_NO_MORE_FILES**|There are no more error reports in the store.|
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerStoreGetFirstReportKey](/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey), [Windows Error Reporting](/windows/desktop/wer)

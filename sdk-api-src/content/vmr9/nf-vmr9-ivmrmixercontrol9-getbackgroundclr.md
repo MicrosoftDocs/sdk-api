@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetBackgroundClr","GetBackgroundClr method [DirectShow]",
 old-location: dshow\ivmrmixercontrol9_getbackgroundclr.htm
 tech.root: dshow
 ms.assetid: 1be2fb34-b0f3-4dff-8813-a487229af6dc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetBackgroundClr method, IVMRMixerControl9.GetBackgroundClr, IVMRMixerControl9::GetBackgroundClr, IVMRMixerControl9GetBackgroundClr, dshow.ivmrmixercontrol9_getbackgroundclr, vmr9/IVMRMixerControl9::GetBackgroundClr
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetBackgroundClr</code> method gets the current background color on the output rectangle.
 

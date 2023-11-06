@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMRMONITORINFO","VMRMONITORINFO structure [DirectShow]","
 old-location: dshow\vmrmonitorinfo.htm
 tech.root: dshow
 ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>VMRMONITORINFO</code> structure is used in the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getavailablemonitors">IVMRMonitorConfig::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system (VMR-7 only).
 

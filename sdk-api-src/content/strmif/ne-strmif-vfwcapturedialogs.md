@@ -6,7 +6,7 @@ helpviewer_keywords: ["VfwCaptureDialog_Display","VfwCaptureDialog_Format","VfwC
 old-location: dshow\vfwcapturedialogs.htm
 tech.root: dshow
 ms.assetid: 0465d887-6452-4a67-9f52-a459620d12d2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies a dialog box that might exist in a Video for Windows capture driver.
 

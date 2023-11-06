@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","put_PlaybackS
 old-location: dshow\iamextendedseeking_put_playbackspeed.htm
 tech.root: dshow
 ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method, IAMExtendedSeeking.put_PlaybackSpeed, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_PlaybackSpeed</code> method specifies the playback speed.
 

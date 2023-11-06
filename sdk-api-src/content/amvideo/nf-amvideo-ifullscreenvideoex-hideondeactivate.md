@@ -6,7 +6,7 @@ helpviewer_keywords: ["HideOnDeactivate","HideOnDeactivate method [DirectShow]",
 old-location: dshow\ifullscreenvideoex_hideondeactivate.htm
 tech.root: dshow
 ms.assetid: b2839876-40b1-4b41-a3a4-99e5cbdd9ef1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: HideOnDeactivate, HideOnDeactivate method [DirectShow], HideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],HideOnDeactivate method, IFullScreenVideoEx.HideOnDeactivate, IFullScreenVideoEx::HideOnDeactivate, IFullScreenVideoHideOnDeactivate, amvideo/IFullScreenVideoEx::HideOnDeactivate, dshow.ifullscreenvideoex_hideondeactivate
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>HideOnDeactivate</code> method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 

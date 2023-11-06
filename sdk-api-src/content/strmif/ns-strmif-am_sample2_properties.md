@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_ReverseBlockEnd","AM_ReverseBlockStart","AM_SAMPLE2_PR
 old-location: dshow\am_sample2_properties.htm
 tech.root: dshow
 ms.assetid: 4fda7f64-130c-42c8-a671-2e24bdd0b09b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_ReverseBlockEnd, AM_ReverseBlockStart, AM_SAMPLE2_PROPERTIES, AM_SAMPLE2_PROPERTIES structure [DirectShow], AM_SAMPLE2_PROPERTIESStructure, AM_UseNewCSSKey, AM_VIDEO_FLAG_FIELD1, AM_VIDEO_FLAG_FIELD1FIRST, AM_VIDEO_FLAG_FIELD2, AM_VIDEO_FLAG_FIELD_MASK, AM_VIDEO_FLAG_INTERLEAVED_FRAME, AM_VIDEO_FLAG_REPEAT_FIELD, AM_VIDEO_FLAG_WEAVE, dshow.am_sample2_properties, strmif/AM_SAMPLE2_PROPERTIES
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_SAMPLE2_PROPERTIES</b> structure describes the properties of a media sample. The <a href="/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2</a> interface uses this structure.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVDecVideoSoftwareDeinterlaceMode","codecapi/eA
 old-location: dshow\eavdecvideosoftwaredeinterlacemode.htm
 tech.root: dshow
 ms.assetid: 3c72e714-1252-4c8b-9371-58f995e5b163
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVDecVideoSoftwareDeinterlaceMode, codecapi/eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, codecapi/eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing, dshow.eavdecvideosoftwaredeinterlacemode, eAVDecVideoSoftwareDeinterlaceMode, eAVDecVideoSoftwareDeinterlaceMode enumeration [DirectShow], eAVDecVideoSoftwareDeinterlaceMode_BOBDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_NoDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_ProgressiveDeinterlacing, eAVDecVideoSoftwareDeinterlaceMode_SmartBOBDeinterlacing
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies a video decoder's software deinterlace mode. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecvideosoftwaredeinterlacemode-property">AVDecVideoSoftwareDeinterlaceMode</a> property.
 

@@ -71,7 +71,7 @@ Applications not manifested for Windows 8.1 or Windows 10 will return the Wind
 ### -param lpVersionInformation [in, out]
 
 An 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a> or <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure that receives the operating system information. 
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfow">OSVERSIONINFOW</a> or <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexw">OSVERSIONINFOEXW</a> structure that receives the operating system information. 
 
 
 
@@ -85,8 +85,8 @@ If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if you specify an invalid value for the <b>dwOSVersionInfoSize</b> member of the 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a> or 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfow">OSVERSIONINFOW</a> or 
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexw">OSVERSIONINFOEXW</a> structure.
 
 ## -remarks
 
@@ -180,11 +180,11 @@ For an example that identifies the current operating system, see
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfow">OSVERSIONINFOW</a>
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexw">OSVERSIONINFOEXW</a>
 
 
 

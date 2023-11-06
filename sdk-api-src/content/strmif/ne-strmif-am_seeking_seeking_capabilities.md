@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_SEEKING_CanDoSegments","AM_SEEKING_CanGetCurrentPos","
 old-location: dshow\am_seeking_seeking_capabilities.htm
 tech.root: dshow
 ms.assetid: 1c7ad11b-2d10-409e-a292-b777566c637d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_SEEKING_CanDoSegments, AM_SEEKING_CanGetCurrentPos, AM_SEEKING_CanGetDuration, AM_SEEKING_CanGetStopPos, AM_SEEKING_CanPlayBackwards, AM_SEEKING_CanSeekAbsolute, AM_SEEKING_CanSeekBackwards, AM_SEEKING_CanSeekForwards, AM_SEEKING_SEEKING_CAPABILITIES, AM_SEEKING_SEEKING_CAPABILITIES , AM_SEEKING_SEEKING_CAPABILITIES enumeration [DirectShow], AM_SEEKING_SEEKING_CAPABILITIESEnumeration, AM_SEEKING_Source, dshow.am_seeking_seeking_capabilities, strmif/AM_SEEKING_CanDoSegments, strmif/AM_SEEKING_CanGetCurrentPos, strmif/AM_SEEKING_CanGetDuration, strmif/AM_SEEKING_CanGetStopPos, strmif/AM_SEEKING_CanPlayBackwards, strmif/AM_SEEKING_CanSeekAbsolute, strmif/AM_SEEKING_CanSeekBackwards, strmif/AM_SEEKING_CanSeekForwards, strmif/AM_SEEKING_SEEKING_CAPABILITIES, strmif/AM_SEEKING_Source
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the seeking capabilities of a media stream.
 

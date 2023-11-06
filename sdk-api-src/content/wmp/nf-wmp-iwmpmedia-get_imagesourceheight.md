@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_imageSou
 old-location: wmp\iwmpmedia_get_imagesourceheight.htm
 tech.root: WMP
 ms.assetid: f39049ad-3641-4885-a8e4-f1e46b181f6e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMedia interface [Windows Media Player],get_imageSourceHeight method, IWMPMedia.get_imageSourceHeight, IWMPMedia2 interface [Windows Media Player],get_imageSourceHeight method, IWMPMedia2::get_imageSourceHeight, IWMPMedia3 interface [Windows Media Player],get_imageSourceHeight method, IWMPMedia3::get_imageSourceHeight, IWMPMedia::get_imageSourceHeight, IWMPMediaget_imageSourceHeight, get_imageSourceHeight, get_imageSourceHeight method [Windows Media Player], get_imageSourceHeight method [Windows Media Player],IWMPMedia interface, get_imageSourceHeight method [Windows Media Player],IWMPMedia2 interface, get_imageSourceHeight method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_imagesourceheight, wmp/IWMPMedia2::get_imageSourceHeight, wmp/IWMPMedia3::get_imageSourceHeight, wmp/IWMPMedia::get_imageSourceHeight
 req.header: wmp.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_imageSourceHeight</b> method retrieves the height of the current media item in pixels.
 

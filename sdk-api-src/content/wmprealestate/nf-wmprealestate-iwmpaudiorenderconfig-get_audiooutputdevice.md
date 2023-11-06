@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPAudioRenderConfig interface [Windows Media Player]","
 old-location: wmp\iwmpaudiorenderconfig_get_audiooutputdevice.htm
 tech.root: WMP
 ms.assetid: a6ad388e-0fb8-4188-853c-9eba67e0848e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],get_audioOutputDevice method, IWMPAudioRenderConfig.get_audioOutputDevice, IWMPAudioRenderConfig::get_audioOutputDevice, get_audioOutputDevice, get_audioOutputDevice method [Windows Media Player], get_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_get_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::get_audioOutputDevice
 req.header: wmprealestate.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_audioOutputDevice</b> method retrieves the current audio output device used by the Windows Media Player ActiveX control.
 

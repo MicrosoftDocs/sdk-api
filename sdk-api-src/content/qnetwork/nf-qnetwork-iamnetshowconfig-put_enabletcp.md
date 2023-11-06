@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableTCP m
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm
 tech.root: dshow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_EnableTCP</code> method enables or disables TCP-based streaming.
 

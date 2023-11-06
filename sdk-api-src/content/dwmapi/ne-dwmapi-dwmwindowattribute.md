@@ -118,11 +118,11 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. If the window is cloaked, provides one of the following values explaining why.
 
-<b>DWM_CLOAKED_APP</b> (value 0x0000001). The window was cloaked by its owner application.
+<b>DWM_CLOAKED_APP</b> (value 0x00000001). The window was cloaked by its owner application.
 
-<b>DWM_CLOAKED_SHELL</b> (value 0x0000002). The window was cloaked by the Shell.
+<b>DWM_CLOAKED_SHELL</b> (value 0x00000002). The window was cloaked by the Shell.
 
-<b>DWM_CLOAKED_INHERITED</b> (value 0x0000004). The cloak value was inherited from its owner window.
+<b>DWM_CLOAKED_INHERITED</b> (value 0x00000004). The cloak value was inherited from its owner window.
 
 <b>Windows 7 and earlier: </b>This value is not supported.
 
@@ -154,17 +154,25 @@ This value is supported starting with Windows 11 Build 22000.
 
 Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the window border. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). The app is responsible for changing the border color according to state changes, such as a change in window activation. 
 
+Specifying **DWMWA_COLOR_NONE** (value 0xFFFFFFFE) for the color will suppress the drawing of the window border.  This makes it possible to have a rounded window with no border.
+
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the border color.
+
 This value is supported starting with Windows 11 Build 22000.
 
 ### -field DWMWA_CAPTION_COLOR
 
 Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the caption. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). 
 
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the caption color.
+
 This value is supported starting with Windows 11 Build 22000.
 
 ### -field DWMWA_TEXT_COLOR
 
 Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the caption text. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). 
+
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the caption text color.
 
 This value is supported starting with Windows 11 Build 22000.
 

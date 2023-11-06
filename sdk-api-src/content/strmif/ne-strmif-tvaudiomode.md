@@ -6,7 +6,7 @@ helpviewer_keywords: ["AMTVAUDIO_MODE_LANG_A","AMTVAUDIO_MODE_LANG_B","AMTVAUDIO
 old-location: dshow\tvaudiomode.htm
 tech.root: dshow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the mode of a TV audio control.
 

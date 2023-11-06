@@ -6,7 +6,7 @@ helpviewer_keywords: ["ChangeView","ChangeView method [Windows Media Player]","C
 old-location: wmp\iwmpcontentpartnercallback_changeview.htm
 tech.root: WMP
 ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ChangeView, ChangeView method [Windows Media Player], ChangeView method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],ChangeView method, IWMPContentPartnerCallback.ChangeView, IWMPContentPartnerCallback::ChangeView, IWMPContentPartnerCallbackChangeView, contentpartner/IWMPContentPartnerCallback::ChangeView, wmp.iwmpcontentpartnercallback_changeview
 req.header: contentpartner.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_DOMAIN","DVD_DOMAIN","DVD_DOMAIN enumeration [DirectS
 old-location: dshow\dvd_domain.htm
 tech.root: dshow
 ms.assetid: 2763a159-d4de-44c2-905b-5828f328cbd2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_DOMAIN, DVD_DOMAIN , DVD_DOMAIN enumeration [DirectShow], DVD_DOMAINEnumeration, DVD_DOMAIN_FirstPlay, DVD_DOMAIN_Stop, DVD_DOMAIN_Title, DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, dshow.dvd_domain, strmif/DVD_DOMAIN, strmif/DVD_DOMAIN_FirstPlay, strmif/DVD_DOMAIN_Stop, strmif/DVD_DOMAIN_Title, strmif/DVD_DOMAIN_VideoManagerMenu, strmif/DVD_DOMAIN_VideoTitleSetMenu
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Defines the DVD domains.
 

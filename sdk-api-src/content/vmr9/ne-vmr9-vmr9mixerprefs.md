@@ -6,7 +6,7 @@ helpviewer_keywords: ["MixerPref9_ARAdjustXorY","MixerPref9_AnisotropicFiltering
 old-location: dshow\vmr9mixerprefs.htm
 tech.root: dshow
 ms.assetid: 59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MixerPref9_ARAdjustXorY, MixerPref9_AnisotropicFiltering, MixerPref9_BiLinearFiltering, MixerPref9_DecimateMask, MixerPref9_DecimateOutput, MixerPref9_DynamicDecimateBy2, MixerPref9_DynamicMask, MixerPref9_DynamicReserved, MixerPref9_DynamicSwitchToBOB, MixerPref9_FilteringMask, MixerPref9_FilteringReserved, MixerPref9_GaussianQuadFiltering, MixerPref9_NoDecimation, MixerPref9_NonSquareMixing, MixerPref9_PointFiltering, MixerPref9_PyramidalQuadFiltering, MixerPref9_RenderTargetMask, MixerPref9_RenderTargetRGB, MixerPref9_RenderTargetReserved, MixerPref9_RenderTargetYUV, VMR9MixerPrefs, VMR9MixerPrefs , VMR9MixerPrefs enumeration [DirectShow], VMR9MixerPrefsEnumeration, dshow.vmr9mixerprefs, vmr9/MixerPref9_ARAdjustXorY, vmr9/MixerPref9_AnisotropicFiltering, vmr9/MixerPref9_BiLinearFiltering, vmr9/MixerPref9_DecimateMask, vmr9/MixerPref9_DecimateOutput, vmr9/MixerPref9_DynamicDecimateBy2, vmr9/MixerPref9_DynamicMask, vmr9/MixerPref9_DynamicReserved, vmr9/MixerPref9_DynamicSwitchToBOB, vmr9/MixerPref9_FilteringMask, vmr9/MixerPref9_FilteringReserved, vmr9/MixerPref9_GaussianQuadFiltering, vmr9/MixerPref9_NoDecimation, vmr9/MixerPref9_NonSquareMixing, vmr9/MixerPref9_PointFiltering, vmr9/MixerPref9_PyramidalQuadFiltering, vmr9/MixerPref9_RenderTargetMask, vmr9/MixerPref9_RenderTargetRGB, vmr9/MixerPref9_RenderTargetReserved, vmr9/MixerPref9_RenderTargetYUV, vmr9/VMR9MixerPrefs
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>VMR9MixerPrefs</code> enumeration type contains flags that specify how the Video Mixing Render 9 filter (VMR-9) mixes the video streams. Settings include decimation, filtering, and render target preferences.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["COPP_CGMSA_CopyFreely","COPP_CGMSA_CopyNever","COPP_CGMSA
 old-location: dshow\copp_cgmsa_protection_level.htm
 tech.root: dshow
 ms.assetid: 37b453fa-c976-4b13-b94a-1eebd8ecd44b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: COPP_CGMSA_CopyFreely, COPP_CGMSA_CopyNever, COPP_CGMSA_CopyNoMore, COPP_CGMSA_CopyOneGeneration, COPP_CGMSA_Disabled, COPP_CGMSA_ForceDWORD, COPP_CGMSA_LevelMax, COPP_CGMSA_LevelMin, COPP_CGMSA_Protection_Level, COPP_CGMSA_Protection_Level , COPP_CGMSA_Protection_Level enumeration [DirectShow], COPP_CGMSA_Protection_LevelEnumeration, COPP_CGMSA_RedistributionControlRequired, dshow.copp_cgmsa_protection_level, dxva9typ/COPP_CGMSA_CopyFreely, dxva9typ/COPP_CGMSA_CopyNever, dxva9typ/COPP_CGMSA_CopyNoMore, dxva9typ/COPP_CGMSA_CopyOneGeneration, dxva9typ/COPP_CGMSA_Disabled, dxva9typ/COPP_CGMSA_ForceDWORD, dxva9typ/COPP_CGMSA_LevelMax, dxva9typ/COPP_CGMSA_LevelMin, dxva9typ/COPP_CGMSA_Protection_Level, dxva9typ/COPP_CGMSA_RedistributionControlRequired
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the CGMS-A protection level.
 

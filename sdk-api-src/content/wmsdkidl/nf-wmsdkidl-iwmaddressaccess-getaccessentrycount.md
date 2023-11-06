@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAccessEntryCount","GetAccessEntryCount method [windows
 old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm
 tech.root: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAccessEntryCount</b> method retrieves the number of entries in the IP address access list.
 

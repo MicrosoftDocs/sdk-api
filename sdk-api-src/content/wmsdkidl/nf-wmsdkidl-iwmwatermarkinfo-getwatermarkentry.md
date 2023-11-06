@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetWatermarkEntry","GetWatermarkEntry method [windows Med
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentry.htm
 tech.root: wmformat
 ms.assetid: 7f303233-cd20-40ff-b564-4c44bf17a5f4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetWatermarkEntry, GetWatermarkEntry method [windows Media Format], GetWatermarkEntry method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntry method, IWMWatermarkInfo.GetWatermarkEntry, IWMWatermarkInfo::GetWatermarkEntry, IWMWatermarkInfoGetWatermarkEntry, wmformat.iwmwatermarkinfo_getwatermarkentry, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntry
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetWatermarkEntry</b> method retrieves information about one available watermarking system.
 

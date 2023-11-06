@@ -6,7 +6,7 @@ helpviewer_keywords: ["MixerPref_ARAdjustXorY","MixerPref_BiLinearFiltering","Mi
 old-location: dshow\vmrmixerprefs.htm
 tech.root: dshow
 ms.assetid: 0852590c-6bca-4261-99c0-fff8a012f18e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MixerPref_ARAdjustXorY, MixerPref_BiLinearFiltering, MixerPref_DecimateMask, MixerPref_DecimateOutput, MixerPref_DecimationReserved, MixerPref_DynamicDecimateBy2, MixerPref_DynamicMask, MixerPref_DynamicReserved, MixerPref_DynamicSwitchToBOB, MixerPref_FilteringMask, MixerPref_NoDecimation, MixerPref_PointFiltering, MixerPref_RenderTargetMask, MixerPref_RenderTargetRGB, MixerPref_RenderTargetReserved, MixerPref_RenderTargetYUV, MixerPref_RenderTargetYUV420, MixerPref_RenderTargetYUV422, MixerPref_RenderTargetYUV444, VMRMixerPrefs, VMRMixerPrefs enumeration [DirectShow], VMRMixerPrefsEnumeration, dshow.vmrmixerprefs, strmif/MixerPref_ARAdjustXorY, strmif/MixerPref_BiLinearFiltering, strmif/MixerPref_DecimateMask, strmif/MixerPref_DecimateOutput, strmif/MixerPref_DecimationReserved, strmif/MixerPref_DynamicDecimateBy2, strmif/MixerPref_DynamicMask, strmif/MixerPref_DynamicReserved, strmif/MixerPref_DynamicSwitchToBOB, strmif/MixerPref_FilteringMask, strmif/MixerPref_NoDecimation, strmif/MixerPref_PointFiltering, strmif/MixerPref_RenderTargetMask, strmif/MixerPref_RenderTargetRGB, strmif/MixerPref_RenderTargetReserved, strmif/MixerPref_RenderTargetYUV, strmif/MixerPref_RenderTargetYUV420, strmif/MixerPref_RenderTargetYUV422, strmif/MixerPref_RenderTargetYUV444, strmif/VMRMixerPrefs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VMRMixerPrefs</b> enumeration contains flags that specify decimation, filtering, and color space information that will be used when the video image is created on the DirectDraw surface.
 

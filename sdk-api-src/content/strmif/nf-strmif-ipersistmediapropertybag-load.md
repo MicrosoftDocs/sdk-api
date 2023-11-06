@@ -6,7 +6,7 @@ helpviewer_keywords: ["IPersistMediaPropertyBag interface [DirectShow]","Load me
 old-location: dshow\ipersistmediapropertybag_load.htm
 tech.root: dshow
 ms.assetid: 02ee3911-0b85-404d-81c9-7d0e6b3ccd5d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Load</code> method loads properties from the media property bag into the filter.
 

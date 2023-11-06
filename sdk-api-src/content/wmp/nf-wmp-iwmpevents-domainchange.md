@@ -6,7 +6,7 @@ helpviewer_keywords: ["DomainChange","DomainChange method [Windows Media Player]
 old-location: wmp\iwmpevents_iwmpevents__domainchange.htm
 tech.root: WMP
 ms.assetid: deb8e05e-a6dc-4971-9c34-9c12f1dedc9e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DomainChange, DomainChange method [Windows Media Player], DomainChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DomainChange method, IWMPEvents.DomainChange, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>DomainChange</b> event occurs when the DVD domain changes.
 

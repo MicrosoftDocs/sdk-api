@@ -56,7 +56,7 @@ Gets a locally unique identifier for the current device (adapter).
 
 ## -returns
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LUID</a></b>
+Type: <b><a href="/windows/desktop/api/ntdef/ns-ntdef-luid">LUID</a></b>
 
 The locally unique identifier for the adapter.
 

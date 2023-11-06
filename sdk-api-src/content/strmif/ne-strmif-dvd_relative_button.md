@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_RELATIVE_BUTTON","DVD_RELATIVE_BUTTON","DVD_RELATIVE_
 old-location: dshow\dvd_relative_button.htm
 tech.root: dshow
 ms.assetid: f2641b5c-08a4-44a1-8f53-fad636a03c45
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_RELATIVE_BUTTON, DVD_RELATIVE_BUTTON , DVD_RELATIVE_BUTTON enumeration [DirectShow], DVD_RELATIVE_BUTTONEnumeration, DVD_Relative_Left, DVD_Relative_Lower, DVD_Relative_Right, DVD_Relative_Upper, dshow.dvd_relative_button, strmif/DVD_RELATIVE_BUTTON, strmif/DVD_Relative_Left, strmif/DVD_Relative_Lower, strmif/DVD_Relative_Right, strmif/DVD_Relative_Upper
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Identifies the four directional buttons used for DVD menu navigation and other operations.
 

@@ -54,7 +54,7 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 ## -parameters
 
-### -param unit [in]
+### -param textUnit [in]
 
 Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
 
@@ -66,21 +66,7 @@ Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
-## -syntax
-
-```cpp
-HRESULT ExpandToEnclosingUnit (TextUnit unit);
-```
-
 ## -remarks
-
-> ### Parameters
->
-> `unit` [in]
->
-> Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
->
-> The text unit, such as line or paragraph.
 
 Client applications such as screen readers use this method  to retrieve  the full word, sentence, or paragraph that exists at the insertion point or caret position.
 

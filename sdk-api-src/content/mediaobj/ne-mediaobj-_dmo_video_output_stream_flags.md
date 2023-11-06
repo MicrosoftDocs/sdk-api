@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_VIDEO_OUTPUT_STREAM_FLAGS","DMO_VIDEO_OUTPUT_STREAM_F
 old-location: dshow\dmo_video_output_stream_flags.htm
 tech.root: dshow
 ms.assetid: fafacdd8-d918-491a-a7e5-7b59128f574f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_VIDEO_OUTPUT_STREAM_FLAGS , DMO_VIDEO_OUTPUT_STREAM_FLAGSEnumeration, DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, _DMO_VIDEO_OUTPUT_STREAM_FLAGS, _DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration [DirectShow], dshow.dmo_video_output_stream_flags, mediaobj/DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, mediaobj/_DMO_VIDEO_OUTPUT_STREAM_FLAGS
 req.header: mediaobj.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>DMO_VIDEO_OUTPUT_STREAM_FLAGS</code> enumeration defines flags that describe requested features, for video optimizations.
 

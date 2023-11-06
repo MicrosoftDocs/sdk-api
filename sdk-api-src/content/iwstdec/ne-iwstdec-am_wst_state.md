@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PAM_WST_STATE","AM_WST_STATE","AM_WST_STATE","AM_WST_STA
 old-location: dshow\am_wst_state.htm
 tech.root: dshow
 ms.assetid: b6548144-7e18-4d5d-9243-51eb7db9821b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumeration [DirectShow], AM_WST_STATEEnumeration, AM_WST_STATE_Off, AM_WST_STATE_On, PAM_WST_STATE, PAM_WST_STATE enumeration pointer [DirectShow], dshow.am_wst_state, iwstdec/AM_WST_STATE, iwstdec/AM_WST_STATE_Off, iwstdec/AM_WST_STATE_On, iwstdec/PAM_WST_STATE'
 req.header: iwstdec.h
 req.include-header: 
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_WST_STATE</b> enumeration specifies whether WST closed captioning is enabled or disabled.
 

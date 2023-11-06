@@ -64,5 +64,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout3">IDWriteTextLayout3</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3">IDWriteTextLayout3</a>
 

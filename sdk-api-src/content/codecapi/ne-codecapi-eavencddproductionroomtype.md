@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncDDProductionRoomType","codecapi/eAVEncDDPr
 old-location: dshow\eavencddproductionroomtype.htm
 tech.root: dshow
 ms.assetid: b0ea78b9-cfd8-4c32-9444-b30c1fa102fd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncDDProductionRoomType, codecapi/eAVEncDDProductionRoomType_Large, codecapi/eAVEncDDProductionRoomType_NotIndicated, codecapi/eAVEncDDProductionRoomType_Small, dshow.eavencddproductionroomtype, eAVEncDDProductionRoomType, eAVEncDDProductionRoomType enumeration [DirectShow], eAVEncDDProductionRoomTypeEnumeration, eAVEncDDProductionRoomType_Large, eAVEncDDProductionRoomType_NotIndicated, eAVEncDDProductionRoomType_Small
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the room type for a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddproductionroomtype-property">AVEncDDProductionRoomType</a> property.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_AUDIO_LANG_EXT","DVD_AUDIO_LANG_EXT","DVD_AUDIO_LANG_
 old-location: dshow\dvd_audio_lang_ext.htm
 tech.root: dshow
 ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumeration [DirectShow], DVD_AUDIO_LANG_EXTEnumeration, DVD_AUD_EXT_Captions, DVD_AUD_EXT_DirectorComments1, DVD_AUD_EXT_DirectorComments2, DVD_AUD_EXT_NotSpecified, DVD_AUD_EXT_VisuallyImpaired, dshow.dvd_audio_lang_ext, strmif/DVD_AUDIO_LANG_EXT, strmif/DVD_AUD_EXT_Captions, strmif/DVD_AUD_EXT_DirectorComments1, strmif/DVD_AUD_EXT_DirectorComments2, strmif/DVD_AUD_EXT_NotSpecified, strmif/DVD_AUD_EXT_VisuallyImpaired
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Defines flags that indicate whether an audio stream contains audio language extensions.
 

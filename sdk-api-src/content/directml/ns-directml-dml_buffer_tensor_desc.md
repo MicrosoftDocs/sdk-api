@@ -66,19 +66,19 @@ Specifies additional options for the tensor.
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of dimensions of the tensor. This member determines the size of the <i>Sizes</i> and <i>Strides</i> arrays (if provided). In DirectML, all buffer tensors must have a *DimensionCount* of either 4 or 5. Not all operators support a *DimensionCount* of 5.
+The number of dimensions of the tensor. This member determines the size of the <i>Sizes</i> and <i>Strides</i> arrays (if provided). In DirectML, the dimension count may range from 1 up to 8, depending on the operator. Most operators support at least 4 dimensions.
 
 ### -field Sizes
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is invalid, and will result in an error. The *Sizes* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
+The size, in elements, of each dimension in the tensor. Specifying a size of zero in any dimension is invalid, and will result in an error. For operators where the axes have semantic meaning (for example, batch, channel, depth, height, width), the *Sizes* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5. Otherwise, the dimensions generally have no particular meaning.
 
 ### -field Strides
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and (n+1) in that dimension is 5 elements when traversing the buffer linearly. The *Strides* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
+Optional. Determines the number of elements (not bytes) to linearly traverse in order to reach the next element in that dimension. For example, a stride of 5 in dimension 1 means that the distance between elements (n) and (n+1) in that dimension is 5 elements when traversing the buffer linearly. For operators where the axes have semantic meaning (for example, batch, channel, depth, height, width), the *Strides* member is always specified in the order {N, C, H, W} if *DimensionCount* is 4, and {N, C, D, H, W} if *DimensionCount* is 5.
 
 <i>Strides</i> can be used to express broadcasting (by specifying a stride of 0) as well as padding (for example, by using a stride larger than the physical size of a row, to pad the end of a row).
 

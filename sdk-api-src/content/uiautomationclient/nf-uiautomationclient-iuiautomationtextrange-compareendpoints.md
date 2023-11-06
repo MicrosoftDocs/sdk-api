@@ -54,7 +54,7 @@ Retrieves a value that specifies whether the start or end endpoint of this text 
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param srcEndPoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A pointer to the text range to compare.
 
-### -param unnamedParam3 [in]
+### -param targetEndPoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 

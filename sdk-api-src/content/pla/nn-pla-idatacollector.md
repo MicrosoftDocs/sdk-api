@@ -117,7 +117,7 @@ Note that the example does not show the property elements of the derived data co
     <TaskArguments/>
     <TaskUserTextArguments/>
     <TaskSetWorkingDirectory/>
-    <tr>
+    <TriggerDataCollectorSet/>
 </AlertDataCollector>
 ```
 

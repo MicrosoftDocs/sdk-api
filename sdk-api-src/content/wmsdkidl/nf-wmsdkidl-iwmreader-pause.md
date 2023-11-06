@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReader interface [windows Media Format]","Pause method
 old-location: wmformat\iwmreader_pause.htm
 tech.root: wmformat
 ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Pause</b> method pauses the current read operation.
 

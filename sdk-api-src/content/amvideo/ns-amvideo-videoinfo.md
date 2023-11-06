@@ -6,7 +6,7 @@ helpviewer_keywords: ["VIDEOINFO","VIDEOINFO structure [DirectShow]","VIDEOINFOS
 old-location: dshow\videoinfo.htm
 tech.root: dshow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VIDEOINFO</b> structure is equivalent to a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.
 

@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetIdealVideoSize (evr.h)
 description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
 helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetIdealVideoSize method","IMFVideoDisplayControl.GetIdealVideoSize","IMFVideoDisplayControl::GetIdealVideoSize","c580778b-fe7c-4c62-9bcd-8a5fde370b9d","evr/IMFVideoDisplayControl::GetIdealVideoSize","mf.imfvideodisplaycontrol_getidealvideosize"]
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d
 ms.date: 12/05/2018
 ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetIdealVideoSize method, IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
@@ -44,6 +44,7 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetIdealVideoSize
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetIdealVideoSize

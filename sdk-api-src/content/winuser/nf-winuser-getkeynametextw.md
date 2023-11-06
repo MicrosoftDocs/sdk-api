@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetKeyNameText", "GetKeyNameText function [Keyboard and M
 old-location: inputdev\getkeynametext.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeynametext.htm
-ms.date: 12/05/2018
+ms.date: 08/18/2023
 ms.keywords: GetKeyNameText, GetKeyNameText function [Keyboard and Mouse Input], GetKeyNameTextA, GetKeyNameTextW, _win32_GetKeyNameText, _win32_getkeynametext_cpp, inputdev.getkeynametext, winui._win32_getkeynametext, winuser/GetKeyNameText, winuser/GetKeyNameTextA, winuser/GetKeyNameTextW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -97,13 +97,24 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 The format of the key-name string depends on the current keyboard layout.
-The keyboard driver maintains a list of names in the form of character strings for keys with names longer than a single character.
-The key name is translated according to the layout of the currently installed keyboard, thus the function may give different results for different input locales.
+
+The keyboard layout maintains a list of names in the form of character strings for keys with names longer than a single character.
+The key name is translated according to the [currently active keyboard layout](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts), therefore the function might return different results for different [keyboard layouts](/globalization/windows-keyboard-layouts).
+
 The name of a character key is the character itself. The names of dead keys are spelled out in full.
 
-> [!NOTE]
-> The winuser.h header defines GetKeyNameText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+This method might not work properly with some [keyboard layouts](/globalization/windows-keyboard-layouts) that produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters that are printed on a single key press. Also, keys that are mapped to the 'A'..'Z' [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) are translated to upper-case 'A'..'Z' characters regardless of current keyboard layout. Use the [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) or [ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex) methods in such cases.
+
+The winuser.h header defines GetKeyNameText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+[Keyboard Input](/windows/desktop/inputdev/keyboard-input)
+
+[Keyboard Layouts](/globalization/windows-keyboard-layouts)
+
+[Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples)
+
+[ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode)
+
+[ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex)

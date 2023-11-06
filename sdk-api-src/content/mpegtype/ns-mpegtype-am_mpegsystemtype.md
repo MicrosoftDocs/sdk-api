@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_MPEGSYSTEMTYPE","AM_MPEGSYSTEMTYPE structure [DirectSh
 old-location: dshow\am_mpegsystemtype.htm
 tech.root: dshow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
 req.header: mpegtype.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
 

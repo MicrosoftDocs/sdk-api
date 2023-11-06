@@ -6,7 +6,7 @@ helpviewer_keywords: ["COPP_ProtectionStandard_ARIBTRB15_1125i","COPP_Protection
 old-location: dshow\copp_tvprotectionstandard.htm
 tech.root: dshow
 ms.assetid: 3a724f93-8625-4594-a45b-c2e4c882b579
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: COPP_ProtectionStandard_ARIBTRB15_1125i, COPP_ProtectionStandard_ARIBTRB15_525i, COPP_ProtectionStandard_ARIBTRB15_525p, COPP_ProtectionStandard_ARIBTRB15_750p, COPP_ProtectionStandard_CEA805A_TypeA_1125i, COPP_ProtectionStandard_CEA805A_TypeA_525p, COPP_ProtectionStandard_CEA805A_TypeA_750p, COPP_ProtectionStandard_CEA805A_TypeB_1125i, COPP_ProtectionStandard_CEA805A_TypeB_525p, COPP_ProtectionStandard_CEA805A_TypeB_750p, COPP_ProtectionStandard_EIA608B_525, COPP_ProtectionStandard_EN300294_625i, COPP_ProtectionStandard_IEC61880_2_525i, COPP_ProtectionStandard_IEC61880_525i, COPP_ProtectionStandard_IEC62375_625p, COPP_ProtectionStandard_Mask, COPP_ProtectionStandard_None, COPP_ProtectionStandard_Reserved, COPP_ProtectionStandard_Unknown, COPP_TVProtectionStandard, COPP_TVProtectionStandard , COPP_TVProtectionStandard enumeration [DirectShow], COPP_TVProtectionStandardEnumeration, dshow.copp_tvprotectionstandard, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_1125i, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_525i, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_525p, dxva9typ/COPP_ProtectionStandard_ARIBTRB15_750p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_1125i, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_525p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeA_750p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_1125i, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_525p, dxva9typ/COPP_ProtectionStandard_CEA805A_TypeB_750p, dxva9typ/COPP_ProtectionStandard_EIA608B_525, dxva9typ/COPP_ProtectionStandard_EN300294_625i, dxva9typ/COPP_ProtectionStandard_IEC61880_2_525i, dxva9typ/COPP_ProtectionStandard_IEC61880_525i, dxva9typ/COPP_ProtectionStandard_IEC62375_625p, dxva9typ/COPP_ProtectionStandard_Mask, dxva9typ/COPP_ProtectionStandard_None, dxva9typ/COPP_ProtectionStandard_Reserved, dxva9typ/COPP_ProtectionStandard_Unknown, dxva9typ/COPP_TVProtectionStandard
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Defines a list of TV protection standards
       for Certified Output Protection Protocol (COPP).

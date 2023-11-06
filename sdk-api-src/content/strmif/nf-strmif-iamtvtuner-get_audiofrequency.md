@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_AudioFrequency me
 old-location: dshow\iamtvtuner_get_audiofrequency.htm
 tech.root: dshow
 ms.assetid: 7d0d288a-7ad0-40ad-b86e-9df9447ed484
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTVTuner interface [DirectShow],get_AudioFrequency method, IAMTVTuner.get_AudioFrequency, IAMTVTuner::get_AudioFrequency, IAMTVTunerget_AudioFrequency, dshow.iamtvtuner_get_audiofrequency, get_AudioFrequency, get_AudioFrequency method [DirectShow], get_AudioFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AudioFrequency
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_AudioFrequency</code> method retrieves the currently tuned audio frequency.
 

@@ -132,7 +132,7 @@ If this flag is set, the function ignores the <i>samDesired</i> parameter and at
 </dl>
 </td>
 <td width="60%">
-<div class="alert"><b>Note</b>  Registry symbolic links should only be used for  for application compatibility when <u>absolutely</u> necessary. </div>
+<div class="alert"><b>Note</b>  Registry symbolic links should only be used for application compatibility when <u>absolutely</u> necessary. </div>
 <div> </div>
 This key is a symbolic link. The target path is assigned to the L"SymbolicLinkValue" value of the key. The target path must be an absolute registry path. 
 

@@ -342,7 +342,7 @@ In most instances, applications interested in only a particular transport protoc
 
 Information on supported network transport protocols can be retreived using the <a href="/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>, <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>, or  <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> function.
 
-It is also possible to constrain the query to a single namespace. For example, a query that only wants results from DNS (not results from the local hosts file and other naming services) would set the <b>dwNameSpace</b> member to NS_DNS. For example, a bluetooth device discovery would set the the <b>dwNameSpace</b> member to NS_BTH. 
+It is also possible to constrain the query to a single namespace. For example, a query that only wants results from DNS (not results from the local hosts file and other naming services) would set the <b>dwNameSpace</b> member to NS_DNS. For example, a bluetooth device discovery would set the <b>dwNameSpace</b> member to NS_BTH. 
 
 Applications can also restrict the query to a specific namespace provider by specifying a pointer to the GUID for the provider in the <b>lpNSProviderId</b> member. 
 

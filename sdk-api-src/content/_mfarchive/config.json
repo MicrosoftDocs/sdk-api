@@ -1,0 +1,7 @@
+{
+  "tech": "mfarchive",
+  "headers": [
+    "evr.h"
+  ],
+  "displayName": "Legacy Microsoft Media Foundation APIs"
+}

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Icmp6SendEcho2","Icmp6SendEcho2 function [IP Helper]","ic
 old-location: iphlp\icmp6sendecho2.htm
 tech.root: IpHlp
 ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
-ms.date: 12/05/2018
+ms.date: 10/10/2023
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
 req.header: icmpapi.h
 req.include-header: 
@@ -44,9 +44,6 @@ api_location:
 api_name:
  - Icmp6SendEcho2
 ---
-
-# Icmp6SendEcho2 function
-
 
 ## -description
 
@@ -117,15 +114,13 @@ The time, in milliseconds, to wait for replies. This parameter is only used if t
 
 ## -returns
 
-When called synchronously, the <b>Icmp6SendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+When called synchronously, returns the number of replies that are received and stored in *ReplyBuffer*.
 
-When called asynchronously, the <b>Icmp6SendEcho2</b> function returns ERROR_IO_PENDING  to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
+When called asynchronously, indicates that the operation is in progress by returning **ERROR_IO_PENDING**. You can retrieve the number-of-replies result later, when the event specified in the *Event* parameter signals, or when the callback function in the *ApcRoutine* parameter is called.
 
-If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+If the (synchronous or asynchronous) number-of-replies value is zero, then for extended error information call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-If the function fails, the extended error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be one of the following values.
+If the function fails, then the extended error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be one of the following values.
 
 <table>
 <tr>

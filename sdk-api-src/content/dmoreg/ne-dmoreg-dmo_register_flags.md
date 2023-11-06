@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_REGISTERF_IS_KEYED","DMO_REGISTER_FLAGS","DMO_REGISTE
 old-location: dshow\dmo_register_flags.htm
 tech.root: dshow
 ms.assetid: 472be505-a13c-4612-b799-1e9add3ee3fc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_REGISTERF_IS_KEYED, DMO_REGISTER_FLAGS, DMO_REGISTER_FLAGS enumeration [DirectShow], DMO_REGISTER_FLAGSEnumeration, dmoreg/DMO_REGISTERF_IS_KEYED, dmoreg/DMO_REGISTER_FLAGS, dshow.dmo_register_flags
 req.header: dmoreg.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>DMO_REGISTER_FLAGS</code> enumeration defines flags that specify registry information for a Microsoft DirectX Media Object (DMO).
 

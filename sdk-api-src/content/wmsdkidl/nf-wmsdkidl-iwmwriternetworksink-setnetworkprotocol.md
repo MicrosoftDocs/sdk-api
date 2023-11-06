@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","S
 old-location: wmformat\iwmwriternetworksink_setnetworkprotocol.htm
 tech.root: wmformat
 ms.assetid: 8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetNetworkProtocol method, IWMWriterNetworkSink.SetNetworkProtocol, IWMWriterNetworkSink::SetNetworkProtocol, IWMWriterNetworkSinkSetNetworkProtocol, SetNetworkProtocol, SetNetworkProtocol method [windows Media Format], SetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetNetworkProtocol</b> method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.
 

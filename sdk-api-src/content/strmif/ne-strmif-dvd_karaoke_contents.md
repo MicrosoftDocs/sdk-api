@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_KARAOKE_CONTENTS","DVD_KARAOKE_CONTENTS","DVD_KARAOKE
 old-location: dshow\dvd_karaoke_contents.htm
 tech.root: dshow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies flags that, when used in a bitwise <b>OR</b> operation, describe the contents of each channel of an audio stream in a karaoke title.
 

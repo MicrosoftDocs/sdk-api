@@ -6,7 +6,7 @@ helpviewer_keywords: ["VideoProcAmpProperty","VideoProcAmpProperty enumeration [
 old-location: dshow\videoprocampproperty.htm
 tech.root: dshow
 ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VideoProcAmpProperty, VideoProcAmpProperty enumeration [DirectShow], VideoProcAmpPropertyEnumeration, VideoProcAmp_BacklightCompensation, VideoProcAmp_Brightness, VideoProcAmp_ColorEnable, VideoProcAmp_Contrast, VideoProcAmp_Gain, VideoProcAmp_Gamma, VideoProcAmp_Hue, VideoProcAmp_Saturation, VideoProcAmp_Sharpness, VideoProcAmp_WhiteBalance, dshow.videoprocampproperty, strmif/VideoProcAmpProperty, strmif/VideoProcAmp_BacklightCompensation, strmif/VideoProcAmp_Brightness, strmif/VideoProcAmp_ColorEnable, strmif/VideoProcAmp_Contrast, strmif/VideoProcAmp_Gain, strmif/VideoProcAmp_Gamma, strmif/VideoProcAmp_Hue, strmif/VideoProcAmp_Saturation, strmif/VideoProcAmp_Sharpness, strmif/VideoProcAmp_WhiteBalance
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VideoProcAmpProperty</b> enumeration specifies video properties on a video capture device.
 

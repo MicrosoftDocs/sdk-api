@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_AudioDuringFFwdRew","DVD_CacheSizeInMB","DVD_DisableS
 old-location: dshow\dvd_option_flag.htm
 tech.root: dshow
 ms.assetid: 29e75f58-58f3-4b3f-a3ba-e3451d3a0cae
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_AudioDuringFFwdRew, DVD_CacheSizeInMB, DVD_DisableStillThrottle, DVD_EnableESOutput, DVD_EnableExtendedCopyProtectErrors, DVD_EnableLoggingEvents, DVD_EnableNonblockingAPIs, DVD_EnablePortableBookmarks, DVD_EnableStreaming, DVD_EnableTitleLength, DVD_HMSF_TimeCodeEvents, DVD_IncreaseOutputControl, DVD_MaxReadBurstInKB, DVD_NotifyParentalLevelChange, DVD_NotifyPositionChange, DVD_OPTION_FLAG, DVD_OPTION_FLAG , DVD_OPTION_FLAG enumeration [DirectShow], DVD_OPTION_FLAGEnumeration, DVD_ReadBurstPeriodInMS, DVD_ResetOnStop, dshow.dvd_option_flag, strmif/DVD_AudioDuringFFwdRew, strmif/DVD_CacheSizeInMB, strmif/DVD_DisableStillThrottle, strmif/DVD_EnableESOutput, strmif/DVD_EnableExtendedCopyProtectErrors, strmif/DVD_EnableLoggingEvents, strmif/DVD_EnableNonblockingAPIs, strmif/DVD_EnablePortableBookmarks, strmif/DVD_EnableStreaming, strmif/DVD_EnableTitleLength, strmif/DVD_HMSF_TimeCodeEvents, strmif/DVD_IncreaseOutputControl, strmif/DVD_MaxReadBurstInKB, strmif/DVD_NotifyParentalLevelChange, strmif/DVD_NotifyPositionChange, strmif/DVD_OPTION_FLAG, strmif/DVD_ReadBurstPeriodInMS, strmif/DVD_ResetOnStop
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>DVD_OPTION_FLAG</b> enumeration defines flags that control the behavior of the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a>. To set any of these flags, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>.
 

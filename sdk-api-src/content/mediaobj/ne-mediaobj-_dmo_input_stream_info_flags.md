@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE","DMO_INPUT_STREAMF_H
 old-location: dshow\dmo_input_stream_info_flags.htm
 tech.root: dshow
 ms.assetid: 96e37678-0325-4569-8491-c8ef23f6c76e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE, DMO_INPUT_STREAMF_HOLDS_BUFFERS, DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, DMO_INPUT_STREAMF_WHOLE_SAMPLES, DMO_INPUT_STREAM_INFO_FLAGS , DMO_INPUT_STREAM_INFO_FLAGSEnumeration, _DMO_INPUT_STREAM_INFO_FLAGS, _DMO_INPUT_STREAM_INFO_FLAGS enumeration [DirectShow], dshow.dmo_input_stream_info_flags, mediaobj/DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE, mediaobj/DMO_INPUT_STREAMF_HOLDS_BUFFERS, mediaobj/DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, mediaobj/DMO_INPUT_STREAMF_WHOLE_SAMPLES, mediaobj/_DMO_INPUT_STREAM_INFO_FLAGS
 req.header: mediaobj.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>DMO_INPUT_STREAM_INFO_FLAGS</code> enumeration defines flags that describe an input stream.
 

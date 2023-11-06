@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_MENU_Angle","DVD_MENU_Audio","DVD_MENU_Chapter","DVD_
 old-location: dshow\dvd_menu_id.htm
 tech.root: dshow
 ms.assetid: 2fd107d7-7531-4bce-89b9-b44388b47b91
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_MENU_Angle, DVD_MENU_Audio, DVD_MENU_Chapter, DVD_MENU_ID, DVD_MENU_ID , DVD_MENU_ID enumeration [DirectShow], DVD_MENU_IDEnumeration, DVD_MENU_Root, DVD_MENU_Subpicture, DVD_MENU_Title, dshow.dvd_menu_id, strmif/DVD_MENU_Angle, strmif/DVD_MENU_Audio, strmif/DVD_MENU_Chapter, strmif/DVD_MENU_ID, strmif/DVD_MENU_Root, strmif/DVD_MENU_Subpicture, strmif/DVD_MENU_Title
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the DVD menu in a call to <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">IDvdControl2::ShowMenu</a>.
 

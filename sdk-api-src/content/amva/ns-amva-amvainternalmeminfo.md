@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPAMVAInternalMemInfo","AMVAInternalMemInfo","AMVAIntern
 old-location: dshow\amvainternalmeminfo.htm
 tech.root: dshow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: '*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo'
 req.header: amva.h
 req.include-header: Videoacc.h
@@ -53,6 +53,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AMVAInternalMemInfo</b> structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 

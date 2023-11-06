@@ -100,7 +100,7 @@ The offset used with the *Length* to describe a range in the placeholder to whic
 
 ### -field DUMMYUNIONNAME.TransferData.Length
 
-The *Length* in bytes of the *Buffer*. The length must be 4KB aligned unless the range described ends on the logical file size (EoF), in which case, the *Length* is not required to be 4KB aligned as long as the resulting range ends on or beyond the logical file size.
+The *Length* in bytes of the *Buffer*. The length must be 4KB aligned unless the range described ends on the logical file size (EoF), in which case, the *Length* is not required to be 4KB aligned as long as the resulting range ends on or beyond the logical file size. Even if the *CompletionStatus* is not **STATUS_SUCCESS**, this field should be set to a valid value.
 
 ### -field DUMMYUNIONNAME.RetrieveData
 

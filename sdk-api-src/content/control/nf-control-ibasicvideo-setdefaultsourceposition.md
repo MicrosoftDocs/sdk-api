@@ -6,7 +6,7 @@ helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetDefaultSourcePosi
 old-location: dshow\ibasicvideo_setdefaultsourceposition.htm
 tech.root: dshow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method, IBasicVideo.SetDefaultSourcePosition, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetDefaultSourcePosition</code> method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
 

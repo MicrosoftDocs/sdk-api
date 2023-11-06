@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCurrentSubpictureAttributes","GetCurrentSubpictureAttr
 old-location: dshow\idvdinfo_getcurrentsubpictureattributes.htm
 tech.root: dshow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCurrentSubpictureAttributes, GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpictureAttributes method, IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>

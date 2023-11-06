@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","Set
 old-location: wmformat\iwmreaderadvanced2_setplaymode.htm
 tech.root: wmformat
 ms.assetid: d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode method, IWMReaderAdvanced2.SetPlayMode, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetPlayMode</b> method specifies the play mode.
 

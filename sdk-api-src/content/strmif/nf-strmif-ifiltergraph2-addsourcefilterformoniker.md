@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddSourceFilterForMoniker","AddSourceFilterForMoniker met
 old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
 tech.root: dshow
 ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddSourceFilterForMoniker, AddSourceFilterForMoniker method [DirectShow], AddSourceFilterForMoniker method [DirectShow],IFilterGraph2 interface, IFilterGraph2 interface [DirectShow],AddSourceFilterForMoniker method, IFilterGraph2.AddSourceFilterForMoniker, IFilterGraph2::AddSourceFilterForMoniker, IFilterGraph2AddSourceFilterForMoniker, dshow.ifiltergraph2_addsourcefilterformoniker, strmif/IFilterGraph2::AddSourceFilterForMoniker
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.)
 

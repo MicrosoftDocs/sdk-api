@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMCopyCaptureFileProgress interface [DirectShow]","Progr
 old-location: dshow\iamcopycapturefileprogress_progress.htm
 tech.root: dshow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Progress</code> method is called periodically by the <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-copycapturefile">ICaptureGraphBuilder2::CopyCaptureFile</a> method while it copies the file.
 

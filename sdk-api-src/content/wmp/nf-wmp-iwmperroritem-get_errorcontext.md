@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_erro
 old-location: wmp\iwmperroritem_get_errorcontext.htm
 tech.root: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_errorContext</b> method retrieves a value indicating the context of the error.
 

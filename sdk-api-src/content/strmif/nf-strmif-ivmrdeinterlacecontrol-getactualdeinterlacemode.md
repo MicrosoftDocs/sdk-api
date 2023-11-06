@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetActualDeinterlaceMode","GetActualDeinterlaceMode metho
 old-location: dshow\ivmrdeinterlacecontrol_getactualdeinterlacemode.htm
 tech.root: dshow
 ms.assetid: b8b5c619-68fe-40a5-8621-ef6e9ad612d8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetActualDeinterlaceMode, GetActualDeinterlaceMode method [DirectShow], GetActualDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetActualDeinterlaceMode method, IVMRDeinterlaceControl.GetActualDeinterlaceMode, IVMRDeinterlaceControl::GetActualDeinterlaceMode, IVMRDeinterlaceControlGetActualDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getactualdeinterlacemode, strmif/IVMRDeinterlaceControl::GetActualDeinterlaceMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetActualDeinterlaceMode</b> method returns the deinterlacing mode that the VMR is using for a specified stream.
 

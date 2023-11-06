@@ -99,7 +99,7 @@ If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended
 
 Immediately after calling this function, you must call <a href="/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a>.
 
-If your transaction manager is volatile, all your your resource managers must also be volatile.
+If your transaction manager is volatile, all your resource managers must also be volatile.
 
 You must call <a href="/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a> after creating a TM in order for the TM to function correctly.
 

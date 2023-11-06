@@ -19,7 +19,6 @@ To develop Audio Devices DDI Reference, you need these headers:
  * [audioenginebaseapo.h](../audioenginebaseapo/index.md)
  * [audioengineextensionapo.h](../audioengineextensionapo/index.md)
  * [baseaudioprocessingobject.h](../baseaudioprocessingobject/index.md)
- * [dmusics.h](../dmusics/index.md)
  * [msapofxproxy.h](../msapofxproxy/index.md)
 
 For programming guidance for this technology, see:

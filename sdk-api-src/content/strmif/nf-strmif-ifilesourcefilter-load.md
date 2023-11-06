@@ -6,7 +6,7 @@ helpviewer_keywords: ["IFileSourceFilter interface [DirectShow]","Load method","
 old-location: dshow\ifilesourcefilter_load.htm
 tech.root: dshow
 ms.assetid: a44b8153-19d5-43ad-936c-214c694eeeb6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IFileSourceFilter interface [DirectShow],Load method, IFileSourceFilter.Load, IFileSourceFilter::Load, IFileSourceFilterLoad, Load, Load method [DirectShow], Load method [DirectShow],IFileSourceFilter interface, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Load</code> method causes a source filter to load a media file.
 

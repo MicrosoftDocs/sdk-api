@@ -6,7 +6,7 @@ helpviewer_keywords: ["IMPEG2StreamIdMap","IMPEG2StreamIdMap interface [DirectSh
 old-location: dshow\impeg2streamidmap.htm
 tech.root: dshow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This interface is implemented on each output pin of the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in program stream mode only. It is called by applications or other filters to associate the pin with a specified Stream ID and to inform the pin whether substream filtering is required on the stream. This interface is not exposed when the filter is playing back a file (pull-mode).
 

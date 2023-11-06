@@ -6,7 +6,7 @@ helpviewer_keywords: ["COPP_ConnectorType","COPP_ConnectorType","COPP_ConnectorT
 old-location: dshow\copp_connectortype.htm
 tech.root: dshow
 ms.assetid: 318603fa-a220-4c96-bd80-610d88e22bbd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: COPP_ConnectorType, COPP_ConnectorType , COPP_ConnectorType enumeration [DirectShow], COPP_ConnectorTypeEnumeration, COPP_ConnectorType_ComponentVideo, COPP_ConnectorType_CompositeVideo, COPP_ConnectorType_DVI, COPP_ConnectorType_D_JPN, COPP_ConnectorType_DisplayPortEmbedded, COPP_ConnectorType_DisplayPortExternal, COPP_ConnectorType_ForceDWORD, COPP_ConnectorType_HDMI, COPP_ConnectorType_Internal, COPP_ConnectorType_LVDS, COPP_ConnectorType_SDI, COPP_ConnectorType_SVideo, COPP_ConnectorType_TMDS, COPP_ConnectorType_UDIEmbedded, COPP_ConnectorType_UDIExternal, COPP_ConnectorType_Unknown, COPP_ConnectorType_VGA, dshow.copp_connectortype, dxva9typ/COPP_ConnectorType, dxva9typ/COPP_ConnectorType_ComponentVideo, dxva9typ/COPP_ConnectorType_CompositeVideo, dxva9typ/COPP_ConnectorType_DVI, dxva9typ/COPP_ConnectorType_D_JPN, dxva9typ/COPP_ConnectorType_DisplayPortEmbedded, dxva9typ/COPP_ConnectorType_DisplayPortExternal, dxva9typ/COPP_ConnectorType_ForceDWORD, dxva9typ/COPP_ConnectorType_HDMI, dxva9typ/COPP_ConnectorType_Internal, dxva9typ/COPP_ConnectorType_LVDS, dxva9typ/COPP_ConnectorType_SDI, dxva9typ/COPP_ConnectorType_SVideo, dxva9typ/COPP_ConnectorType_TMDS, dxva9typ/COPP_ConnectorType_UDIEmbedded, dxva9typ/COPP_ConnectorType_UDIExternal, dxva9typ/COPP_ConnectorType_Unknown, dxva9typ/COPP_ConnectorType_VGA
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -48,6 +48,8 @@ api_name:
 ---
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the type of physical connector.
 

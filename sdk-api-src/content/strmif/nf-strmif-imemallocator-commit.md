@@ -6,7 +6,7 @@ helpviewer_keywords: ["Commit","Commit method [DirectShow]","Commit method [Dire
 old-location: dshow\imemallocator_commit.htm
 tech.root: dshow
 ms.assetid: 34db4c1f-5642-4495-a572-9a78b1ee7b7e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: Commit, Commit method [DirectShow], Commit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Commit method, IMemAllocator.Commit, IMemAllocator::Commit, IMemAllocatorCommit, dshow.imemallocator_commit, strmif/IMemAllocator::Commit
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Commit</code> method allocates the buffer memory.
 

@@ -55,7 +55,7 @@ api_name:
 Creates a cursor based on data contained in a file.
 
 > [!NOTE]
-> This function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function with <b>LR_DEFAULTSIZE</b> and <b>LR_LOADFROMFILE</b> flags set.
+> This function has been superseded by the [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagea) function (with **LR_DEFAULTSIZE** and **LR_LOADFROMFILE** flags set).
 
 ## -parameters
 

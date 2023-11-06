@@ -191,7 +191,10 @@ Optional. A handle to the owner window, used to display and position any UI that
 
 Type: <b>LPCTSTR</b>
 
-A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry. The following verbs are commonly used:
+A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+Unless there is a reason to limit the action to a specific verb, pass NULL to use the computed default. This is necessary in some cases, for example when specifying SEE_MASK_FLAG_NO_UI and the intention is to produce the "Open With" UI, if no apps are installed.
+
+The following verbs are commonly used:
 
 - **edit**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
 - **explore**: Explores the folder specified by <b>lpFile</b>.

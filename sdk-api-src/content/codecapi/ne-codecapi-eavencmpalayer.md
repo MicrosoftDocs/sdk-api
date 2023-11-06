@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncMPALayer","codecapi/eAVEncMPALayer_1","cod
 old-location: dshow\eavencmpalayer.htm
 tech.root: dshow
 ms.assetid: dbe5c4ac-15c8-443b-a344-a9d529ed841f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEncMPALayer_2, codecapi/eAVEncMPALayer_3, dshow.eavencmpalayer, eAVEncMPALayer, eAVEncMPALayer enumeration [DirectShow], eAVEncMPALayerEnumeration, eAVEncMPALayer_1, eAVEncMPALayer_2, eAVEncMPALayer_3
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the MPEG audio layer. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmpalayer-property">AVEncMPALayer</a> property.
 

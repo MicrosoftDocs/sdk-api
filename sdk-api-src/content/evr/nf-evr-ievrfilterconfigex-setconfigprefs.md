@@ -4,7 +4,7 @@ title: IEVRFilterConfigEx::SetConfigPrefs (evr.h)
 description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).
 helpviewer_keywords: ["IEVRFilterConfigEx interface [Media Foundation]","SetConfigPrefs method","IEVRFilterConfigEx.SetConfigPrefs","IEVRFilterConfigEx::SetConfigPrefs","SetConfigPrefs","SetConfigPrefs method [Media Foundation]","SetConfigPrefs method [Media Foundation]","IEVRFilterConfigEx interface","evr/IEVRFilterConfigEx::SetConfigPrefs","mf.ievrfilterconfigex_setconfigprefs"]
 old-location: mf\ievrfilterconfigex_setconfigprefs.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 6a565c7a-a8d7-433b-b454-262661c2c084
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx interface [Media Foundation],SetConfigPrefs method, IEVRFilterConfigEx.SetConfigPrefs, IEVRFilterConfigEx::SetConfigPrefs, SetConfigPrefs, SetConfigPrefs method [Media Foundation], SetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, evr/IEVRFilterConfigEx::SetConfigPrefs, mf.ievrfilterconfigex_setconfigprefs
@@ -43,6 +43,7 @@ api_location:
  - evr.h
 api_name:
  - IEVRFilterConfigEx.SetConfigPrefs
+archived: true
 ---
 
 # IEVRFilterConfigEx::SetConfigPrefs

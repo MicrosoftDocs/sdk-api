@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMTimecodeReader","IAMTimecodeReader interface [DirectSh
 old-location: dshow\iamtimecodereader.htm
 tech.root: dshow
 ms.assetid: 76c3f603-8abc-450a-adb2-f2a90cb1634d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow],described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IAMTimecodeReader</b> interface reads SMPTE or MIDI timecode from an external device. The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> and <a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> drivers support this interface for reading timecode from an external DV or MPEG-2 camcorder.
 

@@ -45,12 +45,9 @@ api_name:
  - ID2D1Factory7.CreateDevice
 ---
 
-# ID2D1Factory7::CreateDevice
-
-
 ## -description
 
-Creates a new Direct2D device from the given IDXGIDevice
+Creates a new Direct2D device from the given IDXGIDevice.
 
 ## -parameters
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","appendIte
 old-location: wmp\iwmpplaylist_appenditem.htm
 tech.root: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>appendItem</b> method adds a media item to the end of the playlist.
 

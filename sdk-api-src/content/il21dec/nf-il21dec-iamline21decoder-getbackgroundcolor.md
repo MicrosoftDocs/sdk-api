@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [DirectSho
 old-location: dshow\iamline21decoder_getbackgroundcolor.htm
 tech.root: dshow
 ms.assetid: ba75dc5b-207e-4425-a8fe-8da16fc89921
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetBackgroundColor method, IAMLine21Decoder.GetBackgroundColor, IAMLine21Decoder::GetBackgroundColor, IAMLine21DecoderGetBackgroundColor, dshow.iamline21decoder_getbackgroundcolor, il21dec/IAMLine21Decoder::GetBackgroundColor
 req.header: il21dec.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetBackgroundColor</code> method retrieves the background color used by the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter for overlay. The default background color is magenta.
 

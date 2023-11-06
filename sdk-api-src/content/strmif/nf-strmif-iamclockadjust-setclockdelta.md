@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMClockAdjust interface [DirectShow]","SetClockDelta met
 old-location: dshow\iamclockadjust_setclockdelta.htm
 tech.root: dshow
 ms.assetid: f9bd4e69-343f-4150-ab12-b5ce405a3ac3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMClockAdjust interface [DirectShow],SetClockDelta method, IAMClockAdjust.SetClockDelta, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow],IAMClockAdjust interface, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetClockDelta</code> method adjusts the clock time.
 

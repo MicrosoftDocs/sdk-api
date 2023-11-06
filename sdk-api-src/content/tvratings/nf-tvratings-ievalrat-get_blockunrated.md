@@ -11,7 +11,7 @@ ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockUnRated met
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>get_BlockUnRated</b> method indicates whether a program without rating information is blocked.
 
@@ -93,8 +95,8 @@ The method succeeded.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>Â Â By default, unrated programs should be allowed. Return <b>FALSE</b> in <i>pfBlockUnRatedShows</i> unless the <b>put_BlockUnRated</b> method was previously called with the value <b>TRUE</b>.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  By default, unrated programs should be allowed. Return <b>FALSE</b> in <i>pfBlockUnRatedShows</i> unless the <b>put_BlockUnRated</b> method was previously called with the value <b>TRUE</b>.</div>
+<div> </div>
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVDecDDOperationalMode","codecapi/eAVDecDDOpera
 old-location: dshow\eavdecddoperationalmode.htm
 tech.root: dshow
 ms.assetid: 00d3f086-eaba-4bd2-ba77-401101e92570
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVDecDDOperationalMode, codecapi/eAVDecDDOperationalMode_CUSTOM0, codecapi/eAVDecDDOperationalMode_CUSTOM1, codecapi/eAVDecDDOperationalMode_LINE, codecapi/eAVDecDDOperationalMode_NONE, codecapi/eAVDecDDOperationalMode_PORTABLE11, codecapi/eAVDecDDOperationalMode_PORTABLE14, codecapi/eAVDecDDOperationalMode_PORTABLE8, codecapi/eAVDecDDOperationalMode_RF, dshow.eavdecddoperationalmode, eAVDecDDOperationalMode, eAVDecDDOperationalMode enumeration [DirectShow], eAVDecDDOperationalModeEnumeration, eAVDecDDOperationalMode_CUSTOM0, eAVDecDDOperationalMode_CUSTOM1, eAVDecDDOperationalMode_LINE, eAVDecDDOperationalMode_NONE, eAVDecDDOperationalMode_PORTABLE11, eAVDecDDOperationalMode_PORTABLE14, eAVDecDDOperationalMode_PORTABLE8, eAVDecDDOperationalMode_RF
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
 

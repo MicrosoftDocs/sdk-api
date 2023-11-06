@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]
 old-location: dshow\ivmrimagepresenterconfig9_getrenderingprefs.htm
 tech.root: dshow
 ms.assetid: dfa9c81d-cfc8-401b-b4d1-50f21b528135
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, IVMRImagePresenterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRImagePresenterConfig9.GetRenderingPrefs, IVMRImagePresenterConfig9::GetRenderingPrefs, IVMRImagePresenterConfig9GetRenderingPrefs, dshow.ivmrimagepresenterconfig9_getrenderingprefs, vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetRenderingPrefs</code> method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
 

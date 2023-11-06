@@ -6,7 +6,7 @@ helpviewer_keywords: ["COPP_ACP_ForceDWORD","COPP_ACP_Level0","COPP_ACP_Level1",
 old-location: dshow\copp_acp_protection_level.htm
 tech.root: dshow
 ms.assetid: a3149eb6-e758-4b21-b574-32fb6c2ae3a2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Level2, COPP_ACP_Level3, COPP_ACP_LevelMax, COPP_ACP_LevelMin, COPP_ACP_Protection_Level, COPP_ACP_Protection_Level , COPP_ACP_Protection_Level enumeration [DirectShow], COPP_ACP_Protection_LevelEnumeration, dshow.copp_acp_protection_level, dxva9typ/COPP_ACP_ForceDWORD, dxva9typ/COPP_ACP_Level0, dxva9typ/COPP_ACP_Level1, dxva9typ/COPP_ACP_Level2, dxva9typ/COPP_ACP_Level3, dxva9typ/COPP_ACP_LevelMax, dxva9typ/COPP_ACP_LevelMin, dxva9typ/COPP_ACP_Protection_Level
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the ACP protection level.
 

@@ -54,7 +54,7 @@ Minimizes, maximizes, or restores the window.
 
 ## -parameters
 
-#### - state [in]
+### -param state [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-windowvisualstate">WindowVisualState</a></b>
 

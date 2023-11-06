@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetAllocateForOutput","GetAllocateForOutput method [windo
 old-location: wmformat\iwmreaderadvanced_getallocateforoutput.htm
 tech.root: wmformat
 ms.assetid: b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetAllocateForOutput, GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForOutput method, IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetAllocateForOutput</b> method ascertains whether the reader is configured to use the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a> interface to allocate samples delivered by the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a> callback.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DISPLAY_16x9","DISPLAY_4x3_LETTERBOX_PREFERRED","DISPLAY_
 old-location: dshow\dvd_preferred_display_mode.htm
 tech.root: dshow
 ms.assetid: afb235ae-ba60-491f-8b88-7fe824f00f77
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DISPLAY_16x9, DISPLAY_4x3_LETTERBOX_PREFERRED, DISPLAY_4x3_PANSCAN_PREFERRED, DISPLAY_CONTENT_DEFAULT, DVD_PREFERRED_DISPLAY_MODE, DVD_PREFERRED_DISPLAY_MODE , DVD_PREFERRED_DISPLAY_MODE enumeration [DirectShow], DVD_PREFERRED_DISPLAY_MODEEnumeration, dshow.dvd_preferred_display_mode, strmif/DISPLAY_16x9, strmif/DISPLAY_4x3_LETTERBOX_PREFERRED, strmif/DISPLAY_4x3_PANSCAN_PREFERRED, strmif/DISPLAY_CONTENT_DEFAULT, strmif/DVD_PREFERRED_DISPLAY_MODE
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  Deprecated.</div><div> </div>
 Indicates the user's preferred window aspect ratio and conversion method.

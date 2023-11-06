@@ -58,7 +58,7 @@ Sets video stream configuration settings  in the transcode profile.
 
 ### -param pAttrs [in]
 
-Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains contains the configuration settings for the video stream. The specified attribute values overwrites any existing values stored in the transcode profile. 
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains the configuration settings for the video stream. The specified attribute values overwrites any existing values stored in the transcode profile. 
 
 The following video attributes can be set:
 

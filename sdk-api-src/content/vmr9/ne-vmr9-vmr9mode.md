@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMR9Mode","VMR9Mode","VMR9Mode enumeration [DirectShow]",
 old-location: dshow\vmr9mode.htm
 tech.root: dshow
 ms.assetid: 708c45e4-e92b-4fe5-900f-7cd806011f5e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMR9Mode, VMR9Mode , VMR9Mode enumeration [DirectShow], VMR9ModeEnumeration, VMR9Mode_Mask, VMR9Mode_Renderless, VMR9Mode_Windowed, VMR9Mode_Windowless, dshow.vmr9mode, enumeration [DirectShow], vmr9/VMR9Mode, vmr9/VMR9Mode_Mask, vmr9/VMR9Mode_Renderless, vmr9/VMR9Mode_Windowed, vmr9/VMR9Mode_Windowless
 req.header: vmr9.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VMR9Mode</b> enumeration type specifies the rendering mode of the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer 9</a> (VMR-9) filter.
 

@@ -62,7 +62,7 @@ The provider must have called <a href="/windows/desktop/api/projectedfslib/nf-pr
 
 ### -param callbacks [in]
 
-Pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callbacks">PRJ_CALLBACKS</a> structure that has been initialized with PrjCommandCallbacksInit and filled in with pointers to the provider's callback functions.
+Pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callbacks">PRJ_CALLBACKS</a> structure that has been filled in with pointers to the provider's callback functions.
 
 ### -param instanceContext [in, optional]
 

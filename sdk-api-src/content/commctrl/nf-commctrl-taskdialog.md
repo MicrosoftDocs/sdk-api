@@ -248,6 +248,10 @@ When this function returns, contains a pointer to an integer location that recei
 <td><b>IDYES</b></td>
 <td><b>Yes</b> button was selected.</td>
 </tr>
+<tr>
+<td><b>IDCLOSE</b></td>
+<td><b>Close</b> button was selected.</td>
+</tr>
 </table>
  
 

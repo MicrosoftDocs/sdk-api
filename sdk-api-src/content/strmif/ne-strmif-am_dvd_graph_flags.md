@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_DVD_DO_NOT_CLEAR","AM_DVD_EVR_ONLY","AM_DVD_GRAPH_FLAG
 old-location: dshow\am_dvd_graph_flags.htm
 tech.root: dshow
 ms.assetid: 2a0ec036-d34c-407e-9b6d-c3bd3881a0af
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_DVD_DO_NOT_CLEAR, AM_DVD_EVR_ONLY, AM_DVD_GRAPH_FLAGS, AM_DVD_GRAPH_FLAGS , AM_DVD_GRAPH_FLAGS enumeration [DirectShow], AM_DVD_GRAPH_FLAGSEnumeration, AM_DVD_HWDEC_ONLY, AM_DVD_HWDEC_PREFER, AM_DVD_NOVPE, AM_DVD_SWDEC_ONLY, AM_DVD_SWDEC_PREFER, AM_DVD_VMR9_ONLY, dshow.am_dvd_graph_flags, strmif/AM_DVD_DO_NOT_CLEAR, strmif/AM_DVD_EVR_ONLY, strmif/AM_DVD_GRAPH_FLAGS, strmif/AM_DVD_HWDEC_ONLY, strmif/AM_DVD_HWDEC_PREFER, strmif/AM_DVD_NOVPE, strmif/AM_DVD_SWDEC_ONLY, strmif/AM_DVD_SWDEC_PREFER, strmif/AM_DVD_VMR9_ONLY
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_DVD_GRAPH_FLAGS</b> enumeration specifies how the DVD Navigator builds a DVD playback graph. These flags are used with the <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
 

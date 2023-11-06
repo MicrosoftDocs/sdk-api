@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncMPVProfile","codecapi/eAVEncMPVProfile_422
 old-location: dshow\eavencmpvprofile.htm
 tech.root: dshow
 ms.assetid: 20e6bddb-8761-4ac7-9342-09ad7c9d4905
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncMPVProfile, codecapi/eAVEncMPVProfile_422, codecapi/eAVEncMPVProfile_High, codecapi/eAVEncMPVProfile_Main, codecapi/eAVEncMPVProfile_Simple, codecapi/eAVEncMPVProfile_unknown, dshow.eavencmpvprofile, eAVEncMPVProfile, eAVEncMPVProfile enumeration [DirectShow], eAVEncMPVProfileEnumeration, eAVEncMPVProfile_422, eAVEncMPVProfile_High, eAVEncMPVProfile_Main, eAVEncMPVProfile_Simple, eAVEncMPVProfile_unknown
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the MPEG-2 profile. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmpvprofile-property">AVEncMPVProfile</a> property.
 

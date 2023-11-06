@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncVideoChromaSubsampling","codecapi/eAVEncVi
 old-location: dshow\eavencvideochromasubsampling.htm
 tech.root: dshow
 ms.assetid: d3308308-4bdd-46b4-a3fa-f253d552428b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncVideoChromaSubsampling, codecapi/eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited, codecapi/eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma, codecapi/eAVEncVideoChromaSubsamplingFormat_SameAsSource, codecapi/eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes, codecapi/eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited, dshow.eavencvideochromasubsampling, eAVEncVideoChromaSubsampling, eAVEncVideoChromaSubsampling enumeration [DirectShow], eAVEncVideoChromaSubsamplingEnumeration, eAVEncVideoChromaSubsamplingFormat_Horizontally_Cosited, eAVEncVideoChromaSubsamplingFormat_ProgressiveChroma, eAVEncVideoChromaSubsamplingFormat_SameAsSource, eAVEncVideoChromaSubsamplingFormat_Vertically_AlignedChromaPlanes, eAVEncVideoChromaSubsamplingFormat_Vertically_Cosited
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies chroma siting. Chroma siting defines the positions of the chroma samples relative to the luma samples. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoinputchromasubsampling-property">AVEncVideoInputChromaSubsampling</a> and <a href="/windows/desktop/DirectShow/avencvideooutputchromasubsampling-property">AVEncVideoOutputChromaSubsampling</a> properties.
 

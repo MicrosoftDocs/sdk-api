@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE
 old-location: dshow\dvd_audio_appmode.htm
 tech.root: dshow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Indicates the current audio mode as retrieved in a call to <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>.
 

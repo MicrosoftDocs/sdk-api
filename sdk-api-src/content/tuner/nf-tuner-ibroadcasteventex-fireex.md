@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
@@ -117,6 +119,6 @@ This method is similar to <a href="/previous-versions/windows/desktop/api/tuner/
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-Â 
+ 
 
-Â 
+ 

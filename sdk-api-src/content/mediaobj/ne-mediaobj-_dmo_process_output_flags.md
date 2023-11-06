@@ -6,7 +6,7 @@ helpviewer_keywords: ["DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER","DMO_PROCESS_O
 old-location: dshow\dmo_process_output_flags.htm
 tech.root: dshow
 ms.assetid: 7648f975-3753-41fe-a311-e86334ef7071
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, DMO_PROCESS_OUTPUT_FLAGS , DMO_PROCESS_OUTPUT_FLAGSEnumeration, _DMO_PROCESS_OUTPUT_FLAGS, _DMO_PROCESS_OUTPUT_FLAGS enumeration [DirectShow], dshow.dmo_process_output_flags, mediaobj/DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mediaobj/_DMO_PROCESS_OUTPUT_FLAGS
 req.header: mediaobj.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>DMO_PROCESS_OUTPUT_FLAGS</code> enumeration defines flags that specify output processing requests.
 

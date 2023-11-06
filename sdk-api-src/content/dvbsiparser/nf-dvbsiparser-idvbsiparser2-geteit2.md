@@ -11,7 +11,7 @@ ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Mic
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The <b>GetEIT2</b> method gets the event information table (EIT).
 
@@ -89,7 +91,7 @@ Present/following EIT for another transport stream.
 <tr>
 <td width="40%">
 <dl>
-<dt>0x50 â€“ 0x5F</dt>
+<dt>0x50 – 0x5F</dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +102,7 @@ Schedule EIT for this transport stream.
 <tr>
 <td width="40%">
 <dl>
-<dt>0x60 â€“ 0x6F</dt>
+<dt>0x60 – 0x6F</dt>
 </dl>
 </td>
 <td width="60%">

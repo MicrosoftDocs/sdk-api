@@ -45,9 +45,6 @@ api_name:
  - ID2D1Factory4.CreateDevice
 ---
 
-# ID2D1Factory4::CreateDevice
-
-
 ## -description
 
 Creates an <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> object.

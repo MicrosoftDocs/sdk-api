@@ -6,7 +6,7 @@ helpviewer_keywords: ["UOP_FLAG_Pause_On","UOP_FLAG_PlayNext_Chapter","UOP_FLAG_
 old-location: dshow\valid_uop_flag.htm
 tech.root: dshow
 ms.assetid: 419d3d5f-e775-438e-9754-0291df6a1ed7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: UOP_FLAG_Pause_On, UOP_FLAG_PlayNext_Chapter, UOP_FLAG_PlayPrev_Or_Replay_Chapter, UOP_FLAG_Play_Backwards, UOP_FLAG_Play_Chapter, UOP_FLAG_Play_Chapter_Or_AtTime, UOP_FLAG_Play_Forwards, UOP_FLAG_Play_Title, UOP_FLAG_Play_Title_Or_AtTime, UOP_FLAG_Resume, UOP_FLAG_ReturnFromSubMenu, UOP_FLAG_Select_Angle, UOP_FLAG_Select_Audio_Stream, UOP_FLAG_Select_Karaoke_Audio_Presentation_Mode, UOP_FLAG_Select_Or_Activate_Button, UOP_FLAG_Select_SubPic_Stream, UOP_FLAG_Select_Video_Mode_Preference, UOP_FLAG_ShowMenu_Angle, UOP_FLAG_ShowMenu_Audio, UOP_FLAG_ShowMenu_Chapter, UOP_FLAG_ShowMenu_Root, UOP_FLAG_ShowMenu_SubPic, UOP_FLAG_ShowMenu_Title, UOP_FLAG_Still_Off, UOP_FLAG_Stop, VALID_UOP_FLAG, VALID_UOP_FLAG , VALID_UOP_FLAG enumeration [DirectShow], VALID_UOP_FLAGEnumeration, dshow.valid_uop_flag, strmif/UOP_FLAG_Pause_On, strmif/UOP_FLAG_PlayNext_Chapter, strmif/UOP_FLAG_PlayPrev_Or_Replay_Chapter, strmif/UOP_FLAG_Play_Backwards, strmif/UOP_FLAG_Play_Chapter, strmif/UOP_FLAG_Play_Chapter_Or_AtTime, strmif/UOP_FLAG_Play_Forwards, strmif/UOP_FLAG_Play_Title, strmif/UOP_FLAG_Play_Title_Or_AtTime, strmif/UOP_FLAG_Resume, strmif/UOP_FLAG_ReturnFromSubMenu, strmif/UOP_FLAG_Select_Angle, strmif/UOP_FLAG_Select_Audio_Stream, strmif/UOP_FLAG_Select_Karaoke_Audio_Presentation_Mode, strmif/UOP_FLAG_Select_Or_Activate_Button, strmif/UOP_FLAG_Select_SubPic_Stream, strmif/UOP_FLAG_Select_Video_Mode_Preference, strmif/UOP_FLAG_ShowMenu_Angle, strmif/UOP_FLAG_ShowMenu_Audio, strmif/UOP_FLAG_ShowMenu_Chapter, strmif/UOP_FLAG_ShowMenu_Root, strmif/UOP_FLAG_ShowMenu_SubPic, strmif/UOP_FLAG_ShowMenu_Title, strmif/UOP_FLAG_Still_Off, strmif/UOP_FLAG_Stop, strmif/VALID_UOP_FLAG
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Indicates which user operation (UOP) commands are currently allowed by the DVD.
 

@@ -194,7 +194,7 @@ minimize memory usage by setting **MinimumBuffers** to 0 or to a small minimum
 (e.g. 4 or 8), allowing ETW to adjust the value upwards based on the number of
 processors. ETW will reserve the (adjusted) minimum number of buffers when the
 trace is started. If the buffers are filled more quickly than they can be
-processed, ETW will allocate addition buffers, up the the number specified by
+processed, ETW will allocate addition buffers, up to the number specified by
 **MaximumBuffers**.
 
 For buffering-mode (circular in-memory) traces, users should set the

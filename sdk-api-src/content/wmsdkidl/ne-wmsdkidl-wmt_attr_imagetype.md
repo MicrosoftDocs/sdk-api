@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMT_ATTR_IMAGETYPE","WMT_ATTR_IMAGETYPE enumeration [wind
 old-location: wmformat\wmt_attr_imagetype.htm
 tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media Format], WMT_IMAGETYPE_BITMAP, WMT_IMAGETYPE_GIF, WMT_IMAGETYPE_JPEG, wmformat.wmt_attr_imagetype, wmsdkidl/WMT_ATTR_IMAGETYPE, wmsdkidl/WMT_IMAGETYPE_BITMAP, wmsdkidl/WMT_IMAGETYPE_GIF, wmsdkidl/WMT_IMAGETYPE_JPEG
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMT_ATTR_IMAGETYPE</b> enumeration type lists image types that can be stored in the header of an ASF file.
 

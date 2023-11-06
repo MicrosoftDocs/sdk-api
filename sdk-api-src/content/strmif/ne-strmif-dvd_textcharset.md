@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_CharSet_ISO646","DVD_CharSet_ISO8859_1","DVD_CharSet_
 old-location: dshow\dvd_textcharset.htm
 tech.root: dshow
 ms.assetid: ee7d09e1-6274-4993-914e-d8f5efeb5f90
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_CharSet_ISO646, DVD_CharSet_ISO8859_1, DVD_CharSet_JIS_Roman_Kanji, DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, DVD_CharSet_Unicode, DVD_TextCharSet, DVD_TextCharSet , DVD_TextCharSet enumeration [DirectShow], DVD_TextCharSetEnumeration, dshow.dvd_textcharset, strmif/DVD_CharSet_ISO646, strmif/DVD_CharSet_ISO8859_1, strmif/DVD_CharSet_JIS_Roman_Kanji, strmif/DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, strmif/DVD_CharSet_Unicode, strmif/DVD_TextCharSet
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Defines which character set a specified string is encoded with.
 

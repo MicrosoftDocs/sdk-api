@@ -6,7 +6,7 @@ helpviewer_keywords: ["CancelRequest","CancelRequest method [DirectShow]","Cance
 old-location: dshow\iresourcemanager_cancelrequest.htm
 tech.root: dshow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: CancelRequest, CancelRequest method [DirectShow], CancelRequest method [DirectShow],IResourceManager interface, IResourceManager interface [DirectShow],CancelRequest method, IResourceManager.CancelRequest, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>CancelRequest</code> method cancels the request for a resource.
 

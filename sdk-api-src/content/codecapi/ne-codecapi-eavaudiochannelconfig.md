@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVAudioChannelConfig","codecapi/eAVAudioChannel
 old-location: dshow\eavaudiochannelconfig.htm
 tech.root: dshow
 ms.assetid: 8835b00b-048b-404a-9ecc-84baeb70df66
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVAudioChannelConfig, codecapi/eAVAudioChannelConfig_BACK_CENTER, codecapi/eAVAudioChannelConfig_BACK_LEFT, codecapi/eAVAudioChannelConfig_BACK_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_CENTER, codecapi/eAVAudioChannelConfig_FRONT_LEFT, codecapi/eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, codecapi/eAVAudioChannelConfig_FRONT_RIGHT, codecapi/eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, codecapi/eAVAudioChannelConfig_LOW_FREQUENCY, codecapi/eAVAudioChannelConfig_SIDE_LEFT, codecapi/eAVAudioChannelConfig_SIDE_RIGHT, codecapi/eAVAudioChannelConfig_TOP_BACK_CENTER, codecapi/eAVAudioChannelConfig_TOP_BACK_LEFT, codecapi/eAVAudioChannelConfig_TOP_BACK_RIGHT, codecapi/eAVAudioChannelConfig_TOP_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_CENTER, codecapi/eAVAudioChannelConfig_TOP_FRONT_LEFT, codecapi/eAVAudioChannelConfig_TOP_FRONT_RIGHT, dshow.eavaudiochannelconfig, eAVAudioChannelConfig, eAVAudioChannelConfig enumeration [DirectShow], eAVAudioChannelConfigEnumeration, eAVAudioChannelConfig_BACK_CENTER, eAVAudioChannelConfig_BACK_LEFT, eAVAudioChannelConfig_BACK_RIGHT, eAVAudioChannelConfig_FRONT_CENTER, eAVAudioChannelConfig_FRONT_LEFT, eAVAudioChannelConfig_FRONT_LEFT_OF_CENTER, eAVAudioChannelConfig_FRONT_RIGHT, eAVAudioChannelConfig_FRONT_RIGHT_OF_CENTER, eAVAudioChannelConfig_LOW_FREQUENCY, eAVAudioChannelConfig_SIDE_LEFT, eAVAudioChannelConfig_SIDE_RIGHT, eAVAudioChannelConfig_TOP_BACK_CENTER, eAVAudioChannelConfig_TOP_BACK_LEFT, eAVAudioChannelConfig_TOP_BACK_RIGHT, eAVAudioChannelConfig_TOP_CENTER, eAVAudioChannelConfig_TOP_FRONT_CENTER, eAVAudioChannelConfig_TOP_FRONT_LEFT, eAVAudioChannelConfig_TOP_FRONT_RIGHT
 req.header: codecapi.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
 

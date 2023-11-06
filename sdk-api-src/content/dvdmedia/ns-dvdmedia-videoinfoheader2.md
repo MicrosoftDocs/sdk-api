@@ -6,7 +6,7 @@ helpviewer_keywords: ["AMCONTROL_COLORINFO_PRESENT","AMCONTROL_PAD_TO_16x9","AMC
 old-location: dshow\videoinfoheader2.htm
 tech.root: dshow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
 req.header: dvdmedia.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","get_
 old-location: wmp\iwmpclosedcaption_get_samilang.htm
 tech.root: WMP
 ms.assetid: bcb72cf3-dad2-46b4-9652-349b804cda22
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMILang method, IWMPClosedCaption.get_SAMILang, IWMPClosedCaption::get_SAMILang, IWMPClosedCaptionget_SAMILang, get_SAMILang, get_SAMILang method [Windows Media Player], get_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samilang, wmp/IWMPClosedCaption::get_SAMILang
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_SAMILang</b> method retrieves the language displayed for closed captioning.
 

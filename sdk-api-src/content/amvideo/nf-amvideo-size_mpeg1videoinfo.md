@@ -6,7 +6,7 @@ helpviewer_keywords: ["SIZE_MPEG1VIDEOINFO","SIZE_MPEG1VIDEOINFO macro [DirectSh
 old-location: dshow\size_mpeg1videoinfo.htm
 tech.root: dshow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 

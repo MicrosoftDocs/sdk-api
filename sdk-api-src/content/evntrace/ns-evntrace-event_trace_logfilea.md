@@ -115,7 +115,7 @@ When calling **OpenTrace**, the user consuming the events must have permissions
 to read the file.
 
 > [!Note]
-The filename provided to OpenTrace via the _LogFileName_ field must be
+> The filename provided to OpenTrace via the _LogFileName_ field must be
 > the full file name, including any suffixes. Some trace file creation APIs can
 > silently add a suffix to the user-specified filename. For example, if the
 > controller logged events to a private session (the controller set the

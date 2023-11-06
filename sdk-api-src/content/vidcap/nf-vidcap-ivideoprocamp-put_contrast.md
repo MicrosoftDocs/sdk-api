@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Contrast metho
 old-location: dshow\ivideoprocamp_put_contrast.htm
 tech.root: dshow
 ms.assetid: a03ab735-2258-49c6-a66a-fabe38f88532
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Contrast method, IVideoProcAmp.put_Contrast, IVideoProcAmp::put_Contrast, IVideoProcAmpput_Contrast, dshow.ivideoprocamp_put_contrast, put_Contrast, put_Contrast method [DirectShow], put_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Contrast
 req.header: vidcap.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_Contrast</code> method sets the camera's contrast setting.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetMixingPrefs 
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
 tech.root: dshow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Sets the mixing preferences for the stream.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_DISC_SIDE","DVD_DISC_SIDE","DVD_DISC_SIDE enumeration
 old-location: dshow\dvd_disc_side.htm
 tech.root: dshow
 ms.assetid: 50ea509c-15fc-4066-ad86-04e5e87fdfa6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectShow], DVD_DISC_SIDEEnumeration, DVD_SIDE_A, DVD_SIDE_B, dshow.dvd_disc_side, strmif/DVD_DISC_SIDE, strmif/DVD_SIDE_A, strmif/DVD_SIDE_B
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Indicates the sides of a DVD disc.
 

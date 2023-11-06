@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMCameraControl interface [DirectShow]","Set method","IA
 old-location: dshow\iamcameracontrol_set.htm
 tech.root: dshow
 ms.assetid: d896fb5e-a43b-4cb8-a5d1-4ce6e60831be
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMCameraControl interface [DirectShow],Set method, IAMCameraControl.Set, IAMCameraControl::Set, IAMCameraControlSet, Set, Set method [DirectShow], Set method [DirectShow],IAMCameraControl interface, dshow.iamcameracontrol_set, strmif/IAMCameraControl::Set
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Set</b> method sets a specified property on the camera.
 

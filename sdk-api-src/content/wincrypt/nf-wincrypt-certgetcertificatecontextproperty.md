@@ -298,7 +298,7 @@ Returns either the <b>HCRYPTPROV</b> or <b>NCRYPT_KEY_HANDLE</b> choice.
 
 #### CERT_HCRYPTPROV_TRANSFER_PROP_ID
 
-Returns the Cryptography API (CAPI)  key handle associated with the certificate. The caller is responsible for freeing the handle. It will not be freed when the context is freed. The property value is removed after after it is returned. If you call this property on a context that has a CNG key, <b>CRYPT_E_NOT_FOUND</b> is returned.
+Returns the Cryptography API (CAPI)  key handle associated with the certificate. The caller is responsible for freeing the handle. It will not be freed when the context is freed. The property value is removed after it is returned. If you call this property on a context that has a CNG key, <b>CRYPT_E_NOT_FOUND</b> is returned.
 
 
 
@@ -392,7 +392,7 @@ Returns a <b>CERT_NCRYPT_KEY_SPEC</b> choice where applicable.
 
 #### CERT_NCRYPT_KEY_HANDLE_TRANSFER_PROP_ID
 
-Returns the CNG key handle associated with the certificate. The caller is responsible for freeing the handle. It will not be freed when the context is freed. The property value is removed after after it is returned. If you call this property on a context that has a legacy (CAPI) key, <b>CRYPT_E_NOT_FOUND</b> is returned.
+Returns the CNG key handle associated with the certificate. The caller is responsible for freeing the handle. It will not be freed when the context is freed. The property value is removed after it is returned. If you call this property on a context that has a legacy (CAPI) key, <b>CRYPT_E_NOT_FOUND</b> is returned.
 
 
 

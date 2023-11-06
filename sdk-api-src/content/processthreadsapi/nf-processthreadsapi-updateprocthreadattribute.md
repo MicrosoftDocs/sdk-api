@@ -599,6 +599,12 @@ Restricting certain HSP APIs used to specify security properties of dynamic code
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_ON </b>     (0x00000001ui64 &lt;&lt; 48)</dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY2_CET_DYNAMIC_APIS_OUT_OF_PROC_ONLY_ALWAYS_OFF </b>    (0x00000002ui64 &lt;&lt; 48)</dd>
 
+The FSCTL system call disable policy, if enabled, prevents a process from making NtFsControlFile calls.
+The following mitigation options are available for the FSCTL system call disable policy:
+
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_FSCTL_SYSTEM_CALL_DISABLE_ALWAYS_ON </b> (0x00000001ui64 &lt;&lt; 56)</dd>
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY2_FSCTL_SYSTEM_CALL_DISABLE_ALWAYS_OFF </b> (0x00000002ui64 &lt;&lt; 56)</dd>
+
 The <b>DWORD</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY</b> for the <i>Attribute</i> parameter:
 
 <b>PROCESS_CREATION_CHILD_PROCESS_RESTRICTED</b>                                         0x01

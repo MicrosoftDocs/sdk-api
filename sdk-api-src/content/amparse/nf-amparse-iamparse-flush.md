@@ -6,7 +6,7 @@ helpviewer_keywords: ["Flush","Flush method [DirectShow]","Flush method [DirectS
 old-location: dshow\iamparse_flush.htm
 tech.root: dshow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],Flush method, IAMParse.Flush, IAMParse::Flush, IAMParseFlush, amparse/IAMParse::Flush, dshow.iamparse_flush
 req.header: amparse.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Flush</code> method clears the current file data to allow for a more rapid switch to a new file.
 

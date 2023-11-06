@@ -6,7 +6,7 @@ helpviewer_keywords: ["ControlStream","ControlStream method [DirectShow]","Contr
 old-location: dshow\icapturegraphbuilder_controlstream.htm
 tech.root: dshow
 ms.assetid: 8d7d3a4d-3071-4829-99df-f0bcc9197b38
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],ControlStream method, ICaptureGraphBuilder.ControlStream, ICaptureGraphBuilder::ControlStream, ICaptureGraphBuilderControlStream, dshow.icapturegraphbuilder_controlstream, strmif/ICaptureGraphBuilder::ControlStream
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  The <b>ICaptureGraphBuilder</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2</a> instead.</div>
 <div> </div>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["PhysConn_Audio_1394","PhysConn_Audio_AESDigital","PhysCon
 old-location: dshow\physicalconnectortype.htm
 tech.root: dshow
 ms.assetid: 00635c01-f068-43b0-b7b6-d26f27886f71
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: PhysConn_Audio_1394, PhysConn_Audio_AESDigital, PhysConn_Audio_AUX, PhysConn_Audio_AudioDecoder, PhysConn_Audio_Line, PhysConn_Audio_Mic, PhysConn_Audio_SCSI, PhysConn_Audio_SPDIFDigital, PhysConn_Audio_Tuner, PhysConn_Audio_USB, PhysConn_Video_1394, PhysConn_Video_AUX, PhysConn_Video_Black, PhysConn_Video_Composite, PhysConn_Video_ParallelDigital, PhysConn_Video_RGB, PhysConn_Video_SCART, PhysConn_Video_SCSI, PhysConn_Video_SVideo, PhysConn_Video_SerialDigital, PhysConn_Video_Tuner, PhysConn_Video_USB, PhysConn_Video_VideoDecoder, PhysConn_Video_VideoEncoder, PhysConn_Video_YRYBY, PhysicalConnectorType, PhysicalConnectorType enumeration [DirectShow], PhysicalConnectorTypeEnumeration, dshow.physicalconnectortype, strmif/PhysConn_Audio_1394, strmif/PhysConn_Audio_AESDigital, strmif/PhysConn_Audio_AUX, strmif/PhysConn_Audio_AudioDecoder, strmif/PhysConn_Audio_Line, strmif/PhysConn_Audio_Mic, strmif/PhysConn_Audio_SCSI, strmif/PhysConn_Audio_SPDIFDigital, strmif/PhysConn_Audio_Tuner, strmif/PhysConn_Audio_USB, strmif/PhysConn_Video_1394, strmif/PhysConn_Video_AUX, strmif/PhysConn_Video_Black, strmif/PhysConn_Video_Composite, strmif/PhysConn_Video_ParallelDigital, strmif/PhysConn_Video_RGB, strmif/PhysConn_Video_SCART, strmif/PhysConn_Video_SCSI, strmif/PhysConn_Video_SVideo, strmif/PhysConn_Video_SerialDigital, strmif/PhysConn_Video_Tuner, strmif/PhysConn_Video_USB, strmif/PhysConn_Video_VideoDecoder, strmif/PhysConn_Video_VideoEncoder, strmif/PhysConn_Video_YRYBY, strmif/PhysicalConnectorType
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the physical type of pin (audio or video).
 

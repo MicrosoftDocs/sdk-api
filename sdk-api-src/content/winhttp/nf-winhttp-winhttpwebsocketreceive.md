@@ -120,7 +120,7 @@ A parameter is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>ERROR_INVALID_SERVER_RESPONSE</b></dt>
+<dt><b>ERROR_WINHTTP_INVALID_SERVER_RESPONSE</b></dt>
 </dl>
 </td>
 <td width="60%">

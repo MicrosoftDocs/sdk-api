@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_WindowStyle met
 old-location: dshow\ivideowindow_get_windowstyle.htm
 tech.root: dshow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_WindowStyle</code> method retrieves the window styles on the video window.
 

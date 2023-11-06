@@ -6,7 +6,7 @@ helpviewer_keywords: ["DeinterlaceTech_BOBLineReplicate","DeinterlaceTech_BOBVer
 old-location: dshow\vmrdeinterlacetech.htm
 tech.root: dshow
 ms.assetid: 10149023-c5e8-4dce-8a8c-cde96ae6c073
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DeinterlaceTech_BOBLineReplicate, DeinterlaceTech_BOBVerticalStretch, DeinterlaceTech_EdgeFiltering, DeinterlaceTech_FieldAdaptive, DeinterlaceTech_MedianFiltering, DeinterlaceTech_MotionVectorSteered, DeinterlaceTech_PixelAdaptive, DeinterlaceTech_Unknown, VMRDeinterlaceTech, VMRDeinterlaceTech enumeration [DirectShow], VMRDeinterlaceTechEnumeration, dshow.vmrdeinterlacetech, strmif/DeinterlaceTech_BOBLineReplicate, strmif/DeinterlaceTech_BOBVerticalStretch, strmif/DeinterlaceTech_EdgeFiltering, strmif/DeinterlaceTech_FieldAdaptive, strmif/DeinterlaceTech_MedianFiltering, strmif/DeinterlaceTech_MotionVectorSteered, strmif/DeinterlaceTech_PixelAdaptive, strmif/DeinterlaceTech_Unknown, strmif/VMRDeinterlaceTech
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VMRDeinterlaceTech</b> enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 

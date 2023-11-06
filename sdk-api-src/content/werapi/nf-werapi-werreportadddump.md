@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerReportAddDump
 title: WerReportAddDump function (werapi.h)
-description: Adds a dump of the specified type to the specified report.
+description: Adds a dump of the specified type to the specified Windows Error Reporting (WER) report.
 helpviewer_keywords: ["WER_DUMP_NOHEAP_ONQUEUE","WerDumpTypeHeapDump","WerDumpTypeMicroDump","WerDumpTypeMiniDump","WerReportAddDump","WerReportAddDump function [Windows Error Reporting]","base.werreportadddump","wer.werreportadddump","werapi/WerReportAddDump"]
 old-location: wer\werreportadddump.htm
 tech.root: wer
 ms.assetid: b40dac44-f7c5-43f0-876d-6f97c26bf461
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
 req.header: werapi.h
 req.include-header: 
@@ -50,16 +50,15 @@ api_name:
 
 # WerReportAddDump function
 
-
 ## -description
 
-Adds a dump of the specified type to the specified report.
+Adds a dump of the specified type to the specified [Windows Error Reporting](../_wer/index.md) (WER) report.
 
 ## -parameters
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ### -param hProcess [in]
 
@@ -67,11 +66,11 @@ A handle to the process for which the report is being generated. This handle mus
 
 ### -param hThread [in, optional]
 
-A handle to the thread of <i>hProcess</i> for which the report is being generated. If <i>dumpType</i> is WerDumpTypeMicro, this parameter is required. For other dump types, this parameter may be <b>NULL</b>.
+A handle to the thread of *hProcess* for which the report is being generated. If *dumpType* is WerDumpTypeMicro, this parameter is required. For other dump types, this parameter may be **NULL**.
 
 ### -param dumpType [in]
 
-The type of <a href="/windows/desktop/Debug/minidump-files">minidump</a>. This parameter can be one of the following values from the <b>WER_DUMP_TYPE</b> enumeration type.
+The type of [minidump](/windows/desktop/Debug/minidump-files). This parameter can be one of the following values from the **WER_DUMP_TYPE** enumeration type.
 
 <table>
 <tr>
@@ -141,11 +140,11 @@ This type is equivalent to creating a minidump with the following options: <ul>
 
 ### -param pExceptionParam [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a> structure that specifies exception information.
+A pointer to a [WER_EXCEPTION_INFORMATION](/windows/desktop/api/werapi/ns-werapi-wer_exception_information) structure that specifies exception information.
 
 ### -param pDumpCustomOptions [in, optional]
 
-A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a> structure that specifies custom minidump options. If this parameter is <b>NULL</b>, the standard minidump information is collected.
+A pointer to a [WER_DUMP_CUSTOM_OPTIONS](/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options) structure that specifies custom minidump options. If this parameter is **NULL**, the standard minidump information is collected.
 
 ### -param dwFlags [in]
 
@@ -170,34 +169,14 @@ If the report is being queued, do not include a heap dump. Using this flag saves
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -remarks
 
 Use this function only for generic reporting—it has no effect on operating system crash or no-response reporting.
 
-If the server asks for a mini dump and you specify <b>WerDumpTypeHeapDump</b> for the <i>dumpType</i> parameter, WER will not send the heap dump to the Watson server. However, if the server asks for a heap dump and the <i>dumpType</i> is <b>WerDumpTypeMiniDump</b>, WER will send the mini dump to the server. Thus, it is recommended that you set <i>dumpType</i> to <b>WerDumpTypeMiniDump</b>.
+If the server asks for a mini dump and you specify **WerDumpTypeHeapDump** for the *dumpType* parameter, WER will not send the heap dump to the Watson server. However, if the server asks for a heap dump and the *dumpType* is **WerDumpTypeMiniDump**, WER will send the mini dump to the server. Thus, it is recommended that you set *dumpType* to **WerDumpTypeMiniDump**.
 
 ## -see-also
 
-<a href="/windows/desktop/Debug/minidump-files">Minidump Files</a>
-
-
-
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options">WER_DUMP_CUSTOM_OPTIONS</a>
-
-
-
-<a href="/windows/desktop/api/werapi/ns-werapi-wer_exception_information">WER_EXCEPTION_INFORMATION</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[Minidump Files](/windows/desktop/Debug/minidump-files), [WER_DUMP_CUSTOM_OPTIONS](/windows/desktop/api/werapi/ns-werapi-wer_dump_custom_options), [WER_EXCEPTION_INFORMATION](/windows/desktop/api/werapi/ns-werapi-wer_exception_information), [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](/windows/desktop/wer)

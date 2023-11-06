@@ -252,7 +252,7 @@ int __cdecl main()
                 printf("PPP\n");
                 break;
             case MIB_IF_TYPE_LOOPBACK:
-                printf("Lookback\n");
+                printf("Loopback\n");
                 break;
             case MIB_IF_TYPE_SLIP:
                 printf("Slip\n");

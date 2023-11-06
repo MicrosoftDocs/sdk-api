@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMMediaContent","IAMMediaContent interface [DirectShow]"
 old-location: dshow\iammediacontent.htm
 tech.root: dshow
 ms.assetid: bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], IAMMediaContent interface [DirectShow],described, IAMMediaContentInterface, dshow.iammediacontent, qnetwork/IAMMediaContent
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IAMMediaContent</b> interface retrieves metadata from a stream. Applications can use this interface to retrieve information encoded into a stream, such as the author, title, and copyright. This interface is exposed by the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="/windows/desktop/DirectShow/mpeg-1-stream-splitter-filter">MPEG-1 Stream Splitter</a> filter.
 

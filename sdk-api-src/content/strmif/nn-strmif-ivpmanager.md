@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVPManager","IVPManager interface [DirectShow]","IVPManag
 old-location: dshow\ivpmanager.htm
 tech.root: dshow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>IVPManager</code> interface is implemented on the <a href="/windows/desktop/DirectShow/video-port-manager">Video Port Manager</a> (VPM). The interface provides methods for applications to specify and retrieve indexes for ports when there are multiple video ports on a system, and to specify and retrieve the rectangle used by the video port. Currently, only the two index-related methods are implemented.
 

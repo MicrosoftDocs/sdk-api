@@ -6,7 +6,7 @@ helpviewer_keywords: ["RenderPrefs_AllowOffscreen","RenderPrefs_AllowOverlays","
 old-location: dshow\vmrrenderprefs.htm
 tech.root: dshow
 ms.assetid: cfe1d4a7-b1ec-4d8e-b6d5-3fe5a530c352
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: RenderPrefs_AllowOffscreen, RenderPrefs_AllowOverlays, RenderPrefs_DoNotRenderColorKeyAndBorder, RenderPrefs_ForceOffscreen, RenderPrefs_ForceOverlays, RenderPrefs_Mask, RenderPrefs_PreferAGPMemWhenMixing, RenderPrefs_Reserved, RenderPrefs_RestrictToInitialMonitor, VMRRenderPrefs, VMRRenderPrefs enumeration [DirectShow], VMRRenderPrefsEnumeration, dshow.vmrrenderprefs, strmif/RenderPrefs_AllowOffscreen, strmif/RenderPrefs_AllowOverlays, strmif/RenderPrefs_DoNotRenderColorKeyAndBorder, strmif/RenderPrefs_ForceOffscreen, strmif/RenderPrefs_ForceOverlays, strmif/RenderPrefs_Mask, strmif/RenderPrefs_PreferAGPMemWhenMixing, strmif/RenderPrefs_Reserved, strmif/RenderPrefs_RestrictToInitialMonitor, strmif/VMRRenderPrefs
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>VMRRenderPrefs</b> enumeration type is used with the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-getrenderingprefs">IVMRFilterConfig::GetRenderingPrefs</a> and <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs">IVMRFilterConfig::SetRenderingPrefs</a> methods to get and set basic rendering preferences.
 

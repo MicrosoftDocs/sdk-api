@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRWindowlessControl9 interface [DirectShow]","SetBorder
 old-location: dshow\ivmrwindowlesscontrol9_setbordercolor.htm
 tech.root: dshow
 ms.assetid: 462b264d-1b4c-482a-b154-382748abaf92
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetBorderColor method, IVMRWindowlessControl9.SetBorderColor, IVMRWindowlessControl9::SetBorderColor, IVMRWindowlessControl9SetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setbordercolor, vmr9/IVMRWindowlessControl9::SetBorderColor
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetBorderColor</code> method sets the border color to be used by the VMR.
 

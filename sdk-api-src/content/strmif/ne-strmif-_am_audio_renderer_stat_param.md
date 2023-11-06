@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_AUDREND_STAT_PARAM_BREAK_COUNT","AM_AUDREND_STAT_PARAM
 old-location: dshow\_am_audio_renderer_stat_param.htm
 tech.root: dshow
 ms.assetid: ae090ab0-22e2-4407-8c16-feaa4fa20774
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_AUDREND_STAT_PARAM_BREAK_COUNT, AM_AUDREND_STAT_PARAM_BUFFERFULLNESS, AM_AUDREND_STAT_PARAM_DISCONTINUITIES, AM_AUDREND_STAT_PARAM_JITTER, AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR, AM_AUDREND_STAT_PARAM_SILENCE_DUR, AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR, AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR, AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR, AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR, AM_AUDREND_STAT_PARAM_SLAVE_MODE, AM_AUDREND_STAT_PARAM_SLAVE_RATE, _AM_AUDIO_RENDERER_STAT_PARAM, _AM_AUDIO_RENDERER_STAT_PARAM enumeration [DirectShow], _AM_AUDIO_RENDERER_STAT_PARAMEnumeration, dshow._am_audio_renderer_stat_param, strmif/AM_AUDREND_STAT_PARAM_BREAK_COUNT, strmif/AM_AUDREND_STAT_PARAM_BUFFERFULLNESS, strmif/AM_AUDREND_STAT_PARAM_DISCONTINUITIES, strmif/AM_AUDREND_STAT_PARAM_JITTER, strmif/AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR, strmif/AM_AUDREND_STAT_PARAM_SILENCE_DUR, strmif/AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR, strmif/AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR, strmif/AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR, strmif/AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR, strmif/AM_AUDREND_STAT_PARAM_SLAVE_MODE, strmif/AM_AUDREND_STAT_PARAM_SLAVE_RATE, strmif/_AM_AUDIO_RENDERER_STAT_PARAM
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>_AM_AUDIO_RENDERER_STAT_PARAM</b> enumeration specifies which performance information to retrieve from the audio renderer.
 
