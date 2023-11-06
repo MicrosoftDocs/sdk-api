@@ -60,6 +60,6 @@ A pointer to an [fd_set](/windows/win32/api/winsock2/ns-winsock2-fd_set).
 
 [WSAAsyncSelect](/windows/win32/api/winsock2/nf-winsock2-wsaasyncselect)
 
-[WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect")
+[WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect)
 
-[select](/windows/win32/api/winsock2/nf-winsock2-select")
+[select](/windows/win32/api/winsock2/nf-winsock2-select)
