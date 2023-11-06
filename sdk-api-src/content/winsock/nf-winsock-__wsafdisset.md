@@ -45,46 +45,35 @@ api_name:
  - __WSAFDIsSet
 ---
 
-# __WSAFDIsSet function
-
-
 ## -description
 
-The <b>__WSAFDIsSet</b> function specifies whether a socket is included in a set of socket descriptors.
+The **__WSAFDIsSet** function returns a value indicating whether a socket is included in a set of socket descriptors.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-TBD
+A file descriptor identifying a socket.
 
 ### -param unnamedParam2
 
-Pointer to an <a href="/windows/desktop/api/winsock/ns-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
+A pointer to an [fd_set](/windows/win32/api/winsock/ns-winsock-fd_set) structure containing the set of socket descriptors.
 
+## -returns
 
-#### - fd
-
-Descriptor identifying a socket.
+A non-zero value if the socket specified in *unnamedParam1* is a member of the set specified in *unnamedParam2*; otherwise, 0.
 
 ## -remarks
 
-<b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
+**Windows Phone 8:** This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
-<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+**Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+
+The **FD_ISSET** macro expands to a call of function **__WSAFDIsSet**.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
-
-
-
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
-
-
-
-<a href="/windows/desktop/api/winsock/ns-winsock-fd_set">fd_set</a>
-
-
-
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+* [WSAAsyncSelect](/windows/win32/api/winsock/nf-winsock-wsaasyncselect)
+* [WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect)
+* [fd_set](/windows/win32/api/winsock/ns-winsock-fd_set)
+* [select](/windows/win32/api/winsock2/nf-winsock2-select)
