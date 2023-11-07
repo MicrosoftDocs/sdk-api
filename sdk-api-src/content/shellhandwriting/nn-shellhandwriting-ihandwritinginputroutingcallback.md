@@ -40,6 +40,8 @@ helpviewer_keywords:
 
 ## -description
 
+Provides input routing support for separating the pen input handling system thread from the UI thread of the input target.
+
 ## -remarks
 
 ## -see-also

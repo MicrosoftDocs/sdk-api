@@ -46,15 +46,25 @@ helpviewer_keywords:
 
 ## -description
 
+Retrieves the ID for the message handling thread of the input target UI.
+
 ## -parameters
 
 ### -param pointerId
 
+The pointer ID associated with the input.
+
 ### -param targetScreenPoint
+
+The screen coordinates of the pointer, in pixels.
 
 ### -param targetHWnd
 
-### -param uiThreadId
+The input target.
+
+### -param uiThreadId [out]
+
+The ID for the message handling thread of the input target UI.
 
 ## -returns
 

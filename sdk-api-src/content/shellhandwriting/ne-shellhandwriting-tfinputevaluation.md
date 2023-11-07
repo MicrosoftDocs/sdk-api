@@ -39,15 +39,22 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies how input should be processed.
+
 ## -enum-fields
 
 ### -field TF_IE_HANDWRITING
 
+Input is recognized as handwriting.
+
 ### -field TF_IE_TAP
 
+Input is recognized as a tap.
+
 ### -field TF_IE_CANCEL_HANDWRITING
+
+Input is recognized as cancellation of current handwriting.
 
 ## -remarks
 
 ## -see-also
-
