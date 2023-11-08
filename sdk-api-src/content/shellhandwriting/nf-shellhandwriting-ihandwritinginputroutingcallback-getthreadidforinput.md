@@ -4,7 +4,7 @@ tech.root: input_ink
 title: IHandwritingInputRoutingCallback::GetThreadIdForInput
 ms.date: 10/24/2023
 targetos: Windows
-description: 
+description: Retrieves the ID for the message handling thread of the input target UI.
 prerelease: false
 req.assembly: 
 req.construct-type: function

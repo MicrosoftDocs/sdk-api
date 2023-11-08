@@ -4,7 +4,7 @@ tech.root: input_ink
 title: TfProximateHandwritingTargetResponse
 ms.date: 10/24/2023
 targetos: Windows
-description: 
+description: Specifies the supported handwriting behaviors based on the proximate location of a handwriting target object.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

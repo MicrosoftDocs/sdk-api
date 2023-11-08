@@ -4,7 +4,7 @@ tech.root: input_ink
 title: TfInputEvaluation
 ms.date: 10/24/2023
 targetos: Windows
-description: 
+description: Specifies how input should be recognized.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-Specifies how input should be processed.
+Specifies how input should be recognized.
 
 ## -enum-fields
 
