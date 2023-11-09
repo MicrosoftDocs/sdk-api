@@ -103,7 +103,9 @@ The key name is translated according to the [currently active keyboard layout](/
 
 The name of a character key is the character itself. The names of dead keys are spelled out in full.
 
-This method might not work properly with some [keyboard layouts](/globalization/windows-keyboard-layouts) that produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters that are printed on a single key press. Also, keys that are mapped to the 'A'..'Z' [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) are translated to upper-case 'A'..'Z' characters regardless of current keyboard layout. Use the [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) or [ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex) methods in such cases.
+Character keys that are mapped to the 'A'..'Z' [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) are translated to <U+0041 LATIN CAPITAL LETTER A>..<U+005A LATIN CAPITAL LETTER Z> characters regardless of current keyboard layout. Use the [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) or [ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex) methods in such cases.
+
+This method might not work properly with some [keyboard layouts](/globalization/windows-keyboard-layouts) that produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters that are printed on a single key press. 
 
 The winuser.h header defines GetKeyNameText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
