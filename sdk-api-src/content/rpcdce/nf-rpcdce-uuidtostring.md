@@ -59,12 +59,13 @@ The
 
 ### -param Uuid [in]
 
-Pointer to a binary 
-<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
+Pointer to a binary <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 ### -param StringUuid [out]
 
 Pointer to the null-terminated string into which the <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
+
+The UUID format is <b>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</b>.
 
 ## -returns
 
