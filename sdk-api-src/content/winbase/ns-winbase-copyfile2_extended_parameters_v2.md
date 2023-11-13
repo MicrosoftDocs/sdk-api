@@ -1,61 +1,54 @@
 ---
-UID: NS:winbase.COPYFILE2_EXTENDED_PARAMETERS
-title: COPYFILE2_EXTENDED_PARAMETERS (winbase.h)
-description: Contains extended parameters for the CopyFile2 function.
-helpviewer_keywords: ["COPYFILE2_EXTENDED_PARAMETERS","COPYFILE2_EXTENDED_PARAMETERS structure [Files]","COPY_FILE_ALLOW_DECRYPTED_DESTINATION","COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_NO_BUFFERING","COPY_FILE_NO_OFFLOAD","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_REQUEST_SECURITY_PRIVILEGES","COPY_FILE_RESTARTABLE","COPY_FILE_RESUME_FROM_PAUSE","fs.copyfile2_extended_parameters","winbase/COPYFILE2_EXTENDED_PARAMETERS"]
-old-location: fs\copyfile2_extended_parameters.htm
+UID: NS:winbase.COPYFILE2_EXTENDED_PARAMETERS_V2
 tech.root: fs
-ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
-ms.date: 12/05/2018
-ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS structure [Files], COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_NO_OFFLOAD, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_REQUEST_SECURITY_PRIVILEGES, COPY_FILE_RESTARTABLE, COPY_FILE_RESUME_FROM_PAUSE, fs.copyfile2_extended_parameters, winbase/COPYFILE2_EXTENDED_PARAMETERS
+title: COPYFILE2_EXTENDED_PARAMETERS_V2
+ms.date: 11/02/2023
+targetos: Windows
+description: Contains updated, additional functionality beyond the COPYFILE2_EXTENDED_PARAMETERS structure for the CopyFile2 function
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: winbase.h
 req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
 req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: COPYFILE2_EXTENDED_PARAMETERS
+req.max-support: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - COPYFILE2_EXTENDED_PARAMETERS
- - winbase/COPYFILE2_EXTENDED_PARAMETERS
-dev_langs:
- - c++
+req.target-min-winverclnt: Windows 11 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-type: Windows
+req.typenames: COPYFILE2_EXTENDED_PARAMETERS_V2
+typedef_isUnnamed: false
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
+ - apiref
  - kbSyntax
 api_type:
  - HeaderDef
 api_location:
- - WinBase.h
+ - winbase.h
 api_name:
- - COPYFILE2_EXTENDED_PARAMETERS
+ - COPYFILE2_EXTENDED_PARAMETERS_V2
+f1_keywords:
+ - COPYFILE2_EXTENDED_PARAMETERS_V2
+ - winbase/COPYFILE2_EXTENDED_PARAMETERS_V2
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - COPYFILE2_EXTENDED_PARAMETERS_V2
 ---
-
-# COPYFILE2_EXTENDED_PARAMETERS structure
 
 ## -description
 
-Contains extended parameters for the [CopyFile2](/windows/win32/api/winbase/nf-winbase-copyfile2) function.
+Contains updated, additional functionality beyond the [COPYFILE2_EXTENDED_PARAMETERS](ns-winbase-copyfile2_extended_parameters.md) structure for the [CopyFile2](nf-winbase-copyfile2.md) function.
 
 ## -struct-fields
 
 ### -field dwSize
 
-Contains the size of this structure, `sizeof(COPYFILE2_EXTENDED_PARAMETERS)`.
+Contains the size of this structure, `sizeof(COPYFILE2_EXTENDED_PARAMETERS_V2)`.
 
 ### -field dwCopyFlags
 
@@ -89,22 +82,46 @@ If this flag is set to **TRUE** during the copy operation then the copy operatio
 
 ### -field pProgressRoutine
 
-The optional address of a callback function of type **PCOPYFILE2_PROGRESS_ROUTINE** that is called each time another portion of the file has been copied. This parameter can be **NULL**. For more information on the progress callback function, see the [CopyFile2ProgressRoutine](nc-winbase-pcopyfile2_progress_routine.md) callback function.
+The optional address of a callback function of type **PCOPYFILE2_PROGRESS_ROUTINE** that is called each time another portion of the file has been copied. This parameter can be **NULL**. For more information on the progress callback function, see the [CopyFile2ProgressRoutine](nc-winbase-pcopyfile2_progress_routine.md) callback function. If both *pProgressRoutineOld* and *pProgressRoutine* are provided, *pProgressRoutineOld* takes precedence.
 
 ### -field pvCallbackContext
 
 A pointer to application-specific context information to be passed to the [CopyFile2ProgressRoutine](nc-winbase-pcopyfile2_progress_routine.md).
 
+### -field dwCopyFlagsV2
+
+Contains a combination of zero or more of these flag values.
+
+| Value | Meaning |
+| ----- | ------- |
+| **COPY_FILE2_V2_DONT_COPY_JUNCTIONS**<br/>`0x00000001` | Disable copying junctions. |
+
+### -field ioDesiredSize
+
+Optional. The requested size (in bytes) for each I/O operation (i.e. one read/write cycle while copying the file). This may be reduced if insufficient memory is available. If zero, the default size is used. This may be ignored if *ioDesiredRate* is also provided
+
+### -field ioDesiredRate
+
+Optional. The requested average I/O rate, in kilobytes per second. If zero, copies are performed as fast as possible.
+
+### -field reserved[8]
+
+*pProgressRoutineOld*. Optional. The address of an old-style callback function of type [LPPROGRESS_ROUTINE](nc-winbase-lpprogress_routine.md) that is called each time another portion of the file has been copied. This parameter can be **NULL**. For more information, on the progress callback function, see [LPPROGRESS_ROUTINE callback](nc-winbase-lpprogress_routine.md). If both *pProgressRoutineOld* and *pProgressRoutine* are provided, *pProgressRoutineOld* takes precedence.
+
 ## -remarks
 
-To compile an application that uses this structure, define the **_WIN32_WINNT** macro as **_WIN32_WINNT_WIN8** or later. For more information, see [Using the Windows Headers](/windows/win32/WinProg/using-the-windows-headers).
+To compile an application that uses this structure, define the **_WIN32_WINNT** macro as **_WIN32_WINNT_WIN8** or later. For more information, see [Using the Windows Headers](/windows/win32/winprog/using-the-windows-headers).
 
 ## -see-also
 
-[CopyFile2](/windows/win32/api/winbase/nf-winbase-copyfile2)
+[CopyFile2](nf-winbase-copyfile2.md)
 
-[CopyFile2ProgressRoutine](/windows/win32/api/winbase/nc-winbase-pcopyfile2_progress_routine)
+[COPYFILE2_EXTENDED_PARAMETERS](ns-winbase-copyfile2_extended_parameters.md)
 
-[File Management Structures](/windows/win32/FileIO/file-management-structures)
+[CopyFile2ProgressRoutine](nc-winbase-pcopyfile2_progress_routine.md)
 
-[COPYFILE2_EXTENDED_PARAMETERS_V2](ns-winbase-copyfile2_extended_parameters_v2.md)
+[File Management Structures](/windows/win32/fileio/file-management-structures)
+
+[LPPROGRESS_ROUTINE](nc-winbase-lpprogress_routine.md)
+
+[Using the Windows Headers](/windows/win32/winprog/using-the-windows-headers)
