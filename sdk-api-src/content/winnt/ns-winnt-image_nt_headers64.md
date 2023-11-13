@@ -70,7 +70,7 @@ An
 ### -field OptionalHeader
 
 An 
-<a href="/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure that specifies the optional file header.
+<a href="/windows/win32/api/winnt/ns-winnt-image_optional_header64">IMAGE_OPTIONAL_HEADER64</a> structure that specifies the optional file header.
 
 ## -remarks
 
