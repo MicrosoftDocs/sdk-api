@@ -2,7 +2,7 @@
 UID: NE:shellhandwriting.TfProximateHandwritingTargetResponse
 tech.root: input_ink
 title: TfProximateHandwritingTargetResponse
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
 description: Specifies the supported handwriting behaviors based on the proximate location of a handwriting target object.
 prerelease: false

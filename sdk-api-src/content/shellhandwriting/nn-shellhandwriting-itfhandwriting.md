@@ -2,9 +2,9 @@
 UID: NN:shellhandwriting.ITfHandwriting
 tech.root: input_ink
 title: ITfHandwriting
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Supports ink input with a pen on any proximate edit field without first having to set focus to the edit control. The ink strokes are rendered, handwriting recognition is performed (as either text or edit gesture), and text is entered into the edit field.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -40,7 +40,8 @@ helpviewer_keywords:
 
 ## -description
 
+Supports ink input with a pen on any proximate edit field without first having to set focus to the edit control. The ink strokes are rendered, handwriting recognition is performed (as either text or edit gesture), and text is entered into the edit field.
+
 ## -remarks
 
 ## -see-also
-

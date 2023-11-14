@@ -2,9 +2,9 @@
 UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.GetPointerTargetInfo
 tech.root: input_ink
 title: ITfDetermineProximateHandwritingTargetArgs::GetPointerTargetInfo
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Retrieves details about the proximate target of the pointer input.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,19 +44,32 @@ helpviewer_keywords:
 
 # GetPointerTargetInfo function
 
+Retrieves details about the proximate target of the pointer input.
+
 ## -description
 
 ## -parameters
 
-### -param targetWindow
+### -param targetWindow [out, optional]
 
-### -param targetScreenPoint
+The proximate target window of the pointer input.
 
-### -param distanceThreshold
+### -param targetScreenPoint [out, optional]
+
+The proximate target screen coordinates of the pointer input.
+
+This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
+
+### -param distanceThreshold [out, optional]
+
+The distance (vertical and horizontal) in pixels from the *targetScreenPoint* that handwriting is enabled for a valid edit control.  
+
+This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
 
 ## -returns
+
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

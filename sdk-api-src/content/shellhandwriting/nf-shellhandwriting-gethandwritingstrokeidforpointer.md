@@ -2,7 +2,7 @@
 UID: NF:shellhandwriting.GetHandwritingStrokeIdForPointer
 tech.root: input_ink
 title: GetHandwritingStrokeIdForPointer
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
 description: Retrieves the unique ID of the ink stroke associated with the specified pointer ID.
 prerelease: false

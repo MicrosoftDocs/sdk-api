@@ -2,7 +2,7 @@
 UID: NE:shellhandwriting.TfHandwritingFocusTargetResponse
 tech.root: input_ink
 title: TfHandwritingFocusTargetResponse
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
 description: Specifies how a client that implements the IHandwritingInputRoutingCallback interface responds when the FocusHandwritingTarget function is called.
 prerelease: false

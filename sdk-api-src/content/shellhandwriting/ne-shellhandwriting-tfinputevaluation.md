@@ -2,9 +2,9 @@
 UID: NE:shellhandwriting.TfInputEvaluation
 tech.root: input_ink
 title: TfInputEvaluation
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: Specifies how input should be recognized.
+description: Specifies how the pen input should be recognized.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-Specifies how input should be recognized.
+Specifies how the pen input should be recognized.
 
 ## -enum-fields
 
