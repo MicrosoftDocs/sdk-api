@@ -358,7 +358,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-"\\.&#92;<i>X</i>:"
+"&#92;&#92;.&#92;<i>X</i>:"
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears.
