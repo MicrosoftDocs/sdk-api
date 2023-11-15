@@ -44,6 +44,6 @@ Supports the ability to specify custom handwriting behaviors before focus is set
 
 ## -remarks
 
-This interface is implemented by an application or a framework to override the default system logic.
+This interface is implemented by an application (a "primary" client) or a framework (a "secondary" client) to override the default system logic.
 
 ## -see-also

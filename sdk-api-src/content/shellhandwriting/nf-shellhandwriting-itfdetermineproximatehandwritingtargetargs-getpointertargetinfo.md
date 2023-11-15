@@ -58,11 +58,11 @@ The proximate target window of the pointer input.
 
 The proximate target screen coordinates of the pointer input.
 
-This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
+This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the Text Services Framework (TSF) thread manager object.
 
 ### -param distanceThreshold [out, optional]
 
-The distance (vertical and horizontal) in pixels from the *targetScreenPoint* that handwriting is enabled for a valid edit control.  
+The distance (vertical and horizontal) in pixels from a valid edit control for which the *targetScreenPoint* enables handwriting functionality.  
 
 This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
 

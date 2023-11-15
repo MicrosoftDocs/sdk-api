@@ -46,11 +46,17 @@ helpviewer_keywords:
 
 ## -description
 
+Registers an [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwritinginputroutingcallback.md).
+
 ## -parameters
 
 ### -param callback
 
+The [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwritinginputroutingcallback.md) being registered.
+
 ## -returns
+
+If the method succeeds, it returns **S_OK**. If it fails, it returns an **HRESULT** error code.
 
 ## -remarks
 

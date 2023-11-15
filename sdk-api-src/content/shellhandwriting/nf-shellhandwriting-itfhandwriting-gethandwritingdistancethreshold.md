@@ -4,7 +4,7 @@ tech.root: input_ink
 title: ITfHandwriting::GetHandwritingDistanceThreshold
 ms.date: 11/13/2023
 targetos: Windows
-description: Retrieves the distance (vertical and horizontal) in pixels from the targetScreenPoint that handwriting is enabled for a valid edit control.
+description: Retrieves the distance (vertical and horizontal) in pixels from a valid edit control for which the *targetScreenPoint* enables handwriting functionality.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -46,13 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the distance (vertical and horizontal) in pixels from the *targetScreenPoint* that handwriting is enabled for a valid edit control.  
+Retrieves the distance (vertical and horizontal) in pixels from a valid edit control for which the *targetScreenPoint* enables handwriting functionality.
 
 ## -parameters
 
 ### -param distanceThresholdPixels [out]
 
-The distance (vertical and horizontal) in pixels from the *targetScreenPoint* that handwriting is enabled for a valid edit control.
+The distance (vertical and horizontal) in pixels from a valid edit control for which the *targetScreenPoint* enables handwriting functionality.
 
 ## -returns
 

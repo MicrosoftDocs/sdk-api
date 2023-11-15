@@ -58,3 +58,5 @@ Input is recognized as cancellation of current handwriting.
 ## -remarks
 
 ## -see-also
+
+[SetInputEvaluation function](nf-shellhandwriting-itfhandwritingrequest-setinputevaluation.md)
