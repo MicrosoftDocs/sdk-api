@@ -1,7 +1,8 @@
 ---
 UID: NA:shellhandwriting
 title: Shellhandwriting.h header
-ms.date: 10/24/2023
+description: Enables inking with a pen on, or near, any text edit control without first setting focus to the control. The system renders the ink strokes, recognizes the ink as text (or a gesture for modifying text), and inserts the new or modified text into the edit field of the control.
+ms.date: 11/13/2023
 prerelease: false
 ms.keywords: 
 ms.topic: overview
@@ -15,7 +16,7 @@ f1_keywords:
 
 ## -description
 
-Enables inking with a pen on, or near, any edit control without first setting focus on the edit control. The system renders the ink strokes, recognizes the ink as text (or a gesture for modifying text), and inserts the new or modified text into the edit field of the control.
+Enables inking with a pen on, or near, any text edit control without first setting focus to the control. The system renders the ink strokes, recognizes the ink as text (or a gesture for modifying text), and inserts the new or modified text into the edit field of the control.
 
 This header is used by Ink input. For more information, see:
 

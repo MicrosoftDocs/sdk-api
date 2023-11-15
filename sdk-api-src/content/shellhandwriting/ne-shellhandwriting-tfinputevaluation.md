@@ -2,9 +2,9 @@
 UID: NE:shellhandwriting.TfInputEvaluation
 tech.root: input_ink
 title: TfInputEvaluation
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Specifies how the pen input should be recognized.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -35,17 +35,28 @@ helpviewer_keywords:
  - TfInputEvaluation
 ---
 
+# TfInputEvaluation enumeration
+
 ## -description
+
+Specifies how the pen input should be recognized.
 
 ## -enum-fields
 
 ### -field TF_IE_HANDWRITING
 
+Input is recognized as handwriting.
+
 ### -field TF_IE_TAP
 
+Input is recognized as a tap.
+
 ### -field TF_IE_CANCEL_HANDWRITING
+
+Input is recognized as cancellation of current handwriting.
 
 ## -remarks
 
 ## -see-also
 
+[SetInputEvaluation function](nf-shellhandwriting-itfhandwritingrequest-setinputevaluation.md)

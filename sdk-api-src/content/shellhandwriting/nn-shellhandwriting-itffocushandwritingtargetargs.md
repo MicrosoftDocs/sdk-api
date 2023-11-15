@@ -2,9 +2,9 @@
 UID: NN:shellhandwriting.ITfFocusHandwritingTargetArgs
 tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Provides handwriting response behavior and target info.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,9 +36,12 @@ helpviewer_keywords:
  - ITfFocusHandwritingTargetArgs
 ---
 
+# ITfFocusHandwritingTargetArgs interface
+
 ## -description
+
+Provides handwriting response behavior and target info.
 
 ## -remarks
 
 ## -see-also
-

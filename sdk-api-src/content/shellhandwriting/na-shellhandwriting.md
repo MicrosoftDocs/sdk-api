@@ -43,6 +43,8 @@ helpviewer_keywords:
  - shellhandwriting
 ---
 
+# See index.md
+
 ## -description
 
 ## -remarks
@@ -50,4 +52,3 @@ helpviewer_keywords:
 ## -see-also
 
 ## -examples
-

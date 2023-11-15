@@ -2,9 +2,9 @@
 UID: NF:shellhandwriting.IHandwritingInputRoutingCallback.GetThreadIdForInput
 tech.root: input_ink
 title: IHandwritingInputRoutingCallback::GetThreadIdForInput
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Retrieves the ID of the message handling thread for the input target UI.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,21 +42,34 @@ helpviewer_keywords:
  - GetThreadIdForInput
 ---
 
+# GetThreadIdForInput function
+
 ## -description
+
+Retrieves the ID of the message handling thread for the input target UI.
 
 ## -parameters
 
-### -param pointerId
+### -param pointerId [in]
 
-### -param targetScreenPoint
+The pointer ID associated with the input.
 
-### -param targetHWnd
+### -param targetScreenPoint [in]
 
-### -param uiThreadId
+The screen coordinates of the pointer, in pixels.
+
+### -param targetHWnd [in]
+
+The input target.
+
+### -param uiThreadId [out]
+
+The ID for the message handling thread of the input target UI.
 
 ## -returns
+
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

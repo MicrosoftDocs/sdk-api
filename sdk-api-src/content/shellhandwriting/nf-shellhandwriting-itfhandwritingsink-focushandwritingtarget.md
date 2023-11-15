@@ -42,15 +42,26 @@ helpviewer_keywords:
  - FocusHandwritingTarget
 ---
 
+# FocusHandwritingTarget function
+
 ## -description
+
+Sets focus to the edit control that receives the input.
 
 ## -parameters
 
 ### -param focusHandwritingTargetArgs
 
+The event arguments
+
 ## -returns
+
+A handle to the edit control that receives the input.
 
 ## -remarks
 
-## -see-also
+This function is called only when a valid handwriting target is identified through the [DetermineProximateHandwritingTarget function](nf-shellhandwriting-itfhandwritingsink-determineproximatehandwritingtarget.md) and only when handwriting recognition is to be provided for the input.
 
+The application that implements this function is required to set focus to the most likely edit control based on *focusHandwritingTargetArgs*. This control is where the system will insert the result of handwriting recognition.
+
+## -see-also

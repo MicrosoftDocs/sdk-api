@@ -2,9 +2,9 @@
 UID: NN:shellhandwriting.ITfHandwritingRequest
 tech.root: input_ink
 title: ITfHandwritingRequest
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Applications must use this interface to notify the system that they have evaluated the pen input that occurred after the handwriting request.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,9 +36,14 @@ helpviewer_keywords:
  - ITfHandwritingRequest
 ---
 
+# ITfHandwritingRequest interface
+
 ## -description
+
+Applications must use this interface to notify the system that they have evaluated the pen input that occurred after the handwriting request.
 
 ## -remarks
 
-## -see-also
+This interface is provided as an output parameter to the [RequestHandwritingForPointer function](nf-shellhandwriting-itfhandwriting-requesthandwritingforpointer.md) (an instance is returned on each successful handwriting request).
 
+## -see-also

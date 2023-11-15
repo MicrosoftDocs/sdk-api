@@ -2,9 +2,9 @@
 UID: NN:shellhandwriting.ITfHandwritingSink
 tech.root: input_ink
 title: ITfHandwritingSink
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Supports the ability to specify custom handwriting behaviors before focus is set to an edit field.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -36,9 +36,14 @@ helpviewer_keywords:
  - ITfHandwritingSink
 ---
 
+# ITfHandwritingSink interface
+
 ## -description
+
+Supports the ability to specify custom handwriting behaviors before focus is set to an edit field.
 
 ## -remarks
 
-## -see-also
+This interface is implemented by an application (a "primary" client) or a framework (a "secondary" client) to override the default system logic.
 
+## -see-also
