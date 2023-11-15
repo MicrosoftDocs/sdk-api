@@ -49,9 +49,6 @@ api_name:
  - BITMAPINFOHEADER
 ---
 
-# BITMAPINFOHEADER structure
-
-
 ## -description
 
 \[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
@@ -173,7 +170,7 @@ Be aware that if the bitmap uses a color table or color masks, then the size of 
 <h3><a id="Calculating_Surface_Stride"></a><a id="calculating_surface_stride"></a><a id="CALCULATING_SURFACE_STRIDE"></a>Calculating Surface Stride</h3>
 In an uncompressed bitmap, the stride is the number of bytes needed to go from the start of one row of pixels to the start of the next row. The image format defines a minimum stride for an image. In addition, the graphics hardware might require a larger stride for the surface that contains the image.
 
-For uncompressed RGB formats, the minimum stride is always the image width in bytes, rounded up to the nearest <b>DWORD</b>. You can use `GDI_DIBWIDTHBYTES()`/`GDI_DIBSIZE()` marcos or the following formula to calculate the stride and image size: 
+For uncompressed RGB formats, the minimum stride is always the image width in bytes, rounded up to the nearest <b>DWORD</b>. To calculate the stride and image size, you can use the **GDI_DIBWIDTHBYTES** and/or **GDI_DIBSIZE** macros, or the following formula:
 
 ```cpp
 stride = ((((biWidth * biBitCount) + 31) & ~31) >> 3);
