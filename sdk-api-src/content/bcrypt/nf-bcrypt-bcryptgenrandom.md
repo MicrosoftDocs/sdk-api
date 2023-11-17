@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Bcrypt.lib
+req.lib: Bcrypt.lib or Cng.lib(For Kernel mode)
 req.dll: Bcrypt.dll
 req.irql: 
 targetos: Windows
