@@ -107,7 +107,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-For more information about _nWidth_ and _nHeight_ parameters see [Icon Sizes](/windows/desktop/menurc/about-icons#icon-sizes).
+To determine the nominal size of the icon, use the [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function, specifying the **SM_CXICON** or **SM_CYICON** value. Also, you can use the DPI-aware version of this API, see (GetSystemMetricsForDpi)(/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi). For more information see [Icon Sizes](/windows/desktop/menurc/about-icons#icon-sizes) and [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). 
 
 For more information about _lpbANDbits_ and _lpbXORbits_ parameters see description of _lpBits_ parameter of [CreateBitmap](/windows/win32/api/wingdi/nf-wingdi-createbitmap) function. 
 
