@@ -169,14 +169,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
-
+You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons or <a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> for cursors created with <b>CreateIconFromResourceEx</b>.
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
-
-<div class="code"></div>
 
 ## -see-also
 
