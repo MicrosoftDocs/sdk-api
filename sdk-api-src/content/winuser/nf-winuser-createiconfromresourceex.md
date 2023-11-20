@@ -80,7 +80,7 @@ The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure define
 
 Type: <b>DWORD</b>
 
-The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
+The version number of the icon or cursor format for the resource bits pointed to by the <i>presbits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
 
 ### -param cxDesired [in]
 
