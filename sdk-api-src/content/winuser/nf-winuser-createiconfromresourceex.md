@@ -151,8 +151,6 @@ When you use this flag, the system will destroy the resource when it is no longe
 
 Do not use <b>LR_SHARED</b> for icons or cursors that have non-standard sizes, that may change after loading, or that are loaded from a file.
 
-When loading a system icon or cursor, you must use <b>LR_SHARED</b> or the function will fail to load the resource.
-
 </td>
 </tr>
 </table>
