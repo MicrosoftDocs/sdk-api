@@ -405,85 +405,42 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 ## -see-also
 
-<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
-
-
 [CallNextHookEx function](nf-winuser-callnexthookex.md)
 
+[CallWindowProc function](nf-winuser-callwindowproca.md)
 
+[UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
 
-[CallWindowProcW function](nf-winuser-callwindowprocw.md)
+[CBTProc](/windows/win32/winmsg/cbtproc)
 
-[CallWindowProcA function](nf-winuser-callwindowproca.md)
+[CallWndProc](/windows/win32/winmsg/callwndproc)
 
-[HOOKPROC callback function](nc-winuser-hookproc.md)
+[CallWndRetProc](nc-winuser-hookproc.md)
 
-
-[*DebugProc*](/windows/win32/winmsg/debugproc)
-
+[DebugProc](/windows/win32/winmsg/debugproc)
 
 [ForegroundIdleProc](/windows/win32/winmsg/foregroundidleproc)
 
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
-
-
 [GetMsgProc](/windows/win32/winmsg/getmsgproc)
-
-<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc)
 
-
-
 [JournalRecordProc](/windows/win32/winmsg/journalrecordproc)
 
-
-
-<a href="/windows/win32/winmsg/foregroundidleproc">KeyboardProc</a>
-
-
+[KeyboardProc](/windows/win32/winmsg/keyboardproc)
 
 [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc)
 
+[LowLevelMouseProc](/windows/win32/winmsg/lowlevelmouseproc)
 
-<a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a>
+[MessageProc](/windows/win32/winmsg/messageproc)
 
+[MouseProc](/windows/win32/winmsg/mouseproc)
 
+[ShellProc](/windows/win32/winmsg/shellproc)
 
-<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
+[SysMsgProc](/windows/win32/winmsg/sysmsgproc)
 
+<b>Conceptual</b>
 
-
-<a href="/windows/win32/winmsg/mouseproc">MouseProc</a>
-
-<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
-
-
-
-<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
-
-<a href="/windows/win32/winmsg/shellproc">ShellProc</a>
-
-
-
-<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>
-
-[UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md)
+[Hooks](/windows/desktop/winmsg/hooks)
