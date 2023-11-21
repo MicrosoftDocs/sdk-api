@@ -84,7 +84,7 @@ If the image resource is to be loaded by name from the module, the <i>name</i> p
 
 If the image resource is to be loaded by ordinal from the module, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
-If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value and includes the <b>LR_SHARED</b>, the <i>lpszName</i> specifies the predefined image to load.
+If the <i>hInst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value and includes the <b>LR_SHARED</b>, the <i>name</i> specifies the predefined image to load.
 
 The predefined image identifiers are defined in `Winuser.h` and have the following prefixes:
 
