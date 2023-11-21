@@ -90,13 +90,13 @@ The height of the cursor, in pixels.
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the AND mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
+An array of bytes that contains the bit values for the AND mask of the cursor, as in a monochrome bitmap. See remarks.
 
 ### -param pvXORPlane [in]
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the XOR mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
+An array of bytes that contains the bit values for the XOR mask of the cursor, as in a monochrome bitmap. See remarks.
 
 ## -returns
 
@@ -104,40 +104,42 @@ Type: <b>HCURSOR</b>
 
 If the function succeeds, the return value is a handle to the cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is **NULL**. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height that are supported by the current display driver, because the system cannot create cursors of other sizes. To determine the width and height supported by the display driver, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXCURSOR</b> or <b>SM_CYCURSOR</b> value. 
+To determine the nominal size of a cursor, use the [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function, specifying the **SM_CXCURSOR** or **SM_CYCURSOR** value. Also, you can use the DPI-aware version of this API, see (GetSystemMetricsForDpi)(/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi). For more information see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). 
 
-Before closing, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function to free any system resources associated with the cursor.
+For more information about _pvANDPlane_ and _pvXORPlane_ parameters see description of _lpBits_ parameter of [CreateBitmap](/windows/win32/api/wingdi/nf-wingdi-createbitmap) function.
+
+**CreateCursor** applies the following truth table to the AND and XOR bitmasks:
+
+| AND bitmask | XOR bitmask | Display |
+|:-:|:-:|:-:|
+| 0 | 0 | Black |
+| 0 | 1 | White |
+| 1 | 0 | Screen |
+| 1 | 1 | Reverse screen |
+
+Before closing, an application must call the [DestroyCursor](/windows/desktop/api/winuser/nf-winuser-destroycursor) function to free any system resources associated with the cursor.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is in terms of physical coordinates, and  is not affected by the DPI of the calling thread. Note that the cursor created may still be scaled to match the DPI of any given window it is drawn into.
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/menurc/using-cursors">Creating a Cursor</a>.
+For an example, see [Creating a Cursor](/windows/desktop/menurc/using-cursors).
 
 ## -see-also
 
-<b>Conceptual</b>
+[CreateIcon](/windows/desktop/api/winuser/nf-winuser-createicon)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
+[CreateIconIndirect](/windows/desktop/api/Winuser/nf-winuser-createiconindirect)
 
-<a href="/windows/desktop/api/Winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+[DestroyCursor](/windows/desktop/api/winuser/nf-winuser-destroycursor)
 
-<a href="/windows/desktop/menurc/cursors">Cursors</a>
+[GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)
 
-<a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
+[SetCursor](/windows/desktop/api/winuser/nf-winuser-setcursor)
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
-<b>Other Resources</b>
-
-
-<b>Reference</b>
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+[Cursors](/windows/desktop/menurc/cursors)
