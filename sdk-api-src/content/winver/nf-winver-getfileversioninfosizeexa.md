@@ -104,7 +104,7 @@ Type: <b>LPCTSTR</b>
 
 The name of the file of interest. The function uses the search sequence specified by the  <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 
-### -param lpdwHandle [out]
+### -param lpdwHandle [out, optional]
 
 Type: <b>LPDWORD</b>
 
