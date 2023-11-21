@@ -80,7 +80,7 @@ The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure define
 
 Type: <b>DWORD</b>
 
-The version number of the icon or cursor format for the resource bits pointed to by the <i>pbIconBits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
+The version number of the icon or cursor format for the resource bits pointed to by the <i>presbits</i> parameter. The value must be greater than or equal to 0x00020000 and less than or equal to 0x00030000. This parameter is generally set to 0x00030000.
 
 ### -param cxDesired [in]
 
@@ -151,8 +151,6 @@ When you use this flag, the system will destroy the resource when it is no longe
 
 Do not use <b>LR_SHARED</b> for icons or cursors that have non-standard sizes, that may change after loading, or that are loaded from a file.
 
-When loading a system icon or cursor, you must use <b>LR_SHARED</b> or the function will fail to load the resource.
-
 </td>
 </tr>
 </table>
@@ -169,14 +167,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>, <b>CreateIconFromResourceEx</b>, <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> functions allow shell applications and icon browsers to examine and use resources throughout the system. 
 
-You should call <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons created with <b>CreateIconFromResourceEx</b>.
-
+You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons or <a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> for cursors created with <b>CreateIconFromResourceEx</b>.
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
-
-<div class="code"></div>
 
 ## -see-also
 

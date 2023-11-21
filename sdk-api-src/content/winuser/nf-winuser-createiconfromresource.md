@@ -98,7 +98,7 @@ The <b>CreateIconFromResource</b>, <a href="/windows/desktop/api/winuser/nf-winu
 
 The <b>CreateIconFromResource</b> function calls <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> passing <code>LR_DEFAULTSIZE|LR_SHARED</code> as flags.
 
-When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons or <a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> for cursors created with <b>CreateIconFromResource</b>.
 
 ## -see-also
 
