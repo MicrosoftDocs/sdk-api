@@ -50,9 +50,9 @@ Retrieves the current handwriting state for the [Text Services Framework](/windo
 
 ## -parameters
 
-### -param handwritingState
+### -param handwritingState [out]
 
-The system handwriting support.
+The system handwriting support. The default is TF_HANDWRITING_AUTO.
 
 ## -returns
 

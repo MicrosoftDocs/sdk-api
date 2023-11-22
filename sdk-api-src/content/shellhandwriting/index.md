@@ -26,8 +26,8 @@ Both the Text Services Framework (TSF) and UI Automation (UIA) are used to suppo
 
 The following steps describe the basic process used for ShellHandwriting functionality.
 
-1. Determine if application supports ShellHandwriting (opt-out determination). Typically applications that do not have robust UI Automation (UIA) implementations or those with custom ink handling.  
-2. If app supports ShellHandwriting, system determines whether the pen down pointer input should be passed to through to the app or used for handwriting (intent determination).
-3. If pen input should be used for handwriting, test whether the input was received by an actionable control (such as a button, which would take input precedence) and whether a control capable of receiving text (Edit, ComboBox, or Document types) can be found that is enabled, not read-only, and able to accept keyboard focus (tap determination).
-4. If input can be used for handwriting, a bounding box is created around a portion of the input to determine the best edit control that can receive the ink recognition results (target determination).
-5. When a target edit control is identified and given focus, various other context indicators (such as input scope, language, existing text bounding rects) are used to confirm appropriateness before the ink recognition results are copied to the control.
+1. **Opt-out determination:** Determine if application supports ShellHandwriting. Typically applications that do not have robust UI Automation (UIA) implementations or those with custom ink handling.  
+2. **Intent determination:** If app supports ShellHandwriting, system determines whether the pen down pointer input should be passed to through to the app or used for handwriting.
+3. **Tap determination:** If pen input should be used for handwriting, test whether the input was received by an actionable control (such as a button, which would take input precedence) and whether a control capable of receiving text (Edit, ComboBox, or Document types) can be found that is enabled, not read-only, and able to accept keyboard focus.
+4. **Target determination:** If input can be used for handwriting, a bounding box is created around a portion of the input to determine the edit control best suited to receiving the ink recognition results (target determination).
+5. **Final determination:** When a target edit control is identified and given focus, various other context indicators (such as input scope, language, existing text bounding rects) are used to confirm appropriateness before the ink recognition results are copied to the control.

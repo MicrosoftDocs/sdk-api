@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Requests that the specified pointer and ink stroke be used to provide the handwriting experience.
+Requests that the specified pointer and ink stroke be used for the handwriting experience.
 
 ## -parameters
 

@@ -50,7 +50,7 @@ Registers an [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwriting
 
 ## -parameters
 
-### -param callback
+### -param callback [in]
 
 The [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwritinginputroutingcallback.md) being registered.
 
