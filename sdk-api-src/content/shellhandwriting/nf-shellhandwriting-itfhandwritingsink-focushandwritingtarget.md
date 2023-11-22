@@ -50,7 +50,7 @@ Sets focus to the edit control that receives the input.
 
 ## -parameters
 
-### -param focusHandwritingTargetArgs
+### -param focusHandwritingTargetArgs [in]
 
 The event arguments
 

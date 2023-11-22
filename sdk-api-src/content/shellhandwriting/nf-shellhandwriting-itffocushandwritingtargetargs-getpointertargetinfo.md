@@ -62,7 +62,7 @@ This value is based on the dots-per-inch (DPI) awareness of the current thread a
 
 ### -param distanceThreshold [out, optional]
 
-The distance (vertical and horizontal) in pixels from a valid edit control for which the *targetScreenPoint* enables handwriting functionality.  
+The distance (vertical and horizontal) in pixels from a valid edit control for which the *[targetScreenPoint](nf-shellhandwriting-itfdetermineproximatehandwritingtargetargs-getpointertargetinfo.md)* enables handwriting functionality.  
 
 This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
 

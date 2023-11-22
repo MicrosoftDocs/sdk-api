@@ -52,7 +52,7 @@ Sets the current handwriting state for the [Text Services Framework](/windows/wi
 
 ### -param handwritingState [in]
 
-The system handwriting support.
+The system handwriting support. The default is TF_HANDWRITING_AUTO.
 
 ## -returns
 

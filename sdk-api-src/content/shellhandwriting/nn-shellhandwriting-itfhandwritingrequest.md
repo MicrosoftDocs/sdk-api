@@ -46,4 +46,6 @@ Applications must use this interface to notify the system that they have evaluat
 
 This interface is provided as an output parameter to the [RequestHandwritingForPointer function](nf-shellhandwriting-itfhandwriting-requesthandwritingforpointer.md) (an instance is returned on each successful handwriting request).
 
+This object is not agile, which means that you need to consider its threading model and marshaling behavior (it must be called from the thread associated with the [Thread Manager](/win32/tsf/thread-manager) object). For more info, see [Processes, Threads, and Apartments](/win32/com/processes--threads--and-apartments).
+
 ## -see-also
