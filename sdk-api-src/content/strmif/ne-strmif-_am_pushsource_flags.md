@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_PUSHSOURCE_FLAGS
-title: "_AM_PUSHSOURCE_FLAGS (strmif.h)"
+title: _AM_PUSHSOURCE_FLAGS (strmif.h)
 description: Indicates the behavior of a live source filter.
 helpviewer_keywords: ["AM_PUSHSOURCECAPS_INTERNAL_RM","AM_PUSHSOURCECAPS_NOT_LIVE","AM_PUSHSOURCECAPS_PRIVATE_CLOCK","AM_PUSHSOURCEREQS_USE_STREAM_CLOCK","AM_PUSHSOURCE_FLAGS","AM_PUSHSOURCE_FLAGSEnumeration","_AM_PUSHSOURCE_FLAGS","_AM_PUSHSOURCE_FLAGS enumeration [DirectShow]","dshow.am_pushsource_flags","strmif/AM_PUSHSOURCECAPS_INTERNAL_RM","strmif/AM_PUSHSOURCECAPS_NOT_LIVE","strmif/AM_PUSHSOURCECAPS_PRIVATE_CLOCK","strmif/AM_PUSHSOURCEREQS_USE_STREAM_CLOCK","strmif/_AM_PUSHSOURCE_FLAGS"]
 old-location: dshow\am_pushsource_flags.htm

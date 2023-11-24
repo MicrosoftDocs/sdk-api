@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._REM_FILTER_FLAGS
-title: "_REM_FILTER_FLAGS (strmif.h)"
+title: _REM_FILTER_FLAGS (strmif.h)
 description: Specifies how to remove a filter from the filter graph.
 helpviewer_keywords: ["REMFILTERF_LEAVECONNECTED","REM_FILTER_FLAGS","REM_FILTER_FLAGSEnumeration","_REM_FILTER_FLAGS","_REM_FILTER_FLAGS enumeration [DirectShow]","dshow.rem_filter_flags","strmif/REMFILTERF_LEAVECONNECTED","strmif/_REM_FILTER_FLAGS"]
 old-location: dshow\rem_filter_flags.htm

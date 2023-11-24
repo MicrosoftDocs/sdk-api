@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_VIDEO_OUTPUT_STREAM_FLAGS
-title: "_DMO_VIDEO_OUTPUT_STREAM_FLAGS (mediaobj.h)"
+title: _DMO_VIDEO_OUTPUT_STREAM_FLAGS (mediaobj.h)
 description: The DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration defines flags that describe requested features, for video optimizations.
 helpviewer_keywords: ["DMO_VIDEO_OUTPUT_STREAM_FLAGS","DMO_VIDEO_OUTPUT_STREAM_FLAGSEnumeration","DMO_VOSF_NEEDS_PREVIOUS_SAMPLE","_DMO_VIDEO_OUTPUT_STREAM_FLAGS","_DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration [DirectShow]","dshow.dmo_video_output_stream_flags","mediaobj/DMO_VOSF_NEEDS_PREVIOUS_SAMPLE","mediaobj/_DMO_VIDEO_OUTPUT_STREAM_FLAGS"]
 old-location: dshow\dmo_video_output_stream_flags.htm

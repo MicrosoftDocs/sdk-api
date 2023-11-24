@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_INPUT_STREAM_INFO_FLAGS
-title: "_DMO_INPUT_STREAM_INFO_FLAGS (mediaobj.h)"
+title: _DMO_INPUT_STREAM_INFO_FLAGS (mediaobj.h)
 description: The DMO_INPUT_STREAM_INFO_FLAGS enumeration defines flags that describe an input stream.
 helpviewer_keywords: ["DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE","DMO_INPUT_STREAMF_HOLDS_BUFFERS","DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER","DMO_INPUT_STREAMF_WHOLE_SAMPLES","DMO_INPUT_STREAM_INFO_FLAGS","DMO_INPUT_STREAM_INFO_FLAGSEnumeration","_DMO_INPUT_STREAM_INFO_FLAGS","_DMO_INPUT_STREAM_INFO_FLAGS enumeration [DirectShow]","dshow.dmo_input_stream_info_flags","mediaobj/DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE","mediaobj/DMO_INPUT_STREAMF_HOLDS_BUFFERS","mediaobj/DMO_INPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER","mediaobj/DMO_INPUT_STREAMF_WHOLE_SAMPLES","mediaobj/_DMO_INPUT_STREAM_INFO_FLAGS"]
 old-location: dshow\dmo_input_stream_info_flags.htm

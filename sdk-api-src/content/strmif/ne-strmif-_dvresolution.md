@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVRESOLUTION
-title: "_DVRESOLUTION (strmif.h)"
+title: _DVRESOLUTION (strmif.h)
 description: Indicates the digital video (DV) decoding resolution.
 helpviewer_keywords: ["DVDECODERRESOLUTIONEnumeration","DVRESOLUTION_DC","DVRESOLUTION_FULL","DVRESOLUTION_HALF","DVRESOLUTION_QUARTER","_DVRESOLUTION","_DVRESOLUTION enumeration [DirectShow]","dshow._dvresolution","strmif/DVRESOLUTION_DC","strmif/DVRESOLUTION_FULL","strmif/DVRESOLUTION_HALF","strmif/DVRESOLUTION_QUARTER","strmif/_DVRESOLUTION"]
 old-location: dshow\_dvresolution.htm

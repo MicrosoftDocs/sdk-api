@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVENCODERFORMAT
-title: "_DVENCODERFORMAT (strmif.h)"
+title: _DVENCODERFORMAT (strmif.h)
 description: Indicates the digital video (DV) format.
 helpviewer_keywords: ["DVENCODERFORMAT","DVENCODERFORMATEnumeration","DVENCODERFORMAT_DVHD","DVENCODERFORMAT_DVSD","DVENCODERFORMAT_DVSL","_DVENCODERFORMAT","_DVENCODERFORMAT enumeration [DirectShow]","dshow.dvencoderformat","strmif/DVENCODERFORMAT_DVHD","strmif/DVENCODERFORMAT_DVSD","strmif/DVENCODERFORMAT_DVSL","strmif/_DVENCODERFORMAT"]
 old-location: dshow\dvencoderformat.htm

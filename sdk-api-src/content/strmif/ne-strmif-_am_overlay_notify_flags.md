@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_OVERLAY_NOTIFY_FLAGS
-title: "_AM_OVERLAY_NOTIFY_FLAGS (strmif.h)"
+title: _AM_OVERLAY_NOTIFY_FLAGS (strmif.h)
 description: The AM_OVERLAY_NOTIFY_FLAGS enumeration indicates what the overlay has changed, or is about to change.
 helpviewer_keywords: ["AM_OVERLAY_NOTIFY_DEST_CHANGE","AM_OVERLAY_NOTIFY_FLAGS","AM_OVERLAY_NOTIFY_FLAGSEnumeration","AM_OVERLAY_NOTIFY_SOURCE_CHANGE","AM_OVERLAY_NOTIFY_VISIBLE_CHANGE","_AM_OVERLAY_NOTIFY_FLAGS","_AM_OVERLAY_NOTIFY_FLAGS enumeration [DirectShow]","dshow.am_overlay_notify_flags","strmif/AM_OVERLAY_NOTIFY_DEST_CHANGE","strmif/AM_OVERLAY_NOTIFY_SOURCE_CHANGE","strmif/AM_OVERLAY_NOTIFY_VISIBLE_CHANGE","strmif/_AM_OVERLAY_NOTIFY_FLAGS"]
 old-location: dshow\am_overlay_notify_flags.htm
