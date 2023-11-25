@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetMostSuitableTarget","GetMostSuitableTarget method [Rem
 old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm
 tech.root: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e
-ms.date: 12/05/2018
+ms.date: 11/24/2023
 ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
 req.header: sbtsv.h
 req.include-header: 
@@ -62,7 +62,7 @@ A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalancingn
 
 ## -returns
 
-If the method succeeds, then return <b>S_OK</b>. Otherwise, indicate failure by returning *any* failure <b>HRESULT</b>.
+If the method succeeds, then return **S_OK**. Otherwise, indicate failure by returning *any* failure **HRESULT**. But if you want your plug-in to indicate that it has failed to determine a target, then you can return **E_SB_LOAD_BAL_FAILED**.
 
 ## -remarks
 
