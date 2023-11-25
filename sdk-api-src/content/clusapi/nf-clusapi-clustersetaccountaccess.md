@@ -120,7 +120,7 @@ Adds a denied ACE.
 
 #### CLUSTER_DELETE_ACCESS_CONTROL_ENTRY (2)
 
-Deletes all the ACEs for for the SID.
+Deletes all the ACEs for the SID.
 
 ## -returns
 
