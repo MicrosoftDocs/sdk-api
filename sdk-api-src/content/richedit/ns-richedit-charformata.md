@@ -57,7 +57,7 @@ api_name:
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://learn.microsoft.com/en-us/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="https://learn.microsoft.com/en-us/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages.
+<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://learn.microsoft.com/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="https://learn.microsoft.com/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 
