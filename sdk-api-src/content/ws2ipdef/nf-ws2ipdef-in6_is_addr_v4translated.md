@@ -44,13 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is an IPv4-translated IPv6 address.
+
 ## -parameters
 
 ### -param a
+
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+The address to test.
+
+## -returns
+
+`true` if the address is an IPv4-translated IPv6 address; otherwise, `false`.
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-

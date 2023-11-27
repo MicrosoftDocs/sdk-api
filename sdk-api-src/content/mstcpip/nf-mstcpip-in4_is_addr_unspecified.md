@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is the unspecified IPv4 address (inaddr_any).
+
 ## -parameters
 
 ### -param a
 
+Type: \_In\_ **CONST [IN_ADDR](/windows/win32/api/inaddr/ns-inaddr-in_addr) \***
+
+Pointer to the address to test.
+
 ## -returns
+
+`true` if the address is the unspecified IPv4 address (inaddr_any); otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-

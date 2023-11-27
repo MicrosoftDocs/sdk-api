@@ -44,13 +44,22 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is an IPv4 site-local address.
+
 ## -parameters
 
 ### -param a
 
+Type: \_In\_ **CONST [IN_ADDR](/windows/win32/api/inaddr/ns-inaddr-in_addr) \***
+
+Pointer to the address to test.
+
 ## -returns
+
+`true` if the address is an IPv4 site-local address; otherwise, `false`.
+
+Returns `true` for local-use IPv4 unicast addresses.
 
 ## -remarks
 
 ## -see-also
-

@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is the IPv6 subnet router anycast address.
+
 ## -parameters
 
 ### -param a
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+Pointer to the address to test.
+
 ## -returns
+
+`true` if the address is the IPv6 subnet router anycast address; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-

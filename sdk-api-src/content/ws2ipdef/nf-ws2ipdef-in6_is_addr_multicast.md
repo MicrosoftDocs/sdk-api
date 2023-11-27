@@ -50,7 +50,7 @@ Determines whether the address argument is an IPv6 multicast address.
 
 ### -param a
 
-Type: CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \*
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
 
 Pointer to the address to test.
 

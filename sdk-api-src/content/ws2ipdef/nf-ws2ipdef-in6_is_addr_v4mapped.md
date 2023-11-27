@@ -46,7 +46,11 @@ helpviewer_keywords:
 
 Determines whether the address argument is an IPv4-mapped IPv6 address.
 
+## -parameters
+
 ### -param a
+
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
 
 The address to test.
 

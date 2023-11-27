@@ -50,6 +50,8 @@ Determines whether the address argument is the unspecified IPv6 address (in6addr
 
 ### -param a
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
 The address to test.
 
 ## -returns

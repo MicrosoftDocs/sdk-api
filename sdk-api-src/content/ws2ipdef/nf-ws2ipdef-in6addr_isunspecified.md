@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is the unspecified IPv6 address (in6addr_any).
+
 ## -parameters
 
 ### -param a
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+The address to test.
+
 ## -returns
+
+`true` if the address is the unspecified IPv6 address (in6addr_any); otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-

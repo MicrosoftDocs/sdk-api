@@ -44,15 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether two IPv6 addresses are equal.
+
 ## -parameters
 
 ### -param a
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+Pointer to the first address.
+
 ### -param b
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+Pointer to the second address.
+
 ## -returns
+
+`true` if the two addresses arguments point to values that are equal; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-

@@ -44,19 +44,19 @@ helpviewer_keywords:
 
 ## -description
 
-Determines whether the address argument is a multicast organization-local address.
+Determines whether the address argument is an IPv6 multicast organization-local address.
 
 ## -parameters
 
 ### -param a
 
-Type: CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \*
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
 
 Pointer to the address to test.
 
 ## -returns
 
-`true` if the address is a multicast organization-local address; otherwise, `false`.
+`true` if the address is an IPv6 multicast organization-local address; otherwise, `false`.
 
 ## -remarks
 

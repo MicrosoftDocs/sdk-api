@@ -44,15 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether two IPv4 addresses are equal.
+
 ## -parameters
 
 ### -param a
 
+Type: \_In\_ **CONST [IN_ADDR](/windows/win32/api/inaddr/ns-inaddr-in_addr) \***
+
+Pointer to the first address.
+
 ### -param b
 
+Type: \_In\_ **CONST [IN_ADDR](/windows/win32/api/inaddr/ns-inaddr-in_addr) \***
+
+Pointer to the second address.
+
 ## -returns
+
+`true` if the two addresses arguments point to values that are equal; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-

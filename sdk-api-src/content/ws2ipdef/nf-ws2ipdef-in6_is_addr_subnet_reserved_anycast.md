@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument is one of the 128 IPv6 subnet-reserved anycast addresses.
+
 ## -parameters
 
 ### -param a
 
+Type: **CONST [IN6_ADDR](/windows/win32/api/in6addr/ns-in6addr-in6_addr) \***
+
+Pointer to the address to test.
+
 ## -returns
+
+`true` if the address is one of the 128 IPv6 subnet-reserved anycast addresses; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-
