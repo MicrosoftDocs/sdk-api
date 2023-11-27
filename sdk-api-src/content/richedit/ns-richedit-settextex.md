@@ -119,6 +119,16 @@ The text is UTF-16
 
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="ST_PLACEHOLDERTEXT"></a><a id="st_placeholdertext"></a><dl>
+<dt><b>ST_PLACEHOLDERTEXT</b></dt><dd>0x10</dd>
+</dl>
+</td>
+<td width="60%">
+This would be placeholder text visible when the RichEdit control is without focus and empty.
+</td>
+</tr>
 </table>
 
 ### -field codepage
