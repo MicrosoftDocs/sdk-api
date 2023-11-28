@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://learn.microsoft.com/en-us/windows/win32/controls/em-settextex">EM_SETTEXTEX</a> message.
+Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://learn.microsoft.com/windows/win32/controls/em-settextex">EM_SETTEXTEX</a> message.
 
 ## -struct-fields
 
