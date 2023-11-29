@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+Determines whether the address argument (which is permitted to be unaligned) is an IPv4 multicast address.
+
 ## -parameters
 
 ### -param a
 
+Type: \_In\_ **CONST [IN_ADDR](/windows/win32/api/inaddr/ns-inaddr-in_addr) \***
+
+Pointer (which is permitted to be unaligned) to the address to test.
+
 ## -returns
+
+`true` if the address is an IPv4 multicast address; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
-
