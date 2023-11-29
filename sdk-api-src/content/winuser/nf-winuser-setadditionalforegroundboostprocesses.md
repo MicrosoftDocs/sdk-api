@@ -2,7 +2,7 @@
 UID: NF:winuser.SetAdditionalForegroundBoostProcesses
 tech.root: winmsg
 title: SetAdditionalForegroundBoostProcesses
-ms.date: 04/27/2022
+ms.date: 06/30/2023
 targetos: Windows
 description: SetAdditionalForegroundBoostProcesses is a performance assist API to help applications with a multi-process application model where multiple processes contribute to a foreground experience, either as data or rendering.
 prerelease: false
@@ -43,9 +43,6 @@ helpviewer_keywords:
 ---
 
 ## -description
-
-> [!WARNING]
-> **SetAdditionalForegroundBoostProcesses** is a [**limited access feature**](https://docs.microsoft.com/uwp/api/windows.applicationmodel.limitedaccessfeatures). Contact [foregroundboostprocs@microsoft.com](mailto:foregroundboostprocs@microsoft.com) for more information.
 
 **SetAdditionalForegroundBoostProcesses** is a performance assist API to help applications with a multi-process application model where multiple processes contribute to a foreground experience, either as data or rendering. Examples include browsers (with the browser manager or frame, tabs, plugins, etc. hosted in different processes) and IDEs (which spawn processes for compilation and other tasks). 
 

@@ -36,6 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "adobe-target": true,
       "breadcrumb_path": "/windows/desktop/api/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
       "titleSuffix": "Win32 apps",

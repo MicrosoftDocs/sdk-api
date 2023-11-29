@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Interface that represents the DirectX Shader Compiler.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcCompiler**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcCompiler**.
 
 ## -remarks
 

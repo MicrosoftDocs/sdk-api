@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: DxcCreateInstance2Proc
 ms.date: 04/05/2023
 targetos: Windows
-description: The **DxcCreateInstance2Proc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2).
+description: The **DxcCreateInstance2Proc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2.md).
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DxcCreateInstance2Proc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2).
+The **DxcCreateInstance2Proc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance2](./nf-dxcapi-dxccreateinstance2.md).
 
 ## -parameters
 

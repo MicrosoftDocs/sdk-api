@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Interface representing the DXC container builder.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcContainerBuilder**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcContainerBuilder**.
 
 ## -remarks
 

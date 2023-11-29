@@ -4,7 +4,7 @@ title: D3D12_AUTO_BREADCRUMB_NODE
 description: Represents Device Removed Extended Data (DRED) auto-breadcrumb data as a node in a linked list.
 helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_NODE","D3D12_AUTO_BREADCRUMB_NODE structure","d3d12/D3D12_AUTO_BREADCRUMB_NODE","direct3d12.d3d12_auto_breadcrumb_node"]
 tech.root: direct3d12
-ms.date: 02/06/2019
+ms.date: 10/23/2023
 ms.keywords: D3D12_AUTO_BREADCRUMB_NODE, D3D12_AUTO_BREADCRUMB_NODE structure, d3d12/D3D12_AUTO_BREADCRUMB_NODE, direct3d12.d3d12_auto_breadcrumb_node
 req.header: d3d12.h
 req.include-header: 
@@ -42,9 +42,6 @@ api_location:
 api_name:
  - D3D12_AUTO_BREADCRUMB_NODE
 ---
-
-# D3D12_AUTO_BREADCRUMB_NODE structure
-
 
 ## -description
 
@@ -84,7 +81,7 @@ A **UINT32** containing the count of [D3D12_AUTO_BREADCRUMB_OP](ne-d3d12-d3d12_a
 
 ### -field pLastBreadcrumbValue
 
-A pointer to a constant **UINT32** containing the index (within the array pointed to by `pCommandHistory`) of the last render/compute operation that was completed by the GPU while executing the associated command list.
+A pointer to a constant **UINT32** containing the number of *pCommandHistory* breadcrumbs ops completed. As such, the last successfully completed breadcrumb op is at index `(*pLastBreadcrumbValue - 1)` in *pCommandHistory*.
 
 ### -field pCommandHistory
 

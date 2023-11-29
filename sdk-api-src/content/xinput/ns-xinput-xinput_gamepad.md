@@ -1,7 +1,7 @@
 ---
 UID: NS:xinput._XINPUT_GAMEPAD
 title: XINPUT_GAMEPAD (xinput.h)
-description: Describes the current state of the Xbox 360 Controller.
+description: Describes the current state of the controller.
 helpviewer_keywords: ["*PXINPUT_GAMEPAD","PXINPUT_GAMEPAD","PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs]","XINPUT_GAMEPAD","XINPUT_GAMEPAD structure [XInput Game Controller APIs]","xinput.xinput_gamepad","xinput/PXINPUT_GAMEPAD","xinput/XINPUT_GAMEPAD"]
 old-location: xinput\xinput_gamepad.htm
 tech.root: xinput
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes the current state of the Xbox 360 Controller.
+Describes the current state of the controller.
 
 ## -struct-fields
 
@@ -163,7 +163,7 @@ The specific mapping of button to game function varies depending on the game typ
 
 
 
-The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>bLeftTrigger</i> and <i>bRightTrigger</i> must be greater than to register as pressed. This is optional, but often desirable. Xbox 360 Controller buttons do not manifest crosstalk.
+The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>bLeftTrigger</i> and <i>bRightTrigger</i> must be greater than to register as pressed. This is optional, but often desirable. Controller buttons do not manifest crosstalk.
 
 ## -see-also
 

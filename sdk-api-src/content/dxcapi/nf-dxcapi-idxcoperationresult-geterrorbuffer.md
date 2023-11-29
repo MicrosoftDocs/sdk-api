@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcOperationResult::GetErrorBuffer
 ms.date: 04/05/2023
 targetos: Windows
-description: Retrieves the error buffer from the operation, if there is one. This corresponds to calling [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput) with [DXC_OUT_ERRORS](./ne-dxcapi-dxc_out_kind).
+description: Retrieves the error buffer from the operation, if there is one. This corresponds to calling [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput.md) with [DXC_OUT_ERRORS](./ne-dxcapi-dxc_out_kind.md).
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dxcapi.h
 api_name:
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Retrieves the error buffer from the operation, if there is one. This corresponds to calling [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput) with [DXC_OUT_ERRORS](./ne-dxcapi-dxc_out_kind).
+Retrieves the error buffer from the operation, if there is one. This corresponds to calling [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput.md) with [DXC_OUT_ERRORS](./ne-dxcapi-dxc_out_kind.md).
 
 ## -parameters
 

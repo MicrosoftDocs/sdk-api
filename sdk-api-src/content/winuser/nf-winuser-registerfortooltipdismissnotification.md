@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - winuser.h
 api_name:

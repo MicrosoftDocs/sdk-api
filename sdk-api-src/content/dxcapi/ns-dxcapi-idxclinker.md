@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 The DXC linker interface.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance).
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md).
 
 ## -remarks
 

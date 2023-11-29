@@ -2,10 +2,10 @@
 UID: NF:shellhandwriting.RegisterHandwritingInputRoutingCallback
 tech.root: input_ink
 title: RegisterHandwritingInputRoutingCallback
-ms.date: 07/17/2023
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - shellhandwriting.h
 api_name:
@@ -42,13 +42,21 @@ helpviewer_keywords:
  - RegisterHandwritingInputRoutingCallback
 ---
 
+# RegisterHandwritingInputRoutingCallback function
+
 ## -description
+
+Registers an [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwritinginputroutingcallback.md).
 
 ## -parameters
 
-### -param callback
+### -param callback [in]
+
+The [IHandwritingInputRoutingCallback](nn-shellhandwriting-ihandwritinginputroutingcallback.md) being registered.
 
 ## -returns
+
+If the method succeeds, it returns **S_OK**. If it fails, it returns an **HRESULT** error code.
 
 ## -remarks
 

@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Represents PDB version information.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcPdbUtils**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcPdbUtils**.
 
 ## -remarks
 

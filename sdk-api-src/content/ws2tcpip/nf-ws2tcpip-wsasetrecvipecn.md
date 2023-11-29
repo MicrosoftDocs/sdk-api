@@ -26,7 +26,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - ws2tcpip.h
 api_name:

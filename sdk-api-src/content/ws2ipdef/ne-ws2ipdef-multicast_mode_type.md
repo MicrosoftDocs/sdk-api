@@ -45,9 +45,6 @@ api_name:
  - MULTICAST_MODE_TYPE
 ---
 
-# MULTICAST_MODE_TYPE enumeration
-
-
 ## -description
 
 The <b>MULTICAST_MODE_TYPE</b> enumeration specifies the filter mode for multicast group addresses.

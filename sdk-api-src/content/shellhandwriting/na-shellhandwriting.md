@@ -2,10 +2,10 @@
 UID: NA:shellhandwriting
 tech.root: input_ink
 title: shellhandwriting
-ms.date: 07/17/2023
+ms.date: 10/24/2023
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ helpviewer_keywords:
  - shellhandwriting
 ---
 
+# See index.md
+
 ## -description
 
 ## -remarks
@@ -50,4 +52,3 @@ helpviewer_keywords:
 ## -see-also
 
 ## -examples
-

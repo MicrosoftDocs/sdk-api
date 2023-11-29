@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcCompiler::Compile
 ms.date: 04/05/2023
 targetos: Windows
-description: Compile a single entry point to the target shader model. **IDxcCompiler::Compile** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile) instead.
+description: Compile a single entry point to the target shader model. **IDxcCompiler::Compile** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md) instead.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dxcapi.h
 api_name:
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Compile a single entry point to the target shader model. **IDxcCompiler::Compile** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile) instead.
+Compile a single entry point to the target shader model. **IDxcCompiler::Compile** is deprecated; use [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md) instead.
 
 ## -parameters
 

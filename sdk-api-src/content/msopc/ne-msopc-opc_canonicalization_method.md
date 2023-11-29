@@ -77,7 +77,7 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML standard</a>
 
 
 

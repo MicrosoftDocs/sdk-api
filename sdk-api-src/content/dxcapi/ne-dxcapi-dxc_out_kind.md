@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: DXC_OUT_KIND
 ms.date: 04/05/2023
 targetos: Windows
-description: Specifies the kind of output to retrieve from an [IDxcResult](./ns-dxcapi-idxcresult).
+description: Specifies the kind of output to retrieve from an [IDxcResult](./ns-dxcapi-idxcresult.md).
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description
 
-Defines constants that specify the kind of output to retrieve from an [IDxcResult](./ns-dxcapi-idxcresult). For use with the *dxcOutKind* parameter of [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput) and [IDxcResult::HasOutput](./nf-dxcapi-idxcresult-hasoutput).
+Defines constants that specify the kind of output to retrieve from an [IDxcResult](./ns-dxcapi-idxcresult.md). For use with the *dxcOutKind* parameter of [IDxcResult::GetOutput](./nf-dxcapi-idxcresult-getoutput.md) and [IDxcResult::HasOutput](./nf-dxcapi-idxcresult-hasoutput).
 
 > [!NOTE]
 > Text outputs returned from version 2 APIs are UTF-8 or UTF-16, depending on the `-encoding` option passed to the compiler.

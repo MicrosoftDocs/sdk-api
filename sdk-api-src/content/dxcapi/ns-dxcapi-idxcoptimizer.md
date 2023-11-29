@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Interface representing DxcOptimizer.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcOptimizer**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcOptimizer**.
 
 ## -remarks
 

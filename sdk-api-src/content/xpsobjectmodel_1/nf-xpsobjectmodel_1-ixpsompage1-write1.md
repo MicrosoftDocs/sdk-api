@@ -80,6 +80,6 @@ The XPS markup that is  written to the stream by this method contains the page m
 
 [IXpsOMPage](nn-xpsobjectmodel_1-ixpsompage1.md)
 
-[XML Paper Specification](http://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 
 [XPS Document Errors](https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85))

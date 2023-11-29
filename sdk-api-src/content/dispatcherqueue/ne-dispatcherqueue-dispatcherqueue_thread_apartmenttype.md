@@ -1,7 +1,7 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE (dispatcherqueue.h)
-description: Specifies the threading apartment type for a new DispatcherQueueController.
+description: Defines constants that specify options around type of COM apartment for a new DispatcherQueueController.
 helpviewer_keywords: ["DISPATCHERQUEUE_THREAD_APARTMENTTYPE","DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration","DQTAT_COM_ASTA","DQTAT_COM_NONE","DQTAT_COM_STA","base.dispatcherqueue_thread_apartmenttype","dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE","dispatcherqueue/DQTAT_COM_ASTA","dispatcherqueue/DQTAT_COM_NONE","dispatcherqueue/DQTAT_COM_STA"]
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
 tech.root: backup
@@ -45,12 +45,9 @@ api_name:
  - DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 ---
 
-# DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration
-
-
 ## -description
 
-Specifies the threading apartment type for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
+Defines constants that specify options around type of COM apartment for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ## -enum-fields
 
@@ -68,7 +65,9 @@ Specifies a single-threaded apartment (STA) COM threading apartment.
 
 ## -remarks
 
-This value is relevant when <a href="/windows/desktop/api/dispatcherqueue/ns-dispatcherqueue-dispatcherqueueoptions">DispatcherQueueOptions.threadType</a> is  <b>DQTYPE_THREAD_DEDICATED</b>. Use <b>DQTAT_COM_NONE</b> when <b>DispatcherQueueOptions.threadType</b> is <b>DQTYPE_THREAD_CURRENT</b>.
+This value is relevant when <a href="/windows/desktop/api/dispatcherqueue/ns-dispatcherqueue-dispatcherqueueoptions">DispatcherQueueOptions.threadType</a> is <b>DQTYPE_THREAD_DEDICATED</b>. Use <b>DQTAT_COM_NONE</b> when <b>DispatcherQueueOptions.threadType</b> is <b>DQTYPE_THREAD_CURRENT</b>.
+
+Also see Remarks for [CreateDispatcherQueueController](./nf-dispatcherqueue-createdispatcherqueuecontroller.md).
 
 Introduced in Windows 10, version 1709.
 

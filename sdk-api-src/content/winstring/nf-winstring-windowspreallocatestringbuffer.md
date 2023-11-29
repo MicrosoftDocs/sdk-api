@@ -89,7 +89,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was created successfully.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 </dl>
 </td>
 <td width="60%">
-The requested [**HSTRING**](/windows/win32/winrt/hstring) allocation size is too large.
+The requested <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> allocation size is too large.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The requested [**HSTRING**](/windows/win32/winrt/hstring) allocation size is too
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the [**HSTRING**](/windows/win32/winrt/hstring) buffer.
+Failed to allocate the <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>.
 
 </td>
 </tr>

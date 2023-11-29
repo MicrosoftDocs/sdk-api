@@ -19,5 +19,4 @@ To develop Windows Mixed Reality, you need these headers:
  * [spatialinteractionmanagerinterop.h](../spatialinteractionmanagerinterop/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Mixed Reality](https://www.microsoft.com/mixed-reality/windows-mixed-reality)
-
+* [Windows Mixed Reality](https://developer.microsoft.com/mixed-reality/)

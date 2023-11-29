@@ -66,7 +66,7 @@ The reference refers to all of the relationships represented as relationship obj
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML standard</a>
 
 
 

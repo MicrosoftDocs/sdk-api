@@ -58,7 +58,7 @@ Describes the status of a document's digital signature.
 
 ### -field XPS_SIGNATURE_STATUS_INCOMPLIANT:1
 
-The signature violates one or more  signing rules stated in section 10.2.1.2 of the   <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>. These rules describe the parts or relationships that must or must not be signed.
+The signature violates one or more  signing rules stated in section 10.2.1.2 of the   <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>. These rules describe the parts or relationships that must or must not be signed.
 
 A signature that is incompliant must be created as such. 
 Changing signed content cannot make a valid signature incompliant. One example of an incompliant signature  is the signature of a   package that has an unknown relationships type at the root.
@@ -86,9 +86,9 @@ This is a valid signature: it is not broken, incompliant, or questionable. The a
 
 ## -remarks
 
-The digital signature status values correspond to section 10.2.1.2 in the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+The digital signature status values correspond to section 10.2.1.2 in the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
-The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>.
+The Open Packaging Conventions are specified in   the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>.
 
 <div class="alert"><b>Note</b>  These resources may not be available in some languages 
 
@@ -97,9 +97,9 @@ and countries.</div>
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 

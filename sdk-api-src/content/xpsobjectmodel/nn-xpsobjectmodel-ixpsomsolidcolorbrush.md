@@ -119,7 +119,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
  
 
  

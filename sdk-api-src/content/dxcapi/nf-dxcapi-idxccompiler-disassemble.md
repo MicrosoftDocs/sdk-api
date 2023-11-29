@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcCompiler::Disassemble
 ms.date: 04/05/2023
 targetos: Windows
-description: Disassemble a program. **IDxcCompiler::Disassemble** is deprecated; use [IDxcCompiler3::Disassemble](./nf-dxcapi-idxccompiler3-disassemble) instead.
+description: Disassemble a program. **IDxcCompiler::Disassemble** is deprecated; use [IDxcCompiler3::Disassemble](./nf-dxcapi-idxccompiler3-disassemble.md) instead.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dxcapi.h
 api_name:
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Disassemble a program. **IDxcCompiler::Disassemble** is deprecated; use [IDxcCompiler3::Disassemble](./nf-dxcapi-idxccompiler3-disassemble) instead.
+Disassemble a program. **IDxcCompiler::Disassemble** is deprecated; use [IDxcCompiler3::Disassemble](./nf-dxcapi-idxccompiler3-disassemble.md) instead.
 
 ## -parameters
 

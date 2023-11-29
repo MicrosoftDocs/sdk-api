@@ -107,7 +107,7 @@ This function can return one of these values.
 <ul>
 <li><b>IMAGE_FILE_MACHINE_AMD64</b> was specified for <i>machine</i>, but the current platform is not Win64, or</li>
 <li><i>machine</i> is not <b>IMAGE_FILE_MACHINE_AMD64</b>,  <b>IMAGE_FILE_MACHINE_I386</b>, or <b>IMAGE_FILE_MACHINE_ARM</b>, or</li>
-<li><i>targetHString</i> is not a correctly formed [**HSTRING**](/windows/win32/winrt/hstring). </li>
+<li><i>targetHString</i> is not a correctly formed <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>. </li>
 </ul>
 
 </td>

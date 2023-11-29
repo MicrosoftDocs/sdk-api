@@ -129,7 +129,7 @@ An incompatible connection started.
 An incompatible connection refers to one of the following cases:<ul>
 <li>An ad hoc wireless connection is started on the primary station adapter.</li>
 <li>Network monitoring is started on the primary station adapter by an application (Network Monitor, for example) that calls the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a> function with the <i>OpCode</i> parameter set to  <b>wlan_intf_opcode_current_operation_mode</b> and the <i>pData</i> parameter points to a ULONG that contains <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. </li>
-<li>A wireless connection is started in FIPS safe mode on the primary station adapter. FIPS safe mode is specified in the profile of the wireless connection. For more information, see the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-fipsmode-authencryption-element">FIPSMode Element</a> .
+<li>A wireless connection is started in FIPS safe mode on the primary station adapter. FIPS safe mode is specified in the profile of the wireless connection. For more information, see the <a href="/windows/win32/nativewifi/wlan-profileschema-authencryption-security-element#fipsmode">FIPSMode Element</a>.
 </li>
 </ul>
 

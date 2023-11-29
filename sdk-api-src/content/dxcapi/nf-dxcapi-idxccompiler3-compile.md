@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dxcapi.h
 api_name:
@@ -77,7 +77,7 @@ The interface ID for the result.
 
 ### -param ppResult
 
-An [IDxcResult](./ns-dxcapi-idxcresult) representing the compiler output status, buffer, and errors.
+An [IDxcResult](./ns-dxcapi-idxcresult.md) representing the compiler output status, buffer, and errors.
 
 ## -returns
 

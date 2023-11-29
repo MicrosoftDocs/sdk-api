@@ -2,10 +2,10 @@
 UID: NN:shellhandwriting.IHandwritingInputRoutingCallback
 tech.root: input_ink
 title: IHandwritingInputRoutingCallback
-ms.date: 07/17/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
-prerelease: true
+description: Provides input routing support for separating the pen input handling system thread from the UI thread of the input target.
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -36,9 +36,12 @@ helpviewer_keywords:
  - IHandwritingInputRoutingCallback
 ---
 
+# IHandwritingInputRoutingCallback interface
+
 ## -description
+
+Provides input routing to separate the pen input thread from the UI thread of the input target.
 
 ## -remarks
 
 ## -see-also
-

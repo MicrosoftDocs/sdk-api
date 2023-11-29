@@ -101,13 +101,13 @@ The <i>pdwFlags</i> parameter can point to an address location that contains the
 </dl>
 </td>
 <td width="60%">
-On input, this flag indicates that the caller wants to retrieve the plain text key from a wireless profile. If the calling thread has the required permissions, the  <b>WlanGetProfile</b> function returns the plain text key in the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter.
+On input, this flag indicates that the caller wants to retrieve the plain text key from a wireless profile. If the calling thread has the required permissions, the  <b>WlanGetProfile</b> function returns the plain text key in the <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter.
 
 For the <b>WlanGetProfile</b> call to return the plain text key, the <b>wlan_secure_get_plaintext_key</b> permissions from the <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object">WLAN_SECURABLE_OBJECT</a> enumerated type must be set on the calling thread. The DACL must also contain an ACE that grants <b>WLAN_READ_ACCESS</b> permission to the access token of the calling thread. By default,  the permissions for retrieving the plain text key is allowed only to the members of the Administrators group on a local machine.
 
 
 
-If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
+If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
 
 <b>Windows 7:  </b>This flag passed on input is an extension to native wireless APIs added on Windows 7 and  later.  The <i>pdwFlags</i> parameter is an __inout_opt parameter on Windows 7 and  later.  
 
@@ -274,7 +274,7 @@ The caller is responsible for calling the <a href="/windows/desktop/api/wlanapi/
 
 If <i>pstrProfileXml</i> specifies an all-user profile, the <b>WlanGetProfile</b>  caller must have read access on the profile. Otherwise, the <b>WlanGetProfile</b> call will fail with a return value of <b>ERROR_ACCESS_DENIED</b>. The permissions on an all-user profile are established when the profile is created or saved using <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
 
-<b>Windows 7:  </b><p class="note">The <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> may be requested as plaintext if the <b>WlanGetProfile</b> function is called with the <b>WLAN_PROFILE_GET_PLAINTEXT_KEY</b>  flag set in the value pointed to by the <i>pdwFlags</i> parameter on input.   
+<b>Windows 7:  </b><p class="note">The <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> may be requested as plaintext if the <b>WlanGetProfile</b> function is called with the <b>WLAN_PROFILE_GET_PLAINTEXT_KEY</b>  flag set in the value pointed to by the <i>pdwFlags</i> parameter on input.   
 
 <p class="note">For a WEP key, both 5 ASCII characters or 10 hexadecimal characters can be used to set the plaintext key when the profile is created or updated. However, a WEP profile will be saved with  10 hexadecimal characters in the key no matter what the original input was used to create the profile. So in the profile returned by the  <b>WlanGetProfile</b> function, the plaintext WEP key  is always returned as 10 hexadecimal characters.
 
@@ -283,13 +283,13 @@ If <i>pstrProfileXml</i> specifies an all-user profile, the <b>WlanGetProfile</b
 
 
 
-<p class="note">If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
+<p class="note">If the calling thread lacks the required permissions, the <b>WlanGetProfile</b> function returns the encrypted key in the <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element of the profile returned in the buffer pointed to by the   <i>pstrProfileXml</i> parameter. No error is returned if the calling thread lacks the required permissions. 
 
-<p class="note">By default, the <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile pointed to by the <i>pstrProfileXml</i> is encrypted.   If your process runs in the context of the LocalSystem account on the same computer, then you can unencrypt key material by calling the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function. 
+<p class="note">By default, the <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element returned in the profile pointed to by the <i>pstrProfileXml</i> is encrypted.   If your process runs in the context of the LocalSystem account on the same computer, then you can unencrypt key material by calling the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function. 
 
 
 
-<b>Windows Server 2008 and Windows Vista:  </b>The <a href="/windows/desktop/NativeWiFi/wlan-profileschema-keymaterial-sharedkey-element">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> is always encrypted.  If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function.
+<b>Windows Server 2008 and Windows Vista:  </b>The <a href="/windows/win32/nativewifi/wlan-profileschema-sharedkey-security-element#keymaterial">keyMaterial</a> element returned in the profile schema pointed to by the <i>pstrProfileXml</i> is always encrypted.  If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> function.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
 

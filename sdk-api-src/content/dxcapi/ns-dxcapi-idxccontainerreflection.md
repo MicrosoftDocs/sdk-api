@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Interface representing DxcContainerReflection.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcContainerReflection**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcContainerReflection**.
 
 ## -remarks
 

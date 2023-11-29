@@ -1,7 +1,7 @@
 ---
 UID: NF:dispatcherqueue.CreateDispatcherQueueController
 title: CreateDispatcherQueueController function (dispatcherqueue.h)
-description: Creates a DispatcherQueueController. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
+description: Creates a DispatcherQueueController. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the dispatcher queue's thread.
 helpviewer_keywords: ["CreateDispatcherQueueController","CreateDispatcherQueueController function","base.createdispatcherqueuecontroller","dispatcherqueue/CreateDispatcherQueueController"]
 old-location: base\createdispatcherqueuecontroller.htm
 tech.root: backup
@@ -45,9 +45,6 @@ api_name:
  - CreateDispatcherQueueController
 ---
 
-# CreateDispatcherQueueController function
-
-
 ## -description
 
 Creates a <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>. Use the created <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> to create and manage the lifetime of a <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> to run queued tasks in priority order on the dispatcher queue's thread.
@@ -86,7 +83,7 @@ If <i>options.threadType</i> is <b>DQTYPE_THREAD_CURRENT</b>, then a
 An error results if there is already a <b>DispatcherQueue</b> associated with the current thread.
 The current thread must pump messages to allow the dispatcher queue to dispatch tasks.
 Before the current thread exits, it must call
-<a href="/uwp/api/windows.system.dispatcherqueuecontroller.shutdownqueueasync">DispatcherQueueController.ShutdownQueueAsync</a>
+<a href="/uwp/api/windows.system.dispatcherqueuecontroller.shutdownqueueasync">DispatcherQueueController.ShutdownQueueAsync</a>,
 and continue pumping messages until the <b>IAsyncAction</b> completes.
 
 This call does not return until the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> and new thread (if any) are created.

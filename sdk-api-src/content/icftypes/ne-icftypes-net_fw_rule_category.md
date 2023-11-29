@@ -78,7 +78,7 @@ Maximum value for testing purposes.
 
 ## -remarks
 
-For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=08d23da9-ff0e-4e6f-b742-878ca1977c55">Windows Firewall and User Facing Impact</a> document.
+For more information about using Firewalls, see [Best practices for configuring Windows Defender Firewall](/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring)
 
 ## -see-also
 
