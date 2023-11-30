@@ -68,6 +68,8 @@ A tensor containing the indices. The *DimensionCount* of this tensor must match 
 
 Starting with `DML_FEATURE_LEVEL_3_0`, this operator supports negative index values when using a signed integral type with this tensor. Negative indices are interpreted as being relative to the end of the axis dimension. For example, an index of -1 refers to the last element along that dimension.
 
+Invalid indices will yield incorrect outputs, but no failure will occur, and all reads will be clamped safely within the input tensor's memory.
+
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
