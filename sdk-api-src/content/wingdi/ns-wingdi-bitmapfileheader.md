@@ -59,7 +59,7 @@ The <b>BITMAPFILEHEADER</b> structure contains information about the type, size,
 
 ### -field bfType
 
-The file type; must be `0x4d42` (`BM` ASCII string).
+The file type; must be `0x4d42` (the ASCII string "BM").
 
 ### -field bfSize
 
@@ -83,7 +83,7 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> or <
 
 ## Examples
 
-For an example, see <a href="/windows/win32/gdi/storing-an-image">Storing an Image</a>.
+For an example, see [Storing an image](/windows/win32/gdi/storing-an-image).
 
 ## -see-also
 
