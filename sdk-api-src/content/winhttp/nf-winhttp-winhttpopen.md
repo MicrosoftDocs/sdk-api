@@ -88,8 +88,8 @@ Resolves all host names directly without a proxy.
 Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP_ACCESS_TYPE_DEFAULT_PROXY</b> does not inherit browser proxy settings.
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
+<li>The <a href="/windows/win32/winhttp/netsh-exe-commands">Netsh.exe commands</a> on Windows Vista and Windows Server 2008 or later.</li>
 <li>The <a href="/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731131(v=ws.10)#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>
