@@ -153,3 +153,5 @@ For an example, see <a href="/windows/desktop/Memory/awe-example">AWE Example</a
 
 
 <a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+
+[AllocateUserPhysicalPages2](nf-memoryapi-allocateuserphysicalpages2.md)

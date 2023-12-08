@@ -100,3 +100,25 @@ Physical pages can reside at any physical address. You should make no assumption
 ## -see-also
 
 [AllocateUserPhysicalPages](nf-memoryapi-allocateuserphysicalpages.md)
+
+<a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
+
+
+
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>
+
+
+
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
+
+
+
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages">MapUserPhysicalPages</a>
+
+
+
+<a href="/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
+
+
+
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
