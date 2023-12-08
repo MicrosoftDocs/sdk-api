@@ -72,6 +72,8 @@ By default, the name is limited to MAX_PATH characters.
 
 > [!TIP]
 > Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation. See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+>
+> Note that setting a current directory longer than the MAX_PATH limitation will cause <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessw">CreateProcess</a> to fail unless the caller overrides the current directory.
 
 The final character before the null character must be a backslash ('\\'). If you do not specify the backslash, it will be added for you; therefore, specify <b>MAX_PATH</b>-2 characters for the path unless you  include the trailing backslash, in which case, specify <b>MAX_PATH</b>-1 characters for the path.
 
