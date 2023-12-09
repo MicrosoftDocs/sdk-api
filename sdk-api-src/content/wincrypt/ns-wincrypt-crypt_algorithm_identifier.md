@@ -60,11 +60,7 @@ The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to e
 
 ### -field pszObjId
 
-An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by 
-
-
-
-various users.
+An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by various users.
 
 <table>
 <tr>
