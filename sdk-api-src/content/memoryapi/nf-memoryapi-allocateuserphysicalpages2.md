@@ -19,8 +19,8 @@ req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 11, Build 20348
+req.target-min-winversvr: Windows Server, Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
