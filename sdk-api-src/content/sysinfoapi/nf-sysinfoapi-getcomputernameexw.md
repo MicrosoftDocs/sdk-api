@@ -199,7 +199,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-The <i>lpBuffer</i> buffer is too small. The <i>lpnSize</i> parameter contains the number of bytes required to receive the name.
+The <i>lpBuffer</i> buffer is too small. The <i>lpnSize</i> parameter contains the number of signs required to receive the name.
 
 </td>
 </tr>
