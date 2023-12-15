@@ -68,7 +68,7 @@ Template configurations are provided below for reference only. *Configurations m
 
 ### Available conditions for resources
 
-#### ACTIVITY_COORDINATOR_CONDITION_GOOD
+#### ACTIVITY_COORDINATOR_POLICY_TEMPLATE_GOOD
 
 | Resource | Available value |
 |-----|-----|
@@ -80,7 +80,7 @@ Template configurations are provided below for reference only. *Configurations m
 | System-Disk | ACTIVITY_COORDINATOR_CONDITION_GOOD |
 | GPU | ACTIVITY_COORDINATOR_CONDITION_NOT_SET |
 
-#### ACTIVITY_COORDINATOR_CONDITION_MEDIUM
+#### ACTIVITY_COORDINATOR_POLICY_TEMPLATE_MEDIUM
 
 | Resource | Available value |
 |-----|-----|
