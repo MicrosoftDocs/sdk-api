@@ -69,9 +69,9 @@ This method allows the server to impersonate the client of the current call for 
 
 
 ``` syntax
-    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
-    pss-&gt;ImpersonateClient();
-    pss-&gt;Release();
+    CoGetCallContext(IID_IServerSecurity, (void**)&pss);
+    pss->ImpersonateClient();
+    pss->Release();
 
 ```
 
