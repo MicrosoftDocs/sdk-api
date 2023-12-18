@@ -19,5 +19,8 @@ This header is used by Developer Notes. For more information, see:
 
 - [Developer Notes](../_winprog/index.md)
 
+> [!WARNING]
+> This is a deprecated API.
+
 > [!NOTE]
 > Windows Defender Application Guard (WDAG) is now Microsoft Defender Application Guard (MDAG). The WDAG name is deprecated, but it is still used in some APIs.

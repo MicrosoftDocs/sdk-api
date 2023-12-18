@@ -50,3 +50,8 @@ api_name:
 ## -description
 
 Enables apps to determine whether they are running in a Microsoft Defender Application Guard container (VM container environment).
+
+## -remarks
+
+> [!WARNING]
+> This is a deprecated API.

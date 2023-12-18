@@ -58,6 +58,9 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 #### Examples
 
 The following example shows how to use the `IsContainerRunning` method.

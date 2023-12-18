@@ -58,6 +58,9 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 The *guid* (container Id) is a parameter needed to open hvsocket communication from host to container.
 
 This call will fail if the container hasn't been created yet.

@@ -58,6 +58,9 @@ The *CorrelationGUID* field is a **GUID** that is used to correlate telemetry ev
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 [IIsolatedAppLauncher](nn-isolatedapplauncher-iisolatedapplauncher.md)
