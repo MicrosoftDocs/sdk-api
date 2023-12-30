@@ -70,7 +70,7 @@ Render all user-defined properties under the <b>UserData</b> or <b>EventData</b>
 
 ## -remarks
 
-You cannot specify the EvtRenderContextValues flag with the EvtRenderContextSystem or EvtRenderContextUser flag.
+You cannot combine any of the flags.
 
 ## -see-also
 
