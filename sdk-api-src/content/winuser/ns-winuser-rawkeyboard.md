@@ -143,7 +143,7 @@ case WM_INPUT:
         {
             // Scan codes may be empty for some buttons (like multimedia buttons).
             // Try to map them from the virtual key code.
-            scanCode = LOWORD(MapVirtualKeyW(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
+            scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
         }
     }
 
