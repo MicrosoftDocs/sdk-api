@@ -170,8 +170,8 @@ case WM_INPUT:
                 rect.bottom = GetSystemMetrics(SM_CYSCREEN);
             }
 
-            int absoluteX = MulDiv(mouse.lLastX, rect.right, 65535) + rect.left;
-            int absoluteY = MulDiv(mouse.lLastY, rect.bottom, 65535) + rect.top;
+            int absoluteX = MulDiv(mouse.lLastX, rect.right, USHRT_MAX) + rect.left;
+            int absoluteY = MulDiv(mouse.lLastY, rect.bottom, USHRT_MAX) + rect.top;
             ...
         }
         else if (mouse.lLastX != 0 || mouse.lLastY != 0)
