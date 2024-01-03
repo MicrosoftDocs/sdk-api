@@ -149,7 +149,7 @@ case WM_INPUT:
         // Get key name
         LPARAM lParam = MAKELPARAM(0, (HIBYTE(scanCode) ? KF_EXTENDED : 0x00) | LOBYTE(scanCode));
         TCHAR keyNameBuffer[MAX_PATH] = {};
-        GetKeyNameText(static_cast<LONG>(lParam), keyNameBuffer, 255);
+        GetKeyNameText((LONG)lParam, keyNameBuffer, MAX_PATH);
 
         // Debug output
         TCHAR printBuffer[MAX_PATH] = {};
