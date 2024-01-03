@@ -145,8 +145,17 @@ case WM_INPUT:
             // Try to map them from the virtual key code.
             scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
         }
-    }
 
+        // Get key name
+        LPARAM lParam = MAKELPARAM(0, (HIBYTE(scanCode) ? KF_EXTENDED : 0x00) | LOBYTE(scanCode));
+        TCHAR keyNameBuffer[MAX_PATH] = {};
+        GetKeyNameText(static_cast<LONG>(lParam), keyNameBuffer, 255);
+
+        // Debug output
+        TCHAR printBuffer[MAX_PATH] = {};
+        StringCchPrintf(printBuffer, MAX_PATH, TEXT("Keyboard: scanCode=%04x keyName=%s\r\n"), scanCode, keyNameBuffer);
+        OutputDebugString(printBuffer);
+    }
     ...
 
     return 0;
