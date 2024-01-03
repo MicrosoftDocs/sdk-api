@@ -209,24 +209,23 @@ if ((mouse.usButtonFlags & RI_MOUSE_WHEEL) || (mouse.usButtonFlags & RI_MOUSE_HW
     bool isScrollByPage = false;
     float scrollDelta = numTicks;
 
-    // Vertical scroll
+    // Horizontal scroll
     if (mouse.usButtonFlags & RI_MOUSE_HWHEEL)
     {
-        unsigned long scrollLines = 0;
+        unsigned long scrollChars = 3;
+        SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
+        scrollDelta *= scrollChars;
+        ...
+    }
+    // Vertical scroll
+    else 
+    {
+        unsigned long scrollLines = 1;
         SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, &scrollLines, 0);
         if (scrollLines == WHEEL_PAGESCROLL)
             isScrollByPage = true;
         else
             scrollDelta *= scrollLines;
-        ...
-
-    }
-    // Horizontal scroll
-    else 
-    {
-        unsigned long scrollChars = 0;
-        SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
-        scrollDelta *= scrollChars;
         ...
     }
 }
