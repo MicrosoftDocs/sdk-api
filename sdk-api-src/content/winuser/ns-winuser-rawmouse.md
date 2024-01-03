@@ -212,7 +212,7 @@ if ((mouse.usButtonFlags & RI_MOUSE_WHEEL) || (mouse.usButtonFlags & RI_MOUSE_HW
     // Horizontal scroll
     if (mouse.usButtonFlags & RI_MOUSE_HWHEEL)
     {
-        unsigned long scrollChars = 3;
+        unsigned long scrollChars = 1;
         SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
         scrollDelta *= scrollChars;
         ...
@@ -220,7 +220,7 @@ if ((mouse.usButtonFlags & RI_MOUSE_WHEEL) || (mouse.usButtonFlags & RI_MOUSE_HW
     // Vertical scroll
     else 
     {
-        unsigned long scrollLines = 1;
+        unsigned long scrollLines = 3;
         SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, &scrollLines, 0);
         if (scrollLines == WHEEL_PAGESCROLL)
             isScrollByPage = true;
