@@ -68,6 +68,9 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 #### Examples
 
 This example assumes `c:\hostfolder1` is already shared into the container by following the [ShareDirectory](nf-isolatedapplauncher-iisolatedprocesslauncher-sharedirectory.md) example.

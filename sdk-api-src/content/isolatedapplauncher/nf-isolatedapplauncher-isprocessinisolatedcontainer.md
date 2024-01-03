@@ -58,4 +58,7 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also

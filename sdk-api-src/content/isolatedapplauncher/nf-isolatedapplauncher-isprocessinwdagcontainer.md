@@ -62,6 +62,9 @@ Returns an **HRESULT** success or error code.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 > [!NOTE]
 > Windows Defender Application Guard (WDAG) is now Microsoft Defender Application Guard (MDAG). The WDAG name is deprecated, but it is still used in some APIs.
 

@@ -42,4 +42,7 @@ Enables apps to determine whether processes are running in a Microsoft Defender 
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
