@@ -172,7 +172,7 @@ case WM_INPUT:
 
             int absoluteX = MulDiv(mouse.lLastX, rect.right, 65535) + rect.left;
             int absoluteY = MulDiv(mouse.lLastY, rect.bottom, 65535) + rect.top;
-            //...
+            ...
         }
         else if (mouse.lLastX != 0 || mouse.lLastY != 0)
         {
