@@ -79,7 +79,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the [VideoProcAmpFlags](/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration, indicating whether the property is controlled automatically or manually.
+Receives one or more members of the [VideoProcAmpFlags](/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration, indicating whether the property is controlled automatically, manually, or both.
 
 ## -returns
 
