@@ -29,7 +29,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - wow64apiset.h
+ - KernelBase.dll
+ - api-ms-win-core-wow64-l1-1-1.dll  
 api_name:
  - Wow64SetThreadDefaultGuestMachine
 f1_keywords:
