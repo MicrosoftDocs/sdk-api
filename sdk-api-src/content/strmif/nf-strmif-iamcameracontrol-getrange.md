@@ -79,7 +79,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically or manually.
+Receives one or more members of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically, manually, or both.
 
 ## -returns
 
