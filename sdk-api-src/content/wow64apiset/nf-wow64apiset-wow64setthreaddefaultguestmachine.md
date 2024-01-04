@@ -8,7 +8,7 @@ tech.root: fs
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Kernel32.dll
+req.dll: api-ms-win-core-wow64-l1-1-1.dll
 req.header: wow64apiset.h
 req.idl: 
 req.include-header: 
