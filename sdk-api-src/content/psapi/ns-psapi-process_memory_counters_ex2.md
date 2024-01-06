@@ -5,7 +5,7 @@ title: PROCESS_MEMORY_COUNTERS_EX2
 ms.date: 01/05/2024
 targetos: Windows
 description: Contains extended memory statistics for a process. Extends PROCESS_MEMORY_COUNTERS_EX.
-prerelease: false
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
