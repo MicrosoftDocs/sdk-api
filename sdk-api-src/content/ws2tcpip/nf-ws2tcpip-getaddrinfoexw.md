@@ -243,13 +243,11 @@ On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is current
 
 ### -param lpCompletionRoutine [in, optional]
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
-
 An optional pointer to a function to be invoked upon successful completion for asynchronous operations. 
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function.
 
-On Windows 8 and Windows Server 2012, if this parameter is specified, it must be a pointer to a function with the following signature:
+If this parameter is specified, it must be a pointer to a function with the following signature:
 
 
 ```cpp
@@ -270,14 +268,7 @@ On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICOD
 
 On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
-### -param lpHandle
-
-TBD
-
-
-
-
-#### - lpNameHandle [out, optional]
+### -param lpHandle [out, optional]
 
 An optional pointer used only for asynchronous operations.  
 
@@ -491,9 +482,9 @@ The <b>GetAddrInfoEx</b>  function provides protocol-independent translation fro
 
 The <b>GetAddrInfoEx</b>  function aggregates and returns results from multiple namespace providers, unless a specific namespace provider is specified. For use with the IPv6 and IPv4 protocol, name resolution can be by the Domain Name System (DNS), a local <i>hosts</i> file, an email provider (the <b>NS_EMAIL</b> namespace), or by other naming mechanisms.
 
-When UNICODE or _UNICODE is defined, <b>GetAddrInfoEx</b> is defined to <b>GetAddrInfoExW</b>, the Unicode version of this function. The string parameters are defined to the <b>PWSTR</b> data type and the <b>ADDRINFOEXW</b> structure is used. On Windows 8 and Windows Server 2012, the <i>timeout</i>, <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpNameHandle</i> parameters may be used to call the <b>GetAddrInfoEx</b> function so that it can complete asynchronously. 
+When UNICODE or _UNICODE is defined, <b>GetAddrInfoEx</b> is defined to <b>GetAddrInfoExW</b>, the Unicode version of this function. The string parameters are defined to the <b>PWSTR</b> data type and the <b>ADDRINFOEXW</b> structure is used. On Windows 8 and Windows Server 2012, the <i>timeout</i>, <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpHandle</i> parameters may be used to call the <b>GetAddrInfoEx</b> function so that it can complete asynchronously. 
 
-When UNICODE or _UNICODE is not defined, <b>GetAddrInfoEx</b> is defined to <b>GetAddrInfoExA</b>, the ANSI version of this function. The string parameters are of the <b>PCSTR</b> data type and the <b>ADDRINFOEXA</b> structure is used. The <i>timeout</i>, <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpNameHandle</i> parameters must be set to <b>NULL</b>.
+When UNICODE or _UNICODE is not defined, <b>GetAddrInfoEx</b> is defined to <b>GetAddrInfoExA</b>, the ANSI version of this function. The string parameters are of the <b>PCSTR</b> data type and the <b>ADDRINFOEXA</b> structure is used. The <i>timeout</i>, <i>lpOverlapped</i>, <i>lpCompletionRoutine</i>, and <i>lpHandle</i> parameters must be set to <b>NULL</b>.
 
 One or both of the <i>pName</i> or <i>pServiceName</i> parameters must point to a <b>NULL</b>-terminated string. Generally both are provided.
 
@@ -519,7 +510,6 @@ Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service 
 A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/2386184">Knowledge Base (KB) 2386184</a>.   
 
 A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS. 
-
 
 Callers of the 
 <b>GetAddrInfoEx</b> function can provide hints about the type of socket supported through an 
@@ -554,7 +544,7 @@ Multiple namespace providers may be installed on a local computer for the same n
 
 If the <i>pNameSpace</i> parameter is set to NS_ALL, then the results from querying all namespace providers is merged and returned. In this case, duplicate responses may be returned in the results pointed to by the <i>ppResult</i> parameter if multiple namespace providers return the same information.
 
-On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in the <i>lpNameHandle</i> parameter may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
+On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in the <i>lpHandle</i> parameter may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
 
 <h3><a id="Freeing_Address_Information_from_Dynamic_Allocation"></a><a id="freeing_address_information_from_dynamic_allocation"></a><a id="FREEING_ADDRESS_INFORMATION_FROM_DYNAMIC_ALLOCATION"></a>Freeing Address Information from Dynamic Allocation</h3>
 All information returned by the 
