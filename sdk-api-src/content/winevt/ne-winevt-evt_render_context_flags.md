@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines the values that specify the type of information to access from the event.
+Defines the values that specify the type of information to access from the event. These flags cannot be combined.
 
 ## -enum-fields
 
@@ -62,16 +62,14 @@ Render specific properties from the event.
 
 ### -field EvtRenderContextSystem
 
-Render the system properties under the <b>System</b> element. The properties are returned in the order defined in the <a href="/windows/desktop/api/winevt/ne-winevt-evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a> enumeration.
+Render the system properties under the **System** element. The properties are returned in the order defined in the [EVT_SYSTEM_PROPERTY_ID enumeration](ne-winevt-evt_system_property_id.md).
 
 ### -field EvtRenderContextUser
 
-Render all user-defined properties under the <b>UserData</b> or <b>EventData</b> element. If the data template associated with the event contains a <b>UserData</b> section, the <b>UserData</b> properties are rendered; otherwise, the <b>EventData</b> properties are rendered.
+Render all user-defined properties under the **UserData** or **EventData** element. If the data template associated with the event contains a **UserData** section, the **UserData** properties are rendered; otherwise, the **EventData** properties are rendered.
 
 ## -remarks
 
-You cannot specify the EvtRenderContextValues flag with the EvtRenderContextSystem or EvtRenderContextUser flag.
-
 ## -see-also
 
-<a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
+[EvtCreateRenderContext function](nf-winevt-evtcreaterendercontext.md)
