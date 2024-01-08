@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Contains extended parameters for the [CopyFile2](/windows/win32/api/winbase/nf-winbase-copyfile2) function.
+Contains extended parameters for the [CopyFile2](nf-winbase-copyfile2.md) function.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ Contains a combination of zero or more of these flag values.
 | **COPY_FILE_SKIP_ALTERNATE_STREAMS**<br/>`0x00008000` | Do not copy alternate data streams. **Supported in Windows 10, build 19041 and later.** |
 | **COPY_FILE_DISABLE_PRE_ALLOCATION**<br/>`0x04000000` | Do not preallocate the destination file size before performing the copy. **Supported in Windows 10, build 19041 and later.** |
 | **COPY_FILE_ENABLE_LOW_FREE_SPACE_MODE**<br/>`0x08000000` | Enable LowFreeSpace mode. No overlapped I/Os are used. ODX and SMB offload are not attempted. **Supported in Windows 10, build 19041 and later.** |
-| **COPY_FILE_REQUEST_COMPRESSED_TRAFFIC**<br/>`0x10000000` | Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases.<br/><br/>This flag was introduced in Windows 10, version 1903 and Windows Server 2022. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater. |
+| **COPY_FILE_REQUEST_COMPRESSED_TRAFFIC**<br/>`0x10000000` | Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases. **Supported in Windows Server 2022 and Windows 10, build 1903 and later.** (On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.) |
 | **COPY_FILE_ENABLE_SPARSE_COPY**<br/>`0x20000000` | Enable retaining the sparse state of the file during copy. **Supported in Windows 11, build 22H2 and later.** |
 
 ### -field pfCancel
