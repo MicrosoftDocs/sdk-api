@@ -247,7 +247,7 @@ An optional pointer to a function to be invoked upon successful completion for a
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function.
 
-On Windows 8 and Windows Server 2012, if this parameter is specified, it must be a pointer to a function with the following signature:
+If this parameter is specified, it must be a pointer to a function with the following signature:
 
 
 ```cpp
