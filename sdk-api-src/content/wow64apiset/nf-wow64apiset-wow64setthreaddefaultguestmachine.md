@@ -8,13 +8,13 @@ tech.root: fs
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: Kernel32.dll
+req.dll: api-ms-win-core-wow64-l1-1-1.dll
 req.header: wow64apiset.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -29,7 +29,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - wow64apiset.h
+ - KernelBase.dll
+ - api-ms-win-core-wow64-l1-1-1.dll  
 api_name:
  - Wow64SetThreadDefaultGuestMachine
 f1_keywords:

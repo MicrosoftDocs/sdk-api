@@ -42,15 +42,17 @@ helpviewer_keywords:
  - GetHandwritingState
 ---
 
+# GetHandwritingState function
+
 ## -description
 
 Retrieves the current handwriting state for the [Text Services Framework](/windows/win32/tsf/text-services-framework) (TSF) thread manager.
 
 ## -parameters
 
-### -param handwritingState
+### -param handwritingState [out]
 
-The system handwriting support.
+The system handwriting support. The default is TF_HANDWRITING_AUTO.
 
 ## -returns
 

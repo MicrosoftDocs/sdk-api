@@ -2,7 +2,7 @@
 UID: NF:shellhandwriting.ITfHandwriting.SetHandwritingState
 tech.root: input_ink
 title: ITfHandwriting::SetHandwritingState (shellhandwriting.h)
-ms.date: 10/24/2023
+ms.date: 11/14/2023
 targetos: Windows
 description: Sets the current handwriting state for the Text Services Framework (TSF) thread manager.
 prerelease: false
@@ -42,15 +42,17 @@ helpviewer_keywords:
  - SetHandwritingState
 ---
 
+# SetHandwritingState function
+
 ## -description
 
 Sets the current handwriting state for the [Text Services Framework](/windows/win32/tsf/text-services-framework) (TSF) thread manager.
 
 ## -parameters
 
-### -param handwritingState
+### -param handwritingState [in]
 
-The system handwriting support.
+The system handwriting support. The default is TF_HANDWRITING_AUTO.
 
 ## -returns
 

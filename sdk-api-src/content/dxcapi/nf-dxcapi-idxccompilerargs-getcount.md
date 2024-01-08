@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 Retrieves the number of arguments.
 
-You can pass the value returned by **GetCount** directly to the *argCount* parameter of [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile).
+You can pass the value returned by **GetCount** directly to the *argCount* parameter of [IDxcCompiler3::Compile](./nf-dxcapi-idxccompiler3-compile.md).
 
 ## -returns
 

@@ -202,7 +202,7 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 
-<a href="/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER2 Structure</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2 Structure</a>
 
 
 

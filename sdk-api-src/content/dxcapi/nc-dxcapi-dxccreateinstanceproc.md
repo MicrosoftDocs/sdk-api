@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: DxcCreateInstanceProc
 ms.date: 04/05/2023
 targetos: Windows
-description: The **DxcCreateInstanceProc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance).
+description: The **DxcCreateInstanceProc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md).
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **DxcCreateInstanceProc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance).
+The **DxcCreateInstanceProc** typedef is provided to make it more convenient for you to use **GetProcAddress** to call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md).
 
 ## -parameters
 

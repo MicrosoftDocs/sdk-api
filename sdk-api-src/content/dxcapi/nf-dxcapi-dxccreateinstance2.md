@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates a single uninitialized object of the class associated with a specified CLSID (can be used to create an instance of the compiler with a custom memory allocator). Also see [DxcCreateInstance](./nf-dxcapi-dxccreateinstance).
+Creates a single uninitialized object of the class associated with a specified CLSID (can be used to create an instance of the compiler with a custom memory allocator). Also see [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md).
 
 ## -parameters
 

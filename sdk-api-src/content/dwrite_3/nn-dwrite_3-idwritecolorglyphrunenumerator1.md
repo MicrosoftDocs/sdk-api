@@ -55,5 +55,5 @@ Enumerator for an ordered collection of color glyph runs.
 
 ## -inheritance
 
-The <b>IDWriteColorGlyphRunEnumerator1</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
+The <b>IDWriteColorGlyphRunEnumerator1</b> interface derives from <a href="/windows/windows-app-sdk/api/win32/dwrite_2/nn-dwrite_2-idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>. <b>IDWriteColorGlyphRunEnumerator1</b> also has these types of members:
 

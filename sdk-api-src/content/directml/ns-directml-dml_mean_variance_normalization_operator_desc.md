@@ -80,19 +80,19 @@ A tensor to write the results to. This tensor's dimensions are `{ BatchCount, Ch
 
 ### -field CrossChannel
 
-Type: <b><a href="/windows/win32/winprogwindows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">BOOL</a></b>
 
 When **TRUE**, the MeanVariance layer includes channels in the Mean and Variance calculations, meaning they are normalized across axes `{ChannelCount, Height, Width}`. When **FALSE**, Mean and Variance calculations are normalized across axes `{Height, Width}` with each channel being independent.
 
 ### -field NormalizeVariance
 
-Type: <b><a href="/windows/win32/winprogwindows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">BOOL</a></b>
 
 **TRUE** if the Normalization layer includes Variance in the normalization calculation. Otherwise, **FALSE**. If **FALSE**, then normalization equation is `Output = FusedActivation(Scale * (Input - Mean) + Bias)`.
 
 ### -field Epsilon
 
-Type: <b><a href="/windows/win32/winprogwindows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 The epsilon value to use to avoid division by zero. A value of 0.00001 is recommended as default.
 

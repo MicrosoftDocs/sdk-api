@@ -75,16 +75,16 @@ The file handle must be created with the **GENERIC_READ** right, and the **FILE_
 
 A pointer to an array of [FILE_SEGMENT_ELEMENT structure](../winnt/ns-winnt-file_segment_element.md)  buffers that receives the data. For a description of this union, see [Remarks](#remarks).
 
-Each element can receive one page of data.
+Each element represents one page of data.
 
 > [!NOTE]
 > To determine the size of a system page, use <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>.
 
-The array must contain enough elements to store *nNumberOfBytesToRead* bytes of data, plus one element for the terminating **NULL**. For example, if there are 40 KB to be read and the page size is 4 KB, the array must have 11 elements that includes 10 for the data and one for the **NULL**.
+The array must contain enough elements to represent *nNumberOfBytesToRead* bytes of data. For example, if there are 40 KB to be read and the page size is 4 KB, the array must have 10 elements.
 
 Each buffer must be at least the size of a system memory page and must be aligned on a system memory page size boundary. The system reads one system memory page of data into each buffer.
 
-The function stores the data in the buffers in sequential order. For example, it stores data into the first buffer, then into the second buffer, and so on until each buffer is filled and all the data is stored, or there are no more buffers.
+The function stores the data in the buffers in sequential order. For example, it stores data into the first buffer, then into the second buffer, and so on until each buffer is filled and all the data is stored, or *nNumberOfBytesToRead* bytes have been read.
 
 ### -param nNumberOfBytesToRead [in]
 

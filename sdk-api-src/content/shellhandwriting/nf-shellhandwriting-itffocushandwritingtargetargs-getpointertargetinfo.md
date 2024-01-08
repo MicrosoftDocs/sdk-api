@@ -2,9 +2,9 @@
 UID: NF:shellhandwriting.ITfFocusHandwritingTargetArgs.GetPointerTargetInfo
 tech.root: input_ink
 title: ITfFocusHandwritingTargetArgs::GetPointerTargetInfo
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Retrieves details about the top-level target window of the pointer input.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,19 +42,34 @@ helpviewer_keywords:
  - GetPointerTargetInfo
 ---
 
+# GetPointerTargetInfo function
+
+Retrieves details about the top-level target window of the pointer input.
+
 ## -description
 
 ## -parameters
 
-### -param targetWindow
+### -param targetWindow [out, optional]
 
-### -param targetScreenArea
+The target window of the pointer input.
 
-### -param distanceThreshold
+### -param targetScreenArea [out, optional]
+
+The target area of the pointer input.
+
+This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the Text Services Framework (TSF) thread manager object.
+
+### -param distanceThreshold [out, optional]
+
+The distance (vertical and horizontal) in pixels from a valid edit control for which the *[targetScreenPoint](nf-shellhandwriting-itfdetermineproximatehandwritingtargetargs-getpointertargetinfo.md)* enables handwriting functionality.  
+
+This value is based on the dots-per-inch (DPI) awareness of the current thread associated with the TSF thread manager object.
 
 ## -returns
+
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

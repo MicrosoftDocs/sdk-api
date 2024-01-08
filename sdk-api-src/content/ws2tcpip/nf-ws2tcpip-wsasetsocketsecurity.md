@@ -255,10 +255,6 @@ Authip QM policy =
 
 ## -see-also
 
-<a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
-
-
-
 <a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 

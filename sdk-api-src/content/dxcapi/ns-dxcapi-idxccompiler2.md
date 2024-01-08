@@ -4,7 +4,7 @@ tech.root: direct3dhlsl
 title: IDxcCompiler2
 ms.date: 04/05/2023
 targetos: Windows
-description: IDxcCompiler2 is deprecated; use [IDxcCompiler3](./ns-dxcapi-idxccompiler3) instead.
+description: IDxcCompiler2 is deprecated; use [IDxcCompiler3](./ns-dxcapi-idxccompiler3.md) instead.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ helpviewer_keywords:
 
 ## -description
 
-**IDxcCompiler2** is deprecated; use [IDxcCompiler3](./ns-dxcapi-idxccompiler3) instead.
+**IDxcCompiler2** is deprecated; use [IDxcCompiler3](./ns-dxcapi-idxccompiler3.md) instead.
 
 ## -remarks
 

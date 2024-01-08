@@ -96,7 +96,7 @@ The LFH cannot be enabled for heaps created with <b>HEAP_NO_SERIALIZE</b> or for
            created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in 
            <a href="/windows-hardware/drivers/debugger/">Debugging Tools for Windows</a> 
            or 
-           <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&displaylang=en">Microsoft Application Verifier</a>.
+           <a href="/windows-hardware/drivers/devtest/application-verifier">Microsoft Application Verifier</a>.
 
 When a process is run under any debugger, certain heap debug options are automatically enabled for all 
            heaps in the process. These heap debug options prevent the use of the LFH. To enable the low-fragmentation 

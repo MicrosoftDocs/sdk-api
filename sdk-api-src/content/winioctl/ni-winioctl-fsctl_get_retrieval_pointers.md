@@ -46,13 +46,12 @@ api_name:
 
 # FSCTL_GET_RETRIEVAL_POINTERS IOCTL
 
-
 ## -description
 
 Given a file handle, retrieves a data structure that describes the allocation and location on disk of a specific file, or, given a volume handle, the locations of bad clusters on a volume.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
-    
+
 ```cpp
 DeviceIoControl(
   (HANDLE) hDevice,                 // handle to file, directory, or volume
@@ -84,7 +83,7 @@ DeviceIoControl(
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 

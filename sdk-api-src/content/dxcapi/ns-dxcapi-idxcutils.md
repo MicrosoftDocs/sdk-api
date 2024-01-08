@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 Various utility functions for DXC.
 
-To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance) with **CLSID_DxcUtils**.
+To obtain an instance of this interface, call [DxcCreateInstance](./nf-dxcapi-dxccreateinstance.md) with **CLSID_DxcUtils**.
 
 ## -remarks
 

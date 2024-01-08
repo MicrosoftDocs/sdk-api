@@ -2,9 +2,9 @@
 UID: NF:shellhandwriting.ITfDetermineProximateHandwritingTargetArgs.SetResponse
 tech.root: input_ink
 title: ITfDetermineProximateHandwritingTargetArgs::SetResponse
-ms.date: 10/24/2023
+ms.date: 11/13/2023
 targetos: Windows
-description: 
+description: Specifies the response from the callback implementation for the proximate target.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,15 +42,22 @@ helpviewer_keywords:
  - SetResponse
 ---
 
+# SetResponse function
+
 ## -description
+
+Specifies the response from the callback implementation for the proximate target.
 
 ## -parameters
 
-### -param response
+### -param response [in]
+
+The response from the callback implementation.
 
 ## -returns
+
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
 ## -see-also
-

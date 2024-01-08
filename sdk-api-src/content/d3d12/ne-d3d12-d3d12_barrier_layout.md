@@ -1,0 +1,111 @@
+---
+UID: NE:d3d12.D3D12_BARRIER_LAYOUT
+tech.root: direct3d12
+title: D3D12_BARRIER_LAYOUT
+ms.date: 11/10/2023
+targetos: Windows
+description: 
+prerelease: false
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: d3d12.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+typedef_isUnnamed: false
+req.umdf-ver: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_BARRIER_LAYOUT
+f1_keywords:
+ - D3D12_BARRIER_LAYOUT
+ - d3d12/D3D12_BARRIER_LAYOUT
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - D3D12_BARRIER_LAYOUT
+---
+
+## -description
+
+## -enum-fields
+
+### -field D3D12_BARRIER_LAYOUT_UNDEFINED
+
+### -field D3D12_BARRIER_LAYOUT_COMMON
+
+### -field D3D12_BARRIER_LAYOUT_PRESENT
+
+### -field D3D12_BARRIER_LAYOUT_GENERIC_READ
+
+### -field D3D12_BARRIER_LAYOUT_RENDER_TARGET
+
+### -field D3D12_BARRIER_LAYOUT_UNORDERED_ACCESS
+
+### -field D3D12_BARRIER_LAYOUT_DEPTH_STENCIL_WRITE
+
+### -field D3D12_BARRIER_LAYOUT_DEPTH_STENCIL_READ
+
+### -field D3D12_BARRIER_LAYOUT_SHADER_RESOURCE
+
+### -field D3D12_BARRIER_LAYOUT_COPY_SOURCE
+
+### -field D3D12_BARRIER_LAYOUT_COPY_DEST
+
+### -field D3D12_BARRIER_LAYOUT_RESOLVE_SOURCE
+
+### -field D3D12_BARRIER_LAYOUT_RESOLVE_DEST
+
+### -field D3D12_BARRIER_LAYOUT_SHADING_RATE_SOURCE
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_DECODE_READ
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_DECODE_WRITE
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_PROCESS_READ
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_PROCESS_WRITE
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_ENCODE_READ
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_ENCODE_WRITE
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_COMMON
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_GENERIC_READ
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_UNORDERED_ACCESS
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_SHADER_RESOURCE
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_COPY_SOURCE
+
+### -field D3D12_BARRIER_LAYOUT_DIRECT_QUEUE_COPY_DEST
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_COMMON
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_GENERIC_READ
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_UNORDERED_ACCESS
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_SHADER_RESOURCE
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_COPY_SOURCE
+
+### -field D3D12_BARRIER_LAYOUT_COMPUTE_QUEUE_COPY_DEST
+
+### -field D3D12_BARRIER_LAYOUT_VIDEO_QUEUE_COMMON
+
+## -remarks
+
+## -see-also
+
