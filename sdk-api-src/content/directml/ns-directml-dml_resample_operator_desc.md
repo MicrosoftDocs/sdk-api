@@ -3,7 +3,7 @@ UID: NS:directml.DML_RESAMPLE_OPERATOR_DESC
 title: DML_RESAMPLE_OPERATOR_DESC
 description: Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode. (DML_RESAMPLE_OPERATOR_DESC)
 tech.root: directml
-ms.date: 07/20/2022
+ms.date: 01/08/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -90,6 +90,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_6_2 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 4 | FLOAT32, FLOAT16, INT8, UINT8 |
+| OutputTensor | Output | 1 to 4 | FLOAT32, FLOAT16, INT8, UINT8 |
+
 ### DML_FEATURE_LEVEL_5_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
