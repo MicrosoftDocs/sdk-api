@@ -130,19 +130,16 @@ case WM_INPUT:
         if (keyboard.VKey >= UCHAR_MAX)
             return 0;
 
-        WORD scanCode = keyboard.MakeCode;
         BOOL keyUp = keyboard.Flags & RI_KEY_BREAK;
-        if (scanCode != 0)
+
+        // Some apps may send wrong make scan codes with high-order bit set (key break code).
+        // Strip high-order bit and add extended scan code value.
+        WORD scanCode = MAKEWORD(scanCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
+
+        // Scan codes may be empty for some buttons (like multimedia buttons).
+        if (!keyboard.MakeCode)
         {
-            // Some apps may send wrong make scan codes with
-            // high-order bit set (key break code).
-            // Strip high-order bit and add extended scan code value.
-            scanCode = MAKEWORD(scanCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
-        }
-        else
-        {
-            // Scan codes may be empty for some buttons (like multimedia buttons).
-            // Try to map them from the virtual key code.
+            // Try to get scan code from the virtual key code.
             scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
         }
 
