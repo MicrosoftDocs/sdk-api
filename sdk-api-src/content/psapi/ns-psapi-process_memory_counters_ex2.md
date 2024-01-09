@@ -1,10 +1,10 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS_EX2
-tech.root: psapi
+tech.root: 
 title: PROCESS_MEMORY_COUNTERS_EX2
-ms.date: 01/05/2024
+ms.date: 
 targetos: Windows
-description: Contains extended memory statistics for a process. Extends PROCESS_MEMORY_COUNTERS_EX.
+description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,64 +44,35 @@ helpviewer_keywords:
 
 ## -description
 
-Contains extended memory statistics for a process. Extends PROCESS_MEMORY_COUNTERS_EX.
-
 ## -struct-fields
 
 ### -field cb
 
-The size of the structure, in bytes.
-
 ### -field PageFaultCount
-
-The number of page faults.
 
 ### -field PeakWorkingSetSize
 
-The peak working set size, in bytes.
-
 ### -field WorkingSetSize
-
-The current working set size, in bytes
 
 ### -field QuotaPeakPagedPoolUsage
 
-The peak paged pool usage, in bytes.
-
 ### -field QuotaPagedPoolUsage
-
-The current paged pool usage, in bytes.
 
 ### -field QuotaPeakNonPagedPoolUsage
 
-The peak non-paged pool usage, in bytes.
-
 ### -field QuotaNonPagedPoolUsage
-
-The current non-paged pool usage, in bytes.
 
 ### -field PagefileUsage
 
-The Commit Charge value in bytes for this process. Commit Charge is the total amount of private memory that the memory manager has committed for a running process.
-
 ### -field PeakPagefileUsage
-
-The peak value in bytes of the Commit Charge during the lifetime of this process.
 
 ### -field PrivateUsage
 
-Same as **PagefileUsage**. The Commit Charge value in bytes for this process. Commit Charge is the total amount of private memory that the memory manager has committed for a running process.
-
 ### -field PrivateWorkingSetSize
 
-The current private working set size, in bytes.
-
 ### -field SharedCommitUsage
-
-The current shared commit usage, in bytes.
 
 ## -remarks
 
 ## -see-also
 
-[PROCESS_MEMORY_COUNTERS_EX](ns-psapi-process_memory_counters_ex.md)
