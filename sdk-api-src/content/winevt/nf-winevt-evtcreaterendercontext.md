@@ -73,7 +73,7 @@ Attribute names in the expressions must not be followed by a space.
 
 ### -param Flags [in]
 
-One or more flags that identify the information in the event that you want to render. For example, the system information, user information, or specific values. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a> enumeration.
+Flag that identifies the information in the event that you want to render. For example, the system information, user information, or specific values. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a> enumeration.
 
 ## -returns
 
