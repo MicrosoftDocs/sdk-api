@@ -103,7 +103,7 @@ The key name is translated according to the [currently active keyboard layout](/
 
 The name of a character key is the character itself. The names of dead keys are spelled out in full.
 
-Character keys that are mapped to the 'A'..'Z' [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) are translated to <U+0041 LATIN CAPITAL LETTER A>..<U+005A LATIN CAPITAL LETTER Z> characters regardless of current keyboard layout. Use the [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) or [ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex) methods in such cases.
+Character keys that are mapped to the 'A'..'Z' [virtual-key codes](/windows/win32/inputdev/virtual-key-codes) are translated to the <U+0041 LATIN CAPITAL LETTER A>..<U+005A LATIN CAPITAL LETTER Z> characters regardless of current keyboard layout. You can use the [ToUnicode](/windows/win32/api/winuser/nf-winuser-tounicode) or [ToUnicodeEx](/windows/win32/api/winuser/nf-winuser-tounicodeex) method in such cases to get the character that is printed on a corrensponing key press.
 
 This method might not work properly with some [keyboard layouts](/globalization/windows-keyboard-layouts) that produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters that are printed on a single key press. 
 
