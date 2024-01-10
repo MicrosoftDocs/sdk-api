@@ -68,7 +68,7 @@ A handle to the process. The handle must have the **PROCESS_QUERY_INFORMATION** 
 ### -param ppsmemCounters [out]
 
 A pointer to the 
-<a href="/windows/desktop/api/psapi/ns-psapi-process_memory_counters">PROCESS_MEMORY_COUNTERS</a> or <a href="/windows/desktop/api/psapi/ns-psapi-process_memory_counters_ex">PROCESS_MEMORY_COUNTERS_EX</a> structure that receives information about the memory usage of the process.
+<a href="/windows/desktop/api/psapi/ns-psapi-process_memory_counters">PROCESS_MEMORY_COUNTERS</a>, <a href="/windows/desktop/api/psapi/ns-psapi-process_memory_counters_ex">PROCESS_MEMORY_COUNTERS_EX</a>, or <a href="/windows/desktop/api/psapi/ns-psapi-process_memory_counters_ex2">PROCESS_MEMORY_COUNTERS_EX2</a> structure that receives information about the memory usage of the process.
 
 ### -param cb [in]
 
