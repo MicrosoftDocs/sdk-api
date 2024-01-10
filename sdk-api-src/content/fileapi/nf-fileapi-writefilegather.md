@@ -70,16 +70,16 @@ A handle to the file. The file handle must be created with the **GENERIC_WRITE**
 
 A pointer to an array of [FILE_SEGMENT_ELEMENT structure](../winnt/ns-winnt-file_segment_element.md) buffers that contain the data. For a description of this union, see Remarks.
 
-Each element contains the address of one page of data.
+Each element represents one page of data.
 
 > [!NOTE]
 > To determine the size of a system page, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
 
-The array must contain enough elements to store *nNumberOfBytesToWrite* bytes of data, and one element for the terminating **NULL**. For example, if there are 40 KB to be read and the page size is 4 KB, the array must have 11 elements that includes 10 elements for the data and one element for the **NULL**.
+The array must contain enough elements to represent *nNumberOfBytesToWrite* bytes of data. For example, if there are 40 KB to be written and the page size is 4 KB, the array must have 10 elements.
 
 Each buffer must be at least the size of a system memory page and must be aligned on a system memory page size boundary. The system writes one system memory page of data from each buffer.
 
-The function gathers the data from the buffers in a sequential order. For example, it writes data to the file from the first buffer, then the second buffer, and so on until there is no more data.
+The function gathers the data from the buffers in sequential order. For example, it writes data to the file from the first buffer, then the second buffer, and so on until *nNumberOfBytesToWrite* bytes have been written.
 
 Due to the asynchronous operation of this function, precautions must be taken to ensure that this parameter always references valid memory for the lifetime of the asynchronous writes. For instance, a common programming error is to use local stack storage and then allow execution to run out of scope.
 

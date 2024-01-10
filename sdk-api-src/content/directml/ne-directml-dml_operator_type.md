@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_OPERATOR_ACTIVATION_ELU","DML_OPERATOR_ACTIVATION_HAR
 old-location: direct3d12\dml_operator_type.htm
 tech.root: directml
 ms.assetid: 2D66A3DB-FE61-4EC2-B626-DD008FF14802
-ms.date: 01/19/2022
+ms.date: 01/08/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -681,6 +681,34 @@ Indicates the operator described by the [DML_PADDING1_OPERATOR_DESC](/windows/wi
 Indicates the operator described by the [DML_ELEMENT_WISE_NEGATE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_negate_operator_desc) structure.
 
 ## -remarks
+
+### DML_FEATURE_LEVEL_6_2
+
+DirectML [feature level 6_2](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_2) introduces the following operator types.
+
+#### DML_OPERATOR_ACTIVATION_HARD_SWISH
+
+Indicates the operator described by the [DML_ACTIVATION_HARD_SWISH_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_hard_swish_operator_desc) structure.
+
+#### DML_OPERATOR_ACTIVATION_SWISH
+
+Indicates the operator described by the [DML_ACTIVATION_SWISH_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_activation_swish_operator_desc) structure.
+
+#### DML_OPERATOR_AVERAGE_POOLING1
+
+Indicates the operator described by the [DML_AVERAGE_POOLING1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_average_pooling1_operator_desc) structure.
+
+#### DML_OPERATOR_LP_POOLING1
+
+Indicates the operator described by the [DML_LP_POOLING1_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_lp_pooling1_operator_desc) structure.
+
+#### DML_OPERATOR_MATRIX_MULTIPLY_INTEGER_TO_FLOAT
+
+Indicates the operator described by the [DML_MATRIX_MULTIPLY_INTEGER_TO_FLOAT_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_matrix_multiply_integer_to_float_operator_desc) structure.
+
+#### DML_OPERATOR_MATRIX_MULTIPLY_INTEGER_TO_FLOAT
+
+Indicates the operator described by the [DML_MATRIX_MULTIPLY_INTEGER_TO_FLOAT_OPERATOR_DESC](/windows/ai/directml/api/ns-directml-dml_quantized_linear_average_pooling_operator_desc) structure.
 
 ### DML_FEATURE_LEVEL_6_1
 

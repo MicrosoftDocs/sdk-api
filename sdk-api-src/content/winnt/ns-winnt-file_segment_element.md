@@ -40,19 +40,19 @@ dev_langs:
 
 ## -description
 
-Represents a segement buffer structure for scatter/gather read/write actions.
+Represents a segment of an I/O buffer for scatter/gather read/write actions.
 
 ## -struct-fields
 
 ### -field Buffer
 
-Contains the data for the scatter/gather read/write action
+A pointer to the data for the scatter/gather read/write action.
 
 Assigning a pointer to the **Buffer** member will sign-extend the value if the code is compiled as 32-bits; this can break large-address aware applications running on systems configured with <a href="/windows/desktop/Memory/4-gigabyte-tuning">4-Gigabyte Tuning</a> or running under WOW64 on 64-bit Windows. Therefore, use the **PtrToPtr64** macro when assigning pointers to **Buffer**.
 
 ### -field Alignment
 
-The page alignment of the data.
+An integer representation of the **Buffer**. The system uses this member to validate that the buffer is properly aligned. Applications typically operate on the **Buffer** member.
 
 ## -remarks
 

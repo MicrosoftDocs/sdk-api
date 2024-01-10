@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC","DML_EL
 old-location: direct3d12\dml_element_wise_dequantize_linear_operator_desc.htm
 tech.root: directml
 ms.assetid: 474CB378-3EFC-414F-B75F-D41577D0787D
-ms.date: 05/02/2023
+ms.date: 01/08/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -89,6 +89,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 * *OutputTensor* and *ScaleTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_6_2 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| ScaleTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| ZeroPointTensor | Optional input | 1 to 8 | INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
 ### DML_FEATURE_LEVEL_6_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

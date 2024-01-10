@@ -4,7 +4,7 @@ title: DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC
 description: Performs a matrix multiplication function on quantized data. This operator is mathematically equivalent to dequantizing the inputs, then performing matrix multiply, and then quantizing the output.
 helpviewer_keywords: ["DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC","DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC structure","direct3d12.dml_quantized_linear_matrix_multiply_operator_desc","directml/DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 01/08/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -103,13 +103,13 @@ An optional tensor containing the *BTensor* zero point data. The expected dimens
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A tensor containing the filter scale data. The expected dimensions of the `OutputScaleTensor` are `{ 1, 1, 1, 1 }` if per tensor quantization is required, or `{ 1, 1, M, 1 }` if per row quantization is required. This scale value is used for dequantizing the filter values.
+A tensor containing the *OutputTensor* scale data. The expected dimensions of the `OutputScaleTensor` are `{ 1, 1, 1, 1 }` if per-tensor quantization is required, or `{ 1, 1, M, 1 }` if per-row quantization is required. This scale value is used for dequantizing the *OutputTensor* values.
 
 ### -field OutputZeroPointTensor
 
 Type: _Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional tensor containing the filter zero point data. The expected dimensions of the `OutputZeroPointTensor` are `{ 1, 1, 1, 1 }` if per tensor quantization is required or `{ 1, 1, M, 1 }` if per row quantization is required. This zero point value is used for dequantizing the filter values.
+An optional tensor containing the *OutputTensor* zero point data. The expected dimensions of the `OutputZeroPointTensor` are `{ 1, 1, 1, 1 }` if per-tensor quantization is required, or `{ 1, 1, M, 1 }` if per-row quantization is required. This zero point value is used for dequantizing the *OutputTensor* values.
 
 ### -field OutputTensor
 

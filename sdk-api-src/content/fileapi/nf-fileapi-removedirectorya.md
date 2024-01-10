@@ -6,7 +6,7 @@ helpviewer_keywords: ["RemoveDirectoryA", "fileapi/RemoveDirectoryA"]
 old-location: fs\removedirectory.htm
 tech.root: fs
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
-ms.date: 10/04/2023
+ms.date: 12/15/2023
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -87,7 +87,9 @@ To recursively delete the files in a directory, use the [SHFileOperation](/windo
 
 **RemoveDirectory** can be used to remove a directory junction. Since the target directory and its contents will remain accessible through its canonical path, the target directory itself is not affected by removing a junction which targets it. For this reason, when *lpPathName* refers to a directory junction, **RemoveDirectory** will remove the specified link regardless of whether the target directory is empty or not. For more information on junctions, see [Hard Links and Junctions](/windows/win32/FileIO/hard-links-and-junctions).
 
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+The use of POSIX delete causes the directory to be deleted while handles remain open. Subsequent calls to [CreateDirectory](nf-fileapi-createdirectorya.md) to open the directory fail with **ERROR_FILE_NOT_FOUND**.
+
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies:
 
 | Technology | Supported |
 | --- | --- |
