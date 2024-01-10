@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 22H2 with September 2023 cumulative update or Windows 11 22H2 with September 2023 cumulative update
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: PROCESS_MEMORY_COUNTERS_EX2
