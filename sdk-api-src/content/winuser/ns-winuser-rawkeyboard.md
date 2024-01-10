@@ -136,7 +136,7 @@ case WM_INPUT:
         // Strip high-order bit and add extended scan code value.
         WORD scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
 
-        // Scan codes may be empty for some buttons (like multimedia buttons).
+        // Scan code value may be empty for some buttons (for example multimedia buttons).
         if (!keyboard.MakeCode)
         {
             // Try to get scan code from the virtual key code.
