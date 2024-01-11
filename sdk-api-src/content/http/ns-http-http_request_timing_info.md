@@ -3,7 +3,7 @@ UID: NS:http._HTTP_REQUEST_TIMING_INFO
 title: HTTP_REQUEST_TIMING_INFO
 description: Contains information about how much time was spent at each request processing stage.
 tech.root: http
-ms.date: 01/10/2024
+ms.date: 01/11/2024
 req.construct-type: structure
 req.header: http.h
 req.include-header: 
@@ -62,6 +62,8 @@ Type: **[ULONG](/windows/desktop/winprog/windows-data-types)**
 ### -field RequestTiming[HttpRequestTimingTypeMax]
 
 Type: **[ULONGLONG](/windows/desktop/winprog/windows-data-types)\[HttpRequestTimingTypeMax\]**
+
+The timing types are defined in [HTTP_REQUEST_TIMING_TYPE](/windows/win32/api/http/ne-http-http_request_timing_type).
 
 ## -remarks
 
