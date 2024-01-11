@@ -5,7 +5,7 @@ description: Defines constants that specify High Efficiency Image Format (HEIF) 
 ms.date: 01/11/2024
 tech.root: wic
 targetos: Windows
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wincodec.h
