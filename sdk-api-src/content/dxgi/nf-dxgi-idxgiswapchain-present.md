@@ -114,7 +114,7 @@ Specifying <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_TEST<
 </table>
  
 
-For flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value set, a successful presentation unbinds back buffer 0 from the graphics pipeline, except for when you pass the <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
+For flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect"> DXGI_SWAP_EFFECT_DISCARD </a> value set, a successful presentation unbinds back buffer 0 (usually set by <a href="/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets"> OMSetRenderTargets</a>) from the graphics pipeline , except for when you pass the <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
 
 For info about how data values change when you present content to the screen, see <a href="/windows/win32/direct3ddxgi/converting-data-color-space">Converting data for the color space</a>.
 
