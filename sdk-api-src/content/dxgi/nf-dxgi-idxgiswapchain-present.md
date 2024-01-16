@@ -46,9 +46,6 @@ api_name:
  - IDXGISwapChain.Present
 ---
 
-# IDXGISwapChain::Present
-
-
 ## -description
 
 Presents a rendered image to the user.
@@ -60,7 +57,6 @@ Presents a rendered image to the user.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
-
 
 For the bit-block transfer (bitblt) model (<a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
@@ -112,9 +108,8 @@ Specifying <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_TEST<
 </td>
 </tr>
 </table>
- 
 
-For flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect"> DXGI_SWAP_EFFECT_DISCARD </a> value set, a successful presentation unbinds back buffer 0 (usually set by <a href="/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets"> OMSetRenderTargets</a>) from the graphics pipeline , except for when you pass the <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
+For flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or **DXGI_SWAP_EFFECT_DISCARD** value set, a successful presentation unbinds back buffer 0 (usually set by <a href="/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets">OMSetRenderTargets</a>) from the graphics pipeline, except for when you pass the <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
 
 For info about how data values change when you present content to the screen, see <a href="/windows/win32/direct3ddxgi/converting-data-color-space">Converting data for the color space</a>.
 
@@ -124,7 +119,6 @@ Suppose the following frames with sync-interval values are queued from oldest (A
 A: 3, B: 0, C: 0, D: 1, E: 0
 
 When you call <b>Present</b>, the runtime shows frame A for only 1 vertical blank interval. The runtime terminates frame A early because of the sync interval 0 in frame B.   Then the runtime shows frame D for 1 vertical blank interval, and then frame E until you submit a new presentation. The runtime discards frames B and C.
-
 
 <h3><a id="Variable_refresh_rate_displays"></a><a id="variable_refresh_rate_displays"></a><a id="VARIABLE_REFRESH_RATE_DISPLAYS"></a>Variable refresh rate displays</h3>
 It is a requirement of variable refresh rate displays that tearing is enabled. The <a href="/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport">CheckFeatureSupport</a> method can be used to determine if this feature is available, and to set the required flags refer to the descriptions of <a href="/windows/win32/direct3ddxgi/dxgi-present">DXGI_PRESENT_ALLOW_TEARING</a> and <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</a>, and <a href="/windows/win32/direct3ddxgi/variable-refresh-rate-displays#variable-refresh-rate-displaysvsync-off">Variable refresh rate displays</a>.
