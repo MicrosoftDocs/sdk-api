@@ -100,7 +100,7 @@ Additional message-specific information.
 
 Type: <b>LRESULT</b>
 
-The return value specifies the result of the message processing; it depends on the message sent.
+The return value specifies the result of the message processing; it depends on the message sent. If the message is successful, the system will automatically free the message data in the case of events such as COPYDATA.
 
 ## -remarks
 
@@ -108,7 +108,7 @@ The return value specifies the result of the message processing; it depends on t
 
 Applications that need to communicate using <b>HWND_BROADCAST</b> should use the <a href="/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> function to obtain a unique message for inter-application communication.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). The system will automatically free the message data, in the case of COPYDATA, only if the function succeeds. To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 If the specified window was created by the calling thread, the window procedure is called immediately as a subroutine. If the specified window was created by a different thread, the system switches to that thread and calls the appropriate window procedure. Messages sent between threads are processed only when the receiving thread executes message retrieval code. The sending thread is blocked until the receiving thread processes the message. However, the sending thread will process incoming nonqueued messages while waiting for its message to be processed. To prevent this, use <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a> with SMTO_BLOCK set. For more information on nonqueued messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">Nonqueued Messages</a>.
 
