@@ -4,7 +4,7 @@ title: IMFVideoProcessor (evr9.h)
 description: Controls video processing in the Enhanced Video Renderer (EVR).
 helpviewer_keywords: ["0a63c4f8-eb32-4f0c-b69b-0c16243f2f21","IMFVideoProcessor","IMFVideoProcessor interface [Media Foundation]","IMFVideoProcessor interface [Media Foundation]","described","evr9/IMFVideoProcessor","mf.imfvideoprocessor"]
 old-location: mf\imfvideoprocessor.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21
 ms.date: 12/05/2018
 ms.keywords: 0a63c4f8-eb32-4f0c-b69b-0c16243f2f21, IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], IMFVideoProcessor interface [Media Foundation],described, evr9/IMFVideoProcessor, mf.imfvideoprocessor

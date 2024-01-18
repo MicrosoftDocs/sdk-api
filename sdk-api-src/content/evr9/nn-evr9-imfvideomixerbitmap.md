@@ -4,7 +4,7 @@ title: IMFVideoMixerBitmap (evr9.h)
 description: Alpha-blends a static bitmap image with the video displayed by the Enhanced Video Renderer (EVR).
 helpviewer_keywords: ["4da4bdb9-857b-40c9-b910-04a099a23ab5","IMFVideoMixerBitmap","IMFVideoMixerBitmap interface [Media Foundation]","IMFVideoMixerBitmap interface [Media Foundation]","described","evr9/IMFVideoMixerBitmap","mf.imfvideomixerbitmap"]
 old-location: mf\imfvideomixerbitmap.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
 ms.date: 12/05/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap

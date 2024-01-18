@@ -17,6 +17,7 @@ Overview of the Microsoft Media Foundation technology.
 To develop Microsoft Media Foundation, you need these headers:
 
  * [evr.h](../evr/index.md)
+* [evr9.h](../evr9/index.md)
 
 For programming guidance for this technology, see:
 * [Microsoft Media Foundation](/windows/desktop/medfound)

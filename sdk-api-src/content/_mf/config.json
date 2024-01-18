@@ -30,7 +30,6 @@
     "dxva2api.h",
     "mfplay.h",
     "mfsharingengine.h",
-    "evr9.h",
     "mfmediacapture.h",
     "mfspatialaudio.h",
     "mfcontentdecryptionmodule.h",
