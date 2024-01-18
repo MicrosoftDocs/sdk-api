@@ -4,7 +4,7 @@ title: IMFVideoMixerBitmap::GetAlphaBitmapParameters (evr9.h)
 description: Retrieves the current settings that the enhanced video renderer (EVR) uses to alpha-blend the bitmap with the video.
 helpviewer_keywords: ["0361e340-9de7-47f3-80fd-61d5e914d44e","GetAlphaBitmapParameters","GetAlphaBitmapParameters method [Media Foundation]","GetAlphaBitmapParameters method [Media Foundation]","IMFVideoMixerBitmap interface","IMFVideoMixerBitmap interface [Media Foundation]","GetAlphaBitmapParameters method","IMFVideoMixerBitmap.GetAlphaBitmapParameters","IMFVideoMixerBitmap::GetAlphaBitmapParameters","evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters","mf.imfvideomixerbitmap_getalphabitmapparameters"]
 old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 0361e340-9de7-47f3-80fd-61d5e914d44e
 ms.date: 12/05/2018
 ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, GetAlphaBitmapParameters method [Media Foundation], GetAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],GetAlphaBitmapParameters method, IMFVideoMixerBitmap.GetAlphaBitmapParameters, IMFVideoMixerBitmap::GetAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters, mf.imfvideomixerbitmap_getalphabitmapparameters

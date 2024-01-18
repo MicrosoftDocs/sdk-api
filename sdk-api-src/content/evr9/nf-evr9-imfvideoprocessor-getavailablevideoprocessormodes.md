@@ -4,7 +4,7 @@ title: IMFVideoProcessor::GetAvailableVideoProcessorModes (evr9.h)
 description: Retrieves the video processor modes that the video driver supports.
 helpviewer_keywords: ["1004341d-d39b-4032-a027-39e35ecab635","GetAvailableVideoProcessorModes","GetAvailableVideoProcessorModes method [Media Foundation]","GetAvailableVideoProcessorModes method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetAvailableVideoProcessorModes method","IMFVideoProcessor.GetAvailableVideoProcessorModes","IMFVideoProcessor::GetAvailableVideoProcessorModes","evr9/IMFVideoProcessor::GetAvailableVideoProcessorModes","mf.imfvideoprocessor_getavailablevideoprocessormodes"]
 old-location: mf\imfvideoprocessor_getavailablevideoprocessormodes.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 1004341d-d39b-4032-a027-39e35ecab635
 ms.date: 12/05/2018
 ms.keywords: 1004341d-d39b-4032-a027-39e35ecab635, GetAvailableVideoProcessorModes, GetAvailableVideoProcessorModes method [Media Foundation], GetAvailableVideoProcessorModes method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetAvailableVideoProcessorModes method, IMFVideoProcessor.GetAvailableVideoProcessorModes, IMFVideoProcessor::GetAvailableVideoProcessorModes, evr9/IMFVideoProcessor::GetAvailableVideoProcessorModes, mf.imfvideoprocessor_getavailablevideoprocessormodes

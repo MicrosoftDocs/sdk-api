@@ -1,7 +1,8 @@
 {
   "tech": "mfarchive",
   "headers": [
-    "evr.h"
+    "evr.h",
+    "evr9.h"
   ],
   "displayName": "Legacy Microsoft Media Foundation APIs"
 }

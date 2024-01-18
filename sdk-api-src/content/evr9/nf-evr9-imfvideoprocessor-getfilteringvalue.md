@@ -4,7 +4,7 @@ title: IMFVideoProcessor::GetFilteringValue (evr9.h)
 description: Retrieves the current setting for an image filter.
 helpviewer_keywords: ["1c8d6836-ca62-4d26-be4e-572dc6ff994d","GetFilteringValue","GetFilteringValue method [Media Foundation]","GetFilteringValue method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetFilteringValue method","IMFVideoProcessor.GetFilteringValue","IMFVideoProcessor::GetFilteringValue","evr9/IMFVideoProcessor::GetFilteringValue","mf.imfvideoprocessor_getfilteringvalue"]
 old-location: mf\imfvideoprocessor_getfilteringvalue.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 1c8d6836-ca62-4d26-be4e-572dc6ff994d
 ms.date: 12/05/2018
 ms.keywords: 1c8d6836-ca62-4d26-be4e-572dc6ff994d, GetFilteringValue, GetFilteringValue method [Media Foundation], GetFilteringValue method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetFilteringValue method, IMFVideoProcessor.GetFilteringValue, IMFVideoProcessor::GetFilteringValue, evr9/IMFVideoProcessor::GetFilteringValue, mf.imfvideoprocessor_getfilteringvalue

@@ -4,7 +4,7 @@ title: IMFVideoMixerBitmap::ClearAlphaBitmap (evr9.h)
 description: Removes the current bitmap and releases any resources associated with it.
 helpviewer_keywords: ["79a0f24c-9388-4c64-885f-5d04e671669e","ClearAlphaBitmap","ClearAlphaBitmap method [Media Foundation]","ClearAlphaBitmap method [Media Foundation]","IMFVideoMixerBitmap interface","IMFVideoMixerBitmap interface [Media Foundation]","ClearAlphaBitmap method","IMFVideoMixerBitmap.ClearAlphaBitmap","IMFVideoMixerBitmap::ClearAlphaBitmap","evr9/IMFVideoMixerBitmap::ClearAlphaBitmap","mf.imfvideomixerbitmap_clearalphabitmap"]
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
 ms.date: 12/05/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
