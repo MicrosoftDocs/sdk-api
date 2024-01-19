@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadSelectedCpuSetMasks
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: GetThreadSelectedCpuSetMasks
 ms.date: 03/12/2021
 ms.topic: language-reference

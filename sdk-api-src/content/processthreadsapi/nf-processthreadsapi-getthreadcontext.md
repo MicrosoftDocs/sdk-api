@@ -4,7 +4,7 @@ title: GetThreadContext function (processthreadsapi.h)
 description: Retrieves the context of the specified thread.
 helpviewer_keywords: ["GetThreadContext","GetThreadContext function","_win32_getthreadcontext","base.getthreadcontext","processthreadsapi/GetThreadContext"]
 old-location: base\getthreadcontext.htm
-tech.root: Debug
+tech.root: processthreadsapi
 ms.assetid: 3b65283e-34d2-4374-87fe-fa8ae45fbbcf
 ms.date: 12/05/2018
 ms.keywords: GetThreadContext, GetThreadContext function, _win32_getthreadcontext, base.getthreadcontext, processthreadsapi/GetThreadContext
