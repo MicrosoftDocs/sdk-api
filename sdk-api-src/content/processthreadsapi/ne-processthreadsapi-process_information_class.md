@@ -82,6 +82,10 @@ The process information is represented by a <a href="../processthreadsapi/ns-pro
 
 The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsapi-process_machine_information.md) structure.
 
+### -field ProcessOverrideSubsequentPrefetchParameter
+
+### -field ProcessMaxOverridePrefetchParameter
+
 ### -field ProcessInformationClassMax
 
 The maximum value for this enumeration. This value may change in a future version.
