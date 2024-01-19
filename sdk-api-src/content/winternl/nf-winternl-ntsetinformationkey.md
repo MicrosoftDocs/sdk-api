@@ -88,8 +88,7 @@ The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntst
 
 ## -remarks
 
-The associated import library, Ntdll.lib, is available in the 
-    WDK. You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and 
+You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and 
     <a href="/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to 
     Ntdll.dll.
 
