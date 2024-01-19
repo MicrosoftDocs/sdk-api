@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Creates a new file or directory, or opens an existing file, device, directory, or 
-    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
+    volume.
 <div> </div>
 
 

@@ -101,9 +101,6 @@ The options to be applied when opening the file. For more information, see
 
 ## -remarks
 
-Before using this function, please read 
-    <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.
-
 Driver routines that run in a process context other than that of the system process must set the 
      <b>OBJ_KERNEL_HANDLE</b> attribute for the <i>ObjectAttributes</i> 
      parameter of <b>ZwOpenFile</b>. This restricts the use of the handle returned by 
