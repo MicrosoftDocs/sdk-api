@@ -4,7 +4,7 @@ title: PROCESS_INFORMATION_CLASS (processthreadsapi.h)
 ms.date: 05/05/2020
 targetos: Windows
 description: Indicates a specific class of process information.
-tech.root: security
+tech.root: processthreadsapi
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: processthreadsapi.h
