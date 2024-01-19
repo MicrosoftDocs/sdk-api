@@ -84,11 +84,11 @@ The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsa
 
 ### -field ProcessOverrideSubsequentPrefetchParameter
 
-Can be used in a call to the [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md) to set an "Override Prefetch Parameter" for the application that called it. (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
+Can be used in a call to the [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md) to set an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md) for the application that called it. (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
 
 ### -field ProcessMaxOverridePrefetchParameter
 
-Can be used in a call to the [GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md) to query the maximum allowable value (inclusive) for an "Override Prefetch Parameter". (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
+Can be used in a call to the [GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md) to query the maximum allowable value (inclusive) for an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md). (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
 
 ### -field ProcessInformationClassMax
 
