@@ -189,7 +189,7 @@ If set, this enables the caller to receive <a href="/windows/desktop/inputdev/wm
 
 Type: <b>HWND</b>
 
-A handle to the target window. If <b>NULL</b> it follows the keyboard focus.
+A handle to the target window. If <b>NULL</b>, raw input events will follow the keyboard focus, so that only the focused application window will receive the events.
 
 ## -remarks
 
