@@ -55,7 +55,7 @@ The <b>Bitmap::InitializePalette</b> method initializes a standard, optimal, or 
 
 ## -parameters
 
-### -param palette [out]
+### -param palette [in, out]
 
 Type: <b><a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a>*</b>
 
