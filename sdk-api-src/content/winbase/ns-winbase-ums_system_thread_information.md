@@ -63,7 +63,9 @@ Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a h
 
 ### -field UmsVersion
 
-The UMS version. This member must be UMS_VERSION.
+The UMS version.
+You must set this member to UMS_VERSION before calling the
+<a href="/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function.
 
 ### -field DUMMYUNIONNAME
 
@@ -71,14 +73,17 @@ The UMS version. This member must be UMS_VERSION.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IsUmsSchedulerThread
 
-A bitfield that specifies a UMS scheduler thread. If <b>IsUmsSchedulerThread</b> is set, <b>IsUmsWorkerThread</b> must be clear.
+A bitfield that specifies that the thread is a UMS scheduler thread.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.IsUmsWorkerThread
 
-A bitfield that specifies a UMS worker thread. If <b>IsUmsWorkerThread</b>  is set, <b>IsUmsSchedulerThread</b> must be clear.
+A bitfield that specifies that the thread is a UMS worker thread.
 
 ### -field DUMMYUNIONNAME.ThreadUmsFlags
 
 ## -remarks
 
-If both <b>IsUmsSchedulerThread</b>  and <b>IsUmsWorkerThread</b> are clear, the structure specifies a non-UMS thread.
+At most one of <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b>
+will be set.
+If both <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b> are clear,
+then the thread is a non-UMS thread.

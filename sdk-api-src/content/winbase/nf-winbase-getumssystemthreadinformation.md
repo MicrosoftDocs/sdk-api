@@ -65,11 +65,14 @@ A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION a
 
 ### -param SystemThreadInfo [in, out]
 
-A pointer to an initialized <a href="/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
+A pointer to a <a href="/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure
+which receives information about the specified thread.
+The caller must initialize the `UmsVersion` member before calling.
 
 ## -returns
 
-Returns TRUE if the specified thread matches the kind of thread specified by the <i>SystemThreadInfo</i> parameter. Otherwise, the function returns FALSE.
+If the function fails, the return value is zero.
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
