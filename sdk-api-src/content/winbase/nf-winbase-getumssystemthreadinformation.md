@@ -67,6 +67,7 @@ A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION a
 
 A pointer to a <a href="/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure
 which receives information about the specified thread.
+
 The caller must initialize the `UmsVersion` member before calling.
 
 ## -returns
