@@ -85,5 +85,6 @@ A bitfield that specifies that the thread is a UMS worker thread.
 
 At most one of <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b>
 will be set.
+
 If both <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b> are clear,
 then the thread is a non-UMS thread.
