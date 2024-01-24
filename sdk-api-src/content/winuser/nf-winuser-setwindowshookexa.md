@@ -194,7 +194,9 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
+ 
 Installs a hook procedure that monitors low-level keyboard input events. For more information, see the [LowLevelKeyboardProc](/windows/win32/winmsg/lowlevelkeyboardproc) hook procedure.
+
 </td>
 </tr>
 <tr>
