@@ -83,7 +83,7 @@ The type of hook procedure to be installed. This parameter can be one of the fol
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the [CallWindowProcW function](nf-winuser-callwindowprocw.md)/[CallWindowProcA function](nf-winuser-callwindowproca.md) hook procedure.
+Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the [CallWndProc](/windows/win32/winmsg/callwndproc) hook procedure.
 
 </td>
 </tr>
