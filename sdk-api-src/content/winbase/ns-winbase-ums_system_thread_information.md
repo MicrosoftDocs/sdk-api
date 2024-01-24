@@ -51,10 +51,9 @@ api_name:
 
 # UMS_SYSTEM_THREAD_INFORMATION structure
 
-
 ## -description
 
-Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function uses this structure.
+Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread.
 
 > [!WARNING]
 > As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
@@ -64,8 +63,8 @@ Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a h
 ### -field UmsVersion
 
 The UMS version.
-You must set this member to UMS_VERSION before calling the
-<a href="/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function.
+
+You must set this member to UMS_VERSION before calling the [GetUmsSystemThreadInformation](/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation) function.
 
 ### -field DUMMYUNIONNAME
 
@@ -83,8 +82,8 @@ A bitfield that specifies that the thread is a UMS worker thread.
 
 ## -remarks
 
-At most one of <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b>
-will be set.
+Used by the [GetUmsSystemThreadInformation](/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation) function.
 
-If both <b>IsUmsSchedulerThread</b> and <b>IsUmsWorkerThread</b> are clear,
-then the thread is a non-UMS thread.
+At most one of **IsUmsSchedulerThread** and **IsUmsWorkerThread** will be set.
+
+If both **IsUmsSchedulerThread** and **IsUmsWorkerThread** are clear then the thread is a non-UMS thread.
