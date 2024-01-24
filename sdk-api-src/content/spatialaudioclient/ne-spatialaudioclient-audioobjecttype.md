@@ -129,3 +129,12 @@ The spatial audio object is assigned the bottom back right channel.
 ### -field AudioObjectType_BackCenter
 
 The spatial audio object is assigned the back center channel.
+
+### -field AudioObjectType_DirectLeft
+
+Equivalent to **SPEAKER_FRONT_LEFT** without any virtualization.
+
+### -field AudioObjectType_DirectRight
+
+Equivalent to **SPEAKER_FRONT_RIGHT** without any virtualization
+
