@@ -61,7 +61,8 @@ To perform this operation, call the
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                 (DWORD) FSCTL_READ_FILE_USN_DATA, // dwIoControlCode(LPVOID)       lpInBuffer,      // input buffer
+                 (DWORD) FSCTL_READ_FILE_USN_DATA, // dwIoControlCode
+                 (LPVOID)       lpInBuffer,      // input buffer
                  (DWORD)        nInBufferSize,   // size of input buffer
                  (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
