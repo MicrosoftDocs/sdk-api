@@ -4,7 +4,7 @@ title: IMFVideoProcessor::GetBackgroundColor (evr9.h)
 description: Retrieves the background color for the composition rectangle. The background color is used for letterboxing the video image.
 helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [Media Foundation]","GetBackgroundColor method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetBackgroundColor method","IMFVideoProcessor.GetBackgroundColor","IMFVideoProcessor::GetBackgroundColor","d9068346-f0b3-4361-a56b-2360ecc3b9d9","evr9/IMFVideoProcessor::GetBackgroundColor","mf.imfvideoprocessor_getbackgroundcolor"]
 old-location: mf\imfvideoprocessor_getbackgroundcolor.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: d9068346-f0b3-4361-a56b-2360ecc3b9d9
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetBackgroundColor method, IMFVideoProcessor.GetBackgroundColor, IMFVideoProcessor::GetBackgroundColor, d9068346-f0b3-4361-a56b-2360ecc3b9d9, evr9/IMFVideoProcessor::GetBackgroundColor, mf.imfvideoprocessor_getbackgroundcolor
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.GetBackgroundColor
+archived: true
 ---
 
 # IMFVideoProcessor::GetBackgroundColor
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Retrieves the background color for the composition rectangle. The background color is used for letterboxing the video image.
 

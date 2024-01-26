@@ -33,6 +33,7 @@ f1_keywords:
  - gdiplusinit/GdiplusStartupInputEx
 dev_langs:
  - c++
+prerelease: true
 ---
 
 ## -description

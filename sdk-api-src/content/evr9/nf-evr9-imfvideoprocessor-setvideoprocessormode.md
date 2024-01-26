@@ -4,7 +4,7 @@ title: IMFVideoProcessor::SetVideoProcessorMode (evr9.h)
 description: Sets the preferred video processor mode. The EVR will attempt to use this mode when playback starts.
 helpviewer_keywords: ["4b353576-c8ee-4f73-9ee6-ba4545a6f4fc","IMFVideoProcessor interface [Media Foundation]","SetVideoProcessorMode method","IMFVideoProcessor.SetVideoProcessorMode","IMFVideoProcessor::SetVideoProcessorMode","SetVideoProcessorMode","SetVideoProcessorMode method [Media Foundation]","SetVideoProcessorMode method [Media Foundation]","IMFVideoProcessor interface","evr9/IMFVideoProcessor::SetVideoProcessorMode","mf.imfvideoprocessor_setvideoprocessormode"]
 old-location: mf\imfvideoprocessor_setvideoprocessormode.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc
 ms.date: 12/05/2018
 ms.keywords: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc, IMFVideoProcessor interface [Media Foundation],SetVideoProcessorMode method, IMFVideoProcessor.SetVideoProcessorMode, IMFVideoProcessor::SetVideoProcessorMode, SetVideoProcessorMode, SetVideoProcessorMode method [Media Foundation], SetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetVideoProcessorMode, mf.imfvideoprocessor_setvideoprocessormode
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.SetVideoProcessorMode
+archived: true
 ---
 
 # IMFVideoProcessor::SetVideoProcessorMode
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the preferred video processor mode. The EVR will attempt to use this mode when playback starts.
 

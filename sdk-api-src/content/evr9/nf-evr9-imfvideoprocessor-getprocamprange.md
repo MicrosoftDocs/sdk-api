@@ -4,7 +4,7 @@ title: IMFVideoProcessor::GetProcAmpRange (evr9.h)
 description: Retrieves the range of values for a color adjustment (ProcAmp) setting.
 helpviewer_keywords: ["03894bfe-020a-4478-af6f-88521d4bbb6d","GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetProcAmpRange method","IMFVideoProcessor.GetProcAmpRange","IMFVideoProcessor::GetProcAmpRange","evr9/IMFVideoProcessor::GetProcAmpRange","mf.imfvideoprocessor_getprocamprange"]
 old-location: mf\imfvideoprocessor_getprocamprange.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 03894bfe-020a-4478-af6f-88521d4bbb6d
 ms.date: 12/05/2018
 ms.keywords: 03894bfe-020a-4478-af6f-88521d4bbb6d, GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpRange method, IMFVideoProcessor.GetProcAmpRange, IMFVideoProcessor::GetProcAmpRange, evr9/IMFVideoProcessor::GetProcAmpRange, mf.imfvideoprocessor_getprocamprange
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.GetProcAmpRange
+archived: true
 ---
 
 # IMFVideoProcessor::GetProcAmpRange
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Retrieves the range of values for a color adjustment (ProcAmp) setting.
 
