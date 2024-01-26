@@ -20,8 +20,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: NtDll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql:
 targetos: Windows
 req.typenames: 

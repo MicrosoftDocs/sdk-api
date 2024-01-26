@@ -286,7 +286,7 @@ Populate the combo box with certificates or smart cards only. Do not allow a use
 <tr>
 <td width="40%"><a id="CREDUI_FLAGS_SERVER_CREDENTIAL"></a><a id="credui_flags_server_credential"></a><dl>
 <dt><b>CREDUI_FLAGS_SERVER_CREDENTIAL</b></dt>
-<dt>)X04000</dt>
+<dt>0x04000</dt>
 </dl>
 </td>
 <td width="60%">

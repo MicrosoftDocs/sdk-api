@@ -80,15 +80,15 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchange">InterlockedExchange</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangePointer</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangepointer">InterlockedExchangePointer</a>
 
 
 
