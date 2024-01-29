@@ -163,8 +163,8 @@ Note that it is not an error to set the file pointer to a position beyond the en
     file does not increase until you call the <a href="/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>, 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function. A write operation increases the size 
-    of the file to the file pointer position plus the size of the buffer written, leaving the intervening bytes 
-    uninitialized.
+    of the file to the file pointer position plus the size of the buffer written, which results in the intervening 
+    bytes being zero initialized.
 
 You can use <b>SetFilePointerEx</b> to determine the length of a file. To do this, 
     use <b>FILE_END</b> for <i>dwMoveMethod</i> and seek to location zero. The 
