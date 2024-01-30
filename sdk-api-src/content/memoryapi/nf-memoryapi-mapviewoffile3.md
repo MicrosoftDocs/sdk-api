@@ -74,7 +74,6 @@ A <b>HANDLE</b> to a process into which the section
 
 The desired base address of the view.
                   The address is rounded down to the nearest 64k boundary.
-
                   If this parameter is <b>NULL</b>, the system picks the base
                   address.
 
