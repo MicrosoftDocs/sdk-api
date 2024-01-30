@@ -67,11 +67,13 @@ A member of the [PROCESS_INFORMATION_CLASS](./ne-processthreadsapi-process_infor
 
 Pointer to an object that contains the type of information specified by the *ProcessInformationClass* parameter.
 
-If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must point to a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must point to a [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md) <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
 
-If the *ProcessInformationClass* parameter is **ProcessPowerThrottling**, this parameter must point to a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessPowerThrottling**, this parameter must point to a [PROCESS_POWER_THROTTLING_STATE structure](ns-processthreadsapi-process_power_throttling_state.md).
 
-If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this parameter must point to a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_leap_second_info">PROCESS_LEAP_SECOND_INFO</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this parameter must point to a [PROCESS_LEAP_SECOND_INFO structure](ns-processthreadsapi-process_leap_second_info.md).
+
+If the *ProcessInformationClass* parameter is **ProcessOverrideSubsequentPrefetchParameter**, this parameter must point to an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md).
 
 ### -param ProcessInformationSize [in]
 

@@ -77,6 +77,8 @@ If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this pa
 
 If the *ProcessInformationClass* parameter is **ProcessAppMemoryInfo**, this parameter must point to a [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md).
 
+If the *ProcessInformationClass* parameter is **ProcessMaxOverridePrefetchParameter**, this parameter must point to an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md).
+
 ### -param ProcessInformationSize [in]
 
 The size in bytes of the structure specified by the *ProcessInformation* parameter.
