@@ -5,7 +5,7 @@ description:
 helpviewer_keywords:
  - OVERRIDE_PREFETCH_PARAMETER
 tech.root: processthreadsapi
-ms.date: 01/21/2024
+ms.date: 01/29/2024
 ms.keywords: '*LPOVERRIDE_PREFETCH_PARAMETER, *POVERRIDE_PREFETCH_PARAMETER, LPOVERRIDE_PREFETCH_PARAMETER, LPOVERRIDE_PREFETCH_PARAMETER structure pointer, OVERRIDE_PREFETCH_PARAMETER, OVERRIDE_PREFETCH_PARAMETER structure, _win32_override_prefetch_parameter_str, base.override_prefetch_parameter_str, processthreadsapi/LPOVERRIDE_PREFETCH_PARAMETER, processthreadsapi/OVERRIDE_PREFETCH_PARAMETER, winbase/LPOVERRIDE_PREFETCH_PARAMETER, winbase/OVERRIDE_PREFETCH_PARAMETER'
 req.header: processthreadsapi.h
 req.include-header: 
@@ -56,6 +56,10 @@ A unique identifier for differentiating an application view or mode.
 
 App Launch Prefetch (ALPF) brings data and code pages into memory from disk before it's demanded. Prefetching monitors the data and code accessed during application startups and uses that information at the beginning of subsequent startups to read the code and data proactively in an efficient manner to improve performance.
 
-If ALPF predicts incorrectly, the wrong pages may be fetched, slowing app launches. Applications with different "Views", such as Outlook Mail View or  Calendar View, may cause this issue by needing different pages of memory depending on the View. To solve this, applications can pass a Prefetch Parameter to their launch through the command line, which will provide a unique identifier to differentiate between Views or other scenarios that cause ALPF’s standard prediction to fail.
+If ALPF predicts incorrectly, the wrong pages may be fetched, slowing app launches. Applications with different "Views", such as Outlook Mail View or  Calendar View, may cause this issue by needing different pages of memory depending on the View. To solve this, applications can pass a prefetch parameter to their launch through the command line, which will provide a unique identifier to differentiate between Views or other scenarios that cause the ALPF standard prediction to fail.
+
+However, prefetching doesn't always resolve a failure successfully. This can happen, for example, in cases where different code paths in the same executable require different pages but those startups are not differentiated by Views. The OVERRIDE_PREFETCH_PARAMETER can be used by an app to override the system prefetch parameter and resolve these types of situations (see [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md)).
 
 ## -see-also
+
+[PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md), [GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md)

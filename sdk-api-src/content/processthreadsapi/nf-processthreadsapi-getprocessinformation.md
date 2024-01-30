@@ -99,4 +99,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-[GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md)
+[GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md), [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md)

@@ -60,7 +60,7 @@ If a process is set to **ProcessInPrivate** mode, and a trace session has set th
 
 ### -field ProcessPowerThrottling
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure. Allows applications to configure how the system should throttle the target process’s activity when managing power.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure. Allows applications to configure how the system should throttle the target process's activity when managing power.
 
 ### -field ProcessReservedValue1
 
@@ -84,7 +84,7 @@ The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsa
 
 ### -field ProcessOverrideSubsequentPrefetchParameter
 
-Can be used in a call to the [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md) to set an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md) for the application that called it. (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
+Can be used in a call to the [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md) to set an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md) for the application that called it. The prefetch parameter is used to differentiate different file access patterns for the same process name.
 
 ### -field ProcessMaxOverridePrefetchParameter
 
