@@ -61,8 +61,8 @@ Specifies that alignment is towards the origin of the bounding rectangle. May be
 
 ### -field StringAlignmentCenter:1
 
-Specifies that alignment is centered between origin and extent (width) of the formatting rectangle.
+Specifies that alignment is centered between origin and extent (width or height) of the formatting rectangle.
 
 ### -field StringAlignmentFar:2
 
-Specifies that alignment is to the far extent (right side) of the formatting rectangle.
+Specifies that alignment is to the far extent (lower right) of the formatting rectangle.
