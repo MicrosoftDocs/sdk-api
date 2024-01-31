@@ -58,7 +58,7 @@ App Launch Prefetch (ALPF) brings data and code pages into memory from disk befo
 
 If ALPF predicts incorrectly, the wrong pages may be fetched, slowing app launches. Applications with different "Views", such as Outlook Mail View or  Calendar View, may cause this issue by needing different pages of memory depending on the View. To solve this, applications can pass a prefetch parameter to their launch through the command line, which will provide a unique identifier to differentiate between Views or other scenarios that cause the ALPF standard prediction to fail.
 
-However, prefetching doesn't always resolve a failure successfully. This can happen, for example, in cases where different code paths in the same executable require different pages but those startups are not differentiated by Views. The OVERRIDE_PREFETCH_PARAMETER can be used by an app to override the system prefetch parameter and resolve these types of situations (see [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md)).
+In some cases, however, prefetching doesn't always resolve a failure successfully. For example, failures can happen when different code paths in the same executable require different pages but those startups were launched with the same prefetch parameter. To resolve these types of situations, the OVERRIDE_PREFETCH_PARAMETER can be used by an app to override the system prefetch parameter (see [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md)).
 
 ## -examples
 
