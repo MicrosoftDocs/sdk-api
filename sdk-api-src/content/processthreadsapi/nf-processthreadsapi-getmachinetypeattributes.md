@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetMachineTypeAttributes
-tech.root: security
+tech.root: processthreadsapi
 title: GetMachineTypeAttributes
 ms.date: 09/28/2021
 targetos: Windows
