@@ -45,7 +45,7 @@ api_location:
  - Richedit.h
 api_name:
  - PARAFORMAT2
-h1_override: PARAFORMAT2 structure (Rich Edit 2.0)
+h1-override: PARAFORMAT2 structure (Rich Edit 2.0)
 ---
 
 # PARAFORMAT2 structure

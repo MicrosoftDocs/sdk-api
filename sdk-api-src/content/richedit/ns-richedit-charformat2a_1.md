@@ -47,7 +47,7 @@ api_name:
  - CHARFORMAT2
  - CHARFORMAT2A
  - CHARFORMAT2W
-h1_override: CHARFORMAT2A structure (Rich Edit 2.0)
+h1-override: CHARFORMAT2A structure (Rich Edit 2.0)
 ---
 
 # CHARFORMAT2A structure
