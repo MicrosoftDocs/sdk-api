@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EnumWindows
 title: EnumWindows function (winuser.h)
-description: Enumerates all top-level windows on the screen by passing the handle to each window, in turn, to an application-defined callback function. EnumWindows continues until the last top-level window is enumerated or the callback function returns FALSE.
+description: Enumerates all top-level windows on the screen by passing each window's handle, in turn, to an application-defined callback function. EnumWindows continues until the last top-level window is enumerated or the callback function returns FALSE.
 helpviewer_keywords: ["EnumWindows","EnumWindows function [Windows and Messages]","_win32_EnumWindows","_win32_enumwindows_cpp","winmsg.enumwindows","winui._win32_enumwindows","winuser/EnumWindows"]
 old-location: winmsg\enumwindows.htm
 tech.root: winmsg
@@ -61,7 +61,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 
 ## -description
 
-Enumerates all top-level windows on the screen by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumWindows</b> continues until the last top-level window is enumerated or the callback function returns <b>FALSE</b>.
+Enumerates all top-level windows on the screen by passing each window's handle, in turn, to an application-defined callback function. <b>EnumWindows</b> continues until the last top-level window is enumerated or the callback function returns <b>FALSE</b>.
 
 ## -parameters
 
