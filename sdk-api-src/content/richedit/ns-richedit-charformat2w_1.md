@@ -47,6 +47,7 @@ api_name:
  - CHARFORMAT2
  - CHARFORMAT2A
  - CHARFORMAT2W
+h1-override: CHARFORMAT2W structure (Rich Edit 2.0)
 ---
 
 # CHARFORMAT2W structure
@@ -137,7 +138,7 @@ The <b>CFE_BOLD</b> value is valid.
 </td>
 <td width="60%">
 The <b>CFE_AUTOCOLOR</b> value is valid, or the 
-									<b>crTextColor</b> member is valid.
+                                    <b>crTextColor</b> member is valid.
 
 </td>
 </tr>
@@ -402,7 +403,7 @@ Set the following values to indicate the valid structure members.
 </td>
 <td width="60%">
 The 
-						<b>bAnimation</b> member is valid.
+                        <b>bAnimation</b> member is valid.
 
 </td>
 </tr>
@@ -413,7 +414,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>crBackColor</b> member is valid.
+                        <b>crBackColor</b> member is valid.
 
 </td>
 </tr>
@@ -424,7 +425,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>bCharSet</b> member is valid.
+                        <b>bCharSet</b> member is valid.
 
 </td>
 </tr>
@@ -475,7 +476,7 @@ The <b>lcid</b> member is valid.
 </td>
 <td width="60%">
 The 
-						<b>yOffset</b> member is valid.
+                        <b>yOffset</b> member is valid.
 
 </td>
 </tr>
@@ -633,7 +634,7 @@ The characters are less common members of a script. A font that supports a scrip
 </dl>
 </td>
 <td width="60%">
-Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
+Font is chosen by the rich edit control because the active font doesn't support the characters. This process is called font binding.
 
 
 </td>
