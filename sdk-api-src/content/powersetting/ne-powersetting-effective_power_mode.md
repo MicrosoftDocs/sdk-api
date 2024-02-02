@@ -62,9 +62,6 @@ The system is in battery saver mode.
 
 The system is in energy saver high savings mode.
 
-<div class="alert"><b>Note</b> This mode is only available with the EFFECTIVE_POWER_MODE_V2 version of the API </div>
-<div> </div>
-
 ### -field EffectivePowerModeBetterBattery
 
 The system is in the better battery effective power mode. 
@@ -75,9 +72,6 @@ The system is in the better battery effective power mode.
 ### -field EffectivePowerModeEnergySaverStandard 
 
 The system is in energy saver standard mode.
-
-<div class="alert"><b>Note</b> This mode is only available with the EFFECTIVE_POWER_MODE_V2 version of the API </div>
-<div> </div>
 
 ### -field EffectivePowerModeBalanced
 
