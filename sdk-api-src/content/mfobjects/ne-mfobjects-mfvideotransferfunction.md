@@ -150,6 +150,22 @@ Hybrid Log-Gamma, ARIB STD-B67
 
 ### -field MFVideoTransFunc_10_rel:17
 
+No gamma, display referred (relative).
+
+### -field MFVideoTransFunc_BT1361_ECG:18
+
+The transfer function Extended Color Gamut video, as defined by ITU-R BT.1361.
+
+> [!NOTE]
+> Requires Windows 11, version 24H2 or later.
+
+### -field MFVideoTransFunc_SMPTE428:19
+
+Video transfer function defined in [SMPTE ST 428-1](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7290876).
+
+> [!NOTE]
+> Requires Windows 11, version 24H2 or later.
+
 ### -field MFVideoTransFunc_Last
 
 Reserved.
