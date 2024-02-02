@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PENCLAVE_INIT_INFO_SGX","ENCLAVE_INIT_INFO_SGX","ENCLAVE
 old-location: base\enclave_init_info_sgx.htm
 tech.root: base
 ms.assetid: A314FF96-A212-4F47-B836-224DE2C3AC0F
-ms.date: 5/18/2022
+ms.date: 02/02/2024
 ms.keywords: '*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX'
 req.header: winnt.h
 req.include-header: 
@@ -78,6 +78,8 @@ Not used.
 For more information about the **SIGSTRUCT** and **EINITTOKEN** structures, see the Intel SGX Programming Reference that is available from [Intel Software Guard Extensions](https://software.intel.com/sgx).
 
 ## -see-also
+
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
 
 [ENCLAVE_CREATE_INFO_SGX](ns-winnt-enclave_create_info_sgx.md)
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["VBS_ENCLAVE_REPORT_MODULE","VBS_ENCLAVE_REPORT_MODULE str
 old-location: base\vbs_enclave_report_module.htm
 tech.root: base
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, base.vbs_enclave_report_module, ntenclv/VBS_ENCLAVE_REPORT_MODULE
 req.header: ntenclv.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # VBS_ENCLAVE_REPORT_MODULE structure
 
-
 ## -description
 
-Describes a module loaded for the enclave. The report contains one <b>VBS_ENCLAVE_REPORT_MODULE</b> structure for every module loaded for the enclave except the primary module for the enclave, which is described in the <b>EnclaveIdentity</b> member of the <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a> structure.
+Describes a module loaded for the enclave. The report contains one **VBS_ENCLAVE_REPORT_MODULE** structure for every module loaded for the enclave except the primary module for the enclave, which is described in the **EnclaveIdentity** member of the [VBS_ENCLAVE_REPORT](ns-ntenclv-vbs_enclave_report.md) structure.
 
 ## -struct-fields
 
@@ -84,8 +83,8 @@ A NULL-terminated string that contains the name of the module as it was loaded i
 
 ## -see-also
 
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
 
+[VBS_ENCLAVE_REPORT](ns-ntenclv-vbs_enclave_report.md)
 
-
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a>
+[VBS_ENCLAVE_REPORT_VARDATA_HEADER](ns-ntenclv-vbs_enclave_report_vardata_header.md)
