@@ -62,6 +62,9 @@ The system is in battery saver mode.
 
 The system is in energy saver high savings mode.
 
+> [!IMPORTANT]
+> This information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ### -field EffectivePowerModeBetterBattery
 
 The system is in the better battery effective power mode. 
@@ -72,6 +75,9 @@ The system is in the better battery effective power mode.
 ### -field EffectivePowerModeEnergySaverStandard 
 
 The system is in energy saver standard mode.
+
+> [!IMPORTANT]
+> This information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ### -field EffectivePowerModeBalanced
 
