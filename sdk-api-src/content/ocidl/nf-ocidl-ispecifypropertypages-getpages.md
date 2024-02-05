@@ -56,7 +56,7 @@ Retrieves a list of property pages that can be displayed in this object's proper
 
 ### -param pPages [out]
 
-A pointer to a caller-allocated <a href="/windows/desktop/api/ocidl/ns-ocidl-cauuid">CAUUID</a> structure that must be initialized and filled before returning. The <b>pElems</b> member in the structure is allocated by the callee with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed by the caller with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to a caller-allocated <a href="/windows/desktop/api/ocidl/ns-ocidl-cauuid">CAUUID</a> structure. The <b>pElems</b> member in the structure is allocated by the callee with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed by the caller with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
