@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetLastError","SetLastError function","_win32_setlasterro
 old-location: base\setlasterror.htm
 tech.root: Debug
 ms.assetid: d9da833f-36ca-4046-8d2f-cd4449dd3c63
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: SetLastError, SetLastError function, _win32_setlasterror, base.setlasterror, errhandlingapi/SetLastError
 req.header: errhandlingapi.h
 req.include-header: Windows.h
@@ -55,7 +55,6 @@ api_name:
 
 # SetLastError function
 
-
 ## -description
 
 Sets the last-error code for the calling thread.
@@ -70,27 +69,20 @@ The last-error code for the thread.
 
 The last-error code is kept in thread local storage so that multiple threads do not overwrite each other's values.
 
-Most functions call 
-<b>SetLastError</b> or <a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a> only when they fail. However, some system functions call 
-<b>SetLastError</b> or <b>SetLastErrorEx</b> under conditions of success; those cases are noted in each function's documentation.
+Most functions call <b>SetLastError</b> or [SetLastErrorEx](../winuser/nf-winuser-setlasterrorex.md) only when they fail. However, some system functions call <b>SetLastError</b> or <b>SetLastErrorEx</b> under conditions of success; those cases are noted in each function's documentation.
 
-Applications can optionally retrieve the value set by this function by using the 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function immediately after a function fails.
+Applications can optionally retrieve the value set by this function by using the [GetLastError](nf-errhandlingapi-getlasterror.md) function immediately after a function fails.
 
 Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to indicate that the error code has been defined by your application and to ensure that your error code does not conflict with any system-defined error codes.
 
 ## -see-also
 
-<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+[Error Handling Functions](/windows/win32/Debug/error-handling-functions)
 
+[GetLastError](nf-errhandlingapi-getlasterror.md)
 
+[Last-Error Code](/windows/win32/Debug/last-error-code)
 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+[SetLastErrorEx](../winuser/nf-winuser-setlasterrorex.md)
 
-
-
-<a href="/windows/desktop/Debug/last-error-code">Last-Error Code</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

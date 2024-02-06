@@ -6,7 +6,7 @@ helpviewer_keywords: ["DisableThreadLibraryCalls","DisableThreadLibraryCalls fun
 old-location: base\disablethreadlibrarycalls.htm
 tech.root: base
 ms.assetid: 25e0e533-35e3-48c6-80a5-f063d38d87ca
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: DisableThreadLibraryCalls, DisableThreadLibraryCalls function, _win32_disablethreadlibrarycalls, base.disablethreadlibrarycalls, libloaderapi/DisableThreadLibraryCalls, winbase/DisableThreadLibraryCalls
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -49,12 +49,12 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Libraryloader-l1-2-1.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+ - vertdll.dll
 api_name:
  - DisableThreadLibraryCalls
 ---
 
 # DisableThreadLibraryCalls function
-
 
 ## -description
 
@@ -64,23 +64,17 @@ Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the speci
 
 ### -param hLibModule [in]
 
-A handle to the DLL module for which the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications are to be disabled. The 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>,  or 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function returns this handle. Note that you cannot call <b>GetModuleHandle</b> with NULL because this returns the base address of the executable image, not the DLL image.
+A handle to the DLL module for which the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications are to be disabled. The [LoadLibrary](nf-libloaderapi-loadlibrarya.md), [LoadLibraryEx](nf-libloaderapi-loadlibraryexa.md), or [GetModuleHandle](nf-libloaderapi-getmodulehandlea.md) function returns this handle. Note that you cannot call **GetModuleHandle** with `NULL` because this returns the base address of the executable image, not the DLL image.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. The 
-<b>DisableThreadLibraryCalls</b> function fails if the DLL specified by <i>hModule</i> has active static thread local storage, or if <i>hModule</i> is an invalid module handle. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. The **DisableThreadLibraryCalls** function fails if the DLL specified by *hModule* has active static thread local storage, or if *hModule* is an invalid module handle. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
-The 
-<b>DisableThreadLibraryCalls</b> function lets a DLL disable the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notification calls. This can be a useful optimization for multithreaded applications that have many DLLs, frequently create and delete threads, and whose DLLs do not need these thread-level notifications of attachment/detachment. A remote procedure call (RPC) server application is an example of such an application. In these sorts of applications, DLL initialization routines often remain in memory to service DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications. By disabling the notifications, the DLL initialization code is not paged in because a thread is created or deleted, thus reducing the size of the application's working code set. To implement the optimization, modify a DLL's DLL_PROCESS_ATTACH code to call 
-<b>DisableThreadLibraryCalls</b>.
+The **DisableThreadLibraryCalls** function lets a DLL disable the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notification calls. This can be a useful optimization for multithreaded applications that have many DLLs, frequently create and delete threads, and whose DLLs do not need these thread-level notifications of attachment/detachment. A remote procedure call (RPC) server application is an example of such an application. In these sorts of applications, DLL initialization routines often remain in memory to service DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications. By disabling the notifications, the DLL initialization code is not paged in because a thread is created or deleted, thus reducing the size of the application's working code set. To implement the optimization, modify a DLL's DLL_PROCESS_ATTACH code to call **DisableThreadLibraryCalls**.
 
 Do not call this function from a DLL that is linked to the static C run-time library (CRT). The static CRT requires DLL_THREAD_ATTACH and DLL_THREAD_DETATCH notifications to function properly.
 
@@ -88,12 +82,10 @@ This function does not perform any optimizations if static [Thread Local Storage
 
 ## -see-also
 
-<a href="/windows/desktop/Dlls/dynamic-link-library-entry-point-function">Dynamic-Link Library Entry-Point Function</a>
+[Dynamic-Link Library Entry-Point Function](/windows/win32/Dlls/dynamic-link-library-entry-point-function)
 
+[Dynamic-Link Library Functions](/windows/win32/Dlls/dynamic-link-library-functions)
 
+[FreeLibraryAndExitThread](nf-libloaderapi-freelibraryandexitthread.md)
 
-<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
-
-
-
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -81,3 +81,5 @@ The return value of the function, if it is called successfully.
 [Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
 [TerminateEnclave](nf-enclaveapi-terminateenclave.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

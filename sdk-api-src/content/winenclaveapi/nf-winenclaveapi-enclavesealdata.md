@@ -101,3 +101,5 @@ If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESU
 [ENCLAVE_SEALING_IDENTITY_POLICY](../ntenclv/ne-ntenclv-enclave_sealing_identity_policy.md)
 
 [EnclaveUnsealData](../winenclaveapi/nf-winenclaveapi-enclaveunsealdata.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -74,3 +74,5 @@ If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESU
 [Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
 [ENCLAVE_INFORMATION](../ntenclv/ns-ntenclv-enclave_information.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -80,3 +80,5 @@ This function is used if two enclaves run on the same system and need to establi
 [Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
 [EnclaveGetAttestationReport](nf-winenclaveapi-enclavegetattestationreport.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

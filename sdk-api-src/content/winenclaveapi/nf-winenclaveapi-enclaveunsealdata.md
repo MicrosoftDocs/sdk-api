@@ -102,3 +102,5 @@ The enclave that calls **EnclaveUnsealData** must meet the criteria that corresp
 [ENCLAVE_SEALING_IDENTITY_POLICY](../ntenclv/ne-ntenclv-enclave_sealing_identity_policy.md)
 
 [EnclaveSealData](nf-winenclaveapi-enclavesealdata.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

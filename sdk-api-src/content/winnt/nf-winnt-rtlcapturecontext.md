@@ -6,7 +6,7 @@ helpviewer_keywords: ["RtlCaptureContext","RtlCaptureContext function","base.rtl
 old-location: base\rtlcapturecontext.htm
 tech.root: Debug
 ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
 req.header: winnt.h
 req.include-header: Windows.h
@@ -44,23 +44,22 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - vertdll.dll
 api_name:
  - RtlCaptureContext
 ---
 
 # RtlCaptureContext function
 
-
 ## -description
 
-Retrieves a 
-   context record in the context of the caller.
+Retrieves a context record in the context of the caller.
 
 ## -parameters
 
 ### -param ContextRecord [out]
 
-A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure.
 
 ## -returns
 
@@ -68,8 +67,8 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+[CONTEXT](ns-winnt-arm64_nt_context.md)
 
+[RtlRestoreContext](nf-winnt-rtlrestorecontext.md)
 
-
-<a href="/windows/desktop/api/winnt/nf-winnt-rtlrestorecontext">RtlRestoreContext</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

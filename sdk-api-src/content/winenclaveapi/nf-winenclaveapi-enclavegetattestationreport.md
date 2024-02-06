@@ -104,3 +104,5 @@ The enclave attestation report provide proof that specific code is running with 
 [VBS_ENCLAVE_REPORT_PKG_HEADER](../ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header.md)
 
 [VBS_ENCLAVE_REPORT_VARDATA_HEADER](../ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

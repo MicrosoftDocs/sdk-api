@@ -42,6 +42,7 @@ api_type:
 api_location:
  - kernel32.dll
  - api-ms-win-core-enclave-l1-1-0.dll
+ - vertdll.dll
 api_name:
  - TerminateEnclave
 ---
@@ -71,3 +72,5 @@ The base address of the enclave in which to end the execution of the threads.
 [Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
 [CallEnclave](nf-enclaveapi-callenclave.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

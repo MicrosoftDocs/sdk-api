@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProcessHeaps","GetProcessHeaps function","_win32_getpr
 old-location: base\getprocessheaps.htm
 tech.root: base
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
 req.header: heapapi.h
 req.include-header: Windows.h
@@ -46,12 +46,12 @@ api_location:
  - API-MS-Win-Core-heap-l1-2-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - GetProcessHeaps
 ---
 
 # GetProcessHeaps function
-
 
 ## -description
 
@@ -75,40 +75,28 @@ If the return value is less than or equal to <i>NumberOfHeaps</i>, the function 
 
 If the return value is greater than <i>NumberOfHeaps</i>, the buffer pointed to by <i>ProcessHeaps</i> is too small to hold all the heap handles for the calling process, and the function stores <i>NumberOfHeaps</i> handles in the buffer. Use the return value to allocate a buffer that is large enough to receive all of the handles, and call the function again.
 
-If the return value is zero, the function has failed because every process has at least one active heap, the default heap for the  process. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the return value is zero, the function has failed because every process has at least one active heap, the default heap for the  process. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The 
-<b>GetProcessHeaps</b> function obtains a handle to the default heap of the calling process, plus handles to any additional private heaps  created by calling the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function on any thread in the process. 
+The <b>GetProcessHeaps</b> function obtains a handle to the default heap of the calling process, plus handles to any additional private heaps  created by calling the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function on any thread in the process.
 
-The <b>GetProcessHeaps</b> function is primarily useful for debugging, because some of the private heaps retrieved by the function may have been created by other code running in the process and may be destroyed after <b>GetProcessHeaps</b> returns. Destroying a heap invalidates the handle to the heap, and continued use of such handles can cause undefined behavior in the application. Heap functions should be called only on the default heap of the calling process and on private heaps that the process creates and manages. 
+The <b>GetProcessHeaps</b> function is primarily useful for debugging, because some of the private heaps retrieved by the function may have been created by other code running in the process and may be destroyed after <b>GetProcessHeaps</b> returns. Destroying a heap invalidates the handle to the heap, and continued use of such handles can cause undefined behavior in the application. Heap functions should be called only on the default heap of the calling process and on private heaps that the process creates and manages.
 
-To obtain a handle to the process heap of the calling process, use the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.  
-
+To obtain a handle to the process heap of the calling process, use the [GetProcessHeap](nf-heapapi-getprocessheap.md) function.  
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/Memory/getting-process-heaps">Getting Process Heaps</a>.
 
-<div class="code"></div>
-
 ## -see-also
 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
+[GetProcessHeap](nf-heapapi-getprocessheap.md)
 
+[Heap Functions](/windows/win32/Memory/heap-functions)
 
+[HeapCreate](nf-heapapi-heapcreate.md)
 
-<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
-
-
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
-
-
-
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-		  Management Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

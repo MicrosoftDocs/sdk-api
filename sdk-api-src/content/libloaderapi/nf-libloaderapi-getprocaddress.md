@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetProcAddress","GetProcAddress function","_win32_getproc
 old-location: base\getprocaddress.htm
 tech.root: base
 ms.assetid: a0d7fc09-f888-4f46-a571-d3719a627597
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: GetProcAddress, GetProcAddress function, _win32_getprocaddress, base.getprocaddress, libloaderapi/GetProcAddress, winbase/GetProcAddress
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -56,7 +56,6 @@ api_name:
 
 # GetProcAddress function
 
-
 ## -description
 
 Retrieves the address of an exported function (also known as a procedure) or variable from the specified dynamic-link library (DLL).
@@ -65,11 +64,9 @@ Retrieves the address of an exported function (also known as a procedure) or var
 
 ### -param hModule [in]
 
-A handle to the DLL module that contains the function or variable. The 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>, <a href="/windows/desktop/api/winbase/nf-winbase-loadpackagedlibrary">LoadPackagedLibrary</a>, or 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function returns this handle. 
+A handle to the DLL module that contains the function or variable. The [LoadLibrary](nf-libloaderapi-loadlibrarya.md), [LoadLibraryEx](nf-libloaderapi-loadlibraryexa.md), [LoadPackagedLibrary](../winbase/nf-winbase-loadpackagedlibrary.md), or [GetModuleHandle](nf-libloaderapi-getmodulehandlea.md) function returns this handle.
 
-The <b>GetProcAddress</b> function does not retrieve addresses from modules that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+The **GetProcAddress** function does not retrieve addresses from modules that were loaded using the **LOAD_LIBRARY_AS_DATAFILE** flag. For more information, see [LoadLibraryEx](nf-libloaderapi-loadlibraryexa.md).
 
 ### -param lpProcName [in]
 
@@ -79,25 +76,19 @@ The function or variable name, or the function's ordinal value. If this paramete
 
 If the function succeeds, the return value is the address of the exported function or variable.
 
-If the function fails, the return value is NULL. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is NULL. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
-The spelling and case of a function name pointed to by <i>lpProcName</i> must be identical to that in the <b>EXPORTS</b> statement of the source DLL's module-definition (.def) file. The exported names of functions may differ from the names you use when calling these functions in your code. This difference is hidden by macros used in the SDK header files. For more information, see 
-<a href="/windows/desktop/Intl/conventions-for-function-prototypes">Conventions for Function Prototypes</a>.
+The spelling and case of a function name pointed to by *lpProcName* must be identical to that in the **EXPORTS** statement of the source DLL's module-definition (.def) file. The exported names of functions may differ from the names you use when calling these functions in your code. This difference is hidden by macros used in the SDK header files. For more information, see [Conventions for Function Prototypes](/windows/win32/Intl/conventions-for-function-prototypes).
 
-The <i>lpProcName</i> parameter can identify the DLL function by specifying an ordinal value associated with the function in the <b>EXPORTS</b> statement. 
-<b>GetProcAddress</b> verifies that the specified ordinal is in the range 1 through the highest ordinal value exported in the .def file. The function then uses the ordinal as an index to read the function's address from a function table. 
+The *lpProcName* parameter can identify the DLL function by specifying an ordinal value associated with the function in the **EXPORTS** statement. **GetProcAddress** verifies that the specified ordinal is in the range 1 through the highest ordinal value exported in the .def file. The function then uses the ordinal as an index to read the function's address from a function table.
 
-If the .def file does not number the functions consecutively from 1 to <i>N</i> (where <i>N</i> is the number of exported functions), an error can occur where 
-<b>GetProcAddress</b> returns an invalid, non-NULL address, even though there is no function with the specified ordinal.
+If the .def file does not number the functions consecutively from 1 to *N* (where *N* is the number of exported functions), an error can occur where **GetProcAddress** returns an invalid, non-NULL address, even though there is no function with the specified ordinal.
 
 If the function might not exist in the DLL module—for example, if the function  is available only on Windows Vista but the application  might be running on Windows XP—specify the function by name rather than by ordinal value and design your application to handle the case when the function is not available, as shown in the following code fragment.
 
-
 ```cpp
-
 typedef void (WINAPI *PGNSI)(LPSYSTEM_INFO);
 
 // Call GetNativeSystemInfo if supported or GetSystemInfo otherwise.
@@ -118,45 +109,28 @@ typedef void (WINAPI *PGNSI)(LPSYSTEM_INFO);
    {
        GetSystemInfo(&si);
    }
-
-
 ```
 
-
-For the complete example that contains this code fragment, see <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
-
+For the complete example that contains this code fragment, see [Getting the System Version](/windows/win32/SysInfo/getting-the-system-version).
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/Dlls/using-run-time-dynamic-linking">Using Run-Time Dynamic Linking</a>.
-
-<div class="code"></div>
+For an example, see [Using Run-Time Dynamic Linking](/windows/win32/Dlls/using-run-time-dynamic-linking).
 
 ## -see-also
 
-<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+[Dynamic-Link Library Functions](/windows/win32/Dlls/dynamic-link-library-functions)
 
+[FreeLibrary](nf-libloaderapi-freelibrary.md)
 
+[GetModuleHandle](nf-libloaderapi-getmodulehandlea.md)
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>
+[LoadLibrary](nf-libloaderapi-loadlibrarya.md)
 
+[LoadLibraryEx](nf-libloaderapi-loadlibraryexa.md)
 
+[LoadPackagedLibrary](../winbase/nf-winbase-loadpackagedlibrary.md)
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
+[Run-Time Dynamic Linking](/windows/win32/Dlls/run-time-dynamic-linking)
 
-
-
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
-
-
-
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-loadpackagedlibrary">LoadPackagedLibrary</a>
-
-
-
-<a href="/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)
