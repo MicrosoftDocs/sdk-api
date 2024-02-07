@@ -64,7 +64,7 @@ The <b>GUID</b> to associate with the interface.
 
 Type: <b>const <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface to be associated with the device object.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface to be associated with the device object. Its reference count is incremented when set, and its reference count is decremented when either the ID3D12Object is destroyed or when the data is overwritten by calling SetPrivateData or SetPrivateDataInterface with the same GUID.
 
 ## -returns
 
