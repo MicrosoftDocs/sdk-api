@@ -52,6 +52,8 @@ api_name:
 
 Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> with <b>NULL</b> as the first parameter, followed by a call to <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>.
 
+This function is not thread safe. Concurrent calls from multiple threads may lead to spurious failures.
+
 ## -parameters
 
 ### -param lpstream [in]
