@@ -64,7 +64,7 @@ Determines whether a character is uppercase. This determination is based on the 
 
 ### -param ch [in]
 
-Type: <b>TCHAR</b>
+Type: <b>CHAR</b>
 
 The character to be tested.
 
