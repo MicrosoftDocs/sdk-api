@@ -52,7 +52,7 @@ Determines whether a character is lowercase. This determination is based on the 
 
 ### -param ch
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 The character to be tested.
 
