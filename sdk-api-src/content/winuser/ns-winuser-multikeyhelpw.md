@@ -66,13 +66,13 @@ The structure size, in bytes.
 
 ### -field mkKeylist
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 A single character that identifies the keyword table to search.
 
 ### -field szKeyphrase
 
-Type: <b>TCHAR[1]</b>
+Type: <b>WCHAR[1]</b>
 
 A null-terminated text string that specifies the keyword to locate in the keyword table.
 
