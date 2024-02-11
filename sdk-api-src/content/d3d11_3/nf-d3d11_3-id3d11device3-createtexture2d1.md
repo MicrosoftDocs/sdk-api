@@ -57,9 +57,9 @@ Creates a <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-t
 
 ### -param pDesc1 [in]
 
-Type: <b>const <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_texture2d_desc1">D3D11_TEXTURE2D_DESC1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-3d11_texture2d_desc1">D3D11_TEXTURE2D_DESC1</a>*</b>
 
-A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_texture2d_desc1">D3D11_TEXTURE2D_DESC1</a> structure that describes a 2D texture resource. To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
+A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_texture2d_desc1">D3D11_TEXTURE2D_DESC1</a> structure that describes a 2D texture resource. To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
 
 ### -param pInitialData [in, optional]
 
