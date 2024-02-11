@@ -156,4 +156,4 @@ The <b>IWRdsProtocolConnection</b> interface inherits from the <a href="/windows
 
 ## -remarks
 
-To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
+To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread. If you make a new thread, do not wait on the thread to complete its work. Doing so defeats the purpose of making the work complete asynchronously.
