@@ -2,12 +2,12 @@
 UID: NE:powersetting.EFFECTIVE_POWER_MODE
 title: EFFECTIVE_POWER_MODE (powersetting.h)
 description: Indicates the effective power mode the system is running.
-helpviewer_keywords: ["EFFECTIVE_POWER_MODE","EFFECTIVE_POWER_MODE enumeration","EffectivePowerModeBalanced","EffectivePowerModeBatterySaver","EffectivePowerModeBetterBattery","EffectivePowerModeHighPerformance","EffectivePowerModeInvalid","EffectivePowerModeMaxPerformance","base.effective_power_mode","powersetting/EFFECTIVE_POWER_MODE","powersetting/EffectivePowerModeBalanced","powersetting/EffectivePowerModeBatterySaver","powersetting/EffectivePowerModeBetterBattery","powersetting/EffectivePowerModeHighPerformance","powersetting/EffectivePowerModeInvalid","powersetting/EffectivePowerModeMaxPerformance"]
+helpviewer_keywords: ["EFFECTIVE_POWER_MODE","EFFECTIVE_POWER_MODE enumeration","EffectivePowerModeBalanced","EffectivePowerModeBatterySaver","EffectivePowerModeEnergySaverHighSavings","EffectivePowerModeBetterBattery","EffectivePowerModeEnergySaverStandard","EffectivePowerModeHighPerformance","EffectivePowerModeInvalid","EffectivePowerModeMaxPerformance","base.effective_power_mode","powersetting/EFFECTIVE_POWER_MODE","powersetting/EffectivePowerModeBalanced","powersetting/EffectivePowerModeBatterySaver","powersetting/EffectivePowerModeBetterBattery","powersetting/EffectivePowerModeHighPerformance","powersetting/EffectivePowerModeInvalid","powersetting/EffectivePowerModeMaxPerformance","powersetting/EffectivePowerModeEnergySaverStandard","powersetting/EffectivePowerModeEnergySaverHighSavings"]
 old-location: base\effective_power_mode.htm
 tech.root: base
 ms.assetid: 8FA09CC0-99E7-4B05-88A0-2AF406C7B60C
 ms.date: 12/05/2018
-ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePowerModeBalanced, EffectivePowerModeBatterySaver, EffectivePowerModeBetterBattery, EffectivePowerModeHighPerformance, EffectivePowerModeInvalid, EffectivePowerModeMaxPerformance, base.effective_power_mode, powersetting/EFFECTIVE_POWER_MODE, powersetting/EffectivePowerModeBalanced, powersetting/EffectivePowerModeBatterySaver, powersetting/EffectivePowerModeBetterBattery, powersetting/EffectivePowerModeHighPerformance, powersetting/EffectivePowerModeInvalid, powersetting/EffectivePowerModeMaxPerformance
+ms.keywords: EFFECTIVE_POWER_MODE, EFFECTIVE_POWER_MODE enumeration, EffectivePowerModeBalanced, EffectivePowerModeBatterySaver,EffectivePowerModeEnergySaverStandard, EffectivePowerModeBetterBattery,EffectivePowerModeEnergySaverHighSavings, EffectivePowerModeHighPerformance, EffectivePowerModeInvalid, EffectivePowerModeMaxPerformance, base.effective_power_mode, powersetting/EFFECTIVE_POWER_MODE, powersetting/EffectivePowerModeBalanced, powersetting/EffectivePowerModeBatterySaver, powersetting/EffectivePowerModeBetterBattery, powersetting/EffectivePowerModeHighPerformance, powersetting/EffectivePowerModeInvalid, powersetting/EffectivePowerModeMaxPerformance,powersetting/EffectivePowerModeEnergySaverStandard, powersetting/EffectivePowerModeEnergySaverHighSavings
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -58,12 +58,26 @@ Indicates the effective power mode the system is running.
 
 The system is in battery saver mode.
 
+### -field EffectivePowerModeEnergySaverHighSavings
+
+The system is in energy saver high savings mode. Save energy where possible.
+
+> [!IMPORTANT]
+> This information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ### -field EffectivePowerModeBetterBattery
 
 The system is in the better battery effective power mode. 
 
 <div class="alert"><b>Note</b>  For systems using the legacy high performance overlay, this effective power mode will never be used.</div>
 <div> </div>
+
+### -field EffectivePowerModeEnergySaverStandard 
+
+The system is in energy saver standard mode. Save energy if the user experience impact is minimal.
+
+> [!IMPORTANT]
+> This information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ### -field EffectivePowerModeBalanced
 
