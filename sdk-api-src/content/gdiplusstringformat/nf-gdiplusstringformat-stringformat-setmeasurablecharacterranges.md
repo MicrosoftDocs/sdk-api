@@ -59,7 +59,7 @@ The <b>StringFormat::SetMeasurableCharacterRanges</b> method sets a series of ch
 
 Type: <b>INT</b>
 
-Integer that specifies the number of character ranges in the <i>ranges</i> array (<= 32).
+Integer that specifies the number of character ranges in the <i>ranges</i> array (&#8804; 32).
 
 ### -param ranges [in]
 
