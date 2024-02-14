@@ -51,8 +51,7 @@ api_name:
 
 ## -description
 
-The <b>StringFormat::SetMeasurableCharacterRanges</b> method sets a series of character ranges for this 
-			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object that, when in a string, can be measured by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
+The <b>StringFormat::SetMeasurableCharacterRanges</b> method sets a series of character ranges for this <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object that, when in a string, can be measured by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
 
 ## -parameters
 
@@ -60,25 +59,21 @@ The <b>StringFormat::SetMeasurableCharacterRanges</b> method sets a series of ch
 
 Type: <b>INT</b>
 
-Integer that specifies the number of character ranges in the 
-					<i>ranges</i> array.
+Integer that specifies the number of character ranges in the <i>ranges</i> array (<= 32).
 
 ### -param ranges [in]
 
 Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>*</b>
 
-Pointer to an array of 
-					<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> objects that specify the character ranges to be measured.
+Pointer to an array of <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> objects that specify the character ranges to be measured.
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
