@@ -132,9 +132,9 @@ The spatial audio object is assigned the back center channel.
 
 ### -field AudioObjectType_DirectLeft
 
-Equivalent to **SPEAKER_FRONT_LEFT** without any virtualization. Introduced in Windows 11 version 24H2.
+Equivalent to **SPEAKER_FRONT_LEFT** without any virtualization. Introduced in Windows 11, version 24H2.
 
 ### -field AudioObjectType_DirectRight
 
-Equivalent to **SPEAKER_FRONT_RIGHT** without any virtualization. Introduced in Windows 11 version 24H2.
+Equivalent to **SPEAKER_FRONT_RIGHT** without any virtualization. Introduced in Windows 11, version 24H2.
 
