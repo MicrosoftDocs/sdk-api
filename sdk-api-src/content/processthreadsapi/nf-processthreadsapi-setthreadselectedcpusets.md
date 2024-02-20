@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadSelectedCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: SetThreadSelectedCpuSets
 ms.date: 03/12/2021
 ms.topic: language-reference

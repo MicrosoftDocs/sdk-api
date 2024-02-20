@@ -6,7 +6,7 @@ helpviewer_keywords: ["EnclaveGetEnclaveInformation","EnclaveGetEnclaveInformati
 old-location: base\enclavegetenclaveinformation.htm
 tech.root: base
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 req.header: winenclaveapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # EnclaveGetEnclaveInformation function
 
-
 ## -description
 
 Gets information about the currently executing enclave.
@@ -56,7 +55,7 @@ Gets information about the currently executing enclave.
 
 ### -param InformationSize [in]
 
-The size of the <a href="/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a> structure that the <i>EnclaveInformation</i> parameter points to, in bytes.
+The size of the [ENCLAVE_INFORMATION](../ntenclv/ns-ntenclv-enclave_information.md) structure that the *EnclaveInformation* parameter points to, in bytes.
 
 ### -param EnclaveInformation [out]
 
@@ -64,12 +63,16 @@ Information about the currently executing enclave.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-<b>EnclaveGetEnclaveInformation</b> must be called from within an enclave, and is only supported within enclaves that have the  <b>ENCLAVE_TYPE_VBS</b> enclave type.
+**EnclaveGetEnclaveInformation** must be called from within an enclave, and is only supported within enclaves that have the  **ENCLAVE_TYPE_VBS** enclave type.
 
 ## -see-also
 
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-enclave_information">ENCLAVE_INFORMATION</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
+
+[ENCLAVE_INFORMATION](../ntenclv/ns-ntenclv-enclave_information.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["RtlLookupFunctionEntry","RtlLookupFunctionEntry function"
 old-location: base\rtllookupfunctionentry.htm
 tech.root: Debug
 ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
 req.header: winnt.h
 req.include-header: Windows.h
@@ -45,17 +45,16 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - vertdll.dll
 api_name:
  - RtlLookupFunctionEntry
 ---
 
 # RtlLookupFunctionEntry function
 
-
 ## -description
 
-Searches the active function tables for an entry that corresponds to the specified PC 
-   value.
+Searches the active function tables for an entry that corresponds to the specified PC value.
 
 ## -parameters
 
@@ -71,19 +70,16 @@ The base address of module to which the function belongs.
 
 The global pointer value of the module.
 
-This parameter has a different declaration on x64 and ARM systems. For more information, see x64 Definition 
-        and ARM Definition.
+This parameter has a different declaration on x64 and ARM systems. For more information, see x64 Definition and ARM Definition.
 
 ## -returns
 
-If there is no entry in the function table for the specified PC, the function returns 
-      <b>NULL</b>. Otherwise, the function returns the address of the function table entry that 
-      corresponds to the specified PC.
+If there is no entry in the function table for the specified PC, the function returns `NULL`. Otherwise, the function returns the address of the function table entry that corresponds to the specified PC.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/nf-winnt-rtlunwindex">RtlUnwindEx</a>
+[RtlUnwindEx](nf-winnt-rtlunwindex.md)
 
+[RtlVirtualUnwind](nf-winnt-rtlvirtualunwind.md)
 
-
-<a href="/windows/desktop/api/winnt/nf-winnt-rtlvirtualunwind">RtlVirtualUnwind</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

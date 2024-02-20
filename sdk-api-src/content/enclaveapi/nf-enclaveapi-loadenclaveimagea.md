@@ -61,15 +61,18 @@ A NULL-terminated string that contains the name of the image to load.
 
 ## -returns
 
-<b>TRUE</b> if the function succeeds; otherwise <b>FALSE</b>.  
+`TRUE` if the function succeeds; otherwise `FALSE`.  
 
-To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
-<b>LoadEnclaveImage</b> is only supported enclaves that have  the <b>ENCLAVE_TYPE_VBS</b> enclave type.
+**LoadEnclaveImage** is only supported enclaves that have the **ENCLAVE_TYPE_VBS** enclave type.
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>  
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>  
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
+
+[CreateEnclave](nf-enclaveapi-createenclave.md)
+
+[InitializeEnclave](nf-enclaveapi-initializeenclave.md)

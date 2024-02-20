@@ -1,6 +1,6 @@
 ---
 UID: NE:processthreadsapi._MACHINE_ATTRIBUTES
-tech.root: security
+tech.root: processthreadsapi
 title: MACHINE_ATTRIBUTES (processthreadsapi.h)
 ms.date: 09/28/2021
 targetos: Windows

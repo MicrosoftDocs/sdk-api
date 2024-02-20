@@ -6,7 +6,7 @@ helpviewer_keywords: ["OutputDebugString", "OutputDebugString function", "Output
 old-location: base\outputdebugstring.htm
 tech.root: Debug
 ms.assetid: ca23d9a9-65b7-4a36-bd09-857a6997f482
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, OutputDebugStringW, _win32_outputdebugstring, base.outputdebugstring, debugapi/OutputDebugString, debugapi/OutputDebugStringA, debugapi/OutputDebugStringW
 req.header: debugapi.h
 req.include-header: Windows.h
@@ -56,7 +56,6 @@ api_name:
 
 # OutputDebugStringW function
 
-
 ## -description
 
 Sends a string to the debugger for display.
@@ -88,4 +87,8 @@ The debugapi.h header defines OutputDebugString as an alias that automatically s
 
 ## -see-also
 
-[Communicating with the Debugger](/windows/win32/debug/communicating-with-the-debugger), [Debugging Functions](/windows/win32/debug/debugging-functions)
+[Communicating with the Debugger](/windows/win32/debug/communicating-with-the-debugger)
+
+[Debugging Functions](/windows/win32/debug/debugging-functions)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

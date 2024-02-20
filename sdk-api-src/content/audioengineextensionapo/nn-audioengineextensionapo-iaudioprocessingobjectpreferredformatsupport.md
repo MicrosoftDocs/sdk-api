@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-This interface is implemented by APOs to enable them to specify preferred input or output formats. This allows APOs to declare a preferred format that may be different from the endpoint format. For example, this preferred value is returned when clients call [IAudioClient::GetMixFormat](audioclient/nf-audioclient-iaudioclient-getmixformat).
+This interface is implemented by APOs to enable them to specify preferred input or output formats. This allows APOs to declare a preferred format that may be different from the endpoint format. For example, this preferred value is returned when clients call [IAudioClient::GetMixFormat](/windows/win32/api/audioclient/nf-audioclient-iaudioclient-getmixformat).
  
 ## -remarks
 

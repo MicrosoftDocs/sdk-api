@@ -6,7 +6,7 @@ helpviewer_keywords: ["HEAP_GENERATE_EXCEPTIONS","HEAP_NO_SERIALIZE","HEAP_ZERO_
 old-location: base\heapalloc.htm
 tech.root: base
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
 req.header: heapapi.h
 req.include-header: Windows.h
@@ -53,7 +53,6 @@ api_name:
 
 # HeapAlloc function
 
-
 ## -description
 
 Allocates a block of memory from a heap. The allocated memory is not movable.
@@ -62,16 +61,11 @@ Allocates a block of memory from a heap. The allocated memory is not movable.
 
 ### -param hHeap [in]
 
-A handle to the heap from which the memory will be allocated. This handle is returned by the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+A handle to the heap from which the memory will be allocated. This handle is returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param dwFlags [in]
 
-The heap allocation options. Specifying any of these values will override the corresponding value specified when the heap was created with 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. This parameter can be one or more of the following values. 
-
-
+The heap allocation options. Specifying any of these values will override the corresponding value specified when the heap was created with <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. This parameter can be one or more of the following values.
 
 <table>
 <tr>
@@ -98,8 +92,7 @@ To ensure that exceptions are generated for all calls to this function, specify 
 </dl>
 </td>
 <td width="60%">
-Serialized access will not be used for this allocation. 
-
+Serialized access will not be used for this allocation.
 
 For more information, see Remarks.
 
@@ -150,28 +143,22 @@ If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, th
 <td>The allocation attempt failed because of heap corruption or improper function parameters.</td>
 </tr>
 </table>
- 
 
 If the function fails, it does not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>. An application cannot call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 ## -remarks
 
-If 
-the <b>HeapAlloc</b> function succeeds, it allocates at least the amount of memory requested. 
+If the <b>HeapAlloc</b> function succeeds, it allocates at least the amount of memory requested.
 
-To allocate memory from the process's default heap, use  <b>HeapAlloc</b> with the handle returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+To allocate memory from the process's default heap, use <b>HeapAlloc</b> with the handle returned by the <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
-To free a block of memory allocated by 
-<b>HeapAlloc</b>, use the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function.
+To free a block of memory allocated by <b>HeapAlloc</b>, use the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function.
 
-Memory allocated by 
-<b>HeapAlloc</b> is not movable. The address returned by 
-<b>HeapAlloc</b> is valid until the memory block is freed or reallocated; the memory block does not need to be locked. Because the system cannot compact a private heap, it can become fragmented.
+Memory allocated by <b>HeapAlloc</b> is not movable. The address returned by <b>HeapAlloc</b> is valid until the memory block is freed or reallocated; the memory block does not need to be locked. Because the system cannot compact a private heap, it can become fragmented.
 
 The alignment of memory returned by <b>HeapAlloc</b> is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
 
-```
+```cpp
 #if defined(_WIN64) || defined(_M_ALPHA)
 #define MEMORY_ALLOCATION_ALIGNMENT 16
 #else
@@ -179,37 +166,26 @@ The alignment of memory returned by <b>HeapAlloc</b> is <b>MEMORY_ALLOCATION_ALI
 #endif
 ```
 
-Applications that allocate large amounts of memory in various allocation sizes can use the 
-<a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> to reduce heap fragmentation.
+Applications that allocate large amounts of memory in various allocation sizes can use the <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> to reduce heap fragmentation.
 
 Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. Setting the <b>HEAP_NO_SERIALIZE</b> value eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, likely causing corruption in the heap. The <b>HEAP_NO_SERIALIZE</b> value can, therefore, be safely used only in the following situations:
 
-<ul>
-<li>The process has only one thread.</li>
-<li>The process has multiple threads, but only one thread calls the heap functions for a specific heap.</li>
-<li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
-</ul>
+- The process has only one thread.
+- The process has multiple threads, but only one thread calls the heap functions for a specific heap.
+- The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/Memory/awe-example">AWE Example</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/win32/Memory/awe-example">AWE Example</a>.
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
+[Heap Functions](/windows/win32/Memory/heap-functions)
 
+[HeapFree](nf-heapapi-heapfree.md)
 
+[HeapReAlloc](nf-heapapi-heaprealloc.md)
 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
-
-
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>
-
-
-
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-    Management Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

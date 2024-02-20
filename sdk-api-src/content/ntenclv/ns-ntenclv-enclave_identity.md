@@ -6,7 +6,7 @@ helpviewer_keywords: ["ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE","ENCLAVE_FLAG_DYNAMIC_
 old-location: base\enclave_identity.htm
 tech.root: base
 ms.assetid: D584D824-3C86-4BBB-9086-6DBE0290E0A4
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE, ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED, ENCLAVE_FLAG_FULL_DEBUG_ENABLED, ENCLAVE_IDENTITY, ENCLAVE_IDENTITY structure, base.enclave_identity, ntenclv/ENCLAVE_IDENTITY
 req.header: ntenclv.h
 req.include-header: 
@@ -46,7 +46,6 @@ api_name:
 ---
 
 # ENCLAVE_IDENTITY structure
-
 
 ## -description
 
@@ -90,45 +89,11 @@ The security version number of the platform that hosts the enclave.
 
 Flags that describe the runtime policy for the enclave.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ENCLAVE_FLAG_FULL_DEBUG_ENABLED"></a><a id="enclave_flag_full_debug_enabled"></a><dl>
-<dt><b>ENCLAVE_FLAG_FULL_DEBUG_ENABLED</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The enclave supports debugging.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED"></a><a id="enclave_flag_dynamic_debug_enabled"></a><dl>
-<dt><b>ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-The enclave supports dynamic debugging.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE"></a><a id="enclave_flag_dynamic_debug_active"></a><dl>
-<dt><b>ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-Dynamic debugging is turned on for the enclave.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **ENCLAVE_FLAG_FULL_DEBUG_ENABLED**<br/>`0x00000001` | The enclave supports debugging. |
+| **ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED**<br/>`0x00000002` | The enclave supports dynamic debugging. |
+| **ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE**<br/>`0x00000004` | Dynamic debugging is turned on for the enclave. |
 
 ### -field SigningLevel
 
@@ -140,4 +105,6 @@ Reserved.
 
 ## -see-also
 
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
+[VBS_ENCLAVE_REPORT](ns-ntenclv-vbs_enclave_report.md)
+
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)

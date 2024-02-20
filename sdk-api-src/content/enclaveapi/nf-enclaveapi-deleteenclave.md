@@ -6,7 +6,7 @@ helpviewer_keywords: ["DeleteEnclave","DeleteEnclave function","base.deleteencla
 old-location: base\deleteenclave.htm
 tech.root: base
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
 req.header: enclaveapi.h
 req.include-header: 
@@ -48,7 +48,6 @@ api_name:
 
 # DeleteEnclave function
 
-
 ## -description
 
 Deletes the specified enclave.
@@ -61,29 +60,18 @@ The base address of the enclave that you want to delete.
 
 ## -returns
 
-<b>TRUE</b> if the enclave was deleted successfully; otherwise <b>FALSE</b>. To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+`TRUE` if the enclave was deleted successfully; otherwise `FALSE`. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
-For a list of common error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see [System Error Codes](/windows/win32/Debug/system-error-codes). The following error codes also apply for this function.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ENCLAVE_NOT_TERMINATED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The execution of threads running with the enclave was not ended, because either <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-terminateenclave">TerminateEnclave</a> was not called, or the execution of the threads has not yet ended in response to an earlier call to <b>TerminateEnclave</b>.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **ERROR_ENCLAVE_NOT_TERMINATED** | The execution of threads running with the enclave was not ended, because either [TerminateEnclave](nf-enclaveapi-terminateenclave.md) was not called, or the execution of the threads has not yet ended in response to an earlier call to **TerminateEnclave**. |
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
+
+[TerminateEnclave](nf-enclaveapi-terminateenclave.md)
+
+[CreateEnclave](nf-enclaveapi-createenclave.md)

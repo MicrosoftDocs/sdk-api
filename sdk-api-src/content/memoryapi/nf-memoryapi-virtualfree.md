@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_P
 old-location: base\virtualfree.htm
 tech.root: base
 ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243
-ms.date: 05/02/2022
+ms.date: 02/05/2024
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFree, VirtualFree function, _win32_virtualfree, base.virtualfree, winbase/VirtualFree
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -49,6 +49,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
+ - vertdll.dll
 api_name:
  - VirtualFree
 ---
@@ -190,3 +191,5 @@ For an example, see [Reserving and Committing Memory](/windows/win32/Memory/rese
 [Virtual Memory Functions](/windows/win32/Memory/virtual-memory-functions)
 
 [VirtualFreeEx](nf-memoryapi-virtualfreeex.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

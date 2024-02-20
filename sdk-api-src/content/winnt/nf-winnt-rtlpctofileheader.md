@@ -6,7 +6,7 @@ helpviewer_keywords: ["RtlPcToFileHeader","RtlPcToFileHeader function","base.rtl
 old-location: base\rtlpctofileheader.htm
 tech.root: Debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
 req.header: winnt.h
 req.include-header: 
@@ -45,12 +45,12 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - vertdll.dll
 api_name:
  - RtlPcToFileHeader
 ---
 
 # RtlPcToFileHeader function
-
 
 ## -description
 
@@ -70,8 +70,10 @@ The base address of the image containing the PC value. This value must be added 
 
 If the PC value is found, the function returns the base address of the image that contains the PC value.
 
-If no image contains the PC value, the function returns <b>NULL</b>.
+If no image contains the PC value, the function returns `NULL`.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>
+[RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)
