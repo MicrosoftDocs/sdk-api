@@ -124,9 +124,6 @@ Academy Color Encoding System
 
 SMPTE EG-432-1 (DCI P3 with D65 white point)
 
-> [!NOTE]
-> Requires Windows 11, version 24H2 or later.
-
 ### -field MFVideoPrimaries_Last
 
 Reserved.
