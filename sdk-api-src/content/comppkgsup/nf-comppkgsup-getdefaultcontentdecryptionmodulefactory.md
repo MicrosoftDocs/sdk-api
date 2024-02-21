@@ -70,7 +70,7 @@ An HRESULT including the following values:
 
 **GetDefaultContentDescryptionModuleFactory** only considers content decryption module factories that are built-in to Windows and does not consider content decryption module factories that have been downloaded from the Microsoft Store. 
 
-Apps are likely going to want to prefer to use [IMFMediaEngineClassFactory4::CreateContentDecryptionModuleFactory](..mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory4-createcontentdecryptionmodulefactory.md), as this method first calls **GetDefaultContentDecryptionModuleFactory** , but then also searches for any matching implementations of **IMFContentDecryptionModuleFactory** that may have been downloaded from the Microsoft Store.
+It is recommended that apps use [IMFMediaEngineClassFactory4::CreateContentDecryptionModuleFactory](..mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory4-createcontentdecryptionmodulefactory.md), as this method first calls **GetDefaultContentDecryptionModuleFactory** , but then also searches for any matching implementations of **IMFContentDecryptionModuleFactory** that may have been downloaded from the Microsoft Store.
 
 ## -see-also
 
