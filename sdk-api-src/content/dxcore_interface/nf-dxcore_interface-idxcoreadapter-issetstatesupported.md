@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.IsSetStateSupported
 title: IDXCoreAdapter::IsSetStateSupported
 description: Determines whether this DXCore adapter object and the current operating system (OS) support setting the value of the specified adapter state.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsSetStateSupported method, IDXCoreAdapter.IsSetStateSupported, IDXCoreAdapter::IsSetStateSupported, IsSetStateSupported, IsSetStateSupported method, IsSetStateSupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsSetStateSupported, dxcore_interface.idxcoreadapterfactory_issetstatesupported
 ms.localizationpriority: low

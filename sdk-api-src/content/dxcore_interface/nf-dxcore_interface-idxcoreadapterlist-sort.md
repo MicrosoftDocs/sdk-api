@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.Sort
 title: IDXCoreAdapterList::Sort
 description: Sorts a DXCore adapter list object based on a provided input array of sort criteria.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,Sort method, IDXCoreAdapterFactory.Sort, IDXCoreAdapterFactory::Sort, Sort, Sort method, Sort method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::Sort, dxcore_interface.idxcoreadapterfactory_sort
 ms.localizationpriority: low

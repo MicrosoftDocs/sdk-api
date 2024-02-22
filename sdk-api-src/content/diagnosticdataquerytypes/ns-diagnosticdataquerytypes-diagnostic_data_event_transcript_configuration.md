@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION, DIAGNOSTIC_DATA_
 description: Event transcript configuration details such as maximum storage size and hours of data history.
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

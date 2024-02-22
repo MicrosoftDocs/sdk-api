@@ -2,14 +2,13 @@
 UID: NE:dxcore_interface.DXCoreAdapterProperty
 title: DXCoreAdapterProperty
 description: Defines constants that specify DXCore adapter properties.
-author: windows-sdk-content
 tech.root: dxcore
 ms.author: windowssdkdev
 ms.date: 02/09/2024
 ms.keywords: DXCoreAdapterProperty enumeration, dxcore_interface.dxcoreadapterproperty
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 

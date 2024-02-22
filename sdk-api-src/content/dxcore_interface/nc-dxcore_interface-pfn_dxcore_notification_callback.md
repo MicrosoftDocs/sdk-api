@@ -2,14 +2,12 @@
 UID: NC:dxcore_interface.PFN_DXCORE_NOTIFICATION_CALLBACK
 title: PFN_DXCORE_NOTIFICATION_CALLBACK
 description: A callback function (implemented by your application), which is called by a DXCore object for notification events.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: PFN_DXCORE_NOTIFICATION_CALLBACK, dxcore_interface.pfn_dxcore_notification_callback
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: callback
 req.ddi-compliance: 

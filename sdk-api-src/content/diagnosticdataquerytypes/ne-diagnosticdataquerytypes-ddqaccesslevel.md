@@ -6,7 +6,7 @@ ms.keywords: tagDdqAccessLevel, DdqAccessLevel
 description: This resource represents the privilege level for a Diagnostic Data Query session
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: diagnosticdataquerytypes.h

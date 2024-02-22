@@ -2,9 +2,7 @@
 UID: NN:dxcore.IDXCoreAdapterFactory
 title: IDXCoreAdapterFactory
 description: The **IDXCoreAdapterFactory** interface implements methods for generating DXCore adapter enumeration objects, and for retrieving their details.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: IDXCoreAdapterFactory, IDXCoreAdapterFactory interface, IDXCoreAdapterFactory interface,description, dxcore/IDXCoreAdapterFactory, dxcore.idxcoreadapterfactory
 ms.localizationpriority: low

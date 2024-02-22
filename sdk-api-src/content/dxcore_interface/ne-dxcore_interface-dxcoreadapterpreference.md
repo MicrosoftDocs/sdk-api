@@ -2,14 +2,12 @@
 UID: NE:dxcore_interface.DXCoreAdapterPreference
 title: DXCoreAdapterPreference
 description: Defines constants that specify DXCore adapter preferences to be used as list-sorting criteria.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterPreference enumeration, dxcore_interface.dxcoreadapterpreference
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 

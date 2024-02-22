@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.SetState
 title: IDXCoreAdapter::SetState
 description: Sets the state of the specified item on the adapter.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,SetState method, IDXCoreAdapter.SetState, IDXCoreAdapter::SetState, SetState, SetState method, SetState method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::SetState, dxcore_interface.idxcoreadapterfactory_setstate
 ms.localizationpriority: low
