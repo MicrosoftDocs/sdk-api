@@ -11,7 +11,7 @@ ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddre
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows XP, Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -155,7 +155,7 @@ If the <i>lpsaAddress</i> parameter points to an IPv6 socket address (the addres
 If the length of the buffer pointed to by the <i>lpszAddressString</i> parameter is not large enough to receive the string representation of the socket address, <b>WSAAddressToString</b> returns 
 								<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>. 
 
-Support for IPv6 addresses using the <b>WSAAddressToString</b> function was added on Windows XP with Service Pack 1 (SP1)and later. IPv6 must also be installed on the local computer for the <b>WSAAddressToString</b> function to support IPv6 addresses. 
+Support for IPv6 addresses using the <b>WSAAddressToString</b> function was added on Windows XP with Service Pack 1 (SP1) and later. IPv6 must also be installed on the local computer for the <b>WSAAddressToString</b> function to support IPv6 addresses. 
 
 <b>Windows Phone 8:</b> The <b>WSAAddressToStringW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 

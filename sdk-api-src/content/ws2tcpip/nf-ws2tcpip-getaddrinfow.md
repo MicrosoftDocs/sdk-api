@@ -11,7 +11,7 @@ ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows XP, Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
