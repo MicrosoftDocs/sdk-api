@@ -73,7 +73,7 @@ A handle to the service. This handle is returned by the
 ### -param lpServiceConfig [out, optional]
 
 A pointer to a buffer that receives the service configuration information. The format of the data is a 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-query_service_configa">QUERY_SERVICE_CONFIG</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-query_service_configw">QUERY_SERVICE_CONFIG</a> structure.
 
 The maximum size of this array is 8K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
