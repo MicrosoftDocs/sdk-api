@@ -50,7 +50,13 @@ api_name:
 
 ## -description
 
-Captures the mouse and tracks its movement until the user releases the left button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point. The width and height of the drag rectangle are specified by the <b>SM_CXDRAG</b> and <b>SM_CYDRAG</b> values returned by the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function.
+
+Captures the mouse and tracks its movement until one of the following occurs:
+-   the user releases the left button
+-   the user presses the ESC key
+-   the user moves the mouse outside the drag rectangle around the specified point. The width and height of the drag rectangle are specified by the <b>SM_CXDRAG</b> and <b>SM_CYDRAG</b> values returned by the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function.
+-   a timeout of 500ms elapses
+
 
 ## -parameters
 
