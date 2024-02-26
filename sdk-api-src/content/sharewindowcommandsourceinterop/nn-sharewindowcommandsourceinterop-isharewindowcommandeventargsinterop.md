@@ -38,9 +38,6 @@ f1_keywords:
 
 A native interoperation interface that allows getting a window identifier (a window handle) from a Windows Runtime [Windows::UI::Shell::ShareWindowCommandEventArgs](/uwp/api/windows.ui.shell.sharewindowcommandeventargs) object. This interface is available in C++ only.
 
-> [!IMPORTANT]
-> The **IShareWindowCommandEventArgsInterop** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d15d3aa2-0512-7cb8-1df9-86221f5cbfde).
-
 ## -remarks
 
 You can query interface a [ShareWindowCommandEventArgs](/uwp/api/windows.ui.shell.sharewindowcommandeventargs) object for **IShareWindowCommandEventArgsInterop**.
