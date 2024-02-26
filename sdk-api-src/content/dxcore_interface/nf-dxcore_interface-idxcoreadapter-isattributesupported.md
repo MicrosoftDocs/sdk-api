@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.IsAttributeSupported
 title: IDXCoreAdapter::IsAttributeSupported
 description: Determines whether this DXCore adapter object supports the specified adapter attribute.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,IsAttributeSupported method, IDXCoreAdapter.IsAttributeSupported, IDXCoreAdapter::IsAttributeSupported, IsAttributeSupported, IsAttributeSupported method, IsAttributeSupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsAttributeSupported, dxcore_interface.idxcoreadapterfactory_isattributesupported
 ms.localizationpriority: low

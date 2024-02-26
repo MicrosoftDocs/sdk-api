@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.GetAdapterCount
 title: IDXCoreAdapterList::GetAdapterCount
 description: Retrieves the number of adapters in a DXCore adapter list object.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapterCount method, IDXCoreAdapterFactory.GetAdapterCount, IDXCoreAdapterFactory::GetAdapterCount, GetAdapterCount, GetAdapterCount method, GetAdapterCount method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapterCount, dxcore_interface.idxcoreadapterfactory_getadaptercount
 ms.localizationpriority: low

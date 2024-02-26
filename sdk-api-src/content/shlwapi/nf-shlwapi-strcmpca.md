@@ -63,13 +63,13 @@ Compares strings using C run-time (ASCII) collation rules. The comparison is cas
 
 ### -param pszStr1 [out]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 A pointer to the first null-terminated string to be compared.
 
 ### -param pszStr2 [out]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 A pointer to the second null-terminated string to be compared.
 

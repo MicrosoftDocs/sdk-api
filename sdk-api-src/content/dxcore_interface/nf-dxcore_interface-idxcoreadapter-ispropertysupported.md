@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.IsPropertySupported
 title: IDXCoreAdapter::IsPropertySupported
 description: Determines whether this DXCore adapter object and the current operating system (OS) support the specified adapter property.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsPropertySupported method, IDXCoreAdapter.IsPropertySupported, IDXCoreAdapter::IsPropertySupported, IsPropertySupported, IsPropertySupported method, IsPropertySupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsPropertySupported, dxcore_interface.idxcoreadapterfactory_ispropertysupported
 ms.localizationpriority: low

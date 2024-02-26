@@ -7,7 +7,7 @@ ms.date: 9/9/2019
 ms.keywords: cimfs
 ms.topic: overview
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

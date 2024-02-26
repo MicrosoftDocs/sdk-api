@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.RegisterEventNotification
 title: IDXCoreAdapterFactory::RegisterEventNotification
 description: Registers to receive notifications of specific conditions from a DXCore adapter or adapter list.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,RegisterEventNotification method, IDXCoreAdapterFactory.RegisterEventNotification, IDXCoreAdapterFactory::RegisterEventNotification, RegisterEventNotification, RegisterEventNotification method, RegisterEventNotification method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::RegisterEventNotification, dxcore_interface.idxcoreadapterfactory_registereventnotification
 ms.localizationpriority: low

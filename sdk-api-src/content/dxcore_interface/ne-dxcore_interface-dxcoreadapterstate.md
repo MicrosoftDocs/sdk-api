@@ -2,7 +2,6 @@
 UID: NE:dxcore_interface.DXCoreAdapterState
 title: DXCoreAdapterState
 description: Defines constants that specify kinds of DXCore adapter states.
-author: windows-sdk-content
 tech.root: dxcore
 ms.author: windowssdkdev
 ms.date: 02/09/2024
@@ -10,7 +9,7 @@ ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoreadapterstate
 ms.localizationpriority: low
 ms.topic: reference
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 
