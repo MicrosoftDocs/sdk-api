@@ -48,12 +48,8 @@ Gets the [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommand
 
 The window identifier represents the window where the call or meeting is established. This allows the Windows Shell to use the window identifier to obtain resources such as an icon, and to provide that as a hint to the user.
 
-> [!NOTE]
-> Thank you for your interest in consuming the **ShareWindowCommandSource** API within your real-time communication application.
->
-> The **ShareWindowCommandSource** API is a limited access feature.
->
-> Please contact [onairapi@microsoft.com](mailto://onairapi@microsoft.com) for more information, and to request an unlock token.
+> [!IMPORTANT]
+> The **IShareWindowCommandSourceInterop::GetForWindow** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d15d3aa2-0512-7cb8-1df9-86221f5cbfde).
 
 ## -parameters
 
