@@ -50,4 +50,16 @@ See [**GdiplusStartupParams**](./ne-gdiplusinit-gdiplusstartupparams.md). The de
 
 ## -remarks
 
+The **GdiplusStartupInputEx** structure also defines the following enumeration, which is the type of one of the parameters of the [GdiplusStartupInputEx.GdiplusStartupInputEx(Version,INT,DebugEventProc,BOOL,BOOL)](./nf-gdiplusinit-gdiplusstartupinputex-gdiplusstartupinputex(version_int_debugeventproc_bool_bool).md) constructor.
+
+```cpp
+enum class Version : UINT32
+{
+  V2 = 2,
+  V3 = 3 // Enables Heif and Avif image codecs.
+         // Unlike other functionalities in Gdiplus,
+         // these two codecs require COM to be initialized.
+};
+```
+
 ## -see-also

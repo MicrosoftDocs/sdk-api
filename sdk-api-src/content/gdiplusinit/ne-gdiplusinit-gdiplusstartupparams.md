@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusinit.GdiplusStartupParams
 title: GdiplusStartupParams
-ms.date: 05/07/2020
+ms.date: 02/26/2024
 targetos: Windows
 description: Defines constants that specify parameters for startup.
 tech.root: gdiplus
