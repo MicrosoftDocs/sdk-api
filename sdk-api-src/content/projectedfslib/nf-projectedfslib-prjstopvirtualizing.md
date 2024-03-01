@@ -60,5 +60,5 @@ An opaque handle for the virtualization instance.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+This function does not return anything.
 
