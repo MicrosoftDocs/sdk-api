@@ -20,3 +20,4 @@ To develop XInput Game Controller APIs, you need these headers:
 For programming guidance for this technology, see:
 * [XInput Game Controller APIs](/windows/desktop/xinput)
 
+For developing hardware devices that interface with the XInput Game Controller APIs, see https://aka.ms/gipdocs.
