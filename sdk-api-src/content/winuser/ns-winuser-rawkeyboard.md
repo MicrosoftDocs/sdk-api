@@ -121,32 +121,29 @@ case WM_INPUT:
     if (raw->header.dwType == RIM_TYPEKEYBOARD)
     {
         RAWKEYBOARD& keyboard = raw->data.keyboard;
-
-        // Ignore key overrun state
-        if (keyboard.MakeCode == KEYBOARD_OVERRUN_MAKE_CODE)
-            return 0;
-
-        // Ignore keys not mapped to any virtual key code
-        if (keyboard.VKey >= UCHAR_MAX)
-            return 0;
-
+        WORD scanCode = 0;
         BOOL keyUp = keyboard.Flags & RI_KEY_BREAK;
 
-        // Some apps may send wrong make scan codes with high-order bit set (key break code).
-        // Strip high-order bit and add extended scan code value.
-        WORD scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
+        // Ignore key overrun state and keys not mapped to any virtual key code
+        if (keyboard.MakeCode == KEYBOARD_OVERRUN_MAKE_CODE || keyboard.VKey >= UCHAR_MAX)
+            return 0;
 
-        // Scan code value may be empty for some buttons (for example multimedia buttons).
         if (!keyboard.MakeCode)
         {
+            // Some apps may send wrong make scan codes with high-order bit set (key break code).
+            // Strip high-order bit and add extended scan code value.
+            scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
+        }
+        else
+        {
+            // Scan code value may be empty for some buttons (for example multimedia buttons).
             // Try to get scan code from the virtual key code.
             scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
         }
 
-        // Get key name
-        LPARAM lParam = MAKELPARAM(0, (HIBYTE(scanCode) ? KF_EXTENDED : 0x00) | LOBYTE(scanCode));
+        // Get the key name for debug output
         TCHAR keyNameBuffer[MAX_PATH] = {};
-        GetKeyNameText((LONG)lParam, keyNameBuffer, MAX_PATH);
+        GetKeyNameText((LONG)MAKELPARAM(0, (HIBYTE(scanCode) ? KF_EXTENDED : 0x00) | LOBYTE(scanCode)), keyNameBuffer, MAX_PATH);
 
         // Debug output
         TCHAR printBuffer[MAX_PATH] = {};
