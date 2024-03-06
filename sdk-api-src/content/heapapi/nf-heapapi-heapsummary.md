@@ -63,7 +63,7 @@ Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary.md) structure rep
 
 ## -returns
 
-Returns S_OK on success.
+Returns TRUE on success, FALSE on failure.
 
 ## -remarks
 
