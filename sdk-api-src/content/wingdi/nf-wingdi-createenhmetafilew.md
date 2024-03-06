@@ -59,7 +59,7 @@ The <b>CreateEnhMetaFile</b> function creates a device context for an enhanced-f
 
 ## -parameters
 
-### -param hdc [in]
+### -param hdcRef [in]
 
 A handle to a reference device for the enhanced metafile. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
@@ -67,11 +67,11 @@ A handle to a reference device for the enhanced metafile. This parameter can be 
 
 A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
-### -param lprc [in]
+### -param lpRect [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
 
-### -param lpDesc [in]
+### -param lpDescription [in]
 
 A pointer to a string that specifies the name of the application that created the picture, as well as the picture's title. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
