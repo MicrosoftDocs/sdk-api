@@ -70,7 +70,7 @@ The GUID of the interface to be queried.
 
 ### -param OpCode [in]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
 
 <table>
 <tr>
@@ -587,7 +587,7 @@ int wmain()
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode">WLAN_INTF_OPCODE</a>
 
 
 
