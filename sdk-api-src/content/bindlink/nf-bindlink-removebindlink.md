@@ -60,9 +60,9 @@ This API will fail if the user does not have Administrator privileges, or if the
 
 Note that nested links must be removed in deepest-first order. This means the deepest virtual path must be removed before ancestor virtual paths can be    removed. Unrelated services that create the links and remove the links are expected to be respectful of each other's personal space and limit their mappings to paths under their control.
 
-## -examples
+## Examples
 
-The following example shows how a user can remove a previously created link on C:\\test.
+The following example shows how a user can remove a previously created link on `C:\\test`.
 
 ```cpp
 #include <iostream>
