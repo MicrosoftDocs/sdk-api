@@ -66,7 +66,7 @@ A pointer to the SRW lock.
 
 ## -Remarks
 
-Successful acquisition of a slim reader/writer (SRW) lock in shared mode generally permits other thread to acquire the same lock in shared mode, but doesn't guarantee that such acquisition would always succeed. SRW lock may limit its simultaneous shared mode acquisitions for performance reasons.
+Successful acquisition of an SRW lock in shared mode typically permits other threads to acquire the same lock in shared mode, but doesn't guarantee that such acquisitions always succeed. An SRW lock may limit its simultaneous shared mode acquisitions for performance reasons.
 
 ## -see-also
 
