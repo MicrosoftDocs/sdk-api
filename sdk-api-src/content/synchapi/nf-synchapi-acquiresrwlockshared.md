@@ -66,7 +66,7 @@ A pointer to the SRW lock.
 
 ## -Remarks
 
-Successful acquistition of a slim reader/writer (SRW) lock in shared mode generally permits other thread to acuire the same lock in shared mode, but doesn't guarantee that such acqustition would always succeed. SRW locks may limit its simultaneous shared mode acquistitions for performance reasons.
+Successful acquisition of a slim reader/writer (SRW) lock in shared mode generally permits other thread to acquire the same lock in shared mode, but doesn't guarantee that such acquisition would always succeed. SRW lock may limit its simultaneous shared mode acquisitions for performance reasons.
 
 ## -see-also
 
@@ -77,4 +77,3 @@ Successful acquistition of a slim reader/writer (SRW) lock in shared mode genera
 [Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
 [Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)
-
