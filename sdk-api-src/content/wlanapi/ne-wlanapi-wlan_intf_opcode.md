@@ -43,7 +43,7 @@ prerelease: true
 
 ## -description
 
-Defines constants that specify various opcodes used to set and query parameters on a wireless interface.
+Defines constants that specify various opcodes used to set and query parameters on a wireless interface. These constants represent the possible opcodes that you can pass in the *OpCode* parameter to the [WlanQueryInterface](/windows/win32/api/wlanapi/nf-wlanapi-wlanqueryinterface) and [WlanSetInterface](/windows/win32/api/wlanapi/nf-wlanapi-wlansetinterface) functions to query or set parameters on a wireless interface.
 
 ## -enum-fields
 
@@ -140,11 +140,19 @@ TBD
 
 ### -field wlan_intf_opcode_realtime_connection_quality
 
-TBD
+An opcode that allows clients to query attributes that describe the quality of the connection on the given interface. This API combines fields from various other existing WLAN APIs (**wlan_intf_opcode_current_connection** and [WlanGetNetworkBssList](/windows/win32/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist)), but it omits location-sensitive information, and for that reason it doesn't require location access privileges.
+
+This opcode retrieves a structure that contains attributes that describe the quality of the connection on the given interface. It will fail if the interface isn't connected. Your app can use this API to get information about the state and quality of its WiFi connection (the API has applications to streaming, video conferencing, and other network-quality-sensitive operations. Apps that currently use **wlan_intf_opcode_current_connection** and [WlanGetNetworkBssList](/windows/win32/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist) to retrieve connection quality information, but have no desire to request location access, can make use of this API.
+
+For more info, see the code example in [WLAN_REALTIME_CONNECTION_QUALITY](./ns-wlanapi-wlan_realtime_connection_quality.md).
 
 ### -field wlan_intf_opcode_qos_info
 
-TBD
+An opcode that allows clients to query the state of the quality-of-service (QoS) features outlined by the [Wi-Fi Alliance's Wi-Fi QoS Management Specification](https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-improves-quality-of-service-for-real-time-wi-fi-applications), and defined in the [802.11 spec](https://standards.ieee.org/ieee/802.11/7028/).
+
+This opcode retrieves a structure that contains information about the four features outlined in the [WFA's Wi-Fi QoS Management Specification](https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-improves-quality-of-service-for-real-time-wi-fi-applications), and defined in the [802.11 spec](https://standards.ieee.org/ieee/802.11/7028/). Your app can use this API to get information about its device's WFA QoS capabilities and, if connected, the WFA QoS capabilities of its peer and the state of the WFA QoS features configured for its current connection. An app that currently makes use of the QoS2 or other QoS APIs can use this to get additional QoS information for performance telemetry or UI display purposes. Using this API to inform behavior changes isn't its primary purpose.
+
+For more info, see the code example in [WLAN_QOS_INFO](./ns-wlanapi-wlan_qos_info.md).
 
 ### -field wlan_intf_opcode_autoconf_end:0x0fffffff
 
@@ -183,8 +191,6 @@ Not used.
 TBD
 
 ## -remarks
-
-The **WLAN_INTF_OPCODE** enumerated type defines the possible opcodes that can be passed in the <i>OpCode</i> parameter to the <a href="/windows/win32/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> and <a href="/windows/win32/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a> functions to query or set parameters on a wireless interface.
 
 ## -see-also
 
