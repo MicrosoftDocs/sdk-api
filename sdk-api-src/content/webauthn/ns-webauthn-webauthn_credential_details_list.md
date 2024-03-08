@@ -2,7 +2,7 @@
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_DETAILS_LIST
 tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_DETAILS_LIST
-ms.date: 07/19/2022
+ms.date: 03/08/2024
 targetos: Windows
 description: The list of credentials.
 prerelease: false
@@ -46,7 +46,16 @@ helpviewer_keywords:
 
 ## -description
 
-The list of credentials.
+The list of credential details.
+
+## -syntax
+
+```cpp
+typedef struct _WEBAUTHN_CREDENTIAL_DETAILS_LIST {
+  DWORD                        cCredentialDetails;
+  PWEBAUTHN_CREDENTIAL_DETAILS *ppCredentialDetails;
+} WEBAUTHN_CREDENTIAL_DETAILS_LIST, *PWEBAUTHN_CREDENTIAL_DETAILS_LIST;
+```
 
 ## -struct-fields
 
