@@ -6,7 +6,7 @@ helpviewer_keywords: ["TryAcquireSRWLockShared","TryAcquireSRWLockShared functio
 old-location: base\tryacquiresrwlockshared.htm
 tech.root: base
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
-ms.date: 12/05/2018
+ms.date: 8/03/2024
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -71,6 +71,10 @@ A pointer to the SRW lock.
 If the lock is successfully acquired, the return value is nonzero.
 
 if the current thread could not acquire the lock, the return value is zero.
+
+## -Remarks
+
+Successful acquistition of a slim reader/writer (SRW) lock in shared mode generally permits other thread to acuire the same lock in shared mode, but doesn't guarantee that such acqustition would always succeed. SRW locks may limit its simultaneous shared mode acquistitions for performance reasons.
 
 ## -see-also
 
