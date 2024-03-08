@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPAccountType","WMPAccountType enumeration [Windows Medi
 old-location: wmp\wmpaccounttype.htm
 tech.root: WMP
 ms.assetid: daab6937-0906-4b69-8d00-c68e43b8214f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPAccountType, WMPAccountType enumeration [Windows Media Player], contentpartner/WMPAccountType, contentpartner/wmpatBuyOnly, contentpartner/wmpatJanus, contentpartner/wmpatSubscription, enumeration [Windows Media Player], wmp.wmpaccounttype, wmpatBuyOnly, wmpatJanus, wmpatSubscription
 req.header: contentpartner.h
 req.include-header: 
@@ -50,21 +50,23 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>WMPAccountType</b> enumeration defines account types for an online store.
 
 ## -enum-fields
 
-### -field wmpatBuyOnly
+### -field wmpatBuyOnly:1
 
 The user is only authorized to purchase content.
 
-### -field wmpatSubscription
+### -field wmpatSubscription:2
 
 The user has a subscription account, but content must be purchased to synchronize to a device based on Windows Media DRM for Portable Devices.
 
-### -field wmpatJanus
+### -field wmpatJanus:3
 
 The user has a subscription account and the subscription content can be synchronized to a device based on Windows Media DRM for Portable Devices.
 

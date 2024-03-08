@@ -6,7 +6,7 @@ helpviewer_keywords: ["ConfigureFilterUsingProfileGuid","ConfigureFilterUsingPro
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileguid.htm
 tech.root: dshow
 ms.assetid: 8cfb3b22-aa6b-42e0-bbb5-876932e8bd82
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ConfigureFilterUsingProfileGuid, ConfigureFilterUsingProfileGuid method [DirectShow], ConfigureFilterUsingProfileGuid method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileGuid method, IConfigAsfWriter.ConfigureFilterUsingProfileGuid, IConfigAsfWriter::ConfigureFilterUsingProfileGuid, IConfigAsfWriterConfigureFilterUsingProfileGuid, dshow.iconfigasfwriter_configurefilterusingprofileguid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid
 req.header: dshowasf.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>ConfigureFilterUsingProfileGuid</code> method sets a predefined system profile on the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is deprecated. Applications should use the <a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile">IConfigAsfWriter::ConfigureFilterUsingProfile</a> method to set the profile.
 

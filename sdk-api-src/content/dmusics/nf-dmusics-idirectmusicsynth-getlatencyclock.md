@@ -4,7 +4,7 @@ title: IDirectMusicSynth::GetLatencyClock (dmusics.h)
 description: The GetLatencyClock method retrieves a reference to the IReferenceClock interface (described in the Microsoft Windows SDK documentation) of the reference-clock object that tracks the current mix time.
 helpviewer_keywords: ["GetLatencyClock","GetLatencyClock method [Audio Devices]","GetLatencyClock method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","GetLatencyClock method","IDirectMusicSynth.GetLatencyClock","IDirectMusicSynth::GetLatencyClock","audio.idirectmusicsynth_getlatencyclock","audmp-routines_79ca400b-e04b-4381-aacb-79a3f9415683.xml","dmusics/IDirectMusicSynth::GetLatencyClock"]
 old-location: audio\idirectmusicsynth_getlatencyclock.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 36690d54-dc88-4e31-8f66-8a0b48be2712
 ms.date: 12/05/2018
 ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetLatencyClock method, IDirectMusicSynth.GetLatencyClock, IDirectMusicSynth::GetLatencyClock, audio.idirectmusicsynth_getlatencyclock, audmp-routines_79ca400b-e04b-4381-aacb-79a3f9415683.xml, dmusics/IDirectMusicSynth::GetLatencyClock
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynth.GetLatencyClock
+archived: true
 ---
 
 # IDirectMusicSynth::GetLatencyClock

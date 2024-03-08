@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetBufferAndLength","GetBufferAndLength method [windows M
 old-location: wmformat\inssbuffer_getbufferandlength.htm
 tech.root: wmformat
 ms.assetid: cb03d006-fbaa-4971-8022-41a7fa29fb87
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetBufferAndLength</b> method retrieves the location and size of the used portion of the buffer controlled by the buffer object. Buffers are used to store samples. When reading ASF files, you can use the location and length to copy a sample from a buffer delivered by the reader or synchronous reader.
 
@@ -100,8 +102,8 @@ The <i>ppdwBuffer</i> or <i>pdwLength</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a>

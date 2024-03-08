@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDPSTATS2
 title: MIB_UDPSTATS2 (udpmib.h)
-description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
+description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer. (MIB_UDPSTATS2)
 helpviewer_keywords: ["*PMIB_UDPSTATS2","MIB_UDPSTATS2","MIB_UDPSTATS2 structure [MIB]","PMIB_UDPSTATS2","PMIB_UDPSTATS2 structure pointer [MIB]","mib.mib_udpstats2","udpmib/MIB_UDPSTATS","udpmib/PMIB_UDPSTATS2"]
 old-location: mib\mib_udpstats2.htm
 tech.root: MIB

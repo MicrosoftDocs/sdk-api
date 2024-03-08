@@ -4,7 +4,7 @@ title: IDirectMusicSynthSink::RefTimeToSample (dmusics.h)
 description: The RefTimeToSample method converts a reference time to a sample time.
 helpviewer_keywords: ["IDirectMusicSynthSink interface [Audio Devices]","RefTimeToSample method","IDirectMusicSynthSink.RefTimeToSample","IDirectMusicSynthSink::RefTimeToSample","RefTimeToSample","RefTimeToSample method [Audio Devices]","RefTimeToSample method [Audio Devices]","IDirectMusicSynthSink interface","audio.idirectmusicsynthsink_reftimetosample","audmp-routines_0e3d6a54-9625-48de-8ac2-2359047acd90.xml","dmusics/IDirectMusicSynthSink::RefTimeToSample"]
 old-location: audio\idirectmusicsynthsink_reftimetosample.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 11a6b670-93d6-4455-b279-a1fc5fca0d1d
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],RefTimeToSample method, IDirectMusicSynthSink.RefTimeToSample, IDirectMusicSynthSink::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_reftimetosample, audmp-routines_0e3d6a54-9625-48de-8ac2-2359047acd90.xml, dmusics/IDirectMusicSynthSink::RefTimeToSample
@@ -43,6 +43,7 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.RefTimeToSample
+archived: true
 ---
 
 # IDirectMusicSynthSink::RefTimeToSample

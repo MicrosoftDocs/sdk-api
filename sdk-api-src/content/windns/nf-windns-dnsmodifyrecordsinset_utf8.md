@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsModifyRecordsInSet_UTF8
 title: DnsModifyRecordsInSet_UTF8 function (windns.h)
-description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
+description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers. (DnsModifyRecordsInSet_UTF8)
 helpviewer_keywords: ["DnsModifyRecordsInSet","DnsModifyRecordsInSet function [DNS]","DnsModifyRecordsInSet_A","DnsModifyRecordsInSet_UTF8","DnsModifyRecordsInSet_W","_dns_dnsmodifyrecordsinset","dns.dnsmodifyrecordsinset","windns/DnsModifyRecordsInSet","windns/DnsModifyRecordsInSet_A","windns/DnsModifyRecordsInSet_UTF8","windns/DnsModifyRecordsInSet_W"]
 old-location: dns\dnsmodifyrecordsinset.htm
 tech.root: DNS

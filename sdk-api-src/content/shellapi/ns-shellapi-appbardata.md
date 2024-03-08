@@ -84,10 +84,10 @@ A value that specifies an edge of the screen. This member is used when sending o
                         
 <ul>
 <li>
-<a href="/windows/desktop/shell/conversion-functions-bumper">ABM_GETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-getautohidebar">ABM_GETAUTOHIDEBAR</a>
 </li>
 <li>
-<a href="/windows/desktop/shell/dialogs-bumper">ABM_SETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-setautohidebar">ABM_SETAUTOHIDEBAR</a>
 </li>
 <li>
 <a href="/windows/desktop/shell/abm-getautohidebarex">ABM_GETAUTOHIDEBAREX</a>
@@ -153,13 +153,13 @@ A message-dependent value. This member is used with these messages:
                         
 <ul>
 <li>
-<a href="/windows/desktop/shell/dialogs-bumper">ABM_SETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-setautohidebar">ABM_SETAUTOHIDEBAR</a>
 </li>
 <li>
 <a href="/windows/desktop/shell/abm-setautohidebarex">ABM_SETAUTOHIDEBAREX</a>
 </li>
 <li>
-<a href="/windows/desktop/shell/drag-and-drop-handlers-and-custom-clipboard-format-bumper">ABM_SETSTATE</a>
+<a href="/windows/desktop/shell/abm-setstate">ABM_SETSTATE</a>
 </li>
 </ul>
 

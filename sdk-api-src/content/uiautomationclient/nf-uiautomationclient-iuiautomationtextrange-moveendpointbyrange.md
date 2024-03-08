@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.MoveEndpointByRange
 title: IUIAutomationTextRange::MoveEndpointByRange (uiautomationclient.h)
-description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
+description: Moves one endpoint of the current text range to the specified endpoint of a second text range. (IUIAutomationTextRange.MoveEndpointByRange)
 helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","MoveEndpointByRange method","IUIAutomationTextRange.MoveEndpointByRange","IUIAutomationTextRange::MoveEndpointByRange","MoveEndpointByRange","MoveEndpointByRange method [Windows Accessibility]","MoveEndpointByRange method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange","uiauto_IUIAutomationTextRange_MoveEndpointByRange","uiautomationclient/IUIAutomationTextRange::MoveEndpointByRange","winauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange"]
 old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByRange.htm
 tech.root: WinAuto
@@ -54,7 +54,7 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param srcEndPoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A second text range from the same text provider as the current text range.
 
-### -param unnamedParam3 [in]
+### -param targetEndPoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 

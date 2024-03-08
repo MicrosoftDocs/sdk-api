@@ -48,7 +48,6 @@ api_name:
 
 # IXpsOMPackageTarget interface
 
-
 ## -description
 
 Provides the method to create an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> that can be used by a print job that was created by the  <a href="/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function.
@@ -75,4 +74,4 @@ To create the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixp
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

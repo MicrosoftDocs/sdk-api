@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetLongPathNameTransactedW
 title: GetLongPathNameTransactedW function (winbase.h)
-description: Converts the specified path to its long form as a transacted operation.
-helpviewer_keywords: ["GetLongPathNameTransacted","GetLongPathNameTransacted function [Files]","GetLongPathNameTransactedA","GetLongPathNameTransactedW","fs.getlongpathnametransacted","winbase/GetLongPathNameTransacted","winbase/GetLongPathNameTransactedA","winbase/GetLongPathNameTransactedW"]
+description: Converts the specified path to its long form as a transacted operation. (Unicode)
+helpviewer_keywords: ["GetLongPathNameTransacted", "GetLongPathNameTransacted function [Files]", "GetLongPathNameTransactedW", "fs.getlongpathnametransacted", "winbase/GetLongPathNameTransacted", "winbase/GetLongPathNameTransactedW"]
 old-location: fs\getlongpathnametransacted.htm
 tech.root: fs
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
@@ -76,13 +76,13 @@ For more information about file and path names, see
 
 The path to be converted.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> (260) 
-       characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and 
-       prepend "\\?\" to the path. For more information, see 
-      <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
-
 The path must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
+
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpszLongPath [out]
 

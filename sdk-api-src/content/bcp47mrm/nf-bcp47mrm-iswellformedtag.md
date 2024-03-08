@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 17763
+req.target-min-winversvr: Windows 10 Build 17763
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - bcp47mrm.h
 api_name:
@@ -57,7 +57,7 @@ A [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
 
 ## -remarks
 
-If this function returns `true`, an application can safely construct a language by using this tag. If it returns `false`, attempting to construct a language for the given tag will throw an exception.
+If this function returns `true`, an application can safely construct a Windows Runtime [Language](https://docs.microsoft.com/uwp/api/Windows.Globalization.Language) by using this tag. If it returns `false`, attempting to construct a Language for the given tag will throw an exception.
 
 ## -see-also
 

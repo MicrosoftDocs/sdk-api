@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleLockRunning
 title: OleLockRunning function (ole2.h)
-description: Locks an already running object into its running state or unlocks it from its running state.
+description: Locks an already running object into its running state or unlocks it from its running state. (OleLockRunning)
 helpviewer_keywords: ["OleLockRunning","OleLockRunning function [COM]","_ole_OleLockRunning","com.olelockrunning","ole2/OleLockRunning"]
 old-location: com\olelockrunning.htm
 tech.root: com
@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Ole32.dll
+ - ext-ms-win-com-ole32-l1-1-0.dll
 api_name:
  - OleLockRunning
 ---

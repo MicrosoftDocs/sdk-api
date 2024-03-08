@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced","IWMReaderAdvanced interface [windows 
 old-location: wmformat\iwmreaderadvanced.htm
 tech.root: wmformat
 ms.assetid: a7a20f87-6f21-4fe8-8889-1b6689daf833
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
 req.header: wmsdkidl.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 A call to <b>QueryInterface</b> from a reader object exposes the advanced functionality described in this section.
 
 ## -inheritance
 
 The <b>IWMReaderAdvanced</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderAdvanced</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

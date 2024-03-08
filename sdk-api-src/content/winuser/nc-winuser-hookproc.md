@@ -75,15 +75,15 @@ A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CW
 
 Type: <b>int</b>
 
-Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the <a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> function without further processing and should return the value returned by <b>CallNextHookEx</b>.
+Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the [CallNextHookEx function](nf-winuser-callnexthookex.md) function without further processing and should return the value returned by <b>CallNextHookEx</b>.
 
 ## -returns
 
 Type: <b>LRESULT</b>
 
-If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>. 
+If <i>nCode</i> is less than zero, the hook procedure must return the value returned by [CallNextHookEx function](nf-winuser-callnexthookex.md). 
 
-If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call <a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> and return the value it returns; otherwise, other applications that have installed <a href="/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero.
+If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call [CallNextHookEx function](nf-winuser-callnexthookex.md) and return the value it returns; otherwise, other applications that have installed <a href="/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero.
 
 ## -remarks
 
@@ -91,32 +91,4 @@ An application installs the hook procedure by specifying the <a href="/windows/d
 
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>
-
-
-
-<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/winmsg/hooks">Hooks</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+[CWPRETSTRUCT structure](ns-winuser-cwpretstruct.md), [CallNextHookEx function](nf-winuser-callnexthookex.md), [CallWindowProcW function](nf-winuser-callwindowprocw.md), [CallWindowProcA function](nf-winuser-callwindowproca.md), [SendMessage](/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](/windows/desktop/winmsg/hooks)

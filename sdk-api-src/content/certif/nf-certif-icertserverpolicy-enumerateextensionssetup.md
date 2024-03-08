@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensionsSetup
 title: ICertServerPolicy::EnumerateExtensionsSetup (certif.h)
-description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
+description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context. (ICertServerPolicy.EnumerateExtensionsSetup)
 helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateExtensionsSetup method","EnumerateExtensionsSetup","EnumerateExtensionsSetup method [Security]","EnumerateExtensionsSetup method [Security]","CCertServerPolicy object","EnumerateExtensionsSetup method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateExtensionsSetup method","ICertServerPolicy.EnumerateExtensionsSetup","ICertServerPolicy::EnumerateExtensionsSetup","_certsrv_icertserverpolicy_enumerateextensionssetup","certif/ICertServerPolicy::EnumerateExtensionsSetup","security.icertserverpolicy_enumerateextensionssetup"]
 old-location: security\icertserverpolicy_enumerateextensionssetup.htm
 tech.root: security

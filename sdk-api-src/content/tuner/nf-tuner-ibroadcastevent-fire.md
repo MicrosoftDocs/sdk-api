@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -48,6 +48,8 @@ ms.custom: 19H1
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 
 
@@ -93,7 +95,7 @@ For television tuning, the following event is defined.
 <td>Fired when the tuner changes stations or channels. Defined in Bdamedia.h.</td>
 </tr>
 </table>
-Â 
+ 
 
 For a list of events fired by the TV ratings components, see <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
 
@@ -105,11 +107,11 @@ For a list of events fired by the TV ratings components, see <a href="/previous-
 
 
 
-<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
+<a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent Interface</a>
 
 
 
 <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
-Â 
+ 
 
-Â 
+ 

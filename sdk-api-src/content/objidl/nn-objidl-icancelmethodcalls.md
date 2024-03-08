@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.ICancelMethodCalls
 title: ICancelMethodCalls (objidl.h)
-description: Manages cancellation requests on an outbound method call and monitors the current state of that method call on the server thread.
+description: The ICancelMethodCalls::Cancel method (objidl.h) manages cancellation requests on an outbound method call and monitors the current state of that method call on the server thread.
 helpviewer_keywords: ["ICancelMethodCalls","ICancelMethodCalls interface [COM]","ICancelMethodCalls interface [COM]","described","_com_icancelmethodcalls","com.icancelmethodcalls","objidlbase/ICancelMethodCalls"]
 old-location: com\icancelmethodcalls.htm
 tech.root: com
 ms.assetid: 5e31f706-1c9c-4510-845c-4e47093780a1
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
 req.header: objidl.h
 req.include-header: ObjIdl.h

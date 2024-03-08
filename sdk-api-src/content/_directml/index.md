@@ -4,7 +4,7 @@ title: DirectML
 ms.assetid: b8324623-a7b4-4d11-b869-69594fd810f0
 ms.date: 07/29/2020
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # DirectML

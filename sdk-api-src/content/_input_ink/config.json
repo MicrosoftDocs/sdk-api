@@ -2,7 +2,8 @@
   "tech": "input_ink",
   "headers": [
     "inkpresenterdesktop.h",
-    "inkrenderer.h"
+    "inkrenderer.h",
+    "shellhandwriting.h"
   ],
   "displayName": "Ink input"
 }

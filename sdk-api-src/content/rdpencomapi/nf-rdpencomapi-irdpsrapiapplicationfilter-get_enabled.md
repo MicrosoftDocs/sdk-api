@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Enabled
 title: IRDPSRAPIApplicationFilter::get_Enabled (rdpencomapi.h)
-description: The enabled state of the application filter.
+description: The enabled state of the application filter. (Get)
 helpviewer_keywords: ["Enabled property [RDP]","Enabled property [RDP]","IRDPSRAPIApplicationFilter interface","Enabled property [RDP]","RDPSRAPIApplicationFilter object","IRDPSRAPIApplicationFilter interface [RDP]","Enabled property","IRDPSRAPIApplicationFilter.Enabled","IRDPSRAPIApplicationFilter.get_Enabled","IRDPSRAPIApplicationFilter::Enabled","IRDPSRAPIApplicationFilter::get_Enabled","IRDPSRAPIApplicationFilter::put_Enabled","RDPSRAPIApplicationFilter object [RDP]","Enabled property","get_Enabled","rdp.irdpsrapiapplicationfilter_enabled","rdpencomapi/IRDPSRAPIApplicationFilter::Enabled","rdpencomapi/IRDPSRAPIApplicationFilter::get_Enabled","rdpencomapi/IRDPSRAPIApplicationFilter::put_Enabled"]
 old-location: rdp\irdpsrapiapplicationfilter_enabled.htm
 tech.root: rdp

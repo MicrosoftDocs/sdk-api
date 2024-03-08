@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_CodecCount
 old-location: dshow\iamnetshowexprops_get_codeccount.htm
 tech.root: dshow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>get_CodecCount</code> method retrieves the number codecs needed to play the file.
 

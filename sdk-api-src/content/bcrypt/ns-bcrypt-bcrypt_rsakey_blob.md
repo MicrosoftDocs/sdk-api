@@ -145,6 +145,8 @@ Prime2[cbPrime2] // Big-endian.
 
 A full RSA private key BLOB (BCRYPT_RSAFULLPRIVATE_BLOB) has the following format in contiguous memory. All of the numbers following the structure are in big-endian format.
 
+Note that in different versions of Windows, the value that PrivateExponent takes from a call of <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a> may be different as there are several mathematically equivalent representations of the PrivateExponent in cbModulus bytes. Notably, in some versions the PrivateExponent will be exported modulo (Prime1 - 1) \* (Prime2 - 1), and in others it will be exported modulo LeastCommonMultiple(Prime1 - 1, Prime2 - 1).
+
 
 ``` syntax
 

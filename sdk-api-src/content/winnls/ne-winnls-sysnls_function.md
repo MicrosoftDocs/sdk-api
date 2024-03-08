@@ -54,7 +54,7 @@ Specifies NLS function capabilities.
 
 ## -enum-fields
 
-### -field COMPARE_STRING
+### -field COMPARE_STRING:0x0001
 
 Value indicating comparison of two strings in the manner of the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> function or <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> with the LCMAP_SORTKEY flag specified.
 

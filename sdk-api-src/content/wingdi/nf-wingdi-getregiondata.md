@@ -51,12 +51,9 @@ api_name:
  - GetRegionData
 ---
 
-# GetRegionData function
-
-
 ## -description
 
-The <b>GetRegionData</b> function fills the specified buffer with data describing a region. This data includes the dimensions of the rectangles that make up the region.
+The **GetRegionData** function fills the specified buffer with data describing a region. This data includes the dimensions of the rectangles that make up the region.
 
 ## -parameters
 
@@ -66,17 +63,23 @@ A handle to the region.
 
 ### -param nCount [in]
 
-The size, in bytes, of the <i>lpRgnData</i> buffer.
+The size, in bytes, of the *lpRgnData* buffer.
 
 ### -param lpRgnData [out]
 
-A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure that receives the information. The dimensions of the region are in logical units. If this parameter is <b>NULL</b>, the return value contains the number of bytes needed for the region data.
+A pointer to a [RGNDATA](/windows/win32/api/wingdi/ns-wingdi-rgndata) structure that receives the information. The dimensions of the region are in logical units. If this parameter is **NULL**, then the return value contains the number of bytes needed for the region data.
 
 ## -returns
 
-If the function succeeds and <i>dwCount</i> specifies an adequate number of bytes, the return value is always <i>dwCount</i>. If <i>dwCount</i> is too small or the function fails, the return value is 0. If <i>lpRgnData</i> is <b>NULL</b>, the return value is the required number of bytes.
+If the function succeeds and *nCount* specifies an adequate number of bytes, then the return value equals the actual number of bytes used (less than or equal to *nCount*).
 
-If the function fails, the return value is zero.
+If *lpRgnData* is **NULL**, then the return value is the required number of bytes.
+
+If the function fails, then the return value is zero.
+
+If the failure is due to *hrgn* being invalid, then **GetLastError** returns **ERROR_INVALID_HANDLE**. Otherwise, **GetLastError** returns **ERROR_INVALID_PARAMETER** .
+
+If *nCount* is too small, then the function fails.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.get__NewEnum
 title: IStringCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
+description: Gets an IEnumVARIANT interface that can be used to enumerate the collection. (IStringCollection.get__NewEnum)
 helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","_NewEnum property","IStringCollection._NewEnum","IStringCollection.get__NewEnum","IStringCollection::_NewEnum","IStringCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IStringCollection interface","get__NewEnum","wua.istringcollection__newenum","wuapi/IStringCollection::_NewEnum","wuapi/IStringCollection::get__NewEnum"]
 old-location: wua\istringcollection__newenum.htm
 tech.root: wua

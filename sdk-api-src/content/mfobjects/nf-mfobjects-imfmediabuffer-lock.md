@@ -119,7 +119,7 @@ The pointer returned in <i>ppbBuffer</i> is guaranteed to be valid, and can safe
 
 Locking the buffer does not prevent other threads from calling <b>Lock</b>, so you should not rely on this method to synchronize threads.
 
-This method may allocate memory, but does transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
+This method may allocate memory, but does not transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
 
 
 If you modify the contents of the buffer, update the current length by calling <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a>.

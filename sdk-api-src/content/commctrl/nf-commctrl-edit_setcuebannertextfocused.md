@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_SetCueBannerTextFocused
 title: Edit_SetCueBannerTextFocused macro (commctrl.h)
-description: Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the EM_SETCUEBANNER message explicitly.
+description: Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the EM_SETCUEBANNER message explicitly. (Edit_SetCueBannerTextFocused)
 helpviewer_keywords: ["Edit_SetCueBannerTextFocused","Edit_SetCueBannerTextFocused macro [Windows Controls]","_shell_Edit_SetCueBannerTextFocused","_shell_Edit_SetCueBannerTextFocused_cpp","commctrl/Edit_SetCueBannerTextFocused","controls.Edit_SetCueBannerTextFocused","controls._shell_Edit_SetCueBannerTextFocused"]
 old-location: controls\Edit_SetCueBannerTextFocused.htm
 tech.root: Controls

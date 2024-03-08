@@ -6,7 +6,7 @@ helpviewer_keywords: ["VMRPRESENTATIONINFO","VMRPRESENTATIONINFO structure [Dire
 old-location: dshow\vmrpresentationinfo.htm
 tech.root: dshow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">IVMRImagePresenter::PresentImage</a> method (VMR-7 only).
 
 ## -struct-fields
@@ -87,7 +89,7 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
+Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 ### -field dwInterlaceFlags
 

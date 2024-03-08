@@ -3,7 +3,7 @@ UID: NA:windows.ui.xaml.hosting.desktopwindowxamlsource
 title: Windows.Ui.Xaml.Hosting.Desktopwindowxamlsource.h header
 ms.date: 07/25/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
 f1_keywords:
  - windows.ui.xaml.hosting.desktopwindowxamlsource
@@ -15,4 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by the WinRT XAML hosting API (XAML Islands). For more information, see [Using the UWP XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api).
+This header is used by Windows Runtime C++ reference. For more information, see:
+
+- [Windows Runtime C++ reference](../_winrt/index.md)
+

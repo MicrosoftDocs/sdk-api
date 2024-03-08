@@ -49,12 +49,11 @@ api_name:
  - EVENT_EXTENDED_ITEM_TS_ID
 ---
 
-# EVENT_EXTENDED_ITEM_TS_ID structure
-
+# EVENT_EXTENDED_ITEM_TS_ID structure (evntcons.h)
 
 ## -description
 
-The <b>EVENT_EXTENDED_ITEM_TS_ID</b> defines the terminal session that logged the event.
+Defines the terminal session that logged the event.
 
 ## -struct-fields
 

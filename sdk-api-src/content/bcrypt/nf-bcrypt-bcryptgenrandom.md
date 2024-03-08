@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Bcrypt.lib
+req.lib: Bcrypt.lib or Cng.lib(For Kernel mode)
 req.dll: Bcrypt.dll
 req.irql: 
 targetos: Windows
@@ -100,7 +100,7 @@ Use the system-preferred random number generator algorithm. The <i>hAlgorithm</i
 
 BCRYPT_USE_SYSTEM_PREFERRED_RNG is only supported at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>. For more information, see Remarks.
 
-<b>Windows Vista:  </b>This flag is not supported.
+<b>Windows Vista:  </b>This flag is not supported without SP2.
 
 </td>
 </tr>

@@ -11,7 +11,7 @@ ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair me
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ParseXDSBytePair</b> method parses a single byte pair from an XDS stream. If the byte pair is the last pair in a completed ratings packet, the method returns the rating information.
 
 ## -parameters
@@ -64,15 +66,15 @@ The second byte of the byte pair.
 
 ### -param pEnSystem [out]
 
-Receives the rating system, as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
+Receives the rating system, as a member of the <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration type.
 
 ### -param pEnLevel [out]
 
-Receives the rating level, as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+Receives the rating level, as a member of the <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 ### -param plBfEnAttributes [out]
 
-Receives a bitwise combination of zero or more flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify additional content attributes, such as violence or adult language. They do not apply to every rating system.
+Receives a bitwise combination of zero or more flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify additional content attributes, such as violence or adult language. They do not apply to every rating system.
 
 ## -returns
 
@@ -139,7 +141,7 @@ Return the following values for non-ratings packets.
 <td><b>BfAttrNone</b></td>
 </tr>
 </table>
-Â 
+ 
 
 For details, see section 9.5.1.5.4 (General Content Advisory Requirements) of the EIA/CEA-608-B specification.
 

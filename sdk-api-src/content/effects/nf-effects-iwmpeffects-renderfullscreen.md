@@ -6,7 +6,7 @@ helpviewer_keywords: ["EffectsRenderFullScreen","IWMPEffects interface [Windows 
 old-location: wmp\iwmpeffects_renderfullscreen.htm
 tech.root: WMP
 ms.assetid: 08b170fd-b40a-4beb-8c18-0a011b9486af
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: EffectsRenderFullScreen, IWMPEffects interface [Windows Media Player],RenderFullScreen method, IWMPEffects.RenderFullScreen, IWMPEffects::RenderFullScreen, RenderFullScreen, RenderFullScreen method [Windows Media Player], RenderFullScreen method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::RenderFullScreen, wmp.iwmpeffects_renderfullscreen
 req.header: effects.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>RenderFullScreen</b> method renders the visualization in full-screen mode.
 

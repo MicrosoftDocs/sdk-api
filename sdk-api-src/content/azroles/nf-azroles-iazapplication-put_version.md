@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.put_Version
 title: IAzApplication::put_Version (azroles.h)
-description: Sets or retrieves the version of the application.
+description: Sets or retrieves the version of the application. (Put)
 helpviewer_keywords: ["AzApplication object [Security]","Version property","IAzApplication interface [Security]","Version property","IAzApplication.Version","IAzApplication.put_Version","IAzApplication::Version","IAzApplication::get_Version","IAzApplication::put_Version","Version property [Security]","Version property [Security]","AzApplication object","Version property [Security]","IAzApplication interface","azroles/IAzApplication::Version","azroles/IAzApplication::get_Version","azroles/IAzApplication::put_Version","put_Version","security.iazapplication_version"]
 old-location: security\iazapplication_version.htm
 tech.root: security

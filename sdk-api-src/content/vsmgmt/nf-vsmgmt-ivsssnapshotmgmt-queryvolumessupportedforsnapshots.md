@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 title: IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots (vsmgmt.h)
-description: Reserved for system use.
+description: Reserved for system use. (IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots)
 helpviewer_keywords: ["IVssSnapshotMgmt interface [VSS]","QueryVolumesSupportedForSnapshots method","IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots","IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots","QueryVolumesSupportedForSnapshots","QueryVolumesSupportedForSnapshots method [VSS]","QueryVolumesSupportedForSnapshots method [VSS]","IVssSnapshotMgmt interface","base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots","vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots"]
 old-location: base\ivsssnapshotmgmt_queryvolumessupportedforsnapshots.htm
 tech.root: base

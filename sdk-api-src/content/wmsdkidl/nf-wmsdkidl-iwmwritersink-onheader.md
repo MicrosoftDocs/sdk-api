@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMWriterSink interface [windows Media Format]","OnHeader
 old-location: wmformat\iwmwritersink_onheader.htm
 tech.root: wmformat
 ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMWriterSink interface [windows Media Format],OnHeader method, IWMWriterSink.OnHeader, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,13 +53,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>OnHeader</b> method is called by the writer when the ASF header is ready for the sink.
 
 ## -parameters
 
 ### -param pHeader [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the ASF header.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the ASF header.
 
 ## -returns
 

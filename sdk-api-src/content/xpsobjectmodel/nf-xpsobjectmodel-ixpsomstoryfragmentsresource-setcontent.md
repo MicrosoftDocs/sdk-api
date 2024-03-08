@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.SetContent
 title: IXpsOMStoryFragmentsResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMStoryFragmentsResource.SetContent)
 helpviewer_keywords: ["IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMStoryFragmentsResource.SetContent","IXpsOMStoryFragmentsResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","xps.ixpsomstoryfragmentsresource_setcontent","xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent"]
 old-location: xps\ixpsomstoryfragmentsresource_setcontent.htm
 tech.root: xps
@@ -70,7 +70,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 The calling method  should treat this stream as a single-threaded apartment (STA) model object and not re-enter any of the stream interface's methods.
 
-For more information about the content of a StoryFragments part, see the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+For more information about the content of a StoryFragments part, see the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
 Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomstoryfragmentsresource-getstream">GetStream</a> gets a clone of  the stream that is set by this method, the provided stream should have an efficient cloning method. A stream with an inefficient cloning method will reduce the performance of <b>GetStream</b>.
 
@@ -84,4 +84,4 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomsto
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

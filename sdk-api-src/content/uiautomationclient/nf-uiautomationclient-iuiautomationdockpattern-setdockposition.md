@@ -54,7 +54,7 @@ Sets the dock position of this element.
 
 ## -parameters
 
-#### - dockPos [in]
+### -param dockPos [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a></b>
 

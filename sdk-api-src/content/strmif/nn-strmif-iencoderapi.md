@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IEncoderAPI
 title: IEncoderAPI (strmif.h)
-description: IEncoderAPI is no longer available for use.
+description: IEncoderAPI is no longer available for use. (IEncoderAPI)
 helpviewer_keywords: ["IEncoderAPI","IEncoderAPI interface [Microsoft TV Technologies]","IEncoderAPI interface [Microsoft TV Technologies]","described","IEncoderAPIInterface","mstv.iencoderapi","strmif/IEncoderAPI"]
 old-location: mstv\iencoderapi.htm
 tech.root: mstv
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 <p class="CCE_Message">[<b>IEncoderAPI</b> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>IEncoderAPI</b> interface defines a standard way for applications and drivers to communicate with third-party hardware or software encoders that implement the interface. For more information on this interface, see <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
@@ -86,7 +88,7 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 <td>Specifies the bit-rate mode, as a <a href="/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a> enumeration value (32-bit signed long).</td>
 </tr>
 </table>
-Â 
+ 
 
 The following table describes the expected behavior of an encoder under extremely high or low bitrate conditions in the two variable bitrate modes defined in <a href="/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a>.
 
@@ -120,7 +122,7 @@ The following table describes the expected behavior of an encoder under extremel
 <td>The rate will go up and stay up, possibly above the expected rate as specified in the value for the ENCAPIPARAM_BITRATE parameter, but never above the peak as specified in the ENCAPIPARAM_PEAK_BITRATE parameter.</td>
 </tr>
 </table>
-Â 
+ 
 
 <h3><a id="OCUR_Devices"></a><a id="ocur_devices"></a><a id="OCUR_DEVICES"></a>OCUR Devices</h3>
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWNDCLASSEXA
 title: WNDCLASSEXA (winuser.h)
-description: Contains window class information.
+description: Contains window class information. (ANSI)
 helpviewer_keywords: ["*LPWNDCLASSEXA","*NPWNDCLASSEXA","*PWNDCLASSEXA","PWNDCLASSEX","PWNDCLASSEX structure pointer [Windows and Messages]","WNDCLASSEX","WNDCLASSEX structure [Windows and Messages]","WNDCLASSEXA","WNDCLASSEXW","_win32_WNDCLASSEX_str","_win32_wndclassex_str_cpp","winmsg.wndclassex","winui._win32_wndclassex_str","winuser/PWNDCLASSEX","winuser/WNDCLASSEX","winuser/WNDCLASSEXA","winuser/WNDCLASSEXW"]
 old-location: winmsg\wndclassex.htm
 tech.root: winmsg
@@ -73,13 +73,13 @@ The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSE
 
 Type: <b>UINT</b>
 
-The class style(s). This member can be any combination of the <a href="/windows/desktop/winmsg/about-window-classes">Class Styles</a>.
+The class style(s). This member can be any combination of the <a href="/windows/win32/winmsg/window-class-styles">Class Styles</a>.
 
 ### -field lpfnWndProc
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
+A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>.
 
 ### -field cbClsExtra
 
@@ -150,7 +150,7 @@ When this member is <b>NULL</b>, an application must paint its own background wh
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu.
+A pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu.
 
 ### -field lpszClassName
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DeinterlaceTech9_BOBLineReplicate","DeinterlaceTech9_BOBV
 old-location: dshow\vmr9deinterlacetech.htm
 tech.root: dshow
 ms.assetid: 2b0b56b7-bab3-4184-a453-2da880aa38c9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DeinterlaceTech9_BOBLineReplicate, DeinterlaceTech9_BOBVerticalStretch, DeinterlaceTech9_EdgeFiltering, DeinterlaceTech9_FieldAdaptive, DeinterlaceTech9_MedianFiltering, DeinterlaceTech9_MotionVectorSteered, DeinterlaceTech9_PixelAdaptive, DeinterlaceTech9_Unknown, VMR9DeinterlaceTech, VMR9DeinterlaceTech , VMR9DeinterlaceTech enumeration [DirectShow], VMR9DeinterlaceTechEnumeration, dshow.vmr9deinterlacetech, vmr9/DeinterlaceTech9_BOBLineReplicate, vmr9/DeinterlaceTech9_BOBVerticalStretch, vmr9/DeinterlaceTech9_EdgeFiltering, vmr9/DeinterlaceTech9_FieldAdaptive, vmr9/DeinterlaceTech9_MedianFiltering, vmr9/DeinterlaceTech9_MotionVectorSteered, vmr9/DeinterlaceTech9_PixelAdaptive, vmr9/DeinterlaceTech9_Unknown, vmr9/VMR9DeinterlaceTech
 req.header: vmr9.h
 req.include-header: 
@@ -52,39 +52,41 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>VMR9DeinterlaceTech</code> enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 
 ## -enum-fields
 
-### -field DeinterlaceTech9_Unknown
+### -field DeinterlaceTech9_Unknown:0
 
 The algorithm is unknown or proprietary.
 
-### -field DeinterlaceTech9_BOBLineReplicate
+### -field DeinterlaceTech9_BOBLineReplicate:0x1
 
 The algorithm creates each missing line by repeating the line above it or below it. This method creates jagged artifacts and is not recommended.
 
-### -field DeinterlaceTech9_BOBVerticalStretch
+### -field DeinterlaceTech9_BOBVerticalStretch:0x2
 
 The algorithm creates the missing lines by vertically stretching each video field by a factor of two. For example, it might average two lines or use a (-1, 9, 9, -1)/16 filter across four lines. Slight vertical adjustments are made to ensure that the resulting image does not "bob" up and down
 
-### -field DeinterlaceTech9_MedianFiltering
+### -field DeinterlaceTech9_MedianFiltering:0x4
 
 The algorithm uses median filtering to recreate the pixels in the missing lines.
 
-### -field DeinterlaceTech9_EdgeFiltering
+### -field DeinterlaceTech9_EdgeFiltering:0x10
 
 The algorithm uses an edge filter to create the missing lines. In this process, spatial directional filters are applied to determine the orientation of edges in the picture content. Missing pixels are created by filtering along (rather than across) the detected edges.
 
-### -field DeinterlaceTech9_FieldAdaptive
+### -field DeinterlaceTech9_FieldAdaptive:0x20
 
 The algorithm uses spatial or temporal interpolation, switching between the two on a field-by-field basis, depending on the amount of motion.
 
-### -field DeinterlaceTech9_PixelAdaptive
+### -field DeinterlaceTech9_PixelAdaptive:0x40
 
 The algorithm uses spatial or temporal interpolation, switching between the two on a pixel-by-pixel basis, depending on the amount of motion.
 
-### -field DeinterlaceTech9_MotionVectorSteered
+### -field DeinterlaceTech9_MotionVectorSteered:0x80
 
 The algorithm identifies objects within a sequence of video fields. Before it recreates the missing pixels, it aligns the movement axes of the individual objects in the scene to make them parallel with the time axis.
 

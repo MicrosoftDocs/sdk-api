@@ -50,16 +50,18 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ITuner</b> interface is implemented on the Microsoft <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filters. It provides methods for passing tune requests down to the hardware device and receiving current tuning settings. Generally, applications should use the derived interface <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> instead of <b>ITuner</b>.
 
-<div class="alert"><b>Note</b>Â Â Only applications that are intended to run on WindowsÂ 2000 should use this interface. Starting in WindowsÂ XP, the Video Control handles all tuning interactions with the Network Provider.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  Only applications that are intended to run on Windows 2000 should use this interface. Starting in Windows XP, the Video Control handles all tuning interactions with the Network Provider.</div>
+<div> </div>
 
 ## -inheritance
 
 The <b>ITuner</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetLongPathNameW
 title: GetLongPathNameW function (fileapi.h)
-description: Converts the specified path to its long form.
-helpviewer_keywords: ["GetLongPathName","GetLongPathName function [Files]","GetLongPathNameA","GetLongPathNameW","_win32_getlongpathname","base.getlongpathname","fileapi/GetLongPathName","fileapi/GetLongPathNameA","fileapi/GetLongPathNameW","fs.getlongpathname","winbase/GetLongPathName","winbase/GetLongPathNameA","winbase/GetLongPathNameW"]
+description: Converts the specified path to its long form. (Unicode)
+helpviewer_keywords: ["GetLongPathName", "GetLongPathName function [Files]", "GetLongPathNameW", "_win32_getlongpathname", "base.getlongpathname", "fileapi/GetLongPathName", "fileapi/GetLongPathNameW", "fs.getlongpathname"]
 old-location: fs\getlongpathname.htm
 tech.root: fs
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
@@ -79,15 +79,10 @@ For more information about file and path names, see
 
 The path to be converted.
 
-In the ANSI version of this function, 
-       <b>GetLongPathNameA</b>, the name is limited to 
-       <b>MAX_PATH</b> (260) characters. To extend this limit to 32,767 wide characters, call the 
-       Unicode version of the function, <b>GetLongPathNameW</b>, 
-       and prepend "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>GetLongPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpszLongPath [out]
 

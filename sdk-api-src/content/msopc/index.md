@@ -4,7 +4,7 @@ title: Msopc.h header
 ms.assetid: c005e016-3d7c-3e5f-91d0-04af655f8499
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: opc
 f1_keywords:
  - msopc

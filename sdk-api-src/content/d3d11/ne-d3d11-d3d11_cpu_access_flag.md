@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_CPU_ACCESS_FLAG
 title: D3D11_CPU_ACCESS_FLAG (d3d11.h)
-description: Specifies the types of CPU access allowed for a resource.
+description: Specifies the types of CPU access allowed for a resource. (D3D11_CPU_ACCESS_FLAG)
 helpviewer_keywords: ["D3D11_CPU_ACCESS_FLAG","D3D11_CPU_ACCESS_FLAG enumeration [Direct3D 11]","D3D11_CPU_ACCESS_READ","D3D11_CPU_ACCESS_WRITE","d3d11/D3D11_CPU_ACCESS_FLAG","d3d11/D3D11_CPU_ACCESS_READ","d3d11/D3D11_CPU_ACCESS_WRITE","direct3d11.d3d11_cpu_access_flag","e0f1ea8e-63f7-ef8a-fa11-3cbc160d2469"]
 old-location: direct3d11\d3d11_cpu_access_flag.htm
 tech.root: direct3d11
@@ -54,11 +54,11 @@ Specifies the types of CPU access allowed for a resource.
 
 ## -enum-fields
 
-### -field D3D11_CPU_ACCESS_WRITE
+### -field D3D11_CPU_ACCESS_WRITE:0x10000L
 
 The resource is to be mappable so that the CPU can change its contents. Resources created with this flag cannot be set as outputs of the pipeline and must be created with either dynamic or staging usage (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE</a>).
 
-### -field D3D11_CPU_ACCESS_READ
+### -field D3D11_CPU_ACCESS_READ:0x20000L
 
 The resource is to be mappable so that the CPU can read its contents. Resources created with this flag cannot be set as either inputs or outputs to the pipeline and must be created with staging usage (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE</a>).
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["COPP_BusType","COPP_BusType","COPP_BusType enumeration [D
 old-location: dshow\copp_bustype.htm
 tech.root: dshow
 ms.assetid: eb3666bd-1987-419f-8d48-0dbca147bf7e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: COPP_BusType, COPP_BusType , COPP_BusType enumeration [DirectShow], COPP_BusTypeEnumeration, COPP_BusType_AGP, COPP_BusType_ForceDWORD, COPP_BusType_Integrated, COPP_BusType_PCI, COPP_BusType_PCIExpress, COPP_BusType_PCIX, COPP_BusType_Unknown, dshow.copp_bustype, dxva9typ/COPP_BusType, dxva9typ/COPP_BusType_AGP, dxva9typ/COPP_BusType_ForceDWORD, dxva9typ/COPP_BusType_Integrated, dxva9typ/COPP_BusType_PCI, dxva9typ/COPP_BusType_PCIExpress, dxva9typ/COPP_BusType_PCIX, dxva9typ/COPP_BusType_Unknown
 req.header: dxva9typ.h
 req.include-header: Dxva.h
@@ -52,31 +52,33 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies the type of I/O bus used by the graphics adapter.
 
 ## -enum-fields
 
-### -field COPP_BusType_Unknown
+### -field COPP_BusType_Unknown:0
 
 Unknown bus type.
 
-### -field COPP_BusType_PCI
+### -field COPP_BusType_PCI:1
 
 PCI bus.
 
-### -field COPP_BusType_PCIX
+### -field COPP_BusType_PCIX:2
 
 PCI-X bus.
 
-### -field COPP_BusType_PCIExpress
+### -field COPP_BusType_PCIExpress:3
 
 PCI Express bus.
 
-### -field COPP_BusType_AGP
+### -field COPP_BusType_AGP:4
 
 AGP bus.
 
-### -field COPP_BusType_Integrated
+### -field COPP_BusType_Integrated:0x80000000
 
 Integrated bus. This flag can be combined with the other flags. This flag indicates that the command and status signals between the graphics adapter and other subsystems on the computer are not available on an expansion bus that has a public specification and standard connector type, unless it is a memory bus.
 

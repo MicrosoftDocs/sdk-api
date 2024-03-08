@@ -45,13 +45,10 @@ dev_langs:
 
 Provides APIs for synchronizing access to Direct3D resources between Media Foundation producers and consumers.
 
-This header is a a part of Microsoft Media Foundation framework. For more information, see:
+This header is used by Microsoft Media Foundation. For more information, see:
 
-- [Microsoft Media Foundation](/windows/win32/api/_mf/)
+- [Microsoft Media Foundation](../_mf/index.md)
 
 ## -remarks
 
 ## -see-also
-
-## -examples
-

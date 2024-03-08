@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Reset
 title: IEnumOleUndoUnits::Reset (ocidl.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumOleUndoUnits.Reset)
 helpviewer_keywords: ["IEnumOleUndoUnits interface [COM]","Reset method","IEnumOleUndoUnits.Reset","IEnumOleUndoUnits::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumOleUndoUnits interface","_ole_ienumoleundounits_reset","com.ienumoleundounits_reset","ocidl/IEnumOleUndoUnits::Reset"]
 old-location: com\ienumoleundounits_reset.htm
 tech.root: com

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetIntent
 title: IXpsSignatureRequest::GetIntent (xpsdigitalsignature.h)
-description: Sets the string that describes the intent or meaning of the signature.
+description: Sets the string that describes the intent or meaning of the signature. (IXpsSignatureRequest.GetIntent)
 helpviewer_keywords: ["GetIntent","GetIntent method [XPS Documents and Packaging]","GetIntent method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetIntent method","IXpsSignatureRequest.GetIntent","IXpsSignatureRequest::GetIntent","xps.ixpssignaturerequest_getintent","xpsdigitalsignature/IXpsSignatureRequest::GetIntent"]
 old-location: xps\ixpssignaturerequest_getintent.htm
 tech.root: xps
@@ -118,7 +118,7 @@ This method allocates the memory used by the string that is returned in <i>inten
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

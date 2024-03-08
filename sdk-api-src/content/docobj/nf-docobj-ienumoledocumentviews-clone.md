@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Clone
 title: IEnumOleDocumentViews::Clone (docobj.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumOleDocumentViews.Clone)
 helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumOleDocumentViews interface","IEnumOleDocumentViews interface [COM]","Clone method","IEnumOleDocumentViews.Clone","IEnumOleDocumentViews::Clone","_ole_ienumoledocumentviews_clone","com.ienumoledocumentviews_clone","docobj/IEnumOleDocumentViews::Clone"]
 old-location: com\ienumoledocumentviews_clone.htm
 tech.root: com

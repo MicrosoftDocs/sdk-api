@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiEnableLogA
 title: MsiEnableLogA function (msi.h)
-description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
-helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND","INSTALLLOGATTRIBUTES_FLUSHEACHLINE","INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_EXTRADEBUG","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_INFO","INSTALLLOGMODE_LOGONLYONERROR","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROPERTYDUMP","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_USER","INSTALLLOGMODE_VERBOSE","INSTALLLOGMODE_WARNING","MsiEnableLog","MsiEnableLog function","MsiEnableLogA","MsiEnableLogW","_msi_msienablelog","msi/MsiEnableLog","msi/MsiEnableLogA","msi/MsiEnableLogW","setup.msienablelog"]
+description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process. (ANSI)
+helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND", "INSTALLLOGATTRIBUTES_FLUSHEACHLINE", "INSTALLLOGMODE_ACTIONDATA", "INSTALLLOGMODE_ACTIONSTART", "INSTALLLOGMODE_COMMONDATA", "INSTALLLOGMODE_ERROR", "INSTALLLOGMODE_EXTRADEBUG", "INSTALLLOGMODE_FATALEXIT", "INSTALLLOGMODE_INFO", "INSTALLLOGMODE_LOGONLYONERROR", "INSTALLLOGMODE_OUTOFDISKSPACE", "INSTALLLOGMODE_PROPERTYDUMP", "INSTALLLOGMODE_RESOLVESOURCE", "INSTALLLOGMODE_USER", "INSTALLLOGMODE_VERBOSE", "INSTALLLOGMODE_WARNING", "MsiEnableLogA", "msi/MsiEnableLogA"]
 old-location: setup\msienablelog.htm
 tech.root: setup
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
@@ -204,7 +204,7 @@ Logs the information in all the other log modes, except for <b>INSTALLLOGMODE_EX
 </dl>
 </td>
 <td width="60%">
-Logging information is collected but is is less frequently saved to the log file. This can improve the performance of some installations, but may have little benefit for large installations. The log file is removed when the installation succeeds. If the installation fails, all logging information is saved to the log file. 
+Logging information is collected but is less frequently saved to the log file. This can improve the performance of some installations, but may have little benefit for large installations. The log file is removed when the installation succeeds. If the installation fails, all logging information is saved to the log file. 
 
 <b>Windows Installer 2.0:  </b>This log mode is not available.
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_85
+UID: NE:webservices.WS_TYPE_MAPPING
 title: WS_TYPE_MAPPING (webservices.h)
 description: How a WS_TYPE maps to or from XML when serialized or deserialized.
 helpviewer_keywords: ["WS_ANY_ELEMENT_TYPE_MAPPING","WS_ATTRIBUTE_TYPE_MAPPING","WS_ELEMENT_CONTENT_TYPE_MAPPING","WS_ELEMENT_TYPE_MAPPING","WS_TYPE_MAPPING","WS_TYPE_MAPPING enumeration [Web Services for Windows]","webservices/WS_ANY_ELEMENT_TYPE_MAPPING","webservices/WS_ATTRIBUTE_TYPE_MAPPING","webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING","webservices/WS_ELEMENT_TYPE_MAPPING","webservices/WS_TYPE_MAPPING","wsw.ws_type_mapping"]
@@ -55,7 +55,7 @@ How a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE<
 
 ## -enum-fields
 
-### -field WS_ELEMENT_TYPE_MAPPING
+### -field WS_ELEMENT_TYPE_MAPPING:1
 
 This is used when reading or writing an element where the type
                     corresponds to the type of the element.
@@ -84,8 +84,7 @@ WsReadToStartElement(...)?
 WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)
 ```
 
-
-### -field WS_ATTRIBUTE_TYPE_MAPPING
+### -field WS_ATTRIBUTE_TYPE_MAPPING:2
 
 This is used when reading or writing the value of a single attribute.  The definition
                     of the type must not require any mappings to attributes or child elements.
@@ -114,10 +113,9 @@ WsReadType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
 WsReadEndAttribute(...)
 ```
 
+### -field WS_ELEMENT_CONTENT_TYPE_MAPPING:3
 
-### -field WS_ELEMENT_CONTENT_TYPE_MAPPING
-
-This is used when when the type corresponds to all or part of the 
+This is used when the type corresponds to all or part of the 
                     content (text and child elements) of an element.
                     The definition of the type may include mappings to text or child
                     elements, but must not include any attributes.
@@ -154,10 +152,9 @@ WsReadType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 WsReadEndElement(...)
 ```
 
+### -field WS_ANY_ELEMENT_TYPE_MAPPING:4
 
-### -field WS_ANY_ELEMENT_TYPE_MAPPING
-
-This is used when when the type corresponds to the complete
+This is used when the type corresponds to the complete
                     element, including the name and namespace of the element.
                     The definition may include attributes and child elements
                     and text.
@@ -184,8 +181,8 @@ WsReadToStartElement(...)?
 WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)
 ```
 
-
 ## -remarks
 
 See the documentation for each <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
+

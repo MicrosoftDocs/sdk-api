@@ -1,11 +1,11 @@
 ---
 UID: NF:winbase.OpenPrivateNamespaceA
 title: OpenPrivateNamespaceA function (winbase.h)
-description: Opens a private namespace.
+description: The OpenPrivateNamespaceA (ANSI) function (winbase.h) opens a private namespace.
 old-location: base\openprivatenamespace.htm
 tech.root: Sync
 ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: OpenPrivateNamespace, OpenPrivateNamespace function, OpenPrivateNamespaceA, OpenPrivateNamespaceW, base.openprivatenamespace, winbase/OpenPrivateNamespace, winbase/OpenPrivateNamespaceA, winbase/OpenPrivateNamespaceW
 req.header: winbase.h
 req.include-header: Windows.h

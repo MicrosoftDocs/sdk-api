@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteFontList
 title: IDWriteFontList (dwrite.h)
-description: Represents a list of fonts.
+description: Represents a list of fonts. (IDWriteFontList)
 helpviewer_keywords: ["IDWriteFontList","IDWriteFontList interface [Direct Write]","IDWriteFontList interface [Direct Write]","described","directwrite.IDWriteFontList","dwrite/IDWriteFontList"]
 old-location: directwrite\IDWriteFontList.htm
 tech.root: DirectWrite

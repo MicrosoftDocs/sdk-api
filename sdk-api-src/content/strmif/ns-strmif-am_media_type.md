@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_MEDIA_TYPE","AM_MEDIA_TYPE structure [DirectShow]","AM
 old-location: dshow\am_media_type.htm
 tech.root: dshow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AM_MEDIA_TYPE</b> structure describes the format of a media sample.
 

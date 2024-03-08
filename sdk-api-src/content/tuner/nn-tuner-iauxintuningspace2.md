@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows XP Media Center Edition 2004 and later.
         
 
@@ -59,7 +61,7 @@ The <b>IAuxInTuningSpace2</b> interface is implemented on <a href="/previous-ver
 
 The <b>IAuxInTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>. <b>IAuxInTuningSpace2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

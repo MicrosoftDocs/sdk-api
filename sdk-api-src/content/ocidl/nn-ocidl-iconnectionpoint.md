@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IConnectionPoint
 title: IConnectionPoint (ocidl.h)
-description: Supports connection points for connectable objects.
+description: Supports connection points for connectable objects. (IConnectionPoint)
 helpviewer_keywords: ["IConnectionPoint","IConnectionPoint interface [COM]","IConnectionPoint interface [COM]","described","_com_iconnectionpoint","com.iconnectionpoint","ocidl/IConnectionPoint"]
 old-location: com\iconnectionpoint.htm
 tech.root: com

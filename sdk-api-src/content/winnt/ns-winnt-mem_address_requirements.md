@@ -60,11 +60,16 @@ Specifies a lowest and highest base address and alignment as part of an extended
 
 ### -field LowestStartingAddress
 
-Specifies the lowest acceptable address. Calling <a href=" and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
+Specifies the lowest acceptable address.
+This address must be a multiple of the allocation granularity returned by <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>,
+or a multiple of the large page size returned by <a href="/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> if large pages are being requested.
+If this member is <b>NULL</b>, then there is no lower limit.
 
 ### -field HighestEndingAddress
 
-Specifies the highest acceptable address (inclusive). This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>. Calling <a href=" and specifying <b>NULL</b> for <i>LowestStartingAddress</i>, and specifying <b>NULL</b> for <i>HighestEndingAddress</i>, gives the same behavior as calling <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>.
+Specifies the highest acceptable address (inclusive).
+This address must not exceed <b>lpMaximumApplicationAddress</b> returned by <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>.
+If this member is <b>NULL</b>, then there is no upper limit.
 
 ### -field Alignment
 

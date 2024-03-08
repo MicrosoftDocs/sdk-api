@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetViewports
 title: ID3D12GraphicsCommandList::RSSetViewports (d3d12.h)
-description: Bind an array of viewports to the rasterizer stage of the pipeline.
+description: Bind an array of viewports to the rasterizer stage of the pipeline. (ID3D12GraphicsCommandList.RSSetViewports)
 helpviewer_keywords: ["ID3D12GraphicsCommandList interface","RSSetViewports method","ID3D12GraphicsCommandList.RSSetViewports","ID3D12GraphicsCommandList::RSSetViewports","RSSetViewports","RSSetViewports method","RSSetViewports method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::RSSetViewports","direct3d12.id3d12graphicscommandlist_rssetviewports"]
 old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm
 tech.root: direct3d12
@@ -75,9 +75,6 @@ All viewports must be set atomically as one operation. Any viewports not defined
 Which viewport to use is determined by the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
-<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
-      </div>
-<div> </div>
 
 #### Examples
 

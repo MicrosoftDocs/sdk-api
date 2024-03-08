@@ -11,7 +11,7 @@ ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technolo
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Receives <b>CloseMMI</b> events from a Media Sink Device (MSD) device under the Protected Broadcast Driver Architecture (PBDA).  The MSD is the device that receives protected content from a Media Transform Device (MTD). This event tells the MTD that the MSD trying to close a man-machine interface (MMI) display, such as a dialog box.
 
 ## -inheritance
 
 The <b>IESCloseMmiEvent</b> interface inherits from <b>IESEvent</b>. <b>IESCloseMmiEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

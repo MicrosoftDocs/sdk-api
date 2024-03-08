@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IBootTrigger.get_Delay
 title: IBootTrigger::get_Delay (taskschd.h)
-description: Gets or sets a value that indicates the amount of time between when the system is booted and when the task is started.
+description: Gets or sets a value that indicates the amount of time between when the system is booted and when the task is started. (Get)
 helpviewer_keywords: ["Delay property [Task Scheduler]","Delay property [Task Scheduler]","IBootTrigger interface","IBootTrigger interface [Task Scheduler]","Delay property","IBootTrigger.Delay","IBootTrigger.get_Delay","IBootTrigger::Delay","IBootTrigger::get_Delay","IBootTrigger::put_Delay","get_Delay","taskschd.iboottrigger_delay","taskschd/IBootTrigger::Delay","taskschd/IBootTrigger::get_Delay","taskschd/IBootTrigger::put_Delay"]
 old-location: taskschd\iboottrigger_delay.htm
 tech.root: taskschd

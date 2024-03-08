@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetNativeVideoSize (evr.h)
 description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
 helpviewer_keywords: ["12630035-dd07-44bd-98f7-79974c9cc58b","GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetNativeVideoSize method","IMFVideoDisplayControl.GetNativeVideoSize","IMFVideoDisplayControl::GetNativeVideoSize","evr/IMFVideoDisplayControl::GetNativeVideoSize","mf.imfvideodisplaycontrol_getnativevideosize"]
 old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
 ms.date: 12/05/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetNativeVideoSize
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetNativeVideoSize
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetLastError","GetLastError function","_win32_getlasterro
 old-location: base\getlasterror.htm
 tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getlasterror, errhandlingapi/GetLastError
 req.header: errhandlingapi.h
 req.include-header: Windows.h
@@ -55,15 +55,11 @@ api_name:
 
 # GetLastError function
 
-
 ## -description
 
 Retrieves the calling thread's last-error code value. The last-error code is maintained on a per-thread basis. Multiple threads do not overwrite each other's last-error code.
 
-<b>Visual Basic:  </b>Applications should call <b>err.LastDllError</b> instead of 
-<b>GetLastError</b>.
-
-
+<b>Visual Basic:</b> Applications should call <b>err.LastDllError</b> instead of <b>GetLastError</b>.
 
 ## -returns
 
@@ -73,50 +69,32 @@ The Return Value section of the documentation for each function that sets the la
 
 ## -remarks
 
-Functions executed by the calling thread set this value by calling the 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. You should call the 
-<b>GetLastError</b> function immediately when a function's return value indicates that such a call will return useful data. That is because some functions call 
-<b>SetLastError</b> with a zero when they succeed, wiping out the error code set by the most recently failed function.
+Functions executed by the calling thread set this value by calling the [SetLastError](nf-errhandlingapi-setlasterror.md) function. You should call the <b>GetLastError</b> function immediately when a function's return value indicates that such a call will return useful data. That is because some functions call <b>SetLastError</b> with a zero when they succeed, wiping out the error code set by the most recently failed function.
 
-To obtain an error string for system error codes, use the 
-<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function. For a complete list of error codes provided by the operating system, see 
-<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+To obtain an error string for system error codes, use the [FormatMessage](../winbase/nf-winbase-formatmessage.md) function. For a complete list of error codes provided by the operating system, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 The error codes returned by a function are not part of the Windows API specification and can vary by operating system or device driver. For this reason, we cannot provide the complete list of error codes that can be returned by each function. There are also many functions whose documentation does not include even a partial list of error codes that can be returned.
 
 Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to one. That indicates that the error code has been defined by an application, and ensures that your error code does not conflict with any error codes defined by the system.
 
-To convert a system error into an <b>HRESULT</b> value, use the 
-<a href="/windows/win32/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro.
-
+To convert a system error into an <b>HRESULT</b> value, use the <a href="/windows/win32/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro.
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/win32/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
 
 ## -see-also
 
-<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+[Error Handling Functions](/windows/win32/Debug/error-handling-functions)
 
+[FormatMessage](../winbase/nf-winbase-formatmessage.md)
 
+[HRESULT_FROM_WIN32](../winerror/nf-winerror-hresult_from_win32.md)
 
-<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+[Last-Error Code](/windows/win32/Debug/last-error-code)
 
+[SetLastError](nf-errhandlingapi-setlasterror.md)
 
+[SetLastErrorEx](../winuser/nf-winuser-setlasterrorex.md)
 
-<a href="/windows/win32/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
-
-
-
-<a href="/windows/desktop/Debug/last-error-code">Last-Error Code</a>
-
-
-
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

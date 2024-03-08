@@ -11,7 +11,7 @@ ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliveryS
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,12 +50,14 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor. The terrestrial delivery system descriptor appears in the network information table (NIT) as part of the ISDB service information and indicates the physical characteristics of the terrestrial transmission path. This descriptor is required for all ISDB terrestrial broadcasting.
 
 ## -inheritance
 
 The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbTerrestrialDeliverySystemDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

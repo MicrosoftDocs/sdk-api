@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.AssocQueryStringA
 title: AssocQueryStringA function (shlwapi.h)
-description: Searches for and retrieves a file or protocol association-related string from the registry.
-helpviewer_keywords: ["AssocQueryString","AssocQueryString function [Windows Shell]","AssocQueryStringA","AssocQueryStringW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryString","shell.AssocQueryString","shlwapi/AssocQueryString","shlwapi/AssocQueryStringA","shlwapi/AssocQueryStringW"]
+description: Searches for and retrieves a file or protocol association-related string from the registry. (AssocQueryStringA)
+helpviewer_keywords: ["AssocQueryStringA", "CLSID", "Executable name", "File name extension", "ProgID", "shlwapi/AssocQueryStringA"]
 old-location: shell\AssocQueryString.htm
 tech.root: shell
 ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
@@ -79,29 +79,10 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that is used to determine the root key. The following four types of strings can be used.
 
-
-
-#### File name extension
-
-A file name extension, such as .txt.
-
-
-
-#### CLSID
-
-A CLSID GUID in the standard "{GUID}" format.
-
-
-
-#### ProgID
-
-An application's ProgID, such as <b>Word.Document.8</b>.
-
-
-
-#### Executable name
-
-The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+1. **File name extension**: A file name extension, such as .txt.
+2. **CLSID**: A CLSID GUID in the standard "{GUID}" format.
+3. **ProgID**: An application's ProgID, such as <a href="/windows/win32/shell/fa-progids">Word.Document.8</a>.
+4. **Executable name**: The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 ### -param pszExtra [in, optional]
 

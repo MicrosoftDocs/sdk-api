@@ -11,7 +11,7 @@ ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_E
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ISCTE_EAS</b> interface enables the client to get data from an ATSC emergency alert message (EAS) table. The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-geteas">IAtscPsipParser::GetEAS</a> method returns a pointer to this interface.
 
 For more information about EAS tables, see ANSI-J-STD-042-A, Emergency Alert Message for Cable.
@@ -58,7 +60,7 @@ For more information about EAS tables, see ANSI-J-STD-042-A, Emergency Alert Mes
 
 The <b>ISCTE_EAS</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCTE_EAS</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

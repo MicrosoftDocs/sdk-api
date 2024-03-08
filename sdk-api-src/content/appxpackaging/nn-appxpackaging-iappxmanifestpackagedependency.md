@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageDependency
 title: IAppxManifestPackageDependency (appxpackaging.h)
-description: Describes the dependency of one package on another package.
+description: Describes the dependency of one package on another package. (IAppxManifestPackageDependency)
 helpviewer_keywords: ["IAppxManifestPackageDependency","IAppxManifestPackageDependency interface [App packaging and management]","IAppxManifestPackageDependency interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageDependency","appxpkg.iappxmanifestpackagedependency"]
 old-location: appxpkg\iappxmanifestpackagedependency.htm
 tech.root: appxpkg

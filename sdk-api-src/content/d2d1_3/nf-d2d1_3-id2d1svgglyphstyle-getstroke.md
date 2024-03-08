@@ -77,7 +77,7 @@ The 'context-value' for the 'stroke-dasharray'
 
 Type: <b>UINT32</b>
 
-The the number of dashes in the dash array.
+The number of dashes in the dash array.
 
 ### -param dashOffset [out, optional]
 

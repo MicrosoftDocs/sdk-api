@@ -29,6 +29,7 @@ f1_keywords:
  - gdiplusinit/GdiplusStartupParams
 dev_langs:
  - c++
+prerelease: true
 ---
 
 ## -description
@@ -37,23 +38,26 @@ Defines constants that specify parameters for startup.
 
 ## -enum-fields
 
-### -field GdiplusStartupDefault
+### -field GdiplusStartupDefault:0x00000000
 
 Specfies default startup.
 
-### -field GdiplusStartupNoSetRound
+### -field GdiplusStartupNoSetRound:0x00000001
 
 Specifies no set round for startup.
 
-### -field GdiplusStartupSetPSValue
+### -field GdiplusStartupSetPSValue:0x00000002
 
 Specifies a pixel shader value for startup.
 
-### -field GdiplusStartupTransparencyMask
+### -field GdiplusStartupReserved0:0x00000004
+
+Still in preview.
+
+### -field GdiplusStartupTransparencyMask:0xFF000000
 
 Specifies a transparency mask for startup.
 
 ## -remarks
 
 ## -see-also
-

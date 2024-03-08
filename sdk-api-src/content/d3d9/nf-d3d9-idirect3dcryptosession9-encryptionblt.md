@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.EncryptionBlt
 title: IDirect3DCryptoSession9::EncryptionBlt (d3d9.h)
-description: Reads encrypted data from a protected surface.
+description: Reads encrypted data from a protected surface. (IDirect3DCryptoSession9.EncryptionBlt)
 helpviewer_keywords: ["EncryptionBlt","EncryptionBlt method [Media Foundation]","EncryptionBlt method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","EncryptionBlt method","IDirect3DCryptoSession9.EncryptionBlt","IDirect3DCryptoSession9::EncryptionBlt","d3d9/IDirect3DCryptoSession9::EncryptionBlt","mf.idirect3dcryptosession9_encryptionblt"]
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm
 tech.root: mf

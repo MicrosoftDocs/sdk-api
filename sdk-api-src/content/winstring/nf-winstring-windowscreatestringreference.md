@@ -98,7 +98,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was created successfully.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Either <i>string</i> or <i>hstringHeader</i>  is <b>NULL</b>, or <i>string</i> i
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new [**HSTRING**](/windows/win32/winrt/hstring).
+Failed to allocate the new <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Failed to allocate the new [**HSTRING**](/windows/win32/winrt/hstring).
 
 Use the <b>WindowsCreateStringReference</b> function to create an [**HSTRING**](/windows/win32/winrt/hstring) from an existing string. This kind of <b>HSTRING</b> is named a <i>fast-pass string</i>. Unlike an <b>HSTRING</b> created by the <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a> function, the lifetime of the backing buffer in the new <b>HSTRING</b> is  not managed by the Windows Runtime.  The caller allocates <i>sourceString</i> on the  stack frame, together with an uninitialized <a href="/windows/desktop/api/hstring/ns-hstring-hstring_header">HSTRING_HEADER</a>, to avoid a heap allocation and eliminate the risk of a memory leak. The caller must ensure that <i>sourceString</i> and the contents of <i>hstringHeader</i> remain unchanged during the lifetime of the attached <b>HSTRING</b>.
 
-You don't need to call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate a fast-pass [**HSTRING**](/windows/win32/winrt/hstring)created by the <b>WindowsCreateStringReference</b> function.
+You don't need to call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate a fast-pass [**HSTRING**](/windows/win32/winrt/hstring) created by the <b>WindowsCreateStringReference</b> function.
 
 To create an empty [**HSTRING**](/windows/win32/winrt/hstring), pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>. 
 

@@ -4,7 +4,7 @@ title: GetCurrentThreadToken function (processthreadsapi.h)
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the impersonation token that was assigned to the current thread.
 helpviewer_keywords: ["GetCurrentThreadToken","GetCurrentThreadToken function [Security]","processthreadsapi/GetCurrentThreadToken","security.getcurrentthreadtoken"]
 old-location: security\getcurrentthreadtoken.htm
-tech.root: security
+tech.root: processthreadsapi
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken

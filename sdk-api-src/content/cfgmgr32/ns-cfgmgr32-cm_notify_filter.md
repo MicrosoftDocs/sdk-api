@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PCM_NOTIFY_FILTER","CM_NOTIFY_FILTER","CM_NOTIFY_FILTER 
 old-location: devinst\cm_notify_filter.htm
 tech.root: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
-ms.date: 12/05/2018
+ms.date: 10/06/2023
 ms.keywords: '*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter'
 req.header: cfgmgr32.h
 req.include-header: 
@@ -66,15 +66,9 @@ The size of the structure.
 
 A combination of zero or more of the following flags:
 
-
-
-
-
 #### CM_NOTIFY_FILTER_FLAG_ALL_INTERFACE_CLASSES
 
 Register to receive notifications for PnP events for all device interface classes.  The memory at <b>pFilter-&gt;u.DeviceInterface.ClassGuid</b> must be zeroes.  Do not use this flag with CM_NOTIFY_FILTER_FLAG_ALL_DEVICE_INSTANCES.  This flag is only valid if <b>pFilter-&gt;FilterType</b> is CM_NOTIFY_FILTER_TYPE_DEVICEINTERFACE.
-
-
 
 #### CM_NOTIFY_FILTER_FLAG_ALL_DEVICE_INSTANCES
 
@@ -84,21 +78,13 @@ Register to receive notifications for PnP events for all devices.  <b>pFilter-&g
 
 Must be one of the following values:
 
-
-
-
-
 #### CM_NOTIFY_FILTER_TYPE_DEVICEINTERFACE
 
 Register for notifications for device interface events.  <b>pFilter-&gt;u.DeviceInterface.ClassGuid</b> should be filled in with the GUID of the device interface class to receive notifications for.
 
-
-
 #### CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE
 
-Register for notifications for device handle events.  <b>pFilter-&gt;u.DeviceHandle.hTarget</b> must be filled in with a handle to the device to receive notifications for.
-
-
+Register for notifications for device handle events.  <b>pFilter-&gt;u.DeviceHandle.hTarget</b> must be filled in with a handle to the device to receive notifications for. This handle must remain a valid handle to the device for the duration of the [CM_Register_Notification](./nf-cfgmgr32-cm_register_notification.md) call. However, after CM_Register_Notification returns, the handle can be closed without affecting the ability for the registration to receive notifications.
 
 #### CM_NOTIFY_FILTER_TYPE_DEVICEINSTANCE
 
@@ -137,7 +123,5 @@ When the driver calls the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a>
-
-
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a>

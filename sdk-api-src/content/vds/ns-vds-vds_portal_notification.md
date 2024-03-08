@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_PORTAL_NOTIFICATION
 title: VDS_PORTAL_NOTIFICATION (vds.h)
-description: Defines the details of iSCSI portal events.
+description: The VDS_PORTAL_NOTIFICATION structure (vds.h) defines the details of iSCSI portal events.
 helpviewer_keywords: ["VDS_NF_PORTAL_ARRIVE","VDS_NF_PORTAL_DEPART","VDS_NF_PORTAL_MODIFY","VDS_PORTAL_NOTIFICATION","VDS_PORTAL_NOTIFICATION structure [VDS]","base.vds_portal_notification","vds/_VDS_PORTAL_NOTIFICATION","vdshwprv/_VDS_PORTAL_NOTIFICATION"]
 old-location: base\vds_portal_notification.htm
 tech.root: base
 ms.assetid: 53126339-a9b7-4b80-80af-ac1782dff8a8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_NF_PORTAL_ARRIVE, VDS_NF_PORTAL_DEPART, VDS_NF_PORTAL_MODIFY, VDS_PORTAL_NOTIFICATION, VDS_PORTAL_NOTIFICATION structure [VDS], base.vds_portal_notification, vds/_VDS_PORTAL_NOTIFICATION, vdshwprv/_VDS_PORTAL_NOTIFICATION
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of iSCSI portal events.
 

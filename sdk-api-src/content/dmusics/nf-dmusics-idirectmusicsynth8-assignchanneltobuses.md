@@ -4,7 +4,7 @@ title: IDirectMusicSynth8::AssignChannelToBuses (dmusics.h)
 description: AssignChannelToBuses is unsupported and may be altered or unavailable in the future.
 helpviewer_keywords: ["AssignChannelToBuses","AssignChannelToBuses method [Audio Devices]","AssignChannelToBuses method [Audio Devices]","IDirectMusicSynth8 interface","IDirectMusicSynth8 interface [Audio Devices]","AssignChannelToBuses method","IDirectMusicSynth8.AssignChannelToBuses","IDirectMusicSynth8::AssignChannelToBuses","audio.idirectmusicsynth8_assignchanneltobuses","dmusics/IDirectMusicSynth8::AssignChannelToBuses"]
 old-location: audio\idirectmusicsynth8_assignchanneltobuses.htm
-tech.root: audio
+tech.root: dshow
 ms.assetid: 311C64D2-2455-4A1D-98F1-13313011CDB3
 ms.date: 12/05/2018
 ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],AssignChannelToBuses method, IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
@@ -43,6 +43,7 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.AssignChannelToBuses
+archived: true
 ---
 
 # IDirectMusicSynth8::AssignChannelToBuses

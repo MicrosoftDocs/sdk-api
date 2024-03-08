@@ -126,13 +126,13 @@ The current show state of the window. It can be any of the values that can be sp
 
 ### -field ptMinPosition
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is minimized.
 
 ### -field ptMaxPosition
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is maximized.
 
@@ -162,7 +162,7 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetIsSideways
 title: IXpsOMGlyphsEditor::GetIsSideways (xpsobjectmodel.h)
-description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways.
+description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways. (IXpsOMGlyphsEditor.GetIsSideways)
 helpviewer_keywords: ["FALSE","GetIsSideways","GetIsSideways method [XPS Documents and Packaging]","GetIsSideways method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetIsSideways method","IXpsOMGlyphsEditor.GetIsSideways","IXpsOMGlyphsEditor::GetIsSideways","TRUE","xps.ixpsomglyphseditor_getissideways","xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways"]
 old-location: xps\ixpsomglyphseditor_getissideways.htm
 tech.root: xps
@@ -128,7 +128,7 @@ The default value for this property is <b>false</b>.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","Writ
 old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
 tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF file, bypassing the normal compression procedures. Use this method when writing a compressed stream if you already have the compressed samples. The most common use of <b>WriteStreamSample</b> is in copying streams from one file to another.
 
@@ -104,7 +106,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 
 ### -param pSample [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
 
 ## -returns
 
@@ -164,7 +166,7 @@ You can use both <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-wr
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 

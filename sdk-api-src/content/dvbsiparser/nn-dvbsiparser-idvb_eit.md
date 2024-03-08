@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
@@ -76,11 +78,11 @@ An EIT provides information about events in each service, such as the event name
 <td>Present/following EIT for another transport stream. </td>
 </tr>
 <tr>
-<td>0x50 â€“ 0x5F</td>
+<td>0x50 – 0x5F</td>
 <td>Schedule EIT for this transport stream.</td>
 </tr>
 <tr>
-<td>0x60 â€“ 0x6F</td>
+<td>0x60 – 0x6F</td>
 <td>Schedule EIT for another transport stream.</td>
 </tr>
 </table>
@@ -89,7 +91,7 @@ An EIT provides information about events in each service, such as the event name
 
 The <b>IDVB_EIT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_EIT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

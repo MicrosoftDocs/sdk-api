@@ -55,19 +55,19 @@ The <b>StringDigitSubstitute</b> enumeration specifies how to substitute digits 
 
 ## -enum-fields
 
-### -field StringDigitSubstituteUser
+### -field StringDigitSubstituteUser:0
 
 Specifies a user-defined substitution scheme.
 
-### -field StringDigitSubstituteNone
+### -field StringDigitSubstituteNone:1
 
 Specifies to disable substitutions.
 
-### -field StringDigitSubstituteNational
+### -field StringDigitSubstituteNational:2
 
 Specifies substitution digits that correspond with the official national language of the user's locale.
 
-### -field StringDigitSubstituteTraditional
+### -field StringDigitSubstituteTraditional:3
 
 Specifies substitution digits that correspond with the user's native script or language, which may be different from the official national language of the user's locale.
 

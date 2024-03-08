@@ -6,7 +6,7 @@ helpviewer_keywords: ["AdviseNotify","AdviseNotify method [DirectShow]","AdviseN
 old-location: dshow\ivmrsurfaceallocator9_advisenotify.htm
 tech.root: dshow
 ms.assetid: 2c367444-50bf-4fbe-b2d9-ed32275576e9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator9.AdviseNotify, IVMRSurfaceAllocator9::AdviseNotify, IVMRSurfaceAllocator9AdviseNotify, dshow.ivmrsurfaceallocator9_advisenotify, vmr9/IVMRSurfaceAllocator9::AdviseNotify
 req.header: vmr9.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AdviseNotify</b> method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks. If you are using a custom allocator-presenter, the application must call this method on the allocator-presenter, with a pointer to the VMR's <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface. The allocator-presenter uses this interface to communicate with the VMR.
 

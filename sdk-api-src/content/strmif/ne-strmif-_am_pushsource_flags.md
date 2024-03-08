@@ -6,7 +6,7 @@ helpviewer_keywords: ["AM_PUSHSOURCECAPS_INTERNAL_RM","AM_PUSHSOURCECAPS_NOT_LIV
 old-location: dshow\am_pushsource_flags.htm
 tech.root: dshow
 ms.assetid: 878dc41b-8df3-4294-9e1f-7a3da1834ad1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_PUSHSOURCECAPS_INTERNAL_RM, AM_PUSHSOURCECAPS_NOT_LIVE, AM_PUSHSOURCECAPS_PRIVATE_CLOCK, AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, AM_PUSHSOURCE_FLAGS, AM_PUSHSOURCE_FLAGSEnumeration, _AM_PUSHSOURCE_FLAGS, _AM_PUSHSOURCE_FLAGS enumeration [DirectShow], dshow.am_pushsource_flags, strmif/AM_PUSHSOURCECAPS_INTERNAL_RM, strmif/AM_PUSHSOURCECAPS_NOT_LIVE, strmif/AM_PUSHSOURCECAPS_PRIVATE_CLOCK, strmif/AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, strmif/_AM_PUSHSOURCE_FLAGS
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,27 +50,29 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Indicates the behavior of a live source filter.
 
 ## -enum-fields
 
-### -field AM_PUSHSOURCECAPS_INTERNAL_RM
+### -field AM_PUSHSOURCECAPS_INTERNAL_RM:0x1
 
 The filter uses its own rate-matching mechanism; the renderer should therefore not attempt to match rates with this filter.
 
-### -field AM_PUSHSOURCECAPS_NOT_LIVE
+### -field AM_PUSHSOURCECAPS_NOT_LIVE:0x2
 
 The filter is not live. Do not treat it as a live source, even though it exposes the <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource</a> interface.
 
-### -field AM_PUSHSOURCECAPS_PRIVATE_CLOCK
+### -field AM_PUSHSOURCECAPS_PRIVATE_CLOCK:0x4
 
 The filter time stamps the samples using a private clock. The clock is not available to the rest of the graph through <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a>.
 
-### -field AM_PUSHSOURCEREQS_USE_STREAM_CLOCK
+### -field AM_PUSHSOURCEREQS_USE_STREAM_CLOCK:0x10000
 
 Reserved; do not use.
 
-### -field AM_PUSHSOURCEREQS_USE_CLOCK_CHAIN
+### -field AM_PUSHSOURCEREQS_USE_CLOCK_CHAIN:0x20000
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongW
 title: SetWindowLongW function (winuser.h)
-description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
-helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
+description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory. (Unicode)
+helpviewer_keywords: ["DWL_DLGPROC", "DWL_MSGRESULT", "DWL_USER", "GWL_EXSTYLE", "GWL_HINSTANCE", "GWL_ID", "GWL_STYLE", "GWL_USERDATA", "GWL_WNDPROC", "SetWindowLong", "SetWindowLong function [Windows and Messages]", "SetWindowLongW", "_win32_SetWindowLong", "_win32_setwindowlong_cpp", "winmsg.setwindowlong", "winui._win32_setwindowlong", "winuser/SetWindowLong", "winuser/SetWindowLongW"]
 old-location: winmsg\setwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm
@@ -219,7 +219,7 @@ If the previous value of the specified 32-bit integer is zero, and the function 
 
 Certain window data is cached, so changes you make using <b>SetWindowLong</b> will not take effect until you call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function. Specifically, if you change any of the frame styles, you must call <b>SetWindowPos</b> with the <b>SWP_FRAMECHANGED</b> flag for the cache to be updated properly. 
 
-If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a> callback function. 
 
 If you use <b>SetWindowLong</b> with the <b>DWL_MSGRESULT</b> index to set the return value for a message processed by a dialog procedure, you should return <b>TRUE</b> directly afterward. Otherwise, if you call any function that results in your dialog procedure receiving a window message, the nested window message could overwrite the return value you set using <b>DWL_MSGRESULT</b>. 
 
@@ -285,4 +285,4 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Su
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>

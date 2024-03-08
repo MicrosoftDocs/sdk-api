@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetConstantBufferByName
 title: ID3D11ShaderReflection::GetConstantBufferByName (d3d11shader.h)
-description: Get a constant buffer by name.
+description: Get a constant buffer by name. (ID3D11ShaderReflection.GetConstantBufferByName)
 helpviewer_keywords: ["GetConstantBufferByName","GetConstantBufferByName method [Direct3D 11]","GetConstantBufferByName method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetConstantBufferByName method","ID3D11ShaderReflection.GetConstantBufferByName","ID3D11ShaderReflection::GetConstantBufferByName","d3d11shader/ID3D11ShaderReflection::GetConstantBufferByName","d50e9f46-8347-fa35-807d-0bbcf91adf69","direct3d11.id3d11shaderreflection_getconstantbufferbyname"]
 old-location: direct3d11\id3d11shaderreflection_getconstantbufferbyname.htm
 tech.root: direct3d11

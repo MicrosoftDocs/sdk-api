@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.Clone
 title: IXpsOMRadialGradientBrush::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMRadialGradientBrush.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMRadialGradientBrush.Clone","IXpsOMRadialGradientBrush::Clone","xps.ixpsomradialgradientbrush_clone","xpsobjectmodel/IXpsOMRadialGradientBrush::Clone"]
 old-location: xps\ixpsomradialgradientbrush_clone.htm
 tech.root: xps
@@ -112,7 +112,7 @@ This method does not update any of the resource pointers in the new <a href="/wi
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetVideoPosition (evr.h)
 description: Sets the source and destination rectangles for the video.
 helpviewer_keywords: ["5dc789b7-e206-4f1d-a0b2-12cb98ce4184","IMFVideoDisplayControl interface [Media Foundation]","SetVideoPosition method","IMFVideoDisplayControl.SetVideoPosition","IMFVideoDisplayControl::SetVideoPosition","SetVideoPosition","SetVideoPosition method [Media Foundation]","SetVideoPosition method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetVideoPosition","mf.imfvideodisplaycontrol_setvideoposition"]
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184
 ms.date: 12/05/2018
 ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interface [Media Foundation],SetVideoPosition method, IMFVideoDisplayControl.SetVideoPosition, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetVideoPosition
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetVideoPosition
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the source and destination rectangles for the video.
 

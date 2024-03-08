@@ -62,7 +62,7 @@ To get a pointer to this interface, call either the <a href="/previous-versions/
 
 Package relationships serve as an entry point  to the package by  links from the package to target  resources. The target of a package relationship is often an important part described in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i> or by the package format designer.
 
-For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a> (http://www.ecma-international.org/publications/standards/Ecma-376.htm).
+For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a> (https://www.ecma-international.org/publications-and-standards/standards/ecma-376/).
 
 The definitive way to find a part of interest is by using a relationship type. Several steps are required; for details, see the <a href="/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a> and the <a href="/previous-versions/windows/desktop/opc/finding-the-core-properties-part">Finding the Core Properties Part</a> how-to task.
 
@@ -81,7 +81,7 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 
-<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 OpenXML</a>
 
 
 

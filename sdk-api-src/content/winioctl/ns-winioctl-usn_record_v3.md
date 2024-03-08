@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_23
+UID: NS:winioctl.USN_RECORD_V3
 title: USN_RECORD_V3
 description: Contains the information for an update sequence number (USN) change journal version 3.0 record.
 helpviewer_keywords: ["*PUSN_RECORD_V3","PUSN_RECORD_V3","PUSN_RECORD_V3 structure pointer [Files]","USN_REASON_BASIC_INFO_CHANGE","USN_REASON_CLOSE","USN_REASON_COMPRESSION_CHANGE","USN_REASON_DATA_EXTEND","USN_REASON_DATA_OVERWRITE","USN_REASON_DATA_TRUNCATION","USN_REASON_EA_CHANGE","USN_REASON_ENCRYPTION_CHANGE","USN_REASON_FILE_CREATE","USN_REASON_FILE_DELETE","USN_REASON_HARD_LINK_CHANGE","USN_REASON_INDEXABLE_CHANGE","USN_REASON_INTEGRITY_CHANGE","USN_REASON_NAMED_DATA_EXTEND","USN_REASON_NAMED_DATA_OVERWRITE","USN_REASON_NAMED_DATA_TRUNCATION","USN_REASON_OBJECT_ID_CHANGE","USN_REASON_RENAME_NEW_NAME","USN_REASON_RENAME_OLD_NAME","USN_REASON_REPARSE_POINT_CHANGE","USN_REASON_SECURITY_CHANGE","USN_REASON_STREAM_CHANGE","USN_REASON_TRANSACTED_CHANGE","USN_RECORD_V3","USN_RECORD_V3 structure [Files]","USN_SOURCE_AUXILIARY_DATA","USN_SOURCE_CLIENT_REPLICATION_MANAGEMENT","USN_SOURCE_DATA_MANAGEMENT","USN_SOURCE_REPLICATION_MANAGEMENT","fs.usn_record_v3","winioctl/PUSN_RECORD_V3","winioctl/USN_RECORD_V3"]
@@ -135,7 +135,7 @@ The structure is a <b>USN_RECORD_V3</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a [USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md) and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -264,8 +264,6 @@ The file or directory is truncated.
 </td>
 <td width="60%">
 The user made a change to the extended attributes of a file or directory.
-
-These NTFS file system attributes are not accessible to Windows-based applications.
 
 </td>
 </tr>
@@ -626,8 +624,9 @@ For more information, see
 
 
 
-<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v4">USN_RECORD_V4</a>
+[USN_RECORD_V4 structure](ns-winioctl-usn_record_v4.md)
 
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

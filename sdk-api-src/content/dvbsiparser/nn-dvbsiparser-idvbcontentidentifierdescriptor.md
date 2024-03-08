@@ -11,7 +11,7 @@ ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor in
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,12 +50,14 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that get information from a Digital Video Broadcast (DVB) content identifier descriptor.  Content identifier descriptors uniquely identify a unit of content in a DVB broadcast stream. Content identifier descriptors appear in the DVB service information as part of the event information table (EIT), which provides information about the events in each service.
 
 ## -inheritance
 
 The <b>IDvbContentIdentifierDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbContentIdentifierDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

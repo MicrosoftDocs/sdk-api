@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 title: ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit (d3d12sdklayers.h)
-description: Get the number of messages that were discarded due to the message count limit.
+description: Get the number of messages that were discarded due to the message count limit. (ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit)
 helpviewer_keywords: ["GetNumMessagesDiscardedByMessageCountLimit","GetNumMessagesDiscardedByMessageCountLimit method","GetNumMessagesDiscardedByMessageCountLimit method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetNumMessagesDiscardedByMessageCountLimit method","ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit","ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","direct3d12.id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit"]
 old-location: direct3d12\id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit.htm
 tech.root: direct3d12

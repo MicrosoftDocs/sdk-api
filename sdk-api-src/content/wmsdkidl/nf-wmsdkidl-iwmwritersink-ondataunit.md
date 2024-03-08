@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMWriterSink interface [windows Media Format]","OnDataUn
 old-location: wmformat\iwmwritersink_ondataunit.htm
 tech.root: wmformat
 ms.assetid: 32e52cdb-e7cb-4caf-a202-0d2ff746017c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,13 +53,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>OnDataUnit</b> method is called by the writer when a data unit is ready for the sink. How your application handles the data unit depends upon the destination of the content.
 
 ## -parameters
 
 ### -param pDataUnit [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the data unit.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the data unit.
 
 ## -returns
 

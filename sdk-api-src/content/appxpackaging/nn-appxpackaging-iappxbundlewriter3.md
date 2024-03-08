@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter3
 title: IAppxBundleWriter3 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.
+description: Provides a write-only object model for bundle packages. (IAppxBundleWriter3)
 helpviewer_keywords: ["IAppxBundleWriter3","IAppxBundleWriter3 interface [App packaging and management]","IAppxBundleWriter3 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter3","appxpkg.iappxbundlewriter3"]
 old-location: appxpkg\iappxbundlewriter3.htm
 tech.root: appxpkg

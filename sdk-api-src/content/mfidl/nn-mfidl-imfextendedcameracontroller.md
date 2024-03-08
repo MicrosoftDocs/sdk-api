@@ -1,9 +1,9 @@
 ---
 UID: NN:mfidl.IMFExtendedCameraController
 title: IMFExtendedCameraController
-ms.date: 1/23/2020
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFExtendedCameraController interface allows apps to retrieve an instance of IMFExtendedCameraControl, which is used to configure a capture device's extended properties.
 tech.root: mf
 req.assembly: 
 req.construct-type: iface
@@ -14,8 +14,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 19041
+req.target-min-winversvr: Windows 10 Build 19041
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
@@ -38,6 +38,25 @@ dev_langs:
 Allows apps to retrieve an instance of [IMFExtendedCameraControl](nn-mfidl-imfextendedcameracontrol.md), which is used to configure a capture device's extended properties.
 
 ## -remarks
+
+The IMFExtendedCameraController interface can be obtained through the [IMFMediaSource](nn-mfidl-imfmediasource.md) that represents the video capture device and its [IMFGetService](nn-mfidl-imfgetservice.md) implementation.
+In this case, guidService parameter of the IMFGetService::GetService function must be `GUID_NULL`, please see following code snippet.
+
+```
+HRESULT GetExtendedCameraController(_In_ IMFMediaSource cameraSource)
+{
+    wil::com_ptr_nothrow<IMFExtendedCameraController> extCameraController;
+    wil::com_ptr_nothrow<IMFGetService> getService;
+
+    RETURN_IF_FAILED(extCameraController.query_to(&getService));
+
+    RETURN_IF_FAILED(getService->GetService(GUID_NULL, IID_PPV_ARGS(&extCameraController)));
+
+    // Use the IMFExtendedCameraController
+
+    return S_OK;
+}
+```
 
 ## -see-also
 

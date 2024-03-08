@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Logging
 title: IFsrmFileManagementJob::get_Logging (fsrmreports.h)
-description: The types of logging to perform.
+description: The types of logging to perform. (Get)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Logging property","IFsrmFileManagementJob.Logging","IFsrmFileManagementJob.get_Logging","IFsrmFileManagementJob::Logging","IFsrmFileManagementJob::get_Logging","IFsrmFileManagementJob::put_Logging","Logging property [File Server Resource Manager]","Logging property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_logging","fsrm.ifsrmfilemanagementjob_logging","fsrmreports/IFsrmFileManagementJob::Logging","fsrmreports/IFsrmFileManagementJob::get_Logging","fsrmreports/IFsrmFileManagementJob::put_Logging","get_Logging"]
 old-location: fsrm\ifsrmfilemanagementjob_logging.htm
 tech.root: fsrm

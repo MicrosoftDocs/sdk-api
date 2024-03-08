@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 title: IXpsOMGlyphsEditor::GetProhibitedCaretStopCount (xpsobjectmodel.h)
-description: Gets the number of prohibited caret stops.
+description: Gets the number of prohibited caret stops. (IXpsOMGlyphsEditor.GetProhibitedCaretStopCount)
 helpviewer_keywords: ["GetProhibitedCaretStopCount","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","GetProhibitedCaretStopCount method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetProhibitedCaretStopCount method","IXpsOMGlyphsEditor.GetProhibitedCaretStopCount","IXpsOMGlyphsEditor::GetProhibitedCaretStopCount","xps.ixpsomglyphseditor_getprohibitedcaretstopcount","xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount"]
 old-location: xps\ixpsomglyphseditor_getprohibitedcaretstopcount.htm
 tech.root: xps
@@ -103,7 +103,7 @@ Each caret stop index corresponds to the scalar values of a UTF-16  <b>UnicodeSt
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

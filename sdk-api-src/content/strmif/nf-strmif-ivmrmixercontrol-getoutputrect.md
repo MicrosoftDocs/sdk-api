@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetOutputRect","GetOutputRect method [DirectShow]","GetOu
 old-location: dshow\ivmrmixercontrol_getoutputrect.htm
 tech.root: dshow
 ms.assetid: da6409b0-161d-4724-b448-e68cb5d1941c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetOutputRect method, IVMRMixerControl.GetOutputRect, IVMRMixerControl::GetOutputRect, IVMRMixerControlGetOutputRect, dshow.ivmrmixercontrol_getoutputrect, strmif/IVMRMixerControl::GetOutputRect
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>GetOutputRect</code> method retrieves the position of this stream's video rectangle within the composition rectangle.
 
 ## -parameters
@@ -61,7 +63,7 @@ Specifies the input stream.
 
 ### -param pRect [out]
 
-Pointer to a [NORMALIZEDRECT](/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that receives the destination rectangle in composition space.
+Pointer to a [NORMALIZEDRECT](/windows/win32/api/strmif/ns-strmif-normalizedrect) structure that receives the destination rectangle in composition space.
 
 ## -returns
 

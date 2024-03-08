@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_NetworkSettings
 title: ITaskSettings::put_NetworkSettings (taskschd.h)
-description: Gets or sets the network settings object that contains a network profile identifier and name.
+description: Gets or sets the network settings object that contains a network profile identifier and name. (Put)
 helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","NetworkSettings property","ITaskSettings.NetworkSettings","ITaskSettings.put_NetworkSettings","ITaskSettings::NetworkSettings","ITaskSettings::get_NetworkSettings","ITaskSettings::put_NetworkSettings","NetworkSettings property [Task Scheduler]","NetworkSettings property [Task Scheduler]","ITaskSettings interface","put_NetworkSettings","taskschd.itasksettings_networksettings","taskschd/ITaskSettings::NetworkSettings","taskschd/ITaskSettings::get_NetworkSettings","taskschd/ITaskSettings::put_NetworkSettings"]
 old-location: taskschd\itasksettings_networksettings.htm
 tech.root: taskschd

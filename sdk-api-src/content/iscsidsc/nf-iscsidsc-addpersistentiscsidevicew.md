@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddPersistentIScsiDeviceW
 title: AddPersistentIScsiDeviceW function (iscsidsc.h)
-description: AddPersistentIscsiDevice function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices.
-helpviewer_keywords: ["AddPersistentIScsiDeviceW","AddPersistentIscsiDevice","AddPersistentIscsiDevice function [iSCSI Discovery Library API]","AddPersistentIscsiDeviceA","AddPersistentIscsiDeviceW","AddPersistentiScsiDevice","iscsidisc.addpersistentiscsidevice","iscsidsc/AddPersistentIscsiDevice","iscsidsc/AddPersistentIscsiDeviceA","iscsidsc/AddPersistentIscsiDeviceW"]
+description: AddPersistentIscsiDevice function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices. (Unicode)
+helpviewer_keywords: ["AddPersistentIScsiDeviceW", "AddPersistentIscsiDevice", "AddPersistentIscsiDevice function [iSCSI Discovery Library API]", "AddPersistentIscsiDeviceW", "AddPersistentiScsiDevice", "iscsidisc.addpersistentiscsidevice", "iscsidsc/AddPersistentIscsiDevice", "iscsidsc/AddPersistentIscsiDeviceW"]
 old-location: iscsidisc\addpersistentiscsidevice.htm
 tech.root: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb

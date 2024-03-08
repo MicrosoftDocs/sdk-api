@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DVertexBuffer9.GetDesc
 title: IDirect3DVertexBuffer9::GetDesc (d3d9.h)
-description: Retrieves a description of the vertex buffer resource.
+description: The IDirect3DVertexBuffer9::GetDesc (d3d9.h) method retrieves a description of the vertex buffer resource.
 helpviewer_keywords: ["757c012d-2bd8-4555-34bc-493f1a96904f","GetDesc","GetDesc method [Direct3D 9]","GetDesc method [Direct3D 9]","IDirect3DVertexBuffer9 interface","IDirect3DVertexBuffer9 interface [Direct3D 9]","GetDesc method","IDirect3DVertexBuffer9.GetDesc","IDirect3DVertexBuffer9::GetDesc","d3d9helper/IDirect3DVertexBuffer9::GetDesc","direct3d9.idirect3dvertexbuffer9__getdesc"]
 old-location: direct3d9\idirect3dvertexbuffer9__getdesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__getdesc.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 757c012d-2bd8-4555-34bc-493f1a96904f, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DVertexBuffer9 interface, IDirect3DVertexBuffer9 interface [Direct3D 9],GetDesc method, IDirect3DVertexBuffer9.GetDesc, IDirect3DVertexBuffer9::GetDesc, d3d9helper/IDirect3DVertexBuffer9::GetDesc, direct3d9.idirect3dvertexbuffer9__getdesc
 req.header: d3d9.h
 req.include-header: D3D9.h

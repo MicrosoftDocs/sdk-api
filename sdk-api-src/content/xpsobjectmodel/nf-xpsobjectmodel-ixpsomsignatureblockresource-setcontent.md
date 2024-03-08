@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.SetContent
 title: IXpsOMSignatureBlockResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMSignatureBlockResource.SetContent)
 helpviewer_keywords: ["IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMSignatureBlockResource.SetContent","IXpsOMSignatureBlockResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMSignatureBlockResource interface","xps.ixpsomsignatureblockresource_setcontent","xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent"]
 old-location: xps\ixpsomsignatureblockresource_setcontent.htm
 tech.root: xps
@@ -82,4 +82,4 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomsig
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

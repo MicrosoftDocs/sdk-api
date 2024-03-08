@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzAuthorizationStore object [Security]","UpdateCache meth
 old-location: security\azauthorizationstore_updatecache.htm
 tech.root: security
 ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzAuthorizationStore object [Security],UpdateCache method, IAzAuthorizationStore interface [Security],UpdateCache method, IAzAuthorizationStore.UpdateCache, IAzAuthorizationStore::UpdateCache, UpdateCache, UpdateCache method [Security], UpdateCache method [Security],AzAuthorizationStore object, UpdateCache method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::UpdateCache, security.azauthorizationstore_updatecache
 req.header: azroles.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # IAzAuthorizationStore::UpdateCache
 
-
 ## -description
 
-The <b>UpdateCache</b> method updates the cache of objects and object attributes to match the underlying policy store.
+The **UpdateCache** method updates the cache of objects and object attributes to match the underlying policy store.
 
 ## -parameters
 
@@ -59,8 +58,18 @@ The <b>UpdateCache</b> method updates the cache of objects and object attributes
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-When the <b>UpdateCache</b> method is called, all changes to the persistent store after the last call to the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method or to the <b>UpdateCache</b> method are incorporated into the cache. Any changes to the cache that have not been submitted using the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method override the changes to the  store.
+When the **UpdateCache** method is called, all changes to the persistent store after the last call to the [Initialize](nf-azroles-iazauthorizationstore-initialize.md) method or to the **UpdateCache** method are incorporated into the cache. Any changes to the cache that have not been submitted using the [Submit](nf-azroles-iazauthorizationstore-submit.md) method override the changes to the store.
 
-Most stores  should be  stable and have  few changes.  Providers are expected to implement this method to efficiently  determine whether   changes have been written  to the physical store since the last update.
+Most stores should be stable and have few changes. Providers are expected to implement this method to efficiently determine whether changes have been written to the physical store since the last update.
+
+## -see-also
+
+[Initialize](nf-azroles-iazauthorizationstore-initialize.md)
+
+[Submit](nf-azroles-iazauthorizationstore-submit.md)

@@ -11,7 +11,7 @@ ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToR
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IXDSToRat</b> interface parses rating information from extended data services (XDS) information in line 21. This interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> (ratings decoder) object. The XDSToRat object is implemented by third parties.
 
 The XDS Codec filter uses this interface. Applications do not use this interface.
@@ -58,7 +60,7 @@ The XDS Codec filter uses this interface. Applications do not use this interface
 
 The <b>IXDSToRat</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXDSToRat</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

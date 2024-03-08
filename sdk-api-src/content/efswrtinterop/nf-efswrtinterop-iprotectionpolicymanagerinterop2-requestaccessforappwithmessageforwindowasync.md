@@ -1,7 +1,7 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync
 title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync (efswrtinterop.h)
-description: Request access to enterprise-protected content for a specific target app.
+description: Request access to enterprise-protected content for a specific target app. (IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync)
 helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync","IProtectionPolicyManagerInterop2 interface","RequestAccessForAppWithMessageForWindowAsync method","IProtectionPolicyManagerInterop2.RequestAccessForAppWithMessageForWindowAsync","IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync","RequestAccessForAppWithMessageForWindowAsync","RequestAccessForAppWithMessageForWindowAsync method","RequestAccessForAppWithMessageForWindowAsync method","IProtectionPolicyManagerInterop2 interface","efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithMessageForWindowAsync"]
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithmessageforwindowasync.htm
 tech.root: EDP

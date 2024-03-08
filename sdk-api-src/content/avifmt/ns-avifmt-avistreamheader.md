@@ -1,12 +1,12 @@
 ---
-UID: NS:avifmt.__unnamed_struct_1
+UID: NS:avifmt.AVIStreamHeader
 title: AVIStreamHeader (avifmt.h)
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 helpviewer_keywords: ["auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","AVIStreamHeader","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader"]
 old-location: dshow\avistreamheader.htm
 tech.root: dshow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 req.header: avifmt.h
 req.include-header: Aviriff.h
 req.target-type: Windows
@@ -45,6 +45,8 @@ api_name:
 ---
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>AVISTREAMHEADER</b> structure contains information about one stream in an AVI file.
 
@@ -191,3 +193,4 @@ The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equival
 <a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+

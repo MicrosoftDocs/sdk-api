@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDP6ROW_OWNER_MODULE
 title: MIB_UDP6ROW_OWNER_MODULE (udpmib.h)
-description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
+description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 helpviewer_keywords: ["*PMIB_UDP6ROW_OWNER_MODULE","MIB_UDP6ROW_OWNER_MODULE","MIB_UDP6ROW_OWNER_MODULE structure [MIB]","PMIB_UDP6ROW_OWNER_MODULE","PMIB_UDP6ROW_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_UDP6ROW_OWNER_MODULE","iprtrmib/PMIB_UDP6ROW_OWNER_MODULE","mib.mib_udp6row_owner_module","udpmib/MIB_UDP6ROW_OWNER_MODULE","udpmib/PMIB_UDP6ROW_OWNER_MODULE"]
 old-location: mib\mib_udp6row_owner_module.htm
 tech.root: MIB
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>MIB_UDP6ROW_OWNER_MODULE</b> structure contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint.
+The <b>MIB_UDP6ROW_OWNER_MODULE</b> structure contains an entry from the User Datagram Protocol (UDP) listener table for IPv6 on the local computer. This entry also includes any available ownership data and the process ID (PID) that issued the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint.
 
 ## -struct-fields
 

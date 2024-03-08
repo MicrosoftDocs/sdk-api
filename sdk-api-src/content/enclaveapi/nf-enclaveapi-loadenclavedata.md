@@ -6,7 +6,7 @@ helpviewer_keywords: ["LoadEnclaveData","LoadEnclaveData function","base.loadenc
 old-location: base\loadenclavedata.htm
 tech.root: base
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
 req.header: enclaveapi.h
 req.include-header: Winbase.h
@@ -50,10 +50,9 @@ api_name:
 
 # LoadEnclaveData function
 
-
 ## -description
 
-Loads data into an  uninitialized enclave that you created by calling <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>.
+Loads data into an  uninitialized enclave that you created by calling [CreateEnclave](nf-enclaveapi-createenclave.md).
 
 ## -parameters
 
@@ -75,81 +74,58 @@ The size of the data that you want to load into the enclave, in bytes. This valu
 
 ### -param flProtect [in]
 
-The memory protection to use for the pages that you want to add to the enclave. For a list of memory protection values, see <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>. This value must not include the following constants:
+The memory protection to use for the pages that you want to add to the enclave. For a list of memory protection values, see [memory protection constants](/windows/win32/Memory/memory-protection-constants). This value must not include the following constants:
 
-<ul>
-<li><b>PAGE_GUARD</b></li>
-<li><b>PAGE_NOCACHE</b></li>
-<li><b>PAGE_WRITECOMBINE</b></li>
-<li><b>PAGE_NOACCESS</b></li>
-</ul>
-This value can include the enclave specific constants that the following table describes.
+- **PAGE_GUARD**
+- **PAGE_NOCACHE**
+- **PAGE_WRITECOMBINE**
+- **PAGE_NOACCESS**
 
-<table>
-<tr>
-<th>Constant</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><b>PAGE_ENCLAVE_THREAD_CONTROL</b></td>
-<td>The page contains a thread control structure (TCS).</td>
-</tr>
-<tr>
-<td><b>PAGE_ENCLAVE_UNVALIDATED</b></td>
-<td>The page contents that you supply are excluded from measurement with the EEXTEND instruction of the Intel Software Guard Extensions programming model.</td>
-</tr>
-</table>
+This value can include the enclave specific constants that the following table describes:
+
+| Constant | Description |
+| --- | --- |
+| **PAGE_ENCLAVE_THREAD_CONTROL** | The page contains a thread control structure (TCS). |
+| **PAGE_ENCLAVE_UNVALIDATED** | The page contents that you supply are excluded from measurement with the EEXTEND instruction of the Intel Software Guard Extensions programming model. |
 
 ### -param lpPageInformation [in]
 
-		A pointer to information that describes the pages that you want to add to the enclave. The <i>lpPageInformation</i> parameter is not used.
+A pointer to information that describes the pages that you want to add to the enclave. The *lpPageInformation* parameter is not used.
 
 ### -param dwInfoLength [in]
 
-The length of the structure that the <i>lpPageInformation</i> parameter points to, in bytes. This value must be 0.
+The length of the structure that the *lpPageInformation* parameter points to, in bytes. This value must be `0`.
 
 ### -param lpNumberOfBytesWritten [out]
 
-A pointer to a variable that receives the number of bytes that <b>LoadEnclaveData</b> copied into the enclave.
+A pointer to a variable that receives the number of bytes that **LoadEnclaveData** copied into the enclave.
 
 ### -param lpEnclaveError [out, optional]
 
-An optional pointer to  a variable that receives an enclave error code that is architecture-specific. The <i>lpEnclaveError</i> parameter is not used.
+An optional pointer to  a variable that receives an enclave error code that is architecture-specific. The *lpEnclaveError* parameter is not used.
 
 ## -returns
 
-If all of the data is loaded into the enclave successfully, the return value is nonzero. Otherwise, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If all of the data is loaded into the enclave successfully, the return value is nonzero. Otherwise, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-For a list of common error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see [System Error Codes](/windows/win32/Debug/system-error-codes). The following error codes also apply for this function.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b><b>ERROR_BAD_LENGTH</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-The value of the <i>dwInfoLength</i> parameter did not match the value expected based on the value specified for the <i>lpPageInformation</i> parameter.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|------|--------|
+| **ERROR_BAD_LENGTH** | The value of the *dwInfoLength* parameter did not match the value expected based on the value specified for the *lpPageInformation* parameter. |
 
 ## -remarks
 
-To initialize the enclave after you load data into the enclave, call <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>.
+To initialize the enclave after you load data into the enclave, call [InitializeEnclave](nf-enclaveapi-initializeenclave.md).
 
-<b>LoadEnclaveData</b> is only supported enclaves that have  the <b>ENCLAVE_TYPE_SGX</b> enclave type.
+**LoadEnclaveData** is only supported enclaves that have the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types.
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
+[CreateEnclave](nf-enclaveapi-createenclave.md)
 
+[InitializeEnclave](nf-enclaveapi-initializeenclave.md)
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
+[Memory protection constants](/windows/win32/Memory/memory-protection-constants)

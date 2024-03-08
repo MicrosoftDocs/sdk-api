@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClipboardFormatNameW
 title: GetClipboardFormatNameW function (winuser.h)
-description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer.
-helpviewer_keywords: ["GetClipboardFormatName","GetClipboardFormatName function [Data Exchange]","GetClipboardFormatNameA","GetClipboardFormatNameW","_win32_GetClipboardFormatName","_win32_getclipboardformatname_cpp","dataxchg.getclipboardformatname","winui._win32_getclipboardformatname","winuser/GetClipboardFormatName","winuser/GetClipboardFormatNameA","winuser/GetClipboardFormatNameW"]
+description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer. (Unicode)
+helpviewer_keywords: ["GetClipboardFormatName", "GetClipboardFormatName function [Data Exchange]", "GetClipboardFormatNameW", "_win32_GetClipboardFormatName", "_win32_getclipboardformatname_cpp", "dataxchg.getclipboardformatname", "winui._win32_getclipboardformatname", "winuser/GetClipboardFormatName", "winuser/GetClipboardFormatNameW"]
 old-location: dataxchg\getclipboardformatname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardformatname.htm

@@ -4,15 +4,15 @@ title: ProcessIdToSessionId function (processthreadsapi.h)
 description: Retrieves the Remote Desktop Services session associated with a specified process.
 helpviewer_keywords: ["ProcessIdToSessionId","ProcessIdToSessionId function [Remote Desktop Services]","_win32_processidtosessionid","processthreadsapi/ProcessIdToSessionId","termserv.processidtosessionid"]
 old-location: termserv\processidtosessionid.htm
-tech.root: TermServ
+tech.root: processthreadsapi
 ms.assetid: 99a3f047-705c-40bc-8cc2-055257a4f2b3
 ms.date: 12/05/2018
 ms.keywords: ProcessIdToSessionId, ProcessIdToSessionId function [Remote Desktop Services], _win32_processidtosessionid, processthreadsapi/ProcessIdToSessionId, termserv.processidtosessionid
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

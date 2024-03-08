@@ -6,7 +6,7 @@ helpviewer_keywords: ["WinHttpSetTimeouts","WinHttpSetTimeouts function [WinHTTP
 old-location: http\winhttpsettimeouts.htm
 tech.root: http
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469
-ms.date: 12/05/2018
+ms.date: 01/11/2024
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
 req.header: winhttp.h
 req.include-header: 
@@ -45,9 +45,6 @@ api_name:
  - WinHttpSetTimeouts
 ---
 
-# WinHttpSetTimeouts function
-
-
 ## -description
 
 The <b>WinHttpSetTimeouts</b> function sets time-outs involved with HTTP transactions.
@@ -61,7 +58,7 @@ The <a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a
 
 ### -param nResolveTimeout [in]
 
-A value of type integer that specifies the time-out value, in milliseconds, to use for name resolution. If resolution takes longer than this time-out value, the action is canceled. The initial value is zero, meaning no time-out (infinite). 
+A value of type integer that specifies the time-out value, in milliseconds, to use for name resolution. If resolution takes longer than this time-out value, then the request is canceled. The initial value is zero, meaning no time-out (infinite). 
 
 <b>Windows Vista and Windows XP:  </b>If DNS timeout is specified using NAME_RESOLUTION_TIMEOUT, there is an overhead of one thread per request.
 

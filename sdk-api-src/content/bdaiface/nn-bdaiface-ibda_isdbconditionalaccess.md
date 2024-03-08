@@ -11,7 +11,7 @@ ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [M
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
 
 For more information, refer to ARIB STD-B25, <i>Conditional Access System Specifications for Digital Broadcasting</i>. (This resource may not be available in some languages 
@@ -60,7 +62,7 @@ and countries.)
 
 The <b>IBDA_ISDBConditionalAccess</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_ISDBConditionalAccess</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

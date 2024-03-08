@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.bind
 title: bind function (winsock.h)
-description: The bind function associates a local address with a socket.
+description: The bind function (winsock.h) associates a local address with a socket. 
 helpviewer_keywords: ["_win32_bind_2","bind","bind function [Winsock]","winsock.bind_2","winsock/bind"]
 old-location: winsock\bind_2.htm
 tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: _win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind
 req.header: winsock.h
 req.include-header: Winsock2.h
@@ -61,7 +61,7 @@ A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> struct
 
 ### -param namelen [in]
 
-The length, in bytes, of the value pointed to by the <i>name</i> parameter.
+The length, in bytes, of the value pointed to by *addr*.
 
 ## -returns
 
@@ -238,7 +238,7 @@ The application can use
 <b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> and <a href="/windows/desktop/WinSock/using-so-reuseaddr-and-so-exclusiveaddruse">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
 <div> </div>
 
-For multicast operations, the preferred method is to call the <b>bind</b> function to associate a socket with a local IP address  and then join the multicast group. Although this order of operations is not mandatory, it is strongly recommended. So a multicast application would first select an IPv4 or IPv6  address on the local computer, the wildcard IPv4 address (<b>INADDR_ANY</b>), or the wildcard IPv6 address (<b>in6addr_any</b>). The the multicast application would then call the <b>bind</b> function with this address in the in the <b>sa_data</b> member of the <i>name</i> parameter to associate the local IP address with the socket. If a wildcard address was specified, then Windows will select the local IP address to use. After the <b>bind</b> function completes, an application would then join the multicast group of interest. For more information on how to join a multicast group, see the section on <a href="/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>. This socket can then be used to receive multicast packets from the multicast group using the <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>, <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, or <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> functions. 
+For multicast operations, the preferred method is to call the <b>bind</b> function to associate a socket with a local IP address  and then join the multicast group. Although this order of operations is not mandatory, it is strongly recommended. So a multicast application would first select an IPv4 or IPv6  address on the local computer, the wildcard IPv4 address (<b>INADDR_ANY</b>), or the wildcard IPv6 address (<b>in6addr_any</b>). The multicast application would then call the <b>bind</b> function with this address in the in the <b>sa_data</b> member of the <i>name</i> parameter to associate the local IP address with the socket. If a wildcard address was specified, then Windows will select the local IP address to use. After the <b>bind</b> function completes, an application would then join the multicast group of interest. For more information on how to join a multicast group, see the section on <a href="/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>. This socket can then be used to receive multicast packets from the multicast group using the <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>, <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, or <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> functions. 
 
 The <b>bind</b> function is not normally required  for send operations to  a multicast group. The <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>,<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>, and  <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> functions implicitly bind the socket to the wildcard address if the socket is not already bound.  The <b>bind</b> function is required before the use of the <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>  or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> functions which do not perform an implicit bind and are allowed only on connected sockets, which means the socket must have already been bound for it to be connected. The <b>bind</b> function might be used before send operations using the <b>sendto</b>,<b>WSASendMsg</b>, or <b>WSASendTo</b> functions if an application wanted to select a specific local  IP address on a local computer with multiple network interfaces and local IP addresses. Otherwise an implicit bind to the wildcard address using the <b>sendto</b>,<b>WSASendMsg</b> , or <b>WSASendTo</b> functions might result in a different local IP address being used for send operations.
 

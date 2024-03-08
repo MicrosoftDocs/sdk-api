@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CallMsgFilterW
 title: CallMsgFilterW function (winuser.h)
-description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks.
-helpviewer_keywords: ["CallMsgFilter","CallMsgFilter function [Windows and Messages]","CallMsgFilterA","CallMsgFilterW","_win32_CallMsgFilter","_win32_callmsgfilter_cpp","winmsg.callmsgfilter","winui._win32_callmsgfilter","winuser/CallMsgFilter","winuser/CallMsgFilterA","winuser/CallMsgFilterW"]
+description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks. (Unicode)
+helpviewer_keywords: ["CallMsgFilter", "CallMsgFilter function [Windows and Messages]", "CallMsgFilterW", "_win32_CallMsgFilter", "_win32_callmsgfilter_cpp", "winmsg.callmsgfilter", "winui._win32_callmsgfilter", "winuser/CallMsgFilter", "winuser/CallMsgFilterW"]
 old-location: winmsg\callmsgfilter.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callmsgfilter.htm
@@ -114,7 +114,7 @@ For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
+<a href="/windows/win32/winmsg/messageproc">MessageProc</a>
 
 
 
@@ -126,4 +126,4 @@ For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER a
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
+<a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a>

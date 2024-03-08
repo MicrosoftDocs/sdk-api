@@ -1,7 +1,7 @@
 ---
 UID: NS:msi.tagMSIPATCHSEQUENCEINFOW
 title: MSIPATCHSEQUENCEINFOW (msi.h)
-description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.
+description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions. (Unicode)
 helpviewer_keywords: ["*PMSIPATCHSEQUENCEINFOW","MSIPATCHSEQUENCEINFO","MSIPATCHSEQUENCEINFO structure","MSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFOW","MSIPATCH_DATATYPE_PATCHFILE","MSIPATCH_DATATYPE_XMLBLOB","MSIPATCH_DATATYPE_XMLPATH","PMSIPATCHSEQUENCEINFO","PMSIPATCHSEQUENCEINFO structure pointer","msi/MSIPATCHSEQUENCEINFO","msi/MSIPATCHSEQUENCEINFOA","msi/MSIPATCHSEQUENCEINFOW","msi/PMSIPATCHSEQUENCEINFO","setup.msipatchsequenceinfo"]
 old-location: setup\msipatchsequenceinfo.htm
 tech.root: setup

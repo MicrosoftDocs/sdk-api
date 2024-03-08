@@ -60,7 +60,7 @@ The <b>BITMAPINFO</b> structure defines the dimensions and color information for
 
 ### -field bmiHeader
 
-A <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
+A <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
 
 .
 
@@ -71,6 +71,9 @@ The <b>bmiColors</b> member contains one of the following:
 <ul>
 <li>An array of <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>. The elements of the array that make up the color table.</li>
 <li>An array of 16-bit unsigned integers that specifies indexes into the currently realized logical palette. This use of <b>bmiColors</b> is allowed for functions that use DIBs. When <b>bmiColors</b> elements contain indexes to a realized logical palette, they must also call the following bitmap functions:
+
+
+
 <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
@@ -86,7 +89,7 @@ The <i>iUsage</i> parameter of <a href="/windows/desktop/api/wingdi/nf-wingdi-cr
 
 </li>
 </ul>
-The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 The colors in the <b>bmiColors</b> table appear in order of importance. For more information, see the Remarks section.
 
@@ -105,7 +108,7 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 ## -see-also
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

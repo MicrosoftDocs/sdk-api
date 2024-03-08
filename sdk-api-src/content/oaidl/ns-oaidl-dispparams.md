@@ -60,6 +60,8 @@ Contains the arguments passed to a method or property.
 
 An array of arguments.
 
+**Note**: these arguments appear in reverse order
+
 ### -field rgdispidNamedArgs
 
 The dispatch IDs of the named arguments.

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CameraControlProperty","CameraControlProperty enumeration
 old-location: dshow\cameracontrolproperty.htm
 tech.root: dshow
 ms.assetid: eebf2246-960f-48ea-86b7-7542e69f2e3e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: CameraControlProperty, CameraControlProperty enumeration [DirectShow], CameraControlPropertyEnumeration, CameraControl_Exposure, CameraControl_Focus, CameraControl_Iris, CameraControl_Pan, CameraControl_Roll, CameraControl_Tilt, CameraControl_Zoom, dshow.cameracontrolproperty, strmif/CameraControlProperty, strmif/CameraControl_Exposure, strmif/CameraControl_Focus, strmif/CameraControl_Iris, strmif/CameraControl_Pan, strmif/CameraControl_Roll, strmif/CameraControl_Tilt, strmif/CameraControl_Zoom
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,11 +52,13 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>CameraControlProperty</code> enumeration specifies a setting on a camera.
 
 ## -enum-fields
 
-### -field CameraControl_Pan
+### -field CameraControl_Pan:0
 
 Specifies the camera's pan setting, in degrees. Values range from –180 to +180, with the default set to zero. Positive values are clockwise from the origin (the camera rotates clockwise when viewed from above), and negative values are counterclockwise from the origin.
 

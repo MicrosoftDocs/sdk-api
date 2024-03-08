@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IDVBTuningSpace
 title: IDVBTuningSpace (tuner.h)
-description: The IDVBTuningSpace interface is implemented on the DVBTuningSpace object.NoteÂ Â New applications should use the IDVBTuningSpace2 interface, which inherits IDVBTuningSpace and adds additional methods.Â .
+description: The IDVBTuningSpace interface is implemented on the DVBTuningSpace object.Note  New applications should use the IDVBTuningSpace2 interface, which inherits IDVBTuningSpace and adds additional methods. .
 helpviewer_keywords: ["IDVBTuningSpace","IDVBTuningSpace interface [Microsoft TV Technologies]","IDVBTuningSpace interface [Microsoft TV Technologies]","described","IDVBTuningSpaceInterface","mstv.idvbtuningspace","tuner/IDVBTuningSpace"]
 old-location: mstv\idvbtuningspace.htm
 tech.root: mstv
@@ -11,7 +11,7 @@ ms.keywords: IDVBTuningSpace, IDVBTuningSpace interface [Microsoft TV Technologi
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,16 +50,18 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IDVBTuningSpace</b> interface is implemented on the DVBTuningSpace object.
 
-<div class="alert"><b>Note</b>Â Â New applications should use the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a> interface, which inherits <b>IDVBTuningSpace</b> and adds additional methods.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  New applications should use the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace2">IDVBTuningSpace2</a> interface, which inherits <b>IDVBTuningSpace</b> and adds additional methods.</div>
+<div> </div>
 
 ## -inheritance
 
 The <b>IDVBTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IDVBTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

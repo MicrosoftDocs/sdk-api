@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSStartRemoteControlSessionA
 title: WTSStartRemoteControlSessionA function (wtsapi32.h)
-description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
-helpviewer_keywords: ["REMOTECONTROL_KBDALT_HOTKEY","REMOTECONTROL_KBDCTRL_HOTKEY","REMOTECONTROL_KBDSHIFT_HOTKEY","WTSStartRemoteControlSession","WTSStartRemoteControlSession function [Remote Desktop Services]","WTSStartRemoteControlSessionA","WTSStartRemoteControlSessionW","termserv.wtsstartremotecontrolsession","wtsapi32/WTSStartRemoteControlSession","wtsapi32/WTSStartRemoteControlSessionA","wtsapi32/WTSStartRemoteControlSessionW"]
+description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session. (ANSI)
+helpviewer_keywords: ["REMOTECONTROL_KBDALT_HOTKEY", "REMOTECONTROL_KBDCTRL_HOTKEY", "REMOTECONTROL_KBDSHIFT_HOTKEY", "WTSStartRemoteControlSessionA", "wtsapi32/WTSStartRemoteControlSessionA"]
 old-location: termserv\wtsstartremotecontrolsession.htm
 tech.root: TermServ
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb

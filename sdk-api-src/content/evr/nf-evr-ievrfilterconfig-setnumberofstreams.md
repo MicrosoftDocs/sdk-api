@@ -4,7 +4,7 @@ title: IEVRFilterConfig::SetNumberOfStreams (evr.h)
 description: Sets the number of input pins on the EVR filter.
 helpviewer_keywords: ["72777c3d-b098-43b9-80ea-ef180b7f1a4a","IEVRFilterConfig interface [Media Foundation]","SetNumberOfStreams method","IEVRFilterConfig.SetNumberOfStreams","IEVRFilterConfig::SetNumberOfStreams","SetNumberOfStreams","SetNumberOfStreams method [Media Foundation]","SetNumberOfStreams method [Media Foundation]","IEVRFilterConfig interface","evr/IEVRFilterConfig::SetNumberOfStreams","mf.ievrfilterconfig_setnumberofstreams"]
 old-location: mf\ievrfilterconfig_setnumberofstreams.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 72777c3d-b098-43b9-80ea-ef180b7f1a4a
 ms.date: 12/05/2018
 ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig interface [Media Foundation],SetNumberOfStreams method, IEVRFilterConfig.SetNumberOfStreams, IEVRFilterConfig::SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [Media Foundation], SetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, evr/IEVRFilterConfig::SetNumberOfStreams, mf.ievrfilterconfig_setnumberofstreams
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IEVRFilterConfig.SetNumberOfStreams
+archived: true
 ---
 
 # IEVRFilterConfig::SetNumberOfStreams
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the number of input pins on the EVR filter.
 

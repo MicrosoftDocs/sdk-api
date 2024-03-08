@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetNumber
 title: MI_DestinationOptions_GetNumber function (mi.h)
-description: Gets a previously added custom number option.
+description: Gets a previously added custom number option. (MI_DestinationOptions_GetNumber)
 helpviewer_keywords: ["MI_DestinationOptions_GetNumber","MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetNumber","wmi_v2.mi_destinationoptions_getnumber"]
 old-location: wmi_v2\mi_destinationoptions_getnumber.htm
 tech.root: wmi_v2

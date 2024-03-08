@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(XMINT4&&)
 title: XMINT4::XMINT4(XMINT4 &&) (directxmath.h)
-description: A constructor for XMINT4.
+description: A constructor for XMINT4. (overload 2/2)
 helpviewer_keywords: ["XMINT4","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 structure","XMINT4 structure [DirectX Math Support APIs]","XMINT4 constructor","XMINT4.XMINT4","XMINT4.XMINT4()","XMINT4.XMINT4(XMINT4 &&)","XMINT4::XMINT4","XMINT4::XMINT4(XMINT4 &&)","dxmath.xmint4_ctor_1"]
 old-location: 
 tech.root: dxmath

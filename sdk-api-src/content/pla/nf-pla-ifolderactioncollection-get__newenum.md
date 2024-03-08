@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderActionCollection.get__NewEnum
 title: IFolderActionCollection::get__NewEnum (pla.h)
-description: Retrieves an interface to the enumeration.
+description: Retrieves an interface to the enumeration. (IFolderActionCollection.get__NewEnum)
 helpviewer_keywords: ["IFolderActionCollection interface [PLA]","_NewEnum property","IFolderActionCollection._NewEnum","IFolderActionCollection.get__NewEnum","IFolderActionCollection::_NewEnum","IFolderActionCollection::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","IFolderActionCollection interface","base.ifolderactioncollection__newenum","get__NewEnum","pla.ifolderactioncollection__newenum","pla/IFolderActionCollection::_NewEnum","pla/IFolderActionCollection::get__NewEnum"]
 old-location: pla\ifolderactioncollection__newenum.htm
 tech.root: PLA

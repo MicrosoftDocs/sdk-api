@@ -4,7 +4,7 @@ title: Audioapotypes.h header
 ms.assetid: 6bbb14de-2081-3655-81a7-3f79b8b1a5ae
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: termserv
 f1_keywords:
  - audioapotypes

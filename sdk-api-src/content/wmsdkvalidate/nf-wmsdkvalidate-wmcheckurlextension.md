@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMCheckURLExtension","WMCheckURLExtension function [windo
 old-location: wmformat\wmcheckurlextension.htm
 tech.root: wmformat
 ms.assetid: f001d9e7-ccbd-4dc9-bb4b-fe45cb47700c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMCheckURLExtension</b> function examines the file name extension in the URL or file name that is passed in as an argument. The extension is compared to a list of supported file types in an attempt to determine whether the file can be opened by the objects of this SDK.
 

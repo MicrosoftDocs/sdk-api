@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpSendRequest
 title: WinHttpSendRequest function (winhttp.h)
-description: Sends the specified request to the HTTP server.
+description: Sends the specified request to the HTTP server. (WinHttpSendRequest)
 helpviewer_keywords: ["WinHttpSendRequest","WinHttpSendRequest function [WinHTTP]","http.winhttpsendrequest","winhttp.winhttpsendrequest_function","winhttp/WinHttpSendRequest"]
 old-location: http\winhttpsendrequest.htm
 tech.root: http

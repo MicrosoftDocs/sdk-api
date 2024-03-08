@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.put_Name
 title: IFsrmPropertyCondition::put_Name (fsrmreports.h)
-description: The name of the classification property whose value you want to compare to the property condition's value.
+description: The name of the classification property whose value you want to compare to the property condition's value. (Put)
 helpviewer_keywords: ["IFsrmPropertyCondition interface [File Server Resource Manager]","Name property","IFsrmPropertyCondition.Name","IFsrmPropertyCondition.put_Name","IFsrmPropertyCondition::Name","IFsrmPropertyCondition::get_Name","IFsrmPropertyCondition::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmPropertyCondition interface","fs.ifsrmpropertycondition_name","fsrm.ifsrmpropertycondition_name","fsrmreports/IFsrmPropertyCondition::Name","fsrmreports/IFsrmPropertyCondition::get_Name","fsrmreports/IFsrmPropertyCondition::put_Name","put_Name"]
 old-location: fsrm\ifsrmpropertycondition_name.htm
 tech.root: fsrm

@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IEnumRegFilters
 title: IEnumRegFilters (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IEnumRegFilters)
 helpviewer_keywords: ["IEnumRegFilters","IEnumRegFilters interface [DirectShow]","IEnumRegFilters interface [DirectShow]","described","IEnumRegFiltersInterface","dshow.ienumregfilters","strmif/IEnumRegFilters"]
 old-location: dshow\ienumregfilters.htm
 tech.root: dshow
 ms.assetid: 59cb809d-84f5-42c4-a385-0f586af4d048
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
 req.header: strmif.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  This interface has been deprecated. New applications should call <a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">IFilterMapper2::EnumMatchingFilters</a>, which enumerates monikers and returns a pointer to the <b>IEnumMoniker</b> interface.</div>
 <div> </div>

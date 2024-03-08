@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPStreamingType","WMPStreamingType enumeration [Windows 
 old-location: wmp\wmpstreamingtype.htm
 tech.root: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
 req.header: contentpartner.h
 req.include-header: 
@@ -50,25 +50,27 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>WMPStreamingType</b> enumeration specifies the type of streaming media.
 
 ## -enum-fields
 
-### -field wmpstUnknown
+### -field wmpstUnknown:0
 
 Unknown type.
 
-### -field wmpstMusic
+### -field wmpstMusic:1
 
 The plug-in must return a URL for music content.
 
-### -field wmpstVideo
+### -field wmpstVideo:2
 
 The plug-in must return a URL for video content.
 
-### -field wmpstRadio
+### -field wmpstRadio:3
 
 The plug-in must return a URL for radio content.
 

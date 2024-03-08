@@ -27,10 +27,12 @@
     "ktmtypes.h",
     "lmshare.h",
     "lmstats.h",
+    "nvme.h",
     "wow64apiset.h",
     "fileapifromapp.h",
     "ioringapi.h",
-    "ntioring_x.h"
+    "ntioring_x.h",
+    "bindlink.h"
   ],
   "displayName": "Data Access and Storage"
 }

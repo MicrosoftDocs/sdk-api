@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushEmptyStorageFilter
 title: ID3D12InfoQueue::PushEmptyStorageFilter (d3d12sdklayers.h)
-description: Push an empty storage filter onto the storage-filter stack.
+description: Push an empty storage filter onto the storage-filter stack. (ID3D12InfoQueue.PushEmptyStorageFilter)
 helpviewer_keywords: ["ID3D12InfoQueue interface","PushEmptyStorageFilter method","ID3D12InfoQueue.PushEmptyStorageFilter","ID3D12InfoQueue::PushEmptyStorageFilter","PushEmptyStorageFilter","PushEmptyStorageFilter method","PushEmptyStorageFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter","direct3d12.id3d12infoqueue_pushemptystoragefilter"]
 old-location: direct3d12\id3d12infoqueue_pushemptystoragefilter.htm
 tech.root: direct3d12

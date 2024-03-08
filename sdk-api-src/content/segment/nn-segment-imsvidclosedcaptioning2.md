@@ -11,7 +11,7 @@ ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microso
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IMSVidClosedCaptioning2</b> interface sets the closed captioning service, such as CC1 or CC2. The <a href="/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
 
 ## -inheritance
 
 The <b>IMSVidClosedCaptioning2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>. <b>IMSVidClosedCaptioning2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryHints
 title: IVdsLun::QueryHints (vdshwprv.h)
-description: Returns the hints currently applied to the LUN.
+description: The IVdsLun::QueryHints (vdshwprv.h) method returns the hints currently applied to the LUN.
 helpviewer_keywords: ["IVdsLun interface [VDS]","QueryHints method","IVdsLun.QueryHints","IVdsLun::QueryHints","QueryHints","QueryHints method [VDS]","QueryHints method [VDS]","IVdsLun interface","base.ivdslun_queryhints","vds/IVdsLun::QueryHints","vdshwprv/IVdsLun::QueryHints"]
 old-location: base\ivdslun_queryhints.htm
 tech.root: base
 ms.assetid: 6cdbbf17-fcee-4cd4-bf5c-d994886262da
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the hints 
    currently applied to the LUN.

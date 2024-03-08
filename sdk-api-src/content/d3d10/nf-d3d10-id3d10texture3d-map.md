@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Texture3D.Map
 title: ID3D10Texture3D::Map (d3d10.h)
-description: Get a pointer to the data contained in a subresource, and deny GPU access to that subresource.
+description: Get a pointer to the data contained in a subresource, and deny GPU access to that subresource. (ID3D10Texture3D.Map)
 helpviewer_keywords: ["0a753acc-a6b4-f192-8a52-1069da27bbff","ID3D10Texture3D interface [Direct3D 10]","Map method","ID3D10Texture3D.Map","ID3D10Texture3D::Map","Map","Map method [Direct3D 10]","Map method [Direct3D 10]","ID3D10Texture3D interface","d3d10/ID3D10Texture3D::Map","direct3d10.id3d10texture3d_map"]
 old-location: direct3d10\id3d10texture3d_map.htm
 tech.root: direct3d10

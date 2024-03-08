@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetVersionExA
 title: GetVersionExA function (sysinfoapi.h)
-description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
-helpviewer_keywords: ["GetVersionEx","GetVersionEx function","GetVersionExA","GetVersionExW","_win32_getversionex","base.getversionex","sysinfoapi/GetVersionEx","sysinfoapi/GetVersionExA","sysinfoapi/GetVersionExW"]
+description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested. (ANSI)
+helpviewer_keywords: ["GetVersionExA", "sysinfoapi/GetVersionExA"]
 old-location: base\getversionex.htm
 tech.root: winprog
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
@@ -72,7 +72,7 @@ Applications not manifested for Windows 8.1 or Windows 10 will return the Wind
 ### -param lpVersionInformation [in, out]
 
 An 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a> or <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure that receives the operating system information. 
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFOA</a> or <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEXA</a> structure that receives the operating system information. 
 
 
 
@@ -86,8 +86,8 @@ If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function fails if you specify an invalid value for the <b>dwOSVersionInfoSize</b> member of the 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a> or 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFOA</a> or 
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEXA</a> structure.
 
 ## -remarks
 
@@ -181,11 +181,11 @@ For an example that identifies the current operating system, see
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFOA</a>
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEXA</a>
 
 
 

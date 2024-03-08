@@ -11,7 +11,7 @@ ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_Sup
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,17 +50,19 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>get_SupportedVideoFormats</b> method retrieves the video formats that are supported by the demodulator.
 
 ## -parameters
 
 ### -param pulAMTunerModeType [out]
 
-Pointer to a variable that receives a mask that indicates the frequency ranges that are supported by the BDA device filter. For a list of valid mask bits, see <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-amtunermodetype">AMTunerModeType Enumeration</a>.
+Pointer to a variable that receives a mask that indicates the frequency ranges that are supported by the BDA device filter. For a list of valid mask bits, see <a href="/previous-versions/ms778981(v=vs.85)">AMTunerModeType Enumeration</a>.
 
 ### -param pulAnalogVideoStandard [out]
 
-Pointer to a variable that receives a mask that indicates the analog television signal formats that are supported by the BDA device filter. For a list of valid mask bits, see <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard Enumeration</a>.
+Pointer to a variable that receives a mask that indicates the analog television signal formats that are supported by the BDA device filter. For a list of valid mask bits, see <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard Enumeration</a>.
 
 ## -returns
 

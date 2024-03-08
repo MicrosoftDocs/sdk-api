@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpCA
 title: StrCmpCA function (shlwapi.h)
-description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
-helpviewer_keywords: ["StrCmpC","StrCmpC function [Windows Shell]","StrCmpCA","StrCmpCW","_shell_StrCmpC","shell.StrCmpC","shlwapi/StrCmpC","shlwapi/StrCmpCA","shlwapi/StrCmpCW"]
+description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive. (ANSI)
+helpviewer_keywords: ["StrCmpCA", "shlwapi/StrCmpCA"]
 old-location: shell\StrCmpC.htm
 tech.root: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
@@ -63,13 +63,13 @@ Compares strings using C run-time (ASCII) collation rules. The comparison is cas
 
 ### -param pszStr1 [out]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 A pointer to the first null-terminated string to be compared.
 
 ### -param pszStr2 [out]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 A pointer to the second null-terminated string to be compared.
 

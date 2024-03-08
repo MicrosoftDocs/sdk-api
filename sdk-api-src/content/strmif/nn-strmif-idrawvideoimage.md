@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.IDrawVideoImage
 title: IDrawVideoImage (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IDrawVideoImage)
 helpviewer_keywords: ["IDrawVideoImage","IDrawVideoImage interface [DirectShow]","IDrawVideoImage interface [DirectShow]","described","IDrawVideoImageInterface","dshow.idrawvideoimage","strmif/IDrawVideoImage"]
 old-location: dshow\idrawvideoimage.htm
 tech.root: dshow
 ms.assetid: ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideoImage interface [DirectShow],described, IDrawVideoImageInterface, dshow.idrawvideoimage, strmif/IDrawVideoImage
 req.header: strmif.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  This interface has been deprecated. New applications should not use it.</div>
 <div> </div>

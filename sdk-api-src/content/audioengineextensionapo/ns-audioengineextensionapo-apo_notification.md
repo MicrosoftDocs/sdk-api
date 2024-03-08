@@ -50,19 +50,38 @@ A value from the [APO_NOTIFICATION_TYPE](ne-audioengineextensionapo-apo_notifica
 
 ### -field DUMMYUNIONNAME.audioEndpointVolumeChange
 
-An [AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_endpoint_volume_change_notification.md) representing a notification of a change to APO endpoint volume.
+When *type* is APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME, the union value is an [AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_endpoint_volume_change_notification.md) representing a notification of a change to APO endpoint volume.
 
 ### -field DUMMYUNIONNAME.audioEndpointPropertyChange
 
-An [AUDIO_ENDPOINT_PROPERTY_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_endpoint_property_change_notification.md) representing a notification of a change to an APO endpoint property.
+When *type* is APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE, the union value is an  [AUDIO_ENDPOINT_PROPERTY_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_endpoint_property_change_notification.md) representing a notification of a change to an APO endpoint property.
 
 ### -field DUMMYUNIONNAME.audioSystemEffectsPropertyChange
 
-An [AUDIO_SYSTEMEFFECTS_PROPERTY_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_systemeffects_property_change_notification.md) representing a notification of a change to an APO system effect property.
+When *type* is APO_NOTIFICATION_TYPE_ENDPOINT_PROPERTY_CHANGE, the union value is an   [AUDIO_SYSTEMEFFECTS_PROPERTY_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_systemeffects_property_change_notification.md) representing a notification of a change to an APO system effect property.
+
+### -field DUMMYUNIONNAME.audioEndpointVolumeChange2
+
+When *type* is APO_NOTIFICATION_TYPE_ENDPOINT_VOLUME2, the union value is an   [AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION2](ns-audioengineextensionapo-audio_endpoint_volume_change_notification2.md) representing a notification of a change to APO endpoint volume that includes master and channel volume, in dB.
+
+### -field DUMMYUNIONNAME.deviceOrientation
+
+When *type* is APO_NOTIFICATION_TYPE_DEVICE_ORIENTATION, the union value is a [DEVICE_ORIENTATION_TYPE](ne-audioengineextensionapo-device_orientation_type.md) representing a device orientation value.
+
+### -field DUMMYUNIONNAME.audioMicrophoneBoostChange
+
+When *type* is APO_NOTIFICATION_TYPE_MICROPHONE_BOOST, the union value is a [AUDIO_MICROPHONE_BOOST_NOTIFICATION](ns-audioengineextensionapo-audio_microphone_boost_apo_notification_descriptor.md) representing an endpoint microphone boost APO notification.
+
+### -field DUMMYUNIONNAME.audioEnvironmentChange
+
+When *type* is APO_NOTIFICATION_TYPE_AUDIO_ENVIRONMENT_STATE_CHANGE, the union value is a [AUDIO_ENVIRONMENT_STATE_CHANGE_NOTIFICATION](ns-audioengineextensionapo-audio_environment_state_change_notification.md) representing an audio environment change APO notification.
 
 ## -remarks
 
 Register for the types of notifications you want to receive by implementing [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](nf-audioengineextensionapo-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md). Receive the registered notifications by implementing [IAudioProcessingObjectNotifications::HandleNotification](nf-audioengineextensionapo-iaudioprocessingobjectnotifications-handlenotification.md).
+
+
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 
 ## -see-also
 

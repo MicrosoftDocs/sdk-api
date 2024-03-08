@@ -55,11 +55,11 @@ The <b>Bitmap::InitializePalette</b> method initializes a standard, optimal, or 
 
 ## -parameters
 
-### -param palette [out]
+### -param palette [in, out]
 
 Type: <b><a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a>*</b>
 
-Pointer to a buffer that contains a <a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a> structure followed by an array of <b>ARGB</b> values. The <b>Entries</b> member of a <b>ColorPalette</b> structure is an array of one <b>ARGB</b> value. You must allocate memory for the <b>ColorPalette</b> structure and for the additional <b>ARGB</b> values in the palette. For example, if the palette has 36 <b>ARGB</b> values, allocate a buffer as follows: <code>malloc(sizeof(ColorPalette) + 35*sizeof(ARGB))</code>.
+Pointer to a buffer that contains a <a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a> structure followed by an array of <b>ARGB</b> values. You must set the <b>Flags</b> and <b>Count</b> members of the <b>ColorPalette</b> structure. The <b>Entries</b> member of a <b>ColorPalette</b> structure is an array of one <b>ARGB</b> value. You must allocate memory for the <b>ColorPalette</b> structure and for the additional <b>ARGB</b> values in the palette. For example, if the palette has 36 <b>ARGB</b> values, allocate a buffer as follows: <code>malloc(sizeof(ColorPalette) + 35*sizeof(ARGB))</code>.
 
 ### -param palettetype [in]
 

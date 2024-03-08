@@ -1,7 +1,7 @@
 ---
 UID: NS:icm.tagENUMTYPEA
 title: ENUMTYPEA
-description: Contains information that defines the profile enumeration constraints.
+description: Contains information that defines the profile enumeration constraints. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

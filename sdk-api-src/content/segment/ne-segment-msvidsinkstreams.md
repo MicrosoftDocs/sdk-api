@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
@@ -59,11 +61,11 @@ The <b>MSVidSinkStreams</b> enumeration defines the stream types for a generic s
 
 ## -enum-fields
 
-### -field MSVidSink_Video
+### -field MSVidSink_Video:1
 
-### -field MSVidSink_Audio
+### -field MSVidSink_Audio:2
 
-### -field MSVidSink_Other
+### -field MSVidSink_Other:4
 
 #### - Audio
 

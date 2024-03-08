@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_NET_EVENT_CALLBACK0
 title: FWPM_NET_EVENT_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the net event subscription process.
+description: Is used to add custom behavior to the net event subscription process. (FWPM_NET_EVENT_CALLBACK0)
 helpviewer_keywords: ["FWPM_NET_EVENT_CALLBACK0","FWPM_NET_EVENT_CALLBACK0 callback","FWPM_NET_EVENT_CALLBACK0 callback function [Filtering]","fwp.fwpm_net_event_callback0_func","fwpmu/FWPM_NET_EVENT_CALLBACK0"]
 old-location: fwp\fwpm_net_event_callback0_func.htm
 tech.root: fwp

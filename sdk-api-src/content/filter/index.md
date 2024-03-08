@@ -4,7 +4,7 @@ title: Filter.h header
 ms.assetid: 36c4774d-6d67-38f1-b4e4-5888f68fe2b7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: indexsrv
 f1_keywords:
  - filter
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Indexing Service. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Indexing Service](../_indexsrv/index.md)
+- [Windows Search](../_search/index.md)
 

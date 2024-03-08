@@ -4,12 +4,12 @@ title: GetCurrentThreadId function (processthreadsapi.h)
 description: Retrieves the thread identifier of the calling thread.
 helpviewer_keywords: ["GetCurrentThreadId","GetCurrentThreadId function","_win32_getcurrentthreadid","base.getcurrentthreadid","processthreadsapi/GetCurrentThreadId","winbase/GetCurrentThreadId"]
 old-location: base\getcurrentthreadid.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: a496f61a-e027-44e7-8b22-4f6651d7afb2
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: GetCurrentThreadId, GetCurrentThreadId function, _win32_getcurrentthreadid, base.getcurrentthreadid, processthreadsapi/GetCurrentThreadId, winbase/GetCurrentThreadId
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -55,12 +55,9 @@ api_name:
 
 # GetCurrentThreadId function
 
-
 ## -description
 
 Retrieves the thread identifier of the calling thread.
-
-
 
 ## -returns
 
@@ -70,26 +67,18 @@ The return value is the thread identifier of the calling thread.
 
 Until the thread terminates, the thread identifier uniquely identifies the thread throughout the system.
 
-
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/win32/ProcThread/using-thread-local-storage">Using Thread Local Storage</a>.
 
 ## -see-also
 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a>
+[GetCurrentThread](nf-processthreadsapi-getcurrentthread.md)
 
+[OpenThread](nf-processthreadsapi-openthread.md)
 
+[Process and Thread Functions](/windows/win32/ProcThread/process-and-thread-functions)
 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
+[Threads](/windows/win32/ProcThread/multiple-threads)
 
-
-
-<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
-
-
-<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

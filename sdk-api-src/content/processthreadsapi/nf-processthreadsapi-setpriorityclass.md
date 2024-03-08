@@ -4,12 +4,12 @@ title: SetPriorityClass function (processthreadsapi.h)
 description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
 helpviewer_keywords: ["ABOVE_NORMAL_PRIORITY_CLASS","BELOW_NORMAL_PRIORITY_CLASS","HIGH_PRIORITY_CLASS","IDLE_PRIORITY_CLASS","NORMAL_PRIORITY_CLASS","PROCESS_MODE_BACKGROUND_BEGIN","PROCESS_MODE_BACKGROUND_END","REALTIME_PRIORITY_CLASS","SetPriorityClass","SetPriorityClass function","_win32_setpriorityclass","base.setpriorityclass","processthreadsapi/SetPriorityClass","winbase/SetPriorityClass"]
 old-location: base\setpriorityclass.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084
 ms.date: 12/05/2018
 ms.keywords: ABOVE_NORMAL_PRIORITY_CLASS, BELOW_NORMAL_PRIORITY_CLASS, HIGH_PRIORITY_CLASS, IDLE_PRIORITY_CLASS, NORMAL_PRIORITY_CLASS, PROCESS_MODE_BACKGROUND_BEGIN, PROCESS_MODE_BACKGROUND_END, REALTIME_PRIORITY_CLASS, SetPriorityClass, SetPriorityClass function, _win32_setpriorityclass, base.setpriorityclass, processthreadsapi/SetPriorityClass, winbase/SetPriorityClass
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

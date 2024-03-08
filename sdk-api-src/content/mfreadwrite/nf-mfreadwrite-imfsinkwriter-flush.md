@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Flush
 title: IMFSinkWriter::Flush (mfreadwrite.h)
-description: Flushes one or more streams.
+description: Flushes one or more streams. (IMFSinkWriter.Flush)
 helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFSinkWriter interface","IMFSinkWriter interface [Media Foundation]","Flush method","IMFSinkWriter.Flush","IMFSinkWriter::Flush","mf.imfsinkwriter_flush","mfreadwrite/IMFSinkWriter::Flush"]
 old-location: mf\imfsinkwriter_flush.htm
 tech.root: mf

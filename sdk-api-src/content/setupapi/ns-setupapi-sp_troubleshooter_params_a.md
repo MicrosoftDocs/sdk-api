@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_TROUBLESHOOTER_PARAMS_A
 title: SP_TROUBLESHOOTER_PARAMS_A (setupapi.h)
-description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request.
+description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request. (ANSI)
 helpviewer_keywords: ["*PSP_TROUBLESHOOTER_PARAMS_A","PSP_TROUBLESHOOTER_PARAMS","PSP_TROUBLESHOOTER_PARAMS structure pointer [Device and Driver Installation]","SP_TROUBLESHOOTER_PARAMS","SP_TROUBLESHOOTER_PARAMS structure [Device and Driver Installation]","SP_TROUBLESHOOTER_PARAMS_A","devinst.sp_troubleshooter_params","di-struct_7bddca54-bae0-4d79-82d3-3663f8066f09.xml","setupapi/PSP_TROUBLESHOOTER_PARAMS","setupapi/SP_TROUBLESHOOTER_PARAMS"]
 old-location: devinst\sp_troubleshooter_params.htm
 tech.root: devinst

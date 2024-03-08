@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv4StringToAddressW
 title: RtlIpv4StringToAddressW function (ip2string.h)
-description: Converts a string representation of an IPv4 address to a binary IPv4 address.
-helpviewer_keywords: ["RtlIpv4StringToAddress","RtlIpv4StringToAddress function [IP Helper]","RtlIpv4StringToAddressA","RtlIpv4StringToAddressW","ip2string/RtlIpv4StringToAddress","ip2string/RtlIpv4StringToAddressA","ip2string/RtlIpv4StringToAddressW","iphlp.rtlipv4stringtoaddress"]
+description: Converts a string representation of an IPv4 address to a binary IPv4 address. (Unicode)
+helpviewer_keywords: ["RtlIpv4StringToAddress", "RtlIpv4StringToAddress function [IP Helper]", "RtlIpv4StringToAddressW", "ip2string/RtlIpv4StringToAddress", "ip2string/RtlIpv4StringToAddressW", "iphlp.rtlipv4stringtoaddress"]
 old-location: iphlp\rtlipv4stringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 79896c13-a671-423e-975e-98a4ccfa1eb8
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

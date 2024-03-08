@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzOperation object [Security]","Submit method","IAzOperat
 old-location: security\iazoperation_submit.htm
 tech.root: security
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzOperation object [Security],Submit method, IAzOperation interface [Security],Submit method, IAzOperation.Submit, IAzOperation::Submit, Submit, Submit method [Security], Submit method [Security],AzOperation object, Submit method [Security],IAzOperation interface, azroles/IAzOperation::Submit, security.iazoperation_submit
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzOperation::Submit
 
-
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object.
+The **Submit** method persists changes made to the [IAzOperation](nn-azroles-iazoperation.md) object.
 
 ## -parameters
 
 ### -param lFlags [in, optional]
 
-Flags that modify the behavior of the <b>Submit</b> method. The default value is zero. If the AZ_SUBMIT_FLAG_ABORT flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
+Flags that modify the behavior of the **Submit** method. The default value is zero. If the **AZ_SUBMIT_FLAG_ABORT** flag is specified, the changes to the object are discarded and the object is updated to match the underlying policy store.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object are not persisted until the <b>Submit</b> method is called.
+Any additions or modifications to an [IAzOperation](nn-azroles-iazoperation.md) object are not persisted until the **Submit** method is called.
+
+## -see-also
+
+[IAzOperation](nn-azroles-iazoperation.md)

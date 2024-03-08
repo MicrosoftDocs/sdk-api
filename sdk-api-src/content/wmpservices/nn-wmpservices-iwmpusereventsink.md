@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPUserEventSink","IWMPUserEventSink interface [Windows 
 old-location: wmp\iwmpusereventsink.htm
 tech.root: WMP
 ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
 req.header: wmpservices.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPUserEventSink</b> interface receives event notifications from a custom video presenter. An application that embeds the Windows Media Player control, and provides a custom video presenter, can implement the <b>IWMPUserEventSink</b> interface.
 
 The Windows Media Player control retrieves a pointer to the application's <b>IWMPUserEventSink</b> interface by calling <b>IServiceProvider::QueryService</b>, passing __uuidof(IWMPUserEventSink) in the <i>riid</i> parameter. Therefore, an application that implements the <b>IWMPUserEventSink</b> interface must also implement the <b>IServiceProvider</b> interface.
@@ -58,7 +60,7 @@ The Windows Media Player control retrieves a pointer to the application's <b>IWM
 
 The <b>IWMPUserEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPUserEventSink</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

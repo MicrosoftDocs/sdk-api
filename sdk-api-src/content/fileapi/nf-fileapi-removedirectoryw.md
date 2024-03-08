@@ -1,12 +1,12 @@
 ---
 UID: NF:fileapi.RemoveDirectoryW
 title: RemoveDirectoryW function (fileapi.h)
-description: Deletes an existing empty directory.
-helpviewer_keywords: ["RemoveDirectory","RemoveDirectory function [Files]","RemoveDirectoryA","RemoveDirectoryW","_win32_removedirectory","base.removedirectory","fileapi/RemoveDirectory","fileapi/RemoveDirectoryA","fileapi/RemoveDirectoryW","fs.removedirectory","winbase/RemoveDirectory","winbase/RemoveDirectoryA","winbase/RemoveDirectoryW"]
+description: Deletes an existing empty directory. (Unicode)
+helpviewer_keywords: ["RemoveDirectory", "RemoveDirectory function [Files]", "RemoveDirectoryW", "_win32_removedirectory", "base.removedirectory", "fileapi/RemoveDirectory", "fileapi/RemoveDirectoryW", "fs.removedirectory"]
 old-location: fs\removedirectory.htm
 tech.root: fs
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
-ms.date: 12/05/2018
+ms.date: 12/15/2023
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -56,128 +56,58 @@ api_name:
 
 # RemoveDirectoryW function
 
-
 ## -description
 
 Deletes an existing empty directory.
 
-To perform this operation as a transacted operation, use the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a> function.
+To perform this operation as a transacted operation, use the [RemoveDirectoryTransacted](/windows/win32/api/winbase/nf-winbase-removedirectorytransactedw) function.
 
 ## -parameters
 
 ### -param lpPathName [in]
 
-The path of the directory to be removed. This path must specify an empty directory, and the calling process 
-       must have delete access to the directory.
+The path of the directory to be removed. This path must specify an empty directory, and the calling process must have delete access to the directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>RemoveDirectoryW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
-The <b>RemoveDirectory</b> function marks a directory for 
-    deletion on close. Therefore, the directory is not removed until the last handle to the directory is closed.
+The **RemoveDirectory** function marks a directory for deletion on close. Therefore, the directory is not removed until the last handle to the directory is closed.
 
-To recursively delete the files in a directory, use the 
-    <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
+To recursively delete the files in a directory, use the [SHFileOperation](/windows/win32/api/shellapi/nf-shellapi-shfileoperationw) function.
 
-<b>RemoveDirectory</b> removes a directory junction, even 
-    if the contents of the target are not empty; the function removes directory junctions regardless of the state of 
-    the target object. For more information on junctions, see 
-    <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
+**RemoveDirectory** can be used to remove a directory junction. Since the target directory and its contents will remain accessible through its canonical path, the target directory itself is not affected by removing a junction which targets it. For this reason, when *lpPathName* refers to a directory junction, **RemoveDirectory** will remove the specified link regardless of whether the target directory is empty or not. For more information on junctions, see [Hard Links and Junctions](/windows/win32/FileIO/hard-links-and-junctions).
+
+The use of POSIX delete causes the directory to be deleted while handles remain open. Subsequent calls to [CreateDirectory](nf-fileapi-createdirectoryw.md) to open the directory fail with **ERROR_FILE_NOT_FOUND**.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
+| Technology | Supported |
+|------------|-----------|
+| Server Message Block (SMB) 3.0 protocol | Yes |
+| SMB 3.0 Transparent Failover (TFO) | Yes |
+| SMB 3.0 with Scale-out File Shares (SO) | Yes |
+| Cluster Shared Volume File System (CsvFS) | Yes |
+| Resilient File System (ReFS) | Yes |
 
 > [!NOTE]
-> The fileapi.h header defines RemoveDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The `fileapi.h` header defines RemoveDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
+[CreateDirectory](nf-fileapi-createdirectoryw.md)
 
+[Creating and Deleting Directories](/windows/win32/FileIO/creating-and-deleting-directories)
 
+[Directory Management Functions](/windows/win32/FileIO/directory-management-functions)
 
-<a href="/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
-
-
-
-<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
+[RemoveDirectoryTransacted](/windows/win32/api/winbase/nf-winbase-removedirectorytransactedw)

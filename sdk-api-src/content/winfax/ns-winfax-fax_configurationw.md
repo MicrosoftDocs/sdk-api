@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_CONFIGURATIONW
 title: FAX_CONFIGURATIONW (winfax.h)
-description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server.
+description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server. (Unicode)
 helpviewer_keywords: ["*PFAX_CONFIGURATIONW","FAX_CONFIGURATION","FAX_CONFIGURATION structure [Fax Service]","FAX_CONFIGURATIONA","FAX_CONFIGURATIONW","PFAX_CONFIGURATION","PFAX_CONFIGURATION structure pointer [Fax Service]","_mfax_fax_configuration_str","fax._mfax_fax_configuration_str","winfax/FAX_CONFIGURATION","winfax/FAX_CONFIGURATIONA","winfax/FAX_CONFIGURATIONW","winfax/PFAX_CONFIGURATION"]
 old-location: fax\_mfax_fax_configuration_str.htm
 tech.root: Fax

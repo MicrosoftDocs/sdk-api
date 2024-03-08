@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidXDS
 title: IMSVidXDS (segment.h)
-description: NoteÂ Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.Â The IMSVidXDS interface provides access to the extended data services. The MSVidXDS feature exposes this interface.
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidXDS interface provides access to the extended data services. The MSVidXDS feature exposes this interface.
 helpviewer_keywords: ["IMSVidXDS","IMSVidXDS interface [Microsoft TV Technologies]","IMSVidXDS interface [Microsoft TV Technologies]","described","IMSVidXDSInterface","mstv.imsvidxds","segment/IMSVidXDS"]
 old-location: mstv\imsvidxds.htm
 tech.root: mstv
@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
+<div> </div>
 
 
 The <b>IMSVidXDS</b> interface provides access to the extended data services. The <a href="/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> feature exposes this interface.
@@ -60,7 +62,7 @@ The <b>IMSVidXDS</b> interface provides access to the extended data services. Th
 
 The <b>IMSVidXDS</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidXDS</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

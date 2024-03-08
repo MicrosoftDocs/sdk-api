@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettings
 title: ICodecAPI::SetAllSettings (strmif.h)
-description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
+description: The SetAllSettings method reads codec properties from a stream and sets them on the codec. (ICodecAPI.SetAllSettings)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettings method","ICodecAPI.SetAllSettings","ICodecAPI::SetAllSettings","ICodecAPISetAllSettings","SetAllSettings","SetAllSettings method [DirectShow]","SetAllSettings method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettings","strmif/ICodecAPI::SetAllSettings"]
 old-location: dshow\icodecapi_setallsettings.htm
 tech.root: dshow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetAllSettings</b> method reads codec properties from a stream and sets them on the codec.
 

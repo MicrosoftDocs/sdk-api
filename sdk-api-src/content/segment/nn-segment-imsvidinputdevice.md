@@ -11,7 +11,7 @@ ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Techno
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IMSVidInputDevice</b> interface represents any input device that is recognized by the Video Control, such as a television tuner card. This is a generic interface that serves as an abstract base class for input devices. Several interfaces inherit <b>IMSVidInputDevice</b>, including the following:
 
 <ul>
@@ -66,7 +68,7 @@ When a method returns an <b>IMSVidInputDevice</b> pointer, the object that is re
 
 The <b>IMSVidInputDevice</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>. <b>IMSVidInputDevice</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

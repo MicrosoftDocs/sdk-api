@@ -1,12 +1,12 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_CONFIG32
 title: IMAGE_ENCLAVE_CONFIG32 (winnt.h)
-description: Defines the format of the enclave configuration for systems running 32-bit Windows.
+description: Defines the format of the enclave configuration for systems running 32-bit Windows. (32 bit)
 helpviewer_keywords: ["*PIMAGE_ENCLAVE_CONFIG32","IMAGE_ENCLAVE_CONFIG","IMAGE_ENCLAVE_CONFIG32","IMAGE_ENCLAVE_CONFIG32 structure","IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE","IMAGE_ENCLAVE_POLICY_DEBUGGABLE","PIMAGE_ENCLAVE_CONFIG32","PIMAGE_ENCLAVE_CONFIG32 structure pointer","_IMAGE_ENCLAVE_CONFIG32","base.image_enclave_config","base.image_enclave_config32","winnt/IMAGE_ENCLAVE_CONFIG32","winnt/PIMAGE_ENCLAVE_CONFIG32"]
 old-location: base\image_enclave_config32.htm
 tech.root: base
 ms.assetid: 6006F018-4F3F-4595-8ED2-89D2CC7F782D
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: '*PIMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG, IMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG32 structure, IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE, IMAGE_ENCLAVE_POLICY_DEBUGGABLE, PIMAGE_ENCLAVE_CONFIG32, PIMAGE_ENCLAVE_CONFIG32 structure pointer, _IMAGE_ENCLAVE_CONFIG32, base.image_enclave_config, base.image_enclave_config32, winnt/IMAGE_ENCLAVE_CONFIG32, winnt/PIMAGE_ENCLAVE_CONFIG32'
 req.header: winnt.h
 req.include-header: 
@@ -52,7 +52,6 @@ api_name:
 
 # IMAGE_ENCLAVE_CONFIG32 structure
 
-
 ## -description
 
 Defines the format of the enclave configuration for systems running 32-bit Windows.
@@ -61,50 +60,26 @@ Defines the format of the enclave configuration for systems running 32-bit Windo
 
 ### -field Size
 
-The size of the <b>IMAGE_ENCLAVE_CONFIG32</b> structure, in bytes.
+The size of the **IMAGE_ENCLAVE_CONFIG32** structure, in bytes.
 
 ### -field MinimumRequiredConfigSize
 
-The minimum size of the <b>IMAGE_ENCLAVE_CONFIG32</b> structure that the image loader must be able to process in order for the enclave to be usable.  This member allows an enclave to inform an earlier version of the image loader that the image loader can safely load the enclave and ignore optional members added to <b>IMAGE_ENCLAVE_CONFIG32</b> for later versions of the enclave. If the size of <b>IMAGE_ENCLAVE_CONFIG32</b> that the image loader can process is less than <b>MinimumRequiredConfigSize</b>, the enclave cannot be run securely.
+The minimum size of the **IMAGE_ENCLAVE_CONFIG32** structure that the image loader must be able to process in order for the enclave to be usable. This member allows an enclave to inform an earlier version of the image loader that the image loader can safely load the enclave and ignore optional members added to **IMAGE_ENCLAVE_CONFIG32** for later versions of the enclave. If the size of **IMAGE_ENCLAVE_CONFIG32** that the image loader can process is less than **MinimumRequiredConfigSize**, the enclave cannot be run securely.
 
-If <b>MinimumRequiredConfigSize</b> is zero, the minimum size of the <b>IMAGE_ENCLAVE_CONFIG32</b> structure that the image loader must be able to process in order for the enclave to be usable is assumed to be the size of the structure through and including the <b>MinimumRequiredConfigSize</b> member.
+If **MinimumRequiredConfigSize** is zero, the minimum size of the **IMAGE_ENCLAVE_CONFIG32** structure that the image loader must be able to process in order for the enclave to be usable is assumed to be the size of the structure through and including the **MinimumRequiredConfigSize** member.
 
 ### -field PolicyFlags
 
 A flag that indicates whether the enclave permits debugging.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_ENCLAVE_POLICY_DEBUGGABLE"></a><a id="image_enclave_policy_debuggable"></a><dl>
-<dt><b>IMAGE_ENCLAVE_POLICY_DEBUGGABLE</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The enclave permits debugging.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-The enclave does not permit debugging.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **IMAGE_ENCLAVE_POLICY_DEBUGGABLE**<br/>`0x00000001` | The enclave permits debugging. |
+| `0x00000000` | The enclave does not permit debugging. |
 
 ### -field NumberOfImports
 
-The number of images in the array of images that the <b>ImportList</b> member points to.
+The number of images in the array of images that the **ImportList** member points to.
 
 ### -field ImportList
 
@@ -112,7 +87,7 @@ The relative virtual address of the array of images that the enclave image may i
 
 ### -field ImportEntrySize
 
-The size of each image in the array of images that the <b>ImportList</b> member points to.
+The size of each image in the array of images that the **ImportList** member points to.
 
 ### -field FamilyID
 
@@ -140,41 +115,19 @@ The maximum number of threads that can be created within the enclave.
 
 ### -field EnclaveFlags
 
-A flag that indicates whether the image is suitable for use as the primary image in the enclave. 
+A flag that indicates whether the image is suitable for use as the primary image in the enclave.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE"></a><a id="image_enclave_flag_primary_image"></a><dl>
-<dt><b>IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The image is suitable for use as the primary image in the enclave.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-The image is not suitable for use as the primary image in the enclave.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE**<br/>`0x00000001` | The image is suitable for use as the primary image in the enclave. |
+| `0x00000000` | The image is not suitable for use as the primary image in the enclave. |
 
 ## -remarks
 
-The <b>IMAGE_ENCLAVE_CONFIG</b> structure is defined as another name for the <b>IMAGE_ENCLAVE_CONFIG32</b> structure on systems that run 32-bit Windows.
+The **IMAGE_ENCLAVE_CONFIG** structure is defined as another name for the **IMAGE_ENCLAVE_CONFIG32** structure on systems that run 32-bit Windows.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/mt844244(v=vs.85)">IMAGE_ENCLAVE_CONFIG64</a>
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
+
+[IMAGE_ENCLAVE_CONFIG64](/previous-versions/windows/desktop/legacy/mt844244(v=vs.85))

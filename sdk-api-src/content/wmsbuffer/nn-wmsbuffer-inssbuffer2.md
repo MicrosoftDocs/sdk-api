@@ -6,7 +6,7 @@ helpviewer_keywords: ["INSSBuffer2","INSSBuffer2 interface [windows Media Format
 old-location: wmformat\inssbuffer2.htm
 tech.root: wmformat
 ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: INSSBuffer2, INSSBuffer2 interface [windows Media Format], INSSBuffer2 interface [windows Media Format],described, INSSBuffer2Interface, wmformat.inssbuffer2, wmsbuffer/INSSBuffer2
 req.header: wmsbuffer.h
 req.include-header: 
@@ -52,7 +52,9 @@ api_name:
 
 ## -description
 
-The <b>INSSBuffer2</b> interface inherits from <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
+The <b>INSSBuffer2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
 
 
 
@@ -64,19 +66,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
 </td>
 <td>IID_INSSBuffer</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
 <tr>
 <td>
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
 </td>
 <td>IID_INSSBuffer4</td>
 </tr>
@@ -84,14 +86,14 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b>INSSBuffer2</b> interface inherits from <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
+The <b>INSSBuffer2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a>
 
 
 

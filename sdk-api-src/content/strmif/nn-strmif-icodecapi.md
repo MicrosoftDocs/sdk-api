@@ -1,12 +1,12 @@
 ---
 UID: NN:strmif.ICodecAPI
 title: ICodecAPI (strmif.h)
-description: The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
+description: The ICodecAPI interface (strmif.h) sets and retrieves settings on an encoder or decoder filter.
 helpviewer_keywords: ["ICodecAPI","ICodecAPI interface [DirectShow]","ICodecAPI interface [DirectShow]","described","ICodecAPIInterface","dshow.icodecapi","strmif/ICodecAPI"]
 old-location: dshow\icodecapi.htm
 tech.root: dshow
 ms.assetid: cc3f1bd9-1d36-45e6-94e2-07f2800fd073
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], ICodecAPI interface [DirectShow],described, ICodecAPIInterface, dshow.icodecapi, strmif/ICodecAPI
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>ICodecAPI</b> interface sets and retrieves settings on an encoder or decoder filter.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetRange","GetRange method [DirectShow]","GetRange method
 old-location: dshow\iamcameracontrol_getrange.htm
 tech.root: dshow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>GetRange</b> method gets the range and default value of a specified camera property.
 
 ## -parameters
@@ -77,7 +79,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically or manually.
+Receives one or more members of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically, manually, or both.
 
 ## -returns
 

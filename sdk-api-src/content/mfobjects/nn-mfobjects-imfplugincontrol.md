@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFPluginControl
 title: IMFPluginControl (mfobjects.h)
-description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
+description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation. (IMFPluginControl)
 helpviewer_keywords: ["IMFPluginControl","IMFPluginControl interface [Media Foundation]","IMFPluginControl interface [Media Foundation]","described","mf.imfplugincontrol","mfobjects/IMFPluginControl"]
 old-location: mf\imfplugincontrol.htm
 tech.root: mf

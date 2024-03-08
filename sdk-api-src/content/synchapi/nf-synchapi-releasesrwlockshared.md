@@ -6,10 +6,10 @@ helpviewer_keywords: ["ReleaseSRWLockShared","ReleaseSRWLockShared function","ba
 old-location: base\releasesrwlockshared.htm
 tech.root: base
 ms.assetid: afefd9f2-7fd4-4cba-9a6f-1f9da614dcec
-ms.date: 06/29/2020
+ms.date: 02/05/2024
 ms.keywords: ReleaseSRWLockShared, ReleaseSRWLockShared function, base.releasesrwlockshared, synchapi/ReleaseSRWLockShared, winbase/ReleaseSRWLockShared
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -56,7 +56,6 @@ api_name:
 
 # ReleaseSRWLockShared function
 
-
 ## -description
 
 Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
@@ -73,12 +72,10 @@ The SRW lock must be released by the same thread that acquired it. You can use [
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared">AcquireSRWLockShared</a>
+[AcquireSRWLockShared](nf-synchapi-acquiresrwlockshared.md)
 
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
-
-
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

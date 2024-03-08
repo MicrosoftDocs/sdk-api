@@ -4,7 +4,7 @@ title: Mmcobj.h header
 ms.assetid: 7f95157e-7412-35a5-8536-40b4788da6e5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: lwef
 f1_keywords:
  - mmcobj
@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Legacy Windows Environment Features. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Legacy Windows Environment Features](../_lwef/index.md)
+- [Microsoft Management Console 2.0](../_mmc/index.md)
+- [Security and Identity](../_security/index.md)
 

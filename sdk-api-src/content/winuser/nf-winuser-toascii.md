@@ -56,6 +56,9 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a> function.
 
+> [!NOTE]
+> This method may not work properly with some <a href="/globalization/windows-keyboard-layouts">keyboard layouts</a> that may produce multiple characters (i.e. ligatures) and/or supplementary Unicode characters on a single key press. It is highly recommended to use the <a href="/windows/win32/api/winuser/nf-winuser-tounicode">ToUnicode</a> or <a href="/windows/win32/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a> methods that handles such cases properly.
+
 ## -parameters
 
 ### -param uVirtKey [in]
@@ -82,7 +85,7 @@ The low bit, if set, indicates that the key is toggled on. In this function, onl
 
 Type: <b>LPWORD</b>
 
-The buffer that receives the translated character or characters.
+A pointer to the buffer that receives the translated character (or two characters packed into a single **WORD** value, where the low-order byte contains the first character and the high-order byte contains the second character).
 
 ### -param uFlags [in]
 
@@ -94,7 +97,7 @@ This parameter must be 1 if a menu is active, or 0 otherwise.
 
 Type: <b>int</b>
 
-If the specified key is a dead key, the return value is negative. Otherwise, it is one of the following values.
+The return value is one of the following values.
 
 <table>
 <tr>

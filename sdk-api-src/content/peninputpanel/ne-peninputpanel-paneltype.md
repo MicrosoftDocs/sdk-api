@@ -54,7 +54,7 @@ Defines the type of input currently available in the <a href="/windows/desktop/t
 
 ## -enum-fields
 
-### -field PT_Default
+### -field PT_Default:0
 
 The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object displays the last panel type used for any pen input panel in any application. If all previous references to the pen input panel have been destroyed in all active applications, a new pen input panel will use the handwriting panel type.
 

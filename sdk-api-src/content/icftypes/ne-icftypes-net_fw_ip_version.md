@@ -59,7 +59,7 @@ The
 
 ## -enum-fields
 
-### -field NET_FW_IP_VERSION_V4
+### -field NET_FW_IP_VERSION_V4:0
 
 The port supports IPv4.
 

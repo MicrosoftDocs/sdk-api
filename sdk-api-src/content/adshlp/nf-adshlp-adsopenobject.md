@@ -64,7 +64,7 @@ The null-terminated Unicode string that specifies the ADsPath of the ADSI object
 
 Type: <b>LPCWSTR</b>
 
-The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "&lt;domain&gt;\&lt;user name&gt;" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain <b>ADsOpenObject</b> will use to validate "user1".
+The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "&lt;domain\\&gt;&lt;user name&gt;" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain <b>ADsOpenObject</b> will use to validate "user1".
 
 ### -param lpszPassword [in]
 
@@ -100,7 +100,7 @@ For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI
 
 ## -remarks
 
-This function should not be used just to validate user credentials. For more information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="https://support.microsoft.com/kb/180548">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
+This function should not be used just to validate user credentials.
 
 A C/C++ client calls the <b>ADsOpenObject</b> helper function to bind to an ADSI object, using the user name and password supplied as credentials for the appropriate directory service. If <i>lpszUsername</i> and <i>lpszPassword</i> are <b>NULL</b> and <b>ADS_SECURE_AUTHENTICATION</b> is set, ADSI binds to the object using the security context of the calling thread, which is either the security context of the user account under which the application is running or of the client user account that the calling thread impersonates.
 

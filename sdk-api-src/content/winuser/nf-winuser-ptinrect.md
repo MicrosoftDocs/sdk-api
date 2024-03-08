@@ -63,7 +63,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pt [in]
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the specified point.
 
 ## -returns
 
@@ -94,7 +94,7 @@ For an example, see <a href="/windows/desktop/gdi/using-rectangles">Using Rectan
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

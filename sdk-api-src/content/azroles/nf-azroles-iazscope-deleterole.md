@@ -6,7 +6,7 @@ helpviewer_keywords: ["AzScope object [Security]","DeleteRole method","DeleteRol
 old-location: security\iazscope_deleterole.htm
 tech.root: security
 ms.assetid: 9155c4f8-ad17-402e-80a1-3dcee044d2c4
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AzScope object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzScope object, DeleteRole method [Security],IAzScope interface, IAzScope interface [Security],DeleteRole method, IAzScope.DeleteRole, IAzScope::DeleteRole, azroles/IAzScope::DeleteRole, security.iazscope_deleterole
 req.header: azroles.h
 req.include-header: 
@@ -48,21 +48,28 @@ api_name:
 
 # IAzScope::DeleteRole
 
-
 ## -description
 
-The <b>DeleteRole</b> method removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object with the specified name from the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
+The **DeleteRole** method removes the [IAzRole](nn-azroles-iazrole.md) object with the specified name from the [IAzScope](nn-azroles-iazscope.md) object.
 
 ## -parameters
 
 ### -param bstrRoleName [in]
 
-Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object to delete.
+Name of the [IAzRole](nn-azroles-iazrole.md) object to delete.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-If there are any <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> references to an <b>IAzRole</b> object that has been deleted from the cache, the <b>IAzRole</b> object can no longer be used. In C++, you must release references to deleted <b>IAzRole</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any [IAzRole](nn-azroles-iazrole.md) references to an **IAzRole** object that has been deleted from the cache, the **IAzRole** object can no longer be used. In C++, you must release references to deleted **IAzRole** objects by calling the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method. In C# and Visual Basic, references to deleted objects are automatically released.
+
+## -see-also
+
+[IAzRole](nn-azroles-iazrole.md)

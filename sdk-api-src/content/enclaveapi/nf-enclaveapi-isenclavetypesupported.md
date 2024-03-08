@@ -2,12 +2,12 @@
 UID: NF:enclaveapi.IsEnclaveTypeSupported
 title: IsEnclaveTypeSupported function (enclaveapi.h)
 description: Retrieves whether the specified type of enclave is supported.
-helpviewer_keywords: ["ENCLAVE_TYPE_SGX","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
+helpviewer_keywords: ["ENCLAVE_TYPE_SGX", "ENCLAVE_TYPE_SGX2","ENCLAVE_TYPE_VBS","IsEnclaveTypeSupported","IsEnclaveTypeSupported function","base.isenclavetypesupported","base.isenclavetypesypported","enclaveapi/IsEnclaveTypeSupported"]
 old-location: base\isenclavetypesupported.htm
 tech.root: base
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
-ms.date: 12/05/2018
-ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
+ms.date: 02/02/2024
+ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_SGX2, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -50,7 +50,6 @@ api_name:
 
 # IsEnclaveTypeSupported function
 
-
 ## -description
 
 Retrieves whether the specified type of enclave is supported.
@@ -61,55 +60,28 @@ Retrieves whether the specified type of enclave is supported.
 
 The type of enclave to check.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ENCLAVE_TYPE_SGX"></a><a id="enclave_type_sgx"></a><dl>
-<dt><b><b>ENCLAVE_TYPE_SGX</b></b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-An enclave for the Intel Software Guard Extensions (SGX) architecture extension.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="ENCLAVE_TYPE_VBS"></a><a id="enclave_type_vbs"></a><dl>
-<dt><b>ENCLAVE_TYPE_VBS</b></dt>
-<dt>0x00000010</dt>
-</dl>
-</td>
-<td width="60%">
-A  virtualization-based security (VBS) enclave.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| --- | --- |
+| **ENCLAVE_TYPE_SGX**<br/>`0x00000001` | An enclave for the Intel Software Guard Extensions (SGX) architecture extension. |
+| **ENCLAVE_TYPE_SGX2**<br/>`0x00000002` | Supports SGX2 and SGX1 enclaves. The platform and OS support SGX2 instructions with EDMM on this platform (in addition to other SGX2 constructs). |
+| **ENCLAVE_TYPE_VBS**<br/>`0x00000010` | A virtualization-based security (VBS) enclave. |
 
 ## -returns
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
-For a list of common error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see [System Error Codes](/windows/desktop/Debug/system-error-codes). The following error codes also apply for this function.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b><b>ERROR_NOT_SUPPORTED</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-An unsupported enclave type was specified.
+| Return code | Description |
+| --- | --- |
+| **ERROR_NOT_SUPPORTED** | An unsupported enclave type was specified. |
 
-</td>
-</tr>
-</table>
+## -remarks
+
+**ENCLAVE_TYPE_SGX2** will change some things about how the OS handles SGX functionality:
+
+- It will support the new extensions to **VirtualAlloc**, **VirtualFree**, and **VirtualProtect**.
+
+## -see-also
+
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)

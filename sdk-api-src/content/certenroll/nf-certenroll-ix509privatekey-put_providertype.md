@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ProviderType
 title: IX509PrivateKey::put_ProviderType (certenroll.h)
-description: Specifies or retrieves the type of cryptographic provider associated with the private key.
+description: Specifies or retrieves the type of cryptographic provider associated with the private key. (Put)
 helpviewer_keywords: ["IX509PrivateKey interface [Security]","ProviderType property","IX509PrivateKey.ProviderType","IX509PrivateKey.put_ProviderType","IX509PrivateKey::ProviderType","IX509PrivateKey::get_ProviderType","IX509PrivateKey::put_ProviderType","ProviderType property [Security]","ProviderType property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::ProviderType","certenroll/IX509PrivateKey::get_ProviderType","certenroll/IX509PrivateKey::put_ProviderType","put_ProviderType","security.ix509privatekey_providertype"]
 old-location: security\ix509privatekey_providertype.htm
 tech.root: security

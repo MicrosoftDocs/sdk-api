@@ -1,12 +1,12 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddPropertyItem
 title: IAzApplicationGroup::AddPropertyItem (azroles.h)
-description: Adds the specified entity to the specified list.
+description: Adds the specified entity to the specified list. (IAzApplicationGroup.AddPropertyItem)
 helpviewer_keywords: ["AZ_PROP_GROUP_APP_MEMBERS","AZ_PROP_GROUP_APP_NON_MEMBERS","AZ_PROP_GROUP_MEMBERS","AZ_PROP_GROUP_MEMBERS_NAME","AZ_PROP_GROUP_NON_MEMBERS","AZ_PROP_GROUP_NON_MEMBERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzApplicationGroup object","AddPropertyItem method [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AddPropertyItem method","IAzApplicationGroup interface [Security]","AddPropertyItem method","IAzApplicationGroup.AddPropertyItem","IAzApplicationGroup::AddPropertyItem","azroles/IAzApplicationGroup::AddPropertyItem","security.iazapplicationgroup_addpropertyitem"]
 old-location: security\iazapplicationgroup_addpropertyitem.htm
 tech.root: security
 ms.assetid: 7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzApplicationGroup object, AddPropertyItem method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddPropertyItem method, IAzApplicationGroup interface [Security],AddPropertyItem method, IAzApplicationGroup.AddPropertyItem, IAzApplicationGroup::AddPropertyItem, azroles/IAzApplicationGroup::AddPropertyItem, security.iazapplicationgroup_addpropertyitem
 req.header: azroles.h
 req.include-header: 
@@ -48,83 +48,26 @@ api_name:
 
 # IAzApplicationGroup::AddPropertyItem
 
-
 ## -description
 
-The <b>AddPropertyItem</b> method adds the specified entity to the specified list.
+The **AddPropertyItem** method adds the specified entity to the specified list.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the  list to which to add the entity specified by the <i>varProp</i> parameter. The following table shows the possible values.
+Property ID of the list to which to add the entity specified by the _varProp_ parameter.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_APP_MEMBERS"></a><a id="az_prop_group_app_members"></a><dl>
-<dt><b>AZ_PROP_GROUP_APP_MEMBERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappmember">AddAppMember</a> method
+The following table shows the possible values:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_APP_NON_MEMBERS"></a><a id="az_prop_group_app_non_members"></a><dl>
-<dt><b>AZ_PROP_GROUP_APP_NON_MEMBERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappnonmember">AddAppNonMember</a> method
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_MEMBERS"></a><a id="az_prop_group_members"></a><dl>
-<dt><b>AZ_PROP_GROUP_MEMBERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmember">AddMember</a> method
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_MEMBERS_NAME"></a><a id="az_prop_group_members_name"></a><dl>
-<dt><b>AZ_PROP_GROUP_MEMBERS_NAME</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmembername">AddMemberName</a> method
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_NON_MEMBERS"></a><a id="az_prop_group_non_members"></a><dl>
-<dt><b>AZ_PROP_GROUP_NON_MEMBERS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmember">AddNonMember</a> method
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="AZ_PROP_GROUP_NON_MEMBERS_NAME"></a><a id="az_prop_group_non_members_name"></a><dl>
-<dt><b>AZ_PROP_GROUP_NON_MEMBERS_NAME</b></dt>
-</dl>
-</td>
-<td width="60%">
-Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmembername">AddNonMemberName</a> method
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|--------|--------|
+| `AZ_PROP_GROUP_APP_MEMBERS` | Can also be added using the [AddAppMember](nf-azroles-iazapplicationgroup-addappmember.md) method. |
+| `AZ_PROP_GROUP_APP_NON_MEMBERS` | Can also be added using the [AddAppNonMember](nf-azroles-iazapplicationgroup-addappnonmember.md) method. |
+| `AZ_PROP_GROUP_MEMBERS` | Can also be added using the [AddMember](nf-azroles-iazapplicationgroup-addmember.md) method. |
+| `AZ_PROP_GROUP_MEMBERS_NAME` | Can also be added using the [AddMemberName](nf-azroles-iazapplicationgroup-addmembername.md) method. |
+| `AZ_PROP_GROUP_NON_MEMBERS` | Can also be added using the [AddNonMember](nf-azroles-iazapplicationgroup-addnonmember.md) method. |
+| `AZ_PROP_GROUP_NON_MEMBERS_NAME` | Can also be added using the [AddNonMemberName](nf-azroles-iazapplicationgroup-addnonmembername.md) method. |
 
 ### -param varProp
 
@@ -134,6 +77,16 @@ TBD
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazapplicationgroup-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[AddMember](nf-azroles-iazapplicationgroup-addmember.md)
+
+[Submit](nf-azroles-iazapplicationgroup-submit.md)

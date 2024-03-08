@@ -46,13 +46,12 @@ api_name:
 
 # FSCTL_GET_RETRIEVAL_POINTERS IOCTL
 
-
 ## -description
 
 Given a file handle, retrieves a data structure that describes the allocation and location on disk of a specific file, or, given a volume handle, the locations of bad clusters on a volume.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
-    
+
 ```cpp
 DeviceIoControl(
   (HANDLE) hDevice,                 // handle to file, directory, or volume
@@ -84,7 +83,7 @@ DeviceIoControl(
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
@@ -92,7 +91,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The **FSCTL_GET_RETRIEVAL_POINTERS** operation retrieves a variably sized data structure that describes the allocation and location on disk of a specific file. The structure describes the mapping between virtual cluster numbers (VCN offsets within the file or stream space) and logical cluster numbers (LCN offsets within the volume space).
 
-The **FSCTL_GET_RETRIEVAL_POINTERS** control code is supported for file or directory operations on NTFS, FAT, exFAT, and UDF file systems.
+The **FSCTL_GET_RETRIEVAL_POINTERS** control code is supported for file or directory operations on NTFS, FAT, exFAT, UDF, and ReFS file systems.
 
 On supported file systems, the **FSCTL_GET_RETRIEVAL_POINTERS** operation returns the extent locations of nonresident data.  Resident data never has extent locations.
 

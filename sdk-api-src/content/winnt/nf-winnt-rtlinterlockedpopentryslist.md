@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlInterlockedPopEntrySList
 title: RtlInterlockedPopEntrySList function (winnt.h)
-description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
+description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system. (RtlInterlockedPopEntrySList)
 helpviewer_keywords: ["RtlInterlockedPopEntrySList","RtlInterlockedPopEntrySList function","base.rtlinterlockedpopentryslist","winnt/RtlInterlockedPopEntrySList"]
 old-location: base\rtlinterlockedpopentryslist.htm
 tech.root: backup
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

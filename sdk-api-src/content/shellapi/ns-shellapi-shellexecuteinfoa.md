@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHELLEXECUTEINFOA
 title: SHELLEXECUTEINFOA (shellapi.h)
-description: Contains information used by ShellExecuteEx.
+description: Contains information used by ShellExecuteEx. (ANSI)
 helpviewer_keywords: ["*LPSHELLEXECUTEINFOA","LPSHELLEXECUTEINFO","LPSHELLEXECUTEINFO structure pointer [Windows Shell]","SEE_MASK_ASYNCOK","SEE_MASK_CLASSKEY","SEE_MASK_CLASSNAME","SEE_MASK_CONNECTNETDRV","SEE_MASK_DEFAULT","SEE_MASK_DOENVSUBST","SEE_MASK_FLAG_DDEWAIT","SEE_MASK_FLAG_HINST_IS_SITE","SEE_MASK_FLAG_LOG_USAGE","SEE_MASK_FLAG_NO_UI","SEE_MASK_HMONITOR","SEE_MASK_HOTKEY","SEE_MASK_ICON","SEE_MASK_IDLIST","SEE_MASK_INVOKEIDLIST","SEE_MASK_NOASYNC","SEE_MASK_NOCLOSEPROCESS","SEE_MASK_NOQUERYCLASSSTORE","SEE_MASK_NOZONECHECKS","SEE_MASK_NO_CONSOLE","SEE_MASK_UNICODE","SEE_MASK_WAITFORINPUTIDLE","SE_ERR_ACCESSDENIED","SE_ERR_ASSOCINCOMPLETE","SE_ERR_DDEBUSY","SE_ERR_DDEFAIL","SE_ERR_DDETIMEOUT","SE_ERR_DLLNOTFOUND","SE_ERR_FNF","SE_ERR_NOASSOC","SE_ERR_OOM","SE_ERR_PNF","SE_ERR_SHARE","SHELLEXECUTEINFO","SHELLEXECUTEINFO structure [Windows Shell]","SHELLEXECUTEINFOA","_SHELLEXECUTEINFOA","_SHELLEXECUTEINFOW","_win32_SHELLEXECUTEINFO","edit","explore","find","open","print","properties","shell.SHELLEXECUTEINFO","shellapi/LPSHELLEXECUTEINFO","shellapi/SHELLEXECUTEINFO"]
 old-location: shell\SHELLEXECUTEINFO.htm
 tech.root: shell
@@ -134,7 +134,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_NO_UI (0x00000400)</td>
-<td>Do not display an error message box if an error occurs.</td>
+<td>Do not display any user interface (UI) including error dialogs, security warnings or other user interface that would normally be presented without this option.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_UNICODE (0x00004000)
@@ -174,6 +174,8 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
+<a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
+
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
 When this option is specified the call runs synchronously on the calling thread.
@@ -185,13 +187,16 @@ When this option is specified the call runs synchronously on the calling thread.
 
 Type: <b>HWND</b>
 
-Optional. A handle to the parent window, used to display any message boxes that the system might produce while executing this function. This value can be <b>NULL</b>.
+Optional. A handle to the owner window, used to display and position any UI that the system might produce while executing this function.
 
 ### -field lpVerb
 
 Type: <b>LPCTSTR</b>
 
-A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry. The following verbs are commonly used:
+A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+Unless there is a reason to limit the action to a specific verb, pass NULL to use the computed default. This is necessary in some cases, for example when specifying SEE_MASK_FLAG_NO_UI and the intention is to produce the "Open With" UI, if no apps are installed.
+
+The following verbs are commonly used:
 
 - **edit**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
 - **explore**: Explores the folder specified by <b>lpFile</b>.

@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dcomp.h
 api_name:
@@ -72,4 +72,4 @@ Type: **[DWORD](/windows/win32/winprog/windows-data-types)**
 
 ## -see-also
 
-[DCompositionGetTargetStatistics](nf-dcomp-dcompositiongettargetstatistics.md), [DCompositionGetStatistics](nf-dcomp-dcompositiongetstatistics.md), [DCompositionGetFrameId](nf-dcomp-dcompositiongetframeid.md), [DCompositionBoostCompositorClock](nf-dcomp-dcompositionboostcompositorclock.md)
+[DCompositionGetTargetStatistics](https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/dcomp/nf-dcomp-dcompositiongettargetstatistics.md), [DCompositionGetStatistics](nf-dcomp-dcompositiongetstatistics.md), [DCompositionGetFrameId](nf-dcomp-dcompositiongetframeid.md), [DCompositionBoostCompositorClock](nf-dcomp-dcompositionboostcompositorclock.md)

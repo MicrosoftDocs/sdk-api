@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.IsSupported(constD2D1_RENDER_TARGET_PROPERTIES&)
 title: ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &) (d2d1.h)
-description: Indicates whether the render target supports the specified properties.
+description: Indicates whether the render target supports the specified properties. (overload 1/2)
 helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","IsSupported method","ID2D1RenderTarget.IsSupported","ID2D1RenderTarget.IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)","ID2D1RenderTarget::IsSupported","ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)","IsSupported","IsSupported method [Direct2D]","IsSupported method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::IsSupported","direct2d.id2d1rendertarget_issupported"]
 old-location: direct2d\id2d1rendertarget_issupported.htm
 tech.root: Direct2D

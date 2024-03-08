@@ -11,7 +11,7 @@ ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Te
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IMSVidVideoRenderer</b> interface represents a video renderer device. The <a href="/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object exposes this interface.
 
 This interface provides access to the Video Mixing Renderer (VMR) filter.
@@ -58,7 +60,7 @@ This interface provides access to the Video Mixing Renderer (VMR) filter.
 
 The <b>IMSVidVideoRenderer</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidVideoRenderer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

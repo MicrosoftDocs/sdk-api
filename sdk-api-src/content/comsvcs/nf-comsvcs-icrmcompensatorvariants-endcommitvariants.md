@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndCommitVariants
 title: ICrmCompensatorVariants::EndCommitVariants (comsvcs.h)
-description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
+description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase. (ICrmCompensatorVariants.EndCommitVariants)
 helpviewer_keywords: ["EndCommitVariants","EndCommitVariants method [COM+]","EndCommitVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","EndCommitVariants method","ICrmCompensatorVariants.EndCommitVariants","ICrmCompensatorVariants::EndCommitVariants","_dtc_ICrmCompensatorVariants_EndCommitVariants","comsvcs/ICrmCompensatorVariants::EndCommitVariants","cos.icrmcompensatorvariants_endcommitvariants"]
 old-location: cos\icrmcompensatorvariants_endcommitvariants.htm
 tech.root: cos

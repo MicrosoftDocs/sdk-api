@@ -1,7 +1,7 @@
 ---
 UID: NS:dispatcherqueue.DispatcherQueueOptions
 title: DispatcherQueueOptions (dispatcherqueue.h)
-description: Specifies the threading and apartment type for a new DispatcherQueueController.
+description: Represents options around threading affinity and type of COM apartment for a new DispatcherQueueController.
 helpviewer_keywords: ["DispatcherQueueOptions","DispatcherQueueOptions structure","base.dispatcherqueueoptions","dispatcherqueue/DispatcherQueueOptions"]
 old-location: base\dispatcherqueueoptions.htm
 tech.root: backup
@@ -45,12 +45,9 @@ api_name:
  - DispatcherQueueOptions
 ---
 
-# DispatcherQueueOptions structure
-
-
 ## -description
 
-Specifies the threading and apartment type for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
+Represents options around threading affinity and type of COM apartment for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ## -struct-fields
 
@@ -60,11 +57,11 @@ Size of this <b>DispatcherQueueOptions</b> structure.
 
 ### -field threadType
 
-Thread affinity for the created <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
+Thread affinity for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ### -field apartmentType
 
-Specifies whether to initialize COM apartment on the new thread as an application single-threaded apartment (ASTA)  or single-threaded apartment (STA). This field is only relevant if <b>threadType</b> is <b>DQTYPE_THREAD_DEDICATED</b>. Use <b>DQTAT_COM_NONE</b> when <b>DispatcherQueueOptions.threadType</b> is <b>DQTYPE_THREAD_CURRENT</b>.
+Specifies whether to initialize the COM apartment on the new thread as an application single-threaded apartment (ASTA) or a single-threaded apartment (STA). This field is relevant only if <b>threadType</b> is <b>DQTYPE_THREAD_DEDICATED</b>. Use <b>DQTAT_COM_NONE</b> when <b>DispatcherQueueOptions.threadType</b> is <b>DQTYPE_THREAD_CURRENT</b>.
 
 ## -remarks
 

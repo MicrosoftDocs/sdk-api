@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsDrive2
 title: IVdsDrive2 (vds.h)
-description: Provides a method for querying the properties of a drive.
+description: The IVdsDrive2 interface (vds.h) provides a method for querying the properties of a drive.
 helpviewer_keywords: ["IVdsDrive2","IVdsDrive2 interface","IVdsDrive2 interface","described","base.ivdsdrive2","vds/IVdsDrive2","vdshwprv/IVdsDrive2"]
 old-location: base\ivdsdrive2.htm
 tech.root: base
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method for querying the properties of a drive.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityLongDescription
 title: IXpsOMPath::GetAccessibilityLongDescription (xpsobjectmodel.h)
-description: Gets the long (detailed) textual description of the object's contents.
+description: Gets the long (detailed) textual description of the object's contents. (IXpsOMPath.GetAccessibilityLongDescription)
 helpviewer_keywords: ["GetAccessibilityLongDescription","GetAccessibilityLongDescription method [XPS Documents and Packaging]","GetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetAccessibilityLongDescription method","IXpsOMPath.GetAccessibilityLongDescription","IXpsOMPath::GetAccessibilityLongDescription","xps.ixpsompath_getaccessibilitylongdescription","xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription"]
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm
 tech.root: xps
@@ -103,7 +103,7 @@ This method allocates the memory used by the string that is returned in <i>longD
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

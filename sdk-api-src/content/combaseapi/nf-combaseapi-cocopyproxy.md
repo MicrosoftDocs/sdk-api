@@ -110,10 +110,9 @@ This helper function encapsulates the following sequence of common calls (error 
 
 
 ``` syntax
-    pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
-    pcs-&gt;CopyProxy(punkProxy, ppunkCopy);
-    pcs-&gt;Release();
-
+    pProxy->QueryInterface(IID_IClientSecurity, (void**)&pcs);
+    pcs->CopyProxy(punkProxy, ppunkCopy);
+    pcs->Release();
 ```
 
 Local interfaces may not be copied. <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> are examples of existing local interfaces.

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateDirectoryExW
 title: CreateDirectoryExW function (winbase.h)
-description: Creates a new directory with the attributes of a specified template directory.
-helpviewer_keywords: ["CreateDirectoryEx","CreateDirectoryEx function [Files]","CreateDirectoryExA","CreateDirectoryExW","_win32_createdirectoryex","base.createdirectoryex","fs.createdirectoryex","winbase/CreateDirectoryEx","winbase/CreateDirectoryExA","winbase/CreateDirectoryExW"]
+description: Creates a new directory with the attributes of a specified template directory. (Unicode)
+helpviewer_keywords: ["CreateDirectoryEx", "CreateDirectoryEx function [Files]", "CreateDirectoryExW", "_win32_createdirectoryex", "base.createdirectoryex", "fs.createdirectoryex", "winbase/CreateDirectoryEx", "winbase/CreateDirectoryExW"]
 old-location: fs\createdirectoryex.htm
 tech.root: fs
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
@@ -73,25 +73,19 @@ To perform this operation as a transacted operation, use the
 
 The path of the directory to use as a template when creating the new directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateDirectoryExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". The 255 character limit per path segment still applies. See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpNewDirectory [in]
 
 The path of the directory to be created.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateDirectoryExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". The 255 character limit per path segment still applies. See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpSecurityAttributes [in, optional]
 

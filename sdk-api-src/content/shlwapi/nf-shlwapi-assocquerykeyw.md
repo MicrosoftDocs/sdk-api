@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.AssocQueryKeyW
 title: AssocQueryKeyW function (shlwapi.h)
-description: Searches for and retrieves a key related to a file or protocol association from the registry.
-helpviewer_keywords: ["AssocQueryKey","AssocQueryKey function [Windows Shell]","AssocQueryKeyA","AssocQueryKeyW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryKey","shell.AssocQueryKey","shlwapi/AssocQueryKey","shlwapi/AssocQueryKeyA","shlwapi/AssocQueryKeyW"]
+description: Searches for and retrieves a key related to a file or protocol association from the registry. (Unicode)
+helpviewer_keywords: ["AssocQueryKey", "AssocQueryKey function [Windows Shell]", "AssocQueryKeyW", "CLSID", "Executable name", "File name extension", "ProgID", "_win32_AssocQueryKey", "shell.AssocQueryKey", "shlwapi/AssocQueryKey", "shlwapi/AssocQueryKeyW"]
 old-location: shell\AssocQueryKey.htm
 tech.root: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce

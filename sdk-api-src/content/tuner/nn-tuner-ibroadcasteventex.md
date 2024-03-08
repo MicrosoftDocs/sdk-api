@@ -49,25 +49,27 @@ ms.custom: 19H1
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IBroadcastEventEx</b> interface is an extended version of the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface. 
+The <b>IBroadcastEventEx</b> interface is an extended version of the <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a> interface. 
 
-Like <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>, the <b>IBroadcastEventEx</b> interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use either of these interfaces.
+Like <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a>, the <b>IBroadcastEventEx</b> interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use either of these interfaces.
 
-For information about implementing a class that can source or sink broadcast events, see the example code in <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>.
+For information about implementing a class that can source or sink broadcast events, see the example code in <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent Interface</a>.
 
 
 
 
 ## -inheritance
 
-The <b>IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
+The <b>IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -80,14 +82,14 @@ The <b>IBroadcastEventEx</b> interface has these methods.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">FireEx</a>
+<a href="/previous-versions/dd376296(v=vs.85)">FireEx</a>
 </td>
 <td align="left" width="63%">
 Fires an event.
 
 </td>
 </tr>
-</table>Â 
+</table> 
 
 
 ## -remarks
@@ -104,11 +106,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
+<a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a>
 
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-Â 
+ 
 
-Â 
+ 

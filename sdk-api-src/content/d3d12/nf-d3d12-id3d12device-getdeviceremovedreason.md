@@ -45,14 +45,9 @@ api_name:
  - ID3D12Device.GetDeviceRemovedReason
 ---
 
-# ID3D12Device::GetDeviceRemovedReason
-
-
 ## -description
 
-Gets the reason that the device was removed.
-
-
+Gets the reason that the device was removed, or **S_OK** if the device isn't removed. To be called back when a device is removed, consider using [ID3D12Fence::SetEventOnCompletion](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion) with a value of **UINT64_MAX**. That's because device removal causes all fences to be signaled to that value (which also implies completing all events waited on, because they'll all be less than **UINT64_MAX**).
 
 ## -returns
 

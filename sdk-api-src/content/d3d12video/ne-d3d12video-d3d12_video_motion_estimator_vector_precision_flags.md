@@ -37,7 +37,7 @@ Specifies the motion estimation vector precision that a video encoder supports.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_FLAG_NONE
+### -field D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_FLAG_NONE:0
 
 Vector precision is not supported by the encoder.
 

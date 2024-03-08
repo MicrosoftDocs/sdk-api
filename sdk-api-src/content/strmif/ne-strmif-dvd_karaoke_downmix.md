@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_KARAOKE_DOWNMIX","DVD_KARAOKE_DOWNMIX","DVD_KARAOKE_D
 old-location: dshow\dvd_karaoke_downmix.htm
 tech.root: dshow
 ms.assetid: 7f0132ae-6a46-4b81-9c5b-a0399a429b1a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_KARAOKE_DOWNMIX, DVD_KARAOKE_DOWNMIX , DVD_KARAOKE_DOWNMIX enumeration [DirectShow], DVD_KARAOKE_DOWNMIXEnumeration, DVD_Mix_0to0, DVD_Mix_0to1, DVD_Mix_1to0, DVD_Mix_1to1, DVD_Mix_2to0, DVD_Mix_2to1, DVD_Mix_3to0, DVD_Mix_3to1, DVD_Mix_4to0, DVD_Mix_4to1, DVD_Mix_Lto0, DVD_Mix_Lto1, DVD_Mix_Rto0, DVD_Mix_Rto1, dshow.dvd_karaoke_downmix, strmif/DVD_KARAOKE_DOWNMIX, strmif/DVD_Mix_0to0, strmif/DVD_Mix_0to1, strmif/DVD_Mix_1to0, strmif/DVD_Mix_1to1, strmif/DVD_Mix_2to0, strmif/DVD_Mix_2to1, strmif/DVD_Mix_3to0, strmif/DVD_Mix_3to1, strmif/DVD_Mix_4to0, strmif/DVD_Mix_4to1, strmif/DVD_Mix_Lto0, strmif/DVD_Mix_Lto1, strmif/DVD_Mix_Rto0, strmif/DVD_Mix_Rto1
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,63 +52,65 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Defines flags used by the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectkaraokeaudiopresentationmode">IDvdControl2::SelectKaraokeAudioPresentationMode</a> method to control which speakers, if any, each auxiliary channel is downmixed to.
 
 ## -enum-fields
 
-### -field DVD_Mix_0to0
+### -field DVD_Mix_0to0:0x1
 
 Reserved.
 
-### -field DVD_Mix_1to0
+### -field DVD_Mix_1to0:0x2
 
 Reserved.
 
-### -field DVD_Mix_2to0
+### -field DVD_Mix_2to0:0x4
 
 Downmix channel 2 to the left speaker.
 
-### -field DVD_Mix_3to0
+### -field DVD_Mix_3to0:0x8
 
 Downmix channel 3 to the left speaker.
 
-### -field DVD_Mix_4to0
+### -field DVD_Mix_4to0:0x10
 
 Downmix channel 4 to the left speaker.
 
-### -field DVD_Mix_Lto0
+### -field DVD_Mix_Lto0:0x20
 
 Reserved.
 
-### -field DVD_Mix_Rto0
+### -field DVD_Mix_Rto0:0x40
 
 Reserved.
 
-### -field DVD_Mix_0to1
+### -field DVD_Mix_0to1:0x100
 
 Reserved.
 
-### -field DVD_Mix_1to1
+### -field DVD_Mix_1to1:0x200
 
 Reserved.
 
-### -field DVD_Mix_2to1
+### -field DVD_Mix_2to1:0x400
 
 Downmix channel 2 to the right speaker.
 
-### -field DVD_Mix_3to1
+### -field DVD_Mix_3to1:0x800
 
 Downmix channel 3 to the right speaker.
 
-### -field DVD_Mix_4to1
+### -field DVD_Mix_4to1:0x1000
 
 Downmix channel 4 to the right speaker.
 
-### -field DVD_Mix_Lto1
+### -field DVD_Mix_Lto1:0x2000
 
 Reserved.
 
-### -field DVD_Mix_Rto1
+### -field DVD_Mix_Rto1:0x4000
 
 Reserved.
 

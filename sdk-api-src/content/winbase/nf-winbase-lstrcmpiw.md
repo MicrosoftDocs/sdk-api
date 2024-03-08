@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.lstrcmpiW
 title: lstrcmpiW function (winbase.h)
-description: Compares two character strings. The comparison is not case-sensitive.
-helpviewer_keywords: ["_win32_lstrcmpi","_win32_lstrcmpi_cpp","lstrcmpi","lstrcmpi function [Menus and Other Resources]","lstrcmpiA","lstrcmpiW","menurc.lstrcmpi","winbase/lstrcmpi","winbase/lstrcmpiA","winbase/lstrcmpiW","winui._win32_lstrcmpi"]
+description: Compares two character strings. The comparison is not case-sensitive. (Unicode)
+helpviewer_keywords: ["_win32_lstrcmpi", "_win32_lstrcmpi_cpp", "lstrcmpi", "lstrcmpi function [Menus and Other Resources]", "lstrcmpiW", "menurc.lstrcmpi", "winbase/lstrcmpi", "winbase/lstrcmpiW", "winui._win32_lstrcmpi"]
 old-location: menurc\lstrcmpi.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
@@ -68,13 +68,13 @@ To perform a comparison that is case-sensitive, use the <a href="/windows/deskto
 
 ### -param lpString1 [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The first null-terminated string to be compared.
 
 ### -param lpString2 [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The second null-terminated string to be compared.
 

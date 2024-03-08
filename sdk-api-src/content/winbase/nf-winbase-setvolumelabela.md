@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.SetVolumeLabelA
 title: SetVolumeLabelA function (winbase.h)
-description: Sets the label of a file system volume.
-helpviewer_keywords: ["SetVolumeLabel","SetVolumeLabel function [Files]","SetVolumeLabelA","SetVolumeLabelW","_win32_setvolumelabel","base.setvolumelabel","fs.setvolumelabel","winbase/SetVolumeLabel","winbase/SetVolumeLabelA","winbase/SetVolumeLabelW"]
+description: Sets the label of a file system volume. (ANSI)
+helpviewer_keywords: ["SetVolumeLabelA", "winbase/SetVolumeLabelA"]
 old-location: fs\setvolumelabel.htm
 tech.root: fs
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705

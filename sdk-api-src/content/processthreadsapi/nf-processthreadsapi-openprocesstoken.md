@@ -4,9 +4,9 @@ title: OpenProcessToken function (processthreadsapi.h)
 description: Opens the access token associated with a process.
 helpviewer_keywords: ["OpenProcessToken","OpenProcessToken function [Security]","_win32_openprocesstoken","processthreadsapi/OpenProcessToken","security.openprocesstoken"]
 old-location: security\openprocesstoken.htm
-tech.root: security
+tech.root: processthreadsapi
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken
 req.header: processthreadsapi.h
 req.include-header: Windows.h
@@ -60,13 +60,13 @@ api_name:
 
 ## -description
 
-The <b>OpenProcessToken</b> function opens the <a href="/windows/desktop/SecGloss/a-gly">access token</a> associated with a process.
+The **OpenProcessToken** function opens the <a href="/windows/desktop/SecGloss/a-gly">access token</a> associated with a process.
 
 ## -parameters
 
 ### -param ProcessHandle [in]
 
-A handle to the process whose access token is opened. The process must have the PROCESS_QUERY_INFORMATION access permission.
+A handle to the process whose access token is opened. The process must have the PROCESS_QUERY_LIMITED_INFORMATION access permission. See [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights) for more info.
 
 ### -param DesiredAccess [in]
 
@@ -91,53 +91,34 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-Close the access token handle returned through the <i>TokenHandle</i> parameter by calling 
-<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+To get a handle to an elevated process from within a non-elevated process, both processes must be started from the same account.
+
+If the process being checked was started by a different account, the checking process needs to have the SE_DEBUG_NAME privilege enabled. See [Privilege Constants (Authorization)](/windows/win32/secauthz/privilege-constants) for more info.
+
+To close the access token handle returned through the <i>TokenHandle</i> parameter, call <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -see-also
 
 <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
-
-
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a>
-
-
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
 
-
-
-<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
-
-
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
-
-
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocesstoken">GetCurrentProcessToken</a>
 
-
-
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadeffectivetoken">GetCurrentThreadEffectiveToken</a>
-
-
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadtoken">GetCurrentThreadToken</a>
 
-
-
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
-
-
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
-
-
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>

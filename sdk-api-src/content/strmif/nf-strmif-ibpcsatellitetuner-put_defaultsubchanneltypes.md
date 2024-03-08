@@ -6,7 +6,7 @@ helpviewer_keywords: ["IBPCSatelliteTuner interface [DirectShow]","put_DefaultSu
 old-location: dshow\ibpcsatellitetuner_put_defaultsubchanneltypes.htm
 tech.root: dshow
 ms.assetid: 90f73ca0-1d9a-4161-bc86-d69cc71e88c6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],put_DefaultSubChannelTypes method, IBPCSatelliteTuner.put_DefaultSubChannelTypes, IBPCSatelliteTuner::put_DefaultSubChannelTypes, IBPCSatelliteTunerput_DefaultSubChannelTypes, dshow.ibpcsatellitetuner_put_defaultsubchanneltypes, put_DefaultSubChannelTypes, put_DefaultSubChannelTypes method [DirectShow], put_DefaultSubChannelTypes method [DirectShow],IBPCSatelliteTuner interface, strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <div class="alert"><b>Note</b>  The <code>IBPCSatelliteTuner</code> interface is deprecated.</div>
 <div> </div>

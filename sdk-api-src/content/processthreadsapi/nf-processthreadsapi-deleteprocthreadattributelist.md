@@ -4,12 +4,12 @@ title: DeleteProcThreadAttributeList function (processthreadsapi.h)
 description: Deletes the specified list of attributes for process and thread creation.
 helpviewer_keywords: ["DeleteProcThreadAttributeList","DeleteProcThreadAttributeList function","base.deleteprocthreadattributelist","processthreadsapi/DeleteProcThreadAttributeList","winbase/DeleteProcThreadAttributeList"]
 old-location: base\deleteprocthreadattributelist.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
 ms.date: 12/05/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList
 req.header: processthreadsapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

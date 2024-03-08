@@ -1,7 +1,7 @@
 ---
 UID: NF:dispatcherqueue.CreateDispatcherQueueController
 title: CreateDispatcherQueueController function (dispatcherqueue.h)
-description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
+description: Creates a DispatcherQueueController. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the dispatcher queue's thread.
 helpviewer_keywords: ["CreateDispatcherQueueController","CreateDispatcherQueueController function","base.createdispatcherqueuecontroller","dispatcherqueue/CreateDispatcherQueueController"]
 old-location: base\createdispatcherqueuecontroller.htm
 tech.root: backup
@@ -45,12 +45,9 @@ api_name:
  - CreateDispatcherQueueController
 ---
 
-# CreateDispatcherQueueController function
-
-
 ## -description
 
-Creates a <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> on the caller's thread. Use the created <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> to create and manage the lifetime of a <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> to run queued tasks in priority order on the Dispatcher queue's thread.
+Creates a <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>. Use the created <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> to create and manage the lifetime of a <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> to run queued tasks in priority order on the dispatcher queue's thread.
 
 ## -parameters
 
@@ -73,15 +70,23 @@ The created dispatcher queue controller.
 
 Introduced in Windows 10, version 1709.
 
- If  <i>options.threadType</i> is <b>DQTYPE_THREAD_DEDICATED</b>, then this function  creates the dedicated thread and then creates the  <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> on that thread. The dispatcher queue event loop runs on the new dedicated thread.
+If <i>options.threadType</i> is <b>DQTYPE_THREAD_DEDICATED</b>, then this function
+creates a thread, initializes it with the specified COM apartment,
+and associates a <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> with that thread.
+The dispatcher queue event loop runs on the new dedicated thread until the dispatcher queue is explicitly shut down.
+To avoid thread and memory leaks,
+call <a href="/uwp/api/windows.system.dispatcherqueuecontroller.shutdownqueueasync">DispatcherQueueController.ShutdownQueueAsync</a>
+when you are finished with the dispatcher queue.
 
-An event loop runs asynchronously on a background thread to dispatch
-queued task items to the new dedicated thread.
+If <i>options.threadType</i> is <b>DQTYPE_THREAD_CURRENT</b>, then a
+<a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> is created and associated with the current thread.
+An error results if there is already a <b>DispatcherQueue</b> associated with the current thread.
+The current thread must pump messages to allow the dispatcher queue to dispatch tasks.
+Before the current thread exits, it must call
+<a href="/uwp/api/windows.system.dispatcherqueuecontroller.shutdownqueueasync">DispatcherQueueController.ShutdownQueueAsync</a>,
+and continue pumping messages until the <b>IAsyncAction</b> completes.
 
- If <i>options.threadType</i> is  <b>DQTYPE_THREAD_CURRENT</b>, then the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> instance is created on the current thread. An error results if there is already 
-a <b>IDispatcherQueueController</b> on the current thread. If you create a dispatcher queue on the current thread, ensure that there is a message pump running on the current thread so that the dispatcher queue can use it to dispatch tasks.
-
-This call does not return until the new thread and <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> are created. The new thread will be initialized using the specified COM apartment.
+This call does not return until the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> and new thread (if any) are created.
 
 <div class="alert"><b>Important</b>  The <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>, and its associated <a href="/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a>, are WinRT objects. See their documentation for usage details.</div>
 <div> </div>

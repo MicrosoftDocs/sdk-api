@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetVideoWindow (evr.h)
 description: Gets the clipping window for the video.
 helpviewer_keywords: ["0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5","GetVideoWindow","GetVideoWindow method [Media Foundation]","GetVideoWindow method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetVideoWindow method","IMFVideoDisplayControl.GetVideoWindow","IMFVideoDisplayControl::GetVideoWindow","evr/IMFVideoDisplayControl::GetVideoWindow","mf.imfvideodisplaycontrol_getvideowindow"]
 old-location: mf\imfvideodisplaycontrol_getvideowindow.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5
 ms.date: 12/05/2018
 ms.keywords: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5, GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoWindow method, IMFVideoDisplayControl.GetVideoWindow, IMFVideoDisplayControl::GetVideoWindow, evr/IMFVideoDisplayControl::GetVideoWindow, mf.imfvideodisplaycontrol_getvideowindow
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetVideoWindow
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetVideoWindow
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Gets the clipping window for the video.
 

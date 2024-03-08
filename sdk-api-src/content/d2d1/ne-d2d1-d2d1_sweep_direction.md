@@ -54,13 +54,13 @@ Defines the direction that an elliptical arc is drawn.
 
 ## -enum-fields
 
-### -field D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE
+### -field D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE:0
 
 Arcs are drawn in a counterclockwise (negative-angle) direction.
 
-### -field D2D1_SWEEP_DIRECTION_CLOCKWISE
+### -field D2D1_SWEEP_DIRECTION_CLOCKWISE:1
 
 Arcs are drawn in a clockwise (positive-angle) direction.
 
-### -field D2D1_SWEEP_DIRECTION_FORCE_DWORD
+### -field D2D1_SWEEP_DIRECTION_FORCE_DWORD:0xffffffff
 

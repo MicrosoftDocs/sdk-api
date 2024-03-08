@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.CreateGlyphRunAnalysis
 title: IDWriteFactory2::CreateGlyphRunAnalysis (dwrite_2.h)
-description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
+description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run. (IDWriteFactory2.CreateGlyphRunAnalysis)
 helpviewer_keywords: ["CreateGlyphRunAnalysis","CreateGlyphRunAnalysis method [Direct Write]","CreateGlyphRunAnalysis method [Direct Write]","IDWriteFactory2 interface","IDWriteFactory2 interface [Direct Write]","CreateGlyphRunAnalysis method","IDWriteFactory2.CreateGlyphRunAnalysis","IDWriteFactory2::CreateGlyphRunAnalysis","directwrite.idwritefactory2_createglyphrunanalysis","dwrite_2/IDWriteFactory2::CreateGlyphRunAnalysis"]
 old-location: directwrite\idwritefactory2_createglyphrunanalysis.htm
 tech.root: DirectWrite
@@ -118,5 +118,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefactory2">IDWriteFactory2</a>
 

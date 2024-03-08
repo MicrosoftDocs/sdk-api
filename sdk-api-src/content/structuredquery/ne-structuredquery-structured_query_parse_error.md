@@ -56,7 +56,7 @@ A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-
 
 ## -enum-fields
 
-### -field SQPE_NONE
+### -field SQPE_NONE:0
 
 No error.
 

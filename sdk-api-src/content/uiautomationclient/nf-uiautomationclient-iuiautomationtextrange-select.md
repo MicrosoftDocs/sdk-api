@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Select
 title: IUIAutomationTextRange::Select (uiautomationclient.h)
-description: Selects the span of text that corresponds to this text range, and removes any previous selection.
+description: Selects the span of text that corresponds to this text range, and removes any previous selection. (IUIAutomationTextRange.Select)
 helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","Select method","IUIAutomationTextRange.Select","IUIAutomationTextRange::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_Select","uiauto_IUIAutomationTextRange_Select","uiautomationclient/IUIAutomationTextRange::Select","winauto.uiauto_IUIAutomationTextRange_Select"]
 old-location: winauto\uiauto_IUIAutomationTextRange_Select.htm
 tech.root: WinAuto

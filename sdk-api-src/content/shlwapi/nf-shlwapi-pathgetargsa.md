@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathGetArgsA
 title: PathGetArgsA function (shlwapi.h)
-description: Finds the command line arguments within a given path.
-helpviewer_keywords: ["PathGetArgs","PathGetArgs function [Windows Shell]","PathGetArgsA","PathGetArgsW","_win32_PathGetArgs","shell.PathGetArgs","shlwapi/PathGetArgs","shlwapi/PathGetArgsA","shlwapi/PathGetArgsW"]
+description: Finds the command line arguments within a given path. (ANSI)
+helpviewer_keywords: ["PathGetArgsA", "shlwapi/PathGetArgsA"]
 old-location: shell\PathGetArgs.htm
 tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9

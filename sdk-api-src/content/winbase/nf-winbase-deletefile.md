@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.DeleteFile
 title: DeleteFile function (winbase.h)
-description: Deletes an existing file.
+description: The DeleteFile function (winbase.h) deletes an existing file.
 helpviewer_keywords: ["DeleteFile","DeleteFile function [Files]","DeleteFileA","DeleteFileW","_win32_deletefile","base.deletefile","fileapi/DeleteFile","fileapi/DeleteFileA","fileapi/DeleteFileW","fs.deletefile","winbase/DeleteFile","winbase/DeleteFileA","winbase/DeleteFileW"]
 old-location: fs\deletefile.htm
 tech.root: fs
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: DeleteFile, DeleteFile function [Files], DeleteFileA, DeleteFileW, _win32_deletefile, base.deletefile, fileapi/DeleteFile, fileapi/DeleteFileA, fileapi/DeleteFileW, fs.deletefile, winbase/DeleteFile, winbase/DeleteFileA, winbase/DeleteFileW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -70,13 +70,10 @@ To perform this operation as a transacted operation, use the
 
 The name of the file to be deleted.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>DeleteFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ## -returns
 

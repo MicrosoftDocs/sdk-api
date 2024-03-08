@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPErrorItem","IWMPErrorItem interface [Windows Media Pl
 old-location: wmp\iwmperroritem.htm
 tech.root: WMP
 ms.assetid: 4675eebf-80d7-4412-b3f1-ec54b977db31
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
 req.header: wmp.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPErrorItem</b> interface provides a way to access error information.
 
 ## -inheritance
 
 The <b>IWMPErrorItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

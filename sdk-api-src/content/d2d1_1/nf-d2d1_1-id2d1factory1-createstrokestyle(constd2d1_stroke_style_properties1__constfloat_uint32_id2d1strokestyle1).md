@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreateStrokeStyle(constD2D1_STROKE_STYLE_PROPERTIES1&,constFLOAT,UINT32,ID2D1StrokeStyle1)
 title: ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,const FLOAT,UINT32,ID2D1StrokeStyle1) (d2d1_1.h)
-description: Creates a ID2D1StrokeStyle1 object.
+description: Creates a ID2D1StrokeStyle1 object. (overload 1/2)
 helpviewer_keywords: ["CreateStrokeStyle","CreateStrokeStyle method [Direct2D]","CreateStrokeStyle method [Direct2D]","ID2D1Factory1 interface","ID2D1Factory1 interface [Direct2D]","CreateStrokeStyle method","ID2D1Factory1.CreateStrokeStyle","ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &","const FLOAT","UINT32","ID2D1StrokeStyle1)","ID2D1Factory1::CreateStrokeStyle","ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &","const FLOAT","UINT32","ID2D1StrokeStyle1)","d2d1_1/ID2D1Factory1::CreateStrokeStyle","direct2d.id2d1factory1_createstrokestyle2"]
 old-location: direct2d\id2d1factory1_createstrokestyle2.htm
 tech.root: Direct2D

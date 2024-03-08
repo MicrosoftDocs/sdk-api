@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._charformat
 title: CHARFORMATA (richedit.h)
-description: Contains information about character formatting in a rich edit control.
+description: Contains information about character formatting in a rich edit control. (CHARFORMATA)
 helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE.","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
 old-location: controls\CHARFORMAT.htm
 tech.root: Controls
@@ -57,7 +57,7 @@ api_name:
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
+<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://learn.microsoft.com/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="https://learn.microsoft.com/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 

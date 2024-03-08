@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMReaderAdvanced4","IWMReaderAdvanced4 interface [window
 old-location: wmformat\iwmreaderadvanced4.htm
 tech.root: wmformat
 ms.assetid: 56695c57-f6c5-4c57-b3d4-73d169b379fa
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], IWMReaderAdvanced4 interface [windows Media Format],described, IWMReaderAdvanced4Interface, wmformat.iwmreaderadvanced4, wmsdkidl/IWMReaderAdvanced4
 req.header: wmsdkidl.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMReaderAdvanced4</b> interface provides additional functionality to the reader.
 
 An <b>IWMReaderAdvanced4</b> interface exists for every reader object. You can obtain a pointer to an instance of this interface by calling the <b>QueryInterface</b> method of any other interface in the reader object.
@@ -58,7 +60,7 @@ An <b>IWMReaderAdvanced4</b> interface exists for every reader object. You can o
 
 The <b>IWMReaderAdvanced4</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3</a>. <b>IWMReaderAdvanced4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

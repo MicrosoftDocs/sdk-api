@@ -6,7 +6,7 @@ helpviewer_keywords: ["IEnumStreamIdMap interface [DirectShow]","Skip method","I
 old-location: dshow\ienumstreamidmap_skip.htm
 tech.root: dshow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>Skip</code> method skip the element at the specified index.
 

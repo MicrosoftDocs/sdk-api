@@ -4,7 +4,7 @@ title: Wabiab.h header
 ms.assetid: 03e74b6f-a527-39b0-9e34-b9fd66e3478e
 ms.date: 03/03/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wab wab wab
 f1_keywords:
  - wabiab

@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileGetDisplayUserScope
 tech.root: wcs
 title: ColorProfileGetDisplayUserScope
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileGetDisplayUserScope gets the currently selected color profile scope of the provided display - either user or system.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

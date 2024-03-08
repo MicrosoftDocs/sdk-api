@@ -56,6 +56,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
+To avoid any possible circular locking situation do not call any IMFCameraOcclusionStateMonitor object methods from this callback function.
+
 Register the callback interface by calling [MFCreateCameraOcclusionStateMonitor](nf-mfidl-mfcreatecameraocclusionstatemonitor.md).
 
 ## -see-also

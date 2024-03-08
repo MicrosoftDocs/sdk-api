@@ -284,7 +284,7 @@ __QueryDisplayConfig__ and many other Win32 display APIs have limited awareness 
 ### <a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI virtualization
 This API does not participate in DPI virtualization. All sizes in the DEVMODE structure are in terms of physical pixels, and are not related to the calling context.
 
-## -examples
+## Examples
 
 The following example enumerates active display paths with __QueryDisplayConfig__ and __GetDisplayConfigBufferSizes__ and prints out data for each path using __DisplayConfigGetDeviceInfo__.
 

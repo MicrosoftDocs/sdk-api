@@ -50,12 +50,9 @@ api_name:
  - RegisterDragDrop
 ---
 
-# RegisterDragDrop function
-
-
 ## -description
 
-Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> instance to use for drop operations.
+Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the <a href="/windows/win32/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> instance to use for drop operations.
 
 ## -parameters
 
@@ -65,7 +62,7 @@ Handle to a window that can be a target for an OLE drag-and-drop operation.
 
 ### -param pDropTarget [in]
 
-Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface on the object that is to be the target of a drag-and-drop operation in a specified window. This interface is used to communicate OLE drag-and-drop information for that window.
+Pointer to the <a href="/windows/win32/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface on the object that is to be the target of a drag-and-drop operation in a specified window. This interface is used to communicate OLE drag-and-drop information for that window.
 
 ## -returns
 
@@ -112,21 +109,21 @@ Insufficient memory for the operation.
 </table>
  
 
-<div class="alert"><b>Note</b>  If you use <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> instead of <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> to initialize COM, <b>RegisterDragDrop</b> will always return an E_OUTOFMEMORY error.</div>
+<div class="alert"><b>Note</b>  If you use <a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> instead of <a href="/windows/win32/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> to initialize COM, <b>RegisterDragDrop</b> will always return an E_OUTOFMEMORY error.</div>
 <div> </div>
 
 ## -remarks
 
-If your application can accept dropped objects during OLE drag-and-drop operations, you must call the <b>RegisterDragDrop</b> function. Do this whenever one of your application windows is available as a potential drop target, i.e., when the window appears unobscured on the screen.
+If your application can accept dropped objects during OLE drag-and-drop operations, you must call the **RegisterDragDrop** function. Do this whenever one of your application windows is available as a potential drop target; that is, when the window appears unobscured on the screen.
 
-The application thread that calls the <b>RegisterDragDrop</b> function must be pumping messages, presumably by calling the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function with a <b>NULL</b><i>hWnd</i> parameter, because OLE creates windows on the thread that need messages processed. If this requirement is not met, any application that drags an object over the window that is registered as a drop target will hang until the target application closes.
+The application thread that calls the **RegisterDragDrop** function must be pumping messages, presumably by calling the [GetMessage](/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb) function with a **NULL** *hWnd* parameter, because OLE creates windows on the thread that need messages processed. If this requirement isn't met, then any application that drags an object over the window that is registered as a drop target will hang until the target application closes.
 
-The <b>RegisterDragDrop</b> function only registers one window at a time, so you must call it for each application window capable of accepting dropped objects.
+The **RegisterDragDrop** function only registers one window at a time, so you must call it for each application window capable of accepting dropped objects.
 
-As the mouse passes over unobscured portions of the target window during an OLE drag-and-drop operation, the <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls the specified <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method for the current window. When a drop operation actually occurs in a given window, the <b>DoDragDrop</b> function calls <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a>.
+As the mouse passes over unobscured portions of the target window during an OLE drag-and-drop operation, the <a href="/windows/win32/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls the specified <a href="/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method for the current window. When a drop operation actually occurs in a given window, the **DoDragDrop** function calls <a href="/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a>.
 
-The <b>RegisterDragDrop</b> function also calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> method on the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> pointer.
+The **RegisterDragDrop** function also calls the <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> method on the <a href="/windows/win32/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> pointer.
 
 ## -see-also
 
-<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
+<a href="/windows/win32/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>

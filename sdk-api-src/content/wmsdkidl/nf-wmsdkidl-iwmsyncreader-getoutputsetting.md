@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media
 old-location: wmformat\iwmsyncreader_getoutputsetting.htm
 tech.root: wmformat
 ms.assetid: b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputSetting method, IWMSyncReader.GetOutputSetting, IWMSyncReader::GetOutputSetting, IWMSyncReaderGetOutputSetting, wmformat.iwmsyncreader_getoutputsetting, wmsdkidl/IWMSyncReader::GetOutputSetting
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetOutputSetting</b> method retrieves a setting for a particular output by name.
 

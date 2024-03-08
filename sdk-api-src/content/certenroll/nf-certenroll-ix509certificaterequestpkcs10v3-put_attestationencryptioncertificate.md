@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
 title: IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate (certenroll.h)
-description: The certificate used to encrypt the EKPUB and EKCERT values from the client. This property must be set to a valid certificate that chains to a trusted machine root.
+description: The certificate used to encrypt the EKPUB and EKCERT values from the client. This property must be set to a valid certificate that chains to a trusted machine root. (Put)
 helpviewer_keywords: ["AttestationEncryptionCertificate property [Security]","AttestationEncryptionCertificate property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","AttestationEncryptionCertificate property","IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate","IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate","IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate","IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate","IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate","certenroll/IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate","certenroll/IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate","certenroll/IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate","put_AttestationEncryptionCertificate","security.ix509certificaterequestpkcs10v3_attestationencryptioncertificate"]
 old-location: security\ix509certificaterequestpkcs10v3_attestationencryptioncertificate.htm
 tech.root: security

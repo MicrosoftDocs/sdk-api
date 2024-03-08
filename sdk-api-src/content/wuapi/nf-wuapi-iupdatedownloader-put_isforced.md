@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_IsForced
 title: IUpdateDownloader::put_IsForced (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed.
+description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed. (Put)
 helpviewer_keywords: ["IUpdateDownloader interface [Windows Update Agent]","IsForced property","IUpdateDownloader.IsForced","IUpdateDownloader.put_IsForced","IUpdateDownloader::IsForced","IUpdateDownloader::get_IsForced","IUpdateDownloader::put_IsForced","IsForced property [Windows Update Agent]","IsForced property [Windows Update Agent]","IUpdateDownloader interface","put_IsForced","wua.iupdatedownloader_isforced","wuapi/IUpdateDownloader::IsForced","wuapi/IUpdateDownloader::get_IsForced","wuapi/IUpdateDownloader::put_IsForced"]
 old-location: wua\iupdatedownloader_isforced.htm
 tech.root: wua

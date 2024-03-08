@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetExpectedPacketCount","GetExpectedPacketCount method [w
 old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm
 tech.root: wmformat
 ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetExpectedPacketCount, GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetExpectedPacketCount method, IWMProfile3.GetExpectedPacketCount, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetExpectedPacketCount</b> method calculates the expected <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 

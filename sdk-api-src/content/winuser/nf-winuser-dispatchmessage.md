@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.DispatchMessage
 title: DispatchMessage function (winuser.h)
-description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function.
+description: The DispatchMessage function dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function. 
 helpviewer_keywords: ["DispatchMessage","DispatchMessage function [Windows and Messages]","DispatchMessageA","DispatchMessageW","_win32_DispatchMessage","_win32_dispatchmessage_cpp","winmsg.dispatchmessage","winui._win32_dispatchmessage","winuser/DispatchMessage","winuser/DispatchMessageA","winuser/DispatchMessageW"]
 old-location: winmsg\dispatchmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\dispatchmessage.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DispatchMessage, DispatchMessage function [Windows and Messages], DispatchMessageA, DispatchMessageW, _win32_DispatchMessage, _win32_dispatchmessage_cpp, winmsg.dispatchmessage, winui._win32_dispatchmessage, winuser/DispatchMessage, winuser/DispatchMessageA, winuser/DispatchMessageW
 req.header: winuser.h
 req.include-header: Windows.h

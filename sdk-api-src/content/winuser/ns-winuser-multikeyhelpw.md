@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMULTIKEYHELPW
 title: MULTIKEYHELPW (winuser.h)
-description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
+description: Specifies a keyword to search for and the keyword table to be searched by Windows Help. (Unicode)
 helpviewer_keywords: ["*LPMULTIKEYHELPW","*PMULTIKEYHELPW","MULTIKEYHELP","MULTIKEYHELP structure [Windows Shell]","MULTIKEYHELPW","_win32_MULTIKEYHELP_str","shell.MULTIKEYHELP_str","tagMULTIKEYHELPA","tagMULTIKEYHELPW","winuser/MULTIKEYHELP"]
 old-location: shell\MULTIKEYHELP_str.htm
 tech.root: shell
@@ -66,13 +66,13 @@ The structure size, in bytes.
 
 ### -field mkKeylist
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 A single character that identifies the keyword table to search.
 
 ### -field szKeyphrase
 
-Type: <b>TCHAR[1]</b>
+Type: <b>WCHAR[1]</b>
 
 A null-terminated text string that specifies the keyword to locate in the keyword table.
 

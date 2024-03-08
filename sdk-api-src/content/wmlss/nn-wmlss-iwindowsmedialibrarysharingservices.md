@@ -11,8 +11,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingSer
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
-req.target-min-winversvr: Windows ServerÂ 2008Â R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss/windowsmedialibrarysharingservicesportal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). Media Casting has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use Media Casting instead of #FEATURENAMENOLINK#, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWindowsMediaLibrarySharingServices</b> interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 
 ## -inheritance
 
 The <b>IWindowsMediaLibrarySharingServices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingServices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

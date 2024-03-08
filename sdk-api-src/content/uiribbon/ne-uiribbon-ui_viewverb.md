@@ -54,19 +54,19 @@ Specifies values that identify the type of action to complete on a Ribbon framew
 
 ## -enum-fields
 
-### -field UI_VIEWVERB_CREATE
+### -field UI_VIEWVERB_CREATE:0
 
 Create a View.
 
-### -field UI_VIEWVERB_DESTROY
+### -field UI_VIEWVERB_DESTROY:1
 
 Destroy a View.
 
-### -field UI_VIEWVERB_SIZE
+### -field UI_VIEWVERB_SIZE:2
 
 Resize a View.
 
-### -field UI_VIEWVERB_ERROR
+### -field UI_VIEWVERB_ERROR:3
 
 Unable to complete the action.
 

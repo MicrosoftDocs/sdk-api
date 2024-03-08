@@ -51,59 +51,59 @@ Used to specify the blend mode for all of the Direct2D blending operations.
 
 ## -enum-fields
 
-### -field D2D1_COMPOSITE_MODE_SOURCE_OVER
+### -field D2D1_COMPOSITE_MODE_SOURCE_OVER:0
 
 The standard source-over-destination blend mode.
 
-### -field D2D1_COMPOSITE_MODE_DESTINATION_OVER
+### -field D2D1_COMPOSITE_MODE_DESTINATION_OVER:1
 
 The destination is rendered over the source.
 
-### -field D2D1_COMPOSITE_MODE_SOURCE_IN
+### -field D2D1_COMPOSITE_MODE_SOURCE_IN:2
 
 Performs a logical clip of the source pixels against the destination pixels.
 
-### -field D2D1_COMPOSITE_MODE_DESTINATION_IN
+### -field D2D1_COMPOSITE_MODE_DESTINATION_IN:3
 
 The inverse of the <b>D2D1_COMPOSITE_MODE_SOURCE_IN</b> operation.
 
-### -field D2D1_COMPOSITE_MODE_SOURCE_OUT
+### -field D2D1_COMPOSITE_MODE_SOURCE_OUT:4
 
 This is the logical inverse to <b>D2D1_COMPOSITE_MODE_SOURCE_IN</b>.
 
-### -field D2D1_COMPOSITE_MODE_DESTINATION_OUT
+### -field D2D1_COMPOSITE_MODE_DESTINATION_OUT:5
 
 The is the logical inverse to <b>D2D1_COMPOSITE_MODE_DESTINATION_IN</b>.
 
-### -field D2D1_COMPOSITE_MODE_SOURCE_ATOP
+### -field D2D1_COMPOSITE_MODE_SOURCE_ATOP:6
 
 Writes the source pixels over the destination where there are destination pixels.
 
-### -field D2D1_COMPOSITE_MODE_DESTINATION_ATOP
+### -field D2D1_COMPOSITE_MODE_DESTINATION_ATOP:7
 
 The logical inverse of <b>D2D1_COMPOSITE_MODE_SOURCE_ATOP</b>.
 
-### -field D2D1_COMPOSITE_MODE_XOR
+### -field D2D1_COMPOSITE_MODE_XOR:8
 
 The source is inverted with the destination.
 
-### -field D2D1_COMPOSITE_MODE_PLUS
+### -field D2D1_COMPOSITE_MODE_PLUS:9
 
 The channel components are summed.
 
-### -field D2D1_COMPOSITE_MODE_SOURCE_COPY
+### -field D2D1_COMPOSITE_MODE_SOURCE_COPY:10
 
 The source is copied to the destination; the destination pixels are ignored.
 
-### -field D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY
+### -field D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY:11
 
 Equivalent to <b>D2D1_COMPOSITE_MODE_SOURCE_COPY</b>, but pixels outside of the source bounds are unchanged.
 
-### -field D2D1_COMPOSITE_MODE_MASK_INVERT
+### -field D2D1_COMPOSITE_MODE_MASK_INVERT:12
 
 Destination colors are inverted according to a source mask.
 
-### -field D2D1_COMPOSITE_MODE_FORCE_DWORD
+### -field D2D1_COMPOSITE_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

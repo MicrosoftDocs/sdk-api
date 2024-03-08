@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoExA
 title: RpcBindingSetAuthInfoExA function (rpcdce.h)
-description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
-helpviewer_keywords: ["RpcBindingSetAuthInfoEx","RpcBindingSetAuthInfoEx function [RPC]","RpcBindingSetAuthInfoExA","RpcBindingSetAuthInfoExW","_rpc_rpcbindingsetauthinfoex","rpc.rpcbindingsetauthinfoex","rpcdce/RpcBindingSetAuthInfoEx","rpcdce/RpcBindingSetAuthInfoExA","rpcdce/RpcBindingSetAuthInfoExW"]
+description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information. (ANSI)
+helpviewer_keywords: ["RpcBindingSetAuthInfoExA", "rpcdce/RpcBindingSetAuthInfoExA"]
 old-location: rpc\rpcbindingsetauthinfoex.htm
 tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
@@ -99,10 +99,6 @@ Specify a null value to use the security login context for the current address s
 Authorization service implemented by the server for the interface of interest. The validity and trustworthiness of authorization data, like any application data, depends on the authentication service and authentication level selected. This parameter is ignored when using the RPC_C_AUTHN_WINNT authentication service. See Note.
 
 ### -param SecurityQos
-
-TBD
-
-### -param SecurityQOS
 
 Pointer to the 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines the security quality-of-service. 

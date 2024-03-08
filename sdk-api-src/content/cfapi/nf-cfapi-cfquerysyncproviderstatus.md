@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfQuerySyncProviderStatus","CfQuerySyncProviderStatus fun
 old-location: cloudapi\cfquerysyncproviderstatus.htm
 tech.root: cloudapi
 ms.assetid: 02E6197B-D84A-4E3F-A74C-F5DACAA60AF9
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfQuerySyncProviderStatus, CfQuerySyncProviderStatus function, cfapi/CfQuerySyncProviderStatus, cloudApi.cfquerysyncproviderstatus
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfQuerySyncProviderStatus function
 
-
 ## -description
 
 Queries a sync provider to get the status of the provider.
@@ -64,5 +63,8 @@ The current status of the sync provider.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
+## -see-also
+
+[CF_SYNC_PROVIDER_STATUS](ne-cfapi-cf_sync_provider_status.md)

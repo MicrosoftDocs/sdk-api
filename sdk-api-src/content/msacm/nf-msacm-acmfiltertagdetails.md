@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_acmFilterTagDetails","acmFilterTagDetails","acmFil
 old-location: multimedia\acmfiltertagdetails.htm
 tech.root: Multimedia
 ms.assetid: 6b1fd113-5753-4a45-974c-ecf3f5d27866
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails
 req.header: msacm.h
 req.include-header: 

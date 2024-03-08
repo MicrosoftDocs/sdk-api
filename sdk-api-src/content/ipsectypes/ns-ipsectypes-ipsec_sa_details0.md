@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_DETAILS0_
 title: IPSEC_SA_DETAILS0 (ipsectypes.h)
-description: Is used to store information returned when enumerating IPsec security associations (SAs).
+description: Is used to store information returned when enumerating IPsec security associations (SAs). (IPSEC_SA_DETAILS0)
 helpviewer_keywords: ["IPSEC_SA_DETAILS0","IPSEC_SA_DETAILS0 structure [Filtering]","fwp.ipsec_sa_details0_struct","ipsectypes/IPSEC_SA_DETAILS0"]
 old-location: fwp\ipsec_sa_details0_struct.htm
 tech.root: fwp

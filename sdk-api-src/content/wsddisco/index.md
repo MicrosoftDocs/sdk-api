@@ -4,7 +4,7 @@ title: Wsddisco.h header
 ms.assetid: 063566b8-f09e-3d4f-9c03-1ebc54395faa
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ncd
 f1_keywords:
  - wsddisco

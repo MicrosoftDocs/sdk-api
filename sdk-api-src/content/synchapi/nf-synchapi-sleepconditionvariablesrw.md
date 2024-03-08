@@ -6,10 +6,10 @@ helpviewer_keywords: ["SleepConditionVariableSRW","SleepConditionVariableSRW fun
 old-location: base\sleepconditionvariablesrw.htm
 tech.root: base
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base.sleepconditionvariablesrw, synchapi/SleepConditionVariableSRW, winbase/SleepConditionVariableSRW
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -46,12 +46,12 @@ api_location:
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - SleepConditionVariableSRW
 ---
 
 # SleepConditionVariableSRW function
-
 
 ## -description
 
@@ -61,41 +61,40 @@ Sleeps on the specified condition variable and releases the specified lock as an
 
 ### -param ConditionVariable [in, out]
 
-A pointer to the condition variable. This variable must be initialized using the <a href="/windows/desktop/api/synchapi/nf-synchapi-initializeconditionvariable">InitializeConditionVariable</a> function.
+A pointer to the condition variable. This variable must be initialized using the [InitializeConditionVariable](nf-synchapi-initializeconditionvariable.md) function.
 
 ### -param SRWLock [in, out]
 
-A pointer to the lock. This lock must be held in the manner specified by the <i>Flags</i> parameter.
+A pointer to the lock. This lock must be held in the manner specified by the *Flags* parameter.
 
 ### -param dwMilliseconds [in]
 
-The time-out interval, in milliseconds. The function returns if the interval elapses. If <i>dwMilliseconds</i> is zero, the function tests the states of the specified objects and returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function's time-out interval never elapses.
+The time-out interval, in milliseconds. The function returns if the interval elapses. If *dwMilliseconds* is zero, the function tests the states of the specified objects and returns immediately. If *dwMilliseconds* is **INFINITE**, the function's time-out interval never elapses.
 
 ### -param Flags [in]
 
-If this parameter is <b>CONDITION_VARIABLE_LOCKMODE_SHARED</b>, the SRW lock is in shared mode. Otherwise, the lock is in exclusive mode.
+If this parameter is **CONDITION_VARIABLE_LOCKMODE_SHARED**, the SRW lock is in shared mode. Otherwise, the lock is in exclusive mode.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is `0`. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
-If the timeout expires the function returns FALSE and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_TIMEOUT.
+If the timeout expires the function returns `FALSE` and [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) returns **ERROR_TIMEOUT**.
 
 ## -remarks
 
 If the lock is unlocked when this function is called, the function behavior is undefined.
 
-The thread can be woken using the <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable">WakeAllConditionVariable</a> function. After the thread is woken, it re-acquires the lock it released when the thread entered the sleeping state.
+The thread can be woken using the [WakeConditionVariable](nf-synchapi-wakeconditionvariable.md) or [WakeAllConditionVariable](nf-synchapi-wakeallconditionvariable.md) function. After the thread is woken, it re-acquires the lock it released when the thread entered the sleeping state.
 
-Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a <b>while</b> loop) after a sleep operation returns.
+Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a `while` loop) after a sleep operation returns.
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

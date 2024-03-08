@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.GetOpenFileNamePreviewA
 title: GetOpenFileNamePreviewA function (vfw.h)
-description: The GetOpenFileNamePreview function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the GetOpenFileName function.
-helpviewer_keywords: ["GetOpenFileNamePreview","GetOpenFileNamePreview function [Windows Multimedia]","GetOpenFileNamePreviewA","GetOpenFileNamePreviewW","_win32_GetOpenFileNamePreview","multimedia.getopenfilenamepreview","vfw/GetOpenFileNamePreview","vfw/GetOpenFileNamePreviewA","vfw/GetOpenFileNamePreviewW"]
+description: The GetOpenFileNamePreview function selects a file by using the Open dialog box. The dialog box also allows the user to preview the currently specified AVI file. This function augments the capability found in the GetOpenFileName function. (ANSI)
+helpviewer_keywords: ["GetOpenFileNamePreviewA", "vfw/GetOpenFileNamePreviewA"]
 old-location: multimedia\getopenfilenamepreview.htm
 tech.root: Multimedia
 ms.assetid: f0247d7b-47e2-436b-a783-ae78974f8340

@@ -1,15 +1,15 @@
 ---
 UID: NS:netioapi._DNS_INTERFACE_SETTINGS
 title: DNS_INTERFACE_SETTINGS
-description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+description: Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function or retrieved for a given interface by calling the [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings) function. (DNS_INTERFACE_SETTINGS)
 tech.root: IpHlp
 ms.date: 07/15/2021
 req.header: netioapi.h
 req.construct-type: structure
 req.include-header: Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: None supported
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Windows 10 Build 18362
+req.target-min-winversvr: Windows 10 Build 18362
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function.
+Represents the DNS settings that can be configured on a given interface by calling the [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings) function or retrieved for a given interface by calling the [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings) function.
 
 ## -struct-fields
 
@@ -133,4 +133,5 @@ If the **DNS_SETTING_IPV6** flag is present, then the servers must be IPv6 addre
 
 ## -see-also
 
+* [GetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 * [SetInterfaceDnsSettings](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)

@@ -28,6 +28,8 @@ topic_type:
  - apiref
 api_location:
 - Kernel32.dll
+- sqlite.dll
+- api-ms-win-core-file-fromapp-l1-1-0.dll
 api_name:
 - CreateFile2FromAppW
 - CreateFile2FromApp
@@ -157,7 +159,7 @@ This parameter must be one of the following values, which cannot be combined:
 <strong>CREATE_ALWAYS</strong>
 2</td>
 <td><p>Creates a new file, always.</p>
-<p>If the specified file exists and is writable, the function overwrites the file, the function succeeds, and last-error code is set to <strong>ERROR_ALREADY_EXISTS</strong> (183).</p>
+<p>If the specified file exists and is writable, the function truncates the file, the function succeeds, and last-error code is set to <strong>ERROR_ALREADY_EXISTS</strong> (183).</p>
 <p>If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and the last-error code is set to zero.</p></td>
 </tr>
 <tr class="even">

@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtQueryInformationProcess
 title: NtQueryInformationProcess function (winternl.h)
-description: Retrieves information about the specified process.
+description: Retrieves information about the specified process. (NtQueryInformationProcess)
 helpviewer_keywords: ["NtQueryInformationProcess","NtQueryInformationProcess function","ProcessBasicInformation","ProcessBreakOnTermination","ProcessDebugPort","ProcessImageFileName","ProcessSubsystemInformation","ProcessWow64Information","base.ntqueryinformationprocess","winternl/NtQueryInformationProcess"]
 old-location: base\ntqueryinformationprocess.htm
 tech.root: backup
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -134,6 +134,22 @@ Retrieves a <b>ULONG</b> value indicating whether the process is considered crit
 <div> </div>
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="processtelemetryidinformation"></a><a id="processtelemetryidinformation"></a><a id="PROCESSTELEMETRYIDINFORMATION"></a><dl>
+<dt><b>ProcessTelemetryIdInformation</b></dt>
+<dt>64</dt>
+</dl>
+</td>
+<td width="60%">
+
+
+Retrieves a <b><a href="/windows/win32/devnotes/process_telemetry_id_information_type">PROCESS_TELEMETRY_ID_INFORMATION_TYPE</a></b> value that contains metadata about a process.
+</td>
+</tr>
+
+
+
 <tr>
 <td width="40%"><a id="ProcessSubsystemInformation"></a><a id="processsubsysteminformation"></a><a id="PROCESSSUBSYSTEMINFORMATION"></a><dl>
 <dt><b>ProcessSubsystemInformation</b></dt>

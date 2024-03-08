@@ -65,11 +65,11 @@ typedef enum {
 
 ## -enum-fields
 
-### -field opReportLegacy
+### -field opReportLegacy:0
 
 Use administrative template ADM files.
 
-### -field opReportComments
+### -field opReportComments:1
 
 Include comments.
 

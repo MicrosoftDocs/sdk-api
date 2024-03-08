@@ -1,8 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExA
 title: GetAddrInfoExA function (ws2tcpip.h)
-description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
-helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request. (ANSI)
+helpviewer_keywords: ["GetAddrInfoExA", "NS_ALL", "NS_BTH", "NS_DNS", "NS_EMAIL", "NS_NETBT", "NS_NLA", "NS_NTDS", "NS_PNRPCLOUD", "NS_PNRPNAME", "NS_WINS", "ws2tcpip/GetAddrInfoExA"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
@@ -11,7 +11,7 @@ ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, Ge
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -247,7 +247,7 @@ An optional pointer to a function to be invoked upon successful completion for a
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function.
 
-On Windows 8 and Windows Server 2012, if this parameter is specified, it must be a pointer to a function with the following signature:
+If this parameter is specified, it must be a pointer to a function with the following signature:
 
 
 ```cpp
@@ -509,8 +509,7 @@ Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service 
 
 A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/2386184">Knowledge Base (KB) 2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/975808">Knowledge Base (KB) 975808</a>. 
-
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS. 
 
 Callers of the 
 <b>GetAddrInfoEx</b> function can provide hints about the type of socket supported through an 

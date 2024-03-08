@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.LockRect
 title: IDirect3DSurface9::LockRect (d3d9helper.h)
-description: Locks a rectangle on a surface.
+description: The IDirect3DSurface9::LockRect method (d3d9helper.h) locks a rectangle on a surface.
 helpviewer_keywords: ["95e6910d-b701-2649-b38f-7c2f4fe99c47","IDirect3DSurface9 interface [Direct3D 9]","LockRect method","IDirect3DSurface9.LockRect","IDirect3DSurface9::LockRect","LockRect","LockRect method [Direct3D 9]","LockRect method [Direct3D 9]","IDirect3DSurface9 interface","d3d9helper/IDirect3DSurface9::LockRect","direct3d9.idirect3dsurface9__lockrect"]
 old-location: direct3d9\idirect3dsurface9__lockrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__lockrect.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 95e6910d-b701-2649-b38f-7c2f4fe99c47, IDirect3DSurface9 interface [Direct3D 9],LockRect method, IDirect3DSurface9.LockRect, IDirect3DSurface9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DSurface9 interface, d3d9helper/IDirect3DSurface9::LockRect, direct3d9.idirect3dsurface9__lockrect
 req.header: d3d9helper.h
 req.include-header: D3D9.h
@@ -102,7 +102,7 @@ For performance reasons, dirty regions are recorded only for level zero of a tex
 
 A multisample back buffer cannot be locked.
 
-This method cannot retrieve data from a surface that is is contained by a texture resource created with <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
+This method cannot retrieve data from a surface that is contained by a texture resource created with <a href="/windows/desktop/direct3d9/d3dusage">D3DUSAGE_RENDERTARGET</a> because such a texture must be assigned to D3DPOOL_DEFAULT memory and is therefore not lockable. In this case, use instead <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">IDirect3DDevice9::GetRenderTargetData</a> to copy texture data from device memory to system memory.
 
 ## -see-also
 

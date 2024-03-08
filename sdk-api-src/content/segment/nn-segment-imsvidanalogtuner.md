@@ -11,7 +11,7 @@ ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Techno
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IMSVidAnalogTuner</b> interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA). This interface provides Automation access to the <a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a> and <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> interfaces.
 
 ## -inheritance
 
 The <b>IMSVidAnalogTuner</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>. <b>IMSVidAnalogTuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

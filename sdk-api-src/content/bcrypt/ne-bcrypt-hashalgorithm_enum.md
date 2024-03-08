@@ -1,5 +1,5 @@
 ---
-UID: NE:bcrypt.__unnamed_enum_2
+UID: NE:bcrypt.HASHALGORITHM_ENUM
 title: HASHALGORITHM_ENUM (bcrypt.h)
 description: Specifies signing and hashing algorithms.
 helpviewer_keywords: ["DSA_HASH_ALGORITHM_SHA1","DSA_HASH_ALGORITHM_SHA256","DSA_HASH_ALGORITHM_SHA512","HASHALGORITHM_ENUM","HASHALGORITHM_ENUM enumeration [Security]","bcrypt/DSA_HASH_ALGORITHM_SHA1","bcrypt/DSA_HASH_ALGORITHM_SHA256","bcrypt/DSA_HASH_ALGORITHM_SHA512","bcrypt/HASHALGORITHM_ENUM","security.hashalgorithm_enum"]
@@ -73,3 +73,4 @@ Represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algo
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
+

@@ -5,7 +5,7 @@ description: Sets the segment information and data points for segments in the fi
 old-location: xps\ixpsomgeometryfigure_setsegments.htm
 tech.root: xps
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
 req.header: xpsobjectmodel.h
 req.include-header: 
@@ -187,7 +187,7 @@ Two data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lc.png"/>
+<img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment." src="./images/segment_type_arc_lc.png"/>
 
 </td>
 <td>
@@ -225,7 +225,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lcc.png"/>
+<img alt="Diagram of an XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE figure segment." src="./images/segment_type_arc_lcc.png"/>
 
 </td>
 <td>
@@ -590,7 +590,7 @@ UpdateSegmentData (
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

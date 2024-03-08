@@ -73,6 +73,6 @@ Specifies the number of nodes.
 
 Reserved.
 
-### -field Node [ANYSIZE_ARRAY]
+### -field Node
 
 A node as specified by a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.

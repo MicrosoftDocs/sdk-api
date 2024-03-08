@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IVMRAspectRatioControl.SetAspectRatioMode
 title: IVMRAspectRatioControl::SetAspectRatioMode (strmif.h)
-description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video.
+description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video. (IVMRAspectRatioControl.SetAspectRatioMode)
 helpviewer_keywords: ["IVMRAspectRatioControl interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl.SetAspectRatioMode","IVMRAspectRatioControl::SetAspectRatioMode","IVMRAspectRatioControlSetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl interface","dshow.ivmraspectratiocontrol_setaspectratiomode","strmif/IVMRAspectRatioControl::SetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol_setaspectratiomode.htm
 tech.root: dshow
 ms.assetid: e73362ea-b153-4d25-b30e-c69274b49bf9
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRAspectRatioControl interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl.SetAspectRatioMode, IVMRAspectRatioControl::SetAspectRatioMode, IVMRAspectRatioControlSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl interface, dshow.ivmraspectratiocontrol_setaspectratiomode, strmif/IVMRAspectRatioControl::SetAspectRatioMode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetAspectRatioMode</code> method specifies whether the VMR will preserve the aspect ratio of the source video.
 

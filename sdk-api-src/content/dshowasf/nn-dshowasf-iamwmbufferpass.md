@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMWMBufferPass","IAMWMBufferPass interface [windows Medi
 old-location: wmformat\iamwmbufferpass.htm
 tech.root: wmformat
 ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
 req.header: dshowasf.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IAMWMBufferPass</b> interface is implemented on the output pins of the <a href="/windows/desktop/wmformat/wm-asf-reader-filter">WM ASF Reader</a> and the input pins of the <a href="/windows/desktop/wmformat/wm-asf-writer-filter">WM ASF Writer</a>. Applications use it to give the pin a pointer to the <a href="/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback</a> interface on an application-defined object that gets and sets properties and data unit extensions on individual samples in a stream. One common use for this interface is to force key-frame insertion in a variable bit rate video stream during file writing. To do this, you must set the <a href="/windows/desktop/wmformat/wmformat-glossary">cleanpoint</a> property on individual <b>INSSBuffer3</b> samples.
 
 ## -inheritance
 
 The <b>IAMWMBufferPass</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMWMBufferPass</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -47,10 +47,11 @@ api_name:
 
 # CreateIcon function
 
-
 ## -description
 
 Creates an icon that has the specified size, colors, and bit patterns.
+
+To create a colored icon at run time you can use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a icon based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
 
 ## -parameters
 
@@ -64,19 +65,19 @@ A handle to the instance of the module creating the icon.
 
 Type: <b>int</b>
 
-The width, in pixels, of the icon.
+The width, in pixels, of the icon. See remarks.
 
 ### -param nHeight [in]
 
 Type: <b>int</b>
 
-The height, in pixels, of the icon.
+The height, in pixels, of the icon. See remarks.
 
 ### -param cPlanes [in]
 
 Type: <b>BYTE</b>
 
-The number of planes in the XOR bitmask of the icon.
+The number of planes in the XOR bitmask of the icon. See remarks.
 
 ### -param cBitsPixel [in]
 
@@ -88,13 +89,13 @@ The number of bits-per-pixel in the XOR bitmask of the icon.
 
 Type: <b>const BYTE*</b>
 
-An array of bytes that contains the bit values for the AND bitmask of the icon. This bitmask describes a monochrome bitmap.
+An array of bytes that contains the bit values for the AND bitmask of the icon. This bitmask describes a monochrome bitmap. See remarks.
 
 ### -param lpbXORbits [in]
 
 Type: <b>const BYTE*</b>
 
-An array of bytes that contains the bit values for the XOR bitmask of the icon. This bitmask describes a monochrome or device-dependent color bitmap.
+An array of bytes that contains the bit values for the XOR bitmask of the icon. This bitmask describes a monochrome or color bitmap. See remarks.
 
 ## -returns
 
@@ -106,60 +107,29 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
+To determine the nominal size of the icon, use the [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function, specifying the **SM_CXICON** or **SM_CYICON** value. Also, you can use the DPI-aware version of this API, see (GetSystemMetricsForDpi)(/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi). For more information see [Icon Sizes](/windows/desktop/menurc/about-icons#icon-sizes) and [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). 
 
-<b>CreateIcon</b> applies the following truth table to the AND and XOR bitmasks.
+For more information about _lpbANDbits_ and _lpbXORbits_ parameters see description of _lpBits_ parameter of [CreateBitmap](/windows/win32/api/wingdi/nf-wingdi-createbitmap) function. 
 
-<table class="clsStd">
-<tr>
-<th>AND bitmask</th>
-<th>XOR bitmask</th>
-<th>Display</th>
-</tr>
-<tr>
-<td>0</td>
-<td>0</td>
-<td>Black </td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>White </td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>Screen </td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>Reverse screen </td>
-</tr>
-</table>
- 
+In case of monochrome icon **CreateIcon** applies the following truth table to the AND and XOR bitmasks:
 
-When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+| AND bitmask | XOR bitmask | Display |
+|:-:|:-:|:-:|
+| 0 | 0 | Black |
+| 0 | 1 | White |
+| 1 | 0 | Screen |
+| 1 | 1 | Reverse screen |
 
+When you are finished using the icon, destroy it using the [DestroyIcon](/windows/desktop/api/winuser/nf-winuser-destroyicon) function.
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/menurc/using-icons">Creating an Icon</a>.
-
-<div class="code"></div>
+For an example, see [Creating an Icon](/windows/desktop/menurc/using-icons).
 
 ## -see-also
 
-<b>Conceptual</b>
+[CreateIconIndirect](/windows/desktop/api/Winuser/nf-winuser-createiconindirect)
 
+[Icons](/windows/desktop/menurc/icons)
 
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
-
-
-<a href="/windows/desktop/menurc/icons">Icons</a>
-
-
-
-<b>Other Resources</b>
+[Icon Sizes](/windows/desktop/menurc/about-icons#icon-sizes)

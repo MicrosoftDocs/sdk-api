@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_RESAMPLE1_OPERATOR_DESC
 title: DML_RESAMPLE1_OPERATOR_DESC
-description: Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode.
+description: Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode. (DML_RESAMPLE1_OPERATOR_DESC)
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 01/08/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -68,13 +68,13 @@ This field determines the kind of interpolation used to choose output pixels.
 
 - **DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR**. Uses the *Nearest Neighbor* algorithm, which chooses the input element nearest to the corresponding pixel center for each output element.
 
-- **DML_INTERPOLATION_MODE_LINEAR**. Uses the *Quadrilinear* algorithm, which computes the output element by doing the weighted average of the 2 nearest neighboring input elements per dimension. Since all 4 dimensions can be resampled, the weighted average is computed on a total of 16 input elements for each output element.
+- **DML_INTERPOLATION_MODE_LINEAR**. Uses the *Linear Interpolation* algorithm, which computes the output element by computing the weighted average of the 2 nearest neighboring input elements per dimension. Resampling is supported up to 4 dimensions (quadrilinear), where the weighted average is computed on a total of 16 input elements for each output element.
 
 ### -field DimensionCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of values in the arrays that *Scales*, *InputPixelOffsets*, and *OutputPixelOffsets* point to. This value must match the dimension count of *InputTensor* and *OutputTensor*, which has to be 4.
+The number of values in the arrays that *Scales*, *InputPixelOffsets*, and *OutputPixelOffsets* point to. This value must match the dimension count of *InputTensor* and *OutputTensor*.
 
 ### -field Scales
 
@@ -101,9 +101,22 @@ When the *InputPixelOffsets* are set to 0.5, and the *OutputPixelOffsets* are se
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-*InputTensor* and *OutputTensor* must have the same *DataType*.
+*InputTensor* and *OutputTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_6_2 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 4 | FLOAT32, FLOAT16, INT8, UINT8 |
+| OutputTensor | Output | 1 to 4 | FLOAT32, FLOAT16, INT8, UINT8 |
+
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 4 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 | FLOAT32, FLOAT16 |

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_Context
 title: IRDPSRAPITransportStreamBuffer::put_Context (rdpencomapi.h)
-description: This property is reserved for use by the Remote Desktop Protocol (RDP) stack. Do not modify it.
+description: This property is reserved for use by the Remote Desktop Protocol (RDP) stack. Do not modify it. (Put)
 helpviewer_keywords: ["Context property [RDP]","Context property [RDP]","IRDPSRAPITransportStreamBuffer interface","IRDPSRAPITransportStreamBuffer interface [RDP]","Context property","IRDPSRAPITransportStreamBuffer.Context","IRDPSRAPITransportStreamBuffer.put_Context","IRDPSRAPITransportStreamBuffer::Context","IRDPSRAPITransportStreamBuffer::get_Context","IRDPSRAPITransportStreamBuffer::put_Context","put_Context","rdp.irdpsrapitransportstreambuffer_context","rdpencomapi/IRDPSRAPITransportStreamBuffer::Context","rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Context","rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Context"]
 old-location: rdp\irdpsrapitransportstreambuffer_context.htm
 tech.root: rdp

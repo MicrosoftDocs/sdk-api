@@ -56,7 +56,7 @@ Describes the joint made by two intersecting line segments.
 
 ## -enum-fields
 
-### -field XPS_LINE_JOIN_MITER
+### -field XPS_LINE_JOIN_MITER:1
 
 Produces a sharp or clipped corner, depending on whether the length of the miter exceeds the miter limit.
 
@@ -76,5 +76,5 @@ In the illustration that follows, the shaded area at the vertex of the line segm
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 

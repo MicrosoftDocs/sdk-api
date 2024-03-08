@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumSystemLocalesA
 title: EnumSystemLocalesA function (winnls.h)
-description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.
-helpviewer_keywords: ["EnumSystemLocales","EnumSystemLocales function [Internationalization for Windows Applications]","EnumSystemLocalesA","EnumSystemLocalesW","LCID_ALTERNATE_SORTS","LCID_INSTALLED","LCID_SUPPORTED","_win32_EnumSystemLocales","intl.enumsystemlocales","winnls/EnumSystemLocales","winnls/EnumSystemLocalesA","winnls/EnumSystemLocalesW"]
+description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx. (ANSI)
+helpviewer_keywords: ["EnumSystemLocalesA", "LCID_ALTERNATE_SORTS", "LCID_INSTALLED", "LCID_SUPPORTED", "winnls/EnumSystemLocalesA"]
 old-location: intl\enumsystemlocales.htm
 tech.root: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571

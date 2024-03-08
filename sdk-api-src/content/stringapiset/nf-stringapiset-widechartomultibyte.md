@@ -6,7 +6,7 @@ helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_SYMBOL","CP_THREAD_ACP"
 old-location: intl\widechartomultibyte.htm
 tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 req.header: stringapiset.h
 req.include-header: Windows.h
@@ -45,22 +45,24 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - WideCharToMultiByte
 ---
 
 # WideCharToMultiByte function
 
-
 ## -description
 
 Maps a UTF-16 (wide character) string to a new character string. The new character string is not necessarily from a multibyte character set.
-        <div class="alert"><b>Caution</b>  Using the <b>WideCharToMultiByte</b> function incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by <i>lpWideCharStr</i> equals the number of characters in the Unicode string, while the size of the output buffer indicated by <i>lpMultiByteStr</i> equals the number of bytes. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives.
+
+<div class="alert"><b>Caution</b>  Using the <b>WideCharToMultiByte</b> function incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by <i>lpWideCharStr</i> equals the number of characters in the Unicode string, while the size of the output buffer indicated by <i>lpMultiByteStr</i> equals the number of bytes. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives.
 
 <p class="note">Data converted from UTF-16 to non-Unicode encodings is subject to data loss, because a code page might not be able to represent every character used in the specific Unicode data. For more information, see <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.
 
 </div>
 <div> </div>
+
 <div class="alert"><b>Note</b>  The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
 <div> </div>
 
@@ -81,7 +83,7 @@ Code page to use in performing the conversion. This parameter can be set to the 
 </dl>
 </td>
 <td width="60%">
-The system default Windows ANSI code page. 
+The system default Windows ANSI code page.
 
 <div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
 <div> </div>
@@ -175,7 +177,7 @@ Flags indicating the conversion type. The application can specify a combination 
 Convert composite characters, consisting of a base character and a nonspacing character, each with different character values. Translate these characters to precomposed characters, which have a single character value for a base-nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character.<div class="alert"><b>Note</b>  Windows normally represents Unicode strings with precomposed data, making the use of the WC_COMPOSITECHECK flag unnecessary.</div>
 <div> </div>
 
-Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#-remarks) section.
+Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#remarks) section.
 
 <table>
 <tr>
@@ -254,7 +256,7 @@ Pointer to a buffer that receives the converted string.
 
 ### -param cbMultiByte [in]
 
-Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this parameter is set to 0, the function returns the required buffer size for <i>lpMultiByteStr</i> and makes no use of the output parameter itself.
+Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this value is 0, the function returns the required buffer size, in bytes, including any terminating null character, and makes no use of the <i>lpMultiByteStr</i> buffer.
 
 ### -param lpDefaultChar [in, optional]
 
@@ -318,7 +320,6 @@ The <b>WideCharToMultiByte</b> function operates most efficiently when both <i>l
 <td>Uses the specified default character and sets <i>lpUsedDefaultChar</i> if necessary.</td>
 </tr>
 </table>
- 
 
 Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function to produce valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
 
@@ -367,12 +368,10 @@ Return Value:
 
 ## -see-also
 
-<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+[MultiByteToWideChar](nf-stringapiset-multibytetowidechar.md)
 
+[Unicode and Character Set Functions](/windows/win32/Intl/unicode-and-character-set-functions)
 
+[Unicode and Character Sets](/windows/win32/Intl/unicode-and-character-sets)
 
-<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
-
-
-
-<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

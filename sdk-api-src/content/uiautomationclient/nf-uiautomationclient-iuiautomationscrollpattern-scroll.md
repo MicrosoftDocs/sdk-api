@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.Scroll
 title: IUIAutomationScrollPattern::Scroll (uiautomationclient.h)
-description: Scrolls the visible region of the content area horizontally and vertically.
+description: Scrolls the visible region of the content area horizontally and vertically. (IUIAutomationScrollPattern.Scroll)
 helpviewer_keywords: ["IUIAutomationScrollPattern interface [Windows Accessibility]","Scroll method","IUIAutomationScrollPattern.Scroll","IUIAutomationScrollPattern::Scroll","Scroll","Scroll method [Windows Accessibility]","Scroll method [Windows Accessibility]","IUIAutomationScrollPattern interface","uiauto.uiauto_IUIAutomationScrollPattern_Scroll","uiauto_IUIAutomationScrollPattern_Scroll","uiautomationclient/IUIAutomationScrollPattern::Scroll","winauto.uiauto_IUIAutomationScrollPattern_Scroll"]
 old-location: winauto\uiauto_IUIAutomationScrollPattern_Scroll.htm
 tech.root: WinAuto
@@ -54,13 +54,13 @@ Scrolls the visible region of the content area horizontally and vertically.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param horizontalAmount [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
 
 A value indicating the size of the horizontal scroll increment, or <b>UIA_ScrollPatternNoScroll</b> if the horizontal position is not to be set.
 
-### -param unnamedParam2 [in]
+### -param verticalAmount [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
 

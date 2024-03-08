@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaStorePrivateData
 title: LsaStorePrivateData function (ntsecapi.h)
-description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
+description: Do not use the LSA private data functions for generic data encryption and decryption. Instead, use the CryptProtectData and CryptUnprotectData functions. Only use the LSA private data functions when it is necessary to manipulate LSA secrets  (LsaStorePrivateData)
 helpviewer_keywords: ["LsaStorePrivateData","LsaStorePrivateData function [Security]","_lsa_lsastoreprivatedata","ntsecapi/LsaStorePrivateData","security.lsastoreprivatedata"]
 old-location: security\lsastoreprivatedata.htm
 tech.root: security
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Do not use the LSA private data functions. Instead, use the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> and <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> functions.
+Do not use the LSA private data functions or generic data encryption and decryption. Instead, use the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> and <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> functions. Only use the LSA private data functions when it is necessary to manipulate LSA secrets as documented in <a href="/openspecs/windows_protocols/ms-lsad/483f1b6e-7b14-4341-9ab2-9b99c01f896e">Secret Object Data Model</a>
 
 ## -parameters
 

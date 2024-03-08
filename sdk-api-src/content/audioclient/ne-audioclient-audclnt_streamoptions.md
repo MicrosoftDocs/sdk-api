@@ -75,6 +75,11 @@ Supported in Windows 10 and later.
 
 ### -field AUDCLNT_STREAMOPTIONS_AMBISONICS
 
+
+### -field AUDCLNT_STREAMOPTIONS_POST_VOLUME_LOOPBACK
+
+The audio client is requesting that the loopback stream tap into the playing audio after volume and/or mute settings have been applied. The default behavior is for the loopback stream to be tapped before volume and/or mute.
+
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>

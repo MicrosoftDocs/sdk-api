@@ -1,12 +1,12 @@
 ---
-UID: NS:dvdmedia.__unnamed_struct_7
+UID: NS:dvdmedia.AM_QueryRate
 title: AM_QueryRate (dvdmedia.h)
 description: The AM_QueryRate structure is used to query the decoder's maximum full-frame rate for forward and reverse playback.
 helpviewer_keywords: ["AM_QueryRate","AM_QueryRate structure [DirectShow]","AM_QueryRateStructure","dshow.am_queryrate","dvdmedia/AM_QueryRate"]
 old-location: dshow\am_queryrate.htm
 tech.root: dshow
 ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 req.header: dvdmedia.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>AM_QueryRate</b> structure is used to query the decoder's maximum full-frame rate for forward and reverse playback.
 
 ## -struct-fields
@@ -73,3 +75,4 @@ Rate is the inverse of speed. For example, if the playback speed is 2x, the rate
 
 
 <a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
+

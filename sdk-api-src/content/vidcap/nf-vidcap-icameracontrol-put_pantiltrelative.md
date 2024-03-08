@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_PanTiltRelati
 old-location: dshow\icameracontrol_put_pantiltrelative.htm
 tech.root: dshow
 ms.assetid: 69d8303c-2ff2-416d-909c-e9f352e53cf1
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICameraControl interface [DirectShow],put_PanTiltRelative method, ICameraControl.put_PanTiltRelative, ICameraControl::put_PanTiltRelative, ICameraControlput_PanTiltRelative, dshow.icameracontrol_put_pantiltrelative, put_PanTiltRelative, put_PanTiltRelative method [DirectShow], put_PanTiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanTiltRelative
 req.header: vidcap.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>put_PanTiltRelative</code> method sets the camera's relative pan and tilt. The relative pan and tilt are expressed as a number of steps, where the size of each step depends on the camera model.
 
 ## -parameters
@@ -65,7 +67,7 @@ Specifies the relative tilt. See <a href="/windows/desktop/api/vidcap/nf-vidcap-
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 ## -returns
 

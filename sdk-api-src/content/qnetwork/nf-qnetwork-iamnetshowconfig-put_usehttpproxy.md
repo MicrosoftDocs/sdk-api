@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_UseHTTPProx
 old-location: dshow\iamnetshowconfig_put_usehttpproxy.htm
 tech.root: dshow
 ms.assetid: 4be1ca01-49c6-4b1e-8fb6-41e598fd157f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseHTTPProxy method, IAMNetShowConfig.put_UseHTTPProxy, IAMNetShowConfig::put_UseHTTPProxy, IAMNetShowConfigput_UseHTTPProxy, dshow.iamnetshowconfig_put_usehttpproxy, put_UseHTTPProxy, put_UseHTTPProxy method [DirectShow], put_UseHTTPProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseHTTPProxy
 req.header: qnetwork.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>put_UseHTTPProxy</code> method specifies whether to use an HTTP proxy server.
 

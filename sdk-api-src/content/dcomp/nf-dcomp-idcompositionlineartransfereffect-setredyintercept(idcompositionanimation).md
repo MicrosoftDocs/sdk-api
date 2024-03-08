@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation) (dcomp.h)
-description: Sets the Y-intercept of the linear function for the red channel.
+description: Sets the Y-intercept of the linear function for the red channel. (overload 2/2)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedYIntercept method","IDCompositionLinearTransferEffect.SetRedYIntercept","IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetRedYIntercept","IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation)","SetRedYIntercept","SetRedYIntercept method [DirectComposition]","SetRedYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept","directcomp.idcompositionlineartransfereffect_setredyintercept_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept_2.htm
 tech.root: directcomp

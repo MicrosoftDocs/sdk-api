@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_TransportStreamInfo
 title: IBDA_TransportStreamInfo (bdaiface.h)
-description: NoteÂ Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.Â The IBDA_TransportStreamInfo interface returns the time when the most recent Program Association Table (PAT) section was received.
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IBDA_TransportStreamInfo interface returns the time when the most recent Program Association Table (PAT) section was received.
 helpviewer_keywords: ["IBDA_TransportStreamInfo","IBDA_TransportStreamInfo interface [Microsoft TV Technologies]","IBDA_TransportStreamInfo interface [Microsoft TV Technologies]","described","IBDA_TransportStreamInfoInterface","bdaiface/IBDA_TransportStreamInfo","mstv.ibda_transportstreaminfo"]
 old-location: mstv\ibda_transportstreaminfo.htm
 tech.root: mstv
@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
+<div> </div>
 
 
 The <b>IBDA_TransportStreamInfo</b> interface returns the time when the most recent Program Association Table (PAT) section was received. The <a href="/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> implements this interface and registers it as a graph service. To obtain a pointer to this interface, call <b>IServiceProvider::QueryService</b> with the service identifier <b>SID_BDA_TransportStreamInfo</b>.
@@ -60,7 +62,7 @@ The <b>IBDA_TransportStreamInfo</b> interface returns the time when the most rec
 
 The <b>IBDA_TransportStreamInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_TransportStreamInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

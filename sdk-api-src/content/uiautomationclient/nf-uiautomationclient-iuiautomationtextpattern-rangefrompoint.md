@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.RangeFromPoint
 title: IUIAutomationTextPattern::RangeFromPoint (uiautomationclient.h)
-description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
+description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates. (IUIAutomationTextPattern.RangeFromPoint)
 helpviewer_keywords: ["IUIAutomationTextPattern interface [Windows Accessibility]","RangeFromPoint method","IUIAutomationTextPattern.RangeFromPoint","IUIAutomationTextPattern::RangeFromPoint","RangeFromPoint","RangeFromPoint method [Windows Accessibility]","RangeFromPoint method [Windows Accessibility]","IUIAutomationTextPattern interface","uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint","uiauto_IUIAutomationTextPattern_RangeFromPoint","uiautomationclient/IUIAutomationTextPattern::RangeFromPoint","winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromPoint.htm
 tech.root: WinAuto
@@ -56,7 +56,7 @@ Retrieves the degenerate (empty) text range nearest to the specified screen coor
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A structure that contains the location, in screen coordinates.
 

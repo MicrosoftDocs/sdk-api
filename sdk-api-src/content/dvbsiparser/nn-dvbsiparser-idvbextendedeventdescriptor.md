@@ -11,7 +11,7 @@ ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface 
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that get data  from a Digital Video Broadcast (DVB) extended event descriptor. An extended  event descriptor appears as part of the DVB service information in the event information table (EIT) and service information table (SIT). The descriptor provides a detailed text description of an event that may be used in addition to the
 short event descriptor. More than one extended event descriptor can be associated to allow more than 256 bytes of information about one event
 to be conveyed. Text information can be structured into two columns, one that provides an
@@ -59,6 +61,6 @@ item description field, and one that provides the item text, for example, to inc
 
 The <b>IDvbExtendedEventDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbExtendedEventDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

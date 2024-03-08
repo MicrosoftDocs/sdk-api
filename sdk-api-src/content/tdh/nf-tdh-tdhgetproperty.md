@@ -168,7 +168,6 @@ For an example that shows how to call this function to retrieve the value of a t
 <div class="code"></div>
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
 
 

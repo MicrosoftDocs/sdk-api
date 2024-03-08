@@ -81,7 +81,7 @@ The maximum time for
 
 The 
 <b>select</b> function returns the total number of socket handles that are ready and contained in the 
-<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structures, zero if the time limit expired, or SOCKET_ERROR if an error occurred. If the return value is SOCKET_ERROR, 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a> structures, zero if the time limit expired, or SOCKET_ERROR if an error occurred. If the return value is SOCKET_ERROR, 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can be used to retrieve a specific error code.
 
 <table>
@@ -174,7 +174,7 @@ One of the descriptor sets contains an entry that is not a socket.
 
 The 
 <b>select</b> function is used to determine the status of one or more sockets. For each socket, the caller can request information on read, write, or error status. The set of sockets for which a given status is requested is indicated by an 
-<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure. The sockets contained within the 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a> structure. The sockets contained within the 
 <b>fd_set</b> structures must be associated with a single service provider. For the purpose of this restriction, sockets are considered to be from the same service provider if the 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures describing their protocols have the same <i>providerId</i> value. Upon return, the structures are updated to reflect the subset of these sockets that meet the specified condition. The 
 <b>select</b> function returns the number of sockets meeting the conditions. A set of macros is provided for manipulating an 
@@ -236,7 +236,7 @@ In summary, a socket will be identified in a particular set when
 <li>OOB data is available for reading (only if SO_OOBINLINE is disabled).</li>
 </ul>
 Four macros are defined in the header file Winsock2.h for manipulating and checking the descriptor sets. The variable FD_SETSIZE determines the maximum number of descriptors in a set. (The default value of FD_SETSIZE is 64, which can be modified by defining FD_SETSIZE to another value before including Winsock2.h.) Internally, socket handles in an 
-<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure are not represented as bit flags as in Berkeley Unix. Their data representation is opaque. Use of these macros will maintain software portability between different socket environments. The macros to manipulate and check 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-fd_set">fd_set</a> structure are not represented as bit flags as in Berkeley Unix. Their data representation is opaque. Use of these macros will maintain software portability between different socket environments. The macros to manipulate and check 
 <b>fd_set</b> contents are:
 <ul>
 <li><i>FD_ZERO(*set)</i> - Initializes set to the empty set. A set should always be cleared before using.</li>

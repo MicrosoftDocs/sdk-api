@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_MESSAGE
 title: D3D12_MESSAGE (d3d12sdklayers.h)
-description: A debug message in the Information Queue.
+description: A debug message in the Information Queue. (D3D12_MESSAGE)
 helpviewer_keywords: ["D3D12_MESSAGE","D3D12_MESSAGE structure","d3d12sdklayers/D3D12_MESSAGE","direct3d12.d3d12_message"]
 old-location: direct3d12\d3d12_message.htm
 tech.root: direct3d12

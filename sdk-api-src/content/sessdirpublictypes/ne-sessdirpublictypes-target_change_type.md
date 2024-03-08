@@ -56,41 +56,41 @@ Specifies the type of change that occurred in a target.
 
 ## -enum-fields
 
-### -field TARGET_CHANGE_UNSPEC
+### -field TARGET_CHANGE_UNSPEC:0x1
 
 Unspecified change in the target.
 
-### -field TARGET_EXTERNALIP_CHANGED
+### -field TARGET_EXTERNALIP_CHANGED:0x2
 
 The target's external IP address changed.
 
-### -field TARGET_INTERNALIP_CHANGED
+### -field TARGET_INTERNALIP_CHANGED:0x4
 
 The target's internal IP address changed.
 
-### -field TARGET_JOINED
+### -field TARGET_JOINED:0x8
 
 The target was reported to RD Connection Broker.
 
-### -field TARGET_REMOVED
+### -field TARGET_REMOVED:0x10
 
 The target was deleted  from the store in RD Connection Broker.
 
-### -field TARGET_STATE_CHANGED
+### -field TARGET_STATE_CHANGED:0x20
 
 The target's state changed. To determine the current state of the target, check the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a> property of <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>.
 
-### -field TARGET_IDLE
+### -field TARGET_IDLE:0x40
 
 The target is not hosting any sessions currently.
 
-### -field TARGET_PENDING
+### -field TARGET_PENDING:0x80
 
-### -field TARGET_INUSE
+### -field TARGET_INUSE:0x100
 
-### -field TARGET_PATCH_STATE_CHANGED
+### -field TARGET_PATCH_STATE_CHANGED:0x200
 
-### -field TARGET_FARM_MEMBERSHIP_CHANGED
+### -field TARGET_FARM_MEMBERSHIP_CHANGED:0x400
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IActiveBasicDeviceStatics","IActiveBasicDeviceStatics int
 old-location: mediastreaming\iactivebasicdevicestatics.htm
 tech.root: mediastreaming
 ms.assetid: B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IActiveBasicDeviceStatics, IActiveBasicDeviceStatics interface [Media Streaming API], IActiveBasicDeviceStatics interface [Media Streaming API],described, mediastreaming.iactivebasicdevicestatics, windows/IActiveBasicDeviceStatics
 req.header: windows.media.streaming.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Provides static methods for creating <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a> objects.
 
 ## -inheritance
 
 The <b>IActiveBasicDeviceStatics</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActiveBasicDeviceStatics</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

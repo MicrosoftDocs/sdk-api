@@ -54,7 +54,7 @@ Specifies categories of debug messages. This will identify the category of a mes
 
 ## -enum-fields
 
-### -field D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED
+### -field D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED:0
 
 Indicates a user defined message, see <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addmessage">ID3D12InfoQueue::AddMessage</a>.
 

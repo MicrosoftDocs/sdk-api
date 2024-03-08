@@ -4,7 +4,7 @@ title: Settings Management Infrastructure (SMI)
 ms.assetid: b1cdcf64-e5d8-3c70-974f-c11fa9c6d21f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Settings Management Infrastructure (SMI)

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_search_st
 title: ldap_search_st function (winldap.h)
-description: The ldap_search_st function synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. An additional parameter specifies a local time-out for the search.
+description: The ldap_search_st function (winldap.h) synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. 
 helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_st","ldap.ldap__search__st","ldap.ldap_search_st","ldap_search_st","ldap_search_st function [LDAP]","ldap_search_stA","ldap_search_stW","winldap/ldap_search_st","winldap/ldap_search_stA","winldap/ldap_search_stW"]
 old-location: ldap\ldap_search_st.htm
 tech.root: ldap
 ms.assetid: af2ab469-fa72-4a57-912c-42d9a6721806
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_st, ldap.ldap__search__st, ldap.ldap_search_st, ldap_search_st, ldap_search_st function [LDAP], ldap_search_stA, ldap_search_stW, winldap/ldap_search_st, winldap/ldap_search_stA, winldap/ldap_search_stW
 req.header: winldap.h
 req.include-header: 
@@ -121,7 +121,7 @@ The <b>ldap_search_st</b> function initiates a synchronous search operation.
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_DEREF</b> options that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>timeout</i> parameter in <b>ldap_search_st</b> overrides the <b>LDAP_OPT_TIMELIMIT</b>.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>timeout</i> parameter in <b>ldap_search_st</b> overrides the <b>LDAP_OPT_TIMELIMIT</b>.
 
 Upon completion of the search operation, <b>ldap_search_st</b> returns to the caller. Use 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a> or 
@@ -193,7 +193,7 @@ else
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

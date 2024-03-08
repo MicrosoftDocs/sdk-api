@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPMPHost.LockProcess
 title: IMFPMPHost::LockProcess (mfidl.h)
-description: Blocks the protected media path (PMP) process from ending.
+description: Blocks the protected media path (PMP) process from ending. (IMFPMPHost.LockProcess)
 helpviewer_keywords: ["45c533ca-d8ca-43f9-91d2-011a0b0d63a6","IMFPMPHost interface [Media Foundation]","LockProcess method","IMFPMPHost.LockProcess","IMFPMPHost::LockProcess","LockProcess","LockProcess method [Media Foundation]","LockProcess method [Media Foundation]","IMFPMPHost interface","mf.imfpmphost_lockprocess","mfidl/IMFPMPHost::LockProcess"]
 old-location: mf\imfpmphost_lockprocess.htm
 tech.root: mf

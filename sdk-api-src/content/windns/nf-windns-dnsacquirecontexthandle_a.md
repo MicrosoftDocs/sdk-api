@@ -1,8 +1,8 @@
 ---
 UID: NF:windns.DnsAcquireContextHandle_A
 title: DnsAcquireContextHandle_A function (windns.h)
-description: The DnsAcquireContextHandle function type acquires a context handle to a set of credentials.
-helpviewer_keywords: ["DnsAcquireContextHandle","DnsAcquireContextHandle function [DNS]","DnsAcquireContextHandle_A","DnsAcquireContextHandle_W","_dns_dnsacquirecontexthandle","dns.dnsacquirecontexthandle","windns/DnsAcquireContextHandle","windns/DnsAcquireContextHandle_A","windns/DnsAcquireContextHandle_W"]
+description: The DnsAcquireContextHandle function type acquires a context handle to a set of credentials. (ANSI)
+helpviewer_keywords: ["DnsAcquireContextHandle", "DnsAcquireContextHandle function [DNS]", "DnsAcquireContextHandle_A", "_dns_dnsacquirecontexthandle", "dns.dnsacquirecontexthandle", "windns/DnsAcquireContextHandle", "windns/DnsAcquireContextHandle_A"]
 old-location: dns\dnsacquirecontexthandle.htm
 tech.root: DNS
 ms.assetid: 9a820165-2f78-44f4-b49f-dc7a2b6fb4e5

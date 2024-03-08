@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDirectDrawMediaSampleAllocator","IDirectDrawMediaSampleA
 old-location: dshow\idirectdrawmediasampleallocator.htm
 tech.root: dshow
 ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator
 req.header: amstream.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IDirectDrawMediaSampleAllocator</code> interface allocates samples that contain DirectDraw surfaces.
 
 The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter's input pin creates an allocator that implements this interface. This allocator allocates <a href="/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample</a> media samples that also support the <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
@@ -61,6 +63,6 @@ Decoder filters should not have to use this interface to connect to the Overlay 
 
 The <b>IDirectDrawMediaSampleAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawMediaSampleAllocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

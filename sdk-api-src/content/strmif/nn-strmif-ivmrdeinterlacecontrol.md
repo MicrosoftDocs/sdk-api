@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVMRDeinterlaceControl","IVMRDeinterlaceControl interface
 old-location: dshow\ivmrdeinterlacecontrol.htm
 tech.root: dshow
 ms.assetid: 77abbcd4-6538-491d-b3c2-6a29a391c68a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], IVMRDeinterlaceControl interface [DirectShow],described, IVMRDeinterlaceControlInterface, dshow.ivmrdeinterlacecontrol, strmif/IVMRDeinterlaceControl
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IVMRDeinterlaceControl</b> interface provides support for advanced hardware-accelerated deinterlacing using the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). This interface enables applications or other filters to control how the VMR manages DirectX Video Acceleration (DirectX VA) hardware deinterlacing.
 

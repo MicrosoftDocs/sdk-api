@@ -77,26 +77,26 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 This function creates an in-memory property store object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a>, <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>.
 
-The memory property store does not correspond to a file and is designed for use as a cache. <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> is a no-op, and the data stored in the object persists only as long as the object does.
+This is the same object identified by `InMemoryPropertyStore` (`CLSID_InMemoryPropertyStore`) and `InMemoryPropertyStoreMarshalByValue` (`CLSID_InMemoryPropertyStoreMarshalByValue`), constructed with CoCreateInstance.
 
-The memory property store is thread safe. It aggregates the free-threaded marshaller and uses critical sections to protect its data members.
+`InMemoryPropertyStoreMarshalByValue` can be used in designs that pass objects
+between processes to make them more efficient. It implements [marshal by value](https://devblogs.microsoft.com/oldnewthing/20220617-41/?p=106760), creating a copy of the object in the
+unmarshal context and avoids inter-process communication that can be expensive.
 
+The memory property store has no presistent representation so calls to <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> are a no-op.
+
+The memory property store is thread safe and agile.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>.
-
+The following example demonstrates how to use `InMemoryPropertyStore`.
 
 ```cpp
-IPropertyStore *ppropstore;
-
-HRESULT hr = PSCreateMemoryPropertyStore(IID_PPV_ARGS(&ppropstore));
-
-if (SUCCEEDED(hr))
-{
-    // ppropstore is now valid.  
-    ppropstore->Release();
-}
+auto memPropStore = wil::CoCreateInstance<InMemoryPropertyStore, IPropertyStore>();
+auto value = PROPVARIANT{};
+value.vt = VT_LPWSTR;
+value.pwszVal = L"Title";
+THROW_IF_FAILED(memPropStore->SetValue(PKEY_Title, value));
 ```
 
 ## -see-also

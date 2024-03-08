@@ -1,5 +1,5 @@
 ---
-UID: NE:wslapi.__unnamed_enum_0
+UID: NE:wslapi.WSL_DISTRIBUTION_FLAGS
 title: WSL_DISTRIBUTION_FLAGS (wslapi.h)
 description: The WSL_DISTRIBUTION_FLAGS enumeration specifies the behavior of a distribution in the Windows Subsystem for Linux (WSL).
 helpviewer_keywords: ["WSL_DISTRIBUTION_FLAGS","WSL_DISTRIBUTION_FLAGS enumeration","WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH","WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING","WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP","WSL_DISTRIBUTION_FLAGS_NONE","wsl.wsl_distribution_flags","wslapi/WSL_DISTRIBUTION_FLAGS","wslapi/WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH","wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING","wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP","wslapi/WSL_DISTRIBUTION_FLAGS_NONE"]
@@ -54,19 +54,19 @@ The <b>WSL_DISTRIBUTION_FLAGS</b> enumeration specifies the behavior of a distri
 
 ## -enum-fields
 
-### -field WSL_DISTRIBUTION_FLAGS_NONE
+### -field WSL_DISTRIBUTION_FLAGS_NONE:0x0
 
  No flags are being supplied.
 
-### -field WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP
+### -field WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP:0x1
 
  Allow the distribution to interoperate with Windows processes (for example, the user can invoke "cmd.exe" or "notepad.exe" from within a WSL session).
 
-### -field WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH
+### -field WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH:0x2
 
  Add the Windows %PATH% environment variable values to WSL sessions.
 
-### -field WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING
+### -field WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING:0x4
 
  Automatically mount Windows drives inside of WSL sessions (for example, "C:\" will be available under "/mnt/c").
 

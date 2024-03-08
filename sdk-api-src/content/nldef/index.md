@@ -4,7 +4,7 @@ title: Nldef.h header
 ms.assetid: d3ee3b93-f183-3b1f-944b-d40a795be4cf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: iphlp
 f1_keywords:
  - nldef
@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by IP Helper. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [IP Helper](../_iphlp/index.md)
+- [Management Information Base](../_mib/index.md)
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
 

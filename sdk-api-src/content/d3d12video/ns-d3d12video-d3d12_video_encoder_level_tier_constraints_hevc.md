@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC
-tech.root:mf
+tech.root: mf
 title: D3D12_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC
 ms.date: 06/04/2021
 targetos: Windows

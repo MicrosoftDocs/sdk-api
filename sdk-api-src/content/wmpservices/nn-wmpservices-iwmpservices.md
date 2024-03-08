@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPServices","IWMPServices interface [Windows Media Play
 old-location: wmp\iwmpservices.htm
 tech.root: WMP
 ms.assetid: 26d68b4b-4eeb-42e2-a1d1-0d0e73725059
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPServices, IWMPServices interface [Windows Media Player], IWMPServices interface [Windows Media Player],described, IWMPServicesInterfaceDSP, wmp.iwmpservices, wmpservices/IWMPServices
 req.header: wmpservices.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPServices</b> interface is implemented by Windows Media Player. It provides methods to retrieve the current stream state and current stream time.
 
 ## -inheritance
 
 The <b>IWMPServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPServices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

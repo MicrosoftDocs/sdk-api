@@ -6,7 +6,7 @@ helpviewer_keywords: ["InterlockedPushListSListEx","InterlockedPushListSListEx f
 old-location: base\interlockedpushlistslistex.htm
 tech.root: backup
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
 req.header: interlockedapi.h
 req.include-header: Windows.h
@@ -44,32 +44,30 @@ api_location:
  - API-MS-Win-Core-interlocked-l1-2-0.dll
  - KernelBase.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - InterlockedPushListSListEx
 ---
 
 # InterlockedPushListSListEx function
 
-
 ## -description
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="/previous-versions/6xa169sk(v=vs.85)">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the [__fastcall](/previous-versions/6xa169sk(v=vs.85)) calling convention.
 
 ## -parameters
 
 ### -param ListHead [in, out]
 
-Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly linked list. The list specified by the <i>List</i> and <i>ListEnd</i> parameters is inserted at the front of this list.
+Pointer to an **SLIST_HEADER** structure that represents the head of a singly linked list. The list specified by the *List* and *ListEnd* parameters is inserted at the front of this list.
 
 ### -param List [in, out]
 
-Pointer to an 
-<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted.
+Pointer to an [SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents the first item in the  list to be inserted.
 
 ### -param ListEnd [in, out]
 
-Pointer to an 
-<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted.
+Pointer to an [SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents the last item in the  list to be inserted.
 
 ### -param Count [in]
 
@@ -77,32 +75,24 @@ The number of items in the list to be inserted.
 
 ## -returns
 
-The return value is the previous first item in the list specified by the <i>ListHead</i> parameter. If the list was previously empty, the return value is <b>NULL</b>.
+The return value is the previous first item in the list specified by the *ListHead* parameter. If the list was previously empty, the return value is `NULL`.
 
 ## -remarks
 
-All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary; otherwise, this function will behave unpredictably. See <b>_aligned_malloc</b>.
+All list items must be aligned on a **MEMORY_ALLOCATION_ALIGNMENT** boundary; otherwise, this function will behave unpredictably. See **_aligned_malloc**.
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
+[Interlocked Singly Linked Lists](/windows/win32/Sync/interlocked-singly-linked-lists)
 
+[InterlockedFlushSList](nf-interlockedapi-interlockedflushslist.md)
 
+[InterlockedPopEntrySList](nf-interlockedapi-interlockedpopentryslist.md)
 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
+[InterlockedPushEntrySList](nf-interlockedapi-interlockedpushentryslist.md)
 
+[SLIST_ENTRY](../winnt/ns-winnt-slist_entry.md)
 
+[Using Singly Linked Lists](/windows/win32/Sync/using-singly-linked-lists)
 
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
-
-
-
-<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
-
-
-
-<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a>
-
-
-
-<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

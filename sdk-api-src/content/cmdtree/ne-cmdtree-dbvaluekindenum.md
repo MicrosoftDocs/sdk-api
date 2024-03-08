@@ -57,7 +57,7 @@ The <b>DBVALUEKINDENUM</b> enumerated type is used to indicate the type of the u
 
 ## -enum-fields
 
-### -field DBVALUEKIND_BYGUID
+### -field DBVALUEKIND_BYGUID:256
 
 ### -field DBVALUEKIND_COLDESC
 
@@ -93,45 +93,45 @@ The <b>DBVALUEKINDENUM</b> enumerated type is used to indicate the type of the u
 
 ### -field DBVALUEKIND_CONTENTTABLE
 
-### -field DBVALUEKIND_IDISPATCH
+### -field DBVALUEKIND_IDISPATCH:9
 
-### -field DBVALUEKIND_IUNKNOWN
+### -field DBVALUEKIND_IUNKNOWN:13
 
-### -field DBVALUEKIND_EMPTY
+### -field DBVALUEKIND_EMPTY:0
 
-### -field DBVALUEKIND_NULL
+### -field DBVALUEKIND_NULL:1
 
-### -field DBVALUEKIND_I2
+### -field DBVALUEKIND_I2:2
 
-### -field DBVALUEKIND_I4
+### -field DBVALUEKIND_I4:3
 
-### -field DBVALUEKIND_R4
+### -field DBVALUEKIND_R4:4
 
-### -field DBVALUEKIND_R8
+### -field DBVALUEKIND_R8:5
 
-### -field DBVALUEKIND_CY
+### -field DBVALUEKIND_CY:6
 
-### -field DBVALUEKIND_DATE
+### -field DBVALUEKIND_DATE:7
 
-### -field DBVALUEKIND_BSTR
+### -field DBVALUEKIND_BSTR:8
 
-### -field DBVALUEKIND_ERROR
+### -field DBVALUEKIND_ERROR:10
 
-### -field DBVALUEKIND_BOOL
+### -field DBVALUEKIND_BOOL:11
 
-### -field DBVALUEKIND_VARIANT
+### -field DBVALUEKIND_VARIANT:12
 
-### -field DBVALUEKIND_VECTOR
+### -field DBVALUEKIND_VECTOR:0x1000
 
-### -field DBVALUEKIND_ARRAY
+### -field DBVALUEKIND_ARRAY:0x2000
 
-### -field DBVALUEKIND_BYREF
+### -field DBVALUEKIND_BYREF:0x4000
 
-### -field DBVALUEKIND_I1
+### -field DBVALUEKIND_I1:16
 
-### -field DBVALUEKIND_UI1
+### -field DBVALUEKIND_UI1:17
 
-### -field DBVALUEKIND_UI2
+### -field DBVALUEKIND_UI2:18
 
 ### -field DBVALUEKIND_UI4
 
@@ -139,24 +139,24 @@ The <b>DBVALUEKINDENUM</b> enumerated type is used to indicate the type of the u
 
 ### -field DBVALUEKIND_UI8
 
-### -field DBVALUEKIND_GUID
+### -field DBVALUEKIND_GUID:72
 
-### -field DBVALUEKIND_BYTES
+### -field DBVALUEKIND_BYTES:128
 
-### -field DBVALUEKIND_STR
+### -field DBVALUEKIND_STR:129
 
-### -field DBVALUEKIND_WSTR
+### -field DBVALUEKIND_WSTR:130
 
-### -field DBVALUEKIND_NUMERIC
+### -field DBVALUEKIND_NUMERIC:131
 
-### -field DBVALUEKIND_DBDATE
+### -field DBVALUEKIND_DBDATE:133
 
-### -field DBVALUEKIND_DBTIME
+### -field DBVALUEKIND_DBTIME:134
 
-### -field DBVALUEKIND_DBTIMESTAMP
+### -field DBVALUEKIND_DBTIMESTAMP:135
 
-### -field DBVALUEKIND_PROBABILISTIC
+### -field DBVALUEKIND_PROBABILISTIC:136
 
-### -field DBVALUEKIND_RELEVANTDOCUMENT
+### -field DBVALUEKIND_RELEVANTDOCUMENT:137
 
 ##### - See below.

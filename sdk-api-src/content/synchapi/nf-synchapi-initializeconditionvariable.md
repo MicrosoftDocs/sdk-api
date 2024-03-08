@@ -6,10 +6,10 @@ helpviewer_keywords: ["InitializeConditionVariable","InitializeConditionVariable
 old-location: base\initializeconditionvariable.htm
 tech.root: base
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: InitializeConditionVariable, InitializeConditionVariable function, base.initializeconditionvariable, synchapi/InitializeConditionVariable, winbase/InitializeConditionVariable
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -53,7 +53,6 @@ api_name:
 
 # InitializeConditionVariable function
 
-
 ## -description
 
 Initializes a condition variable.
@@ -66,7 +65,7 @@ A pointer to the condition variable.
 
 ## -remarks
 
-Threads  can atomically release a lock and enter the sleeping state using the <a href="/windows/desktop/api/synchapi/nf-synchapi-sleepconditionvariablecs">SleepConditionVariableCS</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-sleepconditionvariablesrw">SleepConditionVariableSRW</a> function. The threads are woken using the <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeconditionvariable">WakeConditionVariable</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-wakeallconditionvariable">WakeAllConditionVariable</a> function.
+Threads  can atomically release a lock and enter the sleeping state using the [SleepConditionVariableCS](nf-synchapi-sleepconditionvariablecs.md) or [SleepConditionVariableSRW](nf-synchapi-sleepconditionvariablesrw.md) function. The threads are woken using the [WakeConditionVariable](nf-synchapi-wakeconditionvariable.md) or [WakeAllConditionVariable](nf-synchapi-wakeallconditionvariable.md) function.
 
 Condition variables are user-mode objects that cannot be shared across processes.
 
@@ -76,14 +75,12 @@ A condition variable with no waiting threads is in its initial state and can be 
 
 #### Examples
 
-For an example that uses this function, see <a href="/windows/desktop/Sync/using-condition-variables">Using Condition Variables</a>.
-
-<div class="code"></div>
+For an example that uses this function, see [Using Condition Variables](/windows/win32/Sync/using-condition-variables).
 
 ## -see-also
 
-<a href="/windows/desktop/Sync/condition-variables">Condition Variables</a>
+[Condition Variables](/windows/win32/Sync/condition-variables)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

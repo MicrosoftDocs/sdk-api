@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::SetVideoWindow (evr.h)
 description: Sets the clipping window for the video.
 helpviewer_keywords: ["50bc345c-ee44-4174-9b1a-e406041096b5","IMFVideoDisplayControl interface [Media Foundation]","SetVideoWindow method","IMFVideoDisplayControl.SetVideoWindow","IMFVideoDisplayControl::SetVideoWindow","SetVideoWindow","SetVideoWindow method [Media Foundation]","SetVideoWindow method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetVideoWindow","mf.imfvideodisplaycontrol_setvideowindow"]
 old-location: mf\imfvideodisplaycontrol_setvideowindow.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: 50bc345c-ee44-4174-9b1a-e406041096b5
 ms.date: 12/05/2018
 ms.keywords: 50bc345c-ee44-4174-9b1a-e406041096b5, IMFVideoDisplayControl interface [Media Foundation],SetVideoWindow method, IMFVideoDisplayControl.SetVideoWindow, IMFVideoDisplayControl::SetVideoWindow, SetVideoWindow, SetVideoWindow method [Media Foundation], SetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoWindow, mf.imfvideodisplaycontrol_setvideowindow
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.SetVideoWindow
+archived: true
 ---
 
 # IMFVideoDisplayControl::SetVideoWindow
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the clipping window for the video.
 

@@ -56,31 +56,31 @@ The <code>ERROR_ADVISE_RESULT</code> enumeration type indicates the type of erro
 
 ## -enum-fields
 
-### -field PHOTOACQUIRE_RESULT_YES
+### -field PHOTOACQUIRE_RESULT_YES:0
 
 Specifies a Yes response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
 
-### -field PHOTOACQUIRE_RESULT_NO
+### -field PHOTOACQUIRE_RESULT_NO:1
 
 Specifies a No response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
 
-### -field PHOTOACQUIRE_RESULT_OK
+### -field PHOTOACQUIRE_RESULT_OK:2
 
 Specifies an OK response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_OK.
 
-### -field PHOTOACQUIRE_RESULT_SKIP
+### -field PHOTOACQUIRE_RESULT_SKIP:3
 
 Specifies a Skip response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
 
-### -field PHOTOACQUIRE_RESULT_SKIP_ALL
+### -field PHOTOACQUIRE_RESULT_SKIP_ALL:4
 
 Specifies a Skip All response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
 
-### -field PHOTOACQUIRE_RESULT_RETRY
+### -field PHOTOACQUIRE_RESULT_RETRY:5
 
 Specifies a Retry response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
 
-### -field PHOTOACQUIRE_RESULT_ABORT
+### -field PHOTOACQUIRE_RESULT_ABORT:6
 
 Specifies a Cancel response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
 

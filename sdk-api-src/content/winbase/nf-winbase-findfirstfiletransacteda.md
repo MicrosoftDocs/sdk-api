@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedA
 title: FindFirstFileTransactedA function (winbase.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
-helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
+description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation. (ANSI)
+helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE", "FindFirstFileTransactedA", "winbase/FindFirstFileTransactedA"]
 old-location: fs\findfirstfiletransacted.htm
 tech.root: fs
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
@@ -82,10 +82,10 @@ This parameter should not be <b>NULL</b>, an invalid string (for example, an emp
 If the string ends with a wildcard, period (.), or directory name, the user must have access to the root and 
        all subdirectories on the path.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 
-       32,767 wide characters, call the Unicode version of the function and prepend "\\?\" to the 
-       path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
@@ -197,13 +197,14 @@ As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileN
 </ul>
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\server\service\*". However, you cannot use an <i>lpFileName</i> that points to 
-    the share itself; for example, "\\server\service" is not valid.
+    "\\\\server\\service\*". However, you cannot use an <i>lpFileName</i> that points to 
+    the share itself; for example, "\\\\server\\service" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the directory 
-    "C:\Windows", not about a directory or file in "C:\Windows". To examine the files and directories in "C:\Windows", use an <i>lpFileName</i> of "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the directory 
+    "C:\\Windows", not about a directory or file in "C:\\Windows". To examine the files and directories in "C:\\Windows", use an <i>lpFileName</i> of "C:\\Windows\\*".
 
 Be aware that some other thread or process could create or delete a file with this name between the time you query for the result 
     and the time you act on the information. If this is a potential concern for your application,  one possible solution is to use the 

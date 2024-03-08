@@ -1,12 +1,12 @@
 ---
 UID: NS:ipmib._MIB_IPSTATS_W2K
 title: MIB_IPSTATS_W2K (ipmib.h)
-description: Stores information about the IP protocol running on a particular computer.
+description: MIB_IPSTATS_W2K (ipmib.h) stores information about the IP protocol running on a particular computer.
 helpviewer_keywords: ["*PMIB_IPSTATS","*PMIB_IPSTATS_W2K","MIB_IPSTATS","MIB_IPSTATS structure [MIB]","MIB_IPSTATS_W2K","MIB_IP_FORWARDING","MIB_IP_NOT_FORWARDING","MIB_USE_CURRENT_FORWARDING","PMIB_IPSTATS","PMIB_IPSTATS structure pointer [MIB]","_mpr_mib_ipstats","ipmib/MIB_IPSTATS","ipmib/PMIB_IPSTATS","iprtrmib/MIB_IPSTATS","iprtrmib/PMIB_IPSTATS","mib.mib_ipstats","rras.mib_ipstats"]
 old-location: mib\mib_ipstats.htm
 tech.root: MIB
 ms.assetid: 920e71b6-247c-4442-9f66-704a6c878feb
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structure [MIB], MIB_IPSTATS_W2K, MIB_IP_FORWARDING, MIB_IP_NOT_FORWARDING, MIB_USE_CURRENT_FORWARDING, PMIB_IPSTATS, PMIB_IPSTATS structure pointer [MIB], _mpr_mib_ipstats, ipmib/MIB_IPSTATS, ipmib/PMIB_IPSTATS, iprtrmib/MIB_IPSTATS, iprtrmib/PMIB_IPSTATS, mib.mib_ipstats, rras.mib_ipstats'
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
@@ -253,7 +253,7 @@ The <b>dwForwarding</b> member specifies the per-protocol forwarding state for I
 
 <ul>
 <li>Provides a default value for the forwarding state when a new interface is created with no specific forwarding state (neither disabled nor enabled) . This value is inherited per-protocol state.</li>
-<li>Provides a value set by  by  a domain administrator to enable or disable a per-protocol forwarding state. The forwarding states of all interfaces using that protocol are also enabled or disabled.
+<li>Provides a value set by a domain administrator to enable or disable a per-protocol forwarding state. The forwarding states of all interfaces using that protocol are also enabled or disabled.
 </li>
 </ul>
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IPSTATS</b> structure is defined in the <i>Ipmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.

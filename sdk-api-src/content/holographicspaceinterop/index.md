@@ -4,7 +4,7 @@ title: Holographicspaceinterop.h header
 ms.assetid: eb4fcb8b-a576-39ee-a253-44dbbdc0af05
 ms.date: 01/25/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mixedreality
 archived: true
 f1_keywords:
@@ -17,5 +17,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Mixed Reality. For more information, see [Windows Mixed Reality](../_mixedreality/index.md).
+This header is used by Windows Mixed Reality. For more information, see:
+
+- [Windows Mixed Reality](../_mixedreality/index.md)
 

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsSignatureManager interface
 
-
 ## -description
 
 Manages the digital signatures and digital signature requests of an XPS document.
@@ -56,16 +55,233 @@ Manages the digital signatures and digital signature requests of an XPS document
 
 The <b>IXpsSignatureManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignatureManager</b> also has these types of members:
 
+## -members
+
+The <b>IXpsSignatureManager</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-addsignatureblock">AddSignatureBlock</a>
+</td>
+<td align="left" width="63%">
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock">IXpsSignatureBlock</a> interface and adds it to the signature block collection.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-createsigningoptions">CreateSigningOptions</a>
+</td>
+<td align="left" width="63%">
+Creates a new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a> interface.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatureblocks">GetSignatureBlocks</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection">IXpsSignatureBlockCollection</a> interface that contains a collection of signature blocks.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatureoriginpartname">GetSignatureOriginPartName</a>
+</td>
+<td align="left" width="63%">
+Gets the part name of the signature origin part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatures">GetSignatures</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturecollection">IXpsSignatureCollection</a> interface that contains a collection of XPS digital signatures.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile">LoadPackageFile</a>
+</td>
+<td align="left" width="63%">
+Loads an existing XPS package from a file into the digital signature manager.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream">LoadPackageStream</a>
+</td>
+<td align="left" width="63%">
+Loads an XPS package from a stream into the digital signature manager.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetofile">SavePackageToFile</a>
+</td>
+<td align="left" width="63%">
+Saves the XPS package to a file.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetostream">SavePackageToStream</a>
+</td>
+<td align="left" width="63%">
+Saves the XPS package by writing it to a stream.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-setsignatureoriginpartname">SetSignatureOriginPartName</a>
+</td>
+<td align="left" width="63%">
+Sets the part name of the signature origin part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign">Sign</a>
+</td>
+<td align="left" width="63%">
+Signs the contents of an  XPS package as specified by the signing options and returns the resulting digital signature.
+
+</td>
+</tr>
+</table>
+
+## -members
+
+The <b>IXpsSignatureManager</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-addsignatureblock">AddSignatureBlock</a>
+</td>
+<td align="left" width="63%">
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock">IXpsSignatureBlock</a> interface and adds it to the signature block collection.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-createsigningoptions">CreateSigningOptions</a>
+</td>
+<td align="left" width="63%">
+Creates a new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a> interface.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatureblocks">GetSignatureBlocks</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblockcollection">IXpsSignatureBlockCollection</a> interface that contains a collection of signature blocks.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatureoriginpartname">GetSignatureOriginPartName</a>
+</td>
+<td align="left" width="63%">
+Gets the part name of the signature origin part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-getsignatures">GetSignatures</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturecollection">IXpsSignatureCollection</a> interface that contains a collection of XPS digital signatures.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile">LoadPackageFile</a>
+</td>
+<td align="left" width="63%">
+Loads an existing XPS package from a file into the digital signature manager.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream">LoadPackageStream</a>
+</td>
+<td align="left" width="63%">
+Loads an XPS package from a stream into the digital signature manager.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetofile">SavePackageToFile</a>
+</td>
+<td align="left" width="63%">
+Saves the XPS package to a file.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetostream">SavePackageToStream</a>
+</td>
+<td align="left" width="63%">
+Saves the XPS package by writing it to a stream.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-setsignatureoriginpartname">SetSignatureOriginPartName</a>
+</td>
+<td align="left" width="63%">
+Sets the part name of the signature origin part.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-sign">Sign</a>
+</td>
+<td align="left" width="63%">
+Signs the contents of an  XPS package as specified by the signing options and returns the resulting digital signature.
+
+</td>
+</tr>
+</table>
+
 ## -remarks
 
 To initialize the signature manager for use with an XPS document, instantiate an <b>IXpsSignatureManager</b> interface by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> as shown in the following example.
-
 
 ```cpp
 
 IXpsSignatureManager    *newInterface;
 
-// Note the implicit requirement that CoInitializeEx 
+// Note the implicit requirement that CoInitializeEx
 //  has previously been called from this thread.
 
 hr = CoCreateInstance(
@@ -75,7 +291,7 @@ hr = CoCreateInstance(
     __uuidof(IXpsSignatureManager),
     reinterpret_cast<LPVOID*>(&newInterface));
 
-// make sure that you got a pointer 
+// make sure that you got a pointer
 // to the interface
 if (SUCCEEDED(hr)) {
     // Load document into signature manager from file.
@@ -85,9 +301,9 @@ if (SUCCEEDED(hr)) {
 
     // Use newInterface
 
-    // Release interface pointers when finished with them 
+    // Release interface pointers when finished with them
     newInterface->Release();
-}    
+}
 
 ```
 
@@ -107,4 +323,4 @@ After the <b>IXpsSignatureManager</b> interface has been instantiated and an XPS
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPLibrarySharingServices","IWMPLibrarySharingServices i
 old-location: wmp\iwmplibrarysharingservices.htm
 tech.root: WMP
 ms.assetid: 24cac18c-a3aa-4cd0-b5f7-025db2eed0b8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], IWMPLibrarySharingServices interface [Windows Media Player],described, IWMPLibrarySharingServicesInterface, wmp.iwmplibrarysharingservices, wmp/IWMPLibrarySharingServices
 req.header: wmp.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPLibrarySharingServices</b> interface provides methods to manage library sharing.
 
 To use this interface, you must create a remoted instance of the Windows Media Player control.
@@ -58,7 +60,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 The <b>IWMPLibrarySharingServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibrarySharingServices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

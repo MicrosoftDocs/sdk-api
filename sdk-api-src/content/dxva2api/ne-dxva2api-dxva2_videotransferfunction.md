@@ -1,7 +1,7 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoTransferFunction
 title: DXVA2_VideoTransferFunction (dxva2api.h)
-description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B').
+description: Specifies the conversion function from linear RGB to non-linear RGB (R'G'B'). (DXVA2_VideoTransferFunction)
 helpviewer_keywords: ["43b99d5f-ea28-4de2-b118-e2277f283dee","DXVA2_VideoTransFuncMask","DXVA2_VideoTransFunc_10","DXVA2_VideoTransFunc_18","DXVA2_VideoTransFunc_20","DXVA2_VideoTransFunc_22","DXVA2_VideoTransFunc_240M","DXVA2_VideoTransFunc_28","DXVA2_VideoTransFunc_709","DXVA2_VideoTransFunc_Unknown","DXVA2_VideoTransFunc_sRGB","DXVA2_VideoTransferFunction","DXVA2_VideoTransferFunction enumeration [Media Foundation]","dxva2api/DXVA2_VideoTransFuncMask","dxva2api/DXVA2_VideoTransFunc_10","dxva2api/DXVA2_VideoTransFunc_18","dxva2api/DXVA2_VideoTransFunc_20","dxva2api/DXVA2_VideoTransFunc_22","dxva2api/DXVA2_VideoTransFunc_240M","dxva2api/DXVA2_VideoTransFunc_28","dxva2api/DXVA2_VideoTransFunc_709","dxva2api/DXVA2_VideoTransFunc_Unknown","dxva2api/DXVA2_VideoTransFunc_sRGB","dxva2api/DXVA2_VideoTransferFunction","mf.dxva2_videotransferfunction"]
 old-location: mf\dxva2_videotransferfunction.htm
 tech.root: mf
@@ -56,43 +56,43 @@ Specifies the conversion function from linear RGB to non-linear RGB (R'G'B'). Th
 
 ## -enum-fields
 
-### -field DXVA2_VideoTransFuncMask
+### -field DXVA2_VideoTransFuncMask:0x1f
 
 Bitmask to validate flag values. This value is not a valid flag.
 
-### -field DXVA2_VideoTransFunc_Unknown
+### -field DXVA2_VideoTransFunc_Unknown:0
 
 Unknown. Treat as DXVA2_VideoTransFunc_709.
 
-### -field DXVA2_VideoTransFunc_10
+### -field DXVA2_VideoTransFunc_10:1
 
 Linear RGB (gamma = 1.0).
 
-### -field DXVA2_VideoTransFunc_18
+### -field DXVA2_VideoTransFunc_18:2
 
 True 1.8 gamma, L' = L^1/1.8.
 
-### -field DXVA2_VideoTransFunc_20
+### -field DXVA2_VideoTransFunc_20:3
 
 True 2.0 gamma, L' = L^1/2.0.
 
-### -field DXVA2_VideoTransFunc_22
+### -field DXVA2_VideoTransFunc_22:4
 
 True 2.2 gamma, L' = L^1/2.2. This transfer function is used in ITU-R BT.470-2 System M (NTSC).
 
-### -field DXVA2_VideoTransFunc_709
+### -field DXVA2_VideoTransFunc_709:5
 
 ITU-R BT.709 transfer function. Gamma 2.2 curve with a linear segment in the lower range. This transfer function is used in BT.709, BT.601, SMPTE 296M, SMPTE 170M, BT.470, and SMPTE 274M. In addition BT-1361 uses this function within the range [0...1].
 
-### -field DXVA2_VideoTransFunc_240M
+### -field DXVA2_VideoTransFunc_240M:6
 
 SMPTE 240M transfer function. Gamma 2.2 curve with a linear segment in the lower range.
 
-### -field DXVA2_VideoTransFunc_sRGB
+### -field DXVA2_VideoTransFunc_sRGB:7
 
 sRGB transfer function. Gamma 2.4 curve with a linear segment in the lower range.
 
-### -field DXVA2_VideoTransFunc_28
+### -field DXVA2_VideoTransFunc_28:8
 
 True 2.8 gamma. L' = L^1/2.8. This transfer function is used in ITU-R BT.470-2 System B, G (PAL).
 

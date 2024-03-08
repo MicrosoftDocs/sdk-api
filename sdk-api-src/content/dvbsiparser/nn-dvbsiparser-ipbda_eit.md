@@ -11,7 +11,7 @@ ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_E
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that enable the client to get information from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream. The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IPBDASiParser::GetEIT</a> method returns a pointer to this interface.
 
 An EIT provides information about events in each service, such as the event name, the start time, and the duration. An EIT can hold information about the transport stream that carries it, or it can hold information about other transport streams. There are two types of EITs:
@@ -59,7 +61,7 @@ An EIT provides information about events in each service, such as the event name
 </ul>EIT sections are given the following table identifiers.
 <table>
 <tr>
-<th>TableÂ identifier</th>
+<th>Table identifier</th>
 <th>Description</th>
 </tr>
 <tr>
@@ -76,6 +78,6 @@ An EIT provides information about events in each service, such as the event name
 
 The <b>IPBDA_EIT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDA_EIT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

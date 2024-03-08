@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.SetAllSettingsWithNotify
 title: ICodecAPI::SetAllSettingsWithNotify
 ms.date: 09/22/2020
 targetos: Windows
-description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
+description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed. (ICodecAPI::SetAllSettingsWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettingsWithNotify method","ICodecAPI.SetAllSettingsWithNotify","ICodecAPI::SetAllSettingsWithNotify","ICodecAPISetAllSettingsWithNotify","SetAllSettingsWithNotify","SetAllSettingsWithNotify method [DirectShow]","SetAllSettingsWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettingswithnotify","icodecapi/ICodecAPI::SetAllSettingsWithNotify"]
 tech.root: mf
 req.assembly: 

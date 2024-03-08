@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Next
 title: IEnumBackgroundCopyFiles::Next (bits.h)
-description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements. (IEnumBackgroundCopyFiles.Next)
 helpviewer_keywords: ["IEnumBackgroundCopyFiles interface [BITS]","Next method","IEnumBackgroundCopyFiles.Next","IEnumBackgroundCopyFiles::Next","Next","Next method [BITS]","Next method [BITS]","IEnumBackgroundCopyFiles interface","_drz_ienumbackgroundcopyfiles_next","bits.ienumbackgroundcopyfiles_next","bits/IEnumBackgroundCopyFiles::Next"]
 old-location: bits\ienumbackgroundcopyfiles_next.htm
 tech.root: Bits

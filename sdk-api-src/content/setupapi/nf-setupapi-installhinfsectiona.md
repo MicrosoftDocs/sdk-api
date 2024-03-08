@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
 title: InstallHinfSectionA function (setupapi.h)
-description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
-helpviewer_keywords: ["InstallHinfSection","InstallHinfSection function [Setup API]","InstallHinfSectionA","InstallHinfSectionW","_setupapi_installhinfsection","setup.installhinfsection","setupapi/InstallHinfSection","setupapi/InstallHinfSectionA","setupapi/InstallHinfSectionW"]
+description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section. (ANSI)
+helpviewer_keywords: ["InstallHinfSectionA", "setupapi/InstallHinfSectionA"]
 old-location: setup\installhinfsection.htm
 tech.root: setup
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
-ms.date: 12/05/2018
+ms.date: 05/01/2023
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
 req.header: setupapi.h
 req.include-header: 
@@ -98,7 +98,7 @@ Alternatively, your program may call
 
 
 ``` syntax
-"&lt;section&gt; &lt;mode&gt; &lt;path&gt;"
+"<section> <mode> <path>"
 ```
 
 Where <i>path</i> is the full path to the .inf file, <i>mode</i> is the reboot mode parameter, and <i>section</i> is any <b>Install</b> section in the .inf file. The comma separator between SETUPAPI.DLL and 
@@ -160,3 +160,9 @@ For example, the following command line runs the DefaultInstall section of the S
 
 > [!NOTE]
 > The setupapi.h header defines InstallHinfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
+> [!CAUTION]
+> When used on an architecture other than x86 or amd64, or when used on a system in [S mode](/windows-hardware/manufacture/desktop/windows-10-s-overview), InstallHInfSection requires that the INF file have a [INF Version section](/windows-hardware/drivers/install/inf-version-section) with a CatalogFile directive that points at a signed catalog file that contains the hash of the INF file and any files the INF file references via a [INF SourceDisksFiles section](/windows-hardware/drivers/install/inf-sourcedisksfiles-section).
+
+> [!CAUTION]
+> When used on a system whose native architecture is not x86 nor amd64, InstallHInfSection should be used from a native architecture process. InstallHInfSection will block many types of system state changing operations when used from a non-native architecture process.

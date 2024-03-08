@@ -389,7 +389,6 @@ int __cdecl main(int argc, char **argv)
 
     /* Declare and initialize variables */
 
-    DWORD dwSize = 0;
     DWORD dwRetVal = 0;
 
     unsigned int i = 0;

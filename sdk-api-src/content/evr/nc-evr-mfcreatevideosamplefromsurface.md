@@ -4,7 +4,7 @@ title: MFCreateVideoSampleFromSurface (evr.h)
 description: Creates a media sample that manages a Direct3D surface.
 helpviewer_keywords: ["MFCreateVideoSampleFromSurface","MFCreateVideoSampleFromSurface callback","MFCreateVideoSampleFromSurface callback function [Media Foundation]","d34d423b-4510-44ce-ab46-51560b01f205","evr/MFCreateVideoSampleFromSurface","mf.mfcreatevideosamplefromsurface"]
 old-location: mf\mfcreatevideosamplefromsurface.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
@@ -43,12 +43,15 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoSampleFromSurface
+archived: true
 ---
 
 # MFCreateVideoSampleFromSurface callback function
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Creates a media sample that manages a Direct3D surface.
 

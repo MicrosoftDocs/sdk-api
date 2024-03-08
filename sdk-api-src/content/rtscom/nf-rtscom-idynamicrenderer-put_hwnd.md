@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_HWND
 title: IDynamicRenderer::put_HWND (rtscom.h)
-description: Gets or sets the window handle, HWND, associated with the DynamicRenderer Class object.
+description: Gets or sets the window handle, HWND, associated with the DynamicRenderer Class object. (Put)
 helpviewer_keywords: ["1795100f-d529-4513-8635-65d1d7285f72","HWND property [Tablet PC]","HWND property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","HWND property","IDynamicRenderer.HWND","IDynamicRenderer.get_HWND","IDynamicRenderer.put_HWND","IDynamicRenderer::HWND","IDynamicRenderer::get_HWND","IDynamicRenderer::put_HWND","put_HWND","rtscom/IDynamicRenderer::HWND","rtscom/IDynamicRenderer::get_HWND","rtscom/IDynamicRenderer::put_HWND","tablet.idynamicrenderer_hwnd"]
 old-location: tablet\idynamicrenderer_hwnd.htm
 tech.root: tablet

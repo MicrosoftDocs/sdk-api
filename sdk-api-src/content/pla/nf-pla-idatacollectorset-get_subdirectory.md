@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Subdirectory
 title: IDataCollectorSet::get_Subdirectory (pla.h)
-description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
+description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Subdirectory property","IDataCollectorSet.Subdirectory","IDataCollectorSet.get_Subdirectory","IDataCollectorSet::Subdirectory","IDataCollectorSet::get_Subdirectory","IDataCollectorSet::put_Subdirectory","Subdirectory property [PLA]","Subdirectory property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectory","get_Subdirectory","pla.idatacollectorset_get_subdirectory","pla/IDataCollectorSet::Subdirectory","pla/IDataCollectorSet::get_Subdirectory","pla/IDataCollectorSet::put_Subdirectory"]
 old-location: pla\idatacollectorset_get_subdirectory.htm
 tech.root: PLA

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetSubSystem
 title: IVdsIscsiPortal::GetSubSystem (vdshwprv.h)
-description: Returns the subsystem to which the portal belongs.
+description: The IVdsIscsiPortal::GetSubSystem (vdshwprv.h) method returns the subsystem to which the portal belongs.
 helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsIscsiPortal interface","IVdsIscsiPortal interface [VDS]","GetSubSystem method","IVdsIscsiPortal.GetSubSystem","IVdsIscsiPortal::GetSubSystem","base.ivdsiscsiportal_getsubsystem","vds/IVdsIscsiPortal::GetSubSystem","vdshwprv/IVdsIscsiPortal::GetSubSystem"]
 old-location: base\ivdsiscsiportal_getsubsystem.htm
 tech.root: base
 ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiPortal interface, IVdsIscsiPortal interface [VDS],GetSubSystem method, IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the subsystem to which the portal belongs.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFont.IsSymbolFont
 title: IDWriteFont::IsSymbolFont (dwrite.h)
-description: Determines whether the font is a symbol font.
+description: Determines whether the font is a symbol font. (IDWriteFont.IsSymbolFont)
 helpviewer_keywords: ["IDWriteFont interface [Direct Write]","IsSymbolFont method","IDWriteFont.IsSymbolFont","IDWriteFont::IsSymbolFont","IsSymbolFont","IsSymbolFont method [Direct Write]","IsSymbolFont method [Direct Write]","IDWriteFont interface","directwrite.IDWriteFont_IsSymbolFont","dwrite/IDWriteFont::IsSymbolFont"]
 old-location: directwrite\IDWriteFont_IsSymbolFont.htm
 tech.root: DirectWrite

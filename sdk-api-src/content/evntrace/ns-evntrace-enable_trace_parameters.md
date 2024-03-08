@@ -168,7 +168,8 @@ flags. Otherwise, set to zero.
   Add a call stack trace to the extended data of events written using
   [EventWrite](/windows/desktop/api/evntprov/nf-evntprov-eventwrite).
 
-  > [!Note] ETW will drop the event if the total event size exceeds 64K. If the
+  > [!Note]
+  > ETW will drop the event if the total event size exceeds 64K. If the
   > provider is logging events close in size to 64K maximum, it is possible that
   > enabling stack capture will cause the event to be lost.
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_A
 title: SEC_WINNT_AUTH_IDENTITY_A (sspi.h)
-description: Allows you to pass a particular user name and password to the run-time library for the purpose of authentication.
+description: Allows you to pass a particular user name and password to the run-time library for the purpose of authentication. (ANSI)
 helpviewer_keywords: ["*PSEC_WINNT_AUTH_IDENTITY_A","PSEC_WINNT_AUTH_IDENTITY","PSEC_WINNT_AUTH_IDENTITY structure pointer [Security]","SEC_WINNT_AUTH_IDENTITY","SEC_WINNT_AUTH_IDENTITY structure [Security]","SEC_WINNT_AUTH_IDENTITY_A","SEC_WINNT_AUTH_IDENTITY_ANSI","SEC_WINNT_AUTH_IDENTITY_UNICODE","SEC_WINNT_AUTH_IDENTITY_W","_SEC_WINNT_AUTH_IDENTITY_A","_SEC_WINNT_AUTH_IDENTITY_W","_ssp_sec_winnt_auth_identity","security.sec_winnt_auth_identity","sspi/PSEC_WINNT_AUTH_IDENTITY","sspi/SEC_WINNT_AUTH_IDENTITY"]
 old-location: security\sec_winnt_auth_identity.htm
 tech.root: security

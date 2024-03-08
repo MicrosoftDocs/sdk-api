@@ -11,7 +11,7 @@ ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__Mixe
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>put__MixerBitmap</b> method specifies the static bitmap image.
 
 ## -parameters
 
 ### -param MixerPicture [in]
 
-A pointer to a <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A pointer to a <a href="/previous-versions/ms788081(v=vs.85)">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 ## -returns
 

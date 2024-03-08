@@ -1,10 +1,10 @@
 ---
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
-title: PROCESS_INFORMATION_CLASS
+title: PROCESS_INFORMATION_CLASS (processthreadsapi.h)
 ms.date: 05/05/2020
 targetos: Windows
 description: Indicates a specific class of process information.
-tech.root: security
+tech.root: processthreadsapi
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: processthreadsapi.h
@@ -13,7 +13,7 @@ req.kmdf-ver:
 req.max-support: 
 req.target-min-winverclnt: Windows Build 22000
 req.target-min-winversvr: Windows Build 22000
-req.target-type: 
+req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:
@@ -33,6 +33,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# PROCESS_INFORMATION_CLASS enumeration
 
 ## -description
 
@@ -58,7 +60,7 @@ If a process is set to **ProcessInPrivate** mode, and a trace session has set th
 
 ### -field ProcessPowerThrottling
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure. Allows applications to configure how the system should throttle the target process’s activity when managing power.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure. Allows applications to configure how the system should throttle the target process's activity when managing power.
 
 ### -field ProcessReservedValue1
 
@@ -80,6 +82,14 @@ The process information is represented by a <a href="../processthreadsapi/ns-pro
 
 The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsapi-process_machine_information.md) structure.
 
+### -field ProcessOverrideSubsequentPrefetchParameter
+
+Can be used in a call to the [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md) to set an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md) for the application that called it. The prefetch parameter is used to differentiate different file access patterns for the same process name.
+
+### -field ProcessMaxOverridePrefetchParameter
+
+Can be used in a call to the [GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md) to query the maximum allowable value (inclusive) for an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md). (The prefetch parameter is used to differentiate different file access patterns for the same process name.)
+
 ### -field ProcessInformationClassMax
 
 The maximum value for this enumeration. This value may change in a future version.
@@ -87,3 +97,5 @@ The maximum value for this enumeration. This value may change in a future versio
 ## -remarks
 
 ## -see-also
+
+[GetProcessInformation function](nf-processthreadsapi-getprocessinformation.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md), [PROCESS_MACHINE_INFORMATION structure](ns-processthreadsapi-process_machine_information.md), [PROCESS_MEMORY_EXHAUSTION_INFO structure](ns-processthreadsapi-process_memory_exhaustion_info.md)

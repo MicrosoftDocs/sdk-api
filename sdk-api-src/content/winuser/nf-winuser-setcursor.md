@@ -66,7 +66,11 @@ Sets the cursor shape.
 
 Type: <b>HCURSOR</b>
 
-A handle to the cursor. The cursor must have been created by the <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> function or loaded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function. If this parameter is <b>NULL</b>, the cursor is removed from the screen.
+A handle to the cursor.
+
+The cursor must have been created by either the <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a> or the <a href="/windows/win32/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a> function, or loaded by either the <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> or the <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> function.
+
+If this parameter is <b>NULL</b>, the cursor is removed from the screen.
 
 ## -returns
 
@@ -86,53 +90,32 @@ If your application must set the cursor while it is in a window, make sure the c
 
 The cursor is not shown on the screen if the internal cursor display count is less than zero. This occurs if the application uses the <a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a> function to hide the cursor more times than to show the cursor. 
 
-
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-cursors">Displaying a Cursor</a>.
-
-<div class="code"></div>
 
 ## -see-also
 
 <b>Conceptual</b>
 
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
+<a href="/windows/desktop/menurc/using-cursors#creating-a-cursor">Creating a Cursor</a>
 
 <a href="/windows/desktop/api/winuser/nf-winuser-createcursor">CreateCursor</a>
 
-
-
-<a href="/windows/desktop/menurc/cursors">Cursors</a>
-
-
+<a href="/windows/win32/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 <a href="/windows/desktop/api/winuser/nf-winuser-getcursor">GetCursor</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
-
-
-
-<b>Other Resources</b>
-
-
 
 <b>Reference</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>

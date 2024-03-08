@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPage interface
 
-
 ## -description
 
 Provides the root node of a tree of objects that hold the contents of  a single page. 
@@ -139,4 +138,4 @@ For information about using this interface in a program, see <a href="/previous-
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

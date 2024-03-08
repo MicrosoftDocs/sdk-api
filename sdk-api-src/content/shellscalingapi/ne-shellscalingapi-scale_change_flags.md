@@ -1,5 +1,5 @@
 ---
-UID: NE:shellscalingapi.__unnamed_enum_1
+UID: NE:shellscalingapi.SCALE_CHANGE_FLAGS
 title: SCALE_CHANGE_FLAGS (shellscalingapi.h)
 description: Flags that are used to indicate the scaling change that occurred.
 helpviewer_keywords: ["SCALE_CHANGE_FLAGS","SCALE_CHANGE_FLAGS enumeration [Windows Shell]","SCF_PHYSICAL","SCF_SCALE","SCF_VALUE_NONE","shell.scale_change_flags","shellscalingapi/SCALE_CHANGE_FLAGS","shellscalingapi/SCF_PHYSICAL","shellscalingapi/SCF_SCALE","shellscalingapi/SCF_VALUE_NONE"]
@@ -54,15 +54,15 @@ Flags that are used to indicate the scaling change that occurred.
 
 ## -enum-fields
 
-### -field SCF_VALUE_NONE
+### -field SCF_VALUE_NONE:0x00
 
 No change.
 
-### -field SCF_SCALE
+### -field SCF_SCALE:0x01
 
 The scale factor has changed.
 
-### -field SCF_PHYSICAL
+### -field SCF_PHYSICAL:0x02
 
 The physical dpi of the device has changed. A change in the physical dpi is generally caused either by switching display devices or switching display resolutions.
 

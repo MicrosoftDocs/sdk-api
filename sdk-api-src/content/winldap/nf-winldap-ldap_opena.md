@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_openA
 title: ldap_openA function (winldap.h)
-description: ldap_open is not recommended for use.
-helpviewer_keywords: ["_ldap_ldap_open","ldap.ldap__open","ldap.ldap_open","ldap_open","ldap_open function [LDAP]","ldap_openA","ldap_openW","winldap/ldap_open","winldap/ldap_openA","winldap/ldap_openW"]
+description: ldap_open is not recommended for use. (ldap_openA)
+helpviewer_keywords: ["ldap.ldap__open", "ldap_openA", "winldap/ldap_openA"]
 old-location: ldap\ldap_open.htm
 tech.root: ldap
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756

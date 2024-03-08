@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.GetWindowInputRectangle
 title: IInkOverlay::GetWindowInputRectangle (msinkaut.h)
-description: Gets the window rectangle, in pixels, within which ink is drawn.
+description: Gets the window rectangle, in pixels, within which ink is drawn. (IInkOverlay.GetWindowInputRectangle)
 helpviewer_keywords: ["0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c","GetWindowInputRectangle","GetWindowInputRectangle method [Tablet PC]","GetWindowInputRectangle method [Tablet PC]","IInkOverlay interface","IInkOverlay","IInkOverlay interface [Tablet PC]","GetWindowInputRectangle method","IInkOverlay.GetWindowInputRectangle","IInkOverlay::GetWindowInputRectangle","msinkaut/IInkOverlay::GetWindowInputRectangle","tablet.inkoverlay_getwindowinputrectangle"]
 old-location: tablet\inkoverlay_getwindowinputrectangle.htm
 tech.root: tablet

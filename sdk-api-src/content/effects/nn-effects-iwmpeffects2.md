@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEffects2","IWMPEffects2 interface [Windows Media Play
 old-location: wmp\iwmpeffects2.htm
 tech.root: WMP
 ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEffects2 interface [Windows Media Player],described, IWMPEffects2Interface, effects/IWMPEffects2, wmp.iwmpeffects2
 req.header: effects.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The IWMPEffects2 interface.
 
 ## -inheritance
 
 The <b>IWMPEffects2</b> interface inherits from <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

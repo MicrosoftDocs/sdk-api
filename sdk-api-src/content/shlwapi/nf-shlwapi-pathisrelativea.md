@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsRelativeA
 title: PathIsRelativeA function (shlwapi.h)
-description: Searches a path and determines if it is relative.
-helpviewer_keywords: ["PathIsRelative","PathIsRelative function [Windows Shell]","PathIsRelativeA","PathIsRelativeW","_win32_PathIsRelative","shell.PathIsRelative","shlwapi/PathIsRelative","shlwapi/PathIsRelativeA","shlwapi/PathIsRelativeW"]
+description: Searches a path and determines if it is relative. (ANSI)
+helpviewer_keywords: ["PathIsRelativeA", "shlwapi/PathIsRelativeA"]
 old-location: shell\PathIsRelative.htm
 tech.root: shell
 ms.assetid: ad36c277-645f-4c62-af7d-b75e29de573f

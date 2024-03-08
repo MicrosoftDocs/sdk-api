@@ -1,7 +1,7 @@
 ---
 UID: NS:advpub._StrTableA
 title: STRTABLEA (advpub.h)
-description: Represents a table of registry string replacements.
+description: Represents a table of registry string replacements. (ANSI)
 helpviewer_keywords: ["*LPSTRTABLEA","LPSTRTABLEA","LPSTRTABLEA structure pointer [Windows API]","STRTABLE","STRTABLEA","STRTABLEA structure [Windows API]","_StrTableA","_StrTableA structure [Windows API]","advpub/LPSTRTABLEA","advpub/_StrTableA","winprog._strtablea"]
 old-location: winprog\_strtablea.htm
 tech.root: winprog

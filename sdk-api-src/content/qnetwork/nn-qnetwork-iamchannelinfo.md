@@ -6,7 +6,7 @@ helpviewer_keywords: ["IAMChannelInfo","IAMChannelInfo interface [DirectShow]","
 old-location: dshow\iamchannelinfo.htm
 tech.root: dshow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
 req.header: qnetwork.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IAMChannelInfo</b> interface gets and sets channel information for Windows Media Station (.nsc) files.
 
 This interface is exposed by the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter only when the filter is reading Windows Media Station (.nsc) files. The Windows Media Source filter uses .nsc files to get the information it needs to receive multicast content over the Internet. These files contain information such as stream location and rollover URL, as well as descriptive information about the station.
@@ -58,7 +60,7 @@ This interface is exposed by the <a href="/windows/desktop/DirectShow/windows-me
 
 The <b>IAMChannelInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

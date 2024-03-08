@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.CreateApplicationGroup
 title: IAzScope::CreateApplicationGroup (azroles.h)
-description: Creates an IAzApplicationGroup object with the specified name.
+description: Creates an IAzApplicationGroup object with the specified name. (IAzScope.CreateApplicationGroup)
 helpviewer_keywords: ["AzScope object [Security]","CreateApplicationGroup method","CreateApplicationGroup","CreateApplicationGroup method [Security]","CreateApplicationGroup method [Security]","AzScope object","CreateApplicationGroup method [Security]","IAzScope interface","IAzScope interface [Security]","CreateApplicationGroup method","IAzScope.CreateApplicationGroup","IAzScope::CreateApplicationGroup","azroles/IAzScope::CreateApplicationGroup","security.iazscope_createapplicationgroup"]
 old-location: security\iazscope_createapplicationgroup.htm
 tech.root: security

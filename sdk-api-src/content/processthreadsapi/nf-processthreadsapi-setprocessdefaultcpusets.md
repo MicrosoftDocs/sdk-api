@@ -1,11 +1,11 @@
 ---
 UID: NF:processthreadsapi.SetProcessDefaultCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: SetProcessDefaultCpuSets
-ms.date: 03/12/2021
+ms.date: 08/05/2022
 ms.topic: language-reference
 targetos: Windows
-description: Sets the default CPU Sets assignment for threads in the specified process. 
+description: The SetProcessDefaultCpuSets function (processthreadsapi.h) sets the default CPU Sets assignment for threads in the specified process. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Sets the default CPU Sets assignment for threads in the specified process. Threads that are created, which don’t have CPU Sets explicitly set using [**SetThreadSelectedCpuSets**](setthreadselectedcpusets.md), will inherit the sets specified by **SetProcessDefaultCpuSets** automatically.
+Sets the default CPU Sets assignment for threads in the specified process. Threads that are created, which don’t have CPU Sets explicitly set using [**SetThreadSelectedCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets), will inherit the sets specified by **SetProcessDefaultCpuSets** automatically.
 
 
 ## -parameters

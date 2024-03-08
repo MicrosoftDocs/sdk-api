@@ -1,12 +1,12 @@
 ---
 UID: NF:winnt.RtlUnwind
 title: RtlUnwind function (winnt.h)
-description: Initiates an unwind of procedure call frames.
+description: Initiates an unwind of procedure call frames. (RtlUnwind)
 helpviewer_keywords: ["RtlUnwind","RtlUnwind function","base.rtlunwind","winnt/RtlUnwind"]
 old-location: base\rtlunwind.htm
 tech.root: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
 req.header: winnt.h
 req.include-header: Windows.h
@@ -44,12 +44,12 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - vertdll.dll
 api_name:
  - RtlUnwind
 ---
 
 # RtlUnwind function
-
 
 ## -description
 
@@ -59,18 +59,15 @@ Initiates an unwind of procedure call frames.
 
 ### -param TargetFrame [in, optional]
 
-A pointer to the call frame that is the target of the unwind. If this parameter is 
-      <b>NULL</b>, the function performs an exit unwind.
+A pointer to the call frame that is the target of the unwind. If this parameter is `NULL`, the function performs an exit unwind.
 
 ### -param TargetIp [in, optional]
 
-The continuation address of the unwind. This parameter is ignored if <i>TargetFrame</i> 
-      is <b>NULL</b>.
+The continuation address of the unwind. This parameter is ignored if *TargetFrame* is `NULL`.
 
 ### -param ExceptionRecord [in, optional]
 
-A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> 
-      structure.
+A pointer to an [EXCEPTION_RECORD](ns-winnt-exception_record.md) structure.
 
 ### -param ReturnValue [in]
 
@@ -82,4 +79,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
+[EXCEPTION_RECORD](ns-winnt-exception_record.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

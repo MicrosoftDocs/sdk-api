@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSyncDevice","IWMPSyncDevice interface [Windows Media 
 old-location: wmp\iwmpsyncdevice.htm
 tech.root: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
 req.header: wmp.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPSyncDevice</b> interface represents a device to which Windows Media Player 10 or later can copy digital media files. It provides methods used to specify and retrieve properties for the device and to manage the relationship between Windows Media Player and the device.
 
 To use this interface, you must create a remoted instance of the Windows Media Player 10 or later control.
@@ -58,7 +60,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 The <b>IWMPSyncDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSyncDevice</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetsA
 title: ReportIScsiTargetsA function (iscsidsc.h)
-description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
-helpviewer_keywords: ["ReportIScsiTargetsA","ReportIscsiTargets","ReportIscsiTargets function [iSCSI Discovery Library API]","ReportIscsiTargetsA","ReportIscsiTargetsW","iscsidisc.reportiscsitargets","iscsidsc/ReportIscsiTargets","iscsidsc/ReportIscsiTargetsA","iscsidsc/ReportIscsiTargetsW"]
+description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list. (ANSI)
+helpviewer_keywords: ["ReportIScsiTargetsA", "ReportIscsiTargetsA", "iscsidsc/ReportIscsiTargetsA"]
 old-location: iscsidisc\reportiscsitargets.htm
 tech.root: iSCSIDisc
 ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f

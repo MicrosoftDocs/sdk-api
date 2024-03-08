@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPMediaPluginRegistrar","IWMPMediaPluginRegistrar inter
 old-location: wmp\iwmpmediapluginregistrar.htm
 tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
 req.header: wmpservices.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPMediaPluginRegistrar</b> interface manages plug-in registration.
 
 ## -inheritance
 
 The <b>IWMPMediaPluginRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPMediaPluginRegistrar</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

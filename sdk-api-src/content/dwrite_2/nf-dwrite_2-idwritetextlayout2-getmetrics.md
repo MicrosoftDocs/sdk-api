@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetMetrics
 title: IDWriteTextLayout2::GetMetrics (dwrite_2.h)
-description: Retrieves overall metrics for the formatted string.
+description: Retrieves overall metrics for the formatted string. (IDWriteTextLayout2.GetMetrics)
 helpviewer_keywords: ["GetMetrics","GetMetrics method [Direct Write]","GetMetrics method [Direct Write]","IDWriteTextLayout2 interface","IDWriteTextLayout2 interface [Direct Write]","GetMetrics method","IDWriteTextLayout2.GetMetrics","IDWriteTextLayout2::GetMetrics","directwrite.idwritetextlayout2_getmetrics","dwrite_2/IDWriteTextLayout2::GetMetrics"]
 old-location: directwrite\idwritetextlayout2_getmetrics.htm
 tech.root: DirectWrite
@@ -68,5 +68,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2">IDWriteTextLayout2</a>
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMPCallbackNotification","WMPCallbackNotification enumera
 old-location: wmp\wmpcallbacknotification.htm
 tech.root: WMP
 ms.assetid: 6c0ba35f-a484-4d00-be42-af5114086250
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMPCallbackNotification, WMPCallbackNotification enumeration [Windows Media Player], contentpartner/WMPCallbackNotification, contentpartner/wmpcnAuthResult, contentpartner/wmpcnDisableRadioSkipping, contentpartner/wmpcnLicenseUpdated, contentpartner/wmpcnLoginStateChange, contentpartner/wmpcnNewCatalogAvailable, contentpartner/wmpcnNewPluginAvailable, enumeration [Windows Media Player], wmp.wmpcallbacknotification, wmpcnAuthResult, wmpcnDisableRadioSkipping, wmpcnLicenseUpdated, wmpcnLoginStateChange, wmpcnNewCatalogAvailable, wmpcnNewPluginAvailable
 req.header: contentpartner.h
 req.include-header: 
@@ -50,33 +50,35 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>WMPCallbackNotification</b> enumeration defines states for use by the <b>IWMPContentPartnerCallback::Notify</b> callback function.
 
 ## -enum-fields
 
-### -field wmpcnLoginStateChange
+### -field wmpcnLoginStateChange:1
 
 The user has either signed in or signed out.
 
-### -field wmpcnAuthResult
+### -field wmpcnAuthResult:2
 
 The notification contains the result of an authentication attempt.
 
-### -field wmpcnLicenseUpdated
+### -field wmpcnLicenseUpdated:3
 
 A license was updated for a content item.
 
-### -field wmpcnNewCatalogAvailable
+### -field wmpcnNewCatalogAvailable:4
 
 A new catalog or update is available for download.
 
-### -field wmpcnNewPluginAvailable
+### -field wmpcnNewPluginAvailable:5
 
 A new plug-in or update is available for download.
 
-### -field wmpcnDisableRadioSkipping
+### -field wmpcnDisableRadioSkipping:6
 
 Disable radio skipping in Windows Media Player.
 

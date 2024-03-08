@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptVerifySignature
 title: BCryptVerifySignature function (bcrypt.h)
-description: Verifies that the specified signature matches the specified hash.
+description: Verifies that the specified signature matches the specified hash. (BCryptVerifySignature)
 helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptVerifySignature","BCryptVerifySignature function [Security]","bcrypt/BCryptVerifySignature","security.bcryptverifysignature_func"]
 old-location: security\bcryptverifysignature_func.htm
 tech.root: security
@@ -167,6 +167,17 @@ A memory allocation failure occurred.
 <tr>
 <td width="40%">
 <dl>
+<dt><b>STATUS_INVALID_PARAMETER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of supplied parameters is invalid.
+ 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
 <dt><b>STATUS_INVALID_HANDLE</b></dt>
 </dl>
 </td>
@@ -190,7 +201,7 @@ The algorithm provider used to create the key handle specified by the <i>hKey</i
 
 ## -remarks
 
- This function decrypts the signature with the provided key and then compares the decrypted value to the specified hash value.
+ This function calculates the signature with provided key and then compares calculated signature value to the specified signature value.
 
 To use this function, you must hash the data by using the same hashing algorithm that was used to create the hash value that was signed. If applicable, you must also specify the same padding scheme that was specified when the signature was created.
 

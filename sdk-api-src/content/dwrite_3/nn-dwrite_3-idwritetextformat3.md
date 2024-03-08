@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat3
 title: IDWriteTextFormat3
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. (IDWriteTextFormat3)
 helpviewer_keywords: ["IDWriteTextFormat3","IDWriteTextFormat3 interface [Direct Write]","IDWriteTextFormat3 interface [Direct Write]","described","directwrite.idwritetextformat3","dwrite_3/IDWriteTextFormat3"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
@@ -42,9 +42,9 @@ api_name:
 
 Describes the font and paragraph properties used to format text, and it describes locale information.
 
-This interface extends [IDWriteTextFormat2](/windows/win32/directwrite/idwritetextformat2).
+This interface extends [IDWriteTextFormat2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2).
 
 ## -see-also
 
-[IDWriteTextFormat2](/windows/win32/directwrite/idwritetextformat2)
+[IDWriteTextFormat2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2)
 

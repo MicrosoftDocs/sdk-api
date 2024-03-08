@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaults
 title: ICodecAPI::SetAllDefaults (strmif.h)
-description: The SetAllDefaults method resets all codec properties to their default values.
+description: The SetAllDefaults method resets all codec properties to their default values. (ICodecAPI.SetAllDefaults)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllDefaults method","ICodecAPI.SetAllDefaults","ICodecAPI::SetAllDefaults","ICodecAPISetAllDefaults","SetAllDefaults","SetAllDefaults method [DirectShow]","SetAllDefaults method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setalldefaults","strmif/ICodecAPI::SetAllDefaults"]
 old-location: dshow\icodecapi_setalldefaults.htm
 tech.root: dshow
 ms.assetid: b2f630be-a105-4f1b-9f9a-9d56c8853f35
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaults method, ICodecAPI.SetAllDefaults, ICodecAPI::SetAllDefaults, ICodecAPISetAllDefaults, SetAllDefaults, SetAllDefaults method [DirectShow], SetAllDefaults method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaults, strmif/ICodecAPI::SetAllDefaults
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetAllDefaults</b> method resets all codec properties to their default values.
 

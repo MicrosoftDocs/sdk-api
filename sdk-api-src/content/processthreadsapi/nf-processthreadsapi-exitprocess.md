@@ -4,12 +4,12 @@ title: ExitProcess function (processthreadsapi.h)
 description: Ends the calling process and all its threads.
 helpviewer_keywords: ["ExitProcess","ExitProcess function","_win32_exitprocess","base.exitprocess","processthreadsapi/ExitProcess","winbase/ExitProcess"]
 old-location: base\exitprocess.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.date: 12/05/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

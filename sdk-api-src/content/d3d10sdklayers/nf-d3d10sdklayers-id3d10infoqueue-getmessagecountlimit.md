@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetMessageCountLimit
 title: ID3D10InfoQueue::GetMessageCountLimit (d3d10sdklayers.h)
-description: Get the maximum number of messages that can be added to the message queue.
+description: Get the maximum number of messages that can be added to the message queue. (ID3D10InfoQueue.GetMessageCountLimit)
 helpviewer_keywords: ["GetMessageCountLimit","GetMessageCountLimit method [Direct3D 10]","GetMessageCountLimit method [Direct3D 10]","ID3D10InfoQueue interface","ID3D10InfoQueue interface [Direct3D 10]","GetMessageCountLimit method","ID3D10InfoQueue.GetMessageCountLimit","ID3D10InfoQueue::GetMessageCountLimit","bf741d73-e29b-2506-211e-4de8244d540a","d3d10sdklayers/ID3D10InfoQueue::GetMessageCountLimit","direct3d10.id3d10infoqueue_getmessagecountlimit"]
 old-location: direct3d10\id3d10infoqueue_getmessagecountlimit.htm
 tech.root: direct3d10

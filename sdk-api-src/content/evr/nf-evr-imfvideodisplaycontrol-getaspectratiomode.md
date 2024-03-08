@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetAspectRatioMode (evr.h)
 description: Queries how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [Media Foundation]","GetAspectRatioMode method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetAspectRatioMode method","IMFVideoDisplayControl.GetAspectRatioMode","IMFVideoDisplayControl::GetAspectRatioMode","b5e81f80-e5c9-4ecf-8f10-d52a0533f086","evr/IMFVideoDisplayControl::GetAspectRatioMode","mf.imfvideodisplaycontrol_getaspectratiomode"]
 old-location: mf\imfvideodisplaycontrol_getaspectratiomode.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: b5e81f80-e5c9-4ecf-8f10-d52a0533f086
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetAspectRatioMode method, IMFVideoDisplayControl.GetAspectRatioMode, IMFVideoDisplayControl::GetAspectRatioMode, b5e81f80-e5c9-4ecf-8f10-d52a0533f086, evr/IMFVideoDisplayControl::GetAspectRatioMode, mf.imfvideodisplaycontrol_getaspectratiomode
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetAspectRatioMode
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetAspectRatioMode
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Queries how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 

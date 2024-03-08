@@ -59,7 +59,7 @@ The <b>VSS_BACKUP_TYPE</b> enumeration indicates the
 
 ## -enum-fields
 
-### -field VSS_BT_UNDEFINED
+### -field VSS_BT_UNDEFINED:0
 
 The backup type is not known. 
       

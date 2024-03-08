@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGradientBrush interface
 
-
 ## -description
 
 This interface describes a gradient that is made up of gradient stops. Classes that inherit from <b>IXpsOMGradientBrush</b> specify different ways of interpreting gradient stops.
@@ -93,4 +92,4 @@ The spread method describes how the spread area is filled. Implementation of the
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfUpdateSyncProviderStatus","CfUpdateSyncProviderStatus f
 old-location: cloudapi\cfupdatesyncproviderstatus.htm
 tech.root: cloudapi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085
-ms.date: 12/05/2018
+ms.date: 03/31/2023
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfUpdateSyncProviderStatus function
 
-
 ## -description
 
 Updates the current status of the sync provider.
@@ -60,9 +59,14 @@ A connection key representing a communication channel with the sync filter.
 
 ### -param ProviderStatus [in]
 
-The current status of the sync provider.
+The current status of the sync provider. The status persists for the life of the sync root connection. The sync root connection is torn down either when [CfDisconnectSyncRoot](nf-cfapi-cfdisconnectsyncroot.md) is called or if the sync provider process is terminated.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
+## -see-also
+
+[CfDisconnectSyncRoot](nf-cfapi-cfdisconnectsyncroot.md)
+
+[CF_SYNC_PROVIDER_STATUS](ne-cfapi-cf_sync_provider_status.md)

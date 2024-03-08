@@ -4,7 +4,7 @@ title: ID3D12Device3::OpenExistingHeapFromFileMapping
 description: Creates a special-purpose diagnostic heap in system memory from a file mapping object. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
 helpviewer_keywords: ["ID3D12Device3::OpenExistingHeapFromFileMapping"]
 tech.root: direct3d12
-ms.date: 02/27/2020
+ms.date: 08/10/2022
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -65,7 +65,7 @@ The **REFIID**, or **GUID**, of the interface to the heap can be obtained by usi
 
 Type: **void\*\***
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_COM_Outptr_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_COM_Outptr_</code>
 
 A pointer to a memory block. On success, the D3D12 runtime will write a pointer to the newly-opened heap into the memory block. The type of the pointer depends on the provided **riid** parameter.
 

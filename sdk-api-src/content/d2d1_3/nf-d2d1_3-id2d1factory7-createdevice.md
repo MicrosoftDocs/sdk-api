@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Factory7.CreateDevice
 title: ID2D1Factory7::CreateDevice (d2d1_3.h)
-description: Creates a new Direct2D device from the given IDXGIDevice.
+description: Creates a new Direct2D device from the given IDXGIDevice. (ID2D1Factory7.CreateDevice)
 helpviewer_keywords: ["CreateDevice","CreateDevice method [Direct2D]","CreateDevice method [Direct2D]","ID2D1Factory7 interface","ID2D1Factory7 interface [Direct2D]","CreateDevice method","ID2D1Factory7.CreateDevice","ID2D1Factory7::CreateDevice","d2d1_3/ID2D1Factory7::CreateDevice","direct2d.id2d1factory7_createdevice"]
 old-location: direct2d\id2d1factory7_createdevice.htm
 tech.root: Direct2D
@@ -45,12 +45,9 @@ api_name:
  - ID2D1Factory7.CreateDevice
 ---
 
-# ID2D1Factory7::CreateDevice
-
-
 ## -description
 
-Creates a new Direct2D device from the given IDXGIDevice
+Creates a new Direct2D device from the given IDXGIDevice.
 
 ## -parameters
 

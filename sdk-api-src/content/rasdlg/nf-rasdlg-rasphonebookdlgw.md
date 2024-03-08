@@ -1,8 +1,8 @@
 ---
 UID: NF:rasdlg.RasPhonebookDlgW
 title: RasPhonebookDlgW function (rasdlg.h)
-description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
-helpviewer_keywords: ["RasPhonebookDlg","RasPhonebookDlg function [RAS]","RasPhonebookDlgA","RasPhonebookDlgW","_ras_rasphonebookdlg","rasdlg/RasPhonebookDlg","rasdlg/RasPhonebookDlgA","rasdlg/RasPhonebookDlgW","rras.rasphonebookdlg"]
+description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box. (Unicode)
+helpviewer_keywords: ["RasPhonebookDlg", "RasPhonebookDlg function [RAS]", "RasPhonebookDlgW", "_ras_rasphonebookdlg", "rasdlg/RasPhonebookDlg", "rasdlg/RasPhonebookDlgW", "rras.rasphonebookdlg"]
 old-location: rras\rasphonebookdlg.htm
 tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5

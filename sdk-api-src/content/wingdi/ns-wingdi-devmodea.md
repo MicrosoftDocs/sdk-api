@@ -779,7 +779,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For display devices only, a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
+For display devices only, a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
@@ -956,7 +956,7 @@ Specifies the device's display mode. This member can be a combination of the fol
 </tr>
 <tr>
 <td>DM_GRAYSCALE</td>
-<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed.</td>
+<td>Specifies that the display is a noncolor device. If this flag is not set, color is assumed. This flag is no longer valid.</td>
 </tr>
 <tr>
 <td>DM_INTERLACED</td>

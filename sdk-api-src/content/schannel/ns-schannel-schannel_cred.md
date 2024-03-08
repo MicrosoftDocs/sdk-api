@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._SCHANNEL_CRED
 title: SCHANNEL_CRED (schannel.h)
-description: Contains the data for an Schannel credential.
+description: Contains the data for an Schannel credential. (SCHANNEL_CRED)
 helpviewer_keywords: ["*PSCHANNEL_CRED","PSCHANNEL_CRED","PSCHANNEL_CRED structure pointer [Security]","SCHANNEL_CRED","SCHANNEL_CRED structure [Security]","SCH_CRED_AUTO_CRED_VALIDATION","SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE","SCH_CRED_FORMAT_CERT_HASH","SCH_CRED_FORMAT_CERT_HASH_STORE","SCH_CRED_IGNORE_NO_REVOCATION_CHECK","SCH_CRED_IGNORE_REVOCATION_OFFLINE","SCH_CRED_MANUAL_CRED_VALIDATION","SCH_CRED_NO_DEFAULT_CREDS","SCH_CRED_NO_SERVERNAME_CHECK","SCH_CRED_NO_SYSTEM_MAPPER","SCH_CRED_REVOCATION_CHECK_CHAIN","SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT","SCH_CRED_REVOCATION_CHECK_END_CERT","SCH_CRED_USE_DEFAULT_CREDS","SCH_DISABLE_RECONNECTS","SCH_SEND_AUX_RECORD","SCH_SEND_ROOT_CERT","SCH_USE_PRESHAREDKEY_ONLY","SCH_USE_STRONG_CRYPTO","SP_PROT_DTLS1_0_CLIENT","SP_PROT_DTLS1_0_SERVER","SP_PROT_DTLS1_2_CLIENT","SP_PROT_DTLS1_2_SERVER","SP_PROT_DTLS1_X_CLIENT","SP_PROT_DTLS1_X_SERVER","SP_PROT_DTLS_CLIENT","SP_PROT_DTLS_SERVER","SP_PROT_PCT1_CLIENT","SP_PROT_PCT1_SERVER","SP_PROT_SSL2_CLIENT","SP_PROT_SSL2_SERVER","SP_PROT_SSL3_CLIENT","SP_PROT_SSL3_SERVER","SP_PROT_TLS1_0_CLIENT","SP_PROT_TLS1_0_SERVER","SP_PROT_TLS1_1_CLIENT","SP_PROT_TLS1_1_SERVER","SP_PROT_TLS1_2_CLIENT","SP_PROT_TLS1_2_SERVER","SP_PROT_TLS1_CLIENT","SP_PROT_TLS1_SERVER","_ssp_schannel_cred","schannel/PSCHANNEL_CRED","schannel/SCHANNEL_CRED","security.schannel_cred"]
 old-location: security\schannel_cred.htm
 tech.root: security
@@ -49,13 +49,10 @@ api_name:
  - SCHANNEL_CRED
 ---
 
-# SCHANNEL_CRED structure
+## -description
 
 > [!NOTE]
-> The SCHANNEL_CRED structure is deprecated. Client applications should use <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> instead.
-
-
-## -description
+> The **SCHANNEL_CRED** structure is deprecated. You should use [SCH_CREDENTIALS](../schannel/ns-schannel-sch_credentials.md) instead.
 
 The <b>SCHANNEL_CRED</b> structure contains the data for an Schannel credential.
 
@@ -289,6 +286,35 @@ Transport Layer Security 1.2 client side.
 </td>
 </tr>
 <tr>
+ 
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_SERVER"></a><a id="sp_prot_tls1_3_server"></a><dl>
+<dt><b>SP_PROT_TLS1_3_SERVER</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 server side.
+
+<div class="alert"><b>Important</b>  Secure Sockets Layer 2.0 and Transport Layer Security 1.2 flags are mutually exclusive.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SP_PROT_TLS1_3_CLIENT"></a><a id="sp_prot_tls1_3_client"></a><dl>
+<dt><b>SP_PROT_TLS1_3_CLIENT</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+Transport Layer Security 1.3 client side.
+
+<div class="alert"><b>Important</b>  Secure Sockets Layer 2.0 and Transport Layer Security 1.3 flags are mutually exclusive.</div>
+<div> </div>
+</td>
+</tr>
+<tr>
+ 
 <td width="40%"><a id="SP_PROT_DTLS_SERVER"></a><a id="sp_prot_dtls_server"></a><dl>
 <dt><b>SP_PROT_DTLS_SERVER</b></dt>
 <dt>0x00010000</dt>

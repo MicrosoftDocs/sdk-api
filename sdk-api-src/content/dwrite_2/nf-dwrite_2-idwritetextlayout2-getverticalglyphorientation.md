@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetVerticalGlyphOrientation
 title: IDWriteTextLayout2::GetVerticalGlyphOrientation (dwrite_2.h)
-description: Get the preferred orientation of glyphs when using a vertical reading direction.
+description: Get the preferred orientation of glyphs when using a vertical reading direction. (IDWriteTextLayout2.GetVerticalGlyphOrientation)
 helpviewer_keywords: ["GetVerticalGlyphOrientation","GetVerticalGlyphOrientation method [Direct Write]","GetVerticalGlyphOrientation method [Direct Write]","IDWriteTextLayout2 interface","IDWriteTextLayout2 interface [Direct Write]","GetVerticalGlyphOrientation method","IDWriteTextLayout2.GetVerticalGlyphOrientation","IDWriteTextLayout2::GetVerticalGlyphOrientation","directwrite.idwritetextlayout2_getverticalglyphorientation","dwrite_2/IDWriteTextLayout2::GetVerticalGlyphOrientation"]
 old-location: directwrite\idwritetextlayout2_getverticalglyphorientation.htm
 tech.root: DirectWrite
@@ -56,5 +56,5 @@ Get the preferred orientation of glyphs when using a vertical reading direction.
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2">IDWriteTextLayout2</a>
 

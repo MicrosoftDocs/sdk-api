@@ -56,7 +56,7 @@ The <b>IKEEXT_SA_ROLE</b> enumerated type defines the security association (SA) 
 
 ## -enum-fields
 
-### -field IKEEXT_SA_ROLE_INITIATOR
+### -field IKEEXT_SA_ROLE_INITIATOR:0
 
 SA is the initiator.
 

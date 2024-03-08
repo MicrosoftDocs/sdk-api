@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._DISCDLGSTRUCTA
 title: DISCDLGSTRUCTA (winnetwk.h)
-description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
+description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt. (ANSI)
 helpviewer_keywords: ["*LPDISCDLGSTRUCTA","DISCDLGSTRUCT","DISCDLGSTRUCT structure [Windows Networking (WNet)]","DISCDLGSTRUCTA","DISCDLGSTRUCTW","DISC_NO_FORCE","DISC_UPDATE_PROFILE","LPDISCDLGSTRUCT","LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)]","_win32_discdlgstruct_str","winnetwk/DISCDLGSTRUCT","winnetwk/DISCDLGSTRUCTA","winnetwk/DISCDLGSTRUCTW","winnetwk/LPDISCDLGSTRUCT","wnet.discdlgstruct_str"]
 old-location: wnet\discdlgstruct_str.htm
 tech.root: WNet

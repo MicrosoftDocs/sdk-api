@@ -54,15 +54,15 @@ Specifies algorithmic style simulations to be applied to the font face. Bold and
 
 ## -enum-fields
 
-### -field DWRITE_FONT_SIMULATIONS_NONE
+### -field DWRITE_FONT_SIMULATIONS_NONE:0x0000
 
 Indicates that no simulations are applied to the font face.
 
-### -field DWRITE_FONT_SIMULATIONS_BOLD
+### -field DWRITE_FONT_SIMULATIONS_BOLD:0x0001
 
 Indicates that algorithmic emboldening is applied to the font face.  <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations">DWRITE_FONT_SIMULATIONS_BOLD</a> increases weight by applying a widening algorithm to the glyph outline. This may  be used to simulate a bold weight where no designed bold weight is available.
 
-### -field DWRITE_FONT_SIMULATIONS_OBLIQUE
+### -field DWRITE_FONT_SIMULATIONS_OBLIQUE:0x0002
 
 Indicates that algorithmic italicization is applied to the font face. <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations">DWRITE_FONT_SIMULATIONS_OBLIQUE</a> applies obliquing (shear) to the glyph outline. This may be used to simulate an oblique/italic style where no designed oblique/italic style is available.
 

@@ -3,7 +3,7 @@ UID: NA:servprov
 title: Servprov.h header
 ms.date: 07/01/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - servprov

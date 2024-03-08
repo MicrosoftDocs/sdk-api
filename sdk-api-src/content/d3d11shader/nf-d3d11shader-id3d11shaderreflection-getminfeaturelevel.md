@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetMinFeatureLevel
 title: ID3D11ShaderReflection::GetMinFeatureLevel (d3d11shader.h)
-description: Gets the minimum feature level.
+description: Gets the minimum feature level. (ID3D11ShaderReflection.GetMinFeatureLevel)
 helpviewer_keywords: ["GetMinFeatureLevel","GetMinFeatureLevel method [Direct3D 11]","GetMinFeatureLevel method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetMinFeatureLevel method","ID3D11ShaderReflection.GetMinFeatureLevel","ID3D11ShaderReflection::GetMinFeatureLevel","b8d12499-79aa-f3e6-bdd4-5ce99f2fe7d3","d3d11shader/ID3D11ShaderReflection::GetMinFeatureLevel","direct3d11.id3d11shaderreflection_getminfeaturelevel"]
 old-location: direct3d11\id3d11shaderreflection_getminfeaturelevel.htm
 tech.root: direct3d11
@@ -51,7 +51,7 @@ Gets the minimum feature level.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param pLevel
 
 Type: [out] <b><a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>*</b>
 

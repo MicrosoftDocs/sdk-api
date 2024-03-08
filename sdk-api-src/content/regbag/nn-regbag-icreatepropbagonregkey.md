@@ -11,7 +11,7 @@ ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,15 +50,17 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ICreatePropBagOnRegKey</b> interface creates a property bag that can store information in the system registry.
 
-Use this interface to store the default tune request in the registry. When MicrosoftÂ® Internet ExplorerÂ® loads a "tv:" object in a Web page, it automatically tunes to the default tune request.
+Use this interface to store the default tune request in the registry. When Microsoft® Internet Explorer® loads a "tv:" object in a Web page, it automatically tunes to the default tune request.
 
 ## -inheritance
 
 The <b>ICreatePropBagOnRegKey</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreatePropBagOnRegKey</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

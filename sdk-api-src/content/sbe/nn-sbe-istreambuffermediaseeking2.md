@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [M
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP2 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IStreamBufferMediaSeeking2</b> interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. It provides a method to control the frame rate during fast-forward play ("trick mode").
 
 ## -inheritance
 
 The <b>IStreamBufferMediaSeeking2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>. <b>IStreamBufferMediaSeeking2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

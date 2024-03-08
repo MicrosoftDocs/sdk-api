@@ -38,9 +38,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - Mapi.h
+ - mapi32.dll
 api_name:
  - MAPISendMailW
 ---
@@ -140,7 +140,7 @@ A value of zero means that there are no recipients. Additionally, when this memb
 <div> </div>
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
-For more details about how the function handles recipient information, see <a href="https://docs.microsoft.com/">Handling Recipient Information</a> in <i>Remarks</i>.
+For more details about how the function handles recipient information, see <a href="/">Handling Recipient Information</a> in <i>Remarks</i>.
 
 ### -param flFlags [in]
 

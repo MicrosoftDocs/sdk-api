@@ -1,70 +1,92 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
 title: TraceLoggingCustomAttribute macro (traceloggingprovider.h)
-description: Wrapper macro for adding custom information about an event to the PDB.
-helpviewer_keywords: ["TraceLoggingCustomAttribute","TraceLoggingCustomAttribute macro","tracelogging.traceloggingcustomattribute","traceloggingprovider/TraceLoggingCustomAttribute"]
+description:
+  TraceLogging wrapper macro that adds custom information about the event into
+  the PDB.
+helpviewer_keywords:
+  [
+    "TraceLoggingCustomAttribute",
+    "TraceLoggingCustomAttribute macro",
+    "tracelogging.traceloggingcustomattribute",
+    "traceloggingprovider/TraceLoggingCustomAttribute",
+  ]
 old-location: tracelogging\traceloggingcustomattribute.htm
 tech.root: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0
-ms.date: 12/05/2018
-ms.keywords: TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro, tracelogging.traceloggingcustomattribute, traceloggingprovider/TraceLoggingCustomAttribute
+ms.date: 06/06/2022
+ms.keywords:
+  TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro,
+  tracelogging.traceloggingcustomattribute,
+  traceloggingprovider/TraceLoggingCustomAttribute
 req.header: traceloggingprovider.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceLoggingCustomAttribute
- - traceloggingprovider/TraceLoggingCustomAttribute
+  - TraceLoggingCustomAttribute
+  - traceloggingprovider/TraceLoggingCustomAttribute
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - HeaderDef
+  - HeaderDef
 api_location:
- - traceloggingprovider.h
+  - traceloggingprovider.h
 api_name:
- - TraceLoggingCustomAttribute
+  - TraceLoggingCustomAttribute
 ---
 
 # TraceLoggingCustomAttribute macro
 
-
 ## -description
 
-Wrapper macro for adding custom information about an event to the PDB.
+[TraceLogging wrapper macro](/windows/desktop/tracelogging/tracelogging-wrapper-macros)
+that adds custom information about the event into the PDB.
 
 ## -parameters
 
 ### -param key [in]
 
-The key for the custom attribute.
+A string literal with the key for the custom attribute.
 
 ### -param value [in]
 
-The value of the custom attribute.
+A string literal with the value of the custom attribute.
 
 ## -remarks
 
-Both parameters must be string literals. This information  will appear under the CustomAttributes array for the event. If no custom  attributes are specified the array will not appear. Multiple custom attributes  can be specified per event.  
+`TraceLoggingCustomAttribute("key", "value")` can be used as a parameter to an
+invocation of a
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Most
+TraceLogging events do not need custom attributes and should not use
+TraceLoggingCustomAttribute.
 
-Custom attributes are stored in the PDB. They are not available at runtime.
+Custom attributes are stored in the
+[PDB](/windows-hardware/drivers/debugger/symbols). They are not available at
+runtime.
 
+## -see-also
+
+[TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md)
+
+[TraceLogging wrapper macros](/windows/desktop/tracelogging/tracelogging-wrapper-macros)

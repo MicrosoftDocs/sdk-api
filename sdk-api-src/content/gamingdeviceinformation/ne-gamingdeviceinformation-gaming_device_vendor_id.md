@@ -54,17 +54,17 @@ Indicates the vendor of the console that the game is running on.
 
 ## -enum-fields
 
-### -field GAMING_DEVICE_VENDOR_ID_NONE
+### -field GAMING_DEVICE_VENDOR_ID_NONE:0
 
 The vendor of the device is not known.
 
-### -field GAMING_DEVICE_VENDOR_ID_MICROSOFT
+### -field GAMING_DEVICE_VENDOR_ID_MICROSOFT:0xC2EC5032
 
 The vendor of the device is Microsoft.
 
 ## -remarks
 
-This is a Win32 API that's supported in both Win32 and UWP apps. While it works on any device family, it's only really of value on Xbox devices.
+Supported in both Win32 and UWP apps.
 
 ## -see-also
 

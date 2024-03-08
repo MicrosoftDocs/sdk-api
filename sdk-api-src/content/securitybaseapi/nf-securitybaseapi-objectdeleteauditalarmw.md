@@ -2,16 +2,16 @@
 UID: NF:securitybaseapi.ObjectDeleteAuditAlarmW
 tech.root: security 
 title: ObjectDeleteAuditAlarmW
-ms.date: 04/20/2021
+ms.date: 08/16/2022
 targetos: Windows
-description: Generates audit messages when an object is deleted. 
+description: The ObjectDeleteAuditAlarmW (Unicode) function (securitybaseapi.h) generates audit messages when an object is deleted. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 

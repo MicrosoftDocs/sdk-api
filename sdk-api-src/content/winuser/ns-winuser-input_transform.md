@@ -210,4 +210,4 @@ A 4x4 matrix, represented as a two-dimensional array.
 
 
 
-<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
+<a href="/windows/win32/inputmsg/structures">Structures</a>

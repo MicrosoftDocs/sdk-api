@@ -1,9 +1,9 @@
 ---
 UID: NF:icodecapi.ICodecAPI.GetValue
 title: ICodecAPI::GetValue
-ms.date: 09/22/2020
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The ICodecAPI::GetValue method gets the current value of a codec property.
 helpviewer_keywords: ["GetValue","GetValue method [DirectShow]","GetValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetValue method","ICodecAPI.GetValue","ICodecAPI::GetValue","ICodecAPIGetValue","dshow.icodecapi_getvalue","icodecapi/ICodecAPI::GetValue"]
 tech.root: mf
 req.assembly: The GetValue method gets the current value of a codec property.

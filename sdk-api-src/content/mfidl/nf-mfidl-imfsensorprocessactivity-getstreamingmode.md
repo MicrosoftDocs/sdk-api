@@ -59,7 +59,7 @@ Gets the streaming mode of the sensor process.
 
 ### -param pMode [out]
 
-Receives the process ID.
+Receives a value from the MFSensorDeviceMode enumeration specifying the streaming mode of the sensor process.
 
 ## -returns
 
@@ -97,5 +97,6 @@ The <i>pMode</i> parameter is null.
 </table>
 
 ## -see-also
-
+<a href="/windows/desktop/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a> 
+<p>
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>

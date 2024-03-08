@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer","IWMPPlayer interface [Windows Media Player]"
 old-location: wmp\iwmpplayer.htm
 tech.root: WMP
 ms.assetid: ce6aef79-1faa-44ac-a096-f65d09458067
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], IWMPPlayer interface [Windows Media Player],described, IWMPPlayerInterface, wmp.iwmpplayer, wmp/IWMPPlayer
 req.header: wmp.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPPlayer</b> interface provides methods for modifying the basic behavior of the Windows Media Player control user interface. These methods supplement the <b>IWMPCore</b> interface.
 
 ## -inheritance
 
 The <b>IWMPPlayer</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>. <b>IWMPPlayer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

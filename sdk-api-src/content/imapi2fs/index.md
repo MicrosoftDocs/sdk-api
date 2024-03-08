@@ -4,7 +4,7 @@ title: Imapi2Fs.h header
 ms.assetid: 19d4ee08-e74d-31d3-afd7-3bfc6f7380b2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: imapi
 f1_keywords:
  - imapi2fs

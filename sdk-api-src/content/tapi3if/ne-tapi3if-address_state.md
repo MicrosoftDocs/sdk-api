@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field AS_INSERVICE
+### -field AS_INSERVICE:0
 
 Normal state; the address can be used.
 

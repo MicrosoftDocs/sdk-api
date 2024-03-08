@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RASTERIZER_DESC
 title: D3D12_RASTERIZER_DESC (d3d12.h)
-description: Describes rasterizer state.
+description: Describes rasterizer state. (D3D12_RASTERIZER_DESC)
 helpviewer_keywords: ["D3D12_RASTERIZER_DESC","D3D12_RASTERIZER_DESC structure","d3d12/D3D12_RASTERIZER_DESC","direct3d12.d3d12_rasterizer_desc"]
 old-location: direct3d12\d3d12_rasterizer_desc.htm
 tech.root: direct3d12
@@ -9,25 +9,25 @@ ms.assetid: 52ECF841-72BE-44B7-BFB1-305B6981C1F4
 ms.date: 12/05/2018
 ms.keywords: D3D12_RASTERIZER_DESC, D3D12_RASTERIZER_DESC structure, d3d12/D3D12_RASTERIZER_DESC, direct3d12.d3d12_rasterizer_desc
 req.header: d3d12.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
 req.typenames: D3D12_RASTERIZER_DESC
-req.redist: 
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - D3D12_RASTERIZER_DESC
@@ -81,18 +81,18 @@ Scalar on a given pixel's slope. For info about depth bias, see <a href="/window
 ### -field DepthClipEnable
 
 Specifies whether to enable clipping based on distance.
-            
+
 
 The hardware always performs x and y clipping of rasterized coordinates. When <b>DepthClipEnable</b> is set to the default–<b>TRUE</b>, the hardware also clips the z value (that is, the hardware performs the last step of the following algorithm).
-            
+
 
 
 ``` syntax
 
-0 &lt; w
--w &lt;= x &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
--w &lt;= y &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
-0 &lt;= z &lt;= w
+0 < w
+-w <= x <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+-w <= y <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+0 <= z <= w
 
 ```
 
@@ -110,9 +110,9 @@ Specifies whether to enable line antialiasing; only applies if doing line drawin
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
+The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
 
-<div class="alert"><b>Note</b>  If you want to render with <b>ForcedSampleCount</b> set to 1 or greater, you must follow these guidelines: 
+<div class="alert"><b>Note</b>  If you want to render with <b>ForcedSampleCount</b> set to 1 or greater, you must follow these guidelines:
 
 <ul>
 <li>Don't bind depth-stencil views.</li>
@@ -130,13 +130,13 @@ A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_
 ## -remarks
 
 A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> contains a rasterizer-state structure.
-      
+
 
 Rasterizer state defines the behavior of the rasterizer stage.
-        
+
 
 If you do not specify some rasterizer state,  the Direct3D runtime uses the following default values for rasterizer state.
-        
+
 
 <table>
 <tr>

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowW
 title: CreateWindowW macro (winuser.h)
-description: Creates an overlapped, pop-up, or child window.
-helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
+description: Creates an overlapped, pop-up, or child window. (Unicode)
+helpviewer_keywords: ["CreateWindow", "CreateWindow function [Windows and Messages]", "CreateWindowW", "_win32_CreateWindow", "_win32_createwindow_cpp", "winmsg.createwindow", "winui._win32_createwindow", "winuser/CreateWindow", "winuser/CreateWindowW"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
@@ -56,17 +56,35 @@ Creates an overlapped, pop-up, or child window. It specifies the window class, w
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
+## -syntax
+
+```cpp
+HWND CreateWindowW(
+  [in, optional]  lpClassName,
+  [in, optional]  lpWindowName,
+  [in]            dwStyle,
+  [in]            x,
+  [in]            y,
+  [in]            nWidth,
+  [in]            nHeight,
+  [in, optional]  hWndParent,
+  [in, optional]  hMenu,
+  [in, optional]  hInstance,
+  [in, optional]  lpParam
+);
+```
+
 ## -parameters
 
 ### -param lpClassName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined system class names. For a list of system class names, see the Remarks section.
 
 ### -param lpWindowName [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <b>CreateWindow</b> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>".
 
@@ -162,7 +180,7 @@ The following predefined system classes can be specified in the <i>lpClassName</
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Tapi/buttons">Buttons</a>
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Controls/buttons">Buttons</a>
 
 
 For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="/windows/desktop/Controls/button-styles">Button Styles</a>.

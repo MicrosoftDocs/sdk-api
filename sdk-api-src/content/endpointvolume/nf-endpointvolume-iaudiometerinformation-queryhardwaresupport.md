@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.QueryHardwareSupport
 title: IAudioMeterInformation::QueryHardwareSupport (endpointvolume.h)
-description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
+description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions. (IAudioMeterInformation.QueryHardwareSupport)
 helpviewer_keywords: ["IAudioMeterInformation interface [Core Audio]","QueryHardwareSupport method","IAudioMeterInformation.QueryHardwareSupport","IAudioMeterInformation::QueryHardwareSupport","IAudioMeterInformationQueryHardwareSupport","QueryHardwareSupport","QueryHardwareSupport method [Core Audio]","QueryHardwareSupport method [Core Audio]","IAudioMeterInformation interface","coreaudio.iaudiometerinformation_queryhardwaresupport","endpointvolume/IAudioMeterInformation::QueryHardwareSupport"]
 old-location: coreaudio\iaudiometerinformation_queryhardwaresupport.htm
 tech.root: CoreAudio

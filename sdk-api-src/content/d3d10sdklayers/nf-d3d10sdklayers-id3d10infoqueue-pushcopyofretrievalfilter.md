@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushCopyOfRetrievalFilter
 title: ID3D10InfoQueue::PushCopyOfRetrievalFilter (d3d10sdklayers.h)
-description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
+description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack. (ID3D10InfoQueue.PushCopyOfRetrievalFilter)
 helpviewer_keywords: ["95f070e8-3e19-b7cf-e5db-1e4a5d006c3e","ID3D10InfoQueue interface [Direct3D 10]","PushCopyOfRetrievalFilter method","ID3D10InfoQueue.PushCopyOfRetrievalFilter","ID3D10InfoQueue::PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter method [Direct3D 10]","PushCopyOfRetrievalFilter method [Direct3D 10]","ID3D10InfoQueue interface","d3d10sdklayers/ID3D10InfoQueue::PushCopyOfRetrievalFilter","direct3d10.id3d10infoqueue_pushcopyofretrievalfilter"]
 old-location: direct3d10\id3d10infoqueue_pushcopyofretrievalfilter.htm
 tech.root: direct3d10

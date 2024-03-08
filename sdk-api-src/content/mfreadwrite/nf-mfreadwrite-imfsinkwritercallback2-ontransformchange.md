@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback2.OnTransformChange
 title: IMFSinkWriterCallback2::OnTransformChange (mfreadwrite.h)
-description: Called when the transform chain in the IMFSourceReader is built or modified.
+description: Called when the transform chain in the IMFSourceReader is built or modified. (IMFSinkWriterCallback2.OnTransformChange)
 helpviewer_keywords: ["IMFSinkWriterCallback2 interface [Media Foundation]","OnTransformChange method","IMFSinkWriterCallback2.OnTransformChange","IMFSinkWriterCallback2::OnTransformChange","OnTransformChange","OnTransformChange method [Media Foundation]","OnTransformChange method [Media Foundation]","IMFSinkWriterCallback2 interface","mf.imfsinkwritercallback2_ontransformchange","mfreadwrite/IMFSinkWriterCallback2::OnTransformChange"]
 old-location: mf\imfsinkwritercallback2_ontransformchange.htm
 tech.root: mf

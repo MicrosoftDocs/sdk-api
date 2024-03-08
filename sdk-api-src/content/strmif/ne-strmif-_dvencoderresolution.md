@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVENCODERRESOLUTION","DVENCODERRESOLUTIONEnumeration","DV
 old-location: dshow\dvencoderresolution.htm
 tech.root: dshow
 ms.assetid: 110a4510-3a5e-453b-9973-a6cf7e2b0050
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVENCODERRESOLUTION, DVENCODERRESOLUTIONEnumeration, DVENCODERRESOLUTION_180x120, DVENCODERRESOLUTION_360x240, DVENCODERRESOLUTION_720x480, DVENCODERRESOLUTION_88x60, _DVENCODERRESOLUTION, _DVENCODERRESOLUTION enumeration [DirectShow], dshow.dvencoderresolution, strmif/DVENCODERRESOLUTION_180x120, strmif/DVENCODERRESOLUTION_360x240, strmif/DVENCODERRESOLUTION_720x480, strmif/DVENCODERRESOLUTION_88x60, strmif/_DVENCODERRESOLUTION
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,23 +50,25 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Indicates the digital video (DV) encoding resolution.
 
 ## -enum-fields
 
-### -field DVENCODERRESOLUTION_720x480
+### -field DVENCODERRESOLUTION_720x480:2012
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_360x240
+### -field DVENCODERRESOLUTION_360x240:2013
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_180x120
+### -field DVENCODERRESOLUTION_180x120:2014
 
 See Remarks.
 
-### -field DVENCODERRESOLUTION_88x60
+### -field DVENCODERRESOLUTION_88x60:2015
 
 See Remarks.
 

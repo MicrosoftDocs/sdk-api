@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field TMS_IDLE
+### -field TMS_IDLE:0
 
 The file terminal is idle.
 
@@ -67,7 +67,7 @@ The file terminal is active.
 
 The file terminal is paused.
 
-### -field TMS_LASTITEM
+### -field TMS_LASTITEM:TMS_PAUSED
 
 Last item in this enum.
 

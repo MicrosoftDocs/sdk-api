@@ -6,7 +6,7 @@ helpviewer_keywords: ["IDMOWrapperFilter","IDMOWrapperFilter interface [DirectSh
 old-location: dshow\idmowrapperfilter.htm
 tech.root: dshow
 ms.assetid: c85b828c-095d-4991-85a8-65b96529f305
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWrapperFilter interface [DirectShow],described, IDMOWrapperFilterInterface, dmodshow/IDMOWrapperFilter, dshow.idmowrapperfilter
 req.header: dmodshow.h
 req.include-header: 
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>IDMOWrapperFilter</code> interface enables an application to use a DirectX Media Object (DMO) inside a filter graph. The <a href="/windows/desktop/DirectShow/dmo-wrapper-filter">DMO Wrapper</a> filter exposes this interface.
 
 To add a DMO to the filter graph, create an instance of the DMO Wrapper filter and query it for the <code>IDMOWrapperFilter</code> interface. Then call the <a href="/windows/desktop/api/dmodshow/nf-dmodshow-idmowrapperfilter-init">IDMOWrapperFilter::Init</a> method to initialize the filter with the DMO.
@@ -59,7 +61,7 @@ To add a DMO to the filter graph, create an instance of the DMO Wrapper filter a
 
 The <b>IDMOWrapperFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOWrapperFilter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

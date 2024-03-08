@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangles(constBrush,constRectF,INT)
 title: Graphics::FillRectangles
-description: The Graphics::FillRectangles method uses a brush to fill the interior of a sequence of rectangles.
+description: The Graphics::FillRectangles method uses a brush to fill the interior of a sequence of rectangles. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::FillRectangles"]
 ms.assetid: 6624bdf9-20c4-42f3-a52e-62455ee1e573

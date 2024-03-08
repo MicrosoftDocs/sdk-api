@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2data.IMpeg2Data
 title: IMpeg2Data (mpeg2data.h)
-description: IMpeg2Data is no longer available for use as of WindowsÂ 7.
+description: IMpeg2Data is no longer available for use as of Windows 7.
 helpviewer_keywords: ["IMpeg2Data","IMpeg2Data interface [Microsoft TV Technologies]","IMpeg2Data interface [Microsoft TV Technologies]","described","IMpeg2DataInterface","mpeg2data/IMpeg2Data","mstv.impeg2data"]
 old-location: mstv\impeg2data.htm
 tech.root: mstv
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of WindowsÂ 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of Windows 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>IMpeg2Data</b> interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/mpeg-2-sections-and-tables-filter">MPEG-2 Sections and Tables</a> filter. It enables the client to retrieve unparsed sections or tables from an MPEG-2 transport stream.
 
@@ -58,7 +60,7 @@ The <b>IMpeg2Data</b> interface is exposed by the <a href="/previous-versions/wi
 
 The <b>IMpeg2Data</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Data</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -4,7 +4,7 @@ tech.root: shell
 title: SHGetUnreadMailCountA
 ms.date: 04/14/2021
 targetos: Windows
-description: Retrieves a specified user's unread message count for any or all email accounts.
+description: Retrieves a specified user's unread message count for any or all email accounts. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

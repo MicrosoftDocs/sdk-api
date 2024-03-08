@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoExW
 title: RpcBindingSetAuthInfoExW function (rpcdce.h)
-description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
-helpviewer_keywords: ["RpcBindingSetAuthInfoEx","RpcBindingSetAuthInfoEx function [RPC]","RpcBindingSetAuthInfoExA","RpcBindingSetAuthInfoExW","_rpc_rpcbindingsetauthinfoex","rpc.rpcbindingsetauthinfoex","rpcdce/RpcBindingSetAuthInfoEx","rpcdce/RpcBindingSetAuthInfoExA","rpcdce/RpcBindingSetAuthInfoExW"]
+description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information. (Unicode)
+helpviewer_keywords: ["RpcBindingSetAuthInfoEx", "RpcBindingSetAuthInfoEx function [RPC]", "RpcBindingSetAuthInfoExW", "_rpc_rpcbindingsetauthinfoex", "rpc.rpcbindingsetauthinfoex", "rpcdce/RpcBindingSetAuthInfoEx", "rpcdce/RpcBindingSetAuthInfoExW"]
 old-location: rpc\rpcbindingsetauthinfoex.htm
 tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18

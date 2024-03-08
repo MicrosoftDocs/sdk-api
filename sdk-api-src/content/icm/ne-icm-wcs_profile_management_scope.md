@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_5
+UID: NE:icm.WCS_PROFILE_MANAGEMENT_SCOPE
 title: WCS_PROFILE_MANAGEMENT_SCOPE
 description: Specifies the scope of a profile management operation, such as associating a profile with a device.
 tech.root: wcs
@@ -48,3 +48,4 @@ Indicates that the profile management operation affects only the current user.
 ## -remarks
 
 ## -see-also
+

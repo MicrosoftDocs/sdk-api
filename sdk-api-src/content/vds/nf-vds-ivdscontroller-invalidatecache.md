@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsController.InvalidateCache
 title: IVdsController::InvalidateCache (vds.h)
-description: Invalidates the cache of the controller. All data in the cache is lost.
+description: The IVdsController::InvalidateCache (vds.h) method invalidates the cache of the controller. All data in the cache is lost.
 helpviewer_keywords: ["IVdsController interface [VDS]","InvalidateCache method","IVdsController.InvalidateCache","IVdsController::InvalidateCache","InvalidateCache","InvalidateCache method [VDS]","InvalidateCache method [VDS]","IVdsController interface","base.ivdscontroller_invalidatecache","vds/IVdsController::InvalidateCache","vdshwprv/IVdsController::InvalidateCache"]
 old-location: base\ivdscontroller_invalidatecache.htm
 tech.root: base
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Invalidates the cache of the controller. All data in the cache is lost.
 

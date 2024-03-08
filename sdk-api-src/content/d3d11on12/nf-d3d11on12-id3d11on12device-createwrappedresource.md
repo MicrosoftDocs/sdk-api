@@ -85,7 +85,7 @@ Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the wrapped resource interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the wrapped resource can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a wrapped resource.
+            For example, __uuidof(<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>) will get the <b>GUID</b> of the interface to a wrapped resource.
 
 ### -param ppResource11 [out, optional]
 

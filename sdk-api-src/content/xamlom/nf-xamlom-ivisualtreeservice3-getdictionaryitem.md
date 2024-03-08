@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetDictionaryItem","GetDictionaryItem method","GetDiction
 old-location: xaml_diagnostics\ivisualtreeservice3_getdictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: E836FE12-A49A-427C-8013-F1AFBD2C08A2
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,GetDictionaryItem method, IVisualTreeService3.GetDictionaryItem, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
 req.header: xamlom.h
 req.include-header: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
+Gets an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8&preserve-view=true">ResourceDictionary</a>.
 
 ## -parameters
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:bcrypt.__unnamed_enum_4
+UID: NE:bcrypt.BCRYPT_HASH_OPERATION_TYPE
 title: BCRYPT_HASH_OPERATION_TYPE (bcrypt.h)
 description: The BCRYPT_HASH_OPERATION_TYPE enumeration specifies the hash operation type.
 helpviewer_keywords: ["BCRYPT_HASH_OPERATION_FINISH_HASH","BCRYPT_HASH_OPERATION_HASH_DATA","BCRYPT_HASH_OPERATION_TYPE","BCRYPT_HASH_OPERATION_TYPE enumeration [Security]","bcrypt/BCRYPT_HASH_OPERATION_FINISH_HASH","bcrypt/BCRYPT_HASH_OPERATION_HASH_DATA","bcrypt/BCRYPT_HASH_OPERATION_TYPE","security.bcrypt_hash_operation_type"]
@@ -54,11 +54,11 @@ The <b>BCRYPT_HASH_OPERATION_TYPE</b> enumeration specifies the hash operation t
 
 ## -enum-fields
 
-### -field BCRYPT_HASH_OPERATION_HASH_DATA
+### -field BCRYPT_HASH_OPERATION_HASH_DATA:1
 
 Equivalent to calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a> function.
 
-### -field BCRYPT_HASH_OPERATION_FINISH_HASH
+### -field BCRYPT_HASH_OPERATION_FINISH_HASH:2
 
 Equivalent to calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function.
 
@@ -69,3 +69,4 @@ Equivalent to calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptf
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
+

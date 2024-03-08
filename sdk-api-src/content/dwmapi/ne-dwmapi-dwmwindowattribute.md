@@ -1,12 +1,12 @@
 ---
 UID: NE:dwmapi.DWMWINDOWATTRIBUTE
 title: DWMWINDOWATTRIBUTE (dwmapi.h)
-description: Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for Desktop Window Manager (DWM) non-client rendering.
-helpviewer_keywords: ["DWMWA_ALLOW_NCPAINT","DWMWA_CAPTION_BUTTON_BOUNDS","DWMWA_CLOAK","DWMWA_CLOAKED","DWMWA_DISALLOW_PEEK","DWMWA_EXCLUDED_FROM_PEEK","DWMWA_EXTENDED_FRAME_BOUNDS","DWMWA_FLIP3D_POLICY","DWMWA_FORCE_ICONIC_REPRESENTATION","DWMWA_FREEZE_REPRESENTATION","DWMWA_HAS_ICONIC_BITMAP","DWMWA_LAST","DWMWA_NCRENDERING_ENABLED","DWMWA_NCRENDERING_POLICY","DWMWA_NONCLIENT_RTL_LAYOUT","DWMWA_TRANSITIONS_FORCEDISABLED","DWMWINDOWATTRIBUTE","DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager]","_udwm_dwmwindowattribute","_udwm_dwmwindowattribute_cpp","dwm.dwmwindowattribute","dwmapi/DWMWA_ALLOW_NCPAINT","dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS","dwmapi/DWMWA_CLOAK","dwmapi/DWMWA_CLOAKED","dwmapi/DWMWA_DISALLOW_PEEK","dwmapi/DWMWA_EXCLUDED_FROM_PEEK","dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS","dwmapi/DWMWA_FLIP3D_POLICY","dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION","dwmapi/DWMWA_FREEZE_REPRESENTATION","dwmapi/DWMWA_HAS_ICONIC_BITMAP","dwmapi/DWMWA_LAST","dwmapi/DWMWA_NCRENDERING_ENABLED","dwmapi/DWMWA_NCRENDERING_POLICY","dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT","dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED","dwmapi/DWMWINDOWATTRIBUTE","winui._udwm_dwmwindowattribute"]
+description: Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions.
+helpviewer_keywords: ["DWMWA_ALLOW_NCPAINT","DWMWA_CAPTION_BUTTON_BOUNDS","DWMWA_CLOAK","DWMWA_CLOAKED","DWMWA_DISALLOW_PEEK","DWMWA_EXCLUDED_FROM_PEEK","DWMWA_EXTENDED_FRAME_BOUNDS","DWMWA_FLIP3D_POLICY","DWMWA_FORCE_ICONIC_REPRESENTATION","DWMWA_FREEZE_REPRESENTATION","DWMWA_HAS_ICONIC_BITMAP","DWMWA_LAST","DWMWA_NCRENDERING_ENABLED","DWMWA_NCRENDERING_POLICY","DWMWA_NONCLIENT_RTL_LAYOUT","DWMWA_TRANSITIONS_FORCEDISABLED","DWMWINDOWATTRIBUTE","DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager]","_udwm_dwmwindowattribute","_udwm_dwmwindowattribute_cpp","dwm.dwmwindowattribute","dwmapi/DWMWA_ALLOW_NCPAINT","dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS","dwmapi/DWMWA_CLOAK","dwmapi/DWMWA_CLOAKED","dwmapi/DWMWA_DISALLOW_PEEK","dwmapi/DWMWA_EXCLUDED_FROM_PEEK","dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS","dwmapi/DWMWA_FLIP3D_POLICY","dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION","dwmapi/DWMWA_FREEZE_REPRESENTATION","dwmapi/DWMWA_HAS_ICONIC_BITMAP","dwmapi/DWMWA_LAST","dwmapi/DWMWA_NCRENDERING_ENABLED","dwmapi/DWMWA_NCRENDERING_POLICY","dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT","dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED","dwmapi/DWMWINDOWATTRIBUTE","winui._udwm_dwmwindowattribute", "DWMWA_USE_IMMERSIVE_DARK_MODE", "DWMWA_WINDOW_CORNER_PREFERENCE", "DWMWA_BORDER_COLOR", "DWMWA_CAPTION_COLOR", "DWMWA_TEXT_COLOR", "DWMWA_VISIBLE_FRAME_BORDER_THICKNESS"]
 old-location: dwm\dwmwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmwindowattribute.htm
-ms.date: 05/30/2019
+ms.date: 05/13/2022
 ms.keywords: DWMWA_ALLOW_NCPAINT, DWMWA_CAPTION_BUTTON_BOUNDS, DWMWA_CLOAK, DWMWA_CLOAKED, DWMWA_DISALLOW_PEEK, DWMWA_EXCLUDED_FROM_PEEK, DWMWA_EXTENDED_FRAME_BOUNDS, DWMWA_FLIP3D_POLICY, DWMWA_FORCE_ICONIC_REPRESENTATION, DWMWA_FREEZE_REPRESENTATION, DWMWA_HAS_ICONIC_BITMAP, DWMWA_LAST, DWMWA_NCRENDERING_ENABLED, DWMWA_NCRENDERING_POLICY, DWMWA_NONCLIENT_RTL_LAYOUT, DWMWA_TRANSITIONS_FORCEDISABLED, DWMWINDOWATTRIBUTE, DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager], _udwm_dwmwindowattribute, _udwm_dwmwindowattribute_cpp, dwm.dwmwindowattribute, dwmapi/DWMWA_ALLOW_NCPAINT, dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS, dwmapi/DWMWA_CLOAK, dwmapi/DWMWA_CLOAKED, dwmapi/DWMWA_DISALLOW_PEEK, dwmapi/DWMWA_EXCLUDED_FROM_PEEK, dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS, dwmapi/DWMWA_FLIP3D_POLICY, dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION, dwmapi/DWMWA_FREEZE_REPRESENTATION, dwmapi/DWMWA_HAS_ICONIC_BITMAP, dwmapi/DWMWA_LAST, dwmapi/DWMWA_NCRENDERING_ENABLED, dwmapi/DWMWA_NCRENDERING_POLICY, dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT, dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED, dwmapi/DWMWINDOWATTRIBUTE, winui._udwm_dwmwindowattribute
 req.header: dwmapi.h
 req.include-header: 
@@ -43,14 +43,12 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWMWINDOWATTRIBUTE
+prerelease: false
 ---
 
 ## -description
 
-Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for Desktop Window Manager (DWM) non-client rendering. For programming guidance, and code examples, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
-
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+Options used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions.
 
 ## -enum-fields
 
@@ -120,11 +118,11 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. If the window is cloaked, provides one of the following values explaining why.
 
-<b>DWM_CLOAKED_APP</b> (value 0x0000001). The window was cloaked by its owner application.
+<b>DWM_CLOAKED_APP</b> (value 0x00000001). The window was cloaked by its owner application.
 
-<b>DWM_CLOAKED_SHELL</b> (value 0x0000002). The window was cloaked by the Shell.
+<b>DWM_CLOAKED_SHELL</b> (value 0x00000002). The window was cloaked by the Shell.
 
-<b>DWM_CLOAKED_INHERITED</b> (value 0x0000004). The cloak value was inherited from its owner window.
+<b>DWM_CLOAKED_INHERITED</b> (value 0x00000004). The cloak value was inherited from its owner window.
 
 <b>Windows 7 and earlier: </b>This value is not supported.
 
@@ -134,28 +132,65 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 <b>Windows 7 and earlier: </b>This value is not supported.
 
-### -field DWMWA_USE_IMMERSIVE_DARK_MODE
+### -field DWMWA_USE_HOSTBACKDROPBRUSH
 
-Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client area when the window is inactive to dark, as well as any and all scrollbars in all of a window's controls.
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Enables a non-UWP window to use host backdrop brushes. If this flag is set, then a Win32 app that calls [Windows::UI::Composition](/uwp/api/windows.ui.composition) APIs can build transparency effects using the host backdrop brush (see [Compositor.CreateHostBackdropBrush](/uwp/api/windows.ui.composition.compositor.createhostbackdropbrush)). The <i>pvAttribute</i> parameter points to a value of type <b>BOOL</b>. <b>TRUE</b> to enable host backdrop brushes for the window, or <b>FALSE</b> to disable it.
 
-<b>Windows 10 before build 10.0.17763: </b>This value is not supported.
+This value is supported starting with Windows 11 Build 22000.
 
-<b>Windows 10 build 10.0.17763 until 10.0.18985: </b>This is the value 19.
+### -field DWMWA_USE_IMMERSIVE_DARK_MODE : 20
 
-<b>Windows 10 build 10.0.18985 or later: </b>This is value 20, to use the previous value with versions that define this as 20 use DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1 instead.
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Allows the window frame for this window to be drawn in dark mode colors when the dark mode system setting is enabled. For compatibility reasons, all windows default to light mode regardless of the system setting. The <i>pvAttribute</i> parameter points to a value of type **BOOL**. <b>TRUE</b> to honor dark mode for the window, <b>FALSE</b> to always use light mode.
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_WINDOW_CORNER_PREFERENCE : 33
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the rounded corner preference for a window. The <i>pvAttribute</i> parameter points to a value of type [DWM_WINDOW_CORNER_PREFERENCE](ne-dwmapi-dwm_window_corner_preference.md).
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_BORDER_COLOR
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the window border. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). The app is responsible for changing the border color according to state changes, such as a change in window activation. 
+
+Specifying **DWMWA_COLOR_NONE** (value 0xFFFFFFFE) for the color will suppress the drawing of the window border.  This makes it possible to have a rounded window with no border.
+
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the border color.
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_CAPTION_COLOR
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the caption. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). 
+
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the caption color.
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_TEXT_COLOR
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Specifies the color of the caption text. The <i>pvAttribute</i> parameter points to a value of type [COLORREF](/windows/win32/gdi/colorref). 
+
+Specifying **DWMWA_COLOR_DEFAULT** (value 0xFFFFFFFF) for the color will reset the window back to using the system's default behavior for the caption text color.
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_VISIBLE_FRAME_BORDER_THICKNESS
+
+Use with [DwmGetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute). Retrieves the width of the outer border that the DWM would draw around this window. The value can vary depending on the DPI of the window. The <i>pvAttribute</i> parameter points to a value of type **UINT**. 
+
+This value is supported starting with Windows 11 Build 22000.
+
+### -field DWMWA_SYSTEMBACKDROP_TYPE
+
+Use with [DwmGetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) or [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Retrieves or specifies the system-drawn backdrop material of a window, including behind the non-client area. The *pvAttribute* parameter points to a value of type [DWM_SYSTEMBACKDROP_TYPE](ne-dwmapi-dwm_systembackdrop_type.md). 
+
+This value is supported starting with Windows 11 Build 22621.
 
 ### -field DWMWA_LAST
 
 The maximum recognized <b>DWMWINDOWATTRIBUTE</b> value, used for validation purposes.
-
-## -remarks
-
-> [!IMPORTANT]
-> The value described below is available in pre-release versions of the [SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
-`DWMWA_USE_HOSTBACKDROPBRUSH`
-
-Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Enables a non-UWP window to use host backdrop brushes. If this flag is set, then a Win32 app that calls [Windows::UI::Composition](/uwp/api/windows.ui.composition) APIs can build transparency effects using the host backdrop brush (see [Compositor.CreateHostBackdropBrush](/uwp/api/windows.ui.composition.compositor.createhostbackdropbrush)). The retrieved value is of type **BOOL**. **TRUE** to enable host backdrop brushes for the window; otherwise, **FALSE**.
 
 ## -see-also
 

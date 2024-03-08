@@ -1,15 +1,15 @@
 ---
 UID: NF:processthreadsapi.CreateProcessW
 title: CreateProcessW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
-helpviewer_keywords: ["CreateProcess","CreateProcess function","CreateProcessA","CreateProcessW","_win32_createprocess","base.createprocess","processthreadsapi/CreateProcess","processthreadsapi/CreateProcessA","processthreadsapi/CreateProcessW","winbase/CreateProcess","winbase/CreateProcessA","winbase/CreateProcessW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the calling process. (Unicode)
+helpviewer_keywords: ["CreateProcess", "CreateProcess function", "CreateProcessW", "_win32_createprocess", "base.createprocess", "processthreadsapi/CreateProcess", "processthreadsapi/CreateProcessW"]
 old-location: base\createprocess.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -171,7 +171,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>. If this parameter is <b>NULL</b> and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
+An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
 
 The ANSI version of this function, <b>CreateProcessA</b> fails if the total size of the environment block for the process exceeds 32,767 characters.
 
@@ -186,15 +186,15 @@ If this parameter is <b>NULL</b>, the new process will have the same current dri
 ### -param lpStartupInfo [in]
 
 A pointer to a 
-<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure.
+<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexw">STARTUPINFOEX</a> structure.
 
-To set extended attributes, use a <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure and specify EXTENDED_STARTUPINFO_PRESENT in the <i>dwCreationFlags</i> parameter.
+To set extended attributes, use a <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexw">STARTUPINFOEX</a> structure and specify EXTENDED_STARTUPINFO_PRESENT in the <i>dwCreationFlags</i> parameter.
 
 Handles in 
-<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
+<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexw">STARTUPINFOEX</a> must be closed with 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfow">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -294,6 +294,10 @@ For an example, see
 ## -see-also
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+
+
+
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutew">ShellExecuteW</a>
 
 
 

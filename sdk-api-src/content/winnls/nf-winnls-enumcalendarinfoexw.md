@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumCalendarInfoExW
 title: EnumCalendarInfoExW function (winnls.h)
-description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function.
-helpviewer_keywords: ["EnumCalendarInfoEx","EnumCalendarInfoEx function [Internationalization for Windows Applications]","EnumCalendarInfoExA","EnumCalendarInfoExW","_win32_EnumCalendarInfoEx","intl.enumcalendarinfoex","winnls/EnumCalendarInfoEx","winnls/EnumCalendarInfoExA","winnls/EnumCalendarInfoExW"]
+description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function. (Unicode)
+helpviewer_keywords: ["EnumCalendarInfoEx", "EnumCalendarInfoEx function [Internationalization for Windows Applications]", "EnumCalendarInfoExW", "_win32_EnumCalendarInfoEx", "intl.enumcalendarinfoex", "winnls/EnumCalendarInfoEx", "winnls/EnumCalendarInfoExW"]
 old-location: intl\enumcalendarinfoex.htm
 tech.root: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7

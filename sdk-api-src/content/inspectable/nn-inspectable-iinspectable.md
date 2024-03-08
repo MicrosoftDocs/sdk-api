@@ -45,9 +45,6 @@ api_name:
  - IInspectable
 ---
 
-# IInspectable interface
-
-
 ## -description
 
 Provides functionality required for all Windows Runtime classes.
@@ -64,6 +61,10 @@ The <b>IInspectable</b> interface inherits from the <a href="/windows/desktop/ap
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
-
-
 <a href="/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
+
+[winrt::get_interfaces](/uwp/cpp-ref-for-winrt/get-interfaces)
+
+[winrt::get_class_name](/uwp/cpp-ref-for-winrt/get-class-name)
+
+[winrt::get_trust_level](/uwp/cpp-ref-for-winrt/get-trust-level)

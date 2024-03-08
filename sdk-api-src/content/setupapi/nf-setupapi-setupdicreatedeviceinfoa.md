@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoA
 title: SetupDiCreateDeviceInfoA function (setupapi.h)
-description: The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set.
-helpviewer_keywords: ["SetupDiCreateDeviceInfo","SetupDiCreateDeviceInfo function [Device and Driver Installation]","SetupDiCreateDeviceInfoA","SetupDiCreateDeviceInfoW","devinst.setupdicreatedeviceinfo","di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml","setupapi/SetupDiCreateDeviceInfo"]
+description: The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set. (ANSI)
+helpviewer_keywords: ["SetupDiCreateDeviceInfoA", "di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml"]
 old-location: devinst\setupdicreatedeviceinfo.htm
 tech.root: devinst
 ms.assetid: 7d42167f-9af4-4aee-b641-a93ade1e3969

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxServer.put_ArchiveDirectory
 title: IFaxServer::put_ArchiveDirectory (faxcom.h)
-description: The IFaxServer::get_ArchiveDirectory method retrieves the ArchiveDirectory property for a FaxServer object. The ArchiveDirectory property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
+description: The IFaxServer::get_ArchiveDirectory method retrieves the ArchiveDirectory property for a FaxServer object. The ArchiveDirectory property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes. (Put)
 helpviewer_keywords: ["ArchiveDirectory property [Fax Service]","ArchiveDirectory property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","ArchiveDirectory property","IFaxServer.ArchiveDirectory","IFaxServer.get_ArchiveDirectory","IFaxServer.put_ArchiveDirectory","IFaxServer::ArchiveDirectory","IFaxServer::get_ArchiveDirectory","IFaxServer::put_ArchiveDirectory","_mfax_ifaxserver_get_archivedirectory","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_cpp","fax._mfax_ifaxserver_get_archivedirectory","faxcom/IFaxServer::ArchiveDirectory","faxcom/IFaxServer::get_ArchiveDirectory","faxcom/IFaxServer::put_ArchiveDirectory","put_ArchiveDirectory"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_archivedirectory_cpp.htm
 tech.root: Fax

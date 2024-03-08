@@ -39,15 +39,15 @@ Defines constants that specify the shading rate (for variable-rate shading, or V
 
 ## -enum-fields
 
-### -field D3D12_AXIS_SHADING_RATE_1X
+### -field D3D12_AXIS_SHADING_RATE_1X:0
 
 Specifies a 1x shading rate for the axis.
 
-### -field D3D12_AXIS_SHADING_RATE_2X
+### -field D3D12_AXIS_SHADING_RATE_2X:0x1
 
 Specifies a 2x shading rate for the axis.
 
-### -field D3D12_AXIS_SHADING_RATE_4X
+### -field D3D12_AXIS_SHADING_RATE_4X:0x2
 
 Specifies a 4x shading rate for the axis.
 

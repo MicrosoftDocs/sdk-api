@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPayloadPackage
 title: IAppxBundleWriter4::AddPayloadPackage (appxpackaging.h)
-description: Adds a new app package to the bundle.
+description: Adds a new app package to the bundle. (IAppxBundleWriter4.AddPayloadPackage)
 helpviewer_keywords: ["AddPayloadPackage","AddPayloadPackage method [App packaging and management]","AddPayloadPackage method [App packaging and management]","IAppxBundleWriter4 interface","IAppxBundleWriter4 interface [App packaging and management]","AddPayloadPackage method","IAppxBundleWriter4.AddPayloadPackage","IAppxBundleWriter4::AddPayloadPackage","appxpackaging/IAppxBundleWriter4::AddPayloadPackage","appxpkg.iappxbundlewriter4_addpayloadpackage"]
 old-location: appxpkg\iappxbundlewriter4_addpayloadpackage.htm
 tech.root: appxpkg

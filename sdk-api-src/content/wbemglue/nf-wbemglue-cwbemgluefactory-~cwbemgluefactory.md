@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.~CWbemGlueFactory
 title: CWbemGlueFactory::~CWbemGlueFactory
-ms.date: 4/26/2019
+ms.date: 08/15/2022
+description: The CWbemGlueFactory::~CWbemGlueFactory function is a destructor for the CWbemGlueFactory class.
 ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
 targetos: Windows
 req.assembly: 

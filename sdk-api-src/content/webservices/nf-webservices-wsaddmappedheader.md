@@ -56,7 +56,7 @@ Adds a specified mapped header to the <a href="/windows/desktop/wsw/message">mes
 
 ### -param message [in]
 
-Pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure representing the  <a href="/windows/desktop/wsw/message">message</a> to to which to add the mapped header.
+Pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure representing the  <a href="/windows/desktop/wsw/message">message</a> to which to add the mapped header.
                 
 
 The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> enumeration.

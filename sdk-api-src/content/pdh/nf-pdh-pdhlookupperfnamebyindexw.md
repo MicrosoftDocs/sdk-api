@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexW
 title: PdhLookupPerfNameByIndexW function (pdh.h)
-description: Returns the performance object name or counter name corresponding to the specified index.
-helpviewer_keywords: ["PdhLookupPerfNameByIndex","PdhLookupPerfNameByIndex function [Perf]","PdhLookupPerfNameByIndexA","PdhLookupPerfNameByIndexW","_win32_pdhlookupperfnamebyindex","base.pdhlookupperfnamebyindex","pdh/PdhLookupPerfNameByIndex","pdh/PdhLookupPerfNameByIndexA","pdh/PdhLookupPerfNameByIndexW","perf.pdhlookupperfnamebyindex"]
+description: Returns the performance object name or counter name corresponding to the specified index. (Unicode)
+helpviewer_keywords: ["PdhLookupPerfNameByIndex", "PdhLookupPerfNameByIndex function [Perf]", "PdhLookupPerfNameByIndexW", "_win32_pdhlookupperfnamebyindex", "base.pdhlookupperfnamebyindex", "pdh/PdhLookupPerfNameByIndex", "pdh/PdhLookupPerfNameByIndexW", "perf.pdhlookupperfnamebyindex"]
 old-location: perf\pdhlookupperfnamebyindex.htm
 tech.root: perf
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e

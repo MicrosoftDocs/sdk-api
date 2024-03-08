@@ -63,7 +63,7 @@ A handle to the device context.
 
 ### -param lpsize [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the x- and y-extents in page-space units, that is, logical units.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the x- and y-extents in page-space units, that is, logical units.
 
 ## -returns
 

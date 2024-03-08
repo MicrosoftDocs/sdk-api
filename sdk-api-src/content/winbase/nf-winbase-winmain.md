@@ -62,7 +62,7 @@ Type: <b>HINSTANCE</b>
 
 A handle to the current instance of the application.
 
-### -param hPrevInstance [in]
+### -param hPrevInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 

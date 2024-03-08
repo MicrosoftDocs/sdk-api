@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CopyFileExW
 title: CopyFileExW function (winbase.h)
-description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
-helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION","COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_NO_BUFFERING","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileEx","CopyFileEx function [Files]","CopyFileExA","CopyFileExW","_win32_copyfileex","base.copyfileex","fs.copyfileex","winbase/CopyFileEx","winbase/CopyFileExA","winbase/CopyFileExW"]
+description: Copies an existing file to a new file, notifying the application of its progress through a callback function. (CopyFileExW)
+helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION", "COPY_FILE_COPY_SYMLINK", "COPY_FILE_FAIL_IF_EXISTS", "COPY_FILE_NO_BUFFERING", "COPY_FILE_OPEN_SOURCE_FOR_WRITE", "COPY_FILE_RESTARTABLE", "CopyFileEx", "CopyFileEx function [Files]", "CopyFileExW", "_win32_copyfileex", "base.copyfileex", "fs.copyfileex", "winbase/CopyFileEx", "winbase/CopyFileExW"]
 old-location: fs\copyfileex.htm
 tech.root: fs
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
@@ -72,13 +72,11 @@ To perform this operation as a transacted operation, use the
 The name of an existing file.
       
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+
 If <i>lpExistingFileName</i> does not exist, the 
       <b>CopyFileEx</b> function fails, and the 
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
@@ -88,14 +86,10 @@ If <i>lpExistingFileName</i> does not exist, the
 
 The name of the new file.
       
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\?\" to 
-       the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
-<div class="alert"><b>Tip</b>  Starting inWindows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpProgressRoutine [in, optional]
 
@@ -199,6 +193,17 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
         <i>lpNewFileName</i> as those used in the call that failed. This can significantly slow 
         down the copy operation as the new file may be flushed multiple times during the copy operation.
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="COPY_FILE_RESTARTABLE"></a><a id="copy_file_restartable"></a><dl>
+<dt><b>COPY_FILE_REQUEST_COMPRESSED_TRAFFIC</b></dt>
+<dt> 0x10000000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases.</p>
+<p>This flag was introduced in Windows 10, version 1903 and Windows Server 2022. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.</p>
 </td>
 </tr>
 </table>

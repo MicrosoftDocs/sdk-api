@@ -50,10 +50,11 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Media Transport Controls](/previous-versions/windows/desktop/mediatransport/media-transport-controls-portal), is a legacy feature. It has been superseded by [System Media Transport Controls](/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols). System Media Transport Controls has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use System Media Transport Controls instead of #FEATURENAMENOLINK#, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Enables interoperability with a WinRT a [SystemMediaTransportControls](/uwp/api/windows.media.systemmediatransportcontrols) object.
 
-
-
+This interface is implemented by the Windows.Media.SystemMediaTransportControls activation factory.
 
 ## -see-also
 

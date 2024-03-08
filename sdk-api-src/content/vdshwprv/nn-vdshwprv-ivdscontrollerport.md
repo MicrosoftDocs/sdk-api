@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsControllerPort
 title: IVdsControllerPort (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a controller port.
+description: The IVdsControllerPort (vdshwprv.h) interface provides methods for performing query and configuration operations on a controller port.
 helpviewer_keywords: ["IVdsControllerPort","IVdsControllerPort interface [VDS]","IVdsControllerPort interface [VDS]","described","base.ivdscontrollerport","vds/IVdsControllerPort","vdshwprv/IVdsControllerPort"]
 old-location: base\ivdscontrollerport.htm
 tech.root: base
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing 
    query and configuration operations on a controller port.

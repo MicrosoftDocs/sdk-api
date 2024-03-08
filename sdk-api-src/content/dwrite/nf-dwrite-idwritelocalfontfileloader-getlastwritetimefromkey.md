@@ -81,5 +81,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader">IDWriteLocalFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalfontfileloader">IDWriteLocalFontFileLoader</a>
 

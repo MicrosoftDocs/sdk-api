@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICDdsAlphaMode
 title: WICDdsAlphaMode (wincodec.h)
-description: Specifies the the meaning of pixel color component values contained in the DDS image.
+description: Specifies the meaning of pixel color component values contained in the DDS image.
 helpviewer_keywords: ["WICDdsAlphaMode","WICDdsAlphaMode enumeration [Windows Imaging Component]","WICDdsAlphaModeCustom","WICDdsAlphaModeOpaque","WICDdsAlphaModePremultiplied","WICDdsAlphaModeStraight","WICDdsAlphaModeUnknown","wic.wicddsalphamode","wincodec/WICDdsAlphaMode","wincodec/WICDdsAlphaModeCustom","wincodec/WICDdsAlphaModeOpaque","wincodec/WICDdsAlphaModePremultiplied","wincodec/WICDdsAlphaModeStraight","wincodec/WICDdsAlphaModeUnknown"]
 old-location: wic\wicddsalphamode.htm
 tech.root: wic
@@ -50,31 +50,31 @@ api_name:
 
 ## -description
 
-Specifies the the meaning of pixel color component values contained in the DDS image.
+Specifies the meaning of pixel color component values contained in the DDS image.
 
 ## -enum-fields
 
-### -field WICDdsAlphaModeUnknown
+### -field WICDdsAlphaModeUnknown:0
 
 Alpha behavior is unspecified and must be determined by the reader.
 
-### -field WICDdsAlphaModeStraight
+### -field WICDdsAlphaModeStraight:0x1
 
 The alpha data is straight.
 
-### -field WICDdsAlphaModePremultiplied
+### -field WICDdsAlphaModePremultiplied:0x2
 
 The alpha data is premultiplied.
 
-### -field WICDdsAlphaModeOpaque
+### -field WICDdsAlphaModeOpaque:0x3
 
 The alpha data is opaque (UNORM value of 1). This can be used by a compliant reader as a performance optimization. For example, blending operations can be converted to copies.
 
-### -field WICDdsAlphaModeCustom
+### -field WICDdsAlphaModeCustom:0x4
 
 The alpha channel contains custom data that is not alpha.
 
-### -field WICDDSALPHAMODE_FORCE_DWORD
+### -field WICDDSALPHAMODE_FORCE_DWORD:0x7fffffff
 
 ## -see-also
 

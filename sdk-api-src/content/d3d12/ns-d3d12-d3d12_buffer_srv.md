@@ -47,7 +47,6 @@ api_name:
 
 # D3D12_BUFFER_SRV structure
 
-
 ## -description
 
 Describes the elements in a buffer resource to use in a shader-resource view.
@@ -64,7 +63,7 @@ The number of elements in the resource.
 
 ### -field StructureByteStride
 
-The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer.
+The size of each element in the buffer structure (in bytes) when the buffer represents a structured buffer.  The size must match the struct size declared in shaders that access the view.
 
 ### -field Flags
 
@@ -72,7 +71,9 @@ A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags">D3D12_BUF
 
 ## -remarks
 
-This structure is used by <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer.
+This structure is used by <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc">D3D12_SHADER_RESOURCE_VIEW_DESC</a> to create a view of a buffer. 
+
+If the value of *StructureByteStride* is not 0, then a view of a structured buffer is created, and then the *D3D12_SHADER_RESOURCE_VIEW_DESC::Format* field must be **DXGI_FORMAT_UNKNOWN**. If *StructureByteStride* is 0, then a typed view of a buffer is created, and then a format must be supplied. The specified format for the typed view must be supported by the hardware.
 
 ## -see-also
 

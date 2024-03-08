@@ -84,7 +84,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  [**HSTRING**](/windows/win32/winrt/hstring) was copied successfully.
+The <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a> was copied successfully.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The  [**HSTRING**](/windows/win32/winrt/hstring) was copied successfully.
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new [**HSTRING**](/windows/win32/winrt/hstring).
+Failed to allocate the new <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>.
 
 </td>
 </tr>

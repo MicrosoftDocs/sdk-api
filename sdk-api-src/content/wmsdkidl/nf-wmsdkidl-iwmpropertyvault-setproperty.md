@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPropertyVault interface [windows Media Format]","SetPr
 old-location: wmformat\iwmpropertyvault_setproperty.htm
 tech.root: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>SetProperty</b> method sets the values for a property. If the property named already exists in the property vault, <b>SetProperty</b> changes its value as specified. If the property named does not exist, <b>SetProperty</b> adds it to the property vault.
 

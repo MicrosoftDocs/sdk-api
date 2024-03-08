@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IContext
 title: IContext (objidl.h)
-description: Supports setting COM+ context properties.
+description: The IContext interface (objidl.h) supports setting COM+ context properties.
 helpviewer_keywords: ["IContext","IContext interface [COM]","IContext interface [COM]","described","_com_icontext","com.icontext","objidlbase/IContext"]
 old-location: com\icontext.htm
 tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 req.header: objidl.h
 req.include-header: ObjIdl.h

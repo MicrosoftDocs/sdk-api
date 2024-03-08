@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineSetupConference
 title: lineSetupConference function (tapi.h)
-description: The lineSetupConference function sets up a conference call for the addition of the third party.
+description: The lineSetupConference function (tapi.h) sets up a conference call for the addition of the third party.
 helpviewer_keywords: ["_tapi2_linesetupconference","lineSetupConference","lineSetupConference function [TAPI 2.2]","lineSetupConferenceA","lineSetupConferenceW","tapi/lineSetupConference","tapi/lineSetupConferenceA","tapi/lineSetupConferenceW","tapi2.linesetupconference"]
 old-location: tapi2\linesetupconference.htm
 tech.root: tapi3
 ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linesetupconference, lineSetupConference, lineSetupConference function [TAPI 2.2], lineSetupConferenceA, lineSetupConferenceW, tapi/lineSetupConference, tapi/lineSetupConferenceA, tapi/lineSetupConferenceW, tapi2.linesetupconference
 req.header: tapi.h
 req.include-header: 

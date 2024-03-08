@@ -54,7 +54,7 @@ Specifies the type of an <a href="/windows/desktop/api/spatialaudioclient/nn-spa
 
 ## -enum-fields
 
-### -field AudioObjectType_None
+### -field AudioObjectType_None:0
 
 The spatial audio object is not spatialized.
 
@@ -129,3 +129,12 @@ The spatial audio object is assigned the bottom back right channel.
 ### -field AudioObjectType_BackCenter
 
 The spatial audio object is assigned the back center channel.
+
+### -field AudioObjectType_DirectLeft
+
+Equivalent to **SPEAKER_FRONT_LEFT** without any virtualization. Introduced in Windows 11, version 24H2.
+
+### -field AudioObjectType_DirectRight
+
+Equivalent to **SPEAKER_FRONT_RIGHT** without any virtualization. Introduced in Windows 11, version 24H2.
+

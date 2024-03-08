@@ -4,7 +4,7 @@ title: High DPI
 ms.assetid: 5b09bc45-2b4f-30c9-962e-404065d34cad
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # High DPI

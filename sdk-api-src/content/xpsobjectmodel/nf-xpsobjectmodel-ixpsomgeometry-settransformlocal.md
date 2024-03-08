@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetTransformLocal
 title: IXpsOMGeometry::SetTransformLocal (xpsobjectmodel.h)
-description: Sets the local, unshared matrix transform.
+description: Sets the local, unshared matrix transform. (IXpsOMGeometry.SetTransformLocal)
 helpviewer_keywords: ["IXpsOMGeometry interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMGeometry.SetTransformLocal","IXpsOMGeometry::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMGeometry interface","xps.ixpsomgeometry_settransformlocal","xpsobjectmodel/IXpsOMGeometry::SetTransformLocal"]
 old-location: xps\ixpsomgeometry_settransformlocal.htm
 tech.root: xps
@@ -169,7 +169,7 @@ Neither <b>SetTransformLocal</b> nor <a href="/windows/desktop/api/xpsobjectmode
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

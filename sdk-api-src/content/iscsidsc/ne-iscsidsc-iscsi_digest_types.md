@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidsc.__unnamed_enum_0
+UID: NE:iscsidsc.ISCSI_DIGEST_TYPES
 title: ISCSI_DIGEST_TYPES (iscsidsc.h)
 description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 helpviewer_keywords: ["*PISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API]","ISCSI_DIGEST_TYPE_CRC32C","ISCSI_DIGEST_TYPE_NONE","iscsidisc.iscsi_digest_types","iscsidsc/ISCSI_DIGEST_TYPES","iscsidsc/ISCSI_DIGEST_TYPE_CRC32C","iscsidsc/ISCSI_DIGEST_TYPE_NONE"]
@@ -56,11 +56,11 @@ The <b>ISCSI_DIGEST_TYPES</b> enumeration indicates the digest type.
 
 ## -enum-fields
 
-### -field ISCSI_DIGEST_TYPE_NONE
+### -field ISCSI_DIGEST_TYPE_NONE:0
 
 No digest is in use for guaranteeing data integrity.
 
-### -field ISCSI_DIGEST_TYPE_CRC32C
+### -field ISCSI_DIGEST_TYPE_CRC32C:1
 
 The digest for guaranteeing data integrity uses a 32-bit cyclic redundancy check.
 

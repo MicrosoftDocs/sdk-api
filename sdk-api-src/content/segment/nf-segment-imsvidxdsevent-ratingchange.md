@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.</div>
+<div> </div>
 
 
 
@@ -61,15 +63,15 @@ The <b>RatingChange</b> method is called when the current rating changes.
 
 ### -param PrevRatingSystem [in]
 
-The previous rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
+The previous rating system, as an <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration type.
 
 ### -param PrevLevel [in]
 
-The previous rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+The previous rating level, as an <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 ### -param PrevAttributes [in]
 
-The previous rating attributes. This value is a bitwise OR of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
+The previous rating attributes. This value is a bitwise OR of flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
 
 ### -param NewRatingSystem [in]
 

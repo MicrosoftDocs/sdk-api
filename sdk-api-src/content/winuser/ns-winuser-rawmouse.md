@@ -139,24 +139,51 @@ If **MOUSE_MOVE_ABSOLUTE** value is specified, **lLastX** and **lLastY** contain
 If **MOUSE_VIRTUAL_DESKTOP** is specified in addition to **MOUSE_MOVE_ABSOLUTE**, the coordinates map to the entire virtual desktop.
 
 ```cpp
-if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+case WM_INPUT: 
 {
-    bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
+    UINT dwSize = sizeof(RAWINPUT);
+    static BYTE lpb[sizeof(RAWINPUT)];
 
-    int width = GetSystemMetrics(isVirtualDesktop ? SM_CXVIRTUALSCREEN : SM_CXSCREEN);
-    int height = GetSystemMetrics(isVirtualDesktop ? SM_CYVIRTUALSCREEN : SM_CYSCREEN);
+    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &dwSize, sizeof(RAWINPUTHEADER));
 
-    int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
-    int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
-}
-else if (rawMouse.lLastX != 0 || rawMouse.lLastY != 0)
-{
-    int relativeX = rawMouse.lLastX;
-    int relativeY = rawMouse.lLastY;
+    RAWINPUT* raw = (RAWINPUT*)lpb;
+
+    if (raw->header.dwType == RIM_TYPEMOUSE) 
+    {
+        if (raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE)
+        {
+            RECT rect;
+            if (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP)
+            {
+                rect.left = GetSystemMetrics(SM_XVIRTUALSCREEN);
+                rect.top = GetSystemMetrics(SM_YVIRTUALSCREEN);
+                rect.right = GetSystemMetrics(SM_CXVIRTUALSCREEN);
+                rect.bottom = GetSystemMetrics(SM_CYVIRTUALSCREEN);
+            }
+            else
+            {
+                rect.left = 0;
+                rect.top = 0;
+                rect.right = GetSystemMetrics(SM_CXSCREEN);
+                rect.bottom = GetSystemMetrics(SM_CYSCREEN);
+            }
+
+            int absoluteX = MulDiv(raw->mouse.lLastX, rect.right, 65535) + rect.left;
+            int absoluteY = MulDiv(raw->mouse.lLastY, rect.bottom, 65535) + rect.top;
+            ...
+        }
+        else if (raw->mouse.lLastX != 0 || raw->mouse.lLastY != 0)
+        {
+            int relativeX = raw->mouse.lLastX;
+            int relativeY = raw->mouse.lLastY;
+            ...
+        }
+        ...
+    }
 }
 ```
 
-In contrast to legacy [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's **Mouse Properties** sheet. See [About Mouse Input](/windows/win32/inputdev/about-mouse-input) for details.
+In contrast to legacy [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove) window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's **Mouse Properties** sheet. See [Mouse Input Overview](/windows/win32/inputdev/about-mouse-input) for details.
 
 If mouse wheel is moved, indicated by **RI_MOUSE_WHEEL** or **RI_MOUSE_HWHEEL** in **usButtonFlags**, then **usButtonData** contains a signed **short** value that specifies the distance the wheel is rotated.
 
@@ -218,7 +245,7 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 
 [MOUSE_INPUT_DATA structure](../ntddmou/ns-ntddmou-mouse_input_data.md)
 
-[About Mouse Input (legacy)](/windows/win32/inputdev/about-mouse-input)
+[Mouse Input Overview (legacy)](/windows/win32/inputdev/about-mouse-input)
 
 [Mouse Input Notifications (legacy)](/windows/win32/inputdev/mouse-input-notifications)
 

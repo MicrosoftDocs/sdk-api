@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetStream
 title: IXpsOMDocumentStructureResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMDocumentStructureResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMDocumentStructureResource.GetStream","IXpsOMDocumentStructureResource::GetStream","xps.ixpsomdocumentstructureresource_getstream","xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream"]
 old-location: xps\ixpsomdocumentstructureresource_getstream.htm
 tech.root: xps
@@ -68,7 +68,7 @@ This method calls the <a href="/previous-versions/windows/desktop/opc/packaging"
 
 The <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object returned by this method might return an error of E_PENDING, which indicates that the stream length has not been determined yet.  This behavior is different from that of a standard <b>IStream</b> object.
 
-For more information about the content of DocumentStructure part, see the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
+For more information about the content of DocumentStructure part, see the <a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>.
 
 This method calls the stream's <b>Clone</b> method to create the stream returned in <i>stream</i>. As a result, the performance of this method will depend on that of the stream's <b>Clone</b> method.
 
@@ -82,7 +82,7 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

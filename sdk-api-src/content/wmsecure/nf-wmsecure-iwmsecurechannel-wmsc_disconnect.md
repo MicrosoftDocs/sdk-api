@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_
 old-location: wmformat\iwmsecurechannel_wmsc_disconnect.htm
 tech.root: wmformat
 ms.assetid: 13956668-2fd3-45ac-a96c-7dfc5c8fcb26
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Disconnect method, IWMSecureChannel.WMSC_Disconnect, IWMSecureChannel::WMSC_Disconnect, WMSC_Disconnect, WMSC_Disconnect method [windows Media Format], WMSC_Disconnect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_disconnect, wmsecure/IWMSecureChannel::WMSC_Disconnect
 req.header: wmsecure.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 <p class="CCE_Message">[<b>WMSC_Disconnect</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]

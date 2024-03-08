@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPSubscriptionServiceCallback","IWMPSubscriptionService
 old-location: wmp\iwmpsubscriptionservicecallback.htm
 tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
 req.header: subscriptionservices.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>IWMPSubscriptionServicesCallback</b> interface defines a method that online stores use to notify Windows Media Player when a background process has completed.
@@ -58,7 +60,7 @@ The <b>IWMPSubscriptionServicesCallback</b> interface defines a method that onli
 
 The <b>IWMPSubscriptionServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionServiceCallback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

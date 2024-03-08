@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerStoreClose
 title: WerStoreClose function (werapi.h)
-description: Closes the collection of stored reports.
+description: Closes the collection of stored Windows Error Reporting (WER) reports.
 helpviewer_keywords: ["WerStoreClose","WerStoreClose function [Windows Error Reporting]","wer.werstoreclose","werapi/WerStoreClose"]
 old-location: wer\werstoreclose.htm
 tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
-ms.date: 12/05/2018
+ms.date: 07/26/2023
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 req.header: werapi.h
 req.include-header: 
@@ -49,25 +49,20 @@ api_name:
 
 # WerStoreClose function
 
-
 ## -description
 
-Closes the collection of stored reports.
+Closes the collection of stored [Windows Error Reporting](../_wer/index.md) (WER) reports.
 
 ## -parameters
 
 ### -param hReportStore
 
-The error report store to close (previously retrieved with <a href="/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
+The error report store to close (previously retrieved with [WerStoreOpen](/windows/desktop/api/werapi/nf-werapi-werstoreopen)).
+
+## -returns
+
+This function returns **S_OK** on success or an error code on failure.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerStoreOpen](/windows/desktop/api/werapi/nf-werapi-werstoreopen), [Windows Error Reporting](/windows/desktop/wer)

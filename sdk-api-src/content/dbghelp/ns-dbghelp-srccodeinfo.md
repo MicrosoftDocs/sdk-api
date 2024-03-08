@@ -1,12 +1,12 @@
 ---
 UID: NS:dbghelp._SRCCODEINFO
 title: SRCCODEINFO (dbghelp.h)
-description: Contains line information.
+description: The SRCCODEINFO structure (dbghelp.h) contains line information.
 helpviewer_keywords: ["*PSRCCODEINFO","PSRCCODEINFO","PSRCCODEINFO structure pointer","SRCCODEINFO","SRCCODEINFO structure","SRCCODEINFOW","_SRCCODEINFO","_SRCCODEINFOW","base.srccodeinfo_str","dbghelp/PSRCCODEINFO","dbghelp/SRCCODEINFO","dbghelp/SRCCODEINFOW"]
 old-location: base\srccodeinfo_str.htm
 tech.root: Debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSRCCODEINFO, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW'
 req.header: dbghelp.h
 req.include-header: 

@@ -1,12 +1,12 @@
 ---
 UID: NF:networkisolation.NetworkIsolationUnregisterForAppContainerChanges
 title: NetworkIsolationUnregisterForAppContainerChanges function (networkisolation.h)
-description: Is used to cancel an app container change registration and stop receiving notifications.
+description: The NetworkIsolationUnregisterForAppContainerChanges function is used to cancel an app container change registration and stop receiving notifications. 
 helpviewer_keywords: ["NetworkIsolationUnregisterForAppContainerChanges","NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF]","ics.networkisolationunregisterforappcontainerchanges","networkisolation/NetworkIsolationUnregisterForAppContainerChanges"]
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm
 tech.root: ics
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 req.header: networkisolation.h
 req.include-header: Netfw.h

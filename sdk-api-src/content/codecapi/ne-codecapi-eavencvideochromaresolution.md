@@ -6,7 +6,7 @@ helpviewer_keywords: ["codecapi/eAVEncVideoChromaResolution","codecapi/eAVEncVid
 old-location: dshow\eavencvideochromaresolution.htm
 tech.root: dshow
 ms.assetid: 63ac09a9-23bb-4d82-9699-541552e1ec90
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: codecapi/eAVEncVideoChromaResolution, codecapi/eAVEncVideoChromaResolution_411, codecapi/eAVEncVideoChromaResolution_420, codecapi/eAVEncVideoChromaResolution_422, codecapi/eAVEncVideoChromaResolution_444, codecapi/eAVEncVideoChromaResolution_SameAsSource, dshow.eavencvideochromaresolution, eAVEncVideoChromaResolution, eAVEncVideoChromaResolution enumeration [DirectShow], eAVEncVideoChromaResolutionEnumeration, eAVEncVideoChromaResolution_411, eAVEncVideoChromaResolution_420, eAVEncVideoChromaResolution_422, eAVEncVideoChromaResolution_444, eAVEncVideoChromaResolution_SameAsSource
 req.header: codecapi.h
 req.include-header: 
@@ -50,27 +50,29 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 Specifies chroma resolution. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoinputchromaresolution-property">AVEncVideoInputChromaResolution</a> and <a href="/windows/desktop/DirectShow/avencvideooutputchromaresolution-property">AVEncVideoOutputChromaResolution</a> properties.
 
 ## -enum-fields
 
-### -field eAVEncVideoChromaResolution_SameAsSource
+### -field eAVEncVideoChromaResolution_SameAsSource:0 
 
 Use the same chroma resolution as the input video. This flag applies to the <b>AVEncVideoOutputChromaResolution</b> property only.
 
-### -field eAVEncVideoChromaResolution_444
+### -field eAVEncVideoChromaResolution_444:1
 
 4:4:4 (no downsampling).
 
-### -field eAVEncVideoChromaResolution_422
+### -field eAVEncVideoChromaResolution_422:2
 
 4:2:2 (2:1 horizontal downsampling, with no vertical downsampling).
 
-### -field eAVEncVideoChromaResolution_420
+### -field eAVEncVideoChromaResolution_420:3
 
 4:2:0 (2:1 horizontal downsampling, with 2:1 vertical downsampling).
 
-### -field eAVEncVideoChromaResolution_411
+### -field eAVEncVideoChromaResolution_411:4
 
 4:1:1 (4:1 horizontal downsampling, with no vertical downsampling).
 

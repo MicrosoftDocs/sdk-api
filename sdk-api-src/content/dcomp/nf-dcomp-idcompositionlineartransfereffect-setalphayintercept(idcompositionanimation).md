@@ -58,7 +58,7 @@ Sets the Y-intercept of the linear function for the Alpha channel.
 
 Type: <b><a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
 
-An animation that represents how the the Y-intercept of the linear function for the alpha channel. changes over time. This parameter must not be NULL.
+An animation that represents how the Y-intercept of the linear function for the alpha channel. changes over time. This parameter must not be NULL.
 
 ## -returns
 

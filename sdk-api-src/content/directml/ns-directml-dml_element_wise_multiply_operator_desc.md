@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC","DML_ELEMENT_WIS
 old-location: direct3d12\dml_element_wise_multiply_operator_desc.htm
 tech.root: directml
 ms.assetid: 1ACECE42-6B96-487D-998E-DDCD202E8A01
-ms.date: 10/30/2020
+ms.date: 07/20/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -52,7 +52,7 @@ Computes the product of each pair of corresponding elements of the input tensors
 f(a, b) = a * b
 ```
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 
@@ -81,6 +81,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
 
 ### DML_FEATURE_LEVEL_4_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMIStreamProps","IWMIStreamProps interface [windows Medi
 old-location: wmformat\iwmistreamprops.htm
 tech.root: wmformat
 ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
 req.header: wmsdkidl.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMIStreamProps</b> interface provides access to the properties of an <b>IStream</b> object.
 
 To obtain a pointer to an <b>IWMIStreamProps</b> interface, call <b>IStream::QueryInterface</b>.
@@ -58,7 +60,7 @@ To obtain a pointer to an <b>IWMIStreamProps</b> interface, call <b>IStream::Que
 
 The <b>IWMIStreamProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIStreamProps</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

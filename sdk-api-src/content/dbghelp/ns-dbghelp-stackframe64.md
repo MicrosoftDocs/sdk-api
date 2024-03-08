@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._tagSTACKFRAME64
 title: STACKFRAME64 (dbghelp.h)
-description: Represents a stack frame.
+description: Represents a stack frame. (STACKFRAME64)
 helpviewer_keywords: ["*LPSTACKFRAME64","LPSTACKFRAME64","LPSTACKFRAME64 structure pointer","STACKFRAME","STACKFRAME structure","STACKFRAME64","STACKFRAME64 structure","_tagSTACKFRAME64","_win32_stackframe64_str","base.stackframe64_str","dbghelp/LPSTACKFRAME64","dbghelp/STACKFRAME64"]
 old-location: base\stackframe64_str.htm
 tech.root: Debug
@@ -62,7 +62,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the program counter. 
 
 
 
@@ -76,12 +76,12 @@ An
 ### -field AddrReturn
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the return address.
 
 ### -field AddrFrame
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the frame pointer. 
 
 
 
@@ -95,7 +95,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the stack pointer. 
 
 
 
@@ -109,7 +109,7 @@ An
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a> structure that specifies the backing store (RsBSP).
 
 ### -field FuncTableEntry
 
@@ -131,12 +131,12 @@ This member is <b>TRUE</b> if this is a virtual frame.
 ### -field Reserved
 
 This member is used internally by the 
-<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
+<a href="/windows/win32/api/dbghelp/nf-dbghelp-stackwalk64">StackWalk64</a> function.
 
 ### -field KdHelp
 
 A 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-kdhelp64">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
 
 ## -remarks
 
@@ -167,7 +167,7 @@ typedef struct _tagSTACKFRAME {
 
 ## -see-also
 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
+<a href="/windows/win32/api/dbghelp/ns-dbghelp-address64">ADDRESS64</a>
 
 
 

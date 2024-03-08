@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagWNDCLASSA
 title: WNDCLASSA (winuser.h)
-description: Contains the window class attributes that are registered by the RegisterClass function.
+description: Contains the window class attributes that are registered by the RegisterClass function. (ANSI)
 helpviewer_keywords: ["*LPWNDCLASSA","*NPWNDCLASSA","*PWNDCLASSA","PWNDCLASS","PWNDCLASS structure pointer [Windows and Messages]","WNDCLASS","WNDCLASS structure [Windows and Messages]","WNDCLASSA","WNDCLASSW","_win32_WNDCLASS_str","_win32_wndclass_str_cpp","winmsg.wndclass","winui._win32_wndclass_str","winuser/PWNDCLASS","winuser/WNDCLASS","winuser/WNDCLASSA","winuser/WNDCLASSW"]
 old-location: winmsg\wndclass.htm
 tech.root: winmsg
@@ -72,7 +72,7 @@ The class style(s). This member can be any combination of the <a href="/windows/
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>.
+A pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure. For more information, see <a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>.
 
 ### -field cbClsExtra
 
@@ -216,7 +216,7 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-wndproc">WindowProc</a>
 
 ## -remarks
 

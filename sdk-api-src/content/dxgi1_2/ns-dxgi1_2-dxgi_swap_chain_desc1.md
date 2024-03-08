@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_DESC1
 title: DXGI_SWAP_CHAIN_DESC1 (dxgi1_2.h)
-description: Describes a swap chain.
+description: Describes a swap chain. (DXGI_SWAP_CHAIN_DESC1)
 helpviewer_keywords: ["DXGI_SWAP_CHAIN_DESC1","DXGI_SWAP_CHAIN_DESC1 structure [DXGI]","direct3ddxgi.dxgi_swap_chain_desc1","dxgi1_2/DXGI_SWAP_CHAIN_DESC1"]
 old-location: direct3ddxgi\dxgi_swap_chain_desc1.htm
 tech.root: direct3ddxgi
@@ -148,12 +148,13 @@ In full-screen mode, there is a dedicated front buffer; in windowed mode, the de
 
 For a <a href="/windows/desktop/direct3ddxgi/dxgi-flip-model">flip-model</a> swap chain (that is, a swap 
      chain that has the 
+     <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_DISCARD</a> or 
      <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
      value set in the <b>SwapEffect</b> member), you must set the 
      <b>Format</b> member to 
      <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R16G16B16A16_FLOAT</a>, 
-     <b>DXGI_FORMAT_B8G8R8A8_UNORM</b>, or 
-     <b>DXGI_FORMAT_R8G8B8A8_UNORM</b>; you must set the 
+     <b>DXGI_FORMAT_B8G8R8A8_UNORM</b>, 
+     <b>DXGI_FORMAT_R8G8B8A8_UNORM</b>, or <b>DXGI_FORMAT_R10G10B10A10_UNORM</b>; you must set the 
      <b>Count</b> member of the 
      <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a> structure that the 
      <b>SampleDesc</b> member specifies to one and the <b>Quality</b> member 

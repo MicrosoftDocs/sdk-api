@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX(float)
 title: IDCompositionBrightnessEffect::SetBlackPointX (dcomp.h)
-description: Sets the x value of the black point.
+description: Sets the x value of the black point. (overload 2/2)
 helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointX method","IDCompositionBrightnessEffect.SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX(float)","SetBlackPointX","SetBlackPointX method [DirectComposition]","SetBlackPointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointX","directcomp.idcompositionbrightnesseffect_setblackpointx"]
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
 tech.root: directcomp

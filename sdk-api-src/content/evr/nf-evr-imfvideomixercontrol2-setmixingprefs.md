@@ -4,7 +4,7 @@ title: IMFVideoMixerControl2::SetMixingPrefs (evr.h)
 description: Sets the preferences for video deinterlacing.
 helpviewer_keywords: ["IMFVideoMixerControl2 interface [Media Foundation]","SetMixingPrefs method","IMFVideoMixerControl2.SetMixingPrefs","IMFVideoMixerControl2::SetMixingPrefs","SetMixingPrefs","SetMixingPrefs method [Media Foundation]","SetMixingPrefs method [Media Foundation]","IMFVideoMixerControl2 interface","evr/IMFVideoMixerControl2::SetMixingPrefs","mf.imfvideomixercontrol2_setmixingprefs"]
 old-location: mf\imfvideomixercontrol2_setmixingprefs.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: ae8fa85a-bdae-4fbf-b9d4-a987eb1c4c41
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs method, IMFVideoMixerControl2.SetMixingPrefs, IMFVideoMixerControl2::SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [Media Foundation], SetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, evr/IMFVideoMixerControl2::SetMixingPrefs, mf.imfvideomixercontrol2_setmixingprefs
@@ -43,12 +43,15 @@ api_location:
  - evr.h
 api_name:
  - IMFVideoMixerControl2.SetMixingPrefs
+archived: true
 ---
 
 # IMFVideoMixerControl2::SetMixingPrefs
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the preferences for video deinterlacing.
 

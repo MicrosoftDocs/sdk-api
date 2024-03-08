@@ -2,9 +2,9 @@
 UID: NN:useractivityinterop.IUserActivitySourceHostInterop
 tech.root: winrt
 title: IUserActivitySourceHostInterop
-ms.date: 04/16/2021
+description: The IUserActivitySourceHostInterop interface enables interoperability with a WinRT a UserActivityChannel or a UserActivity object.
+ms.date: 08/02/2022
 targetos: Windows
-description: 
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

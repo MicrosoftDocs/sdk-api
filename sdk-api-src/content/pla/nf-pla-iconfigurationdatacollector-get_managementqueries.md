@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_ManagementQueries
 title: IConfigurationDataCollector::get_ManagementQueries (pla.h)
-description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run.
+description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run. (Get)
 helpviewer_keywords: ["IConfigurationDataCollector interface [PLA]","ManagementQueries property","IConfigurationDataCollector.ManagementQueries","IConfigurationDataCollector.get_ManagementQueries","IConfigurationDataCollector::ManagementQueries","IConfigurationDataCollector::get_ManagementQueries","IConfigurationDataCollector::put_ManagementQueries","ManagementQueries property [PLA]","ManagementQueries property [PLA]","IConfigurationDataCollector interface","base.iconfigurationdatacollector_managementqueries","get_ManagementQueries","pla.iconfigurationdatacollector_managementqueries","pla/IConfigurationDataCollector::ManagementQueries","pla/IConfigurationDataCollector::get_ManagementQueries","pla/IConfigurationDataCollector::put_ManagementQueries"]
 old-location: pla\iconfigurationdatacollector_managementqueries.htm
 tech.root: PLA

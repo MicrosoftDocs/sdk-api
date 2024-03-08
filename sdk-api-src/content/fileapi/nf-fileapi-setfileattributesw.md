@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.SetFileAttributesW
 title: SetFileAttributesW function (fileapi.h)
-description: Sets the attributes for a file or directory.
-helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DEVICE","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributes","SetFileAttributes function [Files]","SetFileAttributesA","SetFileAttributesW","_win32_setfileattributes","base.setfileattributes","fileapi/SetFileAttributes","fileapi/SetFileAttributesA","fileapi/SetFileAttributesW","fs.setfileattributes","winbase/SetFileAttributes","winbase/SetFileAttributesA","winbase/SetFileAttributesW"]
+description: Sets the attributes for a file or directory. (Unicode)
+helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE", "FILE_ATTRIBUTE_COMPRESSED", "FILE_ATTRIBUTE_DEVICE", "FILE_ATTRIBUTE_DIRECTORY", "FILE_ATTRIBUTE_ENCRYPTED", "FILE_ATTRIBUTE_HIDDEN", "FILE_ATTRIBUTE_NORMAL", "FILE_ATTRIBUTE_NOT_CONTENT_INDEXED", "FILE_ATTRIBUTE_OFFLINE", "FILE_ATTRIBUTE_READONLY", "FILE_ATTRIBUTE_REPARSE_POINT", "FILE_ATTRIBUTE_SPARSE_FILE", "FILE_ATTRIBUTE_SYSTEM", "FILE_ATTRIBUTE_TEMPORARY", "SetFileAttributes", "SetFileAttributes function [Files]", "SetFileAttributesW", "_win32_setfileattributes", "base.setfileattributes", "fileapi/SetFileAttributes", "fileapi/SetFileAttributesW", "fs.setfileattributes"]
 old-location: fs\setfileattributes.htm
 tech.root: fs
 ms.assetid: 3d5400c3-555f-44fc-9470-52a36d04d90b
@@ -70,14 +70,10 @@ To perform this operation as a transacted operation, use the
 
 The name of the file whose attributes are to be set.
       
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>SetFileAttributesW</b>) and prepend 
-       "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
-
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>SetFileAttributesW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param dwFileAttributes [in]
 

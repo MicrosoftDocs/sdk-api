@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileGetDisplayDefault
 tech.root: wcs
 title: ColorProfileGetDisplayDefault
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileGetDisplayDefault gets the default color profile for a given display in the specified scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

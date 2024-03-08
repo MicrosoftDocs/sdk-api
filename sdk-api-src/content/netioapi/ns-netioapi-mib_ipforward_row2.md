@@ -81,7 +81,7 @@ The IP address prefix for the destination IP address for this route.
 
 Type: <b><a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
 
-For a remote route, the IP address of the next system or gateway en route. If the route is to a local loopback address or an IP address on the local link, the next hop is unspecified (all zeros). For a local loopback route, this member should be an IPv4 address of 0.0.0.0 for an IPv4 route entry or an IPv6 address address of 0::0  for an IPv6 route entry.
+For a remote route, the IP address of the next system or gateway en route. If the route is to a local loopback address or an IP address on the local link, the next hop is unspecified (all zeros). For a local loopback route, this member should be an IPv4 address of 0.0.0.0 for an IPv4 route entry or an IPv6 address of 0::0 for an IPv6 route entry.
 
 ### -field SitePrefixLength
 

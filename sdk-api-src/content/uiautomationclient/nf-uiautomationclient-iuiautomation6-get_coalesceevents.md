@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.get_CoalesceEvents
 title: IUIAutomation6::get_CoalesceEvents (uiautomationclient.h)
-description: Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
+description: Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered. (Get)
 helpviewer_keywords: ["CoalesceEvents property [Windows Accessibility]","CoalesceEvents property [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","CoalesceEvents property","IUIAutomation6.CoalesceEvents","IUIAutomation6.get_CoalesceEvents","IUIAutomation6::CoalesceEvents","IUIAutomation6::get_CoalesceEvents","IUIAutomation6::put_CoalesceEvents","get_CoalesceEvents","uiautomationclient/IUIAutomation6::CoalesceEvents","uiautomationclient/IUIAutomation6::get_CoalesceEvents","uiautomationclient/IUIAutomation6::put_CoalesceEvents","winauto.uiauto_IUIAutomation6_CoalesceEvents"]
 old-location: winauto\uiauto_IUIAutomation6_CoalesceEvents.htm
 tech.root: WinAuto
@@ -49,7 +49,6 @@ api_name:
 
 # IUIAutomation6::get_CoalesceEvents
 
-
 ## -description
 
 Gets or sets whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
@@ -58,17 +57,14 @@ This property is read/write.
 
 ## -parameters
 
-## -remarks
+### -param coalesceEventsOptions [in]
 
-> ### Parameters
->
-> `coalesceEventsOptions` [in]
->
-> Type: **CoalesceEventsOptions**
->
-> Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+Type: [**CoalesceEventsOptions**](ne-uiautomationclient-coalesceeventsoptions.md)
+
+Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+
+## -remarks
 
 ## -see-also
 
 [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
-

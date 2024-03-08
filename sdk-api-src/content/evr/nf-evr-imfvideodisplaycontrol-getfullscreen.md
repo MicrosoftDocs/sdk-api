@@ -4,7 +4,7 @@ title: IMFVideoDisplayControl::GetFullscreen (evr.h)
 description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 helpviewer_keywords: ["GetFullscreen","GetFullscreen method [Media Foundation]","GetFullscreen method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetFullscreen method","IMFVideoDisplayControl.GetFullscreen","IMFVideoDisplayControl::GetFullscreen","ee564655-be8a-46f7-9682-acf3b38d056a","evr/IMFVideoDisplayControl::GetFullscreen","mf.imfvideodisplaycontrol_getfullscreen"]
 old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
 ms.date: 12/05/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoDisplayControl.GetFullscreen
+archived: true
 ---
 
 # IMFVideoDisplayControl::GetFullscreen
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 

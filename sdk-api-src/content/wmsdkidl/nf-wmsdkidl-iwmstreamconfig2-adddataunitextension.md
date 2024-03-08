@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddDataUnitExtension","AddDataUnitExtension method [windo
 old-location: wmformat\iwmstreamconfig2_adddataunitextension.htm
 tech.root: wmformat
 ms.assetid: db84a33c-bd83-46cb-a97c-76ddeeb74927
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: AddDataUnitExtension, AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],AddDataUnitExtension method, IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -53,13 +53,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>AddDataUnitExtension</b> method adds a data unit extension system to the stream. You can use data unit extension systems to attach custom data to samples in an output file.
 
 ## -parameters
 
 ### -param guidExtensionSystemID [in]
 
-A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
+A GUID that identifies the data unit extension system. This can be one of the predefined GUIDs listed in <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>, or a GUID whose value is understood by a custom player application.
 
 ### -param cbExtensionDataSize [in]
 

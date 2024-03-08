@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetData
 title: IDirect3DQuery9::GetData (d3d9helper.h)
-description: Polls a queried resource to get the query state or a query result. For more information about queries, see Queries (Direct3D 9).
+description: The IDirect3DQuery9::GetData method (d3d9helper.h) polls a queried resource to get the query state or a query result.
 helpviewer_keywords: ["61a50651-865a-2305-3acc-ca22ba941030","GetData","GetData method [Direct3D 9]","GetData method [Direct3D 9]","IDirect3DQuery9 interface","IDirect3DQuery9 interface [Direct3D 9]","GetData method","IDirect3DQuery9.GetData","IDirect3DQuery9::GetData","d3d9helper/IDirect3DQuery9::GetData","direct3d9.idirect3dquery9__getdata"]
 old-location: direct3d9\idirect3dquery9__getdata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__getdata.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 61a50651-865a-2305-3acc-ca22ba941030, GetData, GetData method [Direct3D 9], GetData method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetData method, IDirect3DQuery9.GetData, IDirect3DQuery9::GetData, d3d9helper/IDirect3DQuery9::GetData, direct3d9.idirect3dquery9__getdata
 req.header: d3d9helper.h
 req.include-header: D3D9.h

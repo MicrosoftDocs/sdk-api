@@ -60,10 +60,10 @@ Contains information specific to a hit test operation. This structure is used wi
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that describes the point to be hit tested, in client coordinates.
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that describes the point to be hit tested, in client coordinates.
 
 ### -field flags
 

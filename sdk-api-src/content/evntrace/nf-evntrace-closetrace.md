@@ -115,7 +115,8 @@ are some common errors and their causes.
 
 Consumers call this function to close a trace handle returned by **OpenTrace**.
 
-> [!Important] Do not use this function to close the trace handle returned by
+> [!Important]
+> Do not use this function to close the trace handle returned by
 > **StartTrace**.
 
 If you are processing events from a log file, you call this function only after

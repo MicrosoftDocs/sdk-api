@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute in
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IStreamBufferRecordingAttribute</b> interface sets and retrieves attributes on a stream buffer recording. <i>Attributes</i> are metadata that describe the physical file (such as the bitrate and the duration) or the content of the file (such as the author or title).
 
 This interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object and the <a href="/previous-versions/windows/desktop/mstv/recordingattributes-object">RecordingAttributes</a> object.
@@ -58,7 +60,7 @@ This interface is exposed by the <a href="/previous-versions/windows/desktop/mst
 
 The <b>IStreamBufferRecordingAttribute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecordingAttribute</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

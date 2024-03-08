@@ -1,7 +1,7 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
 title: XPS_RECT (xpsobjectmodel.h)
-description: Describes the width, height, and location of a rectangle.
+description: Describes the width, height, and location of a rectangle. (XPS_RECT)
 helpviewer_keywords: ["XPS_RECT","XPS_RECT structure [XPS Documents and Packaging]","xps.xps_rect","xpsobjectmodel/XPS_RECT"]
 old-location: xps\xps_rect.htm
 tech.root: xps
@@ -78,5 +78,5 @@ The measurement units depend on the context and are not specified in the structu
 
 ## -see-also
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 

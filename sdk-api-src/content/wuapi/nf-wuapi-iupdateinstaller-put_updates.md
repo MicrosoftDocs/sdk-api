@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_Updates
 title: IUpdateInstaller::put_Updates (wuapi.h)
-description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation.
+description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation. (Put)
 helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","Updates property","IUpdateInstaller.Updates","IUpdateInstaller.put_Updates","IUpdateInstaller::Updates","IUpdateInstaller::get_Updates","IUpdateInstaller::put_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IUpdateInstaller interface","put_Updates","wua.iupdateinstaller_updates","wuapi/IUpdateInstaller::Updates","wuapi/IUpdateInstaller::get_Updates","wuapi/IUpdateInstaller::put_Updates"]
 old-location: wua\iupdateinstaller_updates.htm
 tech.root: wua

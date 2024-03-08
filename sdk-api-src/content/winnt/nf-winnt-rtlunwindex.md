@@ -6,7 +6,7 @@ helpviewer_keywords: ["RtlUnwindEx","RtlUnwindEx function","base.rtlunwindex","w
 old-location: base\rtlunwindex.htm
 tech.root: Debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 req.header: winnt.h
 req.include-header: Windows.h
@@ -45,33 +45,31 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - ntoskrnl.exe
+ - vertdll.dll
 api_name:
  - RtlUnwindEx
 ---
 
 # RtlUnwindEx function
 
-
 ## -description
 
-Initiates an unwind of 
-   procedure call frames.
+Initiates an unwind of procedure call frames.
 
 ## -parameters
 
 ### -param TargetFrame [in, optional]
 
-A pointer to the call frame that is the target of the unwind. If this parameter is <b>NULL</b>, the function 
-      performs an exit unwind.
+A pointer to the call frame that is the target of the unwind. If this parameter is `NULL`, the function performs an exit unwind.
 
 ### -param TargetIp [in, optional]
 
-The continuation address of the unwind. This parameter is ignored if <i>TargetFrame</i> is 
-      <b>NULL</b>.
+The continuation address of the unwind. This parameter is ignored if *TargetFrame* is `NULL`.
 
 ### -param ExceptionRecord [in, optional]
 
-A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure.
+A pointer to an [EXCEPTION_RECORD](ns-winnt-exception_record.md) structure.
 
 ### -param ReturnValue [in]
 
@@ -79,13 +77,11 @@ A value to be placed in the integer function return register before continuing e
 
 ### -param ContextRecord [in]
 
-A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that stores context 
-      during the unwind operation.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure that stores context during the unwind operation.
 
 ### -param HistoryTable [in, optional]
 
-A pointer to the unwind history table. This structure is processor specific. For definitions of this 
-      structure, see Winternl.h.
+A pointer to the unwind history table. This structure is processor specific. For definitions of this structure, see `Winternl.h`.
 
 ## -returns
 
@@ -93,8 +89,7 @@ This function does not return a value.
 
 ## -remarks
 
-The <b>FRAME_POINTERS</b> structure is defined as follows:
-
+The **FRAME_POINTERS** structure is defined as follows:
 
 ```cpp
 typedef struct _FRAME_POINTERS {
@@ -105,8 +100,8 @@ typedef struct _FRAME_POINTERS {
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+[CONTEXT](ns-winnt-arm64_nt_context.md)
 
+[EXCEPTION_RECORD](ns-winnt-exception_record.md)
 
-
-<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxEnumGlobalRoutingInfoW
 title: FaxEnumGlobalRoutingInfoW function (winfax.h)
-description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server.
-helpviewer_keywords: ["FaxEnumGlobalRoutingInfo","FaxEnumGlobalRoutingInfo function [Fax Service]","FaxEnumGlobalRoutingInfoA","FaxEnumGlobalRoutingInfoW","_mfax_faxenumglobalroutinginfo","fax._mfax_faxenumglobalroutinginfo","winfax/FaxEnumGlobalRoutingInfo","winfax/FaxEnumGlobalRoutingInfoA","winfax/FaxEnumGlobalRoutingInfoW"]
+description: The FaxEnumGlobalRoutingInfo function enumerates all fax routing methods associated with a specific fax server. (Unicode)
+helpviewer_keywords: ["FaxEnumGlobalRoutingInfo", "FaxEnumGlobalRoutingInfo function [Fax Service]", "FaxEnumGlobalRoutingInfoW", "_mfax_faxenumglobalroutinginfo", "fax._mfax_faxenumglobalroutinginfo", "winfax/FaxEnumGlobalRoutingInfo", "winfax/FaxEnumGlobalRoutingInfoW"]
 old-location: fax\_mfax_faxenumglobalroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5zvz.htm

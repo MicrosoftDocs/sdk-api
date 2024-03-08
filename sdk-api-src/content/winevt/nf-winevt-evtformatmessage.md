@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtFormatMessage
 title: EvtFormatMessage function (winevt.h)
-description: Formats a message string.
+description: Formats a message string. (EvtFormatMessage)
 helpviewer_keywords: ["EvtFormatMessage","EvtFormatMessage function [EventLog]","wes.evtformatmessage","winevt/EvtFormatMessage"]
 old-location: wes\evtformatmessage.htm
 tech.root: wes

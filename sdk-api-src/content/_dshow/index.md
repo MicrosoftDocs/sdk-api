@@ -4,7 +4,7 @@ title: DirectShow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 archived: true
 ---
 
@@ -32,6 +32,7 @@ To develop DirectShow, you need these headers:
  * [dmoimpl.h](../dmoimpl/index.md)
  * [dmoreg.h](../dmoreg/index.md)
  * [dmort.h](../dmort/index.md)
+ * [dmusics.h](../dmusics/index.md)
  * [dshowasf.h](../dshowasf/index.md)
  * [dvdevcod.h](../dvdevcod/index.md)
  * [dvdmedia.h](../dvdmedia/index.md)
@@ -54,5 +55,4 @@ To develop DirectShow, you need these headers:
  * [wmp.h](../wmp/index.md)
 
 For programming guidance for this technology, see:
-* [DirectShow](/previous-versions/windows/desktop/directshow)
-
+* [DirectShow](/windows/win32/directshow/directshow)

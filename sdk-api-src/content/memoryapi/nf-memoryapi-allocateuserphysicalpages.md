@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -122,6 +122,7 @@ Physical pages can reside at any physical address. You should make no assumption
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more 
     information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
+[AllocateUserPhysicalPages2](nf-memoryapi-allocateuserphysicalpages2.md), added to the SDK in a later release, is the same as **AllocateUserPhysicalPages** but it adds the *ExtendedParameters* and *ExtendedParameterCount* parameters.
 
 #### Examples
 
@@ -152,3 +153,5 @@ For an example, see <a href="/windows/desktop/Memory/awe-example">AWE Example</a
 
 
 <a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+
+[AllocateUserPhysicalPages2](nf-memoryapi-allocateuserphysicalpages2.md)

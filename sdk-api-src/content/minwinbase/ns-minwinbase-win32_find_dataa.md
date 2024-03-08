@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._WIN32_FIND_DATAA
 title: WIN32_FIND_DATAA (minwinbase.h)
-description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
+description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function. (ANSI)
 helpviewer_keywords: ["*LPWIN32_FIND_DATAA","*PWIN32_FIND_DATAA","IO_REPARSE_TAG_CSV","IO_REPARSE_TAG_DEDUP","IO_REPARSE_TAG_DFS","IO_REPARSE_TAG_DFSR","IO_REPARSE_TAG_HSM","IO_REPARSE_TAG_HSM2","IO_REPARSE_TAG_MOUNT_POINT","IO_REPARSE_TAG_NFS","IO_REPARSE_TAG_SIS","IO_REPARSE_TAG_SYMLINK","IO_REPARSE_TAG_WIM","LPWIN32_FIND_DATA","LPWIN32_FIND_DATA structure pointer [Files]","PWIN32_FIND_DATA","PWIN32_FIND_DATA structure pointer [Files]","WIN32_FIND_DATA","WIN32_FIND_DATA structure [Files]","WIN32_FIND_DATAA","WIN32_FIND_DATAW","_win32_win32_find_data_str","base.win32_find_data_str","fs.win32_find_data_str","minwinbase/LPWIN32_FIND_DATA","minwinbase/PWIN32_FIND_DATA","minwinbase/WIN32_FIND_DATA","minwinbase/WIN32_FIND_DATAA","minwinbase/WIN32_FIND_DATAW","winbase/LPWIN32_FIND_DATA","winbase/PWIN32_FIND_DATA","winbase/WIN32_FIND_DATA","winbase/WIN32_FIND_DATAA","winbase/WIN32_FIND_DATAW"]
 old-location: fs\win32_find_data_str.htm
 tech.root: fs
@@ -189,9 +189,35 @@ This name is in the classic 8.3 file name format.
 
 ### -field dwFileType
 
+Obsolete. Do not use.
+
 ### -field dwCreatorType
 
+Obsolete. Do not use.
+
 ### -field wFinderFlags
+
+Obsolete. Do not use.
+
+## -syntax
+
+```
+typedef struct _WIN32_FIND_DATAA {
+  DWORD    dwFileAttributes;
+  FILETIME ftCreationTime;
+  FILETIME ftLastAccessTime;
+  FILETIME ftLastWriteTime;
+  DWORD    nFileSizeHigh;
+  DWORD    nFileSizeLow;
+  DWORD    dwReserved0;
+  DWORD    dwReserved1;
+  CHAR     cFileName[MAX_PATH];
+  CHAR     cAlternateFileName[14];
+  DWORD    dwFileType; // Obsolete. Do not use.
+  DWORD    dwCreatorType; // Obsolete. Do not use
+  WORD     wFinderFlags; // Obsolete. Do not use
+} WIN32_FIND_DATAA, *PWIN32_FIND_DATAA, *LPWIN32_FIND_DATAA;
+```
 
 ## -remarks
 
@@ -204,7 +230,7 @@ If a file has a long file name, the complete name appears in the <b>cFileName</b
     value. This remains true for all subsequent calls to the 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function. As an alternative method of 
     retrieving the 8.3 format version of a file name, you can use the 
-    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a> function. For more information about 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamea">GetShortPathName</a> function. For more information about
     file names, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 Not all file systems can record creation and last access times, and not all file systems record them in the 
@@ -258,4 +284,4 @@ Not all file systems can record creation and last access times, and not all file
 
 
 
-<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamea">GetShortPathName</a>

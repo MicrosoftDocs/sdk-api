@@ -11,7 +11,7 @@ ms.keywords: IMSVidOutputDevices, IMSVidOutputDevices interface [Microsoft TV Te
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IMSVidOutputDevices</b> interface represents a collection of output devices.
 
 Output devices include video and audio renderers, and the Stream Buffer Sink object. To obtain the audio and video renders, you can use the following methods:
@@ -73,7 +75,7 @@ Output devices include video and audio renderers, and the Stream Buffer Sink obj
 
 The <b>IMSVidOutputDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidOutputDevices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

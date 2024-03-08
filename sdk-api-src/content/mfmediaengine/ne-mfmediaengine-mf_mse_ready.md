@@ -54,15 +54,15 @@ Defines the different ready states of the Media Source Extension.
 
 ## -enum-fields
 
-### -field MF_MSE_READY_CLOSED
+### -field MF_MSE_READY_CLOSED:1
 
 The media source is closed.
 
-### -field MF_MSE_READY_OPEN
+### -field MF_MSE_READY_OPEN:2
 
 The media source is open.
 
-### -field MF_MSE_READY_ENDED
+### -field MF_MSE_READY_ENDED:3
 
 The media source is ended.
 

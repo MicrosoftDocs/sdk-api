@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>TriggerSignalEvents</b> method enables the tuner to raise an event when the status of the signal changes.
 
 ## -parameters
@@ -68,7 +70,7 @@ If the signal status does not change by the time that the time-out interval expi
 
 Each call to <b>TriggerSignalEvents</b> enables the event to be raised only one time. To raise the event multiple times in response to a series of signal-status changes requires a succession of calls to <b>TriggerSignalEvents</b>.
 
-Multiple event sink objects can wait for the tuner to raise an event that occurs when the signal status changes. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>.
+Multiple event sink objects can wait for the tuner to raise an event that occurs when the signal status changes. For more information, see <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent Interface</a>.
 
 ## -see-also
 

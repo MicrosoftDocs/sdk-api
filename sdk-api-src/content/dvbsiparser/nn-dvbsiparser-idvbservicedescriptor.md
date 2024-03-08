@@ -50,12 +50,14 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements methods that get data from a Digital Video Broadcast (DVB) service descriptor.  The service  descriptor  appears in the DVB service information as part of the  service description table (SDT) or selection information table (SIT). It describes the service type and provides the names of the service provider and the service in text form.
 
 ## -inheritance
 
 The <b>IDvbServiceDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbServiceDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

@@ -1,12 +1,12 @@
 ---
 UID: NS:richedit._charformat2w
 title: CHARFORMAT2W (richedit.h)
-description: Contains information about character formatting in a rich edit control.
+description: The CHARFORMAT2W (Unicode) structure (richedit.h) contains information about character formatting in a rich edit control.
 helpviewer_keywords: ["CFE_ALLCAPS","CFE_AUTOBACKCOLOR","CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_EMBOSS","CFE_EXTENDED","CFE_FONTBOUND","CFE_HIDDEN","CFE_IMPRINT","CFE_ITALIC","CFE_LINK","CFE_LINKPROTECTED","CFE_MATH","CFE_MATHNOBUILDUP","CFE_MATHORDINARY","CFE_OUTLINE","CFE_PROTECTED","CFE_REVISED","CFE_SHADOW","CFE_SMALLCAPS","CFE_STRIKEOUT","CFE_SUBSCRIPT","CFE_SUPERSCRIPT","CFE_UNDERLINE","CFM_ALL","CFM_ALL2","CFM_ALLCAPS","CFM_ANIMATION","CFM_BACKCOLOR","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_COOKIE","CFM_DISABLED","CFM_EFFECTS","CFM_EFFECTS2","CFM_EMBOSS","CFM_EXTENDED","CFM_FACE","CFM_FONTBOUND","CFM_HIDDEN","CFM_IMPRINT","CFM_ITALIC","CFM_KERNING","CFM_LCID","CFM_LINK","CFM_LINKPROTECTED","CFM_MATH","CFM_MATHNOBUILDUP","CFM_MATHORDINARY","CFM_OFFSET","CFM_OUTLINE","CFM_PROTECTED","CFM_REVAUTHOR","CFM_REVISED","CFM_SHADOW","CFM_SIZE","CFM_SMALLCAPS","CFM_SPACING","CFM_STRIKEOUT","CFM_STYLE","CFM_SUBSCRIPT","CFM_SUPERSCRIPT","CFM_UNDERLINE","CFM_UNDERLINETYPE","CFM_WEIGHT","CFU_CF1UNDERLINE","CFU_INVERT","CFU_UNDERLINE","CFU_UNDERLINEDASH","CFU_UNDERLINEDASHDOT","CFU_UNDERLINEDASHDOTDOT","CFU_UNDERLINEDOTTED","CFU_UNDERLINEDOUBLE","CFU_UNDERLINEDOUBLEWAVE","CFU_UNDERLINEHAIRLINE","CFU_UNDERLINEHEAVYWAVE","CFU_UNDERLINELONGDASH","CFU_UNDERLINENONE","CFU_UNDERLINETHICK","CFU_UNDERLINETHICKDASH","CFU_UNDERLINETHICKDASHDOT","CFU_UNDERLINETHICKDASHDOTDOT","CFU_UNDERLINETHICKDOTTED","CFU_UNDERLINETHICKLONGDASH","CFU_UNDERLINEWAVE","CFU_UNDERLINEWORD","CHARFORMAT2","CHARFORMAT2 structure [Windows Controls]","CHARFORMAT2A","CHARFORMAT2W","_win32_CHARFORMAT2_str","_win32_CHARFORMAT2_str_cpp","controls.CHARFORMAT2","controls._win32_CHARFORMAT2_str","richedit/CHARFORMAT2","richedit/CHARFORMAT2A","richedit/CHARFORMAT2W"]
 old-location: controls\CHARFORMAT2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: CFE_ALLCAPS, CFE_AUTOBACKCOLOR, CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_EMBOSS, CFE_EXTENDED, CFE_FONTBOUND, CFE_HIDDEN, CFE_IMPRINT, CFE_ITALIC, CFE_LINK, CFE_LINKPROTECTED, CFE_MATH, CFE_MATHNOBUILDUP, CFE_MATHORDINARY, CFE_OUTLINE, CFE_PROTECTED, CFE_REVISED, CFE_SHADOW, CFE_SMALLCAPS, CFE_STRIKEOUT, CFE_SUBSCRIPT, CFE_SUPERSCRIPT, CFE_UNDERLINE, CFM_ALL, CFM_ALL2, CFM_ALLCAPS, CFM_ANIMATION, CFM_BACKCOLOR, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_COOKIE, CFM_DISABLED, CFM_EFFECTS, CFM_EFFECTS2, CFM_EMBOSS, CFM_EXTENDED, CFM_FACE, CFM_FONTBOUND, CFM_HIDDEN, CFM_IMPRINT, CFM_ITALIC, CFM_KERNING, CFM_LCID, CFM_LINK, CFM_LINKPROTECTED, CFM_MATH, CFM_MATHNOBUILDUP, CFM_MATHORDINARY, CFM_OFFSET, CFM_OUTLINE, CFM_PROTECTED, CFM_REVAUTHOR, CFM_REVISED, CFM_SHADOW, CFM_SIZE, CFM_SMALLCAPS, CFM_SPACING, CFM_STRIKEOUT, CFM_STYLE, CFM_SUBSCRIPT, CFM_SUPERSCRIPT, CFM_UNDERLINE, CFM_UNDERLINETYPE, CFM_WEIGHT, CFU_CF1UNDERLINE, CFU_INVERT, CFU_UNDERLINE, CFU_UNDERLINEDASH, CFU_UNDERLINEDASHDOT, CFU_UNDERLINEDASHDOTDOT, CFU_UNDERLINEDOTTED, CFU_UNDERLINEDOUBLE, CFU_UNDERLINEDOUBLEWAVE, CFU_UNDERLINEHAIRLINE, CFU_UNDERLINEHEAVYWAVE, CFU_UNDERLINELONGDASH, CFU_UNDERLINENONE, CFU_UNDERLINETHICK, CFU_UNDERLINETHICKDASH, CFU_UNDERLINETHICKDASHDOT, CFU_UNDERLINETHICKDASHDOTDOT, CFU_UNDERLINETHICKDOTTED, CFU_UNDERLINETHICKLONGDASH, CFU_UNDERLINEWAVE, CFU_UNDERLINEWORD, CHARFORMAT2, CHARFORMAT2 structure [Windows Controls], CHARFORMAT2A, CHARFORMAT2W, _win32_CHARFORMAT2_str, _win32_CHARFORMAT2_str_cpp, controls.CHARFORMAT2, controls._win32_CHARFORMAT2_str, richedit/CHARFORMAT2, richedit/CHARFORMAT2A, richedit/CHARFORMAT2W
 req.header: richedit.h
 req.include-header: 
@@ -47,6 +47,7 @@ api_name:
  - CHARFORMAT2
  - CHARFORMAT2A
  - CHARFORMAT2W
+h1-override: CHARFORMAT2W structure (Rich Edit 2.0)
 ---
 
 # CHARFORMAT2W structure
@@ -137,7 +138,7 @@ The <b>CFE_BOLD</b> value is valid.
 </td>
 <td width="60%">
 The <b>CFE_AUTOCOLOR</b> value is valid, or the 
-									<b>crTextColor</b> member is valid.
+                                    <b>crTextColor</b> member is valid.
 
 </td>
 </tr>
@@ -402,7 +403,7 @@ Set the following values to indicate the valid structure members.
 </td>
 <td width="60%">
 The 
-						<b>bAnimation</b> member is valid.
+                        <b>bAnimation</b> member is valid.
 
 </td>
 </tr>
@@ -413,7 +414,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>crBackColor</b> member is valid.
+                        <b>crBackColor</b> member is valid.
 
 </td>
 </tr>
@@ -424,7 +425,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>bCharSet</b> member is valid.
+                        <b>bCharSet</b> member is valid.
 
 </td>
 </tr>
@@ -475,7 +476,7 @@ The <b>lcid</b> member is valid.
 </td>
 <td width="60%">
 The 
-						<b>yOffset</b> member is valid.
+                        <b>yOffset</b> member is valid.
 
 </td>
 </tr>
@@ -633,7 +634,7 @@ The characters are less common members of a script. A font that supports a scrip
 </dl>
 </td>
 <td width="60%">
-Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
+Font is chosen by the rich edit control because the active font doesn't support the characters. This process is called font binding.
 
 
 </td>
@@ -890,10 +891,6 @@ Client cookie. This member is opaque to a rich edit control.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved; the value must be zero. 
-
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved; the value must be zero.
 
 ### -field sStyle
 

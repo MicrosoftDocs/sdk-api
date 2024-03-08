@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetCodecInfo","GetCodecInfo method [windows Media Format]
 old-location: wmformat\iwmheaderinfo2_getcodecinfo.htm
 tech.root: wmformat
 ms.assetid: 685eaf9e-6cc8-4c38-be34-afa4b504a326
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format],IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo2 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,6 +54,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>GetCodecInfo</b> method retrieves information about a codec that is used to create the content of a file.
 

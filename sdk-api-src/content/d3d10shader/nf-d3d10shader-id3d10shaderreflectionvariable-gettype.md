@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionVariable.GetType
 title: ID3D10ShaderReflectionVariable::GetType (d3d10shader.h)
-description: Get a shader-variable type.
+description: Get a shader-variable type. (ID3D10ShaderReflectionVariable.GetType)
 helpviewer_keywords: ["088c440d-f2c4-82ed-059a-f3ef98a485c6","GetType","GetType method [Direct3D 10]","GetType method [Direct3D 10]","ID3D10ShaderReflectionVariable interface","ID3D10ShaderReflectionVariable interface [Direct3D 10]","GetType method","ID3D10ShaderReflectionVariable.GetType","ID3D10ShaderReflectionVariable::GetType","d3d10shader/ID3D10ShaderReflectionVariable::GetType","direct3d10.id3d10shaderreflectionvariable_gettype"]
 old-location: direct3d10\id3d10shaderreflectionvariable_gettype.htm
 tech.root: direct3d10

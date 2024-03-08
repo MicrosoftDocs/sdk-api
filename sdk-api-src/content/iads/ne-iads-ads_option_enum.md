@@ -60,7 +60,7 @@ The <b>ADS_OPTION_ENUM</b> enumeration type
 
 ## -enum-fields
 
-### -field ADS_OPTION_SERVERNAME
+### -field ADS_OPTION_SERVERNAME:0
 
 Gets a <b>VT_BSTR</b> that contains the host name of the server for the current binding 
       to this object. This option is not supported by the 

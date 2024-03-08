@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.SetContent
 title: IXpsOMImageResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMImageResource.SetContent)
 helpviewer_keywords: ["IXpsOMImageResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMImageResource.SetContent","IXpsOMImageResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMImageResource interface","xps.ixpsomimageresource_setcontent","xpsobjectmodel/IXpsOMImageResource::SetContent"]
 old-location: xps\ixpsomimageresource_setcontent.htm
 tech.root: xps
@@ -86,7 +86,7 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomima
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

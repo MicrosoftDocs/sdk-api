@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetStream
 title: IXpsOMFontResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMFontResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMFontResource.GetStream","IXpsOMFontResource::GetStream","xps.ixpsomfontresource_getstream","xpsobjectmodel/IXpsOMFontResource::GetStream"]
 old-location: xps\ixpsomfontresource_getstream.htm
 tech.root: xps
@@ -80,7 +80,7 @@ This method calls the stream's <b>Clone</b> method to create the stream returned
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

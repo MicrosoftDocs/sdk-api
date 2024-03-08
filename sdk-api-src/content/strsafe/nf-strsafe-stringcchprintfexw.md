@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchPrintfExW
 title: StringCchPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchPrintfEx","StringCchPrintfEx function [Menus and Other Resources]","StringCchPrintfExA","StringCchPrintfExW","_shell_StringCchPrintfEx","_shell_stringcchprintfex_cpp","menurc.stringcchprintfex","strsafe/StringCchPrintfEx","strsafe/StringCchPrintfExA","strsafe/StringCchPrintfExW","winui._shell_stringcchprintfex"]
+description: Writes formatted data to the specified string. (StringCchPrintfExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchPrintfEx", "StringCchPrintfEx function [Menus and Other Resources]", "StringCchPrintfExW", "_shell_StringCchPrintfEx", "_shell_stringcchprintfex_cpp", "menurc.stringcchprintfex", "strsafe/StringCchPrintfEx", "strsafe/StringCchPrintfExW", "winui._shell_stringcchprintfex"]
 old-location: menurc\stringcchprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintfex.htm

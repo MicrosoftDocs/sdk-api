@@ -1,18 +1,18 @@
 ---
 UID: NF:winuser.GetDpiForWindow
 title: GetDpiForWindow function (winuser.h)
-description: Returns the dots per inch (dpi) value for the associated window.
+description: Returns the dots per inch (dpi) value for the specified window.
 helpviewer_keywords: ["GetDpiForWindow","GetDpiForWindow function [High DPI]","hidpi.getdpiforwindow","winuser/GetDpiForWindow"]
 old-location: hidpi\getdpiforwindow.htm
 tech.root: hidpi
 ms.assetid: E9F7BCFA-4215-44C0-95FB-57C28325720C
-ms.date: 12/05/2018
+ms.date: 05/25/2022
 ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpiforwindow, winuser/GetDpiForWindow
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
-req.target-min-winversvr: None supported
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,26 +50,23 @@ api_name:
  - GetDpiForWindow
 ---
 
-# GetDpiForWindow function
-
-
 ## -description
 
-Returns the dots per inch (dpi) value for the associated window.
+Returns the dots per inch (dpi) value for the specified window.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-The window you want to get information about.
+The window that you want to get information about.
 
 ## -returns
 
-The DPI for the window which depends on the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the window. See the Remarks for more information. An invalid <i>hwnd</i> value will result in a return value of 0.
+The DPI for the window, which depends on the [DPI_AWARENESS](/windows/win32/api/windef/ne-windef-dpi_awareness) of the window. See the **Remarks** section for more information. An invalid *hwnd* value will result in a return value of 0.
 
 ## -remarks
 
-The following table indicates the return value of <b>GetDpiForWindow</b> based on the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the provided <i>hwnd</i>.
+The following table indicates the return value of <b>GetDpiForWindow</b> based on the [DPI_AWARENESS](/windows/win32/api/windef/ne-windef-dpi_awareness) of the provided *hwnd*.
 
 <table>
 <tr>
@@ -78,7 +75,7 @@ The following table indicates the return value of <b>GetDpiForWindow</b> based o
 </tr>
 <tr>
 <td>DPI_AWARENESS_UNAWARE</td>
-<td>96</td>
+<td>The base value of DPI is which is set to 96 (defined as `USER_DEFAULT_SCREEN_DPI`)</td>
 </tr>
 <tr>
 <td>DPI_AWARENESS_SYSTEM_AWARE</td>
@@ -90,6 +87,11 @@ The following table indicates the return value of <b>GetDpiForWindow</b> based o
 </tr>
 </table>
 
+## Examples
+
+See [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart).
+
 ## -see-also
 
-<a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
+* [DPI_AWARENESS](/windows/win32/api/windef/ne-windef-dpi_awareness)
+* [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)

@@ -2,9 +2,9 @@
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetDisplayedTime_Stub
 tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetDisplayedTime_Stub
-ms.date: 06/08/2021
+description: The IIndependentFlipFramePresentStatistics_GetDisplayedTime_Stub function gets the time the present was displayed.
+ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - presentation.h
 api_name:

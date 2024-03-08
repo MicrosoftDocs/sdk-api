@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetBinaryTypeW
 title: GetBinaryTypeW function (winbase.h)
-description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
-helpviewer_keywords: ["GetBinaryType","GetBinaryType function [Files]","GetBinaryTypeA","GetBinaryTypeW","SCS_32BIT_BINARY","SCS_64BIT_BINARY","SCS_DOS_BINARY","SCS_OS216_BINARY","SCS_PIF_BINARY","SCS_POSIX_BINARY","SCS_WOW_BINARY","_win32_getbinarytype","base.getbinarytype","fs.getbinarytype","winbase/GetBinaryType","winbase/GetBinaryTypeA","winbase/GetBinaryTypeW"]
+description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file. (Unicode)
+helpviewer_keywords: ["GetBinaryType", "GetBinaryType function [Files]", "GetBinaryTypeW", "SCS_32BIT_BINARY", "SCS_64BIT_BINARY", "SCS_DOS_BINARY", "SCS_OS216_BINARY", "SCS_PIF_BINARY", "SCS_POSIX_BINARY", "SCS_WOW_BINARY", "_win32_getbinarytype", "base.getbinarytype", "fs.getbinarytype", "winbase/GetBinaryType", "winbase/GetBinaryTypeW"]
 old-location: fs\getbinarytype.htm
 tech.root: fs
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
@@ -66,10 +66,10 @@ Determines whether a file is an executable (.exe) file, and if so, which subsyst
 
 The full path of the file whose executable type is to be determined.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpBinaryType [out]
 

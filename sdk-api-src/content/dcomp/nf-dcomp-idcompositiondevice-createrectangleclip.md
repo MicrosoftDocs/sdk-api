@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateRectangleClip
 title: IDCompositionDevice::CreateRectangleClip (dcomp.h)
-description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area.
+description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area. (IDCompositionDevice.CreateRectangleClip)
 helpviewer_keywords: ["CreateRectangleClip","CreateRectangleClip method [DirectComposition]","CreateRectangleClip method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateRectangleClip method","IDCompositionDevice.CreateRectangleClip","IDCompositionDevice::CreateRectangleClip","dcomp/IDCompositionDevice::CreateRectangleClip","directcomp.idcompositiondevice_createrectangleclip"]
 old-location: directcomp\idcompositiondevice_createrectangleclip.htm
 tech.root: directcomp

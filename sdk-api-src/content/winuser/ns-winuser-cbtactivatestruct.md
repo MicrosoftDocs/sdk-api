@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated.
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/windows/win32/winmsg/cbtproc">CBTProc</a>, before a window is activated.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ A handle to the active window.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/windows/win32/winmsg/cbtproc">CBTProc</a>
 
 
 

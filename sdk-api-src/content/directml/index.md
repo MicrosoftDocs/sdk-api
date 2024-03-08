@@ -4,7 +4,7 @@ title: DirectML.h header
 ms.assetid: 8c5ed75b-a9da-420e-937f-b472f6622a6a
 ms.date: 04/03/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: directml
 ms.custom: 19H1
 f1_keywords:
@@ -17,7 +17,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Direct3D 12 Graphics. For more information, see:
+This header is used by DirectML. For more information, see:
 
-- [Direct3D 12 Graphics](../_direct3d12/index.md)
+- [DirectML](../_directml/index.md)
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:aclapi.GetNamedSecurityInfoW
 title: GetNamedSecurityInfoW function (aclapi.h)
-description: Retrieves a copy of the security descriptor for an object specified by name.
-helpviewer_keywords: ["GetNamedSecurityInfo","GetNamedSecurityInfo function [Security]","GetNamedSecurityInfoA","GetNamedSecurityInfoW","_win32_getnamedsecurityinfo","aclapi/GetNamedSecurityInfo","aclapi/GetNamedSecurityInfoA","aclapi/GetNamedSecurityInfoW","security.getnamedsecurityinfo"]
+description: Retrieves a copy of the security descriptor for an object specified by name. (Unicode)
+helpviewer_keywords: ["GetNamedSecurityInfo", "GetNamedSecurityInfo function [Security]", "GetNamedSecurityInfoW", "_win32_getnamedsecurityinfo", "aclapi/GetNamedSecurityInfo", "aclapi/GetNamedSecurityInfoW", "security.getnamedsecurityinfo"]
 old-location: security\getnamedsecurityinfo.htm
 tech.root: security
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d

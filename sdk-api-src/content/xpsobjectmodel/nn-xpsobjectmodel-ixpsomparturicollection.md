@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPartUriCollection interface
 
-
 ## -description
 
 A collection of <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface pointers.
@@ -82,4 +81,4 @@ For more information about the collection methods, see  <a href="/previous-versi
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

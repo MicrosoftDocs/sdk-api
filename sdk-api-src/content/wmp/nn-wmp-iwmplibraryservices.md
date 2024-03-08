@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPLibraryServices","IWMPLibraryServices interface [Wind
 old-location: wmp\iwmplibraryservices.htm
 tech.root: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
 req.header: wmp.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPLibraryServices</b> interface provides methods to enumerate libraries.
 
 ## -inheritance
 
 The <b>IWMPLibraryServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPLibraryServices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

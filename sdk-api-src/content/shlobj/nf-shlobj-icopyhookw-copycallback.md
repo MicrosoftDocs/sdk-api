@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.ICopyHookW.CopyCallback
 title: ICopyHookW::CopyCallback
-description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object.
+description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object. (Unicode)
 helpviewer_keywords: ["ICopyHookW::CopyCallback"]
 tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
@@ -77,7 +77,7 @@ A pointer to a string that contains the name of the source folder.
 
 ### -param dwSrcAttribs
 
-The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/desktop/FileIO/file-attribute-constants).
 
 ### -param pszDestFile
 
@@ -85,7 +85,7 @@ A pointer to a string that contains the name of the destination folder.
 
 ### -param dwDestAttribs
 
-The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/desktop/FileIO/file-attribute-constants).
 
 ## -returns
 

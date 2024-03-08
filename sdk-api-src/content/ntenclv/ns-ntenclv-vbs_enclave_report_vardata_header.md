@@ -6,7 +6,7 @@ helpviewer_keywords: ["VBS_ENCLAVE_REPORT_VARDATA_HEADER","VBS_ENCLAVE_REPORT_VA
 old-location: base\vbs_enclave_report_vardata_header.htm
 tech.root: base
 ms.assetid: A0B02839-E8F4-45A1-B2BA-73E6EF9DA7C8
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: VBS_ENCLAVE_REPORT_VARDATA_HEADER, VBS_ENCLAVE_REPORT_VARDATA_HEADER structure, VBS_ENCLAVE_VARDATA_INVALID, VBS_ENCLAVE_VARDATA_MODULE, base.vbs_enclave_report_vardata_header, ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER
 req.header: ntenclv.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # VBS_ENCLAVE_REPORT_VARDATA_HEADER structure
 
-
 ## -description
 
-Describes the format of a variable data block contained in a report that the <a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a> function generates.
+Describes the format of a variable data block contained in a report that the [EnclaveGetAttestationReport](../winenclaveapi/nf-winenclaveapi-enclavegetattestationreport.md) function generates.
 
 ## -struct-fields
 
@@ -58,34 +57,10 @@ Describes the format of a variable data block contained in a report that the <a 
 
 The type of the variable data block.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="VBS_ENCLAVE_VARDATA_INVALID"></a><a id="vbs_enclave_vardata_invalid"></a><dl>
-<dt><b>VBS_ENCLAVE_VARDATA_INVALID</b></dt>
-<dt>0x00000000</dt>
-</dl>
-</td>
-<td width="60%">
-The variable data block is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="VBS_ENCLAVE_VARDATA_MODULE"></a><a id="vbs_enclave_vardata_module"></a><dl>
-<dt><b>VBS_ENCLAVE_VARDATA_MODULE</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The variable data block is a module.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|-------|---------|
+| **VBS_ENCLAVE_VARDATA_INVALID**<br/>`0x00000000` | The variable data block is not valid. |
+| **VBS_ENCLAVE_VARDATA_MODULE**<br/>`0x00000001` | The variable data block is a module. |
 
 ### -field Size
 
@@ -95,19 +70,15 @@ The size of this variable data block, including the header, in bytes.
 
 An enclave attestation report includes zero or  variable data blocks. These variable data blocks consist of the following items:
 
-<ul>
-<li>A <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure that describes the format of the variable data block. </li>
-<li>The data described by the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure. If the value of the <b>DataType</b> member of the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure is  <b>VBS_ENCLAVE_VARDATA_MODULE</b>, this data is a <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a> structure.</li>
-</ul>
+- A **VBS_ENCLAVE_REPORT_VARDATA_HEADER** structure that describes the format of the variable data block.
+- The data described by the **VBS_ENCLAVE_REPORT_VARDATA_HEADER** structure. If the value of the **DataType** member of the **VBS_ENCLAVE_REPORT_VARDATA_HEADER** structure is **VBS_ENCLAVE_VARDATA_MODULE**, this data is a [VBS_ENCLAVE_REPORT_MODULE](ns-ntenclv-vbs_enclave_report_module.md) structure.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a>
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
 
+[EnclaveGetAttestationReport](../winenclaveapi/nf-winenclaveapi-enclavegetattestationreport.md)
 
+[VBS_ENCLAVE_REPORT](ns-ntenclv-vbs_enclave_report.md)
 
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
-
-
-
-<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a>
+[VBS_ENCLAVE_REPORT_MODULE](ns-ntenclv-vbs_enclave_report_module.md)

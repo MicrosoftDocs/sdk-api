@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.RemoveDirectoryTransactedW
 title: RemoveDirectoryTransactedW function (winbase.h)
-description: Deletes an existing empty directory as a transacted operation.
-helpviewer_keywords: ["RemoveDirectoryTransacted","RemoveDirectoryTransacted function [Files]","RemoveDirectoryTransactedA","RemoveDirectoryTransactedW","fs.removedirectorytransacted","winbase/RemoveDirectoryTransacted","winbase/RemoveDirectoryTransactedA","winbase/RemoveDirectoryTransactedW"]
+description: Deletes an existing empty directory as a transacted operation. (Unicode)
+helpviewer_keywords: ["RemoveDirectoryTransacted", "RemoveDirectoryTransacted function [Files]", "RemoveDirectoryTransactedW", "fs.removedirectorytransacted", "winbase/RemoveDirectoryTransacted", "winbase/RemoveDirectoryTransactedW"]
 old-location: fs\removedirectorytransacted.htm
 tech.root: fs
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89
@@ -72,13 +72,13 @@ Deletes an existing empty directory as a transacted operation.
 The path of the directory to be removed. The path must specify an empty directory, and the calling process 
        must have delete access to the directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
+
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param hTransaction [in]
 

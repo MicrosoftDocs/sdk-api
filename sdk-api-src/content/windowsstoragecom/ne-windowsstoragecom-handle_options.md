@@ -54,39 +54,39 @@ Defines the flags of the file handle.
 
 ## -enum-fields
 
-### -field HO_NONE
+### -field HO_NONE:0
 
 None.
 
-### -field HO_OPEN_REQUIRING_OPLOCK
+### -field HO_OPEN_REQUIRING_OPLOCK:0x40000
 
 This value is for internal use only.
 
-### -field HO_DELETE_ON_CLOSE
+### -field HO_DELETE_ON_CLOSE:0x4000000
 
 The file is to be deleted immediately after this handle is closed.
 
-### -field HO_SEQUENTIAL_SCAN
+### -field HO_SEQUENTIAL_SCAN:0x8000000
 
 Access is intended to be sequential from beginning to end. The system can use this as a hint to optimize file caching.
 For additional information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
 
-### -field HO_RANDOM_ACCESS
+### -field HO_RANDOM_ACCESS:0x10000000
 
 Access is intended to be random. The system can use this as a hint to optimize file caching.
 For more information, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
 
-### -field HO_NO_BUFFERING
+### -field HO_NO_BUFFERING:0x20000000
 
 The file is being opened with no system caching for data reads and writes. This flag does not affect hard disk caching or memory mapped files.
 There are strict requirements for successfully working with files opened with this flag. For details see  <a href="/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
-### -field HO_OVERLAPPED
+### -field HO_OVERLAPPED:0x40000000
 
 The file is being opened or created for asynchronous I/O.
 For information about considerations when using a file handle created with this flag, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Synchronous and Asynchronous I/O Handles</a>.
 
-### -field HO_WRITE_THROUGH
+### -field HO_WRITE_THROUGH:0x80000000
 
 Write operations will not go through any intermediate cache, they will go directly to disk.
 For additional information, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.

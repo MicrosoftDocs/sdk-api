@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CreateHardLinkA
 title: CreateHardLinkA function (winbase.h)
-description: Establishes a hard link between an existing file and a new file.
-helpviewer_keywords: ["CreateHardLink","CreateHardLink function [Files]","CreateHardLinkA","CreateHardLinkW","_win32_createhardlink","base.createhardlink","fs.createhardlink","winbase/CreateHardLink","winbase/CreateHardLinkA","winbase/CreateHardLinkW"]
+description: Establishes a hard link between an existing file and a new file. (ANSI)
+helpviewer_keywords: ["CreateHardLinkA", "winbase/CreateHardLinkA"]
 old-location: fs\createhardlink.htm
 tech.root: fs
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
@@ -72,10 +72,12 @@ The name of the new file.
 
 This parameter may include the path but cannot specify the name of a directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateHardLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
+
+
 
 ### -param lpExistingFileName [in]
 
@@ -84,10 +86,10 @@ The name of the existing file.
 
 This parameter may include the path cannot specify the name of a directory.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>. If you pass a name longer than MAX_PATH characters to the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateHardLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
-<div> </div>
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ### -param lpSecurityAttributes
 
@@ -140,7 +142,7 @@ When you create a hard link on the NTFS file system, the file attribute informat
     the handle of a specific file.
 
 Symbolic link behavior—If the path points to a symbolic link, the function creates a hard 
-     link to the target.
+     link to the symbolic link.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

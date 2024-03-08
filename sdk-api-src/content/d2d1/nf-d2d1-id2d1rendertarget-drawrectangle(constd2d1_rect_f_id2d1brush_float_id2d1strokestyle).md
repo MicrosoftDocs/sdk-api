@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(constD2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRectangle (d2d1.h)
-description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
+description: Draws the outline of a rectangle that has the specified dimensions and stroke style. (overload 1/2)
 helpviewer_keywords: ["DrawRectangle","DrawRectangle methods [Direct2D]","ID2D1RenderTarget.DrawRectangle","ID2D1RenderTarget::DrawRectangle","d2d1_1/DrawRectangle","direct2d.id2d1rendertarget_drawrectangle"]
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm
 tech.root: Direct2D
@@ -164,11 +164,11 @@ HRESULT DemoApp::OnRender()
 }
 ```
 
-For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>.
+For a related tutorial, see [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart).
 
 ## -see-also
 
-<a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
+[Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)
 
 <a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.Clone
 title: IXpsOMCanvas::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMCanvas.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","Clone method","IXpsOMCanvas.Clone","IXpsOMCanvas::Clone","xps.ixpsomcanvas_clone","xpsobjectmodel/IXpsOMCanvas::Clone"]
 old-location: xps\ixpsomcanvas_clone.htm
 tech.root: xps
@@ -112,7 +112,7 @@ The owner of the new interface is <b>NULL</b>.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

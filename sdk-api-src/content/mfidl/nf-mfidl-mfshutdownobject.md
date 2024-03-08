@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFShutdownObject
 title: MFShutdownObject function (mfidl.h)
-description: Shuts down a Media Foundation object and releases all resources associated with the object.
+description: Shuts down a Media Foundation object and releases all resources associated with the object. (MFShutdownObject)
 helpviewer_keywords: ["MFShutdownObject","MFShutdownObject function [Media Foundation]","a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587","mf.mfshutdownobject","mfidl/MFShutdownObject"]
 old-location: mf\mfshutdownobject.htm
 tech.root: mf

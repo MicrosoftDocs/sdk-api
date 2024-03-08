@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowA
 title: CreateWindowA macro (winuser.h)
-description: Creates an overlapped, pop-up, or child window.
-helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
+description: Creates an overlapped, pop-up, or child window. (ANSI)
+helpviewer_keywords: ["CreateWindowA", "winuser/CreateWindowA"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
@@ -55,6 +55,24 @@ api_name:
 Creates an overlapped, pop-up, or child window. It specifies the window class, window title, window style, and (optionally) the initial position and size of the window. The function also specifies the window's parent or owner, if any, and the window's menu.
 
 To use extended window styles in addition to the styles supported by <b>CreateWindow</b>, use the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
+
+## -syntax
+
+```cpp
+HWND CreateWindowA(
+  [in, optional]  lpClassName,
+  [in, optional]  lpWindowName,
+  [in]            dwStyle,
+  [in]            x,
+  [in]            y,
+  [in]            nWidth,
+  [in]            nHeight,
+  [in, optional]  hWndParent,
+  [in, optional]  hMenu,
+  [in, optional]  hInstance,
+  [in, optional]  lpParam
+);
+```
 
 ## -parameters
 
@@ -163,7 +181,7 @@ The following predefined system classes can be specified in the <i>lpClassName</
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Tapi/buttons">Buttons</a>
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="/windows/desktop/Controls/buttons">Buttons</a>
 
 
 For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="/windows/desktop/Controls/button-styles">Button Styles</a>.

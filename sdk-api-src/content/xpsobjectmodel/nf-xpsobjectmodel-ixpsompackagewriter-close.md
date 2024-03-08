@@ -48,7 +48,6 @@ api_name:
 
 # IXpsOMPackageWriter::Close
 
-
 ## -description
 
 Closes any open parts of the package, then closes the package.
@@ -115,7 +114,7 @@ After this method is called, calling any other <a href="/windows/desktop/api/xps
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

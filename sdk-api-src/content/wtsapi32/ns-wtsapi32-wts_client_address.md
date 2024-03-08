@@ -67,7 +67,7 @@ Address family. This member can be <b>AF_INET</b>, <b>AF_INET6</b>, <b>AF_IPX</b
 
 Client network address. The format of the field of <b>Address</b> depends on the address type as specified by the <b>AddressFamily</b> member.
 
-For an address family <b>AF_INET</b>: <b>Address </b> contains the IPV4 address of the client as a null-terminated string.
+For an address family **AF_INET**: **Address** contains the IPV4 address of the client as raw byte values. The IP address is offset by two bytes from the start of the Address member. For example, the address 192.168.0.1 would be represented as the following series of byte values: "0x00 0x00 0xC0 0xA8 0x00 0x01".
 
 
 For a family <b>AF_INET6</b>: <b>Address </b> contains the IPV6 address of the client as raw byte values. (For example, the address "FFFF::1" would be represented as the following series of byte values: "0xFF 0xFF 0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x01")

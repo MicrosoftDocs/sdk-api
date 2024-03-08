@@ -57,6 +57,8 @@ This property is read-only.
 
 ## -parameters
 
+### -param retVal
+
 ## -remarks
 
 This property maps to the Accessible Rich Internet Applications (ARIA)<b> live</b> property.

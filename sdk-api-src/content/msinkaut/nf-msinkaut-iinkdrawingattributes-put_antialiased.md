@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_AntiAliased
 title: IInkDrawingAttributes::put_AntiAliased (msinkaut.h)
-description: Gets or sets the value that indicates whether a stroke is antialiased.
+description: Gets or sets the value that indicates whether a stroke is antialiased. (Put)
 helpviewer_keywords: ["3536cd42-372d-4bd7-ac69-ef8d6c07f7fd","AntiAliased property [Tablet PC]","AntiAliased property [Tablet PC]","IInkDrawingAttributes interface","IInkDrawingAttributes interface [Tablet PC]","AntiAliased property","IInkDrawingAttributes.AntiAliased","IInkDrawingAttributes.put_AntiAliased","IInkDrawingAttributes::AntiAliased","IInkDrawingAttributes::get_AntiAliased","IInkDrawingAttributes::put_AntiAliased","InkDrawingAttributes.get_AntiAliased","InkDrawingAttributes.put_AntiAliased","get_AntiAliased","msinkaut/IInkDrawingAttributes::AntiAliased","msinkaut/IInkDrawingAttributes::get_AntiAliased","msinkaut/IInkDrawingAttributes::put_AntiAliased","put_AntiAliased","tablet.inkdrawingattributes_antialiased"]
 old-location: tablet\inkdrawingattributes_antialiased.htm
 tech.root: tablet

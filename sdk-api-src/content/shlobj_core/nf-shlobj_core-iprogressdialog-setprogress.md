@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetProgress
 title: IProgressDialog::SetProgress (shlobj_core.h)
-description: Updates the progress dialog box with the current state of the operation.
+description: Updates the progress dialog box with the current state of the operation. (IProgressDialog.SetProgress)
 helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","SetProgress method","IProgressDialog.SetProgress","IProgressDialog::SetProgress","SetProgress","SetProgress method [Windows Shell]","SetProgress method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_SetProgress","shell.IProgressDialog_SetProgress","shlobj_core/IProgressDialog::SetProgress"]
 old-location: shell\IProgressDialog_SetProgress.htm
 tech.root: shell

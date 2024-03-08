@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessDefaultCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: GetProcessDefaultCpuSets
 ms.date: 03/12/2021
 ms.topic: language-reference
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Retrieves the list of CPU Sets in the process default set that was set by [**SetProcessDefaultCpuSets**](setprocessdefaultcpusets.md). If no default CPU Sets are set for a given process, then the **RequiredIdCount** is set to 0 and the function succeeds.
+Retrieves the list of CPU Sets in the process default set that was set by [**SetProcessDefaultCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets). If no default CPU Sets are set for a given process, then the **RequiredIdCount** is set to 0 and the function succeeds.
 
 
 ## -parameters

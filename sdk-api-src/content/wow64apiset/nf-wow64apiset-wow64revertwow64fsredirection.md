@@ -6,7 +6,7 @@ helpviewer_keywords: ["Wow64RevertWow64FsRedirection","Wow64RevertWow64FsRedirec
 old-location: fs\wow64revertwow64fsredirection.htm
 tech.root: fs
 ms.assetid: 8a09bdeb-b969-48b2-a432-c78dd4177000
-ms.date: 12/05/2018
+ms.date: 04/14/2022
 ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection function [Files], base.wow64revertwow64fsredirection, fs.wow64revertwow64fsredirection, wow64apiset/Wow64RevertWow64FsRedirection
 req.header: wow64apiset.h
 req.include-header: Windows.h
@@ -53,42 +53,31 @@ api_name:
 
 # Wow64RevertWow64FsRedirection function
 
-
 ## -description
 
 Restores file system redirection for the calling thread.
 
 This function should not be called without a previous call to the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
-Any data allocation on behalf of the 
-      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-      function is cleaned up by this function.
+Any data allocation on behalf of the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function is cleaned up by this function.
 
 ## -parameters
 
-### -param OlValue
+### -param OlValue [in]
 
-TBD
+The WOW64 file system redirection value. This value is obtained from the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
-
-
-
-#### - OldValue [in]
-
-The WOW64 file system redirection value. This value is obtained from the 
-      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-      function.
+This value is defined in `wow64apiset.h`.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is <b>FALSE</b> (zero). To get extended error 
-       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b> (zero). To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>/<b>Wow64RevertWow64FsRedirection</b> function pair is a replacement for the functionality of the <a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> function.
+The <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>/<b>Wow64RevertWow64FsRedirection</b> function pair is a replacement for the functionality of the <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> function.
 
 To disable file system redirection, call the [Wow64DisableWow64FsRedirection](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection) function. Every call to the **Wow64DisableWow64FsRedirection** function must have a matching call to the  **Wow64RevertWow64FsRedirection** function. This will ensure redirection is re-enabled and frees associated system resources.
 
@@ -150,29 +139,17 @@ No
 </td>
 </tr>
 </table>
- 
 
+### Examples
 
-#### Examples
-
-For an example, see the 
-     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
-     function.
-
-<div class="code"></div>
+For an example, see the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
 ## -see-also
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
-
-
 <a href="/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>
 
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 
-
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>

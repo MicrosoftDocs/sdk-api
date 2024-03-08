@@ -1,11 +1,11 @@
 ---
 UID: NF:processthreadsapi.SetThreadSelectedCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: SetThreadSelectedCpuSets
 ms.date: 03/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
+description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set. (SetThreadSelectedCpuSets)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -64,6 +64,8 @@ Specifies the number of IDs in the list passed in the **CpuSetIds** argument. If
 
 
 ## -returns
+
+If the function succeeds, the return value is nonzero.
 
 This function cannot fail when passed valid parameters.
 

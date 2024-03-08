@@ -1,7 +1,7 @@
 ---
 UID: NS:dxva2api._DXVA2_AES_CTR_IV
 title: DXVA2_AES_CTR_IV (dxva2api.h)
-description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
+description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption. (DXVA2_AES_CTR_IV)
 helpviewer_keywords: ["DXVA2_AES_CTR_IV","DXVA2_AES_CTR_IV structure [Media Foundation]","dxva2api/DXVA2_AES_CTR_IV","mf.dxva2_aes_ctr_iv"]
 old-location: mf\dxva2_aes_ctr_iv.htm
 tech.root: mf

@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -64,9 +64,9 @@ This is an extended version of <a href="/windows/desktop/api/memoryapi/nf-memory
 
 ### -param BaseAddress [in]
 
-A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> or 
-<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function.
+A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call
+to one of the functions in the
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> family.
 
 ### -param UnmapFlags [in]
 
@@ -96,7 +96,7 @@ Specifies that the priority of the pages being unmapped should be temporarily bo
 </dl>
 </td>
 <td width="60%">
-Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile3">MapViewOfFile3</a> or <b>MapViewOfFile3FromApp</b>).
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DnsRecordA
 title: DNS_RECORDA (windns.h)
-description: Stores a DNS resource record (RR).
+description: Stores a DNS resource record (RR). (ANSI)
 helpviewer_keywords: ["*PDNS_RECORD","*PDNS_RECORDA","DNS_RECORD","DNS_RECORD structure [DNS]","DNS_RECORDA","PDNS_RECORD","PDNS_RECORD structure pointer [DNS]","_DnsRecordA","_DnsRecordW","_dns_dns_record","dns.dns_record","windns/DNS_RECORD","windns/PDNS_RECORD"]
 old-location: dns\dns_record.htm
 tech.root: DNS

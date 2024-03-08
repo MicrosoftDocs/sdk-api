@@ -62,9 +62,40 @@ Represents an extended parameter for a function that manages virtual memory.
 
 A <a href="../winnt/ne-winnt-mem_extended_parameter_type.md">MEM_EXTENDED_PARAMETER_TYPE</a> value that indicates the type of the parameter.
 
-If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="https://msdn.microsoft.com/en-us/library/Mt832846(v=VS.85).aspx">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
 
-If <i>Type</i> is set to <b>MemExtendedParameterNumaNode</b>, then <i>ULong</i> must be set to the desired node number.
+If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="ns-winnt-mem_address_requirements.md">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
+
+If <i>Type</i> is set to <b>MemExtendedParameterNumaNode</b>, then <i>ULong64</i> must be set to the desired node number.
+
+If <i>Type</i> is set to <b>MemExtendedParameterAttributeFlags</b>, then <i>ULong64</i> must be set to a value that contains the desired flags:
+ 
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+ <th>Value</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MEM_EXTENDED_PARAMETER_NONPAGED_LARGE</td>
+<td>0x08</td>
+<td>The allocation is mapped using large pages.</td>
+</tr>
+<tr>
+<td>MEM_EXTENDED_PARAMETER_NONPAGED_HUGE</td>
+<td>0x10</td>
+<td>The allocation is mapped using huge pages.</td>
+</tr>
+<tr>
+<td>MEM_EXTENDED_PARAMETER_EC_CODE</td>
+<td>0x40</td>
+<td>The allocation will contain <a href="https://docs.microsoft.com/en-us/windows/arm/arm64ec">emulation-compatible (EC)</a> code.</td>
+</tr>
+</tbody>
+</table>
+
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
@@ -74,15 +105,16 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.ULong64
 
+If <i>Type</i> is set to <b>MemExtendedParameterNumaNode</b>, then <i>ULong64</i> must be set to the desired node number.
+
 ### -field DUMMYUNIONNAME.Pointer
 
-If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="https://msdn.microsoft.com/en-us/library/Mt832846(v=VS.85).aspx">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
+
+If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="ns-winnt-mem_address_requirements.md">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
+
 
 ### -field DUMMYUNIONNAME.Size
 
 ### -field DUMMYUNIONNAME.Handle
 
 ### -field DUMMYUNIONNAME.ULong
-
-If <i>Type</i> is set to <b>MemExtendedParameterNumaNode</b>, then <i>ULong</i> must be set to the desired node number.
-

@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetDisabled
 title: IAMPluginControl::SetDisabled (strmif.h)
-description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
+description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list. (IAMPluginControl.SetDisabled)
 helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetDisabled method","IAMPluginControl.SetDisabled","IAMPluginControl::SetDisabled","SetDisabled","SetDisabled method [DirectShow]","SetDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setdisabled","strmif/IAMPluginControl::SetDisabled"]
 old-location: dshow\iamplugincontrol_setdisabled.htm
 tech.root: dshow
 ms.assetid: 3ac4b3b5-0882-4e30-b3fa-1dcee33a74d3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IAMPluginControl interface [DirectShow],SetDisabled method, IAMPluginControl.SetDisabled, IAMPluginControl::SetDisabled, SetDisabled, SetDisabled method [DirectShow], SetDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setdisabled, strmif/IAMPluginControl::SetDisabled
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 

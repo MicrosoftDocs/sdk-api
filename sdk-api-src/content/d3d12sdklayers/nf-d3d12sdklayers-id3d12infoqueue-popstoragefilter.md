@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PopStorageFilter
 title: ID3D12InfoQueue::PopStorageFilter (d3d12sdklayers.h)
-description: Pop a storage filter from the top of the storage-filter stack.
+description: Pop a storage filter from the top of the storage-filter stack. (ID3D12InfoQueue.PopStorageFilter)
 helpviewer_keywords: ["ID3D12InfoQueue interface","PopStorageFilter method","ID3D12InfoQueue.PopStorageFilter","ID3D12InfoQueue::PopStorageFilter","PopStorageFilter","PopStorageFilter method","PopStorageFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter","direct3d12.id3d12infoqueue_popstoragefilter"]
 old-location: direct3d12\id3d12infoqueue_popstoragefilter.htm
 tech.root: direct3d12

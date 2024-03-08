@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.SetContent
 title: IXpsOMPrintTicketResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMPrintTicketResource.SetContent)
 helpviewer_keywords: ["IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMPrintTicketResource.SetContent","IXpsOMPrintTicketResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMPrintTicketResource interface","xps.ixpsomprintticketresource_setcontent","xpsobjectmodel/IXpsOMPrintTicketResource::SetContent"]
 old-location: xps\ixpsomprintticketresource_setcontent.htm
 tech.root: xps
@@ -82,4 +82,4 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompri
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

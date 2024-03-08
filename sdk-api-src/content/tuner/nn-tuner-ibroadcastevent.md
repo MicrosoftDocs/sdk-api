@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 
 
 The <b>IBroadcastEvent</b> interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use this interface.
@@ -60,7 +62,7 @@ The <b>IBroadcastEvent</b> interface enables an object to receive events from an
 
 The <b>IBroadcastEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBroadcastEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -80,7 +82,7 @@ Fires an event.
 
 </td>
 </tr>
-</table>Â 
+</table> 
 
 
 ## -remarks
@@ -291,6 +293,6 @@ HRESULT TunerEvent::Fire_Event(GUID eventID)
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-Â 
+ 
 
-Â 
+ 

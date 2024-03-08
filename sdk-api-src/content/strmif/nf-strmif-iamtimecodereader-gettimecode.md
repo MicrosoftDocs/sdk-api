@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimeco
 old-location: dshow\iamtimecodereader_gettimecode.htm
 tech.root: dshow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>GetTimecode</code> method retrieves the most recent timecode, userbit, and flag values available in the stream.
 
 ## -parameters
@@ -94,7 +96,7 @@ Set the <b>dwFlags</b> member of the <a href="/windows/win32/api/strmif/ns-strmi
 </table>
  
 
-The <b>timecode</b> member of the <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
+The <b>timecode</b> member of the <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure is a <a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure. Initialize that structure's <b>dwFrames</b> member to zero.
 
 All other structure members are ignored.
 

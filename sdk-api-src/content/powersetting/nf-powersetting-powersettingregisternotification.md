@@ -74,7 +74,7 @@ Information about the recipient of the notification. This parameter can be one o
 </dl>
 </td>
 <td width="60%">
-The <i>Recipient</i> parameter is a handle to a service.Use the <a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or <a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function to obtain this handle.
+The <i>Recipient</i> parameter is a handle to a service. Use the <a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or <a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function to obtain this handle.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <i>Recipient</i> parameter is a handle to a service.Use the <a href="/window
 </dl>
 </td>
 <td width="60%">
-The <i>Recipient</i> parameter is a pointer to a callback function to call when the power setting changes.
+The <i>Recipient</i> parameter is a pointer to a callback function to call when the power setting changes. <i>Recipient</i> in this case is expected to be of type <i>PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</i>.
 
 </td>
 </tr>

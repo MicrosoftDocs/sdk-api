@@ -58,7 +58,7 @@ The
 
 ## -enum-fields
 
-### -field MMC_PROPACT_DELETING
+### -field MMC_PROPACT_DELETING:1
 
 The property is being deleted.
 

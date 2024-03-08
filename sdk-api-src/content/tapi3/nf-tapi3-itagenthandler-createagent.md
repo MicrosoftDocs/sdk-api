@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgentHandler.CreateAgent
 title: ITAgentHandler::CreateAgent (tapi3.h)
-description: The CreateAgent method creates an Agent object.
+description: The CreateAgent method (tapi3.h) creates an Agent object.
 helpviewer_keywords: ["CreateAgent","CreateAgent method [TAPI 2.2]","CreateAgent method [TAPI 2.2]","ITAgentHandler interface","ITAgentHandler interface [TAPI 2.2]","CreateAgent method","ITAgentHandler.CreateAgent","ITAgentHandler::CreateAgent","_tapi3_itagenthandler_createagent","tapi3.itagenthandler_createagent","tapi3cc/ITAgentHandler::CreateAgent"]
 old-location: tapi3\itagenthandler_createagent.htm
 tech.root: tapi3
 ms.assetid: f3242013-59a6-40f9-9bb1-0bc30f27311c
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: CreateAgent, CreateAgent method [TAPI 2.2], CreateAgent method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgent method, ITAgentHandler.CreateAgent, ITAgentHandler::CreateAgent, _tapi3_itagenthandler_createagent, tapi3.itagenthandler_createagent, tapi3cc/ITAgentHandler::CreateAgent
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DVD_KaraokeAttributes","DVD_KaraokeAttributes structure [
 old-location: dshow\dvd_karaokeattributes.htm
 tech.root: dshow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <code>DVD_KaraokeAttributes</code> structure contains information about a karaoke audio stream. The <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">IDvdInfo2::GetKaraokeAttributes</a> method fills in a <code>DVD_KaraokeAttributes</code> structure for a specified stream.
 
 ## -struct-fields
@@ -70,7 +72,7 @@ A Boolean value indicating whether the song is intended to be sung as a duet.
 
 ### -field ChannelAssignment
 
-A [DVD_KARAOKE_ASSIGNMENT](/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_assignment) value indicating the speaker configuration into which all the channels will be mixed.
+A [DVD_KARAOKE_ASSIGNMENT](/windows/win32/api/strmif/ne-strmif-dvd_karaoke_assignment) value indicating the speaker configuration into which all the channels will be mixed.
 
 ### -field wChannelContents
 

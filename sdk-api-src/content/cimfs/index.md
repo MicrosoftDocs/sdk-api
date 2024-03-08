@@ -5,7 +5,7 @@ tech.root: cimfs
 title: cimfs
 ms.date: 9/9/2019
 ms.keywords: cimfs
-ms.topic: portal
+ms.topic: overview
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -49,6 +49,8 @@ Provides the ability to construct and mount Composite Images (CIMs).
 ## -remarks
 Link with cimfs.lib
 
-## -see-also
+This header is used by CimFS. For more information, see:
 
-## -examples
+- [CimFS](../_cimfs/index.md)
+
+## -see-also

@@ -54,7 +54,7 @@ Specifies the type of voice activity detection (VAD) for the voice capture DSP. 
 
 ## -enum-fields
 
-### -field AEC_VAD_DISABLED
+### -field AEC_VAD_DISABLED:0
 
 Voice activity detection is disabled.
 

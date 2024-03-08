@@ -11,7 +11,7 @@ ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], I
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IATSCLocator</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/atsclocator-object">ATSCLocator</a> object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission. Applications do not use Locator interfaces except possibly for debugging purposes. All Locator objects also support <b>IPersistPropertyBag</b>.
 
 ## -inheritance
 
 The <b>IATSCLocator</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitallocator~r1">IDigitalLocator</a>. <b>IATSCLocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

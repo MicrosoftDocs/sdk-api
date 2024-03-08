@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.get_Rows
 title: IInkRecognizerGuide::get_Rows (msinkaut.h)
-description: Gets or sets the number of rows in the recognition guide.
+description: Gets or sets the number of rows in the recognition guide. (Get)
 helpviewer_keywords: ["5b1204ca-40b0-4752-8294-6f94412e8e7c","IInkRecognizerGuide interface [Tablet PC]","Rows property","IInkRecognizerGuide.Rows","IInkRecognizerGuide.get_Rows","IInkRecognizerGuide::Rows","IInkRecognizerGuide::get_Rows","IInkRecognizerGuide::put_Rows","InkRecognizerGuide.get_Rows","InkRecognizerGuide.put_Rows","Rows property [Tablet PC]","Rows property [Tablet PC]","IInkRecognizerGuide interface","get_Rows","msinkaut/IInkRecognizerGuide::Rows","msinkaut/IInkRecognizerGuide::get_Rows","msinkaut/IInkRecognizerGuide::put_Rows","put_Rows","tablet.inkrecognizerguide_rows"]
 old-location: tablet\inkrecognizerguide_rows.htm
 tech.root: tablet

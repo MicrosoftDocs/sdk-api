@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetPropertyCount","GetPropertyCount method [windows Media
 old-location: wmformat\inssbuffer4_getpropertycount.htm
 tech.root: wmformat
 ms.assetid: b47f26b3-e816-498d-adc3-c6d3357971e6
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyCount method, INSSBuffer4.GetPropertyCount, INSSBuffer4::GetPropertyCount, INSSBuffer4GetPropertyCount, wmformat.inssbuffer4_getpropertycount, wmsbuffer/INSSBuffer4::GetPropertyCount
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -53,6 +53,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>GetPropertyCount</b> method retrieves the total number of buffer properties, also called data unit extensions, associated with the sample contained in the buffer object. When using <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer4-getpropertybyindex">INSSBuffer4::GetPropertyByIndex</a> to retrieve properties, the index used is between zero and the number specified by this method.
 
 ## -parameters
@@ -67,4 +69,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4 Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4 Interface</a>

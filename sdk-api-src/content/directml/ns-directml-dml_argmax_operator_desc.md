@@ -126,7 +126,7 @@ AxisCount: 2
 Axes: {0, 1}
 AxisDirection: DML_AXIS_DIRECTION_INCREASING
 OutputTensor: (Sizes:{1, 1}, DataType:UINT32)
-[[7]]  // argmin({1, 2, 3, 3, 0, 4, 2, 5, 2})
+[[7]]  // argmax({1, 2, 3, 3, 0, 4, 2, 5, 2})
 ```
 
 ## -remarks

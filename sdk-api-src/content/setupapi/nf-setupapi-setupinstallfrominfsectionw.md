@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionW
 title: SetupInstallFromInfSectionW function (setupapi.h)
-description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
-helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section. (Unicode)
+helpviewer_keywords: ["SetupInstallFromInfSection", "SetupInstallFromInfSection function [Setup API]", "SetupInstallFromInfSectionW", "_setupapi_setupinstallfrominfsection", "setup.setupinstallfrominfsection", "setupapi/SetupInstallFromInfSection", "setupapi/SetupInstallFromInfSectionW"]
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
@@ -338,8 +338,8 @@ Value to be passed to the callback function when the file queue built by this ro
       committed via 
       <a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>. The 
       <i>Context</i> parameter is optional only if the <i>Flags</i> parameter 
-      does not include SPINST_FIlLES. This parameter must be specified if <i>Flags</i> includes 
-      SPINST_FIlLES.
+      does not include SPINST_FILES. This parameter must be specified if <i>Flags</i> includes 
+      SPINST_FILES.
 
 ### -param DeviceInfoSet
 

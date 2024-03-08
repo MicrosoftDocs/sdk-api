@@ -225,7 +225,7 @@ This parameter must be one of the following values, which cannot be combined:
 <td width="60%">
 Creates a new file, always.
 
-If the specified file exists and is writable, the function overwrites the file, the function succeeds, and 
+If the specified file exists and is writable, the function truncates the file, the function succeeds, and 
          last-error code is set to <b>ERROR_ALREADY_EXISTS</b> (183).
 
 If the specified file does not exist and is a valid path, a new file is created, the function succeeds, and 
@@ -510,10 +510,7 @@ For more information, see
       <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted.
 
 You can use the <b>CreateFile2</b> function to open a physical 
       disk drive or a volume, which returns a direct access storage device (DASD) handle that can be used with the 

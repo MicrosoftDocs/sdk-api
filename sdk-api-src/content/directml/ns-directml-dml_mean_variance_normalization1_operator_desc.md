@@ -1,10 +1,10 @@
 ---
 UID: NS:directml.DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC
 title: DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC
-description: Performs a mean variance normalization function on the input tensor. This operator will calculate the mean and variance of the input tensor to perform normalization.
+description: Performs a mean variance normalization function on the input tensor. This operator will calculate the mean and variance of the input tensor to perform normalization. (DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC)
 helpviewer_keywords: ["DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC","DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC structure","direct3d12.dml_mean_variance_normalization1_operator_desc","directml/DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 05/02/2023
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -67,7 +67,7 @@ If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tenso
 
 If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1, and be automatically broadcast to match *InputTensor*.
 
-This tensor is required if the *BiasTensor* is used.
+If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_5_2**, then this tensor is required if *BiasTensor* is present. If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_5_2**, then this tensor can be null regardless of the value of *BiasTensor*.
 
 ### -field BiasTensor
 
@@ -79,7 +79,7 @@ If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_4_0**, then this tenso
 
 If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_4_0**, then any dimension can be set to 1, and be automatically broadcast to match *InputTensor*.
 
-This tensor is required if the *ScaleTensor* is used.
+If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_5_2**, then this tensor is required if *ScaleTensor* is present. If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_5_2**, then this tensor can be null regardless of the value of *ScaleTensor*.
 
 ### -field OutputTensor
 
@@ -118,7 +118,7 @@ Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-d
 An optional fused activation layer to apply after the normalization.
 
 ## -remarks
-**DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC** is a superset of functionality of [DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_mean_variance_normalization_operator_desc). Here, setting the **Axes** array to `{ 0, 2, 3 }` is the equivalent of setting *CrossChannel* to **FALSE** in **DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC**; while setting the **Axes** array to `{ 1, 2, 3 }` is equivalent of setting *CrossChannel* to **TRUE**.
+**DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC** is a superset of functionality of [DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_mean_variance_normalization_operator_desc). Here, setting the **Axes** array to `{ 2, 3 }` is the equivalent of setting *CrossChannel* to **FALSE** in **DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC**; while setting the **Axes** array to `{ 1, 2, 3 }` is equivalent of setting *CrossChannel* to **TRUE**.
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.

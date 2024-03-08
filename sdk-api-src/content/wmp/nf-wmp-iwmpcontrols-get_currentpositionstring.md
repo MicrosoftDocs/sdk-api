@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_curre
 old-location: wmp\iwmpcontrols_get_currentpositionstring.htm
 tech.root: WMP
 ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPositionString method, IWMPControls.get_currentPositionString, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_currentPositionString</b> method retrieves the current position in the media item as a <b>BSTR</b> formatted as HH:MM:SS (hours, minutes, and seconds).
 

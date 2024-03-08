@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetMaxPixelRate","GetMaxPixelRate method [DirectShow]","G
 old-location: dshow\ivpbaseconfig_getmaxpixelrate.htm
 tech.root: dshow
 ms.assetid: 9b86ff2c-c51f-4498-a000-5f1868c2c24b
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetMaxPixelRate method, IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
 req.header: vpconfig.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>GetMaxPixelRate</code> method retrieves the maximum pixel rate the device will output for a given width and height.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateIconFromResource
 title: CreateIconFromResource function (winuser.h)
-description: Creates an icon or cursor from resource bits describing the icon.
+description: Creates an icon or cursor from resource bits describing the icon. (CreateIconFromResource)
 helpviewer_keywords: ["CreateIconFromResource","CreateIconFromResource function [Menus and Other Resources]","_win32_CreateIconFromResource","_win32_createiconfromresource_cpp","menurc.createiconfromresource","winui._win32_createiconfromresource","winuser/CreateIconFromResource"]
 old-location: menurc\createiconfromresource.htm
 tech.root: menurc
@@ -60,7 +60,9 @@ To specify a desired height or width, use the <a href="/windows/desktop/api/winu
 
 Type: <b>PBYTE</b>
 
-The buffer containing the icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>, <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>, and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+The DWORD-aligned buffer pointer containing the icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>, <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a>, and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+
+See <a href="/windows/win32/menurc/resource-file-formats#cursor-and-icon-resources">Cursor and Icon Resources</a> for more info on icon and cursor resource format.
 
 ### -param dwResSize [in]
 
@@ -72,7 +74,9 @@ The size, in bytes, of the set of bits pointed to by the <i>presbits</i> paramet
 
 Type: <b>BOOL</b>
 
-Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created.
+Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created. 
+
+The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure defines cursor hotspot and is the first data read from the cursor resource bits.
 
 ### -param dwVer [in]
 
@@ -94,7 +98,7 @@ The <b>CreateIconFromResource</b>, <a href="/windows/desktop/api/winuser/nf-winu
 
 The <b>CreateIconFromResource</b> function calls <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> passing <code>LR_DEFAULTSIZE|LR_SHARED</code> as flags.
 
-When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> for icons or <a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> for cursors created with <b>CreateIconFromResource</b>.
 
 ## -see-also
 

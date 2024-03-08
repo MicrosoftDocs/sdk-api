@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataManager.get_MinFreeDisk
 title: IDataManager::get_MinFreeDisk (pla.h)
-description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins.
+description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins. (Get)
 helpviewer_keywords: ["IDataManager interface [PLA]","MinFreeDisk property","IDataManager.MinFreeDisk","IDataManager.get_MinFreeDisk","IDataManager::MinFreeDisk","IDataManager::get_MinFreeDisk","IDataManager::put_MinFreeDisk","MinFreeDisk property [PLA]","MinFreeDisk property [PLA]","IDataManager interface","base.idatamanager_minfreedisk","get_MinFreeDisk","pla.idatamanager_minfreedisk","pla/IDataManager::MinFreeDisk","pla/IDataManager::get_MinFreeDisk","pla/IDataManager::put_MinFreeDisk"]
 old-location: pla\idatamanager_minfreedisk.htm
 tech.root: PLA

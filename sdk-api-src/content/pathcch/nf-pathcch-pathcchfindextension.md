@@ -66,7 +66,7 @@ A pointer to the path to search.
 
 ### -param cchPath [in]
 
-The size of the buffer pointed to by <i>pszPath</i>, in characters.
+The size of the buffer pointed to by <i>pszPath</i> in characters, including the null terminator.
 
 ### -param ppszExt [out]
 

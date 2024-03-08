@@ -56,23 +56,23 @@ Specifies the call types used by <a href="/windows/desktop/api/objidl/nf-objidl-
 
 ## -enum-fields
 
-### -field CALLTYPE_TOPLEVEL
+### -field CALLTYPE_TOPLEVEL:1
 
 A top-level call has arrived and the object is not currently waiting for a reply from a previous outgoing call. Calls of this type should always be handled.
 
-### -field CALLTYPE_NESTED
+### -field CALLTYPE_NESTED:2
 
 A call has arrived bearing the same logical thread identifier as that of a previous outgoing call for which the object is still awaiting a reply. Calls of this type should always be handled.
 
-### -field CALLTYPE_ASYNC
+### -field CALLTYPE_ASYNC:3
 
 An asynchronous call has arrived. Calls of this type cannot be rejected. OLE always delivers calls of this type.
 
-### -field CALLTYPE_TOPLEVEL_CALLPENDING
+### -field CALLTYPE_TOPLEVEL_CALLPENDING:4
 
 A new top-level call has arrived with a new logical thread identifier and the object is currently waiting for a reply from a previous outgoing call. Calls of this type may be handled or rejected.
 
-### -field CALLTYPE_ASYNC_CALLPENDING
+### -field CALLTYPE_ASYNC_CALLPENDING:5
 
 An asynchronous call has arrived with a new logical thread identifier and the object is currently waiting for a reply from a previous outgoing call. Calls of this type cannot be rejected.
 

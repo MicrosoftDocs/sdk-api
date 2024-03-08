@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DrawTextA
 title: DrawTextA function (winuser.h)
-description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
-helpviewer_keywords: ["DT_BOTTOM","DT_CALCRECT","DT_CENTER","DT_EDITCONTROL","DT_END_ELLIPSIS","DT_EXPANDTABS","DT_EXTERNALLEADING","DT_HIDEPREFIX","DT_INTERNAL","DT_LEFT","DT_MODIFYSTRING","DT_NOCLIP","DT_NOFULLWIDTHCHARBREAK","DT_NOPREFIX","DT_PATH_ELLIPSIS","DT_PREFIXONLY","DT_RIGHT","DT_RTLREADING","DT_SINGLELINE","DT_TABSTOP","DT_TOP","DT_VCENTER","DT_WORDBREAK","DT_WORD_ELLIPSIS","DrawText","DrawText function [Windows GDI]","DrawTextA","DrawTextW","_win32_DrawText","gdi.drawtext","winuser/DrawText","winuser/DrawTextA","winuser/DrawTextW"]
+description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth). (DrawTextA)
+helpviewer_keywords: ["DT_BOTTOM", "DT_CALCRECT", "DT_CENTER", "DT_EDITCONTROL", "DT_END_ELLIPSIS", "DT_EXPANDTABS", "DT_EXTERNALLEADING", "DT_HIDEPREFIX", "DT_INTERNAL", "DT_LEFT", "DT_MODIFYSTRING", "DT_NOCLIP", "DT_NOFULLWIDTHCHARBREAK", "DT_NOPREFIX", "DT_PATH_ELLIPSIS", "DT_PREFIXONLY", "DT_RIGHT", "DT_RTLREADING", "DT_SINGLELINE", "DT_TABSTOP", "DT_TOP", "DT_VCENTER", "DT_WORDBREAK", "DT_WORD_ELLIPSIS", "DrawTextA", "winuser/DrawTextA"]
 old-location: gdi\drawtext.htm
 tech.root: gdi
 ms.assetid: fe412280-d797-4abd-8a29-107a9cd96145
@@ -72,13 +72,13 @@ A handle to the device context.
 
 ### -param lpchText [in, out]
 
-A pointer to the string that specifies the text to be drawn. If the <i>nCount</i> parameter is -1, the string must be null-terminated.
+A pointer to the string that specifies the text to be drawn. If the <i>cchText</i> parameter is -1, the string must be null-terminated.
 
 If <i>uFormat</i> includes DT_MODIFYSTRING, the function could add up to four additional characters to this string. The buffer containing the string should be large enough to accommodate these extra characters.
 
 ### -param cchText [in]
 
-The length, in characters, of the string. If <i>nCount</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
+The length, in characters, of the string. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
 
 ### -param lprc [in, out]
 

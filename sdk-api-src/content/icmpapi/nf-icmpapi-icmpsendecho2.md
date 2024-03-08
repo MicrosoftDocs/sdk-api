@@ -1,12 +1,12 @@
 ---
 UID: NF:icmpapi.IcmpSendEcho2
 title: IcmpSendEcho2 function (icmpapi.h)
-description: The IcmpSendEcho2 function sends an IPv4 ICMP echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the ICMP echo responses, if any.
+description: The **IcmpSendEcho2** function sends an IPv4 ICMP echo request, and returns either immediately (if *Event* or *ApcRoutine* is non-**NULL**), or returns after the specified time-out. The *ReplyBuffer* contains the ICMP echo responses, if any.
 helpviewer_keywords: ["IcmpSendEcho2","IcmpSendEcho2 function [IP Helper]","_iphlp_icmpsendecho2","icmpapi/IcmpSendEcho2","iphlp.icmpsendecho2"]
 old-location: iphlp\icmpsendecho2.htm
 tech.root: IpHlp
 ms.assetid: 1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46
-ms.date: 12/05/2018
+ms.date: 03/24/2023
 ms.keywords: IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsendecho2, icmpapi/IcmpSendEcho2, iphlp.icmpsendecho2
 req.header: icmpapi.h
 req.include-header: 
@@ -46,41 +46,33 @@ api_name:
  - IcmpSendEcho2
 ---
 
-# IcmpSendEcho2 function
-
-
 ## -description
 
-The 
-<b>IcmpSendEcho2</b> function sends an IPv4 ICMP echo request and returns either immediately (if <i>Event</i> or <i>ApcRoutine</i> is non-<b>NULL</b>) or returns after the specified time-out. The <i>ReplyBuffer</i> contains the ICMP echo responses, if any.
+The **IcmpSendEcho2** function sends an IPv4 ICMP echo request, and returns either immediately (if *Event* or *ApcRoutine* is non-**NULL**), or returns after the specified time-out. The *ReplyBuffer* contains the ICMP echo responses, if any.
 
 ## -parameters
 
 ### -param IcmpHandle [in]
 
-The open handle returned by the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">ICMPCreateFile</a> function.
+The open handle returned by the [ICMPCreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmpcreatefile) function.
 
 ### -param Event [in, optional]
 
-An event to be signaled whenever an ICMP response arrives. If this parameter is specified, it requires a handle to a valid event object. Use the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventexa">CreateEventEx</a> function to create this event object. 
+An event to be signaled (at most once) when an ICMP response arrives. If this parameter is specified, then it requires a handle to a valid event object. Use the [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa) or [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa) function to create this event object.
 
-For more information on using events, see <a href="/windows/desktop/Sync/event-objects">Event Objects</a>.
+For more information on using events, see [Event objects](/windows/win32/Sync/event-objects).
 
 ### -param ApcRoutine [in, optional]
 
-The routine that is called when the calling thread is in an alertable thread and  an ICMPv4 reply arrives. On Windows Vista and later, <b>PIO_APC_ROUTINE_DEFINED</b> must be defined to force the datatype for this parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. 
-
-On Windows Server 2003, Windows XP, and Windows 2000, 
-   <b>PIO_APC_ROUTINE_DEFINED</b> must not be defined to force the datatype for this parameter to <b>FARPROC</b>.
+The routine that's called when the calling thread is in an alertable thread, and an ICMPv4 reply arrives. **PIO_APC_ROUTINE_DEFINED** must be defined in order to force the datatype for this parameter to **PIO_APC_ROUTINE** rather than **FARPROC**.
 
 ### -param ApcContext [in, optional]
 
-An optional parameter passed to the callback routine specified in the  <i>ApcRoutine</i> parameter whenever an ICMP response arrives or an error occurs.
+An optional parameter passed to the callback routine specified in the *ApcRoutine* parameter (at most once) when an ICMP response arrives, or an error occurs.
 
 ### -param DestinationAddress [in]
 
-The IPv4 destination of the echo request, in the form of an <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
+The IPv4 destination of the echo request, in the form of an [IPAddr](/windows/win32/api/inaddr/ns-inaddr-in_addr) structure.
 
 ### -param RequestData [in]
 
@@ -88,142 +80,69 @@ A pointer to a buffer that contains data to send in the request.
 
 ### -param RequestSize [in]
 
-The size, in bytes, of the request data buffer pointed to by the <i>RequestData</i> parameter.
+The size, in bytes, of the request data buffer pointed to by the *RequestData* parameter.
 
 ### -param RequestOptions [in, optional]
 
-A pointer to the IP header options for the request, in the form of an <a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a> structure. On a 64-bit platform, this parameter is in the form for an <a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a> structure.
+A pointer to the IP header options for the request, in the form of an [IP_OPTION_INFORMATION](/windows/win32/api/ipexport/ns-ipexport-ip_option_information) structure.
 
-This parameter may be <b>NULL</b> if no IP header options need to be specified.
+This parameter may be **NULL** if no IP header options need to be specified.
 
 ### -param ReplyBuffer [out]
 
-A pointer to a buffer to hold any replies to the request. Upon return, the buffer contains an array of 
-<a href="/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a> structures followed by options and data. The buffer must be large enough to hold at least one 
-<b>ICMP_ECHO_REPLY</b> structure plus <i>RequestSize</i> bytes of data.
+A pointer to a buffer to hold any replies to the request. Upon return, the buffer contains an array of [ICMP_ECHO_REPLY](/windows/win32/api/ipexport/ns-ipexport-icmp_echo_reply) structures followed by options and data.
 
-This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
+The buffer must be large enough to hold at least one **ICMP_ECHO_REPLY** structure, plus *RequestSize* bytes of data, plus an additional 8 bytes of data (the size of an ICMP error message).
 
 ### -param ReplySize [in]
 
-The allocated size, in bytes,  of the reply buffer. The buffer should be large enough to hold at least one 
-<a href="/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data.
+The allocated size, in bytes, of the reply buffer.
 
-This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
+The buffer must be large enough to hold at least one **ICMP_ECHO_REPLY** structure, plus *RequestSize* bytes of data, plus an additional 8 bytes of data (the size of an ICMP error message).
 
 ### -param Timeout [in]
 
-The time, in milliseconds, to wait for replies.
+The time in milliseconds to wait for replies.
 
 ## -returns
 
-When called synchronously, the <b>IcmpSendEcho2</b> function returns the number of replies received and stored in <i>ReplyBuffer</i>. If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+When called synchronously, the **IcmpSendEcho2** function returns the number of replies received and stored in *ReplyBuffer*. If the return value is zero, then for extended error information call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-When called asynchronously, the <b>IcmpSendEcho2</b> function returns ERROR_IO_PENDING to indicate the operation is in progress. The results can be retrieved later when the event specified in the <i>Event</i> parameter signals or the callback function in the <i>ApcRoutine</i> parameter is called.
+When called asynchronously, the **IcmpSendEcho2** function returns zero. A subsequent call to [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns extended error code **ERROR_IO_PENDING** to indicate that the operation is in progress. The results can be retrieved later when the event specified in the *Event* parameter signals, or the callback function in the *ApcRoutine* parameter is called.
 
-If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+If the return value is zero, then for extended error information call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-If the function fails, the extended error code returned by <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be one of the following values.
+If the function fails, then the extended error code returned by **GetLastError** can be one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>IcmpHandle</i> parameter contains an invalid handle. This error can also be returned if the <i>ReplySize</i> parameter specifies a value less than the size of an <a href="/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_IO_PENDING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation is in progress. This value is returned by a successful asynchronous call to <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a> and is not an indication of an error.  
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Not enough memory is available to complete the operation.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The request is not supported. This error is returned if no IPv4 stack is on the local computer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>IP_BUF_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The size of the <i>ReplyBuffer</i> specified in the <i>ReplySize</i> parameter was too small.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>Other</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use 
-<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|-|-|
+|**ERROR_INVALID_PARAMETER**|An invalid parameter was passed to the function. This error is returned if the *IcmpHandle* parameter contains an invalid handle. This error can also be returned if the *ReplySize* parameter specifies a value less than the size of an [ICMP_ECHO_REPLY](/windows/win32/api/ipexport/ns-ipexport-icmp_echo_reply) structure.|
+|**ERROR_IO_PENDING**|The operation is in progress. This value is returned by a successful asynchronous call to **IcmpSendEcho2**, and is not an indication of an error.|
+|**ERROR_NOT_ENOUGH_MEMORY**|Not enough memory is available to complete the operation.|
+|**ERROR_NOT_SUPPORTED**|The request is not supported. This error is returned if no IPv4 stack is on the local computer.|
+|**IP_BUF_TOO_SMALL**|The size of the *ReplyBuffer* specified in the *ReplySize* parameter was too small.|
+|**Other**|Use [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) to obtain the message string for the returned error.|
 
 ## -remarks
 
-The <b>IcmpSendEcho2</b> function is called synchronously if the <i>ApcRoutine</i> or <i>Event</i> parameters are <b>NULL</b>. When called synchronously, the return value contains the number of replies received and stored in <i>ReplyBuffer</i> after waiting for the time specified in the <i>Timeout</i> parameter. If the return value is zero, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+The **IcmpSendEcho2** function is called synchronously if the *ApcRoutine* or *Event* parameters are **NULL**. When called synchronously, the return value contains the number of replies received and stored in *ReplyBuffer* after waiting for the time specified in the *Timeout* parameter. If the return value is zero, then for extended error information call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-The <b>IcmpSendEcho2</b> function is called asynchronously when either the <i>ApcRoutine</i> or <i>Event</i> parameters are specified. When called asynchronously,  the <i>ReplyBuffer</i> and <i>ReplySize</i> parameters are  required to accept the response. ICMP response data is copied to the <i>ReplyBuffer</i> provided and the application is signaled (when the <i>Event</i> parameter is specified) or the callback function is called (when the <i>ApcRoutine</i> parameter is specified). The application must parse the data pointed to by <i>ReplyBuffer</i> parameter using the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a> function. 
+The **IcmpSendEcho2** function is called asynchronously when either the *ApcRoutine* or *Event* parameters are specified. When called asynchronously, the *ReplyBuffer* and *ReplySize* parameters are required to accept the response. ICMP response data is copied to the *ReplyBuffer* provided, and the application is signaled (when the *Event* parameter is specified) or the callback function is called (when the *ApcRoutine* parameter is specified). The application must parse the data pointed to by *ReplyBuffer* parameter using the [IcmpParseReplies](/windows/win32/api/icmpapi/nf-icmpapi-icmpparsereplies) function. 
 
-If the <i>Event</i> parameter is specified, the <b>IcmpSendEcho2</b> function is called asynchronously. The event specified in the <i>Event</i> parameter is signaled whenever an ICMP response arrives. Use the 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object. 
+If the *Event* parameter is specified, then the **IcmpSendEcho2** function is called asynchronously. The event specified in the *Event* parameter is signaled (at most once) when an ICMP response arrives. Use the [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa) or [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa) function to create this event object.
 
-If the <i>ApcRoutine</i> parameter is specified, the <b>IcmpSendEcho2</b> function is called asynchronously. The <i>ApcRoutine</i>  parameter should point to a user-defined callback function. The callback function specified in the <i>ApcRoutine</i> parameter is called whenever an ICMP response arrives. The invocation of the callback function specified in the <i>ApcRoutine</i> parameter is serialized. 
+If the *ApcRoutine* parameter is specified, then the **IcmpSendEcho2** function is called asynchronously. The *ApcRoutine* parameter should point to a user-defined callback function. The callback function specified in the *ApcRoutine* parameter is called (at most once) when an ICMP response arrives. The invocation of the callback function specified in the *ApcRoutine* parameter is serialized.
 
-If both the <i>Event</i> and <i>ApcRoutine</i> parameters are specified, the event specified in the <i>Event</i> parameter is signaled whenever an ICMP response arrives, but the callback function specified in the <i>ApcRoutine</i> parameter is ignored . 
+If both the *Event* and *ApcRoutine* parameters are specified, then the event specified in the *Event* parameter is signaled (at most once) when an ICMP response arrives, but the callback function specified in the *ApcRoutine* parameter is ignored.
 
-On Windows Vista and later, any application that calls <b>IcmpSendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>PIO_APC_ROUTINE</b> rather than <b>FARPROC</b>. <div class="alert"><b>Note</b>  <b>PIO_APC_ROUTINE_DEFINED</b> must be defined before the <i>Icmpapi.h</i> header file is included.</div>
-<div> </div>
+Any application that calls **IcmpSendEcho2** function asynchronously using the *ApcRoutine* parameter must define **PIO_APC_ROUTINE_DEFINED** to force the datatype for the *ApcRoutine* parameter to **PIO_APC_ROUTINE** rather than **FARPROC**.
 
+> [!NOTE]
+> **PIO_APC_ROUTINE_DEFINED** must be defined before the *Icmpapi.h* header file is included.
 
-On Windows Vista and later, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
+The callback function pointed to by the *ApcRoutine* must be defined as a function of type **VOID** with the following syntax:
 
-
-``` syntax
+```cpp
 typedef
 VOID WINAPI
 (*PIO_APC_ROUTINE) (
@@ -233,104 +152,25 @@ VOID WINAPI
     );
 ```
 
-On Windows Vista and later, the parameters passed to the callback function include the following:
+The parameters passed to the callback function include the following:
 
+|Parameter|Description|
+|-|-|
+|IN PVOID ApcContext|The *AppContext* parameter passed to the **IcmpSendEcho2** function. This parameter can be used by the application to identify the **IcmpSendEcho2** request that the callback function is responding to.|
+|IN PIO_STATUS_BLOCK IoStatusBlock|A pointer to a **IO_STATUS_BLOCK**. This variable contains the final completion status and information about the operation. The number of bytes actually received in the reply is returned in the *Information* member of the **IO_STATUS_BLOCK** struct.<br/><br/>The **IO_STATUS_BLOCK** structure is defined in the `Wdm.h` header file.|
+|IN ULONG Reserved|This parameter is reserved.|
 
+The callback function specified in the *ApcRoutine* parameter must be implemented in the same process as the application calling the **IcmpSendEcho2** function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the **IcmpSendEcho2** function. 
 
+The **IcmpSendEcho2** function is exported from the `Iphlpapi.dll`.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<a id="IN_PVOID_ApcContext"></a><a id="in_pvoid_apccontext"></a><a id="IN_PVOID_APCCONTEXT"></a>IN PVOID ApcContext
+For IPv6, use the [Icmp6CreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmp6createfile), [Icmp6SendEcho2](/windows/win32/api/icmpapi/nf-icmpapi-icmp6sendecho2), and [Icmp6ParseReplies](/windows/win32/api/icmpapi/nf-icmpapi-icmp6parsereplies) functions.
 
-</td>
-<td width="60%">
-The <i>ApcContext</i> parameter passed to the <b>IcmpSendEcho2</b> function. This parameter can be used by the application to identify the <b>IcmpSendEcho2</b> request that the callback function is responding to. 
+The include directive for the `Iphlpapi.h` header file must be placed before the one for the `Icmpapi.h` header file.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="IN_PIO_STATUS_BLOCK_IoStatusBlock"></a><a id="in_pio_status_block_iostatusblock"></a><a id="IN_PIO_STATUS_BLOCK_IOSTATUSBLOCK"></a>IN PIO_STATUS_BLOCK IoStatusBlock
+## Example
 
-</td>
-<td width="60%">
-A pointer to a <b>IO_STATUS_BLOCK</b>. This variable contains the final completion status and information about the operation.  The number of bytes actually received in the reply is returned in the <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> struct.
-
-The <b>IO_STATUS_BLOCK</b> structure is defined in the <i>Wdm.h</i> header file.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="IN_ULONG_Reserved"></a><a id="in_ulong_reserved"></a><a id="IN_ULONG_RESERVED"></a>IN ULONG Reserved
-
-</td>
-<td width="60%">
-This parameter is reserved. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
-On Windows Server 2003, Windows XP, and  Windows 2000, any application that calls the <b>IcmpSendEcho2</b> function asynchronously using the <i>ApcRoutine</i> parameter must not define <b>PIO_APC_ROUTINE_DEFINED</b> to force the datatype for the <i>ApcRoutine</i> parameter to <b>FARPROC</b> rather than <b>PIO_APC_ROUTINE</b>. 
-
-On Windows Server 2003 and Windows XP, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
-
-
-``` syntax
-typedef
-VOID WINAPI
-(*FARPROC) (
-    IN PVOID ApcContext,
-    );
-```
-
-On Windows Server 2003, Windows XP, and Windows 2000, the parameters passed to the callback function include the following:
-
-
-
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<a id="IN_PVOID_ApcContext"></a><a id="in_pvoid_apccontext"></a><a id="IN_PVOID_APCCONTEXT"></a>IN PVOID ApcContext
-
-</td>
-<td width="60%">
-The <i>ApcContext</i> parameter passed to the <b>IcmpSendEcho2</b> function. This parameter can be used by the application to identify the <b>IcmpSendEcho2</b> request that the callback function is responding to. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
-The callback function specified in the <i>ApcRoutine</i> parameter must be implemented in the same process as the application calling the <b>IcmpSendEcho2</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>IcmpSendEcho2</b> function. 
-
-The <b>IcmpSendEcho2</b> function is exported from the <i>Icmp.dll</i> on Windows 2000. The <b>IcmpSendEcho2</b> function is exported from the <i>Iphlpapi.dll</i> on Windows XP and later. Windows version checking is not recommended to use this function. Applications requiring portability  with this function across Windows 2000, Windows XP, Windows Server 2003 and later Windows versions should not statically link to either the <i>Icmp.lib</i> or the <i>Iphlpapi.lib</i> file. Instead, the application should check for the presence of <b>IcmpSendEcho2</b> in the <i>Iphlpapi.dll</i> with calls to <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.  Failing that, the application should check for the presence of <b>IcmpSendEcho2</b> in the <i>Icmp.dll</i> with  calls to <b>LoadLibrary</b> and <b>GetProcAddress</b>. 
-
-For IPv6, use the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile">Icmp6CreateFile</a>, <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2">Icmp6SendEcho2</a>, and <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> functions.
-
-Note that the include directive for <i>Iphlpapi.h</i> header file must be placed before the <i>Icmpapi.h</i> header file.
-
-
-#### Examples
-
-The following example calls the <b>IcmpSendEcho2</b> function synchronously. The example sends an ICMP echo request to the IP address specified on the command line and prints the information received from the first response.
-
+The following example calls the **IcmpSendEcho2** function synchronously. The example sends an ICMP echo request to the IP address specified on the command line, and prints the information received from the first response.
 
 ```cpp
 #include <winsock2.h>
@@ -343,9 +183,7 @@ The following example calls the <b>IcmpSendEcho2</b> function synchronously. The
 
 int __cdecl main(int argc, char **argv)
 {
-
-    // Declare and initialize variables
-
+    // Declare and initialize variables.
     HANDLE hIcmpFile;
     unsigned long ipaddr = INADDR_NONE;
     DWORD dwRetVal = 0;
@@ -354,7 +192,7 @@ int __cdecl main(int argc, char **argv)
     LPVOID ReplyBuffer = NULL;
     DWORD ReplySize = 0;
 
-    // Validate the parameters
+    // Validate the parameters.
     if (argc != 2) {
         printf("usage: %s IP address\n", argv[0]);
         return 1;
@@ -372,7 +210,8 @@ int __cdecl main(int argc, char **argv)
         printf("IcmpCreatefile returned error: %ld\n", GetLastError());
         return 1;
     }
-    // Allocate space for at a single reply
+
+    // Allocate space for a single reply.
     ReplySize = sizeof (ICMP_ECHO_REPLY) + sizeof (SendData) + 8;
     ReplyBuffer = (VOID *) malloc(ReplySize);
     if (ReplyBuffer == NULL) {
@@ -432,69 +271,23 @@ int __cdecl main(int argc, char **argv)
     }
     return 0;
 }
-
 ```
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
-
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventexa">CreateEventEx</a>
-
-
-
-<a href="/windows/desktop/Sync/event-objects">Event Objects</a>
-
-
-
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
-
-
-<a href="/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a>
-
-
-
-<a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
-
-
-
-<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a>
-
-
-
-<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile">Icmp6CreateFile</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2">Icmp6SendEcho2</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">IcmpCreateFile</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>
-
-
-
-<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
+* [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa)
+* [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa)
+* [Event objects](/windows/win32/Sync/event-objects)
+* [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
+* [ICMP_ECHO_REPLY](/windows/win32/api/ipexport/ns-ipexport-icmp_echo_reply)
+* [IP_OPTION_INFORMATION](/windows/win32/api/ipexport/ns-ipexport-ip_option_information)
+* [IP_OPTION_INFORMATION32](/windows/win32/api/ipexport/ns-ipexport-ip_option_information32)
+* [IPAddr](/windows/win32/api/inaddr/ns-inaddr-in_addr)
+* [Icmp6CreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmp6createfile)
+* [Icmp6ParseReplies](/windows/win32/api/icmpapi/nf-icmpapi-icmp6parsereplies)
+* [Icmp6SendEcho2](/windows/win32/api/icmpapi/nf-icmpapi-icmp6sendecho2)
+* [IcmpCloseHandle](/windows/win32/api/icmpapi/nf-icmpapi-icmpclosehandle)
+* [IcmpCreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmpcreatefile)
+* [IcmpParseReplies](/windows/win32/api/icmpapi/nf-icmpapi-icmpparsereplies)
+* [IcmpSendEcho](/windows/win32/api/icmpapi/nf-icmpapi-icmpsendecho)
+* [IcmpSendEcho2Ex](/windows/win32/api/icmpapi/nf-icmpapi-icmpsendecho2ex)

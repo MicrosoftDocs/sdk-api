@@ -6,7 +6,7 @@ helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","SetPositions metho
 old-location: dshow\imediaseeking_setpositions.htm
 tech.root: dshow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>SetPositions</code> method sets the current position and the stop position.
 

@@ -4,7 +4,7 @@ title: IMFTopologyServiceLookupClient (evr.h)
 description: Initializes a video mixer or presenter.
 helpviewer_keywords: ["IMFTopologyServiceLookupClient","IMFTopologyServiceLookupClient interface [Media Foundation]","IMFTopologyServiceLookupClient interface [Media Foundation]","described","c4215d08-3734-44b9-b053-0d49d89a90f6","evr/IMFTopologyServiceLookupClient","mf.imftopologyservicelookupclient"]
 old-location: mf\imftopologyservicelookupclient.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: c4215d08-3734-44b9-b053-0d49d89a90f6
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], IMFTopologyServiceLookupClient interface [Media Foundation],described, c4215d08-3734-44b9-b053-0d49d89a90f6, evr/IMFTopologyServiceLookupClient, mf.imftopologyservicelookupclient
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFTopologyServiceLookupClient
+archived: true
 ---
 
 # IMFTopologyServiceLookupClient interface
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Initializes a video mixer or presenter. This interface is implemented by mixers and presenters, and enables them to query the enhanced video renderer (EVR) for interface pointers.
 

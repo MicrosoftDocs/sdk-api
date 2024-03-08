@@ -8,7 +8,7 @@ ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoresegmentgroup
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -47,11 +47,11 @@ Defines constants that specify an adapter's memory segment grouping.
 
 ## -enum-fields
 
-### -field Local
+### -field Local:1
 
 Specifies a grouping of segments that is considered local to the adapter, and represents the fastest memory available to the GPU. Your application should target the local segment group as the target size for its working set.
 
-### -field NonLocal
+### -field NonLocal:1
 
 Specifies a grouping of segments that is considered non-local to the adapter, and may have slower performance than the local segment group.
 

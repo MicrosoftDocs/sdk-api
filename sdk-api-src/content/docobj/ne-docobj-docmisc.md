@@ -56,19 +56,19 @@ Provides miscellaneous property information about a document object.
 
 ## -enum-fields
 
-### -field DOCMISC_CANCREATEMULTIPLEVIEWS
+### -field DOCMISC_CANCREATEMULTIPLEVIEWS:1
 
 Object supports multiple views.
 
-### -field DOCMISC_SUPPORTCOMPLEXRECTANGLES
+### -field DOCMISC_SUPPORTCOMPLEXRECTANGLES:2
 
 Object supports complex rectangles and therefore implements <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>.
 
-### -field DOCMISC_CANTOPENEDIT
+### -field DOCMISC_CANTOPENEDIT:4
 
 Object supports activation in a separate window and therefore implements <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">IOleDocumentView::Open</a>.
 
-### -field DOCMISC_NOFILESUPPORT
+### -field DOCMISC_NOFILESUPPORT:8
 
 Object does not support file read/write.
 

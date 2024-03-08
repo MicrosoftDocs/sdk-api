@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetTexture
 title: IDirect3DDevice9::SetTexture (d3d9helper.h)
-description: Assigns a texture to a stage for a device.
+description: The IDirect3DDevice9::SetTexture method (d3d9helper.h) assigns a texture to a stage for a device.
 helpviewer_keywords: ["30fa2907-7b07-b99a-b9b6-50d38166ea7d","IDirect3DDevice9 interface [Direct3D 9]","SetTexture method","IDirect3DDevice9.SetTexture","IDirect3DDevice9::SetTexture","SetTexture","SetTexture method [Direct3D 9]","SetTexture method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetTexture","direct3d9.idirect3ddevice9__settexture"]
 old-location: direct3d9\idirect3ddevice9__settexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settexture.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 30fa2907-7b07-b99a-b9b6-50d38166ea7d, IDirect3DDevice9 interface [Direct3D 9],SetTexture method, IDirect3DDevice9.SetTexture, IDirect3DDevice9::SetTexture, SetTexture, SetTexture method [Direct3D 9], SetTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTexture, direct3d9.idirect3ddevice9__settexture
 req.header: d3d9helper.h
 req.include-header: D3D9.h

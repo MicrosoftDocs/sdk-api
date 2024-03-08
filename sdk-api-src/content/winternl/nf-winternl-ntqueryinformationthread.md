@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtQueryInformationThread
 title: NtQueryInformationThread function (winternl.h)
-description: Retrieves information about the specified thread.
+description: Retrieves information about the specified thread. (NtQueryInformationThread)
 helpviewer_keywords: ["NtQueryInformationThread","NtQueryInformationThread function","base.ntqueryinformationthread","winternl/NtQueryInformationThread"]
 old-location: base\ntqueryinformationthread.htm
 tech.root: backup
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

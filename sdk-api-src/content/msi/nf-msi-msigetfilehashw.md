@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiGetFileHashW
 title: MsiGetFileHashW function (msi.h)
-description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table.
-helpviewer_keywords: ["MsiGetFileHash","MsiGetFileHash function","MsiGetFileHashA","MsiGetFileHashW","_msi_msigetfilehash","msi/MsiGetFileHash","msi/MsiGetFileHashA","msi/MsiGetFileHashW","setup.msigetfilehash"]
+description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table. (Unicode)
+helpviewer_keywords: ["MsiGetFileHash", "MsiGetFileHash function", "MsiGetFileHashW", "_msi_msigetfilehash", "msi/MsiGetFileHash", "msi/MsiGetFileHashW", "setup.msigetfilehash"]
 old-location: setup\msigetfilehash.htm
 tech.root: setup
 ms.assetid: afd9f0b4-432f-4d23-b59d-7406ac2f68bb

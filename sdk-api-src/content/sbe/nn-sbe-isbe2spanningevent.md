@@ -11,7 +11,7 @@ ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Tech
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Implements in-band spanning events for the Stream Buffer Engine, version 2 (SBE2). An <i>in-band spanning event</i> is an in-band event  that can be recorded as part of the state information in a stream.
 
  Spanning events have a defined validity period within a Stream Buffer Interface file and may be recovered after a seek operation, updated, or deleted. Spanning events are intended for data with a defined lifespan, such as Digital Rights Management (DRM) keys or ratings information.
@@ -58,7 +60,7 @@ Implements in-band spanning events for the Stream Buffer Engine, version 2 (SBE2
 
 The <b>ISBE2SpanningEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2SpanningEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -71,7 +71,7 @@ A handle to the parent window.
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A structure that defines the 
 				client coordinates (relative to <i>hwndParent</i>) 
@@ -165,7 +165,7 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

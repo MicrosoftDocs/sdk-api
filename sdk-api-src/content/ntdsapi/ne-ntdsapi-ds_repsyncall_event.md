@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_6
+UID: NE:ntdsapi.DS_REPSYNCALL_EVENT
 title: DS_REPSYNCALL_EVENT (ntdsapi.h)
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
 helpviewer_keywords: ["DS_REPSYNCALL_EVENT","DS_REPSYNCALL_EVENT enumeration [Active Directory]","DS_REPSYNCALL_EVENT_ERROR","DS_REPSYNCALL_EVENT_FINISHED","DS_REPSYNCALL_EVENT_SYNC_COMPLETED","DS_REPSYNCALL_EVENT_SYNC_STARTED","ad.ds_repsyncall_event","ntdsapi/DS_REPSYNCALL_EVENT","ntdsapi/DS_REPSYNCALL_EVENT_ERROR","ntdsapi/DS_REPSYNCALL_EVENT_FINISHED","ntdsapi/DS_REPSYNCALL_EVENT_SYNC_COMPLETED","ntdsapi/DS_REPSYNCALL_EVENT_SYNC_STARTED"]
@@ -54,22 +54,23 @@ The <b>DS_REPSYNCALL_EVENT</b> enumeration is used with the <a href="/windows/de
 
 ## -enum-fields
 
-### -field DS_REPSYNCALL_EVENT_ERROR
+### -field DS_REPSYNCALL_EVENT_ERROR:0
 
 An error occurred. Error data is stored in the <b>pErrInfo</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a> structure.
 
-### -field DS_REPSYNCALL_EVENT_SYNC_STARTED
+### -field DS_REPSYNCALL_EVENT_SYNC_STARTED:1
 
 Synchronization of two servers has started. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>.
 
-### -field DS_REPSYNCALL_EVENT_SYNC_COMPLETED
+### -field DS_REPSYNCALL_EVENT_SYNC_COMPLETED:2
 
 Synchronization of two servers has just finished. The servers involved in the synchronization are identified by the <b>pSync</b> member of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a> structure. The <b>pErrInfo</b> member of the <b>DS_REPSYNCALL_UPDATE</b> structure is <b>NULL</b>.
 
-### -field DS_REPSYNCALL_EVENT_FINISHED
+### -field DS_REPSYNCALL_EVENT_FINISHED:3
 
 Execution of <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasyncalla">DsReplicaSyncAll</a> is complete. Both the <b>pErrInfo</b> and <b>pSync</b> members of the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a> structure are <b>NULL</b>. The return value of the callback function is ignored.
 
 ## -see-also
 
 <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repsyncall_updatea">DS_REPSYNCALL_UPDATE</a>
+

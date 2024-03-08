@@ -6,7 +6,7 @@ helpviewer_keywords: ["WMCheckURLScheme","WMCheckURLScheme function [windows Med
 old-location: wmformat\wmcheckurlscheme.htm
 tech.root: wmformat
 ms.assetid: b62c8cd1-0b70-4cae-8e9e-bad6634f2dfa
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: WMCheckURLScheme, WMCheckURLScheme function [windows Media Format], wmformat.wmcheckurlscheme, wmsdkvalidate/WMCheckURLScheme
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>WMCheckURLScheme</b> function examines a network protocol and compares it to an internal list of supported schemes. If you are writing an application that can handle many different network protocols, you can use this function to ascertain quickly whether a network address can be handled using the methods of the Windows Media Format SDK.
 

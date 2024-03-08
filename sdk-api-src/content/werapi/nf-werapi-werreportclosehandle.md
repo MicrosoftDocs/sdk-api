@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerReportCloseHandle
 title: WerReportCloseHandle function (werapi.h)
-description: Closes the specified report.
+description: Closes the specified Windows Error Reporting (WER) report.
 helpviewer_keywords: ["WerReportCloseHandle","WerReportCloseHandle function [Windows Error Reporting]","base.werreportclosehandle","wer.werreportclosehandle","werapi/WerReportCloseHandle"]
 old-location: wer\werreportclosehandle.htm
 tech.root: wer
 ms.assetid: b7326003-cd25-4988-9ed4-31c2e030beec
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error Reporting], base.werreportclosehandle, wer.werreportclosehandle, werapi/WerReportCloseHandle
 req.header: werapi.h
 req.include-header: 
@@ -50,29 +50,20 @@ api_name:
 
 # WerReportCloseHandle function
 
-
 ## -description
 
-Closes the specified report.
+Closes the specified [Windows Error Reporting](../_wer/index.md) (WER) report.
 
 ## -parameters
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the [WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate) function.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure.
+This function returns **S_OK** on success or an error code on failure.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerReportCreate](/windows/desktop/api/werapi/nf-werapi-werreportcreate), [Windows Error Reporting](/windows/desktop/wer)

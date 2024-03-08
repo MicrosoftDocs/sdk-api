@@ -84,7 +84,7 @@ For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI
 
 ## -remarks
 
-This method should not be used just to validate user credentials. For information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="https://support.microsoft.com/kb/180548">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
+This method should not be used just to validate user credentials. 
 
 When <i>lnReserved</i> is set, the behavior of <b>OpenDSObject</b> depends on the provider it connects to. High security namespaces may ignore these flags and always require authentication.
 

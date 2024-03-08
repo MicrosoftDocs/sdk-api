@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSemaphoreA
 title: CreateSemaphoreA function (winbase.h)
-description: Creates or opens a named or unnamed semaphore object.
+description: Creates or opens a named or unnamed semaphore object. (CreateSemaphoreA)
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
 tech.root: backup
@@ -11,8 +11,8 @@ ms.keywords: CreateSemaphoreA, CreateSemaphoreA function, CreateSemaphoreW, base
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

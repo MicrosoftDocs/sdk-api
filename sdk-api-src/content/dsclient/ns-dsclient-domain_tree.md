@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.__unnamed_struct_3
+UID: NS:dsclient.DOMAIN_TREE
 title: DOMAIN_TREE (dsclient.h)
 description: The DOMAINTREE structure contains data about a node in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method. Each of the domains in the tree node are represented by a DOMAINDESC structure.
 helpviewer_keywords: ["*LPDOMAINTREE","*PDOMAIN_TREE","DOMAINTREE","DOMAINTREE structure [Active Directory]","DOMAIN_TREE","DOMAIN_TREE structure [Active Directory]","LPDOMAINTREE","LPDOMAINTREE structure pointer [Active Directory]","PDOMAIN_TREE","PDOMAIN_TREE structure pointer [Active Directory]","_glines_domaintree","ad.domaintree","dsclient/DOMAINTREE","dsclient/DOMAIN_TREE","dsclient/LPDOMAINTREE","dsclient/PDOMAIN_TREE"]
@@ -88,3 +88,4 @@ For more information about how to access and use the data in this structure, see
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains">IDsBrowseDomainTree::GetDomains</a>
+

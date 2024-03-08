@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv6AddressToStringExW
 title: RtlIpv6AddressToStringExW function (ip2string.h)
-description: Converts an IPv6 address, scope ID, and port number to a string.
-helpviewer_keywords: ["RtlIpv6AddressToStringEx","RtlIpv6AddressToStringEx function [IP Helper]","RtlIpv6AddressToStringExW","ip2string/RtlIpv6AddressToStringEx","ip2string/RtlIpv6AddressToStringExW","iphlp.rtlipv6addresstostringex"]
+description: Converts an IPv6 address, scope ID, and port number to a string. (Unicode)
+helpviewer_keywords: ["RtlIpv6AddressToStringEx", "RtlIpv6AddressToStringEx function [IP Helper]", "RtlIpv6AddressToStringExW", "ip2string/RtlIpv6AddressToStringEx", "ip2string/RtlIpv6AddressToStringExW", "iphlp.rtlipv6addresstostringex"]
 old-location: iphlp\rtlipv6addresstostringex.htm
 tech.root: IpHlp
 ms.assetid: a7de2da3-21ea-42fa-9474-f33252838632
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 

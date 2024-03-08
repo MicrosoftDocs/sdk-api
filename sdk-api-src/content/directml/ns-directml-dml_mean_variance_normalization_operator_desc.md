@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC
 title: DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC
-description: Performs a mean variance normalization function on the input tensor. This operator will calculate the mean and variance of the input tensor to perform normalization.
+description: Performs a mean variance normalization function on the input tensor. This operator will calculate the mean and variance of the input tensor to perform normalization. (DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC)
 helpviewer_keywords: ["DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC","DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_mean_variance_normalization_operator_desc","directml/DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_mean_variance_normalization_operator_desc.htm
 tech.root: directml
 ms.assetid: AF70005F-BDBB-45C9-9066-70A574D5BC0E
-ms.date: 11/03/2020
+ms.date: 05/02/2023
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -64,13 +64,13 @@ A tensor containing the Input data. This tensor's dimensions should be `{ BatchC
 
 Type: \_Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional tensor containing the Scale data. This tensor's dimensions should be `{ BatchCount, ChannelCount, Height, Width }`. Any dimension can be replaced with 1 to broadcast in that dimension. This tensor is required if the *BiasTensor* is used.
+An optional tensor containing the Scale data. This tensor's dimensions should be `{ BatchCount, ChannelCount, Height, Width }`. Any dimension can be replaced with 1 to broadcast in that dimension. If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_5_2**, then this tensor is required if *BiasTensor* is present. If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_5_2**, then this tensor can be null regardless of the value of *BiasTensor*.
 
 ### -field BiasTensor
 
 Type: \_Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An optional tensor containing the bias data. This tensor's dimensions should be `{ BatchCount, ChannelCount, Height, Width }`. Any dimension can be replaced with 1 to broadcast in that dimension. This tensor is required if the *ScaleTensor* is used.
+An optional tensor containing the bias data. This tensor's dimensions should be `{ BatchCount, ChannelCount, Height, Width }`. Any dimension can be replaced with 1 to broadcast in that dimension. If **DML_FEATURE_LEVEL** is less than **DML_FEATURE_LEVEL_5_2**, then this tensor is required if *ScaleTensor* is present. If **DML_FEATURE_LEVEL** is greater than or equal to **DML_FEATURE_LEVEL_5_2**, then this tensor can be null regardless of the value of *ScaleTensor*.
 
 ### -field OutputTensor
 
@@ -80,19 +80,19 @@ A tensor to write the results to. This tensor's dimensions are `{ BatchCount, Ch
 
 ### -field CrossChannel
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">BOOL</a></b>
 
-**TRUE** if the MeanVariance layer includes channels in the Mean and Variance calculations. Otherwise, **FALSE**.
+When **TRUE**, the MeanVariance layer includes channels in the Mean and Variance calculations, meaning they are normalized across axes `{ChannelCount, Height, Width}`. When **FALSE**, Mean and Variance calculations are normalized across axes `{Height, Width}` with each channel being independent.
 
 ### -field NormalizeVariance
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">BOOL</a></b>
 
 **TRUE** if the Normalization layer includes Variance in the normalization calculation. Otherwise, **FALSE**. If **FALSE**, then normalization equation is `Output = FusedActivation(Scale * (Input - Mean) + Bias)`.
 
 ### -field Epsilon
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 The epsilon value to use to avoid division by zero. A value of 0.00001 is recommended as default.
 
@@ -100,7 +100,7 @@ The epsilon value to use to avoid division by zero. A value of 0.00001 is recomm
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the normalization.
+An optional fused activation layer to apply after the normalization. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 ## -remarks
 A newer version of this operator, [DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_mean_variance_normalization1_operator_desc), was introduced in `DML_FEATURE_LEVEL_2_1`.
@@ -122,4 +122,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## -see-also
 
-[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

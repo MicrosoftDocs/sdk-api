@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - appmodel.h
 api_name:
@@ -69,4 +69,4 @@ The caller of this function must have administrative privileges if the package d
 [TryCreatePackageDependency](nf-appmodel-trycreatepackagedependency.md)
 
 
-[Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)
+[Use the dynamic dependency API to reference MSIX packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api)

@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdrom interface [Windows Media Player]","eject method
 old-location: wmp\iwmpcdrom_eject.htm
 tech.root: WMP
 ms.assetid: 1b17c405-0887-4948-b375-c1ebcf2a72b3
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdrom interface [Windows Media Player],eject method, IWMPCdrom.eject, IWMPCdrom::eject, IWMPCdromeject, eject, eject method [Windows Media Player], eject method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_eject, wmp/IWMPCdrom::eject
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>eject</b> method ejects the CD or DVD from the drive.
 

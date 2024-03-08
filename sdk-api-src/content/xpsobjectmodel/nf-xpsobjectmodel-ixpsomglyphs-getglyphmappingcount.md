@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphMappingCount
 title: IXpsOMGlyphs::GetGlyphMappingCount (xpsobjectmodel.h)
-description: Gets the number of glyph mappings.
+description: Gets the number of glyph mappings. (IXpsOMGlyphs.GetGlyphMappingCount)
 helpviewer_keywords: ["GetGlyphMappingCount","GetGlyphMappingCount method [XPS Documents and Packaging]","GetGlyphMappingCount method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetGlyphMappingCount method","IXpsOMGlyphs.GetGlyphMappingCount","IXpsOMGlyphs::GetGlyphMappingCount","xps.ixpsomglyphs_getglyphmappingcount","xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappingCount"]
 old-location: xps\ixpsomglyphs_getglyphmappingcount.htm
 tech.root: xps
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

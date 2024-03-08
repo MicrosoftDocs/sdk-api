@@ -9,7 +9,7 @@ ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.date: 12/05/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
 req.header: ioapiset.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -71,7 +71,6 @@ A handle to the file, named pipe, or communications device. This is the same han
 - [WaitCommEvent](../winbase/nf-winbase-waitcommevent.md)
 - [ReadDirectoryChangesW](../winbase/nf-winbase-readdirectorychangesw.md)
 - [LockFileEx](../fileapi/nf-fileapi-lockfileex.md)
-- [ReadDirectoryChangesW](../winbase/nf-winbase-readdirectorychangesw.md)
 
 ### -param lpOverlapped [in]
 

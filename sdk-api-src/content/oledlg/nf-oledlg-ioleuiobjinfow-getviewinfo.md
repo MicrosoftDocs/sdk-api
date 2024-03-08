@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetViewInfo
 title: IOleUIObjInfoW::GetViewInfo (oledlg.h)
-description: Gets the view information associated with the object.
+description: Gets the view information associated with the object. (Unicode)
 helpviewer_keywords: ["GetViewInfo","GetViewInfo method [COM]","GetViewInfo method [COM]","IOleUIObjInfo interface","GetViewInfo method [COM]","IOleUIObjInfoA interface","GetViewInfo method [COM]","IOleUIObjInfoW interface","IOleUIObjInfo interface [COM]","GetViewInfo method","IOleUIObjInfo::GetViewInfo","IOleUIObjInfoA interface [COM]","GetViewInfo method","IOleUIObjInfoA::GetViewInfo","IOleUIObjInfoW interface [COM]","GetViewInfo method","IOleUIObjInfoW.GetViewInfo","IOleUIObjInfoW::GetViewInfo","_ole_IOleUIObjInfo_GetViewInfo","com.ioleuiobjinfo_getviewinfo","oledlg/IOleUIObjInfo::GetViewInfo","oledlg/IOleUIObjInfoA::GetViewInfo","oledlg/IOleUIObjInfoW::GetViewInfo"]
 old-location: com\ioleuiobjinfo_getviewinfo.htm
 tech.root: com

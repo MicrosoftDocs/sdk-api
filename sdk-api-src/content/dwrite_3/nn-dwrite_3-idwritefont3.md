@@ -54,9 +54,9 @@ Represents a font in a font collection.
 
 ## -inheritance
 
-The <b>IDWriteFont3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritefont2">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
+The <b>IDWriteFont3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefont2">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritefont2">IDWriteFont2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefont2">IDWriteFont2</a>
 

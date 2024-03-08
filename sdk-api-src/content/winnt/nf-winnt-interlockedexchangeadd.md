@@ -82,12 +82,12 @@ this function must be aligned on a 32-bit boundary; otherwise, this function wil
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">_InterlockedExchangeAdd</a>
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/cpp/intrinsics/interlockedexchangeadd-intrinsic-functions">_InterlockedExchangeAdd</a>
 
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddAcquire</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddacquire">InterlockedExchangeAddAcquire</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -102,35 +102,35 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchange</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchange">InterlockedExchange</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd64</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeadd64">InterlockedExchangeAdd64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddAcquire</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddacquire">InterlockedExchangeAddAcquire</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddAcquire64</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddacquire64">InterlockedExchangeAddAcquire64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddNoFence</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddnofence">InterlockedExchangeAddNoFence</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddNoFence64</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddnofence64">InterlockedExchangeAddNoFence64</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddRelease</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddrelease">InterlockedExchangeAddRelease</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAddRelease64</a>
+<a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangeaddrelease64">InterlockedExchangeAddRelease64</a>
 
 
 

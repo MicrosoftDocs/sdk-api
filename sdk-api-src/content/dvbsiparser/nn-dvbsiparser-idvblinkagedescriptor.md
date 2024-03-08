@@ -11,7 +11,7 @@ ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft T
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Defines methods that get data from a Digital Video Broadcast (DVB) linkage descriptor. The linkage descriptor appears as part of the DVB service information in the network information table (NIT), bouquet association table (BAT), service description table (SDT), event information table (EIT), or service information table (SIT). 
 
 The linkage descriptor identifies a service that can be presented if the consumer requests additional
@@ -60,6 +62,6 @@ NIT points to a service that provides additional information on the network, whi
 
 The <b>IDvbLinkageDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbLinkageDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

@@ -87,7 +87,7 @@ The DirectDrawClipper object can be attached to a DirectDrawSurface and used dur
 
 To create a DirectDrawClipper object that is not owned by a specific DirectDraw object, use the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateclipper">DirectDrawCreateClipper</a> function.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>CreateClipper</b> method.
+
 
 ## -see-also
 

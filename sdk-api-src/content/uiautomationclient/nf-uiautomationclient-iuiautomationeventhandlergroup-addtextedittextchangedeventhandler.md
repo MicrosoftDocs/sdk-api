@@ -55,11 +55,11 @@ Registers a method that handles programmatic text-edit events.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param scope [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
-### -param unnamedParam2 [in]
+### -param textEditChangeType [in]
 
 The specific change type to listen for. Clients register for each text-edit change type separately, so that the UI Automation system can check for registered listeners at run-time and avoid raising events for particular text-edit changes when there are no listeners.
 

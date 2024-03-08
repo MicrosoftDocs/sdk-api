@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerRegisterCustomMetadata
 title: WerRegisterCustomMetadata function (werapi.h)
-description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
+description: Registers app-specific metadata to be collected (in the form of key/value strings) for the Windows Error Reporting (WER) error report.
 helpviewer_keywords: ["WerRegisterCustomMetadata","WerRegisterCustomMetadata function [Windows Error Reporting]","wer.werregistercustommetadata","werapi/WerRegisterCustomMetadata"]
 old-location: wer\werregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 55FB3110-314A-4327-AA8F-3AF77B7006DD
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerRegisterCustomMetadata, WerRegisterCustomMetadata function [Windows Error Reporting], wer.werregistercustommetadata, werapi/WerRegisterCustomMetadata
 req.header: werapi.h
 req.include-header: 
@@ -41,7 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-1.dll
  - KernelBase.dll
 api_name:
  - WerRegisterCustomMetadata
@@ -49,10 +49,9 @@ api_name:
 
 # WerRegisterCustomMetadata function
 
-
 ## -description
 
-Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
+Registers app-specific metadata to be collected (in the form of key/value strings) for the [Windows Error Reporting](../_wer/index.md) (WER) error report.
 
 ## -parameters
 
@@ -66,58 +65,14 @@ The value string for the metadata element being registered.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Strings were <b>NULL</b>, key length was greater than 64 characters or was an invalid xml element name, or <i>value</i> length was greater than 128 characters or contained characters that were not ASCII printable characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-WER could not allocate a large enough heap for the data
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The maximum number of registered entries (<b>WER_MAX_REGISTERED_ENTRIES</b>) or  maximum amount of registered metadata (<b>WER_MAX_REGISTERED_METADATA</b>) has been reached.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALIDARG**|Strings were **NULL**, key length was greater than 64 characters or was an invalid xml element name, or *value* length was greater than 128 characters or contained characters that were not ASCII printable characters.|
+|**E_OUTOFMEMORY**|WER could not allocate a large enough heap for the data|
+|**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**|The maximum number of registered entries (**WER_MAX_REGISTERED_ENTRIES**) or  maximum amount of registered metadata (**WER_MAX_REGISTERED_METADATA**) has been reached.|
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
 
 ## -remarks
 
@@ -125,12 +80,4 @@ This API allows apps to integrate their own app-level telemetry with system-leve
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werunregistercustommetadata">WerUnregisterCustomMetadata</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerUnregisterCustomMetadata](/windows/desktop/api/werapi/nf-werapi-werunregistercustommetadata), [Windows Error Reporting](/windows/desktop/wer)

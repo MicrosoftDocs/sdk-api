@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents4","IWMPEvents4 interface [Windows Media Player
 old-location: wmp\iwmpevents4.htm
 tech.root: WMP
 ms.assetid: b846ef23-1206-4a0b-866f-558b99b73f1d
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents4, IWMPEvents4 interface [Windows Media Player], IWMPEvents4 interface [Windows Media Player],described, wmp.iwmpevents4, wmp/IWMPEvents4
 req.header: wmp.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents4</a> interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event. The event exposed by <b>IWMPEvents4</b> is also exposed by the <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
 
 ## -inheritance
 
 The <b>IWMPEvents4</b> interface inherits from <b>IWMPEvents3</b>. <b>IWMPEvents4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

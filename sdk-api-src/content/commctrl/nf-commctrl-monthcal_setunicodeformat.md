@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SetUnicodeFormat
 title: MonthCal_SetUnicodeFormat macro (commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: Sets the Unicode character format flag for the control. (MonthCal_SetUnicodeFormat)
 helpviewer_keywords: ["MonthCal_SetUnicodeFormat","MonthCal_SetUnicodeFormat macro [Windows Controls]","_win32_MonthCal_SetUnicodeFormat","_win32_MonthCal_SetUnicodeFormat_cpp","commctrl/MonthCal_SetUnicodeFormat","controls.MonthCal_SetUnicodeFormat","controls._win32_MonthCal_SetUnicodeFormat"]
 old-location: controls\MonthCal_SetUnicodeFormat.htm
 tech.root: Controls

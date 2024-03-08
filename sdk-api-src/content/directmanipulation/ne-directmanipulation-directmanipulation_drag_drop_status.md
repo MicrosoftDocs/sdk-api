@@ -54,27 +54,27 @@ Defines the drag-and-drop interaction states for the viewport.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_DRAG_DROP_READY
+### -field DIRECTMANIPULATION_DRAG_DROP_READY:0
 
 The viewport is at rest and ready for input.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_PRESELECT
+### -field DIRECTMANIPULATION_DRAG_DROP_PRESELECT:1
 
 The viewport is updating its content and the content is not selected.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_SELECTING
+### -field DIRECTMANIPULATION_DRAG_DROP_SELECTING:2
 
 The viewport is updating its content and the content is selected.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_DRAGGING
+### -field DIRECTMANIPULATION_DRAG_DROP_DRAGGING:3
 
 The viewport is updating its content and the content is being dragged.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_CANCELLED
+### -field DIRECTMANIPULATION_DRAG_DROP_CANCELLED:4
 
 The viewport has concluded the interaction and requests a revert.
 
-### -field DIRECTMANIPULATION_DRAG_DROP_COMMITTED
+### -field DIRECTMANIPULATION_DRAG_DROP_COMMITTED:5
 
 The viewport has concluded the interaction and requests a commit.
 

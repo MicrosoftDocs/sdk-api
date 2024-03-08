@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHLocalStrDupA
 title: SHLocalStrDupA function (shlwapi.h)
-description: Makes a copy of a string in newly allocated memory.
-helpviewer_keywords: ["SHLocalStrDup","SHLocalStrDup function [Windows Shell]","SHLocalStrDupA","SHLocalStrDupW","_shell_SHLocalStrDup","shell.SHLocalStrDup","shlwapi/SHLocalStrDup","shlwapi/SHLocalStrDupA","shlwapi/SHLocalStrDupW"]
+description: Makes a copy of a string in newly allocated memory. (SHLocalStrDupA)
+helpviewer_keywords: ["SHLocalStrDupA", "shlwapi/SHLocalStrDupA"]
 old-location: shell\SHLocalStrDup.htm
 tech.root: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd

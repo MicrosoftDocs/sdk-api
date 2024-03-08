@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadSelectedCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: GetThreadSelectedCpuSets
 ms.date: 03/15/2021
 ms.topic: language-reference
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the [**SetThreadSelectedCpuSets**](setthreadselectedcpusets.md) API. If no explicit assignment is set, **RequiredIdCount** is set to 0 and the function returns TRUE.
+Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the [**SetThreadSelectedCpuSets**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets) API. If no explicit assignment is set, **RequiredIdCount** is set to 0 and the function returns TRUE.
 
 
 ## -parameters

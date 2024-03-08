@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule2.put_EdgeTraversalOptions
 title: INetFwRule2::put_EdgeTraversalOptions (netfw.h)
-description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
+description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE. (Put)
 helpviewer_keywords: ["EdgeTraversalOptions property [ICS/ICF]","EdgeTraversalOptions property [ICS/ICF]","INetFwRule2 interface","INetFwRule2 interface [ICS/ICF]","EdgeTraversalOptions property","INetFwRule2.EdgeTraversalOptions","INetFwRule2.put_EdgeTraversalOptions","INetFwRule2::EdgeTraversalOptions","INetFwRule2::get_EdgeTraversalOptions","INetFwRule2::put_EdgeTraversalOptions","ics.inetfwrule2_edgetraversaloptions","netfw/INetFwRule2::EdgeTraversalOptions","netfw/INetFwRule2::get_EdgeTraversalOptions","netfw/INetFwRule2::put_EdgeTraversalOptions","put_EdgeTraversalOptions"]
 old-location: ics\inetfwrule2_edgetraversaloptions.htm
 tech.root: ics

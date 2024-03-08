@@ -59,7 +59,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the 
-    registry.
+    registry.<div> </div><div class="alert"><b>Note</b>  On Windows Server 2022, the Microsoft\Windows\Multimedia\SystemSoundsService task in Task Scheduler is disabled. This task will need to be enabled for MessageBeep to function.</div>
 
 ## -parameters
 

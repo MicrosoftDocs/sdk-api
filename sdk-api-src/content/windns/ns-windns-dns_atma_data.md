@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_34
+UID: NS:windns.DNS_ATMA_DATA
 title: DNS_ATMA_DATA (windns.h)
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
 helpviewer_keywords: ["*PDNS_ATMA_DATA","DNS_ATMA_DATA","DNS_ATMA_DATA structure [DNS]","DNS_ATMA_FORMAT_AESA","DNS_ATMA_FORMAT_E164","PDNS_ATMA_DATA","PDNS_ATMA_DATA structure pointer [DNS]","_dns_dns_atma_data","dns.dns_atma_data","windns/DNS_ATMA_DATA","windns/PDNS_ATMA_DATA"]

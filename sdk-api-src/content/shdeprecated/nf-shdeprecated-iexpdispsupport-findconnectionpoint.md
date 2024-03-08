@@ -6,7 +6,7 @@ helpviewer_keywords: ["DIID_DWebBrowserEvents","DIID_DWebBrowserEvents2","FindCo
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
 tech.root: shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoint, FindConnectionPoint method [Windows Shell], FindConnectionPoint method [Windows Shell],IExpDispSupport interface, IExpDispSupport interface [Windows Shell],FindConnectionPoint method, IExpDispSupport.FindConnectionPoint, IExpDispSupport::FindConnectionPoint, IID_IPropertyNotifySink, shdeprecated/IExpDispSupport::FindConnectionPoint, shell.IExpDispSupport_FindCIE4ConnectionPoint, zone_IExpDispSupport_FindCIE4ConnectionPoint
 req.header: shdeprecated.h
 req.include-header: 
@@ -65,13 +65,13 @@ The IID of the interface on the connection point container whose connection poin
 
 #### DIID_DWebBrowserEvents
 
-Value that indicates a member of the <a href="/dotnet/api/shdocvw.dwebbrowserevents?view=dynamics-usd-3">DWebBrowserEvents</a> interface.
+Value that indicates a member of the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768309(v=vs.85)">DWebBrowserEvents</a> interface.
 
 
 
 #### DIID_DWebBrowserEvents2
 
-Value that indicates a member of the <a href="/dotnet/api/shdocvw.dwebbrowserevents2?view=dynamics-usd-3">DWebBrowserEvents2</a> interface.
+Value that indicates a member of the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768283(v=vs.85)">DWebBrowserEvents2</a> interface.
 
 
 

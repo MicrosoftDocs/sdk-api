@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstUint32A
 title: MI_ConstUint32A (mi.h)
-description: Represents an array of MI_Uint32 types.
+description: Represents an array of MI_Uint32 types. (MI_ConstUint32A)
 helpviewer_keywords: ["MI_ConstUint32A","MI_ConstUint32A structure [Windows Management Infrastructure (MI)]","mi/MI_ConstUint32A","wmi._mi_constuint32a","wmi_v2.mi_constuint32a"]
 old-location: wmi_v2\mi_constuint32a.htm
 tech.root: wmi_v2

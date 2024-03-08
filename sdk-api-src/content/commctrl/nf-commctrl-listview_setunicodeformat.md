@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetUnicodeFormat
 title: ListView_SetUnicodeFormat macro (commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: Sets the Unicode character format flag for the control. (ListView_SetUnicodeFormat)
 helpviewer_keywords: ["ListView_SetUnicodeFormat","ListView_SetUnicodeFormat macro [Windows Controls]","_win32_ListView_SetUnicodeFormat","_win32_ListView_SetUnicodeFormat_cpp","commctrl/ListView_SetUnicodeFormat","controls.ListView_SetUnicodeFormat","controls._win32_ListView_SetUnicodeFormat"]
 old-location: controls\ListView_SetUnicodeFormat.htm
 tech.root: Controls

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetAccessibilityShortDescription
 title: IXpsOMPath::SetAccessibilityShortDescription (xpsobjectmodel.h)
-description: Sets the short textual description of the object's contents.
+description: Sets the short textual description of the object's contents. (IXpsOMPath.SetAccessibilityShortDescription)
 helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetAccessibilityShortDescription method","IXpsOMPath.SetAccessibilityShortDescription","IXpsOMPath::SetAccessibilityShortDescription","SetAccessibilityShortDescription","SetAccessibilityShortDescription method [XPS Documents and Packaging]","SetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setaccessibilityshortdescription","xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription"]
 old-location: xps\ixpsompath_setaccessibilityshortdescription.htm
 tech.root: xps
@@ -72,4 +72,4 @@ In the document markup, the value that is set in <i>shortDescription</i> will be
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

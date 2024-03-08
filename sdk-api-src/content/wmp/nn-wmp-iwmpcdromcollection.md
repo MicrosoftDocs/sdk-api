@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPCdromCollection","IWMPCdromCollection interface [Wind
 old-location: wmp\iwmpcdromcollection.htm
 tech.root: WMP
 ms.assetid: ba55ac32-149d-4f7b-a2bb-1fdb0be806cd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPCdromCollection, IWMPCdromCollection interface [Windows Media Player], IWMPCdromCollection interface [Windows Media Player],described, IWMPCdromCollectionInterface, wmp.iwmpcdromcollection, wmp/IWMPCdromCollection
 req.header: wmp.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPCdromCollection</b> interface provides a way to organize and access a collection of CD or DVD drives.
 
 ## -inheritance
 
 The <b>IWMPCdromCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPCdromCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

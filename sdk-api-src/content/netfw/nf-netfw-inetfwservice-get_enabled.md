@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwService.get_Enabled
 title: INetFwService::get_Enabled (netfw.h)
-description: Indicates whether all the ports associated with the service are enabled.
+description: Indicates whether all the ports associated with the service are enabled. (Get)
 helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwService interface","INetFwService interface [ICS/ICF]","Enabled property","INetFwService.Enabled","INetFwService.get_Enabled","INetFwService::Enabled","INetFwService::get_Enabled","INetFwService::put_Enabled","get_Enabled","ics.inetfwservice_enabled","netfw/INetFwService::Enabled","netfw/INetFwService::get_Enabled","netfw/INetFwService::put_Enabled"]
 old-location: ics\inetfwservice_enabled.htm
 tech.root: ics

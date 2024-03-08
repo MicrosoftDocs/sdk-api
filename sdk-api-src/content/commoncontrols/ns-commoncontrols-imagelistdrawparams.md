@@ -1,12 +1,12 @@
 ---
 UID: NS:commoncontrols._IMAGELISTDRAWPARAMS
 title: IMAGELISTDRAWPARAMS (commoncontrols.h)
-description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
+description: The IMAGELISTDRAWPARAMS structure contains information about an image list draw operation. This structure is used with the IImageList::Draw function.  
 helpviewer_keywords: ["*LPIMAGELISTDRAWPARAMS","BLACKNESS","CLR_DEFAULT","CLR_NONE","DSTINVERT","IMAGELISTDRAWPARAMS","IMAGELISTDRAWPARAMS structure [Windows Controls]","MERGECOPY","MERGEPAINT","NOTSRCCOPY","NOTSRCERASE","PATCOPY","PATINVERT","PATPAINT","SRCAND","SRCCOPY","SRCERASE","SRCINVERT","SRCPAINT","WHITENESS","_win32_IMAGELISTDRAWPARAMS","_win32_IMAGELISTDRAWPARAMS_cpp","commoncontrols/IMAGELISTDRAWPARAMS","controls.IMAGELISTDRAWPARAMS","controls._win32_IMAGELISTDRAWPARAMS"]
 old-location: controls\IMAGELISTDRAWPARAMS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS'
 req.header: commoncontrols.h
 req.include-header: Commctrl.h

@@ -54,43 +54,43 @@ Specifies the logical screen descriptor properties for Graphics Interchange Form
 
 ## -enum-fields
 
-### -field WICGifLogicalScreenSignature
+### -field WICGifLogicalScreenSignature:0x1
 
  [VT_UI1 | VT_VECTOR] Indicates the signature property.
 
-### -field WICGifLogicalScreenDescriptorWidth
+### -field WICGifLogicalScreenDescriptorWidth:0x2
 
 [VT_UI2] Indicates the width in pixels.
 
-### -field WICGifLogicalScreenDescriptorHeight
+### -field WICGifLogicalScreenDescriptorHeight:0x3
 
 [VT_UI2] Indicates the height in pixels.
 
-### -field WICGifLogicalScreenDescriptorGlobalColorTableFlag
+### -field WICGifLogicalScreenDescriptorGlobalColorTableFlag:0x4
 
 [VT_BOOL] Indicates the  global color table flag. <b>TRUE</b> if a global color table is present; otherwise, <b>FALSE</b>.
 
-### -field WICGifLogicalScreenDescriptorColorResolution
+### -field WICGifLogicalScreenDescriptorColorResolution:0x5
 
 [VT_UI1] Indicates the color resolution in bits per pixel.
 
-### -field WICGifLogicalScreenDescriptorSortFlag
+### -field WICGifLogicalScreenDescriptorSortFlag:0x6
 
 [VT_BOOL] Indicates the sorted color table flag. <b>TRUE</b> if the table is sorted; otherwise, <b>FALSE</b>.
 
-### -field WICGifLogicalScreenDescriptorGlobalColorTableSize
+### -field WICGifLogicalScreenDescriptorGlobalColorTableSize:0x7
 
 [VT_UI1] Indicates the value used to calculate the number of bytes contained in the global color table. 
 
 To calculate the actual size of the color table, raise 2 to the value of the field + 1.
 
-### -field WICGifLogicalScreenDescriptorBackgroundColorIndex
+### -field WICGifLogicalScreenDescriptorBackgroundColorIndex:0x8
 
 [VT_UI1] Indicates the index within the color table to use for the background (pixels not defined in the image).
 
-### -field WICGifLogicalScreenDescriptorPixelAspectRatio
+### -field WICGifLogicalScreenDescriptorPixelAspectRatio:0x9
 
 [VT_UI1] Indicates the factor used to compute an approximation of the aspect ratio.
 
-### -field WICGifLogicalScreenDescriptorProperties_FORCE_DWORD
+### -field WICGifLogicalScreenDescriptorProperties_FORCE_DWORD:0x7fffffff
 

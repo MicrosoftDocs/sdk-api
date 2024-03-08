@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetSystemCpuSetInformation
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: GetSystemCpuSetInformation
 ms.date: 03/12/2021
 ms.topic: language-reference

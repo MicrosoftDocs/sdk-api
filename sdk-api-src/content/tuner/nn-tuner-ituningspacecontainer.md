@@ -11,7 +11,7 @@ ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft T
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>ITuningSpaceContainer</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> object. It provides access to all tuning spaces installed on the host system.
 
 ## -inheritance
 
 The <b>ITuningSpaceContainer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuningSpaceContainer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

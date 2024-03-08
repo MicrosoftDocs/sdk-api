@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere&,constBoundingOrientedBox&)
 title: BoundingSphere::CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &)
-description: Creates a BoundingSphere containing the specified BoundingBox.
+description: Creates a BoundingSphere containing the specified BoundingBox. (overload 1/2)
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingSphere.CreateFromBoundingBox","BoundingSphere.CreateFromBoundingBox(BoundingSphere &","const BoundingOrientedBox &)","BoundingSphere::CreateFromBoundingBox","BoundingSphere::CreateFromBoundingBox(BoundingSphere &","const BoundingOrientedBox &)","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingSphere interface","Use DirectX..BoundingSphere.CreateFromBoundingBox","Use DirectX::::BoundingSphere::CreateFromBoundingBox","dxmath.boundingsphere_createfromboundingbox"]
 old-location: dxmath\boundingsphere_createfromboundingbox.htm
 tech.root: dxmath

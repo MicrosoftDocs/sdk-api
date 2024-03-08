@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.UuidToString
 title: UuidToString function (rpcdce.h)
-description: The UuidToString function converts a UUID to a string.
+description: The UuidToString function (rpcdce.h) converts a UUID to a string.
 helpviewer_keywords: ["UuidToString","UuidToString function [RPC]","UuidToStringA","UuidToStringW","_rpc_uuidtostring","rpc.uuidtostring","rpcdce/UuidToString","rpcdce/UuidToStringA","rpcdce/UuidToStringW"]
 old-location: rpc\uuidtostring.htm
 tech.root: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -59,12 +59,13 @@ The
 
 ### -param Uuid [in]
 
-Pointer to a binary 
-<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
+Pointer to a binary [UUID](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid).
 
 ### -param StringUuid [out]
 
 Pointer to the null-terminated string into which the <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
+
+The UUID format is **xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**.
 
 ## -returns
 

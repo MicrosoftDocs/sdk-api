@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogCollection.PopulateByQuery
 title: ICatalogCollection::PopulateByQuery (comadmin.h)
-description: Reserved for future use.
+description: Reserved for future use. (ICatalogCollection.PopulateByQuery)
 helpviewer_keywords: ["ICatalogCollection interface [COM+]","PopulateByQuery method","ICatalogCollection.PopulateByQuery","ICatalogCollection::PopulateByQuery","PopulateByQuery","PopulateByQuery method [COM+]","PopulateByQuery method [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_PopulateByQuery","comadmin/ICatalogCollection::PopulateByQuery","cos.icatalogcollection_populatebyquery"]
 old-location: cos\icatalogcollection_populatebyquery.htm
 tech.root: cos

@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsAsync
 title: IVdsAsync (vdshwprv.h)
-description: Manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface, allowing the caller to optionally cancel, wait for, or query the status of the asynchronous operation.
+description: The IVdsAsync (vdshwprv.h) interface manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface.
 helpviewer_keywords: ["IVdsAsync","IVdsAsync interface [VDS]","IVdsAsync interface [VDS]","described","base.ivdsasync","vds/IVdsAsync","vdshwprv/IVdsAsync"]
 old-location: base\ivdsasync.htm
 tech.root: base
 ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Manages asynchronous 
    operations. Methods that initiate asynchronous operations return a pointer to an 

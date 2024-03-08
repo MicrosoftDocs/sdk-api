@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 Gets the capabilities of an auxiliary connector, specified by index.
 
 ## -parameters
@@ -103,7 +105,7 @@ Receives the number of analog video standards that the connector supports.
 
 ### -param AnalogStds [out]
 
-Receives a bitwise <b>OR</b> of flags from the <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
+Receives a bitwise <b>OR</b> of flags from the <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration, specifying which analog video standards the connector supports.
 
 ## -returns
 

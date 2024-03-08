@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.Clone
 title: IXpsOMGeometry::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMGeometry.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","Clone method","IXpsOMGeometry.Clone","IXpsOMGeometry::Clone","xps.ixpsomgeometry_clone","xpsobjectmodel/IXpsOMGeometry::Clone"]
 old-location: xps\ixpsomgeometry_clone.htm
 tech.root: xps
@@ -108,7 +108,7 @@ Not enough memory to perform this operation.
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

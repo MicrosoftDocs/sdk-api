@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectoryEx
 title: LookupIconIdFromDirectoryEx function (winuser.h)
-description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+description: Searches through icon or cursor data for the icon or cursor that best fits the current display device. (LookupIconIdFromDirectoryEx)
 helpviewer_keywords: ["LR_DEFAULTCOLOR","LR_MONOCHROME","LookupIconIdFromDirectoryEx","LookupIconIdFromDirectoryEx function [Menus and Other Resources]","_win32_LookupIconIdFromDirectoryEx","_win32_lookupiconidfromdirectoryex_cpp","menurc.lookupiconidfromdirectoryex","winui._win32_lookupiconidfromdirectoryex","winuser/LookupIconIdFromDirectoryEx"]
 old-location: menurc\lookupiconidfromdirectoryex.htm
 tech.root: menurc
@@ -50,7 +50,12 @@ api_name:
 
 ## -description
 
-Searches through icon or cursor data for the icon or cursor that best fits the current display device.
+Searches through icon (<b>RT_GROUP_ICON</b>) or cursor (<b>RT_GROUP_CURSOR</b>) resource data for the icon or cursor that best fits the current display device.
+
+If more than one image exists in resource group, this method uses the following criteria to choose an image:
+-   The image closest but not exceed the requested size is selected.
+-   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
+-   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
 
 ## -parameters
 
@@ -117,7 +122,7 @@ Creates a monochrome icon or cursor.
 
 Type: <b>int</b>
 
-If the function succeeds, the return value is an integer resource identifier for the icon or cursor that best fits the current display device. 
+If the function succeeds, the return value is an integer resource identifier for the icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) that best fits the current display device. 
 
 If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -125,16 +130,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 A resource file of type <b>RT_GROUP_ICON</b> (<b>RT_GROUP_CURSOR</b> indicates cursors) contains icon (or cursor) data in several device-dependent and device-independent formats. <b>LookupIconIdFromDirectoryEx</b> searches the resource file for the icon (or cursor) that best fits the current display device and returns its integer identifier. The <a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> and <a href="/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> functions use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with this identifier to locate the resource in the module. 
 
-The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon to be loaded. <b>LookupIconIdFromDirectoryEx</b> returns an integer identifier that is the resource name of the icon that best fits the current display device. 
+The icon directory is loaded from a resource file with resource type <b>RT_GROUP_ICON</b> (or <b>RT_GROUP_CURSOR</b> for cursors), and an integer resource name for the specific icon (<b>RT_ICON</b>) or cursor (<b>RT_CURSOR</b>) to be loaded. 
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> and <a href="/windows/win32/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> functions may be used to create a corresponding icon or cursor. 
 
-The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device. 
-
+The <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a> functions use this function to search the specified resource data for the icon or cursor that best fits the current display device. <a href="/windows/win32/api/commctrl/nf-commctrl-loadiconwithscaledown">LoadIconWithScaleDown</a> uses alternative search criteria for a best fit.
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/win32/menurc/using-icons#sharing-icon-resources">Sharing Icon Resources</a>.
 
 ## -see-also
 

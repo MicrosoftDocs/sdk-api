@@ -3,7 +3,7 @@ UID: NA:presentationtypes
 title: Presentationtypes.h header
 ms.date: 06/08/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: comp_swapchain
 f1_keywords:
  - presentationtypes
@@ -15,7 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by composition swapchain. For more information, see:
+This header is used by Composition swapchain. For more information, see:
 
 - [Composition swapchain](../_comp_swapchain/index.md)
 

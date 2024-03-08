@@ -54,27 +54,27 @@ Identifies a shader type for tracing.
 
 ## -enum-fields
 
-### -field D3D11_VERTEX_SHADER
+### -field D3D11_VERTEX_SHADER:1
 
 Identifies a vertex shader.
 
-### -field D3D11_HULL_SHADER
+### -field D3D11_HULL_SHADER:2
 
 Identifies a hull shader.
 
-### -field D3D11_DOMAIN_SHADER
+### -field D3D11_DOMAIN_SHADER:3
 
 Identifies a domain shader.
 
-### -field D3D11_GEOMETRY_SHADER
+### -field D3D11_GEOMETRY_SHADER:4
 
 Identifies a geometry shader.
 
-### -field D3D11_PIXEL_SHADER
+### -field D3D11_PIXEL_SHADER:5
 
 Identifies a pixel shader.
 
-### -field D3D11_COMPUTE_SHADER
+### -field D3D11_COMPUTE_SHADER:6
 
 Identifies a compute shader.
 

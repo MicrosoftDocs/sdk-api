@@ -1,12 +1,12 @@
 ---
 UID: NS:mfcaptureengine.MFVideoNormalizedRect
 title: MFVideoNormalizedRect (mfcaptureengine.h)
-description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
+description: The MFVideoNormalizedRect (mfcaptureengine.h) structure defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 helpviewer_keywords: ["MFVideoNormalizedRect","MFVideoNormalizedRect structure [Media Foundation]","c1dd42ca-64a0-4f30-82e1-eda3f4721526","evr/MFVideoNormalizedRect","mf.mfvideonormalizedrect"]
 old-location: mf\mfvideonormalizedrect.htm
 tech.root: mf
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 req.header: mfcaptureengine.h
 req.include-header: Mfcaptureengine.h, Mfmediaengine.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureId
 title: IXpsSignature::GetSignatureId (xpsdigitalsignature.h)
-description: Gets the value of the Id attribute of the Signature element.
+description: Gets the value of the Id attribute of the Signature element. (IXpsSignature.GetSignatureId)
 helpviewer_keywords: ["GetSignatureId","GetSignatureId method [XPS Documents and Packaging]","GetSignatureId method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetSignatureId method","IXpsSignature.GetSignatureId","IXpsSignature::GetSignatureId","xps.ixpssignature_getsignatureid","xpsdigitalsignature/IXpsSignature::GetSignatureId"]
 old-location: xps\ixpssignature_getsignatureid.htm
 tech.root: xps
@@ -120,7 +120,7 @@ This method allocates the memory used by the string that is returned in <i>sigId
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>
 
 
 

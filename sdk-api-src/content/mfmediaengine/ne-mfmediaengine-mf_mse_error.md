@@ -54,19 +54,19 @@ Defines the different error states of the Media Source Extension.
 
 ## -enum-fields
 
-### -field MF_MSE_ERROR_NOERROR
+### -field MF_MSE_ERROR_NOERROR:0
 
 Specifies no error.
 
-### -field MF_MSE_ERROR_NETWORK
+### -field MF_MSE_ERROR_NETWORK:1
 
 Specifies an error with the network.
 
-### -field MF_MSE_ERROR_DECODE
+### -field MF_MSE_ERROR_DECODE:2
 
 Specifies an error with decoding.
 
-### -field MF_MSE_ERROR_UNKNOWN_ERROR
+### -field MF_MSE_ERROR_UNKNOWN_ERROR:3
 
 Specifies an unknown error.
 

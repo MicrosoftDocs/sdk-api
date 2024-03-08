@@ -50,8 +50,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>Â Â This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
-<div>Â </div>
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
+<div> </div>
 
 
 The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Source filter within the Video Control.
@@ -60,7 +62,7 @@ The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Sour
 
 The <b>IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetMachineTypeAttributes
-tech.root: security
+tech.root: processthreadsapi
 title: GetMachineTypeAttributes
 ms.date: 09/28/2021
 targetos: Windows
@@ -31,6 +31,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
 api_name:
  - GetMachineTypeAttributes
 f1_keywords:

@@ -84,7 +84,8 @@ _SourceId_ field of the
 that is passed to
 [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).
 
-> Note that the _SourceId_ is the value the session specified in the call to the
+> [!Note]
+> The _SourceId_ is the value the session specified in the call to the
 > EnableTraceEx or EnableTraceEx2 API. It may or may not be the same as the
 > session's GUID.
 
@@ -105,11 +106,12 @@ the following values:
 | **EVENT_CONTROL_CODE_ENABLE_PROVIDER** (1)  | One or more sessions have enabled the provider.                                                                                                       |
 | **EVENT_CONTROL_CODE_CAPTURE_STATE** (2)    | A session is requesting that the provider log its state information. The provider will typically respond by writing events containing provider state. |
 
-> Note that the value of _IsEnabled_ may not be the same as the _ControlCode_
-> passed to the **EnableTrace** API that triggered this event. For example, if
-> two sessions have enabled this provider and one session disables this provider
-> by calling `EnableTraceEx2(..., EVENT_CONTROL_CODE_DISABLE_PROVIDER, ...)`,
-> the provider would receive a notification with _IsEnabled_ set to
+> [!Note]
+> The value of _IsEnabled_ may not be the same as the _ControlCode_ passed to
+> the **EnableTrace** API that triggered this event. For example, if two
+> sessions have enabled this provider and one session disables this provider by
+> calling `EnableTraceEx2(..., EVENT_CONTROL_CODE_DISABLE_PROVIDER, ...)`, the
+> provider would receive a notification with _IsEnabled_ set to
 > `EVENT_CONTROL_CODE_ENABLE_PROVIDER` because the provider is still enabled by
 > the other session.
 
@@ -213,6 +215,7 @@ stops a trace via
 call the provider's **EnableCallback** function with the resulting updated
 configuration.
 
+> [!Note]
 > Most event providers will not implement **EnableCallback** directly. Instead,
 > most event providers are implemented using an ETW framework that provides its
 > own **EnableCallback** implementation and wraps the calls to
@@ -233,15 +236,16 @@ configuration.
 > notification callback to be specified via
 > [TraceLoggingRegisterEx](/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex).
 
-**IMPORTANT:** The provider's **EnableCallback** function should be as simple as
-possible. It should record the required information and return quickly. A
-long-running callback function can cause delays in ETW session control APIs such
-as **EnableTraceEx2** or **ControlTrace**. The callback function must not do
-anything that requires the process's loader lock, i.e. it must not directly or
-indirectly call **LoadLibrary** or **FreeLibrary**. The callback function must
-not block on locks. The callback function may cause a deadlock if it blocks on
-locks or if it invokes any ETW session control APIs such as **StartTrace**,
-**ControlTrace**, or **EnableTrace**.
+> [!Important]
+> The provider's **EnableCallback** function should be as simple as
+> possible. It should record the required information and return quickly. A
+> long-running callback function can cause delays in ETW session control APIs such
+> as **EnableTraceEx2** or **ControlTrace**. The callback function must not do
+> anything that requires the process's loader lock, i.e. it must not directly or
+> indirectly call **LoadLibrary** or **FreeLibrary**. The callback function must
+> not block on locks. The callback function may cause a deadlock if it blocks on
+> locks or if it invokes any ETW session control APIs such as **StartTrace**,
+> **ControlTrace**, or **EnableTrace**.
 
 The notification callback allows the event provider to run more efficiently
 because the provider can perform its own tracking of the level, keywords, and

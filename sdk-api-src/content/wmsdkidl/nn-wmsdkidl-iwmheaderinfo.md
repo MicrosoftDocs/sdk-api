@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMHeaderInfo","IWMHeaderInfo interface [windows Media Fo
 old-location: wmformat\iwmheaderinfo.htm
 tech.root: wmformat
 ms.assetid: 649f9a73-c70a-4524-b577-366ade969f2f
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], IWMHeaderInfo interface [windows Media Format],described, IWMHeaderInfoInterface, wmformat.iwmheaderinfo, wmsdkidl/IWMHeaderInfo
 req.header: wmsdkidl.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMHeaderInfo</b> interface sets and retrieves information in the header section of an ASF file. You can manipulate three types of header information by using the methods of this interface: metadata attributes, <a href="/windows/desktop/wmformat/wmformat-glossary">markers</a>, and script commands.
 
 Metadata attributes are name/value pairs that describe or relate to the contents of the file. Typical metadata attributes contain information about the artist, title, and performance details of the content. The Windows Media Format SDK includes a large selection of predefined metadata attributes that you can use in your files. See <a href="/windows/desktop/wmformat/attributes">Attributes</a> for a complete listing of predefined attributes. Additionally, you can create your own attributes.
@@ -66,7 +68,7 @@ The <b>IWMHeaderInfo</b> interface is implemented by the metadata editor object,
 
 The <b>IWMHeaderInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMHeaderInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

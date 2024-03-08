@@ -1,12 +1,12 @@
 ---
 UID: NC:resapi.POPEN_ROUTINE
 title: POPEN_ROUTINE (resapi.h)
-description: Opens a resource.
+description: The POPEN_ROUTINE callback function opens a resource. The POPEN_ROUTINE type defines a pointer to this function.
 helpviewer_keywords: ["Open","Open callback","Open callback function [Failover Cluster]","POPEN_ROUTINE","POPEN_ROUTINE callback function [Failover Cluster]","_wolf_open","mscs.open","resapi/Open","resapi/POPEN_ROUTINE"]
 old-location: mscs\open.htm
 tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POPEN_ROUTINE, POPEN_ROUTINE callback function [Failover Cluster], _wolf_open, mscs.open, resapi/Open, resapi/POPEN_ROUTINE
 req.header: resapi.h
 req.include-header: 

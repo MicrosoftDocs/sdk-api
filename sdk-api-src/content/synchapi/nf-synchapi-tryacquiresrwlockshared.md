@@ -48,13 +48,13 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - ntdll.dll
+ - vertdll.dll
 api_name:
  - TryAcquireSRWLockShared
  - RtlTryAcquireSRWLockShared
 ---
 
 # TryAcquireSRWLockShared function
-
 
 ## -description
 
@@ -78,12 +78,12 @@ Successful acquistition of a slim reader/writer (SRW) lock in shared mode genera
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared">AcquireSRWLockShared</a>
+[AcquireSRWLockShared](nf-synchapi-acquiresrwlockshared.md)
 
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
+[TryAcquireSRWLockExclusive](nf-synchapi-tryacquiresrwlockexclusive.md)
 
-
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive">TryAcquireSRWLockExclusive</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -31,7 +31,7 @@ landingContent:
           - text: Development tools
             url: https://developer.microsoft.com/windows/downloads
           - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
+            url: https://learn.microsoft.com/windows/apps/get-started/samples
 
   # Card
   - title: User Interface and desktop
@@ -216,3 +216,7 @@ landingContent:
             url: /windows/win32/midl
           - text: Compression API
             url: _cmpapi/index.md
+          - text: Activity Coordinator
+            url: _activity_coordinator/index.md
+          - text: Hardware Requirement Evaluator (HWREQCHK)
+            url: _hwreqchk/index.md

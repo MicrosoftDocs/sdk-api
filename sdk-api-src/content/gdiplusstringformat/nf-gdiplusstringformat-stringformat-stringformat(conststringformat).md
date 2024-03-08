@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(constStringFormat)
 title: StringFormat::StringFormat(IN const StringFormat) (gdiplusstringformat.h)
-description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.
+description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class. (overload 2/2)
 helpviewer_keywords: ["StringFormat","StringFormat constructors [GDI+]","StringFormat.StringFormat","StringFormat.StringFormat(IN const StringFormat)","StringFormat::StringFormat","StringFormat::StringFormat(IN const StringFormat)","_gdiplus_CLASS_StringFormat_Constructors","gdiplus._gdiplus_CLASS_StringFormat_Constructors","gdiplusstringformat/StringFormat"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Constructors.htm
 tech.root: gdiplus

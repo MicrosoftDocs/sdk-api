@@ -1,12 +1,12 @@
 ---
 UID: NF:werapi.WerRegisterExcludedMemoryBlock
 title: WerRegisterExcludedMemoryBlock function (werapi.h)
-description: Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.
+description: Marks a memory block (that is normally included by default in error reports) to be excluded from the Windows Error Reporting (WER) error report.
 helpviewer_keywords: ["WerRegisterExcludedMemoryBlock","WerRegisterExcludedMemoryBlock function [Windows Error Reporting]","wer.werregisterexcludedmemoryblock","werapi/WerRegisterExcludedMemoryBlock"]
 old-location: wer\werregisterexcludedmemoryblock.htm
 tech.root: wer
 ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133
-ms.date: 12/05/2018
+ms.date: 07/25/2023
 ms.keywords: WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock
 req.header: werapi.h
 req.include-header: 
@@ -49,10 +49,9 @@ api_name:
 
 # WerRegisterExcludedMemoryBlock function
 
-
 ## -description
 
-Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.
+Marks a memory block (that is normally included by default in error reports) to be excluded from the [Windows Error Reporting](../_wer/index.md) (WER) error report.
 
 ## -parameters
 
@@ -66,71 +65,19 @@ The size of the memory block, in bytes.
 
 ## -returns
 
-This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
+This function returns **S_OK** on success or an error code on failure, including the following error codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>address</i> is <b>NULL</b> or <i>size</i> is 0.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-WER could not allocate a large enough heap for the data
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The number of registered entries exceeds the limit (<b>WER_MAX_REGISTERED_ENTRIES</b>).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WER_E_INVALID_STATE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|**E_INVALIDARG**|*address* is **NULL** or *size* is 0.|
+|**E_OUTOFMEMORY**|WER could not allocate a large enough heap for the data|
+|**HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)**|The number of registered entries exceeds the limit (**WER_MAX_REGISTERED_ENTRIES**).|
+|**WER_E_INVALID_STATE**|The process state is not valid. For example, the process is in application recovery mode.|
 
 ## -remarks
 
-This mechanism is intended for applications that hold large amounts of data in memory that aren't useful for root cause debugging and increase the size of the dump file unnecessarily.  For example, some Xbox One games hold large amounts of texture data in memory that is included in error dumps by default.
+This mechanism is intended for applications that hold large amounts of data in memory that aren't useful for root cause debugging and increase the size of the dump file unnecessarily.  For example, some games hold large amounts of texture data in memory that is included in error dumps by default.
 
 ## -see-also
 
-<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="/windows/desktop/api/werapi/nf-werapi-werunregisterexcludedmemoryblock">WerUnregisterExcludedMemoryBlock</a>
-
-
-
-<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
+[WerUnregisterExcludedMemoryBlock](/windows/desktop/api/werapi/nf-werapi-werunregisterexcludedmemoryblock), [Windows Error Reporting](/windows/desktop/wer)

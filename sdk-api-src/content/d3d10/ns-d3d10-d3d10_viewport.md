@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_VIEWPORT
 title: D3D10_VIEWPORT (d3d10.h)
-description: Defines the dimensions of a viewport.
+description: Defines the dimensions of a viewport. (D3D10_VIEWPORT)
 helpviewer_keywords: ["D3D10_VIEWPORT","D3D10_VIEWPORT structure [Direct3D 10]","d3d10/D3D10_VIEWPORT","direct3d10.d3d10_viewport","fabe1f82-a825-d3c2-8bfb-f2f706d1c57d"]
 old-location: direct3d10\d3d10_viewport.htm
 tech.root: direct3d10

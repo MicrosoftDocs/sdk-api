@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.RectF.RectF
 title: RectF::RectF (gdiplustypes.h)
-description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor.
+description: Creates a RectF object and initializes the X, Y, Width, and Height data members to zero. This is the default constructor. (RectF.RectF)
 helpviewer_keywords: ["RectF","RectF class [GDI+]","RectF constructor","RectF constructor [GDI+]","RectF constructor [GDI+]","RectF class","RectF.RectF","RectF.RectF()","RectF::RectF","_gdiplus_CLASS_RectF_RectF_","gdiplus._gdiplus_CLASS_RectF_RectF_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 tech.root: gdiplus

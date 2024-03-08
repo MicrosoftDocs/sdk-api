@@ -1,12 +1,12 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
 title: IGraphBuilder::RenderFile (strmif.h)
-description: The RenderFile method builds a filter graph that renders the specified file.
+description: The RenderFile method builds a filter graph that renders the specified file. (IGraphBuilder.RenderFile)
 helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","RenderFile method","IGraphBuilder.RenderFile","IGraphBuilder::RenderFile","IGraphBuilderRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_renderfile","strmif/IGraphBuilder::RenderFile"]
 old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: dshow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
 req.header: strmif.h
 req.include-header: Dshow.h
@@ -50,6 +50,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <code>RenderFile</code> method builds a filter graph that renders the specified file.
 

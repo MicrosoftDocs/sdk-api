@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryDriveExtents
 title: IVdsStoragePool::QueryDriveExtents (vdshwprv.h)
-description: Returns an array of the drive extents that are used by a storage pool.
+description: The IVdsStoragePool::QueryDriveExtents (vdshwprv.h) method returns an array of the drive extents that are used by a storage pool.
 helpviewer_keywords: ["IVdsStoragePool interface","QueryDriveExtents method","IVdsStoragePool.QueryDriveExtents","IVdsStoragePool::QueryDriveExtents","QueryDriveExtents","QueryDriveExtents method","QueryDriveExtents method","IVdsStoragePool interface","base.ivdsstoragepool_querydriveextents","vds/IVdsStoragePool::QueryDriveExtents","vdshwprv/IVdsStoragePool::QueryDriveExtents"]
 old-location: base\ivdsstoragepool_querydriveextents.htm
 tech.root: base
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an array of the drive extents that are used by a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 

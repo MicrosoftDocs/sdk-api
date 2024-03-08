@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","get_isRemo
 old-location: wmp\iwmpplayer4_get_isremote.htm
 tech.root: WMP
 ms.assetid: 0b4f76f2-f62a-4c91-bbc4-166c450608dd
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_isRemote method, IWMPPlayer4.get_isRemote, IWMPPlayer4::get_isRemote, IWMPPlayer4get_isRemote, get_isRemote, get_isRemote method [Windows Media Player], get_isRemote method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_isremote, wmp/IWMPPlayer4::get_isRemote
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>get_isRemote</b> method retrieves a value indicating whether the Windows Media Player control is running in remote mode.
 

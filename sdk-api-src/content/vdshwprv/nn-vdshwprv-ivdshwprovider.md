@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsHwProvider
 title: IVdsHwProvider (vdshwprv.h)
-description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
+description: The IVdsHwProvider (vdshwprv.h) interface provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
 helpviewer_keywords: ["IVdsHwProvider","IVdsHwProvider interface [VDS]","IVdsHwProvider interface [VDS]","described","base.ivdshwprovider","vds/IVdsHwProvider","vdshwprv/IVdsHwProvider"]
 old-location: base\ivdshwprovider.htm
 tech.root: base
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS],described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for 
    performing query, reenumeration, and refresh operations on a hardware provider.

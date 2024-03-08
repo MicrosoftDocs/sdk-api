@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV 
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IStreamBufferRecComp</b> interface is used to create new content recordings by concatenating existing recordings. The new recording can be created from a mix of reference and content recordings.
 
 The Stream Buffer <a href="/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object exposes this interface.
@@ -58,7 +60,7 @@ The Stream Buffer <a href="/previous-versions/windows/desktop/mstv/reccomp-objec
 
 The <b>IStreamBufferRecComp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecComp</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

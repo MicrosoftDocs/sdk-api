@@ -113,7 +113,7 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 A scalar tensor containing a single integer value representing the current training step count. This value along with *Beta1* and *Beta2* is used to compute the exponential decay of the first and second moment estimate tensors.
 
-Typically the training step value starts at 0 at the beginning of training, and is incremented by 1 on each successive training step. This operator doesn't update the training step value; you should do that manually, for example using [DML_OPERATOR_ELEMENT_WISE_ADD](./DML_ELEMENT_WISE_ADD_OPERATOR_DESC.md).
+Typically the training step value starts at 0 at the beginning of training, and is incremented by 1 on each successive training step. This operator doesn't update the training step value; you should do that manually, for example using [DML_OPERATOR_ELEMENT_WISE_ADD](/windows/win32/api/directml/ns-directml-dml_element_wise_add_operator_desc).
 
 This tensor must be a scalar (that is, all *Sizes* equal to 1) and have data type [**DML_TENSOR_DATA_TYPE_UINT32**](/windows/win32/api/directml/ne-directml-dml_tensor_data_type).
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:winuser.GetMessage
 title: GetMessage function (winuser.h)
-description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval.
+description: The GetMessage function retrieves a message from the calling thread's message queue. (GetMessage)
 helpviewer_keywords: ["GetMessage","GetMessage function [Windows and Messages]","GetMessageA","GetMessageW","_win32_GetMessage","_win32_getmessage_cpp","winmsg.getmessage","winui._win32_getmessage","winuser/GetMessage","winuser/GetMessageA","winuser/GetMessageW"]
 old-location: winmsg\getmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA, GetMessageW, _win32_GetMessage, _win32_getmessage_cpp, winmsg.getmessage, winui._win32_getmessage, winuser/GetMessage, winuser/GetMessageA, winuser/GetMessageW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -63,9 +63,8 @@ req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ## -description
 
 Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval. 
-			
 
-Unlike <b>GetMessage</b>, the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function does not wait for a message to be posted before returning.
+<b>GetMessage</b> functions like <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, however, <b>GetMessage</b> blocks until a message is posted before returning.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._LUID
 title: LUID (winnt.h)
-description: Describes a local identifier for an adapter.
+description: Describes a local identifier for an adapter. (LUID)
 helpviewer_keywords: ["*PLUID","LUID","LUID structure [DXGI]","_LUID","direct3ddxgi._luid","winnt/LUID"]
 old-location: direct3ddxgi\_luid.htm
 tech.root: direct3ddxgi

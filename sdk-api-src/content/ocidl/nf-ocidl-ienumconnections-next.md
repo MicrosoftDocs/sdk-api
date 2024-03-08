@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IEnumConnections.Next
 title: IEnumConnections::Next (ocidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: Retrieves the specified number of items in the enumeration sequence. (IEnumConnections.Next)
 helpviewer_keywords: ["IEnumConnections interface [COM]","Next method","IEnumConnections.Next","IEnumConnections::Next","Next","Next method [COM]","Next method [COM]","IEnumConnections interface","_com_ienumconnections_next","com.ienumconnections_next","ocidl/IEnumConnections::Next"]
 old-location: com\ienumconnections_next.htm
 tech.root: com

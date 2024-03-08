@@ -50,11 +50,13 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>DVDMenuID</b> constants define menu type ID numbers used to display specific menus.
 
 ## -enum-fields
 
-### -field dvdMenu_Title
+### -field dvdMenu_Title:2
 
 Title menu, also called the Video Manager Menu.
 

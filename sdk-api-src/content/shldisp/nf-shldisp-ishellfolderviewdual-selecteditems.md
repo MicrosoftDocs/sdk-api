@@ -56,7 +56,7 @@ Gets a FolderItems object that represents all of the selected items in the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="/windows/desktop/api/shldisp/nn-shldisp-folderitems">FolderItems</a>**</b>
+Type: <b><a href="/windows/win32/shell/folderitem">FolderItems</a>**</b>
 
 The FolderItems object.
 

@@ -248,7 +248,6 @@ cleanup:
 ```
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
 
 

@@ -56,7 +56,7 @@ Indicates the state of a session.
 
 ## -enum-fields
 
-### -field STATE_INVALID
+### -field STATE_INVALID:-1
 
 The session state is not valid.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataProvider.put_FilterData
 title: ITraceDataProvider::put_FilterData (pla.h)
-description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes.
+description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes. (Put)
 helpviewer_keywords: ["FilterData property [PLA]","FilterData property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","FilterData property","ITraceDataProvider.FilterData","ITraceDataProvider.put_FilterData","ITraceDataProvider::FilterData","ITraceDataProvider::get_FilterData","ITraceDataProvider::put_FilterData","base.itracedataprovider_filterdata","pla.itracedataprovider_filterdata","pla/ITraceDataProvider::FilterData","pla/ITraceDataProvider::get_FilterData","pla/ITraceDataProvider::put_FilterData","put_FilterData"]
 old-location: pla\itracedataprovider_filterdata.htm
 tech.root: PLA

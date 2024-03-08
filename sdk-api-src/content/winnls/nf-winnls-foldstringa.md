@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.FoldStringA
 title: FoldStringA function (winnls.h)
-description: Maps one Unicode string to another, performing the specified transformation.
+description: Maps one Unicode string to another, performing the specified transformation. (FoldStringA)
 helpviewer_keywords: ["FoldString","FoldString function [Internationalization for Windows Applications]","FoldStringA","FoldStringW","MAP_COMPOSITE","MAP_EXPAND_LIGATURES","MAP_FOLDCZONE","MAP_FOLDDIGITS","MAP_PRECOMPOSED","_win32_FoldString","_win32_FoldString_cpp","intl.foldstring","stringapiset/FoldString","stringapiset/FoldStringA","stringapiset/FoldStringW","winnls/FoldString","winnls/FoldStringA","winnls/FoldStringW","winui._win32_FoldString"]
 old-location: intl\foldstring.htm
 tech.root: Intl
@@ -160,7 +160,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 ## -remarks
 
-The values of the <i>lpSrcStr</i> and  and <i>lpDestStr</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
+The values of the <i>lpSrcStr</i> and <i>lpDestStr</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 
 The compatibility zone in Unicode consists of characters in the range 0xF900 through 0xFFEF that are assigned to characters from other encoding standards for characters but are actually variants of characters already in Unicode. The compatibility zone is used to support round-trip mapping to these standards. Applications can use the MAP_FOLDCZONE flag to avoid supporting the duplication of characters in the compatibility zone.
 

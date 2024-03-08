@@ -6,7 +6,7 @@ helpviewer_keywords: ["AddAppMember","AddAppMember method [Security]","AddAppMem
 old-location: security\iazrole_addappmember.htm
 tech.root: security
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
-ms.date: 12/05/2018
+ms.date: 03/20/2023
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzRole object, AddAppMember method [Security],IAzRole interface, AzRole object [Security],AddAppMember method, IAzRole interface [Security],AddAppMember method, IAzRole.AddAppMember, IAzRole::AddAppMember, azroles/IAzRole::AddAppMember, security.iazrole_addappmember
 req.header: azroles.h
 req.include-header: 
@@ -48,23 +48,32 @@ api_name:
 
 # IAzRole::AddAppMember
 
-
 ## -description
 
-The <b>AddAppMember</b> method adds the specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to the list of application groups that belong to this role.
+The **AddAppMember** method adds the specified [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to the list of application groups that belong to this role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to add to the list of the application groups that belong to this role.
+String that contains the [Name](nf-azroles-iazapplicationgroup-get_name.md) property of the [IAzApplicationGroup](nn-azroles-iazapplicationgroup.md) object to add to the list of the application groups that belong to this role.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
+## -returns
+
+If the method succeeds, it will return `S_OK`. Any other **HRESULT** value indicates that the operation failed.
+
 ## -remarks
 
-To view the list of application groups that belong to this role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.
+To view the list of application groups that belong to this role, use the [AppMembers](nf-azroles-iazrole-get_appmembers.md) property.
 
-You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
+You must call the [Submit](nf-azroles-iazrole-submit.md) method to persist any changes made by this method.
+
+## -see-also
+
+[IAzApplicationGroup](nn-azroles-iazapplicationgroup.md)
+
+[Submit](nf-azroles-iazrole-submit.md)

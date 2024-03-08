@@ -162,8 +162,8 @@ For the point 2 screen coordinates, the method returns <b>TF_E_INVALIDPOINT</b> 
 
 <ul>
 <li>Default-- <i>hr = TF_E_INVALIDPOINT</i> --The screen coordinates of the point is outside a character bounding box.</li>
-<li>GXPF_ROUND_NEAREST-- <i>hr = TF_E_INVALIDPOINT</i> --The default behavior occurs because the screen coordinates of the point are outside a character bounding box.</li>
-<li>GXPF_NEAREST-- <i>pacp = 1</i> --The closest character position to the screen coordinates of the point is Character Position 1.</li>
+<li>GXFPF_ROUND_NEAREST-- <i>hr = TF_E_INVALIDPOINT</i> --The default behavior occurs because the screen coordinates of the point are outside a character bounding box.</li>
+<li>GXFPF_NEAREST-- <i>pacp = 1</i> --The closest character position to the screen coordinates of the point is Character Position 1.</li>
 </ul>
 
 ## -see-also

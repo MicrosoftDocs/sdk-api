@@ -1,7 +1,7 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncResult
 title: IRtwqAsyncResult (rtworkq.h)
-description: Provides information about the result of an asynchronous operation.
+description: Provides information about the result of an asynchronous operation. (IRtwqAsyncResult)
 helpviewer_keywords: ["IRtwqAsyncResult","IRtwqAsyncResult interface","IRtwqAsyncResult interface","described","base.irtwqasyncresult","rtworkq/IRtwqAsyncResult"]
 old-location: base\irtwqasyncresult.htm
 tech.root: backup

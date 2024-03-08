@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.get_ActionVariables
 title: IFsrmQuotaManager::get_ActionVariables (fsrmquota.h)
-description: Retrieves a list of macros that you can specify in action property values.
+description: Retrieves a list of macros that you can specify in action property values. (IFsrmQuotaManagerEx.get_ActionVariables)
 helpviewer_keywords: ["ActionVariables property [File Server Resource Manager]","ActionVariables property [File Server Resource Manager]","FsrmQuotaManager class","ActionVariables property [File Server Resource Manager]","IFsrmQuotaManager interface","ActionVariables property [File Server Resource Manager]","IFsrmQuotaManagerEx interface","FsrmQuotaManager class [File Server Resource Manager]","ActionVariables property","IFsrmQuotaManager interface [File Server Resource Manager]","ActionVariables property","IFsrmQuotaManager.ActionVariables","IFsrmQuotaManager.get_ActionVariables","IFsrmQuotaManager::ActionVariables","IFsrmQuotaManager::get_ActionVariables","IFsrmQuotaManagerEx interface [File Server Resource Manager]","ActionVariables property","IFsrmQuotaManagerEx.ActionVariables","IFsrmQuotaManagerEx::get_ActionVariables","fs.ifsrmquotamanager_actionvariables","fsrm.ifsrmquotamanager_actionvariables","fsrmquota/IFsrmQuotaManager::ActionVariables","fsrmquota/IFsrmQuotaManager::get_ActionVariables","fsrmquota/IFsrmQuotaManagerEx::ActionVariables","fsrmquota/IFsrmQuotaManagerEx::get_ActionVariables","get_ActionVariables"]
 old-location: fsrm\ifsrmquotamanager_actionvariables.htm
 tech.root: fsrm

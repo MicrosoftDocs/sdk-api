@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.GetGlyphOrientationTransform
 title: IDWriteTextAnalyzer2::GetGlyphOrientationTransform (dwrite_2.h)
-description: Returns 2x3 transform matrix for the respective angle to draw the glyph run.
+description: Returns 2x3 transform matrix for the respective angle to draw the glyph run. (IDWriteTextAnalyzer2.GetGlyphOrientationTransform)
 helpviewer_keywords: ["GetGlyphOrientationTransform","GetGlyphOrientationTransform method [Direct Write]","GetGlyphOrientationTransform method [Direct Write]","IDWriteTextAnalyzer2 interface","IDWriteTextAnalyzer2 interface [Direct Write]","GetGlyphOrientationTransform method","IDWriteTextAnalyzer2.GetGlyphOrientationTransform","IDWriteTextAnalyzer2::GetGlyphOrientationTransform","directwrite.idwritetextanalyzer2_getglyphorientationtransform","dwrite_2/IDWriteTextAnalyzer2::GetGlyphOrientationTransform"]
 old-location: directwrite\idwritetextanalyzer2_getglyphorientationtransform.htm
 tech.root: DirectWrite
@@ -96,5 +96,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextanalyzer2">IDWriteTextAnalyzer2</a>
 

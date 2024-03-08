@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IObjectModelProvider.GetUnderlyingObjectModel
 title: IObjectModelProvider::GetUnderlyingObjectModel (uiautomationcore.h)
-description: Retrieves an interface used to access the underlying object model of the provider.
+description: Retrieves an interface used to access the underlying object model of the provider. (IObjectModelProvider.GetUnderlyingObjectModel)
 helpviewer_keywords: ["GetUnderlyingObjectModel","GetUnderlyingObjectModel method [Windows Accessibility]","GetUnderlyingObjectModel method [Windows Accessibility]","IObjectModelProvider interface","IObjectModelProvider interface [Windows Accessibility]","GetUnderlyingObjectModel method","IObjectModelProvider.GetUnderlyingObjectModel","IObjectModelProvider::GetUnderlyingObjectModel","uiautomationcore/IObjectModelProvider::GetUnderlyingObjectModel","winauto.uiauto_IObjectModelProvider_GetUnderlyingObjectModel"]
 old-location: winauto\uiauto_IObjectModelProvider_GetUnderlyingObjectModel.htm
 tech.root: WinAuto

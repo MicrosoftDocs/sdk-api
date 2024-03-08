@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMCodecAMVideoAccelerator","IWMCodecAMVideoAccelerator i
 old-location: wmformat\iwmcodecamvideoaccelerator.htm
 tech.root: wmformat
 ms.assetid: 48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], IWMCodecAMVideoAccelerator interface [windows Media Format],described, IWMCodecAMVideoAcceleratorInterface, wmdxva/IWMCodecAMVideoAccelerator, wmformat.iwmcodecamvideoaccelerator
 req.header: wmdxva.h
 req.include-header: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 This interface is exposed by the Windows Media Decoder <a href="/windows/desktop/wmformat/wmformat-glossary">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderaccelerator-getcodecinterface">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
 
 ## -inheritance
 
 The <b>IWMCodecAMVideoAccelerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecAMVideoAccelerator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

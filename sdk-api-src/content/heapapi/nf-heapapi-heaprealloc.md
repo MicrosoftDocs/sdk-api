@@ -6,7 +6,7 @@ helpviewer_keywords: ["HEAP_GENERATE_EXCEPTIONS","HEAP_NO_SERIALIZE","HEAP_REALL
 old-location: base\heaprealloc.htm
 tech.root: base
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_REALLOC_IN_PLACE_ONLY, HEAP_ZERO_MEMORY, HeapReAlloc, HeapReAlloc function, _win32_heaprealloc, base.heaprealloc, heapapi/HeapReAlloc, winbase/HeapReAlloc
 req.header: heapapi.h
 req.include-header: Windows.h
@@ -46,12 +46,12 @@ api_location:
  - API-MS-Win-Core-heap-l1-2-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - HeapReAlloc
 ---
 
 # HeapReAlloc function
-
 
 ## -description
 
@@ -61,16 +61,11 @@ Reallocates a block of memory from a heap. This function enables you to resize a
 
 ### -param hHeap [in]
 
-A handle to the heap from which the memory is to be reallocated. This handle is a returned by either the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+A handle to the heap from which the memory is to be reallocated. This handle is a returned by either the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param dwFlags [in]
 
-The heap reallocation options. Specifying a value overrides the corresponding value specified in the <i>flOptions</i> parameter when the heap was created by using the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. This parameter can be one or more of the following values. 
-
-
+The heap reallocation options. Specifying a value overrides the corresponding value specified in the <i>flOptions</i> parameter when the heap was created by using the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. This parameter can be one or more of the following values.
 
 <table>
 <tr>
@@ -131,22 +126,19 @@ If the reallocation request is for a larger size, the additional region of memor
 
 ### -param lpMem [in]
 
-A pointer to the block of memory that the function reallocates. This pointer is returned by an earlier call to the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
-<b>HeapReAlloc</b> function.
+A pointer to the block of memory that the function reallocates. This pointer is returned by an earlier call to the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or <b>HeapReAlloc</b> function.
 
 ### -param dwBytes [in]
 
 The new size of the memory block, in bytes. A memory block's size can be increased or decreased by using this function.
 
-If the heap specified by the <i>hHeap</i> parameter is a "non-growable" heap, <i>dwBytes</i> must be less than 0x7FFF8. You create a non-growable heap by calling the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function with a nonzero value.
+If the heap specified by the <i>hHeap</i> parameter is a "non-growable" heap, <i>dwBytes</i> must be less than 0x7FFF8. You create a non-growable heap by calling the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function with a nonzero value.
 
 ## -returns
 
 If the function succeeds, the return value is a pointer to the reallocated memory block.
 
-If the function fails and you have not specified <b>HEAP_GENERATE_EXCEPTIONS</b>, the return value is <b>NULL</b>. 
+If the function fails and you have not specified <b>HEAP_GENERATE_EXCEPTIONS</b>, the return value is <b>NULL</b>.
 
 If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, the function may generate either of the exceptions listed in the following table. For more information, see <a href="/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a>.
 
@@ -164,10 +156,10 @@ If the function fails and you have specified <b>HEAP_GENERATE_EXCEPTIONS</b>, th
 <td>The allocation attempt failed because of heap corruption or improper function parameters.</td>
 </tr>
 </table>
- 
- The alignment of memory returned by <b>HeapReAlloc</b> is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
 
-```
+The alignment of memory returned by <b>HeapReAlloc</b> is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
+
+```cpp
 #if defined(_WIN64) || defined(_M_ALPHA)
 #define MEMORY_ALLOCATION_ALIGNMENT 16
 #else
@@ -179,39 +171,28 @@ If the function fails, it does not call <a href="/windows/desktop/api/errhandlin
 
 ## -remarks
 
-If 
-<b>HeapReAlloc</b> succeeds, it allocates at least the amount of memory requested. 
+If <b>HeapReAlloc</b> succeeds, it allocates at least the amount of memory requested.
 
-If 
-<b>HeapReAlloc</b> fails, the original memory is not freed, and the original handle and pointer are still valid.
+If <b>HeapReAlloc</b> fails, the original memory is not freed, and the original handle and pointer are still valid.
 
-<b>HeapReAlloc</b> is guaranteed to preserve the content of the memory being reallocated, even if the new memory is allocated at a different location. The process of preserving the memory content involves a memory copy operation that is potentially very time-consuming. 
+<b>HeapReAlloc</b> is guaranteed to preserve the content of the memory being reallocated, even if the new memory is allocated at a different location. The process of preserving the memory content involves a memory copy operation that is potentially very time-consuming.
 
-To free a block of memory allocated by 
-<b>HeapReAlloc</b>, use the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function.
+To free a block of memory allocated by <b>HeapReAlloc</b>, use the [HeapFree](nf-heapapi-heapfree.md) function.
 
 Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. Setting the <b>HEAP_NO_SERIALIZE</b> value eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, likely causing corruption in the heap. The <b>HEAP_NO_SERIALIZE</b> value can, therefore, be safely used only in the following situations:
 
-<ul>
-<li>The process has only one thread.</li>
-<li>The process has multiple threads, but only one thread calls the heap functions for a specific heap.</li>
-<li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
-</ul>
+- The process has only one thread.
+- The process has multiple threads, but only one thread calls the heap functions for a specific heap.
+- The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
+[Heap Functions](/windows/win32/Memory/heap-functions)
 
+[HeapAlloc](nf-heapapi-heapalloc.md)
 
+[HeapFree](nf-heapapi-heapfree.md)
 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
-
-
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
-
-
-
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-    Management Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

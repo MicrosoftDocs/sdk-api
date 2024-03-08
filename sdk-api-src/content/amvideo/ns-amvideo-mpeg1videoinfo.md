@@ -6,7 +6,7 @@ helpviewer_keywords: ["MPEG1VIDEOINFO","MPEG1VIDEOINFO structure [DirectShow]","
 old-location: dshow\mpeg1videoinfo.htm
 tech.root: dshow
 ms.assetid: ae5b8825-7c1c-4a44-b665-098732e6c3bc
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: MPEG1VIDEOINFO, MPEG1VIDEOINFO structure [DirectShow], MPEG1VIDEOINFOStructure, amvideo/MPEG1VIDEOINFO, dshow.mpeg1videoinfo, tagMPEG1VIDEOINFO
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -51,6 +51,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>MPEG1VIDEOINFO</b> structure describes an MPEG-1 video stream.
 

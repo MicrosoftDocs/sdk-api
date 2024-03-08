@@ -95,7 +95,7 @@ Asks for an additional initial notification. The combination of ADVF_ONLYONCE an
 <td>ADVF_DATAONSTOP
 </td>
 <td>
-When specified with ADVF_NODATA, this flag causes a last notification with the data included to to be sent before the data object is destroyed.
+When specified with ADVF_NODATA, this flag causes a last notification with the data included to be sent before the data object is destroyed.
 
 If used without ADVF_NODATA, <b>DAdvise</b> can be implemented in one of the following ways:
 

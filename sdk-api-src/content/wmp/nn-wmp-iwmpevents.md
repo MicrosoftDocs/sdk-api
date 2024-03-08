@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPEvents","IWMPEvents interface [Windows Media Player]"
 old-location: wmp\iwmpevents_interface.htm
 tech.root: WMP
 ms.assetid: 396545d5-8844-4dd2-9ed5-e4ed77f352ac
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], IWMPEvents interface [Windows Media Player],described, IWMPEventsInterface, wmp.iwmpevents_interface, wmp/IWMPEvents
 req.header: wmp.h
 req.include-header: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>IWMPEvents</b> interface provides events that originate from the Windows Media Player control. An embedding program can respond to these events. The events exposed by <b>IWMPEvents</b> are also exposed by the <b>_WMPOCXEvents</b> interface.
 

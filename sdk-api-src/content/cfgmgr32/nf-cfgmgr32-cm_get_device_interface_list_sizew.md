@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_SizeW
 title: CM_Get_Device_Interface_List_SizeW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function.
-helpviewer_keywords: ["CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES","CM_GET_DEVICE_INTERFACE_LIST_PRESENT","CM_Get_Device_Interface_List_Size","CM_Get_Device_Interface_List_Size function [Device and Driver Installation]","CM_Get_Device_Interface_List_SizeA","CM_Get_Device_Interface_List_SizeW","cfgmgr32/CM_Get_Device_Interface_List_Size","cfgmgr32/CM_Get_Device_Interface_List_SizeA","cfgmgr32/CM_Get_Device_Interface_List_SizeW","cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml","devinst.cm_get_device_interface_list_size"]
+description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function. (Unicode)
+helpviewer_keywords: ["CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES", "CM_GET_DEVICE_INTERFACE_LIST_PRESENT", "CM_Get_Device_Interface_List_Size", "CM_Get_Device_Interface_List_Size function [Device and Driver Installation]", "CM_Get_Device_Interface_List_SizeW", "cfgmgr32/CM_Get_Device_Interface_List_Size", "cfgmgr32/CM_Get_Device_Interface_List_SizeW", "cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml", "devinst.cm_get_device_interface_list_size"]
 old-location: devinst\cm_get_device_interface_list_size.htm
 tech.root: devinst
 ms.assetid: f3e1ceb7-9812-4339-889f-dade2efb3998
@@ -56,7 +56,7 @@ api_name:
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
+     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a> 
      function.
 
 ## -parameters
@@ -122,7 +122,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 ## -see-also
 
-<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a>
 
 ## -remarks
 

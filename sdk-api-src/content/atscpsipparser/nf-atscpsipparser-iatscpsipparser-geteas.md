@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
@@ -63,8 +65,8 @@ The <b>GetEAS</b> method retrieves the emergency alert message (EAS) table.
 
 Specifies the packet identifier (PID) for the requested EAS.
 
-<div class="alert"><b>Note</b>Â Â Earlier versions of this documentation described this parameter incorrectly as a time-out value.</div>
-<div>Â </div>
+<div class="alert"><b>Note</b>  Earlier versions of this documentation described this parameter incorrectly as a time-out value.</div>
+<div> </div>
 
 ### -param ppEAS [out]
 

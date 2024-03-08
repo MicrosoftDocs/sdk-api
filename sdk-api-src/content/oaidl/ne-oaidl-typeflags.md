@@ -56,63 +56,63 @@ The type flags.
 
 ## -enum-fields
 
-### -field TYPEFLAG_FAPPOBJECT
+### -field TYPEFLAG_FAPPOBJECT:0x1
 
 A type description that describes an Application object.
 
-### -field TYPEFLAG_FCANCREATE
+### -field TYPEFLAG_FCANCREATE:0x2
 
 Instances of the type can be created by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">ITypeInfo::CreateInstance</a>.
 
-### -field TYPEFLAG_FLICENSED
+### -field TYPEFLAG_FLICENSED:0x4
 
 The type is licensed.
 
-### -field TYPEFLAG_FPREDECLID
+### -field TYPEFLAG_FPREDECLID:0x8
 
 The type is predefined. The client application should automatically create a single instance of the object that has this attribute. The name of the variable that points to the object is the same as the class name of the object.
 
-### -field TYPEFLAG_FHIDDEN
+### -field TYPEFLAG_FHIDDEN:0x10
 
 The type should not be displayed to browsers.
 
-### -field TYPEFLAG_FCONTROL
+### -field TYPEFLAG_FCONTROL:0x20
 
 The type is a control from which other types will be derived, and should not be displayed to users.
 
-### -field TYPEFLAG_FDUAL
+### -field TYPEFLAG_FDUAL:0x40
 
 The interface supplies both <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and VTBL binding.
 
-### -field TYPEFLAG_FNONEXTENSIBLE
+### -field TYPEFLAG_FNONEXTENSIBLE:0x80
 
 The interface cannot add members at run time.
 
-### -field TYPEFLAG_FOLEAUTOMATION
+### -field TYPEFLAG_FOLEAUTOMATION:0x100
 
 The types used in the interface are fully compatible with Automation, including VTBL binding support. Setting dual on an interface sets this flag in addition to TYPEFLAG_FDUAL. Not allowed on dispinterfaces.
 
-### -field TYPEFLAG_FRESTRICTED
+### -field TYPEFLAG_FRESTRICTED:0x200
 
 Should not be accessible from macro languages. This flag is intended for system-level types or types that type browsers should not display.
 
-### -field TYPEFLAG_FAGGREGATABLE
+### -field TYPEFLAG_FAGGREGATABLE:0x400
 
 The class supports aggregation.
 
-### -field TYPEFLAG_FREPLACEABLE
+### -field TYPEFLAG_FREPLACEABLE:0x800
 
 The type is replaceable.
 
-### -field TYPEFLAG_FDISPATCHABLE
+### -field TYPEFLAG_FDISPATCHABLE:0x1000
 
 Indicates that the interface derives from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, either directly or indirectly. This flag is computed. There is no Object Description Language for the flag.
 
-### -field TYPEFLAG_FREVERSEBIND
+### -field TYPEFLAG_FREVERSEBIND:0x2000
 
 The type has reverse binding.
 
-### -field TYPEFLAG_FPROXY
+### -field TYPEFLAG_FPROXY:0x4000
 
 Interfaces can be marked with this flag to indicate that they will be using a proxy/stub dynamic link library. This flag specifies that the typelib proxy should not be unregistered when the typelib is unregistered.
 

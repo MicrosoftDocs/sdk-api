@@ -2,9 +2,9 @@
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy
 tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy
-ms.date: 06/08/2021
+description: The IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy function refers to the display adapter where the independent-flip present occurred.
+ms.date: 08/02/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - presentation.h
 api_name:

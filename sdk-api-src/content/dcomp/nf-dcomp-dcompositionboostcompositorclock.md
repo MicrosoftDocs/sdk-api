@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
  - dcomp.h
 api_name:
@@ -62,4 +62,4 @@ If the function succeeds, it returns `S_OK`; otherwise, it returns an `HRESULT` 
 
 ## -see-also
 
-[DCompositionGetTargetStatistics](nf-dcomp-dcompositiongettargetstatistics.md), [DCompositionGetStatistics](nf-dcomp-dcompositiongetstatistics.md), [DCompositionGetFrameId](nf-dcomp-dcompositiongetframeid.md), [DCompositionWaitForCompositorClock](nf-dcomp-dcompositionwaitforcompositorclock.md)
+[DCompositionGetTargetStatistics](/windows/win32/api/dcomp/nf-dcomp-dcompositiongetstatistics), [DCompositionGetStatistics](nf-dcomp-dcompositiongetstatistics.md), [DCompositionGetFrameId](nf-dcomp-dcompositiongetframeid.md), [DCompositionWaitForCompositorClock](nf-dcomp-dcompositionwaitforcompositorclock.md)

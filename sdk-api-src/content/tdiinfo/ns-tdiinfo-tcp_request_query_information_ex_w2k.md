@@ -1,12 +1,12 @@
 ---
 UID: NS:tdiinfo.tcp_request_query_information_ex_w2k
 title: TCP_REQUEST_QUERY_INFORMATION_EX_W2K (tdiinfo.h)
-description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+description: The TCP_REQUEST_QUERY_INFORMATION_EX_W2K structure (tdiinfo.h) contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 helpviewer_keywords: ["*PTCP_REQUEST_QUERY_INFORMATION_EX","*PTCP_REQUEST_QUERY_INFORMATION_EX_W2K","PTCP_REQUEST_QUERY_INFORMATION_EX","PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API]","TCP_REQUEST_QUERY_INFORMATION_EX","TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API]","TCP_REQUEST_QUERY_INFORMATION_EX_W2K","tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX","tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX","winprog.tcp_request_query_information_ex"]
 old-location: winprog\tcp_request_query_information_ex.htm
 tech.root: winprog
 ms.assetid: 2a1f3a41-ee18-4a67-9da1-a5b18d32defb
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: '*PTCP_REQUEST_QUERY_INFORMATION_EX, *PTCP_REQUEST_QUERY_INFORMATION_EX_W2K, PTCP_REQUEST_QUERY_INFORMATION_EX, PTCP_REQUEST_QUERY_INFORMATION_EX structure pointer [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX, TCP_REQUEST_QUERY_INFORMATION_EX structure [Windows API], TCP_REQUEST_QUERY_INFORMATION_EX_W2K, tdiinfo/PTCP_REQUEST_QUERY_INFORMATION_EX, tdiinfo/TCP_REQUEST_QUERY_INFORMATION_EX, winprog.tcp_request_query_information_ex'
 req.header: tdiinfo.h
 req.include-header: 

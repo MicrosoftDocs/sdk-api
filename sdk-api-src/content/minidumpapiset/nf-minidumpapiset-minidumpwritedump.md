@@ -125,7 +125,10 @@ The <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_call
     true when the target process is already not stable.  For example, if it just crashed.  A loader deadlock is one of 
     many potential side effects of calling 
     <b>MiniDumpWriteDump</b> from within the target 
-    process.
+    process. 
+    If calling <b>MiniDumpWriteDump</b> from a separate process is not possible, then it is advisable to have 
+    a dedicated thread whose sole purpose is to call <b>MiniDumpWriteDump</b>. This can help ensure that the stack 
+    is not already exhausted before the call to <b>MiniDumpWriteDump</b>.
 
 <b>MiniDumpWriteDump</b> may not produce a valid  stack 
     trace for the calling thread. To work around this problem, you must capture the state of the calling thread before 

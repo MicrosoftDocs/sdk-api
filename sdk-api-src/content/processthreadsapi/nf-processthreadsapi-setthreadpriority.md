@@ -3,12 +3,12 @@ UID: NF:processthreadsapi.SetThreadPriority
 title: SetThreadPriority function (processthreadsapi.h)
 description: Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
 old-location: base\setthreadpriority.htm
-tech.root: ProcThread
+tech.root: processthreadsapi
 ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
 ms.date: 12/05/2018
 ms.keywords: SetThreadPriority, SetThreadPriority function, THREAD_MODE_BACKGROUND_BEGIN, THREAD_MODE_BACKGROUND_END, THREAD_PRIORITY_ABOVE_NORMAL, THREAD_PRIORITY_BELOW_NORMAL, THREAD_PRIORITY_HIGHEST, THREAD_PRIORITY_IDLE, THREAD_PRIORITY_LOWEST, THREAD_PRIORITY_NORMAL, THREAD_PRIORITY_TIME_CRITICAL, _win32_setthreadpriority, base.setthreadpriority, processthreadsapi/SetThreadPriority, winbase/SetThreadPriority
 req.header: processthreadsapi.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

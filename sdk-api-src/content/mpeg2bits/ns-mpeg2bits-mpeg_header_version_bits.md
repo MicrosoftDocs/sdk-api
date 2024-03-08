@@ -1,5 +1,5 @@
 ---
-UID: NS:mpeg2bits.__unnamed_struct_5
+UID: NS:mpeg2bits.MPEG_HEADER_VERSION_BITS
 title: MPEG_HEADER_VERSION_BITS (mpeg2bits.h)
 description: The MPEG_HEADER_VERSION_BITS structure contains the first 8 bits following the TSID in an MPEG-2 PSI section. These bits contain the version number and the current/next indicator.
 helpviewer_keywords: ["*PMPEG_HEADER_VERSION_BITS","MPEG_HEADER_VERSION_BITS","MPEG_HEADER_VERSION_BITS structure [Microsoft TV Technologies]","MPEG_HEADER_VERSION_BITSStructure","PMPEG_HEADER_VERSION_BITS","PMPEG_HEADER_VERSION_BITS structure pointer [Microsoft TV Technologies]","mpeg2bits/MPEG_HEADER_VERSION_BITS","mpeg2bits/PMPEG_HEADER_VERSION_BITS","mstv.mpeg_header_version_bits"]
@@ -52,6 +52,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>MPEG_HEADER_VERSION_BITS</b> structure contains the first 8 bits following the TSID in an MPEG-2 PSI section. These bits contain the version number and the current/next indicator.
 
 ## -struct-fields
@@ -71,3 +73,4 @@ Two reserved bits.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
+

@@ -1,9 +1,7 @@
 ﻿---
 UID: NF:evntrace.ControlTraceW
 title: ControlTraceW function (evntrace.h)
-description:
-  The ControlTrace function flushes, queries, updates, or stops the specified
-  event tracing session.
+description: The ControlTraceW (Unicode) function (evntrace.h) flushes, queries, updates, or stops the specified event tracing session.
 helpviewer_keywords:
   [
     "ControlTrace",
@@ -24,7 +22,7 @@ helpviewer_keywords:
 old-location: etw\controltrace.htm
 tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   ControlTrace, ControlTrace function [ETW], ControlTraceA, ControlTraceW,
   EVENT_TRACE_CONTROL_FLUSH, EVENT_TRACE_CONTROL_QUERY,
@@ -94,8 +92,8 @@ event tracing session.
 ### -param TraceHandle [in]
 
 Handle to an event tracing session, or 0. You must specify a non-zero
-_SessionHandle_ if _SessionName_ is **NULL**. ETW ignores the handle if
-_SessionName_ is not **NULL**.
+_TraceHandle_ if _InstanceName_ is **NULL**. ETW ignores the handle if
+_InstanceName_ is not **NULL**.
 
 The [StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracew) function
 returns this handle when a new trace is started. To obtain the handle of an
@@ -211,7 +209,8 @@ Requested control function. You can specify one of the following values:
   real-time session (enables real-time delivery and disables writing events to
   the ETL file). Supported starting with Windows 10 October 2020 Update.
 
-> [!NOTE] It is not safe to flush buffers or stop a trace session from DllMain
+> [!NOTE]
+> It is not safe to flush buffers or stop a trace session from DllMain
 > (may cause deadlock).
 
 ## -returns
@@ -272,6 +271,11 @@ are some common errors and their causes.
 - **ERROR_WMI_INSTANCE_NOT_FOUND**
 
   The given session is not running.
+  
+- **ERROR_ACTIVE_CONNECTIONS**
+
+  When returned from a EVENT_TRACE_CONTROL_STOP call, this indicates that
+  the session is already in the process of stopping.
 
 ## -remarks
 
@@ -283,7 +287,8 @@ This function supersedes the
 [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptracew), and
 [UpdateTrace](/windows/win32/api/evntrace/nf-evntrace-updatetracew) functions.
 
-> [!NOTE] The evntrace.h header defines ControlTrace as an alias which
+> [!NOTE]
+> The evntrace.h header defines ControlTrace as an alias which
 > automatically selects the ANSI or Unicode version of this function based on
 > the definition of the UNICODE preprocessor constant. Mixing usage of the
 > encoding-neutral alias with code that not encoding-neutral can lead to

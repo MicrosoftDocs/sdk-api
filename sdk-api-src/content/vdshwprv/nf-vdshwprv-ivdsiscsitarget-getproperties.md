@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetProperties
 title: IVdsIscsiTarget::GetProperties (vdshwprv.h)
-description: Returns the properties of an iSCSI target.
+description: The IVdsIscsiTarget::GetProperties (vdshwprv.h) method returns the properties of an iSCSI target.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetProperties method","IVdsIscsiTarget.GetProperties","IVdsIscsiTarget::GetProperties","base.ivdsiscsitarget_getproperties","vds/IVdsIscsiTarget::GetProperties","vdshwprv/IVdsIscsiTarget::GetProperties"]
 old-location: base\ivdsiscsitarget_getproperties.htm
 tech.root: base
 ms.assetid: db48ec8e-aae1-4b88-9942-6a23de2cfe25
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetProperties method, IVdsIscsiTarget.GetProperties, IVdsIscsiTarget::GetProperties, base.ivdsiscsitarget_getproperties, vds/IVdsIscsiTarget::GetProperties, vdshwprv/IVdsIscsiTarget::GetProperties
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of an iSCSI target.
 

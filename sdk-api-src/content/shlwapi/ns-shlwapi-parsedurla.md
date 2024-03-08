@@ -1,7 +1,7 @@
 ---
 UID: NS:shlwapi.tagPARSEDURLA
 title: PARSEDURLA (shlwapi.h)
-description: Used by the ParseURL function to return the parsed URL.
+description: Used by the ParseURL function to return the parsed URL. (ANSI)
 helpviewer_keywords: ["*PPARSEDURLA","PARSEDURL","PARSEDURL structure [Windows Shell]","PARSEDURLA","PARSEDURLW","PPARSEDURL","PPARSEDURL structure pointer [Windows Shell]","_win32_PARSEDURL","shell.PARSEDURL","shlwapi/PARSEDURL","shlwapi/PARSEDURLA","shlwapi/PARSEDURLW","shlwapi/PPARSEDURL"]
 old-location: shell\PARSEDURL.htm
 tech.root: shell
@@ -76,7 +76,7 @@ Type: <b>LPCTSTR</b>
 
 Type: <b>UINT</b>
 
-The number of characters in the URL's protocol section.
+[out] The number of characters in the URL's protocol section.
 
 ### -field pszSuffix
 

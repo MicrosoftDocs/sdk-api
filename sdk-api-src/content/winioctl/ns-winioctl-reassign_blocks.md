@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._REASSIGN_BLOCKS
 title: REASSIGN_BLOCKS
-description: Contains disk block reassignment data.
+description: Contains disk block reassignment data. (REASSIGN_BLOCKS)
 helpviewer_keywords: ["*PREASSIGN_BLOCKS","REASSIGN_BLOCKS","REASSIGN_BLOCKS structure [Files]","_win32_reassign_blocks_str","base.reassign_blocks_str","fs.reassign_blocks_str","winioctl/REASSIGN_BLOCKS"]
 old-location: fs\reassign_blocks_str.htm
 tech.root: fs

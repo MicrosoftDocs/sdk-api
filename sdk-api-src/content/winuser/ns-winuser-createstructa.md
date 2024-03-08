@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCREATESTRUCTA
 title: CREATESTRUCTA (winuser.h)
-description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.
+description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function. (ANSI)
 helpviewer_keywords: ["*LPCREATESTRUCTA","CREATESTRUCT","CREATESTRUCT structure [Windows and Messages]","CREATESTRUCTA","CREATESTRUCTW","LPCREATESTRUCT","LPCREATESTRUCT structure pointer [Windows and Messages]","_win32_CREATESTRUCT_str","_win32_createstruct_str_cpp","winmsg.createstruct","winui._win32_createstruct_str","winuser/CREATESTRUCT","winuser/CREATESTRUCTA","winuser/CREATESTRUCTW","winuser/LPCREATESTRUCT"]
 old-location: winmsg\createstruct.htm
 tech.root: winmsg

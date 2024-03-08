@@ -1,15 +1,15 @@
 ---
 UID: NF:processthreadsapi.CreateProcessA
 title: CreateProcessA function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
-helpviewer_keywords: ["CreateProcess","CreateProcess function","CreateProcessA","CreateProcessW","_win32_createprocess","base.createprocess","processthreadsapi/CreateProcess","processthreadsapi/CreateProcessA","processthreadsapi/CreateProcessW","winbase/CreateProcess","winbase/CreateProcessA","winbase/CreateProcessW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the calling process. (ANSI)
+helpviewer_keywords: ["CreateProcessA", "processthreadsapi/CreateProcessA"]
 old-location: base\createprocess.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -87,6 +87,9 @@ If the executable module is a 16-bit application, <i>lpApplicationName</i> shoul
 
 To run a batch file, you must start the command interpreter; set <i>lpApplicationName</i> to cmd.exe and set <i>lpCommandLine</i> to the following arguments: /c plus the name of the batch file.
 
+> [!IMPORTANT]
+> The MSRC engineering team advises against this. See [MS14-019 – Fixing a binary hijacking via .cmd or .bat file](https://msrc.microsoft.com/blog/2014/04/ms14-019-fixing-a-binary-hijacking-via-cmd-or-bat-file/) for more details.
+
 ### -param lpCommandLine [in, out, optional]
 
 The command line to be executed. 
@@ -143,6 +146,8 @@ For additional discussion of inheritable handles, see Remarks.
 
 <b>Protected Process Light (PPL) processes:  </b>The generic handle inheritance is blocked when a PPL process creates a non-PPL process since PROCESS_DUP_HANDLE is not allowed from a non-PPL process to a PPL process. See <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>
 
+<b>Windows 7:  </b>STD_INPUT_HANDLE, STD_OUTPUT_HANDLE, and STD_ERROR_HANDLE are inherited, even when the parameter is FALSE.
+
 ### -param dwCreationFlags [in]
 
 The flags that control the priority class and the creation of the process. For a list of values, see 
@@ -167,7 +172,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>. If this parameter is <b>NULL</b> and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
+An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
 
 The ANSI version of this function, <b>CreateProcessA</b> fails if the total size of the environment block for the process exceeds 32,767 characters.
 
@@ -190,8 +195,8 @@ Handles in
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
-<div> </div>
+> [!IMPORTANT]
+> The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles.
 
 ### -param lpProcessInformation [out]
 
@@ -290,6 +295,10 @@ For an example, see
 ## -see-also
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+
+
+
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutea">ShellExecuteA</a>
 
 
 

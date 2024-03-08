@@ -48,8 +48,13 @@ api_name:
 
 # WlanGetAvailableNetworkList function
 
-
 ## -description
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
 
 The <b>WlanGetAvailableNetworkList</b> function retrieves the list of available networks on a wireless LAN interface.
 
@@ -185,9 +190,7 @@ Not enough memory is available to process this request and allocate memory for t
 The <b>WlanGetAvailableNetworkList</b> function allocates memory for the list of available networks returned in the buffer pointed to by the <i>ppAvailableNetworkList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppAvailableNetworkList</i> parameter should be released by calling the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
 
-There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. For more information, see Help and Knowledge Base article 940541, entitled "FIX: The private bytes of the application continuously increase when an application calls the WlanGetAvailableNetworkList function and the WlanFreeMemory function on a Windows XP Service Pack 2-based computer", in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/940541">https://go.microsoft.com/fwlink/p/?linkid=102216</a>.
-
-
+There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. 
 
 
 #### Examples

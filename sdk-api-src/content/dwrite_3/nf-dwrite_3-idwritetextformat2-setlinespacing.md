@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat2.SetLineSpacing
 title: IDWriteTextFormat2::SetLineSpacing (dwrite_3.h)
-description: Set line spacing.
+description: Set line spacing. (IDWriteTextFormat2.SetLineSpacing)
 helpviewer_keywords: ["IDWriteTextFormat2 interface [Direct Write]","SetLineSpacing method","IDWriteTextFormat2.SetLineSpacing","IDWriteTextFormat2::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Direct Write]","SetLineSpacing method [Direct Write]","IDWriteTextFormat2 interface","directwrite.idwritetextformat2_setlinespacing","dwrite_3/IDWriteTextFormat2::SetLineSpacing"]
 old-location: directwrite\idwritetextformat2_setlinespacing.htm
 tech.root: DirectWrite
@@ -68,5 +68,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="/windows/win32/DirectWrite/idwritetextformat2">IDWriteTextFormat2</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2">IDWriteTextFormat2</a>
 

@@ -52,7 +52,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param currentConfig
 
-Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
+Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
 This output parameter is a pointer to the resource that contains the event transcript configuration details.
 
 ## -returns

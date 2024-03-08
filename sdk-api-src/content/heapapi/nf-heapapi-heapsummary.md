@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.HeapSummary
 title: HeapSummary
-ms.date: 4/26/2019
+description: The HeapSummary function (heapapi.h) summarizes the specified heap.
+ms.date: 08/04/2022
 ms.keywords: HeapSummary
 targetos: Windows
 req.assembly: 
@@ -62,7 +63,7 @@ Receives a pointer to a [Heap_Summary](ns-heapapi-heap_summary.md) structure rep
 
 ## -returns
 
-Returns S_OK on success.
+Returns TRUE on success, FALSE on failure.
 
 ## -remarks
 

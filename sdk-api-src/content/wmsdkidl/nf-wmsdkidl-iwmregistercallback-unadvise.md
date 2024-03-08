@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMRegisterCallback interface [windows Media Format]","Un
 old-location: wmformat\iwmregistercallback_unadvise.htm
 tech.root: wmformat
 ms.assetid: 5f320288-09a8-4eaf-a7cd-54a4b52d0b47
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMRegisterCallback interface [windows Media Format],Unadvise method, IWMRegisterCallback.Unadvise, IWMRegisterCallback::Unadvise, IWMRegisterCallbackUnadvise, Unadvise, Unadvise method [windows Media Format], Unadvise method [windows Media Format],IWMRegisterCallback interface, wmformat.iwmregistercallback_unadvise, wmsdkidl/IWMRegisterCallback::Unadvise
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -52,6 +52,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The <b>Unadvise</b> method unregisters the application's <b>IWMStatusCallback</b> callback interface. Call this method when the application has finished using the sink object. It notifies the object to stop sending status events to the application.
 

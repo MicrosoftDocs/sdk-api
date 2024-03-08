@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfDisconnectSyncRoot","CfDisconnectSyncRoot function","cf
 old-location: cloudapi\cfdisconnectsyncroot.htm
 tech.root: cloudapi
 ms.assetid: AB09804A-257B-49A2-861E-B6E102D45182
-ms.date: 12/05/2018
+ms.date: 03/30/2023
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot
 req.header: cfapi.h
 req.include-header: 
@@ -47,27 +47,30 @@ api_name:
 
 # CfDisconnectSyncRoot function
 
-
 ## -description
 
-Disconnects a communication channel created by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>.
+Disconnects a communication channel created by [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md).
 
 ## -parameters
 
 ### -param ConnectionKey [in]
 
-The connection key returned from <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> that is now used to disconnect the sync root.
+The connection key returned from [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md) that is now used to disconnect the sync root.
 
 ## -returns
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-This removes the communication channel with the platform that was previously established using <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>. 
+This removes the communication channel with the platform that was previously established using [CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md).
 
-A sync provider can still receive callbacks during the <b>CfDisconnectSyncRoot</b> call, and the provider is free to choose whether the call needs to fail or be serviced. Either choice will not cause disruptions to the sync provider.
+A sync provider can still receive callbacks during the **CfDisconnectSyncRoot** call, and the provider is free to choose whether the call needs to fail or be serviced. Either choice will not cause disruptions to the sync provider.
 
-After a call to <b>CfDisconnectSyncRoot</b> returns, the sync provider will no longer receive callbacks and the platform will fail any operation that depends on said callbacks.
+After a call to **CfDisconnectSyncRoot** returns, the sync provider will no longer receive callbacks and the platform will fail any operation that depends on said callbacks.
 
-A sync provider should have WRITE_DATA or WRITE_DAC access to the sync root to be disconnected or a call to  <b>CfDisconnectSyncRoot</b> will be failed with HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED). Also, if the sync root has not been previously connected, the call will be failed with invalid parameters.
+A sync provider should have **WRITE_DATA** or **WRITE_DAC** access to the sync root to be disconnected or a call to **CfDisconnectSyncRoot** will be failed with **HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED)**. Also, if the sync root has not been previously connected, the call will be failed with invalid parameters. This API could be called as part of gracefully shutting down the sync provider. However, if the sync provider process chooses to terminate without calling this API, or unexpectedly crashes, the platform will detect this and perform the necessary cleanup.
+
+## -see-also
+
+[CfConnectSyncRoot](nf-cfapi-cfconnectsyncroot.md)

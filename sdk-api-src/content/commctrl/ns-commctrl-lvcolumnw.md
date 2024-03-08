@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagLVCOLUMNW
 title: LVCOLUMNW (commctrl.h)
-description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
+description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure. (Unicode)
 helpviewer_keywords: ["*LPLVCOLUMNW","LPLVCOLUMN","LPLVCOLUMN structure pointer [Windows Controls]","LVCFMT_BITMAP_ON_RIGHT","LVCFMT_CENTER","LVCFMT_COL_HAS_IMAGES","LVCFMT_FIXED_RATIO","LVCFMT_FIXED_WIDTH","LVCFMT_IMAGE","LVCFMT_JUSTIFYMASK","LVCFMT_LEFT","LVCFMT_NO_DPI_SCALE","LVCFMT_RIGHT","LVCFMT_SPLITBUTTON","LVCF_DEFAULTWIDTH","LVCF_FMT","LVCF_IDEALWIDTH","LVCF_IMAGE","LVCF_MINWIDTH","LVCF_ORDER","LVCF_SUBITEM","LVCF_TEXT","LVCF_WIDTH","LVCOLUMN","LVCOLUMN structure [Windows Controls]","LVCOLUMNA","LVCOLUMNW","_win32_LVCOLUMN","_win32_LVCOLUMN_cpp","commctrl/LPLVCOLUMN","commctrl/LVCOLUMN","commctrl/LVCOLUMNA","commctrl/LVCOLUMNW","controls.LVCOLUMN","controls._win32_LVCOLUMN"]
 old-location: controls\LVCOLUMN.htm
 tech.root: Controls

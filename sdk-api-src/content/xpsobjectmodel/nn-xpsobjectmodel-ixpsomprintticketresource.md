@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPrintTicketResource interface
 
-
 ## -description
 
 Provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a <b>PrintTicket</b> resource.
@@ -70,4 +69,4 @@ The <b>IXpsOMPrintTicketResource</b> interface inherits from <a href="/previous-
 
 
 
-<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
+<a href="https://en.wikipedia.org/wiki/Open_XML_Paper_Specification">XML Paper Specification</a>

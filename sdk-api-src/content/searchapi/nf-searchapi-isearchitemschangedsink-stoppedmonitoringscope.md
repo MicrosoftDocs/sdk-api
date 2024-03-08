@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StoppedMonitoringScope
 title: ISearchItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchItemsChangedSink.StoppedMonitoringScope)
 helpviewer_keywords: ["ISearchItemsChangedSink interface [search]","StoppedMonitoringScope method","ISearchItemsChangedSink.StoppedMonitoringScope","ISearchItemsChangedSink::StoppedMonitoringScope","StoppedMonitoringScope","StoppedMonitoringScope method [search]","StoppedMonitoringScope method [search]","ISearchItemsChangedSink interface","_search_ISearchItemsChangedSink_StoppedMonitoringScope","search._search_ISearchItemsChangedSink_StoppedMonitoringScope","searchapi/ISearchItemsChangedSink::StoppedMonitoringScope"]
 old-location: search\_search_ISearchItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search

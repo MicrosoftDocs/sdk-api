@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkStrokes
 title: IInkStrokes (msinkaut.h)
-description: .
+description: . (IInkStrokes)
 helpviewer_keywords: ["IInkStrokes","IInkStrokes interface [Tablet PC]","IInkStrokes interface [Tablet PC]","described","msinkaut/IInkStrokes","tablet.iinkstrokes"]
 old-location: tablet\iinkstrokes.htm
 tech.root: tablet

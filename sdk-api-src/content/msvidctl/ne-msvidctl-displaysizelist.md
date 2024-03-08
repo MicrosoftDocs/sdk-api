@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 This topic applies to Windows XP or later.
         
 
@@ -59,11 +61,11 @@ The <b>DisplaySizeList</b> enumeration defines the possible sizes at which the v
 
 ## -enum-fields
 
-### -field dslDefaultSize
+### -field dslDefaultSize:0
 
 Display the video rectangle at the native size.
 
-### -field dslSourceSize
+### -field dslSourceSize:0
 
 Same as <b>dslDefaultSize</b>.
 

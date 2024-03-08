@@ -11,7 +11,7 @@ ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], ICo
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
+
 The <b>IComponents</b> interface represents a collection of components. In digital television, the term <i>component</i> refers to a substream within the program stream. For example, a program stream may have three audio streams in different languages; in this case each audio stream is a component of the program stream. The <b>IComponents</b> interface is implemented on the Components object, which is a collection of components. The Components object enables applications to enumerate components within a program stream and perform operations related to individual components in the collection. The Components object also supports <b>IPersistPropertyBag</b>.
 
 ## -inheritance
 
 The <b>IComponents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IComponents</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

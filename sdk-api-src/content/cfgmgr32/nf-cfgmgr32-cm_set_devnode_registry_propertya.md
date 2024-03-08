@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Set_DevNode_Registry_PropertyA
 ms.date: 04/14/2021
 targetos: Windows
-description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry.
+description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

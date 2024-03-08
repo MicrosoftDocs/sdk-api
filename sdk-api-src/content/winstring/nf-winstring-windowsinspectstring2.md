@@ -1,7 +1,7 @@
 ---
 UID: NF:winstring.WindowsInspectString2
 title: WindowsInspectString2 function (winstring.h)
-description: Provides a way to for debuggers to display the value of a Windows Runtime�HSTRING in another address space, remotely, or from a dump.
+description: Provides a way to for debuggers to display the value of a Windows Runtime�HSTRING in another address space, remotely, or from a dump. (WindowsInspectString2)
 helpviewer_keywords: ["WindowsInspectString2","WindowsInspectString2 function [Windows Runtime]","winrt.windowsinspectstring2","winstring/WindowsInspectString2"]
 old-location: winrt\windowsinspectstring2.htm
 tech.root: WinRT
@@ -106,7 +106,7 @@ This function can return one of these values.
 
 <ul>
 <li>The <i>machine</i> value is not <b>IMAGE_FILE_MACHINE_AMD64</b>,  <b>IMAGE_FILE_MACHINE_I386</b>, or <b>IMAGE_FILE_MACHINE_ARM</b> or</li>
-<li><i>targetHString</i> is not a correctly formed [**HSTRING**](/windows/win32/winrt/hstring). </li>
+<li><i>targetHString</i> is not a correctly formed <a href="/windows/win32/winrt/hstring"><b>HSTRING</b></a>. </li>
 </ul>
 
 </td>

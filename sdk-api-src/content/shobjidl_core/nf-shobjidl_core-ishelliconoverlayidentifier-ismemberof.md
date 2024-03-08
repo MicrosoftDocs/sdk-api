@@ -64,7 +64,7 @@ A Unicode string that contains the fully qualified path of the Shell object.
 
 Type: <b>DWORD</b>
 
-The object's attributes. For a complete list of file attributes and their associated flags, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
+The object's attributes. For a complete list of file attributes and their associated flags, see <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 ## -returns
 

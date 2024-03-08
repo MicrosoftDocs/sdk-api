@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_2
+UID: NS:wsdtypes.RESPONSEBODY_Subscribe
 title: RESPONSEBODY_Subscribe (wsdtypes.h)
 description: Represents a WS-Eventing Subscribe response message.
 helpviewer_keywords: ["RESPONSEBODY_Subscribe","RESPONSEBODY_Subscribe structure","ncd.responsebody_subscribe_struct","wsdtypes/RESPONSEBODY_Subscribe"]
@@ -67,3 +67,4 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_e
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

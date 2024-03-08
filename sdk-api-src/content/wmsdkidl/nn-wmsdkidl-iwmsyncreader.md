@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMSyncReader","IWMSyncReader interface [windows Media Fo
 old-location: wmformat\iwmsyncreader.htm
 tech.root: wmformat
 ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
 req.header: wmsdkidl.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMSyncReader</b> interface provides the ability to read ASF files using synchronous calls. This is in contrast to many of the methods in <b>IWMReader</b>, which are called asynchronously.
 
 You get a pointer to an <b>IWMSyncReader</b> interface when you create a new synchronous reader object with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatesyncreader">WMCreateSyncReader</a>.
@@ -64,7 +66,7 @@ Use of this interface, as well as the implementation of an <b>IStream</b> COM ob
 
 The <b>IWMSyncReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSyncReader</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

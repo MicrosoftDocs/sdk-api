@@ -11,7 +11,7 @@ ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],UnmapStream me
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: WindowsÂ 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -49,6 +49,8 @@ api_name:
 
 
 ## -description
+
+\[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Removes the mapping between  a stream and an output pin  for a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. After a successful call to this method, the output pin stops sending media samples. To resume sending media samples, the pin must be mapped to another stream by a call to the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">MapStream</a> method.
 

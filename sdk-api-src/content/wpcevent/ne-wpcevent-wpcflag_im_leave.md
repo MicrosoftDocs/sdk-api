@@ -56,11 +56,11 @@ Indicates information about when a participant leaves the instant messaging  int
 
 ## -enum-fields
 
-### -field WPCFLAG_IM_LEAVE_NORMAL
+### -field WPCFLAG_IM_LEAVE_NORMAL:0x00000000
 
 An instant message participant left the interaction.
 
-### -field WPCFLAG_IM_LEAVE_FORCED
+### -field WPCFLAG_IM_LEAVE_FORCED:0x00000001
 
 An instant message participant was forced to leave the interaction.
 

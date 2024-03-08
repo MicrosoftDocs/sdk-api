@@ -6,7 +6,7 @@ helpviewer_keywords: ["IWMPlayerTimestampHook","IWMPlayerTimestampHook interface
 old-location: wmformat\iwmplayertimestamphook.htm
 tech.root: wmformat
 ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
-ms.date: 12/05/2018
+ms.date: 4/26/2023
 ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
 req.header: wmdxva.h
 req.include-header: 
@@ -50,6 +50,8 @@ api_name:
 
 ## -description
 
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The <b>IWMPlayerTimestampHook</b> interface is implemented on a player's source filter. It enables the filter to modify the time stamps on the samples before sending them to the renderer.
 
 This method is provided to provide the filter with a greater degree of control over the streaming process than would otherwise be possible. Specifically, the method enables changing video time stamps to allow playback at higher rates than normal.
@@ -60,7 +62,7 @@ When DirectX video acceleration is enabled, the <b>OnSample</b> method is never 
 
 The <b>IWMPlayerTimestampHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPlayerTimestampHook</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -51,19 +51,19 @@ api_name:
 
 ## -description
 
-Indicates how pixel shader sampling will be restricted. This indicates whether the vertex buffer is large and tends to change infrequently or smaller and changes frequently (typically frame over frame).
+Indicates how pixel shader sampling will be restricted.
 
 ## -enum-fields
 
-### -field D2D1_PIXEL_OPTIONS_NONE
+### -field D2D1_PIXEL_OPTIONS_NONE:0
 
 The pixel shader is not restricted in its sampling.
 
-### -field D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING
+### -field D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING:1
 
  The pixel shader samples inputs only at the same scene coordinate as the output pixel and returns transparent black whenever the input pixels are also transparent black.
 
-### -field D2D1_PIXEL_OPTIONS_FORCE_DWORD
+### -field D2D1_PIXEL_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 
