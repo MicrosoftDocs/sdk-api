@@ -6,7 +6,7 @@ helpviewer_keywords: ["TryAcquireSRWLockShared","TryAcquireSRWLockShared functio
 old-location: base\tryacquiresrwlockshared.htm
 tech.root: base
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
-ms.date: 02/05/2024
+ms.date: 3/08/2024
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -71,6 +71,10 @@ A pointer to the SRW lock.
 If the lock is successfully acquired, the return value is nonzero.
 
 if the current thread could not acquire the lock, the return value is zero.
+
+## -Remarks
+
+Successful acquisition of an SRW lock in shared mode typically permits other threads to acquire the same lock in shared mode, but doesn't guarantee that such acquisitions always succeed. An SRW lock may limit its simultaneous shared mode acquisitions for performance reasons.
 
 ## -see-also
 

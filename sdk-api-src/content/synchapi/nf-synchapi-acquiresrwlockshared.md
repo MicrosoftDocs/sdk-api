@@ -6,7 +6,7 @@ helpviewer_keywords: ["AcquireSRWLockShared","AcquireSRWLockShared function","ba
 old-location: base\acquiresrwlockshared.htm
 tech.root: base
 ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
-ms.date: 02/05/2024
+ms.date: 3/08/2024
 ms.keywords: AcquireSRWLockShared, AcquireSRWLockShared function, base.acquiresrwlockshared, synchapi/AcquireSRWLockShared, winbase/AcquireSRWLockShared
 req.header: synchapi.h
 req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -63,6 +63,10 @@ Acquires a slim reader/writer (SRW) lock in shared mode.
 ### -param SRWLock [in, out]
 
 A pointer to the SRW lock.
+
+## -Remarks
+
+Successful acquisition of an SRW lock in shared mode typically permits other threads to acquire the same lock in shared mode, but doesn't guarantee that such acquisitions always succeed. An SRW lock may limit its simultaneous shared mode acquisitions for performance reasons.
 
 ## -see-also
 
