@@ -6,7 +6,7 @@ helpviewer_keywords: ["TryAcquireSRWLockShared","TryAcquireSRWLockShared functio
 old-location: base\tryacquiresrwlockshared.htm
 tech.root: base
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
-ms.date: 8/03/2024
+ms.date: 3/08/2024
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 req.header: synchapi.h
 req.include-header: Windows.h
