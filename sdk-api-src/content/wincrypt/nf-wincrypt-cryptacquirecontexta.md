@@ -56,7 +56,7 @@ api_name:
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptAcquireContext</b> function is used to acquire a handle to a particular <a href="/windows/desktop/SecGloss/k-gly">key container</a> within a particular <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This returned handle is used in calls to <a href="/windows/desktop/SecGloss/c-gly">CryptoAPI</a> functions that use the selected CSP.
 
-This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>pszProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>pszContainer</i> parameter. To acquire the <a href="/windows/desktop/SecGloss/c-gly">context</a> and the key container of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> associated with the <a href="/windows/desktop/SecGloss/p-gly">public key</a> of a certificate, use 
+This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>szProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>szContainer</i> parameter. To acquire the <a href="/windows/desktop/SecGloss/c-gly">context</a> and the key container of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> associated with the <a href="/windows/desktop/SecGloss/p-gly">public key</a> of a certificate, use 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>.
 
 With the appropriate setting of <i>dwFlags</i>, this function can also create and destroy key containers and can provide access to a CSP with a temporary key container if access to a private key is not required.
@@ -69,9 +69,9 @@ A pointer to a handle of a CSP. When you have finished using the CSP, release th
 
 ### -param szContainer [in]
 
-The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publicly available information in the specfied container.
+The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>szContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publicly available information in the specfied container.
 
-For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
+For more information about the usage of the <i>szContainer</i> parameter, see Remarks.
 
 ### -param szProvider [in]
 
@@ -110,10 +110,10 @@ Flag values. This parameter is usually set to zero, but some applications set on
 <td width="60%">
 This option is intended for applications that are using ephemeral keys, or applications that do not require access to persisted private keys, such as applications that perform only <a href="/windows/desktop/SecGloss/h-gly">hashing</a>, <a href="/windows/desktop/SecGloss/e-gly">encryption</a>, and <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> verification. Only applications that create signatures or decrypt messages need access to a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. In most cases, this flag should be set.
 
-For file-based CSPs, when this flag is set, the <i>pszContainer</i> parameter must be set to <b>NULL</b>. The application has no access to the persisted private keys of public/private key pairs. When this flag is set, temporary <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a> can be created, but they are not persisted.
+For file-based CSPs, when this flag is set, the <i>szContainer</i> parameter must be set to <b>NULL</b>. The application has no access to the persisted private keys of public/private key pairs. When this flag is set, temporary <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a> can be created, but they are not persisted.
 
-For hardware-based CSPs, such as a smart card CSP, if the <i>pszContainer</i> parameter is <b>NULL</b> or blank, this flag implies that no access to any keys is required, and that no UI should be presented to the user.  This form is used to connect to the CSP to query its capabilities but not to actually use its keys.
-If the <i>pszContainer</i> parameter is not <b>NULL</b> and not blank, then this flag implies that access to only the publicly available information within the specified container is required.  The CSP should not ask for a PIN.  Attempts to access private information (for example, the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function) will fail.
+For hardware-based CSPs, such as a smart card CSP, if the <i>szContainer</i> parameter is <b>NULL</b> or blank, this flag implies that no access to any keys is required, and that no UI should be presented to the user.  This form is used to connect to the CSP to query its capabilities but not to actually use its keys.
+If the <i>szContainer</i> parameter is not <b>NULL</b> and not blank, then this flag implies that access to only the publicly available information within the specified container is required.  The CSP should not ask for a PIN.  Attempts to access private information (for example, the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function) will fail.
 
 When <b>CryptAcquireContext</b> is called, many CSPs require input from the owning user before granting access to the private keys in the <a href="/windows/desktop/SecGloss/k-gly">key container</a>. For example, the private keys can be encrypted, requiring a password from the user before they can be used. However, if the <b>CRYPT_VERIFYCONTEXT</b> flag is specified, access to the private keys is not required and the user interface can be bypassed.
 
@@ -125,7 +125,7 @@ When <b>CryptAcquireContext</b> is called, many CSPs require input from the owni
 </dl>
 </td>
 <td width="60%">
-Creates a new key container with the name specified by <i>pszContainer</i>. If <i>pszContainer</i> is <b>NULL</b>, a key container with the default name is created.
+Creates a new key container with the name specified by <i>szContainer</i>. If <i>szContainer</i> is <b>NULL</b>, a key container with the default name is created.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The CRYPT_MACHINE_KEYSET flag is useful when the user is accessing from a servic
 </dl>
 </td>
 <td width="60%">
-Delete the <a href="/windows/desktop/SecGloss/k-gly">key container</a> specified by <i>pszContainer</i>. If <i>pszContainer</i> is <b>NULL</b>, the key container with the default name is deleted. All <a href="/windows/desktop/SecGloss/k-gly">key pairs</a> in the key container are also destroyed. 
+Delete the <a href="/windows/desktop/SecGloss/k-gly">key container</a> specified by <i>szContainer</i>. If <i>szContainer</i> is <b>NULL</b>, the key container with the default name is deleted. All <a href="/windows/desktop/SecGloss/k-gly">key pairs</a> in the key container are also destroyed. 
 
 
 
@@ -313,7 +313,7 @@ The key container could not be opened. A common cause of this error is that the 
 </dl>
 </td>
 <td width="60%">
-The <i>pszContainer</i> or <i>pszProvider</i> parameter is set to a value that is not valid.
+The <i>szContainer</i> or <i>szProvider</i> parameter is set to a value that is not valid.
 
 </td>
 </tr>
@@ -361,7 +361,7 @@ The <i>dwFlags</i> parameter is CRYPT_NEWKEYSET, but the key container already e
 </dl>
 </td>
 <td width="60%">
-The <i>pszContainer</i> key container was found but is corrupt.
+The <i>szContainer</i> key container was found but is corrupt.
 
 </td>
 </tr>
@@ -421,7 +421,7 @@ The provider type specified by <i>dwProvType</i> is corrupt. This error can rela
 </dl>
 </td>
 <td width="60%">
-The provider type specified by <i>dwProvType</i> does not match the provider type found. Note that this error can only occur when <i>pszProvider</i> specifies an actual CSP name.
+The provider type specified by <i>dwProvType</i> does not match the provider type found. Note that this error can only occur when <i>szProvider</i> specifies an actual CSP name.
 
 </td>
 </tr>
@@ -465,16 +465,16 @@ An error occurred while loading the DLL file image, prior to verifying its signa
 
 ## -remarks
 
-The <i>pszContainer</i> parameter specifies the name of the container that is used to hold the key. Each container can contain one key. If  you  specify the name of an existing container when creating keys, the new key will overwrite a previous one.
+The <i>szContainer</i> parameter specifies the name of the container that is used to hold the key. Each container can contain one key. If  you  specify the name of an existing container when creating keys, the new key will overwrite a previous one.
 
 The combination of the CSP name and the key container name uniquely identifies a single key on the system. If one application tries to modify a key container while another application is using it, unpredictable behavior may result.
 
-If you set the  <i>pszContainer</i> parameter to <b>NULL</b>, the default key container name is used. When the Microsoft software CSPs are called in this manner, a new container is created each time the <b>CryptAcquireContext</b> function is called. However, different CSPs may behave differently in this regard. In particular, a CSP may have a single default container that is shared by all applications accessing the CSP. Therefore, applications must not use the default key container to store private keys. Instead, either prevent key storage by passing the <b>CRYPT_VERIFYCONTEXT</b> flag in the <i>dwFlags</i> parameter, or use an application-specific container that is unlikely to be used by another application.
+If you set the  <i>szContainer</i> parameter to <b>NULL</b>, the default key container name is used. When the Microsoft software CSPs are called in this manner, a new container is created each time the <b>CryptAcquireContext</b> function is called. However, different CSPs may behave differently in this regard. In particular, a CSP may have a single default container that is shared by all applications accessing the CSP. Therefore, applications must not use the default key container to store private keys. Instead, either prevent key storage by passing the <b>CRYPT_VERIFYCONTEXT</b> flag in the <i>dwFlags</i> parameter, or use an application-specific container that is unlikely to be used by another application.
 
 An application can obtain the name of the key container in use by using the 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function to read the PP_CONTAINER value.
 
-For performance reasons, we recommend that you set the <i>pszContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> in all situations where you do not require a persisted key. In particular, consider setting the  <i>pszContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> for the following scenarios:
+For performance reasons, we recommend that you set the <i>szContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> in all situations where you do not require a persisted key. In particular, consider setting the  <i>szContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> for the following scenarios:
 
 <ul>
 <li>You are creating a hash.
