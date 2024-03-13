@@ -204,27 +204,21 @@ RAWMOUSE& mouse = raw->data.mouse;
 
 if ((mouse.usButtonFlags & RI_MOUSE_WHEEL) || (mouse.usButtonFlags & RI_MOUSE_HWHEEL))
 {
-    float wheelDelta = (float)(short)mouse.usButtonData;
-    float numTicks = wheelDelta / WHEEL_DELTA;
-    bool isScrollByPage = false;
-    float scrollDelta = numTicks;
+    short wheelDelta = (short)mouse.usButtonData;
+    float scrollDelta = (float)wheelDelta / WHEEL_DELTA;
 
-    // Horizontal scroll
-    if (mouse.usButtonFlags & RI_MOUSE_HWHEEL)
+    if (mouse.usButtonFlags & RI_MOUSE_HWHEEL) // Horizontal
     {
-        unsigned long scrollChars = 1;
+        unsigned long scrollChars = 1; // 1 is the default
         SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
         scrollDelta *= scrollChars;
         ...
     }
-    // Vertical scroll
-    else 
+    else // Vertical
     {
-        unsigned long scrollLines = 3;
+        unsigned long scrollLines = 3; // 3 is the default
         SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, &scrollLines, 0);
-        if (scrollLines == WHEEL_PAGESCROLL)
-            isScrollByPage = true;
-        else
+        if (scrollLines != WHEEL_PAGESCROLL)
             scrollDelta *= scrollLines;
         ...
     }
