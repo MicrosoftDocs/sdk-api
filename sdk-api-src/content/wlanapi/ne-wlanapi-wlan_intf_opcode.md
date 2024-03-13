@@ -132,11 +132,11 @@ This value is supported on Windows 8 and on Windows Server 2012.
 
 ### -field wlan_intf_opcode_secondary_sta_interfaces
 
-TBD
+Allows clients to query information about the Secondary STA of a given interface. Returns a [WLAN_INTERFACE_INFO_LIST](/windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_info_list) of Secondary STAs on the given interface.
 
 ### -field wlan_intf_opcode_secondary_sta_synchronized_connections
 
-TBD
+Opcode used to query whether or not Secondary STA synchronized connections are enabled on the specified interface.
 
 ### -field wlan_intf_opcode_realtime_connection_quality
 
@@ -188,7 +188,7 @@ Not used.
 
 ### -field wlan_intf_opcode_ihv_end:0x3fffffff
 
-TBD
+Not used.
 
 ## -remarks
 

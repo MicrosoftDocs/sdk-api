@@ -58,17 +58,17 @@ Type: **[WLAN_QOS_CAPABILITIES](./ns-wlanapi-wlan_qos_capabilities.md)**
 
 The QoS capabilities of the interface.
 
-### -field ulConnectionQoSInfoSize
+### -field bConnected
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-Indicates whether or not there's an established connection; and therefore whether the connection QoS info is present in connectionQoSInfo.
+Represents whether or not there's an established connection. If `TRUE`, then *connectionQoSInfo* holds QoS information about the current connection. Otherwise, *connectionoQoSInfo* will be zeroed.
 
-### -field ulConnectionQoSInfoOffset
+### -field connectionQoSInfo
 
 Type: **[WLAN_CONNECTION_QOS_INFO](./ns-wlanapi-wlan_connection_qos_info.md)**
 
-The QoS info of the current connection. Meaningful only if *bConnected* is `TRUE`; otherwise, *connectionQoSInfo* will be zeroed, and should be ignored.
+Information about the QoS features (outlined by the WFA Wi-Fi QoS Management Specification) pertaining to the current connection. This structure contains relevant information only if *bConnected* is `TRUE`; otherwise it is all zeros, and you should ignore it.
 
 ## -remarks
 

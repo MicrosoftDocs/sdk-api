@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_QOS_INFO
 title: WLAN_CONNECTION_QOS_INFO
-description: TBD
+description: Contains information about the QoS features outlined by the WFA Wi-Fi QoS Management Specification pertaining to the current connection.
 tech.root: nwifi
 ms.date: 03/05/2024
 targetos: Windows
@@ -48,7 +48,7 @@ prerelease: true
 
 ## -description
 
-TBD
+Contains information about the QoS features outlined by the [WFA Wi-Fi QoS Management Specification](https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-improves-quality-of-service-for-real-time-wi-fi-applications) pertaining to the current connection.
 
 ## -struct-fields
 
@@ -56,31 +56,31 @@ TBD
 
 Type: **[WLAN_QOS_CAPABILITIES](./ns-wlanapi-wlan_qos_capabilities.md)**
 
-TBD
+The QoS capabilities of the current peer.
 
 ### -field bMSCSConfigured
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether Mirrored Stream Classification Service (MSCS) is enabled on the current connection.
 
 ### -field bDSCPToUPMappingConfigured
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether Differentiated Service Code Point (DSCP) to User Priority (UP) mapping is enabled on the current connection.
 
 ### -field ulNumConfiguredSCSStreams
 
 Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents the number of Stream Classification Service (SCS) streams configured on the current connection.
 
 ### -field ulNumConfiguredDSCPPolicies
 
 Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents the number of DSCP Policies configured on the current connection.
 
 ## -remarks
 

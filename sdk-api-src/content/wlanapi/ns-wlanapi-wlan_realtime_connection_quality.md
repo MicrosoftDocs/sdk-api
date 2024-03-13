@@ -54,31 +54,31 @@ Represents the attributes that describe the quality of the connection on a given
 
 ### -field dot11PhyType
 
-TBD
+A <a href="/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> value that indicates the physical type of the association.
 
 ### -field ulLinkQuality
 
-TBD
+A <b>ULONG</b> percentage value that represents the signal quality of the connection. This member contains a value between 0 and 100. A value of 0 implies an actual RSSI signal strength of -100 dbm. A value of 100 implies an actual RSSI signal strength of -50 dbm. You can calculate the RSSI signal strength value for *ulLinkQuality* values between 1 and 99 using linear interpolation.
 
 ### -field ulRxRate
 
-TBD
+Contains the receiving rate of the association.
 
 ### -field ulTxRate
 
-TBD
+Contains the transmission rate of the association.
 
 ### -field bIsMLOConnection
 
-TBD
+Represents whether this is a Multi-Link Operation (MLO) connection.
 
 ### -field ulNumLinks
 
-TBD
+Number of connected links.
 
-### -field ulLinkInfoOffset
+### -field linksInfo[1]
 
-TBD
+A [WLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO](./ns-wlanapi-wlan_realtime_connection_quality_link_info.md) of size *ulNumLinks*. Each element contains information about a different connected link.
 
 ## -remarks
 

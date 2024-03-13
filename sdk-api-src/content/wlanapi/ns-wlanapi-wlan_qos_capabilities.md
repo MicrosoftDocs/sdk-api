@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._WLAN_QOS_CAPABILITIES
 title: WLAN_QOS_CAPABILITIES
-description: TBD
+description: Contains capabilities of the features outlined in the WFA Wi-Fi QoS Management Specification.
 tech.root: nwifi
 ms.date: 03/05/2024
 targetos: Windows
@@ -48,7 +48,7 @@ prerelease: true
 
 ## -description
 
-TBD
+Contains capabilities of the features outlined in the [WFA Wi-Fi QoS Management Specification](https://www.wi-fi.org/news-events/newsroom/wi-fi-alliance-improves-quality-of-service-for-real-time-wi-fi-applications).
 
 ## -struct-fields
 
@@ -56,25 +56,25 @@ TBD
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether Mirrored Stream Classification Service (MSCS) is supported.
 
 ### -field bDSCPToUPMappingSupported
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether Differentiated Service Code Point (DSCP) to User Priority (UP) mapping is supported.
 
 ### -field bSCSSupported
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether Stream Classification Service (SCS) is supported.
 
 ### -field bDSCPPolicySupported
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
-TBD
+Represents whether DSCP Policies are supported.
 
 ## -remarks
 

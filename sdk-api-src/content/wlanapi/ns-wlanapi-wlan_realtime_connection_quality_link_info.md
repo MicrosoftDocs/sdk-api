@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._WLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO
 title: WLAN_REALTIME_CONNECTION_QUALITY_LINK_INFO
-description: TBD
+description: Contains information about a connected link.
 tech.root: nwifi
 ms.date: 03/05/2024
 targetos: Windows
@@ -48,29 +48,32 @@ prerelease: true
 
 ## -description
 
-TBD
+Contains information about a connected link.
 
 ## -struct-fields
 
 ### -field ucLinkID
 
-TBD
+The Link ID of the specific link.
 
 ### -field ulChannelCenterFrequencyMhz
 
-TBD
+The channel center frequency of the band on which the 802.11 Beacon or Probe Response frame was received. The value of *ulChannelCenterFrequencyMhz* is in units of kilohertz (kHz). 
+
+> [!NOTE]
+> This member is valid only for PHY types that are not frequency-hopping spread spectrum (FHSS).
 
 ### -field ulBandwidth
 
-TBD
+Bandwidth of the specific link.
 
 ### -field lRssi
 
-TBD
+The received signal strength indicator (RSSI) value, in units of decibels referenced to 1.0 milliwatts (dBm), as detected by the wireless LAN interface driver for the AP or peer station.
 
 ### -field wlanRateSet
 
-TBD
+A set of data transfer rates supported by the BSS. The data type for this member is a <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_rate_set">WLAN_RATE_SET</a> structure.
 
 ## -remarks
 
