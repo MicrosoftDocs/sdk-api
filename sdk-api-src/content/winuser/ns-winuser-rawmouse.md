@@ -139,7 +139,7 @@ If **MOUSE_MOVE_ABSOLUTE** value is specified, **lLastX** and **lLastY** contain
 If **MOUSE_VIRTUAL_DESKTOP** is specified in addition to **MOUSE_MOVE_ABSOLUTE**, the coordinates map to the entire virtual desktop.
 
 ```cpp
-case WM_INPUT: 
+case WM_INPUT:
 {
     UINT dwSize = sizeof(RAWINPUT);
     static BYTE lpb[sizeof(RAWINPUT)];
@@ -148,12 +148,14 @@ case WM_INPUT:
 
     RAWINPUT* raw = (RAWINPUT*)lpb;
 
-    if (raw->header.dwType == RIM_TYPEMOUSE) 
+    if (raw->header.dwType == RIM_TYPEMOUSE)
     {
-        if (raw->mouse.usFlags & MOUSE_MOVE_ABSOLUTE)
+        RAWMOUSE& mouse = raw->data.mouse;
+
+        if (mouse.usFlags & MOUSE_MOVE_ABSOLUTE)
         {
             RECT rect;
-            if (raw->mouse.usFlags & MOUSE_VIRTUAL_DESKTOP)
+            if (mouse.usFlags & MOUSE_VIRTUAL_DESKTOP)
             {
                 rect.left = GetSystemMetrics(SM_XVIRTUALSCREEN);
                 rect.top = GetSystemMetrics(SM_YVIRTUALSCREEN);
@@ -168,18 +170,20 @@ case WM_INPUT:
                 rect.bottom = GetSystemMetrics(SM_CYSCREEN);
             }
 
-            int absoluteX = MulDiv(raw->mouse.lLastX, rect.right, 65535) + rect.left;
-            int absoluteY = MulDiv(raw->mouse.lLastY, rect.bottom, 65535) + rect.top;
+            int absoluteX = MulDiv(mouse.lLastX, rect.right, USHRT_MAX) + rect.left;
+            int absoluteY = MulDiv(mouse.lLastY, rect.bottom, USHRT_MAX) + rect.top;
             ...
         }
-        else if (raw->mouse.lLastX != 0 || raw->mouse.lLastY != 0)
+        else if (mouse.lLastX != 0 || mouse.lLastY != 0)
         {
-            int relativeX = raw->mouse.lLastX;
-            int relativeY = raw->mouse.lLastY;
+            int relativeX = mouse.lLastX;
+            int relativeY = mouse.lLastY;
             ...
         }
         ...
     }
+
+    return 0;
 }
 ```
 
@@ -196,33 +200,27 @@ The application could also retrieve the current lines-to-scroll and characters-t
 Here is example of such wheel handling code:
 
 ```cpp
-if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
-    (rawMouse.usButtonFlags & RI_MOUSE_HWHEEL) == RI_MOUSE_HWHEEL)
+RAWMOUSE& mouse = raw->data.mouse;
+
+if ((mouse.usButtonFlags & RI_MOUSE_WHEEL) || (mouse.usButtonFlags & RI_MOUSE_HWHEEL))
 {
-    static const unsigned long defaultScrollLinesPerWheelDelta = 3;
-    static const unsigned long defaultScrollCharsPerWheelDelta = 1;
+    short wheelDelta = (short)mouse.usButtonData;
+    float scrollDelta = (float)wheelDelta / WHEEL_DELTA;
 
-    float wheelDelta = (float)(short)rawMouse.usButtonData;
-    float numTicks = wheelDelta / WHEEL_DELTA;
-
-    bool isHorizontalScroll = (rawMouse.usButtonFlags & RI_MOUSE_HWHEEL) == RI_MOUSE_HWHEEL;
-    bool isScrollByPage = false;
-    float scrollDelta = numTicks;
-
-    if (isHorizontalScroll)
+    if (mouse.usButtonFlags & RI_MOUSE_HWHEEL) // Horizontal
     {
-        unsigned long scrollChars = defaultScrollCharsPerWheelDelta;
+        unsigned long scrollChars = 1; // 1 is the default
         SystemParametersInfo(SPI_GETWHEELSCROLLCHARS, 0, &scrollChars, 0);
         scrollDelta *= scrollChars;
+        ...
     }
-    else
+    else // Vertical
     {
-        unsigned long scrollLines = defaultScrollLinesPerWheelDelta;
+        unsigned long scrollLines = 3; // 3 is the default
         SystemParametersInfo(SPI_GETWHEELSCROLLLINES, 0, &scrollLines, 0);
-        if (scrollLines == WHEEL_PAGESCROLL)
-            isScrollByPage = true;
-        else
+        if (scrollLines != WHEEL_PAGESCROLL)
             scrollDelta *= scrollLines;
+        ...
     }
 }
 ```
