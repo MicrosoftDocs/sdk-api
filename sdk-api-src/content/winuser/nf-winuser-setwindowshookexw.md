@@ -300,6 +300,8 @@ An error may occur if the <i>hMod</i> parameter is <b>NULL</b> and the <i>dwThre
 
 Calling the [CallNextHookEx function](nf-winuser-callnexthookex.md) function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications.
 
+In .net, you must ensure the callback is not moved around by the garbage collector (otherwise your app will crash with an ExecutionEngineException). One way to do this is by making the callback a static method of your class.
+
 Before terminating, an application must call the [UnhookWindowsHookEx function](nf-winuser-unhookwindowshookex.md) function to free system resources associated with the hook. 
 
 The scope of a hook depends on the hook type. Some hooks can be set only with global scope; others can also be set for only a specific thread, as shown in the following table.
