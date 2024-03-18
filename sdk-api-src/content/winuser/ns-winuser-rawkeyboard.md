@@ -130,14 +130,13 @@ case WM_INPUT:
 
         if (!keyboard.MakeCode)
         {
-            // Some apps may send wrong make scan codes with high-order bit set (key break code).
-            // Strip high-order bit and add extended scan code value.
+            // Compose the full scan code value with its extended byte
             scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
         }
         else
         {
-            // Scan code value may be empty for some buttons (for example multimedia buttons).
-            // Try to get scan code from the virtual key code.
+            // Scan code value may be empty for some buttons (for example multimedia buttons)
+            // Try to get the scan code from the virtual key code
             scanCode = LOWORD(MapVirtualKey(keyboard.VKey, MAPVK_VK_TO_VSC_EX));
         }
 
