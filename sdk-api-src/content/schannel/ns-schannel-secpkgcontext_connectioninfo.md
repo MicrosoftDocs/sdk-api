@@ -379,6 +379,16 @@ Strength of the hash, in bits: 128 or 160.
 <th>Meaning</th>
 </tr>
 <tr>
+<td width="40%"><a id="ALG_TYPE_ANY"></a><a id="alg_type_any"></a><dl>
+<dt><b>ALG_TYPE_ANY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Any key exchange algorithm.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="CALG_RSA_KEYX"></a><a id="calg_rsa_keyx"></a><dl>
 <dt><b>CALG_RSA_KEYX</b></dt>
 </dl>
