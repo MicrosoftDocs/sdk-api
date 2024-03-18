@@ -40,7 +40,7 @@ api_name:
  - CHOOSECOLORW
 ---
 
-# CHOOSECOLORW structure
+# CHOOSECOLORW~r1 structure
 
 
 ## -description

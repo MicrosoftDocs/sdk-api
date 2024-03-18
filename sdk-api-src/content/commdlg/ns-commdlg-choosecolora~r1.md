@@ -40,7 +40,7 @@ api_name:
  - CHOOSECOLORA
 ---
 
-# CHOOSECOLORA structure
+# CHOOSECOLORA~r1 structure
 
 
 ## -description
