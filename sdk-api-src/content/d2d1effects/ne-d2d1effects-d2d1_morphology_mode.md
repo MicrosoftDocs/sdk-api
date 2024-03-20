@@ -56,10 +56,10 @@ The mode for the <a href="/windows/desktop/Direct2D/morphology">Morphology effec
 
 ### -field D2D1_MORPHOLOGY_MODE_ERODE:0
 
-The maximum value from each RGB channel in the kernel is used.
+The minimum value from each RGB channel in the kernel is used.
 
 ### -field D2D1_MORPHOLOGY_MODE_DILATE:1
 
-The minimum value from each RGB channel in the kernel is used.
+The maximum value from each RGB channel in the kernel is used.
 
 ### -field D2D1_MORPHOLOGY_MODE_FORCE_DWORD:0xffffffff
