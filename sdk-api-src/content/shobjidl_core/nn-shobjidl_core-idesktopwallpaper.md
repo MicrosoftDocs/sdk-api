@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IDesktopWallpaper
 title: IDesktopWallpaper (shobjidl_core.h)
-description: . (IDesktopWallpaper)
+description: Provides methods for managing the desktop wallpaper. (IDesktopWallpaper)
 helpviewer_keywords: ["IDesktopWallpaper","IDesktopWallpaper interface [Windows Shell]","IDesktopWallpaper interface [Windows Shell]","described","shell.IDesktopWallpaper","shobjidl_core/IDesktopWallpaper"]
 old-location: shell\IDesktopWallpaper.htm
 tech.root: shell
