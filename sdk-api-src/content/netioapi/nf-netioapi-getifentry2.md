@@ -52,6 +52,9 @@ api_name:
 The 
 <b>GetIfEntry2</b> function  retrieves information for the specified interface on the local computer.
 
+> [!IMPORTANT]
+> For driver developers, it is recommended to use <a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfEntry2Ex</a> with MibIfEntryNormalWithoutStatistics when possible, in order to avoid a deadlock when servicing NDIS OIDs.
+
 ## -parameters
 
 ### -param Row
