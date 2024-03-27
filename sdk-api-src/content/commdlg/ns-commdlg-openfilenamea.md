@@ -361,8 +361,6 @@ For old-style dialog boxes, this flag causes the dialog box to use long file nam
 <td width="60%">
 Restores the current directory to its original value if the user changed the directory while searching for files.
 
- This flag is ineffective for <a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>.
-
 </td>
 </tr>
 <tr>
