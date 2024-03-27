@@ -1,21 +1,22 @@
 ---
 UID: NE:winuser.LEGACY_TOUCHPAD_FEATURES
-tech.root: 
-title: LEGACY_TOUCHPAD_FEATURES
-ms.date: 
+tech.root: winmsg
+title: LEGACY_TOUCHPAD_FEATURES enumeration
+ms.date: 03/27/2024
 targetos: Windows
-description: 
+description: Identifies the settings for which a legacy touchpad has indicated support.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winuser.h
-req.include-header: 
+req.include-header: Windows.h
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
-req.typenames: 
+req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
+req.target-min-winversvr: None supported
+req.target-type: Windows
+targetos: Windows
+req.typenames: LEGACY_TOUCHPAD_FEATURES
 typedef_isUnnamed: false
 req.umdf-ver: 
 topic_type:
@@ -26,6 +27,7 @@ api_location:
  - winuser.h
 api_name:
  - LEGACY_TOUCHPAD_FEATURES
+ms.custom: 24H2
 f1_keywords:
  - LEGACY_TOUCHPAD_FEATURES
  - winuser/LEGACY_TOUCHPAD_FEATURES
@@ -35,17 +37,28 @@ helpviewer_keywords:
  - LEGACY_TOUCHPAD_FEATURES
 ---
 
+# LEGACY_TOUCHPAD_FEATURES enumeration
+
 ## -description
+
+Identifies the settings for which a legacy touchpad has indicated support.
 
 ## -enum-fields
 
 ### -field LEGACY_TOUCHPAD_FEATURE_NONE
 
+No touchpad features are supported (or no legacy touchpad is detected).
+
 ### -field LEGACY_TOUCHPAD_FEATURE_ENABLE_DISABLE
+
+The legacy touchpad supports being enabled and disabled.
 
 ### -field LEGACY_TOUCHPAD_FEATURE_REVERSE_SCROLL_DIRECTION
 
+The legacy touchpad supports reversing its scroll direction.
+
 ## -remarks
 
-## -see-also
+When the corresponding setting is updated using SPIF_UPDATEINIFILE to persist the setting, the legacy touchpad will respond accordingly. 
 
+## -see-also
