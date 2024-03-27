@@ -393,7 +393,12 @@ A pointer to a variable of type DWORD that receives the required size, in bytes,
 
 ## -returns
 
-<b>SetupDiGetDeviceRegistryProperty</b> returns <b>TRUE</b> if the call was successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>SetupDiGetDeviceRegistryProperty</b> returns the ERROR_INVALID_DATA error code if the requested property does not exist for a device or if the property data is not valid.
+<b>SetupDiGetDeviceRegistryProperty</b> returns <b>TRUE</b> if the call was successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
+<b>SetupDiGetDeviceRegistryProperty</b> returns the ERROR_INVALID_DATA error code if the requested property does not exist for a device or if the property data is not valid.
+
+<b>SetupDiGetDeviceRegistryProperty</b> returns the ERROR_INSUFFICIENT_BUFFER error code if <i>PropertyBufferSize</i>'s value is not large enough.
+Please note that the error code should be ignored when you want the function to only return the required size.
 
 ## -see-also
 
