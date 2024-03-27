@@ -54,7 +54,6 @@ req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 
 # SystemParametersInfoA function
 
-
 ## -description
 
 Retrieves or sets the value of one of the system-wide parameters. This function can also update the user profile while setting a parameter.
@@ -1017,7 +1016,7 @@ Turns icon-title wrapping on or off. The <i>uiParam</i> parameter specifies <b>T
 </table>
  
 
-The following are the input parameters. They include parameters related to the keyboard, mouse, pen, input language, and the warning beeper.
+The following are the input parameters. They include parameters related to the keyboard, mouse, touchpad, pen, input language, and the warning beeper.
 
 <table>
 <tr>
@@ -1253,6 +1252,17 @@ Determines whether the snap-to-default-button feature is enabled. If enabled, th
 </td>
 <td width="60%">
 <b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SPI_GETTOUCHPADPARAMETERS"></a><a id="spi_gettouchpadparameters"></a><dl>
+<dt><b>SPI_GETTOUCHPADPARAMETERS</b></dt>
+<dt>0x00AE</dt>
+</dl>
+</td>
+<td width="60%">
+<b>Starting with Windows 11, version 24H2:</b> Retrieves information about the Precision Touchpad. This includes both user settings and system information related to the touchpad.
 
 </td>
 </tr>
@@ -1582,6 +1592,17 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 </td>
 <td width="60%">
 <b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must be a <b>BOOL</b> variable, casted by PVOID.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SPI_SETTOUCHPADPARAMETERS"></a><a id="spi_settouchpadparameters"></a><dl>
+<dt><b>SPI_SETTOUCHPADPARAMETERS</b></dt>
+<dt>0x00AE</dt>
+</dl>
+</td>
+<td width="60%">
+<b>Starting with Windows 11, version 24H2:</b> Sets information about the Precision Touchpad. This includes both user settings and system information related to the touchpad.
 
 </td>
 </tr>
