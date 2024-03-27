@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.dll
-req.dll: Kernel32.lib
+req.lib: OneCore.lib or mincore.lib
+req.dll: KernelBase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - kernel32.lib
+ - OneCore.lib
+ - mincore.lib
  - API-MS-Win-Core-Wow64-L1-1-1.dll
  - KernelBase.dll
 api_name:
