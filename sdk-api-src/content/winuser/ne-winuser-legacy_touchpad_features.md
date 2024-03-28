@@ -27,7 +27,6 @@ api_location:
  - winuser.h
 api_name:
  - LEGACY_TOUCHPAD_FEATURES
-ms.custom: 24H2
 f1_keywords:
  - LEGACY_TOUCHPAD_FEATURES
  - winuser/LEGACY_TOUCHPAD_FEATURES
