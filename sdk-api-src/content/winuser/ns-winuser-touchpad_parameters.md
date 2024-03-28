@@ -56,7 +56,7 @@ Contains user touchpad settings, including system information related to all det
 
 The version of the struct. Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_# to use a specific version. The version must be specified when both reading and writing settings.
 
-### -field maxSupportedContacts<sup>1</sup>
+### -field maxSupportedContacts^1
 
 The maximum number of simultaneous contacts (fingers) supported across all detected touchpads.
 
