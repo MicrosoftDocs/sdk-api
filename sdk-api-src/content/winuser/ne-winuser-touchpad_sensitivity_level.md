@@ -1,7 +1,7 @@
 ---
 UID: NE:winuser.TOUCHPAD_SENSITIVITY_LEVEL
 tech.root: winmsg
-title: TOUCHPAD_SENSITIVITY_LEVEL
+title: TOUCHPAD_SENSITIVITY_LEVEL enumeration
 ms.date: 03/27/2024
 targetos: Windows
 description: Identifies values for the touchpad sensitivity settings.
@@ -15,6 +15,7 @@ req.max-support:
 req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.target-type: Windows
+targetos: Windows
 req.typenames: TOUCHPAD_SENSITIVITY_LEVEL
 typedef_isUnnamed: false
 req.umdf-ver: 
