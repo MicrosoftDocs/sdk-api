@@ -87,7 +87,7 @@ The string returned will use the same format that was specified when the module 
 
 ### -param nSize [in]
 
-The size of the <i>lpFilename</i> buffer, in <b>TCHARs</b>.
+The size of the <i>lpFilename</i> buffer, in <b>WCHARs</b>.
 
 ## -returns
 
