@@ -1599,7 +1599,7 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 <tr>
 <td width="40%"><a id="SPI_SETTOUCHPADPARAMETERS"></a><a id="spi_settouchpadparameters"></a><dl>
 <dt><b>SPI_SETTOUCHPADPARAMETERS</b></dt>
-<dt>0x00AE</dt>
+<dt>0x00AF</dt>
 </dl>
 </td>
 <td width="60%">
