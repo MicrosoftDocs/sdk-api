@@ -1,24 +1,26 @@
 ---
 UID: NS:winuser.TOUCHPAD_PARAMETERS
-tech.root: winmsg
 title: TOUCHPAD_PARAMETERS
-ms.date: 03/27/2024
-targetos: Windows
 description: Contains user touchpad settings, including system information related to all detected touchpads.
+tech.root: winmsg
+ms.date: 03/27/2024
+ms.keywords: '*TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure pointer, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure, tagTOUCHPAD_PARAMETERS, winuser/TOUCHPAD_PARAMETERS'
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
+req.target-min-winversvr: None supported
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: winuser.h
-req.include-header: Windows.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
-req.target-min-winversvr: None supported
-req.target-type: Windows
+targetos: Windows
 req.typenames: TOUCHPAD_PARAMETERS, *PTOUCH_PAD_PARAMETERS, TOUCHPAD_PARAMETERS_V1, *PTOUCHPAD_PARAMETERS_V1
+ms.custom: 24H2
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
