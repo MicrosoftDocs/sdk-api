@@ -5,7 +5,7 @@ title: LEGACY_TOUCHPAD_FEATURES enumeration
 ms.date: 03/27/2024
 targetos: Windows
 description: Identifies the settings for which a legacy touchpad has indicated support.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winuser.h

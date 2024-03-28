@@ -5,7 +5,7 @@ title: TOUCHPAD_PARAMETERS
 ms.date: 03/27/2024
 targetos: Windows
 description: Contains user touchpad settings, including system information related to all detected touchpads.
-prerelease: false
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

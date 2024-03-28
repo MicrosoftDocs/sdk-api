@@ -5,7 +5,7 @@ title: TOUCHPAD_SENSITIVITY_LEVEL
 ms.date: 03/27/2024
 targetos: Windows
 description: Identifies values for the touchpad sensitivity settings.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winuser.h
