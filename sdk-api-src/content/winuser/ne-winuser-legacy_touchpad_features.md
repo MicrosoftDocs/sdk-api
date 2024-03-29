@@ -58,6 +58,6 @@ The legacy touchpad supports reversing its scroll direction.
 
 ## -remarks
 
-When the corresponding setting is updated using SPIF_UPDATEINIFILE to persist the setting, the legacy touchpad will respond accordingly.
+When the corresponding setting is updated with SPIF_UPDATEINIFILE (to persist the setting), the legacy touchpad will respond accordingly.
 
 ## -see-also
