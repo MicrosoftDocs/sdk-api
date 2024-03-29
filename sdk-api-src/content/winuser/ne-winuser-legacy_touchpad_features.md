@@ -47,11 +47,11 @@ Identifies settings flags for features that a legacy touchpad has indicated supp
 
 No touchpad features are supported (or no legacy touchpad is detected).
 
-### -field LEGACY_TOUCHPAD_FEATURE_ENABLE_DISABLE
+### -field LEGACY_TOUCHPAD_FEATURE_ENABLE_DISABLE:0x00000001
 
 The legacy touchpad supports being enabled and disabled.
 
-### -field LEGACY_TOUCHPAD_FEATURE_REVERSE_SCROLL_DIRECTION
+### -field LEGACY_TOUCHPAD_FEATURE_REVERSE_SCROLL_DIRECTION:0x00000004
 
 The legacy touchpad supports reversing its scroll direction.
 
