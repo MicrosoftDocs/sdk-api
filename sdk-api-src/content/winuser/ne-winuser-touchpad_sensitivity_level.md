@@ -65,7 +65,7 @@ The touchpad applies its maximum amount of mouse input suppression after keyboar
 
 ## -remarks
 
-Causes the touchpad to suppress generation of mouse input after the user has typed on their keyboard. A higher sensitivity means the touchpad is more sensitive to touchpad input and does not suppress mouse input generation as much after keyboard activity.
+The touchpad sensitivity setting causes the touchpad to suppress generation of mouse input after the user has typed on their keyboard. A higher sensitivity means the touchpad is more sensitive to touchpad input and does not suppress mouse input generation as much after keyboard activity.
 
 ## -see-also
 
