@@ -1,8 +1,8 @@
 ---
 UID: NS:winuser.TOUCHPAD_PARAMETERS
 title: TOUCHPAD_PARAMETERS
-description: Contains user touchpad settings, including system information related to all detected touchpads.
-tech.root: winmsg
+description: Contains user touchpad settings and system information related to all detected touchpads.
+tech.root: InputMsg
 ms.date: 03/27/2024
 ms.keywords: '*TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure pointer, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure, tagTOUCHPAD_PARAMETERS, winuser/TOUCHPAD_PARAMETERS'
 req.header: winuser.h
@@ -48,13 +48,18 @@ helpviewer_keywords:
 
 ## -description
 
-Contains user touchpad settings, including system information related to all detected touchpads.
+Contains user touchpad settings and system information related to all detected touchpads.
 
 ## -struct-fields
 
 ### -field versionNumber
 
-The version of the struct. Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_# to use a specific version. The version must be specified when both reading and writing settings.
+The version of the struct.
+
+Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_[#] to use a specific version (). The version must be specified when both reading and writing settings.
+
+> [!NOTE]
+> TOUCHPAD_PARAMETERS_VERSION_1 is the only specific version of TOUCHPAD_PARAMETERS_VERSION_[#] currently defined.
 
 ### -field maxSupportedContacts
 
@@ -62,15 +67,15 @@ The maximum number of simultaneous contacts (fingers) supported across all detec
 
 ### -field legacyTouchpadFeatures
 
-The supported features reported by a legacy touchpad. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are present, or if the legacy touchpad does not support configuration through the Serial Peripheral Interface (SPI).<sup>1</sup>
+The supported features reported by a legacy touchpad. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are present, or if the legacy touchpad does not support configuration through *SPI_SETTOUCHPADPARAMETERS*.<sup>1</sup>
 
 ### -field touchpadPresent
 
-A touchpad is detected.<sup>1</sup>
+The touchpad is detected.<sup>1</sup>
 
 ### -field legacyTouchpadPresent
 
-A legacy touchpad is detected.<sup>1</sup>
+The detected touchpad is a legacy touchpad.<sup>1</sup>
 
 ### -field externalMousePresent
 
@@ -86,11 +91,11 @@ The touchpad is active. The touchpad is active if it is enabled, and either ther
 
 ### -field feedbackSupported
 
-A touchpad supports haptic feedback.<sup>1</sup>
+The touchpad supports haptic feedback.<sup>1</sup>
 
 ### -field clickForceSupported
 
-A touchpad supports haptic click force.<sup>1</sup>
+The touchpad supports haptic click force.<sup>1</sup>
 
 ### -field Reserved1
 
@@ -156,11 +161,11 @@ The relative sensitivity of the touchpad's haptic click detection (if supported)
 
 ### -field rightClickZoneWidth
 
-The relative width of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.<sup>2</sup>
+The relative width of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides the device configuration.<sup>2</sup>
 
 ### -field rightClickZoneHeight
 
-The relative height of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.<sup>2</sup>
+The relative height of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides the device configuration.<sup>2</sup>
 
 ## -remarks
 

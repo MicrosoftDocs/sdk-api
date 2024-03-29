@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.LEGACY_TOUCHPAD_FEATURES
-tech.root: winmsg
+tech.root: InputMsg
 title: LEGACY_TOUCHPAD_FEATURES
 ms.date: 03/27/2024
 targetos: Windows
@@ -39,11 +39,11 @@ helpviewer_keywords:
 
 ## -description
 
-Identifies the settings for which a legacy touchpad has indicated support.
+Identifies settings flags for features that a legacy touchpad has indicated support.
 
 ## -enum-fields
 
-### -field LEGACY_TOUCHPAD_FEATURE_NONE
+### -field LEGACY_TOUCHPAD_FEATURE_NONE:0x00000000
 
 No touchpad features are supported (or no legacy touchpad is detected).
 
@@ -60,3 +60,5 @@ The legacy touchpad supports reversing its scroll direction.
 When the corresponding setting is updated with SPIF_UPDATEINIFILE (to persist the setting), the legacy touchpad will respond accordingly.
 
 ## -see-also
+
+[TOUCHPAD_PARAMETERS structure](ns-winuser-touchpad_parameters.md)

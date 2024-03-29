@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.TOUCHPAD_SENSITIVITY_LEVEL
-tech.root: winmsg
+tech.root: InputMsg
 title: TOUCHPAD_SENSITIVITY_LEVEL
 ms.date: 03/27/2024
 targetos: Windows
