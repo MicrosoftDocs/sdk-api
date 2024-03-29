@@ -74,7 +74,7 @@ A legacy touchpad is detected.<sup>1</sup>
 
 ### -field externalMousePresent
 
-An external mouse is detected. See [Precision touchpad tuning](/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines) for information on exempting a mouse from being considered as external (for the purposes of this status field).<sup>1</sup>
+An external mouse is detected. See [Precision touchpad tuning](/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines) for information on exempting a mouse from being considered as external (for the purposes of this status field and behavior of the *allowActiveWhenMousePresent* setting).<sup>1</sup>
 
 ### -field touchpadEnabled
 
