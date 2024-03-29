@@ -96,7 +96,7 @@ A touchpad supports haptic click force.<sup>1</sup>
 
 ### -field allowActiveWhenMousePresent
 
-A touchpad can remain active if an external mouse is detected. When inactive, any input produced by the touchpad is ignored.<sup>2</sup>
+The touchpad can remain active if an external mouse is detected. When inactive, any input produced by the touchpad is ignored.<sup>2</sup>
 
 ### -field feedbackEnabled
 
