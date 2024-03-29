@@ -56,119 +56,119 @@ Contains user touchpad settings, including system information related to all det
 
 The version of the struct. Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_# to use a specific version. The version must be specified when both reading and writing settings.
 
-### -field maxSupportedContacts *
+### -field maxSupportedContacts
 
-The maximum number of simultaneous contacts (fingers) supported across all detected touchpads.
+The maximum number of simultaneous contacts (fingers) supported across all detected touchpads.<sup>1</sup>
 
-### -field legacyTouchpadFeatures *
+### -field legacyTouchpadFeatures
 
-The supported features reported by a legacy touchpad. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are present, or if the legacy touchpad does not support configuration through the Serial Peripheral Interface (SPI).
+The supported features reported by a legacy touchpad. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are present, or if the legacy touchpad does not support configuration through the Serial Peripheral Interface (SPI).<sup>1</sup>
 
-### -field touchpadPresent *
+### -field touchpadPresent
 
-A touchpad is detected.
+A touchpad is detected.<sup>1</sup>
 
-### -field legacyTouchpadPresent *
+### -field legacyTouchpadPresent
 
-A legacy touchpad is detected.
+A legacy touchpad is detected.<sup>1</sup>
 
-### -field externalMousePresent *
+### -field externalMousePresent
 
-An external mouse is detected. See [Precision touchpad tuning](/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines) for information on exempting a mouse from being considered as external (for the purposes of this status field).
+An external mouse is detected. See [Precision touchpad tuning](/windows-hardware/design/component-guidelines/touchpad-tuning-guidelines) for information on exempting a mouse from being considered as external (for the purposes of this status field).<sup>1</sup>
 
-### -field touchpadEnabled *
+### -field touchpadEnabled
 
-A touchpad is enabled.
+A touchpad is enabled.<sup>1</sup>
 
-### -field touchpadActive *
+### -field touchpadActive
 
-A touchpad is active. The touchpad is active if it is enabled, and either there is no external mouse detected or the touchpad has been configured to stay active despite the presence of an external mouse. This field does not indicate whether the touchpad is actively producing input.
+A touchpad is active. The touchpad is active if it is enabled, and either there is no external mouse detected or the touchpad has been configured to stay active despite the presence of an external mouse. This field does not indicate whether the touchpad is actively producing input.<sup>1</sup>
 
-### -field feedbackSupported *
+### -field feedbackSupported
 
-A touchpad supports haptic feedback.
+A touchpad supports haptic feedback.<sup>1</sup>
 
-### -field clickForceSupported *
+### -field clickForceSupported
 
-A touchpad supports haptic click force.
+A touchpad supports haptic click force.<sup>1</sup>
 
 ### -field Reserved1
 
-### -field allowActiveWhenMousePresent ^
+### -field allowActiveWhenMousePresent
 
-A touchpad can remain active if an external mouse is detected. When inactive, any input produced by the touchpad is ignored.
+A touchpad can remain active if an external mouse is detected. When inactive, any input produced by the touchpad is ignored.<sup>2</sup>
 
-### -field feedbackEnabled ^
+### -field feedbackEnabled
 
-Haptic feedback is enabled on touchpads if supported.
+Haptic feedback is enabled on touchpads if supported.<sup>2</sup>
 
-### -field tapEnabled ^
+### -field tapEnabled
 
-Single-finger taps are enabled.
+Single-finger taps are enabled.<sup>2</sup>
 
-### -field tapAndDragEnabled ^
+### -field tapAndDragEnabled
 
-Tap-and-drag is enabled.
+Tap-and-drag is enabled.<sup>2</sup>
 
-### -field twoFingerTapEnabled ^
+### -field twoFingerTapEnabled
 
-Two-finger tap is enabled.
+Two-finger tap is enabled.<sup>2</sup>
 
-### -field rightClickZoneEnabled ^
+### -field rightClickZoneEnabled
 
-Pressing the bottom-right corner of the touchpad results in a right-click instead of a left click.
+Pressing the bottom-right corner of the touchpad results in a right-click instead of a left click.<sup>2</sup>
 
 If the user has swapped their left and right mouse buttons ([GetSystemMetrics(SM_SWAPBUTTON)](nf-winuser-getsystemmetrics.md) is true), the right-click zone is mirrored horizontally to the bottom-left corner of the touchpad.
 
-### -field mouseAccelSettingHonored ^
+### -field mouseAccelSettingHonored
 
-Mouse motion produced by the touchpad honors the user's mouse acceleration setting (specified by [SystemParametersInfo(SPI_GETMOUSE)](nf-winuser-systemparametersinfoa.md)). If false, the mouse motion always has acceleration applied.
+Mouse motion produced by the touchpad honors the user's mouse acceleration setting (specified by [SystemParametersInfo(SPI_GETMOUSE)](nf-winuser-systemparametersinfoa.md)). If false, the mouse motion always has acceleration applied.<sup>2</sup>
 
-### -field panEnabled ^
+### -field panEnabled
 
-Two-finger panning is enabled.
+Two-finger panning is enabled.<sup>2</sup>
 
-### -field zoomEnabled ^
+### -field zoomEnabled
 
-Two-finger zooming is enabled.
+Two-finger zooming is enabled.<sup>2</sup>
 
-### -field scrollDirectionReversed ^
+### -field scrollDirectionReversed
 
-The direction content scrolls with two-finger panning is reversed. By default, the upward motion of contacts on the touchpad results in content scrolling downward while leftward motion of contacts results in content scrolling rightwards.
+The direction content scrolls with two-finger panning is reversed. By default, the upward motion of contacts on the touchpad results in content scrolling downward while leftward motion of contacts results in content scrolling rightwards.<sup>2</sup>
 
 ### -field Reserved2
 
-### -field sensitivityLevel ^
+### -field sensitivityLevel
 
-The touchpad sensitivity level. The more sensitive the touchpad, the less suppression of mouse input generation occurs after keyboard activity (see [TOUCHPAD_SENSITIVITY_LEVEL enumeration](ne-winuser-touchpad_sensitivity_level.md)).
+The touchpad sensitivity level. The more sensitive the touchpad, the less suppression of mouse input generation occurs after keyboard activity (see [TOUCHPAD_SENSITIVITY_LEVEL enumeration](ne-winuser-touchpad_sensitivity_level.md)).<sup>2</sup>
 
-### -field cursorSpeed ^
+### -field cursorSpeed
 
-The rate at which the mouse motion produced by the touchpad moves the cursor. Valid values are 1-20, inclusive.
+The rate at which the mouse motion produced by the touchpad moves the cursor. Valid values are 1-20, inclusive.<sup>2</sup>
 
-### -field feedbackIntensity ^
+### -field feedbackIntensity
 
-The relative intensity of the touchpad's haptic feedback (if supported). Valid values are 0-100, inclusive.
+The relative intensity of the touchpad's haptic feedback (if supported). Valid values are 0-100, inclusive.<sup>2</sup>
 
-### -field clickForceSensitivity ^
+### -field clickForceSensitivity
 
-The relative sensitivity of the touchpad's haptic click detection (if supported). Valid values are 0-100, inclusive.
+The relative sensitivity of the touchpad's haptic click detection (if supported). Valid values are 0-100, inclusive.<sup>2</sup>
 
-### -field rightClickZoneWidth ^
+### -field rightClickZoneWidth
 
-The relative width of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.
+The relative width of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.<sup>2</sup>
 
-### -field rightClickZoneHeight ^
+### -field rightClickZoneHeight
 
-The relative height of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.
+The relative height of the touchpad right-click zone. Valid values are 0-100, inclusive. If non-zero, this value overrides device configuration.<sup>2</sup>
 
 ## -remarks
 
 All fields apply only to Precision Touchpads, with the exception of fields that specify "legacy touchpad" or are supported by the legacy touchpad as indicated by the *legacyTouchpadFeatures* field.
 
-\* Represents the system information that can be used to help inform which user settings are applicable to the current device. They are ignored when calling SystemParametersInfo ([A](nf-winuser-systemparametersinfoa.md)/[W](nf-winuser-systemparametersinfow.md)) with SPI_SETTOUCHPADPARAMETERS.
+<sup>1</sup> Represents the system information that can be used to help inform which user settings are applicable to the current device. They are ignored when calling SystemParametersInfo ([A](nf-winuser-systemparametersinfoa.md)/[W](nf-winuser-systemparametersinfow.md)) with SPI_SETTOUCHPADPARAMETERS.
 
-\^ Represents user settings. Modifications to these fields will result in changing the user's settings when calling SystemParametersInfo ([A](nf-winuser-systemparametersinfoa.md)/[W](nf-winuser-systemparametersinfow.md)) with SPI_SETTOUCHPADPARAMETERS.
+<sup>2</sup> Represents user settings. Modifications to these fields will result in changing the user's settings when calling SystemParametersInfo ([A](nf-winuser-systemparametersinfoa.md)/[W](nf-winuser-systemparametersinfow.md)) with SPI_SETTOUCHPADPARAMETERS.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:winuser.LEGACY_TOUCHPAD_FEATURES
 tech.root: winmsg
-title: LEGACY_TOUCHPAD_FEATURES enumeration
+title: LEGACY_TOUCHPAD_FEATURES
 ms.date: 03/27/2024
 targetos: Windows
 description: Identifies the settings for which a legacy touchpad has indicated support.
@@ -15,6 +15,7 @@ req.max-support:
 req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.target-type: Windows
+targetos: Windows
 req.typenames: LEGACY_TOUCHPAD_FEATURES
 typedef_isUnnamed: false
 req.umdf-ver: 
