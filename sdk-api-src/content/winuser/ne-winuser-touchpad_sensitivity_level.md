@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-Identifies values for the touchpad sensitivity settings.
+Identifies values for the touchpad sensitivity setting.
 
 ## -enum-fields
 
