@@ -15,7 +15,6 @@ req.max-support:
 req.target-min-winverclnt: Windows 11, version 24H2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.target-type: Windows
-targetos: Windows
 req.typenames: TOUCHPAD_SENSITIVITY_LEVEL
 typedef_isUnnamed: false
 req.umdf-ver: 
@@ -69,3 +68,4 @@ The touchpad applies its maximum amount of mouse input suppression after keyboar
 Causes the touchpad to suppress generation of mouse input after the user has typed on their keyboard. A higher sensitivity means the touchpad is more sensitive to touchpad input and does not suppress mouse input generation as much after keyboard activity.
 
 ## -see-also
+
