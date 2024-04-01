@@ -66,7 +66,7 @@ Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version,
 
 ### -field maxSupportedContacts
 
-The maximum number of simultaneous contacts (for the touchpad that supports the most) amongst all detected touchpads.<sup>1</sup>
+The maximum number of simultaneous contacts (fingers) supported across all detected touchpads.<sup>1</sup>
 
 ### -field legacyTouchpadFeatures
 
@@ -78,7 +78,7 @@ A Precision Touchpad is detected.<sup>1</sup>
 
 ### -field legacyTouchpadPresent
 
-The detected touchpad is a legacy touchpad.<sup>1</sup>
+A legacy touchpad is detected.<sup>1</sup>
 
 ### -field externalMousePresent
 
