@@ -71,7 +71,7 @@ The supported features reported by detected legacy touchpads. This will be [LEGA
 
 ### -field touchpadPresent
 
-The touchpad is detected.<sup>1</sup>
+A Precision Touchpad is detected.<sup>1</sup>
 
 ### -field legacyTouchpadPresent
 
