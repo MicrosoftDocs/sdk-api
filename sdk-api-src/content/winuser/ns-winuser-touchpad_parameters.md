@@ -83,7 +83,7 @@ An external mouse is detected. See [Precision touchpad tuning](/windows-hardware
 
 ### -field touchpadEnabled
 
-The touchpad is enabled.<sup>1</sup>
+Touchpad input is enabled.<sup>1</sup>
 
 ### -field touchpadActive
 
