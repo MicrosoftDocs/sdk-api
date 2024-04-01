@@ -50,6 +50,9 @@ helpviewer_keywords:
 
 Contains user touchpad settings and system information related to all detected touchpads.
 
+> [!NOTE]
+> The term "touchpad" refers to Precision Touchpads. The term "legacy touchpad" refers to older generation touchpads that report themselves to Windows as a mouse.
+
 ## -struct-fields
 
 ### -field versionNumber
