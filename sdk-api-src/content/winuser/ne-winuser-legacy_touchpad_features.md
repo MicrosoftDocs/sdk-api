@@ -39,7 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-Identifies settings flags for features that a legacy touchpad has indicated support.
+Identifies the settings for which a legacy touchpad has indicated support.
 
 ## -enum-fields
 
