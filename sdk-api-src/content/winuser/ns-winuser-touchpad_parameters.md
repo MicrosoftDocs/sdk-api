@@ -95,7 +95,7 @@ A detected touchpad supports haptic feedback.<sup>1</sup>
 
 ### -field clickForceSupported
 
-The touchpad supports haptic click force.<sup>1</sup>
+A detected touchpad supports haptic click force.<sup>1</sup>
 
 ### -field Reserved1
 
