@@ -91,7 +91,7 @@ Touchpad input is active. It is active if it is enabled, and either there is no 
 
 ### -field feedbackSupported
 
-The touchpad supports haptic feedback.<sup>1</sup>
+A detected touchpad supports haptic feedback.<sup>1</sup>
 
 ### -field clickForceSupported
 
