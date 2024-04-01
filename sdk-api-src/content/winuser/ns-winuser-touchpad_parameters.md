@@ -67,7 +67,7 @@ The maximum number of simultaneous contacts (fingers) supported across all detec
 
 ### -field legacyTouchpadFeatures
 
-The supported features reported by a legacy touchpad. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are present, or if the legacy touchpad does not support configuration through *SPI_SETTOUCHPADPARAMETERS*.<sup>1</sup>
+The supported features reported by detected legacy touchpads. This will be [LEGACY_TOUCHPAD_FEATURE_NONE](ne-winuser-legacy_touchpad_features.md) if no legacy touchpads are detected, or if the legacy touchpads do not support configuration through *SPI_SETTOUCHPADPARAMETERS*.<sup>1</sup>
 
 ### -field touchpadPresent
 
