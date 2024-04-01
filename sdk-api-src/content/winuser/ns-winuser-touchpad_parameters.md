@@ -87,7 +87,7 @@ Touchpad input is enabled.<sup>1</sup>
 
 ### -field touchpadActive
 
-The touchpad is active. The touchpad is active if it is enabled, and either there is no external mouse detected or the touchpad has been configured to stay active despite the presence of an external mouse. This field does not indicate whether the touchpad is actively producing input.<sup>1</sup>
+Touchpad input is active. It is active if it is enabled, and either there is no external mouse detected or touchpad input has been configured to stay active despite the presence of an external mouse. This field does not indicate whether any touchpad is actively producing input.<sup>1</sup>
 
 ### -field feedbackSupported
 
