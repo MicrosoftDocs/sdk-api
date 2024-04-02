@@ -51,31 +51,23 @@ api_name:
 
 ## -description
 
-The <a href="/windows/win32/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
+Specifies data used by the [SIO_TCP_INITIAL_RTO](/windows/win32/winsock/sio-tcp-initial-rto) IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket. The Windows TCP/IP stack will honor the values in this struct's members for subsequent connection attempts.
 
 ## -struct-fields
 
 ### -field Rtt
 
-Supplies the initial RTT in milliseconds.
+Supplies the initial round trip time (RTT) in milliseconds. This value is used to compute the retransmission timeout.
 
 ### -field MaxSynRetransmissions
 
-Supplies the number of retransmissions attempted before the connection setup fails.
+Supplies the maximum number of retransmissions that will be attempted before the connection setup fails. The retransmission behavior for TCP is documented in IETF RFC 793 and 2988.
+
+* Use one of the *unspecified* defines **TCP_INITIAL_RTO_UNSPECIFIED_RTT** and **TCP_INITIAL_RTO_UNSPECIFIED_MAX_SYN_RETRANSMISSIONS** to allow the system to pick up administrator-configured settings for the parameter left unspecified.
+* You can choose system defaults for any of these fields, and supply those values using the default defines **TCP_INITIAL_RTO_DEFAULT_RTT** and **TCP_INITIAL_RTO_DEFAULT_MAX_SYN_RETRANSMISSIONS**.
+* You can use the define **TCP_INITIAL_RTO_NO_SYN_RETRANSMISSIONS** to set the number of SYN retransmissions for a TCP socket to 0 (in other words, the TCP SYN shouldn't be retransmitted).
 
 ## -remarks
-
-The <a href="/windows/win32/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure allows your application to configure the initial round trip time (RTT) used to compute the retransmission timeout. Your application can also configure the number of re-transmissions that will be attempted before the connection attempt fails. 
-
-Your application should supply the RTT of choice (in milliseconds) and the maximum number of retransmissions in this structure. The Windows TCP/IP stack will honor these parameters for the subsequent connection attempt. The retransmission behavior for TCP is documented in IETF RFC 793 and 2988.
-
-Your application may use the unspecified defines <b>TCP_INITIAL_RTO_UNSPECIFIED_RTT</b> and <b>TCP_INITIAL_RTO_UNSPECIFIED_MAX_SYN_RETRANSMISSIONS</b> when supplying values for one of these fields. This allows the system to pick up administrator configured settings for the parameter left unspecified.
-
-Your application can choose system defaults for any of these fields, and supply those values using the default defines <b>TCP_INITIAL_RTO_DEFAULT_RTT</b> and <b>TCP_INITIAL_RTO_DEFAULT_MAX_SYN_RETRANSMISSIONS</b>.
-
-Your application can choose system defaults for any of these fields, and supply those values using the default defines <b>TCP_INITIAL_RTO_DEFAULT_RTT</b> and <b>TCP_INITIAL_RTO_DEFAULT_MAX_SYN_RETRANSMISSIONS</b>.
-
-You can use the define **TCP_INITIAL_RTO_NO_SYN_RETRANSMISSIONS** to sets the number of SYN retransmissions for a TCP socket to 0 (in other words, the TCP SYN shouldn't be retransmitted).
 
 ## -see-also
 
