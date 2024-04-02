@@ -1,7 +1,7 @@
 ---
 UID: NS:mstcpip._TCP_INITIAL_RTO_PARAMETERS
 title: TCP_INITIAL_RTO_PARAMETERS (mstcpip.h)
-description: Specifies data used by the SIO_TCP_INITIAL_RTO IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
+description: Specifies data used by the SIO_TCP_INITIAL_RTO IOCTL to configure initial retransmission timeout (RTO) parameters to be used on the socket.
 helpviewer_keywords: ["*PTCP_INITIAL_RTO_PARAMETERS","PTCP_INITIAL_RTO_PARAMETERS","PTCP_INITIAL_RTO_PARAMETERS structure pointer [Winsock]","TCP_INITIAL_RTO_PARAMETERS","TCP_INITIAL_RTO_PARAMETERS structure [Winsock]","mstcpip/PTCP_INITIAL_RTO_PARAMETERS","mstcpip/TCP_INITIAL_RTO_PARAMETERS","winsock.tcp_initial_rto_parameters"]
 old-location: winsock\tcp_initial_rto_parameters.htm
 tech.root: WinSock
@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Specifies data used by the [SIO_TCP_INITIAL_RTO](/windows/win32/winsock/sio-tcp-initial-rto) IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket. The Windows TCP/IP stack will honor the values in this struct's members for subsequent connection attempts.
+Specifies data used by the [SIO_TCP_INITIAL_RTO](/windows/win32/winsock/sio-tcp-initial-rto) IOCTL to configure initial retransmission timeout (RTO) parameters to be used on the socket. The Windows TCP/IP stack will honor the values in this struct's members for subsequent connection attempts.
 
 ## -struct-fields
 
 ### -field Rtt
 
-Supplies the initial round trip time (RTT) in milliseconds. This value is used to compute the retransmission timeout.
+Supplies the initial round trip time (RTT) estimate in milliseconds. This value is used to compute the retransmission timeout.
 
 ### -field MaxSynRetransmissions
 
