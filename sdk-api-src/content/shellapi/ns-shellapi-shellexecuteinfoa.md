@@ -176,7 +176,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 
 <a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
 
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
+This flag is supported in Windows 8 and later.
 
 When this option is specified the call runs synchronously on the calling thread.
 </td>
