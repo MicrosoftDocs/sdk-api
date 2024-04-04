@@ -171,7 +171,7 @@ Windows Sockets 2 includes a base set of QoS templates. You can override and rep
 The <i>Qos</i> parameter points to a 
 **QOS** structure that can include a 
 buffer that contains provider-specific settings in the  **ProviderSpecific** member of the **QOS** structure. Any provider-specific settings are stored with the basic 
- **QOS** structure structure and are returned in subsequent 
+ **QOS** structure and are returned in subsequent 
 calls to the **WSAGetQOSByName** function.
 
 The **ProviderSpecific** member of the **QOS** structure can be set even if the <i>Guid</i> parameter is set to **NULL** to install a global QoS template for all service providers.  Note that this practice may lead a service provider to ignore the **ProviderSpecific** member of the **QOS** structure if the service provider does not recognize its contents. The recommended use of 

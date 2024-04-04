@@ -55,7 +55,7 @@ f(a, b) = a / b
 
 For integer divisions, the result is truncated.
 
-This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the input tensors during binding.
 
 ## -struct-fields
 

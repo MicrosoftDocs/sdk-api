@@ -118,7 +118,11 @@ DCI-P3
 Academy Color Encoding System
 
 <div class="alert"><b>Note</b>  Requires Windows 10, version 1703 or later.</div>
-<div> </div>
+
+
+### -field MFVideoPrimaries_Display_P3:13
+
+SMPTE EG-432-1 (DCI P3 with D65 white point)
 
 ### -field MFVideoPrimaries_Last
 

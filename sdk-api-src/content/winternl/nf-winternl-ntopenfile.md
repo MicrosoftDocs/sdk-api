@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Ntdll.dll
+req.lib: ntdll.lib
+req.dll: ntdll.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -101,9 +101,6 @@ The options to be applied when opening the file. For more information, see
 
 ## -remarks
 
-Before using this function, please read 
-    <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.
-
 Driver routines that run in a process context other than that of the system process must set the 
      <b>OBJ_KERNEL_HANDLE</b> attribute for the <i>ObjectAttributes</i> 
      parameter of <b>ZwOpenFile</b>. This restricts the use of the handle returned by 
@@ -117,8 +114,7 @@ Driver routines that run in a process context other than that of the system proc
 Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL.
 
 Note that the WDK header file Ntdef.h is necessary for many constant definitions 
-    as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
-    Ntdll.lib is available in the WDK. You can also use the 
+    as well as the <b>InitializeObjectAttributes</b> macro. You can also use the 
     <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
     <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     Ntdll.dll.

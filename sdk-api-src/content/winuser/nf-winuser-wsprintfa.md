@@ -147,12 +147,18 @@ Output the corresponding argument as a character, a string, or a number. This fi
 <dl>
 <dt><a id="c"></a><code>c</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>CHAR</b>.
+Single character. This value is interpreted as type <b>CHAR</b> by
+<b>wsprintfA</b> and type <b>WCHAR</b> by <b>wsprintfW</b>. Note
+<b>wsprintf</b> is a macro defined as <b>wsprintfA</b> (Unicode not defined) or
+<b>wsprintfW</b> (Unicode defined).
 
 </dd>
 <dt><a id="C"></a></a><code>C</code></dt>
 <dd>
-Single character. This value is interpreted as type <b>WCHAR</b>.
+Single character. This value is interpreted as type <b>WCHAR</b> by
+<b>wsprintfA</b> and type <b>CHAR</b> by <b>wsprintfW</b>. Note
+<b>wsprintf</b> is a macro defined as <b>wsprintfA</b> (Unicode not defined) or
+<b>wsprintfW</b> (Unicode defined).
 
 </dd>
 <dt><a id="d"></a><a id="D"></a><code>d</code></dt>
@@ -162,7 +168,9 @@ Signed decimal integer. This value is equivalent to <code>i</code>.
 </dd>
 <dt><a id="hc__hC"></a><a id="hc__hc"></a><a id="HC__HC"></a><code>hc</code>, <code>hC</code></dt>
 <dd>
-Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>CHAR</b>, even when the calling application defines Unicode.
+Single character. If the character has a numeric value of zero it is ignored.
+This value is always interpreted as type <b>CHAR</b>, even when the calling
+application defines Unicode.
 
 </dd>
 <dt><a id="hd"></a><a id="HD"></a><code>hd</code></dt>
@@ -192,7 +200,9 @@ Signed decimal integer. This value is equivalent to <code>d</code>.
 </dd>
 <dt><a id="lc__lC"></a><a id="lc__lc"></a><a id="LC__LC"></a><code>lc</code>, <code>lC</code></dt>
 <dd>
-Single character. The <b>wsprintf</b> function ignores character arguments with a numeric value of zero. This value is always interpreted as type <b>WCHAR</b>, even when the calling application does not define Unicode.
+Single character. If the character has a numeric value of zero it is ignored.
+This value is always interpreted as type <b>WCHAR</b>, even when the calling
+application defines Unicode.
 
 </dd>
 <dt><a id="ld"></a><a id="LD"></a><code>ld</code></dt>
@@ -227,12 +237,18 @@ Pointer. The address is printed using hexadecimal.
 </dd>
 <dt><a id="s"></a><a id="S"></a><code>s</code></dt>
 <dd>
-String. This value is interpreted as type <b>LPWSTR</b> when the calling application defines Unicode and as type <b>LPSTR</b> otherwise.
+String. This value is interpreted as type <b>LPSTR</b> by <b>wsprintfA</b> and
+type <b>LPWSTR</b> by <b>wsprintfW</b>. Note <b>wsprintf</b> is a macro defined
+as <b>wsprintfA</b> (Unicode not defined) or <b>wsprintfW</b> (Unicode
+defined).
 
 </dd>
 <dt><a id="S"></a><a id="s"></a><code>S</code></dt>
 <dd>
-String. This value is interpreted as type <b>LPSTR</b> when the calling application defines Unicode and as type <b>LPWSTR</b> otherwise.
+String. This value is interpreted as type <b>LPWSTR</b> by <b>wsprintfA</b> and
+type <b>LPSTR</b> by <b>wsprintfW</b>. Note <b>wsprintf</b> is a macro defined
+as <b>wsprintfA</b> (Unicode not defined) or <b>wsprintfW</b> (Unicode
+defined).
 
 </dd>
 <dt><a id="u"></a><a id="U"></a><code>u</code></dt>

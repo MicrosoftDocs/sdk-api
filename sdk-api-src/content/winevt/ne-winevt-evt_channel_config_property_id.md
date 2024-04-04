@@ -162,7 +162,7 @@ You cannot set this property.
 
 ### -field EvtChannelPublisherList
 
-Identifies the configuration property that contains the list of providers that import this channel.  The variant type for this property is <b>EvtVarTypeString | EVT_VARIANT_TYPE_ARRAY</b>. 
+Identifies the configuration property that contains the list of providers that import this channel.  The variant type for this property is <b>EvtVarTypeString \| EVT_VARIANT_TYPE_ARRAY</b>. 
 
 You cannot set this property.
 

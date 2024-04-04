@@ -491,11 +491,7 @@ The width of small caption buttons, in pixels.
 </dl>
 </td>
 <td width="60%">
-The width of the virtual screen, in pixels. The virtual screen is the bounding rectangle of all
-       display monitors. The SM_XVIRTUALSCREEN metric is the coordinates for the left side of
-       the virtual screen. 
-       
-
+The width of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>, in pixels. The virtual screen is the bounding rectangle of all display monitors. The SM_XVIRTUALSCREEN metric is the coordinates for the left side of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -882,10 +878,7 @@ The height of small caption buttons, in pixels.
 </dl>
 </td>
 <td width="60%">
-The height of the virtual screen, in pixels. The virtual screen is the bounding rectangle of all
-       display monitors. The SM_YVIRTUALSCREEN metric is the coordinates for the top of
-       the virtual screen.
-
+The height of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>, in pixels. The virtual screen is the bounding rectangle of all display monitors. The SM_YVIRTUALSCREEN metric is the coordinates for the top of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -1229,12 +1222,7 @@ Nonzero if the current operating system is the Windows XP Tablet PC edition or i
 </dl>
 </td>
 <td width="60%">
-The coordinates for the left side of the virtual screen. The virtual screen is the bounding
-        rectangle of all display monitors. The SM_CXVIRTUALSCREEN metric is the width 
-        of the virtual screen.
-        
-       
-
+The coordinates for the left side of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>. The virtual screen is the bounding rectangle of all display monitors. The SM_CXVIRTUALSCREEN metric is the width of the virtual screen.
 </td>
 </tr>
 <tr>
@@ -1244,11 +1232,7 @@ The coordinates for the left side of the virtual screen. The virtual screen is t
 </dl>
 </td>
 <td width="60%">
-The coordinates for the top of the virtual screen. The virtual screen is the bounding
-        rectangle of all display monitors. The SM_CYVIRTUALSCREEN metric is the height of the virtual screen.
-        
-       
-
+The coordinates for the top of the <a href="/windows/win32/gdi/the-virtual-screen">virtual screen</a>. The virtual screen is the bounding rectangle of all display monitors. The SM_CYVIRTUALSCREEN metric is the height of the virtual screen.
 </td>
 </tr>
 </table>

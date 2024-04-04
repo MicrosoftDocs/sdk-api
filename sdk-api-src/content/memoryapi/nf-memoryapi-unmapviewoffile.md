@@ -65,7 +65,7 @@ Unmaps a mapped view of a file from the calling process's address space.
 ### -param lpBaseAddress [in]
 
 A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call
-to one of the the functions in the
+to one of the functions in the
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> family.
 
 ## -returns

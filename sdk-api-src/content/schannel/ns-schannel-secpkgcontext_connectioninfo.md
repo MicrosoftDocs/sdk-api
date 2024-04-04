@@ -184,7 +184,7 @@ Transport Layer Security 1.2 server-side.
 <tr>
 <td width="40%"><a id="SP_PROT_TLS1_3_CLIENT"></a><a id="sp_prot_tls1_3_client"></a><dl>
 <dt><b>SP_PROT_TLS1_3_CLIENT</b></dt>
-<dt>2048 (0x2000)</dt>
+<dt>8192 (0x2000)</dt>
 </dl>
 </td>
 <td width="60%">
@@ -195,7 +195,7 @@ Transport Layer Security 1.3 client-side.
 <tr>
 <td width="40%"><a id="SP_PROT_TLS1_3_SERVER"></a><a id="sp_prot_tls1_3_server"></a><dl>
 <dt><b>SP_PROT_TLS1_3_SERVER</b></dt>
-<dt>1024 (0x1000)</dt>
+<dt>4096 (0x1000)</dt>
 </dl>
 </td>
 <td width="60%">
@@ -206,7 +206,7 @@ Transport Layer Security 1.3 server-side.
 <tr>
 <td width="40%"><a id="SP_PROT_DTLS1_0_CLIENT"></a><a id="sp_prot_dtls1_0_client"></a><dl>
 <dt><b>SP_PROT_DTLS1_0_CLIENT</b></dt>
-<dt>1024 (0x00020000)</dt>
+<dt>131072 (0x00020000)</dt>
 </dl>
 </td>
 <td width="60%">
@@ -217,7 +217,7 @@ Datagram Transport Layer Security 1.0 client-side.
 <tr>
 <td width="40%"><a id="SP_PROT_DTLS1_0_SERVER"></a><a id="sp_prot_dtls1_0_server"></a><dl>
 <dt><b>SP_PROT_DTLS1_0_SERVER</b></dt>
-<dt>1024 (0x00010000)</dt>
+<dt>65536 (0x00010000)</dt>
 </dl>
 </td>
 <td width="60%">
@@ -228,7 +228,7 @@ Datagram Transport Layer Security 1.0 server-side.
 <tr>
 <td width="40%"><a id="SP_PROT_DTLS1_2_CLIENT"></a><a id="sp_prot_dtls1_2_client"></a><dl>
 <dt><b>SP_PROT_DTLS1_2_CLIENT</b></dt>
-<dt>1024 (0x00080000)</dt>
+<dt>524288 (0x00080000)</dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,7 +239,7 @@ Datagram Transport Layer Security 1.2 client-side.
 <tr>
 <td width="40%"><a id="SP_PROT_DTLS1_2_SERVER"></a><a id="sp_prot_dtls1_2_server"></a><dl>
 <dt><b>SP_PROT_DTLS1_2_SERVER</b></dt>
-<dt>1024 (0x00040000)</dt>
+<dt>262144 (0x00040000)</dt>
 </dl>
 </td>
 <td width="60%">

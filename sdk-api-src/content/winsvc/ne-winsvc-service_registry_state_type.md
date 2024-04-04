@@ -42,7 +42,7 @@ Immutable service state, populated by INF to the Parameters subkey.
 
 ### -field ServiceRegistryStatePersistent:1
 
-Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and and OS updates.
+Mutable, persistent service state. This state is both readable and writable by the service, and is inaccessible outside of the service. This state persists across reboots and OS updates.
 
 ### -field MaxServiceRegistryStateType:2
 

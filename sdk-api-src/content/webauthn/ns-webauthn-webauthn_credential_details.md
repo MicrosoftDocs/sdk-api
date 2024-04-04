@@ -2,7 +2,7 @@
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_DETAILS
 tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_DETAILS
-ms.date: 07/19/2022
+ms.date: 03/06/2024
 targetos: Windows
 description: Contains the data for a credential.
 prerelease: false
@@ -48,6 +48,20 @@ helpviewer_keywords:
 
 The structure containing the credential data.
 
+## -syntax
+
+```cpp
+typedef struct _WEBAUTHN_CREDENTIAL_DETAILS {
+  DWORD                             dwVersion;
+  DWORD                             cbCredentialID;
+  PBYTE                             pbCredentialID;
+  PWEBAUTHN_RP_ENTITY_INFORMATION   pRpInformation;
+  PWEBAUTHN_USER_ENTITY_INFORMATION pUserInformation;
+  BOOL                              bRemovable;
+  BOOL                              bBackedUp;
+} WEBAUTHN_CREDENTIAL_DETAILS, *PWEBAUTHN_CREDENTIAL_DETAILS;
+```
+
 ## -struct-fields
 
 ### -field dwVersion
@@ -73,6 +87,10 @@ The user information.
 ### -field bRemovable
 
 Indicates if the credential is removable or not.
+
+### -field bBackedUp
+
+Indicates if the credential is backed up or not.
 
 ## -remarks
 

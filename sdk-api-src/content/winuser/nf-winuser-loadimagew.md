@@ -84,21 +84,23 @@ If the image resource is to be loaded by name from the module, the <i>name</i> p
 
 If the image resource is to be loaded by ordinal from the module, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
-For more information, see the Remarks section below.
+If the <i>hInst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>name</i> specifies the predefined image to load.
 
-If the <i>hInst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>name</i> specifies the predefined image to load. The predefined image identifiers are defined in `Winuser.h` and have the following prefixes:
+The predefined image identifiers are defined in `Winuser.h` and have the following prefixes:
 
 | Prefix | Meaning |
 |---|---|
-| **OBM\_** | OEM bitmaps |
-| **OIC\_** | OEM icons |
-| **OCR\_** | OEM cursors |
+| **OBM\_** | OEM bitmaps. Use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro to pass these. |
+| **OIC\_** | OEM icons. Use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro to pass these. |
+| **OCR\_** | OEM cursors. Use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a> macro to pass these. |
 | **IDI\_** | [Standard icons](/windows/win32/menurc/about-icons) |
 | **IDC\_** | [Standard cursors](/windows/win32/menurc/about-cursors) |
 
 To pass OEM image identifiers constants to the <b>LoadImage</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>name</i> parameter, <b>NULL</b> as the <i>hInst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
 
 If the <i>hInst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>name</i> is the name of the file that contains the standalone resource (icon, cursor, or bitmap file), - for example, `c:\myicon.ico`.
+
+For more information, see the Remarks section below.
 
 ### -param type [in]
 

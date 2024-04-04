@@ -53,7 +53,7 @@ api_name:
 
 A <b>RedEyeCorrectionParams</b> structure contains members that specify the areas of a bitmap to which a red-eye correction is applied.
 
-You can can correct red eyes in a bitmap by following these steps.
+You can correct red eyes in a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>RedEyeCorrectionParams</b> structure.</li>
 <li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a> method of a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object.</li>

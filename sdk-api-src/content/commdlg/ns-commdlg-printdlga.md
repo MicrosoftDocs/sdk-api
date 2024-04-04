@@ -389,7 +389,7 @@ If this flag is set and the printer driver does not support multiple copies, the
 The <b>dmCopies</b> and <b>dmCollate</b> members of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure contain the copies and collate information used by the printer driver. If this flag is set and the printer driver supports multiple copies, the <b>dmCopies</b> member indicates the number of copies requested by the user. If this flag is set and the printer driver supports collation, the <b>dmCollate</b> member of the <b>DEVMODE</b> structure indicates whether the user wants collation. If this flag is not set, the <b>dmCopies</b> member always returns 1, and the <b>dmCollate</b> member is always zero.
 
 <b>Known issue on Windows 2000/XP/2003:</b> 
-If this flag is not set before calling <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>, <b>PrintDlg</b> might swap <b>nCopies</b> and <b>dmCopies</b> values when it returns. The workaround for this issue is use <b>dmCopies</b> if its value is larger than 1, else, use <b>nCopies</b>, for you to to get the actual number of copies to be printed when <b>PrintDlg</b> returns.
+If this flag is not set before calling <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>, <b>PrintDlg</b> might swap <b>nCopies</b> and <b>dmCopies</b> values when it returns. The workaround for this issue is use <b>dmCopies</b> if its value is larger than 1, else, use <b>nCopies</b>, for you to get the actual number of copies to be printed when <b>PrintDlg</b> returns.
 
 </td>
 </tr>

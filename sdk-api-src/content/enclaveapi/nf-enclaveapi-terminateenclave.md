@@ -6,7 +6,7 @@ helpviewer_keywords: ["TerminateEnclave","TerminateEnclave function","base.termi
 old-location: base\terminateenclave.htm
 tech.root: base
 ms.assetid: D2BAF02F-AE05-43F2-BDB1-013EAF3AC653
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave
 req.header: enclaveapi.h
 req.include-header: 
@@ -42,12 +42,12 @@ api_type:
 api_location:
  - kernel32.dll
  - api-ms-win-core-enclave-l1-1-0.dll
+ - vertdll.dll
 api_name:
  - TerminateEnclave
 ---
 
 # TerminateEnclave function
-
 
 ## -description
 
@@ -61,13 +61,16 @@ The base address of the enclave in which to end the execution of the threads.
 
 ### -param fWait [in]
 
-<b>TRUE</b> if <b>TerminateEnclave</b> should not return  until all of the threads in the enclave end execution. <b>FALSE</b> if <b>TerminateEnclave</b> should return immediately.
+`TRUE` if **TerminateEnclave** should not return until all of the threads in the enclave end execution. `FALSE` if **TerminateEnclave** should return immediately.
 
 ## -returns
 
-<b>TRUE</b> if the function succeeds; otherwise <b>FALSE</b>.  To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+`TRUE` if the function succeeds; otherwise `FALSE`. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-callenclave">CallEnclave</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
+
+[CallEnclave](nf-enclaveapi-callenclave.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

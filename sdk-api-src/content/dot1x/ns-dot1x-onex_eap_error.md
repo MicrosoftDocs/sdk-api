@@ -473,7 +473,7 @@ The EAP method type that raised the error during 802.1X authentication. The <a h
 
 ### -field dwReasonCode
 
-The reason the EAP method failed. Some of the values for this member are defined in the <i>Eaphosterror.h</i> header file and some are defined in in the <i>Winerror.h</i> header file, although other values are possible.
+The reason the EAP method failed. Some of the values for this member are defined in the <i>Eaphosterror.h</i> header file and some are defined in the <i>Winerror.h</i> header file, although other values are possible.
 
 Possible values are listed below.
 

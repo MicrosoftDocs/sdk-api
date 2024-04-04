@@ -70,7 +70,7 @@ Handle to the parent item whose child items are to be sorted.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Value that specifies whether the sorting is recursive. Set <i>fRecurse</i> to <b>TRUE</b> to sort all levels of child items below the parent item. Otherwise, only the parent's immediate children are sorted.
+Not implemented; see remarks.
 
 ## -remarks
 

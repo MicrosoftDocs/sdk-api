@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusinit.GdiplusStartupParams
 title: GdiplusStartupParams
-ms.date: 05/07/2020
+ms.date: 02/26/2024
 targetos: Windows
 description: Defines constants that specify parameters for startup.
 tech.root: gdiplus
@@ -29,6 +29,7 @@ f1_keywords:
  - gdiplusinit/GdiplusStartupParams
 dev_langs:
  - c++
+prerelease: true
 ---
 
 ## -description
@@ -37,17 +38,21 @@ Defines constants that specify parameters for startup.
 
 ## -enum-fields
 
-### -field GdiplusStartupDefault:0
+### -field GdiplusStartupDefault:0x00000000
 
 Specfies default startup.
 
-### -field GdiplusStartupNoSetRound:1
+### -field GdiplusStartupNoSetRound:0x00000001
 
 Specifies no set round for startup.
 
-### -field GdiplusStartupSetPSValue:2
+### -field GdiplusStartupSetPSValue:0x00000002
 
 Specifies a pixel shader value for startup.
+
+### -field GdiplusStartupReserved0:0x00000004
+
+Still in preview.
 
 ### -field GdiplusStartupTransparencyMask:0xFF000000
 
@@ -56,4 +61,3 @@ Specifies a transparency mask for startup.
 ## -remarks
 
 ## -see-also
-

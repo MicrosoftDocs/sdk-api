@@ -54,5 +54,3 @@ View the [**constants**](/windows/win32/webauthn/webauthn-constants) available i
 ## -remarks
 
 ## -see-also
-
-## -examples

@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.GetAdapter
 title: IDXCoreAdapterList::GetAdapter
 description: Retrieves a specific adapter by index from a DXCore adapter list object.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapter method, IDXCoreAdapterFactory.GetAdapter, IDXCoreAdapterFactory::GetAdapter, GetAdapter, GetAdapter method, GetAdapter method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapter, dxcore_interface.idxcoreadapterfactory_getadapter
 ms.localizationpriority: low
@@ -62,7 +60,7 @@ A reference to the globally unique identifier (GUID) of the interface that you w
 
 Type: **void\*\***
 
-The address of a pointer to an interface with the IID specified in the *riid* parameter. Upon successful return, *\*ppvAdapter* (the dereferenced address) contains a pointer to the the DXCore adapter created.
+The address of a pointer to an interface with the IID specified in the *riid* parameter. Upon successful return, *\*ppvAdapter* (the dereferenced address) contains a pointer to the DXCore adapter created.
 
 ## -returns
 

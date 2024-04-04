@@ -60,11 +60,7 @@ The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to e
 
 ### -field pszObjId
 
-An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by 
-
-
-
-various users.
+An OID of an algorithm. This member can be one of the following values.  This list is only representative. New algorithms are being defined by various users.
 
 <table>
 <tr>
@@ -656,7 +652,7 @@ Timestamp object identifier.
 <tr>
 <td width="40%"><a id="szOID_RFC3161_counterSign"></a><a id="szoid_rfc3161_countersign"></a><a id="SZOID_RFC3161_COUNTERSIGN"></a><dl>
 <dt><b>szOID_RFC3161_counterSign</b></dt>
-<dt>"1.2.840.113549.1.9.16.1.4"</dt>
+<dt>"1.3.6.1.4.1.311.3.3.1"</dt>
 </dl>
 </td>
 <td width="60%">

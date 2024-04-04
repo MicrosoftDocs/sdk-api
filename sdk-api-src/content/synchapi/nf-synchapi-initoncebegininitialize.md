@@ -137,5 +137,11 @@ For an example that uses this function, see [Using One-Time Initialization](/win
 
 ## -see-also
 
-[InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete), [InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce), [One-Time Initialization](/windows/desktop/Sync/one-time-initialization), [Synchronization Functions](/windows/desktop/Sync/synchronization-functions)
+[InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete)
+
+[InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce)
+
+[One-Time Initialization](/windows/desktop/Sync/one-time-initialization)
+
+[Synchronization Functions](/windows/desktop/Sync/synchronization-functions)
 

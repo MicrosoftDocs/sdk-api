@@ -76,7 +76,7 @@ Type: <b>LPCTSTR</b>
 
 Type: <b>UINT</b>
 
-The number of characters in the URL's protocol section.
+[out] The number of characters in the URL's protocol section.
 
 ### -field pszSuffix
 

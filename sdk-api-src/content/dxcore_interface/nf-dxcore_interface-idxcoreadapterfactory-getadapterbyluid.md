@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.GetAdapterByLuid
 title: IDXCoreAdapterFactory::GetAdapterByLuid
 description: Retrieves the DXCore adapter object ([IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter)) for a specified LUID, if available.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapterByLuid method, IDXCoreAdapterFactory.GetAdapterByLuid, IDXCoreAdapterFactory::GetAdapterByLuid, GetAdapterByLuid, GetAdapterByLuid method, GetAdapterByLuid method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapterByLuid, dxcore_interface.idxcoreadapterfactory_getadapterbyluid
 ms.localizationpriority: low
@@ -62,7 +60,7 @@ A reference to the globally unique identifier (GUID) of the interface that you w
 
 Type: **void\*\***
 
-The address of a pointer to an interface with the IID specified in the *riid* parameter. Upon successful return, *\*ppvAdapter* (the dereferenced address) contains a pointer to the the DXCore adapter created.
+The address of a pointer to an interface with the IID specified in the *riid* parameter. Upon successful return, *\*ppvAdapter* (the dereferenced address) contains a pointer to the DXCore adapter created.
 
 ## -returns
 

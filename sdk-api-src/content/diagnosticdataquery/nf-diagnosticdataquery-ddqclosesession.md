@@ -7,7 +7,7 @@ description: Closes a Diagnostic Data Query session handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

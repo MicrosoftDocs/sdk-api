@@ -77,6 +77,8 @@ If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this pa
 
 If the *ProcessInformationClass* parameter is **ProcessAppMemoryInfo**, this parameter must point to a [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md).
 
+If the *ProcessInformationClass* parameter is **ProcessMaxOverridePrefetchParameter**, this parameter must point to an [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md).
+
 ### -param ProcessInformationSize [in]
 
 The size in bytes of the structure specified by the *ProcessInformation* parameter.
@@ -99,4 +101,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-[GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md)
+[GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md), [OVERRIDE_PREFETCH_PARAMETER structure](ns-processthreadsapi-override_prefetch_parameter.md)

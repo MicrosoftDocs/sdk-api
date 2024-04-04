@@ -108,12 +108,12 @@ Each element retrieved with [ITextRangeProvider::GetChildren]() has a valid text
         - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the table element.
         - [ITextRangeProvider::GetChildren]()
  returns both table cells.
-    - Case 4: Text range that spans the the word *Cell* of *Table Cell 1*:
+    - Case 4: Text range that spans the word *Cell* of *Table Cell 1*:
         - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the first cell element.
         - [ITextRangeProvider::GetChildren]()
  returns no elements.
     - Case 5: A degenerate (empty) text range that represents both starts (table and first cell):
-        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the the first cell element (the innermost element with a range that includes the degenerate range).
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the first cell element (the innermost element with a range that includes the degenerate range).
         - [ITextRangeProvider::GetChildren]()
  returns no elements.
 

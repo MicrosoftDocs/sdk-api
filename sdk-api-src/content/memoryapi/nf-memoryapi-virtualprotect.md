@@ -6,7 +6,7 @@ helpviewer_keywords: ["VirtualProtect","VirtualProtect function","_win32_virtual
 old-location: base\virtualprotect.htm
 tech.root: base
 ms.assetid: a0018bba-226b-4c18-8ea4-15e69524db11
-ms.date: 05/02/2022
+ms.date: 02/05/2024
 ms.keywords: VirtualProtect, VirtualProtect function, _win32_virtualprotect, base.virtualprotect, winbase/VirtualProtect
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -49,6 +49,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
+ - vertdll.dll
 api_name:
  - VirtualProtect
 ---
@@ -110,3 +111,5 @@ When protecting a region that will be executable, the calling program bears resp
 [VirtualAlloc](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc)
 
 [VirtualProtectEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotectex)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

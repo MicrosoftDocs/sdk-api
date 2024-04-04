@@ -2,9 +2,7 @@
 UID: NN:dxcore_interface.IDXCoreAdapter
 title: IDXCoreAdapter
 description: The **IDXCoreAdapter** interface implements methods for retrieving details about an adapter item.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter, IDXCoreAdapter interface, IDXCoreAdapter interface,description, dxcore/IDXCoreAdapter, dxcore.idxcoreadapter
 ms.localizationpriority: low

@@ -50,7 +50,7 @@ Queries whether the specified content type is supported for the specified key sy
 
 ### -param type [in]
 
-A **BSTR** identifying the features for which support is queried queried. This parameter accepts RFC 2045 Content-Type strings to specify media type and subtype identifiers, and RFC 6381 Codecs identifiers for the codecs required. These base strings are consistent with those used in the HTML5 HTMLMediaElement canPlayType method. RFC 2045 allows for additional, custom parameters as modifiers in the form of ";&lt;parameter&gt;=&lt;name&gt;\[=&lt;value&gt;\] \[,&lt;name&gt;\[=&lt;value&gt;\]". RFC 2045 compliant parsers must ignore these parameters if not recognized. For the feature queries, <parameter> is named feature.
+A **BSTR** identifying the features for which support is queried. This parameter accepts RFC 2045 Content-Type strings to specify media type and subtype identifiers, and RFC 6381 Codecs identifiers for the codecs required. These base strings are consistent with those used in the HTML5 HTMLMediaElement canPlayType method. RFC 2045 allows for additional, custom parameters as modifiers in the form of ";&lt;parameter&gt;=&lt;name&gt;\[=&lt;value&gt;\] \[,&lt;name&gt;\[=&lt;value&gt;\]". RFC 2045 compliant parsers must ignore these parameters if not recognized. For the feature queries, <parameter> is named feature.
 
 The implementation requires the RFC 2045 media type and subtype identifiers, for example "video/mp4", and RFC 6381 codec parameter codec=”&lt;video codec&gt;\[,&lt;audio codec&gt;\]” to always be present in order to provide valid query results.
 

@@ -52,5 +52,3 @@ The hardware requirement evaluator (HWREQCHK) library is a set of APIs that allo
 The hardware requirement APIs are a family of APIs used to evaluate a machine/device against the new Windows 11 hardware requirements. It can also be used to determine which of the requirements are not met and what the machine's hardware is currently.
 
 ## -see-also
-
-## -examples

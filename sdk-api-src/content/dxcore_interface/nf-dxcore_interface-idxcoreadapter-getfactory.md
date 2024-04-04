@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.GetFactory
 title: IDXCoreAdapter::GetFactory
 description: Retrieves an [IDXCoreAdapterFactory](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory) interface pointer to the DXCore adapter factory object.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetFactory method, IDXCoreAdapterFactory.GetFactory, IDXCoreAdapterFactory::GetFactory, GetFactory, GetFactory method, GetFactory method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetFactory, dxcore_interface.idxcoreadapter_getfactory
 ms.localizationpriority: low

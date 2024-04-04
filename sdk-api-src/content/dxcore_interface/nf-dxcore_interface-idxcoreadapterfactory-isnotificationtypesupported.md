@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.IsNotificationTypeSupported
 title: IDXCoreAdapterFactory::IsNotificationTypeSupported
 description: Determines whether a specified notification type is supported by the operating system (OS).
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapterFactory interface,IsNotificationTypeSupported method, IDXCoreAdapterFactory.IsNotificationTypeSupported, IDXCoreAdapterFactory::IsNotificationTypeSupported, IsNotificationTypeSupported, IsNotificationTypeSupported method, IsNotificationTypeSupported method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::IsNotificationTypeSupported, dxcore_interface.idxcoreadapterfactory_isnotificationtypesupported
 ms.localizationpriority: low

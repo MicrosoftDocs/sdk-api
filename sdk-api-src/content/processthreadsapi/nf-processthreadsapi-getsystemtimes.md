@@ -4,7 +4,7 @@ title: GetSystemTimes function (processthreadsapi.h)
 description: Retrieves system timing information. On a multiprocessor system, the values returned are the sum of the designated times across all processors.
 helpviewer_keywords: ["GetSystemTimes","GetSystemTimes function","base.getsystemtimes","processthreadsapi/GetSystemTimes"]
 old-location: base\getsystemtimes.htm
-tech.root: winprog
+tech.root: processthreadsapi
 ms.assetid: 84f674e7-536b-4ae0-b523-6a17cb0a1c17
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, processthreadsapi/GetSystemTimes

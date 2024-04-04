@@ -6,7 +6,7 @@ helpviewer_keywords: ["WakeByAddressSingle","WakeByAddressSingle function","base
 old-location: base\wakebyaddresssingle.htm
 tech.root: base
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -45,12 +45,12 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - WakeByAddressSingle
 ---
 
 # WakeByAddressSingle function
-
 
 ## -description
 
@@ -60,17 +60,16 @@ Wakes one thread that is waiting for the value of an address to change.
 
 ### -param Address [in]
 
-The address to signal. If another thread has previously called 
-      <a href="/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a> for this address, the system wakes the 
-      waiting thread. If multiple threads are waiting for this address, the system wakes the first thread to 
-      wait.
+The address to signal. If another thread has previously called [WaitOnAddress](nf-synchapi-waitonaddress.md) for this address, the system wakes the waiting thread. If multiple threads are waiting for this address, the system wakes the first thread to wait.
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
+Microsoft Store app developers may need to obtain `synchronization.lib` by installing the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/).
 
 Only a thread within the same process can be woken.
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a>
+[WaitOnAddress](nf-synchapi-waitonaddress.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

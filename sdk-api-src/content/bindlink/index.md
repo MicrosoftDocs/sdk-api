@@ -5,7 +5,7 @@ title: bindlink (bindlink.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: This API allows admin users to bind a filesystem namespace to a local virtual path via the Bind Filter.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -52,5 +52,3 @@ This API allows admin users to bind a filesystem namespace to a local "virtual p
 Bind Links are different from filesystem hard links in that they can apply across volumes while hard links can only be applied within one volume. Hard links are also limited to files, whereas bind links can map directories as well. They are also different from symbolic links in how they report their name: when a symbolic link is opened and its name is queried, the target name is returned, however, when a bind link is opened and its name is queried, the virtual name is returned. While hard links and symbolic links are persistent, bind links are ephemeral in nature. They exist until the system is shutdown. In addition to these key differences, bind links support various other functionalities, as explained below, that neither symbolic links, nor hard links support (like exceptions, read only links and merged links).
 
 ## -see-also
-
-## -examples

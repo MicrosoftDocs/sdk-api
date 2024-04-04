@@ -68,7 +68,7 @@ Size, in bytes, of the buffer that <b>pMiscData</b> points to. The value must be
 
 Pointer to a buffer that contains data for the video accelerator.
 
-This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
+This buffer must contain a <b>WORD</b> value equal to the same surface index that passed to the corresponding <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
 
 ## -remarks
 

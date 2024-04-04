@@ -233,7 +233,7 @@ It is not an error to set a file pointer to a position beyond the end of the fil
     <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function. A write operation increases the size 
     of the file to the file pointer position plus the size of the buffer written, which results in the intervening 
-    bytes uninitialized.
+    bytes being zero initialized.
 
 If the return value is <b>INVALID_SET_FILE_POINTER</b> and if 
     <i>lpDistanceToMoveHigh</i> is non-<b>NULL</b>, an application must call 

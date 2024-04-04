@@ -174,7 +174,9 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
+<a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
+
+This flag is supported in Windows 8 and later.
 
 When this option is specified the call runs synchronously on the calling thread.
 </td>
@@ -191,7 +193,10 @@ Optional. A handle to the owner window, used to display and position any UI that
 
 Type: <b>LPCTSTR</b>
 
-A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry. The following verbs are commonly used:
+A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+Unless there is a reason to limit the action to a specific verb, pass NULL to use the computed default. This is necessary in some cases, for example when specifying SEE_MASK_FLAG_NO_UI and the intention is to produce the "Open With" UI, if no apps are installed.
+
+The following verbs are commonly used:
 
 - **edit**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
 - **explore**: Explores the folder specified by <b>lpFile</b>.

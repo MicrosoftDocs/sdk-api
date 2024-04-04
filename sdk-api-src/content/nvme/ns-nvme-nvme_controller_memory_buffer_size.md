@@ -86,7 +86,7 @@ When this value is cleared to `0`, all data and metadata for commands that trans
 
 ### -field DUMMYSTRUCTNAME.WDS
 
-Indicates whether the the controller supports data and metadata in the Controller Memory Buffer for commands, such as the Write command, that transfer data from the host to the controller.
+Indicates whether the controller supports data and metadata in the Controller Memory Buffer for commands, such as the Write command, that transfer data from the host to the controller.
 
 When this value is set to `1`, the controller supports data and metadata in the Controller Memory Buffer for commands that transfer data from the host to the controller.
 

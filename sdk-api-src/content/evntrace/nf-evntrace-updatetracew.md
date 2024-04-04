@@ -166,7 +166,7 @@ You can update the following properties.
   set this member to 0. To turn real time consuming on, set this member to
   **EVENT_TRACE_REAL_TIME_MODE** and it will be OR'd with the current modes.
 
-- **MaximumBuffers**: Set set this member if you want to change the maximum
+- **MaximumBuffers**: Set this member if you want to change the maximum
   number of buffers that ETW uses. If this member is 0, the member is not
   updated.
 

@@ -118,7 +118,7 @@ A combination of one or more of the following values that indicate the content a
 </tr>
 <tr valign="top">
 <td>SEE_MASK_NOASYNC (0x00000100)</td>
-<td>Only respected when launching files, does not apply to uris or shell namespace items (e.g. "This PC"). Wait for the async part of the execute operation, (e.g. DDE) to complete before returning. When this applies it ensures the launching operation finishes before returning. Applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag. Note, <b>ShellExecuteEx<b> moves its work to a background thread if the caller's threading model is not Apartment. Forcing the call to be syncronous disables that behavior and uses the callers COM apartment. Specifing SEE_MASK_FLAG_HINST_IS_SITE forces syncronous behavior always.
+<td>Only respected when launching files, does not apply to uris or shell namespace items (e.g. "This PC"). Wait for the async part of the execute operation, (e.g. DDE) to complete before returning. When this applies it ensures the launching operation finishes before returning. Applications that exit immediately after calling <b>ShellExecuteEx</b> should specify this flag. Note, <b>ShellExecuteEx</b> moves its work to a background thread if the caller's threading model is not Apartment. Forcing the call to be synchronous disables that behavior and uses the callers COM apartment. Specifing SEE_MASK_FLAG_HINST_IS_SITE forces synchronous behavior always.
 
 If the execute operation is performed on a background thread and the caller did not specify the SEE_MASK_ASYNCOK flag, then the calling thread waits until the new process has started before returning. This typically means that either <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> has been called, the DDE communication has completed, or that the custom execution delegate has notified <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> that it is done. If the SEE_MASK_WAITFORINPUTIDLE flag is specified, then <b>ShellExecuteEx</b> calls <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a> and waits for the new process to idle before returning, with a maximum timeout of 1 minute.
 
@@ -173,8 +173,10 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <tr valign="top">
 <td>SEE_MASK_FLAG_HINST_IS_SITE` (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> function, the handler binding process, and invoked verb handlers.
+ 
+<a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
 
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
+This flag is supported in Windows 8 and later.
 
 When this option is specified the call runs synchronously on the calling thread.
 </td>

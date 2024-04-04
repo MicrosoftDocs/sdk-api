@@ -6,7 +6,7 @@ helpviewer_keywords: ["AcquireSRWLockShared","AcquireSRWLockShared function","ba
 old-location: base\acquiresrwlockshared.htm
 tech.root: base
 ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: AcquireSRWLockShared, AcquireSRWLockShared function, base.acquiresrwlockshared, synchapi/AcquireSRWLockShared, winbase/AcquireSRWLockShared
 req.header: synchapi.h
 req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -54,7 +54,6 @@ api_name:
 
 # AcquireSRWLockShared function
 
-
 ## -description
 
 Acquires a slim reader/writer (SRW) lock in shared mode.
@@ -67,12 +66,10 @@ A pointer to the SRW lock.
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-releasesrwlockshared">ReleaseSRWLockShared</a>
+[ReleaseSRWLockShared](nf-synchapi-releasesrwlockshared.md)
 
+[Slim Reader/Writer (SRW) Locks](/windows/win32/Sync/slim-reader-writer--srw--locks)
 
+[Synchronization Functions](/windows/win32/Sync/synchronization-functions)
 
-<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
-
-
-
-<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

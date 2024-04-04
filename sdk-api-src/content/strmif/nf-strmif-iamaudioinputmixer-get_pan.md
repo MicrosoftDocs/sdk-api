@@ -59,7 +59,7 @@ The <code>get_Pan</code> method retrieves the pan level.
 
 ### -param pPan [out]
 
-Receives the pan level. Possible values range from from –1.0 to 1.0, as follows:
+Receives the pan level. Possible values range from –1.0 to 1.0, as follows:
 
 <table>
 <tr>

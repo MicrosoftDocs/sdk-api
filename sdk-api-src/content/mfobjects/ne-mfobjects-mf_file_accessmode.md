@@ -1,5 +1,5 @@
 ---
-UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0001
+UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0018_0001
 title: MF_FILE_ACCESSMODE (mfobjects.h)
 description: Specifies the requested access mode for opening a file.
 helpviewer_keywords: ["38108686-5378-4844-8d5a-a433e89f62bb","MF_ACCESSMODE_READ","MF_ACCESSMODE_READWRITE","MF_ACCESSMODE_WRITE","MF_FILE_ACCESSMODE","MF_FILE_ACCESSMODE enumeration [Media Foundation]","__MIDL___MIDL_itf_mfobjects_0000_0017_0001","mf.mf_file_accessmode","mfobjects/MF_ACCESSMODE_READ","mfobjects/MF_ACCESSMODE_READWRITE","mfobjects/MF_ACCESSMODE_WRITE","mfobjects/MF_FILE_ACCESSMODE"]

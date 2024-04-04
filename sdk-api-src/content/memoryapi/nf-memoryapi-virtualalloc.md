@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE
 old-location: base\virtualalloc.htm
 tech.root: base
 ms.assetid: a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2
-ms.date: 05/02/2022
+ms.date: 02/05/2024
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc, VirtualAlloc function, _win32_virtualalloc, base.virtualalloc, winbase/VirtualAlloc
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -49,6 +49,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
+ - vertdll.dll
 api_name:
  - VirtualAlloc
 ---
@@ -59,7 +60,7 @@ api_name:
 
 Reserves, commits, or changes the state  of a region of pages in the virtual address space of the calling process. Memory allocated by this function is automatically initialized to zero.
 
-To allocate memory in the address space of another process, use the     [VirtualAllocEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) function.
+To allocate memory in the address space of another process, use the [VirtualAllocEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) function.
 
 ## -parameters
 
@@ -273,3 +274,5 @@ For an example, see [Reserving and Committing Memory](/windows/win32/Memory/rese
 [VirtualProtect](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect)
 
 [VirtualQuery](/windows/win32/api/memoryapi/nf-memoryapi-virtualquery)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

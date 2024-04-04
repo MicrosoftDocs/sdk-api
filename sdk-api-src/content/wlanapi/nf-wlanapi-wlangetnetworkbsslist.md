@@ -128,7 +128,7 @@ Reserved for future use.  This parameter must be set to <b>NULL</b>.
 
 ### -param ppWlanBssList [out]
 
-A pointer to storage for a pointer to receive the returned list of of BSS entries in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure. 
+A pointer to storage for a pointer to receive the returned list of BSS entries in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure. 
 
 The buffer for the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> returned is allocated by the <b>WlanGetNetworkBssList</b> function if the call succeeds.
 

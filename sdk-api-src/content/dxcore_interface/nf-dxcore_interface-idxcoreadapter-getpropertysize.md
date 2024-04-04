@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.GetPropertySize
 title: IDXCoreAdapter::GetPropertySize
 description: For a specified adapter property, retrieves the size of buffer, in bytes, that is required for a call to [GetProperty](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty).
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,GetPropertySize method, IDXCoreAdapter.GetPropertySize, IDXCoreAdapter::GetPropertySize, GetPropertySize, GetPropertySize method, GetPropertySize method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::GetPropertySize, dxcore_interface.idxcoreadapterfactory_getpropertysize
 ms.localizationpriority: low

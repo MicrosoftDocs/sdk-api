@@ -6,7 +6,7 @@ helpviewer_keywords: ["HeapLock","HeapLock function","_win32_heaplock","base.hea
 old-location: base\heaplock.htm
 tech.root: base
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock
 req.header: heapapi.h
 req.include-header: Windows.h
@@ -46,12 +46,12 @@ api_location:
  - API-MS-Win-Core-heap-l1-2-0.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - HeapLock
 ---
 
 # HeapLock function
-
 
 ## -description
 
@@ -61,54 +61,36 @@ Attempts to acquire the critical section object, or lock, that is associated wit
 
 ### -param hHeap [in]
 
-A handle to the heap to be locked. This handle is returned by either the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+A handle to the heap to be locked. This handle is returned by either the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the function succeeds, the calling thread owns the heap lock. Only the calling thread will be able to allocate or release memory from the heap. The execution of any other thread of the calling process will be blocked if that thread attempts to allocate or release memory from the heap. Such threads will remain blocked until the thread that owns the heap lock calls the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> function.
+If the function succeeds, the calling thread owns the heap lock. Only the calling thread will be able to allocate or release memory from the heap. The execution of any other thread of the calling process will be blocked if that thread attempts to allocate or release memory from the heap. Such threads will remain blocked until the thread that owns the heap lock calls the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> function.
 
-The 
-<b>HeapLock</b> function is primarily useful for preventing the allocation and release of heap memory by other threads while the calling thread uses the 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function.
+The <b>HeapLock</b> function is primarily useful for preventing the allocation and release of heap memory by other threads while the calling thread uses the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function.
 
 If the <b>HeapLock</b> function is called on a heap created with the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HEAP_NO_SERIALIZE</a> flag, the results are undefined.
 
-Each successful call to 
-<b>HeapLock</b> must be matched by a corresponding call to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>. Failure to call 
-<b>HeapUnlock</b> will block the execution of any other threads of the calling process that attempt to access the heap.
-
+Each successful call to <b>HeapLock</b> must be matched by a corresponding call to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>. Failure to call <b>HeapUnlock</b> will block the execution of any other threads of the calling process that attempt to access the heap.
 
 #### Examples
 
-
 <a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
-
-
-<div class="code"></div>
 
 ## -see-also
 
-<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
+[Heap Functions](/windows/win32/Memory/heap-functions)
 
+[HeapUnlock](nf-heapapi-heapunlock.md)
 
+[HeapWalk](nf-heapapi-heapwalk.md)
 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>
+[Memory Management Functions](/windows/win32/Memory/memory-management-functions)
 
-
-
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a>
-
-
-
-<a href="/windows/desktop/Memory/memory-management-functions">Memory
-		  Management Functions</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

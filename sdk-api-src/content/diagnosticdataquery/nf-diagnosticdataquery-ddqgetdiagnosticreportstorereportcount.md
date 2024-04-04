@@ -7,7 +7,7 @@ description: Fetches the number (size) of reports stored in the requested store.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

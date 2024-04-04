@@ -6,7 +6,7 @@ helpviewer_keywords: ["WaitOnAddress","WaitOnAddress function","base.waitonaddre
 old-location: base\waitonaddress.htm
 tech.root: base
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -45,12 +45,12 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - WaitOnAddress
 ---
 
 # WaitOnAddress function
-
 
 ## -description
 
@@ -60,33 +60,33 @@ Waits for the value at the specified address to change.
 
 ### -param Address [in]
 
-The address on which to wait. If the value at <i>Address</i> differs from the value at <i>CompareAddress</i>, the function returns immediately. If the values are the same, the function does not return until another thread in the same process signals that the value at Address has changed by calling <a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a> or the timeout elapses, whichever comes first.
+The address on which to wait. If the value at *Address* differs from the value at *CompareAddress*, the function returns immediately. If the values are the same, the function does not return until another thread in the same process signals that the value at Address has changed by calling [WakeByAddressSingle](nf-synchapi-wakebyaddresssingle.md) or [WakeByAddressAll](nf-synchapi-wakebyaddressall.md) or the timeout elapses, whichever comes first.
 
 ### -param CompareAddress [in]
 
-A pointer to the location of the previously observed value at <i>Address</i>. The function returns when the value at <i>Address</i> differs from the value at <i>CompareAddress</i>.
+A pointer to the location of the previously observed value at *Address*. The function returns when the value at *Address* differs from the value at *CompareAddress*.
 
 ### -param AddressSize [in]
 
-The size of the value, in bytes. This parameter can be 1, 2, 4, or 8.
+The size of the value, in bytes. This parameter can be `1`, `2`, `4`, or `8`.
 
 ### -param dwMilliseconds [in, optional]
 
-The number of milliseconds to wait before the operation times out. If this parameter is <b>INFINITE</b>, the thread waits indefinitely.
+The number of milliseconds to wait before the operation times out. If this parameter is **INFINITE**, the thread waits indefinitely.
 
 ## -returns
 
-TRUE if the wait succeeded. If the operation fails, the function returns FALSE. If the wait fails, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain extended error information. In particular, if the operation times out, <b>GetLastError</b>  returns <b>ERROR_TIMEOUT</b>.
+`TRUE` if the wait succeeded. If the operation fails, the function returns `FALSE`. If the wait fails, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) to obtain extended error information. In particular, if the operation times out, **GetLastError** returns **ERROR_TIMEOUT**.
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
+Microsoft Store app developers may need to obtain `synchronization.lib` by installing the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/).
 
-The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
+The **WaitOnAddress** function can be used by a thread to wait for a particular value to change from some undesired value to any other value. **WaitOnAddress** is more efficient than using the [Sleep](nf-synchapi-sleep.md) function inside a `while` loop because **WaitOnAddress** does not interfere with the thread scheduler. **WaitOnAddress** is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. **WaitOnAddress** is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
 
-Any thread within the same  process that changes the value at the address on which threads are waiting should call <a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a> to wake a single waiting thread or  <a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a> to wake all waiting threads. If <b>WakeByAddressSingle</b> is called, other waiting threads continue to wait.
+Any thread within the same  process that changes the value at the address on which threads are waiting should call [WakeByAddressSingle](nf-synchapi-wakebyaddresssingle.md) to wake a single waiting thread or  [WakeByAddressAll](nf-synchapi-wakebyaddressall.md) to wake all waiting threads. If **WakeByAddressSingle** is called, other waiting threads continue to wait.
 
-<div class="alert"><b>Note</b>  <b>WaitOnAddress</b> is guaranteed to return when the address is signaled, but it is also allowed to return for other reasons. For this reason, after <b>WaitOnAddress</b> returns the caller should compare the new value with the original undesired value to confirm that the value has actually changed. For example, the following circumstances can result in waking the thread early:<ul>
+<div class="alert"><b>Note:</b> <b>WaitOnAddress</b> is guaranteed to return when the address is signaled, but it is also allowed to return for other reasons. For this reason, after <b>WaitOnAddress</b> returns the caller should compare the new value with the original undesired value to confirm that the value has actually changed. For example, the following circumstances can result in waking the thread early:<ul>
 <li>Low memory conditions</li>
 <li>A previous wake on the same address was abandoned</li>
 <li>Executing code on a checked build of the operating system</li>
@@ -96,10 +96,9 @@ Any thread within the same  process that changes the value at the address on whi
 
 #### Examples
 
-The following example shows how to use <b>WaitOnAddress</b>.
+The following example shows how to use **WaitOnAddress**.
 
-
-``` syntax
+``` cpp
 ULONG g_TargetValue; // global, accessible to all threads
 ULONG CapturedValue;
 ULONG UndesiredValue;
@@ -110,14 +109,12 @@ while (CapturedValue == UndesiredValue) {
       WaitOnAddress(&g_TargetValue, &UndesiredValue, sizeof(ULONG), INFINITE);
       CapturedValue = g_TargetValue;
 }
-
 ```
-
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a>
+[WakeByAddressAll](nf-synchapi-wakebyaddressall.md)
 
+[WakeByAddressSingle](nf-synchapi-wakebyaddresssingle.md)
 
-
-<a href="/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

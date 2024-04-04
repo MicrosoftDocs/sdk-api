@@ -51,7 +51,6 @@ api_name:
 
 # BITMAPFILEHEADER structure
 
-
 ## -description
 
 The <b>BITMAPFILEHEADER</b> structure contains information about the type, size, and layout of a file that contains a DIB.
@@ -60,7 +59,7 @@ The <b>BITMAPFILEHEADER</b> structure contains information about the type, size,
 
 ### -field bfType
 
-The file type; must be BM.
+The file type; must be `0x4d42` (the ASCII string "BM").
 
 ### -field bfSize
 
@@ -82,18 +81,16 @@ The offset, in bytes, from the beginning of the <b>BITMAPFILEHEADER</b> structur
 
 A <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> or <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a> structure immediately follows the <b>BITMAPFILEHEADER</b> structure in the DIB file. For more information, see <a href="/windows/desktop/gdi/bitmap-storage">Bitmap Storage</a>.
 
+## Examples
+
+For an example, see [Storing an image](/windows/win32/gdi/storing-an-image).
+
 ## -see-also
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a>
 
-
-
 <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
-
-
 <a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
-
-
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>

@@ -71,30 +71,16 @@ Either a dotted-decimal IPv4 address or an IPv6 hex
    the address passed to bind. If <i>localAddress</i> is <b>NULL</b>, the function
    determines whether the port is allowed for all interfaces.
 
-Either a dotted-decimal IPv4 address or an IPv6 hex
-   address specifying the local address of the traffic. Typically, this is
-   the address passed to bind. If <i>localAddress</i> is <b>NULL</b>, the function
-   determines whether the port is allowed for all interfaces.
-
 ### -param type [in]
 
 ICMP type. For a list of possible ICMP types, see <a href="https://www.iana.org/assignments/icmp-parameters">ICMP Type Numbers</a>.
-
-ICMP type.
 
 ### -param allowed [out]
 
 Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether the port is allowed for at least some local
    interfaces and remote addresses.
 
-Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether the port is allowed for at least some local
-   interfaces and remote addresses.
-
 ### -param restricted [out]
-
-Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether some local interfaces or remote addresses
-   are blocked for this port. For example, if the port is restricted to the
-   local subnet only.
 
 Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether some local interfaces or remote addresses
    are blocked for this port. For example, if the port is restricted to the

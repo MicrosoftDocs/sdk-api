@@ -4,7 +4,7 @@ title: IMFVideoProcessor::SetBackgroundColor (evr9.h)
 description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
 helpviewer_keywords: ["IMFVideoProcessor interface [Media Foundation]","SetBackgroundColor method","IMFVideoProcessor.SetBackgroundColor","IMFVideoProcessor::SetBackgroundColor","SetBackgroundColor","SetBackgroundColor method [Media Foundation]","SetBackgroundColor method [Media Foundation]","IMFVideoProcessor interface","evr9/IMFVideoProcessor::SetBackgroundColor","fb654dba-1f03-48a7-ac8e-fa0c82f29849","mf.imfvideoprocessor_setbackgroundcolor"]
 old-location: mf\imfvideoprocessor_setbackgroundcolor.htm
-tech.root: mf
+tech.root: mfarchive
 ms.assetid: fb654dba-1f03-48a7-ac8e-fa0c82f29849
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetBackgroundColor method, IMFVideoProcessor.SetBackgroundColor, IMFVideoProcessor::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Media Foundation], SetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetBackgroundColor, fb654dba-1f03-48a7-ac8e-fa0c82f29849, mf.imfvideoprocessor_setbackgroundcolor
@@ -44,12 +44,15 @@ api_location:
  - strmiids.dll
 api_name:
  - IMFVideoProcessor.SetBackgroundColor
+archived: true
 ---
 
 # IMFVideoProcessor::SetBackgroundColor
 
 
 ## -description
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
 
 Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
 

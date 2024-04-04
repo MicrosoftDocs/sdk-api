@@ -88,7 +88,7 @@ Note that if both <i>hwndParent</i> and <i>hwndChildAfter</i> are <b>NULL</b>, t
 
 ### -param lpszClass [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The class name or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
 
@@ -96,7 +96,7 @@ The class name or a class atom created by a previous call to the <a href="/windo
 
 ### -param lpszWindow [in, optional]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The window name (the window's title). If this parameter is <b>NULL</b>, all window names match.
 

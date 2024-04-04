@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDPROW_OWNER_MODULE
 title: MIB_UDPROW_OWNER_MODULE (udpmib.h)
-description: Contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
+description: Contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 helpviewer_keywords: ["*PMIB_UDPROW_OWNER_MODULE","MIB_UDPROW_OWNER_MODULE","MIB_UDPROW_OWNER_MODULE structure [MIB]","PMIB_UDPROW_OWNER_MODULE","PMIB_UDPROW_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_UDPROW_OWNER_MODULE","iprtrmib/PMIB_UDPROW_OWNER_MODULE","mib.mib_udprow_owner_module","udpmib/MIB_UDPROW_OWNER_MODULE","udpmib/PMIB_UDPROW_OWNER_MODULE"]
 old-location: mib\mib_udprow_owner_module.htm
 tech.root: MIB
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>MIB_UDPROW_OWNER_MODULE</b> structure contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint.
+The <b>MIB_UDPROW_OWNER_MODULE</b> structure contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also includes any available ownership data and the process ID (PID) that issued the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint.
 
 ## -struct-fields
 

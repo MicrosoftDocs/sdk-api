@@ -6,7 +6,7 @@ helpviewer_keywords: ["WakeByAddressAll","WakeByAddressAll function","base.wakeb
 old-location: base\wakebyaddressall.htm
 tech.root: base
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
-ms.date: 12/05/2018
+ms.date: 02/05/2024
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -45,12 +45,12 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - WakeByAddressAll
 ---
 
 # WakeByAddressAll function
-
 
 ## -description
 
@@ -60,16 +60,16 @@ Wakes all threads that are waiting for the value of an address to change.
 
 ### -param Address [in]
 
-The address to signal. If any threads have previously called 
-      <a href="/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a> for this address, the system wakes all 
-      of the waiting threads.
+The address to signal. If any threads have previously called [WaitOnAddress](nf-synchapi-waitonaddress.md) for this address, the system wakes all of the waiting threads.
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
+Microsoft Store app developers may need to obtain `synchronization.lib` by installing the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/).
 
 Only threads within the same process can be woken.
 
 ## -see-also
 
-<a href="/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a>
+[WaitOnAddress](nf-synchapi-waitonaddress.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

@@ -68,13 +68,13 @@ To perform a comparison that is case-sensitive, use the <a href="/windows/deskto
 
 ### -param lpString1 [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The first null-terminated string to be compared.
 
 ### -param lpString2 [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
 The second null-terminated string to be compared.
 

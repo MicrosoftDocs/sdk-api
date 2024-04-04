@@ -58,13 +58,13 @@ Performs a comparison between two characters. The comparison is not case-sensiti
 
 ### -param w1 [in]
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 The first character to be compared.
 
 ### -param w2 [in]
 
-Type: <b>TCHAR</b>
+Type: <b>WCHAR</b>
 
 The second character to be compared.
 

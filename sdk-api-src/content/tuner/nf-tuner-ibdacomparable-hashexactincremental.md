@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method generates a hash code from the values of the tuning properties in the object that implements the <b>IBDAComparable</b> interface, and its associated objects.
 
-Calling this method with a <i>PartialResult</i> value of 0 yields the same result as as calling <b>HashExact</b>.
+Calling this method with a <i>PartialResult</i> value of 0 yields the same result as calling <b>HashExact</b>.
 
 ## -see-also
 

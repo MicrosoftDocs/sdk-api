@@ -58,5 +58,3 @@ Since applications behave differently in the host vs the Isolated Environment, t
 [IsProcessInIsolatedWindowsEnvironment](nf-isolatedwindowsenvironmentutils-isprocessinisolatedwindowsenvironment.md)
 
 [IsCrossIsolatedEnvironmentClipboardContent](nf-isolatedwindowsenvironmentutils-iscrossisolatedenvironmentclipboardcontent.md)
-
-## -examples

@@ -38,6 +38,7 @@ api_location:
 api_name:
  - tagCHOOSECOLORA
  - CHOOSECOLORA
+h1_override: CHOOSECOLORA structure (Rich Edit 2.0)
 ---
 
 # CHOOSECOLORA structure

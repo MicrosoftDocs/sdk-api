@@ -77,7 +77,7 @@ This field uses the following values:
 | 10b   | SGLs are used for this transfer. |
 | 11b   | Reserved                         |
 
-If there is metadata that is not interleaved with the logical block data, as specified in the [Format NVM command](ns-nvme-nvme_command.md#-field-u.formatnvm), then the Metadata Pointer (**MPTR**) field in the the [NVME_COMMAND](ns-nvme-nvme_command.md) structure is used to point to the metadata. The definition of the **MPTR** field is dependent on the setting in this field.
+If there is metadata that is not interleaved with the logical block data, as specified in the [Format NVM command](ns-nvme-nvme_command.md#-field-u.formatnvm), then the Metadata Pointer (**MPTR**) field in the [NVME_COMMAND](ns-nvme-nvme_command.md) structure is used to point to the metadata. The definition of the **MPTR** field is dependent on the setting in this field.
 
 ### -field DUMMYSTRUCTNAME.CID
 

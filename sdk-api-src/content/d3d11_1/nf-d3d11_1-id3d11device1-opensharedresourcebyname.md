@@ -103,11 +103,11 @@ The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of th
 ID3D11Device1* pDevice;
 ID3D11Texture2D* pTexture2D;
 
-pDevice-&gt;OpenSharedResourceByName(
-          “MySurface”, 
-          DXGI_SHARED_REOUSRCE_READ, 
+pDevice->OpenSharedResourceByName(
+          "MySurface", 
+          DXGI_SHARED_RESOURCE_READ, 
           __uuidof(ID3D11Texture2D), 
-         (void**)&amp;pTexture2D);
+         (void**)&pTexture2D);
 
 ```
 
