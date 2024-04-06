@@ -105,13 +105,13 @@ Measurement units are screen pixels. This is the default value.
 <table>
 <tr>
 <th>
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK</a>
 </th>
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF"></a><a id="interaction_context_property_ui_feedback_off"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF</b></dt>
+<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK_OFF"></a><a id="interaction_context_property_interaction_ui_feedback_off"></a><dl>
+<dt><b>INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK_OFF</b></dt>
 <dt>0</dt>
 </dl>
 </td>
@@ -121,8 +121,8 @@ Visual feedback for user interactions is disabled (the caller is responsible for
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON"></a><a id="interaction_context_property_ui_feedback_on"></a><dl>
-<dt><b>INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON</b></dt>
+<td width="40%"><a id="INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK_ON"></a><a id="interaction_context_property_interaction_ui_feedback_on"></a><dl>
+<dt><b>INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK_ON</b></dt>
 <dt>1</dt>
 </dl>
 </td>
