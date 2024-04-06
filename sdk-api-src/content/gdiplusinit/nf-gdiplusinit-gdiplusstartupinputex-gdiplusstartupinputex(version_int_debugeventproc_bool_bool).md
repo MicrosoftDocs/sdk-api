@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusinit.GdiplusStartupInputEx.GdiplusStartupInputEx(Version,INT,DebugEventProc,BOOL,BOOL)
-title: GdiplusStartupInputEx::GdiplusStartupInputEx
+title: GdiplusStartupInputEx::GdiplusStartupInputEx(Version,INT,DebugEventProc,BOOL,BOOL)
 description: Constructor for the GdiplusStartupInputEx structure.
 tech.root: gdiplus
 ms.date: 02/26/2024

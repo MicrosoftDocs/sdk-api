@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.operator-function-call(size_t,size_t)
-title: XMFLOAT3X4::operator()
+title: XMFLOAT3X4::operator()(size_t,size_t)
 ms.date: 04/22/2020
 description: Returns a reference to a matrix element of an **XMFLOAT3X4**, specified by row and column arguments.
 tech.root: dxmath

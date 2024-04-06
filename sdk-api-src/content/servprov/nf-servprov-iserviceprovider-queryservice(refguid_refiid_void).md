@@ -1,7 +1,7 @@
 ---
 UID: NF:servprov.IServiceProvider.QueryService(REFGUID,REFIID,void)
 tech.root: com
-title: IServiceProvider::QueryService
+title: IServiceProvider::QueryService(REFGUID,REFIID,void)
 ms.date: 07/01/2021
 targetos: Windows
 description: Acts as the factory method for any services exposed through an implementation of IServiceProvider. Accepts a CLSID parameter.
