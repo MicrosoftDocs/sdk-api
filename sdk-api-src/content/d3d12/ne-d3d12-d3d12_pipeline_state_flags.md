@@ -63,6 +63,14 @@ Indicates no flags.
 Indicates that the pipeline state should be compiled with additional information to assist debugging.
           This can only be set on WARP devices.
 
+### -field D3D12_PIPELINE_STATE_FLAG_DYNAMIC_DEPTH_BIAS
+
+Indicates that the pipeline state can be dynamically changed after the pipeline is set by using RSSetDepthBias.
+
+### -field D3D12_PIPELINE_STATE_FLAG_DYNAMIC_INDEX_BUFFER_STRIP_CUT
+
+Indicates that the pipeline state can be dynamically changed after the pipeline is set by using IASetIndexBufferStripCutValue.
+
 ## -remarks
 
 This enum is used by the <b>Flags</b> member of the
