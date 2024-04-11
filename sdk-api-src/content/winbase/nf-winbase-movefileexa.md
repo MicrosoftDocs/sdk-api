@@ -234,7 +234,7 @@ This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation store
 
 <ul>
 <li>
-<i>szDstFile</i>\0\0
+<i>szSrcFile</i>\0\0
 
 </li>
 <li>
@@ -242,8 +242,8 @@ This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation store
 
 </li>
 </ul>
-The string <i>szDstFile</i>\0\0 indicates that the file 
-     <i>szDstFile</i> is to be deleted on reboot. The string 
+The string <i>szSrcFile</i>\0\0 indicates that the file 
+     <i>szSrcFile</i> is to be deleted on reboot. The string 
      <i>szSrcFile</i>\0<i>szDstFile</i>\0 indicates that 
      <i>szSrcFile</i> is to be renamed <i>szDstFile</i> on reboot.
 
@@ -252,12 +252,12 @@ The string <i>szDstFile</i>\0\0 indicates that the file
 <div> </div>
 The system uses these registry entries to complete the operations at restart in the same order that they were 
      issued. For example, the following code fragment creates registry entries that delete 
-     <i>szDstFile</i> and rename <i>szSrcFile</i> to be 
+     <i>szSrcFile</i> and rename <i>szSrcFile</i> to be 
      <i>szDstFile</i> at restart:
 
 
 ```cpp
-MoveFileEx(szDstFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
+MoveFileEx(szSrcFile, NULL, MOVEFILE_DELAY_UNTIL_REBOOT);
 MoveFileEx(szSrcFile, szDstFile, MOVEFILE_DELAY_UNTIL_REBOOT);
 
 ```
