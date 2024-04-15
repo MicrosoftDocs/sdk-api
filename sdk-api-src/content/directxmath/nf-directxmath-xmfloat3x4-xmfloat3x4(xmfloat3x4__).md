@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4(XMFLOAT3X4&&)
-title: XMFLOAT3X4::XMFLOAT3X4
+title: XMFLOAT3X4::XMFLOAT3X4(XMFLOAT3X4&&)
 ms.date: 04/22/2020
 description: Move constructor for **XMFLOAT3X4**.
 tech.root: dxmath

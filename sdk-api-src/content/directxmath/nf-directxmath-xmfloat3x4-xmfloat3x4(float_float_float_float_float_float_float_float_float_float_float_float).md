@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4(float,float,float,float,float,float,float,float,float,float,float,float)
-title: XMFLOAT3X4::XMFLOAT3X4
+title: XMFLOAT3X4::XMFLOAT3X4(float,float,float,float,float,float,float,float,float,float,float,float)
 ms.date: 04/22/2020
 description: Constructs an **XMFLOAT3X4** from 12 scalar float values.
 tech.root: dxmath

@@ -93,7 +93,7 @@ When called with **TDF_UNREGISTER** and a windows belonging to the calling proce
 
 [Tooltip](/windows/win32/controls/tooltip-control-reference)
 
-## -examples
+## Examples
 
 ```cpp
 // WndProc: Window procedure for a window that is the parent of one or more 

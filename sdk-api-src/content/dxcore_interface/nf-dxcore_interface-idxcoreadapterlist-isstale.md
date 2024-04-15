@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.IsStale
 title: IDXCoreAdapterList::IsStale
 description: Determines whether changes to this system have resulted in this DXCore adapter list object becoming out of date.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,IsStale method, IDXCoreAdapterFactory.IsStale, IDXCoreAdapterFactory::IsStale, IsStale, IsStale method, IsStale method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::IsStale, dxcore_interface.idxcoreadapterfactory_isstale
 ms.localizationpriority: low

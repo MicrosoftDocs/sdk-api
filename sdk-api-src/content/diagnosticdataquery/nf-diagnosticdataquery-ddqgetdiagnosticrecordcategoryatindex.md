@@ -7,7 +7,7 @@ description: Fetches a diagnostic record category at the specified index in the 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

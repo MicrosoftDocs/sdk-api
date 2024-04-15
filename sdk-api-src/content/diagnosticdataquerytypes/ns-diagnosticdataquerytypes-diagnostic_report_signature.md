@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_REPORT_SIGNATURE, DIAGNOSTIC_REPORT_SIGNATURE
 description: This resource describes the signature for a diagnostic report.
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

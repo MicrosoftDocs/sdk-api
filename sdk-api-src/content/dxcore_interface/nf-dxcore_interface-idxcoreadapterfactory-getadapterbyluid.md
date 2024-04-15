@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.GetAdapterByLuid
 title: IDXCoreAdapterFactory::GetAdapterByLuid
 description: Retrieves the DXCore adapter object ([IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter)) for a specified LUID, if available.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapterByLuid method, IDXCoreAdapterFactory.GetAdapterByLuid, IDXCoreAdapterFactory::GetAdapterByLuid, GetAdapterByLuid, GetAdapterByLuid method, GetAdapterByLuid method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapterByLuid, dxcore_interface.idxcoreadapterfactory_getadapterbyluid
 ms.localizationpriority: low

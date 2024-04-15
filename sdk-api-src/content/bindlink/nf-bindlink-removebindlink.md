@@ -5,7 +5,7 @@ title: RemoveBindLink (bindlink.h)
 ms.date: 04/24/2023
 targetos: Windows
 description: This API allows a user to remove a link that was previously created by calling CreateBindLink.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -60,9 +60,9 @@ This API will fail if the user does not have Administrator privileges, or if the
 
 Note that nested links must be removed in deepest-first order. This means the deepest virtual path must be removed before ancestor virtual paths can be    removed. Unrelated services that create the links and remove the links are expected to be respectful of each other's personal space and limit their mappings to paths under their control.
 
-## -examples
+## Examples
 
-The following example shows how a user can remove a previously created link on C:\\test.
+The following example shows how a user can remove a previously created link on `C:\\test`.
 
 ```cpp
 #include <iostream>

@@ -2,14 +2,12 @@
 UID: NF:dxcore.DXCoreCreateAdapterFactory
 title: DXCoreCreateAdapterFactory
 description: Creates a DXCore adapter factory, which you can use to generate further DXCore objects.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreCreateAdapterFactory, DXCoreCreateAdapterFactory function, dxcore/DXCoreCreateAdapterFactory, dxcore.dxcorecreateadapterfactory
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

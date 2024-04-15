@@ -60,7 +60,7 @@ If ALPF predicts incorrectly, the wrong pages may be fetched, slowing app launch
 
 In some cases, however, prefetching doesn't always resolve a failure successfully. For example, failures can happen when different code paths in the same executable require different pages but those startups were launched with the same prefetch parameter. To resolve these types of situations, the OVERRIDE_PREFETCH_PARAMETER can be used by an app to override the system prefetch parameter (see [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md)).
 
-## -examples
+## Examples
 
 The following code example shows how to use the prefetch override APIs when an app launches with a command-line prefetch parameter of 2.
 
