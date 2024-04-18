@@ -79,6 +79,10 @@ When the window has finished examining or changing the clipboard, close the clip
 
 Do not place an object on the clipboard after calling <b>CloseClipboard</b>. 
 
+> [!IMPORTANT]
+> Elevated <b>system processes</b> have to impersonate the system's anonymous logon token using <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateanonymoustoken">ImpersonateAnonymousToken</a> while calling <b>CloseClipboard</b> to avoid leaking privileged tokens, see [Microsoft Security Bulletin MS15-097](https://learn.microsoft.com/en-us/security-updates/securitybulletins/2015/ms15-097) for more details.
+
+
 
 #### Examples
 
