@@ -91,7 +91,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
 
-This function does not modify the last error value.
+If the function fails, the return value is <b>NULL</b>. This function does not modify the last error value.
 
 ## -remarks
 
