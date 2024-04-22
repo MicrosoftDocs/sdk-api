@@ -46,9 +46,8 @@ api_name:
 Fills a tensor with a sequence. This operator performs the following pseudocode.
 
 ```
-for each coordinate in OutputTensor
-    OutputTensor[coordinate] = Value
-    Value += Delta
+for each elementIndex in OutputTensor
+    OutputTensor[elementIndex] = Value + elementIndex * Delta
 endfor
 ```
 
