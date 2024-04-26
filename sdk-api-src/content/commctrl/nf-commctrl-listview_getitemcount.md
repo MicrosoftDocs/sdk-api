@@ -59,3 +59,9 @@ Gets the number of items in a list-view control. You can use this macro or send 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
+
+## -returns
+
+Type: int
+
+Returns the count of items in the listview.
