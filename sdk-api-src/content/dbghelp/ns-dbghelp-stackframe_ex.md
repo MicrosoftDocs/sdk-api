@@ -172,26 +172,4 @@ Unknown.
 ## -remarks
 
 This structure supersedes the <b>STACKFRAME64</b> structure. For more information, see 
-<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>STACKFRAME_EX</b> is defined as follows in Dbghelp.h. 
-
-
-```cpp
-typedef struct _tagSTACKFRAME_EX {
-    // First, STACKFRAME64 structure
-    ADDRESS64   AddrPC;            // program counter
-    ADDRESS64   AddrReturn;        // return address
-    ADDRESS64   AddrFrame;         // frame pointer
-    ADDRESS64   AddrStack;         // stack pointer
-    ADDRESS64   AddrBStore;        // backing store pointer
-    PVOID       FuncTableEntry;    // pointer to pdata/fpo or NULL
-    DWORD64     Params[4];         // possible arguments to the function
-    BOOL        Far;               // WOW far call
-    BOOL        Virtual;           // is this a virtual frame?
-    DWORD64     Reserved[3];
-    KDHELP64    KdHelp;
-
-    // Extended STACKFRAME fields
-    DWORD       StackFrameSize;
-    DWORD       InlineFrameContext;
-} STACKFRAME_EX, *LPSTACKFRAME_EX;
-```
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>.
