@@ -204,8 +204,9 @@ Successfully received a response from the server. The
 
 #### WINHTTP_CALLBACK_STATUS_SECURE_FAILURE
 
-One or more errors were encountered while retrieving a Secure Sockets Layer (SSL) certificate from the server. The 
-<i>lpvStatusInformation</i> parameter contains a flag. For more information, see the description for <i>lpvStatusInformation</i>.
+One or more errors were encountered while establishing a Secure (HTTPS) connection to the server. The 
+<i>lpvStatusInformation</i> parameter contains a pointer to a <b>DWORD</b> that is a bitwise-OR combination of
+error values. For more information, see the description for <i>lpvStatusInformation</i>.
 
 
 
