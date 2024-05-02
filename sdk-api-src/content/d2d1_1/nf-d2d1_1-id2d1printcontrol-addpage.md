@@ -65,13 +65,13 @@ The command list that contains the rendering operations.
 
 Type: <b><a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
 
-The size of the page to add.
+The size of the page to add in DIPs (1 inch = 96 DIP). Some print drivers ignore this parameter, then pagePrintTicketStream can be used instead.
 
-### -param pagePrintTicketStream [in, out]
+### -param pagePrintTicketStream [in, optional]
 
 Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The print ticket stream.
+The print ticket stream. This can be used to modify properties of the current page, eg. paper size, orientation.
 
 ### -param tag1 [out, optional]
 
