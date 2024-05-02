@@ -1,55 +1,50 @@
 ---
-UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT2_
-title: FWPM_PROVIDER_CONTEXT2 (fwpmtypes.h)
-description: Stores the state associated with a provider context. (FWPM_PROVIDER_CONTEXT2)
-helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT2","FWPM_PROVIDER_CONTEXT2 structure [Filtering]","FWPM_PROVIDER_CONTEXT2_","FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL","FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT","fwp.fwpm_provider_context2","fwpmtypes/FWPM_PROVIDER_CONTEXT2"]
-old-location: fwp\fwpm_provider_context2.htm
+UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT3_
+title: FWPM_PROVIDER_CONTEXT3
+description: Stores the state associated with a provider context. FWPM_PROVIDER_CONTEXT0, FWPM_PROVIDER_CONTEXT1, and FWPM_PROVIDER_CONTEXT2 are available.
 tech.root: fwp
-ms.assetid: aa397a4e-07cc-4eee-8d0f-798901a5bb29
-ms.date: 12/05/2018
-ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering], FWPM_PROVIDER_CONTEXT2_, FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context2, fwpmtypes/FWPM_PROVIDER_CONTEXT2
+ms.date: 04/26/2024
+targetos: Windows
+prerelease: false
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: fwpmtypes.h
 req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: Fwpmtypes.idl
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
 req.lib: 
-req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: FWPM_PROVIDER_CONTEXT2
+req.max-support: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - FWPM_PROVIDER_CONTEXT2_
- - fwpmtypes/FWPM_PROVIDER_CONTEXT2_
- - FWPM_PROVIDER_CONTEXT2
- - fwpmtypes/FWPM_PROVIDER_CONTEXT2
-dev_langs:
- - c++
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: FWPM_PROVIDER_CONTEXT3
+typedef_isUnnamed: false
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
  - fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_CONTEXT2
+ - FWPM_PROVIDER_CONTEXT3_
+ - FWPM_PROVIDER_CONTEXT3
+f1_keywords:
+ - FWPM_PROVIDER_CONTEXT3_
+ - fwpmtypes/FWPM_PROVIDER_CONTEXT3_
+ - FWPM_PROVIDER_CONTEXT3
+ - fwpmtypes/FWPM_PROVIDER_CONTEXT3
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - FWPM_PROVIDER_CONTEXT3_
 ---
 
 ## -description
 
-The **FWPM_PROVIDER_CONTEXT2** structure stores the state associated with a provider context. [FWPM_PROVIDER_CONTEXT0](ns-fwpmtypes-fwpm_provider_context0.md) is available.
+Stores the state associated with a provider context. [FWPM_PROVIDER_CONTEXT0](./ns-fwpmtypes-fwpm_provider_context0.md), [FWPM_PROVIDER_CONTEXT1](./ns-fwpmtypes-fwpm_provider_context1.md), and [FWPM_PROVIDER_CONTEXT2](./ns-fwpmtypes-fwpm_provider_context2.md) are available.
 
 ## -struct-fields
 
@@ -172,17 +167,19 @@ Type: **[IPSEC_DOSP_OPTIONS0](../ipsectypes/ns-ipsectypes-ipsec_dosp_options0.md
 
 Available when **type** is **FWPM_IPSEC_DOSP_CONTEXT**.
 
+### -field networkConnectionPolicy
+
+A pointer to a [FWPM_NETWORK_CONNECTION_POLICY_SETTINGS0](./ns-fwpmtypes-fwpm_network_connection_policy_setting0.md) structure containing the number of network connection polices, and a list of those policies formatted.
+
 ### -field providerContextId
 
 Type: **UINT64**
 
-LUID identifying the context.  This is the context value stored in the **FWPS_FILTER1** structure for filters that reference a provider context. The **FWPS_FILTER1** structure is documented in the WDK.
+LUID identifying the context. This is the context value stored in the **FWPS_FILTER1** structure for filters that reference a provider context. The **FWPS_FILTER1** structure is documented in the WDK. This is additional information returned when getting/enumerating objects.
 
 ## -remarks
 
 The first seven elements of the union are information supplied when adding objects.
-
-The last element is additional information returned when getting/enumerating objects.
 
 ## -see-also
 

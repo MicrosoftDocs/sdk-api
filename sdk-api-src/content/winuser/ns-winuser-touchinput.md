@@ -2,7 +2,6 @@
 UID: NS:winuser.tagTOUCHINPUT
 title: TOUCHINPUT (winuser.h)
 description: Encapsulates data for touch input.
-helpviewer_keywords: ["*PTOUCHINPUT","PTOUCHINPUT","PTOUCHINPUT structure pointer [Windows Touch]","TOUCHINPUT","TOUCHINPUT structure [Windows Touch]","tagTOUCHINPUT","wintouch.touchinput","winuser/PTOUCHINPUT","winuser/TOUCHINPUT"]
 old-location: wintouch\touchinput.htm
 tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
@@ -47,10 +46,10 @@ api_location:
  - winuser.h
 api_name:
  - TOUCHINPUT
+helpviewer_keywords: ["*PTOUCHINPUT","PTOUCHINPUT","PTOUCHINPUT structure pointer [Windows Touch]","TOUCHINPUT","TOUCHINPUT structure [Windows Touch]","tagTOUCHINPUT","wintouch.touchinput","winuser/PTOUCHINPUT","winuser/TOUCHINPUT"]
 ---
 
 # TOUCHINPUT structure
-
 
 ## -description
 
@@ -195,13 +194,13 @@ Note that a solitary touch point or, in a set of simultaneous touch points, the 
 Note that the touch point identifier may be dynamic and is associated with a given touch point only as long as the touch point persists. If contact is broken and then resumed (for example, if a finger is removed from the surface and then pressed down again), the same touch point (the same finger, pen, or other such device) may receive a different touch point identifier.
 
 The following type is defined to represent a constant pointer to a <b>TOUCHINPUT</b> structure.
-	
+    
 
 
 ``` syntax
 
    typedef TOUCHINPUT const * PCTOUCHINPUT;
-	
+    
 ```
 
 
