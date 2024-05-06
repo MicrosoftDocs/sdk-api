@@ -110,7 +110,7 @@ The security information.
 
 ## -remarks
 
-These are the supported route settings (see [FWP_NETWORK_CONNECTION_POLICY_SETTING_TYPE]()):
+These are the supported route settings (see [FWP_NETWORK_CONNECTION_POLICY_SETTING_TYPE](/windows/win32/api/fwptypes/ne-fwptypes-fwp_network_connection_policy_setting_type)):
 
 **FWP_NETWORK_CONNECTION_POLICY_SOURCE_ADDRESS**. The source address to use for the connection. The value should be a **FWP_UINT32** for an IPv4 address, and a **FWP_BYTE_ARRAY16_TYPE** for an IPv6 address.
 

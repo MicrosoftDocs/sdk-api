@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPS_FILTER0","FWPS_FILTER0 structure [Network Drivers St
 old-location: netvista\fwps_filter0.htm
 tech.root: NetVista
 ms.assetid: cf5e3372-466e-44f0-8312-78318c5efb13
-ms.date: 12/05/2018
+ms.date: 05/03/2024
 ms.keywords: FWPS_FILTER0, FWPS_FILTER0 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER0, netvista.fwps_filter0, wfp_ref_3_struct_3_fwps_F-O_3dd55c70-e1ab-4bb4-b177-24c4a185c69c.xml
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
@@ -47,9 +47,6 @@ api_name:
  - FWPS_FILTER0
 ---
 
-# FWPS_FILTER0 structure
-
-
 ## -description
 
 The **FWPS_FILTER0** structure defines a run-time filter in the filter engine.
@@ -72,11 +69,18 @@ A value that specifies the importance of the filter's sublayer in relation to th
 ### -field flags
 
 Flags that specify actions that a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function should take when processing network data. Possible flags are:
-     
+
 | Value | Meaning |
-| ----- | ------- |
+| - | - |
 | FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that it should always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's ***classifyFn0*** callout function should only clear the FWPS_RIGHT_ACTION_WRITE flag when it returns FWP_ACTION_BLOCK for the suggested action. |
 | FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that if the callout is not registered, the callout should be treated as a permit filter. |
+|FWPS_FILTER_FLAG_OR_CONDITIONS|There are multiple conditions for the same field. `OR` semantics applied.|
+|FWPS_FILTER_FLAG_HAS_SECURITY_REALM_PROVIDER_CONTEXT|The filter references a provider context for IPsec security realm id.|
+|FWPS_FILTER_FLAG_SILENT_MODE|The filter is in silent mode.|
+|FWPS_FILTER_FLAG_IPSEC_NO_ACQUIRE_INITIATE|Don't initiate IPsec acquire if packet matches a IPsec policy from a filter with this flag.|
+|FWPS_FILTER_FLAG_RESERVED0|Reserved for system use.|
+|FWPS_FILTER_FLAG_RESERVED1|Reserved for system use.|
+|FWPS_FILTER_FLAG_RESERVED2|Reserved for system use.|
 
 ### -field numFilterConditions
 
