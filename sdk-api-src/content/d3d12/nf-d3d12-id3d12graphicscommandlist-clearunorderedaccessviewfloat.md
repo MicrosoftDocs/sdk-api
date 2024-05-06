@@ -49,6 +49,9 @@ api_name:
 
 Sets all of the elements in an unordered-access view (UAV) to the specified float values.
 
+> [!IMPORTANT]
+> This behaves like a compute operation in that it isn't ordered with respect to surrounding work such as Dispatch() calls. To ensure ordering, barrier calls must be issued before and/or after the ClearUnorderedAccessView*() call as needed.  It might appear on some drivers that such barriers aren't necessary but implicit barriers are not a spec guarantee so can't be relied upon.  This is in contrast to ClearDepthStencilView() and ClearRenderTargetView() which like Draw*() commands, respect command list ordering.
+
 ## -parameters
 
 ### -param ViewGPUHandleInCurrentHeap
