@@ -1,4 +1,4 @@
-htm---
+---
 UID: NF:winuser.IS_POINTER_PRIMARY_WPARAM
 title: IS_POINTER_PRIMARY_WPARAM macro (winuser.h)
 description: Checks whether the specified pointer took second action.
