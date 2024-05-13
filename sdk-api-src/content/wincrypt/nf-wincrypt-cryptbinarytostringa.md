@@ -189,6 +189,17 @@ A raw hexadecimal string.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="CRYPT_STRING_BASE64URI"></a><a id="crypt_string_base64uri"></a><dl>
+<dt><b>CRYPT_STRING_BASE64URI</b></dt>
+<dt>0x0000000d</dt>
+</dl>
+</td>
+<td width="60%">
+Base64, without headers, with "+" replaced by "-" and "/" replaced by "_" as defined in RFC 4648 Section 5.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="CRYPT_STRING_STRICT"></a><a id="crypt_string_strict"></a><dl>
 <dt><b>CRYPT_STRING_STRICT</b></dt>
 <dt>0x20000000</dt>
