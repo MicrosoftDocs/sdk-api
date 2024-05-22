@@ -87,8 +87,9 @@ A set of flags that modify the behavior of this function. This can be zero or a 
 | ----- | ------- |
 | **NCRYPT_MACHINE_KEY_FLAG** | The key applies to the local computer. If this flag is not present, the key applies to the current user. |
 | **NCRYPT_OVERWRITE_KEY_FLAG** | If a key already exists in the container with the specified name, the existing key will be overwritten. If this flag is not specified and a key with the specified name already exists, this function will return **NTE_EXISTS**. |
-| **NCRYPT_REQUIRE_VBS_FLAG** | Indicates a key must be protected with Virtualization-based security (VBS).<br/><br/>Operation will fail if VBS is not available. (**\*See Remarks**) |
-| **NCRYPT_PREFER_VBS_FLAG** | Indicates a key should be protected with Virtualization-based security (VBS).<br/><br/>Operation will generate a software-isolated key if VBS is not available. (**\*See Remarks**) |
+| **NCRYPT_REQUIRE_VBS_FLAG** | Indicates a key must be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles. <br/><br/>Operation will fail if VBS is not available. (**\*See Remarks**) |
+| **NCRYPT_PREFER_VBS_FLAG** | Indicates a key should be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles <br/><br/>Operation will generate a software-isolated key if VBS is not available. (**\*See Remarks**) |
+| **NCRYPT_USE_PER_BOOT_KEY_FLAG** | An additional flag that can be used along with **NCRYPT_REQUIRE_VBS_FLAG**	or **NCRYPT_PREFER_VBS_FLAG**. Instructs Virtualization-based security (VBS) to protect the client key with a per-boot key that is stored in disk but can't be reused across boot cycles. (**\*See Remarks**) |
 
 ## -returns
 
