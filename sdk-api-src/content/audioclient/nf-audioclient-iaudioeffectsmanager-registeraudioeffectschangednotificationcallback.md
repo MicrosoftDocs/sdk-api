@@ -151,3 +151,5 @@ HRESULT OnAudioStreamEffectsChanged(_In_ IAudioClient *client)
 
 ## -see-also
 
+[UnregisterAudioEffectsChangedNotificationCallback](nf-audioclient-iaudioeffectsmanager-unregisteraudioeffectschangednotificationcallback.md)
+
