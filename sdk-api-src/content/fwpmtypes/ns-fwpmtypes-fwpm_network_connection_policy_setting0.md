@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Stores a type and value pair for a connection policy setting. You use this structure with [FwpmConnectionPolicyAdd0]().
+Stores a type and value pair for a connection policy setting. You use this structure with [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ## -struct-fields
 
