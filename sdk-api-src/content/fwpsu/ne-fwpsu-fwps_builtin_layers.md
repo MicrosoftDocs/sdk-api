@@ -1,11 +1,10 @@
 ---
 UID: NE:fwpsu.FWPS_BUILTIN_LAYERS_
-tech.root: fwp
 title: FWPS_BUILTIN_LAYERS
-ms.date: 05/23/2024
-targetos: Windows
 description: Defines constants that specify run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
-prerelease: false
+ms.date: 05/23/2024
+tech.root: fwp
+targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: fwpsu.h
@@ -14,8 +13,8 @@ req.kmdf-ver:
 req.max-support: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
-req.typenames: 
+req.target-type: Windows
+req.typenames: FWPS_BUILTIN_LAYERS_, FWPS_BUILTIN_LAYERS
 typedef_isUnnamed: false
 req.umdf-ver: 
 topic_type:
@@ -39,6 +38,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+1
 
 Defines constants that specify run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
 
