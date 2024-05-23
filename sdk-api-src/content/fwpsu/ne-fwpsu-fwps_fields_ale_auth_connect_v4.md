@@ -39,11 +39,6 @@ helpviewer_keywords:
 
 ## -description
 
-1
-
-req.target-type: Windows
-req.typenames: FWPS_BUILTIN_LAYERS_, FWPS_BUILTIN_LAYERS
-
 ## -enum-fields
 
 ### -field FWPS_FIELD_ALE_AUTH_CONNECT_V4_ALE_APP_ID

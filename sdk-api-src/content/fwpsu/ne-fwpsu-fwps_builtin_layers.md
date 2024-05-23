@@ -39,8 +39,6 @@ helpviewer_keywords:
 
 ## -description
 
-1
-
 Defines constants that specify run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
 
 > [!NOTE]
