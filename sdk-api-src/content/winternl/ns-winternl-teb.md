@@ -67,7 +67,7 @@ Reserved for internal use by the operating system.
 
 ### -field ProcessEnvironmentBlock
 
-A pointer to the <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure containing information for the process as a whole.
+A pointer to the <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure that contains information for the process as a whole.
 
 
 ### -field Reserved2
@@ -93,7 +93,7 @@ Reserved for internal use by the operating system.
 
 ### -field ReservedForOle
 
-Instead of using the <b>ReservedForOle</b> member, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a>.
+Do not use. Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a> instead.
 
 ### -field Reserved6
 
@@ -107,7 +107,7 @@ Additional data for <a hef="/windows/win32/procthread/thread-local-storage">Thre
 
 The definition of this structure may change from one version of Windows to the next. Do not assume a maximum size for this structure. To see the members of this structure, refer to winternal.h.
 
-You should not directly access this structure. To access the values of the <b>TlsSlots</b> and <b>TlsExpansionSlots</b>  members, call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>. To access the value of the <b>ReservedForOle</b> member, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a>.
+You should not directly access this structure. To access the values of the <b>TlsSlots</b> and <b>TlsExpansionSlots</b> fields, call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>. To access the value of the <b>ReservedForOle</b> field, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a>.
 
 In the following versions of Windows, the offset of the 32-bit TEB address within the 64-bit TEB is 0. This can be used to directly access the 32-bit TEB of a WOW64 thread. This might change in later versions of Windows.
 
