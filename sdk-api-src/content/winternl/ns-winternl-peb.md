@@ -144,7 +144,14 @@ typedef struct _PEB {
 
 ## -see-also
 
+
 <a href="/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
+
+<a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>
+
+
+
+<a href="/windows/win32/api/winternl/ns-winternl-teb">TEB</a>
 
 
 
@@ -154,6 +161,3 @@ typedef struct _PEB {
 
 <a href="/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
 
-
-
-<a href="/windows/desktop/ProcThread/zwqueryinformationprocess">ZwQueryInformationProcess</a>
