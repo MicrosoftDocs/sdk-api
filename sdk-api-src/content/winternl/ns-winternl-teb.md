@@ -60,6 +60,49 @@ The Thread Environment Block (TEB structure) describes the state of a thread.
 
 ## -struct-fields
 
+### -field Reserved1
+
+Reserved for internal use by the operating system.
+
+
+### -field ProcessEnvironmentBlock
+
+A pointer to the <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure containing information for the process as a whole.
+
+
+### -field Reserved2
+
+Reserved for internal use by the operating system.
+
+
+### -field Reserved3
+
+Reserved for internal use by the operating system.
+
+### -field TlsSlots
+
+Data for <a hef="/windows/win32/procthread/thread-local-storage">Thread Local Storage</a>. Call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a> function to access it.
+
+### -field Reserved4
+
+Reserved for internal use by the operating system.
+
+### -field Reserved5
+
+Reserved for internal use by the operating system.
+
+### -field ReservedForOle
+
+Instead of using the <b>ReservedForOle</b> member, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a>.
+
+### -field Reserved6
+
+Reserved for internal use by the operating system.
+
+### -field TlsExpansionSlots
+
+Additional data for <a hef="/windows/win32/procthread/thread-local-storage">Thread Local Storage</a>. Call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a> function to access it.
+
 ## -remarks
 
 The definition of this structure may change from one version of Windows to the next. Do not assume a maximum size for this structure. To see the members of this structure, refer to winternal.h.
