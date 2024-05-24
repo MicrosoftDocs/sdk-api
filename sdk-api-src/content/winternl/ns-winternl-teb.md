@@ -56,15 +56,58 @@ api_name:
 
 <p class="CCE_Message">[This structure may be altered in future versions of Windows. Applications should use the alternate functions listed in this topic.]
 
-The Thread Environment Block (TEB structure) describes the state of a thread.
+The Thread Environment Block (TEB) structure describes the state of a thread.
 
 ## -struct-fields
 
+### -field Reserved1
+
+Reserved for internal use by the operating system.
+
+
+### -field ProcessEnvironmentBlock
+
+A pointer to the [PEB](/windows/desktop/api/winternl/ns-winternl-peb) structure that contains information for the process as a whole.
+
+
+### -field Reserved2
+
+Reserved for internal use by the operating system.
+
+
+### -field Reserved3
+
+Reserved for internal use by the operating system.
+
+### -field TlsSlots
+
+Data for [Thread Local Storage](/windows/win32/procthread/thread-local-storage). Call the [TlsGetValue](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) function to access it.
+
+### -field Reserved4
+
+Reserved for internal use by the operating system.
+
+### -field Reserved5
+
+Reserved for internal use by the operating system.
+
+### -field ReservedForOle
+
+Do not use. Call [CoGetContextToken](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken) instead.
+
+### -field Reserved6
+
+Reserved for internal use by the operating system.
+
+### -field TlsExpansionSlots
+
+Additional data for [Thread Local Storage](/windows/win32/procthread/thread-local-storage). Call the [TlsGetValue](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) function to access it.
+
 ## -remarks
 
-The definition of this structure may change from one version of Windows to the next. Do not assume a maximum size for this structure. To see the members of this structure, refer to winternal.h.
+The definition of this structure may change from one version of Windows to the next. Do not assume a maximum size for this structure. To see the members of this structure, refer to [winternal.h](/windows/win32/api/winternl/).
 
-You should not directly access this structure. To access the values of the <b>TlsSlots</b> and <b>TlsExpansionSlots</b>  members, call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>. To access the value of the <b>ReservedForOle</b> member, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a>.
+You should not directly access this structure. To access the values of the *TlsSlots* and *TlsExpansionSlots* fields, call [TlsGetValue](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue). To access the value of the *ReservedForOle* field, call [CoGetContextToken](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken).
 
 In the following versions of Windows, the offset of the 32-bit TEB address within the 64-bit TEB is 0. This can be used to directly access the 32-bit TEB of a WOW64 thread. This might change in later versions of Windows.
 
@@ -89,4 +132,4 @@ In the following versions of Windows, the offset of the 32-bit TEB address withi
 
 ## -see-also
 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>
+[TlsGetValue](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue)
