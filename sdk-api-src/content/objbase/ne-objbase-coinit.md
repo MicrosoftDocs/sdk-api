@@ -56,13 +56,13 @@ Determines the concurrency model used for incoming calls to objects created by t
 
 ## -enum-fields
 
-### -field COINIT_MULTITHREADED:0x0
-
-Initializes the thread for multithreaded object concurrency (see Remarks).
-
 ### -field COINIT_APARTMENTTHREADED:0x2
 
 Initializes the thread for apartment-threaded object concurrency (see Remarks).
+
+### -field COINIT_MULTITHREADED:0x0
+
+Initializes the thread for multithreaded object concurrency (see Remarks).
 
 ### -field COINIT_DISABLE_OLE1DDE:0x4
 
