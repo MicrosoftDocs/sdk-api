@@ -38,7 +38,7 @@ api_location:
 api_name:
  - tagCHOOSECOLORW
  - CHOOSECOLORW
-h1_override: CHOOSECOLORW structure (Rich Edit 2.0)
+h1-override: CHOOSECOLORW structure (Rich Edit 2.0)
 ---
 
 # CHOOSECOLORW structure

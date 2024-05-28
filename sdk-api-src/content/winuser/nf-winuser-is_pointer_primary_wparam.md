@@ -1,0 +1,61 @@
+---
+UID: NF:winuser.IS_POINTER_PRIMARY_WPARAM
+title: IS_POINTER_PRIMARY_WPARAM macro (winuser.h)
+description: Checks whether the specified pointer took primary action.
+helpviewer_keywords: ["IS_POINTER_PRIMARY_WPARAM","IS_POINTER_PRIMARY_WPARAM","IS_POINTER_PRIMARY_WPARAM macro [Input Messages and Notifications]","inputmsg.is_pointer_primary_wparam","winuser/IS_POINTER_PRIMARY_WPARAM"]
+old-location: inputmsg\is_pointer_primary_wparam.htm
+tech.root: InputMsg
+ms.date: 05/06/2024
+ms.keywords: IS_POINTER_PRIMARY_WPARAM, IS_POINTER_PRIMARY_WPARAM, IS_POINTER_PRIMARY_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_primary_wparam, winuser/IS_POINTER_PRIMARY_WPARAM
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - IS_POINTER_PRIMARY_WPARAM
+ - winuser/IS_POINTER_PRIMARY_WPARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - IS_POINTER_PRIMARY_WPARAM
+---
+
+# IS_POINTER_PRIMARY_WPARAM macro
+
+## -description
+
+Checks whether the specified pointer took primary action.
+
+## -parameters
+
+### -param wParam
+
+The value to be converted.
+
+## -see-also
+
+[Macros](/windows/win32/inputmsg/macros)

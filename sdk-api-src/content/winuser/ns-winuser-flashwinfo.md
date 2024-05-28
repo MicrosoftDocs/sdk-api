@@ -149,7 +149,7 @@ The number of times to flash the window.
 
 ### -field dwTimeout
 
-The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout</b> is zero, the function uses the default cursor blink rate.
+The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout</b> is zero, the function uses the default caret blink rate.
 
 ## -see-also
 

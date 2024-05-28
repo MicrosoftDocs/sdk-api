@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPM_FILTER_ENUM_TEMPLATE0","FWPM_FILTER_ENUM_TEMPLATE0 s
 old-location: fwp\fwpm_filter_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 5ae77ee2-42b2-4794-afec-80360fe4f4da
-ms.date: 12/05/2018
+ms.date: 05/03/2024
 ms.keywords: FWPM_FILTER_ENUM_TEMPLATE0, FWPM_FILTER_ENUM_TEMPLATE0 structure [Filtering], FWP_ACTION_FLAG_CALLOUT, FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH, FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY, FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME, FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED, FWP_FILTER_ENUM_FLAG_SORTED, fwp.fwpm_filter_enum_template0_struct, fwpmtypes/FWPM_FILTER_ENUM_TEMPLATE0
 req.header: fwpmtypes.h
 req.include-header: 
@@ -74,7 +74,7 @@ A [FWP_FILTER_ENUM_TYPE](/windows/win32/api/fwptypes/ne-fwptypes-fwp_filter_enum
 </tr>
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH_"></a><a id="fwp_filter_enum_flag_best_terminating_match_"></a><dl>
-<dt>**FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH **</dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ Only return the terminating filter with the highest weight.
 </tr>
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_SORTED"></a><a id="fwp_filter_enum_flag_sorted"></a><dl>
-<dt>**FWP_FILTER_ENUM_FLAG_SORTED**</dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_SORTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ Return all matching filters sorted by weight (highest to lowest).
 </tr>
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY"></a><a id="fwp_filter_enum_flag_boottime_only"></a><dl>
-<dt>**FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY**</dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,24 +104,34 @@ Return only boot-time filters.
 </tr>
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME"></a><a id="fwp_filter_enum_flag_include_boottime"></a><dl>
-<dt>**FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME**</dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_INCLUDE_BOOTTIME</b></dt>
 </dl>
 </td>
 <td width="60%">
-Include boot-time filters; ignored if the **FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY** flag is set.
-
+Include boot-time filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</b> flag is set.
 </td>
 </tr>
+
 <tr>
 <td width="40%"><a id="FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED"></a><a id="fwp_filter_enum_flag_include_disabled"></a><dl>
-<dt>**FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED**</dt>
+<dt><b>FWP_FILTER_ENUM_FLAG_INCLUDE_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">
-Include disabled filters; ignored if the **FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY** flag is set.
-
+Include disabled filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</b> flag is set.
 </td>
 </tr>
+
+<tr>
+<td width="40%"><a id="FWP_FILTER_ENUM_VALID_FLAGS"></a><a id="fwp_filter_enum_valid_flags"></a><dl>
+<dt><b>FWP_FILTER_ENUM_VALID_FLAGS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Combination of <b>FWP_FILTER_ENUM_FLAG_BEST_TERMINATING_MATCH</b> and <b>FWP_FILTER_ENUM_FLAG_SORTED</b>.
+</td>
+</tr>
+
 </table>
 
 ### -field providerContextTemplate
