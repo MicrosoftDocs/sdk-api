@@ -1264,7 +1264,11 @@ Determines whether the snap-to-default-button feature is enabled. If enabled, th
 <td width="60%">
 <b>Starting with Windows 11, version 24H2:</b> Retrieves information about the Precision Touchpad. This includes both user settings and system information related to the touchpad.
 
-</td>
+The *pvParam* parameter must point to a **[TOUCHPAD_PARAMETERS](/windows/win32/api/winuser/ns-winuser-touchpad_parameters)** structure.
+
+The *uiParam* parameter must specify the size of the structure.
+
+The value of the *versionNumber* field in the TOUCHPAD_PARAMETERS structure must be set to the appropriate value for the version of the structure being used.</td>
 </tr>
 <tr>
 <td width="40%"><a id="SPI_GETWHEELSCROLLCHARS"></a><a id="spi_getwheelscrollchars"></a><dl>
@@ -1603,6 +1607,11 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 <td width="60%">
 <b>Starting with Windows 11, version 24H2:</b> Sets information about the Precision Touchpad. This includes both user settings and system information related to the touchpad.
 
+The *pvParam* parameter must point to a **[TOUCHPAD_PARAMETERS](/windows/win32/api/winuser/ns-winuser-touchpad_parameters)** structure.
+
+The *uiParam* parameter must specify the size of the structure.
+
+The value of the *versionNumber* field in the TOUCHPAD_PARAMETERS structure must be set to the appropriate value for the version of the structure being used.
 </td>
 </tr>
 <tr>
