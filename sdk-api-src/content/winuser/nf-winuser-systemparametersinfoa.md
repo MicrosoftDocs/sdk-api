@@ -1608,7 +1608,7 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 </dl>
 </td>
 <td width="60%">
-<b>Starting with Windows 11, version 24H2:</b> Sets information about the Precision Touchpad, including user settings and system information related to the touchpad.
+<b>Starting with Windows 11, version 24H2:</b> Sets details about the Precision Touchpad, including user settings and system information related to the touchpad.
 
 The *pvParam* parameter must point to a **[TOUCHPAD_PARAMETERS](/windows/win32/api/winuser/ns-winuser-touchpad_parameters)** structure.
 
