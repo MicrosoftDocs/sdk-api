@@ -91,7 +91,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
+**Windows Server 2003 and Windows XP:** The size of the <i>lpSrc</i> and <i>lpDst</i> buffers is limited to 32K.
 
 To replace folder names in a fully qualified path with their associated environment-variable strings, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathunexpandenvstringsa">PathUnExpandEnvStrings</a> function.
 
