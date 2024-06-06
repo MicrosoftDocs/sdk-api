@@ -360,7 +360,15 @@ Query all sessions for their PMC configuration set via `TracePmcEventListInfo` a
 
 The value is supported on Windows 10, version 22H2 and later.
 
-### -field MaxTraceSetInfoClass:28
+### -field TraceContextRegisterInfo:28
+
+Configures the session with a list of system events for which context register
+events will be collected. Context register events contain CPU register
+contents at the moment the specified related event is fired.
+
+The value is supported on Windows Server 23H2 and later.
+
+### -field MaxTraceSetInfoClass:29
 
 Marks the last value in the enumeration. Do not use.
 
