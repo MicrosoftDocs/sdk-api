@@ -2,9 +2,9 @@
 UID: NC:fwpsu.FWPS_CALLOUT_NOTIFY_FN3
 tech.root: fwp
 title: FWPS_CALLOUT_NOTIFY_FN3
-ms.date: 05/20/2024
+ms.date: 06/07/2024
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,17 +44,24 @@ helpviewer_keywords:
 
 ## -description
 
+TBD
+
 ## -parameters
 
 ### -param notifyType
 
+TBD
+
 ### -param filterKey
 
+TBD
+
 ### -param filter
+
+TBD
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-

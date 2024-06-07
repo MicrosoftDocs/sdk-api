@@ -2,9 +2,9 @@
 UID: NF:fwpsu.FWPS_IS_L2_METADATA_FIELD_PRESENT
 tech.root: fwp
 title: FWPS_IS_L2_METADATA_FIELD_PRESENT
-ms.date: 05/20/2024
+ms.date: 06/06/2024
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+TBD
+
 ## -parameters
 
 ### -param metadataValues
 
+TBD
+
 ### -param l2MetadataField
+
+TBD
 
 ## -remarks
 
 ## -see-also
-

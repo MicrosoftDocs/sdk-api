@@ -2,9 +2,9 @@
 UID: NE:fwpsu.FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE_
 tech.root: fwp
 title: FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE
-ms.date: 05/20/2024
+ms.date: 06/04/2024
 targetos: Windows
-description: 
+description: Specifies the data field identifiers for the FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET run-time filtering layer.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,27 +40,49 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies the data field identifiers for the [FWPS_LAYER_INBOUND_MAC_FRAME_NATIVE](./ne-fwpsu-fwps_builtin_layers.md) run-time filtering layer.
+
 ## -enum-fields
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_NDIS_MEDIA_TYPE
 
+The inbound MAC frame native NDIS media type field.
+
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_NDIS_PHYSICAL_MEDIA_TYPE
+
+The inbound MAC frame native NDIS physical media type field.
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_INTERFACE
 
+The inbound MAC frame native interface field.
+
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_INTERFACE_TYPE
+
+The inbound MAC frame native interface type field.
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_INTERFACE_INDEX
 
+The inbound MAC frame native interface index field.
+
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_NDIS_PORT
+
+The inbound MAC frame native NDIS port field.
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_L2_FLAGS
 
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see see [Filtering condition flags](/windows-hardware/drivers/network/filtering-condition-flags).
+
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_COMPARTMENT_ID
 
+The compartment that the network interface belongs to.
+
+Supported starting with Windows 10, version 1703.
+
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_MAX
+
+The maximum value for this enumeration. This value might change in future versions of the NDIS
+header files and binaries.
 
 ## -remarks
 
 ## -see-also
-

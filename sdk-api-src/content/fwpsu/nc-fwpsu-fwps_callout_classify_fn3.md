@@ -2,9 +2,9 @@
 UID: NC:fwpsu.FWPS_CALLOUT_CLASSIFY_FN3
 tech.root: fwp
 title: FWPS_CALLOUT_CLASSIFY_FN3
-ms.date: 05/20/2024
+ms.date: 06/07/2024
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,23 +44,38 @@ helpviewer_keywords:
 
 ## -description
 
+TBD
+
 ## -parameters
 
 ### -param inFixedValues
 
+TBD
+
 ### -param inMetaValues
+
+TBD
 
 ### -param layerData
 
+TBD
+
 ### -param classifyContext
+
+TBD
 
 ### -param filter
 
+TBD
+
 ### -param flowContext
 
+TBD
+
 ### -param classifyOut
+
+TBD
 
 ## -remarks
 
 ## -see-also
-

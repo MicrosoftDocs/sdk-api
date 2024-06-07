@@ -2,9 +2,9 @@
 UID: NE:fwpsu.INET_DISCARD_REASON
 tech.root: fwp
 title: INET_DISCARD_REASON
-ms.date: 05/20/2024
+ms.date: 06/06/2024
 targetos: Windows
-description: 
+description: Defines the possible reasons that data is discarded by one of the transport layers.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,79 +40,150 @@ helpviewer_keywords:
 
 ## -description
 
+Defines the possible reasons that data is discarded by one of the transport layers.
+
 ## -enum-fields
 
-### -field InetDiscardSourceUnspecified
+### -field InetDiscardSourceUnspecified:0
 
-### -field InetDiscardDestinationMulticast
+The outgoing packet's source address is unspecified.
 
-### -field InetDiscardHeaderInvalid
+### -field InetDiscardDestinationMulticast:1
 
-### -field InetDiscardChecksumInvalid
+The outgoing packet's destination address is an unspecified address, and the transport does not support multicast addresses.
 
-### -field InetDiscardEndpointNotFound
+### -field InetDiscardHeaderInvalid:2
 
-### -field InetDiscardConnectedPath
+The packet has an invalid header.
 
-### -field InetDiscardSessionState
+### -field InetDiscardChecksumInvalid:3
 
-### -field InetDiscardReceiveInspection
+The packet's checksum did not match.
 
-### -field InetDiscardAckInvalid
+### -field InetDiscardEndpointNotFound:4
 
-### -field InetDiscardExpectedSyn
+The intended endpoint for the packet could not be found.
 
-### -field InetDiscardRst
+### -field InetDiscardConnectedPath:5
 
-### -field InetDiscardSynRcvdSyn
+The packet remote address does not match the remote address of a connected endpoint.
 
-### -field InetDiscardSimultaneousConnect
+### -field InetDiscardSessionState:6
 
-### -field InetDiscardPawsFailed
+The packet cannot be delivered based on network layer information.
 
-### -field InetDiscardLandAttack
+### -field InetDiscardReceiveInspection:7
 
-### -field InetDiscardMissedReset
+The connection was closed due to a receive inspection failure.
 
-### -field InetDiscardOutsideWindow
+### -field InetDiscardAckInvalid:8
 
-### -field InetDiscardDuplicateSegment
+The packet is an invalid ACK segment.
 
-### -field InetDiscardClosedWindow
+### -field InetDiscardExpectedSyn:9
 
-### -field InetDiscardTcbRemoved
+A SYN packet was expected but not received.
 
-### -field InetDiscardFinWait2
+### -field InetDiscardRst:10
 
-### -field InetDiscardReassemblyConflict
+The packet is an invalid RST segment.
 
-### -field InetDiscardFinReceived
+### -field InetDiscardSynRcvdSyn:11
 
-### -field InetDiscardListenerInvalidFlags
+A TCP connection in SYN_RCVD state received another SYN segment.
 
-### -field InetDiscardUrgentDeliveryAllocationFailure
+### -field InetDiscardSimultaneousConnect:12
 
-### -field InetDiscardTcbNotInTcbTable
+A TCP connection has encountered the simultaneous-connect condition.
 
-### -field InetDiscardTimeWaitTcbReceivedRstOutsideWindow
+### -field InetDiscardPawsFailed:13
 
-### -field InetDiscardTimeWaitTcbSynAndOtherFlags
+A TCP PAWS check failed.
 
-### -field InetDiscardTimeWaitTcb
+### -field InetDiscardLandAttack:14
 
-### -field InetDiscardSynAckWithFastopenCookieRequest
+The packet was detected as part of a LAND (Local Area Network Denial) attack,
 
-### -field InetDiscardPauseAccept
+### -field InetDiscardMissedReset:15
 
-### -field InetDiscardSynAttack
+An SYN segment outside the receive window was received on a SYN_RCVD connection. An RST may have been missed.
 
-### -field InetDiscardAcceptInspection
+### -field InetDiscardOutsideWindow:16
 
-### -field InetDiscardAcceptRedirection
+A TCP segment was outside the receive window.
+
+### -field InetDiscardDuplicateSegment:17
+
+A duplicate TCP segment was received.
+
+### -field InetDiscardClosedWindow:18
+
+The TCP receive window was closed.
+
+### -field InetDiscardTcbRemoved:19
+
+The TCP connection was closed.
+
+### -field InetDiscardFinWait2:20
+
+The TCP connection is closing.
+
+### -field InetDiscardReassemblyConflict:21
+
+A TCP data reassembly conflict was encountered on reception of a FIN segment.
+
+### -field InetDiscardFinReceived:22
+
+A FIN was already received on a TCP connection; no more data can be received.
+
+### -field InetDiscardListenerInvalidFlags:23
+
+A segment with invalid flags was received by a listening TCP socket.
+
+### -field InetDiscardUrgentDeliveryAllocationFailure:24
+
+There is insufficient memory for URG delivery on a TCP connection.
+
+### -field InetDiscardTcbNotInTcbTable:25
+
+A TCP connection was closed due to urgent delivery.
+
+### -field InetDiscardTimeWaitTcbReceivedRstOutsideWindow:26
+
+A **TIME_WAIT** state TCP connection received a RST segment outside the window.
+
+### -field InetDiscardTimeWaitTcbSynAndOtherFlags:27
+
+A **TIME_WAIT** state TCP connection received a segment with SYN and one or more incompatible flags.
+
+### -field InetDiscardTimeWaitTcb:28
+
+A **TIME_WAIT** state TCP connection received an invalid segment.
+
+### -field InetDiscardSynAckWithFastopenCookieRequest:29
+
+The packet, a SYN-ACK containing a request for a Fast Open cookie, was discarded.
+
+### -field InetDiscardPauseAccept:30
+
+This indicates the packet was discarded due to a pause in acceptance.
+
+### -field InetDiscardSynAttack:31
+
+The packet was discarded as part of mitigating a SYN flood attack.
+
+### -field InetDiscardAcceptInspection:32
+
+The packet was discarded during the acceptance inspection process.
+
+### -field InetDiscardAcceptRedirection:33
+
+The packet was discarded because it was subject to acceptance redirection.
 
 ### -field InetDiscardReasonMaxEnumValue
+
+The maximum value for enumeration.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,9 +2,9 @@
 UID: NF:fwpsu.FwpsAleEndpointDestroyEnumHandle0
 tech.root: fwp
 title: FwpsAleEndpointDestroyEnumHandle0
-ms.date: 05/20/2024
+ms.date: 06/06/2024
 targetos: Windows
-description: 
+description: Destroys an endpoint enumeration handle that was created by calling FwpsAleEndpointCreateEnumHandle0.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,15 +44,23 @@ helpviewer_keywords:
 
 ## -description
 
+Destroys an endpoint enumeration handle that was created by calling [FwpsAleEndpointCreateEnumHandle0](./nf-fwpsu-fwpsaleendpointcreateenumhandle0.md).
+
+> [!NOTE]
+> **FwpsAleEndpointDestroyEnumHandle0** is a specific version of **FwpsAleEndpointDestroyEnumHandle**. For more info, see [WFP version-independent names and targeting specific versions of Windows](/windows/win32/fwp/wfp-version-independent-names-and-targeting-specific-versions-of-windows).
+
 ## -parameters
 
 ### -param engineHandle
 
+Handle for an open session with the filter engine. This handle is obtained when a session is opened by calling **FwpmEngineOpen0**.
+
 ### -param enumHandle
+
+The enumeration handle created by a previous call to [FwpsAleEndpointCreateEnumHandle0](./nf-fwpsu-fwpsaleendpointcreateenumhandle0.md).
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-

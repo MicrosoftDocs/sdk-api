@@ -2,9 +2,9 @@
 UID: NF:fwpsu.FwpsAleEndpointEnum0
 tech.root: fwp
 title: FwpsAleEndpointEnum0
-ms.date: 05/20/2024
+ms.date: 06/06/2024
 targetos: Windows
-description: 
+description: Enumerates application layer enforcement (ALE) endpoints.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,21 +44,35 @@ helpviewer_keywords:
 
 ## -description
 
+Enumerates application layer enforcement (ALE) endpoints.
+
+> [!NOTE]
+> **FwpsAleEndpointEnum0** is a specific version of **FwpsAleEndpointEnum**. For more info, see [WFP version-independent names and targeting specific versions of Windows](/windows/win32/fwp/wfp-version-independent-names-and-targeting-specific-versions-of-windows).
+
 ## -parameters
 
 ### -param engineHandle
 
+The handle for an open session with the filter engine. This handle is obtained when a session is opened by calling **FwpmEngineOpen0**.
+
 ### -param enumHandle
+
+The enumeration handle created by a previous call to [FwpsAleEndpointCreateEnumHandle0](./nf-fwpsu-fwpsaleendpointcreateenumhandle0.md).
 
 ### -param numEntriesRequested
 
+The maximum number of endpoint property entries to return. The actual number of entries enumerated is returned in *numEntriesReturned*. The actual number is less than the requested number only if fewer endpoints than the requested are present.
+
 ### -param entries
 
+A pointer to an array of [FWPS_ALE_ENDPOINT_PROPERTIES0](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0) structure pointers. Each structure contains the properties of a single endpoint. The array contains as many elements as the value returned in *numEntriesReturned*.
+
 ### -param numEntriesReturned
+
+On return, the number of elements in the array of endpoint property structures pointed to by *entries*.
 
 ## -returns
 
 ## -remarks
 
 ## -see-also
-
