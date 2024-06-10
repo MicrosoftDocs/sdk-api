@@ -4,7 +4,7 @@ tech.root: ETW
 title: ETW_CONTEXT_REGISTER_TYPES
 ms.date: 06/06/2024
 targetos: Windows
-description: Specifies the supported process trace modes.
+description: Specifies the set of registers to be collected when Context Register Tracing is enabled.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,8 +37,7 @@ helpviewer_keywords:
 
 ## -description
 
-Specifies the supported process trace modes. The mode determines the set of registers to be collected when Context Register Tracing is enabled. This enumeration is used
-by the [TRACE_CONTEXT_REGISTER_INFO](ns-evntrace-trace_context_register_info.md)
+Specifies the set of CPU registers to be collected when Context Register Tracing is enabled. This enumeration is used by the [TRACE_CONTEXT_REGISTER_INFO](ns-evntrace-trace_context_register_info.md)
 structure.
 
 ## -enum-fields
@@ -56,6 +55,8 @@ Control register types. The exact registers vary by architecture.
 Integer register types. The exact registers vary by architecture.
 
 ## -remarks
+
+On AMD64, the integer registers include Rax, Rbx, Rcx, Rsi, Rbp, R8, and others. On AMD64, the control registers include Rip, SegCs, SegSs, Rsp, and EFlags. For more information on supported registers, see [CONTEXT structure](/windows/win32/api/winnt/ns-winnt-context).
 
 ## -see-also
 
