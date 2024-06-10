@@ -388,11 +388,11 @@ Reserved for system use.
 
 ### -field FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V4
 
-TBD
+This filtering layer is where a WFP filter driver can inspect an outgoing IPv4 connection, and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ### -field FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V6
 
-TBD
+This filtering layer is where a WFP filter driver can inspect an outgoing IPv6 connection, and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ### -field FWPS_LAYER_IPSEC_KM_DEMUX_V4
 

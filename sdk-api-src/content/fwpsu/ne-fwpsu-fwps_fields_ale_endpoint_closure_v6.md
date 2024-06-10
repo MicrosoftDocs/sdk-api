@@ -105,7 +105,7 @@ Supported starting with Windows 10, version 1703.
 
 ### -field FWPS_FIELD_ALE_ENDPOINT_CLOSURE_V6_PACKAGE_FAMILY_NAME
 
-The Package Family Name of the application.
+Indicates that the resource is a Package Family Name string.
 
 Supported starting with Windows Server 2022 23H2.
 

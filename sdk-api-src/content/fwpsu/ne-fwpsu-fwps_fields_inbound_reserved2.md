@@ -4,7 +4,7 @@ tech.root: fwp
 title: FWPS_FIELDS_INBOUND_RESERVED2
 ms.date: 06/04/2024
 targetos: Windows
-description: TBD
+description: An enum whose values are reserved for internal use.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-TBD
+An enum whose values are reserved for internal use.
 
 ## -enum-fields
 
