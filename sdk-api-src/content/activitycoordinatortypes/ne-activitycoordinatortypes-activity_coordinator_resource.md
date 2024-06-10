@@ -73,6 +73,10 @@ System-disk refers to the drive where the operating system is installed.
 
 Represents GPU availability. Includes GPU utilization.
 
+### -field ACTIVITY_COORDINATOR_RESOURCE_NPU
+
+Represents NPU availability. Includes NPU utilization.
+
 ## -remarks
 
 ### Condition information for resources
@@ -86,6 +90,10 @@ Represents GPU availability. Includes GPU utilization.
 | MEMORY | Additional memory usage is highly unlikely to interfere with user experiences. | Additional memory usage may interfere with system performance but will not critically degrade it. |
 | SYSTEM_DISK | Additional system-disk usage is highly unlikely to interfere with user experiences. | Additional system-disk usage may interfere with system performance but will not critically degrade it. |
 | GPU | Additional GPU usage is highly unlikely to interfere with user experiences. | Additional GPU usage may interfere with resource-intensive, visual user experiences such as gaming, video streaming, etc. |
+| NPU | Additional NPU usage is highly unlikely to interfere with user experiences. | Additional NPU usage may interfere with user-experiences requiring resource-intensive neural processing tasks. |
+
+> [!NOTE]
+> The version of Activity Coordinator that an application compiles with may be different than what is on the system at runtime. Applications should use [IsActivityCoordinatorResourceSupported](../activitycoordinator/nf-activitycoordinator-isactivitycoordinatorresourcesupported.md) to check for Resource support prior to use in APIs.
 
 ## -see-also
 

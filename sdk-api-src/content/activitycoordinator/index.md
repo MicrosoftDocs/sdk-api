@@ -53,4 +53,4 @@ This header is used by the Activity Coordinator C/C++ API. For more information,
 
 ## -see-also
 
-[activitycoordinatortypes.h](../activitycoordinatortypes/index.md)
+- [activitycoordinatortypes.h](../activitycoordinatortypes/index.md)
