@@ -92,9 +92,13 @@ Reserved.
 
 ## -remarks
 
-To enable the [read](/windows/desktop/ETW/diskio-typegroup1) event type for
-[disk IO](/windows/desktop/ETW/diskio) events, set **GUID** to
-`3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c` and **Type** to 10.
+Useful values for the GUID and Type fields can be determined from consulting
+the WMI classes in the `root\wmi` namespace. These values may also be located
+in `wmicore.mof` where they are originally defined.
+
+For example, to enable the [read](/windows/desktop/ETW/diskio-typegroup1)
+event type for [disk IO](/windows/desktop/ETW/diskio) events, set **GUID**
+to `3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c` and **Type** to 10.
 
 ## -see-also
 
