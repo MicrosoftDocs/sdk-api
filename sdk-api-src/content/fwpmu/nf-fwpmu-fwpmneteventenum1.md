@@ -71,7 +71,7 @@ Handle for a network event enumeration created by a call to <a href="/windows/de
 
 Type: <b>UINT32</b>
 
-The nmber of enumeration entries requested.
+The number of enumeration entries requested.
 
 ### -param entries [out]
 
