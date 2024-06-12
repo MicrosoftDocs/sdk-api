@@ -45,14 +45,9 @@ api_name:
  - ID3D12CommandAllocator.Reset
 ---
 
-# ID3D12CommandAllocator::Reset
-
-
 ## -description
 
 Indicates to re-use the memory that is associated with the command allocator.
-
-
 
 ## -returns
 
@@ -63,7 +58,7 @@ This method returns <b>E_FAIL</b> if there is an actively recording command list
 
 ## -remarks
 
-Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver assume that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator. So, applications should ensure they don't call <b>Reset</b> until the GPU is done executing command lists associated with the allocator.
+Your app calls <b>Reset</b> to re-use the memory that is associated with a command allocator. From this call to <b>Reset</b>, the runtime and driver assume that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator. So you should ensure that you don't call <b>Reset</b> until the GPU is done executing command lists associated with the allocator.
 
 It's undefined behavior to call <b>Reset</b> on a command allocator while it has a command list still being executed. 
 
@@ -71,12 +66,9 @@ The debug layer will issue a warning if it can't prove that there are no pending
 
 The debug layer will issue an error if <b>Reset</b> is called concurrently by multiple threads (on the same allocator object).
 
-
-#### Examples
+## Examples
 
 The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12CommandAllocator::Reset</b> as follows:
-        
-
 
 ```cpp
 D3D12_VIEWPORT m_viewport;
@@ -91,10 +83,7 @@ ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState;
 ComPtr<ID3D12GraphicsCommandList> m_commandList;
 UINT m_rtvDescriptorSize;
-
 ```
-
-
 
 ```cpp
 // Command list allocators can only be reset when the associated 
@@ -129,9 +118,7 @@ m_commandList->DrawInstanced(3, 1, 0, 0);
 m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
 ThrowIfFailed(m_commandList->Close());
-
 ```
-
 
 Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
