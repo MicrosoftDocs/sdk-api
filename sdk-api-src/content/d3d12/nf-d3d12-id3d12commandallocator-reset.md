@@ -63,7 +63,7 @@ This method returns <b>E_FAIL</b> if there is an actively recording command list
 
 ## -remarks
 
-Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver assume that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator. So, applications should ensure they don't call <b>Reset</b> until the GPU is done executing command lists recorded with the allocator.
+Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver assume that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator. So, applications should ensure they don't call <b>Reset</b> until the GPU is done executing command lists associated with the allocator.
 
 It's undefined behavior to call <b>Reset</b> on a command allocator while it has a command list still being executed. 
 
