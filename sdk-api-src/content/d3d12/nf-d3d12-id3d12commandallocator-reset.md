@@ -63,9 +63,9 @@ This method returns <b>E_FAIL</b> if there is an actively recording command list
 
 ## -remarks
 
-Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver determine that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator.
+Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver assume that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator. So, applications should ensure they don't call <b>Reset</b> until the GPU is done executing command lists recorded with the allocator.
 
-Unlike <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset">ID3D12GraphicsCommandList::Reset</a>, it is not recommended that you call <b>Reset</b>  on the command allocator while a command list is still being executed. 
+It's undefined behavior to call <b>Reset</b> on a command allocator while it has a command list still being executed. 
 
 The debug layer will issue a warning if it can't prove that there are no pending GPU references to command lists that have recorded commands in the allocator.
 
