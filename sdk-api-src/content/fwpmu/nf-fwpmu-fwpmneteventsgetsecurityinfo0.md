@@ -66,10 +66,6 @@ Type: <b><a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFOR
 
 The type of security information to retrieve.
 
-Type: <b><a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
-
-The type of security information to retrieve.
-
 ### -param sidOwner [out, optional]
 
 Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
