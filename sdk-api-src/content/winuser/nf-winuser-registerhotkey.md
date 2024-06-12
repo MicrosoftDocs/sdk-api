@@ -79,69 +79,13 @@ Type: **UINT**
 
 The keys that must be pressed in combination with the key specified by the *vk* parameter in order to generate the <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message. The *fsModifiers* parameter can be a combination of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MOD_ALT"></a><a id="mod_alt"></a><dl>
-<dt>**MOD_ALT**</dt>
-<dt>0x0001</dt>
-</dl>
-</td>
-<td width="60%">
-Either ALT key must be held down.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOD_CONTROL"></a><a id="mod_control"></a><dl>
-<dt>**MOD_CONTROL**</dt>
-<dt>0x0002</dt>
-</dl>
-</td>
-<td width="60%">
-Either CTRL key must be held down.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOD_NOREPEAT"></a><a id="mod_norepeat"></a><dl>
-<dt>**MOD_NOREPEAT**</dt>
-<dt>0x4000</dt>
-</dl>
-</td>
-<td width="60%">
-Changes the hotkey behavior so that the keyboard auto-repeat does not yield multiple hotkey notifications.
-
-**Windows Vista:  **This flag is not supported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOD_SHIFT"></a><a id="mod_shift"></a><dl>
-<dt>**MOD_SHIFT**</dt>
-<dt>0x0004</dt>
-</dl>
-</td>
-<td width="60%">
-Either SHIFT key must be held down.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MOD_WIN"></a><a id="mod_win"></a><dl>
-<dt>**MOD_WIN**</dt>
-<dt>0x0008</dt>
-</dl>
-</td>
-<td width="60%">
-Either WINDOWS key was held down. These keys are labeled with the Windows logo. Keyboard shortcuts that involve the WINDOWS key are reserved for use by the operating system.
-
-</td>
-</tr>
-</table>
+| **Value** | **Meaning** |
+| --------- | ----------- |
+| **MOD_ALT**<br>0x0001 | Either ALT key must be held down. |
+| **MOD_CONTROL**<br>0x0002 | Either CTRL key must be held down. |
+| **MOD_NOREPEAT**<br>0x4000 | Changes the hotkey behavior so that the keyboard auto-repeat does not yield multiple hotkey notifications.<br>**Windows Vista:** This flag is not supported. |
+| **MOD_SHIFT**<br>0x0004 | Either SHIFT key must be held down. |
+| **MOD_WIN**<br>0x0008 | Either WINDOWS key must be held down. These keys are labeled with the Windows logo. Keyboard shortcuts that involve the WINDOWS key are reserved for use by the operating system. |
 
 ### -param vk [in]
 
