@@ -174,8 +174,9 @@ Regardless of the operating system version, you can select which way the Shell s
 <div> </div>
 As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the notification balloon. This allows the calling process to customize the notification beyond the previously available options of info, warning, and error, and distinguish it from other types of notification for the user.
 
-
-
+<div> </div>
+On Windows 10, the balloon messages are shown as banner notifications, which then stay in the Notification Center until dismissed. On Windows 11, the behavior of banner notifications more closely follows the legacy behavior in making them transient. When a bannner notification times out or is otherwise dismissed, it will not be displayed in the Notification Center.
+<div> </div>
 
 
 > [!NOTE]

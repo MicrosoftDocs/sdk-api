@@ -2,9 +2,7 @@
 UID: NN:dxcore_interface.IDXCoreAdapterList
 title: IDXCoreAdapterList
 description: The **IDXCoreAdapterList** interface implements methods for retrieving adapter items from a generated list, as well as details about the list.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterList, IDXCoreAdapterList interface, IDXCoreAdapterList interface,description, dxcore/IDXCoreAdapterList, dxcore.idxcoreadapterlist
 ms.localizationpriority: low

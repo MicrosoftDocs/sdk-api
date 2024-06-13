@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProcessDefaultCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: SetProcessDefaultCpuSets
 ms.date: 08/05/2022
 ms.topic: language-reference

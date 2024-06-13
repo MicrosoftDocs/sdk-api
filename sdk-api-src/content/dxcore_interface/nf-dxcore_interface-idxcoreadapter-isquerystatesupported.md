@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.IsQueryStateSupported
 title: IDXCoreAdapter::IsQueryStateSupported
 description: Determines whether this DXCore adapter object and the current operating system (OS) support querying the value of the specified adapter state.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsQueryStateSupported method, IDXCoreAdapter.IsQueryStateSupported, IDXCoreAdapter::IsQueryStateSupported, IsQueryStateSupported, IsQueryStateSupported method, IsQueryStateSupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsQueryStateSupported, dxcore_interface.idxcoreadapterfactory_isquerystatesupported
 ms.localizationpriority: low

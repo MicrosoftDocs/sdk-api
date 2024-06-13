@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetPrivateDataInterface
 title: ID3D12Object::SetPrivateDataInterface (d3d12.h)
-description: Associates an IUnknown-derived interface with the device object and associates that interface with an application-defined GUID.
+description: Associates an IUnknown-derived interface with the device object, and associates that interface with an application-defined GUID.
 helpviewer_keywords: ["ID3D12Object interface","SetPrivateDataInterface method","ID3D12Object.SetPrivateDataInterface","ID3D12Object::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method","SetPrivateDataInterface method","ID3D12Object interface","d3d12/ID3D12Object::SetPrivateDataInterface","direct3d12.id3d12object_setprivatedatainterface"]
 old-location: direct3d12\id3d12object_setprivatedatainterface.htm
 tech.root: direct3d12
@@ -45,33 +45,30 @@ api_name:
  - ID3D12Object.SetPrivateDataInterface
 ---
 
-# ID3D12Object::SetPrivateDataInterface
-
-
 ## -description
 
-Associates an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
+Associates an [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)-derived interface with the device object, and associates that interface with an application-defined **GUID**.
 
 ## -parameters
 
 ### -param guid [in]
 
-Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
-The <b>GUID</b> to associate with the interface.
+The **GUID** to associate with the interface.
 
 ### -param pData [in, optional]
 
-Type: <b>const <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: **const [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface to be associated with the device object.
+A pointer to the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)-derived interface to be associated with the device object. Its reference count is incremented when set, and its reference count is decremented when either the [ID3D12Object](/windows/win32/api/d3d12/nn-d3d12-id3d12object) is destroyed, or when the data is overwritten by calling [SetPrivateData](/windows/win32/api/d3d12/nf-d3d12-id3d12object-setprivatedata) or **SetPrivateDataInterface** with the same **GUID**.
 
 ## -returns
 
-Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the [Direct3D 12 return codes](/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues).
 
 ## -see-also
 
-<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
+* [ID3D12Object](/windows/win32/api/d3d12/nn-d3d12-id3d12object)

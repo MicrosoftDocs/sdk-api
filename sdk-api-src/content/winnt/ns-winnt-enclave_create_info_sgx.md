@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PENCLAVE_CREATE_INFO_SGX","ENCLAVE_CREATE_INFO_SGX","ENC
 old-location: base\enclave_create_info_sgx.htm
 tech.root: base
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
-ms.date: 05/06/2022
+ms.date: 02/02/2024
 ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX'
 req.header: winnt.h
 req.include-header: 
@@ -66,6 +66,8 @@ The SGX enclave control structure (**SECS**) to use to create the enclave.
 For more information about the **SECS** structure, see the Intel SGX Programming Reference that is available from [Intel Software Guard Extensions](https://software.intel.com/sgx).
 
 ## -see-also
+
+[Enclave Structures](/windows/win32/trusted-execution/enclaves-structures)
 
 [CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave)
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.operator-assign(XMFLOAT3X4&&)
-title: XMFLOAT3X4::operator=
+title: XMFLOAT3X4::operator=(XMFLOAT3X4&&)
 ms.date: 04/22/2020
 description: Move assignment operator for **XMFLOAT3X4**. Moves the argument's vector component data into the current instance of **XMFLOAT3X4**.
 tech.root: dxmath

@@ -2,15 +2,14 @@
 UID: NE:dxcore_interface.DXCoreAdapterState
 title: DXCoreAdapterState
 description: Defines constants that specify kinds of DXCore adapter states.
-author: windows-sdk-content
 tech.root: dxcore
 ms.author: windowssdkdev
-ms.date: 06/11/2019
+ms.date: 02/09/2024
 ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoreadapterstate
 ms.localizationpriority: low
 ms.topic: reference
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -39,6 +38,7 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreAdapterState
+prerelease: true
 ---
 
 ## -description
@@ -63,14 +63,42 @@ When calling [QueryState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_inter
 
 <b>Important</b>. This state item is not supported for [SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate).
 
-### -field AdapterMemoryReservation
+### -field AdapterMemoryUsageBytes:2
 
-Specifies the <em>AdapterMemoryReservation</em> adapter state, which represents the minimum required physical memory to set, in bytes, on the adapter. We recommend that you set an adapter reservation in order to denote the amount of physical memory that your application can't go without. This value helps the operating system (OS) to quickly minimize the impact of large memory-pressure situations.
+This query takes Physical Adapter Index and Dedicated vs. Shared as input; and outputs the Committed and Resident Memory Dedicated or Shared portions of GPU Memory, respectively.
 
-When calling [SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate), the <em>AdapterMemoryReservation</em> adapter state has type <a href="/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcoreadaptermemorybudgetnodesegmentgroup">DXCoreAdapterMemoryBudgetNodeSegmentGroup</a> for *inputStateDetails*, and type **uint64_t** for *inputData*.
+### -field AdapterMemoryUsageByProcessBytes:3
 
-<b>Important</b>. This state item is not supported for [QueryState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate).
+This query takes Engine ID, Physical Adapter Index, and Process Handle as input; and outputs Committed Memory and Resident Memory on Dedicated or Shared portions of GPU Memory, respectively.
 
+### -field AdapterEngineRunningTimeMicroseconds:4
+
+This query takes Engine ID and Physical Adapter Index as input; and outputs Engine Running Time as output.
+
+### -field AdapterEngineRunningTimeByProcessMicroseconds:5
+
+This query takes Engine ID, Physical Adapter Index, and Process Handle as input; and outputs Engine Running Time as output.
+
+### -field AdapterTemperatureCelsius:6
+
+This query takes Physical Adapter Index as input, and outputs Current GPU Temperature in Degrees Celsius.
+
+### -field AdapterInUseProcessCount:7
+
+This returns the number of processes using this adapter, and the PIDs in it, respectively.
+
+### -field AdapterInUseProcessSet:8
+
+This returns the number of processes using this adapter, and the PIDs in it, respectively.
+
+### -field AdapterEngineFrequencyHertz:9
+
+TBD
+
+### -field AdapterMemoryFrequencyHertz:10
+
+TBD
+ 
 ## -see-also
 
 [IDXCoreAdapter::QueryState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate), [IDXCoreAdapter::SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)

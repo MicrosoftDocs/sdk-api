@@ -47,29 +47,20 @@ api_name:
  - WSAStartup
 ---
 
-# WSAStartup function
-
-
 ## -description
 
-The 
-<b>WSAStartup</b> function initiates use of the Winsock DLL by a process.
+The <b>WSAStartup</b> function initiates use of the Winsock DLL by a process.
 
 ## -parameters
 
-### -param wVersionRequired
+### -param wVersionRequired [in]
 
-TBD
+The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 
 ### -param lpWSAData [out]
 
 A pointer to the 
 <a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> data structure that is to receive details of the Windows Sockets implementation.
-
-
-#### - wVersionRequested [in]
-
-The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 
 ## -returns
 

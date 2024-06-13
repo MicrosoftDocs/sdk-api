@@ -6,7 +6,7 @@ helpviewer_keywords: ["CallEnclave","CallEnclave function","base.callenclave","e
 old-location: base\callenclave.htm
 tech.root: base
 ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: CallEnclave, CallEnclave function, base.callenclave, enclaveapi/CallEnclave
 req.header: enclaveapi.h
 req.include-header: 
@@ -48,10 +48,9 @@ api_name:
 
 # CallEnclave function
 
-
 ## -description
 
-Calls a function within an enclave. <b>CallEnclave</b> can also be called within an enclave to call a function outside of the enclave.
+Calls a function within an enclave. **CallEnclave** can also be called within an enclave to call a function outside of the enclave.
 
 ## -parameters
 
@@ -65,11 +64,9 @@ The parameter than you want to pass to the function.
 
 ### -param fWaitForThread [in]
 
-<b>TRUE</b> if the call to the specified function should block execution until an idle enclave thread becomes available when no idle enclave thread is available. 
-<b>FALSE</b> if the call to the specified function should fail when no idle enclave thread is available. 
+`TRUE` if the call to the specified function should block execution until an idle enclave thread becomes available when no idle enclave thread is available. `FALSE` if the call to the specified function should fail when no idle enclave thread is available.
 
-
-This parameter is ignored when you use <b>CallEnclave</b> within an enclave to call a function that is not in any enclave.
+This parameter is ignored when you use **CallEnclave** within an enclave to call a function that is not in any enclave.
 
 ### -param lpReturnValue [out]
 
@@ -77,9 +74,12 @@ The return value of the function, if it is called successfully.
 
 ## -returns
 
-<b>TRUE</b> if the specified function was called successfully; otherwise <b>FALSE</b>. To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+`TRUE` if the specified function was called successfully; otherwise `FALSE`. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-terminateenclave">TerminateEnclave</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
+
+[TerminateEnclave](nf-enclaveapi-terminateenclave.md)
+
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

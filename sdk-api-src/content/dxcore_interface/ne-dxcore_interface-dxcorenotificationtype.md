@@ -8,7 +8,7 @@ ms.keywords: DXCoreNotificationType enumeration, dxcore_interface.dxcorenotifica
 ms.localizationpriority: low
 ms.topic: reference
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 

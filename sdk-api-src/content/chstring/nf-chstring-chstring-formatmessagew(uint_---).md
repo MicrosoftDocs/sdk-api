@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(UINT,...)
-title: CHString::FormatMessageW
+title: CHString::FormatMessageW(UINT,...)
 description: The CHString::FormatMessageW (Unicode) method formats a message string.
 tech.root: wmi
 helpviewer_keywords: ["CHString::FormatMessageW"]
@@ -42,9 +42,6 @@ api_name:
  - CHString::FormatMessageW
 ---
 
-# CHString::FormatMessageW
-
-
 ## -description
 
 <p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
@@ -82,7 +79,7 @@ Never use a user-supplied string for the format string.
 If your format string is stored for a purpose such as localization, ensure that the string is protected from unauthorized write access.
 If your function writes to a string rather than standard output, you may need to avoid using a trailing "%s" in the format string.
 
-#### Examples
+## Examples
 
 The following code example shows you how to use **CHString::FormatMessageW**.
 
@@ -101,4 +98,3 @@ assert(str == L"4 of 5 developers agree: Golf is Best!");
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
-

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(CXMMATRIX,bool)
-title: BoundingFrustum::BoundingFrustum
+title: BoundingFrustum::BoundingFrustum(CXMMATRIX,bool)
 description: Creates an instance of BoundingFrustum from a left-handed projection matrix.
 tech.root: dxmath
 ms.date: 06/24/2021

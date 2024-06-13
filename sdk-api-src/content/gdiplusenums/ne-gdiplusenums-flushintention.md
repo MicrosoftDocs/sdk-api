@@ -57,12 +57,8 @@ The <b>FlushIntention</b> enumeration specifies when to flush the queue of graph
 
 ### -field FlushIntentionFlush:0
 
-When passed to the 
-				<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
-				<b>Graphics::Flush</b> method is not synchronized with the completion of the rendering operations and might return before the rendering operations are completed.
+When passed to the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The <b>Graphics::Flush</b> method is not synchronized with the completion of the rendering operations and might return before the rendering operations are completed.
 
 ### -field FlushIntentionSync
 
-When passed to the 
-				<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The 
-				<b>Graphics::Flush</b> method is synchronized with the completion of the rendering operations; that is, it will not return until after the rendering operations are completed.
+When passed to the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-flush">Graphics::Flush</a> method, specifies that pending rendering operations are executed as soon as possible. The <b>Graphics::Flush</b> method is synchronized with the completion of the rendering operations; that is, it will not return until after the rendering operations are completed.

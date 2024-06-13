@@ -6,7 +6,7 @@ helpviewer_keywords: ["RtlVirtualUnwind","RtlVirtualUnwind function","UNW_FLAG_C
 old-location: base\rtlvirtualunwind.htm
 tech.root: Debug
 ms.assetid: 78d60f7a-0e16-4856-8aca-c251ab066b83
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind
 req.header: winnt.h
 req.include-header: Windows.h
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.product: Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003
 ms.custom: 19H1
 f1_keywords:
  - RtlVirtualUnwind
@@ -45,21 +45,19 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - vertdll.dll
 api_name:
  - RtlVirtualUnwind
 ---
 
 # RtlVirtualUnwind function
 
-
 ## -description
 
-Retrieves 
-   the invocation context of the function that precedes the specified function context.
+Retrieves the invocation context of the function that precedes the specified function context.
 
-
-<div class="alert"><b>Note</b>  This function is not implemented on all processor platforms and the implementation is different on each platform that supports it.  The following prototype lists all the potential parameters and their application.  Read further for processor-specific function prototypes.</div>
-<div> </div>
+> [!NOTE]
+> This function is not implemented on all processor platforms and the implementation is different on each platform that supports it. The following prototype lists all the potential parameters and their application. Read further for processor-specific function prototypes.
 
 ## -parameters
 
@@ -130,27 +128,23 @@ The virtual address where control left the specified function.
 
 ### -param FunctionEntry [in]
 
-The address of the function table entry for the specified function. To obtain the function table entry, call 
-      the <a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a> function.
+The address of the function table entry for the specified function. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function.
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that represents the 
-      context of the previous frame.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure that represents the context of the previous frame.
 
 ### -param HandlerData [out]
 
-The location of the PC. If this parameter is 0, the PC is in the prologue, epilogue, or a null frame region 
-       of the function. If this parameter is 1, the PC is in the body of the function.
+The location of the PC. If this parameter is 0, the PC is in the prologue, epilogue, or a null frame region of the function. If this parameter is 1, the PC is in the body of the function.
 
 This parameter is not present on x64.
 
 ### -param EstablisherFrame [out]
 
-A pointer to a <b>FRAME_POINTERS</b> structure that receives the establisher frame 
-       pointer value. The real frame pointer is defined only if <i>InFunction</i> is 1.
+A pointer to a **FRAME_POINTERS** structure that receives the establisher frame pointer value. The real frame pointer is defined only if *InFunction* is `1`.
 
-This parameter is of type <b>PULONG64</b> on x64.
+This parameter is of type **PULONG64** on x64.
 
 ### -param ContextPointers [in, out, optional]
 
@@ -158,30 +152,25 @@ An optional pointer to a context pointers structure.
 
 ## -returns
 
-This function returns a pointer to an <i>EXCEPTION_ROUTINE</i> callback 
-       function.
+This function returns a pointer to an **EXCEPTION_ROUTINE** callback function.
 
 ## -remarks
 
 The complete list of epilogue markers for x64 is as follows:
 
-<ul>
-<li>ret</li>
-<li>ret <i>n</i></li>
-<li>rep ret</li>
-<li>jmp <i>imm8</i> | <i>imm32</i> where the target is outside the function being unwound</li>
-<li>jmp qword ptr <i>imm32</i></li>
-<li>rex.w jmp <i>reg</i></li>
-</ul>
+- ret
+- ret *n*
+- rep ret
+- jmp *imm8* | *imm32* where the target is outside the function being unwound
+- jmp qword ptr *imm32*
+- rex.w jmp *reg*
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+[CONTEXT](ns-winnt-arm64_nt_context.md)
 
+[EXCEPTION_RECORD](ns-winnt-exception_record.md)
 
+[RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md)
 
-<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
-
-
-
-<a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

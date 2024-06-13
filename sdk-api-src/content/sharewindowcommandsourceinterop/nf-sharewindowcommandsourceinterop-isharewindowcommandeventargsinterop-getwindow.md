@@ -46,6 +46,9 @@ f1_keywords:
 
 Gets the window identifier (a window handle).
 
+> [!IMPORTANT]
+> The **IShareWindowCommandEventArgsInterop::GetWindow** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://aka.ms/LAFAccessRequests).
+
 ## -parameters
 
 ### -param value

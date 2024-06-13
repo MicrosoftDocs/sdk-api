@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_RECORD, DIAGNOSTIC_DATA_RECORD
 description: This resource describes an individual diagnostic data record (event).
 tech.root: security
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

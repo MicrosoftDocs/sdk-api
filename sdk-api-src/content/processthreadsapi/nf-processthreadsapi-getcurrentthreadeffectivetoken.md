@@ -4,7 +4,7 @@ title: GetCurrentThreadEffectiveToken function (processthreadsapi.h)
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the token that is currently in effect for the thread, which is the thread token if one exists and the process token otherwise.
 helpviewer_keywords: ["GetCurrentThreadEffectiveToken","GetCurrentThreadEffectiveToken function [Security]","processthreadsapi/GetCurrentThreadEffectiveToken","security.getcurrentthreadeffectivetoken"]
 old-location: security\getcurrentthreadeffectivetoken.htm
-tech.root: security
+tech.root: processthreadsapi
 ms.assetid: 794E9086-17E7-4520-AB30-63DF00FF7AA4
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken function [Security], processthreadsapi/GetCurrentThreadEffectiveToken, security.getcurrentthreadeffectivetoken

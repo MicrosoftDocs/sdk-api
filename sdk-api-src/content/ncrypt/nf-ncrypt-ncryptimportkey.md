@@ -6,7 +6,7 @@ helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptImportKey","NCryptImportKey fu
 old-location: security\ncryptimportkey_func.htm
 tech.root: security
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
-ms.date: 02/23/2023
+ms.date: 12/18/2023
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 req.header: ncrypt.h
 req.include-header: 
@@ -88,12 +88,15 @@ Flags that modify function behavior. This can be zero or a combination of one or
 | Value | Meaning |
 |--------|--------|
 | **NCRYPT_SILENT_FLAG** | Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
+| **NCRYPT_REQUIRE_VBS_FLAG** | Indicates a key must be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles.<br/><br/>Operation will fail if VBS is not available. (**\*See Remarks**) |
+| **NCRYPT_PREFER_VBS_FLAG** | Indicates a key should be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles.<br/><br/>Operation will generate a software-isolated key if VBS is not available. (**\*See Remarks**) |
+| **NCRYPT_USE_PER_BOOT_KEY_FLAG** | An additional flag that can be used along with **NCRYPT_REQUIRE_VBS_FLAG** or **NCRYPT_PREFER_VBS_FLAG**. Instructs Virtualization-based security (VBS) to protect the client key with a per-boot key that is stored in disk but can't be reused across boot cycles. (**\*See Remarks**) |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
-Possible return codes include, but are not limited to, the following.
+Possible return codes include, but are not limited to, the following:
 
 | Return code | Description |
 |--------|--------|
@@ -103,8 +106,13 @@ Possible return codes include, but are not limited to, the following.
 | **NTE_INVALID_HANDLE** | The _hProvider_ parameter is not valid. |
 | **NTE_INVALID_PARAMETER** | One or more parameters are not valid. |
 | **NTE_NO_MEMORY** | A memory allocation failure occurred. |
+| **NTE_VBS_UNAVAILABLE** | VBS is unavailable. |
+| **NTE_VBS_CANNOT_DECRYPT_KEY** | VBS failed decryption operation. |
 
 ## -remarks
+
+> [!IMPORTANT]
+> Information regarding VBS flags relates to prerelease product that may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 A service must not call this function from its [StartService Function](/windows/win32/api/winsvc/nf-winsvc-startservicea). If a service calls this function from its **StartService** function, a deadlock can occur, and the service may stop responding.
 
@@ -146,6 +154,21 @@ On Windows Server 2008 R2 and Windows 7, the Microsoft Smart Card Key Storage
   - **HKLM\\SOFTWARE\\Microsoft\\Cryptography\\Defaults\\Provider\\Microsoft Base Smart Card Crypto Provider\\AllowPrivateSignatureKeyImport**
 
 If the key container name is **NULL**, the Microsoft Smart Card KSP treats the key as ephemeral and imports it into the Microsoft Software KSP.
+
+### Additional hardware requirements for VBS keys
+
+Although you may have the appropriate OS installed on your machine, the following additional hardware requirements must be met to use VBS to generate and protect keys.
+
+- VBS enabled (see [Virtualization-based security (VBS)](/windows-hardware/design/device-experiences/oem-vbs))
+- TPM enabled
+  - For bare-metal environments, TPM 2.0 is required.
+  - For VM environments, vTPM (Virtual TPM) is supported.
+- BIOS should be upgraded to UEFI with SecureBoot profile
+
+For more information about hardware requirements:
+
+- VBS has several hardware requirements to run, including Hyper-V (Windows hypervisor), 64 bit architecture, and IOMMU support. The full list of VBS hardware requirements can be found [here](/windows-hardware/design/device-experiences/oem-vbs).
+- Requirements for a highly secure device can be found [here](/windows-hardware/design/device-experiences/oem-highly-secure).
 
 ## -see-also
 

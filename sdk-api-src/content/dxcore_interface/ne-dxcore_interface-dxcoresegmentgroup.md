@@ -2,15 +2,13 @@
 UID: NE:dxcore_interface.DXCoreSegmentGroup
 title: DXCoreSegmentGroup
 description: Defines constants that specify an adapter's memory segment grouping.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoresegmentgroup
 ms.localizationpriority: low
 ms.topic: reference
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -47,7 +45,7 @@ Defines constants that specify an adapter's memory segment grouping.
 
 ## -enum-fields
 
-### -field Local:1
+### -field Local:0
 
 Specifies a grouping of segments that is considered local to the adapter, and represents the fastest memory available to the GPU. Your application should target the local segment group as the target size for its working set.
 

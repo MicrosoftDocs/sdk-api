@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.UnregisterEventNotification
 title: IDXCoreAdapterFactory::UnregisterEventNotification
 description: Unregisters from a notification that you previously registered for.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,UnregisterEventNotification method, IDXCoreAdapterFactory.UnregisterEventNotification, IDXCoreAdapterFactory::UnregisterEventNotification, UnregisterEventNotification, UnregisterEventNotification method, UnregisterEventNotification method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::UnregisterEventNotification, dxcore_interface.idxcoreadapterfactory_unregistereventnotification
 ms.localizationpriority: low

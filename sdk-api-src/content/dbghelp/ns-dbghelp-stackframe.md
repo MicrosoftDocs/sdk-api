@@ -62,7 +62,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a> structure that specifies the program counter. 
 
 
 
@@ -76,12 +76,12 @@ An
 ### -field AddrReturn
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a> structure that specifies the return address.
 
 ### -field AddrFrame
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a> structure that specifies the frame pointer. 
 
 
 
@@ -95,7 +95,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a> structure that specifies the stack pointer. 
 
 
 
@@ -126,17 +126,17 @@ This member is <b>TRUE</b> if this is a virtual frame.
 ### -field Reserved
 
 This member is used internally by the 
-<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk</a> function.
 
 ### -field KdHelp
 
 A 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP</a> structure that specifies helper data for walking kernel callback frames.
 
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a> structure that specifies the backing store (RsBSP).
 
 ## -remarks
 
@@ -150,24 +150,24 @@ This structure supersedes the <b>STACKFRAME</b> structure. For more information,
 #define LPSTACKFRAME LPSTACKFRAME64
 #else
 typedef struct _tagSTACKFRAME {
-    ADDRESS     AddrPC;
-    ADDRESS     AddrReturn;
-    ADDRESS     AddrFrame;
-    ADDRESS     AddrStack;
-    PVOID       FuncTableEntry;
-    DWORD       Params[4];
-    BOOL        Far;
-    BOOL        Virtual; 
+    ADDRESS     AddrPC;               // program counter
+    ADDRESS     AddrReturn;           // return address
+    ADDRESS     AddrFrame;            // frame pointer
+    ADDRESS     AddrStack;            // stack pointer
+    PVOID       FuncTableEntry;       // pointer to pdata/fpo or NULL
+    DWORD       Params[4];            // possible arguments to the function
+    BOOL        Far;                  // WOW far call
+    BOOL        Virtual;              // is this a virtual frame?
     DWORD       Reserved[3];
     KDHELP      KdHelp;
-    ADDRESS     AddrBStore; 
+    ADDRESS     AddrBStore;           // backing store pointer
 } STACKFRAME, *LPSTACKFRAME;
 #endif
 ```
 
 ## -see-also
 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS</a>
 
 
 
@@ -179,8 +179,8 @@ typedef struct _tagSTACKFRAME {
 
 
 
-<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP</a>
 
 
 
-<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk</a>

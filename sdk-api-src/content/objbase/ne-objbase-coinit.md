@@ -60,7 +60,7 @@ Determines the concurrency model used for incoming calls to objects created by t
 
 Initializes the thread for apartment-threaded object concurrency (see Remarks).
 
-### -field COINIT_MULTITHREADED
+### -field COINIT_MULTITHREADED:0x0
 
 Initializes the thread for multithreaded object concurrency (see Remarks).
 

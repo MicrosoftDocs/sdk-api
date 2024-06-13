@@ -101,10 +101,6 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved; the value must be zero. 
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
-
-Reserved; the value must be zero. 
-
 
 ### -field sStyle
 
@@ -519,7 +515,7 @@ The characters are less common members of a script. A font that supports a scrip
 </dl>
 </td>
 <td width="60%">
-Font is chosen by the rich edit control because the active font doesn’t support the characters. This process is called font binding.
+Font is chosen by the rich edit control because the active font doesn't support the characters. This process is called font binding.
 
 
 </td>
@@ -705,8 +701,8 @@ Characters are underlined.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the parts of the <b>CHARFORMAT2</b> structure that contain valid information. The 
-					<b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
-					<b>dwEffects</b> member. 
+                    <b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
+                    <b>dwEffects</b> member. 
                     
 
 
@@ -776,7 +772,7 @@ The <b>CFE_BOLD</b> value is valid.
 </td>
 <td width="60%">
 The <b>CFE_AUTOCOLOR</b> value is valid, or the 
-									<b>crTextColor</b> member is valid.
+                                    <b>crTextColor</b> member is valid.
 
 </td>
 </tr>
@@ -1041,7 +1037,7 @@ Set the following values to indicate the valid structure members.
 </td>
 <td width="60%">
 The 
-						<b>bAnimation</b> member is valid.
+                        <b>bAnimation</b> member is valid.
 
 </td>
 </tr>
@@ -1052,7 +1048,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>crBackColor</b> member is valid.
+                        <b>crBackColor</b> member is valid.
 
 </td>
 </tr>
@@ -1063,7 +1059,7 @@ The
 </td>
 <td width="60%">
 The 
-						<b>bCharSet</b> member is valid.
+                        <b>bCharSet</b> member is valid.
 
 </td>
 </tr>
@@ -1114,7 +1110,7 @@ The <b>lcid</b> member is valid.
 </td>
 <td width="60%">
 The 
-						<b>yOffset</b> member is valid.
+                        <b>yOffset</b> member is valid.
 
 </td>
 </tr>

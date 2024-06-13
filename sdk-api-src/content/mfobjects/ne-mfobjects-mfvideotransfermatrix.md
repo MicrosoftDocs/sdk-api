@@ -74,7 +74,39 @@ SMPTE 240M transfer matrix.
 
 ### -field MFVideoTransferMatrix_BT2020_10:4
 
+BT.2020 non-constant luminance.
+
 ### -field MFVideoTransferMatrix_BT2020_12:5
+
+BT.2020 non-constant luminance.
+
+### -field MFVideoTransferMatrix_Identity:6
+
+Identity. IEC 61966-2-1 (sRGB), SMPTE ST.428-1.
+
+### -field MFVideoTransferMatrix_FCC47:7
+
+FCC Title 47. The exact formula is defined in ISO/IEC 23091-2.
+
+### -field MFVideoTransferMatrix_YCgCo:8
+
+YCbCr pixels are actually YCoCg pixels. The matrix to convert such pixels to RGB is defined in ISO/IEC 23091-2.
+
+### -field MFVideoTransferMatrix_SMPTE2085:9
+
+The matrix defined for High Dynamic Range (HDR) video, defined by [SMPTE ST 2085](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7395514).
+
+### -field MFVideoTransferMatrix_Chroma:10
+
+Chromacity-derived non-constant luminance system, as defined in IEC 23091-2.
+
+### -field MFVideoTransferMatrix_Chroma_const:11
+
+Chromacity-derived constant luminance system, as defined in IEC 23091-2.
+
+### -field MFVideoTransferMatrix_ICtCp:12
+
+High Dynamic Range (HDR) and Wide Color Gamut video, as defined by ITU-R BT.2100. The transfer matrix is available in ISO/IEC 23091-2 and is also commonly known as [ICtCp](https://en.wikipedia.org/wiki/ICtCp).
 
 ### -field MFVideoTransferMatrix_Last
 

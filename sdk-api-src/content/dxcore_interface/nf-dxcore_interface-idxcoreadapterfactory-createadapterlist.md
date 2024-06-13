@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterFactory.CreateAdapterList
 title: IDXCoreAdapterFactory::CreateAdapterList
 description: Generates a list of adapter objects representing the current adapter state of the system, and meeting the criteria specified.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: IDXCoreAdapterFactory interface,CreateAdapterList method, IDXCoreAdapterFactory.CreateAdapterList, IDXCoreAdapterFactory::CreateAdapterList, CreateAdapterList, CreateAdapterList method, CreateAdapterList method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::CreateAdapterList, dxcore_interface.idxcoreadapterfactory_createadapterlist
 ms.localizationpriority: low

@@ -122,7 +122,7 @@ Note that the caller always has the *ConnectionKey* obtained via [CfConnectSyncR
 
 To summarize, when range info is needed from the context of a **CF_CALLBACK_TYPE_FETCH_DATA** callback, this API should be used. In all other cases, including when the provider wants to hydrate the file without being requested by the filter, [CfGetPlaceholderRangeInfo](nf-cfapi-cfgetplaceholderrangeinfo.md) should be used. The platform can’t recognize which API is called in a specific context and hence the onus is on the provider/Sync Engine to do the right thing.
 
-## -examples
+## Examples
 
 This is a simple example where the function passes an *InfoBuffer* sufficient to retrieve only one **CF_FILE_RANGE** entry at a time. In practice, the caller could pass an *InfoBuffer* that could correspond to multiple **CF_FILE_RANGE** entries per invocation of the API. Error code **HRESULT_FROM_WIN32( ERROR_MORE_DATA )** could be used to pass a larger buffer if need be.
 

@@ -102,10 +102,10 @@ The hardware always performs x and y clipping of rasterized coordinates. When <b
 
 ``` syntax
 
-0 &lt; w
--w &lt;= x &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
--w &lt;= y &lt;= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
-0 &lt;= z &lt;= w
+0 < w
+-w <= x <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+-w <= y <= w (or arbitrarily wider range if implementation uses a guard band to reduce clipping burden)
+0 <= z <= w
 
 ```
 

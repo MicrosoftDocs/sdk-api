@@ -134,7 +134,7 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 </tr>
 <tr valign="top">
 <td>SEE_MASK_FLAG_NO_UI (0x00000400)</td>
-<td>Do not display any user interface (UI) including error dialogs, security warnings or other user interface that would normally be presented without this option.</td>
+<td>Do not display user interface (UI) error dialogs that would normally be presented without this option. Security prompts are exempted and will still be shown.</td>
 </tr>
 <tr valign="top">
 <td>SEE_MASK_UNICODE (0x00004000)
@@ -174,7 +174,9 @@ For further discussion on when this flag is necessary, see the Remarks section.<
 <td>SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)</td>
 <td>The <b>hInstApp</b> member is used to specify the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of an object that implements <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678965(v=vs.85)">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
-To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
+<a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> can be provided to allow the caller to alter some parameters of the process being created.
+
+This flag is supported in Windows 8 and later.
 
 When this option is specified the call runs synchronously on the calling thread.
 </td>

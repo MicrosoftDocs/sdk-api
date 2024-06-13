@@ -2,14 +2,13 @@
 UID: NE:dxcore_interface.DXCoreAdapterProperty
 title: DXCoreAdapterProperty
 description: Defines constants that specify DXCore adapter properties.
-author: windows-sdk-content
 tech.root: dxcore
 ms.author: windowssdkdev
-ms.date: 06/11/2019
+ms.date: 02/09/2024
 ms.keywords: DXCoreAdapterProperty enumeration, dxcore_interface.dxcoreadapterproperty
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -38,6 +37,7 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreAdapterProperty
+prerelease: true
 ---
 
 ## -description
@@ -66,7 +66,7 @@ The <em>DriverDescription</em> adapter property has type <b>char*</b>.
 
 ### -field HardwareID:3
 
-Specifies the <em>HardwareID</em> adapter property, which represents the PnP hardware ID parts.
+Specifies the <em>HardwareID</em> adapter property, which represents the PnP hardware ID parts. But use *HardwareIDParts* instead, if available.
 
 The <em>HardwareID</em> adapter property has type <a href="/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcorehardwareid">DXCoreHardwareID</a>.
 
@@ -131,6 +131,24 @@ Specifies the <em>IsDetachable</em> adapter property, which determines whether t
 The <em>IsDetachable</em> adapter property has type <b>bool</b>.
 
 <b>Note</b>. Even if <a href="/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty">IDXCoreAdapter::GetProperty</a> indicates `false` for this property, the adapter still has the ability to be reported as removed, such as in the case of malfunction, or driver update.
+
+### -field HardwareIDParts:14
+
+Specifies the <em>HardwareIDParts</em> adapter property, which represents the PnP hardware ID parts.
+
+The <em>HardwareIDParts</em> adapter property has type <a href="/windows/win32/api/dxcore_interface/ns-dxcore_interface-dxcorehardwareid">DXCoreHardwareID</a>.
+
+### -field PhysicalAdapterCount:15
+
+This query outputs the number of physical adapters grouped under the logical adapter.
+
+### -field AdapterEngineCount:16
+
+This query takes physical adapter index as input, and outputs the count of engines on the physical adapter.
+
+### -field AdapterEngineName:17
+
+This query takes physical adapter index and engine ID as input, and outputs engine type.
 
 ## -see-also
 

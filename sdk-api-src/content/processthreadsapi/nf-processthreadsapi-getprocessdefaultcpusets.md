@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessDefaultCpuSets
-tech.root: ProcThread
+tech.root: processthreadsapi
 title: GetProcessDefaultCpuSets
 ms.date: 03/12/2021
 ms.topic: language-reference

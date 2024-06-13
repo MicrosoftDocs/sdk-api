@@ -67,7 +67,7 @@ A <b>HANDLE</b> to a process into which the section will be mapped.
 
 The desired base address of the view (the address is rounded down to the nearest 64k boundary).
 
-If this parameter is <b>NULL</b>, the system picks the base address.
+If this parameter is **NULL**, the system picks the base address.
 
 If <i>BaseAddress</i> is not <b>NULL</b>, then any provided <a href="/windows/win32/api/winnt/ns-winnt-mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> must consist of all zeroes.
 

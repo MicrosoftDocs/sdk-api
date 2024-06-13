@@ -2,14 +2,12 @@
 UID: NS:dxcore_interface.DXCoreAdapterMemoryBudgetNodeSegmentGroup
 title: DXCoreAdapterMemoryBudgetNodeSegmentGroup
 description: Describes a memory segment group for an adapter.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreAdapterMemoryBudgetNodeSegmentGroup structure, dxcore_interface.dxcoreadaptermemorybudgetnodesegmentgroup
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: windows
+ms.service: windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

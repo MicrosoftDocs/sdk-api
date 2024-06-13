@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapter.QueryState
 title: IDXCoreAdapter::QueryState
 description: Retrieves the current state of the specified item on the adapter.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,QueryState method, IDXCoreAdapter.QueryState, IDXCoreAdapter::QueryState, QueryState, QueryState method, QueryState method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::QueryState, dxcore_interface.idxcoreadapterfactory_querystate
 ms.localizationpriority: low

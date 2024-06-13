@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.GetAdapter
 title: IDXCoreAdapterList::GetAdapter
 description: Retrieves a specific adapter by index from a DXCore adapter list object.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapter method, IDXCoreAdapterFactory.GetAdapter, IDXCoreAdapterFactory::GetAdapter, GetAdapter, GetAdapter method, GetAdapter method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapter, dxcore_interface.idxcoreadapterfactory_getadapter
 ms.localizationpriority: low

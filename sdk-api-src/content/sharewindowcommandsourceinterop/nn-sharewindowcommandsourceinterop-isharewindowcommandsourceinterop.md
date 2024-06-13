@@ -38,12 +38,8 @@ f1_keywords:
 
 A native interoperation interface that allows getting a [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommandsource) object. This interface is available in C++ only. Also see [IShareWindowCommandSourceInterop.GetForWindow](nf-sharewindowcommandsourceinterop-isharewindowcommandsourceinterop-getforwindow.md).
 
-> [!NOTE]
-> Thank you for your interest in consuming the **ShareWindowCommandSource** API within your real-time communication application.
->
-> The **ShareWindowCommandSource** API is a limited access feature.
->
-> Please contact [onairapi@microsoft.com](mailto://onairapi@microsoft.com) for more information, and to request an unlock token.
+> [!IMPORTANT]
+> The **IShareWindowCommandSourceInterop** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://aka.ms/LAFAccessRequests).
 
 ## -remarks
 

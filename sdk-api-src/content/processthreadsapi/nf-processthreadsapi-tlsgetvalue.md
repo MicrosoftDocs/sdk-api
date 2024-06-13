@@ -6,7 +6,7 @@ helpviewer_keywords: ["TlsGetValue","TlsGetValue function","_win32_tlsgetvalue",
 old-location: base\tlsgetvalue.htm
 tech.root: processthreadsapi
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
 req.header: processthreadsapi.h
 req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -48,12 +48,12 @@ api_location:
  - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - vertdll.dll
 api_name:
  - TlsGetValue
 ---
 
 # TlsGetValue function
-
 
 ## -description
 
@@ -63,21 +63,17 @@ Retrieves the value in the calling thread's thread local storage (TLS) slot for 
 
 ### -param dwTlsIndex [in]
 
-The TLS index that was allocated by the 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function.
+The TLS index that was allocated by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is the value stored in the calling thread's TLS slot associated with the specified index. If <i>dwTlsIndex</i> is a valid index allocated by a successful call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a>, this function always succeeds.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The data stored in a TLS slot can have a value of 0 because it still has its initial value or because the thread called the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a> function with 0. Therefore, if the return value is 0, you must check whether <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b> before determining that the function has failed. If <b>GetLastError</b> returns <b>ERROR_SUCCESS</b>, then the function has succeeded and the data stored in the TLS slot is 0. Otherwise, the function has failed.
 
-Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> when they fail. They generally do not call <b>SetLastError</b> when they succeed. The 
-<b>TlsGetValue</b> function is an exception to this general rule. The 
-<b>TlsGetValue</b> function calls <b>SetLastError</b> to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
+Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> when they fail. They generally do not call <b>SetLastError</b> when they succeed. The <b>TlsGetValue</b> function is an exception to this general rule. The <b>TlsGetValue</b> function calls <b>SetLastError</b> to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
 ## -remarks
 
@@ -87,38 +83,24 @@ Functions that return indications of failure call <a href="/windows/desktop/api/
 
 <b>Windows 10, version 1511</b> and <b>Windows 10, version 1607</b>: This function is fully supported for Universal Windows Platform (UWP) apps, and is no longer replaced with an inline call to <b>FlsGetValue</b>.
 
-TLS indexes are typically allocated by the 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function during process or DLL initialization. After a TLS index is allocated, each thread of the process can use it to access its own TLS slot for that index. A thread specifies a TLS index in a call to 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a> to store a value in its slot. The thread specifies the same index in a subsequent call to 
-<b>TlsGetValue</b> to retrieve the stored value.
+TLS indexes are typically allocated by the [TlsAlloc](nf-processthreadsapi-tlsalloc.md) function during process or DLL initialization. After a TLS index is allocated, each thread of the process can use it to access its own TLS slot for that index. A thread specifies a TLS index in a call to [TlsSetValue](nf-processthreadsapi-tlssetvalue.md) to store a value in its slot. The thread specifies the same index in a subsequent call to <b>TlsGetValue</b> to retrieve the stored value.
 
-<b>TlsGetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE</b>– 1). It is up to the programmer to ensure that the index is valid and that the thread calls <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a> before calling <b>TlsGetValue</b>.
-
+<b>TlsGetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE</b>– 1). It is up to the programmer to ensure that the index is valid and that the thread calls [TlsSetValue](nf-processthreadsapi-tlssetvalue.md) before calling <b>TlsGetValue</b>.
 
 #### Examples
 
-For an example, see 
-<a href="/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a> or 
-<a href="/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage in a Dynamic-Link Library</a>.
-
-<div class="code"></div>
+For an example, see <a href="/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a> or <a href="/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage in a Dynamic-Link Library</a>.
 
 ## -see-also
 
-<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+[Process and Thread Functions](/windows/win32/ProcThread/process-and-thread-functions)
 
+[Thread Local Storage](/windows/win32/ProcThread/thread-local-storage)
 
+[TlsAlloc](nf-processthreadsapi-tlsalloc.md)
 
-<a href="/windows/desktop/ProcThread/thread-local-storage">Thread Local Storage</a>
+[TlsFree](nf-processthreadsapi-tlsfree.md)
 
+[TlsSetValue](nf-processthreadsapi-tlssetvalue.md)
 
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree">TlsFree</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue">TlsSetValue</a>
+[Vertdll APIs available in VBS enclaves](/windows/win32/trusted-execution/enclaves-available-in-vertdll)

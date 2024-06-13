@@ -70,7 +70,35 @@ Returns an HRESULT including but not limited to the following.
 
 The caller is responsible for freeing the array using [CoTaskMemFree](../combaseapi/nf-combaseapi-cotaskmemfree.md).
 
-Register an [IAudioEffectsChangedNotificationClient](nn-audioclient-iaudioeffectschangednotificationclient.md) to receive notifications when the list of audio effects changes.
+Register an **IAudioEffectsChangedNotificationClient** to receive notifications when the list of audio effects changes.
+
+## Examples
+
+The following example demonstrates the [IAudioEffectsManager.GetAudioEffects](nf-audioclient-iaudioeffectsmanager-getaudioeffects.md) to detect whether the [AUDIO_EFFECT_TYPE_DEEP_NOISE_SUPPRESSION](/windows-hardware/drivers/audio/audio-signal-processing-modes#clsids-for-system-effects) effect is present on the specified audio stream.
+
+```cpp
+HRESULT IsPlatformDeepNoiseSuppressionPresent(_In_ IAudioClient *client, _Out_ bool *isPresent)
+{
+    *isPresent = false;
+    wil::com_ptr_nothrow<IAudioEffectsManager> audioEffectsManager;
+    RETURN_IF_FAILED(client->GetService(IID_PPV_ARGS(&audioEffectsManager)));
+    wil::unique_cotaskmem_array_ptr<AUDIO_EFFECT> effects;
+    UINT32 numEffects;
+    RETURN_IF_FAILED(audioEffectsManager->GetAudioEffects(&effects, &numEffects));
+
+    for (UINT32 i = 0; i < numEffects; i++)
+    {
+        // Check if noise suppression is part of the current effects
+        if (effects[i].id == AUDIO_EFFECT_TYPE_DEEP_NOISE_SUPPRESSION)
+        {
+            *isPresent = true;
+            return S_OK;
+        }
+    }
+
+    return S_OK;
+}
+```
 
 ## -see-also
 

@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Window 10  Version 1903 (Build 18362)
+req.target-min-winversvr: Window 10  Version 1903 (Build 18362)
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

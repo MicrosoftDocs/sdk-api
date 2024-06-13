@@ -6,7 +6,7 @@ helpviewer_keywords: ["LoadEnclaveIUmageA", "LoadEnclaveImage", "LoadEnclaveImag
 old-location: base\loadenclaveimage.htm
 tech.root: base
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
-ms.date: 12/05/2018
+ms.date: 02/02/2024
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
 req.header: enclaveapi.h
 req.include-header: 
@@ -50,7 +50,6 @@ api_name:
 
 # LoadEnclaveImageW function
 
-
 ## -description
 
 Loads an image and all of its imports into an enclave.
@@ -67,17 +66,16 @@ A NULL-terminated string that contains the name of the image to load.
 
 ## -returns
 
-<b>TRUE</b> if the function succeeds; otherwise <b>FALSE</b>.  To get extended error information, 
-       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+`TRUE` if the function succeeds; otherwise `FALSE`. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
-<b>LoadEnclaveImage</b> is only supported enclaves that have  the <b>ENCLAVE_TYPE_VBS</b> enclave type.
+**LoadEnclaveImage** is only supported enclaves that have the **ENCLAVE_TYPE_VBS** enclave type.
 
 ## -see-also
 
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[Enclave functions](/windows/win32/trusted-execution/enclaves-functions)
 
+[CreateEnclave](nf-enclaveapi-createenclave.md)
 
-
-<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
+[InitializeEnclave](nf-enclaveapi-initializeenclave.md)

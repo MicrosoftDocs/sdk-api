@@ -2,7 +2,7 @@
 UID: NS:webauthn._WEBAUTHN_CREDENTIAL_LIST
 tech.root: webauthn
 title: WEBAUTHN_CREDENTIAL_LIST
-ms.date: 07/19/2022
+ms.date: 03/08/2024
 targetos: Windows
 description: The list of credentials that the user has registered with the authenticator.
 prerelease: false
@@ -48,11 +48,20 @@ helpviewer_keywords:
 
 The list of credentials that the user has registered with the authenticator.
 
+## -syntax
+
+```cpp
+typedef struct _WEBAUTHN_CREDENTIAL_LIST {
+  DWORD                   cCredentials;
+  PWEBAUTHN_CREDENTIAL_EX *ppCredentials;
+} WEBAUTHN_CREDENTIAL_LIST, *PWEBAUTHN_CREDENTIAL_LIST;
+```
+
 ## -struct-fields
 
 ### -field cCredentials
 
-The size of **ppCredentials**.
+The size of *ppCredentials*.
 
 ### -field ppCredentials
 

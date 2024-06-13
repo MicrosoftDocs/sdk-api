@@ -47,25 +47,25 @@ Represents the PnP hardware ID parts for an adapter.
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's hardware vendor.
+The PCI ID or ACPI ID of the adapter's hardware vendor. If this value is less than or equal to 0xFFFF, it is a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field deviceID
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's hardware device.
+The PCI ID or ACPI ID of the adapter's hardware device. If <b>vendorID</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field subSysID
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's hardware subsystem.
+The PCI ID or ACPI ID of the adapter's hardware subsystem. If <b>vendorID</b> is a PCI ID, it is also a PCI ID; otherwise, it is an ACPI ID.
 
 ### -field revision
 
 Type: **uint32_t\***
 
-The PCI ID of the adapter's revision number.
+The adapter's PCI or ACPI revision number. If <b>vendorID</b> is a PCI ID, it is a PCI device revision number; otherwise, it is an ACPI device revision number.
 
 ## -see-also
 

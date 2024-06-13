@@ -46,7 +46,7 @@ api_name:
 
 Adds a collection of barriers into a graphics command list recording.
 
-Requires the DirectX 12 Agility SDK 1.7 or later.
+Requires the DirectX 12 Agility SDK 1.608 or later.
 
 ## -parameters
 

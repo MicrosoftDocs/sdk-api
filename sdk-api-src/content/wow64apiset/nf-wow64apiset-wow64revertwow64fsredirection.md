@@ -63,9 +63,11 @@ Any data allocation on behalf of the <a href="/windows/desktop/api/wow64apiset/n
 
 ## -parameters
 
-### -param OlValue
+### -param OlValue [in]
 
 The WOW64 file system redirection value. This value is obtained from the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
+
+This value is defined in `wow64apiset.h`.
 
 ## -returns
 

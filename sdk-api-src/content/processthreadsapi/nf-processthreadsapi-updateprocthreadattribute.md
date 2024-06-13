@@ -153,7 +153,7 @@ Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a handle to a process to use instead of the calling process as the parent for the process being created. The process to use must have the <b>PROCESS_CREATE_PROCESS</b> access right.
+The <i>lpValue</i> parameter is a pointer to the handle of a process to use (instead of the calling process) as the parent for the process being created. The handle for the process used must have the <b>PROCESS_CREATE_PROCESS</b> access right.
 
 Attributes inherited from the specified process include handles, the device map, processor affinity, priority, quotas, the process token, and job object. (Note that some attributes such as the debug port will come from the creating process, not the process specified by this handle.)
 

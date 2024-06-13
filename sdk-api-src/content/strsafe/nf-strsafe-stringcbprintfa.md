@@ -71,7 +71,7 @@ Writes formatted data to the specified string. The size of the destination buffe
 
 ### -param pszDest [out]
 
-Type: <b>LPTSTR</b>
+Type: <b>LPSTR</b>
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and its arguments.
 
@@ -83,7 +83,7 @@ The size of the destination buffer, in bytes. This value must be sufficiently la
 
 ### -param pszFormat [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["FWPS_FILTER2","FWPS_FILTER2 structure [Network Drivers St
 old-location: netvista\fwps_filter2.htm
 tech.root: NetVista
 ms.assetid: 2be2c82b-5b7c-4027-b2a1-f43d2b27b860
-ms.date: 12/05/2018
+ms.date: 05/03/2024
 ms.keywords: FWPS_FILTER2, FWPS_FILTER2 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER2, netvista.fwps_filter2
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
@@ -47,12 +47,9 @@ api_name:
  - FWPS_FILTER2
 ---
 
-# FWPS_FILTER2 structure
-
-
 ## -description
 
-The [FWPS_FILTER0](ns-fwpstypes-fwps_filter0.md) is available.
+Defines a run-time filter in the filter engine. The [FWPS_FILTER0](ns-fwpstypes-fwps_filter0.md) is available.
 
 ## -struct-fields
 
@@ -71,11 +68,11 @@ A value that specifies the importance of the filter's sublayer in relation to th
 ### -field flags
 
 Flags that specify actions that a callout's [classifyFn2](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2) callout function should take when processing network data. Possible flags are:
-     
+
 | Value | Meaning |
-| ----- | ------- |
-| FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT | This flag indicates to a callout's [classifyFn2](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2) callout function that it should always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's ***classifyFn2*** callout function should only clear the FWPS_RIGHT_ACTION_WRITE flag when it returns FWP_ACTION_BLOCK for the suggested action. |
-| FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED | This flag indicates to a callout's [classifyFn2](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2) callout function that if the callout is not registered, the callout should be treated as a permit filter. |
+| - | - |
+| FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that it should always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's ***classifyFn0*** callout function should only clear the FWPS_RIGHT_ACTION_WRITE flag when it returns FWP_ACTION_BLOCK for the suggested action. |
+| FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that if the callout is not registered, the callout should be treated as a permit filter. |
 
 ### -field numFilterConditions
 

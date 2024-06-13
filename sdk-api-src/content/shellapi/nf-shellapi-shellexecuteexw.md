@@ -64,7 +64,7 @@ Performs an operation on a specified file.
 
 Type: <b>SHELLEXECUTEINFO*</b>
 
-A pointer to a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
+A pointer to a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
 
 ## -returns
 

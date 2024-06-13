@@ -4,8 +4,8 @@ title: CimFS
 ms.author: windowssdkdev
 ms.date: 08/05/2021
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows
+ms.service: windows
+ms.subservice: windows
 ms.topic: overview
 ---
 

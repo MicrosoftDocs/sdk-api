@@ -2,9 +2,7 @@
 UID: NF:dxcore_interface.IDXCoreAdapterList.IsAdapterPreferenceSupported
 title: IDXCoreAdapterList::IsAdapterPreferenceSupported
 description: Determines whether a specified [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) value is understood by the OS.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,IsAdapterPreferenceSupported method, IDXCoreAdapterFactory.IsAdapterPreferenceSupported, IDXCoreAdapterFactory::IsAdapterPreferenceSupported, IsAdapterPreferenceSupported, IsAdapterPreferenceSupported method, IsAdapterPreferenceSupported method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::IsAdapterPreferenceSupported, dxcore_interface.idxcoreadapterfactory_isadapterpreferencesupported
 ms.localizationpriority: low
