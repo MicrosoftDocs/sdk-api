@@ -115,7 +115,7 @@ After this value is set for a process, subsequent attempts to clear the value ar
 </dl>
 </td>
 <td width="60%">
-The system does not display the Windows Error Reporting dialog.
+The system does not invoke Windows Error Reporting.  If the intent is to disable Windows Error Reporting UI, the caller should call WerSetFlags with the WER_FAULT_REPORTING_NO_UI flag.
 
 </td>
 </tr>
