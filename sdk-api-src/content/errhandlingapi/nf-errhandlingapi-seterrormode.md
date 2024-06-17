@@ -1,12 +1,12 @@
 ---
 UID: NF:errhandlingapi.SetErrorMode
 title: SetErrorMode function (errhandlingapi.h)
-description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
+description: Controls whether the system or the process handles the specified serious error types.
 helpviewer_keywords: ["SEM_FAILCRITICALERRORS","SEM_NOALIGNMENTFAULTEXCEPT","SEM_NOGPFAULTERRORBOX","SEM_NOOPENFILEERRORBOX","SetErrorMode","SetErrorMode function","_win32_seterrormode","base.seterrormode","errhandlingapi/SetErrorMode"]
 old-location: base\seterrormode.htm
 tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
-ms.date: 12/05/2018
+ms.date: 06/17/2024
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
 req.header: errhandlingapi.h
 req.include-header: Windows.h
@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
+Controls whether the system or the process handles the specified serious error types.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ The process error mode. This parameter can be one or more of the following value
 </dl>
 </td>
 <td width="60%">
-Use the system default, which is to display all error dialog boxes.
+Use the system default, which displays all error dialog boxes.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ After this value is set for a process, subsequent attempts to clear the value ar
 </dl>
 </td>
 <td width="60%">
-The system does not display the Windows Error Reporting dialog.
+The system does not invoke Windows Error Reporting. To disable Windows Error Reporting UI, call WerSetFlags with the WER_FAULT_REPORTING_NO_UI flag.
 
 </td>
 </tr>
