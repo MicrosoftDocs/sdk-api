@@ -5,7 +5,7 @@ title: IsWindowArranged function (winuser.h)
 ms.date: 06/27/2023
 targetos: Windows
 description: Determines whether the specified window is arranged (that is, whether it's snapped).
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
