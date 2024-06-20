@@ -60,6 +60,13 @@ The <b>MonitorFromPoint</b> function retrieves a handle to the display monitor t
 
 ### -param pt [in]
 
+VBA Syntax
+
+Declare PtrSafe Function MonitorFromPoint Lib "user32.dll" ( _
+                                               ByVal X As Long, _
+                                               ByVal Y As Long, _
+                                               ByVal dwFlags As Long) As LongPtr
+
 A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
 
 ### -param dwFlags [in]
