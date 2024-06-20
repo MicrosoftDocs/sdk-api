@@ -124,7 +124,7 @@ case WM_INPUT:
         if (keyboard.MakeCode == KEYBOARD_OVERRUN_MAKE_CODE || keyboard.VKey >= UCHAR_MAX)
             return 0;
 
-        if (!keyboard.MakeCode)
+        if (keyboard.MakeCode)
         {
             // Compose the full scan code value with its extended byte
             scanCode = MAKEWORD(keyboard.MakeCode & 0x7f, ((keyboard.Flags & RI_KEY_E0) ? 0xe0 : ((keyboard.Flags & RI_KEY_E1) ? 0xe1 : 0x00)));
