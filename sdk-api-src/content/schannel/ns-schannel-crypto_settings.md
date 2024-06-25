@@ -90,7 +90,7 @@ If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit l
 
 ## -remarks
 
-The following constant distinguishes between the different RSA padding modes and can be specified in the `strCngAlgId` field. Either of them can be used or the <a href="/windows/win32/seccng/cng-algorithm-identifiers">CNG algorithm identifier</a>.
+The following constant distinguishes between the different RSA padding modes and can be specified in the `strCngAlgId` field. Either of these modes can be provided instead of the <a href="/windows/win32/seccng/cng-algorithm-identifiers">CNG algorithm identifier</a>.
 
 ```cpp
 #define SCHANNEL_RSA_PSS_PADDING_ALGORITHM L"SCH_RSA_PSS_PAD"
