@@ -91,7 +91,7 @@ If this parameter is <b>NULL</b>, <a href="/windows/desktop/api/ntdsapi/nf-ntdsa
 
 Contains an identity handle that represents the identity and credentials of a user with administrative rights in the source domain. To obtain this handle, call  <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>. This user must be a member of either the Administrators or the Domain Administrators group. If this call is made from a remote computer to the destination DC, then both the remote computer and the destination DC must support 128-bit encryption to privacy-protect the credentials. If 128-bit encryption is unavailable and <i>SrcDomainCreds</i> are provided, then the call must be made on the destination DC.
 
-If this parameter is <b>NULL</b>, the credentials of the caller are used for access to the source domain.
+If this parameter is <b>NULL</b>, the credentials of the caller are used for access to the source domain. The caller user then needs administrative rights in the source domain.
 
 ### -param DstDomain [in]
 
