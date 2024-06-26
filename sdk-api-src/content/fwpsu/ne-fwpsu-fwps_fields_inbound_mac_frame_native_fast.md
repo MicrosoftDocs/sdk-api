@@ -2,9 +2,9 @@
 UID: NE:fwpsu.FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE_FAST_
 tech.root: fwp
 title: FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE_FAST
-ms.date: 05/20/2024
+ms.date: 06/04/2024
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,11 +40,14 @@ helpviewer_keywords:
 
 ## -description
 
+TBD
+
 ## -enum-fields
 
 ### -field FWPS_FIELD_INBOUND_MAC_FRAME_NATIVE_FAST_MAX
 
+TBD
+
 ## -remarks
 
 ## -see-also
-

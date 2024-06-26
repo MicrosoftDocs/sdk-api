@@ -1,8 +1,8 @@
 ---
 UID: NE:fwpsu.FWPS_BUILTIN_LAYERS_
 title: FWPS_BUILTIN_LAYERS
-description: Defines constants that specify run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
-ms.date: 05/23/2024
+description: Defines constants that specify built-in run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
+ms.date: 05/28/2024
 tech.root: fwp
 targetos: Windows
 req.construct-type: enumeration
@@ -39,9 +39,7 @@ helpviewer_keywords:
 
 ## -description
 
-2
-
-Defines constants that specify run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
+Defines constants that specify built-in run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.
 
 > [!NOTE]
 > The V4 and V6 suffixes at the end of the run-time layer identifiers indicate whether the layer is located in the IPv4 network stack or in the IPv6 network stack.
@@ -390,11 +388,11 @@ Reserved for system use.
 
 ### -field FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V4
 
-TBD
+This filtering layer is where a WFP filter driver can inspect an outgoing IPv4 connection, and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ### -field FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V6
 
-TBD
+This filtering layer is where a WFP filter driver can inspect an outgoing IPv6 connection, and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ### -field FWPS_LAYER_IPSEC_KM_DEMUX_V4
 
@@ -446,10 +444,14 @@ This filtering layer allows for authorizing security association establishment.
 
 ### -field FWPS_BUILTIN_LAYER_MAX
 
-TBD
+Maximum range value for testing purposes.
 
 ## -remarks
 
 Each run-time layer identifier has an associated run-time data field identifier that represents a set of constant values. These data field identifiers are declared as **FWPS_FIELDS_XXX** enumerations in `fwpsu.h`. For more info, see [Data field identifiers](/windows-hardware/drivers/network/data-field-identifiers).
+
+The constants **FWPS_LAYER_INBOUND_IPPACKET_V4** through **FWPS_LAYER_ALE_FLOW_ESTABLISHED_V6** are for kernel-mode layers.
+
+The types **FWPS_LAYER_KM_DEMUX_V4** through **FWPS_LAYER_RPC_EPMAP** are for user-mode layers.
 
 ## -see-also

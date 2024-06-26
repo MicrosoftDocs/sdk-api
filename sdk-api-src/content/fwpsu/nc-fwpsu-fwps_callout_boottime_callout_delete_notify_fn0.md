@@ -2,9 +2,9 @@
 UID: NC:fwpsu.FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0
 tech.root: fwp
 title: FWPS_CALLOUT_BOOTTIME_CALLOUT_DELETE_NOTIFY_FN0
-ms.date: 05/20/2024
+ms.date: 06/07/2024
 targetos: Windows
-description: 
+description: TBD
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+TBD
+
 ## -parameters
 
 ### -param calloutId
 
+TBD
+
 ## -remarks
 
 ## -see-also
-

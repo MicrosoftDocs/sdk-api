@@ -6,7 +6,7 @@ helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptImportKey","NCryptImportKey fu
 old-location: security\ncryptimportkey_func.htm
 tech.root: security
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
-ms.date: 12/18/2023
+ms.date: 05/29/2024
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 req.header: ncrypt.h
 req.include-header: 
@@ -173,3 +173,5 @@ For more information about hardware requirements:
 ## -see-also
 
 [NCryptBuffer](/windows/desktop/api/bcrypt/ns-bcrypt-bcryptbuffer)
+
+[NCryptCreatePersistedKey](nf-ncrypt-ncryptcreatepersistedkey.md)
