@@ -62,14 +62,14 @@ The handle of the interaction context.
 
 ### -param inertiaParameter [in]
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
+One of the constants from [INERTIA_PARAMETER enumeration](ne-interactioncontext-inertia_parameter.md).
 
 ### -param value [in]
 
 One of the following:
 
 <ul>
-<li>The rate of deceleration, in radians/ms².</li>
+<li>The rate of deceleration, in radians/ms<sup>2</sup>.</li>
 <li>For translation, the relative change in screen location, in HIMETRIC units.</li>
 <li>For rotation, the relative change in angle of rotation, in radianx</li>
 <li>For scaling, the relative change in size, in HIMETRIC units.</li>
@@ -83,18 +83,16 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
+[Interaction Context](../_input_intcontext/index.md) uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
 
 To restore the system setting, set <i>value</i> to INERTIA_PARAMETER_INVALID_VALUE    FLT_MAX.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinertiaparameterinteractioncontext">GetInertiaParameterInteractionContext</a>
+[GetInertiaParameterInteractionContext function](nf-interactioncontext-getinertiaparameterinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

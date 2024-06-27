@@ -56,16 +56,21 @@ Defines the state of the cross-slide interaction.
 
 ### -field flags
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-cross_slide_flags">CROSS_SLIDE_FLAGS</a>.
+One of the constants from [CROSS_SLIDE_FLAGS enumeration](ne-interactioncontext-cross_slide_flags.md).
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+[INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
+
+[INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+
+
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
+
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

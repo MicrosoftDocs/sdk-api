@@ -56,7 +56,7 @@ Defines  the state of a manipulation.
 
 ### -field delta
 
-The change in translation, rotation, and scale since the last <a href="/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>.
+The change in translation, rotation, and scale since the last [INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md).
 
 ### -field cumulative
 
@@ -68,16 +68,21 @@ The velocities of the accumulated transformations for the interaction.
 
 ### -field railsState
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-manipulation_rails_state">MANIPULATION_RAILS_STATE</a>.
+One of the constants from [MANIPULATION_RAILS_STATE enumeration](ne-interactioncontext-manipulation_rails_state.md).
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+[INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
+
+[INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+
+
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
+
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

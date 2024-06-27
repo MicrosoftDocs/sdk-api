@@ -62,14 +62,14 @@ The handle of the interaction context.
 
 ### -param inertiaParameter [in]
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
+One of the constants from [INERTIA_PARAMETER enumeration](ne-interactioncontext-inertia_parameter.md).
 
 ### -param value [out]
 
 The value of <i>inertiaParameter</i>. This value is one of the following:
 
 <ul>
-<li>The rate of deceleration, in radians/ms².</li>
+<li>The rate of deceleration, in radians/ms<sup>2</sup>.</li>
 <li>For translation, the relative change in screen location, in HIMETRIC units.</li>
 <li>For rotation, the relative change in angle of rotation, in radians</li>
 <li>For scaling, the relative change in size, in HIMETRIC units.</li>
@@ -83,12 +83,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinertiaparameterinteractioncontext">SetInertiaParameterInteractionContext</a>
+
+
+[SetInertiaParameterInteractionContext function](nf-interactioncontext-setinertiaparameterinteractioncontext.md)

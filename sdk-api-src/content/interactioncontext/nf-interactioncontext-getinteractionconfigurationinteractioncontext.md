@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Gets interaction configuration state  for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Gets interaction configuration state  for the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param configurationCount [in]
 
@@ -66,7 +66,7 @@ Number of interaction configurations.
 
 ### -param configuration [out]
 
-The interactions enabled for this <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+The interactions enabled for this [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -returns
 
@@ -76,16 +76,16 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
+
+[INTERACTION_CONTEXT_CONFIGURATION structure](ns-interactioncontext-interaction_context_configuration.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
+
+[SetInteractionConfigurationInteractionContext function](nf-interactioncontext-setinteractionconfigurationinteractioncontext.md)

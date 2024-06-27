@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Defines the output of the  <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Defines the output of the  [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -struct-fields
 
 ### -field interactionId
 
-ID of the  <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+ID of the  [Interaction Context](../_input_intcontext/index.md) object.
 
 ### -field interactionFlags
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_flags">INTERACTION_FLAGS</a>.
+One of the constants from [INTERACTION_FLAGS enumeration](ne-interactioncontext-interaction_flags.md).
 
 ### -field inputType
 
-One of the constants from <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a>.
+One of the constants from [POINTER_INPUT_TYPE enumeration](../winuser/ne-winuser-tagpointer_input_type.md).
 
 ### -field x
 
@@ -90,28 +90,22 @@ The state of the cross-slide interaction.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_cross_slide">INTERACTION_ARGUMENTS_CROSS_SLIDE</a>
+[INTERACTION_ARGUMENTS_CROSS_SLIDE structure](ns-interactioncontext-interaction_arguments_cross_slide.md)
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_manipulation">INTERACTION_ARGUMENTS_MANIPULATION</a>
+[INTERACTION_ARGUMENTS_MANIPULATION structure](ns-interactioncontext-interaction_arguments_manipulation.md)
 
 
+[INTERACTION_ARGUMENTS_TAP structure](ns-interactioncontext-interaction_arguments_tap.md)
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_tap">INTERACTION_ARGUMENTS_TAP</a>
+[INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md)
 
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
-
+[INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md)
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_flags">INTERACTION_FLAGS</a>
+[INTERACTION_FLAGS enumeration](ne-interactioncontext-interaction_flags.md)
 
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 
-
-<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Specifies properties of the  <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Specifies properties of the  [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -enum-fields
 
 ### -field INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS:0x00000001
 
-Measurement units used by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object: himetric (0.01mm) or screen pixels.
+Measurement units used by the [Interaction Context](../_input_intcontext/index.md) object: himetric (0.01mm) or screen pixels.
 
 ### -field INTERACTION_CONTEXT_PROPERTY_INTERACTION_UI_FEEDBACK:0x00000002
 
@@ -72,12 +72,6 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
+[GetPropertyInteractionContext function](nf-interactioncontext-getpropertyinteractioncontext.md)
 
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
+[SetPropertyInteractionContext function](nf-interactioncontext-setpropertyinteractioncontext.md)

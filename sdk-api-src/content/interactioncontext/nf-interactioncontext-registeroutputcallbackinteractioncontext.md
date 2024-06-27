@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Registers a callback to receive interaction events from an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Registers a callback to receive interaction events from an [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Handle to the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param outputCallback [in]
 
@@ -76,18 +76,22 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-Each instance of an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> is limited to one output callback. Registering a callback function overwrites any existing callback registration for the Interaction Context.
+Each instance of an [Interaction Context](../_input_intcontext/index.md) is limited to one output callback. Registering a callback function overwrites any existing callback registration for the Interaction Context.
 
-This function is typically called after the creation of an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> or when the Interaction Context is reassigned to another UI element.
+This function is typically called after the creation of an [Interaction Context](../_input_intcontext/index.md) or when the Interaction Context is reassigned to another UI element.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+[INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
+
+[INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
+
+[INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md)
+
+[INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

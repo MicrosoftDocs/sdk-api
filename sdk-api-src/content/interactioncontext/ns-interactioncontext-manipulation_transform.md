@@ -76,4 +76,3 @@ Change in rotation, in radians.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>

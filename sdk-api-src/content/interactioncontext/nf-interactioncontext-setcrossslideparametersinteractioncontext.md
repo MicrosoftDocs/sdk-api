@@ -74,7 +74,7 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<b>SetCrossSlideParametersInteractionContext</b> fails if a <a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a> is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
+<b>SetCrossSlideParametersInteractionContext</b> fails if a [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md) is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
 
 
 #### Examples
@@ -106,16 +106,15 @@ SetCrossSlideParametersInteractionContext(
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
+[CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
+[GetCrossSlideParameterInteractionContext function](nf-interactioncontext-getcrossslideparameterinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+

@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Creates and initializes an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Creates and initializes an [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
 ### -param interactionContext [out]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ## -returns
 
@@ -68,24 +68,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-destroyinteractioncontext">DestroyInteractionContext</a> must be called to destroy any interaction context created by <b>CreateInteractionContext</b>.
+[DestroyInteractionContext function](nf-interactioncontext-destroyinteractioncontext.md) must be called to destroy any interaction context created by <b>CreateInteractionContext</b>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-destroyinteractioncontext">DestroyInteractionContext</a>
+[ResetInteractionContext function](nf-interactioncontext-resetinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-resetinteractioncontext">ResetInteractionContext</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-stopinteractioncontext">StopInteractionContext</a>
+[StopInteractionContext function](nf-interactioncontext-stopinteractioncontext.md)

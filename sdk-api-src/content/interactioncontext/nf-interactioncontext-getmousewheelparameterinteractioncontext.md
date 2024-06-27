@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the mouse wheel state for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Gets the mouse wheel state for the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param value [out]
 
@@ -64,7 +64,7 @@ The value of <i>parameter</i>.
 
 ### -param parameter [in]
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-mouse_wheel_parameter">MOUSE_WHEEL_PARAMETER</a>.
+One of the constants from [MOUSE_WHEEL_PARAMETER enumeration](ne-interactioncontext-mouse_wheel_parameter.md).
 
 ## -returns
 
@@ -74,12 +74,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setmousewheelparameterinteractioncontext">SetMouseWheelParameterInteractionContext</a>
+
+
+[SetMouseWheelParameterInteractionContext function](nf-interactioncontext-setmousewheelparameterinteractioncontext.md)
