@@ -53,6 +53,9 @@ api_name:
 
 Registers a callback to receive interaction events from an [Interaction Context](../_input_intcontext/index.md) object.
 
+> [!NOTE]
+> See [RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md) for enhanced gesture recognition support.
+
 ## -parameters
 
 ### -param interactionContext [in]
@@ -61,7 +64,7 @@ Handle to the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param outputCallback [in]
 
-The callback function.
+The [INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md).
 
 ### -param clientData [in, optional]
 

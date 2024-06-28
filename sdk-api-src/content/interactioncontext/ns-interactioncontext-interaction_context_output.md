@@ -51,6 +51,9 @@ api_name:
 
 Defines the output of the  [Interaction Context](../_input_intcontext/index.md) object.
 
+> [!NOTE]
+> See [INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md) for enhanced gesture recognition support.
+
 ## -struct-fields
 
 ### -field interactionId
@@ -74,6 +77,8 @@ The x-coordinate of the input pointer, in HIMETRIC units.
 The y-coordinate of the input pointer, in HIMETRIC units.
 
 ### -field arguments
+
+Union of *arguments* sub-fields.
 
 ### -field arguments.manipulation
 

@@ -1,20 +1,21 @@
 ---
 UID: NE:interactioncontext.TAP_PARAMETER
-tech.root: 
-title: TAP_PARAMETER
-ms.date: 
+tech.root: input_intcontext
+title: TAP_PARAMETER enumeration (interactioncontext.h)
+ms.date: 06/28/2024
 targetos: Windows
-description: 
+description: Specifies various values relevant to a tap gesture.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: interactioncontext.h
 req.include-header: 
+targetos: Windows
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
+req.target-min-winverclnt: Windows 10 version 21H1
+req.target-min-winversvr: Windows Server 2022
+req.target-type: Windows
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 

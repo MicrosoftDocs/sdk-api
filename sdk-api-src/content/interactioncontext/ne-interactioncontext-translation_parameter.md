@@ -1,20 +1,21 @@
 ---
 UID: NE:interactioncontext.TRANSLATION_PARAMETER
-tech.root: 
+tech.root: input_intcontext
 title: TRANSLATION_PARAMETER
-ms.date: 
+ms.date: 06/28/2024
 targetos: Windows
-description: 
+description: Specifies various values relevant to a drag manipulation.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: interactioncontext.h
 req.include-header: 
+targetos: Windows
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
+req.target-min-winverclnt: Windows 10 version 21H1
+req.target-min-winversvr: Windows Server 2022
+req.target-type: Windows
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
@@ -39,15 +40,26 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies various values relevant to a drag manipulation.
+
 ## -enum-fields
 
 ### -field TRANSLATION_PARAMETER_MIN_CONTACT_COUNT
 
+The minimum number of contacts recognized.
+
 ### -field TRANSLATION_PARAMETER_MAX_CONTACT_COUNT
 
+The maximum number of contacts recognized.
+
 ### -field TRANSLATION_PARAMETER_MAX
+
+Maximum number of interactions exceeded.
 
 ## -remarks
 
 ## -see-also
 
+[GetTranslationParameterInteractionContext function](nf-interactioncontext-gettranslationparameterinteractioncontext.md)
+
+[SetTranslationParameterInteractionContext function](nf-interactioncontext-settranslationparameterinteractioncontext.md)
