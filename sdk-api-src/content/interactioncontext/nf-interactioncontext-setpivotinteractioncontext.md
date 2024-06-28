@@ -49,7 +49,6 @@ api_name:
 
 # SetPivotInteractionContext function
 
-
 ## -description
 
 Sets the center point, and the pivot radius from the center point, for a rotation manipulation using a single input pointer.
@@ -75,12 +74,7 @@ The offset between the center point and the single input pointer, in HIMETRIC un
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
-
-
-
-
-

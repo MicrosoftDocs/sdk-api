@@ -49,7 +49,6 @@ api_name:
 
 # SetPropertyInteractionContext function
 
-
 ## -description
 
 Sets [Interaction Context](../_input_intcontext/index.md) object properties.

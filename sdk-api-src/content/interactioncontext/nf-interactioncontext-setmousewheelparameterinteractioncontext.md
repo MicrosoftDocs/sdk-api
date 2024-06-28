@@ -47,7 +47,6 @@ api_name:
 
 # SetMouseWheelParameterInteractionContext function
 
-
 ## -description
 
 Sets the parameter values for mouse wheel input.
@@ -60,7 +59,7 @@ Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md)
 
 ### -param value [in]
 
-The value for <i>parameter</i>.
+The value for *parameter*.
 
 ### -param parameter [in]
 
@@ -69,16 +68,9 @@ One of the constants identified by [MOUSE_WHEEL_PARAMETER enumeration](ne-intera
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
 [GetMouseWheelParameterInteractionContext function](nf-interactioncontext-getmousewheelparameterinteractioncontext.md)
-
-
-
-
-
-
-

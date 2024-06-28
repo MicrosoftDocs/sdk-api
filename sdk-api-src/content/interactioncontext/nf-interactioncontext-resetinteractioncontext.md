@@ -49,7 +49,6 @@ api_name:
 
 # ResetInteractionContext function
 
-
 ## -description
 
 Resets the [interaction state](ne-interactioncontext-interaction_state.md), interaction configuration settings, and all parameters to their initial state.  Current interactions are cancelled without notifications.
@@ -64,7 +63,7 @@ Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md)
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
@@ -77,18 +76,6 @@ Current interactions are cancelled without notifications.
 
 [CreateInteractionContext function](nf-interactioncontext-createinteractioncontext.md)
 
-
-
 [DestroyInteractionContext function](nf-interactioncontext-destroyinteractioncontext.md)
-
-
-
-
-
-
-
-
-
-
 
 [StopInteractionContext function](nf-interactioncontext-stopinteractioncontext.md)

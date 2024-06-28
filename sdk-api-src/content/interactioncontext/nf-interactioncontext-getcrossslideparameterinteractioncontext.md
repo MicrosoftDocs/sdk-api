@@ -47,7 +47,6 @@ api_name:
 
 # GetCrossSlideParameterInteractionContext function
 
-
 ## -description
 
 Gets the cross-slide interaction behavior.
@@ -64,26 +63,16 @@ One of the constants from [CROSS_SLIDE_THRESHOLD enumeration](ne-interactioncont
 
 ### -param distance [out]
 
-The distance threshold of <i>threshold</i>.
+The distance threshold of *threshold*.
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
 [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
-
-
-
-
-
-
-
-
-
-
 
 [SetCrossSlideParametersInteractionContext function](nf-interactioncontext-setcrossslideparametersinteractioncontext.md)

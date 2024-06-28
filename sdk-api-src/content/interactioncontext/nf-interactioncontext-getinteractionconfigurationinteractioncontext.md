@@ -49,7 +49,6 @@ api_name:
 
 # GetInteractionConfigurationInteractionContext function
 
-
 ## -description
 
 Gets interaction configuration state  for the [Interaction Context](../_input_intcontext/index.md) object.
@@ -71,21 +70,11 @@ The interactions enabled for this [Interaction Context](../_input_intcontext/ind
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-
-
-
-
 [INTERACTION_CONTEXT_CONFIGURATION structure](ns-interactioncontext-interaction_context_configuration.md)
-
-
-
-
-
-
 
 [SetInteractionConfigurationInteractionContext function](nf-interactioncontext-setinteractionconfigurationinteractioncontext.md)

@@ -49,10 +49,9 @@ api_name:
 
 # RemovePointerInteractionContext function
 
-
 ## -description
 
-Remove  the specified pointer from the set of pointers processed by the [Interaction Context](../_input_intcontext/index.md) object.
+Remove the specified pointer from the set of pointers processed by the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
@@ -67,7 +66,7 @@ ID of the pointer.
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also

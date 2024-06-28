@@ -47,7 +47,6 @@ api_name:
 
 # SetCrossSlideParametersInteractionContext function
 
-
 ## -description
 
 Configures the cross-slide interaction.
@@ -69,18 +68,16 @@ The cross-slide threshold and its distance threshold.
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<b>SetCrossSlideParametersInteractionContext</b> fails if a [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md) is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
+**SetCrossSlideParametersInteractionContext** fails if a [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md) is enabled, but not specified  in the *crossSlideParameters* parameter.
 
-
-#### Examples
+### Examples
 
 This example demonstrates how to set custom cross-slide thresholds.
-
 
 ```cpp
 //  SetCrossSlideParametersInteractionContext
@@ -95,26 +92,15 @@ crossSlideParameters[2].distance = customSpeedBumpEnd;
 crossSlideParameters[3].threshold = CROSS_SLIDE_THRESHOLD_REARRANGE_START;
 crossSlideParameters[3].distance = customRearrangeStart;
 
-
 // set thresholds for select, speedbump, and rearrange
 SetCrossSlideParametersInteractionContext(
     m_interactionContext,
     4,
     crossSlideParameters);
-
 ```
 
 ## -see-also
 
 [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
 
-
-
 [GetCrossSlideParameterInteractionContext function](nf-interactioncontext-getcrossslideparameterinteractioncontext.md)
-
-
-
-
-
-
-

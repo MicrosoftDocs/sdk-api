@@ -49,7 +49,6 @@ api_name:
 
 # RegisterOutputCallbackInteractionContext function
 
-
 ## -description
 
 Registers a callback to receive interaction events from an [Interaction Context](../_input_intcontext/index.md) object.
@@ -66,12 +65,12 @@ The callback function.
 
 ### -param clientData [in, optional]
 
-A pointer to an object that contains information about the client. The value typically points to the object for which the member function is called (<b>this</b>).
+A pointer to an object that contains information about the client. The value typically points to the object for which the member function is called (**this**).
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
@@ -86,12 +85,6 @@ This function is typically called after the creation of an [Interaction Context]
 
 [INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
 
-
-
-
 [INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md)
 
 [INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md)
-
-
-

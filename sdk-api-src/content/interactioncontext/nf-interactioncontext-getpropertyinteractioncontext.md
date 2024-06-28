@@ -49,7 +49,6 @@ api_name:
 
 # GetPropertyInteractionContext function
 
-
 ## -description
 
 Gets [Interaction Context](../_input_intcontext/index.md) object properties.
@@ -68,8 +67,7 @@ One of the constants identified by [INTERACTION_CONTEXT_PROPERTY enumeration](ne
 
 The value of the property.
 
-Valid values for <i>contextProperty</i> are:
-
+Valid values for *contextProperty* are:
 
 |||
 |--- |--- |

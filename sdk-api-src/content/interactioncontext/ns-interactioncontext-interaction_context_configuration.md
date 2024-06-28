@@ -66,7 +66,6 @@ The value of this property is a bitmask, which can be set to one or more of the 
 
 This example shows the default setting for **INTERACTION_CONTEXT_CONFIGURATION**.
 
-
 ```cpp
 #define INTERACTION_CONTEXT_CONFIGURATION_DEFAULT                         \
 {                                                                         \

@@ -49,7 +49,6 @@ api_name:
 
 # StopInteractionContext function
 
-
 ## -description
 
 Sets the [interaction state](ne-interactioncontext-interaction_state.md) to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact. Current interactions are cancelled and notifications sent as required.
@@ -64,25 +63,13 @@ Handle to the [Interaction Context](../_input_intcontext/index.md) object.
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
 [CreateInteractionContext function](nf-interactioncontext-createinteractioncontext.md)
 
-
-
 [DestroyInteractionContext function](nf-interactioncontext-destroyinteractioncontext.md)
-
-
-
-
-
-
-
-
-
-
 
 [ResetInteractionContext function](nf-interactioncontext-resetinteractioncontext.md)

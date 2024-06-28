@@ -47,7 +47,6 @@ api_name:
 
 # INTERACTION_CONTEXT_OUTPUT structure
 
-
 ## -description
 
 Defines the output of the  [Interaction Context](../_input_intcontext/index.md) object.
@@ -92,17 +91,13 @@ The state of the cross-slide interaction.
 
 [INTERACTION_ARGUMENTS_CROSS_SLIDE structure](ns-interactioncontext-interaction_arguments_cross_slide.md)
 
-
-
 [INTERACTION_ARGUMENTS_MANIPULATION structure](ns-interactioncontext-interaction_arguments_manipulation.md)
-
 
 [INTERACTION_ARGUMENTS_TAP structure](ns-interactioncontext-interaction_arguments_tap.md)
 
 [INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function](nc-interactioncontext-interaction_context_output_callback.md)
 
 [INTERACTION_CONTEXT_OUTPUT_CALLBACK2 callback function](nc-interactioncontext-interaction_context_output_callback2.md)
-
 
 [INTERACTION_FLAGS enumeration](ne-interactioncontext-interaction_flags.md)
 

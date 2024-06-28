@@ -50,7 +50,6 @@ api_name:
 
 # SetInteractionConfigurationInteractionContext function
 
-
 ## -description
 
 Configures the [Interaction Context](../_input_intcontext/index.md) object to process the specified manipulations.
@@ -72,7 +71,7 @@ The interactions to enable for this [Interaction Context](../_input_intcontext/i
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
@@ -83,15 +82,6 @@ Configuration changes are applied only to new interactions.
 
 ## -see-also
 
-
 [GetInteractionConfigurationInteractionContext function](nf-interactioncontext-getinteractionconfigurationinteractioncontext.md)
 
-
-
-
-
-
 [INTERACTION_CONTEXT_CONFIGURATION structure](ns-interactioncontext-interaction_context_configuration.md)
-
-
-

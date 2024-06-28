@@ -47,7 +47,6 @@ api_name:
 
 # INTERACTION_ARGUMENTS_CROSS_SLIDE structure
 
-
 ## -description
 
 Defines the state of the cross-slide interaction.
@@ -63,13 +62,6 @@ One of the constants from [CROSS_SLIDE_FLAGS enumeration](ne-interactioncontext-
 [INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
 
 [INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
-
-
-
-
-
-
-
 
 [RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 

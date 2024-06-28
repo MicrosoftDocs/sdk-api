@@ -47,7 +47,6 @@ api_name:
 
 # CROSS_SLIDE_PARAMETER structure
 
-
 ## -description
 
 Defines the cross-slide threshold and its distance threshold.
@@ -60,16 +59,10 @@ One of the constants from [CROSS_SLIDE_THRESHOLD enumeration](ne-interactioncont
 
 ### -field distance
 
-The <i>threshold</i> distance, in DIPs.
+The *threshold* distance, in DIPs.
 
 ## -see-also
 
 [GetCrossSlideParameterInteractionContext function](nf-interactioncontext-getcrossslideparameterinteractioncontext.md)
-
-
-
-
-
-
 
 [SetCrossSlideParametersInteractionContext function](nf-interactioncontext-setcrossslideparametersinteractioncontext.md)

@@ -49,7 +49,6 @@ api_name:
 
 # ProcessBufferedPacketsInteractionContext function
 
-
 ## -description
 
 Process buffered packets at the end of a pointer input frame.
@@ -63,16 +62,11 @@ Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md)
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-<b>ProcessBufferedPacketsInteractionContext</b> is called at the end of the frame, when the buffer contains all the pointer histories from the frame.
+**ProcessBufferedPacketsInteractionContext** is called at the end of the frame, when the buffer contains all the pointer histories from the frame.
 
 ## -see-also
-
-
-
-
-

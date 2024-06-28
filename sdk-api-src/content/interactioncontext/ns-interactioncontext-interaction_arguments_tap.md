@@ -47,7 +47,6 @@ api_name:
 
 # INTERACTION_ARGUMENTS_TAP structure
 
-
 ## -description
 
 Defines the state of the tap interaction.
@@ -63,13 +62,6 @@ The number of taps detected.
 [INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md)
 
 [INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md)
-
-
-
-
-
-
-
 
 [RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 

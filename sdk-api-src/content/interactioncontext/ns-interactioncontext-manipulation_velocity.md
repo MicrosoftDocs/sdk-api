@@ -47,7 +47,6 @@ api_name:
 
 # MANIPULATION_VELOCITY structure
 
-
 ## -description
 
 Defines the velocity data of a manipulation.
@@ -71,4 +70,3 @@ The velocity expansion.
 The angular velocity.
 
 ## -see-also
-
