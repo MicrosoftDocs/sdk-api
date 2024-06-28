@@ -1,10 +1,10 @@
 ---
 UID: NE:interactioncontext.HOLD_PARAMETER
-tech.root: 
-title: HOLD_PARAMETER
-ms.date: 
+tech.root: input_intcontext
+title: HOLD_PARAMETER enumeration (interactioncontext.h)
+ms.date: 06/27/2024
 targetos: Windows
-description: 
+description: Specifies various values relevant to a press and hold gesture.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -12,9 +12,10 @@ req.header: interactioncontext.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
+req.target-min-winverclnt: Windows 10 version 21H1
+req.target-min-winversvr: Windows Server 2022
+req.target-type: Windows
+targetos: Windows
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
@@ -39,19 +40,34 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies various values relevant to a press and hold gesture.
+
 ## -enum-fields
 
 ### -field HOLD_PARAMETER_MIN_CONTACT_COUNT
 
+The minimum number of contacts recognized.
+
 ### -field HOLD_PARAMETER_MAX_CONTACT_COUNT
+
+The maximum number of contacts recognized.
 
 ### -field HOLD_PARAMETER_THRESHOLD_RADIUS
 
+The radius around the contact point affected by the hold, in DIPs.
+
 ### -field HOLD_PARAMETER_THRESHOLD_START_DELAY
 
+The time threshold for when hold is recognized, in milliseconds.
+
 ### -field HOLD_PARAMETER_MAX
+
+Maximum number of interactions exceeded.
 
 ## -remarks
 
 ## -see-also
 
+[GetHoldParameterInteractionContext function](nf-interactioncontext-getholdparameterinteractioncontext.md)
+
+[SetHoldParameterInteractionContext function](nf-interactioncontext-setholdparameterinteractioncontext.md)

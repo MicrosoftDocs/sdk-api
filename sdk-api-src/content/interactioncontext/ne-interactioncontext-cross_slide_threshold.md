@@ -47,7 +47,6 @@ api_name:
 
 # CROSS_SLIDE_THRESHOLD enumeration
 
-
 ## -description
 
 Specifies the cross-slide behavior thresholds.
@@ -82,14 +81,6 @@ Maximum number of interactions exceeded.
 
 [CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
 
-
-
 [GetCrossSlideParameterInteractionContext function](nf-interactioncontext-getcrossslideparameterinteractioncontext.md)
-
-
-
-
-
-
 
 [SetCrossSlideParametersInteractionContext function](nf-interactioncontext-setcrossslideparametersinteractioncontext.md)

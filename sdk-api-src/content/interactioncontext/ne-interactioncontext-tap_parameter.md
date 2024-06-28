@@ -39,15 +39,26 @@ helpviewer_keywords:
 
 ## -description
 
+Specifies various values relevant to a tap gesture.
+
 ## -enum-fields
 
 ### -field TAP_PARAMETER_MIN_CONTACT_COUNT
 
+The minimum number of contacts recognized.
+
 ### -field TAP_PARAMETER_MAX_CONTACT_COUNT
 
+The maximum number of contacts recognized.
+
 ### -field TAP_PARAMETER_MAX
+
+Maximum number of interactions exceeded.
 
 ## -remarks
 
 ## -see-also
 
+[GetTapParameterInteractionContext function](nf-interactioncontext-gettapparameterinteractioncontext.md)
+
+[SetTapParameterInteractionContext function](nf-interactioncontext-settapparameterinteractioncontext.md)
