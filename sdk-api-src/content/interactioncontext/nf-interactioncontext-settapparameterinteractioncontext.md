@@ -3,7 +3,6 @@ UID: NF:interactioncontext.SetTapParameterInteractionContext
 tech.root: input_intcontext
 title: SetTapParameterInteractionContext
 ms.date: 06/28/2024
-targetos: Windows
 description: Sets the tap interaction behavior.
 prerelease: false
 req.assembly: 

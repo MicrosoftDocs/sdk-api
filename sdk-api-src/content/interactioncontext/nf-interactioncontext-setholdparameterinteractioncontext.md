@@ -3,7 +3,6 @@ UID: NF:interactioncontext.SetHoldParameterInteractionContext
 tech.root: input_intcontext
 title: SetHoldParameterInteractionContext
 ms.date: 06/28/2024
-targetos: Windows
 description: Sets the hold interaction behavior.
 prerelease: false
 req.assembly: 

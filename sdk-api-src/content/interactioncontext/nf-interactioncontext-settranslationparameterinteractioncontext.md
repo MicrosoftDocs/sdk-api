@@ -3,7 +3,6 @@ UID: NF:interactioncontext.SetTranslationParameterInteractionContext
 tech.root: input_intcontext
 title: SetTranslationParameterInteractionContext
 ms.date: 06/28/2024
-targetos: Windows
 description: Sets the drag interaction behavior.
 prerelease: false
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NF:interactioncontext.GetTapParameterInteractionContext
 tech.root: input_intcontext
 title: GetTapParameterInteractionContext (interactioncontext.h)
 ms.date: 06/28/2024
-targetos: Windows
 description: Gets the tap interaction behavior.
 prerelease: false
 req.assembly: 

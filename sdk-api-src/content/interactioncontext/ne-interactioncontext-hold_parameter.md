@@ -3,7 +3,6 @@ UID: NE:interactioncontext.HOLD_PARAMETER
 tech.root: input_intcontext
 title: HOLD_PARAMETER enumeration (interactioncontext.h)
 ms.date: 06/27/2024
-targetos: Windows
 description: Specifies various values relevant to a press and hold gesture.
 prerelease: false
 req.construct-type: enumeration

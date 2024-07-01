@@ -2,10 +2,7 @@
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
 title: INTERACTION_CONTEXT_OUTPUT (interactioncontext.h)
 description: Defines the output of the Interaction Context object.
-helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT","INTERACTION_CONTEXT_OUTPUT structure","input_intcontext.interaction_context_output","interactioncontext.interaction_context_output","interactioncontext/INTERACTION_CONTEXT_OUTPUT"]
-old-location: input_intcontext\interaction_context_output.htm
 tech.root: input_intcontext
-ms.assetid: 90ba531c-9f97-451d-8781-450dbc248f47
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, input_intcontext.interaction_context_output, interactioncontext.interaction_context_output, interactioncontext/INTERACTION_CONTEXT_OUTPUT
 req.header: interactioncontext.h
@@ -43,6 +40,7 @@ api_location:
  - interactioncontext.h
 api_name:
  - INTERACTION_CONTEXT_OUTPUT
+helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT","INTERACTION_CONTEXT_OUTPUT structure","input_intcontext.interaction_context_output","interactioncontext.interaction_context_output","interactioncontext/INTERACTION_CONTEXT_OUTPUT"]
 ---
 
 # INTERACTION_CONTEXT_OUTPUT structure
@@ -52,7 +50,7 @@ api_name:
 Defines the output of the  [Interaction Context](../_input_intcontext/index.md) object.
 
 > [!NOTE]
-> See [INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md) for enhanced gesture recognition support.
+> See [INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md) for enhanced gesture recognition support.
 
 ## -struct-fields
 

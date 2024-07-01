@@ -3,7 +3,6 @@ UID: NE:interactioncontext.TRANSLATION_PARAMETER
 tech.root: input_intcontext
 title: TRANSLATION_PARAMETER
 ms.date: 06/28/2024
-targetos: Windows
 description: Specifies various values relevant to a drag manipulation.
 prerelease: false
 req.construct-type: enumeration

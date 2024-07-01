@@ -3,7 +3,6 @@ UID: NE:interactioncontext.TAP_PARAMETER
 tech.root: input_intcontext
 title: TAP_PARAMETER enumeration (interactioncontext.h)
 ms.date: 06/28/2024
-targetos: Windows
 description: Specifies various values relevant to a tap gesture.
 prerelease: false
 req.construct-type: enumeration

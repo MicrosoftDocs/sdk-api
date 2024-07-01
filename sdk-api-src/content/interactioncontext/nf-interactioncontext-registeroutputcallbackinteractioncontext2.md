@@ -3,7 +3,6 @@ UID: NF:interactioncontext.RegisterOutputCallbackInteractionContext2
 tech.root: input_intcontext
 title: RegisterOutputCallbackInteractionContext2
 ms.date: 06/28/2024
-targetos: Windows
 description: Registers a callback to receive interaction events from an Interaction Context object.
 prerelease: false
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NC:interactioncontext.INTERACTION_CONTEXT_OUTPUT_CALLBACK2
 tech.root: input_intcontext
 title: INTERACTION_CONTEXT_OUTPUT_CALLBACK2 (interactioncontext.h)
 ms.date: 06/27/2024
-targetos: Windows
 description: Callback that receives events from an Interaction Context object.
 prerelease: false
 req.assembly: 
