@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Include  the specified pointer in the set of pointers processed by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Include  the specified pointer in the set of pointers processed by the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the [Interaction Context](../_input_intcontext/index.md) object.
 
 ### -param pointerId [in]
 
@@ -72,20 +72,20 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-Turn pointer filtering on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>.
+Turn pointer filtering on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in [SetPropertyInteractionContext function](nf-interactioncontext-setpropertyinteractioncontext.md).
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
+[GetPropertyInteractionContext function](nf-interactioncontext-getpropertyinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-removepointerinteractioncontext">RemovePointerInteractionContext</a>
+
+[RemovePointerInteractionContext function](nf-interactioncontext-removepointerinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
+[SetPropertyInteractionContext function](nf-interactioncontext-setpropertyinteractioncontext.md)

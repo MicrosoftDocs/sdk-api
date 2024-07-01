@@ -1,56 +1,49 @@
 ---
-UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
-title: INTERACTION_CONTEXT_OUTPUT (interactioncontext.h)
+UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT2
+title: INTERACTION_CONTEXT_OUTPUT2
 description: Defines the output of the Interaction Context object.
 tech.root: input_intcontext
-ms.date: 12/05/2018
-ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, input_intcontext.interaction_context_output, interactioncontext.interaction_context_output, interactioncontext/INTERACTION_CONTEXT_OUTPUT
+ms.date: 06/28/2024
+ms.keywords: INTERACTION_CONTEXT_OUTPUT2, INTERACTION_CONTEXT_OUTPUT2 structure, input_intcontext.interaction_context_output2, interactioncontext.interaction_context_output2, interactioncontext/INTERACTION_CONTEXT_OUTPUT2
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.target-min-winverclnt: Windows 10 version 21H1
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
-req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
 req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: INTERACTION_CONTEXT_OUTPUT
+req.lib: 
+req.max-support: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - INTERACTION_CONTEXT_OUTPUT
- - interactioncontext/INTERACTION_CONTEXT_OUTPUT
-dev_langs:
- - c++
+req.typenames: INTERACTION_CONTEXT_OUTPUT2
+typedef_isUnnamed: false
+req.umdf-ver: 
+req.unicode-ansi: 
+req.construct-type: structure
+targetos: Windows
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - HeaderDef
 api_location:
  - interactioncontext.h
 api_name:
- - INTERACTION_CONTEXT_OUTPUT
-helpviewer_keywords: ["INTERACTION_CONTEXT_OUTPUT","INTERACTION_CONTEXT_OUTPUT structure","input_intcontext.interaction_context_output","interactioncontext.interaction_context_output","interactioncontext/INTERACTION_CONTEXT_OUTPUT"]
+ - INTERACTION_CONTEXT_OUTPUT2
+f1_keywords:
+ - INTERACTION_CONTEXT_OUTPUT2
+ - interactioncontext/INTERACTION_CONTEXT_OUTPUT2
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - INTERACTION_CONTEXT_OUTPUT2
 ---
 
-# INTERACTION_CONTEXT_OUTPUT structure
+# INTERACTION_CONTEXT_OUTPUT2 structure
 
 ## -description
 
-Defines the output of the  [Interaction Context](../_input_intcontext/index.md) object.
-
-> [!NOTE]
-> See [INTERACTION_CONTEXT_OUTPUT2 structure](ns-interactioncontext-interaction_context_output2.md) for enhanced gesture recognition support.
+Defines the output of the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -struct-fields
 
@@ -65,6 +58,14 @@ One of the constants from [INTERACTION_FLAGS enumeration](ne-interactioncontext-
 ### -field inputType
 
 One of the constants from [POINTER_INPUT_TYPE enumeration](../winuser/ne-winuser-tagpointer_input_type.md).
+
+### -field contactCount
+
+The number of contacts that can be recognized.
+
+### -field currentContactCount
+
+The number of current contacts.
 
 ### -field x
 
@@ -89,6 +90,10 @@ The state of the tap gesture.
 ### -field arguments.crossSlide
 
 The state of the cross-slide interaction.
+
+## -remarks
+
+Provides enhanced gesture recognition support compared to the [INTERACTION_CONTEXT_OUTPUT structure](ns-interactioncontext-interaction_context_output.md).
 
 ## -see-also
 

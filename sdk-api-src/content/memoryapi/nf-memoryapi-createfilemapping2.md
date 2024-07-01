@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# CreateFileMapping2 function
+
 ## -description
 
 Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.

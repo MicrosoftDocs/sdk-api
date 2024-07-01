@@ -56,7 +56,7 @@ Specifies the inertia values for a manipulation (translation, rotation, scaling)
 
 ### -field INERTIA_PARAMETER_TRANSLATION_DECELERATION:0x00000001
 
-The rate of deceleration, in degrees/ms².
+The rate of deceleration, in degrees/ms<sup>2</sup>.
 
 ### -field INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT:0x00000002
 
@@ -64,7 +64,7 @@ The relative change in screen location, in DIPs.
 
 ### -field INERTIA_PARAMETER_ROTATION_DECELERATION:0x00000003
 
-The rate of deceleration, in degrees/ms².
+The rate of deceleration, in degrees/ms<sup>2</sup>.
 
 ### -field INERTIA_PARAMETER_ROTATION_ANGLE:0x00000004
 
@@ -72,7 +72,7 @@ The relative change in angle of rotation, in radians.
 
 ### -field INERTIA_PARAMETER_EXPANSION_DECELERATION:0x00000005
 
-The rate of deceleration, in degrees/ms².
+The rate of deceleration, in degrees/ms<sup>2</sup>.
 
 ### -field INERTIA_PARAMETER_EXPANSION_EXPANSION:0x00000006
 
@@ -84,8 +84,7 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinertiaparameterinteractioncontext">SetInertiaParameterInteractionContext</a>
+[SetInertiaParameterInteractionContext function](nf-interactioncontext-setinertiaparameterinteractioncontext.md)

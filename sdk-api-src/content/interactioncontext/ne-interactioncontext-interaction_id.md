@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the interaction states used for configuring an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. Interactions can be static (single contact with no manipulation, such as tap, double tap, right tap, press and hold) or dynamic (one or more contacts with manipulation, such as translation, rotation, or scaling).
+Specifies the interaction states used for configuring an [Interaction Context](../_input_intcontext/index.md) object. Interactions can be static (single contact with no manipulation, such as tap, double tap, right tap, press and hold) or dynamic (one or more contacts with manipulation, such as translation, rotation, or scaling).
 
 ## -enum-fields
 
@@ -94,12 +94,12 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
+[INTERACTION_CONTEXT_CONFIGURATION structure](ns-interactioncontext-interaction_context_configuration.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
+
+[SetInteractionConfigurationInteractionContext function](nf-interactioncontext-setinteractionconfigurationinteractioncontext.md)

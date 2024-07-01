@@ -47,7 +47,6 @@ api_name:
 
 # GetCrossSlideParameterInteractionContext function
 
-
 ## -description
 
 Gets the cross-slide interaction behavior.
@@ -60,30 +59,20 @@ The handle of the interaction context.
 
 ### -param threshold [in]
 
-One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-cross_slide_threshold">CROSS_SLIDE_THRESHOLD</a>.
+One of the constants from [CROSS_SLIDE_THRESHOLD enumeration](ne-interactioncontext-cross_slide_threshold.md).
 
 ### -param distance [out]
 
-The distance threshold of <i>threshold</i>.
+The distance threshold of *threshold*.
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
+[CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
 
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setcrossslideparametersinteractioncontext">SetCrossSlideParametersInteractionContext</a>
+[SetCrossSlideParametersInteractionContext function](nf-interactioncontext-setcrossslideparametersinteractioncontext.md)
