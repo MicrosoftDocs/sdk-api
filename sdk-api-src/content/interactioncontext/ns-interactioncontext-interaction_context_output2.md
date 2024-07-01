@@ -1,28 +1,27 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT2
-tech.root: input_intcontext
 title: INTERACTION_CONTEXT_OUTPUT2
-ms.date: 06/28/2024
-targetos: Windows
 description: Defines the output of the Interaction Context object.
-prerelease: false
-req.construct-type: structure
-req.ddi-compliance: 
-req.dll: 
+tech.root: input_intcontext
+ms.date: 06/28/2024
+ms.keywords: INTERACTION_CONTEXT_OUTPUT2, INTERACTION_CONTEXT_OUTPUT2 structure, input_intcontext.interaction_context_output2, interactioncontext.interaction_context_output2, interactioncontext/INTERACTION_CONTEXT_OUTPUT2
 req.header: interactioncontext.h
 req.include-header: 
-targetos: Windows
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 version 21H1
+req.target-min-winversvr: Windows Server 2022
 req.kmdf-ver: 
+req.ddi-compliance: 
+req.dll: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 version 21H1
-req.target-min-winversvr: Windows Server 2022
-req.target-type: Windows
 req.typenames: INTERACTION_CONTEXT_OUTPUT2
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
+req.construct-type: structure
+targetos: Windows
 topic_type:
  - apiref
 api_type:
