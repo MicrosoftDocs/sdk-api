@@ -69,7 +69,9 @@ A handle.
 
 If this parameter is NULL, the wait object will cease to queue new callbacks (but callbacks already queued will still occur).
 
-If this parameter is not NULL, it must refer to a valid waitable object.
+If this parameter is not NULL, it must refer to a valid waitable object. 
+
+Mutex is not supported. If a handle to a mutex is passed in, the thread pool raises a STATUS_THREADPOOL_HANDLE_EXCEPTION exception and ExceptionRecord.ExceptionInformation[0] will be equal to STATUS_INVALID_PARAMETER_3.
 
 If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
 

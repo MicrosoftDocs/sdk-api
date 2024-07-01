@@ -57,7 +57,10 @@ Queries for information on the current update sequence number (USN) change journ
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       Device,          // handle to volume
-                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode(LPVOID)       NULL,            // lpInBuffer(DWORD)        0,               // nInBufferSize(LPVOID)       lpOutBuffer,     // output buffer
+                 (DWORD) FSCTL_QUERY_USN_JOURNAL,// dwIoControlCode
+                 (LPVOID)       NULL,            // lpInBuffer
+                 (DWORD)        0,               // nInBufferSize
+                 (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
                  (LPDWORD)      lpBytesReturned, // number of bytes returned
                  (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
@@ -107,7 +110,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
     appears. The volume must be formatted with the NTFS filesystem.

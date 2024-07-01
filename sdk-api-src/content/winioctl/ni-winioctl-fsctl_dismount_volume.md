@@ -103,7 +103,7 @@ The <i>hDevice</i> handle passed to
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string of the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The 
      application must also specify the <b>FILE_SHARE_READ</b> and 

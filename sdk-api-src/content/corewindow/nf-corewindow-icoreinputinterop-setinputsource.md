@@ -50,13 +50,15 @@ api_name:
 
 ## -description
 
-Sets the input source for an app's <a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable&preserve-view=true">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
+Sets the input source for an app's <a href="/uwp/api/windows.ui.core.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>.
 
 ## -parameters
 
 ### -param value [in]
 
 Pointer to the base COM interface of the input source.
+
+The input source can be either <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a> or <a href="/uwp/api/windows.ui.composition.visual">Windows.UI.Composition.Visual</a>
 
 ## -returns
 
@@ -68,7 +70,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable&preserve-view=true">CoreIndependentInputSource</a>
+<a href="/uwp/api/windows.ui.core.coreindependentinputsource">CoreIndependentInputSource</a>
 
 
 

@@ -79,6 +79,12 @@ If <i>Type</i> is set to <b>MemExtendedParameterAttributeFlags</b>, then <i>ULon
 </thead>
 <tbody>
 <tr>
+<td>MEM_EXTENDED_PARAMETER_NONPAGED</td>
+<td>0x02</td>
+<td>The allocation is non-pageable.</td>
+</tr>
+<tr>
+<tr>
 <td>MEM_EXTENDED_PARAMETER_NONPAGED_LARGE</td>
 <td>0x08</td>
 <td>The allocation is mapped using large pages.</td>

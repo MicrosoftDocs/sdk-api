@@ -260,6 +260,24 @@ If you specify this value, you must also specify <b>MEM_RESERVE</b> and <b>MEM_C
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="MEM_64K_PAGES"></a><a id="mem_64k_pages"></a><dl>
+<dt><b>MEM_64K_PAGES</b></dt>
+<dt>0x20400000</dt>
+</dl>
+</td>
+<td width="60%">
+A hint to the operating system to map the memory using 64K pages, if possible.
+
+A 64K page is a region of memory that is 64K in size, virtually and physically contiguous, and virtually and physically aligned on a 64K boundary.
+
+By default, memory allocated using MEM_64K_PAGES is pageable, and physical pages backing the memory are allocated on demand (at the time of access). If physical memory is too fragmented to assemble a physically contiguous 64K page, all or part of a MEM_64K_PAGES allocation may be mapped using non-contiguous small pages instead.
+
+If MEM_64K_PAGES is combined with the <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER_NONPAGED</a> attribute, the allocation will be mapped using non-paged 64K pages. In that case, if contiguous 64K pages cannot be obtained, the allocation will fail.
+
+If MEM_64K_PAGES is specified, the Size and BaseAddress parameters must both be multiples of 64K (BaseAddress may be NULL).
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="MEM_PHYSICAL"></a><a id="mem_physical"></a><dl>
 <dt><b>MEM_PHYSICAL</b></dt>
 <dt>0x00400000</dt>
@@ -488,7 +506,7 @@ CreateRingBuffer (
     }
 
     //
-    // Ownership transferred, don’t free this now.
+    // Ownership transferred, don't free this now.
     //
 
     placeholder1 = nullptr;

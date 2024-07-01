@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define HRESULT_CODE(hr)    ((hr) &amp; 0xFFFF)
+#define HRESULT_CODE(hr)    ((hr) & 0xFFFF)
 ```
 
 

@@ -61,7 +61,8 @@ To perform this operation, call the
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                 (DWORD) FSCTL_READ_FILE_USN_DATA, // dwIoControlCode(LPVOID)       lpInBuffer,      // input buffer
+                 (DWORD) FSCTL_READ_FILE_USN_DATA, // dwIoControlCode
+                 (LPVOID)       lpInBuffer,      // input buffer
                  (DWORD)        nInBufferSize,   // size of input buffer
                  (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
@@ -115,7 +116,7 @@ To retrieve a handle to a volume, call
      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.&#92;<i>X</i>:
+&#92;&#92;.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears. The volume must be ReFS or NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with 

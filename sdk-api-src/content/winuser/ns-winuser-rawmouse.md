@@ -126,7 +126,7 @@ The motion in the Y direction. This is signed relative motion or absolute motion
 
 Type: **ULONG**
 
-The device-specific additional information for the event.
+Additional device-specific information for the event. See [Distinguishing Pen Input from Mouse and Touch](/windows/win32/tablet/system-events-and-mouse-messages#distinguishing-pen-input-from-mouse-and-touch) for more info.
 
 ## -remarks
 

@@ -1106,7 +1106,7 @@ For an example of opening a physical drive, see
 
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
-      "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
+      "&#92;&#92;.&#92;<i>X</i>:". Do not use a trailing backslash 
       (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>

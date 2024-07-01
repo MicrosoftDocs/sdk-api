@@ -62,7 +62,7 @@ The facility of an **HRESULT** is stored in bits 16-26 of the **HRESULT**.
 This macro is defined as follows:
 
 ``` syntax
-#define HRESULT_FACILITY(hr)  (((hr) << 16) & 0x1fff)
+#define HRESULT_FACILITY(hr)  (((hr) >> 16) & 0x1fff)
 ```
 
 ## Possible values

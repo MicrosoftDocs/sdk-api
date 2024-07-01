@@ -2,12 +2,12 @@
 UID: NF:wincrypt.CertFindCertificateInStore
 title: CertFindCertificateInStore function (wincrypt.h)
 description: Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.
-helpviewer_keywords: ["CERT_FIND_ANY","CERT_FIND_CERT_ID","CERT_FIND_CROSS_CERT_DIST_POINTS","CERT_FIND_CTL_USAGE","CERT_FIND_ENHKEY_USAGE","CERT_FIND_EXISTING","CERT_FIND_HASH","CERT_FIND_HAS_PRIVATE_KEY","CERT_FIND_ISSUER_ATTR","CERT_FIND_ISSUER_NAME","CERT_FIND_ISSUER_OF","CERT_FIND_ISSUER_STR","CERT_FIND_KEY_IDENTIFIER","CERT_FIND_KEY_SPEC","CERT_FIND_MD5_HASH","CERT_FIND_PROPERTY","CERT_FIND_PUBKEY_MD5_HASH","CERT_FIND_PUBLIC_KEY","CERT_FIND_SHA1_HASH","CERT_FIND_SIGNATURE_HASH","CERT_FIND_SUBJECT_ATTR","CERT_FIND_SUBJECT_CERT","CERT_FIND_SUBJECT_NAME","CERT_FIND_SUBJECT_STR","CertFindCertificateInStore","CertFindCertificateInStore function [Security]","_crypto2_certfindcertificateinstore","security.certfindcertificateinstore","wincrypt/CertFindCertificateInStore"]
+helpviewer_keywords: ["CERT_FIND_ANY","CERT_FIND_CERT_ID","CERT_FIND_CROSS_CERT_DIST_POINTS","CERT_FIND_CTL_USAGE","CERT_FIND_ENHKEY_USAGE","CERT_FIND_EXISTING","CERT_FIND_HASH","CERT_FIND_HAS_PRIVATE_KEY","CERT_FIND_ISSUER_ATTR","CERT_FIND_ISSUER_NAME","CERT_FIND_ISSUER_OF","CERT_FIND_ISSUER_STR","CERT_FIND_KEY_IDENTIFIER","CERT_FIND_KEY_SPEC","CERT_FIND_MD5_HASH","CERT_FIND_PROPERTY","CERT_FIND_PUBKEY_MD5_HASH","CERT_FIND_PUBLIC_KEY","CERT_FIND_SHA1_HASH","CERT_FIND_SHA1_SHA256_HASH","CERT_FIND_SHA256_HASH","CERT_FIND_SIGNATURE_HASH","CERT_FIND_SUBJECT_ATTR","CERT_FIND_SUBJECT_CERT","CERT_FIND_SUBJECT_NAME","CERT_FIND_SUBJECT_STR","CertFindCertificateInStore","CertFindCertificateInStore function [Security]","_crypto2_certfindcertificateinstore","security.certfindcertificateinstore","wincrypt/CertFindCertificateInStore"]
 old-location: security\certfindcertificateinstore.htm
 tech.root: security
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
-ms.date: 12/05/2018
-ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
+ms.date: 06/24/2024
+ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SHA1_SHA256_HASH, CERT_FIND_SHA256_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -321,6 +321,32 @@ Searches for a certificate with a public key that matches the public key in the 
 <tr>
 <td width="40%"><a id="CERT_FIND_SHA1_HASH"></a><a id="cert_find_sha1_hash"></a><dl>
 <dt><b>CERT_FIND_SHA1_HASH</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+
+Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_FIND_SHA1_SHA256_HASH"></a><a id="cert_find_sha1_sha256_hash"></a><dl>
+<dt><b>CERT_FIND_SHA1_SHA256_HASH</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+
+Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CERT_FIND_SHA256_HASH"></a><a id="cert_find_sha256_hash"></a><dl>
+<dt><b>CERT_FIND_SHA256_HASH</b></dt>
 <dt></dt>
 </dl>
 </td>
