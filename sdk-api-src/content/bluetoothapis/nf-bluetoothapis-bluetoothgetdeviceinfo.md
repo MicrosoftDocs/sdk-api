@@ -58,7 +58,7 @@ The <b>BluetoothGetDeviceInfo</b> function retrieves information about a remote 
 
 ### -param hRadio
 
-A handle to a local radio, obtained from a call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindfirstradio">BluetoothFindFirstRadio</a> or similar functions, or from a call to the <b>SetupDiEnumerateDeviceInterfaces</b> function.
+A handle to a local radio, obtained from a call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindfirstradio">BluetoothFindFirstRadio</a> or similar functions, or from a call to the <b>SetupDiEnumDeviceInterfaces</b> function.
 
 ### -param pbtdi
 
