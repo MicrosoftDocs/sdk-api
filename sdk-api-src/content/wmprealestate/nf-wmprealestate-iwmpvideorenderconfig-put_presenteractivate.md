@@ -90,7 +90,7 @@ An application that embeds Windows Media Player can provide a custom video prese
 
 The activation object is responsible for initializing the custom presenter. The nature of the initialization and the format of any context data required for the initialization are completely under the control of those who develop the custom presenter and the activation object.
 
-The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> interface are documented in the Microsoft Media Foundation SDK, which is part of the Microsoft Windows SDK. You can download the Windows SDK from the <a href="https://msdn.microsoft.com/downloads/default.aspx">MSDN Download and Code Center</a>.
+The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> interface are documented in the Microsoft Media Foundation SDK, which is part of the Microsoft Windows SDK.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 

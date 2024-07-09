@@ -68,7 +68,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-We do not recommend the use of this method, because it does not return consistent results. For information about the GUID table, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics". The documentation is available online; see <a href="/dotnet/standard/components#applicable-standards">ECMA C# and Common Language Infrastructure Standards</a> on MSDN and <a href="https://www.ecma-international.org/publications/standards/Ecma-335.htm">Standard ECMA-335 - Common Language Infrastructure (CLI)</a> on the Ecma International Web site.
+We do not recommend the use of this method, because it does not return consistent results. For information about the GUID table, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics". For more info, see <a href="/dotnet/standard/components#applicable-standards">ECMA C# and Common Language Infrastructure Standards</a> and <a href="https://www.ecma-international.org/publications/standards/Ecma-335.htm">Standard ECMA-335 - Common Language Infrastructure (CLI)</a> on the Ecma International Web site.
 
 ## -see-also
 

@@ -99,7 +99,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 This function will return ERROR_BAD_CONFIGURATION if you attempt to refer to a device that is not configured, such as a folder that has not been specified, or a printer that does not exist on your network.
 
