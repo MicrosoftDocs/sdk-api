@@ -67,7 +67,7 @@ This property is read/write.
 
 This property changes the way selection UI is displayed when the system changes to High Contrast mode. Selection UI elements include the selection bounding box and the selection handles.
 
-Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT system colors to draw elements of the selection UI when the system is in High Contrast mode and the <b>SupportHighContrastSelectionUI</b> property is <b>TRUE</b>. For more information on system colors, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function in MSDN.
+Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT system colors to draw elements of the selection UI when the system is in High Contrast mode and the <b>SupportHighContrastSelectionUI</b> property is <b>TRUE</b>. For more information on system colors, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
 
 ## -see-also
 
