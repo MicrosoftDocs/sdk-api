@@ -199,6 +199,7 @@ A string, referred to as a <i>verb</i>, that specifies the action to be performe
 - **explore**: Explores the folder specified by <b>lpFile</b>.
 - **find**: Initiates a search starting from the specified directory.
 - **open**: Opens the file specified by the <b>lpFile</b> parameter. The file can be an executable file, a document file, or a folder.
+- **opeanas**: Launches a picker UI allowing the user to select an app with which to open the file specified by the <b>lpFile</b> parameter. 
 - **print**: Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a document file, the function will fail.
 - **properties**: Displays the file or folder's properties.
 - **runas**: Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
