@@ -2,7 +2,7 @@
 UID: NF:enclaveapi.LoadEnclaveImageA
 tech.root: base 
 title: LoadEnclaveImageA
-ms.date: 04/14/2021
+ms.date: 07/02/2024
 targetos: Windows
 description: Loads an image and all of its imports into an enclave. (ANSI)
 req.assembly: 
@@ -68,6 +68,8 @@ To get extended error information, call [GetLastError](../errhandlingapi/nf-errh
 ## -remarks
 
 **LoadEnclaveImage** is only supported enclaves that have the **ENCLAVE_TYPE_VBS** enclave type.
+
+You cannot load an image into the enclave after it has been initialized with [InitializeEnclave](nf-enclaveapi-initializeenclave.md).
 
 ## -see-also
 

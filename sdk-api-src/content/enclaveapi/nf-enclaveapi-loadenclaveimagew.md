@@ -6,7 +6,7 @@ helpviewer_keywords: ["LoadEnclaveIUmageA", "LoadEnclaveImage", "LoadEnclaveImag
 old-location: base\loadenclaveimage.htm
 tech.root: base
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
-ms.date: 02/02/2024
+ms.date: 07/02/2024
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
 req.header: enclaveapi.h
 req.include-header: 
@@ -71,6 +71,8 @@ A NULL-terminated string that contains the name of the image to load.
 ## -remarks
 
 **LoadEnclaveImage** is only supported enclaves that have the **ENCLAVE_TYPE_VBS** enclave type.
+
+You cannot load an image into the enclave after it has been initialized with [InitializeEnclave](nf-enclaveapi-initializeenclave.md).
 
 ## -see-also
 

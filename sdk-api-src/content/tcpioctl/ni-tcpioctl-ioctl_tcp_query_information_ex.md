@@ -56,7 +56,7 @@ control code.]
 Retrieves information from the TCP/IP driver.
 
 To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
-				function with the following parameters.
+                function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
@@ -101,12 +101,12 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -remarks
 
-To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Windows Driver Development, as documented in the Windows Driver Kit (WDK), and specifically with Transport Driver Interface (TDI) drivers. The WDK is available for download from the MSDN website.
+To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Windows Driver Development, as documented in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk), and specifically with Transport Driver Interface (TDI) drivers.
 
 <div class="alert"><b>Note</b>  To use this control code, include the Windows.h header file. In addition, specifically include Tcpioctl.h, a header file published in the Windows SDK  for use with <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, and also Tdiinfo.h and Tdistat.h, header files published in the WDK for TDI driver development. </div>
 <div> </div>
 <div class="alert"><b>Note</b>  Various flags and other constants defined in the Tdiinfo.h WDK header file for the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation use the following naming convention.
-	    <table>
+        <table>
 <tr>
 <th>Letters</th>
 <th>Stand for</th>
@@ -153,32 +153,32 @@ To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Window
 </div>
 <div> </div>
 The <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation 
-		retrieves different kinds of information, depending on what the 
-		<a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
-				pointed to by the <i>lpInBuffer</i> parameter contains, as described in the following paragraph and  example code.
-			
+        retrieves different kinds of information, depending on what the 
+        <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
+                pointed to by the <i>lpInBuffer</i> parameter contains, as described in the following paragraph and  example code.
+            
 
 1. Enumerate TDI Entities.
 
  To retrieve an array of <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
-				structures that identifies all the TCP entities on the machine, set the <b>ID.toi_entity.tei_entity</b> 
-				member of the input structure to <b>GENERIC_ENTITY</b>. <b>ID.toi_class</b> must then 
-				be set to <b>INFO_CLASS_GENERIC</b>, <b>ID.toi_type</b> must be set to 
-				<b>INFO_TYPE_PROVIDER</b>, and <b>ID.toi_id</b> must be set to 
-				<b>ENTITY_LIST_ID</b>, or   the operation fails with a TDI_INVALID_PARAMETER error code. 
-				The <b>Context</b> member of the input structure is ignored when a list is requested. 
-				The output in this case is an array of <b>TDIEntityID</b> structures. 
-				The <b>GetEntityArray</b> function in the first code example below shows how to retrieve such an array.
+                structures that identifies all the TCP entities on the machine, set the <b>ID.toi_entity.tei_entity</b> 
+                member of the input structure to <b>GENERIC_ENTITY</b>. <b>ID.toi_class</b> must then 
+                be set to <b>INFO_CLASS_GENERIC</b>, <b>ID.toi_type</b> must be set to 
+                <b>INFO_TYPE_PROVIDER</b>, and <b>ID.toi_id</b> must be set to 
+                <b>ENTITY_LIST_ID</b>, or   the operation fails with a TDI_INVALID_PARAMETER error code. 
+                The <b>Context</b> member of the input structure is ignored when a list is requested. 
+                The output in this case is an array of <b>TDIEntityID</b> structures. 
+                The <b>GetEntityArray</b> function in the first code example below shows how to retrieve such an array.
 
 2. Obtain Type Information about a Specific TDI Entity.
 
 If the <b>ID.toi_entity</b> member of the input 
-				structure identifies a specific entity (as in the case of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
-				structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
-				<b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
-				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b> pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
-				<b>Context</b> member of the input structure is ignored.
+                structure identifies a specific entity (as in the case of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
+                structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
+                <b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
+                <b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
+                <b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b> pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
+                <b>Context</b> member of the input structure is ignored.
 
 The possible type-flag values that can be returned are shown in the following table.
 
@@ -245,35 +245,35 @@ The possible type-flag values that can be returned are shown in the following ta
 3. Obtain MIB-II Information about an Interface Entity. 
 
 If the entity type is IF_MIB, then a MIB request can be sent to it that results in the return of an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure. Set the <b>ID.toi_entity</b> member of the input 
-				structure to identify the entity,  the <b>ID.toi_class</b> to 
-				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
-				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>IF_MIB_STATS_ID</b>.
+                structure to identify the entity,  the <b>ID.toi_class</b> to 
+                <b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
+                <b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
+                <b>IF_MIB_STATS_ID</b>.
 
 Note that because <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> is a variable-length structure, the output buffer should be allocated not just as "sizeof(IFEntry)" but as "sizeof(IFEntry) + MAX_ADAPTER_DESCRIPTION_LENGTH + 1".
 
 4. Obtain MIB-II Information about a Particular IP Entity. 
 
 MIB information can also be retrieved from an IP entity (one whose type is <b>CL_NL_ENTITY</b>) by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
-				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
-				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>IP_MIB_STATS_ID</b>. In this case, an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
+                <b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
+                <b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
+                <b>IP_MIB_STATS_ID</b>. In this case, an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
 
 5. Obtain Address Information about a Particular IP Entity.
 
 If the <b>ipsi_numaddr</b> member of the <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure returned for a particular IP entity is nonzero, an array of <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures can be retrieved by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
-				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
-				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>IP_MIB_ADDRTABLE_ENTRY_ID</b>. In this case, the output buffer should be allocated to hold an array of size:  
+                <b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
+                <b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
+                <b>IP_MIB_ADDRTABLE_ENTRY_ID</b>. In this case, the output buffer should be allocated to hold an array of size:  
 
 <code>sizeof(IPAddrEntry) * pIpSnmpInfoReturned-&gt;ipsi_numaddr</code>
 
 6. Obtain Interface Information about a Particular IP Address.
 
 More interface information can be retrieved for a given IP address returned in the <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> array above by leaving the <b>ID.toi_entity</b> member set to identify the IP entity, the <b>ID.toi_class</b> set to 
-				<b>INFO_CLASS_PROTOCOL</b>, and the <b>ID.toi_type</b> set to 
-				<b>INFO_TYPE_PROVIDER</b>, and then by setting the <b>ID.toi_id</b> to 
-				<b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
+                <b>INFO_CLASS_PROTOCOL</b>, and the <b>ID.toi_type</b> set to 
+                <b>INFO_TYPE_PROVIDER</b>, and then by setting the <b>ID.toi_id</b> to 
+                <b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
 
 Allocate an output buffer large enough to contain <code>sizeof(IPINTERFACEINFO) + MAX_PHYSADDR_SIZE</code>.
 
@@ -283,7 +283,7 @@ On return, the output buffer contains a filled-in <a href="/windows/desktop/api/
 #### Examples
 
 The following example shows how to obtain a list of the entities present
-				on the TCP adapter on the current machine.
+                on the TCP adapter on the current machine.
 
 
 ```cpp

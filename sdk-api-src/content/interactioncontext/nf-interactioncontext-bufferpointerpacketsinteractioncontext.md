@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Adds the history for a single input pointer to the buffer of the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Adds the history for a single input pointer to the buffer of the [Interaction Context](../_input_intcontext/index.md) object.
 
 ## -parameters
 
@@ -76,12 +76,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a>
+
+
+[POINTER_INFO structure](../winuser/ns-winuser-pointer_info.md)

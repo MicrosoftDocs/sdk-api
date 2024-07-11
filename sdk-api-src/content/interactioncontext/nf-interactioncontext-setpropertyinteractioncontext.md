@@ -49,43 +49,32 @@ api_name:
 
 # SetPropertyInteractionContext function
 
-
 ## -description
 
-Sets <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
+Sets [Interaction Context](../_input_intcontext/index.md) object properties.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the [Interaction Context](../_input_intcontext/index.md) object.
 
 ### -param contextProperty [in]
 
-One of the constants identified by <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
+One of the constants identified by [INTERACTION_CONTEXT_PROPERTY enumeration](ne-interactioncontext-interaction_context_property.md).
 
 ### -param value [in]
 
-The value of the constant identified by <i>contextProperty</i>.
+The value of the constant identified by *contextProperty*.
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a>
+[AddPointerInteractionContext function](nf-interactioncontext-addpointerinteractioncontext.md)
 
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+[GetPropertyInteractionContext function](nf-interactioncontext-getpropertyinteractioncontext.md)
