@@ -59,7 +59,7 @@ Describes a heap.
 The size, in bytes, of the heap.
             To avoid wasting memory, applications should pass <i>SizeInBytes</i> values which are multiples of the effective <i>Alignment</i>;
             but non-aligned <i>SizeInBytes</i> is also supported, for convenience.
-            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">ID3D12Device::GetResourceAllocationInfo</a>.
+            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc)">ID3D12Device::GetResourceAllocationInfo</a>.
 
 ### -field Properties
 

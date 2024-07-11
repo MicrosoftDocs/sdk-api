@@ -98,7 +98,7 @@ Specifies a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_tilin
 
 ## -remarks
 
-To estimate the total resource size of textures needed when calculating heap sizes and calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>, use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">GetResourceAllocationInfo</a> instead of <b>GetResourceTiling</b>.
+To estimate the total resource size of textures needed when calculating heap sizes and calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>, use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc)">GetResourceAllocationInfo</a> instead of <b>GetResourceTiling</b>.
           <b>GetResourceTiling</b> cannot be used for this.
         
 
