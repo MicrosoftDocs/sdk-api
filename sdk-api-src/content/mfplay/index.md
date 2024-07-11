@@ -5,8 +5,8 @@ ms.assetid: da41ae68-1d65-3a09-8082-43710ac22c6c
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: overview
-tech.root: mf
-f1_keywords:
+tech.root: mfarchive
+archived: truef1_keywords:
  - mfplay
  - mfplay/mfplay
 ---
