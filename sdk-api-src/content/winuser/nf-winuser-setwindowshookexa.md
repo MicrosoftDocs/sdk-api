@@ -94,6 +94,7 @@ Installs a hook procedure that monitors messages before the system sends them to
 </dl>
 </td>
 <td width="60%">
+ 
 Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the [HOOKPROC callback function](nc-winuser-hookproc.md) hook procedure.
 
 </td>
@@ -105,7 +106,8 @@ Installs a hook procedure that monitors messages after they have been processed 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="/windows/win32/winmsg/cbtproc">CBTProc</a> hook procedure.
+ 
+Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the [CBTProc](/windows/win32/winmsg/cbtproc) hook procedure.
 
 </td>
 </tr>
@@ -156,7 +158,7 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 > [!WARNING]
 > **Windows 11 and newer**: Journaling hook APIs are not supported. We recommend using the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
-Installs a hook procedure that posts messages previously recorded by a <a href="/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc) hook procedure.
+Installs a hook procedure that posts messages previously recorded by a [WH_JOURNALRECORD](/windows/desktop/winmsg/about-hooks) hook procedure. For more information, see the [JournalPlaybackProc](/windows/win32/winmsg/journalplaybackproc) hook procedure.
 
 </td>
 </tr>
@@ -183,7 +185,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/windows/win32/winmsg/keyboardproc">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the [KeyboardProc](/windows/win32/winmsg/keyboardproc) hook procedure.
 
 </td>
 </tr>
@@ -207,7 +209,7 @@ Installs a hook procedure that monitors low-level keyboard input events. For mor
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors mouse messages. For more information, see the <a href="/windows/win32/winmsg/mouseproc">MouseProc</a> hook procedure.
+Installs a hook procedure that monitors mouse messages. For more information, see the [MouseProc](/windows/win32/winmsg/mouseproc) hook procedure.
 
 </td>
 </tr>
@@ -219,7 +221,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/windows/win32/winmsg/lowlevelmouseproc">LowLevelMouseProc</a> hook procedure.
+Installs a hook procedure that monitors low-level mouse input events. For more information, see the [LowLevelMouseProc](/windows/win32/winmsg/lowlevelmouseproc) hook procedure.
 
 </td>
 </tr>
@@ -231,7 +233,7 @@ Installs a hook procedure that monitors low-level mouse input events. For more i
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="/windows/win32/winmsg/messageproc">MessageProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the [MessageProc](/windows/win32/winmsg/messageproc) hook procedure.
 
 </td>
 </tr>
@@ -242,7 +244,8 @@ Installs a hook procedure that monitors messages generated as a result of an inp
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="/windows/win32/winmsg/shellproc">ShellProc</a> hook procedure.
+ 
+Installs a hook procedure that receives notifications useful to shell applications. For more information, see the [ShellProc](/windows/win32/winmsg/shellproc) hook procedure.
 
 </td>
 </tr>
@@ -254,7 +257,7 @@ Installs a hook procedure that receives notifications useful to shell applicatio
 </td>
 <td width="60%">
 
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="/windows/win32/winmsg/sysmsgproc">SysMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the [SysMsgProc](/windows/win32/winmsg/sysmsgproc) hook procedure.
 
 </td>
 </tr>
@@ -284,7 +287,7 @@ Type: <b>HHOOK</b>
 
 If the function succeeds, the return value is the handle to the hook procedure. 
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -400,7 +403,7 @@ This behavior is similar to what happens when there is an architecture mismatch 
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and Releasing Hook Procedures</a>.
+For an example, see [Installing and Releasing Hook Procedures](/windows/desktop/winmsg/using-hooks).
 
 > [!NOTE]
 > The winuser.h header defines SetWindowsHookEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
