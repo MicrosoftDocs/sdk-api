@@ -5,7 +5,8 @@ description: Gets the current playback rate. (IMFPMediaPlayer.GetRate)
 helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetRate method","IMFPMediaPlayer.GetRate","IMFPMediaPlayer::GetRate","mf.imfpmediaplayer_getrate","mfplay/IMFPMediaPlayer::GetRate"]
 old-location: mf\imfpmediaplayer_getrate.htm
 tech.root: mfarchive
-archived: truems.assetid: 51257361-0362-43c4-8aca-81fd49be8482
+archived: true
+ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482
 ms.date: 12/05/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetRate method, IMFPMediaPlayer.GetRate, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
 req.header: mfplay.h

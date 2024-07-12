@@ -5,7 +5,8 @@ description: Queues a media item for playback.
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetMediaItem method","IMFPMediaPlayer.SetMediaItem","IMFPMediaPlayer::SetMediaItem","SetMediaItem","SetMediaItem method [Media Foundation]","SetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setmediaitem","mfplay/IMFPMediaPlayer::SetMediaItem"]
 old-location: mf\imfpmediaplayer_setmediaitem.htm
 tech.root: mfarchive
-archived: truems.assetid: c792a024-c4f8-4e0b-9720-259d1dc28ee8
+archived: true
+ms.assetid: c792a024-c4f8-4e0b-9720-259d1dc28ee8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMediaItem method, IMFPMediaPlayer.SetMediaItem, IMFPMediaPlayer::SetMediaItem, SetMediaItem, SetMediaItem method [Media Foundation], SetMediaItem method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmediaitem, mfplay/IMFPMediaPlayer::SetMediaItem
 req.header: mfplay.h

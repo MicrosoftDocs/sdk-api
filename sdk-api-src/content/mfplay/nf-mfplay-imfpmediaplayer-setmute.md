@@ -5,7 +5,8 @@ description: Mutes or unmutes the audio. (IMFPMediaPlayer.SetMute)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetMute method","IMFPMediaPlayer.SetMute","IMFPMediaPlayer::SetMute","SetMute","SetMute method [Media Foundation]","SetMute method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setmute","mfplay/IMFPMediaPlayer::SetMute"]
 old-location: mf\imfpmediaplayer_setmute.htm
 tech.root: mfarchive
-archived: truems.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
+archived: true
+ms.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 req.header: mfplay.h

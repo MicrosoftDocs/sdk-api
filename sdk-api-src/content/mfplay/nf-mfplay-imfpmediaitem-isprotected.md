@@ -5,7 +5,8 @@ description: Queries whether the media item contains protected content.
 helpviewer_keywords: ["FALSE","IMFPMediaItem interface [Media Foundation]","IsProtected method","IMFPMediaItem.IsProtected","IMFPMediaItem::IsProtected","IsProtected","IsProtected method [Media Foundation]","IsProtected method [Media Foundation]","IMFPMediaItem interface","TRUE","mf.imfpmediaitem_isprotected","mfplay/IMFPMediaItem::IsProtected"]
 old-location: mf\imfpmediaitem_isprotected.htm
 tech.root: mfarchive
-archived: truems.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
+archived: true
+ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
 req.header: mfplay.h

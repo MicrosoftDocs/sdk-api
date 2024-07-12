@@ -5,7 +5,8 @@ description: Gets the size and aspect ratio of the video.
 helpviewer_keywords: ["GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetNativeVideoSize method","IMFPMediaPlayer.GetNativeVideoSize","IMFPMediaPlayer::GetNativeVideoSize","mf.imfpmediaplayer_getnativevideosize","mfplay/IMFPMediaPlayer::GetNativeVideoSize"]
 old-location: mf\imfpmediaplayer_getnativevideosize.htm
 tech.root: mfarchive
-archived: truems.assetid: 6f0f09fb-d41c-4662-a20c-2a1d04b39df5
+archived: true
+ms.assetid: 6f0f09fb-d41c-4662-a20c-2a1d04b39df5
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetNativeVideoSize method, IMFPMediaPlayer.GetNativeVideoSize, IMFPMediaPlayer::GetNativeVideoSize, mf.imfpmediaplayer_getnativevideosize, mfplay/IMFPMediaPlayer::GetNativeVideoSize
 req.header: mfplay.h

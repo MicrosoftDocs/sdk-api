@@ -5,7 +5,8 @@ description: Gets the URL that was used to create the media item.
 helpviewer_keywords: ["GetURL","GetURL method [Media Foundation]","GetURL method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetURL method","IMFPMediaItem.GetURL","IMFPMediaItem::GetURL","mf.imfpmediaitem_geturl","mfplay/IMFPMediaItem::GetURL"]
 old-location: mf\imfpmediaitem_geturl.htm
 tech.root: mfarchive
-archived: truems.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
+archived: true
+ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 req.header: mfplay.h

@@ -5,7 +5,8 @@ description: Event structure for the MFP_EVENT_TYPE_MF event.
 helpviewer_keywords: ["MFP_MF_EVENT","MFP_MF_EVENT structure [Media Foundation]","mf.mfp_mf_event","mfplay/MFP_MF_EVENT"]
 old-location: mf\mfp_mf_event.htm
 tech.root: mfarchive
-archived: truems.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
+archived: true
+ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
 ms.date: 12/05/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT
 req.header: mfplay.h

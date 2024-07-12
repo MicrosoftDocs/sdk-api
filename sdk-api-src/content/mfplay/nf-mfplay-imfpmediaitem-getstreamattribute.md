@@ -5,7 +5,8 @@ description: Queries the media item for a stream attribute.
 helpviewer_keywords: ["GetStreamAttribute","GetStreamAttribute method [Media Foundation]","GetStreamAttribute method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamAttribute method","IMFPMediaItem.GetStreamAttribute","IMFPMediaItem::GetStreamAttribute","mf.imfpmediaitem_getstreamattribute","mfplay/IMFPMediaItem::GetStreamAttribute"]
 old-location: mf\imfpmediaitem_getstreamattribute.htm
 tech.root: mfarchive
-archived: truems.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
+archived: true
+ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
 req.header: mfplay.h

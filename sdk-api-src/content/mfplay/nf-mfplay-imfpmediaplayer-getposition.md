@@ -5,7 +5,8 @@ description: Gets the current playback position. (IMFPMediaPlayer.GetPosition)
 helpviewer_keywords: ["GetPosition","GetPosition method [Media Foundation]","GetPosition method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetPosition method","IMFPMediaPlayer.GetPosition","IMFPMediaPlayer::GetPosition","MFP_POSITIONTYPE_100NS","mf.imfpmediaplayer_getposition","mfplay/IMFPMediaPlayer::GetPosition"]
 old-location: mf\imfpmediaplayer_getposition.htm
 tech.root: mfarchive
-archived: truems.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
+archived: true
+ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
 req.header: mfplay.h

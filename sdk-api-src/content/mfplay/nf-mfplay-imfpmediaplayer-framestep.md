@@ -5,7 +5,8 @@ description: Steps forward one video frame.
 helpviewer_keywords: ["FrameStep","FrameStep method [Media Foundation]","FrameStep method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","FrameStep method","IMFPMediaPlayer.FrameStep","IMFPMediaPlayer::FrameStep","mf.imfpmediaplayer_framestep","mfplay/IMFPMediaPlayer::FrameStep"]
 old-location: mf\imfpmediaplayer_framestep.htm
 tech.root: mfarchive
-archived: truems.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
+archived: true
+ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
 req.header: mfplay.h

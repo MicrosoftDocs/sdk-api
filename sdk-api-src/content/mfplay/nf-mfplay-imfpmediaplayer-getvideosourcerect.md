@@ -5,7 +5,8 @@ description: Gets the video source rectangle.
 helpviewer_keywords: ["GetVideoSourceRect","GetVideoSourceRect method [Media Foundation]","GetVideoSourceRect method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetVideoSourceRect method","IMFPMediaPlayer.GetVideoSourceRect","IMFPMediaPlayer::GetVideoSourceRect","mf.imfpmediaplayer_getvideosourcerect","mfplay/IMFPMediaPlayer::GetVideoSourceRect"]
 old-location: mf\imfpmediaplayer_getvideosourcerect.htm
 tech.root: mfarchive
-archived: truems.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
+archived: true
+ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
 ms.date: 12/05/2018
 ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
 req.header: mfplay.h

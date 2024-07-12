@@ -5,7 +5,8 @@ description: Contains flags that describe a media item.
 helpviewer_keywords: ["MFP_MEDIAITEM_CAN_PAUSE","MFP_MEDIAITEM_CAN_SEEK","MFP_MEDIAITEM_HAS_SLOW_SEEK","MFP_MEDIAITEM_IS_LIVE","_MFP_MEDIAITEM_CHARACTERISTICS","_MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation]","mf._mfp_mediaitem_characteristics","mfplay/MFP_MEDIAITEM_CAN_PAUSE","mfplay/MFP_MEDIAITEM_CAN_SEEK","mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK","mfplay/MFP_MEDIAITEM_IS_LIVE","mfplay/_MFP_MEDIAITEM_CHARACTERISTICS"]
 old-location: mf\_mfp_mediaitem_characteristics.htm
 tech.root: mfarchive
-archived: truems.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
+archived: true
+ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_SLOW_SEEK, MFP_MEDIAITEM_IS_LIVE, _MFP_MEDIAITEM_CHARACTERISTICS, _MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation], mf._mfp_mediaitem_characteristics, mfplay/MFP_MEDIAITEM_CAN_PAUSE, mfplay/MFP_MEDIAITEM_CAN_SEEK, mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK, mfplay/MFP_MEDIAITEM_IS_LIVE, mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
 req.header: mfplay.h

@@ -5,7 +5,8 @@ description: Removes an effect that was added with the IMFPMediaPlayer::InsertEf
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","RemoveEffect method","IMFPMediaPlayer.RemoveEffect","IMFPMediaPlayer::RemoveEffect","RemoveEffect","RemoveEffect method [Media Foundation]","RemoveEffect method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_removeeffect","mfplay/IMFPMediaPlayer::RemoveEffect"]
 old-location: mf\imfpmediaplayer_removeeffect.htm
 tech.root: mfarchive
-archived: truems.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
+archived: true
+ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
 req.header: mfplay.h

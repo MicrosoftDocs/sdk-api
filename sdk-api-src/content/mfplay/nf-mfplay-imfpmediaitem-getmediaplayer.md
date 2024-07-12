@@ -5,7 +5,8 @@ description: Gets a pointer to the MFPlay player object that created the media i
 helpviewer_keywords: ["GetMediaPlayer","GetMediaPlayer method [Media Foundation]","GetMediaPlayer method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetMediaPlayer method","IMFPMediaItem.GetMediaPlayer","IMFPMediaItem::GetMediaPlayer","mf.imfpmediaitem_getmediaplayer","mfplay/IMFPMediaItem::GetMediaPlayer"]
 old-location: mf\imfpmediaitem_getmediaplayer.htm
 tech.root: mfarchive
-archived: truems.assetid: 6d6f822a-d599-437e-a73a-2242d4d3fe3a
+archived: true
+ms.assetid: 6d6f822a-d599-437e-a73a-2242d4d3fe3a
 ms.date: 12/05/2018
 ms.keywords: GetMediaPlayer, GetMediaPlayer method [Media Foundation], GetMediaPlayer method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMediaPlayer method, IMFPMediaItem.GetMediaPlayer, IMFPMediaItem::GetMediaPlayer, mf.imfpmediaitem_getmediaplayer, mfplay/IMFPMediaItem::GetMediaPlayer
 req.header: mfplay.h

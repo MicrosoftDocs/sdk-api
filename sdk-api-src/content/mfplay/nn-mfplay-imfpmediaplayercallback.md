@@ -5,7 +5,8 @@ description: Callback interface for the IMFPMediaPlayer interface.
 helpviewer_keywords: ["IMFPMediaPlayerCallback","IMFPMediaPlayerCallback interface [Media Foundation]","IMFPMediaPlayerCallback interface [Media Foundation]","described","mf.imfpmediaplayercallback","mfplay/IMFPMediaPlayerCallback"]
 old-location: mf\imfpmediaplayercallback.htm
 tech.root: mfarchive
-archived: truems.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
+archived: true
+ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
 req.header: mfplay.h

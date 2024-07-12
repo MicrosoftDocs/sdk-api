@@ -5,7 +5,8 @@ description: Starts playback. (IMFPMediaPlayer.Play)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Play method","IMFPMediaPlayer.Play","IMFPMediaPlayer::Play","Play","Play method [Media Foundation]","Play method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_play","mfplay/IMFPMediaPlayer::Play"]
 old-location: mf\imfpmediaplayer_play.htm
 tech.root: mfarchive
-archived: truems.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
+archived: true
+ms.assetid: 24d6e8a0-d910-46f9-8172-dfcb68c4f364
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Play method, IMFPMediaPlayer.Play, IMFPMediaPlayer::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_play, mfplay/IMFPMediaPlayer::Play
 req.header: mfplay.h

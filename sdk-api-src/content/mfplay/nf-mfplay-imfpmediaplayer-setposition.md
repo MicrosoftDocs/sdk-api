@@ -5,7 +5,8 @@ description: Sets the playback position.
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetPosition method","IMFPMediaPlayer.SetPosition","IMFPMediaPlayer::SetPosition","MFP_POSITIONTYPE_100NS","SetPosition","SetPosition method [Media Foundation]","SetPosition method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setposition","mfplay/IMFPMediaPlayer::SetPosition"]
 old-location: mf\imfpmediaplayer_setposition.htm
 tech.root: mfarchive
-archived: truems.assetid: d8665c3b-e0da-4a6f-a61b-38d507d1e78a
+archived: true
+ms.assetid: d8665c3b-e0da-4a6f-a61b-38d507d1e78a
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetPosition method, IMFPMediaPlayer.SetPosition, IMFPMediaPlayer::SetPosition, MFP_POSITIONTYPE_100NS, SetPosition, SetPosition method [Media Foundation], SetPosition method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setposition, mfplay/IMFPMediaPlayer::SetPosition
 req.header: mfplay.h

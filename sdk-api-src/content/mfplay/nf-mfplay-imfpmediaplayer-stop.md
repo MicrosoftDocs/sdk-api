@@ -5,7 +5,8 @@ description: Stops playback.
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Stop method","IMFPMediaPlayer.Stop","IMFPMediaPlayer::Stop","Stop","Stop method [Media Foundation]","Stop method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_stop","mfplay/IMFPMediaPlayer::Stop"]
 old-location: mf\imfpmediaplayer_stop.htm
 tech.root: mfarchive
-archived: truems.assetid: 1cfa41c7-209e-4c18-a204-563ede29c7c6
+archived: true
+ms.assetid: 1cfa41c7-209e-4c18-a204-563ede29c7c6
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Stop method, IMFPMediaPlayer.Stop, IMFPMediaPlayer::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_stop, mfplay/IMFPMediaPlayer::Stop
 req.header: mfplay.h

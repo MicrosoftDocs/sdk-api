@@ -5,7 +5,8 @@ description: Casts an MFP_EVENT_HEADER pointer to an MFP_POSITION_SET_EVENT poin
 helpviewer_keywords: ["MFP_GET_POSITION_SET_EVENT","MFP_GET_POSITION_SET_EVENT macro [Media Foundation]","mf.mfp_get_position_set_event","mfplay/MFP_GET_POSITION_SET_EVENT"]
 old-location: mf\mfp_get_position_set_event.htm
 tech.root: mfarchive
-archived: truems.assetid: e9b692e6-7b7c-45ac-bbaa-7060578f9403
+archived: true
+ms.assetid: e9b692e6-7b7c-45ac-bbaa-7060578f9403
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_POSITION_SET_EVENT, MFP_GET_POSITION_SET_EVENT macro [Media Foundation], mf.mfp_get_position_set_event, mfplay/MFP_GET_POSITION_SET_EVENT
 req.header: mfplay.h

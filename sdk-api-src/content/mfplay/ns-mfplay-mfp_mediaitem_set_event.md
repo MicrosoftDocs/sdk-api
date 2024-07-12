@@ -5,7 +5,8 @@ description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_SET event.
 helpviewer_keywords: ["MFP_MEDIAITEM_SET_EVENT","MFP_MEDIAITEM_SET_EVENT structure [Media Foundation]","mf.mfp_mediaitem_set_event","mfplay/MFP_MEDIAITEM_SET_EVENT"]
 old-location: mf\mfp_mediaitem_set_event.htm
 tech.root: mfarchive
-archived: truems.assetid: 51ff492f-8199-4e1a-8d8b-d86bbb3c98dc
+archived: true
+ms.assetid: 51ff492f-8199-4e1a-8d8b-d86bbb3c98dc
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_SET_EVENT, MFP_MEDIAITEM_SET_EVENT structure [Media Foundation], mf.mfp_mediaitem_set_event, mfplay/MFP_MEDIAITEM_SET_EVENT
 req.header: mfplay.h

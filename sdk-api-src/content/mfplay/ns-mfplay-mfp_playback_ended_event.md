@@ -5,7 +5,8 @@ description: Event structure for the MFP_EVENT_TYPE_PLAYBACK_ENDED event.
 helpviewer_keywords: ["MFP_PLAYBACK_ENDED_EVENT","MFP_PLAYBACK_ENDED_EVENT structure [Media Foundation]","mf.mfp_playback_ended_event","mfplay/MFP_PLAYBACK_ENDED_EVENT"]
 old-location: mf\mfp_playback_ended_event.htm
 tech.root: mfarchive
-archived: truems.assetid: 08cea881-dce9-4170-9b44-9943b014d300
+archived: true
+ms.assetid: 08cea881-dce9-4170-9b44-9943b014d300
 ms.date: 12/05/2018
 ms.keywords: MFP_PLAYBACK_ENDED_EVENT, MFP_PLAYBACK_ENDED_EVENT structure [Media Foundation], mf.mfp_playback_ended_event, mfplay/MFP_PLAYBACK_ENDED_EVENT
 req.header: mfplay.h

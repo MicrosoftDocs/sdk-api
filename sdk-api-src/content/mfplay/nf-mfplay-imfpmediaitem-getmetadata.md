@@ -5,7 +5,8 @@ description: Gets a property store that contains metadata for the source, such a
 helpviewer_keywords: ["GetMetadata","GetMetadata method [Media Foundation]","GetMetadata method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetMetadata method","IMFPMediaItem.GetMetadata","IMFPMediaItem::GetMetadata","mf.imfpmediaitem_getmetadata","mfplay/IMFPMediaItem::GetMetadata"]
 old-location: mf\imfpmediaitem_getmetadata.htm
 tech.root: mfarchive
-archived: truems.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
+archived: true
+ms.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
 req.header: mfplay.h

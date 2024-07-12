@@ -5,7 +5,8 @@ description: Gets the start and stop times for the media item.
 helpviewer_keywords: ["GetStartStopPosition","GetStartStopPosition method [Media Foundation]","GetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStartStopPosition method","IMFPMediaItem.GetStartStopPosition","IMFPMediaItem::GetStartStopPosition","mf.imfpmediaitem_getstartstopposition","mfplay/IMFPMediaItem::GetStartStopPosition"]
 old-location: mf\imfpmediaitem_getstartstopposition.htm
 tech.root: mfarchive
-archived: truems.assetid: c992bbec-a5ca-4ece-a883-2a7d7b5d49b3
+archived: true
+ms.assetid: c992bbec-a5ca-4ece-a883-2a7d7b5d49b3
 ms.date: 12/05/2018
 ms.keywords: GetStartStopPosition, GetStartStopPosition method [Media Foundation], GetStartStopPosition method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStartStopPosition method, IMFPMediaItem.GetStartStopPosition, IMFPMediaItem::GetStartStopPosition, mf.imfpmediaitem_getstartstopposition, mfplay/IMFPMediaItem::GetStartStopPosition
 req.header: mfplay.h

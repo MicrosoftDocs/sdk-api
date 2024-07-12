@@ -5,7 +5,8 @@ description: Selects or deselects a stream.
 helpviewer_keywords: ["FALSE","IMFPMediaItem interface [Media Foundation]","SetStreamSelection method","IMFPMediaItem.SetStreamSelection","IMFPMediaItem::SetStreamSelection","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFPMediaItem interface","TRUE","mf.imfpmediaitem_setstreamselection","mfplay/IMFPMediaItem::SetStreamSelection"]
 old-location: mf\imfpmediaitem_setstreamselection.htm
 tech.root: mfarchive
-archived: truems.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
+archived: true
+ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 req.header: mfplay.h

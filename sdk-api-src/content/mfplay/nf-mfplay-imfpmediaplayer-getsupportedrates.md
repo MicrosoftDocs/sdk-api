@@ -5,7 +5,8 @@ description: Gets the range of supported playback rates.
 helpviewer_keywords: ["GetSupportedRates","GetSupportedRates method [Media Foundation]","GetSupportedRates method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetSupportedRates method","IMFPMediaPlayer.GetSupportedRates","IMFPMediaPlayer::GetSupportedRates","mf.imfpmediaplayer_getsupportedrates","mfplay/IMFPMediaPlayer::GetSupportedRates"]
 old-location: mf\imfpmediaplayer_getsupportedrates.htm
 tech.root: mfarchive
-archived: truems.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
+archived: true
+ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
 ms.date: 12/05/2018
 ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 req.header: mfplay.h

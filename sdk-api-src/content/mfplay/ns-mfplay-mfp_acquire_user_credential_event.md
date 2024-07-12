@@ -5,7 +5,8 @@ description: Event structure for the MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL even
 helpviewer_keywords: ["MFP_ACQUIRE_USER_CREDENTIAL_EVENT","MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation]","mf.mfp_acquire_user_credential_event","mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT"]
 old-location: mf\mfp_acquire_user_credential_event.htm
 tech.root: mfarchive
-archived: truems.assetid: 61767b81-8641-43d5-b272-148d52517727
+archived: true
+ms.assetid: 61767b81-8641-43d5-b272-148d52517727
 ms.date: 12/05/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 req.header: mfplay.h

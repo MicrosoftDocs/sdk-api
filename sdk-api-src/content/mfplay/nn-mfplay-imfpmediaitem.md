@@ -5,7 +5,8 @@ description: Represents a media item. (Deprecated.).
 helpviewer_keywords: ["IMFPMediaItem","IMFPMediaItem interface [Media Foundation]","IMFPMediaItem interface [Media Foundation]","described","mf.imfpmediaitem","mfplay/IMFPMediaItem"]
 old-location: mf\imfpmediaitem.htm
 tech.root: mfarchive
-archived: truems.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
+archived: true
+ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 req.header: mfplay.h

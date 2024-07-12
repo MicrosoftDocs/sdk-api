@@ -5,7 +5,8 @@ description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_CREATED_EVENT
 helpviewer_keywords: ["MFP_GET_MEDIAITEM_CREATED_EVENT","MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation]","mf.mfp_get_mediaitem_created_event","mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT"]
 old-location: mf\mfp_get_mediaitem_created_event.htm
 tech.root: mfarchive
-archived: truems.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
+archived: true
+ms.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT
 req.header: mfplay.h

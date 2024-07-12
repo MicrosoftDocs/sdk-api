@@ -5,7 +5,8 @@ description: Applies an audio or video effect to playback.
 helpviewer_keywords: ["FALSE","IMFPMediaPlayer interface [Media Foundation]","InsertEffect method","IMFPMediaPlayer.InsertEffect","IMFPMediaPlayer::InsertEffect","InsertEffect","InsertEffect method [Media Foundation]","InsertEffect method [Media Foundation]","IMFPMediaPlayer interface","TRUE","mf.imfpmediaplayer_inserteffect","mfplay/IMFPMediaPlayer::InsertEffect"]
 old-location: mf\imfpmediaplayer_inserteffect.htm
 tech.root: mfarchive
-archived: truems.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
+archived: true
+ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
 req.header: mfplay.h
