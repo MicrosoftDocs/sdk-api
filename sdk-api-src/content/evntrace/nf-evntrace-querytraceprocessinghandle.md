@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: etw\querytraceprocessinghandle.htm
 tech.root: ETW
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
-ms.date: 12/05/2018
+ms.date: 07/15/2024
 ms.keywords:
   QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW],
   etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle

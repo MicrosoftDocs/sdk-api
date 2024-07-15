@@ -2,7 +2,7 @@
 UID: NF:evntrace.ProcessTraceAddBufferToBufferStream
 tech.root: ETW
 title: ProcessTraceAddBufferToBufferStream
-ms.date: 11/21/2022
+ms.date: 07/15/2024
 targetos: Windows
 description: Provides an ETW trace buffer to a processing session created by OpenTraceFromBufferStream.
 req.assembly: 
