@@ -146,7 +146,10 @@ If this value is used, the system does not check
          recommended for use in setup programs that must run extracted DLLs during installation.
 
 <b>Windows Server 2008 R2 and Windows 7:  </b>On systems with KB2532445 installed, the caller must be running as "LocalSystem" or
-          "TrustedInstaller"; otherwise the system ignores this flag. For more information, see the Support topic [You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2](https://support.microsoft.com/topic/you-can-circumvent-applocker-rules-by-using-an-office-macro-on-a-computer-that-is-running-windows-7-or-windows-server-2008-r2-b002ea09-1268-bb1f-f97b-d744103e220e).
+          "TrustedInstaller"; otherwise the system ignores this flag. For more information, see
+          "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2"
+          in the Help and Support Knowledge Base at
+          <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker was introduced in Windows 7 and Windows Server 2008 R2.
 

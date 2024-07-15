@@ -21,8 +21,8 @@ ms.keywords:
 req.header: evntrace.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1709
+req.target-min-winversvr: Windows Server, version 1709
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
