@@ -45,7 +45,7 @@ api_name:
  - TreeView_GetChild
 ---
 
-# TreeView_GetChild macro
+# TreeView_GetChild macro (See Proposed Changes)
 
 
 ## -description
