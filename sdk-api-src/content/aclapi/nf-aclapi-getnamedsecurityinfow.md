@@ -103,7 +103,7 @@ This parameter is required if any one of the <i>ppsidOwner</i>, <i>ppsidGroup</i
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in WinError.h.
+If the function succeeds, the return value is a nonzero error code defined in WinError.h (87).
 
 ## -remarks
 
