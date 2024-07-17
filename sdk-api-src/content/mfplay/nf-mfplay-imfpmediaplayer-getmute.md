@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetMute (mfplay.h)
 description: Queries whether the audio is muted. (IMFPMediaPlayer.GetMute)
 helpviewer_keywords: ["GetMute","GetMute method [Media Foundation]","GetMute method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetMute method","IMFPMediaPlayer.GetMute","IMFPMediaPlayer::GetMute","mf.imfpmediaplayer_getmute","mfplay/IMFPMediaPlayer::GetMute"]
 old-location: mf\imfpmediaplayer_getmute.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 2a628608-37ea-48f3-aed4-0344d47ede9f
 ms.date: 12/05/2018
 ms.keywords: GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMute method, IMFPMediaPlayer.GetMute, IMFPMediaPlayer::GetMute, mf.imfpmediaplayer_getmute, mfplay/IMFPMediaPlayer::GetMute
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Queries whether the audio is muted.

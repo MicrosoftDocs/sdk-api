@@ -4,7 +4,8 @@ title: IMFPMediaItem::GetMetadata (mfplay.h)
 description: Gets a property store that contains metadata for the source, such as author or title.
 helpviewer_keywords: ["GetMetadata","GetMetadata method [Media Foundation]","GetMetadata method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetMetadata method","IMFPMediaItem.GetMetadata","IMFPMediaItem::GetMetadata","mf.imfpmediaitem_getmetadata","mfplay/IMFPMediaItem::GetMetadata"]
 old-location: mf\imfpmediaitem_getmetadata.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 212d468f-de5e-4a55-aaa4-ed487bbf6a00
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [Media Foundation], GetMetadata method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMetadata method, IMFPMediaItem.GetMetadata, IMFPMediaItem::GetMetadata, mf.imfpmediaitem_getmetadata, mfplay/IMFPMediaItem::GetMetadata
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets a property store that contains metadata for the source, such as author or title.

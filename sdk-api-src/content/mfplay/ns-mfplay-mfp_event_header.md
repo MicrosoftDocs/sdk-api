@@ -4,7 +4,8 @@ title: MFP_EVENT_HEADER (mfplay.h)
 description: Contains information that is common to every type of MFPlay event.
 helpviewer_keywords: ["MFP_EVENT_HEADER","MFP_EVENT_HEADER structure [Media Foundation]","mf.mfp_event_header","mfplay/MFP_EVENT_HEADER"]
 old-location: mf\mfp_event_header.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Contains information that is common to  every type of MFPlay event.
