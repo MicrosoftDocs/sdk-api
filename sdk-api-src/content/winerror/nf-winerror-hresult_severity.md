@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define HRESULT_SEVERITY(hr)  (((hr) &gt;&gt; 31) &amp; 0x1)
+#define HRESULT_SEVERITY(hr)  (((hr) >> 31) & 0x1)
 ```
 
 
