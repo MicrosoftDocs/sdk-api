@@ -60,17 +60,17 @@ To use extended window styles in addition to the styles supported by <b>CreateWi
 
 ```cpp
 HWND CreateWindowW(
-  [in, optional]  lpClassName,
-  [in, optional]  lpWindowName,
-  [in]            dwStyle,
-  [in]            x,
-  [in]            y,
-  [in]            nWidth,
-  [in]            nHeight,
-  [in, optional]  hWndParent,
-  [in, optional]  hMenu,
-  [in, optional]  hInstance,
-  [in, optional]  lpParam
+  [in, optional] LPCWSTR   lpClassName,
+  [in, optional] LPCWSTR   lpWindowName,
+  [in]           DWORD     dwStyle,
+  [in]           int       x,
+  [in]           int       y,
+  [in]           int       nWidth,
+  [in]           int       nHeight,
+  [in, optional] HWND      hWndParent,
+  [in, optional] HMENU     hMenu,
+  [in, optional] HINSTANCE hInstance,
+  [in, optional] LPVOID    lpParam
 );
 ```
 
