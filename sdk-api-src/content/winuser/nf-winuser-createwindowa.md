@@ -150,7 +150,7 @@ A pointer to a value to be passed to the window through the <a href="/windows/de
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
 
-## Returns
+## -returns
 
 Type: <b>HWND</b>
 
