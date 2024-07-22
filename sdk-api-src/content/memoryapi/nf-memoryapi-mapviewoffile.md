@@ -211,9 +211,9 @@ A high-order <b>DWORD</b> of the file offset where the view begins.
 ### -param dwFileOffsetLow [in]
 
 A low-order <b>DWORD</b> of the file offset where the view is to begin. The combination 
-       of the high and low offsets must specify an offset within the file mapping. They must also match the  memory 
-       allocation granularity of the system. That is, the offset must be a multiple of the allocation granularity. To 
-       obtain the memory allocation granularity of the system, use the 
+       of the high and low offsets must specify an offset within the file mapping. They must also match the virtual memory 
+       allocation granularity of the system. That is, the offset must be a multiple of the VirtualAlloc allocation granularity. To 
+       obtain the VirtualAlloc memory allocation granularity of the system, use the 
        <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
        a <a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
