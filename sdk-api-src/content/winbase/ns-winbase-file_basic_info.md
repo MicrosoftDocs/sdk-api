@@ -79,6 +79,8 @@ The time the file was last written to in <a href="/windows/desktop/api/minwinbas
 The time the file was changed in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
       format.
 
+> Note: The distinction between this and `LastWriteTime`, is that `LastWriteTime` pertains to the underlying data-stream, while `ChangeTime` refers to changes to file metadata, such as renames, attribute changes, etc.
+
 ### -field FileAttributes
 
 The file attributes. For a list of attributes, see 
