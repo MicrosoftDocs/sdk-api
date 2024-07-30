@@ -180,9 +180,7 @@ Type: <b>LRESULT</b>
 
 If the function succeeds, the return value is nonzero. <b>SendMessageTimeout</b> does not provide information about individual windows timing out if <b>HWND_BROADCAST</b> is used.
 
-If the function fails or times out, the return value is 0. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns <b>ERROR_TIMEOUT</b>, then the function timed out.
-
-<b>Windows 2000:  </b>If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 0, then the function timed out.
+If the function fails or times out, the return value is 0. The extended error information is not reported reliably, in some cases <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> return <b>ERROR_TIMEOUT</b>, but in others cases it is not set so call <b>SetLastError(ERROR_SUCCESS)</b> before calling this API and handle the <b>ERROR_SUCCESS</b>.
 
 ## -remarks
 
