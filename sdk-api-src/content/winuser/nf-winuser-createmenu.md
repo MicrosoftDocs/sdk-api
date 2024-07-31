@@ -53,7 +53,7 @@ req.apiset: ext-ms-win-ntuser-menu-l1-1-2 (introduced in Windows 10, version 10.
 
 ## -description
 
-Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="/windows/desktop/menurc/u">AppendMenu</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> functions.
+Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="/windows/desktop/api/winuser/nf-winuser-appendmenua">AppendMenu</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> functions.
 
 
 
