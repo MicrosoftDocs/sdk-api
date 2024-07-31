@@ -67,13 +67,13 @@ This option specifies that the value will always be written to the XML content.
 
 ``` syntax
 int value;
-Api(..., &amp;value, sizeof(value), ...);
+Api(..., &value, sizeof(value), ...);
 ```
 
 
 ``` syntax
 // always written
-&lt;element&gt;123&lt;/element&gt;
+<element>123</element>
 ```
 
 This option is not supported for pointer types
@@ -93,13 +93,13 @@ This option specifies that the value will always be written to the XML content.
 
 ``` syntax
 int* valuePointer; // may not be NULL
-Api(..., &amp;valuePointer, sizeof(valuePointer), ...);
+Api(..., &valuePointer, sizeof(valuePointer), ...);
 ```
 
 
 ``` syntax
 // always written
-&lt;element&gt;123&lt;/element&gt;
+<element>123</element>
 ```
 
 If the pointer to the value specified in the storage is <b>NULL</b>, 
@@ -120,16 +120,16 @@ If the value is nil, then a nil element is written in the XML content.
 
 ``` syntax
 WS_STRING value; // may contain a nil value (see WS_STRING_TYPE)
-Api(..., &amp;value, sizeof(value), ...);
+Api(..., &value, sizeof(value), ...);
 ```
 
 
 ``` syntax
 // if value is non-nil
-&lt;element&gt;hello&lt;/element&gt;
+<element>hello</element>
 
 // if value is nil
-&lt;element xsi:nil='true'/&gt;
+<element xsi:nil='true'/>
 ```
 
 This option is only supported for the following types, listed below,
@@ -161,16 +161,16 @@ If the pointer to the value specified in the storage is <b>NULL</b>, then
 
 ``` syntax
 int* valuePointer; // may be NULL
-Api(..., &amp;valuePointer, sizeof(valuePointer), ...);
+Api(..., &valuePointer, sizeof(valuePointer), ...);
 
 ```
 
 
 ``` syntax
 // if value is non-NULL
-&lt;element&gt;123&lt;/element&gt;
+<element>123</element>
 
 // if value is NULL
-&lt;element xsi:nil='true'/&gt;
+<element xsi:nil='true'/>
 ```
 

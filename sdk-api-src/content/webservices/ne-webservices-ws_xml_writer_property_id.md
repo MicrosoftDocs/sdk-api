@@ -288,16 +288,14 @@ By default, this property is <b>FALSE</b>.
             
 
 For an input XML string like:
-            
-
 
 ``` syntax
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;container&gt;
- &lt;emptyElement /&gt;
- &lt;emptyElementWithEndTag&gt;&lt;/emptyElementWithEndTag&gt;
-&lt;/container&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag></emptyElementWithEndTag>
+</container>
 ```
 
 If this property is <b>FALSE</b>,  <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> will generate the following xml:
@@ -307,11 +305,11 @@ If this property is <b>FALSE</b>,  <a href="/windows/desktop/api/webservices/nf-
 
 ``` syntax
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;container&gt;
- &lt;emptyElement /&gt;
- &lt;emptyElementWithEndTag&gt;&lt;/emptyElementWithEndTag&gt;
-&lt;/container&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag></emptyElementWithEndTag>
+</container>
 ```
 
 If this property is <b>TRUE</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> will generate the following xml:
@@ -320,11 +318,11 @@ If this property is <b>TRUE</b>, <a href="/windows/desktop/api/webservices/nf-we
 
 ``` syntax
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;container&gt;
- &lt;emptyElement /&gt;
- &lt;emptyElementWithEndTag /&gt;
-&lt;/container&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+ <emptyElement />
+ <emptyElementWithEndTag />
+</container>
 ```
 
 ### -field WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS:18
@@ -335,7 +333,7 @@ If set to <b>FALSE</b>, an element that is created by only calls to <a href="/wi
 
 
 ``` syntax
-&lt;emptyElement /&gt;
+<emptyElement />
 ```
 
 If set to <b>TRUE</b>, that element will be emitted as follows:

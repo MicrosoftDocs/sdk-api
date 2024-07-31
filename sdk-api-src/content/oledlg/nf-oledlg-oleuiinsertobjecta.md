@@ -447,22 +447,22 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
 
 
 ``` syntax
-void FreeHmetafilepict(HMETAFILEPICT hmfp) 
-{ 
-    if (hmfp != NULL) 
-        { 
-        LPMETAFILEPICT pmfp = GlobalLock(hmfp); 
+void FreeHmetafilepict(HMETAFILEPICT hmfp)
+{
+    if (hmfp != NULL)
+    {
+        LPMETAFILEPICT pmfp = GlobalLock(hmfp);
  
-        DeleteMetaFile(pmfp-&gt;hMF); 
-        GlobalUnlock(hmfp); 
-        GlobalFree(hmfp); 
-        } 
+        DeleteMetaFile(pmfp->hMF);
+        GlobalUnlock(hmfp);
+        GlobalFree(hmfp);
+    }
     else
-        {
+    {
         // Handle null pointers here.
         exit(0);
-        }
-} 
+    }
+}
 
 ```
 

@@ -92,10 +92,9 @@ The following assertions are not allowed as policy extension because they might 
 
 
 ``` syntax
-
-&lt;wsa09p:UsingAddressing.../&gt;
-&lt;wsa10p:UsingAddressing.../&gt;
-&lt;binp:BinaryEncoding.../&gt;
-&lt;mtomp:OptimizedMimeSerialization.../&gt;
+<wsa09p:UsingAddressing.../>
+<wsa10p:UsingAddressing.../>
+<binp:BinaryEncoding.../>
+<mtomp:OptimizedMimeSerialization.../>
 ```
 

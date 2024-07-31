@@ -74,7 +74,7 @@ When checking for a normal state, use this value to mask unused bits in the <i>p
 
 
 ``` syntax
-fNormal = ((pdwState &amp; UAS_MASK) == UAS_NORMAL)
+fNormal = ((pdwState & UAS_MASK) == UAS_NORMAL)
 ```
 
 

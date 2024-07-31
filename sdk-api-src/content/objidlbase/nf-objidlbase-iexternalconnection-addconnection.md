@@ -78,7 +78,7 @@ The following is a typical implementation for the <b>AddConnection</b> method.
 ``` syntax
 DWORD MyInterface::AddConnection(DWORD extconn, DWORD dwReserved)
 {
-    return extconn &amp; EXTCONN_STRONG ? ++m_cStrong : 0;
+    return extconn & EXTCONN_STRONG ? ++m_cStrong : 0;
 }
 
 ```

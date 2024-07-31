@@ -71,9 +71,9 @@ This function supports the standard return values, including S_OK to indicate su
 
 
 ``` syntax
-    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
-    pss-&gt;RevertToSelf();
-    pss-&gt;Release();
+    CoGetCallContext(IID_IServerSecurity, (void**)&pss);
+    pss->RevertToSelf();
+    pss->Release();
 
 ```
 

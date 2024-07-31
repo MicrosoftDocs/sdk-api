@@ -98,12 +98,12 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">n
 
 ``` syntax
 WS_XML_NODE* node;
-if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
+if (SUCCEEDED(WsGetReaderNode(reader, &node, error)))
 {
-    if (node-&gt;nodeType == WS_XML_NODE_TYPE_ELEMENT)
+    if (node->nodeType == WS_XML_NODE_TYPE_ELEMENT)
     {
         WS_XML_ELEMENT_NODE* elementNode = (WS_XML_ELEMENT_NODE*) node;
-        // Refer to elementNode-&gt;localName, elementNode-&gt;ns
+        // Refer to elementNode->localName, elementNode->ns
     }
 }
 ```

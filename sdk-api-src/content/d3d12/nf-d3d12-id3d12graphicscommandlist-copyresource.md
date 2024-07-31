@@ -125,8 +125,8 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultia
  
  
  		// Reset the copy command allocator and command list. 
- 		ThrowIfFailed(m_copyCommandAllocators[m_frameIndex]-&gt;Reset()); 
- 		ThrowIfFailed(m_copyCommandList-&gt;Reset(m_copyCommandAllocators[m_frameIndex].Get(), nullptr)); 
+ 		ThrowIfFailed(m_copyCommandAllocators[m_frameIndex]->Reset()); 
+ 		ThrowIfFailed(m_copyCommandList->Reset(m_copyCommandAllocators[m_frameIndex].Get(), nullptr)); 
  
  
  		// Copy the intermediate render target to the cross-adapter shared resource. 
@@ -136,7 +136,7 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultia
  		{ 
  			// If cross-adapter row-major textures are supported by the adapter, 
  			// simply copy the texture into the cross-adapter texture. 
- 			m_copyCommandList-&gt;CopyResource(m_crossAdapterResources[adapter][m_frameIndex].Get(), m_renderTargets[adapter][m_frameIndex].Get()); 
+ 			m_copyCommandList->CopyResource(m_crossAdapterResources[adapter][m_frameIndex].Get(), m_renderTargets[adapter][m_frameIndex].Get()); 
  		} 
  		else 
  		{ 
@@ -147,11 +147,11 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultia
  
  			// Copy the intermediate render target into the shared buffer using the 
  			// memory layout prescribed by the render target. 
- 			D3D12_RESOURCE_DESC renderTargetDesc = m_renderTargets[adapter][m_frameIndex]-&gt;GetDesc(); 
+ 			D3D12_RESOURCE_DESC renderTargetDesc = m_renderTargets[adapter][m_frameIndex]->GetDesc(); 
  			D3D12_PLACED_SUBRESOURCE_FOOTPRINT renderTargetLayout; 
  
  
- 			m_devices[adapter]-&gt;GetCopyableFootprints(&amp;renderTargetDesc, 0, 1, 0, &amp;renderTargetLayout, nullptr, nullptr, nullptr); 
+ 			m_devices[adapter]->GetCopyableFootprints(&renderTargetDesc, 0, 1, 0, &renderTargetLayout, nullptr, nullptr, nullptr); 
  
  
  			CD3DX12_TEXTURE_COPY_LOCATION dest(m_crossAdapterResources[adapter][m_frameIndex].Get(), renderTargetLayout); 
@@ -159,11 +159,11 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultia
  			CD3DX12_BOX box(0, 0, m_width, m_height); 
  
  
- 			m_copyCommandList-&gt;CopyTextureRegion(&amp;dest, 0, 0, 0, &amp;src, &amp;box); 
+ 			m_copyCommandList->CopyTextureRegion(&dest, 0, 0, 0, &src, &box); 
 		} 
 
  
-		ThrowIfFailed(m_copyCommandList-&gt;Close()); 
+		ThrowIfFailed(m_copyCommandList->Close()); 
 	} 
 
 ```

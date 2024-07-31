@@ -129,25 +129,25 @@ The configuration XML string appears in the following format:
 
 
 ``` syntax
-&lt;PEERGROUPCONFIG VERSION="1.0"&gt;
-  &lt;IDENTITYPEERNAME&gt;
-    &lt;!-- UTF-8 encoded peer name of the identity --&gt;
-  &lt;/IDENTITYPEERNAME&gt;
-  &lt;GROUPPEERNAME&gt;
-    &lt;!-- UTF-8 encoded peer name of the peer group --&gt;
-  &lt;/GROUPPEERNAME&gt;
-  &lt;CLOUDNAME&gt;
-    &lt;!-- UTF-8 encoded Unicode name of the cloud --&gt;
-  &lt;/CLOUDNAME&gt;
-  &lt;SCOPE&gt;
-    &lt;!-- UTF-8 encoded Unicode name of the scope: global, site-local, link-local --&gt;
-  &lt;/SCOPE&gt;
-  &lt;CLOUDFLAGS&gt;
-    &lt;!-- A DWORD that contains cloud-specific settings, represented as a string --&gt;
-  &lt;/CLOUDFLAGS&gt;
-  &lt;GMC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
-    &lt;!-- base64/PKCS7 encoded GMC chain --&gt;
-  &lt;/GMC&gt;
-&lt;/PEERGROUPCONFIG&gt;
+<PEERGROUPCONFIG VERSION="1.0">
+  <IDENTITYPEERNAME>
+    <!-- UTF-8 encoded peer name of the identity -->
+  </IDENTITYPEERNAME>
+  <GROUPPEERNAME>
+    <!-- UTF-8 encoded peer name of the peer group -->
+  </GROUPPEERNAME>
+  <CLOUDNAME>
+    <!-- UTF-8 encoded Unicode name of the cloud -->
+  </CLOUDNAME>
+  <SCOPE>
+    <!-- UTF-8 encoded Unicode name of the scope: global, site-local, link-local -->
+  </SCOPE>
+  <CLOUDFLAGS>
+    <!-- A DWORD that contains cloud-specific settings, represented as a string -->
+  </CLOUDFLAGS>
+  <GMC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">
+    <!-- base64/PKCS7 encoded GMC chain -->
+  </GMC>
+</PEERGROUPCONFIG>
 ```
 

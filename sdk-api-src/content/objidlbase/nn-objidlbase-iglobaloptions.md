@@ -194,11 +194,11 @@ All such applications should execute this code at startup.
 
 ``` syntax
     IGlobalOptions *pGlobalOptions;
-    hr =  CoCreateInstance(CLSID_GlobalOptions, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pGlobalOptions));
+    hr =  CoCreateInstance(CLSID_GlobalOptions, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pGlobalOptions));
     if (SUCCEEDED(hr))
     {
-        hr = pGlobalOptions-&gt;Set(COMGLB_EXCEPTION_HANDLING, COMGLB_EXCEPTION_DONOT_HANDLE);
-        pGlobalOptions-&gt;Release();
+        hr = pGlobalOptions->Set(COMGLB_EXCEPTION_HANDLING, COMGLB_EXCEPTION_DONOT_HANDLE);
+        pGlobalOptions->Release();
     }
 
 ```
