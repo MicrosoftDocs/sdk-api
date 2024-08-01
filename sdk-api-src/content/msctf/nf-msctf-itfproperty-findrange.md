@@ -155,7 +155,7 @@ This method obtains a range of text that contains a non-empty value for the prop
 ``` syntax
 
 COLOR: RRRRR   RR          GGGGGGGG
-TEXT:  this &lt;a&gt;is som&lt;/a&gt;e colored text
+TEXT:  this <a>is som</a>e colored text
 
 ```
 
@@ -165,7 +165,7 @@ If <i>aPos</i> contains TF_ANCHOR_START, this method ignores property ranges tha
 ``` syntax
 
 COLOR:         RRRRR   GGGGGGGG    BBBB
-TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
+TEXT:  this is some <a>colored </a>text
 
 ```
 
