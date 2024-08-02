@@ -6,7 +6,7 @@ helpviewer_keywords: ["WS_ANY_ATTRIBUTES_FIELD_MAPPING","WS_ANY_CONTENT_FIELD_MA
 old-location: wsw\ws_field_mapping.htm
 tech.root: wsw
 ms.assetid: 14f4dbc6-0870-4b1c-8f6b-544f771771e8
-ms.date: 08/01/2024
+ms.date: 08/02/2024
 ms.keywords: WS_ANY_ATTRIBUTES_FIELD_MAPPING, WS_ANY_CONTENT_FIELD_MAPPING, WS_ATTRIBUTE_FIELD_MAPPING, WS_ELEMENT_CHOICE_FIELD_MAPPING, WS_ELEMENT_FIELD_MAPPING, WS_FIELD_MAPPING, WS_FIELD_MAPPING enumeration [Web Services for Windows], WS_NO_FIELD_MAPPING, WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_TEXT_FIELD_MAPPING, WS_TYPE_ATTRIBUTE_FIELD_MAPPING, WS_XML_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING, webservices/WS_ANY_CONTENT_FIELD_MAPPING, webservices/WS_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_ELEMENT_FIELD_MAPPING, webservices/WS_FIELD_MAPPING, webservices/WS_NO_FIELD_MAPPING, webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING, webservices/WS_TEXT_FIELD_MAPPING, webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING, webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING, wsw.ws_field_mapping
 req.header: webservices.h
 req.include-header: 
@@ -55,7 +55,7 @@ Specifies how a field of a structure is represented in XML. This is used within 
 
 The field corresponds to the XML type attribute (xsi:type). This can be used only with <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_DESCRIPTION_TYPE</a>. 
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Base
 {
     WS_STRUCT_DESCRIPTION* type;
@@ -84,7 +84,7 @@ s.field = &amp;derived;
         // ... derived fields ...
     &lt;/field&gt;
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 This mapping does not support specifying a <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
@@ -96,7 +96,7 @@ The field's localName/ns are used as the XML attribute name and namespace.
 
 Unless specified, the attribute must appear in the XML. If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the attribute is not required to appear in the XML. If optional and not present, then the field is set to the <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>, or zero if the default value is not specified.
                 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     int field;
@@ -106,7 +106,7 @@ Struct s;
 s.field = 1;
 
 &lt;Struct field='1'/&gt;
-</pre></code>
+</code></pre>
 
 To discard the attribute, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used. In this case, a field is not required in the structure. See <b>WS_VOID_TYPE</b> for more information.
 
@@ -118,7 +118,7 @@ The field's localName/ns are used as the XML element name and namespace.
 
 Unless specified, the element must appear in the XML. If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the element is not required to appear in the XML. If optional and not present, then the field is set to the <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>, or zero if the default value is not specified.
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     int field;
@@ -130,7 +130,7 @@ s.field = 1;
 &lt;Struct&gt;
     &lt;field&gt;1&lt;/field&gt;
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 To discard the element, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used. In this case, a field is not required in the structure. See <b>WS_VOID_TYPE</b> for more information.
 
@@ -144,7 +144,7 @@ If a wrapper element has been specified, the wrapper element must appear in the 
 
 The itemLocalName and itemNs are used as the XML element name and namespace for the repeating element.
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     int* field;
@@ -169,7 +169,7 @@ s.fieldCount = 2;
     &lt;item&gt;1&lt;/item&gt;
     &lt;item&gt;2&lt;/item&gt;
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 The number of elements in the deserialized array can be constrained by specifying a non-<b>NULL</b><a href="/windows/win32/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is part of the <a href="/windows/win32/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
@@ -179,7 +179,7 @@ The field corresponds to the entire character content of the element. When this 
 
 This mapping is commonly used in conjunction with <a href="/windows/win32/api/webservices/ne-webservices-ws_field_mapping">WS_ATTRIBUTE_FIELD_MAPPING</a> to define a structure which maps to an element containing some text and attributes (but no child elements).
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     int field;
@@ -189,7 +189,7 @@ Struct s;
 s.field = 1;
 
 &lt;Struct&gt;1&lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 This mapping does not support specifying a <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
@@ -205,7 +205,7 @@ A <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DE
 
 The field mapping can be used only with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> value of 0.
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     int field;
@@ -215,7 +215,7 @@ Struct s;
 s.field = 1;
 
 &lt;Struct/&gt;
-</pre></code>
+</code></pre>
 
 ### -field WS_XML_ATTRIBUTE_FIELD_MAPPING:6
 
@@ -225,7 +225,7 @@ The field's localName is used to identify the XML attribute name.
 
 Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, the attribute must  appear in the XML. If <b>WS_FIELD_OPTIONAL</b> is specified,  then the attribute is not required to appear in the XML. If optional and not present, then the field is set to the <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>, or zero if the default value is not specified.
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     WS_STRING field;
@@ -241,13 +241,13 @@ s.field = ...; // 'true'
 
 // Example of xml:space
 &lt;Struct xml:space='true'&gt;
-</pre></code>
+</code></pre>
 
 ### -field WS_ELEMENT_CHOICE_FIELD_MAPPING:7
 
 The field corresponds to a choice among a set of possible elements. Each element maps to one of the fields of a union. Each field of the union has a corresponding enum value, which is used to identify the current choice.
 
-<code><pre>
+<pre><code class="lang-syntax">
 // Enumeration of choices of different values
 enum Choice
 {
@@ -266,13 +266,13 @@ struct Struct
         WS_STRING b;    // valid when choice is ChoiceB
     } value;
 };                    
-</pre></code>
+</code></pre>
 
 This field mapping must be used with <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>. The names and namespaces of the element choices are specified in the <a href="/windows/win32/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>. The field's localName and ns should be <b>NULL</b>.
 
 Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the elements must appear in the XML. If <b>WS_FIELD_OPTIONAL</b> is specified, then none of the elements are required to appear in the XML. If optional and none of the elements are present, then the field's selector value is set to the none value of the enumeration (as specified in the noneEnumValue field of the <a href="/windows/win32/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>). Due to the fact that the nonEnumValue is used as the default value, this mapping value does not support specifying a <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-<code><pre>
+<pre><code class="lang-syntax">
 Struct s;
 s.choice = ChoiceA;
 s.value.a = 123;
@@ -294,11 +294,11 @@ s.choice = None;
 
 &lt;Struct&gt;
 &lt;/Struct&gt;                    
-</pre></code>
+</code></pre>
 
 The field corresponds to a choice among a set of possible elements. Each element maps to one of the fields of a union. Each field of the union has a corresponding enum value, which is used to identify the current choice.
 
-<code><pre>
+<pre><code class="lang-syntax">
 // Enumeration of choices of different values
 enum Choice
 {
@@ -317,13 +317,13 @@ struct Struct
         WS_STRING b;    // valid when choice is ChoiceB
     } value;
 };
-</pre></code>
+</code></pre>
 
 This field mapping must be used with <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>. The names and namespaces of the element choices are specified in the <a href="/windows/win32/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>. The field's localName and ns should be <b>NULL</b>.
 
 Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the elements must appear in the XML. If <b>WS_FIELD_OPTIONAL</b> is specified, then none of the elements are required to appear in the XML. If optional and none of the elements are present, then the field's selector value is set to the none value of the enumeration (as specified in the noneEnumValue field of the <a href="/windows/win32/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>). Due to the fact that the nonEnumValue is used as the default value, this mapping value does not support specifying a <a href="/windows/win32/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
-<code><pre>
+<pre><code class="lang-syntax">
 Struct s;
 s.choice = ChoiceA;
 s.value.a = 123;
@@ -345,7 +345,7 @@ s.choice = None;
 
 &lt;Struct&gt;
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 The selector value indicates which of the fields of the union are set. Other fields are left uninitialized when the value is deserialized. An application should always consult the selector value to verify that a field of the union is accessible.
 
@@ -361,7 +361,7 @@ If a wrapper element has been specified, the wrapper element must appear in the 
 
 The itemLocalName and itemNs fields must be <b>NULL</b>. The XML element name and namespace are defined in the <a href="/windows/win32/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct2
 {
     Struct* field;      // see WS_UNION_DESCRIPTION for definition of Struct
@@ -391,7 +391,7 @@ s2.fieldCount = 2;
     &lt;item&gt;123&lt;/item&gt;
     &lt;item&gt;hello&lt;/item&gt;
 &lt;/Struct2&gt;
-</pre></code>
+</code></pre>
 
 The number of elements in the deserialized array can be constrained by specifying a non-<b>NULL</b><a href="/windows/win32/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is part of the <a href="/windows/win32/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
@@ -405,7 +405,7 @@ The field is used to discard or store a sequence of elements with any name and n
 
 To store the elements, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_XML_BUFFER_TYPE</a> should be used. This corresponds to an array of <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>s, as follows:
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     // ... known fields ...
@@ -424,7 +424,7 @@ s.fieldCount = 2;
     &lt;unknown2/&gt;
     ... known fields ...
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 To discard the elements, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used. In this case, a field is not required in the structure. See <b>WS_VOID_TYPE</b> for more information.
 
@@ -438,7 +438,7 @@ The field is used to discard or store any remaining content (any mixture of text
 
 To store the elements, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_XML_BUFFER_TYPE</a> should be used, as follows:
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     // ... known fields ...
@@ -455,7 +455,7 @@ s.field = ...; // 'text1&lt;unknown1/&gt;text2&lt;unknown2/&gt;'
     text2
     &lt;unknown2/&gt;
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 To discard the elements, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used. In this case, a field is not required in the structure. See <b>WS_VOID_TYPE</b> for more information.
 
@@ -488,7 +488,7 @@ in the ns field.
 
 To store the attributes, <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_ANY_ATTRIBUTES_TYPE</a> should be used. This correspond to <a href="/windows/win32/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a> as follows:
 
-<code><pre>
+<pre><code class="lang-syntax">
 struct Struct
 {
     // ... known attributes ...
@@ -505,7 +505,7 @@ s.field = ...; // 'unknown'/'http://example.com'/'value'
 
     ... other content ...
 &lt;/Struct&gt;
-</pre></code>
+</code></pre>
 
 To discard the unmapped attributes, a <a href="/windows/win32/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used. In this case, a field is not required in the structure. See <b>WS_VOID_TYPE</b> for more information.
 

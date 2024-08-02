@@ -93,7 +93,6 @@ The BNF for node types within a document is:
 
 
 ``` syntax
-
 Xml := StartInput Whitespace Element Whitespace EndInput
 Whitespace := (Text | Comment)* // Text is whitespace only
 Element := StartElement ElementContent EndElement
