@@ -116,9 +116,9 @@ The following example shows retrieving a subject's certificate context, uniquely
 
 ``` syntax
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 
 #define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
 
@@ -147,7 +147,7 @@ if(CryptMsgGetParam(
    CMSG_SIGNER_CERT_INFO_PARAM,  // parameter type
    0,                            // index
    NULL,   
-   &amp;cbSignerCertInfo))           // size of the returned information
+   &cbSignerCertInfo))           // size of the returned information
 
 {
    printf("%d bytes needed for the buffer.\n", cbSignerCertInfo);
@@ -177,7 +177,7 @@ if(!(CryptMsgGetParam(
      CMSG_SIGNER_CERT_INFO_PARAM,  // parameter type
      0,                            // index
      pSignerCertInfo,              // address for returned information
-     &amp;cbSignerCertInfo)))          // size of the returned information
+     &cbSignerCertInfo)))          // size of the returned information
 
 {
     printf("Verify SIGNER_CERT_INFO #2 failed.\n");

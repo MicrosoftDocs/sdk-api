@@ -183,15 +183,15 @@ The functionality of the <i>pstgPriority</i> parameter can be duplicated by the 
 ``` syntax
 // Replacement for:
 // HRESULT hr = StgOpenStorage(
-//         NULL, pstgPriority, grfMode, NULL, 0, &amp;pstgNew);
+//         NULL, pstgPriority, grfMode, NULL, 0, &pstgNew);
 
 STATSTG statstg;
-HRESULT hr = pstgPriority-&gt;Stat(&amp;statstg, 0);
-pStgPriority-&gt;Release();
+HRESULT hr = pstgPriority->Stat(&statstg, 0);
+pStgPriority->Release();
 pStgPriority = NULL;
 if (SUCCEEDED(hr))
 {
-    hr = StgOpenStorage(statstg.pwcsName, NULL, grfMode, NULL, 0, &amp;pstgNew);
+    hr = StgOpenStorage(statstg.pwcsName, NULL, grfMode, NULL, 0, &pstgNew);
 }     
 
 ```

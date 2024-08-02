@@ -134,8 +134,8 @@ if(pCertContext)
     CryptImportPublicKeyInfo(
         hCryptProv, 
         X509_ASN_ENCODING, 
-        &amp;pCertContext-&gt;pCertInfo-&gt;SubjectPublicKeyInfo, 
-        &amp;hCertPubKey)
+        &pCertContext->pCertInfo->SubjectPublicKeyInfo, 
+        &hCertPubKey)
 
     CertFreeCertificateContext(pCertContext)
 }

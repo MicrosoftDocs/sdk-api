@@ -79,13 +79,13 @@ The following example shows a  <b>EapHostPeerSetResponseAttributes</b> call that
 
 
 ``` syntax
-EapHostPeerGetResponseAttributes(session_id, &amp;eapAttributes, ppEapError);
+EapHostPeerGetResponseAttributes(session_id, &eapAttributes, ppEapError);
 
 // overwrite attributes returned by EapHostPeerGetResponseAttributes
 EapAttributes eapAttributes={0,NULL};
 
 // progress to the next state in the state machine
-EapHostPeerSetResponseAttributes(session_id, &amp;eapAttributes, pEapOutput, ppEapError);
+EapHostPeerSetResponseAttributes(session_id, &eapAttributes, pEapOutput, ppEapError);
 ```
 
 
