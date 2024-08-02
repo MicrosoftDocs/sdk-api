@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PFILE_BASIC_INFO","FILE_BASIC_INFO","FILE_BASIC_INFO str
 old-location: fs\file_basic_info.htm
 tech.root: fs
 ms.assetid: 7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6
-ms.date: 12/05/2018
+ms.date: 08/02/2024
 ms.keywords: '*PFILE_BASIC_INFO, FILE_BASIC_INFO, FILE_BASIC_INFO structure [Files], PFILE_BASIC_INFO, PFILE_BASIC_INFO structure pointer [Files], fileextd/FILE_BASIC_INFO, fileextd/PFILE_BASIC_INFO, fs.file_basic_info, winbase/FILE_BASIC_INFO, winbase/PFILE_BASIC_INFO'
 req.header: winbase.h
 req.include-header: Windows.h
@@ -50,9 +50,6 @@ api_name:
  - FILE_BASIC_INFO
 ---
 
-# FILE_BASIC_INFO structure
-
-
 ## -description
 
 Contains the basic information for a file. Used for file handles.
@@ -79,7 +76,8 @@ The time the file was last written to in <a href="/windows/desktop/api/minwinbas
 The time the file was changed in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
       format.
 
-> Note: The distinction between this and `LastWriteTime`, is that `LastWriteTime` pertains to the underlying data-stream, while `ChangeTime` refers to changes to file metadata, such as renames, attribute changes, etc.
+> [!NOTE]
+> The distinction between *ChangeTime* and *LastWriteTime*, is that *LastWriteTime* relates to the underlying data-stream, while *ChangeTime* refers to changes to file metadata, such as renames and attribute changes.
 
 ### -field FileAttributes
 
