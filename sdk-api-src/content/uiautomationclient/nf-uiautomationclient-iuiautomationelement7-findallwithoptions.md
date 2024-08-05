@@ -54,7 +54,7 @@ Find all matching elements in the specified order.
 
 ## -parameters
 
-### -param unnamedParam1
+### -param scope
 
 A combination of values specifying the scope of the search.
 
@@ -62,7 +62,7 @@ A combination of values specifying the scope of the search.
 
 A pointer to a condition that represents the criteria to match.
 
-### -param unnamedParam3
+### -param traversalOptions
 
 Enumeration value specifying the tree navigation order.
 

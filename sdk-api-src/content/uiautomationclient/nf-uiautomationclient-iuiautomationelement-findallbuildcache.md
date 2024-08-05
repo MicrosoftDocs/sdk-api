@@ -54,7 +54,7 @@ Returns all UI Automation elements that satisfy the specified condition, prefetc
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param scope [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
