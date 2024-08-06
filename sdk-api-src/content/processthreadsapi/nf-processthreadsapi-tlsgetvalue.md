@@ -87,7 +87,9 @@ TLS indexes are typically allocated by the [TlsAlloc](nf-processthreadsapi-tlsal
 
 <b>TlsGetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE</b>– 1). It is up to the programmer to ensure that the index is valid and that the thread calls [TlsSetValue](nf-processthreadsapi-tlssetvalue.md) before calling <b>TlsGetValue</b>.
 
-Since <b>TlsGetValue</b> always sets a thread's last error, some application (e.g., custom heaps that support malloc) may need to call <b>GetLastError</b> before calling <b>TlsGetValue</b> to save the thread's last error and <b>SetLastError</b> afterwards to restore the saved last error. This may incur non-trivial performance cost on certain CPUs. To mitigate this issue, applications may call <b>TlsGetValue2</b> available on Windows 11 24H2 or later. <b>TlsGetValue2</b> is identical to <b>TlsGetValue</b> except that it never sets a thread's last error. Applications calling <b>TlsGetValue2</b> should avoid using 0 as a valid value, because <b>GetLastError</b> cannot be called to tell if <b>TlsGetValue2</b> fails.
+<b>TlsGetValue</b> always sets a thread's last error. In some cases, an application (such as those with custom heaps that support malloc) may need to call <b>GetLastError</b> before calling <b>TlsGetValue</b> to save the thread's last error (followed by <b>SetLastError</b> to restore the saved error). Unfortunately, this can incur a non-trivial performance cost on certain CPUs. 
+
+**Windows 11 24H2 and later:** The <b>TlsGetValue2</b> function was introduced, which is identical to <b>TlsGetValue</b> except that it doesn't set the thread's last error. Applications calling <b>TlsGetValue2</b> should avoid using 0 as a valid value, because <b>GetLastError</b> cannot be called to check if <b>TlsGetValue2</b> failed.
 
 #### Examples
 
