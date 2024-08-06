@@ -54,7 +54,7 @@ Moves the text range forward or backward by the specified number of text units.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param unit [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 

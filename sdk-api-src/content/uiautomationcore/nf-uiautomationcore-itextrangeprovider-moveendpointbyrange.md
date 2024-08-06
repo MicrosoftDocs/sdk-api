@@ -54,7 +54,7 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param endpoint [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itex
 
 A second text range from the same text provider as the current text range.
 
-### -param unnamedParam3 [in]
+### -param targetEndpoint [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 

@@ -54,13 +54,13 @@ Moves one endpoint of the text range the specified number of <a href="/windows/d
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param endpoint [in]
 
 Type: <b>TextPatternRangeEndpoint</b>
 
 The endpoint to move.
 
-### -param unnamedParam2 [in]
+### -param unit [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 
