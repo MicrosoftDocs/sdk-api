@@ -99,11 +99,11 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
     // disk-bound work that repeatedly access the same file data. The system will 
     // try to record data about our activity to make future operations faster.    
     
-    ZeroMemory(&amp;OpStart, sizeof(OpStart));
+    ZeroMemory(&OpStart, sizeof(OpStart));
     OpStart.Version = OPERATION_API_VERSION;
     OpStart.OperationId = MY_OPERATION_ID_1;
 
-    ZeroMemory(&amp;OpEnd, sizeof(OpEnd));
+    ZeroMemory(&OpEnd, sizeof(OpEnd));
     OpEnd.Version = OPERATION_API_VERSION;
     OpEnd.OperationId = MY_OPERATION_ID_1;
  
@@ -112,7 +112,7 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
     OpStart.Flags = OPERATION_START_TRACE_CURRENT_THREAD;
     OpEnd.Flags = 0;
 
-    Success = OperationStart(&amp;OpStart);
+    Success = OperationStart(&OpStart);
 
     if (!Success) {
         ErrorCode = GetLastError();
@@ -126,7 +126,7 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
     // This may involve opening/reading many files or loading     
     // and running many DLLs.                                    
 
-    Success = OperationEnd(&amp;OpEnd);
+    Success = OperationEnd(&OpEnd);
 
     if (!Success) {
         fprintf(stderr, "OperationEnd failed: %d\n", GetLastError());

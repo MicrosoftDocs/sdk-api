@@ -62,9 +62,9 @@ You obtain a reference to an object's <b>IObjectContextActivity</b> interface by
 
 
 ``` syntax
-hr = m_pIObjectContext-&gt;QueryInterface(
+hr = m_pIObjectContext->QueryInterface(
             IID_IObjectContextActivity, 
-            (void**)&amp;m_pIObjectContextActivity);
+            (void**)&m_pIObjectContextActivity);
 
 ```
 

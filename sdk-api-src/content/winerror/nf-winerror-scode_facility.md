@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define SCODE_FACILITY(sc)    (((sc) &gt;&gt; 16) &amp; 0x1fff)
+#define SCODE_FACILITY(sc)    (((sc) >> 16) & 0x1fff)
 ```
 
 

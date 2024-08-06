@@ -130,8 +130,8 @@ If a service calls
    Event ID    = 7023
    Source      = Service Control Manager
    Type        = Error
-   Description = &lt;ServiceName&gt; terminated with the following error:
-                 &lt;ExitCode&gt;.
+   Description = <ServiceName> terminated with the following error:
+                 <ExitCode>.
 ```
 
 The following are best practices when calling this function:

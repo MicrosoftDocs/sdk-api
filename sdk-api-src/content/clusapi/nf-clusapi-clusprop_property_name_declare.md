@@ -76,7 +76,7 @@ ClusAPI.h defines
     struct {                                        \
         CLUSPROP_SYNTAX Syntax;                     \
         DWORD           cbLength;                   \
-        WCHAR           sz[(cch + 1) &amp; ~1];         \
+        WCHAR           sz[(cch + 1) & ~1];         \
     } name
 ```
 

@@ -88,7 +88,7 @@ InitHelperDll(
     attMyAttributes.guidHelper = g_MyGuid;
     attMyAttributes.dwVersion  = 1;
     attMyAttributes.pfnStart   = NetshStartHelper;
-    RegisterHelper( NULL, &amp;attMyAttributes );
+    RegisterHelper( NULL, &attMyAttributes );
 
     return NO_ERROR;
 }

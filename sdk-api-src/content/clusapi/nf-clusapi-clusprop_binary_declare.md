@@ -68,11 +68,11 @@ ClusAPI.h defines  <b>CLUSPROP_BINARY_DECLARE</b> as follows:
 
 
 ``` syntax
-#define CLUSPROP_BINARY_DECLARE( name, cch )    \
-    struct {                                \
-        CLUSPROP_SYNTAX Syntax;             \
-        DWORD           cbLength;           \
-        BYTE            rgb[(cch + 3) &amp; ~3]; \
+#define CLUSPROP_BINARY_DECLARE( name, cch ) \
+    struct {                                 \
+        CLUSPROP_SYNTAX Syntax;              \
+        DWORD           cbLength;            \
+        BYTE            rgb[(cch + 3) & ~3]; \
     } name
 ```
 
