@@ -72,7 +72,7 @@ An edit control that is used to begin a search may display "Enter search here" i
 
 You cannot set a cue banner on a multiline edit control.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also

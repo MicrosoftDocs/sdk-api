@@ -72,7 +72,7 @@ This macro is most applicable to PushButtons. When sent to a PushButton, the mac
 
 When sent to a button of any other type, the size of the control's window rectangle is retrieved.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also
