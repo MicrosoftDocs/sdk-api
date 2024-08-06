@@ -75,6 +75,8 @@ The data stored in a TLS slot can have a value of 0 because it still has its ini
 
 Functions that return indications of failure call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> when they fail. They generally do not call <b>SetLastError</b> when they succeed. The <b>TlsGetValue</b> function is an exception to this general rule. The <b>TlsGetValue</b> function calls <b>SetLastError</b> to clear a thread's last error when it succeeds. That allows checking for the error-free retrieval of zero values.
 
+Since <b>TlsGetValue</b> always sets a thread's last error, some application (e.g., custom heaps that support malloc) may need to call <b>GetLastError</b> before calling <b>TlsGetValue</b> to save the thread's last error and <b>SetLastError</b> afterwards to restore the saved last error. This may incur non-trivial performance cost on certain CPUs. To mitigate this issue, applications may call <b>TlsGetValue2</b> available on Windows 11 24H2 or later. <b>TlsGetValue2</b> is identical to <b>TlsGetValue</b> except that it doesn't touch a thread's last error.
+
 ## -remarks
 
 <b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsGetValue</b>. Refer to <a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> for function documentation.
