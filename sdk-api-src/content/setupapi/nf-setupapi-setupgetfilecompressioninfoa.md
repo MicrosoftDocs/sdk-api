@@ -140,7 +140,7 @@ typedef VOID (WINAPI* MYFREEFUNC)(LPVOID lpBuff);
    other code here to prepare file queue
    ...
    PTSTR lpActualSourceFileName;
-   SetupGetFileCompressionInfo(...,&amp;lpActualSourceFileName,...,...,...);
+   SetupGetFileCompressionInfo(...,&lpActualSourceFileName,...,...,...);
    ...
    MyFree(lpActualSourceFileName); 
 ```

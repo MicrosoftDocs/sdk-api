@@ -97,7 +97,7 @@ WinINet attempts to decode Unicode  parameters according to the system code page
 DWORD CP_SHIFT_JIS = 932;  // ANSI/OEM  Japanese, Shift-JIS
 InternetSetOption( hRequest, 
                    INTERNET_OPTION_CODEPAGE,
-                   &amp;CP_SHIFT_JIS, 
+                   &CP_SHIFT_JIS,
                    sizeof(DWORD) );
 ```
 
