@@ -151,7 +151,7 @@ One or more arguments are not correct. This error value is returned by the Resta
 </dl>
 </td>
 <td width="60%">
-An operation was unable  to read or write to the registry.
+An operation was unable to read or write to the registry.
 
 </td>
 </tr>
@@ -176,6 +176,18 @@ A Restart Manager operation could not complete because not enough memory was ava
 </td>
 <td width="60%">
 No Restart Manager session exists for the handle supplied.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+<dt>5</dt>
+</dl>
+</td>
+<td width="60%">
+A path registered to the Restart Manager session is a directory.
 
 </td>
 </tr>
