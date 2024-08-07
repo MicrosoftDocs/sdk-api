@@ -63,15 +63,15 @@ You also need to ensure that <b>DwmDefWindowProc</b> is called for the <a href="
 
 A handle to the window procedure that received the message.
 
-### -param msg
+### -param msg [in]
 
 The message.
 
-### -param wParam
+### -param wParam [in]
 
 Specifies additional message information. The content of this parameter depends on the value of the <i>msg</i> parameter.
 
-### -param lParam
+### -param lParam [in]
 
 Specifies additional message information. The content of this parameter depends on the value of the <i>msg</i> parameter.
 

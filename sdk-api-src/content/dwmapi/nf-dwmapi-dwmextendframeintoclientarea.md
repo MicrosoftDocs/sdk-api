@@ -57,7 +57,7 @@ Extends the window frame into the client area.
 
 ## -parameters
 
-### -param hWnd
+### -param hWnd [in]
 
 The handle to the window in which the frame will be extended into the client area.
 
