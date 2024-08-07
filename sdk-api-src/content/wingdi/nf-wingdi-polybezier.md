@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PolyBezier
 title: PolyBezier function (wingdi.h)
-description: The PolyBezier function draws one or more B�zier curves.
+description: The PolyBezier function draws one or more Bézier curves.
 helpviewer_keywords: ["PolyBezier","PolyBezier function [Windows GDI]","_win32_PolyBezier","gdi.polybezier","wingdi/PolyBezier"]
 old-location: gdi\polybezier.htm
 tech.root: gdi
