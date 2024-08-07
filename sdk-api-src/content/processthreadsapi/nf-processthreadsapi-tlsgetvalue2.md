@@ -69,7 +69,7 @@ TLS indexes are typically allocated by the [TlsAlloc](nf-processthreadsapi-tlsal
 
 **TlsGetValue** was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if *dwTlsIndex* is in the range 0 through (**TLS_MINIMUM_AVAILABLE**– 1). It is up to the programmer to ensure that the index is valid and that the thread calls [TlsSetValue](nf-processthreadsapi-tlssetvalue.md) before calling **TlsGetValue**.
 
-This function is identical to **TlsGetValue** except that it doesn't set the thread's last error. Applications calling this function should avoid using 0 as a valid value, because **GetLastError** cannot be called to check if the function failed.
+This function is identical to [**TlsGetValue**](nf-processthreadsapi-tlsgetvalue.md) except that it doesn't set the thread's last error. Applications calling this function should avoid using 0 as a valid value, because **GetLastError** cannot be called to check if the function failed.
 
 ### Examples
 
