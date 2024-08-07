@@ -6,7 +6,7 @@ helpviewer_keywords: ["TlsGetValue","TlsGetValue function","_win32_tlsgetvalue",
 old-location: base\tlsgetvalue.htm
 tech.root: processthreadsapi
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
-ms.date: 02/02/2024
+ms.date: 08/07/2024
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
 req.header: processthreadsapi.h
 req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -77,8 +77,6 @@ Functions that return indications of failure call <a href="/windows/desktop/api/
 
 ## -remarks
 
-<b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsGetValue</b>. Refer to <a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> for function documentation.
-
 <b>Windows 8.1</b>, <b>Windows Server 2012 R2</b>, and <b>Windows 10, version 1507</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and Windows 10, version 1507. When a Windows Store app calls this function, it is replaced with an inline call to <b>FlsGetValue</b>. Refer to <a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> for function documentation.
 
 <b>Windows 10, version 1511</b> and <b>Windows 10, version 1607</b>: This function is fully supported for Universal Windows Platform (UWP) apps, and is no longer replaced with an inline call to <b>FlsGetValue</b>.
@@ -87,11 +85,17 @@ TLS indexes are typically allocated by the [TlsAlloc](nf-processthreadsapi-tlsal
 
 <b>TlsGetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE</b>– 1). It is up to the programmer to ensure that the index is valid and that the thread calls [TlsSetValue](nf-processthreadsapi-tlssetvalue.md) before calling <b>TlsGetValue</b>.
 
+<b>TlsGetValue</b> always sets a thread's last error. In some cases, an application (such as those with custom heaps that support malloc) may need to call <b>GetLastError</b> before calling <b>TlsGetValue</b> to save the thread's last error (followed by <b>SetLastError</b> to restore the saved error). Unfortunately, this can incur a non-trivial performance cost on certain CPUs. 
+
+**Windows 11 24H2 and later:** Use the [**TlsGetValue2**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue2) function, which is identical to <b>TlsGetValue</b> except that it doesn't set the thread's last error. Applications calling <b>TlsGetValue2</b> should avoid using 0 as a valid value because <b>GetLastError</b> cannot be called to check if <b>TlsGetValue2</b> failed.
+
 #### Examples
 
 For an example, see <a href="/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a> or <a href="/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage in a Dynamic-Link Library</a>.
 
 ## -see-also
+
+[**TlsGetValue2**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue2)
 
 [Process and Thread Functions](/windows/win32/ProcThread/process-and-thread-functions)
 
