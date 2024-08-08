@@ -54,11 +54,11 @@ A value from the [MF_CAMERA_CONTROL_CONFIGURATION_TYPE](ne-mfidl-mf_camera_contr
 
 ### -param controlSet
 
-A GUID specifying the control set to which the control belongs.
+A GUID specifying the control set to which the control belongs. If the **controlSet** is **KSPROPERTYSETID_ExtendedCameraControl** please use the dedicated [GetOrAddExtendedControl](nf-mfidl-imfcameracontroldefaultscollection-getoraddextendedcontrol.md) function.
 
 ### -param constrolId
 
-The ID of the control to be added to the collection. This value must be an ID  in the [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol) property set.
+The ID of the control to be added to the collection.
 
 ### -param controlSize
 
