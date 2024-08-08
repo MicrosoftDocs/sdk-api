@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an <a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a> notification code.
+Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an <a href="/windows/win32/controls/en-requestresize">EN_REQUESTRESIZE</a> notification code.
 
 ## -struct-fields
 
@@ -70,5 +70,5 @@ Requested new size.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/708c23b1-7b81-46f1-9595-46230693855d">EN_REQUESTRESIZE</a>
+<a href="/windows/win32/controls/en-requestresize">EN_REQUESTRESIZE</a>
 

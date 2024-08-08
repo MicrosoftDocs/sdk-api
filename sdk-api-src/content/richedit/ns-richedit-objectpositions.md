@@ -76,11 +76,11 @@ The object positions.
 
 ## -remarks
 
-This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a> notification.
+This is used in the <a href="/windows/win32/controls/en-objectpositions">EN_OBJECTPOSITIONS</a> notification.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a>
+<a href="/windows/win32/controls/en-objectpositions">EN_OBJECTPOSITIONS</a>
 
 
 
