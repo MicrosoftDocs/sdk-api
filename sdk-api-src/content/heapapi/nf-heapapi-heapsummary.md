@@ -5,7 +5,8 @@ description: The HeapSummary function (heapapi.h) summarizes the specified heap.
 ms.date: 08/04/2022
 ms.keywords: HeapSummary
 targetos: Windows
-req.assembly:
+tech.root: base
+req.assembly: 
 req.construct-type: function
 req.ddi-compliance:
 req.dll: kernel32.dll
