@@ -56,11 +56,11 @@ Called by an app or framework to specify the visual feedback type to draw in res
 
 ## -parameters
 
-### -param dwPointerID
+### -param dwPointerID [in]
 
 The pointer ID of the contact. Each touch or pen contact is given a unique ID when it is detected.
 
-### -param eShowContact
+### -param eShowContact [in]
 
 One or more of the following DWM_SHOWCONTACT visualizations that DWM should show for this contact.
 

@@ -54,7 +54,7 @@ Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a 
 
 ## -parameters
 
-### -param hThumbnailId
+### -param hThumbnailId [in]
 
 The handle to the thumbnail relationship to be removed. Null or non-existent handles will result in a return value of E_INVALIDARG.
 

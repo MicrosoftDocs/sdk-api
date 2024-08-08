@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information associated with an <a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
+Contains information associated with an <a href="/windows/win32/controls/en-dropfiles">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
 
 ## -struct-fields
 

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information that an application passes to a rich edit control in a <a href="https://msdn.microsoft.com/b8d3a108-b415-4f5e-99e7-0e0e7a82a778">EM_STREAMIN</a> or <a href="https://msdn.microsoft.com/3f14aaac-4b17-47af-8f2b-503390631a88">EM_STREAMOUT</a> message. The rich edit control uses the information to transfer a stream of data into or out of the control.
+Contains information that an application passes to a rich edit control in a <a href="/windows/win32/controls/em-streamin">EM_STREAMIN</a> or <a href="/windows/win32/controls/em-streamout">EM_STREAMOUT</a> message. The rich edit control uses the information to transfer a stream of data into or out of the control.
 
 ## -struct-fields
 
@@ -76,11 +76,11 @@ Pointer to an <a href="/windows/win32/api/richedit/nc-richedit-editstreamcallbac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b8d3a108-b415-4f5e-99e7-0e0e7a82a778">EM_STREAMIN</a>
+<a href="/windows/win32/controls/em-streamin">EM_STREAMIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f14aaac-4b17-47af-8f2b-503390631a88">EM_STREAMOUT</a>
+<a href="/windows/win32/controls/em-streamout">EM_STREAMOUT</a>
 
 
 

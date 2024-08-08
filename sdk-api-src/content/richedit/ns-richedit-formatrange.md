@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> message.
+Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="/windows/win32/controls/em-formatrange">EM_FORMATRANGE</a> message.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ An HDC for the target device to format for.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-A HDC for the device to render to, if <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> is being used to send the output to a device.
+A HDC for the device to render to, if <a href="/windows/win32/controls/em-formatrange">EM_FORMATRANGE</a> is being used to send the output to a device.
 
 ### -field rc
 
@@ -95,4 +95,4 @@ The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="/wi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a>
+<a href="/windows/win32/controls/em-formatrange">EM_FORMATRANGE</a>

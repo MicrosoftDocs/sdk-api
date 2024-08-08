@@ -56,11 +56,9 @@ Retrieves the current composition timing information for a specified window.
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window for which the composition timing information should be retrieved.
-        
-                        
 
 Starting with Windows 8.1, this parameter must be set to <b>NULL</b>. If this parameter is not set to <b>NULL</b>, <b>DwmGetCompositionTimingInfo</b> returns E_INVALIDARG.
 
