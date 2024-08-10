@@ -198,7 +198,7 @@ This value is not available.
 
 Type: <b>HRESULT</b>
 
-If successful, returns an <b>HRESULT</b> value that has its severity value set to SEVERITY_SUCCESS and its code value set to the offset of the largest command identifier that was assigned, plus one. For example, if <i>idCmdFirst</i> is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8, the return value should be MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 - 5 + 1). Otherwise, it returns a COM error value.
+If successful, returns an <b>HRESULT</b> value that has its severity value set to SEVERITY_SUCCESS and its code value set to the offset of the largest command identifier that was assigned, plus one. For example, if <i>idCmdFirst</i> is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8 (zero based identifiers + idCmdFirst), the return value should be MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 - 5 + 1). Otherwise, it returns a COM error value.
 
 ## -remarks
 
