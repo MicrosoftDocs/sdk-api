@@ -92,6 +92,32 @@ Returns <b>TRUE</b> if a connection is made successfully, or <b>FALSE</b> otherw
 <div> </div>
 
 
+# Example
+
+The following code demonstrates how to use above api call.
+
+```cpp
+#include <iostream>
+#include <Windows.h>
+#include <wininet.h>
+using namespace std;
+
+int main()
+{
+	LPCSTR urlToPing = "https://www.microsoft.com/";
+	DWORD flag = FLAG_ICC_FORCE_CONNECTION;
+	DWORD reserved = 0;
+	bool InternetStatus = InternetCheckConnectionA(urlToPing, flag, reserved);
+
+	if (InternetStatus) {
+		cout << "Internet Connection Available\n";
+	}
+	else {
+		cout<<"No Internet Connection\n";
+	}
+	return 0;
+}
+```
 
 
 > [!NOTE]
