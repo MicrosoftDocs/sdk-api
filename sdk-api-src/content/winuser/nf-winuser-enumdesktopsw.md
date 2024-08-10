@@ -56,15 +56,13 @@ Enumerates all desktops associated with the specified window station of the call
 
 ## -parameters
 
-### -param hwinsta [in, optional]
+### -param hwinsta [in]
 
 A handle to the window station whose desktops are to be enumerated. This handle is returned by the 
 <a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
 <a href="/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a>, or 
 <a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function, and must have the WINSTA_ENUMDESKTOPS access right. For more information, see 
 <a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
-
-If this parameter is NULL, the current window station is used.
 
 ### -param lpEnumFunc [in]
 
