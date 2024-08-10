@@ -55,7 +55,7 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to device
+  (HANDLE) hDevice,              // handle to file
   FSCTL_CREATE_OR_GET_OBJECT_ID, // dwIoControlCode
   NULL,                          // lpInBuffer
   0,                             // nInBufferSize
@@ -68,17 +68,41 @@ BOOL DeviceIoControl(
 
 ## -ioctlparameters
 
-### -input-buffer
+### -param hDevice [in]
 
-### -input-buffer-length
+A handle to the file object.
 
-### -output-buffer
+To retrieve a device handle, call the [**CreateFile**](../fileapi/nf-fileapi-createfilew.md) function.
 
-### -output-buffer-length
+### -param dwIoControlCode [in]
 
-### -in-out-buffer
+The control code for the operation.
 
-### -inout-buffer-length
+Use **FSCTL_CREATE_OR_GET_OBJECT_ID** for this operation.
+
+### -param lpInBuffer [in, optional]
+
+Not used with this operation. Set to **NULL**.
+
+### -param nInBufferSize [in]
+
+The size of the input buffer, in bytes. Set to 0 (zero).
+
+### -param lpOutBuffer [out, optional]
+
+A pointer to the output buffer that is to receive the [**FILE_OBJECTID_BUFFER**](ns-winioctl-file_objectid_buffer.md) data returned by the operation.
+
+### -param nOutBufferSize [in]
+
+The size of the output buffer, in bytes. It must be >= **sizeof**(FILE_OBJECTID_BUFFER).
+
+### -param lpBytesReturned [out, optional]
+
+A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
+
+### -param lpOverlapped [in, out, optional]
+
+A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure.
 
 ### -status-block
 
@@ -90,9 +114,9 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 ## -remarks
 
-Object identifiers are used to track  files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data.
+Object identifiers are used to track files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data.
 
-This operation creates an object identifier if the object does not already have one. To test for the presence of an object identifier, and retrieve it if it exists, use the [FSCTL_GET_OBJECT_ID](ni-winioctl-fsctl_get_object_id.md) operation. To create an object identifier without first testing for the presence of one, use the [FSCTL_SET_OBJECT_ID](ni-winioctl-fsctl_set_object_id.md) operation.
+This operation creates an object identifier if the object does not already have one. To test for the presence of an object identifier, and retrieve it if it exists, use the [FSCTL_GET_OBJECT_ID](ni-winioctl-fsctl_get_object_id.md) operation. To manually assign an object identifier, use the [FSCTL_SET_OBJECT_ID](ni-winioctl-fsctl_set_object_id.md) operation.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
