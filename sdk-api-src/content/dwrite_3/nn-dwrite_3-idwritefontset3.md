@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 17763
+req.target-min-winversvr: Windows 10 Build 17763
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:
