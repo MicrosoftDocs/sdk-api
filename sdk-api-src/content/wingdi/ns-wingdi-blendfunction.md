@@ -148,7 +148,7 @@ If the destination bitmap has an alpha channel, then the blend is as follows.
 
 <table>
 <tr>
-<td>Dest.alpha</td>
+<td>Dst.alpha</td>
 <td>= Src.Alpha</td>
 <td>+ (1 - SrcAlpha) * Dst.Alpha</td>
 </tr>
