@@ -71,10 +71,10 @@ When calling this function from a process running as SYSTEM it will return the p
 
 For non-system processes, the **GetTempPath2** function checks for the existence of environment variables in the following order and uses the first path found:
 
-- The path specified by the TMP environment variable.
-- The path specified by the TEMP environment variable.
-- The path specified by the USERPROFILE environment variable.
-- The Windows directory.
+1. The path specified by the TMP environment variable.
+1. The path specified by the TEMP environment variable.
+1. The path specified by the USERPROFILE environment variable.
+1. The Windows directory.
 
 Note that the function does not verify that the path exists, nor does it test to see if the current process has any kind of access rights to the path. The **GetTempPath2** function returns the properly formatted string that specifies the fully qualified path based on the environment variable search order as previously specified. The application should verify the existence of the path and adequate access rights to the path prior to any use for file I/O operations.
 
