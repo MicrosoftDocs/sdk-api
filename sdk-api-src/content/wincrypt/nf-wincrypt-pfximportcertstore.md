@@ -175,7 +175,7 @@ Do not persist the key. Specify this flag when you do not want to persist the ke
 
 <div class="alert"><b>Note</b> Some other considerations:
 
-* When using PKCS12_NO_PERSIST_KEY, the property CERT_KEY_CONTEXT_PROP_ID is set internally on the certificate, and CERT_KEY_CONTEXT_PROP_ID contains the NCRYPT_KEY_HANDLE.
+* When using PKCS12_NO_PERSIST_KEY, the property CERT_KEY_CONTEXT_PROP_ID is set internally on the certificate, and contains the key.
 
 * If the PKCS12_NO_PERSIST_KEY is not used, the CERT_KEY_PROV_INFO_PROP_ID property is set.
 
