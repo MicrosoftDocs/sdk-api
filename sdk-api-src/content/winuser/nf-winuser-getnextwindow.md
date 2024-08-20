@@ -97,6 +97,12 @@ Returns a handle to the window above the given window.
 </tr>
 </table>
 
+## -returns
+
+Type: <b>HWND</b>
+
+If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
 ## -remarks
 
 This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
