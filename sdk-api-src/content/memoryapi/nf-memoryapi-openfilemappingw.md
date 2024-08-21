@@ -110,7 +110,7 @@ When modifying a file through a mapped view, the last modification timestamp may
      If required, the caller should use <a href="/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the 
      timestamp.
 
-When it is no longer needed, the caller should call release the handle returned by 
+When it is no longer needed, the caller should release the handle returned by 
      <b>OpenFileMapping</b> with a call to 
      <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
