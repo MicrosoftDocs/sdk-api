@@ -4,7 +4,7 @@ title: DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC
 description: Performs a matrix multiplication function on quantized data. This operator is mathematically equivalent to dequantizing the inputs, then performing matrix multiply, and then quantizing the output.
 helpviewer_keywords: ["DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC","DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC structure","direct3d12.dml_quantized_linear_matrix_multiply_operator_desc","directml/DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 01/08/2024
+ms.date: 08/21/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -75,6 +75,9 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 A tensor containing the ATensor scale data. The expected dimensions of the `AScaleTensor` are `{ 1, 1, 1, 1 }` if per tensor quantization is required, or `{ 1, 1, M, 1 }` if per row quantization is required. These scale values are used for dequantizing the A values.
 
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
 ### -field AZeroPointTensor
 
 Type: _Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -93,6 +96,9 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 A tensor containing the *BTensor* scale data. The expected dimensions of the `BScaleTensor` are `{ 1, 1, 1, 1 }` if per tensor quantization is required, or `{ 1, 1, 1, N }` if per column quantization is required. These scale values are used for dequantizing the *BTensor* values.
 
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
 ### -field BZeroPointTensor
 
 Type: _Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -104,6 +110,9 @@ An optional tensor containing the *BTensor* zero point data. The expected dimens
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 A tensor containing the *OutputTensor* scale data. The expected dimensions of the `OutputScaleTensor` are `{ 1, 1, 1, 1 }` if per-tensor quantization is required, or `{ 1, 1, M, 1 }` if per-row quantization is required. This scale value is used for dequantizing the *OutputTensor* values.
+
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
 
 ### -field OutputZeroPointTensor
 
