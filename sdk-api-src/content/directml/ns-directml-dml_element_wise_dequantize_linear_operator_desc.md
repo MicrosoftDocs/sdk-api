@@ -67,6 +67,7 @@ The tensor containing the inputs.
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 The tensor containing the scales.
+A scale value of 0 will result in undefined behavior.
 
 ### -field ZeroPointTensor
 
