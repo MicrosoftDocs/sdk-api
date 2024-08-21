@@ -107,7 +107,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 
 ### -param Table [out]
 
-A pointer to a 
+A pointer to PMIB_IPNET_TABLE2. PMIB_IPNET_TABLE2 points to a 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure that contains a table of neighbor IP address entries on the local computer.
 
 ## -returns
