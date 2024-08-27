@@ -12,6 +12,7 @@ req.construct-type: function
 req.ddi-compliance: 
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
+req.apiset: api-ms-win-core-processthreads-l1-1-8
 req.header: processthreadsapi.h
 req.idl: 
 req.include-header: 
