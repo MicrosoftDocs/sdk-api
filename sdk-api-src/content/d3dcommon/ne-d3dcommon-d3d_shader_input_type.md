@@ -77,7 +77,7 @@ The shader resource is a sampler.
 
 ### -field D3D_SIT_UAV_RWTYPED
 
-The shader resource is a read-and-write buffer.
+The shader resource is a read-and-write buffer or texture.
 
 ### -field D3D_SIT_STRUCTURED
 
