@@ -66,7 +66,7 @@ The pointer to the DWORD value to receives the active flags of TSF.
 | <span id="TF_TMF_COMLESS"></span><span id="tf_tmf_comless"></span> **TF_TMF_COMLESS** | TSF is running without COM. |
 | <span id="TF_TMF_WOW16"></span><span id="tf_tmf_wow16"></span> **TF_TMF_WOW16** | TSF is running in 16bit task. |
 | <span id="TF_TMF_CONSOLE"></span><span id="tf_tmf_console"></span> **TF_TMF_CONSOLE** | TSF is running for console. |
-| <span id="TF_TMF_IMMERSIVEMODE"></span><span id="tf_tmf_immersivemode"></span> **TF_TMF_IMMERSIVEMODE** | TSF is active in a Windows Store app. |
+| <span id="TF_TMF_IMMERSIVEMODE"></span><span id="tf_tmf_immersivemode"></span> **TF_TMF_IMMERSIVEMODE** | **Starting with Windows 8:** TSF is active in a Windows Store app. |
 | <span id="TF_TMF_ACTIVATED"></span><span id="tf_tmf_activated"></span> **TF_TMF_ACTIVATED** | TSF is active. |
 
 ## -returns
