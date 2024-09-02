@@ -96,6 +96,8 @@ The devices returned from this function are the mouse, the keyboard, and other H
 
 To get more detailed information about the attached devices, call <a href="/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> using the hDevice from <a href="/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a>. 
 
+Redirected devices via RDP do not appear in the raw input device list. 
+
 
 #### Examples
 
