@@ -686,11 +686,15 @@ Type: <b>DWORD</b>
 
 The most significant 32 bits of the file's 64-bit binary creation date and time stamp.
 
+This field is not used and should be zero.
+
 ### -field dwFileDateLS
 
 Type: <b>DWORD</b>
 
 The least significant 32 bits of the file's 64-bit binary creation date and time stamp.
+
+This field is not used and should be zero.
 
 ## -see-also
 
