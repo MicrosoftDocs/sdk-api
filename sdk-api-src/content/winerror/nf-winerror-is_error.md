@@ -65,7 +65,7 @@ This macro is defined as follows:
 
 ``` syntax
 #define SEVERITY_ERROR     1
-#define IS_ERROR(Status) (((unsigned long)(Status)) &gt;&gt; 31 == SEVERITY_ERROR)
+#define IS_ERROR(Status) (((unsigned long)(Status)) >> 31 == SEVERITY_ERROR)
 ```
 
 

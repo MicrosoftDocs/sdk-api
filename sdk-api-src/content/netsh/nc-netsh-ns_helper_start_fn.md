@@ -82,20 +82,20 @@ DWORD WINAPI SampleStartHelper(
     DWORD dwErr;
     NS_CONTEXT_ATTRIBUTES attMyAttributes;
 
-    ZeroMemory(&amp;attMyAttributes, sizeof(attMyAttributes));
+    ZeroMemory(&attMyAttributes, sizeof(attMyAttributes));
     attMyAttributes.pwszContext   = L"samplecontext";
     attMyAttributes.guidHelper    = g_SampleGuid;
     attMyAttributes.dwVersion     = 1;
     attMyAttributes.dwFlags       = 0;
     attMyAttributes.ulNumTopCmds  = g_ulSampleNumTopCmds;
-    attMyAttributes.pTopCmds      = (CMD_ENTRY (*)[])&amp;g_SampleTopCmds;
+    attMyAttributes.pTopCmds      = (CMD_ENTRY (*)[])&g_SampleTopCmds;
     attMyAttributes.ulNumGroups   = g_ulSampleCmdGroups; 
-    attMyAttributes.pCmdGroups    = (CMD_GROUP_ENTRY (*)[])&amp;g_SampleCmdsGroups;
+    attMyAttributes.pCmdGroups    = (CMD_GROUP_ENTRY (*)[])&g_SampleCmdsGroups;
     attMyAttributes.pfnCommitFn   = SampleCommit;
     attMyAttributes.pfnDumpFn     = SampleDump;
     attMyAttributes.pfnConnectFn  = SampleConnect;
 
-    dwErr = RegisterContext( &amp;attMyAttributes );
+    dwErr = RegisterContext( &attMyAttributes );
     return dwErr;
 }
 ```

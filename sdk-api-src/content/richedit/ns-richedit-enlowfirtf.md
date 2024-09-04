@@ -70,8 +70,8 @@ The unsupported RTF keyword.
 
 ## -remarks
 
-This structure is used with the <a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a> message.
+This structure is used with the <a href="/windows/win32/controls/en-lowfirtf">EN_LOWFIRTF</a> message.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a>
+<a href="/windows/win32/controls/en-lowfirtf">EN_LOWFIRTF</a>

@@ -4,7 +4,8 @@ title: IMFPMediaPlayerCallback::OnMediaPlayerEvent (mfplay.h)
 description: Called by the MFPlay player object to notify the application of a playback event.
 helpviewer_keywords: ["IMFPMediaPlayerCallback interface [Media Foundation]","OnMediaPlayerEvent method","IMFPMediaPlayerCallback.OnMediaPlayerEvent","IMFPMediaPlayerCallback::OnMediaPlayerEvent","OnMediaPlayerEvent","OnMediaPlayerEvent method [Media Foundation]","OnMediaPlayerEvent method [Media Foundation]","IMFPMediaPlayerCallback interface","mf.imfpmediaplayercallback_onmediaplayerevent","mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent"]
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Called by the MFPlay player object to notify the application of a playback event.

@@ -118,7 +118,7 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
             The feasibility of success is likely dependent on how often each processor either reads or writes the data, the size and locality of data accesses, etc.
             For advanced developers: when <b>UMA</b> is true and <b>CacheCoherentUMA</b> is <b>false</b>, the most unique characteristic for these adapters is that upload heaps are still write-combined.
             However, some UMA adapters benefit from both the no-CPU-access and write-combine properties of default and upload heaps.
-            See <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a> for more details.
+            See <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)">GetCustomHeapProperties</a> for more details.
           
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.

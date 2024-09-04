@@ -54,7 +54,7 @@ Updates the properties for a Desktop Window Manager (DWM) thumbnail.
 
 ## -parameters
 
-### -param hThumbnailId
+### -param hThumbnailId [in]
 
 The handle to the DWM thumbnail to be updated. Null or invalid thumbnails, as well as thumbnails owned by other processes will result in a return value of E_INVALIDARG.
 

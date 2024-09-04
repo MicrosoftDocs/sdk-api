@@ -6,7 +6,7 @@ helpviewer_keywords: ["WS_ANY_ELEMENT_TYPE_MAPPING","WS_ATTRIBUTE_TYPE_MAPPING",
 old-location: wsw\ws_type_mapping.htm
 tech.root: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
-ms.date: 12/05/2018
+ms.date: 08/02/2024
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
 req.header: webservices.h
 req.include-header: 
@@ -45,104 +45,80 @@ api_name:
  - WS_TYPE_MAPPING
 ---
 
-# WS_TYPE_MAPPING enumeration
-
-
 ## -description
 
 How a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> maps to or from XML when serialized
-                or deserialized.
+or deserialized.
 
 ## -enum-fields
 
 ### -field WS_ELEMENT_TYPE_MAPPING:1
 
 This is used when reading or writing an element where the type
-                    corresponds to the type of the element.
-                    The definition of the type may include mappings to attributes,
-                    text, or child elements of the element.
-                
+corresponds to the type of the element.
+The definition of the type may include mappings to attributes,
+text, or child elements of the element.
 
 The following calling sequence is used when writing an element:
-                
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsWriteStartElement(...)
 WsWriteType(..., WS_ELEMENT_TYPE_MAPPING, ...)
 WsWriteEndElement(...)
-```
+</code></pre>
 
 The following calling sequence is used when reading an element:
-                
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsReadToStartElement(...)?
 WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)
-```
+</code></pre>
 
 ### -field WS_ATTRIBUTE_TYPE_MAPPING:2
 
 This is used when reading or writing the value of a single attribute.  The definition
-                    of the type must not require any mappings to attributes or child elements.
-                
+of the type must not require any mappings to attributes or child elements.
 
 The following calling sequence is used when writing an attribute value.
-                
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsWriteStartAttribute(...)
 WsWriteType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
 WsWriteEndAttribute(...)
-```
+</code></pre>
 
 The following calling sequence is used when reading an attribute value.
-                
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsFindAttribute(...)
 WsReadStartAttribute(...)
 WsReadType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
 WsReadEndAttribute(...)
-```
+</code></pre>
 
 ### -field WS_ELEMENT_CONTENT_TYPE_MAPPING:3
 
 This is used when the type corresponds to all or part of the 
-                    content (text and child elements) of an element.
-                    The definition of the type may include mappings to text or child
-                    elements, but must not include any attributes.
-                
+content (text and child elements) of an element.
+The definition of the type may include mappings to text or child
+elements, but must not include any attributes.
 
 The following calling sequence is used when writing the contents
-                    of an element:
-                
+of an element:
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsWriteStartElement(...)
 // Write attributes, if any
 // Write other element content, if any
 WsWriteType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 // Write other element content, if any
 WsWriteEndElement(...)
-```
+</code></pre>
 
 The following calling sequence is used when reading the contents of
-                    an element:
-                
+an element:
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsReadToStartElement(...)
 // Read attributes, if any
 WsReadStartElement(...)
@@ -150,39 +126,31 @@ WsReadStartElement(...)
 WsReadType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 // Read other element content, if any
 WsReadEndElement(...)
-```
+</code></pre>
 
 ### -field WS_ANY_ELEMENT_TYPE_MAPPING:4
 
 This is used when the type corresponds to the complete
-                    element, including the name and namespace of the element.
-                    The definition may include attributes and child elements
-                    and text.
-                
+element, including the name and namespace of the element.
+The definition may include attributes and child elements
+and text.
 
 The following calling sequence is used when writing 
-                    an element:
-                
+an element:
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsWriteType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)
-```
+</code></pre>
 
 The following calling sequence is used when reading the contents of
-                    an element:
-                
+an element:
 
-
-``` syntax
-
+<pre><code class="lang-syntax">
 WsReadToStartElement(...)?
 WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)
-```
+</code></pre>
 
 ## -remarks
 
 See the documentation for each <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> 
-                for which <b>WS_TYPE_MAPPING</b> values are supported.
-
+for which <b>WS_TYPE_MAPPING</b> values are supported.

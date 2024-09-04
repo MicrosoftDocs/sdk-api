@@ -4,6 +4,7 @@ title: HEAP_SUMMARY
 description: The HEAP_SUMMARY structure (heapapi.h) represents a heap summary retrieved with a call to the HeapSummary function.
 ms.date: 08/04/2022
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
+tech.root: base
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

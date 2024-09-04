@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfGetPlaceholderStateFromFileInfo","CfGetPlaceholderState
 old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 tech.root: cloudapi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
-ms.date: 03/30/2023
+ms.date: 07/24/2024
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
 req.header: cfapi.h
 req.include-header: 
@@ -59,7 +59,7 @@ An info buffer about the file.
 
 ### -param InfoClass [in]
 
-An info class so the function knows how to interpret the *InfoBuffer*.
+A [FILE_INFO_BY_HANDLE_CLASS](/windows/win32/api/minwinbase/ne-minwinbase-file_info_by_handle_class) class that helps the function interpret the data in *InfoBuffer*.
 
 ## -returns
 

@@ -88,11 +88,11 @@ public:
         }
         else if (iid == __uuidof(IUnknown))
         {
-            *ppv = static_cast&lt;IUnknown*&gt;(this);
+            *ppv = static_cast<IUnknown*>(this);
         }
         else if (iid == IID_IAMCopyCaptureFileProgress) 
         {
-            *ppv = static_cast&lt;IAMCopyCaptureFileProgress*&gt;(this);
+            *ppv = static_cast<IAMCopyCaptureFileProgress*>(this);
         }
         else
         {
@@ -102,7 +102,7 @@ public:
     }
     STDMETHODIMP Progress(int iPercent) 
     {
-        if (iPercent &lt; 0 || iPercent &gt; 100) 
+        if (iPercent < 0 || iPercent > 100) 
         {
             return E_INVALIDARG;
         }
@@ -132,8 +132,8 @@ The following example uses this class in the <b>CopyCaptureFile</b> method:
 {
     CProgress Prog;
     // Assume pBuilder is an initialized ICaptureGraphBuilder2 pointer.
-    hr = pBuilder-&gt;CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
-        static_cast&lt;IAMCopyCaptureFileProgress*&gt;(&amp;Prog));
+    hr = pBuilder->CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
+        static_cast<IAMCopyCaptureFileProgress*>(&amp;Prog));
 }
 </pre>
 </td>

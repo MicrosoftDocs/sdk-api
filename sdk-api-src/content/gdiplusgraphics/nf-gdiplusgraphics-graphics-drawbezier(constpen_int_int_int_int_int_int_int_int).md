@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBezier(constPen,INT,INT,INT,INT,INT,INT,INT,INT)
 title: Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawBezier method draws a B�zier spline. (overload 2/3)
+description: The Graphics::DrawBezier method draws a Bézier spline. (overload 2/3)
 helpviewer_keywords: ["DrawBezier","DrawBezier method [GDI+]","DrawBezier method [GDI+]","Graphics class","Graphics class [GDI+]","DrawBezier method","Graphics.DrawBezier","Graphics.DrawBezier(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT)","Graphics.DrawBezier(const Pen*","INT","INT","INT","INT","INT","INT","INT","INT)","Graphics::DrawBezier","Graphics::DrawBezier(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_","gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_.htm
 tech.root: gdiplus

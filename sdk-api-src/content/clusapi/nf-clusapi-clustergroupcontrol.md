@@ -248,7 +248,7 @@ dwResult = ClusterGroupControl( hCluster,
                                 0,
                                 lpPropList,
                                 cbAllocated,
-                                &amp;cbReturned );
+                                &cbReturned );
 
 // If the buffer was too small, reallocate it to the necessary size,
 // returned in cbReturned.
@@ -268,7 +268,7 @@ if ( dwResult == ERROR_MORE_DATA )
                                   0,
                                   lpPropList,
                                   cbAllocated,
-                                  &amp;cbReturned );
+                                  &cbReturned );
 }
 
 if ( dwResult != ERROR_SUCCESS )

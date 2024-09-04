@@ -139,7 +139,7 @@ identity.Type = WINBIO_ID_TYPE_SID;
 // Move an account SID into identity.Value.AccountSid.Data.
 // e.g., CopySid(...)
 
-HRESULT hr = WinBioGetEnrolledFactors(&amp;identity, &amp;enrolledFactors);
+HRESULT hr = WinBioGetEnrolledFactors(&identity, &enrolledFactors);
 
 ```
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetTempPath2W
 title: GetTempPath2W
-ms.date: 10/07/2020
+ms.date: 08/15/2024
 ms.topic: language-reference
 targetos: Windows
 description: Retrieves the path of the directory designated for temporary files, based on the privileges of the calling process. (Unicode)
@@ -51,131 +51,56 @@ Retrieves the path of the directory designated for temporary files, based on the
 
 ### -param BufferLength [in]
 
-The size of the string buffer identified by <i>lpBuffer</i>, in 
-      <b>TCHARs</b>.
+The size of the string buffer identified by *lpBuffer*, in **TCHARs**.
 
 ### -param Buffer [out]
 
-A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. 
-      The returned string ends with a backslash, for example, "C:\\TEMP\\".
+A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. The returned string ends with a backslash, for example, "C:\\TEMP\\".
 
 ## -returns
 
-If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the 
-       string copied to <i>lpBuffer</i>, not including the terminating null character. If the 
-       return value is greater than <i>nBufferLength</i>, the return value is the length, in 
-       <b>TCHARs</b>, of the buffer required to hold the path.
+If the function succeeds, the return value is the length, in **TCHARs**, of the string copied to *lpBuffer*, not including the terminating null character. If the return value is greater than *nBufferLength*, the return value is the length, in **TCHARs**, of the buffer required to hold the path.
 
-If the function fails, the return value is zero. To get extended error information, call 
-       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-The maximum possible return value is <b>MAX_PATH</b>+1 (261).
+The maximum possible return value is **MAX_PATH**+1 (261).
 
 ## -remarks
 
-When calling this function from a process running as SYSTEM it will return the path C:\Windows\SystemTemp, which is inaccessible to non-SYSTEM processes. For non-SYSTEM processes, **GetTempPath2** will behave the same as [GetTempPath](/windows/win32/api/fileapi/nf-fileapi-gettemppatha). 
+When calling this function from a process running as SYSTEM it will return the path C:\Windows\SystemTemp, which is inaccessible to non-SYSTEM processes. For non-SYSTEM processes, **GetTempPath2** will behave the same as [GetTempPath](/windows/win32/api/fileapi/nf-fileapi-gettemppatha).
 
-The <b>GetTempPath2</b> function checks for the existence of 
-    environment variables in the following order and uses the first path found:
+For non-system processes, the **GetTempPath2** function checks for the existence of environment variables in the following order and uses the first path found:
 
-<ol>
-<li>The path specified by the TMP environment variable.</li>
-<li>The path specified by the TEMP environment variable.</li>
-<li>The path specified by the USERPROFILE environment variable.</li>
-<li>The Windows directory.</li>
-</ol>
-Note that the function does not verify that the path exists, nor does it test to see if the current process has 
-     any kind of access rights to the path. The <b>GetTempPath2</b> 
-     function returns the properly formatted string that specifies the fully qualified path based on the environment 
-     variable search order as previously specified. The application should verify the existence of the path and 
-     adequate access rights to the path prior to any use for file I/O operations.
+1. The path specified by the TMP environment variable.
+1. The path specified by the TEMP environment variable.
+1. The path specified by the USERPROFILE environment variable.
+1. The Windows directory.
 
-Symbolic link behavior—If the path points to a symbolic link, the temp path name 
-    maintains any symbolic links.
+Note that the function does not verify that the path exists, nor does it test to see if the current process has any kind of access rights to the path. The **GetTempPath2** function returns the properly formatted string that specifies the fully qualified path based on the environment variable search order as previously specified. The application should verify the existence of the path and adequate access rights to the path prior to any use for file I/O operations.
+
+**Symbolic link behavior:** If the path points to a symbolic link, the temp path name maintains any symbolic links.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
-<table>
-<tr>
-<th>Technology</th>
-<th>Supported</th>
-</tr>
-<tr>
-<td>
-Server Message Block (SMB) 3.0 protocol
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 Transparent Failover (TFO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-SMB 3.0 with Scale-out File Shares (SO)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Cluster Shared Volume File System (CsvFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-<tr>
-<td>
-Resilient File System (ReFS)
-
-</td>
-<td>
-Yes
-
-</td>
-</tr>
-</table>
- 
-
+| Technology | Supported |
+| --- | --- |
+| Server Message Block (SMB) 3.0 protocol | Yes |
+| SMB 3.0 Transparent Failover (TFO) | Yes |
+| SMB 3.0 with Scale-out File Shares (SO) | Yes |
+| Cluster Shared Volume File System (CsvFS) | Yes |
+| Resilient File System (ReFS) | Yes |
 
 #### Examples
 
-For an example, see 
-     <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
-
-<div class="code"></div>
-
-
-
+For an example, see [Creating and Using a Temporary File](/windows/win32/FileIO/creating-and-using-a-temporary-file).
 
 > [!NOTE]
-> The fileapi.h header defines GetTempPath2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The `fileapi.h` header defines **GetTempPath2** as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+[File Management Functions](/windows/win32/FileIO/file-management-functions)
 
+[GetTempFileName](nf-fileapi-gettempfilenamew.md)
 
-
-<a href="/windows/desktop/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileName</a>
-
-
-
-<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
+[Symbolic Links](/windows/win32/FileIO/symbolic-links)

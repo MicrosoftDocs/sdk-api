@@ -167,7 +167,7 @@ The OleDraw helper function calls the <a href="/windows/desktop/api/unknwn/nf-un
 
 
 ``` syntax
-lpViewObj-&gt;Draw(dwAspect,-1,0,0,0,hdcDraw,&amp;rectl,0,0,0);
+lpViewObj->Draw(dwAspect,-1,0,0,0,hdcDraw,&rectl,0,0,0);
 ```
 
 Do not use this function to draw into a metafile because it does not specify the parameter required for drawing into metafiles.

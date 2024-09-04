@@ -60,17 +60,17 @@ To use extended window styles in addition to the styles supported by <b>CreateWi
 
 ```cpp
 HWND CreateWindowW(
-  [in, optional]  lpClassName,
-  [in, optional]  lpWindowName,
-  [in]            dwStyle,
-  [in]            x,
-  [in]            y,
-  [in]            nWidth,
-  [in]            nHeight,
-  [in, optional]  hWndParent,
-  [in, optional]  hMenu,
-  [in, optional]  hInstance,
-  [in, optional]  lpParam
+  [in, optional] LPCWSTR   lpClassName,
+  [in, optional] LPCWSTR   lpWindowName,
+  [in]           DWORD     dwStyle,
+  [in]           int       x,
+  [in]           int       y,
+  [in]           int       nWidth,
+  [in]           int       nHeight,
+  [in, optional] HWND      hWndParent,
+  [in, optional] HMENU     hMenu,
+  [in, optional] HINSTANCE hInstance,
+  [in, optional] LPVOID    lpParam
 );
 ```
 
@@ -149,7 +149,7 @@ A pointer to a value to be passed to the window through the <a href="/windows/de
 
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
-## Returns
+## -returns
 
 Type: <b>HWND</b>
 

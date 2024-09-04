@@ -78,14 +78,14 @@ The complete window title for an embedded object in an SDI container application
 
 
 ``` syntax
-&lt;object application name&gt; - &lt;object short type&gt; in &lt;container document&gt;
+<object application name> - <object short type> in <container document>
 ```
 
 Otherwise, the title should be:
 
 
 ``` syntax
-&lt;object application name&gt; - &lt;container document&gt;
+<object application name> - <container document>
 ```
 
 The "object short type" refers to a form of an object's name short enough to be displayed in full in a list box. Because these identifying strings are not stored as part of the persistent state of the object, <b>IOleObject::SetHostNames</b> must be called each time the object loads or runs.

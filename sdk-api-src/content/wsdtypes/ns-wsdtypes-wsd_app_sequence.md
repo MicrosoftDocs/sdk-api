@@ -74,17 +74,14 @@ The application sequencing header block allows a receiver to maintain the sequen
 
 The normative outline for the application sequence header block is:
 
-
-
-
 ``` syntax
-&lt;s:Envelope ...&gt; 
-  &lt;s:Header ...&gt; 
-    &lt;d:AppSequence InstanceId='xs:nonNegativeInteger' [SequenceId='xs:anyURI']? MessageNumber='xs:nonNegativeInteger' ... /&gt;
-  &lt;/s:Header&gt; 
-  &lt;s:Body ...&gt; ... 
-  &lt;/s:Body&gt; 
-&lt;/s:Envelope&gt;
+<s:Envelope ...>
+  <s:Header ...>
+    <d:AppSequence InstanceId='xs:nonNegativeInteger' [SequenceId='xs:anyURI']? MessageNumber='xs:nonNegativeInteger' ... />
+  </s:Header>
+  <s:Body ...> ...
+  </s:Body>
+</s:Envelope>
 ```
 
 The following describes normative constraints of this outline. 

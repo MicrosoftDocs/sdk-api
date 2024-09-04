@@ -144,8 +144,8 @@ For example, to retrieve a binary certificate with complete certificate chain in
 
 
 ``` syntax
-hResult = pCertReq-&gt;GetCACertificate(FALSE, bstrConfig,
-     CR_OUT_BINARY | CR_OUT_CHAIN, &amp;bstrCert);
+hResult = pCertReq->GetCACertificate(FALSE, bstrConfig,
+     CR_OUT_BINARY | CR_OUT_CHAIN, &bstrCert);
 ```
 
 

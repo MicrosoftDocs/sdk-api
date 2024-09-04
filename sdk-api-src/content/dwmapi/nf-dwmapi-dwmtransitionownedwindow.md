@@ -54,11 +54,11 @@ Coordinates the animations of tool windows with the Desktop Window Manager (DWM)
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 Handle to the window.
 
-### -param unnamedParam2
+### -param target [in]
 
 The target.
 

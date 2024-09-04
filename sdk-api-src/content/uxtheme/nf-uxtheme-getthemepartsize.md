@@ -87,7 +87,7 @@ Type: <b>LPCRECT</b>
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle used for the part drawing destination. This parameter may be set to <b>NULL</b>.
 
-### -param unnamedParam6 [in]
+### -param eSize [in]
 
 Type: <b>THEMESIZE</b>
 

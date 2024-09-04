@@ -131,17 +131,17 @@ To unpark a call,
 
 
 ``` syntax
-// Note: the parameters used in this call are obtained from elsewhere in the code.  
+// Note: the parameters used in this call are obtained from elsewhere in the code.
 
-HRESULT hr = pAddress-&gt;CreateCall( bstrAddressToCall, 
-                           dwAddressType, 
-                           dwMediaTypes, 
-                           &amp;pBasicCall 
-                           ); 
-// If ( hr != S_OK ) process the error here. 
+HRESULT hr = pAddress->CreateCall( bstrAddressToCall,
+                           dwAddressType,
+                           dwMediaTypes,
+                           &pBasicCall
+                           );
+// If ( hr != S_OK ) process the error here.
 
-// Select appropriate terminals for call, and then call: 
-pBasicCall -&gt;Unpark();
+// Select appropriate terminals for call, and then call:
+pBasicCall->Unpark();
 ```
 
 

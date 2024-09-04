@@ -149,23 +149,23 @@ DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0};
        swapChainDesc.AlphaMode = DXGI_ALPHA_MODE_IGNORE;
 
        // This sequence obtains the DXGI factory that was used to create the Direct3D device above.
-       ComPtr&lt;IDXGIDevice3&gt; dxgiDevice;
-       DX::ThrowIfFailed(m_d3dDevice.As(&amp;dxgiDevice));
+       ComPtr<IDXGIDevice3> dxgiDevice;
+       DX::ThrowIfFailed(m_d3dDevice.As(&dxgiDevice));
 
-       ComPtr&lt;IDXGIAdapter&gt; dxgiAdapter;
-       DX::ThrowIfFailed(dxgiDevice-&gt;GetAdapter(&amp;dxgiAdapter));
+       ComPtr<IDXGIAdapter> dxgiAdapter;
+       DX::ThrowIfFailed(dxgiDevice->GetAdapter(&dxgiAdapter));
 
-       ComPtr&lt;IDXGIFactory4&gt; dxgiFactory;
-       DX::ThrowIfFailed(dxgiAdapter-&gt;GetParent(IID_PPV_ARGS(&amp;dxgiFactory)));
+       ComPtr<IDXGIFactory4> dxgiFactory;
+       DX::ThrowIfFailed(dxgiAdapter->GetParent(IID_PPV_ARGS(&dxgiFactory)));
 
-       ComPtr&lt;IDXGISwapChain1&gt; swapChain;
+       ComPtr<IDXGISwapChain1> swapChain;
        DX::ThrowIfFailed(
-              dxgiFactory-&gt;CreateSwapChainForCoreWindow(
+              dxgiFactory->CreateSwapChainForCoreWindow(
                      m_d3dDevice.Get(),
-                     reinterpret_cast&lt;IUnknown*&gt;(m_window.Get()),
-                     &amp;swapChainDesc,
+                     reinterpret_cast<IUnknown*>(m_window.Get()),
+                     &swapChainDesc,
                      nullptr,
-                     &amp;swapChain
+                     &swapChain
                      )
               );
 

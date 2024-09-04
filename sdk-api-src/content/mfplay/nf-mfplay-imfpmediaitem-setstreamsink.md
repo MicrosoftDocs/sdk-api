@@ -4,7 +4,8 @@ title: IMFPMediaItem::SetStreamSink (mfplay.h)
 description: Sets a media sink for the media item.
 helpviewer_keywords: ["IMFPMediaItem interface [Media Foundation]","SetStreamSink method","IMFPMediaItem.SetStreamSink","IMFPMediaItem::SetStreamSink","SetStreamSink","SetStreamSink method [Media Foundation]","SetStreamSink method [Media Foundation]","IMFPMediaItem interface","mf.imfpmediaitem_setstreamsink","mfplay/IMFPMediaItem::SetStreamSink"]
 old-location: mf\imfpmediaitem_setstreamsink.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Sets a media sink for the media item. A <i>media sink</i> is an object that consumes the data from one or more streams.

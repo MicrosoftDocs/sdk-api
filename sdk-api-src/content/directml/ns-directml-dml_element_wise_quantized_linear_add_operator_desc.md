@@ -3,7 +3,7 @@ UID: NS:directml.DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC
 title: DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC
 description: Adds every element in *ATensor* to its corresponding element in *BTensor*, placing the result into the corresponding element of *OutputTensor*. (DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC)
 tech.root: directml
-ms.date: 07/02/2021
+ms.date: 08/21/2024
 req.construct-type: structure
 req.header: directml.h
 req.include-header: 
@@ -69,6 +69,9 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 The tensor containing the desired scale factor for *ATensor*. The expected number of elements in *AScaleTensor* is 1.
 
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
 ### -field AZeroPointTensor
 
 Type: \_Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -87,6 +90,9 @@ Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tens
 
 The tensor containing the desired scale factor for *BTensor*. The expected number of elements in *BScaleTensor* is 1.
 
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
 ### -field BZeroPointTensor
 
 Type: \_Maybenull\_ **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
@@ -98,6 +104,9 @@ The tensor containing the desired zero point for *BTensor*. The expected number 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 The tensor containing the desired scale factor for *OutputTensor*. This is an input tensor defining the output quantization scale factor to use while quantizing the output values. The expected number of elements in *OutputScaleTensor* is 1.
+
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
 
 ### -field OutputZeroPointTensor
 

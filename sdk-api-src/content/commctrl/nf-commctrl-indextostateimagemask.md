@@ -66,6 +66,6 @@ The <b>INDEXTOSTATEIMAGEMASK</b> macro is defined as follows:
 
 
 ``` syntax
-#define INDEXTOSTATEIMAGEMASK(i) ((i) &lt;&lt; 12)
+#define INDEXTOSTATEIMAGEMASK(i) ((i) << 12)
 ```
 

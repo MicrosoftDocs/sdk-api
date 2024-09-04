@@ -75,7 +75,7 @@ The <i>pByteStreamActivate</i> parameter must specify an activation object that 
 ``` syntax
 IMFByteStream *pByteStream = NULL;
 
-HRESULT hr = pByteStreamActivate-&gt;ActivateObject(IID_IMFByteStream, (void**)&amp;pByteStream);
+HRESULT hr = pByteStreamActivate->ActivateObject(IID_IMFByteStream, (void**)&pByteStream);
 ```
 
 Currently, Microsoft Media Foundation does not provide any byte-stream activation objects. To use this method, an application must provide a custom implementation of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>.

@@ -62,7 +62,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window to apply changes to.
 
-### -param unnamedParam2 [in]
+### -param eAttribute [in]
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 
@@ -80,7 +80,6 @@ Value of type <a href="/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattrib
 </td>
 <td width="60%">
 Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="/windows/desktop/api/uxtheme/ns-uxtheme-wta_options">WTA_OPTIONS</a>.
-
 </td>
 </tr>
 </table>

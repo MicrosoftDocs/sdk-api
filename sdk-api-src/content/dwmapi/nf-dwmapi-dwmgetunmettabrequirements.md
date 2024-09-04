@@ -56,8 +56,8 @@ This function was part of an experimental feature that was never implemented in 
 
 ### -param appWindow [in, optional]
 
-This parameter is not used.
+This parameter isn't used.
 
-### -param unnamedParam2 [out]
+### -param *value [out]
 
-This parameter is not used.
+This parameter isn't used.

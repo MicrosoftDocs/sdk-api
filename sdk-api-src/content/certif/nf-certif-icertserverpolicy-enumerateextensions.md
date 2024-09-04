@@ -85,32 +85,32 @@ When done enumerating, call the <a href="/windows/desktop/api/certif/nf-certif-i
 
 
 ``` syntax
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certif.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <Certif.h>
 
 BSTR     bstrExt = NULL;
 VARIANT  varExt;
 LONG     ExtFlags;
 HRESULT  hr;
 
-VariantInit(&amp;varExt);
+VariantInit(&varExt);
 
 // Enumerate the extensions.
 while (S_OK ==
-      (hr = pCertServerPol-&gt;EnumerateExtensions(&amp;bstrExt)))
+      (hr = pCertServerPol->EnumerateExtensions(&bstrExt)))
 {
   // Retrieve the extension data.
-  if (FAILED(pCertServerPol-&gt;GetCertificateExtension(
+  if (FAILED(pCertServerPol->GetCertificateExtension(
                              bstrExt,
                              PROPTYPE_BINARY,
-                             &amp;varExt)))
+                             &varExt)))
       printf("Failed GetCertificateExtension\n");
   else
   {
      // Retrieve the extension flags.
-    if (FAILED(pCertServerPol-&gt;GetCertificateExtensionFlags(
-                               &amp;ExtFlags)))
+    if (FAILED(pCertServerPol->GetCertificateExtensionFlags(
+                               &ExtFlags)))
         printf("Failed GetCertificateExtensionFlags\n");
     else
         // This sample will display the extension OID string,
@@ -130,7 +130,7 @@ if (S_FALSE != hr)
 if (NULL != bstrExt)
     SysFreeString(bstrExt);
 // Free VARIANT resource.
-    VariantClear(&amp;varExt);
+    VariantClear(&varExt);
 
 ```
 

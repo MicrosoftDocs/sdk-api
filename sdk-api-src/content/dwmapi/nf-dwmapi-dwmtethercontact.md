@@ -55,15 +55,15 @@ Enables the graphical feedback of touch and drag interactions to the user.
 
 ## -parameters
 
-### -param dwPointerID
+### -param dwPointerID [in]
 
 The pointer ID.
 
-### -param fEnable
+### -param fEnable [in]
 
 Indicates whether the contact is enabled.
 
-### -param ptTether
+### -param ptTether [in]
 
 The tether.
 

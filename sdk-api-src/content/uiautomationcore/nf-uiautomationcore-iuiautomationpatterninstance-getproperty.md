@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the property should be retrieved from the cache, otherwise <b>FALSE</b>.
 
-### -param unnamedParam3 [in]
+### -param type [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a></b>
 

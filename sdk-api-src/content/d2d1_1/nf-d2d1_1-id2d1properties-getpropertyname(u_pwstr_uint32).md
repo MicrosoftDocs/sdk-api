@@ -11,8 +11,8 @@ ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows�8 and Platform Update for Windows�7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server�2012 and Platform Update for Windows Server�2008�R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -96,7 +96,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The specified property does not exist.</td>
 </tr>
 </table>
-�
 
 ## -remarks
 
@@ -126,6 +125,3 @@ This method returns an empty string if <i>index</i> is invalid. If the method re
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-�
-
-�

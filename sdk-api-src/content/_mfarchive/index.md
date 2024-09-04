@@ -12,12 +12,13 @@ archived: true
 
 ## -description
 
-Overview of the Microsoft Media Foundation technology.
+Headers associated with legacy features of the Microsoft Media Foundation technology.
 
-To develop Microsoft Media Foundation, you need these headers:
+The following headers support legacy features for Microsoft Media Foundation:
 
  * [evr.h](../evr/index.md)
-* [evr9.h](../evr9/index.md)
+ * [evr9.h](../evr9/index.md)
+ * [mfplay.h](../mfplay/index.md)
 
 For programming guidance for this technology, see:
 * [Microsoft Media Foundation](/windows/desktop/medfound)

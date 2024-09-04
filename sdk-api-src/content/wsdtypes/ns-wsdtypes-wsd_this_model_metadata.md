@@ -88,36 +88,28 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_eleme
 
 <b>WSD_THIS_MODEL_METADATA</b> specifies manufacturer metadata that is common to all instances of a specific model.
 
-
-
-
-
 Model metadata follows this form:
 
-
 ``` syntax
-&lt;wsd:ThisModel&gt;
-    &lt;wsd:Manufacturer&gt;
+<wsd:ThisModel>
+    <wsd:Manufacturer>
         A. Datum Corporation
-    &lt;/wsd:Manufacturer&gt;
-    &lt;wsd:ManufacturerURL&gt;
+    </wsd:Manufacturer>
+    <wsd:ManufacturerURL>
         http://www.adatum.com
-    &lt;/wsd:ManufacturerURL&gt;
-    &lt;wsd:ModelName&gt;
+    </wsd:ManufacturerURL>
+    <wsd:ModelName>
         WebWeigh
-    &lt;/wsd:ModelName&gt;
-    &lt;wsd:ModelNumber&gt;
+    </wsd:ModelName>
+    <wsd:ModelNumber>
         9-23492-83049
-    &lt;/wsd:ModelNumber&gt;
-    &lt;wsd:ModelURL&gt;
-        http://www.adatum.com/WebWeighOwner.html 
-    &lt;/wsd:ModelURL&gt;
-    &lt;wsd:PresentationURL&gt;
+    </wsd:ModelNumber>
+    <wsd:ModelURL>
+        http://www.adatum.com/WebWeighOwner.html
+    </wsd:ModelURL>
+    <wsd:PresentationURL>
         presentation/menu.html
-    &lt;/wsd:PresentationURL&gt;
-&lt;/wsd:ThisModel&gt;
-
-
-
+    </wsd:PresentationURL>
+</wsd:ThisModel>
 ```
 

@@ -4,7 +4,8 @@ title: MFP_CREATION_OPTIONS (mfplay.h)
 description: Specifies options for the MFPCreateMediaPlayer function.
 helpviewer_keywords: ["MFP_OPTION_FREE_THREADED_CALLBACK","MFP_OPTION_NONE","MFP_OPTION_NO_MMCSS","MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION","_MFP_CREATION_OPTIONS","_MFP_CREATION_OPTIONS enumeration [Media Foundation]","mf._mfp_creation_options","mfplay/MFP_OPTION_FREE_THREADED_CALLBACK","mfplay/MFP_OPTION_NONE","mfplay/MFP_OPTION_NO_MMCSS","mfplay/MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION","mfplay/_MFP_CREATION_OPTIONS"]
 old-location: mf\_mfp_creation_options.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: e01b402c-e21e-4db0-b933-5a32fdca5d2f
 ms.date: 12/05/2018
 ms.keywords: MFP_OPTION_FREE_THREADED_CALLBACK, MFP_OPTION_NONE, MFP_OPTION_NO_MMCSS, MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, _MFP_CREATION_OPTIONS, _MFP_CREATION_OPTIONS enumeration [Media Foundation], mf._mfp_creation_options, mfplay/MFP_OPTION_FREE_THREADED_CALLBACK, mfplay/MFP_OPTION_NONE, mfplay/MFP_OPTION_NO_MMCSS, mfplay/MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, mfplay/_MFP_CREATION_OPTIONS
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Specifies options for the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function.

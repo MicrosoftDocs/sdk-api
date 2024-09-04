@@ -80,6 +80,6 @@ Specifies the state values to set. States that are not included here but are inc
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comctl32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 You can also set the group state by using <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setgroupinfo">ListView_SetGroupInfo</a>.

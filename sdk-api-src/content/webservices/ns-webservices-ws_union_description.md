@@ -149,10 +149,8 @@ struct StructType
 ```
 
 The following examples illustrates initializing a union description
-                for the previous example.  This example fills out the nameIndices 
-                field, but this field could be <b>NULL</b> instead.
-            
-
+for the previous example.  This example fills out the nameIndices 
+field, but this field could be <b>NULL</b> instead.
 
 ``` syntax
 WS_XML_STRING choiceAString = WS_XML_STRING_VALUE("choiceA");
@@ -160,8 +158,8 @@ WS_XML_STRING choiceANs = WS_XML_STRING_VALUE("http://examples.org/a");
 
 WS_UNION_FIELD_DESCRIPTION fieldA = { };
 fieldA.value = ChoiceA;
-fieldA.field.localName = &amp;choiceAString;
-fieldA.field.ns = &amp;choiceANs;
+fieldA.field.localName = &choiceAString;
+fieldA.field.ns = &choiceANs;
 fieldA.field.type = WS_INT32_TYPE;
 fieldA.field.offset = WsOffsetOf(StructType, value.a);
 
@@ -170,16 +168,16 @@ WS_XML_STRING choiceBNs = WS_XML_STRING_VALUE("http://examples.org/b");
 
 WS_UNION_FIELD_DESCRIPTION fieldB = { };
 fieldB.value = ChoiceB;
-fieldB.field.localName = &amp;choiceBString;
-fieldB.field.ns = &amp;choiceBNs;
+fieldB.field.localName = &choiceBString;
+fieldB.field.ns = &choiceBNs;
 fieldB.field.type = WS_STRING_TYPE;
 fieldB.field.offset = WsOffsetOf(StructType, value.b);
 
 // Sorted by ascending element name (first ns, then localName)
 WS_UNION_FIELD_DESCRIPTION* fieldsArray[] =
 {
-    &amp;fieldA, // "http://example.com/a", "choiceA"
-    &amp;fieldB, // "http://example.com/b", "choiceB"
+    &fieldA, // "http://example.com/a", "choiceA"
+    &fieldB, // "http://example.com/b", "choiceB"
 };
 
 // Sorted by ascending enum value
@@ -200,21 +198,15 @@ unionDescription.valueIndices = valueIndices;
 
 ```
 
-The above would allow either of the following elements to
-                appear:
-            
-
+The above would allow either of the following elements to appear:
 
 ``` syntax
-
-&lt;choiceA xmlns="http://example.com/a"&gt;123&lt;/choiceA&gt;
-&lt;choiceB xmlns="http://example.com/b"&gt;hello&lt;/choiceB&gt;
+<choiceA xmlns="http://example.com/a">123</choiceA>
+<choiceB xmlns="http://example.com/b">hello</choiceB>
 
 ```
 
 The following is an example of setting values:
-            
-
 
 ``` syntax
 StructType structType;

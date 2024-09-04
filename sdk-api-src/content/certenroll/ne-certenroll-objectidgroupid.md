@@ -344,7 +344,7 @@ DWORD dwBitLen = 192;
 
 ObjectIdGroupId GroupId = 
         (ObjectIdGroupId) (XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID | 
-        (XCN_CRYPT_KEY_LENGTH_MASK &amp; (dwBitLen &lt;&lt; 16)));
+        (XCN_CRYPT_KEY_LENGTH_MASK & (dwBitLen << 16)));
 
 ```
 

@@ -80,9 +80,9 @@ The following code sample creates three handles, two of which refer to the same 
 
 
 ``` syntax
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;wchar.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <wchar.h>
 
 HANDLE Event1;
 HANDLE Event2;

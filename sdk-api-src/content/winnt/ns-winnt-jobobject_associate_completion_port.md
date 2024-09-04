@@ -67,7 +67,7 @@ The value to use in the <i>dwCompletionKey</i> parameter of
 
 The completion port to use in the <i>CompletionPort</i> parameter of the <a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when messages are sent on behalf of the job.
 
-<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>Specify <b>NULL</b> to remove the association between the current completion port and the job.
+**Windows 8 and newer, Windows Server 2012 and newer:** Specify <b>NULL</b> to remove the association between the current completion port and the job.
 
 ## -remarks
 

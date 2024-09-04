@@ -88,8 +88,8 @@ The following code example is a simple implementation of an object sink. This sa
 <td>
 
 ```
-#include &lt;iostream&gt;
-#include &lt;wbemidl.h&gt;
+#include <iostream>
+#include <wbemidl.h>
 #pragma comment(lib, "wbemuuid.lib")
 
 class QuerySink : public IWbemObjectSink
@@ -124,12 +124,12 @@ public:
 
 ULONG QuerySink::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 ULONG QuerySink::Release()
 {
-    LONG lRef = InterlockedDecrement(&amp;m_lRef);
+    LONG lRef = InterlockedDecrement(&m_lRef);
     if(lRef == 0)
         delete this;
     return lRef;
@@ -149,7 +149,7 @@ HRESULT QuerySink::QueryInterface(REFIID riid, void** ppv)
 
 HRESULT QuerySink::Indicate(long lObjCount, IWbemClassObject **pArray)
 {
-    for (long i = 0; i &lt; lObjCount; i++)
+    for (long i = 0; i < lObjCount; i++)
     {
         IWbemClassObject *pObj = pArray[i];
 

@@ -112,11 +112,11 @@ The XML fragment returned has the following structure:
 
 
 ``` syntax
-&lt;PEERIDENTITYINFO VERSION="1.0"&gt;
-     &lt;IDC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
+<PEERIDENTITYINFO VERSION="1.0">
+     <IDC xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">
           Base 64 encoded certificate.
-     &lt;/IDC&gt;
-&lt;/PEERIDENTITYINFO&gt;
+     </IDC>
+</PEERIDENTITYINFO>
 ```
 
 This XML fragment is used when creating an invitation to join a group.

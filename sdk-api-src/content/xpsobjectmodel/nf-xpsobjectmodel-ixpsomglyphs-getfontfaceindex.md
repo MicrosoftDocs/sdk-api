@@ -103,15 +103,15 @@ In the following markup of a FixedPage, the <b>FontUri</b> attribute of the <b>G
 
 
 ``` syntax
-    &lt;FixedPage Height="1056" Width="816" xml:lang="en-US"
-    xmlns="http://schemas.microsoft.com/xps/2005/06"&gt;
-      &lt;Glyphs
+    <FixedPage Height="1056" Width="816" xml:lang="en-US"
+    xmlns="http://schemas.microsoft.com/xps/2005/06">
+      <Glyphs
       OriginX="96"
       OriginY="96"
       UnicodeString="This is Page 1!"
       FontUri="../Resources/Fonts/Font.TTF#1"
-      FontRenderingEmSize="16" /&gt;
-    &lt;/FixedPage&gt;
+      FontRenderingEmSize="16" />
+    </FixedPage>
 ```
 
 

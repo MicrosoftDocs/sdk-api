@@ -215,7 +215,7 @@ The cache is for a static object and it already has a cache node.
 
 
 ``` syntax
-pFormatetc-&gt;cfFormat == 0
+pFormatetc->cfFormat == 0
 ```
 
 A custom object handler can choose not to store data in a given format. Instead, it can synthesize it on demand when requested.
