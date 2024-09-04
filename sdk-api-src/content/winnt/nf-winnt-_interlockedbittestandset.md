@@ -60,7 +60,7 @@ A pointer to a variable.
 
 ### -param Offset [in]
 
-The bit position to be tested.
+The bit position to be tested. The offset is from the least-significant bit position, with zero testing the least-significant bit, and 31 testing the most-significant bit.
 
 ## -returns
 
