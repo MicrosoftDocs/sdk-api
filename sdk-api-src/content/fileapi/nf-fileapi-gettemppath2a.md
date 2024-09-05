@@ -20,7 +20,7 @@ req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11 Build 22000
+req.target-min-winverclnt: Windows 10 Build 19044
 req.target-min-winversvr: Windows Server Build 20348
 req.target-type: 
 req.type-library: 
