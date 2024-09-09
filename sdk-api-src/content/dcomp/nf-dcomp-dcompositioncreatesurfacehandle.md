@@ -2,12 +2,12 @@
 UID: NF:dcomp.DCompositionCreateSurfaceHandle
 title: DCompositionCreateSurfaceHandle function (dcomp.h)
 description: Creates a new composition surface object that can be bound to a Microsoft DirectX swap chain or swap buffer and associated with a visual.
-helpviewer_keywords: ["COMPOSITIONSURFACE_ALL_ACCESS","COMPOSITIONSURFACE_READ","COMPOSITIONSURFACE_WRITE","DCompositionCreateSurfaceHandle","DCompositionCreateSurfaceHandle function [DirectComposition]","dcomp/DCompositionCreateSurfaceHandle","directcomp.dcompositioncreatesurfacehandle"]
+helpviewer_keywords: ["COMPOSITIONSURFACE_ALL_ACCESS","COMPOSITIONOBJECT_ALL_ACCESS","COMPOSITIONSURFACE_READ","COMPOSITIONOBJECT_READ","COMPOSITIONSURFACE_WRITE","COMPOSITIONOBJECT_WRITE","DCompositionCreateSurfaceHandle","DCompositionCreateSurfaceHandle function [DirectComposition]","dcomp/DCompositionCreateSurfaceHandle","directcomp.dcompositioncreatesurfacehandle"]
 old-location: directcomp\dcompositioncreatesurfacehandle.htm
 tech.root: directcomp
 ms.assetid: 550BA10B-D582-4A57-A69D-3EFFC7313D8F
 ms.date: 12/05/2018
-ms.keywords: COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONSURFACE_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle
+ms.keywords: COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONOBJECT_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONOBJECT_READ, COMPOSITIONSURFACE_WRITE, COMPOSITIONOBJECT_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -80,8 +80,8 @@ No access.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="COMPOSITIONSURFACE_READ"></a><a id="compositionsurface_read"></a><dl>
-<dt><b>COMPOSITIONSURFACE_READ</b></dt>
+<td width="40%"><a id="COMPOSITIONOBJECT_READ"></a><a id="compositionobject_read"></a><dl>
+<dt><b>COMPOSITIONOBJECT_READ</b></dt>
 <dt>0x0001L</dt>
 </dl>
 </td>
@@ -91,8 +91,8 @@ Read access. For internal use only.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="COMPOSITIONSURFACE_WRITE"></a><a id="compositionsurface_write"></a><dl>
-<dt><b>COMPOSITIONSURFACE_WRITE</b></dt>
+<td width="40%"><a id="COMPOSITIONOBJECT_WRITE"></a><a id="compositionobject_write"></a><dl>
+<dt><b>COMPOSITIONOBJECT_WRITE</b></dt>
 <dt>0x0002L</dt>
 </dl>
 </td>
@@ -102,8 +102,8 @@ Write access. For internal use only.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="COMPOSITIONSURFACE_ALL_ACCESS"></a><a id="compositionsurface_all_access"></a><dl>
-<dt><b>COMPOSITIONSURFACE_ALL_ACCESS</b></dt>
+<td width="40%"><a id="COMPOSITIONOBJECT_ALL_ACCESS"></a><a id="compositionobject_all_access"></a><dl>
+<dt><b>COMPOSITIONOBJECT_ALL_ACCESS</b></dt>
 <dt>0x0003L</dt>
 </dl>
 </td>
