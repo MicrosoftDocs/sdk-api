@@ -44,7 +44,7 @@ The **SspiInitializeSecurityContextAsyncA** function initiates the client side, 
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md) call.
 
 > [!NOTE]
-> This function serves as the asynchronous counterpart to the[InitializeSecurityContext function](/windows/win32/secauthn/initializesecuritycontext--general).
+> This function serves as the asynchronous counterpart to the [InitializeSecurityContext function](/windows/win32/secauthn/initializesecuritycontext--general).
 
 ## -parameters
 
