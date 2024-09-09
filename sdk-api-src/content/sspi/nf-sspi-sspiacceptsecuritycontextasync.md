@@ -47,7 +47,7 @@ The **SspiAcceptSecurityContextAsync** function lets the server component of a t
 [SspiInitializeSecurityContextAsync](nf-sspi-sspiinitializesecuritycontextasynca.md) function to asynchronously start the process of establishing a security context.
 
 > [!NOTE]
-> This function serves as the asynchronous counterpart to the[AcceptSecurityContext function](/windows/win32/secauthn/acceptsecuritycontext--general).
+> This function serves as the asynchronous counterpart to the [AcceptSecurityContext function](/windows/win32/secauthn/acceptsecuritycontext--general).
 
 ## -parameters
 
