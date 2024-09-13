@@ -62,7 +62,7 @@ The implementation is allowed to look at all the CPU parameters in this struct a
 
 ### -param pInfo [out]
 
-The result of the query.
+A <a href="../d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_prebuild_info.md">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO</a>. The result of the query.
 
 ## -remarks
 
