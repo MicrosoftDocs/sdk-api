@@ -97,6 +97,10 @@ Returns a handle to the window above the given window.
 </tr>
 </table>
 
+## -returns
+
+Type: <b>HWND</b>
+
 ## -remarks
 
 This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
