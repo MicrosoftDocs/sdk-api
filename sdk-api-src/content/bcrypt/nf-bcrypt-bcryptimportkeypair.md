@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>BCryptImportKeyPair</b> function imports a <a href="/windows/win32/SecGloss/p-gly">public/private key pair</a> from a key <a href="/windows/win32/SecGloss/b-gly">BLOB</a>. The <a href="/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a> function is used to import a <a href="/win32/desktop/SecGloss/s-gly">symmetric key</a>.
+The <b>BCryptImportKeyPair</b> function imports a <a href="/windows/win32/SecGloss/p-gly">public/private key pair</a> from a key <a href="/windows/win32/SecGloss/b-gly">BLOB</a>. The <a href="/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a> function is used to import a <a href="/windows/win32/SecGloss/s-gly">symmetric key</a>.
 
 ## -parameters
 
