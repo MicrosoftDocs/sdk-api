@@ -108,7 +108,7 @@ If the function fails, the return value is **NULL**. To get extended error infor
 
 ## -remarks
 
-To determine the nominal size of a cursor, use the [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function, specifying the **SM_CXCURSOR** or **SM_CYCURSOR** value. Also, you can use the DPI-aware version of this API, see (GetSystemMetricsForDpi)(/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi). For more information see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). 
+To determine the nominal size of a cursor, use the [GetSystemMetrics](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function, specifying the **SM_CXCURSOR** or **SM_CYCURSOR** value. Also, you can use the DPI-aware version of this API, see [GetSystemMetricsForDpi](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi). For more information see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). 
 
 For more information about _pvANDPlane_ and _pvXORPlane_ parameters see description of _lpBits_ parameter of [CreateBitmap](/windows/win32/api/wingdi/nf-wingdi-createbitmap) function.
 
