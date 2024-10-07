@@ -155,5 +155,4 @@ During a connection sequence, the following methods are called by the Remote Des
 The <b>IWRdsProtocolConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnection</b> also has these types of members:
 
 ## -remarks
-
-To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
+To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread. If you create a new thread you must not wait on the thread to complete its work. Doing so defeats the purpose of making the work complete asynchronously.
