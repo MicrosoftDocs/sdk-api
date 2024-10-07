@@ -54,6 +54,16 @@ Options used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmap
 
 ### -field DWMWA_NCRENDERING_ENABLED
 
+> [!IMPORTANT]
+> The value of **DWMWA_NCRENDERING_ENABLED** is 1.
+
+```cpp
+typedef enum DWMWINDOWATTRIBUTE {
+  DWMWA_NCRENDERING_ENABLED = 1,
+  DWMWA_NCRENDERING_POLICY,
+  ...
+```
+
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. Discovers whether non-client rendering is enabled. The retrieved value is of type <b>BOOL</b>. <b>TRUE</b> if non-client rendering is enabled; otherwise, <b>FALSE</b>.
 
 ### -field DWMWA_NCRENDERING_POLICY
