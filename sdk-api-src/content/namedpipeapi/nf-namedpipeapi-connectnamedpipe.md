@@ -120,7 +120,7 @@ If the specified pipe handle is in nonblocking mode,
 
 <div class="alert"><b>Note</b>  Nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0, and it should not be used to achieve asynchronous input and output (I/O) with named pipes.</div>
 <div> </div>
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
+<b>Windows 10, version 1709 and later:  </b>Pipes cannot be used to communicate between app-containers; ie, from one UWP process to another UWP process that's not part of the same app. Also, named pipes within app-containers must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 
 #### Examples
