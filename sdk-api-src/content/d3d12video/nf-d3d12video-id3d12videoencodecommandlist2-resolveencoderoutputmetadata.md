@@ -48,11 +48,11 @@ Resolves the output metadata from a call to [ID3D12VideoEncodeCommandList2::Enco
 
 ### -param pInputArguments
 
-A pointer to a [D3D12_VIDEO_ENCODER_OUTPUT_METADATA](ns-d3d12video-d3d12_video_encoder_output_metadata.md) representing the opaque output metadata results from **EncodeFrame**.
+A pointer to a [D3D12_VIDEO_ENCODER_RESOLVE_METADATA_INPUT_ARGUMENTS](ns-d3d12video-d3d12_video_encoder_resolve_metadata_input_arguments.md), containing a pointer to the opaque [D3D12_VIDEO_ENCODER_OUTPUT_METADATA](ns-d3d12video-d3d12_video_encoder_output_metadata.md) received from a previous call to **EncodeFrame**.
 
 ### -param pOutputArguments
 
-A pointer to a [D3D12_VIDEO_ENCODER_OUTPUT_METADATA](ns-d3d12video-d3d12_video_encoder_output_metadata.md) output parameter that receivesthe resolved, readable metadata.
+A pointer to a [D3D12_VIDEO_ENCODER_RESOLVE_METADATA_OUTPUT_ARGUMENTS](ns-d3d12video-d3d12_video_encoder_resolve_metadata_output_arguments.md), containing a pointer to the [D3D12_VIDEO_ENCODER_OUTPUT_METADATA](ns-d3d12video-d3d12_video_encoder_output_metadata.md) where the resolved, readable metadata will be written.
 
 ## -remarks
 
