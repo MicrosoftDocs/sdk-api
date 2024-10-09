@@ -70,7 +70,7 @@ The IID of a COM interface in the <a href="/windows/desktop/CoreAudio/wasapi">WA
 
 Interface-specific activation parameters. For more information, see the <i>pActivationParams</i> parameter in <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>.
 
-Starting with TBD, you can specify [AUDIOCLIENT_ACTIVATION_PARAMS](/windows/desktop/api/audioclientactivationparams/ns-audioclientactivationparams-audioclient_activation_params) to activate the interface to include or exclude audio streams associated with a specified process ID.
+Starting with Windows 10 Build 20438, you can specify [AUDIOCLIENT_ACTIVATION_PARAMS](/windows/desktop/api/audioclientactivationparams/ns-audioclientactivationparams-audioclient_activation_params) to activate the interface to include or exclude audio streams associated with a specified process ID.
 
 ### -param completionHandler [in]
 
