@@ -51,8 +51,8 @@ api_name:
 
 ## -description
 
-Checks whether the swap chain currently supports the specified color space, based on the current adapter output (e.g. what monitor the swapchain window is in).
-Note that the swap chain might still be able to set and display color spaces that are not returned as supported, for example `DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020` and `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` will be displayed even if `DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709` is in use, though out of gamut colors will be clipped.
+Checks whether the swap chain currently supports the specified color space, based on the current adapter output (e.g. what monitor the swapchain window is in).<br>
+Note that the swap chain might still be able to set and display color spaces that are not returned as supported, for example `DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020` and `DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709` will be displayed even if `DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709` is in use, though out of gamut colors will be clipped.<br>
 While a color space has been succesfully set to the swap chain (whether or not it was "supported" before), it will be returned as supported when queried with this function.
 
 ## -parameters
