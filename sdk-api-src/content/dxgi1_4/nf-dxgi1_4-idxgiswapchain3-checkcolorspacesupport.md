@@ -2,7 +2,6 @@
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
 title: IDXGISwapChain3::CheckColorSpaceSupport (dxgi1_4.h)
 description: Checks the swap chain's support for color space.
-If a color space has been succesfully set to the swap chain (whether or not it was "supported" before), it will then be returned as supported when queried with this function.
 helpviewer_keywords: ["CheckColorSpaceSupport","CheckColorSpaceSupport method [DXGI]","CheckColorSpaceSupport method [DXGI]","IDXGISwapChain3 interface","IDXGISwapChain3 interface [DXGI]","CheckColorSpaceSupport method","IDXGISwapChain3.CheckColorSpaceSupport","IDXGISwapChain3::CheckColorSpaceSupport","direct3ddxgi.idxgiswapchain3_checkcolorspacesupport","dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport"]
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
 tech.root: direct3ddxgi
