@@ -94,7 +94,7 @@ Installs a hook procedure that monitors messages before the system sends them to
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="/windows/win32/api/winuser/nc-winuser-hookproc">HOOKPROC callback function</a>[](.md) hook procedure.
+Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="/windows/win32/api/winuser/nc-winuser-hookproc">HOOKPROC callback function</a> hook procedure.
 
 </td>
 </tr>
