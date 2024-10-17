@@ -89,7 +89,7 @@ The following example gets the description for a thread,  prints the description
 HRESULT hr = GetThreadDescription(ThreadHandle, &data);
 if (SUCCEEDED(hr))
 {   
-    wprintf(“%ls\n”, data);
+    wprintf(L"%ls\n", data);
     LocalFree(data);
 }
 ```
