@@ -171,7 +171,7 @@ You should call <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">Dest
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon Resources</a>.
+For an example, see <a href="/windows/desktop/menurc/using-icons#sharing-icon-resources">Sharing Icon Resources</a>.
 
 ## -see-also
 
