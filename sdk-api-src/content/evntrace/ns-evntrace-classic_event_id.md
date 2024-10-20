@@ -94,14 +94,18 @@ Reserved.
 
 Useful values for the GUID and Type fields can be determined from consulting
 the WMI classes in the `root\wmi` namespace. These values may also be located
-in `wmicore.mof` where they are originally defined.
+in `wmicore.mof` where they are originally defined. Many of them can also be found [here](/windows/win32/etw/nt-kernel-logger-constants).
 
 For example, to enable the [read](/windows/desktop/ETW/diskio-typegroup1)
 event type for [disk IO](/windows/desktop/ETW/diskio) events, set **GUID**
 to `3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c` and **Type** to 10.
+
+Or to enable the [context switch](/windows/win32/etw/cswitch) event type for [thread](/windows/win32/etw/thread-v2) events, set **GUID** to `3d6fa8d1-fe05-11d0-9dda-00c04fd7ba7c` and **Type** to 36.
 
 ## -see-also
 
 [TraceSetInformation](/windows/desktop/ETW/tracesetinformation)
 
 [TRACE_QUERY_INFO_CLASS](/windows/win32/api/evntrace/ne-evntrace-trace_query_info_class)
+
+[NT Kernel Logger Constants](/windows/win32/etw/nt-kernel-logger-constants)
