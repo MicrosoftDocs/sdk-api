@@ -56,7 +56,7 @@ The event record.
 
 ## -returns
 
-Returns ERROR_SUCCESS if successful.
+Returns the **ProcessorIndex** or **ProcessorNumber** from the [ETW_BUFFER_CONTEXT](/windows/win32/api/evntrace/ns-evntrace-etw_buffer_context) **BufferContext** member of the provided [EVENT_RECORD](/windows/win32/api/evntcons/ns-evntcons-event_record).
 
 ## -remarks
 
