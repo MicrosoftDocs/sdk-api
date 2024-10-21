@@ -2,7 +2,7 @@
 UID: NF:evntcons.GetEventProcessorIndex
 tech.root: ETW
 title: GetEventProcessorIndex (evntcons.h)
-ms.date: 11/28/2022
+ms.date: 10/21/2024
 ms.keywords: GetEventProcessorIndex
 targetos: Windows
 description: 
@@ -52,11 +52,11 @@ Retrieves the Event Processor index.
 
 ### -param EventRecord
 
-The event record.
+The [EVENT_RECORD](/windows/win32/api/evntcons/ns-evntcons-event_record).
 
 ## -returns
 
-Returns ERROR_SUCCESS if successful.
+Returns the **ProcessorIndex** or **ProcessorNumber** from the [ETW_BUFFER_CONTEXT](/windows/win32/api/evntrace/ns-evntrace-etw_buffer_context) **BufferContext** member of the provided _EventRecord_.
 
 ## -remarks
 
