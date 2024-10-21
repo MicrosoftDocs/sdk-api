@@ -87,4 +87,4 @@ Within an Application Control policy group, a base policy and its supplemental p
 ## -see-also
 
 - [WldpGetApplicationSettingStringList](nf-wldp-wldpgetapplicationsettingstringlist.md)
-- [WldpGetApplicationSettingBoolean](nf-wldp-wldpgetapplicationsettingboolean.md)
+- [WldpGetApplicationSettingStringSet](nf-wldp-wldpgetapplicationsettingstringset.md)
