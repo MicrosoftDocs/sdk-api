@@ -130,6 +130,17 @@ The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-e
 
 </td>
 </tr>
+</tr>
+<tr>
+<td width="40%"><a id="EVENT_HEADER_EXT_TYPE_PMC_COUNTERS"></a><a id="event_header_ext_type_pmc_counters"></a><dl>
+<dt><b>EVENT_HEADER_EXT_TYPE_PMC_COUNTERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <b>DataPtr</b> member points to an <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_pmc_counters">EVENT_EXTENDED_ITEM_PMC_COUNTERS</a> structure that contains the current PMC Counter values. To enable this feature, the valid PMC counters for the CPU must be set via <a href="/windows/win32/api/evntrace/nf-evntrace-tracesetinformation">TraceSetInformation</a>, with valid <b>Source</b> values found by calling <a href="/windows/win32/api/evntrace/nf-evntrace-tracequeryinformation">TraceQueryInformation</a> with <a href="/windows/win32/api/evntrace/ne-evntrace-trace_query_info_class">TraceProfileSourceListInfo</a>.
+
+</td>
+</tr>
 <tr>
 <td width="40%"><a id="EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL"></a><a id="event_header_ext_type_event_schema_tl"></a><dl>
 <dt><b>EVENT_HEADER_EXT_TYPE_EVENT_SCHEMA_TL</b></dt>
