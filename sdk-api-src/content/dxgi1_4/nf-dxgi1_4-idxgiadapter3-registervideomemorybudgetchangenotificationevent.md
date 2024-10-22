@@ -45,9 +45,6 @@ api_name:
  - IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
 ---
 
-# IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
-
-
 ## -description
 
 This method establishes a correlation between a CPU synchronization object and the budget change event.
@@ -58,13 +55,13 @@ This method establishes a correlation between a CPU synchronization object and t
 
 Type: <b>HANDLE</b>
 
-A handle to the event object that the operating system sets when memory budgets change. The <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or <a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle.
+A handle to the event object that the operating system sets when memory budgets change. The <a href="/windows/win32/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> and <a href="/windows/win32/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> functions return this handle.
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to a key value that an application can pass to the <a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-unregistervideomemorybudgetchangenotification">IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification</a> method to unregister the notification event that <i>hEvent</i> specifies.
+A pointer to a key value that you can pass to the <a href="/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-unregistervideomemorybudgetchangenotification">IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification</a> method to unregister the notification event that *hEvent* specifies.
 
 ## -returns
 
