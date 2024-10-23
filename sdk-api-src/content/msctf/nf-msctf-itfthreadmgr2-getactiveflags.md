@@ -58,92 +58,16 @@ Gets the active flags of the calling thread.
 
 The pointer to the DWORD value to receives the active flags of TSF.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_NOACTIVATETIP"></a><a id="tf_tmf_noactivatetip"></a><dl>
-<dt><b>TF_TMF_NOACTIVATETIP</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF was activated with the TF_TMAE_NOACTIVATETIP flag.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_SECUREMODE"></a><a id="tf_tmf_securemode"></a><dl>
-<dt><b>TF_TMF_SECUREMODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is running as secure mode.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_UIELEMENTENABLEDONLY"></a><a id="tf_tmf_uielementenabledonly"></a><dl>
-<dt><b>TF_TMF_UIELEMENTENABLEDONLY</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is running with text services that support only UIElement.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_COMLESS"></a><a id="tf_tmf_comless"></a><dl>
-<dt><b>TF_TMF_COMLESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is running without COM.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_WOW16"></a><a id="tf_tmf_wow16"></a><dl>
-<dt><b>TF_TMF_WOW16</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is running in 16bit task.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_CONSOLE"></a><a id="tf_tmf_console"></a><dl>
-<dt><b>TF_TMF_CONSOLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is running for console.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_IMMERSIVEMODE"></a><a id="tf_tmf_immersivemode"></a><dl>
-<dt><b>TF_TMF_IMMERSIVEMODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is active in a Windows Store app.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TF_TMF_ACTIVATED"></a><a id="tf_tmf_activated"></a><dl>
-<dt><b>TF_TMF_ACTIVATED</b></dt>
-</dl>
-</td>
-<td width="60%">
-TSF is active.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+|:-----------------------------------|:-----------------------------------|
+| <span id="TF_TMF_NOACTIVATETIP"></span><span id="tf_tmf_noactivatetip"></span> **TF_TMF_NOACTIVATETIP** | TSF was activated with the TF_TMAE_NOACTIVATETIP flag. |
+| <span id="TF_TMF_SECUREMODE"></span><span id="tf_tmf_securemode"></span> **TF_TMF_SECUREMODE** | TSF is running as secure mode. |
+| <span id="TF_TMF_UIELEMENTENABLEDONLY"></span><span id="tf_tmf_uielementenabledonly"></span> **TF_TMF_UIELEMENTENABLEDONLY** | TSF is running with text services that support only UIElement. |
+| <span id="TF_TMF_COMLESS"></span><span id="tf_tmf_comless"></span> **TF_TMF_COMLESS** | TSF is running without COM. |
+| <span id="TF_TMF_WOW16"></span><span id="tf_tmf_wow16"></span> **TF_TMF_WOW16** | TSF is running in 16bit task. |
+| <span id="TF_TMF_CONSOLE"></span><span id="tf_tmf_console"></span> **TF_TMF_CONSOLE** | TSF is running for console. |
+| <span id="TF_TMF_IMMERSIVEMODE"></span><span id="tf_tmf_immersivemode"></span> **TF_TMF_IMMERSIVEMODE** | **Starting with Windows 8:** TSF is active in a Windows Store app. |
+| <span id="TF_TMF_ACTIVATED"></span><span id="tf_tmf_activated"></span> **TF_TMF_ACTIVATED** | TSF is active. |
 
 ## -returns
 
