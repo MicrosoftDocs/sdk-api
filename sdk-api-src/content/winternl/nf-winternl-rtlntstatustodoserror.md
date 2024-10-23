@@ -68,8 +68,6 @@ There is no function that provides the inverse functionality of <b>RtlNtStatusTo
 
 ERROR_MR_MID_NOT_FOUND is returned when the specified NTSTATUS code does not have a corresponding system error code.
 
-This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
-
 ## -see-also
 
 <a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
