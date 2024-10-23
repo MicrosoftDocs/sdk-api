@@ -6,7 +6,7 @@ helpviewer_keywords: ["CT_CTYPE1","CT_CTYPE2","CT_CTYPE3","GetStringTypeW","GetS
 old-location: intl\getstringtypew.htm
 tech.root: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
-ms.date: 12/05/2018
+ms.date: 10/23/2024
 ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW function [Internationalization for Windows Applications], _win32_GetStringTypeW, _win32_GetStringTypeW_cpp, intl.getstringtypew, stringapiset/GetStringTypeW, winui._win32_GetStringTypeW
 req.header: stringapiset.h
 req.include-header: Windows.h
@@ -53,6 +53,9 @@ api_name:
 
 
 ## -description
+
+> [!NOTE]
+> This API may have incomplete/outdated information for certain Unicode characters, particularly those in the supplementary range. For more accurate and comprehensive Unicode character type information, consider using equivalent ICU APIs such as [u_charType](https://unicode-org.github.io/icu-docs/apidoc/dev/icu4c/uchar_8h.html#a53f7567680cb6d92489d6e7750c90284), [u_islower](https://unicode-org.github.io/icu-docs/apidoc/dev/icu4c/uchar_8h.html#a65980f5668ed1df7f183a090f62b0e61), [u_isspace](https://unicode-org.github.io/icu-docs/apidoc/dev/icu4c/uchar_8h.html#a48dd198b451e691cf81eb41831474ddc), and [u_ispunct](https://unicode-org.github.io/icu-docs/apidoc/dev/icu4c/uchar_8h.html#add0409f1e6cbbc84dda50c45cc3e7302). For guidance on using ICU APIs on Windows, see [Getting Started with ICU on Windows](/windows/win32/intl/international-components-for-unicode--icu-.md#getting-started).
 
 Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a>.</div>
 <div> </div>
