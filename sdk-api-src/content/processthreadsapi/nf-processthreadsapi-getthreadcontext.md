@@ -95,4 +95,4 @@ If you call **GetThreadContext** for the current thread, the function returns su
 - [GetXStateFeaturesMask](../winbase/nf-winbase-getxstatefeaturesmask.md)
 - [SetThreadContext](../processthreadsapi/nf-processthreadsapi-setthreadcontext.md)
 - [SuspendThread](../processthreadsapi/nf-processthreadsapi-suspendthread.md)
-- [Wow64GetThreadContext](../winbase/nf-winbase-wow64getthreadcontext.md)
+- [Wow64GetThreadContext](../wow64apiset/nf-wow64apiset-wow64getthreadcontext.md)
