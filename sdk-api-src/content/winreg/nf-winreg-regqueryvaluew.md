@@ -98,18 +98,18 @@ A pointer to a buffer that receives the default value of the specified key.
 
 
 
-If <i>lpValue</i> is <b>NULL</b>, and <i>lpcbValue</i> is non-<b>NULL</b>, the function returns ERROR_SUCCESS, and stores the size of the data, in bytes, in the variable pointed to by <i>lpcbValue</i>. This enables an application to determine the best way to allocate a buffer for the value's data.
+If <i>lpData</i> is <b>NULL</b>, and <i>lpcbData</i> is non-<b>NULL</b>, the function returns ERROR_SUCCESS, and stores the size of the data, in bytes, in the variable pointed to by <i>lpcbData</i>. This enables an application to determine the best way to allocate a buffer for the value's data.
 
 ### -param lpcbData [in, out, optional]
 
-A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValue</i> parameter, in bytes. When the function returns, this variable contains the size of the data copied to <i>lpValue</i>, including any terminating <b>null</b> characters. 
+A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpData</i> parameter, in bytes. When the function returns, this variable contains the size of the data copied to <i>lpData</i>, including any terminating <b>null</b> characters. 
 
 
 
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, this size includes any terminating <b>null</b> character or characters. For more information, see Remarks.
 
-If the buffer specified <i>lpValue</i> is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>lpcbValue</i>. In this case, the contents of the <i>lpValue</i> buffer are undefined.
+If the buffer specified <i>lpData</i> is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>lpcbData</i>. In this case, the contents of the <i>lpData</i> buffer are undefined.
 
 ## -returns
 
@@ -118,11 +118,11 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 If the function fails, the return value is a 
 <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-If the <i>lpValue</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
+If the <i>lpData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
 ## -remarks
 
-If the ANSI version of this function is used (either by explicitly calling <b>RegQueryValueA</b> or by not defining UNICODE before including the Windows.h file), this function converts the stored Unicode string to an ANSI string before copying it to the buffer specified by the <i>lpValue</i> parameter.
+If the ANSI version of this function is used (either by explicitly calling <b>RegQueryValueA</b> or by not defining UNICODE before including the Windows.h file), this function converts the stored Unicode string to an ANSI string before copying it to the buffer specified by the <i>lpData</i> parameter.
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may not have been stored with the proper <b>null</b>-terminating characters.  Therefore, even if the function returns ERROR_SUCCESS, the application should ensure that the string is properly terminated before using it; otherwise, it may overwrite a buffer. (Note that REG_MULTI_SZ strings should have two <b>null</b>-terminating characters.)
 
