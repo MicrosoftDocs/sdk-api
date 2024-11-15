@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define SCODE_SEVERITY(sc)    (((sc) &gt;&gt; 31) &amp; 0x1)
+#define SCODE_SEVERITY(sc)    (((sc) >> 31) & 0x1)
 ```
 
 

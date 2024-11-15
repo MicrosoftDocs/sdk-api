@@ -75,6 +75,8 @@ You can only use <b>GetFrameStatistics</b> for swap chains that either use the f
 
 Statistics are not reliable in many multiple monitor scenarios, as well as scenarios where other fullscreen apps are running.
 
+It may be necessary to call <b>DwmFlush</b> before frame statistics are updated on systems that support Hardware Flip Queue.
+
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>

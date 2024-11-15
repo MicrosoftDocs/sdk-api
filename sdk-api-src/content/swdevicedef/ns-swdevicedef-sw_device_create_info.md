@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO","PSW_DE
 old-location: swdevice\sw_device_create_info.htm
 tech.root: swdevice
 ms.assetid: 9519FD17-AB43-4C9E-BE77-9DFAC3263447
-ms.date: 09/13/2021
+ms.date: 07/23/2024
 ms.keywords: '*PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO, PSW_DEVICE_CREATE_INFO structure pointer, SWDeviceCapabilitiesDriverRequired, SWDeviceCapabilitiesNoDisplayInUI, SWDeviceCapabilitiesNone, SWDeviceCapabilitiesRemovable, SWDeviceCapabilitiesSilentInstall, SW_DEVICE_CREATE_INFO, SW_DEVICE_CREATE_INFO structure, swdevice.sw_device_create_info, swdevicedef/PSW_DEVICE_CREATE_INFO, swdevicedef/SW_DEVICE_CREATE_INFO'
 req.header: swdevicedef.h
 req.include-header: Swdevice.h
@@ -64,23 +64,23 @@ The size in bytes of this structure. Use it as a version field.  Initialize it t
 
 ### -field pszInstanceId
 
-A string that represents the instance ID portion of the device instance ID. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="/windows-hardware/drivers/install/instance-ids">Instance IDs</a>.
+A string that represents the [instance ID](/windows-hardware/drivers/install/instance-ids) portion of the [device instance ID](/windows-hardware/drivers/install/device-instance-ids). This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.
 
 ### -field pszzHardwareIds
 
-A list of strings for the hardware IDs for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryHardwareIDs</b>.  If a client expects a driver or device metadata to bind to the device, the client specifies hardware IDs.
+A list of strings for the [hardware IDs](/windows-hardware/drivers/install/hardware-ids) for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryHardwareIDs</b>.  If a client expects a driver package to be installed on the device, the client should specify hardware IDs.
 
 ### -field pszzCompatibleIds
 
-A list of strings for the compatible IDs for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryCompatibleIDs</b>.  If a client expects a class driver to load, the client specifies compatible IDs that match the class driver.  If a driver isn't needed, we recommend to specify a compatible ID to classify the type of software device.  In addition to the compatible IDs specified in this member, SWD\Generic and possibly SWD\GenericRaw will always be added as the least specific compatible IDs.
+A list of strings for the [compatible IDs](/windows-hardware/drivers/install/compatible-ids) for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryCompatibleIDs</b>.  If a client expects a class driver package to be installed on the device, the client specifies compatible IDs that match the class driver package.  If a driver package isn't needed, we recommend to specify a compatible ID to classify the type of software device.  In addition to the compatible IDs specified in this member, `SWD\Generic` and possibly `SWD\GenericRaw` will always be added as the least specific compatible IDs.
 
 ### -field pContainerId
 
-A value that is used to control the base container ID for the software device.  This value will be used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID.  If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to.
+A value that is used to control the base container ID for the software device.  This value will be used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID. See [Overview of the removable device capability](/windows-hardware/drivers/install/overview-of-the-removable-device-capability) for more information on how that affects the assignment of the container ID for the device. If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to. In general, you should not specify NULL_GUID for the container ID. See [Overview of container IDs](/windows-hardware/drivers/install/overview-of-container-ids) for more information on container IDs and the special meaning of NULL_GUID.
 
 ### -field CapabilityFlags
 
-A combination of <b>SW_DEVICE_CAPABILITIES</b> values that are combined by using a bitwise OR operation. The resulting value specifies capabilities of the software device. The capability that you can specify when you create a software device are a subset of the capabilities that a bus driver can specify by using the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure.  Only capabilities that make sense to allow changing for a software only device are supported.  The rest receive appropriate default values. Here are possible values:
+A combination of <b>SW_DEVICE_CAPABILITIES</b> values that are combined by using a bitwise OR operation. The resulting value specifies capabilities of the software device. The capabilities that you can specify when you create a software device are a subset of the capabilities that a bus driver can specify by using the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities"><b>DEVICE_CAPABILTIES</b></a> structure.  Only capabilities that make sense to allow changing for a software only device are supported.  The rest receive appropriate default values. Here are possible values:
 
 <table>
 <tr>

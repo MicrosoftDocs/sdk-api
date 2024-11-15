@@ -52,13 +52,11 @@ Enables the blur effect on a specified window.
 
 ## -parameters
 
-### -param hWnd
+### -param hWnd [in]
 
 The handle to the window on which the blur-behind data is applied.
 
-### -param pBlurBehind
-
-`[in]`
+### -param pBlurBehind [in]
 
 A pointer to a <a href="/windows/win32/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur-behind data.
 

@@ -4,7 +4,8 @@ title: IMFPMediaItem::SetStartStopPosition (mfplay.h)
 description: Sets the start and stop time for the media item.
 helpviewer_keywords: ["IMFPMediaItem interface [Media Foundation]","SetStartStopPosition method","IMFPMediaItem.SetStartStopPosition","IMFPMediaItem::SetStartStopPosition","SetStartStopPosition","SetStartStopPosition method [Media Foundation]","SetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","mf.imfpmediaitem_setstartstopposition","mfplay/IMFPMediaItem::SetStartStopPosition"]
 old-location: mf\imfpmediaitem_setstartstopposition.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Sets the start and stop time for the media item.

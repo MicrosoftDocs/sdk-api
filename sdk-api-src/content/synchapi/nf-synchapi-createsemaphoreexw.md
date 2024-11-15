@@ -67,7 +67,7 @@ Creates or opens a named or unnamed semaphore object and returns a handle to the
 ### -param lpSemaphoreAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the semaphore handle cannot be inherited by child processes. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the semaphore handle cannot be inherited by child processes. 
 
 
 

@@ -58,11 +58,11 @@ Sets a static, iconic bitmap to display a <i>live preview</i> (also known as a <
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 A handle to the window. This window must belong to the calling process.
 
-### -param hbmp
+### -param hbmp [in]
 
 A handle to the bitmap to represent the window that <i>hwnd</i> specifies.
 
@@ -70,11 +70,9 @@ A handle to the bitmap to represent the window that <i>hwnd</i> specifies.
 
 The offset of a tab window's <i>client region</i> (the content area inside the client window frame) from the host window's frame. This offset enables the tab window's contents to be drawn correctly in a live preview  when it is drawn without its frame.
 
-### -param dwSITFlags
+### -param dwSITFlags [in]
 
 The display options for the live preview. This parameter can be 0 or the following value.
-
-
 
 #### DWM_SIT_DISPLAYFRAME (0x00000001)
 

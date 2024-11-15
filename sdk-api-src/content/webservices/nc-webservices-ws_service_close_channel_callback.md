@@ -116,8 +116,8 @@ HRESULT CALLBACK FreeSessionCalculator (const WS_OPERATION_CONTEXT* context,
      SessionfulCalculator* calculator = NULL;
      hr = WsGetOperationContextProperty (context, 
                                          WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, 
-                                         &amp;calculator, sizeof (SessionfulCalculator*), NULL);
-     if (SUCCEEDED(hr) &amp;&amp; (calculator != NULL))
+                                         &calculator, sizeof (SessionfulCalculator*), NULL);
+     if (SUCCEEDED(hr) && (calculator != NULL))
      {                                                       
          delete calculator;
      }

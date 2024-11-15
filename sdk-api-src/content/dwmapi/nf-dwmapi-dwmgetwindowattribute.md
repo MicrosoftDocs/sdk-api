@@ -54,11 +54,11 @@ Retrieves the current value of a specified Desktop Window Manager (DWM) attribut
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window from which the attribute value is to be retrieved.
 
-### -param dwAttribute
+### -param dwAttribute [in]
 
 A flag describing which value to retrieve, specified as a value of the [DWMWINDOWATTRIBUTE](/windows/desktop/api/dwmapi/ne-dwmapi-dwmwindowattribute) enumeration. This parameter specifies which attribute to retrieve, and the *pvAttribute* parameter points to an object into which the attribute value is retrieved.
 
@@ -66,7 +66,7 @@ A flag describing which value to retrieve, specified as a value of the [DWMWINDO
 
 A pointer to a value which, when this function returns successfully, receives the current value of the attribute. The type of the retrieved value depends on the value of the *dwAttribute* parameter. The [**DWMWINDOWATTRIBUTE**](/windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute) enumeration topic indicates, in the row for each flag, what type of value you should pass a pointer to in the *pvAttribute* parameter.
 
-### -param cbAttribute
+### -param cbAttribute [in]
 
 The size, in bytes, of the attribute value being received via the *pvAttribute* parameter. The type of the retrieved value, and therefore its size in bytes, depends on the value of the *dwAttribute* parameter.
 

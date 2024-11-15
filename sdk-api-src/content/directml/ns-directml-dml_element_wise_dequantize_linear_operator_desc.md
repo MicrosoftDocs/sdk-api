@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC","DML_EL
 old-location: direct3d12\dml_element_wise_dequantize_linear_operator_desc.htm
 tech.root: directml
 ms.assetid: 474CB378-3EFC-414F-B75F-D41577D0787D
-ms.date: 01/08/2024
+ms.date: 08/21/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -67,6 +67,10 @@ The tensor containing the inputs.
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 The tensor containing the scales.
+A scale value of 0 will result in undefined behavior.
+
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
 
 ### -field ZeroPointTensor
 

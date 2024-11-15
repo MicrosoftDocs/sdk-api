@@ -107,7 +107,6 @@ The following examples illustrates initializing an enum description.  This
 
 
 ``` syntax
-
 enum
 {
     Red = 10,
@@ -122,9 +121,9 @@ WS_XML_STRING blueString = WS_XML_STRING_VALUE("blue");
 // sorted by ascending numeric value
 WS_ENUM_VALUE valueArray[3] =
 {
-    { Red, &amp;redString },
-    { Green, &amp;greenString },
-    { Blue, &amp;blueString },
+    { Red, &redString },
+    { Green, &greenString },
+    { Blue, &blueString },
 };
 
 // sorted by ascending name

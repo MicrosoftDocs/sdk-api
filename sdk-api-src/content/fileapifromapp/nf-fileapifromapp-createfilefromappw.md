@@ -127,7 +127,7 @@ You cannot request an access mode that conflicts with the sharing mode that is s
 
 ### -param lpSecurityAttributes
 
-A pointer to a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure that contains two separate but related data members: an optional security descriptor, and a Boolean value that determines whether the returned handle can be inherited by child processes.
+A pointer to a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes) structure that contains two separate but related data members: an optional security descriptor, and a Boolean value that determines whether the returned handle can be inherited by child processes.
     
 This parameter can be **NULL**.
 

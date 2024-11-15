@@ -92,9 +92,7 @@ The number of bits per color channel for the active wire format of the display a
 
 Type: <b><a href="/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
 
-The current advanced color capabilities of the display attached to this output. Specifically, whether its capable of reproducing color and luminance values outside of the sRGB color space.
-	    A value of DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709 indicates that the display is limited to SDR/sRGB; A value of DXGI_COLOR_SPACE_RGB_FULL_G2048_NONE_P2020 indicates that the display supports
-	    advanced color capabilities.
+The current advanced color capabilities of the display attached to this output. Specifically, whether it's capable of reproducing color and luminance values outside of the sRGB color space. A value of **DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709** indicates that the display is limited to SDR/sRGB. A value of **DXGI_COLOR_SPACE_RGB_FULL_G2048_NONE_P2020** indicates that the display supports advanced color capabilities. **DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709** is currently not a color space that displays use; it's simply an intermediary swap-chain color space.
 
 For detailed luminance and color capabilities, see additional members of this struct.
 

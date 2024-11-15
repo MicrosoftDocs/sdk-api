@@ -57,6 +57,10 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval
+
+A member of the [UpdateType](ne-wuapi-updatetype.md) enumeration specifying the type of the update.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

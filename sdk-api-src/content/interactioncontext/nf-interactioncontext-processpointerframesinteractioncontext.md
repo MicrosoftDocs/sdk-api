@@ -49,7 +49,6 @@ api_name:
 
 # ProcessPointerFramesInteractionContext function
 
-
 ## -description
 
 Processes a set of pointer input frames.
@@ -58,7 +57,7 @@ Processes a set of pointer input frames.
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param entriesCount [in]
 
@@ -70,32 +69,24 @@ Number of pointers in each frame.
 
 ### -param pointerInfo [in]
 
-Pointer to the array of frames (of size <i>entriesCount</i>).
+Pointer to the array of frames (of size *entriesCount*).
 
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
 Output notifications are sent as required.
 
-Frames must be processed in reverse chronological order (most recent data first). 
+Frames must be processed in reverse chronological order (most recent data first).
 
 Each frame must have the same set  of input pointers.
 
-
 Each pointer must originate from a different contact.
 
-
-If pointer filtering is set, a sub-frame that includes the specified pointers is extracted from each frame. Pointers are specified through  <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a> and pointer filtering turned on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>.
+If pointer filtering is set, a sub-frame that includes the specified pointers is extracted from each frame. Pointers are specified through the [AddPointerInteractionContext function](nf-interactioncontext-addpointerinteractioncontext.md) and pointer filtering turned on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in the [SetPropertyInteractionContext function](nf-interactioncontext-setpropertyinteractioncontext.md).
 
 ## -see-also
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

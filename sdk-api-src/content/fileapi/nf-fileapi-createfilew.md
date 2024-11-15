@@ -200,7 +200,7 @@ If this flag is not specified, but the file or device has been opened for write 
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that contains two separate but related data members: an optional security descriptor, and a Boolean 
        value that determines whether the returned handle can be inherited by child processes.
 
@@ -1249,7 +1249,7 @@ If the calling process inherits the console, or if a child process should be abl
 </td>
 <td>
 If you want the console to be inherited, the <b>bInheritHandle</b> member of the 
-         <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure 
+         <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure 
          must be <b>TRUE</b>.
 
 </td>

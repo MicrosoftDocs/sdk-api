@@ -58,7 +58,7 @@ The <b>ID2D1CommandList</b> interface inherits from <a href="/windows/desktop/ap
 
 ## -remarks
 
-The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table  	lists resources and how they are treated inside of a command list.
+The command list does not include static copies of resources with the recorded set of commands. All bitmaps, effects, and geometries are stored as references to the actual resource and all the brushes are stored by value. All the resource creation and destruction happens outside of the command list. The following table lists resources and how they are treated inside of a command list.
 
 <table>
 <tr>
@@ -107,21 +107,21 @@ The following pseudocode illustrates the different cases where a target is set a
 ``` syntax
 //create a D2D device from an already created DXGI device 
 ID2D1Device *pD2D1Device;
-pD2D1Factory->CreateDevice(pDxgiDevice, &amp;pD2D1Device);
+pD2D1Factory->CreateDevice(pDxgiDevice, &pD2D1Device);
 
 //create a D2D device context from the D2D device
 ID2D1DeviceContext *pD2D1DeviceContext;
-pD2D1Device->CreateD2D1DeviceContext(&amp;pD2D1DeviceContext);
+pD2D1Device->CreateD2D1DeviceContext(&pD2D1DeviceContext);
 
 //create command list
 ID2D1CommandList *pCommandList1;
-pD2D1DeviceContext->CreateCommandList(&amp;pCommandList1);
+pD2D1DeviceContext->CreateCommandList(&pCommandList1);
 
 //CreateBitmap
 ID2D1Bitmap *pBitmap1;
 ID2D1Bitmap *pBitmap2;
-pD2D1DeviceContext->CreateBitmap(…, &amp;pBitmap1);
-pD2D1DeviceContext->CreateBitmap(…, &amp;pBitmap2);
+pD2D1DeviceContext->CreateBitmap(…, &pBitmap1);
+pD2D1DeviceContext->CreateBitmap(…, &pBitmap2);
 
 //Set the bitmap as the target
 pD2D1DeviceContext->SetTarget(pBitmap1);
@@ -166,10 +166,10 @@ pD2D1DeviceContext->EndDraw();
 //Create the image brush from the command list
 ID2D1ImageBrush *pImageBrush;
 pD2D1DeviceContext->CreateImageBrush(
-	pCommandList, 
-	pImageBrushProperties,
-	pBrushProperties,
-	&amp;pImageBrush);
+    pCommandList, 
+    pImageBrushProperties,
+    pBrushProperties,
+    &pImageBrush);
 
 //Fill the ellipse with the pattern brush
 pD2D1DeviceContext->SetTarget(pTargetBitmap);
@@ -190,8 +190,8 @@ The following pseudo code illustrates this point.
 
 
 ``` syntax
-pD2D1Device->CreateDeviceContext(&amp;pD2D1DeviceContext);
-pRenderTarget->CreateCompatibleRenderTarget(…, &amp;pCompatibleRenderTarget);
+pD2D1Device->CreateDeviceContext(&pD2D1DeviceContext);
+pRenderTarget->CreateCompatibleRenderTarget(…, &pCompatibleRenderTarget);
 
 //render to the compatible render target
 pCompatibleRenderTarget->BeginDraw();
@@ -210,7 +210,7 @@ pD2D1DeviceContext->EndDraw();
 //draw something else on the compatible render target
 pCompatibleRenderTarget->BeginDraw();
 pCompatibleRenderTarget->Clear();
-pCompatibleRenderTarget&gt;RenderScene2();
+pCompatibleRenderTarget->RenderScene2();
 pCompatibleRenderTarget->EndDraw();
 
 //get the bitmap from the compatible render target

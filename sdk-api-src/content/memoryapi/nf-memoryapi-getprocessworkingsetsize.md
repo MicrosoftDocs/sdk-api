@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# GetProcessWorkingSetSize function
+
 ## -description
 
 Retrieves the minimum and maximum working set sizes of the specified process.

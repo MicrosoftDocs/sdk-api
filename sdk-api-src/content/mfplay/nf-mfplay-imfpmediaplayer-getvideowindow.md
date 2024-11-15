@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetVideoWindow (mfplay.h)
 description: Gets the window where the video is displayed.
 helpviewer_keywords: ["GetVideoWindow","GetVideoWindow method [Media Foundation]","GetVideoWindow method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetVideoWindow method","IMFPMediaPlayer.GetVideoWindow","IMFPMediaPlayer::GetVideoWindow","mf.imfpmediaplayer_getvideowindow","mfplay/IMFPMediaPlayer::GetVideoWindow"]
 old-location: mf\imfpmediaplayer_getvideowindow.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707
 ms.date: 12/05/2018
 ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoWindow method, IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets the window where the video is displayed.

@@ -91,26 +91,26 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 
     // Create the renderer.
     HRESULT hr = CoCreateInstance(CLSID_MyRenderer, NULL, CLSCTX_INPROC,
-        IID_IBaseFilter, (void **)&amp;pMyRenderer);
+        IID_IBaseFilter, (void **)&pMyRenderer);
     if (FAILED(hr))
     {
         return hr;
     }
     
     // Add my renderer to the filter graph.
-    hr = pGraph-&gt;AddFilter(pMyRenderer, L"My Renderer");
+    hr = pGraph->AddFilter(pMyRenderer, L"My Renderer");
     if (FAILED(hr))
     {
-        pMyRenderer-&gt;Release();
+        pMyRenderer->Release();
         return hr;
     }
 
     IEnumPins *pEnumPins;
     IPin *pMyRendererInputPin = NULL;
-    hr = pMyRenderer-&gt;EnumPins(&amp;pEnumPins);
+    hr = pMyRenderer->EnumPins(&pEnumPins);
     if (SUCCEEDED(hr)) 
     {
-        if (S_OK != pEnumPins-&gt;Next(1, &amp;pMyRendererInputPin, 0))
+        if (S_OK != pEnumPins->Next(1, &pMyRendererInputPin, 0))
         {
             hr = E_UNEXPECTED;
          }
@@ -118,15 +118,15 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
     if (SUCCEEDED(hr)) 
     {
         // Connect my renderer to my output pin.
-        hr = pGraph-&gt;ConnectDirect(pPin, pMyRendererInputPin);
-        pMyRendererInputPin-&gt;Release();
+        hr = pGraph->ConnectDirect(pPin, pMyRendererInputPin);
+        pMyRendererInputPin->Release();
     }
     if (FAILED(hr)) 
     {
         // Could not connect to my renderer. Remove it from the graph.
-        pGraph-&gt;RemoveFilter(pMyRenderer);
+        pGraph->RemoveFilter(pMyRenderer);
     }
-    pMyRenderer-&gt;Release();
+    pMyRenderer->Release();
     return hr;
 }
 ```

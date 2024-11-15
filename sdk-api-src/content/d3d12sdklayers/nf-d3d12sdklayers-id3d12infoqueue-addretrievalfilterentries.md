@@ -80,7 +80,7 @@ D3D12_MESSAGE_SEVERITY sevs[] = { ..., ..., ... };
 D3D12_MESSAGE_ID ids[] = { ..., ..., ... };
 
 D3D12_INFO_QUEUE_FILTER filter;
-memset( &amp;filter, 0, sizeof(filter) );
+memset( &filter, 0, sizeof(filter) );
 
 // To set the type of messages to allow, 
 // set filter.AllowList as follows:
@@ -95,7 +95,7 @@ filter.AllowList.pIDList = ids;
 // similarly to the preceding filter.AllowList.
 
 // The following single call sets all of the preceding information.
-hr = infoQueue-&gt;AddRetrievalFilterEntries( &amp;filter );
+hr = infoQueue->AddRetrievalFilterEntries( &filter );
  
 
 ```

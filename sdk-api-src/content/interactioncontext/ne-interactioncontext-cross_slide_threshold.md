@@ -47,7 +47,6 @@ api_name:
 
 # CROSS_SLIDE_THRESHOLD enumeration
 
-
 ## -description
 
 Specifies the cross-slide behavior thresholds.
@@ -80,16 +79,8 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
+[CROSS_SLIDE_PARAMETER structure](ns-interactioncontext-cross_slide_parameter.md)
 
+[GetCrossSlideParameterInteractionContext function](nf-interactioncontext-getcrossslideparameterinteractioncontext.md)
 
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setcrossslideparametersinteractioncontext">SetCrossSlideParametersInteractionContext</a>
+[SetCrossSlideParametersInteractionContext function](nf-interactioncontext-setcrossslideparametersinteractioncontext.md)

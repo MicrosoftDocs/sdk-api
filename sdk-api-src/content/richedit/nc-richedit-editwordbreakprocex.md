@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <i>EditWordBreakProcEx</i> function is an application defined  callback function used with the <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The 
+The <i>EditWordBreakProcEx</i> function is an application defined  callback function used with the <a href="/windows/win32/controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a> message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The 
 			<b>EDITWORDBREAKPROCEX</b> type defines a pointer to this callback function. <i>EditWordBreakProcEx</i> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -89,7 +89,7 @@ Character set of the text.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Word break action. Can be one of the values described for the 
-					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a> message.
+					<i>code</i> parameter in the <a href="/windows/win32/controls/em-findwordbreak">EM_FINDWORDBREAK</a> message.
 
 ## -returns
 
@@ -151,18 +151,18 @@ Returns the character index of the word break.
 
 ## -remarks
 
-An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. 
+An application must install the callback function by specifying the address of the callback function in an <a href="/windows/win32/controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a> message. 
 
 For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWordBreakProcEx</i>. Users can send 
-				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
+				<a href="/windows/win32/controls/em-setwordbreakproc">EM_SETWORDBREAKPROC</a> to set <a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a>
+<a href="/windows/win32/controls/em-findwordbreak">EM_FINDWORDBREAK</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a>
+<a href="/windows/win32/controls/em-setwordbreakprocex">EM_SETWORDBREAKPROCEX</a>
 
 
 

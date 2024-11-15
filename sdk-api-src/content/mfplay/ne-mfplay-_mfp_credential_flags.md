@@ -4,7 +4,8 @@ title: _MFP_CREDENTIAL_FLAGS (mfplay.h)
 description: Contains flags for the MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure.
 helpviewer_keywords: ["MFP_CREDENTIAL_CLEAR_TEXT","MFP_CREDENTIAL_DO_NOT_CACHE","MFP_CREDENTIAL_LOGGED_ON_USER","MFP_CREDENTIAL_PROMPT","MFP_CREDENTIAL_PROXY","MFP_CREDENTIAL_SAVE","_MFP_CREDENTIAL_FLAGS","_MFP_CREDENTIAL_FLAGS enumeration [Media Foundation]","mf._mfp_credential_flags","mfplay/MFP_CREDENTIAL_CLEAR_TEXT","mfplay/MFP_CREDENTIAL_DO_NOT_CACHE","mfplay/MFP_CREDENTIAL_LOGGED_ON_USER","mfplay/MFP_CREDENTIAL_PROMPT","mfplay/MFP_CREDENTIAL_PROXY","mfplay/MFP_CREDENTIAL_SAVE","mfplay/_MFP_CREDENTIAL_FLAGS"]
 old-location: mf\_mfp_credential_flags.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
 ms.date: 12/05/2018
 ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENTIAL_LOGGED_ON_USER, MFP_CREDENTIAL_PROMPT, MFP_CREDENTIAL_PROXY, MFP_CREDENTIAL_SAVE, _MFP_CREDENTIAL_FLAGS, _MFP_CREDENTIAL_FLAGS enumeration [Media Foundation], mf._mfp_credential_flags, mfplay/MFP_CREDENTIAL_CLEAR_TEXT, mfplay/MFP_CREDENTIAL_DO_NOT_CACHE, mfplay/MFP_CREDENTIAL_LOGGED_ON_USER, mfplay/MFP_CREDENTIAL_PROMPT, mfplay/MFP_CREDENTIAL_PROXY, mfplay/MFP_CREDENTIAL_SAVE, mfplay/_MFP_CREDENTIAL_FLAGS
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Contains flags for the <a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event">MFP_ACQUIRE_USER_CREDENTIAL_EVENT</a> structure.

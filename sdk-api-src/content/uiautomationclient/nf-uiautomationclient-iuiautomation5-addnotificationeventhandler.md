@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A pointer to the UI Automation element associated with the event handler.
 
-### -param unnamedParam2 [in]
+### -param scope [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 

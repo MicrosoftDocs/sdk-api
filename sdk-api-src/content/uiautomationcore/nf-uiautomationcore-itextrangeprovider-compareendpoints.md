@@ -54,7 +54,7 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param endpoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itex
 
 The text range to be compared.
 
-### -param unnamedParam3 [in]
+### -param targetEndpoint [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 

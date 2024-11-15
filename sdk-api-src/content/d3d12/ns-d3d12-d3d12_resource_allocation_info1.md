@@ -68,7 +68,7 @@ The size, in bytes, of the resource.
 
 ## -remarks
 
-This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1.md) method.
+This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1(uint_uint_constd3d12_resource_desc_d3d12_resource_allocation_info1).md) method.
 
 ## -see-also
 

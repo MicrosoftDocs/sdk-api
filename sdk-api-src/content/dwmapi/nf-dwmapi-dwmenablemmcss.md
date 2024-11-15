@@ -56,7 +56,7 @@ Notifies the Desktop Window Manager (DWM) to opt in to or out of Multimedia Clas
 
 ## -parameters
 
-### -param fEnableMMCSS
+### -param fEnableMMCSS [in]
 
 <b>TRUE</b> to instruct DWM to participate in MMCSS scheduling; <b>FALSE</b> to opt out or end participation in MMCSS scheduling.
 

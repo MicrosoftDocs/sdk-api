@@ -103,7 +103,7 @@ The <i>ShaderRegister</i> and <i>RegisterSpace</i> parameters correspond to the 
 
 
 ``` syntax
-Texture2D&lt;float4&gt; a : register(t2, space3);
+Texture2D<float4> a : register(t2, space3);
 ```
 
 This corresponds to a  <i>ShaderRegister</i> of 2 (indicating the type is SRV), and <i>RegisterSpace</i> is 3.

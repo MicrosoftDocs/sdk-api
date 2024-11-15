@@ -169,17 +169,17 @@ An <a href="/windows/desktop/SecAuthZ/access-tokens">Access token</a> that can b
 
 Type: <b>LPSECURITY_ATTRIBUTES</b>
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new process. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new process. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
 
-<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>.
+<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>.
 
 ### -field lpThreadAttributes
 
 Type: <b>LPSECURITY_ATTRIBUTES</b>
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new thread. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure with the security descriptor for the new thread. It also specifies whether a child process can be inherited. If this parameter is set to <b>NULL</b>, the process will have a default security descriptor and the handle cannot be inherited.
 
-<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>.
+<b>Security Warning:  </b>Using a security descriptor incorrectly can compromise the security of your application. For more information, see <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>.
 
 ### -field bInheritHandles
 

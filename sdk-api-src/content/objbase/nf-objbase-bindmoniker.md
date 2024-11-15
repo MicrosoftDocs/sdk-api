@@ -110,8 +110,8 @@ The object that the moniker object identified could not be found.
 
 
 ``` syntax
-CreateBindCtx(0, &amp;pbc); 
-pmk-&gt;BindToObject(pbc, NULL, riid, ppvObj);
+CreateBindCtx(0, &pbc);
+pmk->BindToObject(pbc, NULL, riid, ppvObj);
 ```
 
 

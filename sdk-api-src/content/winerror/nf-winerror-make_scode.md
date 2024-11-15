@@ -73,7 +73,7 @@ This macro is defined as follows:
 
 ``` syntax
 #define MAKE_SCODE(sev,fac,code) \
-    ((SCODE) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )
+    ((SCODE) (((unsigned long)(sev)<<31) | ((unsigned long)(fac)<<16) | ((unsigned long)(code))) )
 ```
 
 

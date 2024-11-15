@@ -94,7 +94,7 @@ Type: <b><a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DI
 
 Type: <b><a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-The address of a <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> that contains the compiled code.
+A pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access the preprocessed code.
 
 ### -param ppErrorMsgs [out, optional]
 

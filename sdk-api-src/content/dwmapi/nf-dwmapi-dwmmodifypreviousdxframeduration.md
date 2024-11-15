@@ -58,15 +58,15 @@ Changes the number of monitor refreshes through which the previous frame will be
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window for which the new duration is applied to the previous frame.
 
-### -param cRefreshes
+### -param cRefreshes [in]
 
 The number of refreshes to apply to the previous frame.
 
-### -param fRelative
+### -param fRelative [in]
 
 <b>TRUE</b> if the value given in <i>cRefreshes</i> is relative to the current value (added to or subtracted from it); <b>FALSE</b> if the value replaces the current value.
 

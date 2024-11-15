@@ -61,7 +61,7 @@ Opens a file for writing the contents of an XPS OM to an XPS package of a specif
 
 ### -param securityAttributes
 
-[in, unique]    The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
+[in, unique]    The <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>

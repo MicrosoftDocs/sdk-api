@@ -123,4 +123,4 @@ The new selection contains more than one COM object.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d6f6278f-ff63-4f6a-a352-2b4d70df3e1a">EN_CORRECTTEXT</a>
+<a href="/windows/win32/controls/en-correcttext">EN_CORRECTTEXT</a>

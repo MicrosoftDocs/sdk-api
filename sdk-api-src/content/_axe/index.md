@@ -11,7 +11,7 @@ ms.topic: overview
 
 ## -description
 
-Overview of the Unmanaged C++ Version of the AXE API technology.
+Overview of the Unmanaged C++ Version of the Assessment Execution Engine (AXE) API technology.
 
 The Unmanaged C++ Version of the AXE API technology is not associated with any headers.
 

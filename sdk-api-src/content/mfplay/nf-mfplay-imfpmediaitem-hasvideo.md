@@ -4,7 +4,8 @@ title: IMFPMediaItem::HasVideo (mfplay.h)
 description: Queries whether the media item contains a video stream.
 helpviewer_keywords: ["HasVideo","HasVideo method [Media Foundation]","HasVideo method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","HasVideo method","IMFPMediaItem.HasVideo","IMFPMediaItem::HasVideo","mf.imfpmediaitem_hasvideo","mfplay/IMFPMediaItem::HasVideo"]
 old-location: mf\imfpmediaitem_hasvideo.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 6dc8a85c-25e4-4da7-965d-c8882514fc7d
 ms.date: 12/05/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasVideo method, IMFPMediaItem.HasVideo, IMFPMediaItem::HasVideo, mf.imfpmediaitem_hasvideo, mfplay/IMFPMediaItem::HasVideo
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Queries whether the media item contains a video stream.

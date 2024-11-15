@@ -54,7 +54,7 @@ This function is deprecated and only returns DWM_E_COMPOSITIONDISABLED in Window
 
 ## -parameters
 
-### -param uIndex
+### -param uIndex [in]
 
 ### -param pTransform [out]
 

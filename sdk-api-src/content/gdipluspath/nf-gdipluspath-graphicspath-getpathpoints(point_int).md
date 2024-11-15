@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathPoints(Point,INT)
 title: GraphicsPath::GetPathPoints(OUT Point,IN INT) (gdipluspath.h)
-description: The GraphicsPath::GetPathPoints method gets this path's array of points. The array contains the endpoints and control points of the lines and B�zier splines that are used to draw the path.
+description: The GraphicsPath::GetPathPoints method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.
 helpviewer_keywords: ["GetPathPoints","GetPathPoints method [GDI+]","GetPathPoints method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetPathPoints method","GraphicsPath.GetPathPoints","GraphicsPath.GetPathPoints(OUT Point","IN INT)","GraphicsPath.GetPathPoints(Point*","INT)","GraphicsPath::GetPathPoints","GraphicsPath::GetPathPoints(OUT Point","IN INT)","_gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_.htm
 tech.root: gdiplus

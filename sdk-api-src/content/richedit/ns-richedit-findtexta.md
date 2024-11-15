@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about a search operation in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a> message.
+Contains information about a search operation in a rich edit control. This structure is used with the <a href="/windows/win32/controls/em-findtext">EM_FINDTEXT</a> message.
 
 ## -struct-fields
 
@@ -76,11 +76,11 @@ The null-terminated string used in the find operation.
 
 
 
-<a href="https://msdn.microsoft.com/f19e19a0-d8dd-4d31-b76d-f1f09577dd2d">EM_FINDTEXT</a>
+<a href="/windows/win32/controls/em-findtext">EM_FINDTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c1579f5-3b37-4e28-86a2-f4e03e195f38">EM_FINDTEXTW</a>
+<a href="/windows/win32/controls/em-findtextw">EM_FINDTEXTW</a>
 
 
 

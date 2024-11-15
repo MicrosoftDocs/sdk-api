@@ -122,7 +122,7 @@ The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is
 
 ### -param pSecurityDescriptor [in]
 
-Enables the ACLs to be set when the file is created. If not <b>NULL</b>, needs to be a pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. See <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for information on how to set ACLs on files.
+Enables the ACLs to be set when the file is created. If not <b>NULL</b>, needs to be a pointer to the  <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. See <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for information on how to set ACLs on files.
 
 <b>Windows Server 2003, Windows 2000 Server, Windows XP and Windows 2000 Professional:  </b>Value must be <b>NULL</b>.
 

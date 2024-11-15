@@ -216,7 +216,7 @@ By default, the thread pool has a maximum of 500 threads. To raise this limit, u
 
 ``` syntax
 #define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
-    ((Flags)|=(Limit)&lt;&lt;16)
+    ((Flags)|=(Limit)<<16)
 ```
 
 Use this macro when specifying the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit (up to (2&lt;&lt;16)-1 threads). However, note that your application can improve its performance by keeping the number of worker threads low.

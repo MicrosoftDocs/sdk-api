@@ -52,7 +52,7 @@ api_name:
 
 The <b>IAudioClient</b> interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an <a href="/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a> (for an exclusive-mode stream). A client obtains a reference to an <b>IAudioClient</b> interface for an audio endpoint device by following these steps:<ol>
 <li>By using one of the techniques described in <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device.</li>
-<li>Call the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient.</li>
+<li>Call the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient. Starting in Windows 10 Build 20348 callers can pass an <a href="/windows/desktop/api/mmdeviceapi/audioclientactivationparams/ns-audioclientactivationparams-audioclient_activation_params">AUDIOCLIENT_ACTIVATION_PARAMS</a> to configure the <b>IAudioClient</b> for loopback capture with a process filter.</li>
 </ol>
 
 

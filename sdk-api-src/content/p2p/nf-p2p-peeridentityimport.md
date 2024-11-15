@@ -128,14 +128,14 @@ The XML fragment used by <b>PeerIdentityImport</b> is as follows:
 
 
 ``` syntax
-&lt;PEERIDENTITYEXPORT VERSION="1.0"&gt;
-   &lt;IDENTITY&gt;
-     &lt;!-- UTF-8 encoded peer name of the identity --&gt;
-   &lt;/IDENTITY&gt;
-   &lt;IDENTITYDATA xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64"&gt;
-      &lt;!-- base64 encoded / PFX encoded and encrypted IDC with the private key --&gt;
-   &lt;/IDENTTYDATA&gt;
-&lt;/PEERIDENTITYEXPORT&gt;
+<PEERIDENTITYEXPORT VERSION="1.0">
+   <IDENTITY>
+     <!-- UTF-8 encoded peer name of the identity -->
+   </IDENTITY>
+   <IDENTITYDATA xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">
+      <!-- base64 encoded / PFX encoded and encrypted IDC with the private key -->
+   </IDENTTYDATA>
+</PEERIDENTITYEXPORT>
 
 ```
 

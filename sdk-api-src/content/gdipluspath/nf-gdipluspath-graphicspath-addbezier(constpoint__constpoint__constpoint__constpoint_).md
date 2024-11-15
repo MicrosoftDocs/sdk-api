@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBezier(constPoint&,constPoint&,constPoint&,constPoint&)
 title: GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &) (gdipluspath.h)
-description: The GraphicsPath::AddBezier method adds a B�zier spline to the current figure of this path. (overload 2/3)
+description: The GraphicsPath::AddBezier method adds a Bézier spline to the current figure of this path. (overload 2/3)
 helpviewer_keywords: ["AddBezier","AddBezier method [GDI+]","AddBezier method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddBezier method","GraphicsPath.AddBezier","GraphicsPath.AddBezier(IN const Point &","IN const Point &","IN const Point &","IN const Point &)","GraphicsPath.AddBezier(const Point&","const Point&","const Point&","const Point&)","GraphicsPath::AddBezier","GraphicsPath::AddBezier(IN const Point &","IN const Point &","IN const Point &","IN const Point &)","_gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_","gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_Point_pt1_Point_pt2_Point_pt3_Point_pt4_.htm
 tech.root: gdiplus

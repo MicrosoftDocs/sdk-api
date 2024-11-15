@@ -78,9 +78,9 @@ This method generates SQL in the following form:
 
 
 ``` syntax
-SELECT &lt;QuerySelectColumns&gt; FROM &lt;CatalogName that created query helper&gt;
-    WHERE &lt;Result of interpreting the User query passed into this function according to QuerySyntax&gt;
-          [ AND|OR &lt;QueryWhereRestrictions&gt;]
+SELECT <QuerySelectColumns> FROM <CatalogName that created query helper>
+    WHERE <Result of interpreting the User query passed into this function according to QuerySyntax>
+          [ AND|OR <QueryWhereRestrictions>]
 ```
 
 The SQL generation uses the settings specified in <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">ISearchQueryHelper::put_QueryTermExpansion</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">ISearchQueryHelper::put_QueryContentProperties</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentlocale">ISearchQueryHelper::put_QueryContentLocale</a>.

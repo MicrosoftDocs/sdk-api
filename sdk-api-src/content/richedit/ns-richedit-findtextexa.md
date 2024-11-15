@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about text to search for in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/f1bf925b-2776-40b8-9d05-8484daf8d989">EM_FINDTEXTEX</a> message.
+Contains information about text to search for in a rich edit control. This structure is used with the <a href="/windows/win32/controls/em-findtextex">EM_FINDTEXTEX</a> message.
 
 ## -struct-fields
 
@@ -78,11 +78,11 @@ The range of characters in which the text was found. If the text was not found, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f1bf925b-2776-40b8-9d05-8484daf8d989">EM_FINDTEXTEX</a>
+<a href="/windows/win32/controls/em-findtextex">EM_FINDTEXTEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b90ef06-0395-430e-8b5d-b392481a5f70">EM_FINDTEXTEXW</a>
+<a href="/windows/win32/controls/em-findtextexw">EM_FINDTEXTEXW</a>
 
 
 

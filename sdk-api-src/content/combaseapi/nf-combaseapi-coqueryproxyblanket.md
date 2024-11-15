@@ -102,11 +102,11 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 
 ``` syntax
-pProxy-&gt;QueryInterface(IID_IClientSecurity, (void**)&amp;pcs);
-pcs-&gt;QueryBlanket(
+pProxy->QueryInterface(IID_IClientSecurity, (void**)&pcs);
+pcs->QueryBlanket(
     pProxy, pAuthnSvc, pAuthzSvc, pServerPrincName, pAuthnLevel, pImpLevel, ppAuthInfo, pCapabilities
   );
-pcs-&gt;Release();
+pcs->Release();
 
 ```
 

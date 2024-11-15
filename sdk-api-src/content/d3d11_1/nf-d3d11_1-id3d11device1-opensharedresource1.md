@@ -94,11 +94,10 @@ HANDLE handle = GetSharedHandleFromOtherProcess();
 ID3D11Device1* pDevice;
 ID3D11Texture2D* pTexture2D;
 
-pDevice-&gt;OpenSharedResource1(
+pDevice->OpenSharedResource1(
           handle, 
           __uuidof(ID3D11Texture2D), 
-         (void**)&amp;pTexture2D);
-
+          (void**)&pTexture2D);
 ```
 
 

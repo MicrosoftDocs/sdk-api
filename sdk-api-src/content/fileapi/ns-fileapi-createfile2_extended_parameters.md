@@ -431,7 +431,7 @@ Impersonate a client at the impersonation level. This is the default behavior if
 
 ### -field lpSecurityAttributes
 
-A pointer to a [SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure that contains two separate but related data members: an optional security descriptor, and a Boolean value that determines whether the returned handle can be inherited by child processes.
+A pointer to a [SECURITY_ATTRIBUTES](/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes) structure that contains two separate but related data members: an optional security descriptor, and a Boolean value that determines whether the returned handle can be inherited by child processes.
 
 This parameter can be **NULL**.
 

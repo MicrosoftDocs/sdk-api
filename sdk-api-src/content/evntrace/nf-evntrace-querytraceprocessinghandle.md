@@ -14,15 +14,15 @@ helpviewer_keywords:
 old-location: etw\querytraceprocessinghandle.htm
 tech.root: ETW
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
-ms.date: 12/05/2018
+ms.date: 07/15/2024
 ms.keywords:
   QueryTraceProcessingHandle, QueryTraceProcessingHandle function [ETW],
   etw.querytraceprocessinghandle, evntrace/QueryTraceProcessingHandle
 req.header: evntrace.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1709
+req.target-min-winversvr: Windows Server, version 1709
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:

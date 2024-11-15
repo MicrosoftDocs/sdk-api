@@ -64,7 +64,7 @@ The value that describes the read/write status of the stream to be created.
 
 ### -param securityAttributes [in]
 
-For information about the <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure in this parameter, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+For information about the <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure in this parameter, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwFlagsAndAttributes [in]
 

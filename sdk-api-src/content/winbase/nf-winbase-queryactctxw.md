@@ -283,7 +283,7 @@ SIZE_T cbRequired;
 PVOID pvData = NULL;
 SIZE_T cbAvailable = 0;
 
-if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLastError()== ERROR_INSUFFICIENT_BUFFER))
+if (!QueryActCtxW(..., pvData, cbAvailable, &cbRequired) && (GetLastError()== ERROR_INSUFFICIENT_BUFFER))
 {
     // Allocate enough space to store the returned buffer, fail if too small
     if (NULL == (pvData = HeapAlloc(GetProcessHeap(), 0, cbRequired)))
@@ -293,7 +293,7 @@ if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLast
     }
     cbAvailable = cbRequired;
     // Try again, this should succeed.
-    if (QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired))
+    if (QueryActCtxW(..., pvData, cbAvailable, &cbRequired))
     {
         // Use the returned data in pvData
     }

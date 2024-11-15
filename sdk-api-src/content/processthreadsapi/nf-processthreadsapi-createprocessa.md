@@ -120,7 +120,7 @@ The system adds a terminating null character to the command-line string to separ
 ### -param lpProcessAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new process object can be inherited by child processes. If <i>lpProcessAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new process object can be inherited by child processes. If <i>lpProcessAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -130,7 +130,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a security des
 ### -param lpThreadAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new thread object can be inherited by child processes. If <i>lpThreadAttributes</i> is NULL, the handle cannot be inherited. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new thread object can be inherited by child processes. If <i>lpThreadAttributes</i> is NULL, the handle cannot be inherited. 
 
 
 
@@ -164,7 +164,7 @@ If the dwCreationFlags parameter has a value of 0:
 
 ### -param lpEnvironment [in, optional]
 
-A pointer to the environment block for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process.
+A pointer to the <a href="/windows/win32/procthread/environment-variables">environment block</a> for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process.
 
 An environment block consists of a null-terminated block of null-terminated strings. Each string is in the following form:
 
@@ -350,7 +350,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

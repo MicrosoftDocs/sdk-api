@@ -72,7 +72,7 @@ Type: <b>LONG</b>
 
 If the function succeeds, the return value is the file number of the file deleted from the fax file list associated with the received fax.
 
-If the function fails, the return value is 1. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is 1. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

@@ -11,8 +11,8 @@ ms.keywords: IDWriteTextLayout3 interface [Direct Write],SetLineSpacing method, 
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps only]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

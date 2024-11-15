@@ -84,12 +84,12 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getmousewheelparameterinteractioncontext">GetMouseWheelParameterInteractionContext</a>
+[GetMouseWheelParameterInteractionContext function](nf-interactioncontext-getmousewheelparameterinteractioncontext.md)
 
 
 
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setmousewheelparameterinteractioncontext">SetMouseWheelParameterInteractionContext</a>
+
+[SetMouseWheelParameterInteractionContext function](nf-interactioncontext-setmousewheelparameterinteractioncontext.md)

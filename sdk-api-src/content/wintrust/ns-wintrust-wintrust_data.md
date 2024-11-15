@@ -535,4 +535,4 @@ Use when calling <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytru
 
 Pointer to a [WINTRUST_SIGNATURE_SETTINGS](/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings) structure.
 
-<b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
+<b>Windows 7 with KB3033929, Windows 8, and Windows Server 2012:  </b>Support for this member begins.

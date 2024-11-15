@@ -54,7 +54,7 @@ Retrieves the Microsoft UI Automation element in a specified direction within th
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param direction [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
 

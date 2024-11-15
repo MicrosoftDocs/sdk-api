@@ -83,9 +83,9 @@ bReturn = QueryActCtxW(0,
                        CompatibilityInformationInActivationContext,
                        NULL,
                        0,
-                       &amp;BytesWritten);
+                       &BytesWritten);
 
-if (bReturn == FALSE &amp;&amp; GetLastError() !=ERROR_INSUFFICIENT_BUFFER)
+if (bReturn == FALSE && GetLastError() !=ERROR_INSUFFICIENT_BUFFER)
        {
 	 goto EXIT;
 	 }
@@ -107,7 +107,7 @@ bReturn = QueryActCtxW(0,
                        CompatibilityInformationInActivationContext,
                        CtxCompatInfo,
                        BytesWritten,
-                       &amp;BytesWritten);
+                       &BytesWritten);
 
 if (bReturn==FALSE)
        {
@@ -115,12 +115,12 @@ if (bReturn==FALSE)
         goto EXIT;
 	 }
 
-for (DWORD ElementIndex=0; ElementIndex &lt; CtxCompatInfo-&gt;ElementCount; ElementIndex ++)
+for (DWORD ElementIndex=0; ElementIndex < CtxCompatInfo->ElementCount; ElementIndex ++)
 {
-PCOMPATIBILITY_CONTEXT_ELEMENT ContextElement = &amp;CtxCompatInfo-&gt;Elements[ElementIndex];
-if (ContextElement-&gt;Type == ACTCTX_COMPATIBILITY_ELEMENT_TYPE_OS)
+PCOMPATIBILITY_CONTEXT_ELEMENT ContextElement = &CtxCompatInfo->Elements[ElementIndex];
+if (ContextElement->Type == ACTCTX_COMPATIBILITY_ELEMENT_TYPE_OS)
        {
-       if (memcmp(&amp;ContextElement-&gt;Id, &amp;WIN7_CONTEXT_GUID, sizeof (GUID))==0)
+       if (memcmp(&ContextElement->Id, &WIN7_CONTEXT_GUID, sizeof (GUID))==0)
              {printf_s("Windows 7 is supported");}
 	 }
 }

@@ -82,7 +82,7 @@ By default, the name is limited to MAX_PATH characters. To extend this limit to 
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure. The <b>lpSecurityDescriptor</b> member of the structure specifies a security 
        descriptor for the new directory. If <i>lpSecurityAttributes</i> is 
        <b>NULL</b>, the directory gets a default security descriptor. The ACLs in the default 
@@ -246,7 +246,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

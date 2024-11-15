@@ -85,7 +85,7 @@ Specifies a custom heap. The application may specify the memory pool and CPU cac
 
 <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>_ARCHITECTURE,
 <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>, and
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>.
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)">GetCustomHeapProperties</a>.
 
 ## -remarks
 
@@ -99,7 +99,7 @@ This enum is used by the following API items:
 <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)">GetCustomHeapProperties</a>
 </li>
 </ul>
 The heap types fall into two categories: abstracted heap types, and custom heap types.

@@ -144,11 +144,7 @@ If this value is used, the system does not check
          for the DLL. This action applies only to the DLL being loaded and not to its dependencies. This value is
          recommended for use in setup programs that must run extracted DLLs during installation.
 
-<b>Windows Server 2008 R2 and Windows 7:  </b>On systems with KB2532445 installed, the caller must be running as "LocalSystem" or
-          "TrustedInstaller"; otherwise the system ignores this flag. For more information, see
-          "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2"
-          in the Help and Support Knowledge Base at
-          <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
+<b>Windows Server 2008 R2 and Windows 7:  </b>On systems with KB2532445 installed, the caller must be running as "LocalSystem" or "TrustedInstaller"; otherwise the system ignores this flag. For more information, see "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker was introduced in Windows 7 and Windows Server 2008 R2.
 
@@ -609,7 +605,7 @@ Do not use the <a href="/windows/desktop/api/processenv/nf-processenv-searchpath
       mode unless this is explicitly enabled by calling
       <a href="/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a> with
       <b>BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE</b>. Therefore,
-      <b>SearchPath</b> is likely to first search the user’s current
+      <b>SearchPath</b> is likely to first search the user's current
       working directory for the specified DLL. If an attacker has copied a malicious version of a DLL into the
       current working directory, the path retrieved by
       <b>SearchPath</b> will point to the malicious DLL, which

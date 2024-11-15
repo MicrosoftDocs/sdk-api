@@ -214,26 +214,27 @@ Also note the following defines:
 
 
 ``` syntax
-#define	D3D12_FILTER_REDUCTION_TYPE_MASK	( 0x3 )
+#define D3D12_FILTER_REDUCTION_TYPE_MASK    ( 0x3 )
 
-#define	D3D12_FILTER_REDUCTION_TYPE_SHIFT	( 7 )
+#define D3D12_FILTER_REDUCTION_TYPE_SHIFT   ( 7 )
 
-#define	D3D12_FILTER_TYPE_MASK	( 0x3 )
+#define D3D12_FILTER_TYPE_MASK  ( 0x3 )
 
-#define	D3D12_MIN_FILTER_SHIFT	( 4 )
+#define D3D12_MIN_FILTER_SHIFT  ( 4 )
 
-#define	D3D12_MAG_FILTER_SHIFT	( 2 )
+#define D3D12_MAG_FILTER_SHIFT  ( 2 )
 
-#define	D3D12_MIP_FILTER_SHIFT	( 0 )
+#define D3D12_MIP_FILTER_SHIFT  ( 0 )
 
-#define	D3D12_ANISOTROPIC_FILTERING_BIT	( 0x40 )
+#define D3D12_ANISOTROPIC_FILTERING_BIT ( 0x40 )
 
 #define D3D12_ENCODE_BASIC_FILTER( min, mag, mip, reduction )                                                     \
                                    ( ( D3D12_FILTER ) (                                                           \
-                                   ( ( ( min ) &amp; D3D12_FILTER_TYPE_MASK ) &lt;&lt; D3D12_MIN_FILTER_SHIFT ) |           \
-                                   ( ( ( mag ) &amp; D3D12_FILTER_TYPE_MASK ) &lt;&lt; D3D12_MAG_FILTER_SHIFT ) |           \
-                                   ( ( ( mip ) &amp; D3D12_FILTER_TYPE_MASK ) &lt;&lt; D3D12_MIP_FILTER_SHIFT ) |           \
-                                   ( ( ( reduction ) &amp; D3D12_FILTER_REDUCTION_TYPE_MASK ) &lt;&lt; D3D12_FILTER_REDUCTION_TYPE_SHIFT ) ) ) 
+                                   ( ( ( min ) & D3D12_FILTER_TYPE_MASK ) << D3D12_MIN_FILTER_SHIFT ) |           \
+                                   ( ( ( mag ) & D3D12_FILTER_TYPE_MASK ) << D3D12_MAG_FILTER_SHIFT ) |           \
+                                   ( ( ( mip ) & D3D12_FILTER_TYPE_MASK ) << D3D12_MIP_FILTER_SHIFT ) |           \
+                                   ( ( ( reduction ) & D3D12_FILTER_REDUCTION_TYPE_MASK ) << D3D12_FILTER_REDUCTION_TYPE_SHIFT ) ) ) 
+
 #define D3D12_ENCODE_ANISOTROPIC_FILTER( reduction )                                                  \
                                          ( ( D3D12_FILTER ) (                                         \
                                          D3D12_ANISOTROPIC_FILTERING_BIT |                            \
@@ -243,22 +244,27 @@ Also note the following defines:
                                                                     reduction ) ) )                     
 #define D3D12_DECODE_MIN_FILTER( D3D12Filter )                                                              \
                                  ( ( D3D12_FILTER_TYPE )                                                    \
-                                 ( ( ( D3D12Filter ) &gt;&gt; D3D12_MIN_FILTER_SHIFT ) &amp; D3D12_FILTER_TYPE_MASK ) ) 
+                                 ( ( ( D3D12Filter ) >> D3D12_MIN_FILTER_SHIFT ) & D3D12_FILTER_TYPE_MASK ) ) 
+
 #define D3D12_DECODE_MAG_FILTER( D3D12Filter )                                                              \
                                  ( ( D3D12_FILTER_TYPE )                                                    \
-                                 ( ( ( D3D12Filter ) &gt;&gt; D3D12_MAG_FILTER_SHIFT ) &amp; D3D12_FILTER_TYPE_MASK ) ) 
+                                 ( ( ( D3D12Filter ) >> D3D12_MAG_FILTER_SHIFT ) & D3D12_FILTER_TYPE_MASK ) ) 
+
 #define D3D12_DECODE_MIP_FILTER( D3D12Filter )                                                              \
                                  ( ( D3D12_FILTER_TYPE )                                                    \
-                                 ( ( ( D3D12Filter ) &gt;&gt; D3D12_MIP_FILTER_SHIFT ) &amp; D3D12_FILTER_TYPE_MASK ) ) 
+                                 ( ( ( D3D12Filter ) >> D3D12_MIP_FILTER_SHIFT ) & D3D12_FILTER_TYPE_MASK ) ) 
+
 #define D3D12_DECODE_FILTER_REDUCTION( D3D12Filter )                                                        \
-                                 ( ( D3D12_FILTER_REDUCTION_TYPE )                                                      \
-                                 ( ( ( D3D12Filter ) &gt;&gt; D3D12_FILTER_REDUCTION_TYPE_SHIFT ) &amp; D3D12_FILTER_REDUCTION_TYPE_MASK ) ) 
+                                 ( ( D3D12_FILTER_REDUCTION_TYPE )                                          \
+                                 ( ( ( D3D12Filter ) >> D3D12_FILTER_REDUCTION_TYPE_SHIFT ) & D3D12_FILTER_REDUCTION_TYPE_MASK ) ) 
+
 #define D3D12_DECODE_IS_COMPARISON_FILTER( D3D12Filter )                                                    \
                                  ( D3D12_DECODE_FILTER_REDUCTION( D3D12Filter ) == D3D12_FILTER_REDUCTION_TYPE_COMPARISON ) 
+
 #define D3D12_DECODE_IS_ANISOTROPIC_FILTER( D3D12Filter )                                               \
-                            ( ( ( D3D12Filter ) &amp; D3D12_ANISOTROPIC_FILTERING_BIT ) &amp;&amp;                  \
-                            ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MIN_FILTER( D3D12Filter ) ) &amp;&amp;   \
-                            ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MAG_FILTER( D3D12Filter ) ) &amp;&amp;   \
+                            ( ( ( D3D12Filter ) & D3D12_ANISOTROPIC_FILTERING_BIT ) &&                  \
+                            ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MIN_FILTER( D3D12Filter ) ) &&   \
+                            ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MAG_FILTER( D3D12Filter ) ) &&   \
                             ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MIP_FILTER( D3D12Filter ) ) )    
 
 
@@ -285,7 +291,5 @@ Comparison filters only work with textures that have the following formats: <a h
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
-
 
 <a href="/windows/desktop/direct3d12/descriptors">Descriptors</a>

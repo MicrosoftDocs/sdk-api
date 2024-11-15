@@ -135,7 +135,7 @@ if (FAILED(hr))
 }
 // Read the content as an integer
 __int32 i;
-hr = WsReadValue(reader, WS_INT32_VALUE_TYPE, &amp;i, sizeof(i), error);
+hr = WsReadValue(reader, WS_INT32_VALUE_TYPE, &i, sizeof(i), error);
 if (FAILED(hr))
 {
     return hr;

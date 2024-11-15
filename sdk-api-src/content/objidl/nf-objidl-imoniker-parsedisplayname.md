@@ -149,10 +149,10 @@ This method parses the display name by binding to itself for <a href="/windows/d
 
 
 ``` syntax
-  hr = BindToObject(pbc, pmkToLeft, IID_IParseDisplayName, (void**)&amp;ppdn);
+  hr = BindToObject(pbc, pmkToLeft, IID_IParseDisplayName, (void**)&ppdn);
   if (SUCCEEDED(hr)) {
-    hr = ppdn-&gt;ParseDisplayName(pbc, lpszDisplayName, pchEaten, ppmkOut);
-    ppdn-&gt;Release();
+    hr = ppdn->ParseDisplayName(pbc, lpszDisplayName, pchEaten, ppmkOut);
+    ppdn->Release();
   }
   return hr;
 ```

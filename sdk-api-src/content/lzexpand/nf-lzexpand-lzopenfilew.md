@@ -311,11 +311,11 @@ The handle this function returns is compatible only with the functions in Lz32.d
 
 If <b>LZOpenFile</b> is unable to open the file specified by 
     <i>lpFileName</i>, on some versions of Windows it attempts to open a file with almost the same 
-    file name, except the last character is replaced with an underscore ("_"). Thus, if an attempt to 
+    file name, except the last character is replaced with an underscore ("\_"). Thus, if an attempt to 
     open "MyProgram.exe" fails, <b>LZOpenFile</b> tries to open 
-    "MyProgram.ex_". Installation packages often substitute the underscore for the last letter of a 
+    "MyProgram.ex\_". Installation packages often substitute the underscore for the last letter of a 
     file name extension to indicate that the file is compressed. For example, "MyProgram.exe" 
-    compressed might be named "MyProgram.ex_". To determine the name of the file opened (if any), 
+    compressed might be named "MyProgram.ex\_". To determine the name of the file opened (if any), 
     examine the <b>szPathName</b> member of the 
     <a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure in the 
     <i>lpReOpenBuf</i> parameter.

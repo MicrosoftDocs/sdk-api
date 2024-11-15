@@ -89,9 +89,9 @@ The number of milliseconds that the caller is willing to wait for a completion p
 
 If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will never time out. If <i>dwMilliseconds</i> is zero and there is no I/O operation to dequeue, the function will time out immediately.
 
-<b>Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:  </b>The <i>dwMilliseconds</i> value includes time spent in low-power states. For example, the timeout continues counting down while the computer is asleep.
+**Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2:** The <i>dwMilliseconds</i> value includes time spent in low-power states. For example, the timeout continues counting down while the computer is asleep.
 
-<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not continue counting down while the computer is asleep.
+**Windows 8 and newer, Windows Server 2012 and newer:** The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not continue counting down while the computer is asleep.
 
 ## -returns
 

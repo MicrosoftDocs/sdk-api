@@ -106,7 +106,7 @@ The call was successful.
 </dl>
 </td>
 <td width="60%">
-Either the <i>pQueryRequest</i> or <i>pQueryRequest</i> parameters are uninitialized or contain the wrong version. 
+Either the <i>pQueryRequest</i> or <i>pQueryResults</i> parameters are uninitialized or contain the wrong version. 
 
 </td>
 </tr>

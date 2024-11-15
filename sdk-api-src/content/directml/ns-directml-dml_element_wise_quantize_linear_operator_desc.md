@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC","DML_ELEM
 old-location: direct3d12\dml_element_wise_quantize_linear_operator_desc.htm
 tech.root: directml
 ms.assetid: 46415049-2978-4162-B94C-B600EA91992C
-ms.date: 01/08/2024
+ms.date: 08/21/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -68,7 +68,12 @@ The tensor containing the inputs.
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-The tensor containing the scales. If *InputTensor* is **INT32**, then *ScaleTensor* must be **FLOAT32**. Otherwise, *ScaleTensor* must have the same *DataType* as *InputTensor*.
+The tensor containing the scales.
+
+> [!NOTE]
+> A scale value of 0 results in undefined behavior.
+
+If *InputTensor* is **INT32**, then *ScaleTensor* must be **FLOAT32**. Otherwise, *ScaleTensor* must have the same *DataType* as *InputTensor*.
 
 ### -field ZeroPointTensor
 

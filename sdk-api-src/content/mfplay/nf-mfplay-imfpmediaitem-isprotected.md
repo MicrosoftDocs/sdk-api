@@ -4,7 +4,8 @@ title: IMFPMediaItem::IsProtected (mfplay.h)
 description: Queries whether the media item contains protected content.
 helpviewer_keywords: ["FALSE","IMFPMediaItem interface [Media Foundation]","IsProtected method","IMFPMediaItem.IsProtected","IMFPMediaItem::IsProtected","IsProtected","IsProtected method [Media Foundation]","IsProtected method [Media Foundation]","IMFPMediaItem interface","TRUE","mf.imfpmediaitem_isprotected","mfplay/IMFPMediaItem::IsProtected"]
 old-location: mf\imfpmediaitem_isprotected.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Queries whether the media item contains protected content.

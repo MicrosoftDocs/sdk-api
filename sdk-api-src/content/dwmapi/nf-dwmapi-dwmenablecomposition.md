@@ -57,7 +57,7 @@ Enables or disables Desktop Window Manager (DWM) composition.
 
 ## -parameters
 
-### -param uCompositionAction
+### -param uCompositionAction [in]
 
 <b>DWM_EC_ENABLECOMPOSITION</b> to enable DWM composition; <b>DWM_EC_DISABLECOMPOSITION</b> to disable composition.
                         

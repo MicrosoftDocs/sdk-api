@@ -82,7 +82,7 @@ float aspectRatio = backBufferWidth / float(backBufferHeight);
  // Horizontal fill
  float scaledWidth = outputWidth;
  float scaledHeight = outputWidth / aspectRatio;
- if (scaledHeight &gt;= outputHeight)
+ if (scaledHeight >= outputHeight)
  {
    // Do vertical fill
    scaledWidth = outputHeight * aspectRatio;
@@ -92,15 +92,15 @@ float aspectRatio = backBufferWidth / float(backBufferHeight);
  float offsetX = (outputWidth - scaledWidth) * 0.5f;
  float offsetY = (outputHeight - scaledHeight) * 0.5f;
 
- rect.left = static_cast&lt;LONG&gt;(offsetX);
- rect.top = static_cast&lt;LONG&gt;(offsetY);
- rect.right = static_cast&lt;LONG&gt;(offsetX + scaledWidth);
- rect.bottom = static_cast&lt;LONG&gt;(offsetY + scaledHeight);
+ rect.left = static_cast<LONG>(offsetX);
+ rect.top = static_cast<LONG>(offsetY);
+ rect.right = static_cast<LONG>(offsetX + scaledWidth);
+ rect.bottom = static_cast<LONG>(offsetY + scaledHeight);
 
- rect.left = std::max&lt;LONG&gt;(0, rect.left);
- rect.top = std::max&lt;LONG&gt;(0, rect.top);
- rect.right = std::min&lt;LONG&gt;(static_cast&lt;LONG&gt;(outputWidth), rect.right);
- rect.bottom = std::min&lt;LONG&gt;(static_cast&lt;LONG&gt;(outputHeight), rect.bottom);
+ rect.left = std::max<LONG>(0, rect.left);
+ rect.top = std::max<LONG>(0, rect.top);
+ rect.right = std::min<LONG>(static_cast<LONG>(outputWidth), rect.right);
+ rect.bottom = std::min<LONG>(static_cast<LONG>(outputHeight), rect.bottom);
 
 ```
 

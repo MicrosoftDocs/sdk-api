@@ -126,14 +126,14 @@ VOID Example_BeginContainer3(HDC hdc)
 
    // Fill a rectangle in the container.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, 0, 0, 100, 60);
+   graphics.FillEllipse(&redBrush, 0, 0, 100, 60);
 
    // End the container.
    graphics.EndContainer(container);
 
    // Fill a rectangle outside the container.
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;blueBrush, 0, 0, 100, 60);
+   graphics.FillEllipse(&blueBrush, 0, 0, 100, 60);
 ```
 
 ## -see-also

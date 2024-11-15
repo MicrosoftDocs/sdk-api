@@ -110,7 +110,7 @@ Accessing the incoming <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> 
 HRESULT CALLBACK MessageRecieved(const WS_OPERATION_CONTEXT* context, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
 {
     :
-    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &amp;requestMessage, sizeof(requestMessage), NULL, error);
+    hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &requestMessage, sizeof(requestMessage), NULL, error);
     :
 }
 ```

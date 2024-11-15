@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBezier(REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)
 title: GraphicsPath::AddBezier(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-description: The GraphicsPath::AddBezier method adds a B�zier spline to the current figure of this path. (overload 1/3)
+description: The GraphicsPath::AddBezier method adds a Bézier spline to the current figure of this path. (overload 1/3)
 helpviewer_keywords: ["AddBezier","AddBezier method [GDI+]","AddBezier method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddBezier method","GraphicsPath.AddBezier","GraphicsPath.AddBezier(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","GraphicsPath.AddBezier(REAL","REAL","REAL","REAL","REAL","REAL","REAL","REAL)","GraphicsPath::AddBezier","GraphicsPath::AddBezier(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddBezier_REAL_x1_REAL_y1_REAL_x2_REAL_y2_REAL_x3_REAL_y3_REAL_x4_REAL_y","gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_REAL_x1_REAL_y1_REAL_x2_REAL_y2_REAL_x3_REAL_y3_REAL_x4_REAL_y"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBezier_REAL_x1_REAL_y1_REAL_x2_REAL_y2_REAL_x3_REAL_y3_REAL_x4_REAL_y.htm
 tech.root: gdiplus

@@ -47,7 +47,7 @@ Specifies the activation parameters for a call to [ActivateAudioInterfaceAsync](
 
 ### -field ActivationType
 
-A member of the [AUDIOCLIENT_ACTIVATION_TYPE](ns-audioclientactivationparams-audioclient_activation_params) specifying the type of audio interface activation. Currently default activation and loopback activation are supported.
+A member of the [AUDIOCLIENT_ACTIVATION_TYPE](ne-audioclientactivationparams-audioclient_activation_type.md) specifying the type of audio interface activation. Currently default activation and loopback activation are supported.
 
 ### -field DUMMYUNIONNAME
 
@@ -59,6 +59,6 @@ A [AUDIOCLIENT_PROCESS_LOOPBACK_PARAMS](ns-audioclientactivationparams-audioclie
 
 ## -see-also
 
-[AUDIOCLIENT_ACTIVATION_TYPE](ns-audioclientactivationparams-audioclient_activation_params)
+[AUDIOCLIENT_ACTIVATION_TYPE](ne-audioclientactivationparams-audioclient_activation_type.md)
 
 [ActivateAudioInterfaceAsync](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync)

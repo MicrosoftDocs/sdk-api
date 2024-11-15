@@ -98,10 +98,10 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 
 ``` syntax
-    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
-    pss-&gt;QueryBlanket(pAuthnSvc, pAuthzSvc, pServerPrincName, 
+    CoGetCallContext(IID_IServerSecurity, (void**)&pss);
+    pss->QueryBlanket(pAuthnSvc, pAuthzSvc, pServerPrincName, 
                 pAuthnLevel, pImpLevel, pPrivs, pCapabilities);
-    pss-&gt;Release();
+    pss->Release();
 
 ```
 

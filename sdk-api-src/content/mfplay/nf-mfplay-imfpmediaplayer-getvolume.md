@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetVolume (mfplay.h)
 description: Gets the current audio volume.
 helpviewer_keywords: ["GetVolume","GetVolume method [Media Foundation]","GetVolume method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetVolume method","IMFPMediaPlayer.GetVolume","IMFPMediaPlayer::GetVolume","mf.imfpmediaplayer_getvolume","mfplay/IMFPMediaPlayer::GetVolume"]
 old-location: mf\imfpmediaplayer_getvolume.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 08bf0bb3-4ee2-4229-9f41-64924c6122c9
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets the current audio volume.

@@ -60,7 +60,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iraw
 
 A pointer to the provider of the element that is raising the event.
 
-### -param unnamedParam2 [in]
+### -param structureChangeType [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-structurechangetype">StructureChangeType</a></b>
 

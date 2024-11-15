@@ -117,12 +117,12 @@ Consider the following XML:
 
 
 ``` syntax
-&lt;!-- A purchase order --&gt;
-        &lt;PurchaseOrder xmlns='http://tempuri.org'&gt;
-            &lt;Item&gt;
+<!-- A purchase order -->
+        <PurchaseOrder xmlns='http://tempuri.org'>
+            <Item>
                 Pencil
-            &lt;/Item&gt;
-        &lt;/PurchaseOrder&gt;
+            </Item>
+        </PurchaseOrder>
 
 ```
 
@@ -138,36 +138,36 @@ WS_XML_STRING ns = WS_XML_STRING("http://tempuri.org");
 WS_ERROR* error = NULL;
 
 // Example 1: Reader on comment, element has specified name and namespace, found argument is not provided
-HRESULT hr = WsReadToStartElement(reader, &amp;purchaseOrder, &amp;ns, NULL, error);
-// hr = NOERROR, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &purchaseOrder, &ns, NULL, error);
+// hr = NOERROR, the reader is positioned on <PurchaseOrder>
 
 // Example 2: Reader on comment, element has specified name and namespace, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, &amp;purchaseOrder, &amp;ns, found, error);
-// hr = NOERROR, found = TRUE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &purchaseOrder, &ns, found, error);
+// hr = NOERROR, found = TRUE, the reader is positioned on <PurchaseOrder>
 
 // Example 3: Reader on comment, element does not have specified name and namespace, found argument is not provided
-HRESULT hr = WsReadToStartElement(reader, &amp;item, &amp;ns, NULL, error);
+HRESULT hr = WsReadToStartElement(reader, &item, &ns, NULL, error);
 // hr = WS_E_INVALID_FORMAT, the reader is faulted
 
 // Example 4: Reader on comment, element does not have specified name and namespace, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, &amp;item, &amp;ns, &amp;found, error);
-// hr = NOERROR, found = FALSE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, &item, &ns, &found, error);
+// hr = NOERROR, found = FALSE, the reader is positioned on <PurchaseOrder>
 
 // Example 5: Reader on comment, name and namespace not specified, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
-// hr = NOERROR, found = TRUE, the reader is positioned on &lt;PurchaseOrder&gt;
+HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &found, error);
+// hr = NOERROR, found = TRUE, the reader is positioned on <PurchaseOrder>
 
-// Example 6: Reader on &lt;/Item&gt;, name and namespace not specified, found argument is not provided
+// Example 6: Reader on </Item>, name and namespace not specified, found argument is not provided
 HRESULT hr = WsReadToStartElement(reader, NULL, NULL, NULL, error);
 // hr = WS_E_INVALID_FORMAT, the reader is faulted
 
-// Example 7: Reader on &lt;/Item&gt;, name and namespace not specified, found argument is provided
+// Example 7: Reader on </Item>, name and namespace not specified, found argument is provided
 BOOL found;
-HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
-// hr = NOERROR, found = FALSE, the reader is positioned on &lt;/Item&gt;
+HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &found, error);
+// hr = NOERROR, found = FALSE, the reader is positioned on </Item>
 
 ```
 

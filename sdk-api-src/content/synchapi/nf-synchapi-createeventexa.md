@@ -64,7 +64,7 @@ Creates or opens a named or unnamed event object and returns a handle to the obj
 
 ### -param lpEventAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If 
       <i>lpEventAttributes</i> is <b>NULL</b>, the event handle cannot be inherited by child processes.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a 

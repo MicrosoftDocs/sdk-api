@@ -79,7 +79,7 @@ The type of access the returned handle has to the window station. In addition, y
 ### -param lpsa [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new window station. If <i>lpsa</i> is <b>NULL</b>, the window station (and any desktops created within the window) gets a security descriptor that grants <b>GENERIC_ALL</b> access to all users.
 

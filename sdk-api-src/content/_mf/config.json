@@ -28,7 +28,6 @@
     "mfmp2dlna.h",
     "mfreadwrite.h",
     "dxva2api.h",
-    "mfplay.h",
     "mfsharingengine.h",
     "mfmediacapture.h",
     "mfspatialaudio.h",

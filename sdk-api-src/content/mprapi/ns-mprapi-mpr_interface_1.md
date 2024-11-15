@@ -99,7 +99,7 @@ Pointer to a Unicode string that specifies the times during which dial-out is re
 
 
 ``` syntax
-&lt;day&gt;&lt;space&gt;&lt;time range&gt;&lt;space&gt;&lt;time range&gt; . . . &lt;NULL&gt;&lt;day&gt;. . . &lt;NULL&gt;&lt;NULL&gt;
+<day><space><time range><space><time range> . . . <NULL><day>. . . <NULL><NULL>
 
 ```
 
@@ -200,7 +200,7 @@ Example:
 
 
 ``` syntax
-2 09:00-12:00 13:00-17:30&lt;NULL&gt;4 09:00-12:00 13:00-17:30&lt;NULL&gt;&lt;NULL&gt;
+2 09:00-12:00 13:00-17:30<NULL>4 09:00-12:00 13:00-17:30<NULL><NULL>
 
 ```
 

@@ -11,8 +11,8 @@ ms.keywords: GetType, GetType method [Direct2D], GetType method [Direct2D],ID2D1
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows�8 and Platform Update for Windows�7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server�2012 and Platform Update for Windows Server�2008�R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -94,6 +94,3 @@ If the property does not exist, the method returns <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-�
-
-�

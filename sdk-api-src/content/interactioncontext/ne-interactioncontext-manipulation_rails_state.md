@@ -72,12 +72,8 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_manipulation">INTERACTION_ARGUMENTS_MANIPULATION</a>
+[INTERACTION_ARGUMENTS_MANIPULATION structure](ns-interactioncontext-interaction_arguments_manipulation.md)
 
+[RegisterOutputCallbackInteractionContext function](nf-interactioncontext-registeroutputcallbackinteractioncontext.md)
 
-
-<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
+[RegisterOutputCallbackInteractionContext2 function](nf-interactioncontext-registeroutputcallbackinteractioncontext2.md)

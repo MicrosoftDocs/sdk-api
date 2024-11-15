@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. Also see [ID3D12Device::GetResourceAllocationInfo](./nf-d3d12-id3d12device-getresourceallocationinfo.md).
+Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. Also see [ID3D12Device::GetResourceAllocationInfo](./nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc).md).
 
 In addition to the [D3D12_RESOURCE_ALLOCATION_INFO](./ns-d3d12-d3d12_resource_allocation_info.md) returned from the method, this version also returns an array of [D3D12_RESOURCE_ALLOCATION_INFO1](./ns-d3d12-d3d12_resource_allocation_info1.md) structures, which provide additional details for each resource description passed as input. See the *pResourceAllocationInfo1* parameter.
 

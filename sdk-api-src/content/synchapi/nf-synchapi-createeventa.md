@@ -66,7 +66,7 @@ To specify an access mask for the object, use the <a href="/windows/desktop/api/
 
 ### -param lpEventAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If 
       this parameter is <b>NULL</b>, the handle cannot be inherited by child processes. 
       
 
@@ -216,7 +216,7 @@ For an example that uses <b>CreateEvent</b>, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an <a href="https://learn.microsoft.com/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a> notification code, enabling the parent to change the message or prevent it from being processed.
+Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an <a href="/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a> notification code, enabling the parent to change the message or prevent it from being processed.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Contains information about a keyboard or mouse event. A rich edit control sends 
 
 Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-The <b>code</b> member of the <a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure is the <a href="https://msdn.microsoft.com/96cf0047-baae-46cd-82e8-ab6f3f353260">EN_MSGFILTER</a> notification code that identifies the message being sent.
+The <b>code</b> member of the <a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure is the <a href="/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a> notification code that identifies the message being sent.
 
 ### -field msg
 
@@ -84,4 +84,4 @@ The
 
 ## -see-also
 
-<a href="https://learn.microsoft.com/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a>
+<a href="/windows/win32/controls/en-msgfilter">EN_MSGFILTER</a>

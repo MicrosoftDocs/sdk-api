@@ -160,7 +160,7 @@ After calling
 
 
 ``` syntax
-MsiGetFeatureValidStates(hProduct, "Feature1", &amp;dwValidStates);
+MsiGetFeatureValidStates(hProduct, "Feature1", &dwValidStates);
 ```
 
 If Feature1 has attributes of value 0 (favor local), and Feature1 has one component with attributes of value 0 (local only), the value of dwValidStates after the call is 14. This indicates that INSTALLSTATE_LOCAL, INSTALLSTATE_ABSENT,and INSTALLSTATE_ADVERTISED are valid states for Feature1. The following conditional statement evaluates to True if local is a valid state for this feature.

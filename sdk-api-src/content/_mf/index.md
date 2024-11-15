@@ -30,7 +30,6 @@ To develop Microsoft Media Foundation, you need these headers:
  * [mfmediaengine.h](../mfmediaengine/index.md)
  * [mfmp2dlna.h](../mfmp2dlna/index.md)
  * [mfobjects.h](../mfobjects/index.md)
- * [mfplay.h](../mfplay/index.md)
  * [mfreadwrite.h](../mfreadwrite/index.md)
  * [mfsharingengine.h](../mfsharingengine/index.md)
  * [mfspatialaudio.h](../mfspatialaudio/index.md)

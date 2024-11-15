@@ -127,7 +127,7 @@ The following examples show valid logical rules.
 ``` syntax
 /DEM=d/
     Deny a cookie whose compact policy contains the DEM token
-/CON&amp;!TEL=a/	
+/CON&!TEL=a/	
     Accept a cookie whose compact policy contains the CON token 
     and does not contain the TEL token
 /=a/		
@@ -140,8 +140,8 @@ The following example shows a privacy preferences string that specifies to accep
 
 
 ``` syntax
-IE6-P3PSettings/V1: /FIN&amp;CONi=a/ /FIN&amp;CONo=r/ /FIN&amp;CONa=r/ /FIN&amp;CON=r/ 
-/GOV&amp;PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/
+IE6-P3PSettings/V1: /FIN&CONi=a/ /FIN&CONo=r/ /FIN&CONa=r/ /FIN&CON=r/ 
+/GOV&PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/
 ```
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.

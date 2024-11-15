@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AllocateUserPhysicalPages2
 ---
 
+# AllocateUserPhysicalPages2 function
+
 ## -description
 
 Allocates physical memory pages to be mapped and unmapped within any [Address Windowing Extensions (AWE)](/windows/desktop/Memory/address-windowing-extensions) region of a specified process, with extended parameters.

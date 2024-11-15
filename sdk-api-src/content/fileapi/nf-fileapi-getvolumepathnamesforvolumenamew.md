@@ -79,13 +79,13 @@ A pointer to a buffer that receives the list of drive letters and mounted folder
 ### -param cchBufferLength [in]
 
 The length of the <i>lpszVolumePathNames</i> buffer, in 
-      <b>TCHARs</b>, including all <b>NULL</b> characters.
+      <b>WCHARs</b>, including all <b>NULL</b> characters.
 
 ### -param lpcchReturnLength [out]
 
-If the call is successful, this parameter is the number of <b>TCHARs</b> copied to 
+If the call is successful, this parameter is the number of <b>WCHARs</b> copied to 
       the <i>lpszVolumePathNames</i> buffer. Otherwise, this parameter is the size of the buffer 
-      required to hold the complete list, in <b>TCHARs</b>.
+      required to hold the complete list, in <b>WCHARs</b>.
 
 ## -returns
 

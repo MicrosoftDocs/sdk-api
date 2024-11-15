@@ -67,7 +67,7 @@ Creates or opens a waitable timer object and returns a handle to the object.
 ### -param lpTimerAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the timer handle cannot be inherited by child processes. 
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the timer handle cannot be inherited by child processes. 
 
 If <i>lpTimerAttributes</i> is <b>NULL</b>, the timer object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a timer come from the primary or impersonation token of the creator.
 

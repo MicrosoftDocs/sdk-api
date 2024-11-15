@@ -148,12 +148,12 @@ Following is an example that describes interpretation of the flags that can be r
 
 
 ``` syntax
-FlavorBits = (Flags &amp; DFS_VOLUME_FLAVORS)
+FlavorBits = (Flags & DFS_VOLUME_FLAVORS)
 If (FlavorBits == DFS_VOLUME_FLAVOR_STANDALONE)   // namespace is stand-alone DFS
 else if (FlavorBits == DFS_VOLUME_FLAVOR_AD_BLOB) // namespace is AD blob
 else                                              // unknown flavor
 
-StateBits = (Flags &amp; DFS_VOLUME_STATES)
+StateBits = (Flags & DFS_VOLUME_STATES)
 // StateBits can be one of the following: 
 //  (DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_INCONSISTENT, 
 //   DFS_VOLUME_STATE_OFFLINE or DFS_VOLUME_STATE_ONLINE)

@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetMediaItem (mfplay.h)
 description: Gets a pointer to the current media item.
 helpviewer_keywords: ["GetMediaItem","GetMediaItem method [Media Foundation]","GetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetMediaItem method","IMFPMediaPlayer.GetMediaItem","IMFPMediaPlayer::GetMediaItem","mf.imfpmediaplayer_getmediaitem","mfplay/IMFPMediaPlayer::GetMediaItem"]
 old-location: mf\imfpmediaplayer_getmediaitem.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 9593092d-bd50-4ff6-a283-f5a0ab1e6fc0
 ms.date: 12/05/2018
 ms.keywords: GetMediaItem, GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMediaItem method, IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets a pointer to the current media item.

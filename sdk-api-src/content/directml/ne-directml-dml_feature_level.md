@@ -3,7 +3,7 @@ UID: NE:directml.DML_FEATURE_LEVEL
 title: DML_FEATURE_LEVEL
 description: Defines constants that specify a DirectML *feature level*. A feature level defines a broad umbrella of functionality supported by DirectML.
 tech.root: directml
-ms.date: 01/08/2024
+ms.date: 08/22/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -99,6 +99,10 @@ The **DML_FEATURE_LEVEL_6_0** constant was introduced in `DML_FEATURE_LEVEL_6_0`
 The **DML_FEATURE_LEVEL_6_1** constant was introduced in `DML_FEATURE_LEVEL_6_1`. **DML_FEATURE_LEVEL_6_1** specifies [feature level 6_1](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_1).
 
 The **DML_FEATURE_LEVEL_6_2** constant was introduced in `DML_FEATURE_LEVEL_6_2`. **DML_FEATURE_LEVEL_6_2** specifies [feature level 6_2](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_2).
+
+The **DML_FEATURE_LEVEL_6_3** constant was introduced in `DML_FEATURE_LEVEL_6_3`. **DML_FEATURE_LEVEL_6_3** specifies [feature level 6_3](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_3).
+
+The **DML_FEATURE_LEVEL_6_4** constant was introduced in `DML_FEATURE_LEVEL_6_4`. **DML_FEATURE_LEVEL_6_4** specifies [feature level 6_4](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_4).
 
 ## Availability
 

@@ -119,10 +119,10 @@ If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the applic
 
 if(msg.message == WM_KEYDOWN)
 {
-    if( pKeyboardMgr-&gt;TestKeyDown(msg.wParam, msg.lParam, &amp;fEaten) == S_OK 
-        &amp;&amp; fEaten 
-        &amp;&amp; pKeyboardMgr-&gt;KeyDown(msg.wParam, msg.lParam, &amp;fEaten) == S_OK 
-        &amp;&amp; fEaten)
+    if( pKeyboardMgr->TestKeyDown(msg.wParam, msg.lParam, &fEaten) == S_OK 
+        && fEaten 
+        && pKeyboardMgr->KeyDown(msg.wParam, msg.lParam, &fEaten) == S_OK 
+        && fEaten)
     {
         //The key was handled by the keystroke manager or a TSF text service. Do not pass the key to the application. 
         continue;

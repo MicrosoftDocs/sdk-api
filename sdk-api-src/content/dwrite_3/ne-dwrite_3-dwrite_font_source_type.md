@@ -10,8 +10,8 @@ req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 Build 20348
-req.target-min-winversvr: Windows 10 Build 20348
+req.target-min-winverclnt: Windows 10 Build 17763
+req.target-min-winversvr: Windows 10 Build 17763
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

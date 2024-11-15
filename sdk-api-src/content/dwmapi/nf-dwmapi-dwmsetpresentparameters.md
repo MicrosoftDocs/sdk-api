@@ -58,7 +58,7 @@ Sets the present parameters for frame composition.
 
 ## -parameters
 
-### -param hwnd
+### -param hwnd [in]
 
 The handle to the window where the present parameters are applied.
 

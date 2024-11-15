@@ -109,7 +109,7 @@ The application must allocate the buffers for the version and description string
 ```
 // Get the size of the version and description strings, in bytes.
 int cbVersion, cbDesc; 
-hr = pCompress-&gt;GetInfo(NULL, &amp;cbVersion, NULL, &amp;cbDesc, 
+hr = pCompress->GetInfo(NULL, &cbVersion, NULL, &cbDesc, 
     NULL, NULL, NULL, NULL);
 if (SUCCEEDED(hr))
 {
@@ -118,7 +118,7 @@ if (SUCCEEDED(hr))
     WCHAR *pszDesc = new WCHAR[cbDesc / sizeof(WCHAR)];
 
     // Now query for the strings.
-    hr = pCompress-&gt;GetInfo(pszVersion, &amp;cbVersion, pszDesc, &amp;cbDesc, 
+    hr = pCompress->GetInfo(pszVersion, &cbVersion, pszDesc, &cbDesc, 
         NULL, NULL, NULL, NULL);
     }
     delete [] pszVersion;

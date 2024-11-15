@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_OPERATOR_ACTIVATION_ELU","DML_OPERATOR_ACTIVATION_HAR
 old-location: direct3d12\dml_operator_type.htm
 tech.root: directml
 ms.assetid: 2D66A3DB-FE61-4EC2-B626-DD008FF14802
-ms.date: 01/08/2024
+ms.date: 08/22/2024
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -681,6 +681,28 @@ Indicates the operator described by the [DML_PADDING1_OPERATOR_DESC](/windows/wi
 Indicates the operator described by the [DML_ELEMENT_WISE_NEGATE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_negate_operator_desc) structure.
 
 ## -remarks
+
+### DML_FEATURE_LEVEL_6_4
+
+DirectML [feature level 6_4](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_4) introduces the following operator types.
+
+#### DML_OPERATOR_FOLD
+
+Indicates the operator described by the [DML_FOLD_OPERATOR_DESC structure](/windows/ai/directml/api/ns-directml-dml_fold_operator_desc).
+
+#### DML_OPERATOR_RESAMPLE3
+
+Indicates the operator described by the [DML_RESAMPLE3_OPERATOR_DESC structure](/windows/ai/directml/api/ns-directml-dml_resample3_operator_desc).
+
+#### DML_OPERATOR_UNFOLD
+
+Indicates the operator described by the [DML_UNFOLD_OPERATOR_DESC structure](/windows/ai/directml/api/ns-directml-dml_unfold_operator_desc).
+
+### DML_FEATURE_LEVEL_6_3
+
+DirectML [feature level 6_3](/windows/ai/directml/dml-feature-level-history#dml_feature_level_6_3) introduces the following operator types.
+
+TBD
 
 ### DML_FEATURE_LEVEL_6_2
 

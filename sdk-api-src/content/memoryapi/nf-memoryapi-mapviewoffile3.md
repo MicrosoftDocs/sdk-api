@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE",
 old-location: base\mapviewoffile3.htm
 tech.root: base
 ms.assetid: 585D7BA1-688F-4F24-8D8D-46A2FC137193
-ms.date: 06/13/2024
+ms.date: 11/03/2024
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3, MapViewOfFile3 function, base.mapviewoffile3, memoryapi/MapViewOfFile3
 req.header: memoryapi.h
 req.include-header: Windows.h
@@ -75,7 +75,7 @@ If <i>BaseAddress</i> is not <b>NULL</b>, then any provided <a href="/windows/wi
 
 The offset from the beginning of the section.
 
-The offset must be 64k aligned.
+The offset must be 64k aligned or aligned to GetLargePageMinimum when MEM_LARGE_PAGES is used in AllocationType. Furthermore, the offset must be page-aligned to the underlying page size granted by VirtualAlloc2 when MEM_REPLACE_PLACEHOLDER is used in AllocationType.
 
 ### -param ViewSize [in]
 
@@ -129,6 +129,7 @@ The 64k alignment requirements on <i>Offset</i> and <i>BaseAddress</i> do not ap
 <td width="60%">
 Maps a large page view. This flag specifies that the view should be mapped using <a href="/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a large page reported by the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for the <i>BaseAddress</i> parameter, then the value must be a multiple of <b>GetLargePageMinimum</b>.
 
+The 64k alignment requirements on <i>Offset</i> do not apply when this flag is specified.
 </td>
 </tr>
 </table>

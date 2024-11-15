@@ -60,7 +60,7 @@ The name of the file to be created. This parameter must not be <b>NULL</b>.
 
 ### -param securityAttributes [in]
 
-The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two distinct but related data members:
+The <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure, which contains two distinct but related data members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -165,7 +165,7 @@ The <i>optimizeMarkupSize</i> value determines whether the markup inside the ind
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

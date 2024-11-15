@@ -196,7 +196,7 @@ If this flag is not specified, but the object has been opened for write access o
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that contains an optional 
        <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">security descriptor</a> and also determines whether 
        or not the returned handle can be inherited by child processes. The parameter can be 

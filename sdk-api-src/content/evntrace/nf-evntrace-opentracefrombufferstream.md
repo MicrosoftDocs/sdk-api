@@ -2,7 +2,7 @@
 UID: NF:evntrace.OpenTraceFromBufferStream
 tech.root: ETW
 title: OpenTraceFromBufferStream
-ms.date: 11/21/2022
+ms.date: 07/12/2024
 targetos: Windows
 description: Creates a trace processing session that is not directly attached to any file or active session.
 req.assembly: 
@@ -17,15 +17,12 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib:
-  Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
-  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
-  Server 2008, Windows Vista and Windows XP
+req.lib: Advapi32.dll
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 11 2022 Update
+req.target-min-winversvr: Windows Server 2022
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 

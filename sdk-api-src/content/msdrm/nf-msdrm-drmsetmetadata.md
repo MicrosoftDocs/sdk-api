@@ -105,15 +105,15 @@ Content IDs are created and set in issuance licenses by a publishing application
 
 
 ``` syntax
-&lt;WORK&gt;
-   &lt;OBJECT type="Microsoft Office Document"&gt;
-      &lt;ID type="MSGUID"&gt;{AEADA9BD84F246BD92385A611D624A02}&lt;/ID&gt;
-      &lt;NAME&gt;Microsoft Office Document&lt;/NAME&gt;
-   &lt;/OBJECT&gt;
+<WORK>
+   <OBJECT type="Microsoft Office Document">
+      <ID type="MSGUID">{AEADA9BD84F246BD92385A611D624A02}</ID>
+      <NAME>Microsoft Office Document</NAME>
+   </OBJECT>
     .
     .
     .
-&lt;/WORK&gt;
+</WORK>
 ```
 
 After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. The appropriate &lt;WORK&gt; nodes and their respective content IDs are copied from the issuance license to the end–user license.

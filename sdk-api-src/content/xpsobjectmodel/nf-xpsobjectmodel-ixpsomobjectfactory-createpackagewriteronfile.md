@@ -60,7 +60,7 @@ The name of the file to be created.
 
 ### -param securityAttributes [in]
 
-The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
+The <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -222,7 +222,7 @@ If <i>documentSequencePrintTicket</i> is set to <b>NULL</b> and the value of <i>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

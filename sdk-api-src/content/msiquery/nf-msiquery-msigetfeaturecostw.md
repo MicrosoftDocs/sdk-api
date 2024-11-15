@@ -200,12 +200,12 @@ The MSICOSTTREE_PARENTS value indicates the total amount of disk space (in units
 MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
-MsiOpenPackage("Path to package....",&amp;hInstall);   //"Path to package...." should be replaced with the full path to the package to be opened
+MsiOpenPackage("Path to package....",&hInstall);   //"Path to package...." should be replaced with the full path to the package to be opened
 MsiDoAction(hInstall,"CostInitialize");         //
 MsiDoAction(hInstall,"FileCost");
 MsiDoAction(hInstall,"CostFinalize");
 MsiDoAction(hInstall,"InstallValidate");
-MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
+MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&iCost);
 MsiCloseHandle(hInstall);                        //close the open product handle
 ```
 
@@ -216,13 +216,13 @@ The process to query the cost of features scheduled to be removed is slightly di
 MSIHANDLE   hInstall;      //product handle, must be closed
 int         iCost;         //cost returned by MsiGetFeatureCost
 
-MsiOpenPackage("Path to package....",&amp;hInstall);              //"Path to package...." should be replaced with the full path to the package to be opened
+MsiOpenPackage("Path to package....",&hInstall);              //"Path to package...." should be replaced with the full path to the package to be opened
 MsiDoAction(hInstall,"CostInitialize");                          //
 MsiDoAction(hInstall,"FileCost");
 MsiDoAction(hInstall,"CostFinalize");
 MsiSetFeatureState(hInstall,"FeatureName",INSTALLSTATE_ABSENT);  //set the feature's state to "not installed"
 MsiDoAction(hInstall,"InstallValidate");
-MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&amp;iCost);
+MsiGetFeatureCost(hInstall,"FeatureName",MSICOSTTREE_SELFONLY,INSTALLSTATE_ABSENT,&iCost);
 MsiCloseHandle(hInstall);                                        //close the open product handle
 ```
 

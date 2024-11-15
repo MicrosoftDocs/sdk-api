@@ -60,7 +60,7 @@ Creates a private namespace.
 
 ### -param lpPrivateNamespaceAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
 
 ### -param lpBoundaryDescriptor [in]
 

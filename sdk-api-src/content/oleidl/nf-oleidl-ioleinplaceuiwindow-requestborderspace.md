@@ -102,10 +102,10 @@ The object can install these tools by passing the width in pixels that is to be 
 
 
 ``` syntax
-lpbw-&gt;top    = 10 
-lpbw-&gt;bottom =  0 
-lpbw-&gt;lLeft  =  5 
-lpbw-&gt;right  =  5 
+lpbw->top    = 10
+lpbw->bottom =  0
+lpbw->lLeft  =  5
+lpbw->right  =  5
 ```
 
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::RequestBorderSpace</b>, do not make calls to the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::RequestBorderSpace</b>.</div>

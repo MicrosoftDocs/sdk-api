@@ -56,7 +56,7 @@ Creates a new transaction object.
 
 ### -param lpTransactionAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
       structure that determines whether the returned handle can be inherited by child processes. If this parameter is 
       <b>NULL</b>, the handle cannot be inherited.
       
@@ -147,7 +147,7 @@ If the transaction might need to be promotable to a distributed transaction, the
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

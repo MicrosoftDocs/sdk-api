@@ -141,7 +141,7 @@ If the property has no value over <i>pRange</i>, <i>pRange</i> contains more tha
 
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
-    range--&gt;||&lt;-
+    range-->||<-
 
 ```
 
@@ -150,7 +150,7 @@ TEXT:  this is some colored text
 
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
-    range--&gt;|    |&lt;-
+    range-->|    |<-
 
 ```
 
@@ -159,7 +159,7 @@ TEXT:  this is some colored text
 
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
-    range--&gt;|             |&lt;-
+    range-->|             |<-
 
 ```
 

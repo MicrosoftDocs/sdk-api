@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages. 
+Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="/windows/win32/controls/em-getparaformat">EM_GETPARAFORMAT</a> and <a href="/windows/win32/controls/em-setparaformat">EM_SETPARAFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -1782,7 +1782,7 @@ Insert a bullet at the beginning of each selected paragraph.
  
 
 
-Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces, 
+Rich Edit versions earlier than version 3.0 do not display paragraph numbers. However, for compatibility with Microsoft <a href="/windows/win32/controls/text-object-model">Text Object Model</a> (TOM) interfaces, 
 						<b>wNumbering</b> can specify one of the following values. (The rich edit control stores the value but does not use it to display the text.) 
 
 
@@ -1862,11 +1862,11 @@ Uses a sequence of characters beginning with the Unicode character specified by 
 
 
 
-<a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
+<a href="/windows/win32/controls/em-getparaformat">EM_GETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>
+<a href="/windows/win32/controls/em-setparaformat">EM_SETPARAFORMAT</a>
 
 
 

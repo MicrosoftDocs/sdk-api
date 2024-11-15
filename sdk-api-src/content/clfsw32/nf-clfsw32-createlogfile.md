@@ -177,7 +177,7 @@ Enables open operations on the object to request write access. Without this valu
 
 ### -param psaLogFile [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
       structure that  specifies the security attributes of a log.
 
 It determines whether the returned handle can be 
@@ -185,7 +185,7 @@ It determines whether the returned handle can be
       inherited.
 
 The <b>lpSecurityDescriptor</b> member of 
-      <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> specifies a 
+      <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> specifies a 
       <a href="/windows/desktop/winstation/desktop-security-and-access-rights">security descriptor</a> for the new log 
       handle. If <i>psaLogFile</i> is <b>NULL</b>, the object gets a default 
       security descriptor. The access control lists (ACL) in the default security descriptor for a log come from the 
@@ -309,4 +309,4 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>

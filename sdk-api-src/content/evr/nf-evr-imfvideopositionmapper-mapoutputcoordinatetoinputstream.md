@@ -139,7 +139,7 @@ To calculate the position of P relative to R1, call <b>MapOutputCoordinateToInpu
 
 ``` syntax
 float x1 = 0, y1 = 0;
-hr = pMap-&gt;MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &amp;x1, &amp;y1);
+hr = pMap->MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &x1, &y1);
 ```
 
 The values returned in <i>x1</i> and <i>y1</i> are normalized to the range [0...1]. To convert back to pixel coordinates, scale these values by the size of R1:

@@ -85,7 +85,7 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
 
 ### -param lpFileMappingAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that determines whether a returned handle can be inherited by child processes. The 
        <b>lpSecurityDescriptor</b> member of the  
        <b>SECURITY_ATTRIBUTES</b> structure specifies a 
@@ -582,7 +582,7 @@ Yes
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

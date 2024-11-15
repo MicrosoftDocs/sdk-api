@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-Contains information about paragraph formatting attributes in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
+Contains information about paragraph formatting attributes in a rich edit control. This structure is used with the <a href="/windows/win32/controls/em-getparaformat">EM_GETPARAFORMAT</a> and <a href="/windows/win32/controls/em-setparaformat">EM_SETPARAFORMAT</a> messages.
         
 
-In Microsoft Rich Edit 2.0, the <a href="/windows/win32/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>.
+In Microsoft Rich Edit 2.0, the <a href="/windows/win32/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="/windows/win32/controls/em-getparaformat">EM_GETPARAFORMAT</a> and <a href="/windows/win32/controls/em-setparaformat">EM_SETPARAFORMAT</a>.
 
 ## -struct-fields
 
@@ -421,11 +421,11 @@ Double line leader
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
+<a href="/windows/win32/controls/em-getparaformat">EM_GETPARAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>
+<a href="/windows/win32/controls/em-setparaformat">EM_SETPARAFORMAT</a>
 
 
 

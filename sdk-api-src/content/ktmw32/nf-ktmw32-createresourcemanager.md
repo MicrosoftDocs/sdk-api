@@ -56,7 +56,7 @@ Creates a new resource manager (RM) object, and associates the RM with a transac
 
 ### -param lpResourceManagerAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 ### -param ResourceManagerId [in]
 
@@ -120,7 +120,7 @@ You can create a volatile RM on a durable TM, but you cannot create a durable RM
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

@@ -66,7 +66,7 @@ Associates a volume with a drive letter or a directory on another volume.
 ### -param lpszVolumeMountPoint [in]
 
 The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\\") or a directory 
-      on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
+      on another volume (for example, "Y:\\MountX\\"). The string must end with a trailing backslash ('\\').
 
 ### -param lpszVolumeName [in]
 

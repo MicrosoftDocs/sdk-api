@@ -72,7 +72,7 @@ hr = CoCreateInstance(
        NULL, 
        CLSCTX_INPROC,
        IID_ITransactionContextEx, 
-       (void**)&amp;m_pTransactionContext);
+       (void**)&m_pTransactionContext);
 
 ```
 

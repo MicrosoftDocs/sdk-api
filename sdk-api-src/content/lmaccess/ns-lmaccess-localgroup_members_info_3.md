@@ -68,7 +68,7 @@ Pointer to a null-terminated Unicode string specifying the account name of the l
 
 
 ``` syntax
-&lt;DomainName&gt;\&lt;AccountName&gt;
+<DomainName>\<AccountName>
 
 ```
 

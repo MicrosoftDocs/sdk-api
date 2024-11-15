@@ -143,7 +143,7 @@ A pointer to the account name of the local group member identified by <b>lgrmi2_
 
 
 ``` syntax
-&lt;DomainName&gt;\&lt;AccountName&gt;
+<DomainName>\<AccountName>
 
 ```
 

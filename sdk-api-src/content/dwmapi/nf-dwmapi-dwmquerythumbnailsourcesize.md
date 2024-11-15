@@ -54,7 +54,7 @@ Retrieves the source size of the Desktop Window Manager (DWM) thumbnail.
 
 ## -parameters
 
-### -param hThumbnail
+### -param hThumbnail [in]
 
 A handle to the thumbnail to retrieve the source window size from.
 

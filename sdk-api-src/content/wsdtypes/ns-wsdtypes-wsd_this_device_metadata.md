@@ -76,20 +76,17 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_eleme
 
 ThisDevice metadata follows this form:
 
-
-
-
 ``` syntax
-&lt;wsd:ThisDevice&gt;
-    &lt;wsd:FriendlyName&gt;
+<wsd:ThisDevice>
+    <wsd:FriendlyName>
         A. Datum WebWeigh Scale
-    &lt;/wsd:FriendlyName&gt;
-    &lt;wsd:FirmwareVersion&gt;
+    </wsd:FriendlyName>
+    <wsd:FirmwareVersion>
         2.53c
-    &lt;/wsd:FirmwareVersion&gt;
-    &lt;wsd:SerialNumber&gt;
+    </wsd:FirmwareVersion>
+    <wsd:SerialNumber>
         923450982349058
-    &lt;/wsd:SerialNumber&gt;
- &lt;/wsd:ThisDevice&gt;
+    </wsd:SerialNumber>
+ </wsd:ThisDevice>
 ```
 

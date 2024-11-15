@@ -70,7 +70,7 @@ The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
 
 ### -param SecurityAttributes [in, optional]
 
-A pointer to the <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
+A pointer to the <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
 
 This parameter must be <b>NULL</b> when opening an existing request queue.
 

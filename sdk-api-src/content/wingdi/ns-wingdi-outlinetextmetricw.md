@@ -223,7 +223,7 @@ The offset from the beginning of the structure to a string specifying the full n
 
 The sizes returned in <b>OUTLINETEXTMETRIC</b> are specified in logical units; that is, they depend on the current mapping mode of the specified display context.
 
-Note, <b>OUTLINETEXTMETRIC</b> is defined using the current pack setting. To avoid problems, make sure that the application is built using the platform default packing. For example, 32-bit Windows uses a default of 8-byte packing. For more information, see the MSDN topic "C-Compiler Packing Issues".
+Note, <b>OUTLINETEXTMETRIC</b> is defined using the current pack setting. To avoid problems, make sure that the application is built using the platform default packing. For example, 32-bit Windows uses a default of 8-byte packing. For more information, see [C-Compiler Packing Issues](/windows/win32/midl/c-compiler-packing-issues).
 
 
 

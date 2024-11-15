@@ -83,7 +83,7 @@ Error code returned by the object on the operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b674c36f-2454-473e-8e1c-368c0afd8c34">EN_OLEOPFAILED</a>
+<a href="/windows/win32/controls/en-oleopfailed">EN_OLEOPFAILED</a>
 
 
 

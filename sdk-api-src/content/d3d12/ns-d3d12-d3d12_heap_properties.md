@@ -91,7 +91,7 @@ This structure is used by the following:
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-getheapproperties">ID3D12Resource::GetHeapProperties</a>
 </li>
 <li>
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">ID3D12Device::GetCustomHeapProperties</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)">ID3D12Device::GetCustomHeapProperties</a>
 </li>
 <li>
 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>

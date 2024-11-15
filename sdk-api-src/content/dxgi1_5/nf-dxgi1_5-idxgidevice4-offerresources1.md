@@ -118,36 +118,36 @@ struct Texture
 
 void Application::OfferInterfaceResources(ID3D11Device* pD3D11Device) 
 { 
-    CComPtr&lt;IDXGIDevice4&gt; pDXGIDevice; 
-    ThrowIfFailed(pD3D11Device-&gt;QueryInterface(&amp;pDXGIDevice)); 
+    CComPtr<IDXGIDevice4> pDXGIDevice; 
+    ThrowIfFailed(pD3D11Device->QueryInterface(&pDXGIDevice)); 
 
-    for(Texture&amp; t : m_Textures) 
+    for(Texture& t : m_Textures) 
     { 
-        CComPtr&lt;IDXGIResource&gt; pDXGIResource; 
-        ThrowIfFailed(t.pResource-&gt;QueryInterface(&amp;pDXGIResource));   
-        ThrowIfFailed(pDXGIDevice-&gt;OfferResources1(1, &amp;pDXGIResource, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, 
+        CComPtr<IDXGIResource> pDXGIResource; 
+        ThrowIfFailed(t.pResource->QueryInterface(&pDXGIResource));   
+        ThrowIfFailed(pDXGIDevice->OfferResources1(1, &pDXGIResource, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, 
 											DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT)); 
     } 
 } 
 
 void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device) 
 { 
-    CComPtr&lt;IDXGIDevice4&gt; pDXGIDevice; 
-    ThrowIfFailed(pD3D11Device-&gt;QueryInterface(&amp;pDXGIDevice));  
+    CComPtr<IDXGIDevice4> pDXGIDevice; 
+    ThrowIfFailed(pD3D11Device->QueryInterface(&pDXGIDevice));  
 
-    for(Texture&amp; t : m_Textures) 
+    for(Texture& t : m_Textures) 
     { 
-        CComPtr&lt;IDXGIResource&gt; pDXGIResource; 
-        ThrowIfFailed(t.pResource-&gt;QueryInterface(&amp;pDXGIResource));       
+        CComPtr<IDXGIResource> pDXGIResource; 
+        ThrowIfFailed(t.pResource->QueryInterface(&pDXGIResource));       
 
         DXGI_RECLAIM_RESOURCE_RESULTS Result; 
-        ThrowIfFailed(pDXGIDevice-&gt;ReclaimResources1(1, &amp;pDXGIResource, &amp;Result)); 
+        ThrowIfFailed(pDXGIDevice->ReclaimResources1(1, &pDXGIResource, &Result)); 
 
         // If the surface lost its backing commitment, it must be recreated. 
 
         if(Result == DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED) 
         { 
-            t.pResource-&gt;Release(); 
+            t.pResource->Release(); 
             t.pResource = CreateTexture(t.Width, t.Height, t.Mips); 
         }  
 

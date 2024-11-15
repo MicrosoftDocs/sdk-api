@@ -5,7 +5,6 @@ description: Contains information about the high contrast accessibility feature.
 helpviewer_keywords: ["*LPHIGHCONTRASTA","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTA","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
-ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.date: 12/05/2018
 ms.keywords: '*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST'
 req.header: winuser.h
@@ -169,7 +168,7 @@ Points to a string that contains the name of the color scheme that will be set t
 
 ## -remarks
 
-An application uses this structure when calling the[SystemParametersInfoA function](nf-winuser-systemparametersinfoa.md) with the <b>SPI_GETHIGHCONTRAST</b> or <b>SPI_SETHIGHCONTRAST</b> value. When using <b>SPI_GETHIGHCONTRAST</b>, an application must specify the <b>cbSize</b> member of the <b>HIGHCONTRAST</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETHIGHCONTRAST</b> value.
+An application uses this structure when calling the [SystemParametersInfoA function](nf-winuser-systemparametersinfoa.md) with the **SPI_GETHIGHCONTRAST** or **SPI_SETHIGHCONTRAST** value. When using **SPI_GETHIGHCONTRAST**, an application must specify the **cbSize** member of the **HIGHCONTRAST** structure; the **SystemParametersInfo** function fills the remaining members. An application must specify all structure members when using the **SPI_SETHIGHCONTRAST** value.
 
 
 > [!NOTE]

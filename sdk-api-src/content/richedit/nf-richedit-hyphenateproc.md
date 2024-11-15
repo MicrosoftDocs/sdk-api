@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <i>HyphenateProc</i> function is an application–defined
-		callback function used with the <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> message. It determines how hyphenation is done in a Microsoft Rich Edit control.
+		callback function used with the <a href="/windows/win32/controls/em-sethyphenateinfo">EM_SETHYPHENATEINFO</a> message. It determines how hyphenation is done in a Microsoft Rich Edit control.
 
 ## -parameters
 
@@ -83,11 +83,11 @@ Pointer to a <a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRE
 
 <i>HyphenateProc</i> is a placeholder for the application-defined function name.
 
-An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> message.
+An application must install the callback function by specifying the address of the callback function in an <a href="/windows/win32/controls/em-sethyphenateinfo">EM_SETHYPHENATEINFO</a> message.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a>
+<a href="/windows/win32/controls/em-sethyphenateinfo">EM_SETHYPHENATEINFO</a>
 
 
 

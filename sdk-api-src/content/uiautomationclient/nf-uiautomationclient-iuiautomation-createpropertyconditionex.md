@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The property value.
 
-### -param unnamedParam3 [in]
+### -param flags [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-propertyconditionflags">PropertyConditionFlags</a></b>
 

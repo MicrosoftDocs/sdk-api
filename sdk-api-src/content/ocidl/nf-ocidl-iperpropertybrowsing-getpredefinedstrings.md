@@ -129,13 +129,13 @@ CALPOLESTR     castr;
 CWDWORD        cadw; 
 ULONG          i; 
  
-pIPerPropertyBrowsing-&gt;GetPredefinedStrings(dispID, &amp;castr, &amp;cadw); 
+pIPerPropertyBrowsing->GetPredefinedStrings(dispID, &castr, &cadw); 
  
 //...Use the strings and the cookies 
  
 CoTaskMemFree((void *)cadw.pElems); 
  
-for (i=0; i &lt; castr.cElems; i++) 
+for (i=0; i < castr.cElems; i++) 
     CoTaskMemFree((void *)castr.pElems[i]); 
  
 CoTaskMemFree((void *)castr.pElems); 

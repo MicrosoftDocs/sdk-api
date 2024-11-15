@@ -49,7 +49,6 @@ api_name:
 
 # SetPivotInteractionContext function
 
-
 ## -description
 
 Sets the center point, and the pivot radius from the center point, for a rotation manipulation using a single input pointer.
@@ -58,7 +57,7 @@ Sets the center point, and the pivot radius from the center point, for a rotatio
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the [Interaction Context](../_input_intcontext/index.md).
 
 ### -param x [in]
 
@@ -75,13 +74,7 @@ The offset between the center point and the single input pointer, in HIMETRIC un
 ## -returns
 
 If this function succeeds, it returns S_OK.
- 
+
 Otherwise, it returns an HRESULT error code.
 
 ## -see-also
-
-<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

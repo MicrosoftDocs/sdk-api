@@ -61,12 +61,9 @@ A structure that is used to specify the custom proxy for the channel, using
 
 A semicolon-separated list of the proxy servers to be used by the channel. Each 
                     entry must follow the following EBNF.
-                
-
 
 ``` syntax
-
-&lt;server&gt;[":"&lt;port&gt;]
+<server>[":"<port>]
 ```
 
 

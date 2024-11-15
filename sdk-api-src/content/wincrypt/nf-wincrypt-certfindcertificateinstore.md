@@ -6,7 +6,7 @@ helpviewer_keywords: ["CERT_FIND_ANY","CERT_FIND_CERT_ID","CERT_FIND_CROSS_CERT_
 old-location: security\certfindcertificateinstore.htm
 tech.root: security
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
-ms.date: 06/24/2024
+ms.date: 07/11/2024
 ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SHA1_SHA256_HASH, CERT_FIND_SHA256_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
 req.header: wincrypt.h
 req.include-header: 
@@ -340,7 +340,7 @@ Searches for a certificate with a SHA1 hash that matches the hash in the <a href
 <td width="60%">
 Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Searches for a certificate with a SHA1 + SHA256 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 </td>
 </tr>
@@ -353,7 +353,7 @@ Searches for a certificate with a SHA1 hash that matches the hash in the <a href
 <td width="60%">
 Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Searches for a certificate with a SHA256 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 </td>
 </tr>

@@ -77,9 +77,9 @@ A pointer to a null-terminated string specifying the fully qualified path of the
 
 ### -param psa [in, optional]
 
-Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
+Type: <b>const <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>*</b>
 
- A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
+ A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
 
 ## -returns
 

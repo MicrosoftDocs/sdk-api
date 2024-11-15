@@ -373,7 +373,7 @@ A value of zero will result in a default time-out of 50 milliseconds.
 ### -param lpSecurityAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new named pipe and determines whether child processes can inherit the returned handle. If <i>lpSecurityAttributes</i> is <b>NULL</b>, the named pipe gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a named pipe grant full control to the LocalSystem account, administrators, and the creator owner. They also grant read access to members of the Everyone group and the anonymous account.
 
 ## -returns
 
@@ -415,7 +415,7 @@ For an example, see <a href="/windows/desktop/ipc/multithreaded-pipe-server">Mul
 <a href="/windows/desktop/ipc/pipes">Pipes Overview</a>  
 <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>  
 <a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>  
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>  
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>  
 <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>  
 <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-waitnamedpipew">WaitNamedPipe</a>  
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>  

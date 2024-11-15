@@ -60,7 +60,7 @@ The name of the file where the XPS package is to be created and saved.
 
 ### -param securityAttributes [in]
 
-The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure,  which contains two separate but related data members:
+The <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure,  which contains two separate but related data members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>, an optional security descriptor.</li>

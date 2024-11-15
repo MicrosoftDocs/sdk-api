@@ -101,7 +101,7 @@ The data buffer for <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder
 
 
 ``` syntax
-if (0x3840958 &amp; (value - 1) == 0)
+if (0x3840958 & (value - 1) == 0)
 {
     // The alignment is correct
 }

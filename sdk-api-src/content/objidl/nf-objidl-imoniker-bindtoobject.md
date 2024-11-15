@@ -175,19 +175,19 @@ IMoniker * pMnk;  // A previously acquired interface moniker
 
 // Obtain an IBindCtx interface.
 IBindCtx * pbc; 
-hr = CreateBindCtx(NULL, &amp;pbc); 
+hr = CreateBindCtx(NULL, &pbc); 
 if (FAILED(hr)) exit(0);  // Handle errors here. 
    
 // Obtain an implementation of pCellRange. 
 ICellRange * pCellRange; 
-hr = pMnk-&gt;BindToObject(pbc, NULL, IID_ICellRange, &amp;pCellRange); 
+hr = pMnk->BindToObject(pbc, NULL, IID_ICellRange, &pCellRange); 
 if (FAILED(hr)) exit(0);  // Handle errors here. 
 
 // Use pCellRange here. 
 
 // Release interfaces after use. 
-pbc-&gt;Release(); 
-pCellRange-&gt;Release(); 
+pbc->Release(); 
+pCellRange->Release(); 
 
 ```
 
@@ -286,8 +286,8 @@ Next the moniker checks the ROT of the bind context to determine whether the ref
 
 
 ``` syntax
-IBindCtx::GetRunningObjectTable(&amp;prot)
-prot-&gt;IsRunning(this)
+IBindCtx::GetRunningObjectTable(&prot)
+prot->IsRunning(this)
 
 ```
 
@@ -297,7 +297,7 @@ If the object is already running, the moniker retrieves the running object with 
 
 
 ``` syntax
-prot-&gt;GetObject(this, &amp;punk)
+prot->GetObject(this, &punk)
 
 ```
 

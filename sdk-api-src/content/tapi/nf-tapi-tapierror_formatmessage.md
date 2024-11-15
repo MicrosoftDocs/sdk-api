@@ -75,7 +75,7 @@ The following example uses <b>FormatMessage</b> to produce an error string that 
 ``` syntax
 lResult = lineClose(hLine);
 
-if (lResult &lt; 0)
+if (lResult < 0)
 {
     FormatMessage(FORMAT_MESSAGE_FROM_HMODULE,
                   (LPCVOID)GetModuleHandle("TAPIUI.DLL"),

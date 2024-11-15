@@ -6,7 +6,7 @@ helpviewer_keywords: ["DONT_RESOLVE_DLL_REFERENCES", "LDR_IS_DATAFILE", "LDR_IS_
 old-location: base\loadlibraryex.htm
 tech.root: base
 ms.assetid: 4fc699ca-6ffb-4954-9b72-1b827d558563
-ms.date: 12/05/2018
+ms.date: 07/15/2024
 ms.keywords: DONT_RESOLVE_DLL_REFERENCES, LDR_IS_DATAFILE, LDR_IS_IMAGEMAPPING, LDR_IS_RESOURCE, LOAD_IGNORE_CODE_AUTHZ_LEVEL, LOAD_LIBRARY_AS_DATAFILE, LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE, LOAD_LIBRARY_AS_IMAGE_RESOURCE, LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, LOAD_WITH_ALTERED_SEARCH_PATH, LoadLibraryEx, LoadLibraryEx function, LoadLibraryExA, LoadLibraryExW, _win32_loadlibraryex, base.loadlibraryex, libloaderapi/LoadLibraryEx, libloaderapi/LoadLibraryExA, libloaderapi/LoadLibraryExW, winbase/LoadLibraryEx, winbase/LoadLibraryExA, winbase/LoadLibraryExW
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -145,11 +145,7 @@ If this value is used, the system does not check
          for the DLL. This action applies only to the DLL being loaded and not to its dependencies. This value is
          recommended for use in setup programs that must run extracted DLLs during installation.
 
-<b>Windows Server 2008 R2 and Windows 7:  </b>On systems with KB2532445 installed, the caller must be running as "LocalSystem" or
-          "TrustedInstaller"; otherwise the system ignores this flag. For more information, see
-          "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2"
-          in the Help and Support Knowledge Base at
-          <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
+<b>Windows Server 2008 R2 and Windows 7:  </b>On systems with KB2532445 installed, the caller must be running as "LocalSystem" or "TrustedInstaller"; otherwise the system ignores this flag. For more information, see "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker was introduced in Windows 7 and Windows Server 2008 R2.
 
@@ -607,7 +603,7 @@ Do not use the <a href="/windows/desktop/api/processenv/nf-processenv-searchpath
       mode unless this is explicitly enabled by calling
       <a href="/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a> with
       <b>BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE</b>. Therefore,
-      <b>SearchPath</b> is likely to first search the user’s current
+      <b>SearchPath</b> is likely to first search the user's current
       working directory for the specified DLL. If an attacker has copied a malicious version of a DLL into the
       current working directory, the path retrieved by
       <b>SearchPath</b> will point to the malicious DLL, which

@@ -120,11 +120,11 @@ The use of the <i>pStgPriority</i> parameter can be duplicated by the caller in 
 ``` syntax
 // Replacement for:
 // HRESULT hr = StgOpenStorageOnILockBytes(
-//         plkbyt, pStgPriority, grfMode, NULL, 0, &amp;pstgNew);
+//         plkbyt, pStgPriority, grfMode, NULL, 0, &pstgNew);
 
-pStgPriority-&gt;Release();
+pStgPriority->Release();
 pStgPriority = NULL;
-hr = StgOpenStorage(plkbyt, NULL, grfMode, NULL, 0, &amp;pstgNew);
+hr = StgOpenStorage(plkbyt, NULL, grfMode, NULL, 0, &pstgNew);
     
 
 ```

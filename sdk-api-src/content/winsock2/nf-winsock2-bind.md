@@ -110,7 +110,7 @@ The network subsystem has failed.
 <td width="60%">
 An attempt was made to access a socket in a way forbidden by its access permissions.
 
-This error is returned if nn attempt to bind a datagram socket to the broadcast address failed because 
+This error is returned if an attempt to bind a datagram socket to the broadcast address failed because 
 the <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> option SO_BROADCAST is not enabled.
 
 </td>

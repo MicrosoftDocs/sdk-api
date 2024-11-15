@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# CreateFileMapping2 function
+
 ## -description
 
 Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter.
@@ -58,9 +60,9 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process must also sp
 
 ### -param SecurityAttributes
 
-Type: \_In_opt\_ **[SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))\***
+Type: \_In_opt\_ **[SECURITY_ATTRIBUTES](/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes)\***
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether a returned handle can be inherited by child processes. The <b>lpSecurityDescriptor</b> member of the <b>SECURITY_ATTRIBUTES</b> structure specifies a security descriptor for a new file mapping object.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether a returned handle can be inherited by child processes. The <b>lpSecurityDescriptor</b> member of the <b>SECURITY_ATTRIBUTES</b> structure specifies a security descriptor for a new file mapping object.
 
 If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited and the file mapping object gets a default security descriptor. The access control lists (ACL) in the default security descriptor for a file mapping object come from the primary or impersonation token of the creator. For more information, see <a href="/windows/win32/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
@@ -429,7 +431,7 @@ For an example, see <a href="/windows/win32/memory/creating-named-shared-memory"
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 <a href="/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
 

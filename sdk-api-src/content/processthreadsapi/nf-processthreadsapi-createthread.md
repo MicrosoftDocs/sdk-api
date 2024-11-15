@@ -66,7 +66,7 @@ To create a thread that runs in the virtual address space of another process, us
 
 ### -param lpThreadAttributes [in, optional]
 
-A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> 
        structure that determines whether the returned handle can be inherited by child processes. If 
        <i>lpThreadAttributes</i> is NULL, the handle cannot be inherited.
 
@@ -242,7 +242,7 @@ For an example, see
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

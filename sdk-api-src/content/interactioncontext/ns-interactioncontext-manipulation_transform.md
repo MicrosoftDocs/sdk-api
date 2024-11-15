@@ -47,7 +47,6 @@ api_name:
 
 # MANIPULATION_TRANSFORM structure
 
-
 ## -description
 
 Defines the transformation data for a manipulation.
@@ -75,5 +74,3 @@ Expansion in user-defined coordinates, in HIMETRIC units.
 Change in rotation, in radians.
 
 ## -see-also
-
-<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>

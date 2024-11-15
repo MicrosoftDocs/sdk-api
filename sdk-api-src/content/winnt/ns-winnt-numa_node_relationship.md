@@ -68,7 +68,7 @@ This member is reserved.
 
 ### -field GroupCount
 
-The number of groups included in the *GroupMasks* array. This field was introduced in TBD Release Iron. On earlier versions, this value is always 0.
+The number of groups included in the *GroupMasks* array. This field was introduced in Windows 20H2. On earlier versions, this value is always 0.
 
 ### -field DUMMYUNIONNAME
 

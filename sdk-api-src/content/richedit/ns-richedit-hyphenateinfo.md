@@ -76,15 +76,15 @@ The client-defined <a href="/windows/win32/api/richedit/nf-richedit-hyphenatepro
 
 ## -remarks
 
-This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a> and <a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a> messages.
+This structure is used with the <a href="/windows/win32/controls/em-gethyphenateinfo">EM_GETHYPHENATEINFO</a> and <a href="/windows/win32/controls/em-sethyphenateinfo">EM_SETHYPHENATEINFO</a> messages.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/70ccb698-e440-493b-8f38-2bf7f32e4b26">EM_GETHYPHENATEINFO</a>
+<a href="/windows/win32/controls/em-gethyphenateinfo">EM_GETHYPHENATEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/67126cb8-ab50-49a9-b32f-2245debf2fe3">EM_SETHYPHENATEINFO</a>
+<a href="/windows/win32/controls/em-sethyphenateinfo">EM_SETHYPHENATEINFO</a>
 
 
 

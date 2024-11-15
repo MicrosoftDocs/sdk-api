@@ -91,17 +91,17 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     {
         // Find the filter that owns the pin connected to us.
         FILTER_INFO fi;
-        hr = m_Connected-&gt;QueryFilterInfo(&amp;fi);
+        hr = m_Connected->QueryFilterInfo(&fi);
         if (SUCCEEDED(hr)) 
         {
             if (fi.pFilter != NULL) 
             {
                 //  Disconnect the pins.
-                pGraph-&gt;Disconnect(m_Connected);
-                pGraph-&gt;Disconnect(pPin);
+                pGraph->Disconnect(m_Connected);
+                pGraph->Disconnect(pPin);
                 // Remove the filter from the graph.
-                pGraph-&gt;RemoveFilter(fi.pFilter);
-                fi.pFilter-&gt;Release();
+                pGraph->RemoveFilter(fi.pFilter);
+                fi.pFilter->Release();
             } 
             else 
             {

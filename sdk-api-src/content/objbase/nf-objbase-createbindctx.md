@@ -86,17 +86,16 @@ The following code fragment illustrates these steps.
 
 
 ``` syntax
-// pMnk is an IMoniker * that points to a previously acquired moniker 
-IInterface *pInterface; 
-IBindCtx *pbc; 
+// pMnk is an IMoniker * that points to a previously acquired moniker
+IInterface *pInterface;
+IBindCtx *pbc;
  
-CreateBindCtx( 0, &amp;pbc ); 
-pMnk-&gt;BindToObject( pbc, NULL, IID_IInterface, &amp;pInterface ); 
-pbc-&gt;Release(); 
+CreateBindCtx( 0, &pbc );
+pMnk->BindToObject( pbc, NULL, IID_IInterface, &pInterface );
+pbc->Release();
 
-// pInterface now points to the object; safe to use pInterface 
-pInterface-&gt;Release(); 
-
+// pInterface now points to the object; safe to use pInterface
+pInterface->Release();
 ```
 
 Bind contexts are also used in other methods of the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface besides <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> and in the <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function. 

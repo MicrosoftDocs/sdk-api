@@ -4,7 +4,8 @@ title: IMFPMediaPlayer::GetNativeVideoSize (mfplay.h)
 description: Gets the size and aspect ratio of the video.
 helpviewer_keywords: ["GetNativeVideoSize","GetNativeVideoSize method [Media Foundation]","GetNativeVideoSize method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetNativeVideoSize method","IMFPMediaPlayer.GetNativeVideoSize","IMFPMediaPlayer::GetNativeVideoSize","mf.imfpmediaplayer_getnativevideosize","mfplay/IMFPMediaPlayer::GetNativeVideoSize"]
 old-location: mf\imfpmediaplayer_getnativevideosize.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 6f0f09fb-d41c-4662-a20c-2a1d04b39df5
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetNativeVideoSize method, IMFPMediaPlayer.GetNativeVideoSize, IMFPMediaPlayer::GetNativeVideoSize, mf.imfpmediaplayer_getnativevideosize, mfplay/IMFPMediaPlayer::GetNativeVideoSize
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Gets the size and aspect ratio of the video. These values are computed before any scaling is done to fit the video into the destination window.

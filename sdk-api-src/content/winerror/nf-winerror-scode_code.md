@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define SCODE_CODE(sc)      ((sc) &amp; 0xFFFF)
+#define SCODE_CODE(sc)      ((sc) & 0xFFFF)
 ```
 
 

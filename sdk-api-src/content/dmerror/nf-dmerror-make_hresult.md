@@ -73,7 +73,7 @@ This macro is defined as follows:
 
 ``` syntax
 #define MAKE_HRESULT(sev,fac,code) \
-    ((HRESULT) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )
+    ((HRESULT) (((unsigned long)(sev)<<31) | ((unsigned long)(fac)<<16) | ((unsigned long)(code))) )
 ```
 
 

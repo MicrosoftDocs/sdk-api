@@ -4,7 +4,8 @@ title: MFP_EVENT_TYPE (mfplay.h)
 description: Defines event types for the IMFPMediaPlayerCallback interface.
 helpviewer_keywords: ["MFP_EVENT_TYPE","MFP_EVENT_TYPE enumeration [Media Foundation]","MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL","MFP_EVENT_TYPE_ERROR","MFP_EVENT_TYPE_FRAME_STEP","MFP_EVENT_TYPE_MEDIAITEM_CLEARED","MFP_EVENT_TYPE_MEDIAITEM_CREATED","MFP_EVENT_TYPE_MEDIAITEM_SET","MFP_EVENT_TYPE_MF","MFP_EVENT_TYPE_PAUSE","MFP_EVENT_TYPE_PLAY","MFP_EVENT_TYPE_PLAYBACK_ENDED","MFP_EVENT_TYPE_POSITION_SET","MFP_EVENT_TYPE_RATE_SET","MFP_EVENT_TYPE_STOP","mf.mfp_event_type","mfplay/MFP_EVENT_TYPE","mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL","mfplay/MFP_EVENT_TYPE_ERROR","mfplay/MFP_EVENT_TYPE_FRAME_STEP","mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED","mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED","mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET","mfplay/MFP_EVENT_TYPE_MF","mfplay/MFP_EVENT_TYPE_PAUSE","mfplay/MFP_EVENT_TYPE_PLAY","mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED","mfplay/MFP_EVENT_TYPE_POSITION_SET","mfplay/MFP_EVENT_TYPE_RATE_SET","mfplay/MFP_EVENT_TYPE_STOP"]
 old-location: mf\mfp_event_type.htm
-tech.root: mf
+tech.root: mfarchive
+archived: true
 ms.assetid: 95beb13d-db84-4713-9c27-27b37eac7f2f
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_TYPE, MFP_EVENT_TYPE enumeration [Media Foundation], MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, MFP_EVENT_TYPE_ERROR, MFP_EVENT_TYPE_FRAME_STEP, MFP_EVENT_TYPE_MEDIAITEM_CLEARED, MFP_EVENT_TYPE_MEDIAITEM_CREATED, MFP_EVENT_TYPE_MEDIAITEM_SET, MFP_EVENT_TYPE_MF, MFP_EVENT_TYPE_PAUSE, MFP_EVENT_TYPE_PLAY, MFP_EVENT_TYPE_PLAYBACK_ENDED, MFP_EVENT_TYPE_POSITION_SET, MFP_EVENT_TYPE_RATE_SET, MFP_EVENT_TYPE_STOP, mf.mfp_event_type, mfplay/MFP_EVENT_TYPE, mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, mfplay/MFP_EVENT_TYPE_ERROR, mfplay/MFP_EVENT_TYPE_FRAME_STEP, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET, mfplay/MFP_EVENT_TYPE_MF, mfplay/MFP_EVENT_TYPE_PAUSE, mfplay/MFP_EVENT_TYPE_PLAY, mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED, mfplay/MFP_EVENT_TYPE_POSITION_SET, mfplay/MFP_EVENT_TYPE_RATE_SET, mfplay/MFP_EVENT_TYPE_STOP
@@ -50,8 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
-<div> </div>
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 
 Defines event types for the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface.

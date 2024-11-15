@@ -13,10 +13,8 @@ f1_keywords:
 
 # Interactioncontext.h header
 
-
 ## -description
 
 This header is used by Interaction Context. For more information, see:
 
 - [Interaction Context](../_input_intcontext/index.md)
-

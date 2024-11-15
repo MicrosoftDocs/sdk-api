@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetWaitableTimer","SetWaitableTimer function","_win32_set
 old-location: base\setwaitabletimer.htm
 tech.root: base
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
-ms.date: 12/05/2018
+ms.date: 08/20/2024
 ms.keywords: SetWaitableTimer, SetWaitableTimer function, _win32_setwaitabletimer, base.setwaitabletimer, synchapi/SetWaitableTimer, winbase/SetWaitableTimer
 req.header: synchapi.h
 req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
@@ -77,6 +77,10 @@ The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more inform
 The time after which the state of the timer is to be set to signaled, in 100 nanosecond intervals. Use the format described by the 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. Positive values indicate absolute time. Be sure to use a UTC-based absolute time, as the system uses UTC-based time internally. Negative values indicate relative time. The actual timer accuracy depends on the capability of your hardware. For more information about UTC-based time, see 
 <a href="/windows/desktop/SysInfo/system-time">System Time</a>.
+
+**Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:** If relative time is specified, the timer includes time spent in low-power states. For example, the timer continues counting down while the computer is asleep.
+
+**Windows 8 and newer, Windows Server 2012 and newer:** If relative time is specified, the timer does not include time spent in low-power states. For example, the timer does not continue counting down while the computer is asleep.
 
 ### -param lPeriod [in]
 

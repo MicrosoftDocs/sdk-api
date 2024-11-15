@@ -54,7 +54,7 @@ h1-override: CHARFORMAT2A structure (Rich Edit 2.0)
 
 ## -description
 
-Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
+Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a> and <a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 
@@ -551,7 +551,7 @@ The <b>wWeight</b> member is valid.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
+A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="/windows/win32/controls/text-object-model">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
                 
 
 This member can be a combination of the following values.
@@ -678,7 +678,7 @@ Characters are italic.
 </dl>
 </td>
 <td width="60%">
-A rich edit control can send <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
+A rich edit control can send <a href="/windows/win32/controls/en-link">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
 
 </td>
 </tr>
@@ -740,7 +740,7 @@ Characters are displayed as outlined characters. The value does not affect how t
 </dl>
 </td>
 <td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+Characters are protected; an attempt to modify them will cause an <a href="/windows/win32/controls/en-protected">EN_PROTECTED</a> notification code.
 
 </td>
 </tr>
@@ -1194,15 +1194,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-getcharformat">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
+<a href="/windows/win32/controls/em-setcharformat">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="/windows/win32/controls/en-protected">EN_PROTECTED</a>
 
 
 

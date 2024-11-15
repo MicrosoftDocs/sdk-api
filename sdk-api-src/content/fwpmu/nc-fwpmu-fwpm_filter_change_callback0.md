@@ -1,7 +1,7 @@
 ---
 UID: NC:fwpmu.FWPM_FILTER_CHANGE_CALLBACK0
 title: FWPM_FILTER_CHANGE_CALLBACK0 (fwpmu.h)
-description: Is used to added custom behavior to the filter change notification process.
+description: Is used to add custom behavior to the filter change notification process.
 helpviewer_keywords: ["FWPM_FILTER_CHANGE_CALLBACK0","FWPM_FILTER_CHANGE_CALLBACK0 callback","FWPM_FILTER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_filter_change_callback0_func","fwpmu/FWPM_FILTER_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_filter_change_callback0_func.htm
 tech.root: fwp
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FWPM_FILTER_CHANGE_CALLBACK0</b> function is used to added custom behavior to the filter change notification process.
+The <b>FWPM_FILTER_CHANGE_CALLBACK0</b> function is used to add custom behavior to the filter change notification process.
 
 ## -parameters
 

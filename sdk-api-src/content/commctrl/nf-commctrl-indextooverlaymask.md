@@ -67,6 +67,6 @@ The <b>INDEXTOOVERLAYMASK</b> macro is defined as follows.
 
 
 ``` syntax
-#define INDEXTOOVERLAYMASK(i) ((i) &lt;&lt; 8)
+#define INDEXTOOVERLAYMASK(i) ((i) << 8)
 ```
 

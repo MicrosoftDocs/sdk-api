@@ -90,7 +90,7 @@ The following example shows the ASN.1 output for a CMC certificate that contains
       04 22 ; OCTET_STRING (22 Bytes)
       52 65 71 75 65 73 74 65  72 4e 61 6d 65 3d 44 6f  ; RequesterName=Do
       6d 61 69 6e 25 35 43 54  61 72 67 65 74 55 73 65  ; main%5CTargetUse
-      72 26                                             ; r&amp; 
+      72 26                                             ; r&
 ...
 
 ```

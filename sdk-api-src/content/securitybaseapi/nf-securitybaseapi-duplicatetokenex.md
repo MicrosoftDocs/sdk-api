@@ -78,7 +78,7 @@ For a list of access rights for access tokens, see
 ### -param lpTokenAttributes [in, optional]
 
 A pointer to a 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the new token and determines whether child processes can inherit the token. If <i>lpTokenAttributes</i> is <b>NULL</b>, the token gets a default security descriptor and the handle cannot be inherited. If the security descriptor contains a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the token gets ACCESS_SYSTEM_SECURITY access right, even if it was not requested in <i>dwDesiredAccess</i>.
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the new token and determines whether child processes can inherit the token. If <i>lpTokenAttributes</i> is <b>NULL</b>, the token gets a default security descriptor and the handle cannot be inherited. If the security descriptor contains a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the token gets ACCESS_SYSTEM_SECURITY access right, even if it was not requested in <i>dwDesiredAccess</i>.
 
 To set the owner in the security descriptor for the new token, the caller's process token must have the <b>SE_RESTORE_NAME</b> privilege set.
 
@@ -183,7 +183,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a>
 
 
 

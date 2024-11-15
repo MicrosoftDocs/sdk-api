@@ -162,16 +162,11 @@ int _cdecl _tmain (
 
 
 
-<a href="/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (CSRegisterHotkey)</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/21cb9b6bc0da3b234c5854ecac449cb3bd261f29/OneCodeTeam/Register%20hotkey%20for%20the%20current%20app%20(CSRegisterHotkey)">Register hotkey for the current app (CSRegisterHotkey)</a>
 
 
 
-<a href="/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (CppRegisterHotkey)</a>
-
-
-
-<a href="/samples/browse/?redirectedfrom=MSDN-samples">Register hotkey for the current app (VBRegisterHotkey)</a>
-
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/21cb9b6bc0da3b234c5854ecac449cb3bd261f29/OneCodeTeam/Register%20hotkey%20for%20the%20current%20app%20(CppRegisterHotkey)">Register hotkey for the current app (CppRegisterHotkey)</a>
 
 
 
