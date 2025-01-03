@@ -59,7 +59,7 @@ Determines the number of items in the specified menu.
 
 ## -parameters
 
-### -param hMenu [in, optional]
+### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
