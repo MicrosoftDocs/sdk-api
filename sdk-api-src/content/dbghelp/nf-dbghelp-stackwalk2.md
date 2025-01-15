@@ -5,7 +5,7 @@ description: Obtains a stack trace. (StackWalk2)
 helpviewer_keywords: ["IMAGE_FILE_MACHINE_AMD64","IMAGE_FILE_MACHINE_I386","IMAGE_FILE_MACHINE_IA64","IMAGE_FILE_MACHINE_ARM64","SYM_STKWALK_DEFAULT","SYM_STKWALK_FORCE_FRAMEPTR","StackWalk2","StackWalk2 function","dbghelp/StackWalk2"]
 tech.root: Debug
 ms.assetid: D0ED2879-CABE-47ff-AB0E-9B50943033A4
-ms.date: 1/13/2025
+ms.date: 1/15/2025
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_MACHINE_ARM64, SYM_STKWALK_DEFAULT, SYM_STKWALK_FORCE_FRAMEPTR, StackWalk2, StackWalk2 function, dbghelp/StackWalk2
 req.header: dbghelp.h
 req.include-header: 
