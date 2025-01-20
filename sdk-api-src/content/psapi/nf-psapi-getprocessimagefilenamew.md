@@ -92,9 +92,9 @@ The <b>GetProcessImageFileName</b> function returns the path in device form, rat
 
 \Device\Harddisk0\Partition1\Windows\System32\Ctype.nls
 
-To retrieve the module name of the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function with a NULL module handle. This is more efficient than calling the <b>GetProcessImageFileName</b> function with a handle to the current process.
+To retrieve the module name of the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamew">GetModuleFileName</a> function with a NULL module handle. This is more efficient than calling the <b>GetProcessImageFileName</b> function with a handle to the current process.
 
-To retrieve the name of the main executable module for a remote process in win32 path format, use the <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function.
+To retrieve the name of the main executable module for a remote process in win32 path format, use the <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamew">QueryFullProcessImageName</a> function.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -130,4 +130,4 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamew">QueryFullProcessImageName</a>
