@@ -151,7 +151,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw">LoadLibrary</a>
 
 
 
