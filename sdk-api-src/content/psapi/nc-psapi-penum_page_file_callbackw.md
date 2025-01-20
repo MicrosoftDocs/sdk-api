@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a> function.
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesw">EnumPageFiles</a> function.
 
 The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback function. 
 <b>EnumPageFilesProc</b> is a placeholder for the application-defined function name.
@@ -63,7 +63,7 @@ The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback func
 ### -param pContext [in]
 
 The user-defined data passed from 
-<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>.
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesw">EnumPageFiles</a>.
 
 ### -param pPageFileInfo [in]
 
@@ -86,7 +86,7 @@ To stop enumeration, the callback function must return FALSE.
 
 
 
-<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesw">EnumPageFiles</a>
 
 
 
