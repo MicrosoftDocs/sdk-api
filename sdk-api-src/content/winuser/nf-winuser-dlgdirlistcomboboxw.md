@@ -66,7 +66,7 @@ A handle to the dialog box that contains the combo box.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or file name. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, &#92;&#92;<i>machinename</i>&#92;<i>sharename</i>). 
+A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or file name. An absolute path can begin with a drive letter (for example, d:\\) or a UNC name (for example, &#92;&#92;<i>machinename</i>&#92;<i>sharename</i>). 
         
                     
 
