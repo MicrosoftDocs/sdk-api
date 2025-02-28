@@ -106,6 +106,17 @@ Sets a new application instance handle.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="GWL_HWNDPARENT"></a><a id="gwl_hwndparent"></a><dl>
+<dt><b>GWL_HWNDPARENT</b></dt>
+<dt>-8</dt>
+</dl>
+</td>
+<td width="60%">
+Sets a new owner for a top-level window.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="GWL_ID"></a><a id="gwl_id"></a><dl>
 <dt><b>GWL_ID</b></dt>
 <dt>-12</dt>
@@ -228,7 +239,9 @@ Calling <b>SetWindowLong</b> with the <b>GWL_WNDPROC</b> index creates a subclas
 Reserve extra window memory by specifying a nonzero value in the 
 				<b>cbWndExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
-You must not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
+Do not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
+
+<b>GWL_HWNDPARENT</b> is used to change the owner of a top-level window, not the parent of a child window.
 
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_OWNDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
