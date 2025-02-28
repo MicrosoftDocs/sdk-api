@@ -126,7 +126,7 @@ If <i>lpFile</i> specifies an executable file and "open" or "runas" verbs are us
 
 Type: <b>LPCTSTR</b>
 
-If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
+If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The command line string of a process created with "open" or "runas" verbs specified in <i>lpOperation</i> includes a trailing whitespace character and the parameters are appended to that command line. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
 
 ### -param lpDirectory [in, optional]
 
