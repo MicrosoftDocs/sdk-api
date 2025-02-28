@@ -120,6 +120,8 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that specifies the file or object on which to execute the specified verb. To specify a Shell namespace object, pass the fully qualified parse name. Note that not all verbs are supported on all objects. For example, not all document types support the "print" verb. If a relative path is used for the <i>lpDirectory</i> parameter do not use a relative path for <i>lpFile</i>.
 
+If <i>lpFile</i> specifies an executable file and "open" or "runas" verbs are used in <i>lpOperation</i>, a whitespace character is appended to the commandline of the created process.
+
 ### -param lpParameters [in, optional]
 
 Type: <b>LPCTSTR</b>
