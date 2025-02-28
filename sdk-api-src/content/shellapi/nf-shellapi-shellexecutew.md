@@ -120,13 +120,13 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that specifies the file or object on which to execute the specified verb. To specify a Shell namespace object, pass the fully qualified parse name. Note that not all verbs are supported on all objects. For example, not all document types support the "print" verb. If a relative path is used for the <i>lpDirectory</i> parameter do not use a relative path for <i>lpFile</i>.
 
-If <i>lpFile</i> specifies an executable file and "open" or "runas" verbs are used in <i>lpOperation</i>, a whitespace character is appended to the commandline of the created process.
+If <i>lpFile</i> specifies an executable file and "open" or "runas" verbs are used in <i>lpOperation</i>, the command line string of the launched process includes a trailing whitespace character.
 
 ### -param lpParameters [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The command line string of a process created with "open" or "runas" verbs specified in <i>lpOperation</i> includes a trailing whitespace character and the parameters are appended to that command line. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
+If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The command line string for a process launched with "open" or "runas" verbs in <i>lpOperation</i> includes a trailing whitespace character and the parameters are appended to that command line string. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
 
 ### -param lpDirectory [in, optional]
 
