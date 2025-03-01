@@ -243,6 +243,8 @@ Do not call <b>SetWindowLong</b> with the <b>GWL_HWNDPARENT</b> index to change 
 
 <b>GWL_HWNDPARENT</b> is used to change the owner of a top-level window, not the parent of a child window.
 
+A window can have either a parent or an owner, or neither, but never both simultaneously.
+
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_OWNDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
 Calling <b>SetWindowLong</b> to set the style on a progressbar will reset its position.
