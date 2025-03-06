@@ -240,9 +240,7 @@ and countries.)
 
 ### -param DeviceInfoData [in]
 
-An optional pointer to  the <b>SP_DEVINFO_DATA</b> structure that provides a context to a specific element in the set that  <i>DeviceInfoSet</i> specifies. For more information, see the DDK <i>Programmer's Guide</i>. (This resource may not be available in some languages 
-
-and countries.)
+An optional pointer to  the <b>SP_DEVINFO_DATA</b> structure that provides a context to a specific element in the set that  <i>DeviceInfoSet</i> specifies. For more information, see the DDK <i>Programmer's Guide</i>. (This resource may not be available in some languages and countries.)
 
 ### -param Reserved1
 
