@@ -60,17 +60,17 @@ Type: <b>KNOWNDESTCATEGORY</b>
 
 One of the following values that indicate which known category to add to the list:
 
-
-
 #### KDC_FREQUENT (1)
 
-0x1. Add the <b>Frequent</b> category.
-
-
+1 - Add the <b>Frequent</b> category.
 
 #### KDC_RECENT (2)
 
-0x2. Add the <b>Recent</b> category.
+2 - Add the <b>Recent</b> category.
+
+#### KDC_NONE (-1)
+
+-1 - Do not use a category. Note, this value is not represented in KNOWNDESTCATEGORY, use `static_cast<KNOWNDESTCATEGORY>(-1)` to represent this.
 
 ## -returns
 
