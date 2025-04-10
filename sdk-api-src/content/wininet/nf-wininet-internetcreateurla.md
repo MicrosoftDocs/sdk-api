@@ -19,33 +19,6 @@ req.ddi-compliance:
 req.unicode-ansi: InternetCreateUrlW (Unicode) and InternetCreateUrlA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - InternetCreateUrlA
- - wininet/InternetCreateUrlA
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - DllExport
-api_location:
- - Wininet.dll
-api_name:
- - InternetCreateUrl
- - InternetCreateUrlA
- - InternetCreateUrlW
----
 
 # InternetCreateUrlA function
 
@@ -56,51 +29,22 @@ Creates a URL from its component parts.
 
 ## -parameters
 
-### -param lpUrlComponents [in]
+### -param lpUrlComponents [block]
 
 Pointer to a 
 <a href="/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
 
-### -param dwFlags [in]
+### -param dwFlags [block]
 
-Controls the operation of this function. This parameter can be one or more of the following values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ICU_ESCAPE</dt>
-</dl>
-</td>
-<td width="60%">
+Controls the operation of this function. This parameter can be one or more of the following>
 Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
 
 The Unicode version of <b>InternetCreateUrl</b> will first try to convert using the system code page.  If that fails it falls back to UTF-8.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ICU_USERNAME</dt>
-</dl>
-</td>
-<td width="60%">
-Obsolete — ignored.
-
-</td>
-</tr>
-</table>
-
-### -param lpszUrl [out]
 
 Pointer to a buffer that receives the URL.
 
-### -param lpdwUrlLength [in, out]
+### -param lpdwUrlLength [in]
 
 Pointer to a variable that specifies the size of the 
 URL <i>lpszUrl</i> buffer, in <b>TCHARs</b>. When the function returns, this parameter receives the size of the URL string, excluding the NULL terminator. If 
@@ -126,8 +70,25 @@ When specifying scheme in the <a href="/windows/desktop/api/wininet/ns-wininet-u
 
 ## -see-also
 
+system kog input list:  
+
+
+
+
 <a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
 
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+
+
+
+String.class.getName()
+     returns "java.lang.String"
+ byte.class.getName()
+     returns "byte"
+ (new Object[3]).getClass().getName()
+     returns "[Ljava.lang.Object;"
+ (new int[3][4][5][6][7][8][9]).getClass().getName()
+     returns "[[[[[[[I"
+ adb shell dumpsys package PACKAGE_NAMEhttps://issues.chromium.org/issues/409478033
