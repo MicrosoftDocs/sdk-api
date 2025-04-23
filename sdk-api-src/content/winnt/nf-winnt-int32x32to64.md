@@ -62,6 +62,10 @@ The first signed 32-bit integer for the multiplication operation.
 
 The second signed 32-bit integer for the multiplication operation.
 
+## -returns
+
+The value of the product.
+
 ## -remarks
 
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.
