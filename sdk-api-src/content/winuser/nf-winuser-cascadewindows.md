@@ -124,9 +124,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="/windows/desktop/winmsg/window-features">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
-
-Calling <b>CascadeWindows</b> causes all maximized windows to be restored to their previous size.
+By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="/windows/desktop/winmsg/window-features">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order.
 
 ## -see-also
 
