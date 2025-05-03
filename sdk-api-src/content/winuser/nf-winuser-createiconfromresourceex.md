@@ -74,7 +74,7 @@ Type: <b>BOOL</b>
 
 Indicates whether an icon or a cursor is to be created. If this parameter is <b>TRUE</b>, an icon is to be created. If it is <b>FALSE</b>, a cursor is to be created.
 
-The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure defines cursor hotspot and is the first data read from the cursor resource bits.
+The <a href="/windows/win32/menurc/localheader">LOCALHEADER</a> structure defines cursor hotspot and is the first data read from the <b>RT_CURSOR</b> cursor resource bits.
 
 ### -param dwVer [in]
 
