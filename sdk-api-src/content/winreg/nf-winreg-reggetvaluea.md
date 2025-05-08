@@ -63,7 +63,7 @@ Retrieves the type and data for the specified registry value.
 
 ## -parameters
 
-### -param hkey [in]
+### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
 <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
@@ -87,11 +87,11 @@ This handle is returned by the
 
 ### -param lpSubKey [in, optional]
 
-The path of a registry key relative to the key specified by the *hkey* parameter. The registry value will be retrieved from this subkey.
+The path of a registry key relative to the key specified by the *hKey* parameter. The registry value will be retrieved from this subkey.
 
 The path is not case sensitive.
 
-If this parameter is **NULL** or an empty string, "", the value will be read from the key specified by *hkey* itself.
+If this parameter is **NULL** or an empty string, "", the value will be read from the key specified by *hKey* itself.
 
 ### -param lpValue [in, optional]
 
@@ -335,7 +335,7 @@ An application typically calls <a href="/windows/desktop/api/winreg/nf-winreg-re
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, and the ANSI version of this function is used (either by explicitly calling <b>RegGetValueA</b> or by not defining UNICODE before including the Windows.h file), this function converts the stored Unicode string to an ANSI string before copying it to the buffer pointed to by <i>pvData</i>.
 
-When calling this function with <i>hkey</i> set to the <b>HKEY_PERFORMANCE_DATA</b> handle and a value string of a specified object, the returned data structure sometimes has unrequested objects. Do not be surprised; this is normal behavior. You should always expect to walk the returned data structure to look for the requested object.
+When calling this function with <i>hKey</i> set to the <b>HKEY_PERFORMANCE_DATA</b> handle and a value string of a specified object, the returned data structure sometimes has unrequested objects. Do not be surprised; this is normal behavior. You should always expect to walk the returned data structure to look for the requested object.
 
 Note that operations that access certain registry keys are redirected. For more information,  see <a href="/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
