@@ -64,7 +64,7 @@ Reserved. This parameter should be 0.
 
 ### -param strSessionKey [out]
 
-A <b>null</b>-terminated string that contains the session key to the new session. The string must be allocated before calling  the <b>RmStartSession</b> function.
+A <b>null</b>-terminated string that contains the session key to the new session. The string of size `CCH_RM_SESSION_KEY + 1` must be allocated before calling the <b>RmStartSession</b> function.
 
 ## -returns
 
