@@ -73,12 +73,12 @@ typedef struct _KEYBOARD_ID {
 
 Specifies the keyboard type.
 
-| Value | Description                                          |
-|:-----:|------------------------------------------------------|
-|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
-|  0x7  | Japanese Keyboard                                    |
-|  0x8  | Korean Keyboard                                      |
-| 0x51  | Unknown type or HID keyboard                         |
+| Value | kbd.h define                | Description                                          |
+|:-----:|-----------------------------|------------------------------------------------------|
+|  0x4  | `KEYBOARD_TYPE_GENERIC_101` | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | `KEYBOARD_TYPE_JAPAN`       | Japanese Keyboard                                    |
+|  0x8  | `KEYBOARD_TYPE_KOREA`       | Korean Keyboard                                      |
+| 0x51  | `KEYBOARD_TYPE_UNKNOWN`     | Unknown type or HID keyboard                         |
 
 #### Subtype
 
