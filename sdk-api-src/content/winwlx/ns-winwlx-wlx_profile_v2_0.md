@@ -69,59 +69,44 @@ Must be set to WLX_PROFILE_TYPE_V2_0.
 
 Pointer to the profile path (for example, "%SystemRoot%\system32\config\AprilM001", or a network path such as "\\server\share\profiles\floating\AprilM.usr"). 
 
-
-
-
-The string pointed to by <b>pszProfile</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by <b>pszProfile</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL, using <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ### -field pszPolicy
 
 Pointer to the policy file that will be applied to the user logging on. 
 
-
-
-
-The string pointed to by <b>pszPolicy</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
+The string pointed to by <b>pszPolicy</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL, using <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ### -field pszNetworkDefaultUserProfile
 
 If a new profile is to be created, a pointer to the path of the default profile to use. 
 
-
-
-
-The string pointed to by <b>pszNetworkDefaultUserProfile</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by <b>pszNetworkDefaultUserProfile</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL, using <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ### -field pszServerName
 
 Pointer to the name of the server that validated the logon. This name will be used to enumerate the global groups of which the user is a member. 
 
-
-
-
-The string pointed to by <b>pszServerName</b> must be separately allocated by your GINA DLL. It will be deallocated by Winlogon.
+The string pointed to by <b>pszServerName</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL, using <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ### -field pszEnvironment
 
 Pointer to the default environment variables to include in the construction of the environment of the user. This member is a series of null-terminated strings using any of the following forms.
 
-
 ```cpp
 Variable=Value
 variable=%other variable% 
 variable=%othervariable%\additional text
-
 ```
 
-
 For example:
-
 
 ```cpp
 logonServer=\\pdc
 homepath=%logonServer%\share
-
 ```
+
+This buffer must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL, using <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ## -remarks
 
