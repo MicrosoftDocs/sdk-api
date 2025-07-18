@@ -2,7 +2,7 @@
 UID: NF:processenv.SetEnvironmentStringsA
 title: SetEnvironmentStringsA
 description: The SetEnvironmentStringsA function (processenv.h) sets the environment strings of the calling process for the current process.
-ms.date: 10/31/2024
+ms.date: 07/18/2025
 ms.keywords: SetEnvironmentStringsA
 targetos: Windows
 req.assembly: 
@@ -52,20 +52,27 @@ Sets the environment strings of the calling process (both the system and the use
 
 The environment variable string using the following format:
 
-<i>Var1</i>
-<i>Value1</i>
-<i>Var2</i>
-<i>Value2</i>
-<i>Var3</i>
-<i>Value3</i>
-<i>VarN</i>
-<i>ValueN</i>
+*Var1*=*Value1*\0<br/>
+*Var2*=*Value2*\0<br/>
+*Var3*=*Value3*\0<br/>
+...<br/>
+*VarN*=*ValueN*\0\0
 
 ## -returns
 
-Returns S_OK on success.
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 ## -see-also
 
+<a href="/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
+
+<a href="/windows/win32/api/processenv/nf-processenv-getenvironmentstrings">GetEnvironmentStrings</a>
+
+<a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
+
+<a href="/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a>
