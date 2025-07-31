@@ -277,13 +277,13 @@ int __cdecl main(int argc, char **argv)
         ifIndex = pIPAddrTable->table[0].dwIndex;
         printf("\n\tInterface Index:\t%ld\n", ifIndex);
         IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwAddr;
-        printf("\tIP Address:       \t%s (%lu%)\n", inet_ntoa(IPAddr),
+        printf("\tIP Address:       \t%s (%lu)\n", inet_ntoa(IPAddr),
                pIPAddrTable->table[0].dwAddr);
         IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwMask;
-        printf("\tSubnet Mask:      \t%s (%lu%)\n", inet_ntoa(IPAddr),
+        printf("\tSubnet Mask:      \t%s (%lu)\n", inet_ntoa(IPAddr),
                pIPAddrTable->table[0].dwMask);
         IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwBCastAddr;
-        printf("\tBroadCast Address:\t%s (%lu%)\n", inet_ntoa(IPAddr),
+        printf("\tBroadCast Address:\t%s (%lu)\n", inet_ntoa(IPAddr),
                pIPAddrTable->table[0].dwBCastAddr);
         printf("\tReassembly size:  \t%lu\n\n",
                pIPAddrTable->table[0].dwReasmSize);
