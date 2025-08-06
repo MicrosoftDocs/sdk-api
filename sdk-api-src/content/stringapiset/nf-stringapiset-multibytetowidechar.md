@@ -159,11 +159,27 @@ UTF-8.
 
 Flags indicating the conversion type. The application can specify a combination of the following values, with MB_PRECOMPOSED being the default. MB_PRECOMPOSED and MB_COMPOSITE are mutually exclusive. MB_USEGLYPHCHARS and MB_ERR_INVALID_CHARS can be set regardless of the state of the other flags.
 
-| Value | Meaning |
-|-------|---------|
-| **MB_COMPOSITE** | Always use decomposed characters, that is, characters in which a base character and one or more nonspacing characters each have distinct code point values. For example, Ä is represented by A + ¨: LATIN CAPITAL LETTER A (U+0041) + COMBINING DIAERESIS (U+0308). Note that this flag cannot be used with MB_PRECOMPOSED. |
-| **MB_ERR_INVALID_CHARS** | Fail if an invalid input character is encountered.<br/><br/>Starting with Windows Vista, the function does not drop illegal code points if the application does not set this flag, but instead replaces illegal sequences with U+FFFD (encoded as appropriate for the specified codepage).<br/><br/>**Windows 2000 with SP4 and later, Windows XP:** If this flag is not set, the function silently drops illegal code points. A call to [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) returns ERROR_NO_UNICODE_TRANSLATION. |
-
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MB_COMPOSITE"></a><a id="mb_composite"></a><dl>
+<dt><b>MB_COMPOSITE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Always use decomposed characters, that is, characters in which a base character and one or more nonspacing characters each have distinct code point values. For example, Ä is represented by A + ¨: LATIN CAPITAL LETTER A (U+0041) + COMBINING DIAERESIS (U+0308). Note that this flag cannot be used with <b>MB_PRECOMPOSED</b>.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MB_ERR_INVALID_CHARS"></a><a id="mb_err_invalid_chars"></a><dl>
+<dt><b>MB_ERR_INVALID_CHARS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Fail if an invalid input character is encountered.<br/><br/>Starting with Windows Vista, the function does not drop illegal code points if the application does not set this flag, but instead replaces illegal sequences with U+FFFD (encoded as appropriate for the specified codepage).<br/><br/><b>Windows 2000 with SP4 and later, Windows XP:</b> If this flag is not set, the function silently drops illegal code points. A call to <a href="../errhandlingapi/nf-errhandlingapi-getlasterror.md">GetLastError</a> returns ERROR_NO_UNICODE_TRANSLATION.
 </td>
 </tr>
 <tr>
@@ -172,7 +188,7 @@ Flags indicating the conversion type. The application can specify a combination 
 </dl>
 </td>
 <td width="60%">
-Default; do not use with MB_COMPOSITE. Always use precomposed characters, that is, characters having a single character value for a base or nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character. If a single Unicode code point is defined for a character, the application should use it instead of a separate base character and a nonspacing character. For example, Ä is represented by the single Unicode code point LATIN CAPITAL LETTER A WITH DIAERESIS (U+00C4).
+Default; do not use with <b>MB_COMPOSITE</b>. Always use precomposed characters, that is, characters having a single character value for a base or nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character. If a single Unicode code point is defined for a character, the application should use it instead of a separate base character and a nonspacing character. For example, Ä is represented by the single Unicode code point LATIN CAPITAL LETTER A WITH DIAERESIS (U+00C4).
 
 </td>
 </tr>
