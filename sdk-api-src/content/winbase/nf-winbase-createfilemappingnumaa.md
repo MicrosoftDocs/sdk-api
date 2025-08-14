@@ -296,6 +296,18 @@ Applications should not use this flag except when explicitly required
 
 <b>SEC_NOCACHE</b> requires either <b>SEC_RESERVE</b> or 
          <b>SEC_COMMIT</b> to be set.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SEC_NO_CHANGE"></a><a id="sec_no_change"></a><dl>
+<dt><b>SEC_NO_CHANGE</b></dt>
+<dt>0x00400000</dt>
+</dl>
+</td>
+<td width="60%">
+Marks the mapping as permanent. Memory protections can not be changed for views of the mapping and the view can not be unmapped.
+
+<b>SEC_NO_CHANGE</b> cannot be combined with <b>SEC_IMAGE</b>.
 
 </td>
 </tr>
