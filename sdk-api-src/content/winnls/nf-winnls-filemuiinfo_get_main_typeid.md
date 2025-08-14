@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILEMUIINFO_GET_MAIN_TYPEID","FILEMUIINFO_GET_MAIN_TYPEID
 old-location: intl\filemuiinfo_get_main_typeid.htm
 tech.root: Intl
 ms.assetid: 0102b364-ffc7-48a0-a7d1-5a64fba6428e
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEID, FILEMUIINFO_GET_MAIN_TYPEID macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEID, intl.filemuiinfo_get_main_typeid, winnls/FILEMUIINFO_GET_MAIN_TYPEID
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # FILEMUIINFO_GET_MAIN_TYPEID macro
+
+## -syntax
+
+```cpp
+DWORD FILEMUIINFO_GET_MAIN_TYPEID(
+    PFILEMUIINFO pInfo,
+    DWORD iType
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the main module types array element. The macro returns **NULL** if the array is not initialized or if the supplied index is out of bounds.
 
 
 ## -description

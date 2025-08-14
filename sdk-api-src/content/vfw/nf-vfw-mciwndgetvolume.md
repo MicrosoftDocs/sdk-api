@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetVolume","MCIWndGetVolume macro [Windows Multimed
 old-location: multimedia\mciwndgetvolume.htm
 tech.root: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetVolume macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetVolume(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the current volume setting. The default value is 1000. Higher values indicate louder volumes; lower values indicate quieter volumes.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSetPalette","MCIWndSetPalette macro [Windows Multim
 old-location: multimedia\mciwndsetpalette.htm
 tech.root: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSetPalette macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSetPalette(
+     hwnd,
+     hpal
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

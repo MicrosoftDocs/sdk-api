@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetCallbackOnYield","capSetCallbackOnYield","ca
 old-location: multimedia\capsetcallbackonyield.htm
 tech.root: Multimedia
 ms.assetid: efddbcbc-f1e3-451c-928e-984eea187de2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetCallbackOnYield, capSetCallbackOnYield, capSetCallbackOnYield macro [Windows Multimedia], multimedia.capsetcallbackonyield, vfw/capSetCallbackOnYield
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetCallbackOnYield macro
+
+## -syntax
+
+```cpp
+BOOL capSetCallbackOnYield(
+     hwnd,
+     fpProc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if streaming capture or a single-frame capture session is in progress.
 
 
 ## -description

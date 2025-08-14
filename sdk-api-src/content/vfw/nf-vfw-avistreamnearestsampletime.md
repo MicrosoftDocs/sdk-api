@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNearestSampleTime","AVIStreamNearestSampleTime m
 old-location: multimedia\avistreamnearestsampletime.htm
 tech.root: Multimedia
 ms.assetid: 8f9bd7b8-24b4-4bc5-98f0-0339bbaa0caf
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNearestSampleTime, AVIStreamNearestSampleTime macro [Windows Multimedia], _win32_AVIStreamNearestSampleTime, multimedia.avistreamnearestsampletime, vfw/AVIStreamNearestSampleTime
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNearestSampleTime macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNearestSampleTime(
+     pavi,
+     t
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time of the nearest sample if successful or –1 otherwise.
+
 
 ## -description
 
@@ -69,9 +84,9 @@ The <b>AVIStreamNearestSampleTime</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNearestSampleTime(pavi, lTime) \ 
+#define AVIStreamNearestSampleTime(pavi, t) \ 
     AVIStreamSampleToTime(pavi, AVIStreamNearestSample(pavi, 
-    AVIStreamTimeToSample(pavi, lTime))) 
+    AVIStreamTimeToSample(pavi, t))) 
 
 ```
 

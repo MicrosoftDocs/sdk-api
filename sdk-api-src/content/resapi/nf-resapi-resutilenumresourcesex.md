@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-resutils-l1-1-3.dll
+ - ext-ms-win-cluster-resutils-l1-1-2.dll
  - ResUtils.dll
  - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
 api_name:

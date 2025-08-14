@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetCallbackOnCapControl","capSetCallbackOnCapCo
 old-location: multimedia\capsetcallbackoncapcontrol.htm
 tech.root: Multimedia
 ms.assetid: 78bc83f6-06a0-4c41-92ce-932578bcb010
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetCallbackOnCapControl, capSetCallbackOnCapControl, capSetCallbackOnCapControl macro [Windows Multimedia], multimedia.capsetcallbackoncapcontrol, vfw/capSetCallbackOnCapControl
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetCallbackOnCapControl macro
+
+## -syntax
+
+```cpp
+BOOL capSetCallbackOnCapControl(
+     hwnd,
+     fpProc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if streaming capture or a single-frame capture session is in progress.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCRYPT_AES_WRAP_KEY_BLOB","BCRYPT_DH_PRIVATE_BLOB","BCRYP
 old-location: security\bcryptexportkey_func.htm
 tech.root: security
 ms.assetid: a5d73143-c1d6-43b3-a724-7e27c68a5ade
-ms.date: 05/14/2025
+ms.date: 06/16/2025
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, BCryptExportKey, BCryptExportKey function [Security], LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_DSA_V2_PRIVATE_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, bcrypt/BCryptExportKey, security.bcryptexportkey_func
 req.header: bcrypt.h
 req.include-header: 
@@ -81,13 +81,13 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 | **BCRYPT_ECCPRIVATE_BLOB** | Export an [elliptic curve cryptography](/windows/win32/SecGloss/e-gly) (ECC) [private key](/windows/win32/SecGloss/p-gly). The *pbOutput* buffer receives a [BCRYPT_ECCKEY_BLOB](ns-bcrypt-bcrypt_ecckey_blob.md) structure immediately followed by the key data. |
 | **BCRYPT_ECCPUBLIC_BLOB** | Export an ECC public key. The *pbOutput* buffer receives a [BCRYPT_ECCKEY_BLOB](ns-bcrypt-bcrypt_ecckey_blob.md) structure immediately followed by the key data. |
 | **BCRYPT_KEY_DATA_BLOB** | Export a symmetric key to a data BLOB. The *pbOutput* buffer receives a [BCRYPT_KEY_DATA_BLOB_HEADER](ns-bcrypt-bcrypt_key_data_blob_header.md) structure immediately followed by the key BLOB. |
-| **BCRYPT_MLKEM_PUBLIC_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM encapsulation keys per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM encapsulation key, **BCRYPT_MLKEM_PUBLIC_MAGIC**, and ML-KEM parameter set. |
-| **BCRYPT_MLKEM_PRIVATE_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM decapsulation keys per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM decapsulation key, **BCRYPT_MLKEM_PRIVATE_MAGIC**, and ML-KEM parameter set. |
-| **BCRYPT_MLKEM_PRIVATE_SEED_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of ML-KEM seeds per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the KEM seed, **BCRYPT_MLKEM_SEED_MAGIC**, and ML-KEM parameter set. |
+| **BCRYPT_MLKEM_PRIVATE_SEED_BLOB** | Export an ML-KEM private seed key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Note:** ML-KEM key handles which contain a private key which was imported using **BCRYPT_MLKEM_PRIVATE_BLOB** have insufficient information to export a private seed key.<br/><br/>**Windows Insiders (build 27843):** Support for ML-KEM begins. |
+| **BCRYPT_MLKEM_PRIVATE_BLOB** | Export an ML-KEM private (decapsulation) key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Windows Insiders (build 27843):** Support for ML-KEM begins. |
+| **BCRYPT_MLKEM_PUBLIC_BLOB** | Export an ML-KEM public (encapsulation) key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Windows Insiders (build 27843):** Support for ML-KEM begins. |
 | **BCRYPT_OPAQUE_KEY_BLOB** | Export a symmetric key in a format that is specific to a single [cryptographic service provider](/windows/win32/SecGloss/c-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB. Opaque BLOBs are only intended to be used for interprocess transfer of keys and are not suitable to be persisted and read across versions of a provider. |
-| **BCRYPT_PQDSA_PUBLIC_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature public keys per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, public magic, and PQ parameter set. |
-| **BCRYPT_PQDSA_PRIVATE_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private keys per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, private magic, and PQ parameter set. |
-| **BCRYPT_PQDSA_PRIVATE_SEED_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private seeds per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the seed value, private seed magic, and PQ parameter set. |
+| **BCRYPT_PQDSA_PRIVATE_SEED_BLOB** | Export a Post-Quantum Digital Signature algorithm (PQDSA) private seed key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Note:** PQDSA key handles which contain a private key which was imported using **BCRYPT_PQDSA_PRIVATE_BLOB** have insufficient information to export a private seed key.<br/><br/>**Windows Insiders (build 27843):** Support for ML-DSA begins. |
+| **BCRYPT_PQDSA_PRIVATE_BLOB** | Export a PQDSA private key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Windows Insiders (build 27843):** Support for ML-DSA begins. |
+| **BCRYPT_PQDSA_PUBLIC_BLOB** | Export a PQDSA public key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.<br/><br/>**Windows Insiders (build 27843):** Support for ML-DSA begins. |
 | **BCRYPT_PRIVATE_KEY_BLOB** | Export a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the **Magic** member of the [BCRYPT_KEY_BLOB](ns-bcrypt-bcrypt_key_blob.md) structure. |
 | **BCRYPT_PUBLIC_KEY_BLOB** | Export a generic public key of any type. The type of key in this BLOB is determined by the **Magic** member of the [BCRYPT_KEY_BLOB](ns-bcrypt-bcrypt_key_blob.md) structure. |
 | **BCRYPT_RSAFULLPRIVATE_BLOB** | Export a full RSA public/private key pair. The *pbOutput* buffer receives a [BCRYPT_RSAKEY_BLOB](ns-bcrypt-bcrypt_rsakey_blob.md) structure immediately followed by the key data. This BLOB will include additional key material compared to the **BCRYPT_RSAPRIVATE_BLOB** type. |
@@ -117,8 +117,6 @@ A pointer to a **ULONG** that receives the number of bytes that were copied to t
 
 A set of flags that modify the behavior of this function. No flags are defined for this function.
 
-This parameter must be zero for ML-KEM keys.
-
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
@@ -131,13 +129,11 @@ Possible return codes include, but are not limited to, the following.
 | **STATUS_BUFFER_TOO_SMALL** | The size specified by the *cbOutput* parameter is not large enough to hold the ciphertext. If buffer *pbOutput* is too small, *pcbResult* receives the number of bytes required for *pbOutput*. |
 | **STATUS_INVALID_HANDLE** | The key handle in the *hKey* parameter is not valid. |
 | **STATUS_INVALID_PARAMETER** | One or more parameters are not valid. |
-| **STATUS_NOT_SUPPORTED** | The specified BLOB type is not supported by the provider. If the key handle provided does not support the export of the private seed. See [remarks](#-remarks). |
+| **STATUS_NOT_SUPPORTED** | The specified BLOB type is not supported by the provider. If the key handle provided does not support the export of the private seed. See [remarks](#remarks). |
 
 ## -remarks
 
-Note that export of a ML-KEM private seed will only be available if the caller used BCrypt to generate the key or the handle was created by importing a private seed.
-
-Depending on what processor modes a provider supports, **BCryptExportKey** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hKey* parameter must be derived from an algorithm handle returned by a provider that was opened with the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptExportKey** function must refer to nonpaged (or locked) memory.
+When using a supported algorithm provider, **BCryptExportKey** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hKey* parameter must be derived from an algorithm handle returned by a provider that was opened with the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptExportKey** function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 

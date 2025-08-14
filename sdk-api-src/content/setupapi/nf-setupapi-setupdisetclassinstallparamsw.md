@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-setupapi-classinstallers-l1-1-2.dll
+ - ext-ms-win-setupapi-classinstallers-l1-1-1.dll
  - Setupapi.lib
  - Setupapi.dll
 api_name:

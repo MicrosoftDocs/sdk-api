@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - KernelBase.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
@@ -54,12 +59,12 @@ api_name:
 
 # SuspendThread function
 
-
 ## -description
 
 Suspends the specified thread.
 
-A 64-bit application can suspend a WOW64 thread using the <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread">Wow64SuspendThread</a> function.
+> [!NOTE]
+> A 64-bit application can suspend a WOW64 thread thread using the [Wow64SuspendThread function](../wow64apiset/nf-wow64apiset-wow64suspendthread.md).
 
 ## -parameters
 

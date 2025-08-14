@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-printer-prntvpt-l1-1-2.dll
+ - ext-ms-win-printer-prntvpt-l1-1-1.dll
  - prntvpt.dll
  - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:

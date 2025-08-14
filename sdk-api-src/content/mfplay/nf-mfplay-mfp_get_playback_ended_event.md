@@ -7,7 +7,7 @@ old-location: mf\mfp_get_playback_ended_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_PLAYBACK_ENDED_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_PLAYBACK_ENDED_EVENT MFP_GET_PLAYBACK_ENDED_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_playback_ended_event">MFP_PLAYBACK_ENDED_EVENT</a>**
+
+Returns a pointer to an **MFP_PLAYBACK_ENDED_EVENT** structure.
 
 
 ## -description

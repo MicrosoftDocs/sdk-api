@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
  - Kernel32.dll
  - API-MS-Win-Security-base-l1-2-0.dll
  - KernelBase.dll

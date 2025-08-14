@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-security-winscard-l1-1-1.dll
  - Winscard.h
 api_name:
  - SCardGetReaderDeviceInstanceId

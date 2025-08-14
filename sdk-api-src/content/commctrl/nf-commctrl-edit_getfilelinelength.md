@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLineLength","Edit_GetFileLineLength macro [Wi
 old-location: controls\edit_getfilelinelength.htm
 tech.root: Controls
 ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Edit_GetFileLineLength macro
 
+## -syntax
+
+```cpp
+UINT Edit_GetFileLineLength(
+    HWND hwndCtl,
+    UINT characterIndex
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+The logical line length, from the specified character index.
+
 
 ## -description
 
@@ -62,8 +77,7 @@ A handle to the edit control.
 
 ### -param characterIndex
 
-The character index. If characterIndex = -1, the caret location index is used, not including the
-        length of any selected text.
+The character index. If characterIndex = -1, the caret location index is used, not including the length of any selected text.
 
 ## -remarks
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSetVolume","MCIWndSetVolume macro [Windows Multimed
 old-location: multimedia\mciwndsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 4e5da2cd-b83d-4ac3-80e1-d8ac4c6e1c42
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSetVolume, MCIWndSetVolume macro [Windows Multimedia], _win32_MCIWndSetVolume, multimedia.mciwndsetvolume, vfw/MCIWndSetVolume
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSetVolume macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSetVolume(
+     hwnd,
+     iVol
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

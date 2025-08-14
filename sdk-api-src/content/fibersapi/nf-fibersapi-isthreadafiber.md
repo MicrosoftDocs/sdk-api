@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-fibers-l1-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-fibers-l1-1-1.dll
  - KernelBase.dll

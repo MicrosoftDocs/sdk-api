@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-base-psapi-l1-1-0.dll
  - Kernel32.dll
  - Psapi.dll
  - Psapi.dll

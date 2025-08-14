@@ -6,7 +6,7 @@ helpviewer_keywords: ["DWRITE_MAKE_OPENTYPE_TAG","DWRITE_MAKE_OPENTYPE_TAG macro
 old-location: directwrite\dwrite_make_opentype_tag.htm
 tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
 req.header: dwrite.h
 req.include-header: 
@@ -45,6 +45,23 @@ api_name:
 ---
 
 # DWRITE_MAKE_OPENTYPE_TAG macro
+
+## -syntax
+
+```cpp
+DWORD DWRITE_MAKE_OPENTYPE_TAG(
+    char a,
+    char b,
+    char c,
+    char d
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+An OpenType tag as a 32-bit integer.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Int64ShrlMod32","Int64ShrlMod32 macro [Windows API]","_wi
 old-location: winprog\int64shrlmod32.htm
 tech.root: WinProg
 ms.assetid: 95ce281a-92b1-4c9b-a345-6b50f0285d65
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Int64ShrlMod32, Int64ShrlMod32 macro [Windows API], _win32_int64shrlmod32, winnt/Int64ShrlMod32, winprog.int64shrlmod32
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Int64ShrlMod32 macro
+
+## -syntax
+
+```cpp
+ULONGLONG Int64ShrlMod32(
+  [in]  ULONGLONG a,
+  [in]  DWORD b
+);
+```
+
+## -returns
+
+Type: **ULONGLONG**
+
+The return value is the unsigned 64-bit integer result of the right logical shift operation.
 
 
 ## -description

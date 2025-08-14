@@ -6,7 +6,7 @@ helpviewer_keywords: ["WsCountOf","WsCountOf macro [Web Services for Windows]","
 old-location: wsw\wscountof.htm
 tech.root: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
 req.header: webservices.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # WsCountOf macro
+
+## -syntax
+
+```cpp
+ULONG WsCountOf(
+  [in]   arrayValue
+);
+```
+
+## -returns
+
+Type: **ULONG**
+
+The number of elements in the array.
 
 
 ## -description

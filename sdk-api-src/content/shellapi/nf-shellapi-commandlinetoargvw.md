@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-commandlinetoargv-l1-1-0.dll
  - Shell32.dll
  - API-MS-Win-DownLevel-shell32-l1-1-0.dll
  - ShCore.dll

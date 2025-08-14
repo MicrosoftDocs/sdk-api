@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-memory-l1-1-9.dll
+ - api-ms-win-core-memory-l1-1-8.dll
  - kernelbase.dll
 api_name:
  - AllocateUserPhysicalPages2

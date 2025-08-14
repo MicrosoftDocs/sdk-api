@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-systemtopology-l1-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-systemtopology-l1-1-0.dll
  - KernelBase.dll

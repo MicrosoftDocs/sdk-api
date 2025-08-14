@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-net-nfdapi-l1-1-1.dll
+ - ext-ms-win-net-nfdapi-l1-1-0.dll
  - Ndfapi.dll
 api_name:
  - NdfExecuteDiagnosis

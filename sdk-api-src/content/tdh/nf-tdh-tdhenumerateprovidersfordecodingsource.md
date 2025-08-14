@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-eventing-tdh-l1-1-2.dll
  - tdh.h
 api_name:
  - TdhEnumerateProvidersForDecodingSource

@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLineIndex","Edit_GetFileLineIndex macro [Wind
 old-location: controls\edit_getfilelineindex.htm
 tech.root: Controls
 ms.assetid: FC119B71-BC5C-437E-9DBE-DD907F459D45
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLineIndex, Edit_GetFileLineIndex macro [Windows Controls], commctrl/Edit_GetFileLineIndex, controls.edit_getfilelineindex
 req.header: commctrl.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # Edit_GetFileLineIndex macro
 
+## -syntax
+
+```cpp
+UINT Edit_GetFileLineIndex(
+    HWND hwndCtl,
+    UINT lineNumber
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+The logical line index.
+
 
 ## -description
 
@@ -62,8 +77,7 @@ A handle to the edit control.
 
 ### -param lineNumber
 
-The file line number, where the number of the
-        first line is 0. If lineNumber = -1, the file line with the caret is used.
+The file line number, where the number of the first line is 0. If lineNumber = -1, the file line with the caret is used.
 
 ## -remarks
 

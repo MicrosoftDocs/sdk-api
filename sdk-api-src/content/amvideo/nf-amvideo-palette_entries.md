@@ -6,7 +6,7 @@ helpviewer_keywords: ["PALETTE_ENTRIES","PALETTE_ENTRIES macro [DirectShow]","am
 old-location: dshow\palette_entries.htm
 tech.root: dshow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PALETTE_ENTRIES macro
+
+## -syntax
+
+```cpp
+DWORD PALETTE_ENTRIES(
+    VIDEOINFOHEADER *pbmi
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns 2 raised to the power of the color depth; that is, 1 << **bmiHeader.biBitCount**.
 
 
 ## -description

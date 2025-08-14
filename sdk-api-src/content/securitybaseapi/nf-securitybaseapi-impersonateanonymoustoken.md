@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
+ - api-ms-win-downlevel-advapi32-l1-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
  - KernelBase.dll

@@ -1,12 +1,12 @@
 ---
 UID: NF:ncrypt.NCryptImportKey
 title: NCryptImportKey function (ncrypt.h)
-description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.
+description: Imports a Cryptography API - Next Generation (CNG) key from a memory BLOB.
 helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptImportKey","NCryptImportKey function [Security]","ncrypt/NCryptImportKey","security.ncryptimportkey_func"]
 old-location: security\ncryptimportkey_func.htm
 tech.root: security
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
-ms.date: 05/15/2025
+ms.date: 06/25/2025
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptImportKey, NCryptImportKey function [Security], ncrypt/NCryptImportKey, security.ncryptimportkey_func
 req.header: ncrypt.h
 req.include-header: 
@@ -83,11 +83,11 @@ The size, in bytes, of the _pbData_ buffer.
 
 ### -param dwFlags [in]
 
-Flags that modify function behavior. This can be zero or a combination of one or more of the following values.  The set of valid flags is specific to each key storage provider.
+Flags that modify function behavior. This can be zero or a combination of one or more of the following values. The set of valid flags is specific to each key storage provider.
 
 | Value | Meaning |
 |--------|--------|
-| **NCRYPT_SILENT_FLAG** | Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
+| **NCRYPT_SILENT_FLAG** | Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
 | **NCRYPT_REQUIRE_VBS_FLAG** | Indicates a key must be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles.<br/><br/>Operation will fail if VBS is not available. (**\*See Remarks**) |
 | **NCRYPT_PREFER_VBS_FLAG** | Indicates a key should be protected with Virtualization-based security (VBS). By default, this creates a cross-boot persisted key stored on disk that persists across reboot cycles.<br/><br/>Operation will generate a software-isolated key if VBS is not available. (**\*See Remarks**) |
 | **NCRYPT_USE_PER_BOOT_KEY_FLAG** | An additional flag that can be used along with **NCRYPT_REQUIRE_VBS_FLAG** or **NCRYPT_PREFER_VBS_FLAG**. Instructs Virtualization-based security (VBS) to protect the client key with a per-boot key that is stored in disk but can't be reused across boot cycles. (**\*See Remarks**) |
@@ -123,22 +123,11 @@ The following sections describe behaviors specific to the Microsoft key storage 
 
 #### Microsoft Software KSP
 
-The following constants are supported by the Microsoft software KSP for the _pszBlobType_ parameter.
+Refer to [NCryptImportKey](nf-ncrypt-ncryptimportkey.md) for details of most *pszBlobType* parameters supported by the Microsoft software KSP.
 
 If a key name is not supplied, the Microsoft Software KSP treats the key as ephemeral and does not store it persistently. For the **NCRYPT_OPAQUETRANSPORT_BLOB** type, the key name is stored within the BLOB when it is exported. For other BLOB formats, the name can be supplied in an **NCRYPTBUFFER_PKCS_KEY_NAME** buffer parameter within the _pParameterList_ parameter.
 
 On Windows Server 2008 and Windows Vista, only keys imported as PKCS #7 envelope BLOBs (**NCRYPT_PKCS7_ENVELOPE_BLOB**) or PKCS #8 private key BLOBs (**NCRYPT_PKCS8_PRIVATE_KEY_BLOB**) can be persisted by using the above method. To persist keys imported through other BLOB types on these platforms, use the method documented in [Key Import and Export](/windows/win32/SecCNG/key-import-and-export).
-
-The following BLOB types are supported for ML-KEM and ML-DSA keys:
-
-| BLOB Type | Description |
-|--------|--------|
-| **BCRYPT_MLKEM_PUBLIC_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM encapsulation keys per FIPS 203. The *pbInput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM encapsulation key, **BCRYPT_MLKEM_PUBLIC_MAGIC**, and ML-KEM parameter set. |
-| **BCRYPT_MLKEM_PRIVATE_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM decapsulation keys per FIPS 203. The *pbInput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM decapsulation key, **BCRYPT_MLKEM_PRIVATE_MAGIC**, and ML-KEM parameter set. |
-| **BCRYPT_MLKEM_PRIVATE_SEED_BLOB** | The BLOB is a ML-KEM BLOB that provides import and export of ML-KEM seeds per FIPS 203. The *pbInput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the KEM seed, **BCRYPT_MLKEM_SEED_MAGIC**, and ML-KEM parameter set. |
-| **BCRYPT_PQDSA_PUBLIC_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature public keys per FIPS 204 and 205. The *pbInput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, public magic, and PQ parameter set. |
-| **BCRYPT_PQDSA_PRIVATE_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private keys per FIPS 204 and 205. The *pbInput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, private magic, and PQ parameter set. |
-| **BCRYPT_PQDSA_PRIVATE_SEED_BLOB** | The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private seeds per FIPS 204 and 205. The *pbInput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the seed value, private seed magic, and PQ parameter set. |
 
 The following flags are supported by this KSP.
 
@@ -183,6 +172,6 @@ For more information about hardware requirements:
 
 ## -see-also
 
-[NCryptBuffer](/windows/desktop/api/bcrypt/ns-bcrypt-bcryptbuffer)
+[NCryptBuffer](../bcrypt/ns-bcrypt-bcryptbuffer.md)
 
 [NCryptCreatePersistedKey](nf-ncrypt-ncryptcreatepersistedkey.md)

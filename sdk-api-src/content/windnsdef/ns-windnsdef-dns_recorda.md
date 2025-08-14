@@ -28,7 +28,6 @@ req.irql:
 targetos: Windows
 req.typenames: DNS_RECORDA, *PDNS_RECORDA
 req.redist: 
-
 f1_keywords:
  - _DnsRecordA
  - windnsdef/_DnsRecordA
@@ -76,10 +75,6 @@ A value that represents the RR <a href="/windows/win32/DNS/dns-constants">DNS Re
 
 The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is the size of the corresponding data type, such as <b>sizeof(DNS_A_DATA)</b>. For the non-fixed data types, use one of the following macros to determine the length of the data: 
 
-
-
-					
-
 <div class="code"><span><table>
 <tr>
 <th>C++</th>
@@ -120,127 +115,85 @@ Reserved. Do not use.
 
 The DNS RR data type is determined by <b>wType</b> and is one of the following members:
 
-
-
 #### SOA, Soa
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_soa_dataw">DNS_SOA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SOA</b>.
-
-
 
 #### PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
 
 The RR data type is <a href="/windows/win32/api/windnsdef/nf-windns-dnsquery_w">DNS_PTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_PTR</b>.
 
-
-
 #### MINFO, Minfo, RP, Rp
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_minfo_dataw">DNS_MINFO_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MINFO</b>.
-
-
 
 #### MX, Mx, AFSDB, Afsdb, RT, Rt
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_mx_dataa">DNS_MX_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MX</b>.
 
-
-
 #### HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_txt_dataw">DNS_TXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TEXT</b>.
-
-
 
 #### WKS, Wks
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_wks_data">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
 
-
-
 #### KEY, Key
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_key_data">DNS_KEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_KEY</b>.
-
-
 
 #### SIG, Sig
 
 The RR data type is <a href="/previous-versions/windows/desktop/legacy/ms682094(v=vs.85)">DNS_SIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SIG</b>.
 
-
-
 #### ATMA, Atma
 
 The RR data type is [DNS_ATMA_DATA](./ns-windnsdef-dns_atma_data.md). The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
-
-
 
 #### NXT, Nxt
 
 The RR data type is [DNS_NXT_DATA](./ns-windnsdef-dns_nxt_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
-
-
 #### SRV, Srv
 
 The RR data type is [DNS_SRV_DATA](./ns-windnsdef-dns_srv_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
-
-
 
 #### NAPTR, Naptr
 
 The RR data type is [DNS_NAPTR_DATA](./ns-windnsdef-dns_naptr_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
-
-
 #### OPT, Opt
 
 Windows 7 or later: The RR data type is [DNS_OPT_DATA](./ns-windnsdef-dns_opt_data.md). The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
-
-
 
 #### DS, Ds
 
 Windows 7 or later: The RR data type is [DNS_DS_DATA](./ns-windnsdef-dns_ds_data.md). The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
-
-
 #### RRSIG, Rrsig
 
 Windows 7 or later: The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_sig_dataw">DNS_RRSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_RRSIG</b>.
-
-
 
 #### NSEC, Nsec
 
 Windows 7 or later: The RR data type is [DNS_NSEC_DATA](./ns-windnsdef-dns_nsec_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
-
-
 #### DNSKEY, Dnskey
 
 Windows 7 or later: The RR data type is <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DNSKEY</b>.
-
-
 
 #### TKEY, Tkey
 
 The RR data type is [DNS_TKEY_DATA](./ns-windnsdef-dns_tkey_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
-
-
 #### TSIG, Tsig
 
 The RR data type is [DNS_TSIG_DATA](./ns-windnsdef-dns_tsig_dataa.md). The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
-
-
 #### WINS, Wins
 
 The RR data type is <a href="/windows/win32/api/windnsdef/ns-windnsdef-dns_wins_data">DNS_WINS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINS</b>.
-
-
 
 #### WINSR, WinsR, NBSTAT, Nbstat
 
@@ -416,6 +369,18 @@ Windows 7 or later: The RR data type is <a href="/windows/win32/api/windnsdef/n
 
 ### -field Data.Tlsa
 
+### -field Data.SVCB
+
+Type: **[DNS_SVCB_DATA](/windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data)**
+
+TBD
+
+### -field Data.Svcb
+
+Type: **[DNS_SVCB_DATA](/windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data)**
+
+TBD
+
 ### -field Data.UNKNOWN
 
 ### -field Data.Unknown
@@ -427,10 +392,6 @@ Windows 7 or later: The RR data type is <a href="/windows/win32/api/windnsdef/n
 When building a 
 <b>DNS_RECORD</b> list as an input argument for the various DNS update routines found in the DNS API, all flags in the 
 <b>DNS_RECORD</b> structure should be set to zero.
-
-
-
-
 
 > [!NOTE]
 > The windns.h header defines DNS_RECORD as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

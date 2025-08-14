@@ -29,15 +29,20 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-wow64-l1-1-3.dll
  - Kernel32.dll
 api_name:
  - Wow64SuspendThread
 f1_keywords:
  - Wow64SuspendThread
  - wow64apiset/Wow64SuspendThread
+helpviewer_keywords:
+ - Wow64SuspendThread
 dev_langs:
  - c++
 ---
+
+# Wow64SuspendThread function
 
 ## -description
 

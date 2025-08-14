@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetDest","MCIWndGetDest macro [Windows Multimedia]"
 old-location: multimedia\mciwndgetdest.htm
 tech.root: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndGetDest macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetDest(
+     hwnd,
+     prc
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

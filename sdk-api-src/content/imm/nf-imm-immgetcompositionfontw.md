@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-imm-l1-1-2.dll
+ - ext-ms-win-imm-l1-1-1.dll
+ - ext-ms-win-imm-l1-1-0.dll
  - Imm32.dll
 api_name:
  - ImmGetCompositionFont

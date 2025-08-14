@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-core-ansi-l1-1-1.dll
+ - api-ms-win-service-core-ansi-l1-1-0.dll
  - Advapi32.dll
 api_name:
  - EnumServicesStatus

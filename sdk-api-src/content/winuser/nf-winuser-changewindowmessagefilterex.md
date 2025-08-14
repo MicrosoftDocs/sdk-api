@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-iam-l1-1-2.dll
+ - ext-ms-win-ntuser-gui-l1-3-1.dll
  - User32.dll
  - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
  - ext-ms-win-ntuser-gui-l1-1-0.dll

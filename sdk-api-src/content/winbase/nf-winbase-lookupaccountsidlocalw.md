@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-lsalookup-l1-1-2.dll
+ - api-ms-win-security-lsalookup-l1-1-1.dll
  - sechost.dll
  - api-ms-win-security-lsalookup-l1-1-0.dll
 api_name:

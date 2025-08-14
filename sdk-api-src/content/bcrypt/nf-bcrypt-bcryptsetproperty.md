@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>BCryptSetProperty</b> function sets the value of a named property for a CNG object.
+The **BCryptSetProperty** function sets the value of a named property for a CNG object.
 
 ## -parameters
 
@@ -61,15 +61,15 @@ A handle that represents the CNG object to set the property value for.
 
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a> or a custom property identifier.
+A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined [Cryptography Primitive Property Identifiers](/windows/win32/SecCNG/cng-property-identifiers) or a custom property identifier.
 
 ### -param pbInput [in]
 
-The address of a buffer that contains the new property value. The <i>cbInput</i> parameter contains the size of this buffer.
+The address of a buffer that contains the new property value. The *cbInput* parameter contains the size of this buffer.
 
 ### -param cbInput [in]
 
-The size, in bytes, of the <i>pbInput</i> buffer.
+The size, in bytes, of the *pbInput* buffer.
 
 ### -param dwFlags [in]
 
@@ -79,66 +79,26 @@ A set of flags that modify the behavior of this function. No flags are defined f
 
 Returns a status code that indicates the success or failure of the function.
 
-
-Possible return codes include, but are not limited to, the following.
-
+Possible return codes include, but are not limited to, the following:
 
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle in the <i>hObject</i> parameter is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The named property specified by the <i>pszProperty</i> parameter is not supported or is read-only.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|--|--|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_HANDLE** | The handle in the *hObject* parameter is not valid. |
+| **STATUS_INVALID_PARAMETER** | One or more parameters are not valid. |
+| **STATUS_NOT_SUPPORTED** | The named property specified by the *pszProperty* parameter is not supported or is read-only. |
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptSetProperty</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, any pointers passed to <b>BCryptSetProperty</b> must refer to nonpaged (or locked) memory. If the object specified in the <i>hObject</i> parameter is a handle, it must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
+When using a supported algorithm provider, **BCryptSetProperty** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, any pointers passed to **BCryptSetProperty** must refer to nonpaged (or locked) memory. If the object specified in the *hObject* parameter is a handle, it must have been opened by using the **BCRYPT_PROV_DISPATCH** flag.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 
-When setting the value for the property <i>BCRYPT_CHAINING_MODE</i>, the <i>pbInput</i> parameter is unbounded by <i>cbInput</i>. The caller needs to ensure a valid null-terminated Unicode string is provided.
+When [generating keys](nf-bcrypt-bcryptgeneratekeypair.md) for ML-DSA and ML-KEM, the **BCRYPT_PARAMETER_SET_NAME** property must be set on the key handle, before the key can be [finalized](nf-bcrypt-bcryptfinalizekeypair.md).
+
+When setting the value for the property *BCRYPT_CHAINING_MODE*, the *pbInput* parameter is unbounded by *cbInput*. The caller needs to ensure a valid null-terminated Unicode string is provided.
+
+## -see-also
+
+[Cryptography Primitive Property Identifiers](/windows/win32/SecCNG/cng-property-identifiers)

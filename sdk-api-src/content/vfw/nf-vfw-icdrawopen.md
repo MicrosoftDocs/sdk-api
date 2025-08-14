@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawOpen","ICDrawOpen macro [Windows Multimedia]","_win
 old-location: multimedia\icdrawopen.htm
 tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICDrawOpen macro
+
+## -syntax
+
+```cpp
+HIC ICDrawOpen(
+    DWORD fccType,
+    DWORD fccHandler,
+    LPBITMAPINFOHEADER lpbiIn
+);
+```
+
+## -returns
+
+Type: **HIC**
+
+Returns a handle of a driver if successful or zero otherwise.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["HEADER","HEADER macro [DirectShow]","amvideo/HEADER","dsh
 old-location: dshow\header.htm
 tech.root: dshow
 ms.assetid: 5263f924-6f82-4d64-8dc7-0b5e7efa4150
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # HEADER macro
+
+## -syntax
+
+```cpp
+BITMAPINFOHEADER HEADER(
+    VIDEOINFOHEADER *pVideoInfo
+);
+```
+
+## -returns
+
+Type: **BITMAPINFOHEADER**
+
+Returns the address of the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure's **bmiHeader** member.
 
 
 ## -description

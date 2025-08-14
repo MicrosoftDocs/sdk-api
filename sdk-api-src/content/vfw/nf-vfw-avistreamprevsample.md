@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamPrevSample","AVIStreamPrevSample macro [Windows 
 old-location: multimedia\avistreamprevsample.htm
 tech.root: Multimedia
 ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamPrevSample macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamPrevSample(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the sample position if successful or –1 otherwise.
+
 
 ## -description
 
@@ -64,15 +79,15 @@ Starting position to search in the stream.
 
 ## -remarks
 
-The sample position returned does not include the sample specified by <i>lPos</i>.
+The sample position returned does not include the sample specified by <i>l</i>.
 
 The <b>AVIStreamPrevSample</b> macro is defined as follows:
 
 
 ```cpp
 
-#define AVIStreamPrevSample(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos - 1, FIND_PREV | FIND_ANY) 
+#define AVIStreamPrevSample(pavi, l) \ 
+    AVIStreamFindSample(pavi, l - 1, FIND_PREV | FIND_ANY) 
 
 ```
 

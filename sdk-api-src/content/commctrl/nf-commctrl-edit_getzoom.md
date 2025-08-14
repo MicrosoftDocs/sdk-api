@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetZoom","Edit_GetZoom macro [Windows Controls]","co
 old-location: controls\edit_getzoom.htm
 tech.root: Controls
 ms.assetid: 74125732-4797-4DA0-A465-650B286A724C
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetZoom, Edit_GetZoom macro [Windows Controls], commctrl/Edit_GetZoom, controls.edit_getzoom
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Edit_GetZoom macro
+
+## -syntax
+
+```cpp
+void Edit_GetZoom(
+         HWND hwndCtl,
+  [out]  LONG numerator,
+  [out]  LONG denominator
+);
+```
 
 
 ## -description

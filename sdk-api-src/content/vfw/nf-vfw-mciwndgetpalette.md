@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetPalette","MCIWndGetPalette macro [Windows Multim
 old-location: multimedia\mciwndgetpalette.htm
 tech.root: Multimedia
 ms.assetid: cb42fdcc-35c0-4099-97bf-a3c8c1e53047
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetPalette, MCIWndGetPalette macro [Windows Multimedia], _win32_MCIWndGetPalette, multimedia.mciwndgetpalette, vfw/MCIWndGetPalette
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetPalette macro
+
+## -syntax
+
+```cpp
+HPALETTE MCIWndGetPalette(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **HPALETTE**
+
+Returns the handle of the palette if successful.
 
 
 ## -description

@@ -109,7 +109,7 @@ The <b>cbStructure</b> member of the
 
 
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a>
 
 
 

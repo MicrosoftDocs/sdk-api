@@ -7,7 +7,7 @@ old-location: mf\mfp_get_acquire_user_credential_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: 4079acb8-8ae2-46e3-b7d9-50a700696fd6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro [Media Foundation], mf.mfp_get_acquire_user_credential_event, mfplay/MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_ACQUIRE_USER_CREDENTIAL_EVENT MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: <a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event">**MFP_ACQUIRE_USER_CREDENTIAL_EVENT**</a>
+
+Returns a pointer to an **MFP_ACQUIRE_USER_CREDENTIAL_EVENT** structure.
 
 
 ## -description

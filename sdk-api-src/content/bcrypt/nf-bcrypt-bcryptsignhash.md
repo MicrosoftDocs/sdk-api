@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptSignHash","BCry
 old-location: security\bcryptsignhash_func.htm
 tech.root: security
 ms.assetid: f402ea9e-89ae-4ccc-9591-aa2328287c0e
-ms.date: 05/14/2025
+ms.date: 06/16/2025
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func
 req.header: bcrypt.h
 req.include-header: 
@@ -48,32 +48,35 @@ api_name:
 
 # BCryptSignHash function
 
-
 ## -description
 
-The **BCryptSignHash** function creates a signature of a hash value.
+The **BCryptSignHash** function creates a signature over data to be signed.
 
 ## -parameters
 
 ### -param hKey [in]
 
-The handle of the key to use to sign the hash.
+The handle of the private key to use to generate the signature.
 
 ### -param pPaddingInfo [in, optional]
 
-A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the *dwFlags* parameter. This parameter is only used with asymmetric keys and must be `NULL` otherwise.
+A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the *dwFlags* parameter. When *dwFlags* is `0`, this parameter must be `NULL`.
 
-*pPaddingInfo* must be `NULL` for LMS and XMSS since no additional information is required to generate a signature other than the key and the input.
+### -param pbInput [in, optional]
 
-### -param pbInput [in]
+A pointer to a buffer that contains the input to be signed. The *cbInput* parameter contains the size of this buffer.
 
-A pointer to a buffer that contains the hash value to sign. The *cbInput* parameter contains the size of this buffer.
+For many signature algorithms (DSA, RSA, ECDSA, HashML-DSA, etc.), the signature routine is defined to take the result of a hash function as input. In these algorithms, the original message to be signed must first be hashed, and the resultant hash value (pre-hash) is passed in the *pbInput* buffer.
+
+However, some signature algorithms (pure ML-DSA, pure SLH-DSA, etc.) allow direct signing of arbitrary sized data. For these algorithms the *pbInput* buffer contains the input to be signed. Signer and verifier must agree on how to construct this input, but there is no requirement for a pre-hash to be involved. Signing a very large buffer directly may harm interoperability.
+
+In either case, the *pbInput* buffer represents the input to be signed.
 
 ### -param cbInput [in]
 
-The number of bytes in the *pbInput* buffer to sign.
+The size, in bytes, of the *pbInput* buffer.
 
-### -param pbOutput [out]
+### -param pbOutput [out, optional]
 
 The address of a buffer to receive the signature produced by this function. The *cbOutput* parameter contains the size of this buffer.
 
@@ -93,15 +96,13 @@ If *pbOutput* is `NULL`, this receives the size, in bytes, required for the sign
 
 A set of flags that modify the behavior of this function. The allowed set of flags depends on the type of key specified by the *hKey* parameter.
 
-*dwFlags* must be zero for LMS and XMSS since no additional information is required to generate a signature other than the key and the input.
-
-This can be one of the following values:
+This can be zero or one of the following values:
 
 | Value | Meaning |
 |-------|---------|
-| **BCRYPT_PAD_PKCS1** | Use the PKCS1 padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PKCS1_PADDING_INFO](ns-bcrypt-bcrypt_pkcs1_padding_info.md) structure. |
-| **BCRYPT_PAD_PQDSA** | Use the PQ padding scheme for ML-DSA or SLH-DSA. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PQDSA_PADDING_INFO](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_padding_info) structure.<br/><br/>**Note:** This must be set if using a pre-hash ML-DSA variant. |
-| **BCRYPT_PAD_PSS** | Use the Probabilistic Signature Scheme (PSS) padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PSS_PADDING_INFO](ns-bcrypt-bcrypt_pss_padding_info.md) structure. |
+| **BCRYPT_PAD_PKCS1** | Use the RSA PKCS1 signature padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PKCS1_PADDING_INFO](ns-bcrypt-bcrypt_pkcs1_padding_info.md) structure. |
+| **BCRYPT_PAD_PSS** | Use the RSA Probabilistic Signature Scheme (PSS) padding scheme. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PSS_PADDING_INFO](ns-bcrypt-bcrypt_pss_padding_info.md) structure. |
+| **BCRYPT_PAD_PQDSA** | Supply extra information about how to compute the Post-Quantum Digital Signature algorithms (PQDSA) signature. The *pPaddingInfo* parameter is a pointer to a [BCRYPT_PQDSA_PADDING_INFO](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_padding_info) structure.<br/><br/>**Note:** This must be set if using a pre-hash PQDSA variant.<br/><br/>**Windows Insiders (build 27843):** Support for PQDSA begins. |
 
 ## -returns
 
@@ -112,18 +113,19 @@ Possible return codes include, but are not limited to, the following:
 | Return code | Description |
 |-------------|-------------|
 | **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_PARAMETER** | One of the supplied parameters is invalid. |
 | **STATUS_INVALID_HANDLE** | The key handle specified by the *hKey* parameter is not valid. |
-| **STATUS_NOT_SUPPORTED** | The algorithm provider used to create the key handle specified by the *hKey* parameter is not a signing algorithm. |
 | **STATUS_NO_MEMORY** | A memory allocation failure occurred. |
+| **STATUS_NOT_SUPPORTED** | The algorithm provider used to create the key handle specified by the *hKey* parameter is not a signing algorithm. |
 | **STATUS_BUFFER_TOO_SMALL** | The memory size specified by the *cbOutput* parameter is not large enough to hold the signature. |
 
 ## -remarks
 
-This function will encrypt the hash value with the specified key to create the signature.
+This function performs the Signing operation of a digital signature scheme. It takes data to be signed and a private key, with additional parameters optionally specified by *dwFlags* and *pPaddingInfo*, and produces a signature which can later be verified with the corresponding public key.
 
-To later verify that the signature is valid, call the [BCryptVerifySignature](nf-bcrypt-bcryptverifysignature.md) function with an identical key and an identical hash of the original data.
+To later verify that the signature is valid, call the [BCryptVerifySignature](nf-bcrypt-bcryptverifysignature.md) function with a key containing the public key corresponding to the provided private key and identical data to be verified.
 
-Depending on what processor modes a provider supports, **BCryptSignHash** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hKey* parameter must be derived from an algorithm handle returned by a provider that was opened with the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptSignHash** function must refer to nonpaged (or locked) memory.
+When using a supported algorithm provider, **BCryptSignHash** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hKey* parameter must be derived from an algorithm handle returned by a provider that was opened with the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptSignHash** function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 

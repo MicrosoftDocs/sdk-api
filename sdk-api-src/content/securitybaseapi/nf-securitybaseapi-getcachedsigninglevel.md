@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
+ - api-ms-win-security-base-l1-2-1.dll
+ - api-ms-win-security-base-l1-2-0.dll
  - securitybaseapi.h
 api_name:
  - GetCachedSigningLevel

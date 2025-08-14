@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_INTRESOURCE","IS_INTRESOURCE macro [Menus and Other Re
 old-location: menurc\is_intresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,6 +47,20 @@ api_name:
 
 # IS_INTRESOURCE macro
 
+## -syntax
+
+```cpp
+BOOL IS_INTRESOURCE(
+    void *_r
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If the value is a resource identifier, the return value is **TRUE**. Otherwise, the return value is **FALSE**.
+
 
 ## -description
 
@@ -60,7 +74,7 @@ The pointer to be tested whether it contains an integer resource identifier.
 
 ## -remarks
 
-This macro checks whether all bits except the least 16 bits are zero. When true, <i>p</i> is an integer identifier for a resource. Otherwise it is typically a pointer to a string.
+This macro checks whether all bits except the least 16 bits are zero. When true, <i>_r</i> is an integer identifier for a resource. Otherwise it is typically a pointer to a string.
 
 ## -see-also
 

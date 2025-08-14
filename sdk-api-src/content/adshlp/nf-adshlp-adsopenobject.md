@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-adsi-activeds-l1-1-0.dll
  - Activeds.dll
 api_name:
  - ADsOpenObject

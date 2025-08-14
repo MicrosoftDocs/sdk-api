@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-marshal-l1-1-0.dll
  - ole32.dll
 api_name:
  - HBITMAP_UserMarshal64

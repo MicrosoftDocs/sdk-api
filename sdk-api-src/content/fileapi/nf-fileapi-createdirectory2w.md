@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
  - fileapi.h
 api_name:
  - CreateDirectory2W

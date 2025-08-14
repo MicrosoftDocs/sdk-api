@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICGetDefaultKeyFrameRate","ICGetDefaultKeyFrameRate macro
 old-location: multimedia\icgetdefaultkeyframerate.htm
 tech.root: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICGetDefaultKeyFrameRate macro
+
+## -syntax
+
+```cpp
+DWORD ICGetDefaultKeyFrameRate(
+     hic,
+     wParam
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this message or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

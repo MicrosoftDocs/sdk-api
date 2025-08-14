@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetCaretIndex","Edit_SetCaretIndex macro [Windows Co
 old-location: controls\edit_setcaretindex.htm
 tech.root: Controls
 ms.assetid: 62D60717-4FE6-4738-8504-791CDE7C15E3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_SetCaretIndex, Edit_SetCaretIndex macro [Windows Controls], commctrl/Edit_SetCaretIndex, controls.edit_setcaretindex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # Edit_SetCaretIndex macro
+
+## -syntax
+
+```cpp
+void Edit_SetCaretIndex(
+    HWND hwndCtl,
+    int newCaretPosition
+);
+```
 
 
 ## -description

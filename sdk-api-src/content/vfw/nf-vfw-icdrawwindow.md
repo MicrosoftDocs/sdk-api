@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawWindow","ICDrawWindow macro [Windows Multimedia]","
 old-location: multimedia\icdrawwindow.htm
 tech.root: Multimedia
 ms.assetid: 35f799f6-99ce-41a4-9165-3bb614ea01d5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawWindow, ICDrawWindow macro [Windows Multimedia], _win32_ICDrawWindow, multimedia.icdrawwindow, vfw/ICDrawWindow
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICDrawWindow macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawWindow(
+     hic,
+     prc
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

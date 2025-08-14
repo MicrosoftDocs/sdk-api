@@ -6,7 +6,7 @@ helpviewer_keywords: ["HTTPAPI_GREATER_VERSION","HTTPAPI_GREATER_VERSION macro [
 old-location: http\httpapi_greater_version.htm
 tech.root: http
 ms.assetid: e70500dd-e750-437c-8652-280f9cc9de1d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: HTTPAPI_GREATER_VERSION, HTTPAPI_GREATER_VERSION macro [HTTP], http.httpapi_greater_version, http/HTTPAPI_GREATER_VERSION
 req.header: http.h
 req.include-header: 
@@ -47,18 +47,32 @@ api_name:
 
 # HTTPAPI_GREATER_VERSION macro
 
+## -syntax
+
+```cpp
+int HTTP_GREATER_VERSION(
+    HTTPAPI_VERSION version,
+    USHORT major,
+    USHORT minor
+);
+```
+
+## -returns
+
+Type: **int**
+
+Returns an integer that is either zero (false) or non-zero (true), that indicates whether or not the value of the _version_ parameter is greater than the version combination passed in the _major_ and _minor_ parameters.
+
 
 ## -description
 
-The <b>HTTPAPI_GREATER_VERSION</b> returns a non-zero value if an 
-<a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure is greater than a specified major/minor version combination, or zero otherwise.
+The <b>HTTPAPI_GREATER_VERSION</b> returns a non-zero value if an <a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure is greater than a specified major/minor version combination, or zero otherwise.
 
 ## -parameters
 
 ### -param version
 
-The 
-<a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure to be examined.
+The <a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure to be examined.
 
 ### -param major
 

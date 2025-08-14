@@ -40,6 +40,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-5-0.dll
+ - ext-ms-win-shell-shell32-l1-4-0.dll
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - ext-ms-win-shell-shell32-l1-2-2.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
  - shlobj_core.h
  - Windows.Storage.dll
 api_name:

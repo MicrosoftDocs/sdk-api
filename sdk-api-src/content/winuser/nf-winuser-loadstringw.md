@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-user32-l1-1-0.dll
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - User32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll

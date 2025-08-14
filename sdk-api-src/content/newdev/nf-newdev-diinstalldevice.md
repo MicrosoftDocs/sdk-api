@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-newdev-config-l1-1-2.dll
  - Newdev.dll
  - Ext-MS-Win-Newdev-Config-L1-1-1.dll
 api_name:

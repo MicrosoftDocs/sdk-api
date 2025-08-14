@@ -6,7 +6,7 @@ helpviewer_keywords: ["LoadResource","LoadResource function [Menus and Other Res
 old-location: menurc\loadresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadresource.htm
-ms.date: 12/05/2018
+ms.date: 06/13/2025
 ms.keywords: LoadResource, LoadResource function [Menus and Other Resources], _win32_LoadResource, _win32_loadresource_cpp, libloaderapi/LoadResource, menurc.loadresource, winui._win32_loadresource
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-libraryloader-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
  - KernelBase.dll
@@ -55,7 +56,6 @@ api_name:
 
 # LoadResource function
 
-
 ## -description
 
 Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.
@@ -64,141 +64,56 @@ Retrieves a handle that can be used to obtain a pointer to the first byte of the
 
 ### -param hModule [in, optional]
 
-Type: <b>HMODULE</b>
+Type: **HMODULE**
 
-A handle to the module whose executable file contains the resource. If <i>hModule</i> is <b>NULL</b>, the system loads the resource from the module that was used to create the current process.
+A handle to the module whose executable file contains the resource. If *hModule* is **NULL**, the system loads the resource from the module that was used to create the current process.
 
 ### -param hResInfo [in]
 
-Type: <b>HRSRC</b>
+Type: **HRSRC**
 
 A handle to the resource to be loaded. This handle is returned by the <a href="/windows/win32/api/winbase/nf-winbase-findresourcea">FindResource</a> or <a href="/windows/win32/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> function.
 
 ## -returns
 
-Type: <b>HGLOBAL</b>
+Type: **HGLOBAL**
 
 If the function succeeds, the return value is a handle to the data associated with the resource.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is **NULL**. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function; to obtain the size of the resource, call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>. 
+The return type of **LoadResource** is **HGLOBAL** for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function; to obtain the size of the resource, call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>.
 
 [GlobalSize](/windows/desktop/api/winbase/nf-winbase-globalsize) returns 0 for a resource HGLOBAL. As a result, any APIs that depend on GlobalSize to determine the size of the HGLOBAL will not function correctly. For example, use [SHCreateMemStream](/windows/win32/api/shlwapi/nf-shlwapi-shcreatememstream) instead of [CreateStreamOnHGlobal](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal).
 
 To use a resource immediately, an application should use the following resource-specific functions to find and load the resource in one call.
 
-<table class="clsStd">
-<tr>
-<th>Function</th>
-<th>Action</th>
-<th>To remove resource</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
-</td>
-<td>Loads and formats a message-table entry</td>
-<td>No action needed</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
-</td>
-<td>Loads an accelerator table</td>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
-</td>
-<td>Loads a bitmap resource</td>
-<td>
-<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
-</td>
-<td>Loads a cursor resource</td>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a>
-</td>
-<td>Loads an icon resource</td>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
-</td>
-<td>Loads a menu resource</td>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="/windows/win32/api/winuser/nf-winuser-loadstringa">LoadString</a>
-</td>
-<td>Loads a string resource</td>
-<td>No action needed</td>
-</tr>
-</table>
- 
+| Function        | Action                                   | To remove resource         |
+|-----------------|------------------------------------------|---------------------------|
+| [FormatMessage](/windows/desktop/api/winbase/nf-winbase-formatmessage) | Loads and formats a message-table entry | No action needed           |
+| [LoadAccelerators](/windows/win32/api/winuser/nf-winuser-loadacceleratorsa) | Loads an accelerator table               | [DestroyAcceleratorTable](/windows/win32/api/winuser/nf-winuser-destroyacceleratortable) |
+| [LoadBitmap](/windows/desktop/api/winuser/nf-winuser-loadbitmapa) | Loads a bitmap resource                  | [DeleteObject](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)         |
+| [LoadCursor](/windows/win32/api/winuser/nf-winuser-loadcursora) | Loads a cursor resource                   | [DestroyCursor](/windows/win32/api/winuser/nf-winuser-destroycursor)       |
+| [LoadIcon](/windows/win32/api/winuser/nf-winuser-loadicona)   | Loads an icon resource                    | [DestroyIcon](/windows/win32/api/winuser/nf-winuser-destroyicon)           |
+| [LoadMenu](/windows/win32/api/winuser/nf-winuser-loadmenua)   | Loads a menu resource                     | [DestroyMenu](/windows/win32/api/winuser/nf-winuser-destroymenu)           |
+| [LoadString](/windows/win32/api/winuser/nf-winuser-loadstringa) | Loads a string resource                  | No action needed           |
 
-For example, an application can use the <a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a> function to load an icon for display on the screen, followed by <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when done. 
+For example, an application can use the <a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a> function to load an icon for display on the screen, followed by <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when done.
 
-
-#### Examples
+## Examples
 
 For an example see <a href="/windows/win32/menurc/using-resources#updating-resources">Updating Resources</a>.
 
-<div class="code"></div>
-
 ## -see-also
-
-<b>Conceptual</b>
-
-
 
 <a href="/windows/win32/api/winbase/nf-winbase-findresourcea">FindResource</a>
 
-
-
 <a href="/windows/win32/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a>
-
-
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
-
-
 <a href="/windows/desktop/api/winbase/nf-winbase-loadmodule">LoadModule</a>
 
-
-
 <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
-
-
-
-<b>Other Resources</b>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>

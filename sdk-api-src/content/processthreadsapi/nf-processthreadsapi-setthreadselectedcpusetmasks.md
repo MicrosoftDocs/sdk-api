@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - DllExport 
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
  - kernel32.dll
  - api-ms-win-core-processthreads-l1-1-6
 api_name:

@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingwritestop.htm
 tech.root: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingWriteStop, TraceLoggingWriteStop macro,
   tracelogging.traceloggingwritestop, traceloggingactivity/TraceLoggingWriteStop
@@ -54,6 +54,16 @@ api_name:
 ---
 
 # TraceLoggingWriteStop macro
+
+## -syntax
+
+```cpp
+void TraceLoggingWriteStart(
+  [in]            TraceLoggingActivity activity,
+  [in]            String name,
+  [in, optional]   args
+);
+```
 
 ## -description
 

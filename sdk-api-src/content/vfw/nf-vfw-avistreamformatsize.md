@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamFormatSize","AVIStreamFormatSize macro [Windows 
 old-location: multimedia\avistreamformatsize.htm
 tech.root: Multimedia
 ms.assetid: e29bbbc3-28b2-44d3-b1f1-66ad2b29a7a3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamFormatSize, AVIStreamFormatSize macro [Windows Multimedia], _win32_AVIStreamFormatSize, multimedia.avistreamformatsize, vfw/AVIStreamFormatSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # AVIStreamFormatSize macro
+
+## -syntax
+
+```cpp
+HRESULT AVIStreamFormatSize(
+     pavi,
+     lPos,
+     plSize
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

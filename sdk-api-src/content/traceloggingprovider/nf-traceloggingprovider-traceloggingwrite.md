@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite,
   traceloggingprovider/TraceLoggingWrite
@@ -54,6 +54,16 @@ api_name:
 ---
 
 # TraceLoggingWrite macro
+
+## -syntax
+
+```cpp
+void TraceLoggingWrite(
+  [in]            TraceLoggingHProvider hProvider,
+  [in]            String eventName,
+  [in, optional]   args
+);
+```
 
 ## -description
 

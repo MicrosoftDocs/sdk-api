@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - LibDef
 api_location:
+ - ext-ms-win-newdev-config-l1-1-2.dll
  - Newdev.lib
  - Newdev.dll
 api_name:

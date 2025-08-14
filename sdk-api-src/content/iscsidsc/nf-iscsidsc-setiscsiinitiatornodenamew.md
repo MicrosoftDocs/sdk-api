@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-storage-iscsidsc-l1-1-0.dll
  - Iscsidsc.dll
 api_name:
  - SetIscsiInitiatorNodeName

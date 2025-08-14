@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-inf-l1-1-1.dll
  - Setupapi.dll
 api_name:
  - SetupFindNextMatchLine

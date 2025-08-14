@@ -6,7 +6,7 @@ helpviewer_keywords: ["SORTVERSIONFROMLCID","SORTVERSIONFROMLCID macro [Internat
 old-location: intl\sortversionfromlcid.htm
 tech.root: Intl
 ms.assetid: 2a851ec1-ccb9-42d3-bbb5-70cb9cf02cc7
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalization for Windows Applications], _win32_SORTVERSIONFROMLCID, intl.sortversionfromlcid, winnt/SORTVERSIONFROMLCID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # SORTVERSIONFROMLCID macro
+
+## -syntax
+
+```cpp
+WORD SORTVERSIONFROMLCID(
+    LCID lcid
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns the sort version. Currently, this macro only returns 0.
 
 
 ## -description

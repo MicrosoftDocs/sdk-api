@@ -41,6 +41,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-gdi-gdiplus-l1-1-0.dll
  - Gdiplus.dll
 api_name:
  - GdiplusStartup

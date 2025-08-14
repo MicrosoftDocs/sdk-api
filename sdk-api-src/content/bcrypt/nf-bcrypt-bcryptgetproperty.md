@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptGetProperty","BCryptGetProperty function [Security]
 old-location: security\bcryptgetproperty_func.htm
 tech.root: security
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
-ms.date: 05/14/2025
+ms.date: 06/16/2025
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
 req.header: bcrypt.h
 req.include-header: 
@@ -78,8 +78,6 @@ A pointer to a **ULONG** variable that receives the number of bytes that were co
 
 A set of flags that modify the behavior of this function. No flags are defined for this function.
 
-This parameter must be set to zero for ML-KEM.
-
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
@@ -98,8 +96,6 @@ Possible return codes include, but are not limited to, the following:
 
 To obtain the required size for a property, pass `NULL` for the *pbOutput* parameter. This function will place the required size, in bytes, in the value pointed to by the *pcbResult* parameter.
 
-Depending on what processor modes a provider supports, **BCryptGetProperty** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, any pointers passed to the **BCryptGetProperty** function must refer to nonpaged (or locked) memory. If the object specified in the *hObject* parameter is a handle, it must have been opened by using the **BCRYPT_PROV_DISPATCH** flag.
-
-The **BCRYPT_PARAMETER_SET_NAME** property must be set on BCrypt ML-DSA keys before they can be used. That data can be retrieved from key objects.
+When using a supported algorithm provider, **BCryptGetProperty** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, any pointers passed to the **BCryptGetProperty** function must refer to nonpaged (or locked) memory. If the object specified in the *hObject* parameter is a handle, it must have been opened by using the **BCRYPT_PROV_DISPATCH** flag.
 
 To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.

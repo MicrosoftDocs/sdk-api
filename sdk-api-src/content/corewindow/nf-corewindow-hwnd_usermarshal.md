@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-marshal-l1-1-0.dll
  - corewindow.h
 api_name:
  - HWND_UserMarshal

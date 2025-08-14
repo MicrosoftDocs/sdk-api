@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_POINTER_FOURTHBUTTON_WPARAM","IS_POINTER_FOURTHBUTTON_
 old-location: inputmsg\is_pointer_fourthbutton_wparam.htm
 tech.root: InputMsg
 ms.assetid: 71DEF64E-A372-47BF-B5CD-96A1524FD459
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_POINTER_FOURTHBUTTON_WPARAM, IS_POINTER_FOURTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fourthbutton_wparam, winuser/IS_POINTER_FOURTHBUTTON_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # IS_POINTER_FOURTHBUTTON_WPARAM macro
+
+## -syntax
+
+```cpp
+BOOL IS_POINTER_SECONDBUTTON_WPARAM(
+    WPARAM wParam
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+**TRUE** if the specified pointer took fourth action. Otherwise, **FALSE**.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKEWPARAM","MAKEWPARAM macro [Windows and Messages]","_w
 old-location: winmsg\makewparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKEWPARAM macro
+
+## -syntax
+
+```cpp
+WPARAM MAKEWPARAM(
+    WORD l,
+    WORD h
+);
+```
+
+## -returns
+
+Type: **WPARAM**
+
+The return value is a **WPARAM** value.
 
 
 ## -description

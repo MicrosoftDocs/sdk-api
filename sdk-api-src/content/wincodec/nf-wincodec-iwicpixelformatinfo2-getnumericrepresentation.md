@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.GetNumericRepresentation
 title: IWICPixelFormatInfo2::GetNumericRepresentation (wincodec.h)
-description: TBD (IWICPixelFormatInfo2.GetNumericRepresentation)
+description: Retrieves the WICPixelFormatNumericRepresentation of the pixel format.
 helpviewer_keywords: ["GetNumericRepresentation","GetNumericRepresentation method [Windows Imaging Component]","GetNumericRepresentation method [Windows Imaging Component]","IWICPixelFormatInfo2 interface","IWICPixelFormatInfo2 interface [Windows Imaging Component]","GetNumericRepresentation method","IWICPixelFormatInfo2.GetNumericRepresentation","IWICPixelFormatInfo2::GetNumericRepresentation","_wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wincodec/IWICPixelFormatInfo2::GetNumericRepresentation"]
 old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 tech.root: wic

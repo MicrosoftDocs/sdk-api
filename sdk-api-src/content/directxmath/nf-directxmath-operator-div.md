@@ -36,6 +36,7 @@ topic_type:
  - apiref
 api_type:
 api_location:
+ - api-ms-win-crt-utility-l1-1-0.dll
  - directxmath.h
 api_name:
  - operator/

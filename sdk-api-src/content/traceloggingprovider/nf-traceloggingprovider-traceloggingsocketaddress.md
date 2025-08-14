@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingsocketaddress.htm
 tech.root: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingSocketAddress, TraceLoggingSocketAddress macro,
   tracelogging.traceloggingsocketaddress,
@@ -57,6 +57,18 @@ api_name:
 ---
 
 # TraceLoggingSocketAddress macro
+
+## -syntax
+
+```cpp
+void TraceLoggingSocketAddress(
+  [in]            SOCKADDR* pValue,
+  [in]            byte cbValue,
+  [in, optional]  String name,
+  [in, optional]  String description,
+  [in, optional]  Integer tags
+);
+```
 
 ## -description
 

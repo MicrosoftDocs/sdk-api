@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capGetAudioFormatSize","capGetAudioFormatSize","ca
 old-location: multimedia\capgetaudioformatsize.htm
 tech.root: Multimedia
 ms.assetid: 6f2dbedb-bece-4082-aa68-c2390c75b4d7
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capGetAudioFormatSize, capGetAudioFormatSize, capGetAudioFormatSize macro [Windows Multimedia], multimedia.capgetaudioformatsize, vfw/capGetAudioFormatSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capGetAudioFormatSize macro
+
+## -syntax
+
+```cpp
+DWORD capGetAudioFormatSize(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the size, in bytes, of the audio format.
 
 
 ## -description

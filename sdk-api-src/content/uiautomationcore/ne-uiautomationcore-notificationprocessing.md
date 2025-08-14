@@ -80,8 +80,12 @@ should be presented to the user when possible. The most recent notification from
 
 ### -field NotificationProcessing_CurrentThenMostRecent:4
 
-These notifications 
-should be presented to the user when possible. 
-Don’t interrupt the current notification for this one.
+These notifications should be presented to the user when possible. Don’t interrupt the current notification for this one.
 If new notifications come in from the same source while the current notification is being presented, keep the most recent and ignore the rest until the current processing is completed.  Then, use the most recent message as the current message.
 
+### -field NotificationProcessing_ImportantCurrentThenMostRecent:5
+
+Introduced in Windows, build 26100. These notifications should be presented to the user as soon as possible.
+Don’t interrupt the current notification, as it is considered important and must be allowed to finish.
+If new notifications arrive from the same source during this time, retain only the most recent one and discard the others.
+Once the current notification has been processed, immediately present the most recent pending notification.

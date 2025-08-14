@@ -7,7 +7,7 @@ old-location: mf\mfp_get_position_set_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: e9b692e6-7b7c-45ac-bbaa-7060578f9403
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_POSITION_SET_EVENT, MFP_GET_POSITION_SET_EVENT macro [Media Foundation], mf.mfp_get_position_set_event, mfplay/MFP_GET_POSITION_SET_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_POSITION_SET_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_POSITION_SET_EVENT MFP_GET_POSITION_SET_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_position_set_event">MFP_POSITION_SET_EVENT</a>**
+
+Returns a pointer to an **MFP_POSITION_SET_EVENT** structure.
 
 
 ## -description

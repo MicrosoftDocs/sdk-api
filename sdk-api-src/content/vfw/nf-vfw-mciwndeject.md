@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndEject","MCIWndEject macro [Windows Multimedia]","_w
 old-location: multimedia\mciwndeject.htm
 tech.root: Multimedia
 ms.assetid: 7d86cc61-849d-40a3-9e8f-e319b0c9ea48
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndEject, multimedia.mciwndeject, vfw/MCIWndEject
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndEject macro
+
+## -syntax
+
+```cpp
+LONG MCIWndEject(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

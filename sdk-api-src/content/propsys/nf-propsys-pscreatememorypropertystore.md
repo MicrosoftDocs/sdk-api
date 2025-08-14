@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-propsys-l1-1-1.dll
  - Propsys.dll
  - Ext-MS-Win-shell-propsys-l1-1-0.dll
 api_name:

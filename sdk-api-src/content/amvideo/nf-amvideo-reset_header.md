@@ -6,7 +6,7 @@ helpviewer_keywords: ["RESET_HEADER","RESET_HEADER macro [DirectShow]","amvideo/
 old-location: dshow\reset_header.htm
 tech.root: dshow
 ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # RESET_HEADER macro
+
+## -syntax
+
+```cpp
+BITMAPINFOHEADER HEADER(
+    VIDEOINFOHEADER *pVideoInfo
+);
+```
+
+## -returns
+
+Type: **BITMAPINFOHEADER**
+
+Returns the address of the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure's **bmiHeader** member.
 
 
 ## -description

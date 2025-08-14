@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKELANGID","MAKELANGID macro [Internationalization for W
 old-location: intl\makelangid.htm
 tech.root: Intl
 ms.assetid: cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Applications], _win32_MAKELANGID, intl.makelangid, winnt/MAKELANGID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKELANGID macro
+
+## -syntax
+
+```cpp
+WORD MAKELANGID(
+    USHORT p,
+    USHORT s
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns the language identifier.
 
 > [!IMPORTANT]
 > Language identifier constants are deprecated and their use is discouraged. Use of locale names instead of locale identifiers is always preferable. See the documentation for <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>.

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-gaming-deviceinformation-l1-1-0.dll
  - gamingdeviceinformation.h
 api_name:
  - GetGamingDeviceModelInformation

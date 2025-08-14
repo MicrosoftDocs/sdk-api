@@ -7,7 +7,7 @@ old-location: mf\mfp_get_pause_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: 492b8c37-eae0-42ea-9a62-3c2e3ee0233f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_PAUSE_EVENT, MFP_GET_PAUSE_EVENT macro [Media Foundation], mf.mfp_get_pause_event, mfplay/MFP_GET_PAUSE_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_PAUSE_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_PAUSE_EVENT MFP_GET_PAUSE_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_pause_event">MFP_PAUSE_EVENT</a>**
+
+Returns a pointer to an **MFP_PAUSE_EVENT** structure.
 
 
 ## -description

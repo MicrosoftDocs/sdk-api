@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-gaming-tcui-l1-1-4.dll
+ - api-ms-win-gaming-tcui-l1-1-3.dll
+ - api-ms-win-gaming-tcui-l1-1-2.dll
+ - api-ms-win-gaming-tcui-l1-1-1.dll
  - gamingtcui.dll
 api_name:
  - CheckGamingPrivilegeWithUI

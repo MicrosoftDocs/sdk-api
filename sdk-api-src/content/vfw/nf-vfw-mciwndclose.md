@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndClose","MCIWndClose macro [Windows Multimedia]","_w
 old-location: multimedia\mciwndclose.htm
 tech.root: Multimedia
 ms.assetid: f0adc980-c7f6-4937-b844-f65b98047e84
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndClose, MCIWndClose macro [Windows Multimedia], _win32_MCIWndClose, multimedia.mciwndclose, vfw/MCIWndClose
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndClose macro
+
+## -syntax
+
+```cpp
+LONG MCIWndClose(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndOpen","MCIWndOpen macro [Windows Multimedia]","_win
 old-location: multimedia\mciwndopen.htm
 tech.root: Multimedia
 ms.assetid: 88620085-8cba-489c-bfb8-d28b0a5e6013
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndOpen, MCIWndOpen macro [Windows Multimedia], _win32_MCIWndOpen, multimedia.mciwndopen, vfw/MCIWndOpen
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndOpen macro
+
+## -syntax
+
+```cpp
+LONG MCIWndOpen(
+     hwnd,
+     sz,
+     f
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

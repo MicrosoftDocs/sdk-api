@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetError","MCIWndGetError macro [Windows Multimedia
 old-location: multimedia\mciwndgeterror.htm
 tech.root: Multimedia
 ms.assetid: 67cbd522-2409-4eeb-b62b-d78f8caea349
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetError, MCIWndGetError macro [Windows Multimedia], _win32_MCIWndGetError, multimedia.mciwndgeterror, vfw/MCIWndGetError
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # MCIWndGetError macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetError(
+     hwnd,
+     lp,
+     len
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the integer error value if successful.
 
 
 ## -description

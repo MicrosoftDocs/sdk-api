@@ -74,8 +74,7 @@ If the function succeeds, on return the variable pointed to by this parameter co
 
 ### -param lpBuffer [out]
 
-Pointer to the buffer that receives the enumeration results. The results are returned as an array of 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
+Pointer to the buffer that receives the enumeration results. The results are returned as an array of <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structures. Note that the buffer you allocate must be large enough to hold the structures, plus the strings to which their members point. For more information, see the following Remarks section. 
 
 
 
@@ -202,7 +201,7 @@ For a code sample that illustrates an application-defined function that enumerat
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a>
 
 
 

@@ -40,6 +40,16 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-private-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-private-l1-1-0.dll
+ - ext-ms-win-ntuser-private-l1-6-3.dll
+ - ext-ms-win-ntuser-private-l1-6-2.dll
+ - ext-ms-win-ntuser-private-l1-6-1.dll
+ - ext-ms-win-ntuser-private-l1-6-0.dll
+ - ext-ms-win-ntuser-private-l1-5-0.dll
+ - ext-ms-win-ntuser-private-l1-4-0.dll
+ - ext-ms-win-ntuser-private-l1-3-3.dll
+ - ext-ms-win-ntuser-private-l1-3-2.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Window-l1-1-0.dll
  - Ext-MS-Win-NTUser-Window-l1-1-1.dll

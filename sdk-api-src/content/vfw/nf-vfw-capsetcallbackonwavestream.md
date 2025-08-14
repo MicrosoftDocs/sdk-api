@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetCallbackOnWaveStream","capSetCallbackOnWaveS
 old-location: multimedia\capsetcallbackonwavestream.htm
 tech.root: Multimedia
 ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetCallbackOnWaveStream, capSetCallbackOnWaveStream, capSetCallbackOnWaveStream macro [Windows Multimedia], multimedia.capsetcallbackonwavestream, vfw/capSetCallbackOnWaveStream
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetCallbackOnWaveStream macro
+
+## -syntax
+
+```cpp
+BOOL capSetCallbackOnWaveStream(
+     hwnd,
+     fpProc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if streaming capture or a single-frame capture session is in progress.
 
 
 ## -description

@@ -33,6 +33,7 @@ topic_type:
 api_type:
  - dllexport
 api_location:
+ - ext-ms-win-dxcore-l1-1-0.dll
  - dxcore.dll
 api_name:
  - DXCoreCreateAdapterFactory

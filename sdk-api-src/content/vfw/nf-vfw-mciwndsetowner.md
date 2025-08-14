@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSetOwner","MCIWndSetOwner macro [Windows Multimedia
 old-location: multimedia\mciwndsetowner.htm
 tech.root: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSetOwner macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSetOwner(
+     hwnd,
+     hwndP
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero.
 
 
 ## -description

@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -148,6 +151,8 @@ If **hFile** was opened with **FILE_FLAG_OVERLAPPED**, the following conditions 
 - The *lpOverlapped* parameter must point to a valid and unique [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure, otherwise the function can incorrectly report that the read operation is complete.
 - The *lpNumberOfBytesRead* parameter should be set to **NULL**. Use the [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) function to get the actual number of bytes read. If the **hFile** parameter is associated with an I/O completion port, you can also get the number of bytes read by calling the [GetQueuedCompletionStatus](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) function.
 
+If a read operation on a file begins at or beyond the end of the file, then the read operation fails with the error **ERROR_HANDLE_EOF**. If a read operation on a file begins before the end of the file, but the read operation extends past the end of the file, then the read operation succeeds, and the number of bytes read is the number of bytes that were read before the end of file was reached.
+
 #### Synchronization and File Position
 
 If **hFile** is opened with **FILE_FLAG_OVERLAPPED**, it is an asynchronous file handle; otherwise it is synchronous. The rules for using the [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure are slightly different for each, as previously noted.
@@ -163,14 +168,11 @@ Considerations for working with asynchronous file handles:
   - **ReadFile** resets the event to a nonsignaled state when it begins the I/O operation.
   - The event specified in the [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure is set to a signaled state when the read operation is complete; until that time, the read operation is considered pending.
   - Because the read operation starts at the offset that is specified in the [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure, and **ReadFile** may return before the system-level read operation is complete (read pending), neither the offset nor any other part of the structure should be modified, freed, or reused by the application until the event is signaled (that is, the read completes).
-  - If end-of-file (EOF) is detected during asynchronous operations, the call to [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) for that operation returns **FALSE** and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_HANDLE_EOF**.
 
 Considerations for working with synchronous file handles:
 
 - If *lpOverlapped* is **NULL**, the read operation starts at the current file position and **ReadFile** does not return until the operation is complete, and the system updates the file pointer before **ReadFile** returns.
 - If *lpOverlapped* is not **NULL**, the read operation starts at the offset that is specified in the [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure and **ReadFile** does not return until the read operation is complete. The system updates the <b>OVERLAPPED</b> offset and the file pointer before **ReadFile** returns.
-- If *lpOverlapped* is **NULL**, then when a synchronous read operation reaches the end of a file, **ReadFile** returns **TRUE** and sets `*lpNumberOfBytesRead` to zero.
-- If *lpOverlapped* is not **NULL**, then when a synchronous read operation reaches the end of a file, **ReadFile** returns **FALSE** and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_HANDLE_EOF**.
 
 For more information, see [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) and [Synchronous and Asynchronous I/O](/windows/win32/FileIO/synchronous-and-asynchronous-i-o).
 

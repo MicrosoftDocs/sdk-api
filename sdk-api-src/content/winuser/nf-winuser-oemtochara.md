@@ -6,7 +6,7 @@ helpviewer_keywords: ["OemToCharA", "winuser/OemToCharA"]
 old-location: menurc\oemtochar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm
-ms.date: 12/05/2018
+ms.date: 07/10/2025
 ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCharA, OemToCharW, _win32_OemToChar, _win32_oemtochar_cpp, menurc.oemtochar, winui._win32_oemtochar, winuser/OemToChar, winuser/OemToCharA, winuser/OemToCharW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -106,6 +106,10 @@ The return value is always nonzero except when you pass the same address to
 <a href="/windows/desktop/menurc/strings">Strings</a>
 
 ## -remarks
+
+### Security Considerations
+
+Using this function incorrectly might compromise the security of your program. For example, miscalculating the proper size of the *lpszDst* buffer, especially when the application is used in both ANSI and Unicode versions, can cause a buffer overflow. For more information, see [Security Considerations: International Features](/windows/desktop/Intl/security-considerations--international-features) and [Security Considerations: Windows User Interface](/windows/win32/appuistart/sec-ui).
 
 > [!NOTE]
 > The winuser.h header defines OemToChar as an alias that automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that is not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -6,7 +6,7 @@ helpviewer_keywords: ["DeleteFont","DeleteFont macro [Windows GDI]","_win32_Dele
 old-location: gdi\deletefont.htm
 tech.root: gdi
 ms.assetid: 5cb6c667-3c8b-41cf-b2b7-9e1e89729da7
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: DeleteFont, DeleteFont macro [Windows GDI], _win32_DeleteFont, gdi.deletefont, windowsx/DeleteFont
 req.header: windowsx.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DeleteFont macro
+
+## -syntax
+
+```cpp
+BOOL DeleteFont(
+    HFONT hfont
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+If **DeleteFont** succeeds, the return value is nonzero. If the specified handle is not valid or is currently selected into a Device Context, the return value is zero.
 
 
 ## -description

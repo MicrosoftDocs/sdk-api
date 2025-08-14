@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-0.dll
  - User32.dll
 api_name:
  - DlgDirListComboBox

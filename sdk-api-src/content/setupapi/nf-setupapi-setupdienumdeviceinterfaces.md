@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-setupapi-devobj-l1-1-0.dll
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll

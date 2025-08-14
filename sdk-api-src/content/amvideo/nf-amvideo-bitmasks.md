@@ -6,7 +6,7 @@ helpviewer_keywords: ["BITMASKS","BITMASKS macro [DirectShow]","amvideo/BITMASKS
 old-location: dshow\bitmasks.htm
 tech.root: dshow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # BITMASKS macro
+
+## -syntax
+
+```cpp
+DWORD BITMASKS(
+     pbmi
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a **DWORD** pointer value that is the address of the **dwBitMasks** member of the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 
 ## -description

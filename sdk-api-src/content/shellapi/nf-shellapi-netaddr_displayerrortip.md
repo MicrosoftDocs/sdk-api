@@ -6,7 +6,7 @@ helpviewer_keywords: ["NetAddr_DisplayErrorTip","NetAddr_DisplayErrorTip macro [
 old-location: shell\NetAddr_DisplayErrorTip.htm
 tech.root: shell
 ms.assetid: 1fd623da-51a0-4b37-a25b-00278b5f4732
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
 req.header: shellapi.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # NetAddr_DisplayErrorTip macro
+
+## -syntax
+
+```cpp
+HRESULT NetAddr_DisplayErrorTip(
+  [in]  HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/winprog/windows-data-types)**
+
+
 
 
 ## -description

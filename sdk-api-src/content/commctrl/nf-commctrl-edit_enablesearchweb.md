@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_EnableSearchWeb","Edit_EnableSearchWeb macro [Window
 old-location: controls\edit_enablesearchweb.htm
 tech.root: Controls
 ms.assetid: BB56F4F6-0D13-41B4-B8C1-FF724FCC4D0B
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_EnableSearchWeb, Edit_EnableSearchWeb macro [Windows Controls], commctrl/Edit_EnableSearchWeb, controls.edit_enablesearchweb
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_EnableSearchWeb macro
+
+## -syntax
+
+```cpp
+BOOL Edit_EnableSearchWeb(
+    HWND hwndCtl,
+    BOOL enable
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Zero if web search was previously disabled; otherwise nonzero.
 
 
 ## -description

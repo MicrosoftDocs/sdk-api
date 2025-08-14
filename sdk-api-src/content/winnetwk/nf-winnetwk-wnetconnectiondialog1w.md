@@ -96,10 +96,7 @@ Both the CONNDLG_PERSIST and the CONNDLG_NOT_PERSIST dialog box options are set.
 
 -or-
 
-The CONNDLG_RO_PATH dialog box option is set and the <b>lpRemoteName</b> member of the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure does not point to a remote network. (The 
-<b>CONNECTDLGSTRUCT</b> structure points to a 
-<b>NETRESOURCE</b> structure.)
+The CONNDLG_RO_PATH dialog box option is set and the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a> structure does not point to a remote network. (The <b>CONNECTDLGSTRUCT</b> structure points to a <b>NETRESOURCE</b> structure.)
 
 </td>
 </tr>
@@ -168,7 +165,7 @@ A network-specific error occurred. Call
 
 
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcew.md">NETRESOURCE</a>
 
 
 

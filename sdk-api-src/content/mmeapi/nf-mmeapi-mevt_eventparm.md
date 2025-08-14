@@ -6,7 +6,7 @@ helpviewer_keywords: ["MEVT_EVENTPARM","MEVT_EVENTPARM macro [Windows Multimedia
 old-location: multimedia\mevt_eventparm.htm
 tech.root: Multimedia
 ms.assetid: cabb6e1f-2a86-47eb-9bbb-1429cc56f485
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MEVT_EVENTPARM, MEVT_EVENTPARM macro [Windows Multimedia], _win32_MEVT_EVENTPARM, mmeapi/MEVT_EVENTPARM, multimedia.mevt_eventparm
 req.header: mmeapi.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MEVT_EVENTPARM macro
+
+## -syntax
+
+```cpp
+DWORD MEVT_EVENTPARM(
+    DWORD x
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+The event parameters or length from the value specified in the <b>dwEvent</b> member of a <a href="/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.
 
 
 ## -description

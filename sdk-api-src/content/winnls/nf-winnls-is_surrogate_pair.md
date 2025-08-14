@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_SURROGATE_PAIR","IS_SURROGATE_PAIR macro [Internationa
 old-location: intl\is_surrogate_pair.htm
 tech.root: Intl
 ms.assetid: cf7bf905-2cf7-416f-985f-cda4e03b86f9
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization for Windows Applications], _win32_IS_SURROGATE_PAIR, intl.is_surrogate_pair, winnls/IS_SURROGATE_PAIR
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # IS_SURROGATE_PAIR macro
+
+## -syntax
+
+```cpp
+bool IS_SURROGATE_PAIR(
+    WCHAR hs,
+    WCHAR ls
+);
+```
+
+## -returns
+
+Type: **bool**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptCloseAlgorithmProvider","BCryptCloseAlgorithmProvid
 old-location: security\bcryptclosealgorithmprovider_func.htm
 tech.root: security
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
-ms.date: 12/05/2018
+ms.date: 06/16/2025
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
 req.header: bcrypt.h
 req.include-header: 
@@ -51,13 +51,15 @@ api_name:
 
 ## -description
 
-The <b>BCryptCloseAlgorithmProvider</b> function closes an algorithm provider.
+The **BCryptCloseAlgorithmProvider** function closes a CNG algorithm provider.
+
+**Note:** Callers targeting Windows 10 and later should consider using [CNG Algorithm Pseudo-handles](/windows/win32/seccng/cng-algorithm-pseudo-handles) instead of opening and closing CNG algorithm providers. See remarks of the CNG Algorithm Pseudo-handle documentation for restrictions.
 
 ## -parameters
 
 ### -param hAlgorithm [in, out]
 
-A handle that represents the algorithm provider to close. This handle is obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function.
+A handle that represents the algorithm provider to close. This handle is obtained by calling the [BCryptOpenAlgorithmProvider](nf-bcrypt-bcryptopenalgorithmprovider.md) function.
 
 ### -param dwFlags [in]
 
@@ -67,46 +69,21 @@ A set of flags that modify the behavior of this function. No flags are defined f
 
 Returns a status code that indicates the success or failure of the function.
 
-
 Possible return codes include, but are not limited to, the following.
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The algorithm handle in the <i>hAlgorithm</i> parameter is not valid.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_HANDLE** | The algorithm handle specified by the *hAlgorithm* parameter is not valid, or is a pseudo-handle which cannot be closed. |
 
 ## -remarks
 
-<b>BCryptCloseAlgorithmProvider</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.
+**BCryptCloseAlgorithmProvider** can be called either from user mode or kernel mode. Kernel mode callers must be executing at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly).
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="https://www.microsoft.com/?ref=go">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a>
+[BCryptOpenAlgorithmProvider](nf-bcrypt-bcryptopenalgorithmprovider.md)
+
+[CNG Algorithm Pseudo-handles](/windows/win32/seccng/cng-algorithm-pseudo-handles)

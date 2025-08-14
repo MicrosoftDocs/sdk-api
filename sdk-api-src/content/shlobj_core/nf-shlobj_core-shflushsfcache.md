@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell32-shellfolders-l1-2-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
  - Shell32.dll
  - Ext-Ms-Win-Shell32-Shellfolders-L1-1-1.dll
  - Windows.Storage.dll

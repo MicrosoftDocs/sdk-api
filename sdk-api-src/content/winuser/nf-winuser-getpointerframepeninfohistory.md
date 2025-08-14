@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-1-3.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-1-2.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-1-1.dll
+ - api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
  - User32.dll
 api_name:
  - GetPointerFramePenInfoHistory

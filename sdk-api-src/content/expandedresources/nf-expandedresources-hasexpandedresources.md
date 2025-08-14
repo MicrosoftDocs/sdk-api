@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-gaming-expandedresources-l1-1-0.dll
  - gamemode.dll
 api_name:
  - HasExpandedResources

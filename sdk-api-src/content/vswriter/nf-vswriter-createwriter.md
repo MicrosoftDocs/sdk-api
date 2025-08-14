@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-fs-vssapi-l1-1-0.dll
  - vswriter.h
 api_name:
  - CreateWriter

@@ -37,6 +37,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-lsapolicy-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-Security-lsapolicy-l1-1-0.dll
  - sechost.dll

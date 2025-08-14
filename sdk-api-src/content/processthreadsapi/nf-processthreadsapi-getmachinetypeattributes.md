@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
  - Kernel32.dll
  - api-ms-win-core-processthreads-l1-1-7.dll
 api_name:
@@ -43,8 +44,7 @@ dev_langs:
 
 ## -description
 
-Queries if the specified architecture is supported on the current system, either natively or by any form of compatibility or emulation layer. 
-
+Queries if the specified architecture is supported on the current system, either natively or by any form of compatibility or emulation layer.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ If the function fails, the return value is a nonzero HRESULT value. If the funct
 ## -remarks
 
 ## -see-also
-

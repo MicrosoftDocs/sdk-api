@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
  - User32.dll
 api_name:
  - SetClassWord

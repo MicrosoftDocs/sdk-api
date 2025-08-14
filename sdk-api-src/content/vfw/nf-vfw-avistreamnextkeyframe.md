@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNextKeyFrame","AVIStreamNextKeyFrame macro [Wind
 old-location: multimedia\avistreamnextkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNextKeyFrame macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNextKeyFrame(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the position of the key frame if successful or –1 otherwise.
+
 
 ## -description
 
@@ -71,8 +86,8 @@ The <b>AVIStreamNextKeyFrame</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNextKeyFrame(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos + 1, FIND_NEXT | FIND_KEY) 
+#define AVIStreamNextKeyFrame(pavi, l) \ 
+    AVIStreamFindSample(pavi, l + 1, FIND_NEXT | FIND_KEY) 
 
 ```
 

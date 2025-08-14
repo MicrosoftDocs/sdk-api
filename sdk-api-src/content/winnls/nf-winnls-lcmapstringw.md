@@ -6,7 +6,7 @@ helpviewer_keywords: ["LCMapString", "LCMapString function [Internationalization
 old-location: intl\lcmapstring.htm
 tech.root: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991
-ms.date: 12/05/2018
+ms.date: 08/08/2025
 ms.keywords: LCMapString, LCMapString function [Internationalization for Windows Applications], LCMapStringA, LCMapStringW, _win32_LCMapString, intl.lcmapstring, winnls/LCMapString, winnls/LCMapStringA, winnls/LCMapStringW
 req.header: winnls.h
 req.include-header: Windows.h
@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-Localization-l1-1-0.dll
  - KernelBase.dll
@@ -56,7 +58,6 @@ api_name:
 ---
 
 # LCMapStringW function
-
 
 ## -description
 
@@ -138,7 +139,7 @@ The application can set <i>cchDest</i> to 0. In this case, the function does not
 
 If the function succeeds when used for string mapping, it returns the number of characters in the translated string (see *cchSrc* and *cchDest* for more details).
 
-If the function succeeds when used for string mapping it returns the number of bytes in the sort key.
+If the function succeeds when used to generate sort keys, it returns the number of bytes in the sort key.
 
 This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 

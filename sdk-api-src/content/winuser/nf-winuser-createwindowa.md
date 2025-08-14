@@ -45,6 +45,7 @@ api_name:
  - CreateWindow
  - CreateWindowA
  - CreateWindowW
+no-loc: [BUTTON, COMBOBOX, EDIT, LISTBOX, MDICLIENT, RichEdit, RICHEDIT_CLASS, SCROLLBAR, STATIC]
 ---
 
 # CreateWindowA macro

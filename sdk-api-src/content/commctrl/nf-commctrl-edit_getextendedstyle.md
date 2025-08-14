@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetExtendedStyle","Edit_GetExtendedStyle macro [Wind
 old-location: controls\edit_getextendedstyle.htm
 tech.root: Controls
 ms.assetid: 6E29C7FE-A0D4-4A4D-B10A-2E2B2211D6C3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetExtendedStyle, Edit_GetExtendedStyle macro [Windows Controls], commctrl/Edit_GetExtendedStyle, controls.edit_getextendedstyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetExtendedStyle macro
+
+## -syntax
+
+```cpp
+DWORD Edit_GetExtendedStyle(
+    HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns a **DWORD** value that represents the styles currently in use for a given edit control.
 
 
 ## -description

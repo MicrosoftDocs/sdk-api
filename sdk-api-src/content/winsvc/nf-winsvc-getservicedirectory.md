@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-private-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-4.dll
  - sechost.dll
 api_name:
  - GetServiceDirectory

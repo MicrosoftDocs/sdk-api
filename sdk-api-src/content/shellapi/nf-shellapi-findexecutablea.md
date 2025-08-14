@@ -45,6 +45,7 @@ api_name:
  - FindExecutable
  - FindExecutableA
  - FindExecutableW
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # FindExecutableA function
@@ -72,7 +73,7 @@ The address of a <b>null</b>-terminated string that specifies the default direct
 
 Type: <b>LPTSTR</b>
 
-The address of a buffer that receives the file name of the associated executable file. This file name is a <b>null</b>-terminated string that specifies the executable file started when an "open" by association is run on the file specified in the <i>lpFile</i> parameter. Put simply, this is the application that is launched when the document file is directly double-clicked or when <b>Open</b> is chosen from the file's shortcut menu. This parameter must contain a valid non-<b>null</b> value and is assumed to be of length MAX_PATH. Responsibility for validating the value is left to the programmer.
+The address of a buffer that receives the file name of the associated executable file. This file name is a <b>null</b>-terminated string that specifies the executable file started when an ":::no-loc text="open":::" by association is run on the file specified in the <i>lpFile</i> parameter. Put simply, this is the application that is launched when the document file is directly double-clicked or when <b>Open</b> is chosen from the file's shortcut menu. This parameter must contain a valid non-<b>null</b> value and is assumed to be of length MAX_PATH. Responsibility for validating the value is left to the programmer.
 
 ## -returns
 

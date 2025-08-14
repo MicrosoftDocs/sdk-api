@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-rtlsupport-l1-2-2.dll
+ - api-ms-win-core-rtlsupport-l1-2-1.dll
  - ntdll.dll
  - API-MS-Win-Core-RTLSupport-l1-1-0.dll
  - API-MS-Win-Core-RTLSupport-l1-2-0.dll

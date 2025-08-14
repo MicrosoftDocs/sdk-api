@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capCaptureSingleFrameClose","capCaptureSingleFrame
 old-location: multimedia\capcapturesingleframeclose.htm
 tech.root: Multimedia
 ms.assetid: d0259662-6bcf-4c04-924c-e568db335fd2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capCaptureSingleFrameClose macro
+
+## -syntax
+
+```cpp
+BOOL capCaptureSingleFrameClose(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

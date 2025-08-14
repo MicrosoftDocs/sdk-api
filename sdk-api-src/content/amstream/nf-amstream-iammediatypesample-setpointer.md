@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - COM
 api_location:
+ - ext-ms-win-moderncore-win32k-base-ntuser-l1-1-0.dll
  - amstream.h
 api_name:
  - IAMMediaTypeSample.SetPointer

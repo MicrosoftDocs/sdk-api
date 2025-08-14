@@ -60,7 +60,7 @@ The
 ### -param lpNetResource [in]
 
 A pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource. The following members have specific meanings in this context.
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure that specifies the network resource. The following members have specific meanings in this context.
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ The network resource does not supply this information.
 </dl>
 </td>
 <td width="60%">
-The <b>lpLocalName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter does not specify a redirected device, or the <i>lpRemoteName</i> member does not specify the name of a resource that is currently connected.
+The <b>lpLocalName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter does not specify a redirected device, or the <i>lpRemoteName</i> member does not specify the name of a resource that is currently connected.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The local device specified by the <i>lpLocalName</i> member is invalid.
 </dl>
 </td>
 <td width="60%">
-The network name cannot be found. This error is returned if the <b>lpLocalName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter was <b>NULL</b> and the <b>lpRemoteName</b> member of the <b>NETRESOURCE</b> structure pointed to by the  <i>lpNetResource</i> was also or <b>NULL</b> or could not recognized by any network.
+The network name cannot be found. This error is returned if the <b>lpLocalName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the  <i>lpNetResource</i> parameter was <b>NULL</b> and the <b>lpRemoteName</b> member of the <b>NETRESOURCE</b> structure pointed to by the  <i>lpNetResource</i> was also or <b>NULL</b> or could not recognized by any network.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ The information returned by the
 Note that the 
 <b>MultinetGetConnectionPerformance</b> function can be used only to request information for a local device that is redirected to a network resource, or for a network resource to which there is currently a connection.
 
-If a UNC path is specified in the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter,  the <b>lpRemoteName</b> member must be a directory name, not  a filename. 
+If a UNC path is specified in the <b>lpRemoteName</b> member of the <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter,  the <b>lpRemoteName</b> member must be a directory name, not  a filename. 
 
 A typical way to use this function would be to open a file on a network server (which would ensure that there is a connection to the file), call this function, and use the results to make decisions about how to manage file I/O. For example, you can decide whether to read the entire file into a temporary file on the client or directly access the file on the server.
 
@@ -257,7 +257,7 @@ A typical way to use this function would be to open a file on a network server (
 
 
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a>
 
 
 

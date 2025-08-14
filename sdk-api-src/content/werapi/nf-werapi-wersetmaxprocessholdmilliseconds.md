@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-windowserrorreporting-l1-1-3.dll
  - werapi.h
 api_name:
  - WerSetMaxProcessHoldMilliseconds

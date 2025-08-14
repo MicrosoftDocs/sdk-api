@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_POINTER_FLAG_SET_WPARAM","IS_POINTER_FLAG_SET_WPARAM",
 old-location: inputmsg\is_pointer_flag_set_wparam.htm
 tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991200
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_POINTER_FLAG_SET_WPARAM, IS_POINTER_FLAG_SET_WPARAM	, IS_POINTER_FLAG_SET_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_flag_set_wparam, winuser/IS_POINTER_FLAG_SET_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # IS_POINTER_FLAG_SET_WPARAM macro
+
+## -syntax
+
+```cpp
+BOOL IS_POINTER_FLAG_SET_WPARAM(
+    WPARAM wParam,
+    UINT32 flag
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+**TRUE** if the specified pointer sets the specified flag. Otherwise, **FALSE**.
 
 
 ## -description

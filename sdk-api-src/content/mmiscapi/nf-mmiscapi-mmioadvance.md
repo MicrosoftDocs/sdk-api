@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-mm-io-l1-1-0.dll
  - Winmm.dll
  - API-MS-Win-mm-misc-l1-1-0.dll
  - winmmbase.dll

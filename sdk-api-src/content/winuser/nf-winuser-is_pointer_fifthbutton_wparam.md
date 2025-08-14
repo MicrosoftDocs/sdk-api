@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_POINTER_FIFTHBUTTON_WPARAM","IS_POINTER_FIFTHBUTTON_WP
 old-location: inputmsg\is_pointer_fifthbutton_wparam.htm
 tech.root: InputMsg
 ms.assetid: 181E6E85-9387-4543-B0A1-B1BB66942054
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_POINTER_FIFTHBUTTON_WPARAM, IS_POINTER_FIFTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fifthbutton_wparam, winuser/IS_POINTER_FIFTHBUTTON_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # IS_POINTER_FIFTHBUTTON_WPARAM macro
+
+## -syntax
+
+```cpp
+BOOL IS_POINTER_SECONDBUTTON_WPARAM(
+    WPARAM wParam
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+**TRUE** if the specified pointer took fifth action. Otherwise, **FALSE**.
 
 
 ## -description

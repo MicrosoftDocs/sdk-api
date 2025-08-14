@@ -65,7 +65,7 @@ The number of elements in the *pBuffers* array.
 
 ### -field pBuffers
 
-The address of an array of **BCryptBuffer** structures that contain the buffers. *cBuffers* contains the number of elements in this array.
+The address of an array of [BCryptBuffer](ns-bcrypt-bcryptbuffer.md) structures that contain the buffers. *cBuffers* contains the number of elements in this array.
 
 ## -remarks
 

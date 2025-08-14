@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressGetFormatSize","ICDecompressGetFormatSize mac
 old-location: multimedia\icdecompressgetformatsize.htm
 tech.root: Multimedia
 ms.assetid: 249a9d02-a51e-46f2-aea4-71460392705f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressGetFormatSize, ICDecompressGetFormatSize macro [Windows Multimedia], _win32_ICDecompressGetFormatSize, multimedia.icdecompressgetformatsize, vfw/ICDecompressGetFormatSize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICDecompressGetFormatSize macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressGetFormatSize(
+     hic,
+     lpbi
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the size of the structure.
 
 
 ## -description

@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-wer-reporting-l1-1-3.dll
+ - ext-ms-win-wer-reporting-l1-1-2.dll
+ - ext-ms-win-wer-reporting-l1-1-1.dll
  - werapi.h
 api_name:
  - WerStoreUploadReport

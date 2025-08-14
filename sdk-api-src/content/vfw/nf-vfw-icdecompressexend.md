@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressExEnd","ICDecompressExEnd macro [Windows Mult
 old-location: multimedia\icdecompressexend.htm
 tech.root: Multimedia
 ms.assetid: db0ab881-2e26-4f60-a22c-cb4bd2016028
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressExEnd, ICDecompressExEnd macro [Windows Multimedia], _win32_ICDecompressExEnd, multimedia.icdecompressexend, vfw/ICDecompressExEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICDecompressExEnd macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressExEnd(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GET_WHEEL_DELTA_WPARAM","GET_WHEEL_DELTA_WPARAM macro [Ke
 old-location: inputdev\get_wheel_delta_wparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_wheel_delta_wparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_WHEEL_DELTA_WPARAM, GET_WHEEL_DELTA_WPARAM macro [Keyboard and Mouse Input], _win32_GET_WHEEL_DELTA_WPARAM, _win32_get_wheel_delta_wparam_cpp, inputdev.get_wheel_delta_wparam, winui._win32_get_wheel_delta_wparam, winuser/GET_WHEEL_DELTA_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # GET_WHEEL_DELTA_WPARAM macro
+
+## -syntax
+
+```cpp
+short GET_WHEEL_DELTA_WPARAM(
+    WPARAM wParam
+);
+```
+
+## -returns
+
+Type: **short**
+
+The return value is the high-order word representing the wheel-delta value. It indicates the distance that the wheel is rotated, expressed in multiples or divisions of WHEEL_DELTA, which is 120. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user.
 
 
 ## -description

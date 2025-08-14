@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-query-l1-1-1.dll
+ - api-ms-win-devices-query-l1-1-0.dll
  - Cfgmgr32.dll
 api_name:
  - DevCreateObjectQueryFromIds

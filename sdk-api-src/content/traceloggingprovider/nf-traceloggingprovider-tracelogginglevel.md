@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\tracelogginglevel.htm
 tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel,
   traceloggingprovider/TraceLoggingLevel
@@ -54,6 +54,14 @@ api_name:
 ---
 
 # TraceLoggingLevel macro
+
+## -syntax
+
+```cpp
+void TraceLoggingLevel(
+  [in]  UINT eventLevel
+);
+```
 
 ## -description
 

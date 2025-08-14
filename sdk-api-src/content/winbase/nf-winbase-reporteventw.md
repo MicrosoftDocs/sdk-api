@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-eventlog-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-EventLog-Legacy-l1-1-0.dll
  - advapi32legacy.dll

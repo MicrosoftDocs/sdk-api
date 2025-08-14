@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetSource","MCIWndGetSource macro [Windows Multimed
 old-location: multimedia\mciwndgetsource.htm
 tech.root: Multimedia
 ms.assetid: 3ac01055-7d17-499f-af2e-e50fc08e5520
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndGetSource macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetSource(
+     hwnd,
+     prc
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

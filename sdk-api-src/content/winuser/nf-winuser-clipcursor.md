@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-cursor-l1-1-1.dll
  - User32.dll
 api_name:
  - ClipCursor

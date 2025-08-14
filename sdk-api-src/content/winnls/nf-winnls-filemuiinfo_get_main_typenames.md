@@ -6,7 +6,7 @@ helpviewer_keywords: ["FILEMUIINFO_GET_MAIN_TYPENAMES","FILEMUIINFO_GET_MAIN_TYP
 old-location: intl\filemuiinfo_get_main_typenames.htm
 tech.root: Intl
 ms.assetid: 93fe7be8-693f-493c-94d4-7b7b2405880a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPENAMES, FILEMUIINFO_GET_MAIN_TYPENAMES macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPENAMES, intl.filemuiinfo_get_main_typenames, winnls/FILEMUIINFO_GET_MAIN_TYPENAMES
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # FILEMUIINFO_GET_MAIN_TYPENAMES macro
+
+## -syntax
+
+```cpp
+LPWSTR FILEMUIINFO_GET_MAIN_TYPENAMES(
+    PFILEMUIINFO pInfo
+);
+```
+
+## -returns
+
+Type: **LPWSTR**
+
+Returns a pointer to the main module names multistring array. The macro returns **NULL** if the array is not initialized.
 
 
 ## -description

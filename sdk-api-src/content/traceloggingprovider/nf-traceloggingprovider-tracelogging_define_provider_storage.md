@@ -15,7 +15,7 @@ helpviewer_keywords:
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm
 tech.root: tracelogging
 ms.assetid: C7244C95-5F02-4336-ADFF-876514665C87
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TRACELOGGING_DEFINE_PROVIDER_STORAGE, TRACELOGGING_DEFINE_PROVIDER_STORAGE
   macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE,
@@ -59,6 +59,17 @@ api_name:
 ---
 
 # TRACELOGGING_DEFINE_PROVIDER_STORAGE macro
+
+## -syntax
+
+```cpp
+void TRACELOGGING_DEFINE_PROVIDER_STORAGE(
+  [in]            TraceLoggingHProvider storageVariable,
+  [in]            String providerName,
+  [in]            GUID providerId,
+  [in, optional]   options
+);
+```
 
 ## -description
 

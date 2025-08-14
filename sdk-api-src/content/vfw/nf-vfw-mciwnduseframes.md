@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndUseFrames","MCIWndUseFrames macro [Windows Multimed
 old-location: multimedia\mciwnduseframes.htm
 tech.root: Multimedia
 ms.assetid: 14c2ac12-6034-43f0-ac3e-ea3c6a01e39a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32_MCIWndUseFrames, multimedia.mciwnduseframes, vfw/MCIWndUseFrames
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndUseFrames macro
+
+## -syntax
+
+```cpp
+LONG MCIWndUseFrames(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

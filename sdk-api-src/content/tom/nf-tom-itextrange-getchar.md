@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - COM
 api_location:
+ - api-ms-win-crt-stdio-l1-1-0.dll
  - Msftedit.dll
 api_name:
  - ITextRange.GetChar

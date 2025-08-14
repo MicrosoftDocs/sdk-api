@@ -13,7 +13,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary,
   traceloggingprovider/TraceLoggingBinary
@@ -55,6 +55,18 @@ api_name:
 ---
 
 # TraceLoggingBinary macro
+
+## -syntax
+
+```cpp
+void TraceLoggingBinary(
+  [in]            const *void pValue,
+  [in]            BYTE cbValue,
+  [in, optional]  String name,
+  [in, optional]  String description,
+  [in, optional]  Integer tags
+);
+```
 
 ## -description
 

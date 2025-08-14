@@ -6,7 +6,7 @@ helpviewer_keywords: ["RESET_MASKS","RESET_MASKS macro [DirectShow]","amvideo/RE
 old-location: dshow\reset_masks.htm
 tech.root: dshow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # RESET_MASKS macro
+
+## -syntax
+
+```cpp
+void RESET_MASKS(
+    VIDEOINFO *pbmi
+);
+```
 
 
 ## -description

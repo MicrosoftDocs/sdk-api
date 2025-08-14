@@ -1,12 +1,12 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function (ncrypt.h)
-description: Derives a key from a secret agreement value. (NCryptDeriveKey)
+description: Derives a key from a secret handle. (NCryptDeriveKey)
 helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","NCryptDeriveKey","NCryptDeriveKey function [Security]","ncrypt/NCryptDeriveKey","security.ncryptderivekey"]
 old-location: security\ncryptderivekey.htm
 tech.root: security
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
-ms.date: 12/05/2018
+ms.date: 06/27/2025
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
 req.header: ncrypt.h
 req.include-header: 
@@ -50,17 +50,19 @@ api_name:
 
 ## -description
 
-The <b>NCryptDeriveKey</b> function derives a key from a secret agreement value. This function is intended to be used as part of a secret agreement procedure using persisted secret agreement keys. To derive key material by using a  persisted secret instead, use the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a> function.
+The **NCryptDeriveKey** function derives a key from an **NCRYPT_SECRET_HANDLE**. This function is intended to be used as part of a secret agreement procedure using persisted secret agreement keys.
+
+To derive key material by using a persisted secret instead, use the [NCryptKeyDerivation](nf-ncrypt-ncryptkeyderivation.md) function.
 
 ## -parameters
 
 ### -param hSharedSecret [in]
 
-The secret agreement handle to create the key from. This handle is obtained from the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsecretagreement">NCryptSecretAgreement</a> function.
+The secret handle to create the key from. This handle is currently obtained from the [NCryptSecretAgreement](nf-ncrypt-ncryptsecretagreement.md) function.
 
 ### -param pwszKDF [in]
 
-A pointer to a null-terminated Unicode string that identifies the <i>key derivation function</i> (KDF) to use to derive the key. This can be one of the following strings.
+A pointer to a null-terminated Unicode string that identifies the *key derivation function* (KDF) to use to derive the key. This can be one of the following strings.
 
 
 
@@ -68,174 +70,43 @@ A pointer to a null-terminated Unicode string that identifies the <i>key derivat
 
 Use the hash key derivation function. 
 
-If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
+If the *cbDerivedKey* parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the *pbDerivedKey* buffer. If the *cbDerivedKey* parameter is greater than the size of the derived key, this function will copy the key to the *pbDerivedKey* buffer and set the variable pointed to by the *pcbResult* to the actual number of bytes copied.
 
-The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
+The parameters identified by the *pParameterList* parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-<b>KDF_HASH_ALGORITHM</b>
-
-</td>
-<td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
-
-If this parameter is not specified, the SHA1 hash algorithm is used.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SECRET_PREPEND</b>
-
-</td>
-<td>
-A value to add to the beginning of the message input to the hash function. For more information, see Remarks.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SECRET_APPEND</b>
-
-</td>
-<td>
-A value to add to the end of the message input to the hash function. For more information, see Remarks.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-</table>
- 
+| Parameter | Description | Required or optional |
+|-----------|-------------|----------------------|
+| **KDF_HASH_ALGORITHM** | A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from [CNG Algorithm Identifiers](/windows/win32/seccng/cng-algorithm-identifiers) or the identifier for another registered hash algorithm.<br/><br/>If this parameter is not specified, the SHA1 hash algorithm is used. | Optional |
+| **KDF_SECRET_PREPEND** | A value to add to the beginning of the message input to the hash function. For more information, see [Remarks](#remarks). | Optional |
+| **KDF_SECRET_APPEND**  | A value to add to the end of the message input to the hash function. For more information, see [Remarks](#remarks). | Optional |
 
 The call to the KDF is made as shown in the following pseudocode.
 
-
 ``` syntax
-KDF-Prepend = KDF_SECRET_PREPEND[0] + 
-    KDF_SECRET_PREPEND[1] + 
-    ... +
-    KDF_SECRET_PREPEND[n]
-
-KDF-Append = KDF_SECRET_APPEND[0] + 
-    KDF_SECRET_APPEND[1] + 
-    ... + 
-    KDF_SECRET_APPEND[n]
-
 KDF-Output = Hash(
     KDF-Prepend + 
     hSharedSecret + 
     KDF-Append)
 ```
 
-
-
 #### BCRYPT_KDF_HMAC (L"HMAC")
 
-Use the <a href="/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key derivation function. 
+Use the [Hash-Based Message Authentication Code](/windows/win32/SecGloss/h-gly) (HMAC) key derivation function. 
 
-If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
+If the *cbDerivedKey* parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the *pbDerivedKey* buffer. If the *cbDerivedKey* parameter is greater than the size of the derived key, this function will copy the key to the *pbDerivedKey* buffer and set the variable pointed to by the *pcbResult* to the actual number of bytes copied.
 
-The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
+The parameters identified by the *pParameterList* parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-<b>KDF_HASH_ALGORITHM</b>
-
-</td>
-<td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
-
-If this parameter is not specified, the SHA1 hash algorithm is used.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_HMAC_KEY</b>
-
-</td>
-<td>
-The key to use for the <a href="/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF).
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SECRET_PREPEND</b>
-
-</td>
-<td>
-A value to add to the beginning of the message input to the hash function. For more information, see Remarks.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SECRET_APPEND</b>
-
-</td>
-<td>
-A value to add to the end of the message input to the hash function. For more information, see Remarks.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-</table>
- 
+| Parameter | Description | Required or optional |
+|-----------|-------------|----------------------|
+| **KDF_HASH_ALGORITHM** | A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from [CNG Algorithm Identifiers](/windows/win32/seccng/cng-algorithm-identifiers) or the identifier for another registered hash algorithm.<br/><br/>If this parameter is not specified, the SHA1 hash algorithm is used. | Optional |
+| **KDF_HMAC_KEY** | The key to use for the [pseudo-random function](/windows/win32/SecGloss/p-gly) (PRF). | Optional |
+| **KDF_SECRET_PREPEND** | A value to add to the beginning of the message input to the hash function. For more information, see Remarks. | Optional |
+| **KDF_SECRET_APPEND** | A value to add to the end of the message input to the hash function. For more information, see Remarks. | Optional |
 
 The call to the KDF is made as shown in the following pseudocode.
 
-
 ``` syntax
-KDF-Prepend = KDF_SECRET_PREPEND[0] + 
-    KDF_SECRET_PREPEND[1] + 
-    ... +
-    KDF_SECRET_PREPEND[n]
-
-KDF-Append = KDF_SECRET_APPEND[0] + 
-    KDF_SECRET_APPEND[1] + 
-    ... + 
-    KDF_SECRET_APPEND[n]
-
 KDF-Output = HMAC-Hash(
     KDF_HMAC_KEY,
     KDF-Prepend + 
@@ -243,53 +114,20 @@ KDF-Output = HMAC-Hash(
     KDF-Append)
 ```
 
-
-
 #### BCRYPT_KDF_TLS_PRF (L"TLS_PRF")
 
-Use the <a href="/windows/desktop/SecGloss/t-gly">transport layer security</a> (TLS) <a href="/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF) key derivation function. The size of the derived key is always 48 bytes, so the <i>cbDerivedKey</i> parameter must be 48.
+Use the [transport layer security](/windows/win32/SecGloss/t-gly) (TLS) [pseudo-random function](/windows/win32/SecGloss/p-gly) (PRF) key derivation function. The size of the derived key is always 48 bytes, so the *cbDerivedKey* parameter must be 48.
 
-The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
+The parameters identified by the *pParameterList* parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-<b>KDF_TLS_PRF_LABEL</b>
-
-</td>
-<td>
-An ANSI string that contains the PRF label.
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_TLS_PRF_SEED</b>
-
-</td>
-<td>
-The PRF seed. The seed must be 64 bytes long.
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-</table>
- 
+| Parameter | Description | Required or optional |
+|-----------|-------------|----------------------|
+| **KDF_TLS_PRF_LABEL** | An ANSI string that contains the PRF label. | Required |
+| **KDF_TLS_PRF_SEED** | The PRF seed. The seed must be 64 bytes long. | Required |
+| **KDF_TLS_PRF_PROTOCOL** | A **DWORD** value that specifies the TLS protocol version whose PRF algorithm is to be used.<br/><br/>Valid values are:<br/>SSL2_PROTOCOL_VERSION (0x0002)<br/>SSL3_PROTOCOL_VERSION (0x0300)<br/>TLS1_PROTOCOL_VERSION (0x0301)<br/>TLS1_0_PROTOCOL_VERSION (0x0301)<br/>TLS1_1_PROTOCOL_VERSION (0x0302)<br/>TLS1_2_PROTOCOL_VERSION (0x0303)<br/>DTLS1_0_PROTOCOL_VERSION (0xfeff)<br/><br/>**Windows Server 2008 and Windows Vista:** TLS1_1_PROTOCOL_VERSION, TLS1_2_PROTOCOL_VERSION and DTLS1_0_PROTOCOL_VERSION are not supported.<br/><br/>**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** DTLS1_0_PROTOCOL_VERSION is not supported. | Optional |
+| **KDF_HASH_ALGORITHM** | The CNG algorithm ID of the hash to be used with the HMAC in the PRF, for the TLS 1.2 protocol version. Valid choices are SHA-256 and SHA-384. If not specified, SHA-256 is used. | Optional |
 
 The call to the KDF is made as shown in the following pseudocode.
-
 
 ``` syntax
 KDF-Output = PRF(
@@ -298,228 +136,146 @@ KDF-Output = PRF(
     KDF_TLS_PRF_SEED)
 ```
 
-
-
 #### BCRYPT_KDF_SP80056A_CONCAT (L"SP800_56A_CONCAT")
 
 Use the SP800-56A key derivation function.
 
-The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column. All parameter values are treated as opaque byte arrays.
+This is also known as SP800-56C rev2 one-step KDF (section 4.1) using an approved hash function that has strength corresponding to algorithm used to generate the secret handle.
 
+The parameters identified by the *pParameterList* parameter either can or must contain the following parameters, as indicated by the Required or optional column. All parameter values are treated as opaque byte arrays.
 
-<table>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Required or optional</th>
-</tr>
-<tr>
-<td>
-<b>KDF_ALGORITHMID</b>
-
-</td>
-<td>
-Specifies the <b>AlgorithmID</b> subfield of the <b>OtherInfo</b> field in the SP800-56A key derivation function. Indicates the intended purpose of the derived key.
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_PARTYUINFO</b>
-
-</td>
-<td>
-Specifies the <b>PartyUInfo</b> subfield of the <b>OtherInfo</b> field in the SP800-56A key derivation function. The field contains public information contributed by the initiator.
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_PARTYVINFO</b>
-
-</td>
-<td>
-Specifies the <b>PartyVInfo</b> subfield of the <b>OtherInfo</b> field in the SP800-56A key derivation function. The field contains public information contributed by the responder.
-
-</td>
-<td>
-Required
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SUPPPUBINFO</b>
-
-</td>
-<td>
-Specifies the <b>SuppPubInfo</b> subfield of the <b>OtherInfo</b> field in the SP800-56A key derivation function. The field contains public information known to both initiator and responder.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KDF_SUPPPRIVINFO</b>
-
-</td>
-<td>
-Specifies the <b>SuppPrivInfo</b> subfield of the <b>OtherInfo</b> field in the SP800-56A key derivation function.  It contains private information known to both initiator and responder, such as a shared secret.
-
-</td>
-<td>
-Optional
-
-</td>
-</tr>
-</table>
- 
+| Parameter | Description | Required or optional |
+|-----------|-------------|----------------------|
+| **KDF_ALGORITHMID** | Specifies the **AlgorithmID** subfield of the **OtherInfo** field in the SP800-56A key derivation function. Indicates the intended purpose of the derived key. | Required |
+| **KDF_PARTYUINFO** | Specifies the **PartyUInfo** subfield of the **OtherInfo** field in the SP800-56A key derivation function. The field contains public information contributed by the initiator. | Required |
+| **KDF_PARTYVINFO** | Specifies the **PartyVInfo** subfield of the **OtherInfo** field in the SP800-56A key derivation function. The field contains public information contributed by the responder. | Required |
+| **KDF_SUPPPUBINFO** | Specifies the **SuppPubInfo** subfield of the **OtherInfo** field in the SP800-56A key derivation function. The field contains public information known to both initiator and responder. | Optional |
+| **KDF_SUPPPRIVINFO** | Specifies the **SuppPrivInfo** subfield of the **OtherInfo** field in the SP800-56A key derivation function.  It contains private information known to both initiator and responder, such as a shared secret. | Optional |
 
 The call to the KDF is made as shown in the following pseudocode.
 
-
 ``` syntax
 KDF-Output = SP_800-56A_KDF(
-	   hSharedSecret,
-	   KDF_ALGORITHMID,
-	   KDF_PARTYUINFO,
-	   KDF_PARTYVINFO,
-	   KDF_SUPPPUBINFO,
-	   KDF_SUPPPRIVINFO)
+    hSharedSecret,
+    KDF_ALGORITHMID,
+    KDF_PARTYUINFO,
+    KDF_PARTYVINFO,
+    KDF_SUPPPUBINFO,
+    KDF_SUPPPRIVINFO)
 ```
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
+**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported.
 
+#### BCRYPT_KDF_RAW_SECRET (L"TRUNCATE")
 
+Returns the little-endian representation of the raw secret without any modification.
 
-####
+If the *cbDerivedKey* parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the *pbDerivedKey* buffer. If the *cbDerivedKey* parameter is greater than the size of the derived key, this function will copy the key to the *pbDerivedKey* buffer and set the variable pointed to by the *pcbResult* to the actual number of bytes copied.
+
+**Windows 8, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported.
+
+#### BCRYPT_KDF_HKDF (L"HKDF")
+
+Use the HKDF (HMAC-based Extract-and-Expand KDF) function from RFC 5869.
+
+In HKDF, a distinction is made between deriving a key from either:
+
+1. The output of a secret agreement function, which is not uniformly random, and is considered to be input keying material (IKM). Almost all users of *BCryptDeriveKey* will have a secret handle of this form.
+1. A uniformly random secret value.
+
+##### The first step is to "Extract" a pseudorandom key (PRK) from the secret handle.
+
+This step is performed by calling [BCryptSetProperty](../bcrypt/nf-bcrypt-bcryptsetproperty.md) on a secret handle with **BCRYPT_HKDF_HASH_ALGORITHM** to set the hash algorithm to use in HMAC computations in HKDF.
+
+This is followed by a second call to [BCryptSetProperty](../bcrypt/nf-bcrypt-bcryptsetproperty.md) with one of either:
+
+1. If the secret handle represents IKM, use **BCRYPT_HKDF_SALT_AND_FINALIZE** to provide the optional salt value and extract the PRK from the IKM and finalize the secret handle.
+1. Otherwise, use **BCRYPT_HKDF_PRK_AND_FINALIZE** to directly transform the secret value into the HKDF PRK and finalize the secret handle.
+
+##### The second step is to "Expand" the PRK into an output derived key.
+This step is performed by calling *BCryptDeriveKey* on a finalized secret handle.
+
+The parameters identified by the *pParameterList* parameter either can or must contain the following parameters, as indicated by the Required or optional column. All parameter values are treated as opaque byte arrays.
+
+| Parameter | Description | Required or optional |
+|-----------|-------------|----------------------|
+| **KDF_HKDF_INFO** | Specifies the **info** field in the HKDF Expand Step. Indicates the optional context and application specific information. | Optional |
+
+The call to the KDF is made as shown in the following pseudocode.
+
+``` syntax
+KDF-Output = HKDF-Expand(
+    hSharedSecret.PRK,
+    info,
+    cbDerivedKey)
+```
+
+**Windows 10:** Support for HKDF begins.
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
+The address of a [NCryptBufferDesc](../bcrypt/ns-bcrypt-bcryptbufferdesc.md) structure that contains the KDF parameters. This parameter is optional and can be `NULL` if it is not needed.
 
 ### -param pbDerivedKey [out, optional]
 
-The address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size of this buffer. If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by the <i>pcbResult</i> parameter.
+The address of a buffer that receives the key. The *cbDerivedKey* parameter contains the size of this buffer. If this parameter is `NULL`, this function will place the required size, in bytes, in the **DWORD** pointed to by the *pcbResult* parameter.
 
 ### -param cbDerivedKey [in]
 
-The size, in bytes, of the <i>pbDerivedKey</i> buffer.
+The size, in bytes, of the *pbDerivedKey* buffer.
 
 ### -param pcbResult [out]
 
-A pointer to a <b>DWORD</b> that receives the number of bytes that were copied to the <i>pbDerivedKey</i> buffer. If the <i>pbDerivedKey</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>DWORD</b> pointed to by this parameter.
+A pointer to a **DWORD** that receives the number of bytes that were copied to the *pbDerivedKey* buffer. If the *pbDerivedKey* parameter is `NULL`, this function will place the required size, in bytes, in the **DWORD** pointed to by this parameter.
 
 ### -param dwFlags [in]
 
-A set of flags that modify the behavior of this function. This can be zero or the following value.
+A set of flags that modify the behavior of this function.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KDF_USE_SECRET_AS_HMAC_KEY_FLAG"></a><a id="kdf_use_secret_as_hmac_key_flag"></a><dl>
-<dt><b>KDF_USE_SECRET_AS_HMAC_KEY_FLAG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The secret agreement value will also serve as the HMAC key. If this flag is specified, the <b>KDF_HMAC_KEY</b> parameter should not be included in the set of parameters in the <i>pParameterList</i> parameter. This flag is only used by the <b>BCRYPT_KDF_HMAC</b> key derivation function.
+This can be zero or the following value:
 
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| **KDF_USE_SECRET_AS_HMAC_KEY_FLAG** | The value in *hSharedSecret* will also serve as the HMAC key. If this flag is specified, the **KDF_HMAC_KEY** parameter should not be included in the set of parameters in the *pParameterList* parameter. This flag is only used by the **BCRYPT_KDF_HMAC** key derivation function. |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
-
 Possible return codes include, but are not limited to, the following.
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>hSharedSecret</i> parameter is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **ERROR_SUCCESS** | The function was successful. |
+| **NTE_INVALID_HANDLE** | The handle in the *hSharedSecret* parameter is not valid. |
+| **NTE_INVALID_PARAMETER** | One or more parameters are not valid. |
 
 ## -remarks
 
-The <a href="/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
+The [NCryptBufferDesc](../bcrypt/ns-bcrypt-bcryptbufferdesc.md) structure in the *pParameterList* parameter can contain more than one of the **KDF_SECRET_PREPEND** and **KDF_SECRET_APPEND** parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
 
 
 ```cpp
-BYTE pbValue0[1] = {0x01};
-BYTE pbValue1[2] = {0x04, 0x05};
-BYTE pbValue2[3] = {0x10, 0x11, 0x12};
-BYTE pbValue3[4] = {0x20, 0x21, 0x22, 0x23};
+BYTE abValue0[] = {0x01};
+BYTE abValue1[] = {0x04, 0x05};
+BYTE abValue2[] = {0x10, 0x11, 0x12};
+BYTE abValue3[] = {0x20, 0x21, 0x22, 0x23};
 
 Parameter[0].type = KDF_SECRET_APPEND
-Parameter[0].value = pbValue0;
-Parameter[0].length = sizeof  (pbValue0);
+Parameter[0].value = abValue0;
+Parameter[0].length = sizeof (abValue0);
 Parameter[1].type = KDF_SECRET_PREPEND
-Parameter[1].value = pbValue1;
-Parameter[1].length = sizeof (pbValue1);
+Parameter[1].value = abValue1;
+Parameter[1].length = sizeof (abValue1);
 Parameter[2].type = KDF_SECRET_APPEND
-Parameter[2].value = pbValue2;
-Parameter[2].length = sizeof (pbValue2);
+Parameter[2].value = abValue2;
+Parameter[2].length = sizeof (abValue2);
 Parameter[3].type = KDF_SECRET_PREPEND
-Parameter[3].value = pbValue3;
-Parameter[3].length = sizeof (pbValue3);
-
+Parameter[3].value = abValue3;
+Parameter[3].length = sizeof (abValue3);
 ```
 
-
 If the above parameter values are specified, the concatenated values to the actual KDF are as follows.
-
 
 ``` syntax
 Type: KDF_SECRET_PREPEND
@@ -527,11 +283,14 @@ Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
-
 ```
+
+If the *pwszKDF* parameter is set to **BCRYPT_KDF_RAW_SECRET**, the returned secret (unlike the other *pwszKDF* values) will be encoded in little-endian format. It is important to take note of this when using the raw secret in any other CNG functions, as most of them take in big-endian encoded inputs.
 
 A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a>
+[NCryptBufferDesc](../bcrypt/ns-bcrypt-bcryptbufferdesc.md)
+
+[NCryptSecretAgreement](nf-ncrypt-ncryptsecretagreement.md)

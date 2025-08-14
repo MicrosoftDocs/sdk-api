@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-ro-typeresolution-l1-1-1.dll
  - WinTypes.dll
  - API-MS-Win-ro-typeresolution-l1-1-0.dll
  - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l1-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
  - KernelBase.dll

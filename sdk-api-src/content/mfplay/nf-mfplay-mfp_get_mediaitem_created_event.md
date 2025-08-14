@@ -7,7 +7,7 @@ old-location: mf\mfp_get_mediaitem_created_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_MEDIAITEM_CREATED_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_MEDIAITEM_CREATED_EVENT MFP_GET_MEDIAITEM_CREATED_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_mediaitem_created_event">MFP_MEDIAITEM_CREATED_EVENT</a>**
+
+Returns a pointer to an **MFP_MEDIAITEM_CREATED_EVENT** structure.
 
 
 ## -description

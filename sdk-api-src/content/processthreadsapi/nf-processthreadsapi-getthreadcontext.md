@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
  - KernelBase.dll
@@ -53,19 +58,18 @@ api_name:
 
 # GetThreadContext function
 
-
 ## -description
 
 Retrieves the context of the specified thread.
 
-A 64-bit application can retrieve the context of a WOW64 thread using the [Wow64GetThreadContext](../winbase/nf-winbase-wow64getthreadcontext.md).
+> [!NOTE]
+> A 64-bit application can retrieve the context of a WOW64 thread using the [Wow64GetThreadContext function](../wow64apiset/nf-wow64apiset-wow64getthreadcontext.md).
 
 ## -parameters
 
 ### -param hThread [in]
 
 A handle to the thread whose context is to be retrieved. The handle must have **THREAD_GET_CONTEXT** access to the thread. For more information, see [Thread Security and Access Rights](/windows/desktop/ProcThread/thread-security-and-access-rights).
-      
 
 **Windows XP or Windows Server 2003:** The handle must also have **THREAD_QUERY_INFORMATION** access.
 

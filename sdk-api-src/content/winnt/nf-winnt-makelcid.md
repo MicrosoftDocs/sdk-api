@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKELCID","MAKELCID macro [Internationalization for Windo
 old-location: intl\makelcid.htm
 tech.root: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKELCID macro
+
+## -syntax
+
+```cpp
+DWORD MAKELCID(
+    WORD lgid,
+    WORD srtid
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the locale identifier.
 
 ## -description
 

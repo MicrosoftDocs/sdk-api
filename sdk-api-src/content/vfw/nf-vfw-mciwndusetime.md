@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndUseTime","MCIWndUseTime macro [Windows Multimedia]"
 old-location: multimedia\mciwndusetime.htm
 tech.root: Multimedia
 ms.assetid: 604031d8-4cb6-49a8-a2c8-7b4966f9cdf4
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndUseTime, MCIWndUseTime macro [Windows Multimedia], _win32_MCIWndUseTime, multimedia.mciwndusetime, vfw/MCIWndUseTime
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndUseTime macro
+
+## -syntax
+
+```cpp
+LONG MCIWndUseTime(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

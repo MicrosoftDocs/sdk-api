@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetLength","MCIWndGetLength macro [Windows Multimed
 old-location: multimedia\mciwndgetlength.htm
 tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetLength macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetLength(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the length. The units for the length depend on the current time format.
 
 
 ## -description

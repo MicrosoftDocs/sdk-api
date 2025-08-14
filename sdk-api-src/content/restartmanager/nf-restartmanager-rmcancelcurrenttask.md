@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-base-rstrtmgr-l1-1-0.dll
  - Rstrtmgr.dll
 api_name:
  - RmCancelCurrentTask

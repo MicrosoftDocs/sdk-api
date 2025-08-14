@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSendString","MCIWndSendString macro [Windows Multim
 old-location: multimedia\mciwndsendstring.htm
 tech.root: Multimedia
 ms.assetid: d73b087b-c697-470b-aa19-ca14d18ac430
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSendString, MCIWndSendString macro [Windows Multimedia], _win32_MCIWndSendString, multimedia.mciwndsendstring, vfw/MCIWndSendString
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSendString macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSendString(
+     hwnd,
+     sz
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

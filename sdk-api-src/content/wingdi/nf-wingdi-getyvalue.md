@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetYValue","GetYValue macro [Windows Color System]","_col
 old-location: wcs\getyvalue.htm
 tech.root: WCS
 ms.assetid: 5948db59-649f-4940-afb6-5bdb84544915
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue, wcs.getyvalue, wingdi/GetYValue
 req.header: wingdi.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # GetYValue macro
+
+## -syntax
+
+```cpp
+BYTE GetYValue(
+     cmyk
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+The yellow color value from a CMYK color value.
 
 
 ## -description

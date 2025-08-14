@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capCaptureSequence","capCaptureSequence","capCaptu
 old-location: multimedia\capcapturesequence.htm
 tech.root: Multimedia
 ms.assetid: cb4adf31-504a-46ee-b05e-768bdfde4b8f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capCaptureSequence macro
+
+## -syntax
+
+```cpp
+BOOL capCaptureSequence(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

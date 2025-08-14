@@ -41,6 +41,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-sysparams-ext-l1-1-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
  - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll

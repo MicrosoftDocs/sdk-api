@@ -6,7 +6,7 @@ helpviewer_keywords: ["DIBINDEX","DIBINDEX macro [Windows GDI]","_win32_DIBINDEX
 old-location: gdi\dibindex.htm
 tech.root: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 req.header: mmsystem.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DIBINDEX macro
+
+## -syntax
+
+```cpp
+LONG DIBINDEX(
+    WORD n
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+The return value is a color table index specifier in the form of a 32-bit <a href="/windows/desktop/gdi/colorref">COLORREF</a> value.
 
 
 ## -description

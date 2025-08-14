@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-security-isolatedcontainer-l1-1-1.dll
+ - api-ms-win-security-isolatedcontainer-l1-1-0.dll
  - isolatedapplauncher.h
 api_name:
  - IsProcessInIsolatedContainer

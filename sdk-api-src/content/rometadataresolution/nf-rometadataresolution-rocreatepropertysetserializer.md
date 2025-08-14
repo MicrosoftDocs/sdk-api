@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-ro-typeresolution-l1-1-1.dll
+ - api-ms-win-core-winrt-propertysetprivate-l1-1-1.dll
  - rometadataresolution.h
 api_name:
  - RoCreatePropertySetSerializer

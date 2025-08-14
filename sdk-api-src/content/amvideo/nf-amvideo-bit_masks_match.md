@@ -6,7 +6,7 @@ helpviewer_keywords: ["BIT_MASKS_MATCH","BIT_MASKS_MATCH macro [DirectShow]","am
 old-location: dshow\bit_masks_match.htm
 tech.root: dshow
 ms.assetid: 2b9d18fd-3251-4ab4-bb79-33829190f1b8
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # BIT_MASKS_MATCH macro
+
+## -syntax
+
+```cpp
+BOOL BIT_MASKS_MATCH(
+     pbmi1,
+     pbmi2
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the color masks are identical, or **FALSE** otherwise.
 
 
 ## -description

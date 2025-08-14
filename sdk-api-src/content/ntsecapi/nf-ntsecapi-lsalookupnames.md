@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-advapi32-lsa-l1-1-4.dll
+ - ext-ms-win-advapi32-lsa-l1-1-3.dll
+ - ext-ms-win-advapi32-lsa-l1-1-2.dll
  - Advapi32.dll
  - AdvApi32Legacy.dll
  - Ext-MS-Win-AdvAPI32-Lsa-L1-1-1.dll

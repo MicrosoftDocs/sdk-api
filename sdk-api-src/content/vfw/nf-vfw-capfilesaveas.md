@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capFileSaveAs","capFileSaveAs","capFileSaveAs macr
 old-location: multimedia\capfilesaveas.htm
 tech.root: Multimedia
 ms.assetid: 164bb345-c092-4adb-8f0f-83e31d36390f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capFileSaveAs, capFileSaveAs, capFileSaveAs macro [Windows Multimedia], multimedia.capfilesaveas, vfw/capFileSaveAs
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capFileSaveAs macro
+
+## -syntax
+
+```cpp
+BOOL capFileSaveAs(
+     hwnd,
+     szName
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

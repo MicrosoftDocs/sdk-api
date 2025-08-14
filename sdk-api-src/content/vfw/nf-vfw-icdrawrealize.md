@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawRealize","ICDrawRealize macro [Windows Multimedia]"
 old-location: multimedia\icdrawrealize.htm
 tech.root: Multimedia
 ms.assetid: b6605223-ce66-49fc-bfa7-6e3dd98e214a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawRealize, ICDrawRealize macro [Windows Multimedia], _win32_ICDrawRealize, multimedia.icdrawrealize, vfw/ICDrawRealize
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICDrawRealize macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawRealize(
+     hic,
+     hdc,
+     fBackground
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the drawing palette is realized or ICERR_UNSUPPORTED if the palette associated with the decompressed data is realized.
 
 
 ## -description

@@ -41,6 +41,7 @@ topic_type:
 api_type:
  - COM
 api_location:
+ - api-ms-win-crt-stdio-l1-1-0.dll
  - Gdiplus.dll
 api_name:
  - GraphicsPathIterator.Rewind

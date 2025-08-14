@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-wow64-l1-1-3.dll
+ - api-ms-win-core-wow64-l1-1-2.dll
  - kernel32.lib
  - API-MS-Win-Core-Wow64-L1-1-1.dll
  - KernelBase.dll

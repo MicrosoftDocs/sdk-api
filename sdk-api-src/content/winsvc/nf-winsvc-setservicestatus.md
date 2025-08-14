@@ -40,6 +40,10 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-core-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-4.dll
+ - api-ms-win-service-core-l1-1-3.dll
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
  - Advapi32.dll
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - sechost.dll

@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCRYPT_DH_PRIVATE_BLOB","BCRYPT_DH_PUBLIC_BLOB","BCRYPT_D
 old-location: security\ncryptexportkey_func.htm
 tech.root: security
 ms.assetid: 1588eb29-4026-4d1c-8bee-a035df38444a
-ms.date: 05/15/2025
+ms.date: 06/25/2025
 ms.keywords: BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, NCRYPT_CIPHER_KEY_BLOB, NCRYPT_OPAQUETRANSPORT_BLOB, NCRYPT_PKCS7_ENVELOPE_BLOB, NCRYPT_PKCS8_PRIVATE_KEY_BLOB, NCRYPT_PROTECTED_KEY_BLOB, NCRYPT_SILENT_FLAG, NCryptExportKey, NCryptExportKey function [Security], ncrypt/NCryptExportKey, security.ncryptexportkey_func
 req.header: ncrypt.h
 req.include-header: 
@@ -89,29 +89,45 @@ Export an [elliptic curve cryptography](/windows/win32/SecGloss/e-gly) (ECC) [pr
 
 Export an ECC public key. The *pbOutput* buffer receives a [BCRYPT_ECCKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob) structure immediately followed by the key data.
 
-#### BCRYPT_MLKEM_PUBLIC_BLOB
+#### BCRYPT_MLKEM_PRIVATE_SEED_BLOB
 
-The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM encapsulation keys per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM encapsulation key, **BCRYPT_MLKEM_PUBLIC_MAGIC**, and ML-KEM parameter set.
+Export an ML-KEM private seed key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.
+
+**Note:** ML-KEM key handles which contain a private key which was imported using **BCRYPT_MLKEM_PRIVATE_BLOB** have insufficient information to export a private seed key.
+
+**Windows Insiders (build 27843):** Support for ML-KEM begins.
 
 #### BCRYPT_MLKEM_PRIVATE_BLOB
 
-The BLOB is a ML-KEM BLOB that provides import and export of standard byte-encoded ML-KEM decapsulation keys per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the byte-encoded KEM decapsulation key, **BCRYPT_MLKEM_PRIVATE_MAGIC**, and ML-KEM parameter set.
+Export an ML-KEM private (decapsulation) key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.
 
-#### BCRYPT_MLKEM_PRIVATE_SEED_BLOB
+**Windows Insiders (build 27843):** Support for ML-KEM begins.
 
-The BLOB is a ML-KEM BLOB that provides import and export of ML-KEM seeds per FIPS 203. The *pbOutput* buffer must contain a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure containing the KEM seed, **BCRYPT_MLKEM_SEED_MAGIC**, and ML-KEM parameter set.
+#### BCRYPT_MLKEM_PUBLIC_BLOB
 
-#### BCRYPT_PQDSA_PUBLIC_BLOB
+Export an ML-KEM public (encapsulation) key. The *pbOutput* buffer receives a [BCRYPT_MLKEM_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob) structure immediately followed by the parameter set and key data.
 
-The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature public keys per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, public magic, and PQ parameter set.
-
-#### BCRYPT_PQDSA_PRIVATE_BLOB
-
-The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private keys per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the key material, private magic, and PQ parameter set.
+**Windows Insiders (build 27843):** Support for ML-KEM begins.
 
 #### BCRYPT_PQDSA_PRIVATE_SEED_BLOB
 
-The BLOB is a ML-DSA, SLH-DSA, LMS, or XMSS BLOB that provides import and export of PQ digital signature private seeds per FIPS 204 and 205. The *pbOutput* buffer must contain a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure containing the seed value, private seed magic, and PQ parameter set.
+Export a PQDSA private seed key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.
+
+**Note:** PQDSA key handles which contain a private key which was imported using **BCRYPT_PQDSA_PRIVATE_BLOB** have insufficient information to export a private seed key.
+
+**Windows Insiders (build 27843):** Support for ML-DSA begins.
+
+#### BCRYPT_PQDSA_PRIVATE_BLOB
+
+Export a PQDSA private key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.
+
+**Windows Insiders (build 27843):** Support for ML-DSA begins.
+
+#### BCRYPT_PQDSA_PUBLIC_BLOB
+
+Export a PQDSA public key. The *pbOutput* buffer receives a [BCRYPT_PQDSA_KEY_BLOB](/windows/win32/seccng/bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob) structure immediately followed by the parameter set and key data.
+
+**Windows Insiders (build 27843):** Support for ML-DSA begins.
 
 #### BCRYPT_PUBLIC_KEY_BLOB
 
@@ -193,6 +209,10 @@ Export a protected key in a [NCRYPT_KEY_BLOB_HEADER](/windows/win32/api/ncrypt/n
 
 **Windows 8 and Windows Server 2012:** Support for this value begins.
 
+#### NCRYPT_PQ_PRIVATE_KEY_BLOB
+
+Export a generic private key of any type of Post-Quantum algorithm. The type of key in this BLOB is determined by the **Magic** member of the [NCRYPT_PQ_BLOB](/windows/win32/seccng/ncrypt/ns-ncrypt-ncrypt_pq_blob) structure.
+
 ### -param pParameterList [in, optional]
 
 The address of an [NCryptBufferDesc](/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc) structure that receives parameter information for the key. This parameter can be **NULL** if this information is not needed.
@@ -215,7 +235,7 @@ Flags that modify function behavior. This can be zero or a combination of one or
 
 | Value | Meaning |
 |--------|--------|
-| NCRYPT_SILENT_FLAG | Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
+| NCRYPT_SILENT_FLAG | Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
 
 ## -returns
 

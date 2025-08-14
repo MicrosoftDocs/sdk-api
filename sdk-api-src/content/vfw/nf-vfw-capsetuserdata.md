@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetUserData","capSetUserData","capSetUserData m
 old-location: multimedia\capsetuserdata.htm
 tech.root: Multimedia
 ms.assetid: fefbef56-aedb-4158-9514-d19e7986d850
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetUserData, capSetUserData, capSetUserData macro [Windows Multimedia], multimedia.capsetuserdata, vfw/capSetUserData
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetUserData macro
+
+## -syntax
+
+```cpp
+BOOL capSetUserData(
+     hwnd,
+     lUser
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if streaming capture is in progress.
 
 
 ## -description

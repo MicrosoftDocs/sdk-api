@@ -7,7 +7,7 @@ old-location: mf\mfp_get_error_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: a8a86e1d-f009-4352-a388-822c2577ebe3
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_ERROR_EVENT, MFP_GET_ERROR_EVENT macro [Media Foundation], mf.mfp_get_error_event, mfplay/MFP_GET_ERROR_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_ERROR_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_ERROR_EVENT MFP_GET_ERROR_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_error_event">MFP_ERROR_EVENT</a>**
+
+Returns a pointer to an **MFP_ERROR_EVENT** structure.
 
 
 ## -description

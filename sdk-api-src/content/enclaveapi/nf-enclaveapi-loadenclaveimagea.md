@@ -29,6 +29,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-enclave-l1-1-1.dll
  - kernel32.dll
  - api-ms-win-core-enclave-l1-1-0.dll
 api_name:

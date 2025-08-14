@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-resourcemanager-activitycoordinator-l1-1-1.dll
+ - ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll
  - activitycoordinator.h
 api_name:
  - UnsubscribeActivityCoordinatorPolicy

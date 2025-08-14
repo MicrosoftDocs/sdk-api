@@ -32,6 +32,13 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-wow64-l1-1-3.dll
+ - api-ms-win-core-wow64-l1-1-2.dll
+ - api-ms-win-core-wow64-l1-1-1.dll
+ - api-ms-win-core-wow64-l1-1-0.dll
+ - api-ms-win-core-kernel32-private-l1-1-2.dll
+ - api-ms-win-core-kernel32-private-l1-1-1.dll
+ - api-ms-win-core-kernel32-private-l1-1-0.dll
  - wow64apiset.h
 api_name:
  - Wow64EnableWow64FsRedirection
@@ -43,6 +50,8 @@ dev_langs:
 helpviewer_keywords:
  - Wow64EnableWow64FsRedirection
 ---
+
+# Wow64EnableWow64FsRedirection function
 
 ## -description
 

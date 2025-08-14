@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-psm-appnotify-l1-1-1.dll
  - twinapi.core.dll
  - API-MS-Win-Core-psm-appnotify-l1-1-0.dll
  - twinapi.AppCore.dll

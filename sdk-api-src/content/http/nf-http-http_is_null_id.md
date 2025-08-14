@@ -6,7 +6,7 @@ helpviewer_keywords: ["HTTP_IS_NULL_ID","HTTP_IS_NULL_ID macro [HTTP]","http.htt
 old-location: http\http_is_null_id.htm
 tech.root: http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
 req.header: http.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # HTTP_IS_NULL_ID macro
+
+## -syntax
+
+```cpp
+void HTTP_IS_NULL_ID(
+    pid pid
+);
+```
 
 
 ## -description

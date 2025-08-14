@@ -4,7 +4,7 @@ title: GET_DEVICE_LPARAM macro (winuser.h)
 description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_DEVICE_LPARAM","GET_DEVICE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_DEVICE_LPARAM","_win32_get_device_lparam_cpp","inputdev.get_device_lparam","winui._win32_get_device_lparam","winuser/GET_DEVICE_LPARAM"]
 tech.root: inputdev
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -45,6 +45,14 @@ api_name:
 
 # GET_DEVICE_LPARAM macro
 
+## -syntax
+
+```cpp
+WORD GET_DEVICE_LPARAM(
+    LPARAM lParam
+);
+```
+
 ## -description
 
 Retrieves the input device type from the specified **LPARAM** value.
@@ -55,39 +63,17 @@ Retrieves the input device type from the specified **LPARAM** value.
 
 The value to be converted.
 
-## Return value
+## -returns
+
+Type: **WORD**
 
 The return value is the bit of the high-order word representing the input device type. It can be one of the following values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Return code/value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>FAPPCOMMAND_KEY</strong>
-0</td>
-<td><p>User pressed a key.</p></td>
-</tr>
-<tr class="even">
-<td><strong>FAPPCOMMAND_MOUSE</strong>
-0x8000</td>
-<td><p>User clicked a mouse button.</p></td>
-</tr>
-<tr class="odd">
-<td><strong>FAPPCOMMAND_OEM</strong>
-0x1000</td>
-<td><p>An unidentified hardware source generated the event. It could be a mouse or a keyboard event.</p></td>
-</tr>
-</tbody>
-</table>
+| Return code | Value | Description |
+|--|--|--|
+| **FAPPCOMMAND_KEY** | 0 | User pressed a key. |
+| **FAPPCOMMAND_MOUSE** | 0x8000 | User clicked a mouse button. |
+| **FAPPCOMMAND_OEM** | 0x1000 | An unidentified hardware source generated the event. It could be a mouse or a keyboard event. |
 
 ## -remarks
 

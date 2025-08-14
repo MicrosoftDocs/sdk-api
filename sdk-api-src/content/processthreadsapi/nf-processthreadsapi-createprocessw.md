@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Kernel32.dll
  - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
  - KernelBase.dll
@@ -116,8 +121,7 @@ The system adds a terminating null character to the command-line string to separ
 
 ### -param lpProcessAttributes [in, optional]
 
-A pointer to a 
-<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new process object can be inherited by child processes. If <i>lpProcessAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new process object can be inherited by child processes. If <i>lpProcessAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -126,13 +130,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a security des
 
 ### -param lpThreadAttributes [in, optional]
 
-A pointer to a 
-<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle to the new thread object can be inherited by child processes. If <i>lpThreadAttributes</i> is NULL, the handle cannot be inherited. 
-
-
-
-
-The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the main thread. If <i>lpThreadAttributes</i> is NULL or <b>lpSecurityDescriptor</b> is NULL, the thread gets a default security descriptor. The ACLs in the default security descriptor for a thread come from the process token.<b>Windows XP:  </b>The ACLs in the default security descriptor for a thread come from the primary or impersonation token of the creator. This behavior changed with Windows XP with SP2 and Windows Server 2003.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new thread and determines whether child processes can inherit the returned handle. If *lpThreadAttributes* is NULL, the thread gets a default security descriptor and the handle cannot be inherited. The access control lists (ACL) in the default security descriptor for a thread come from the primary token of the creator.
 
 ### -param bInheritHandles [in]
 
@@ -262,8 +260,8 @@ The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case
 
 
 ``` syntax
-	LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
-	CreateProcess(NULL, szCmdline, /* ... */);
+    LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
+    CreateProcess(NULL, szCmdline, /* ... */);
 ```
 
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
@@ -273,8 +271,8 @@ To avoid this problem, do not pass <b>NULL</b> for <i>lpApplicationName</i>. If 
 
 
 ``` syntax
-	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
-	CreateProcess(NULL, szCmdline, /*...*/);
+    LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
+    CreateProcess(NULL, szCmdline, /*...*/);
 ```
 
 

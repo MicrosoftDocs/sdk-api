@@ -32,6 +32,7 @@ topic_type:
 api_type:
   - DllExport
 api_location:
+ - api-ms-win-eventing-consumer-l1-1-2.dll
  - evntrace.h
 api_name:
  - OpenTraceFromRealTimeLoggerWithAllocationOptions

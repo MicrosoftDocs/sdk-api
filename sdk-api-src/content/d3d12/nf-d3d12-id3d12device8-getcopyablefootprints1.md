@@ -96,7 +96,7 @@ For example, if a Texture2D resource has a width of 32 and bytes per pixel of 4,
 
 Type: [out, optional] <b>UINT64*</b>
 
-A pointer to an integer variable, to be filled with the total size, in bytes.
+A pointer to an integer variable, to be filled with the total size, in bytes. If *pResourceDesc* is invalid, then the value of *pTotalBytes* is set to **UINT64_MAX**.
 
 ## -remarks
 

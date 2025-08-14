@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-service-core-l1-1-5.dll
+ - api-ms-win-service-core-l1-1-4.dll
+ - api-ms-win-service-core-l1-1-3.dll
  - Advapi32.dll
  - AdvApi32Legacy.dll
  - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll

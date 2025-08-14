@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-msi-misc-l1-1-0.dll
  - Msi.dll
 api_name:
  - MsiGetTargetPath

@@ -7,7 +7,7 @@ old-location: mf\mfp_get_play_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: 2a67965f-3429-4ce7-ae62-8952cacb00eb
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_PLAY_EVENT, MFP_GET_PLAY_EVENT macro [Media Foundation], mf.mfp_get_play_event, mfplay/MFP_GET_PLAY_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_PLAY_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_PLAY_EVENT MFP_GET_PLAY_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_play_event">MFP_PLAY_EVENT</a>**
+
+Returns a pointer to an **MFP_PLAY_EVENT** structure.
 
 
 ## -description

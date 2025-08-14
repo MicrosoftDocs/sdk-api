@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingchannel.htm
 tech.root: tracelogging
 ms.assetid: E7769335-3A1D-4F0B-86DA-20DA3F7B6733
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingChannel, TraceLoggingChannel macro,
   tracelogging.traceloggingchannel, traceloggingprovider/TraceLoggingChannel
@@ -54,6 +54,14 @@ api_name:
 ---
 
 # TraceLoggingChannel macro
+
+## -syntax
+
+```cpp
+void TraceLoggingChannel(
+  [in]  int eventChannel
+);
+```
 
 ## -description
 

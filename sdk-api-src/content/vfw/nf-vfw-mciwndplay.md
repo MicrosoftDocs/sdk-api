@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndPlay","MCIWndPlay macro [Windows Multimedia]","_win
 old-location: multimedia\mciwndplay.htm
 tech.root: Multimedia
 ms.assetid: bfa88925-2f2a-4bbb-bd89-479515f759ac
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndPlay macro
+
+## -syntax
+
+```cpp
+LONG MCIWndPlay(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

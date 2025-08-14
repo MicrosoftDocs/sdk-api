@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCryptFinishHash","BCryptFinishHash function [Security]",
 old-location: security\bcryptfinishhash_func.htm
 tech.root: security
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
 req.header: bcrypt.h
 req.include-header: 
@@ -51,83 +51,58 @@ api_name:
 
 ## -description
 
-The <b>BCryptFinishHash</b> function retrieves the hash or <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) value for the data accumulated from prior calls to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>.
+The **BCryptFinishHash** function retrieves the hash or [Message Authentication Code](/windows/win32/SecGloss/m-gly) (MAC) value for the data accumulated from prior calls to [BCryptHashData](nf-bcrypt-bcrypthashdata.md).
 
 ## -parameters
 
 ### -param hHash [in, out]
 
-The handle of the hash or MAC object to use to compute the hash or MAC. This handle is obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a> function. After this function has been called, the hash handle passed to this function cannot be used again except in a call to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a>.
+The handle of the hash or MAC object to use to perform the operation. This handle is obtained by calling the [BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md) or [BCryptDuplicateHash](nf-bcrypt-bcryptduplicatehash.md) functions. After this function has been called, the *hHash* handle cannot be reused, unless it was created with the **BCRYPT_HASH_REUSABLE_FLAG** flag.
 
 ### -param pbOutput [out]
 
-A pointer to a buffer that receives the hash or MAC value. The <i>cbOutput</i> parameter contains the size of this buffer.
+A pointer to a buffer that receives the hash or MAC value. The *cbOutput* parameter contains the size of this buffer.
 
 ### -param cbOutput [in]
 
-The size, in bytes, of the <i>pbOutput</i> buffer. This size must exactly match the size of the hash or MAC value.
+The size, in bytes, of the *pbOutput* buffer. This size must exactly match the size of the hash or MAC value if it has a fixed size.
 
-The size can be obtained by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a> function to get the <b>BCRYPT_HASH_LENGTH</b> property. This will provide the size of the hash or MAC value for the specified algorithm.
+The size can be obtained by calling the [BCryptGetProperty](nf-bcrypt-bcryptgetproperty.md) function to get the **BCRYPT_HASH_LENGTH** property. This will provide the size of the hash or MAC value for the specified algorithm. Extendable-output functions (XOFs), such as SHAKE256 may support a variable output size, but a default size which maintains full security of the XOF can be queried using **BCRYPT_HASH_LENGTH**.
 
 ### -param dwFlags [in]
 
-A set of flags that modify the behavior of this function. No flags are currently defined, so this parameter should be zero.
+A set of flags that modify the behavior of this function.
+
+This can be zero or a combination of one or more of the following values:
+
+| Value | Meaning |
+|-------|---------|
+| **BCRYPT_HASH_DONT_RESET_FLAG** | This flag only applies to Extendable-output functions (XOFs), such as SHAKE, CSHAKE, and KMAC. XOFs support variable output size, and this flag allows that variable output to be extracted incrementally. When this flag is specified, the *hHash* handle is not reset by this call to *BCryptFinishHash*, meaning further *BCryptFinishHash* calls can be made to extract additional output. A final call to *BCryptFinishHash* without specifying this flag will reset the state of XOF operation, the same as a call to *BCryptFinishHash* for a non-XOF algorithm.</br></br>**Windows 11, version 24H2:** Support for XOFs begins. |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
+Possible return codes include, but are not limited to, the following:
 
-Possible return codes include, but are not limited to, the following.
-
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The hash handle in the <i>hHash</i> parameter is not valid. After the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a> function has been called for a hash  handle, that handle cannot be reused.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more parameters are not valid. This includes the case where <i>cbOutput</i> is not the same size as the hash.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_SUCCESS** | The function was successful. |
+| **STATUS_INVALID_HANDLE** | The hash handle in the *hHash* parameter is not valid. |
+| **STATUS_INVALID_PARAMETER** | One or more parameters are not valid. This includes the case where *cbOutput* is not the same size as the fixed size output of the hash or MAC. |
 
 ## -remarks
 
-Depending on what processor modes a provider supports, <b>BCryptFinishHash</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hHash</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptFinishHash</b> function must refer to nonpaged (or locked) memory.
+When using a supported algorithm provider, **BCryptFinishHash** can be called either from user mode or kernel mode. Kernel mode callers can execute either at **PASSIVE_LEVEL** [IRQL](/windows/win32/SecGloss/i-gly) or **DISPATCH_LEVEL** IRQL. If the current IRQL level is **DISPATCH_LEVEL**, the handle provided in the *hHash* parameter must be derived from an algorithm handle returned by a provider that was opened by using the **BCRYPT_PROV_DISPATCH** flag, and any pointers passed to the **BCryptFinishHash** function must refer to nonpaged (or locked) memory.
 
-To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
+To call this function in kernel mode, use `Cng.lib`, which is part of the Driver Development Kit (DDK). **Windows Server 2008 and Windows Vista:** To call this function in kernel mode, use `Ksecdd.lib`.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcrypthashdata">BCryptHashData</a>
+[BCryptCreateHash](nf-bcrypt-bcryptcreatehash.md)
+
+[BCryptDuplicateHash](nf-bcrypt-bcryptduplicatehash.md)
+
+[BCryptHashData](nf-bcrypt-bcrypthashdata.md)
+
+[BCryptDestroyHash](nf-bcrypt-bcryptdestroyhash.md)

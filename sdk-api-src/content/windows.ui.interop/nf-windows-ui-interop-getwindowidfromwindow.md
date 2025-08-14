@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-windowing-external-l1-1-0.dll
  - windows.ui.interop.h
 api_name:
  - GetWindowIdFromWindow

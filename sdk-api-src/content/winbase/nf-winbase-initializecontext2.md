@@ -27,6 +27,8 @@ topic_type:
  - apiref
 api_type:
 api_location:
+ - api-ms-win-core-xstate-l2-1-2.dll
+ - api-ms-win-core-xstate-l2-1-1.dll
  - winbase.h
 api_name:
  - InitializeContext2

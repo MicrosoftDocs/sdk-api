@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - DllEcport
 api_location:
+ - api-ms-win-core-rtlsupport-l1-2-1.dll
+ - api-ms-win-core-rtlsupport-l1-2-0.dll
+ - api-ms-win-core-rtlsupport-l1-1-0.dll
  - api-ms-win-core-rtlsupport-l1-2-2.dll
 api_name:
  - RtlIsEcCode

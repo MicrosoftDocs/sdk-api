@@ -59,11 +59,12 @@ topic_type:
 api_type:
   - DllExport
 api_location:
-  - Sechost.dll
-  - Advapi32.dll
-  - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-  - API-MS-Win-Eventing-Obsolete-l1-1-0.dll
-  - KernelBase.dll
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Obsolete-l1-1-0.dll
+ - KernelBase.dll
 api_name:
   - RemoveTraceCallback
 ---

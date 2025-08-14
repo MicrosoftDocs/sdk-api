@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetExtendedStyle","Edit_SetExtendedStyle macro [Wind
 old-location: controls\edit_setextendedstyle.htm
 tech.root: Controls
 ms.assetid: 4ECAA174-A9C5-4A01-9341-CF6C8777E0F5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_SetExtendedStyle, Edit_SetExtendedStyle macro [Windows Controls], commctrl/Edit_SetExtendedStyle, controls.edit_setextendedstyle
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Edit_SetExtendedStyle macro
+
+## -syntax
+
+```cpp
+void Edit_SetExtendedStyle(
+    HWND hwndCtl,
+    DWORD dw,
+    DWORD dwMask
+);
+```
 
 
 ## -description

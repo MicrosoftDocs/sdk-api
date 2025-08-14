@@ -6,7 +6,7 @@ helpviewer_keywords: ["SIZE_MPEG1VIDEOINFO","SIZE_MPEG1VIDEOINFO macro [DirectSh
 old-location: dshow\size_mpeg1videoinfo.htm
 tech.root: dshow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # SIZE_MPEG1VIDEOINFO macro
+
+## -syntax
+
+```cpp
+LONG SIZE_MPEG1VIDEOINFO(
+    MPEG1VIDEOINFO *pv
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the byte size of the specified <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
 
 ## -description

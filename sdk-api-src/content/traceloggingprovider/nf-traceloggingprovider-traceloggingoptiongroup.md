@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingoptiongroup.htm
 tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingOptionGroup, TraceLoggingOptionGroup macro,
   tracelogging.traceloggingoptiongroup,
@@ -57,6 +57,24 @@ api_name:
 ---
 
 # TraceLoggingOptionGroup macro
+
+## -syntax
+
+```cpp
+void TraceLoggingOptionGroup(
+  [in]  UINT32 g1,
+  [in]   g2,
+  [in]   g3,
+  [in]   g4,
+  [in]   g5,
+  [in]   g6,
+  [in]   g7,
+  [in]   g8,
+  [in]   g9,
+  [in]   g10,
+  [in]   g11
+);
+```
 
 ## -description
 

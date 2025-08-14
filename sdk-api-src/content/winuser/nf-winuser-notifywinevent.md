@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-server-l1-1-1.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
  - minuser.dll

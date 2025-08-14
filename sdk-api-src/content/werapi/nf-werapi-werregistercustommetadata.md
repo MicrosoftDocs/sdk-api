@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-windowserrorreporting-l1-1-3.dll
+ - api-ms-win-core-windowserrorreporting-l1-1-2.dll
  - Kernel32.dll
  - API-MS-Win-Core-Windowserrorreporting-l1-1-1.dll
  - KernelBase.dll

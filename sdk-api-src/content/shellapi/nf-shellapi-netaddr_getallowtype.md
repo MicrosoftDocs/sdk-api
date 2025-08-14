@@ -6,7 +6,7 @@ helpviewer_keywords: ["NetAddr_GetAllowType","NetAddr_GetAllowType macro [Window
 old-location: shell\NetAddr_GetAllowType.htm
 tech.root: shell
 ms.assetid: 21533513-86c2-418b-ab62-3c1b2db9bc2f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: NetAddr_GetAllowType, NetAddr_GetAllowType macro [Windows Shell], _shell_NetAddr_GetAllowType, shell.NetAddr_GetAllowType, shellapi/NetAddr_GetAllowType
 req.header: shellapi.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # NetAddr_GetAllowType macro
+
+## -syntax
+
+```cpp
+DWORD NetAddr_GetAllowType(
+  [in]  HWND hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the allowed network address types as one or more of the <a href="/windows/desktop/shell/net-string">NET_STRING</a> constants.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["POINTSTOPOINT","POINTSTOPOINT macro [Windows GDI]","_win3
 old-location: gdi\pointstopoint.htm
 tech.root: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,15 @@ api_name:
 ---
 
 # POINTSTOPOINT macro
+
+## -syntax
+
+```cpp
+void POINTSTOPOINT(
+    POINT pt,
+    POINTS pts
+);
+```
 
 
 ## -description

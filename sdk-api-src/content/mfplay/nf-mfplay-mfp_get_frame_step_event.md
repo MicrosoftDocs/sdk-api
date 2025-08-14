@@ -7,7 +7,7 @@ old-location: mf\mfp_get_frame_step_event.htm
 tech.root: mfarchive
 archived: true
 ms.assetid: 3ddb2d5e-d9ef-4bfd-892e-d59f430f818a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MFP_GET_FRAME_STEP_EVENT, MFP_GET_FRAME_STEP_EVENT macro [Media Foundation], mf.mfp_get_frame_step_event, mfplay/MFP_GET_FRAME_STEP_EVENT
 req.header: mfplay.h
 req.include-header: 
@@ -47,6 +47,20 @@ api_name:
 ---
 
 # MFP_GET_FRAME_STEP_EVENT macro
+
+## -syntax
+
+```cpp
+MFP_FRAME_STEP_EVENT MFP_GET_FRAME_STEP_EVENT(
+    MFP_EVENT_HEADER *pHdr
+);
+```
+
+## -returns
+
+Type: **<a href="/windows/desktop/api/mfplay/ns-mfplay-mfp_frame_step_event">MFP_FRAME_STEP_EVENT</a>**
+
+Returns a pointer to an **MFP_FRAME_STEP_EVENT** structure.
 
 
 ## -description

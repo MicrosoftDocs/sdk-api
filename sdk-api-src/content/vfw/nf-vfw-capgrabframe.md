@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capGrabFrame","capGrabFrame","capGrabFrame macro [
 old-location: multimedia\capgrabframe.htm
 tech.root: Multimedia
 ms.assetid: bd306414-74a9-4683-ad63-797a37152e8f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capGrabFrame, capGrabFrame, capGrabFrame macro [Windows Multimedia], multimedia.capgrabframe, vfw/capGrabFrame
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capGrabFrame macro
+
+## -syntax
+
+```cpp
+BOOL capGrabFrame(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

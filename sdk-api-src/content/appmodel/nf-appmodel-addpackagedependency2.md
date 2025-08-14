@@ -29,6 +29,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
  - appmodel.h
 api_name:
  - AddPackageDependency2

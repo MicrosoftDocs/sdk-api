@@ -6,7 +6,7 @@ helpviewer_keywords: ["GET_APPCOMMAND_LPARAM","GET_APPCOMMAND_LPARAM macro [Keyb
 old-location: inputdev\get_appcommand_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_appcommand_lparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GET_APPCOMMAND_LPARAM, GET_APPCOMMAND_LPARAM macro [Keyboard and Mouse Input], _win32_GET_APPCOMMAND_LPARAM, _win32_get_appcommand_lparam_cpp, inputdev.get_appcommand_lparam, winui._win32_get_appcommand_lparam, winuser/GET_APPCOMMAND_LPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -47,11 +47,24 @@ api_name:
 
 # GET_APPCOMMAND_LPARAM macro
 
+## -syntax
+
+```cpp
+short GET_APPCOMMAND_LPARAM(
+    LPARAM lParam
+);
+```
+
+## -returns
+
+Type: **short**
+
+The return value is the bits of the high-order word representing the application command. It can be one of the following values.
+
 
 ## -description
 
-Retrieves the application command from the specified 
-			<b>LPARAM</b> value.
+Retrieves the application command from the specified <b>LPARAM</b> value.
 
 ## -parameters
 

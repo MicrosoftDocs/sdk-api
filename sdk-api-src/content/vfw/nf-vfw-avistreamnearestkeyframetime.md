@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNearestKeyFrameTime","AVIStreamNearestKeyFrameTi
 old-location: multimedia\avistreamnearestkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 7409e8e3-d151-4970-9c0e-84ecdf9846a0
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNearestKeyFrameTime, AVIStreamNearestKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrameTime, multimedia.avistreamnearestkeyframetime, vfw/AVIStreamNearestKeyFrameTime
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNearestKeyFrameTime macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNearestKeyFrameTime(
+     pavi,
+     t
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time of the nearest key frame if successful or –1 otherwise.
+
 
 ## -description
 
@@ -69,9 +84,9 @@ The <b>AVIStreamNearestKeyFrameTime</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNearestKeyFrameTime(pavi, lTime) \ 
+#define AVIStreamNearestKeyFrameTime(pavi, t) \ 
     AVIStreamSampleToTime(pavi, AVIStreamNearestKeyFrame(pavi, 
-    AVIStreamTimeToSample(pavi, lTime))) 
+    AVIStreamTimeToSample(pavi, t))) 
 
 ```
 

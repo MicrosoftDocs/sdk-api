@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-net-nfdapi-l1-1-1.dll
  - Ndfapi.dll
 api_name:
  - NdfGetTraceFile

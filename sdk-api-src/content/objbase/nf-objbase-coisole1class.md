@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-com-private-l1-3-1.dll
  - Ole32.dll
 api_name:
  - CoIsOle1Class

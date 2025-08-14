@@ -6,7 +6,7 @@ helpviewer_keywords: ["DrawDibUpdate","DrawDibUpdate macro [Windows Multimedia]"
 old-location: multimedia\drawdibupdate.htm
 tech.root: Multimedia
 ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: DrawDibUpdate, DrawDibUpdate macro [Windows Multimedia], _win32_DrawDibUpdate, multimedia.drawdibupdate, vfw/DrawDibUpdate
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,23 @@ api_name:
 ---
 
 # DrawDibUpdate macro
+
+## -syntax
+
+```cpp
+BOOL DrawDibUpdate(
+    HDRAWDIB hdd,
+    HDC hdc,
+    int x,
+    int y
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

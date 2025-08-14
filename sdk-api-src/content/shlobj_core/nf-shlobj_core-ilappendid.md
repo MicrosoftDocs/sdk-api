@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-namespace-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-Shell-Namespace-L1-1-0.dll
  - Windows.Storage.dll

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetZoom","MCIWndGetZoom macro [Windows Multimedia]"
 old-location: multimedia\mciwndgetzoom.htm
 tech.root: Multimedia
 ms.assetid: 397a41dd-e4ee-4afb-b7a0-3909e79726a5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetZoom, MCIWndGetZoom macro [Windows Multimedia], _win32_MCIWndGetZoom, multimedia.mciwndgetzoom, vfw/MCIWndGetZoom
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetZoom macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetZoom(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the most recent values used with <a href="/windows/desktop/api/vfw/nf-vfw-mciwndsetzoom">MCIWndSetZoom</a>. A return value of 100 indicates the image is not zoomed. A value of 200 indicates the image is enlarged to twice its original size. A value of 50 indicates the image is reduced to half its original size.
 
 
 ## -description

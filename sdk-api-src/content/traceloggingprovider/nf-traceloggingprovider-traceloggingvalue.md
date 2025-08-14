@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingvalue.htm
 tech.root: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue,
   traceloggingprovider/TraceLoggingValue
@@ -56,6 +56,17 @@ api_name:
 ---
 
 # TraceLoggingValue macro
+
+## -syntax
+
+```cpp
+void TraceLoggingValue(
+  [in]             value,
+  [in, optional]  UINT name,
+  [in, optional]  UINT description,
+  [in, optional]  int tags
+);
+```
 
 ## -description
 

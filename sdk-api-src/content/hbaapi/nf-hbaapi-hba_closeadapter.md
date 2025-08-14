@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-storage-hbaapi-l1-1-1.dll
  - hbaapi.h
 api_name:
  - HBA_CloseAdapter

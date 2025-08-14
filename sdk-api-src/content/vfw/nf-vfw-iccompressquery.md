@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICCompressQuery","ICCompressQuery macro [Windows Multimed
 old-location: multimedia\iccompressquery.htm
 tech.root: Multimedia
 ms.assetid: 5e34a830-5e0c-41e5-9e4a-2d827c73ceeb
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32_ICCompressQuery, multimedia.iccompressquery, vfw/ICCompressQuery
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICCompressQuery macro
+
+## -syntax
+
+```cpp
+DWORD ICCompressQuery(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the specified compression is supported or ICERR_BADFORMAT otherwise.
 
 
 ## -description

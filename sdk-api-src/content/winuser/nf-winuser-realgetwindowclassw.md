@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
  - User32.dll
  - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll

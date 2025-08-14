@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-powermanagement-l1-1-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
  - minuser.dll

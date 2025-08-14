@@ -29,6 +29,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-registry-private-l1-1-0.dll
  - winreg.h
 api_name:
  - RegRenameKey

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetPosition","MCIWndGetPosition macro [Windows Mult
 old-location: multimedia\mciwndgetposition.htm
 tech.root: Multimedia
 ms.assetid: 317e2d37-432b-41ae-a1ef-66e2dd31a21c
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _win32_MCIWndGetPosition, multimedia.mciwndgetposition, vfw/MCIWndGetPosition
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetPosition macro
+
+## -syntax
+
+```cpp
+LONG MCIWndGetPosition(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns an integer corresponding to the current position. The units for the position value depend on the current time format.
 
 
 ## -description

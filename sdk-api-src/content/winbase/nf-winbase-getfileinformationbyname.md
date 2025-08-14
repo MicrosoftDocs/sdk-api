@@ -31,6 +31,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-file-l2-1-4.dll
  - winbase.h
 api_name:
  - GetFileInformationByName

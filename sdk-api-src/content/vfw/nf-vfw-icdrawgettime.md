@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawGetTime","ICDrawGetTime macro [Windows Multimedia]"
 old-location: multimedia\icdrawgettime.htm
 tech.root: Multimedia
 ms.assetid: ebf21b97-7bfe-4eca-9442-9fc4db663ac6
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawGetTime, ICDrawGetTime macro [Windows Multimedia], _win32_ICDrawGetTime, multimedia.icdrawgettime, vfw/ICDrawGetTime
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICDrawGetTime macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawGetTime(
+     hic,
+     lplTime
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

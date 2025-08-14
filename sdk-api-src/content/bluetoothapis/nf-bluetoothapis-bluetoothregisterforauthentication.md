@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-bluetooth-apis-l1-1-0.dll
  - bthprops.cpl
 api_name:
  - BluetoothRegisterForAuthentication

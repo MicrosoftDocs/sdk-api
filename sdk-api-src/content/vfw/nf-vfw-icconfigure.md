@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICConfigure","ICConfigure macro [Windows Multimedia]","_w
 old-location: multimedia\icconfigure.htm
 tech.root: Multimedia
 ms.assetid: 58dbe8ff-4236-456c-8361-e7716e764f89
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICConfigure, ICConfigure macro [Windows Multimedia], _win32_ICConfigure, multimedia.icconfigure, vfw/ICConfigure
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICConfigure macro
+
+## -syntax
+
+```cpp
+DWORD ICConfigure(
+     hic,
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this macro or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

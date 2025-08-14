@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetMenuItemInfo", "SetMenuItemInfo function [Menus and Ot
 old-location: menurc\setmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
-ms.date: 12/05/2018
+ms.date: 07/02/2025
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
 req.header: winuser.h
 req.include-header: Windows.h
@@ -71,13 +71,13 @@ A handle to the menu that contains the menu item.
 
 Type: <b>UINT</b>
 
-The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>.
+The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPositon</i>.
 
-### -param fByPosition [in]
+### -param fByPositon [in]
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information.
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
 
 ### -param lpmii [in]
 

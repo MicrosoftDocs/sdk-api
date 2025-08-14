@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-usp10-l1-1-0.dll
  - usp10.dll
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32.dll

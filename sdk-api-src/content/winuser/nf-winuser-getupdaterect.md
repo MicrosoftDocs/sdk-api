@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-draw-l1-1-0.dll
  - user32.dll
  - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
  - Ext-MS-Win-NTUser-Draw-l1-1-1.dll

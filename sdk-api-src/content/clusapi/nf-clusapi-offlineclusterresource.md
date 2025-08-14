@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-clusapi-l1-1-6.dll
+ - ext-ms-win-cluster-clusapi-l1-1-5.dll
+ - ext-ms-win-cluster-clusapi-l1-1-4.dll
  - ClusAPI.dll
  - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
  - ext-ms-win-cluster-clusapi-l1-1-3.dll

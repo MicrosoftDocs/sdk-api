@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-printer-winspool-l1-1-4.dll
+ - ext-ms-win-printer-winspool-core-l1-1-0.dll
  - WinSpool.drv
  - Ext-MS-Win-printer-WinSpool-l1-1-2.dll
  - WinSpool.drv

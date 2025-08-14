@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamNextSampleTime","AVIStreamNextSampleTime macro [
 old-location: multimedia\avistreamnextsampletime.htm
 tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamNextSampleTime, AVIStreamNextSampleTime macro [Windows Multimedia], _win32_AVIStreamNextSampleTime, multimedia.avistreamnextsampletime, vfw/AVIStreamNextSampleTime
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamNextSampleTime macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamNextSampleTime(
+     pavi,
+     t
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or –1 otherwise.
+
 
 ## -description
 
@@ -69,7 +84,7 @@ The <b>AVIStreamNextSampleTime</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamNextSampleTime(pavi, time) \ 
+#define AVIStreamNextSampleTime(pavi, t) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextSample(pavi, \ 
     AVIStreamTimeToSample(pavi, t))) 

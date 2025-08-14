@@ -27,6 +27,8 @@ topic_type:
  - apiref
 api_type:
 api_location:
+ - api-ms-win-core-sysinfo-l1-2-7.dll
+ - api-ms-win-core-sysinfo-l1-2-6.dll
  - sysinfoapi.h
 api_name:
  - IsUserCetAvailableInEnvironment

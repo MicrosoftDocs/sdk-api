@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capGetStatus","capGetStatus","capGetStatus macro [
 old-location: multimedia\capgetstatus.htm
 tech.root: Multimedia
 ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capGetStatus macro
+
+## -syntax
+
+```cpp
+BOOL capGetStatus(
+     hwnd,
+     s,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the capture window is not connected to a capture driver.
 
 
 ## -description

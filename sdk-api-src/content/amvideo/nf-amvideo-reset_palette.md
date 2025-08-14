@@ -6,7 +6,7 @@ helpviewer_keywords: ["RESET_PALETTE","RESET_PALETTE macro [DirectShow]","amvide
 old-location: dshow\reset_palette.htm
 tech.root: dshow
 ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # RESET_PALETTE macro
+
+## -syntax
+
+```cpp
+void RESET_PALETTE(
+    VIDEOINFO *pbmi
+);
+```
 
 
 ## -description

@@ -29,6 +29,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-wow64-l1-1-3.dll
+ - api-ms-win-core-wow64-l1-1-2.dll
  - KernelBase.dll
  - api-ms-win-core-wow64-l1-1-1.dll  
 api_name:
@@ -41,6 +43,8 @@ dev_langs:
 helpviewer_keywords:
  - Wow64SetThreadDefaultGuestMachine
 ---
+
+# Wow64SetThreadDefaultGuestMachine function
 
 ## -description
 

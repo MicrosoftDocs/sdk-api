@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capEditCopy","capEditCopy","capEditCopy macro [Win
 old-location: multimedia\capeditcopy.htm
 tech.root: Multimedia
 ms.assetid: 25b16107-b2ec-4e16-a596-10708dbc639d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capEditCopy, capEditCopy, capEditCopy macro [Windows Multimedia], multimedia.capeditcopy, vfw/capEditCopy
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capEditCopy macro
+
+## -syntax
+
+```cpp
+BOOL capEditCopy(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

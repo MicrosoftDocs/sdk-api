@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetInactiveTimer","MCIWndGetInactiveTimer macro [Wi
 old-location: multimedia\mciwndgetinactivetimer.htm
 tech.root: Multimedia
 ms.assetid: a9683a34-7fbd-4878-a547-4421d5888308
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multimedia], _win32_MCIWndGetInactiveTimer, multimedia.mciwndgetinactivetimer, vfw/MCIWndGetInactiveTimer
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetInactiveTimer macro
+
+## -syntax
+
+```cpp
+UINT MCIWndGetInactiveTimer(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+Returns the update period, in milliseconds. The default value is 2000 milliseconds.
 
 
 ## -description

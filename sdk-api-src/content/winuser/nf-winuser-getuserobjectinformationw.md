@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-winstamin-l1-1-0.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
  - Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll

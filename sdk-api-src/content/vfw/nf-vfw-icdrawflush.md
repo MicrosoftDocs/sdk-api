@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDrawFlush","ICDrawFlush macro [Windows Multimedia]","_w
 old-location: multimedia\icdrawflush.htm
 tech.root: Multimedia
 ms.assetid: ceff1075-4e23-4be0-aac0-27fc5fe68083
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDrawFlush, ICDrawFlush macro [Windows Multimedia], _win32_ICDrawFlush, multimedia.icdrawflush, vfw/ICDrawFlush
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICDrawFlush macro
+
+## -syntax
+
+```cpp
+DWORD ICDrawFlush(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

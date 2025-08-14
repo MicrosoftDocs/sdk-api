@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICAbout","ICAbout macro [Windows Multimedia]","_win32_ICA
 old-location: multimedia\icabout.htm
 tech.root: Multimedia
 ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # ICAbout macro
+
+## -syntax
+
+```cpp
+DWORD ICAbout(
+     hic,
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if the driver supports this message or ICERR_UNSUPPORTED otherwise.
 
 
 ## -description

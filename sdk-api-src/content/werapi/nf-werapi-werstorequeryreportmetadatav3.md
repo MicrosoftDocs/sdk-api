@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-wer-reporting-l1-1-3.dll
  - werapi.h
 api_name:
  - WerStoreQueryReportMetadataV3

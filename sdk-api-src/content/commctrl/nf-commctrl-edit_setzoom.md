@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_SetZoom","Edit_SetZoom macro [Windows Controls]","co
 old-location: controls\edit_setzoom.htm
 tech.root: Controls
 ms.assetid: 228EE5A0-AFAE-4485-8942-EB9BB6C12D54
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_SetZoom, Edit_SetZoom macro [Windows Controls], commctrl/Edit_SetZoom, controls.edit_setzoom
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,16 @@ api_name:
 ---
 
 # Edit_SetZoom macro
+
+## -syntax
+
+```cpp
+void Edit_SetZoom(
+         HWND hwndCtl,
+  [out]  LONG numerator,
+  [out]  LONG denominator
+);
+```
 
 
 ## -description

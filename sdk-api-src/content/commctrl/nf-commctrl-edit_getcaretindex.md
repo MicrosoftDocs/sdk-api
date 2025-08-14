@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetCaretIndex","Edit_GetCaretIndex macro [Windows Co
 old-location: controls\edit_getcaretindex.htm
 tech.root: Controls
 ms.assetid: 548EAC06-9127-493D-BE0E-8982DCA52895
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetCaretIndex, Edit_GetCaretIndex macro [Windows Controls], commctrl/Edit_GetCaretIndex, controls.edit_getcaretindex
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # Edit_GetCaretIndex macro
+
+## -syntax
+
+```cpp
+int Edit_GetCaretIndex(
+    HWND hwndCtl
+);
+```
+
+## -returns
+
+Type: **int**
+
+The character index.
 
 
 ## -description

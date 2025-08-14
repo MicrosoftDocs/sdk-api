@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndPutDest","MCIWndPutDest macro [Windows Multimedia]"
 old-location: multimedia\mciwndputdest.htm
 tech.root: Multimedia
 ms.assetid: d058c1b7-f7f8-49a0-84cc-ece298a25289
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndPutDest, MCIWndPutDest macro [Windows Multimedia], _win32_MCIWndPutDest, multimedia.mciwndputdest, vfw/MCIWndPutDest
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndPutDest macro
+
+## -syntax
+
+```cpp
+LONG MCIWndPutDest(
+     hwnd,
+     prc
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

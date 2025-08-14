@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-processthreads-l1-1-8.dll
+ - api-ms-win-core-processthreads-l1-1-7.dll
+ - api-ms-win-core-processthreads-l1-1-6.dll
+ - api-ms-win-core-processthreads-l1-1-5.dll
+ - api-ms-win-core-processthreads-l1-1-4.dll
  - Advapi32.dll
  - API-MS-Win-Core-Processsecurity-l1-1-0.dll
  - Kernel32.dll
@@ -133,8 +138,7 @@ The system adds a null character to the command line string to separate the file
 
 ### -param lpProcessAttributes [in, optional]
 
-A pointer to a 
-<a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new process object and determines whether child processes can inherit the returned handle to the process. If <i>lpProcessAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the process gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller, in which case the process may not be opened again after it is run. The process handle is valid and will continue to have full access rights.
+A pointer to a <a href="/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes">SECURITY_ATTRIBUTES</a> structure that specifies a security descriptor for the new process object and determines whether child processes can inherit the returned handle to the process. If <i>lpProcessAttributes</i> is <b>NULL</b> or <b>lpSecurityDescriptor</b> is <b>NULL</b>, the process gets a default security descriptor and the handle cannot be inherited. The default security descriptor is that of the user referenced in the <i>hToken</i> parameter. This security descriptor may not allow access for the caller, in which case the process may not be opened again after it is run. The process handle is valid and will continue to have full access rights.
 
 ### -param lpThreadAttributes [in, optional]
 
@@ -291,8 +295,8 @@ The <i>lpApplicationName</i> parameter can be NULL, in which case the executable
 
 
 ``` syntax
-	LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );
+    LPTSTR szCmdline[] = _tcsdup(TEXT("C:\\Program Files\\MyApp"));
+    CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/ );
 ```
 
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
@@ -302,8 +306,8 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 
 
 ``` syntax
-	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
-	CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);
+    LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
+    CreateProcessAsUser(hToken, NULL, szCmdline, /*...*/);
 ```
 
 <b>PowerShell:  </b>When the <b>CreateProcessAsUser</b> function is used to implement a cmdlet in PowerShell version 2.0, the cmdlet operates correctly for both fan-in and fan-out remote sessions. Because of certain security scenarios, however, a cmdlet implemented with <b>CreateProcessAsUser</b> only operates correctly in PowerShell version 3.0 for fan-in remote sessions; fan-out remote sessions will fail because of insufficient client security privileges. To implement a cmdlet that works for both fan-in and fan-out remote sessions in PowerShell version 3.0, use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.

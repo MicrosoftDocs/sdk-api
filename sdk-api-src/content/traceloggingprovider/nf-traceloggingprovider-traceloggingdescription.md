@@ -12,7 +12,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingdescription.htm
 tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingDescription, TraceLoggingDescription macro,
   tracelogging.traceloggingdescription,
@@ -55,6 +55,14 @@ api_name:
 ---
 
 # TraceLoggingDescription macro
+
+## -syntax
+
+```cpp
+void TraceLoggingDescription(
+  [in]  string eventDescription
+);
+```
 
 ## -description
 

@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-shlwapi-l2-1-0.dll
  - Shlwapi.dll
  - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
  - ShCore.dll

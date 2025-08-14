@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-crt-stdio-l1-1-0.dll
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:

@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capFileGetCaptureFile","capFileGetCaptureFile","ca
 old-location: multimedia\capfilegetcapturefile.htm
 tech.root: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capFileGetCaptureFile macro
+
+## -syntax
+
+```cpp
+BOOL capFileGetCaptureFile(
+     hwnd,
+     szName,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

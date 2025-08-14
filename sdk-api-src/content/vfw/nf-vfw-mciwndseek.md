@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSeek","MCIWndSeek macro [Windows Multimedia]","_win
 old-location: multimedia\mciwndseek.htm
 tech.root: Multimedia
 ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSeek, MCIWndSeek macro [Windows Multimedia], _win32_MCIWndSeek, multimedia.mciwndseek, vfw/MCIWndSeek
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSeek macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSeek(
+     hwnd,
+     lPos
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

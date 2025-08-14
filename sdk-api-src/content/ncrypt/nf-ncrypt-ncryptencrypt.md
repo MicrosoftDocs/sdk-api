@@ -136,7 +136,7 @@ The data will be padded with a random number to round out the block size. The <i
 </dl>
 </td>
 <td width="60%">
-Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
+Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
 
 </td>
 </tr>

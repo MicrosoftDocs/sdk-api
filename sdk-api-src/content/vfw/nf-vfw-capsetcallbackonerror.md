@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capSetCallbackOnError","capSetCallbackOnError","ca
 old-location: multimedia\capsetcallbackonerror.htm
 tech.root: Multimedia
 ms.assetid: 1f9d3dba-be6d-4f7d-a80c-5bca8632e13f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capSetCallbackOnError, capSetCallbackOnError, capSetCallbackOnError macro [Windows Multimedia], multimedia.capsetcallbackonerror, vfw/capSetCallbackOnError
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # capSetCallbackOnError macro
+
+## -syntax
+
+```cpp
+BOOL capSetCallbackOnError(
+     hwnd,
+     fpProc
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if streaming capture or a single-frame capture session is in progress.
 
 
 ## -description

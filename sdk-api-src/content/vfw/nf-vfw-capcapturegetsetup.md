@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capCaptureGetSetup","capCaptureGetSetup","capCaptu
 old-location: multimedia\capcapturegetsetup.htm
 tech.root: Multimedia
 ms.assetid: 198b1aae-b719-4fb8-a11d-859eaf7a4606
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capCaptureGetSetup, capCaptureGetSetup, capCaptureGetSetup macro [Windows Multimedia], multimedia.capcapturegetsetup, vfw/capCaptureGetSetup
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capCaptureGetSetup macro
+
+## -syntax
+
+```cpp
+BOOL capCaptureGetSetup(
+     hwnd,
+     s,
+     wSize
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

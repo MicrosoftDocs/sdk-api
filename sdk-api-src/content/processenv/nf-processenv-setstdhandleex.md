@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: Windows�Vista
+req.target-min-winversvr: Windows Server�2008
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -34,6 +34,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - api-ms-win-core-processenvironment-l1-2-0.dll
  - api-ms-win-core-processenvironment-l1-1-0.dll
  - kernel32.dll
 api_name:

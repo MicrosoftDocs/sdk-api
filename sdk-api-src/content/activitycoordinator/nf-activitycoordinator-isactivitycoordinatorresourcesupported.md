@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - ext-ms-win-resourcemanager-activitycoordinator-l1-1-1.dll
  - activitycoordinator.h
 api_name:
  - IsActivityCoordinatorResourceSupported

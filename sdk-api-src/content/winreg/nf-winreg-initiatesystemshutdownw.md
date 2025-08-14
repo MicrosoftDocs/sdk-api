@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-shutdown-l1-1-1.dll
+ - api-ms-win-core-shutdown-l1-1-0.dll
  - Advapi32.dll
  - AdvApi32Legacy.dll
  - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll

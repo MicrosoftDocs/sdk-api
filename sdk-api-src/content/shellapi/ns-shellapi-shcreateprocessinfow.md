@@ -47,6 +47,7 @@ api_location:
  - Shellapi.h
 api_name:
  - SHCREATEPROCESSINFOW
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # SHCREATEPROCESSINFOW structure

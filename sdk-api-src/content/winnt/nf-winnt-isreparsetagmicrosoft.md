@@ -6,7 +6,7 @@ helpviewer_keywords: ["IsReparseTagMicrosoft","IsReparseTagMicrosoft macro [File
 old-location: fs\isreparsetagmicrosoft.htm
 tech.root: fs
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_isreparsetagmicrosoft, base.isreparsetagmicrosoft, fs.isreparsetagmicrosoft, winnt/IsReparseTagMicrosoft
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # IsReparseTagMicrosoft macro
+
+## -syntax
+
+```cpp
+ULONG IsReparseTagMicrosoft(
+    ULONG _tag
+);
+```
+
+## -returns
+
+Type: **ULONG**
+
+A nonzero return value indicates that the tag is a Microsoft tag. A zero return value indicates that the tag is not a Microsoft tag. Only software developed by Microsoft or in partnership with Microsoft can use Microsoft tags. All other software must use non-Microsoft tags.
 
 
 ## -description

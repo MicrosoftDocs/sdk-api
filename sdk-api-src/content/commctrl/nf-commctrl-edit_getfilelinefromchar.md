@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLineFromChar","Edit_GetFileLineFromChar macro
 old-location: controls\edit_getfilelinefromchar.htm
 tech.root: Controls
 ms.assetid: 1427DEB0-2B15-4DC5-AD0B-D4F9BA12CB2C
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLineFromChar, Edit_GetFileLineFromChar macro [Windows Controls], commctrl/Edit_GetFileLineFromChar, controls.edit_getfilelinefromchar
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # Edit_GetFileLineFromChar macro
+
+## -syntax
+
+```cpp
+UINT Edit_GetFileLineFromChar(
+    HWND hwndCtl,
+    UINT characterIndex
+);
+```
+
+## -returns
+
+Type: **[UINT](/windows/desktop/winprog/windows-data-types)**
+
+The logical line index.
 
 
 ## -description

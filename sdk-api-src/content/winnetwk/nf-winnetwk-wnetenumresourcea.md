@@ -202,7 +202,7 @@ For a code sample that illustrates an application-defined function that enumerat
 
 ## -see-also
 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a>
 
 
 

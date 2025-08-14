@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capPaletteAuto","capPaletteAuto","capPaletteAuto m
 old-location: multimedia\cappaletteauto.htm
 tech.root: Multimedia
 ms.assetid: d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # capPaletteAuto macro
+
+## -syntax
+
+```cpp
+BOOL capPaletteAuto(
+     hwnd,
+     iFrames,
+     iColors
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** otherwise.If an error occurs and an error callback function is set using the **capSetCallbackOnError** macro, the error callback function is called.
 
 
 ## -description

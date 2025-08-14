@@ -6,7 +6,7 @@ helpviewer_keywords: ["RpcAsyncGetCallHandle","RpcAsyncGetCallHandle macro [RPC]
 old-location: rpc\rpcasyncgetcallhandle.htm
 tech.root: Rpc
 ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
 req.header: rpcasync.h
 req.include-header: Rpc.h
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # RpcAsyncGetCallHandle macro
+
+## -syntax
+
+```cpp
+void RpcAsyncGetCallHandle(
+    PRPC_ASYNC_STATE pAsync
+);
+```
 
 
 ## -description

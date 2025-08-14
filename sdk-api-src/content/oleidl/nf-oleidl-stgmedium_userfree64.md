@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-core-marshal-l2-1-0.dll
  - ole32.dll
 api_name:
  - STGMEDIUM_UserFree64

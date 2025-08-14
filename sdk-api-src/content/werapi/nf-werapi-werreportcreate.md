@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-wer-reporting-l1-1-3.dll
+ - ext-ms-win-wer-reporting-l1-1-2.dll
  - Wer.dll
  - Ext-MS-Win-wer-reporting-l1-1-0.dll
  - errorhandlingext.dll

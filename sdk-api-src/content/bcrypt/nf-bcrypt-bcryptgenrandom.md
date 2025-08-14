@@ -161,7 +161,7 @@ The default random number provider implements an algorithm for generating random
 
 <b>Windows Vista:  </b>Prior to Windows Vista with Service Pack 1 (SP1) the default random number provider implements an algorithm for generating random numbers that complies with the FIPS 186-2 standard. 
 
-Depending on what processor modes a provider supports, <b>BCryptGenRandom</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenRandom</b> function must refer to nonpaged (or locked) memory. <b>Windows Vista:  </b>The Microsoft provider does not support calling at <b>DISPATCH_LEVEL</b>.
+When using a supported algorithm provider, <b>BCryptGenRandom</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenRandom</b> function must refer to nonpaged (or locked) memory. <b>Windows Vista:  </b>The Microsoft provider does not support calling at <b>DISPATCH_LEVEL</b>.
 
 
 

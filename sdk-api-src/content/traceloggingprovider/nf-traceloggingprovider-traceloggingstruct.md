@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct,
   traceloggingprovider/TraceLoggingStruct
@@ -56,6 +56,17 @@ api_name:
 ---
 
 # TraceLoggingStruct macro
+
+## -syntax
+
+```cpp
+void TraceLoggingStruct(
+  [in]            int fieldCount,
+  [in]            string name,
+  [in, optional]  string description,
+  [in, optional]  int tags
+);
+```
 
 ## -description
 

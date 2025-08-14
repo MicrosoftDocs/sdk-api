@@ -6,7 +6,7 @@ helpviewer_keywords: ["PALETTEINDEX","PALETTEINDEX macro [Windows GDI]","_win32_
 old-location: gdi\paletteindex.htm
 tech.root: gdi
 ms.assetid: 76d859fa-11a5-451f-9d7a-9cf0740eca36
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # PALETTEINDEX macro
+
+## -syntax
+
+```cpp
+COLORREF PALETTEINDEX(
+    WORD i
+);
+```
+
+## -returns
+
+Type: **[COLORREF](/windows/desktop/winprog/windows-data-types)**
+
+The return value is a logical-palette index specifier.
 
 
 ## -description

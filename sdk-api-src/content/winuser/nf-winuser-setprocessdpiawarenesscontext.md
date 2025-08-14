@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-dpi-l1-2-2.dll
  - User32.dll
 api_name:
  - SetProcessDpiAwarenessContext

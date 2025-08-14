@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-associations-l1-1-3.dll
+ - api-ms-win-shell-associations-l1-1-2.dll
+ - api-ms-win-shell-associations-l1-1-1.dll
  - Shell32.dll
  - API-MS-Win-Shell-Associations-L1-1-0.dll
  - Windows.Storage.dll

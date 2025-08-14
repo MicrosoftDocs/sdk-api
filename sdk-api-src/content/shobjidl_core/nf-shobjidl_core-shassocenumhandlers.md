@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-associations-l1-1-3.dll
  - Shell32.dll
 api_name:
  - SHAssocEnumHandlers

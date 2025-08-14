@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndEnd","MCIWndEnd macro [Windows Multimedia]","_win32
 old-location: multimedia\mciwndend.htm
 tech.root: Multimedia
 ms.assetid: 42704391-cc99-48d1-8274-12621f674708
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndEnd, MCIWndEnd macro [Windows Multimedia], _win32_MCIWndEnd, multimedia.mciwndend, vfw/MCIWndEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndEnd macro
+
+## -syntax
+
+```cpp
+LONG MCIWndEnd(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetGValue","GetGValue macro [Windows GDI]","_win32_GetGVa
 old-location: gdi\getgvalue.htm
 tech.root: gdi
 ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # GetGValue macro
+
+## -syntax
+
+```cpp
+BYTE GetGValue(
+    DWORD rgb
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+The return value is the intensity of the green component of the specified RGB color.
 
 
 ## -description

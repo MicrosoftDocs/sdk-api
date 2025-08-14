@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-atoms-l1-1-0.dll
  - Kernel32.dll
 api_name:
  - GlobalAddAtomEx

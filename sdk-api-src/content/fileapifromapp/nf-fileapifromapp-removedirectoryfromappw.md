@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_location:
-- Kernel32.dll
+ - Kernel32.dll
 api_name:
 - RemoveDirectoryFromAppW
 - RemoveDirectoryFromApp

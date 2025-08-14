@@ -47,6 +47,7 @@ api_location:
  - Shellapi.h
 api_name:
  - SHELLEXECUTEINFO - SHELLEXECUTEINFOA
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # SHELLEXECUTEINFOA structure
@@ -193,25 +194,25 @@ Optional. A handle to the owner window, used to display and position any UI that
 
 Type: <b>LPCTSTR</b>
 
-A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+A string, referred to as a <i>verb</i>, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs. This parameter can be <b>NULL</b>, in which case the default verb is used if available. If not, the ":::no-loc text="open"::" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
 Unless there is a reason to limit the action to a specific verb, pass NULL to use the computed default. This is necessary in some cases, for example when specifying SEE_MASK_FLAG_NO_UI and the intention is to produce the "Open With" UI, if no apps are installed.
 
 The following verbs are commonly used:
 
-- **edit**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
-- **explore**: Explores the folder specified by <b>lpFile</b>.
-- **find**: Initiates a search starting from the specified directory.
-- **open**: Opens the file specified by the <b>lpFile</b> parameter. The file can be an executable file, a document file, or a folder.
-- **openas**: Launches an "Open With" dialog that lets the user select an app with which to open the file specified by the <b>lpFile</b> parameter.
-- **print**: Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a document file, the function will fail.
-- **properties**: Displays the file or folder's properties.
+- **:::no-loc text="edit":::**: Launches an editor and opens the document for editing. If <b>lpFile</b> is not a document file, the function will fail.
+- **:::no-loc text="explore":::**: Explores the folder specified by <b>lpFile</b>.
+- **:::no-loc text="find":::**: Initiates a search starting from the specified directory.
+- **:::no-loc text="open":::**: Opens the file specified by the <b>lpFile</b> parameter. The file can be an executable file, a document file, or a folder.
+- **:::no-loc text="openas":::**: Launches an "Open With" dialog that lets the user select an app with which to open the file specified by the <b>lpFile</b> parameter.
+- **:::no-loc text="print":::**: Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a document file, the function will fail.
+- **:::no-loc text="properties":::**: Displays the file or folder's properties.
 - **runas**: Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
 
 ### -field lpFile
 
 Type: <b>LPCTSTR</b>
 
-The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include "open" for executable files and document files and "print" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as "play" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
+The address of a null-terminated string that specifies the name of the file or object on which <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> will perform the action specified by the <b>lpVerb</b> parameter. The system registry verbs that are supported by the <b>ShellExecuteEx</b> function include ":::no-loc text="open"::" for executable files and document files and ":::no-loc text="print"::" for document files for which a print handler has been registered. Other applications might have added Shell verbs through the system registry, such as ":::no-loc text="play"::" for .avi and .wav files. To specify a Shell namespace object, pass the fully qualified parse name and set the <b>SEE_MASK_INVOKEIDLIST</b> flag in the <b>fMask</b> parameter.
 
 <div class="alert"><b>Note:</b> If the <b>SEE_MASK_INVOKEIDLIST</b> flag is set, you can use either <b>lpFile</b> or <b>lpIDList</b> to identify the item by its file system path or its PIDL respectively. One of the two values—<b>lpFile</b> or <b>lpIDList</b>—must be set.</div>
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingcustom.htm
 tech.root: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
-ms.date: 06/06/2022
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom,
   traceloggingprovider/TraceLoggingCustom
@@ -56,6 +56,21 @@ api_name:
 ---
 
 # TraceLoggingCustom macro
+
+## -syntax
+
+```cpp
+void TraceLoggingCustom(
+  [in]             pValue,
+  [in]             cbValue,
+  [in]             protocol,
+  [in]             bSchema,
+  [in]             cbSchema,
+  [in, optional]   name,
+  [in, optional]   description,
+  [in, optional]   tags
+);
+```
 
 ## -description
 

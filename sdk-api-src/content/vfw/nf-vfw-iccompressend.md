@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICCompressEnd","ICCompressEnd macro [Windows Multimedia]"
 old-location: multimedia\iccompressend.htm
 tech.root: Multimedia
 ms.assetid: 04daaf34-63c3-40c1-9ed6-2ae07558d1b8
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICCompressEnd, ICCompressEnd macro [Windows Multimedia], _win32_ICCompressEnd, multimedia.iccompressend, vfw/ICCompressEnd
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # ICCompressEnd macro
+
+## -syntax
+
+```cpp
+DWORD ICCompressEnd(
+     hic
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

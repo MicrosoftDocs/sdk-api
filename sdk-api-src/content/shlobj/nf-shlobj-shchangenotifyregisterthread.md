@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-shell-changenotify-l1-1-1.dll
  - Shell32.dll
 api_name:
  - SHChangeNotifyRegisterThread

@@ -5,7 +5,7 @@ description: Checks whether the specified pointer took primary action.
 helpviewer_keywords: ["IS_POINTER_PRIMARY_WPARAM","IS_POINTER_PRIMARY_WPARAM","IS_POINTER_PRIMARY_WPARAM macro [Input Messages and Notifications]","inputmsg.is_pointer_primary_wparam","winuser/IS_POINTER_PRIMARY_WPARAM"]
 old-location: inputmsg\is_pointer_primary_wparam.htm
 tech.root: InputMsg
-ms.date: 05/06/2024
+ms.date: 07/01/2025
 ms.keywords: IS_POINTER_PRIMARY_WPARAM, IS_POINTER_PRIMARY_WPARAM, IS_POINTER_PRIMARY_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_primary_wparam, winuser/IS_POINTER_PRIMARY_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -45,6 +45,20 @@ api_name:
 ---
 
 # IS_POINTER_PRIMARY_WPARAM macro
+
+## -syntax
+
+```cpp
+BOOL IS_POINTER_PRIMARYBUTTON_WPARAM(
+    WPARAM wParam
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+**TRUE** if the specified pointer is the primary pointer. Otherwise, **FALSE**.
 
 ## -description
 

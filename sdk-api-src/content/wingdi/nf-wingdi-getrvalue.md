@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetRValue","GetRValue macro [Windows GDI]","_win32_GetRVa
 old-location: gdi\getrvalue.htm
 tech.root: gdi
 ms.assetid: c183b671-20f8-468c-af0d-9f03cbc4b170
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: GetRValue, GetRValue macro [Windows GDI], _win32_GetRValue, gdi.getrvalue, wingdi/GetRValue
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # GetRValue macro
+
+## -syntax
+
+```cpp
+BYTE GetRValue(
+    DWORD rgb
+);
+```
+
+## -returns
+
+Type: **[BYTE](/windows/desktop/winprog/windows-data-types)**
+
+The return value is the intensity of the red component of the specified RGB color.
 
 
 ## -description

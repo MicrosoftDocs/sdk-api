@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressGetFormat","ICDecompressGetFormat macro [Wind
 old-location: multimedia\icdecompressgetformat.htm
 tech.root: Multimedia
 ms.assetid: c45ff664-03f0-4cda-9ffd-fb7ea2656e43
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressGetFormat, ICDecompressGetFormat macro [Windows Multimedia], _win32_ICDecompressGetFormat, multimedia.icdecompressgetformat, vfw/ICDecompressGetFormat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICDecompressGetFormat macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressGetFormat(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+If _lpbiOutput_ is zero, returns the size of the structure.If _lpbiOutput_ is nonzero, returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

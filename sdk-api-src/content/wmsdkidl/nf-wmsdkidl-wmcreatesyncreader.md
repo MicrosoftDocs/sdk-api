@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-mm-wmvcore-l1-1-0.dll
  - Wmvcore.dll
 api_name:
  - WMCreateSyncReader

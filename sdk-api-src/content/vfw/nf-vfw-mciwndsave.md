@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSave","MCIWndSave macro [Windows Multimedia]","_win
 old-location: multimedia\mciwndsave.htm
 tech.root: Multimedia
 ms.assetid: 11b67381-5177-4b55-b0a2-a633e60ae571
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSave, MCIWndSave macro [Windows Multimedia], _win32_MCIWndSave, multimedia.mciwndsave, vfw/MCIWndSave
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSave macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSave(
+     hwnd,
+     szFile
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

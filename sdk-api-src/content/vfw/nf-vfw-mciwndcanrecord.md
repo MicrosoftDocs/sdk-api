@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndCanRecord","MCIWndCanRecord macro [Windows Multimed
 old-location: multimedia\mciwndcanrecord.htm
 tech.root: Multimedia
 ms.assetid: 836747de-9306-4219-b462-e2c8efd42666
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndCanRecord, MCIWndCanRecord macro [Windows Multimedia], _win32_MCIWndCanRecord, multimedia.mciwndcanrecord, vfw/MCIWndCanRecord
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndCanRecord macro
+
+## -syntax
+
+```cpp
+BOOL MCIWndCanRecord(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the device supports recording or **FALSE** otherwise.
 
 
 ## -description

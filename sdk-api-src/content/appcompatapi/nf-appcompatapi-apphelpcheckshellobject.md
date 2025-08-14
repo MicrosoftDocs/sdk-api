@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-appcompat-apphelp-l1-1-2.dll
+ - ext-ms-win-appcompat-apphelp-l1-1-1.dll
  - Apphelp.dll
  - Ext-MS-Win-AppCompat-AppHelp-L1-1-0.dll
 api_name:

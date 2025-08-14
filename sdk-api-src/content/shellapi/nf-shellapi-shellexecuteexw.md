@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - ext-ms-win-appmodel-shellexecute-l1-1-0.dll
  - Shell32.dll
  - Ext-MS-Win-shell-shell32-l1-2-0.dll
  - ext-ms-win-shell-shell32-l1-2-1.dll

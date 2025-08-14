@@ -30,6 +30,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-systemtopology-l1-1-2.dll
  - systemtopologyapi.h
 api_name:
  - GetNumaNodeProcessorMask2

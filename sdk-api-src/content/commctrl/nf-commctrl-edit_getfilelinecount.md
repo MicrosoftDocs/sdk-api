@@ -6,7 +6,7 @@ helpviewer_keywords: ["Edit_GetFileLineCount","Edit_GetFileLineCount macro [Wind
 old-location: controls\edit_getfilelinecount.htm
 tech.root: Controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount
 req.header: commctrl.h
 req.include-header: 
@@ -46,6 +46,14 @@ api_name:
 ---
 
 # Edit_GetFileLineCount macro
+
+## -syntax
+
+```cpp
+void Edit_GetFileLineCount(
+    HWND hwndCtl
+);
+```
 
 
 ## -description

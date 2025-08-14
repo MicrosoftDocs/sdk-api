@@ -56,104 +56,21 @@ api_name:
 
 Maps a character string to a UTF-16 (wide character) string. The character string is not necessarily from a multibyte character set.
 
-<div class="alert"><b>Caution</b>  Using the <b>MultiByteToWideChar</b> function incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by <i>lpMultiByteStr</i> equals the number of bytes in the string, while the size of the output buffer indicated by <i>lpWideCharStr</i> equals the number of characters. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives. For more information, see <a href="/windows/win32/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div>
-<div> </div>
-
-<div class="alert"><b>Note</b>  The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
-<div> </div>
-
 ## -parameters
 
 ### -param CodePage [in]
 
-Code page to use in performing the conversion. This parameter can be set to the value of any code page that is installed or available in the operating system. For a list of code pages, see <a href="/windows/win32/Intl/code-page-identifiers">Code Page Identifiers</a>. Your application can also specify one of the values shown in the following table.
+Code page to use in performing the conversion. This parameter can be set to the value of any code page that is installed or available in the operating system. For a list of code pages, see [Code Page Identifiers](/windows/win32/Intl/code-page-identifiers). Your application can also specify one of the values shown in the following table.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CP_ACP"></a><a id="cp_acp"></a><dl>
-<dt><b>CP_ACP</b></dt>
-</dl>
-</td>
-<td width="60%">
-The system default Windows ANSI code page.
-
-<div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_MACCP"></a><a id="cp_maccp"></a><dl>
-<dt><b>CP_MACCP</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current system Macintosh code page.
-
-<div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
-<div> </div>
-<div class="alert"><b>Note</b>   This value is used primarily in legacy code and should not generally be needed since modern Macintosh computers use Unicode for encoding.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_OEMCP"></a><a id="cp_oemcp"></a><dl>
-<dt><b>CP_OEMCP</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current system OEM code page.
-
-<div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_SYMBOL"></a><a id="cp_symbol"></a><dl>
-<dt><b>CP_SYMBOL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Symbol code page (42).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_THREAD_ACP"></a><a id="cp_thread_acp"></a><dl>
-<dt><b>CP_THREAD_ACP</b></dt>
-</dl>
-</td>
-<td width="60%">
-The Windows ANSI code page for the current thread.
-
-<div class="alert"><b>Note</b>  This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_UTF7"></a><a id="cp_utf7"></a><dl>
-<dt><b>CP_UTF7</b></dt>
-</dl>
-</td>
-<td width="60%">
-UTF-7. Use this value only when forced by a 7-bit transport mechanism. Use of UTF-8 is preferred.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CP_UTF8"></a><a id="cp_utf8"></a><dl>
-<dt><b>CP_UTF8</b></dt>
-</dl>
-</td>
-<td width="60%">
-UTF-8.
-
-</td>
-</tr>
-</table>
+| Value                | Meaning |
+|----------------------|---------|
+| **CP_ACP**           | The system default Windows ANSI code page.<br><br>**Note:** This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible. |
+| **CP_MACCP**         | The current system Macintosh code page (used primarily in legacy code and is typically not needed as Macintosh computers use Unicode for encoding.).<br><br>**Note:** This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible. |
+| **CP_OEMCP**         | The current system OEM code page.<br><br>**Note:** This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible. |
+| **CP_SYMBOL**        | Symbol code page (42). |
+| **CP_THREAD_ACP**    | The Windows ANSI code page for the current thread.<br><br>**Note:** This value can be different on different computers, even on the same network. It can be changed on the same computer, leading to stored data becoming irrecoverably corrupted. This value is only intended for temporary use and permanent storage should use UTF-16 or UTF-8 if possible. |
+| **CP_UTF7**          | UTF-7. Use this value only when forced by a 7-bit transport mechanism. Use of UTF-8 is preferred. |
+| **CP_UTF8**          | UTF-8. |
 
 ### -param dwFlags [in]
 
@@ -163,30 +80,8 @@ Flags indicating the conversion type. The application can specify a combination 
 |-------|---------|
 | **MB_COMPOSITE** | Always use decomposed characters, that is, characters in which a base character and one or more nonspacing characters each have distinct code point values. For example, Ä is represented by A + ¨: LATIN CAPITAL LETTER A (U+0041) + COMBINING DIAERESIS (U+0308). Note that this flag cannot be used with MB_PRECOMPOSED. |
 | **MB_ERR_INVALID_CHARS** | Fail if an invalid input character is encountered.<br/><br/>Starting with Windows Vista, the function does not drop illegal code points if the application does not set this flag, but instead replaces illegal sequences with U+FFFD (encoded as appropriate for the specified codepage).<br/><br/>**Windows 2000 with SP4 and later, Windows XP:** If this flag is not set, the function silently drops illegal code points. A call to [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) returns ERROR_NO_UNICODE_TRANSLATION. |
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MB_PRECOMPOSED"></a><a id="mb_precomposed"></a><dl>
-<dt><b>MB_PRECOMPOSED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Default; do not use with MB_COMPOSITE. Always use precomposed characters, that is, characters having a single character value for a base or nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character. If a single Unicode code point is defined for a character, the application should use it instead of a separate base character and a nonspacing character. For example, Ä is represented by the single Unicode code point LATIN CAPITAL LETTER A WITH DIAERESIS (U+00C4).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MB_USEGLYPHCHARS"></a><a id="mb_useglyphchars"></a><dl>
-<dt><b>MB_USEGLYPHCHARS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use glyph characters instead of control characters.
-
-</td>
-</tr>
-</table>
+| **MB_PRECOMPOSED** | Default; do not use with MB_COMPOSITE. Always use precomposed characters, that is, characters having a single character value for a base or nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character. If a single Unicode code point is defined for a character, the application should use it instead of a separate base character and a nonspacing character. For example, Ä is represented by the single Unicode code point LATIN CAPITAL LETTER A WITH DIAERESIS (U+00C4). |
+| **MB_USEGLYPHCHARS** | Use glyph characters instead of control characters. |
 
 For the code pages listed below, *dwFlags* must be set to `0`. Otherwise, the function fails with **ERROR_INVALID_FLAGS**.
 
@@ -238,9 +133,14 @@ The function returns `0` if it does not succeed. To get extended error informati
 
 The default behavior of this function is to translate to a precomposed form of the input character string. If a precomposed form does not exist, the function attempts to translate to a composite form.
 
-The use of the MB_PRECOMPOSED flag has very little effect on most code pages because most input data is composed already. Consider calling [NormalizeString](../winnls/nf-winnls-normalizestring.md) after converting with **MultiByteToWideChar**. **NormalizeString** provides more accurate, standard, and consistent data, and can also be faster. Note that for the [NORM_FORM](../winnls/ne-winnls-norm_form.md) enumeration being passed to **NormalizeString**, NormalizationC corresponds to MB_PRECOMPOSED and NormalizationD corresponds to MB_COMPOSITE.
+> [!WARNING]
+> Using **MultiByteToWideChar** incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by *lpMultiByteStr* equals the number of bytes in the string, while the size of the output buffer indicated by *lpWideCharStr* equals the number of characters. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives. For more information, see <a href="/windows/win32/Intl/security-considerations--international-features">Security Considerations: International Features</a>.
 
-As mentioned in the caution above, the output buffer can easily be overrun if this function is not first called with *cchWideChar* set to `0` in order to obtain the required size. If the MB_COMPOSITE flag is used, the output can be three or more characters long for each input character.
+The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.
+
+The output buffer can easily be overrun if this function is not first called with *cchWideChar* set to `0` in order to obtain the required size. If the MB_COMPOSITE flag is used, the output can be three or more characters long for each input character.
+
+The use of the MB_PRECOMPOSED flag has very little effect on most code pages because most input data is composed already. Consider calling [NormalizeString](../winnls/nf-winnls-normalizestring.md) after converting with **MultiByteToWideChar**. **NormalizeString** provides more accurate, standard, and consistent data, and can also be faster. Note that for the [NORM_FORM](../winnls/ne-winnls-norm_form.md) enumeration being passed to **NormalizeString**, NormalizationC corresponds to MB_PRECOMPOSED and NormalizationD corresponds to MB_COMPOSITE.
 
 The *lpMultiByteStr* and *lpWideCharStr* pointers must not be the same. If they are the same, the function fails, and [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) returns the value ERROR_INVALID_PARAMETER.
 

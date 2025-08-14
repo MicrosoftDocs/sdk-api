@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndGetRepeat","MCIWndGetRepeat macro [Windows Multimed
 old-location: multimedia\mciwndgetrepeat.htm
 tech.root: Multimedia
 ms.assetid: e5c346db-b33a-4420-b9e1-c634dcffa134
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndGetRepeat, MCIWndGetRepeat macro [Windows Multimedia], _win32_MCIWndGetRepeat, multimedia.mciwndgetrepeat, vfw/MCIWndGetRepeat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndGetRepeat macro
+
+## -syntax
+
+```cpp
+BOOL MCIWndGetRepeat(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if continuous playback is activated or **FALSE** otherwise.
 
 
 ## -description

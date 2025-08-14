@@ -30,6 +30,8 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
  - fileapi.h
 api_name:
  - AreShortNamesEnabled

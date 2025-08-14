@@ -6,7 +6,7 @@ helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDeri
 old-location: security\ncryptkeyderivation.htm
 tech.root: security
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
-ms.date: 12/05/2018
+ms.date: 06/30/2025
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
 req.header: ncrypt.h
 req.include-header: 
@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-The <b>NCryptKeyDerivation</b> function creates a key from another key by using the specified key derivation function.  The function returns the key in a byte array.
+The **NCryptKeyDerivation** function derives a key by invoking a Key Derivation Function (KDF), with all parameters explicitly being provided.
+
+It is similar in functionality to [NCryptDeriveKey](nf-ncrypt-ncryptderivekey.md) but directly invokes a KDF algorithm, so does not require a **NCRYPT_SECRET_HANDLE** value as input.
 
 ## -parameters
 
@@ -60,236 +62,90 @@ Handle of the key derivation function (KDF) key.
 
 ### -param pParameterList [in]
 
-The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
+The address of an [NCryptBufferDesc](../bcrypt/ns-bcrypt-bcryptbufferdesc.md) structure that contains the KDF parameters.
 
-<table>
-<tr>
-<th>KDF</th>
-<th>Parameter</th>
-<th>Required</th>
-</tr>
-<tr>
-<td>SP800-108 HMAC in counter mode</td>
-<td>KDF_LABEL</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_CONTEXT</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_HASH_ALGORITHM</td>
-<td>yes</td>
-</tr>
-<tr>
-<td>SP800-56A</td>
-<td>KDF_ALGORITHMID</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_PARTYUINFO</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_PARTYVINFO</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_HASH_ALGORITHM</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_SUPPPUBINFO</td>
-<td>no</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_SUPPPRIVINFO</td>
-<td>no</td>
-</tr>
-<tr>
-<td>PBKDF2</td>
-<td>KDF_HASH_ALGORITHM</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_SALT</td>
-<td>yes</td>
-</tr>
-<tr>
-<td></td>
-<td>KDF_ITERATION_COUNT</td>
-<td>no</td>
-</tr>
-<tr>
-<td>CAPI_KDF</td>
-<td>KDF_HASH_ALGORITHM</td>
-<td>yes</td>
-</tr>
-</table>
- 
+The parameters can be specific to a key derivation function (KDF) or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
 
-The following generic parameter can be used:<ul>
-<li>KDF_GENERIC_PARAMETER</li>
-</ul>Generic parameters map to KDF specific parameters in the following manner:
+| KDF | Parameter | Required | Default |
+| --- | --------- | -------- | ------- |
+| SP800-108 HMAC in counter mode | KDF_LABEL          | yes | |
+|                                | KDF_CONTEXT        | yes | |
+|                                | KDF_HASH_ALGORITHM | yes | |
+| SP800-56A  | KDF_ALGORITHMID     | yes | |
+|            | KDF_PARTYUINFO      | yes | |
+|            | KDF_PARTYVINFO      | yes | |
+|            | KDF_HASH_ALGORITHM  | yes | |
+|            | KDF_SUPPPUBINFO     | no  | "" |
+|            | KDF_SUPPPRIVINFO    | no  | "" |
+| PBKDF2     | KDF_HASH_ALGORITHM  | yes | |
+|            | KDF_SALT            | yes | |
+|            | KDF_ITERATION_COUNT | no  | 10000 |
+| CAPI_KDF   | KDF_HASH_ALGORITHM  | yes | |
+| TLS1_1_PRF | KDF_TLS_PRF_LABEL   | yes | |
+|            | KDF_TLS_PRF_SEED    | yes | |
+| TLS1_2_PRF | KDF_TLS_PRF_LABEL   | yes | |
+|            | KDF_TLS_PRF_SEED    | yes | |
+|            | KDF_HASH_ALGORITHM  | yes | |
+| HKDF       | KDF_HKDF_INFO       | no  | "" |
 
-SP800-108 HMAC in counter mode:<ul>
-<li>KDF_GENERIC_PARAMETER = KDF_LABEL||0x00||KDF_CONTEXT</li>
-</ul>
+For some algorithms, the **KDF_GENERIC_PARAMETER** instead of specifying several parameters. This maps to KDF specific parameters in the following manner:
 
+SP800-108 HMAC in counter mode:
+ - KDF_GENERIC_PARAMETER = KDF_LABEL || 0x00 || KDF_CONTEXT
 
-SP800-56A<ul>
-<li>KDF_GENERIC_PARAMETER = KDF_ALGORITHMID || KDF_PARTYUINFO || KDF_PARTYVINFO {|| KDF_SUPPPUBINFO } {|| KDF_SUPPPRIVINFO }</li>
-</ul>
+SP800-56A:
+ - KDF_GENERIC_PARAMETER = KDF_ALGORITHMID || KDF_PARTYUINFO || KDF_PARTYVINFO {|| KDF_SUPPPUBINFO } {|| KDF_SUPPPRIVINFO }
 
-
-PBKDF2<ul>
-<li>KDF_GENERIC_PARAMETER = KDF_SALT </li>
-<li>KDF_ITERATION_COUNT – defaults to 10000</li>
-</ul>
-
-
-CAPI_KDF<ul>
-<li>KDF_GENERIC_PARAMETER = Not Used </li>
-</ul>
+PBKDF2:
+ - KDF_GENERIC_PARAMETER = KDF_SALT
 
 ### -param pbDerivedKey [out]
 
-Address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size, in bytes, of the key buffer.
+Address of a buffer that receives the key. The *cbDerivedKey* parameter contains the size, in bytes, of the key buffer.
 
 ### -param cbDerivedKey [in]
 
-Size, in bytes, of the buffer pointed to by the <i>pbDerivedKey</i> parameter.
+Size, in bytes, of the buffer pointed to by the *pbDerivedKey* parameter.
 
 ### -param pcbResult [out]
 
-Pointer to a <b>DWORD</b> that receives the number of bytes copied to the buffer pointed to by the <i>pbDerivedKey</i> parameter.
+Pointer to a **DWORD** that receives the number of bytes copied to the buffer pointed to by the *pbDerivedKey* parameter.
 
 ### -param dwFlags [in]
 
-Flags that modify function behavior. The following value can be used with the Microsoft software key storage provider.
+A set of flags that modify the behavior of this function. This can be zero or a combination of one or more of the following values. The set of valid flags is specific to each key storage provider.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="BCRYPT_CAPI_AES_FLAG"></a><a id="bcrypt_capi_aes_flag"></a><dl>
-<dt><b>BCRYPT_CAPI_AES_FLAG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the target algorithm is AES and that the key therefore must be double expanded.
-This flag is only valid with the CAPI_KDF algorithm.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NCRYPT_SILENT_FLAG"></a><a id="ncrypt_silent_flag"></a><dl>
-<dt><b>NCRYPT_SILENT_FLAG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Requests that the key service provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the <b>NTE_SILENT_CONTEXT</b> error code as the last error.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| **BCRYPT_CAPI_AES_FLAG** | Specifies that the target algorithm is AES and that the key therefore must be double expanded. This flag is only valid with the CAPI_KDF algorithm. |
+| **NCRYPT_SILENT_FLAG** | Requests that the key storage provider (KSP) not display any user interface. If the provider must display the UI to operate, the call fails and the KSP should set the **NTE_SILENT_CONTEXT** error code as the last error. |
 
 ## -returns
 
 Returns a status code that indicates the success or failure of the function.
 
-
 Possible return codes include, but are not limited to, the following.
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was successful.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>hProvider</i> or <i>hKey</i> handles are not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The  <i>pwszDerivedKeyAlg</i> and <i>pParameterList</i> parameters cannot be <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-There was not enough memory to create the key.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NTE_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not supported by the key storage provider.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| **ERROR_SUCCESS** | The function was successful. |
+| **NTE_INVALID_HANDLE** | The *hProvider* or *hKey* handles are not valid. |
+| **NTE_INVALID_PARAMETER** | The *pParameterList* parameter cannot be `NULL`, or some other parameter is invalid. |
+| **NTE_NO_MEMORY** | A memory allocation failure occurred. |
+| **NTE_NOT_SUPPORTED** | This function is not supported by the key storage provider. |
 
 ## -remarks
 
-You can use the following algorithm identifiers in the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function before calling <b>NCryptKeyDerivation</b>:
-
-<ul>
-<li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
-<li><b>BCRYPT_SP800108_CTR_HMAC_ALGORITHM</b></li>
-<li><b>BCRYPT_SP80056A_CONCAT_ALGORITHM</b></li>
-<li><b>BCRYPT_PBKDF2_ALGORITHM</b></li>
-</ul>
+You can use the following algorithm identifiers in the [NCryptCreatePersistedKey](nf-ncrypt-ncryptcreatepersistedkey.md) function before calling *NCryptKeyDerivation*:
+ - BCRYPT_CAPI_KDF_ALGORITHM
+ - BCRYPT_SP800108_CTR_HMAC_ALGORITHM
+ - BCRYPT_SP80056A_CONCAT_ALGORITHM
+ - BCRYPT_PBKDF2_ALGORITHM
+ - BCRYPT_TLS1_1_KDF_ALGORITHM
+ - BCRYPT_TLS1_2_KDF_ALGORITHM
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
+[BCryptKeyDerivation](../bcrypt/nf-bcrypt-bcryptkeyderivation.md)
 
-
-
-<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptderivekey">NCryptDeriveKey</a>
+[NCryptDeriveKey](nf-ncrypt-ncryptderivekey.md)

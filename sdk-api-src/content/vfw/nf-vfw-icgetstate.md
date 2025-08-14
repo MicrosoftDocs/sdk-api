@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICGetState","ICGetState macro [Windows Multimedia]","_win
 old-location: multimedia\icgetstate.htm
 tech.root: Multimedia
 ms.assetid: e0066cc2-a67d-4cf4-9d22-506cc152ec14
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICGetState, ICGetState macro [Windows Multimedia], _win32_ICGetState, multimedia.icgetstate, vfw/ICGetState
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICGetState macro
+
+## -syntax
+
+```cpp
+DWORD ICGetState(
+     hic,
+     pv,
+     cb
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+If _pv_ is **NULL**, returns the amount of memory, in bytes, required for configuration information.If _pv_ is not **NULL**, returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

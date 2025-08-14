@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-devices-config-l1-1-2.dll
  - CfgMgr32.dll
  - API-MS-Win-devices-config-l1-1-0.dll
  - API-MS-Win-devices-config-l1-1-1.dll

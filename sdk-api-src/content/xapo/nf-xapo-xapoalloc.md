@@ -6,7 +6,7 @@ helpviewer_keywords: ["XAPOAlloc","XAPOAlloc macro [XAudio2 Audio Mixing APIs]",
 old-location: xaudio2\xapoalloc.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
 req.header: xapo.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # XAPOAlloc macro
+
+## -syntax
+
+```cpp
+LPVOID XAPOAlloc(
+    ULONG size
+);
+```
+
+## -returns
+
+Type: **LPVOID**
+
+Allocated memory block; returns **NULL** if insufficient memory available.
 
 
 ## -description

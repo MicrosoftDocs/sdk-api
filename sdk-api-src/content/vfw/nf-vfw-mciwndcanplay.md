@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndCanPlay","MCIWndCanPlay macro [Windows Multimedia]"
 old-location: multimedia\mciwndcanplay.htm
 tech.root: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # MCIWndCanPlay macro
+
+## -syntax
+
+```cpp
+BOOL MCIWndCanPlay(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if the device supports playing the data or **FALSE** otherwise.
 
 
 ## -description

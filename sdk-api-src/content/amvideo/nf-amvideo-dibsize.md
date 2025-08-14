@@ -6,7 +6,7 @@ helpviewer_keywords: ["DIBSIZE","DIBSIZE macro [DirectShow]","amvideo/DIBSIZE","
 old-location: dshow\dibsize.htm
 tech.root: dshow
 ms.assetid: a1feaa57-f403-46d0-b9a4-56e94ff2ceee
-ms.date: 4/26/2023
+ms.date: 07/01/2025
 ms.keywords: DIBSIZE, DIBSIZE macro [DirectShow], amvideo/DIBSIZE, dshow.dibsize
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # DIBSIZE macro
+
+## -syntax
+
+```cpp
+DWORD DIBSIZE(
+     bi
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns the size in bytes.
 
 
 ## -description

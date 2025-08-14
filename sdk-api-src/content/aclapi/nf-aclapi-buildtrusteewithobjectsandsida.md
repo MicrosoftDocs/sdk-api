@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-trustee-l1-1-2.dll
  - Advapi32.dll
  - API-MS-Win-security-trustee-l1-1-0.dll
  - advapi32legacy.dll

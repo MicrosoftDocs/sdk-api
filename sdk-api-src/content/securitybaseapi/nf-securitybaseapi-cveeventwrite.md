@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-security-base-l1-2-2.dll
  - Advapi32.dll
  - KernelBase.dll
  - API-MS-Win-Eventing-Provider-L1-1-1.dll

@@ -57,12 +57,10 @@ Reserved.
 
 ### -field MachineAttributes
 
-A value from the [MACHINE_ATTRIBUTES](ne-processthreadsapi-machine_attributes.md) enumeration indicating if the process’s architecture can run in user mode, kernel mode, and/or under WOW64 on the host operating system.
-
+A value from the [MACHINE_ATTRIBUTES](ne-processthreadsapi-machine_attributes.md) enumeration indicating if the process's architecture can run in user mode, kernel mode, and/or under WOW64 on the host operating system.
 
 ## -remarks
 
 ## -see-also
 
 [PROCESS_INFORMATION_CLASS](ne-processthreadsapi-process_information_class.md)
-

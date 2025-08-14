@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-file-l1-2-5.dll
+ - api-ms-win-core-file-l1-2-4.dll
+ - api-ms-win-core-file-l1-2-3.dll
  - Kernel32.dll
  - API-MS-Win-Core-File-l1-1-0.dll
  - KernelBase.dll
@@ -143,12 +146,6 @@ If the function succeeds, and the file reading operation completes, but the call
        enters an alertable wait state. For information about alertable waits and overlapped input/output operations, 
        see <a href="/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
 
-If <b>ReadFileEx</b> attempts to read past the 
-       end-of-file (EOF), the call to 
-       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for that operation returns 
-       <b>FALSE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
-       returns <b>ERROR_HANDLE_EOF</b>.
-
 ## -remarks
 
 When using <b>ReadFileEx</b> you should check 
@@ -192,6 +189,8 @@ When attempting to read data from a mailslot whose buffer is too small,
 Accessing the input buffer while a read operation is using the buffer may lead to corruption of the data read 
     into that buffer. Applications must not read from, write to, reallocate, or free the input buffer that a read 
     operation is using until the read operation completes.
+
+If a read operation on a file begins at or beyond the end of the file, then the read operation fails with the error **ERROR_HANDLE_EOF**. If a read operation on a file begins before the end of the file, but the read operation extends past the end of the file, then the read operation succeeds, and the number of bytes read is the number of bytes that were read before the end of file was reached.
 
 An application uses the 
     <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, 

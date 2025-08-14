@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSetTimeFormat","MCIWndSetTimeFormat macro [Windows 
 old-location: multimedia\mciwndsettimeformat.htm
 tech.root: Multimedia
 ms.assetid: dcf70d76-6f53-4e05-ab05-3f9136294d7a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSetTimeFormat, MCIWndSetTimeFormat macro [Windows Multimedia], _win32_MCIWndSetTimeFormat, multimedia.mciwndsettimeformat, vfw/MCIWndSetTimeFormat
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSetTimeFormat macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSetTimeFormat(
+     hwnd,
+     lp
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

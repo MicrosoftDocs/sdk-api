@@ -6,7 +6,7 @@ helpviewer_keywords: ["SUBLANGID","SUBLANGID macro [Internationalization for Win
 old-location: intl\sublangid.htm
 tech.root: Intl
 ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # SUBLANGID macro
+
+## -syntax
+
+```cpp
+WORD SUBLANGID(
+    WORD lgid
+);
+```
+
+## -returns
+
+Type: **WORD**
+
+Returns a sublanguage identifier. This can be a predefined sublanguage identifier or a user-defined sublanguage identifier.
 
 
 ## -description

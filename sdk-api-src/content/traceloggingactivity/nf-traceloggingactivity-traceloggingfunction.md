@@ -15,7 +15,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingfunction.htm
 tech.root: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords:
   TraceLoggingFunction, TraceLoggingFunction macro,
   tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
@@ -57,6 +57,15 @@ api_name:
 ---
 
 # TraceLoggingFunction macro
+
+## -syntax
+
+```cpp
+void TraceLoggingFunction(
+  [in]            TraceLoggingHProvider providerHandle,
+  [in, optional]   args
+);
+```
 
 ## -description
 

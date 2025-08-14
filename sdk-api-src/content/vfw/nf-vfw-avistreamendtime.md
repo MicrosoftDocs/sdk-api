@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamEndTime","AVIStreamEndTime macro [Windows Multim
 old-location: multimedia\avistreamendtime.htm
 tech.root: Multimedia
 ms.assetid: 0fd3c0c7-34cc-4193-8e6a-9866a9d651a2
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamEndTime, AVIStreamEndTime macro [Windows Multimedia], _win32_AVIStreamEndTime, multimedia.avistreamendtime, vfw/AVIStreamEndTime
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # AVIStreamEndTime macro
+
+## -syntax
+
+```cpp
+LONG AVIStreamEndTime(
+     pavi
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the time if successful or -1 otherwise.
 
 
 ## -description

@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll
+ - ext-ms-win-rtcore-ntuser-message-l1-1-0.dll
+ - ext-ms-win-ntuser-message-l1-1-3.dll
+ - ext-ms-win-ntuser-message-l1-1-2.dll
+ - ext-ms-win-ntuser-message-l1-1-1.dll
  - User32.dll
  - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
  - minuser.dll

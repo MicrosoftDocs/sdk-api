@@ -64,8 +64,7 @@ Call the
 
 ### -param lpNetResource [in]
 
-Pointer to a 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
+Pointer to a <a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
 
 
 
@@ -219,7 +218,7 @@ You can call the
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>, 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>, or 
 <b>WNetGetResourceParent</b> function to return information from the 
-<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
+<a href="ns-winnetwk-netresourcea.md">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
 <b>NETRESOURCE</b> structure.
 
 An example of an inappropriate use of 

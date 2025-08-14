@@ -40,6 +40,11 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-gui-l1-3-1.dll
+ - ext-ms-win-ntuser-gui-l1-3-0.dll
+ - ext-ms-win-ntuser-gui-l1-2-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-1.dll
+ - ext-ms-win-ntuser-gui-l1-1-0.dll
  - User32.dll
 api_name:
  - LookupIconIdFromDirectory

@@ -6,7 +6,7 @@ helpviewer_keywords: ["MAKELPARAM","MAKELPARAM macro [Windows and Messages]","_w
 old-location: winmsg\makelparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelparam.htm
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
 req.header: winuser.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MAKELPARAM macro
+
+## -syntax
+
+```cpp
+LPARAM MAKELPARAM(
+    WORD l,
+    WORD h
+);
+```
+
+## -returns
+
+Type: **[LPARAM](/windows/desktop/winprog/windows-data-types)**
+
+The return value is an **LPARAM** value.
 
 
 ## -description

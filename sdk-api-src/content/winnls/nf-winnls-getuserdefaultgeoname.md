@@ -40,6 +40,8 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-localization-l1-2-4.dll
+ - api-ms-win-core-localization-l1-2-3.dll
  - Kernel32.dll
 api_name:
  - GetUserDefaultGeoName
@@ -74,8 +76,6 @@ Zero indicates that the function failed. To get extended error information, call
 | **ERROR_INSUFFICIENT_BUFFER** | The buffer that the *geoName* parameter specifies is too small for the string. |
 
 ## -remarks
-
-If the ISO 3166-1 code for the user's default geographical location is 'XX' (indicating that no code has been assigned), but the location does have a UN M.49 code assigned, then the M.49 code is returned as a decimal string.
 
 If the ISO 3166-1 code for the user's default geographical location is 'XX' (which indicates that no code has been assigned), but the location does have a UN M.49 code assigned, then the M.49 code is returned as a decimal string.
 

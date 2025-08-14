@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capDriverDisconnect","capDriverDisconnect","capDri
 old-location: multimedia\capdriverdisconnect.htm
 tech.root: Multimedia
 ms.assetid: c009adb4-bc73-4d0d-9ab1-801e92e8851f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capDriverDisconnect macro
+
+## -syntax
+
+```cpp
+BOOL capDriverDisconnect(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
+
+Returns **TRUE** if successful or **FALSE** if the capture window is not connected to a capture driver.
 
 
 ## -description

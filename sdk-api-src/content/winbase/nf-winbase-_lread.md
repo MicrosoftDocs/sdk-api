@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - api-ms-win-core-kernel32-private-l1-2-0.dll
  - kernel32.dll
  - iexpress.exe
  - API-MS-Win-Core-Kernel32-Private-L1-1-0.dll

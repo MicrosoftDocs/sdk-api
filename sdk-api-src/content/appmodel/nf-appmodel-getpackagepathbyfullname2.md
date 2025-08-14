@@ -36,6 +36,12 @@ topic_type:
  - apiref
 api_type:
 api_location:
+ - ext-ms-win-kernel32-package-l1-1-2.dll
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
+ - api-ms-win-appmodel-runtime-l1-1-4.dll
+ - api-ms-win-appmodel-runtime-l1-1-3.dll
  - appmodel.h
 api_name:
  - GetPackagePathByFullName2

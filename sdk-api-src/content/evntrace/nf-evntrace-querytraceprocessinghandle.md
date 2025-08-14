@@ -50,8 +50,10 @@ topic_type:
 api_type:
   - DllExport
 api_location:
-  - AdvAPI32.dll
-  - Sechost.dll
+ - api-ms-win-eventing-consumer-l1-1-2.dll
+ - api-ms-win-eventing-consumer-l1-1-1.dll
+ - AdvAPI32.dll
+ - Sechost.dll
 api_name:
   - QueryTraceProcessingHandle
 ---

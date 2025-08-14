@@ -6,7 +6,7 @@ helpviewer_keywords: ["MCIWndSetSpeed","MCIWndSetSpeed macro [Windows Multimedia
 old-location: multimedia\mciwndsetspeed.htm
 tech.root: Multimedia
 ms.assetid: aaf45d2f-3f6c-4b87-82fe-3fca3f36f57d
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: MCIWndSetSpeed, MCIWndSetSpeed macro [Windows Multimedia], _win32_MCIWndSetSpeed, multimedia.mciwndsetspeed, vfw/MCIWndSetSpeed
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # MCIWndSetSpeed macro
+
+## -syntax
+
+```cpp
+LONG MCIWndSetSpeed(
+     hwnd,
+     iSpeed
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns zero if successful or an error otherwise.
 
 
 ## -description

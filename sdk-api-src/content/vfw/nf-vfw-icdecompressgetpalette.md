@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICDecompressGetPalette","ICDecompressGetPalette macro [Wi
 old-location: multimedia\icdecompressgetpalette.htm
 tech.root: Multimedia
 ms.assetid: 433155ce-f9a1-408d-9caa-43a736fbdc67
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: ICDecompressGetPalette, ICDecompressGetPalette macro [Windows Multimedia], _win32_ICDecompressGetPalette, multimedia.icdecompressgetpalette, vfw/ICDecompressGetPalette
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,22 @@ api_name:
 ---
 
 # ICDecompressGetPalette macro
+
+## -syntax
+
+```cpp
+DWORD ICDecompressGetPalette(
+     hic,
+     lpbiInput,
+     lpbiOutput
+);
+```
+
+## -returns
+
+Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
+
+Returns ICERR_OK if successful or an error otherwise.
 
 
 ## -description

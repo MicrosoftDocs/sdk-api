@@ -6,7 +6,7 @@ helpviewer_keywords: ["IS_LOW_SURROGATE","IS_LOW_SURROGATE macro [Internationali
 old-location: intl\is_low_surrogate.htm
 tech.root: Intl
 ms.assetid: 5f60b88b-4e3d-4e0a-803d-ab407425d92a
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_LOW_SURROGATE, intl.is_low_surrogate, winnls/IS_LOW_SURROGATE
 req.header: winnls.h
 req.include-header: Windows.h
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # IS_LOW_SURROGATE macro
+
+## -syntax
+
+```cpp
+bool IS_LOW_SURROGATE(
+    WCHAR wch
+);
+```
+
+## -returns
+
+Type: **bool**
+
+Returns **TRUE** if successful or **FALSE** otherwise.
 
 
 ## -description

@@ -30,6 +30,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - api-ms-win-appmodel-runtime-l1-1-7.dll
+ - api-ms-win-appmodel-runtime-l1-1-6.dll
+ - api-ms-win-appmodel-runtime-l1-1-5.dll
  - appmodel.h
 api_name:
  - DeletePackageDependency

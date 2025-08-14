@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-rtcore-ntuser-dialogbox-l1-1-0.dll
  - User32.dll
  - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll

@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-shell-shell32-l1-3-0.dll
+ - ext-ms-win-shell-shell32-l1-2-3.dll
+ - ext-ms-win-appmodel-shellexecute-l1-1-0.dll
  - Shell32.dll
  - Ext-MS-Win-shell-shell32-l1-2-0.dll
  - ext-ms-win-shell-shell32-l1-1-0.dll
@@ -49,6 +52,7 @@ api_name:
  - ShellExecute
  - ShellExecuteA
  - ShellExecuteW
+no-loc: [verb, verbs, NULL, null, runas]
 ---
 
 # ShellExecuteW function
@@ -74,31 +78,31 @@ A pointer to a <b>null</b>-terminated string, referred to in this case as a <i>v
 
 
 
-#### edit
+#### :::no-loc text="edit":::
 
 Launches an editor and opens the document for editing. If <i>lpFile</i> is not a document file, the function will fail.
 
 
 
-#### explore
+#### :::no-loc text="explore":::
 
 Explores a folder specified by <i>lpFile</i>.
 
 
 
-#### find
+#### :::no-loc text="find":::
 
 Initiates a search beginning in the directory specified by <i>lpDirectory</i>.
 
 
 
-#### open
+#### :::no-loc text="open":::
 
 Opens the item specified by the <i>lpFile</i> parameter. The item can be a file or folder.
 
 
 
-#### print
+#### :::no-loc text="print":::
 
 Prints the file specified by <i>lpFile</i>. If <i>lpFile</i> is not a document file, the function fails.
 
@@ -112,21 +116,21 @@ Launches an application as Administrator. User Account Control (UAC) will prompt
 
 #### NULL
 
-The default verb is used, if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
+The default verb is used, if available. If not, the ":::no-loc text="open":::" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
 
 ### -param lpFile [in]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a <b>null</b>-terminated string that specifies the file or object on which to execute the specified verb. To specify a Shell namespace object, pass the fully qualified parse name. Note that not all verbs are supported on all objects. For example, not all document types support the "print" verb. If a relative path is used for the <i>lpDirectory</i> parameter do not use a relative path for <i>lpFile</i>.
+A pointer to a <b>null</b>-terminated string that specifies the file or object on which to execute the specified verb. To specify a Shell namespace object, pass the fully qualified parse name. Note that not all verbs are supported on all objects. For example, not all document types support the ":::no-loc text="print":::" verb. If a relative path is used for the <i>lpDirectory</i> parameter do not use a relative path for <i>lpFile</i>.
 
-If <i>lpFile</i> specifies an executable file and "open" or "runas" verbs are used in <i>lpOperation</i>, the command line string of the launched process includes a trailing whitespace character.
+If <i>lpFile</i> specifies an executable file and ":::no-loc text="open":::" or "runas" verbs are used in <i>lpOperation</i>, the command line string of the launched process includes a trailing whitespace character.
 
 ### -param lpParameters [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The command line string for a process launched with "open" or "runas" verbs in <i>lpOperation</i> includes a trailing whitespace character and the parameters are appended to that command line string. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
+If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The command line string for a process launched with ":::no-loc text="open":::" or "runas" verbs in <i>lpOperation</i> includes a trailing whitespace character and the parameters are appended to that command line string. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
 
 ### -param lpDirectory [in, optional]
 
@@ -372,7 +376,7 @@ ShellExecute(handle, "find", <fully_qualified_path_to_folder>, NULL, NULL, 0);
 ```
 
 
-If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is "open" or "explore", the function  attempts to open or explore the folder.
+If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is ":::no-loc text="open":::" or ":::no-loc text=""::::::no-loc text="explore":::", the function attempts to open or explore the folder.
 
 To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
 

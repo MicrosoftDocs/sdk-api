@@ -6,7 +6,7 @@ helpviewer_keywords: ["UInt32x32To64","UInt32x32To64 macro [Windows API]","_win3
 old-location: winprog\uint32x32to64.htm
 tech.root: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 req.header: winnt.h
 req.include-header: Windows.h
@@ -46,6 +46,21 @@ api_name:
 ---
 
 # UInt32x32To64 macro
+
+## -syntax
+
+```cpp
+LONGLONG Int32x32To64(
+  [in]  LONG a,
+  [in]  LONG b
+);
+```
+
+## -returns
+
+Type: **LONGLONG**
+
+The return value is the signed 64-bit integer result of the multiplication operation.
 
 
 ## -description

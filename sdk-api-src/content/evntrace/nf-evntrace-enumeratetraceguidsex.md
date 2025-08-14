@@ -52,11 +52,13 @@ topic_type:
 api_type:
   - DllExport
 api_location:
-  - Advapi32.dll
-  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-  - sechost.dll
-  - API-MS-Win-eventing-controller-l1-1-0.dll
-  - kernelbase.dll
+ - api-ms-win-eventing-controller-l1-1-1.dll
+ - api-ms-win-downlevel-advapi32-l2-1-0.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-eventing-controller-l1-1-0.dll
+ - kernelbase.dll
 api_name:
   - EnumerateTraceGuidsEx
 ---

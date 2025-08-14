@@ -6,7 +6,7 @@ helpviewer_keywords: ["AVIStreamPrevKeyFrame","AVIStreamPrevKeyFrame macro [Wind
 old-location: multimedia\avistreamprevkeyframe.htm
 tech.root: Multimedia
 ms.assetid: 69933c8f-7e4e-45b2-aa72-ac127f3c8d05
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrame, multimedia.avistreamprevkeyframe, vfw/AVIStreamPrevKeyFrame
 req.header: vfw.h
 req.include-header: 
@@ -47,6 +47,21 @@ api_name:
 
 # AVIStreamPrevKeyFrame macro
 
+## -syntax
+
+```cpp
+LONG AVIStreamPrevKeyFrame(
+     pavi,
+     l
+);
+```
+
+## -returns
+
+Type: **LONG**
+
+Returns the position of the key frame if successful or –1 otherwise.
+
 
 ## -description
 
@@ -71,8 +86,8 @@ The <b>AVIStreamPrevKeyFrame</b> macro is defined as follows:
 
 ```cpp
 
-#define AVIStreamPrevKeyFrame(pavi, lPos) \ 
-    AVIStreamFindSample(pavi, lPos - 1, FIND_PREV | FIND_KEY) 
+#define AVIStreamPrevKeyFrame(pavi, l) \ 
+    AVIStreamFindSample(pavi, l - 1, FIND_PREV | FIND_KEY) 
 
 ```
 

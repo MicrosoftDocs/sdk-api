@@ -40,6 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-cluster-resutils-l1-1-3.dll
  - ResUtils.dll
 api_name:
  - ResUtilSetDwordValue

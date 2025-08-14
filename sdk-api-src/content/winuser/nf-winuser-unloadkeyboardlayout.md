@@ -40,6 +40,9 @@ topic_type:
 api_type:
  - DllExport
 api_location:
+ - ext-ms-win-ntuser-keyboard-l1-3-2.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-1.dll
+ - ext-ms-win-ntuser-keyboard-l1-3-0.dll
  - User32.dll
 api_name:
  - UnloadKeyboardLayout

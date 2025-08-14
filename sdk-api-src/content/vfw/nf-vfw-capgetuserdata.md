@@ -6,7 +6,7 @@ helpviewer_keywords: ["_win32_capGetUserData","capGetUserData","capGetUserData m
 old-location: multimedia\capgetuserdata.htm
 tech.root: Multimedia
 ms.assetid: a71afead-9beb-48d0-9e7f-d948e0fe276f
-ms.date: 12/05/2018
+ms.date: 07/01/2025
 ms.keywords: _win32_capGetUserData, capGetUserData, capGetUserData macro [Windows Multimedia], multimedia.capgetuserdata, vfw/capGetUserData
 req.header: vfw.h
 req.include-header: 
@@ -46,6 +46,20 @@ api_name:
 ---
 
 # capGetUserData macro
+
+## -syntax
+
+```cpp
+LPARAM capGetUserData(
+     hwnd
+);
+```
+
+## -returns
+
+Type: **[LPARAM](/windows/desktop/winprog/windows-data-types)**
+
+Returns the value previously saved by using the **capSetUserData** macro.
 
 
 ## -description
