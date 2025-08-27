@@ -64,13 +64,18 @@ Determines whether a path to a file system object such as a file or folder is va
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the full path of the object to verify.
+A pointer to a null-terminated string that contains the full path of the object to verify.
+
+By default, the name is limited to MAX_PATH characters. To extend this limit to 32,767 wide characters, prepend "\\\\?\\" to the path. For more information, see [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file).
+
+> [!TIP]
+> Starting with Windows 10, Version 1607, you can opt-in to remove the MAX_PATH limitation without prepending "\\\\?\\". See the "Maximum Path Length Limitation" section of [Naming Files, Paths, and Namespaces](/windows/win32/fileio/naming-a-file) for details.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if the file exists; otherwise, <b>FALSE</b>. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information. If the file does not exist, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <a href="/windows/win32/debug/system-error-codes--0-499-">ERROR_FILE_NOT_FOUND</a>.
+<b>TRUE</b> if the file exists; otherwise, <b>FALSE</b>. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information. If the file does not exist, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <a href="/windows/win32/debug/system-error-codes--0-499-">ERROR_FILE_NOT_FOUND</a>. If the path does not exist, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <a href="/windows/win32/debug/system-error-codes--0-499-">ERROR_PATH_NOT_FOUND</a>.
 
 ## -remarks
 
