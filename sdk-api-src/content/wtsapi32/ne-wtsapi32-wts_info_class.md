@@ -255,6 +255,12 @@ Determines whether the current session is a remote session. The <a href="/window
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
+### -field WTSSessionActivityId
+
+A <b>GUID</b> value that contains the Terminal Services activity ID currently associated with the session.
+
+<b>Versions prior to Windows Server 2025 or Windows 11 (23H2):  </b>This value is not supported.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
