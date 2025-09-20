@@ -58,7 +58,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCchCatEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcsat</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcscat</a></li>
 <li>
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>
