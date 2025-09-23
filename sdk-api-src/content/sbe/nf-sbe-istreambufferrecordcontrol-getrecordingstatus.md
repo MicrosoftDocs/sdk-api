@@ -11,7 +11,7 @@ ms.keywords: GetRecordingStatus, GetRecordingStatus method [Microsoft TV Technol
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -80,7 +80,7 @@ Pointer to a variable that receives a Boolean value, indicating whether the reco
 <td>The recording has not started.</td>
 </tr>
 </table>
- 
+ 
 
 This parameter can be <b>NULL</b>.
 
@@ -104,7 +104,7 @@ Pointer to a variable that receives a Boolean value, indicating whether recordin
 <td>The recording has not stopped, or has not started yet.</td>
 </tr>
 </table>
- 
+ 
 
 This parameter can be <b>NULL</b>.
 

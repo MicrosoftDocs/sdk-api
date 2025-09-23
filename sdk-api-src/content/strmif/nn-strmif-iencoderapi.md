@@ -88,7 +88,7 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 <td>Specifies the bit-rate mode, as a <a href="/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a> enumeration value (32-bit signed long).</td>
 </tr>
 </table>
- 
+ 
 
 The following table describes the expected behavior of an encoder under extremely high or low bitrate conditions in the two variable bitrate modes defined in <a href="/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode">VIDEOENCODER_BITRATE_MODE</a>.
 
@@ -122,7 +122,7 @@ The following table describes the expected behavior of an encoder under extremel
 <td>The rate will go up and stay up, possibly above the expected rate as specified in the value for the ENCAPIPARAM_BITRATE parameter, but never above the peak as specified in the ENCAPIPARAM_PEAK_BITRATE parameter.</td>
 </tr>
 </table>
- 
+ 
 
 <h3><a id="OCUR_Devices"></a><a id="ocur_devices"></a><a id="OCUR_DEVICES"></a>OCUR Devices</h3>
 

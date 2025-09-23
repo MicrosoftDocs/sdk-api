@@ -11,7 +11,7 @@ ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], Ge
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

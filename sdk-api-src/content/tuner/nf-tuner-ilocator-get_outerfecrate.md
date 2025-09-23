@@ -11,7 +11,7 @@ ms.keywords: IDigitalLocatorget_OuterFECRate, ILocator interface [Microsoft TV T
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

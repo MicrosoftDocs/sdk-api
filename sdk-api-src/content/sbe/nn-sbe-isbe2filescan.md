@@ -11,7 +11,7 @@ ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies],
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

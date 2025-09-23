@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Techno
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

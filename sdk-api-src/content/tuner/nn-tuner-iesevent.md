@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -121,7 +121,7 @@ Sets the event completion status for clients that  process the event.
 
 </td>
 </tr>
-</table> 
+</table> 
 
 
 ## -remarks
@@ -143,6 +143,6 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEvents</a>
- 
+ 
 
- 
+ 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetCountOfRecords
 title: IDvbLogicalChannelDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [DirectShow]","GetCountOfRecords method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetCountOfRecords method","IDvbLogicalChannelDescriptor.GetCountOfRecords","IDvbLogicalChannelDescriptor::GetCountOfRecords","IDvbLogicalChannelDescriptorGetCountOfRecords","dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords","mstv.idvblogicalchanneldescriptor_getcountofrecords"]
 old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
 tech.root: mstv
@@ -52,8 +52,8 @@ api_name:
 
 \[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
-<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
+<div> </div>
 
 
 

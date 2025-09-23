@@ -11,7 +11,7 @@ ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken met
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

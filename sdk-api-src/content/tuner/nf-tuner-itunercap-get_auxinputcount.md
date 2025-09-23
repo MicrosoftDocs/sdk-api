@@ -75,8 +75,8 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The <i>pulCompositeCount</i> and <i>pulSvideoCount</i> parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The <i>pulCompositeCount</i> and <i>pulSvideoCount</i> parameters are marked in the IDL file as [in, out] but are used as [out] parameters. To preserve binary compatibility with previous versions, they have not been changed.</div>
+<div> </div>
 
 ## -see-also
 
