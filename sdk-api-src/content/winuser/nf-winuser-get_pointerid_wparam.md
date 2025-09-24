@@ -7,7 +7,7 @@ old-location: inputmsg\get_pointerid_wparam.htm
 tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991211
 ms.date: 07/01/2025
-ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM	, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
+ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
