@@ -182,6 +182,7 @@ HRESULT hr;
 BOOL exists;
 TCHAR *lpBuffer;
 DWORD dwBytes;
+TCHAR SubBlock[50];
 
 // Read the list of languages and code pages.
 exists = VerQueryValue(
