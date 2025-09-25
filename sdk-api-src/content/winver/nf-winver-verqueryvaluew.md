@@ -169,40 +169,56 @@ Be sure to call the <a href="/windows/desktop/api/winver/nf-winver-getfileversio
 
 
 ```cpp
+
 // Structure used to store enumerated languages and code pages.
+typedef struct {
+	WORD wLanguage;
+	WORD wCodePage;
+} LANGANDCODEPAGE;
 
+LANGANDCODEPAGE *lpTranslations;
+UINT cbTranslations;
 HRESULT hr;
-
-struct LANGANDCODEPAGE {
-  WORD wLanguage;
-  WORD wCodePage;
-} *lpTranslate;
+BOOL exists;
+TCHAR *lpBuffer;
+DWORD dwBytes;
 
 // Read the list of languages and code pages.
-
-VerQueryValue(pBlock, 
-              TEXT("\\VarFileInfo\\Translation"),
-              (LPVOID*)&lpTranslate,
-              &cbTranslate);
-
-// Read the file description for each language and code page.
-
-for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
+exists = VerQueryValue(
+	pBlock,
+	TEXT("\\VarFileInfo\\Translation"),
+	(LPVOID*)&lpTranslations,
+	&cbTranslations);
+if (!exists)
 {
-  hr = StringCchPrintf(SubBlock, 50,
-            TEXT("\\StringFileInfo\\%04x%04x\\FileDescription"),
-            lpTranslate[i].wLanguage,
-            lpTranslate[i].wCodePage);
+	// No translation information.
+}
+else
+{
+	// Read the file description for each language and code page.
+	for( i=0; i < (cbTranslations/sizeof(struct LANGANDCODEPAGE)); i++ )
+	{
+	hr = StringCchPrintf(
+		SubBlock,
+		50,
+		TEXT("\\StringFileInfo\\%04x%04x\\FileDescription"),
+		lpTranslations[i].wLanguage,
+		lpTranslations[i].wCodePage);
 	if (FAILED(hr))
 	{
-	// TODO: write error handler.
+		// Handle error
 	}
-
-  // Retrieve file description for language and code page "i". 
-  VerQueryValue(pBlock, 
-                SubBlock, 
-                &lpBuffer, 
-                &dwBytes); 
+	
+	// Retrieve file description for language and code page "i". 
+	exists = VerQueryValue(
+		pBlock, 
+		SubBlock, 
+		&lpBuffer, 
+		&dwBytes);
+    if (exists)
+    {
+		// Do something with the data.
+	}
 }
 ```
 
