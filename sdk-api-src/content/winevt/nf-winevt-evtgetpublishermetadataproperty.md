@@ -77,7 +77,7 @@ A caller-allocated buffer that will receive the metadata property. The buffer co
 
 ### -param PublisherMetadataPropertyBufferUsed [out]
 
-The size, in bytes, of the caller-allocated buffer that the function used or the required buffer size if the function fails with ERROR_INSUFFICIENT_BUFFER.
+The size, in bytes, of the caller-allocated buffer that the function used or the required buffer size if the function fails.
 
 ## -returns
 
@@ -127,5 +127,6 @@ For an example that shows how to use this function, see <a href="/windows/deskto
 <div class="code"></div>
 
 ## -see-also
+
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a>
