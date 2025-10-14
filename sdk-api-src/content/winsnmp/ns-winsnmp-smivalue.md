@@ -239,48 +239,48 @@ Specifies the union of all possible WinSNMP syntax data types, including the
 
 #### sNumber
 
-<b>Type: <b>smiINT</b>
-</b>
+Type: <b>smiINT</b>
+
 Specifies a signed long integer value.
 
 
 
 #### uNumber
 
-<b>Type: <b>smiUINT32</b>
-</b>
+Type: <b>smiUINT32</b>
+
 Specifies a 32-bit unsigned long integer value.
 
 
 
 #### hNumber
 
-<b>Type: <b>smiCNTR64</b>
-</b>
+Type: <b>smiCNTR64</b>
+
 Specifies a 64-bit unsigned integer value
 
 
 
 #### string
 
-<b>Type: <b>smiOCTETS</b>
-</b>
+Type: <b>smiOCTETS</b>
+
 Specifies a string.
 
 
 
 #### oid
 
-<b>Type: <b>smiOID</b>
-</b>
+Type: <b>smiOID</b>
+
 Specifies an object identifier (OID).
 
 
 
 #### empty
 
-<b>Type: <b>smiBYTE</b>
-</b>
+Type: <b>smiBYTE</b>
+
 Specifies an empty member.
 
 ### -field sNumber

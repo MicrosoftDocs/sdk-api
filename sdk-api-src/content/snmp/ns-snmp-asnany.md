@@ -240,96 +240,96 @@ Contains the variable's value. This member can be only one of the following valu
 
 #### number
 
-<b>Type: <b>AsnInteger32</b>
-</b>
+Type: <b>AsnInteger32</b>
+
 Accesses a 32-bit signed integer variable.
 
 
 
 #### unsigned32
 
-<b>Type: <b>AsnUnsigned32</b>
-</b>
+Type: <b>AsnUnsigned32</b>
+
 Accesses a 32-bit unsigned integer variable.
 
 
 
 #### counter64
 
-<b>Type: <b>AsnCounter64</b>
-</b>
+Type: <b>AsnCounter64</b>
+
 Accesses a counter variable that increases until it reaches a maximum value of (2^64) – 1.
 
 
 
 #### string
 
-<b>Type: <b>AsnOctetString</b>
-</b>
+Type: <b>AsnOctetString</b>
+
 Accesses an octet string variable.
 
 
 
 #### bits
 
-<b>Type: <b>AsnBits</b>
-</b>
+Type: <b>AsnBits</b>
+
 Accesses a variable that is an enumeration of named bits with non-negative, contiguous values, starting at zero.
 
 
 
 #### object
 
-<b>Type: <b>AsnObjectIdentifier</b>
-</b>
+Type: <b>AsnObjectIdentifier</b>
+
 Accesses an object identifier variable.
 
 
 
 #### sequence
 
-<b>Type: <b>AsnSequence</b>
-</b>
+Type: <b>AsnSequence</b>
+
 Accesses an ASN sequence variable.
 
 
 
 #### address
 
-<b>Type: <b>AsnIPAddress</b>
-</b>
+Type: <b>AsnIPAddress</b>
+
 Accesses an IP address variable.
 
 
 
 #### counter
 
-<b>Type: <b>AsnCounter32</b>
-</b>
+Type: <b>AsnCounter32</b>
+
 Accesses a counter variable that increases until it reaches a maximum value of (2^32) – 1.
 
 
 
 #### gauge
 
-<b>Type: <b>AsnGauge32</b>
-</b>
+Type: <b>AsnGauge32</b>
+
 Accesses a gauge variable.
 
 
 
 #### ticks
 
-<b>Type: <b>AsnTimeticks</b>
-</b>
+Type: <b>AsnTimeticks</b>
+
 Accesses a timeticks counter variable that is relative to a specific timer event.
 
 
 
 #### arbitrary
 
-<b>Type: <b>AsnOpaque</b>
-</b>
+Type: <b>AsnOpaque</b>
+
 Accesses an opaque variable.
 
 ### -field number

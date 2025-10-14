@@ -58,18 +58,18 @@ Represents a header for an <a href="/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 ### -field Reserved.Reserved1
 
-<b>Type: <b>PVOID</b>
-</b>
+Type: <b>PVOID</b>
+
 Reserved for future use.
 
 ### -field Reserved.Reserved2
 
-<b>Type: <b>char[24]</b>
-</b>
+Type: <b>char[24]</b>
+
 Reserved for future use in a 64-bit environment.
 
-<b>Type: <b>char[20]</b>
-</b>
+Type: <b>char[20]</b>
+
 Reserved for future use in a non 64-bit environment.
 
 ## -see-also

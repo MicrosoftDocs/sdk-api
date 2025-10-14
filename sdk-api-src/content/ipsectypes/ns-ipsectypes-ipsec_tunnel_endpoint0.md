@@ -61,13 +61,13 @@ Specifies the IP version. In tunnel mode, this is the version of the outer heade
 
 ### -field v4Address
 
-<b>Type: <b>UINT32</b>
+Type: <b>UINT32</b>
 
 case(FWP_IP_VERSION_V4)
 
 ### -field v6Address
 
-<b>Type: <b>UINT8[16]</b>
+Type: <b>UINT8[16]</b>
 
 case(FWP_IP_VERSION_V6)
 

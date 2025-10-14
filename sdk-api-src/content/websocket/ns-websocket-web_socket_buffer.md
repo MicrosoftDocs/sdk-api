@@ -62,34 +62,34 @@ The <b>WEB_SOCKET_BUFFER</b> structure contains data for a specific WebSocket ac
 
 ### -field Data.pbBuffer
 
-<b>Type: <b>PBYTE</b>
-</b>
+Type: <b>PBYTE</b>
+
 Pointer to the WebSocket buffer data.
 
 ### -field Data.ulBufferLength
 
-<b>Type: <b>ULONG</b>
-</b>
+Type: <b>ULONG</b>
+
 Length, in bytes, of the buffer pointed to by <b>pbBuffer</b>.
 
 ### -field CloseStatus
 
 ### -field CloseStatus.pbReason
 
-<b>Type: <b>PBYTE</b>
-</b>
+Type: <b>PBYTE</b>
+
 A point to a UTF-8 string that represents the reason the connection is closed. If <b>ulReasonLength</b> is 0, this must be <b>NULL</b>.
 
 ### -field CloseStatus.ulReasonLength
 
-<b>Type: <b>ULONG</b>
-</b>
+Type: <b>ULONG</b>
+
 Length, in bytes, of the buffer pointed to by <b>pbReason</b>. It cannot exceed <b>WEB_SOCKET_MAX_CLOSE_REASON_LENGTH</b> (123 bytes).
 
 ### -field CloseStatus.usStatus
 
-<b>Type: <b>USHORT</b>
-</b>
+Type: <b>USHORT</b>
+
 
 <a href="/windows/desktop/api/websocket/ne-websocket-web_socket_close_status">WEB_SOCKET_CLOSE_STATUS</a> enumeration that specifies the WebSocket status.
 

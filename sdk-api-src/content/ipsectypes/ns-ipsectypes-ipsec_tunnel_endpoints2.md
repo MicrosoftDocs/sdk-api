@@ -62,7 +62,7 @@ Specifies the IP version. In tunnel mode, this is the version of the outer heade
 
 ### -field localV4Address
 
-<b>Type: <b>UINT32</b>
+Type: <b>UINT32</b>
 
 case(FWP_IP_VERSION_V4)
 

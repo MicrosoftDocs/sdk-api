@@ -70,8 +70,8 @@ The parameters for the corresponding object type. If the object type is <b>WnvPr
 
 ### -field ObjectParam.ProviderAddressChange
 
-<b>Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a></b>
+
 The provider address change parameters for this object change event.
 
 ### -field ObjectParam.CustomerAddressChange

@@ -416,92 +416,92 @@ Device or system control object-specific information. The format of this informa
 
 ### -field Info.Drive
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
 ### -field Info.DriveType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 
 ### -field Info.Library
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 
 ### -field Info.Changer
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
 
 ### -field Info.ChangerType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changertypeinformationa">NTMS_CHANGERTYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
 
 ### -field Info.StorageSlot
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
 
 ### -field Info.IEDoor
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_iedoorinformation">NTMS_IEDOORINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
 
 ### -field Info.IEPort
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
 
 ### -field Info.PhysicalMedia
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
 
 ### -field Info.LogicalMedia
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
 
 ### -field Info.Partition
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
 
 ### -field Info.MediaPool
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
 
 ### -field Info.MediaType
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
 
 ### -field Info.LibRequest
 
-<b>Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
 
 ### -field Info.OpRequest
 
-<b>Type: <b>NTMS_OPREQUESTINFORMATION</b>
-</b>
+Type: <b>NTMS_OPREQUESTINFORMATION</b>
+
 This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
 
 ### -field Info.Computer

@@ -67,8 +67,8 @@ Type: <b>DWORD</b>
 
 #### dwState
 
-<b>Type: <b>DWORD</b>
-</b>
+Type: <b>DWORD</b>
+
 The state of the TCP connection. This member can be one of the values defined in the <i>Iprtrmib.h</i> header file.
 					
 

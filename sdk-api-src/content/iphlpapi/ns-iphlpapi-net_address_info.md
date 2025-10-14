@@ -70,14 +70,14 @@ A DNS named address and port.
 
 ### -field NamedAddress.Address
 
-<b>Type: <b>WCHAR[DNS_MAX_NAME_BUFFER_LENGTH]</b>
-</b>
+Type: <b>WCHAR[DNS_MAX_NAME_BUFFER_LENGTH]</b>
+
 A DNS name formatted as a <b>NULL</b>-terminated wide character string. The maximum length of this string is the <b>DNS_MAX_NAME_BUFFER_LENGTH</b> constant defined in the <i>Windns.h</i> header file.
 
 ### -field NamedAddress.Port
 
-<b>Type: <b>WCHAR[6]</b>
-</b>
+Type: <b>WCHAR[6]</b>
+
 The network port formatted as a <b>NULL</b>-terminated wide character string.
 
 ### -field Ipv4Address

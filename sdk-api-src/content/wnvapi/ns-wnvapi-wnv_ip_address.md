@@ -64,20 +64,20 @@ An IP version 4 (IPv4) or IP version 6 (IPv6) address object.
 
 ### -field IP.v4
 
-<b>Type: <b>IN_ADDR</b>
-</b>
+Type: <b>IN_ADDR</b>
+
 An IPv4 address.
 
 ### -field IP.v6
 
-<b>Type: <b>IN6_ADDR</b>
-</b>
+Type: <b>IN6_ADDR</b>
+
 An IPv6 address.
 
 ### -field IP.Addr
 
-<b>Type: <b>UCHAR[sizeof(IN6_ADDR)]</b>
-</b>
+Type: <b>UCHAR[sizeof(IN6_ADDR)]</b>
+
 An array of bytes that contains the IP address.
 
 ## -remarks

@@ -72,36 +72,36 @@ The parameters required to complete the callback. The structures within the Para
 
 ### -field Parameters.WindowMessage.hWnd
 
-<b>Type: <b>HWND</b>
-</b>
+Type: <b>HWND</b>
+
 Windows handle.
 
 ### -field Parameters.WindowMessage.uMsg
 
-<b>Type: <b>UINT</b>
-</b>
+Type: <b>UINT</b>
+
 Message handle.
 
 ### -field Parameters.WindowMessage.context
 
-<b>Type: <b>WPARAM</b>
-</b>
+Type: <b>WPARAM</b>
+
 Context of the message or handle.
 
 ### -field Parameters.Event
 
 ### -field Parameters.Event.lpOverlapped
 
-<b>Type: <b>LPWSAOVERLAPPED</b>
-</b>
+Type: <b>LPWSAOVERLAPPED</b>
+
 A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Apc
 
 ### -field Parameters.Apc.lpOverlapped
 
-<b>Type: <b>LPWSAOVERLAPPED</b>
-</b>
+Type: <b>LPWSAOVERLAPPED</b>
+
 A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Apc.lpfnCompletionProc
@@ -114,20 +114,20 @@ A pointer to an application-provided completion routine.
 
 ### -field Parameters.Port.lpOverlapped
 
-<b>Type: <b>LPWSAOVERLAPPED</b>
-</b>
+Type: <b>LPWSAOVERLAPPED</b>
+
 A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Port.hPort
 
-<b>Type: <b>HANDLE</b>
-</b>
+Type: <b>HANDLE</b>
+
 A handle to the port.
 
 ### -field Parameters.Port.Key
 
-<b>Type: <b>ULONG_PTR</b>
-</b>
+Type: <b>ULONG_PTR</b>
+
 A pointer to the key.
 
 ## -remarks

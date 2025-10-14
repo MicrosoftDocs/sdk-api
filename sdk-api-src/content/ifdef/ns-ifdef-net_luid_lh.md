@@ -70,20 +70,20 @@ A named union containing the component fields in the 64-bit LUID  <b>Value</b> m
 
 ### -field Info.Reserved
 
-<b>Type: <b>ULONG64</b>
-</b>
+Type: <b>ULONG64</b>
+
 This field is reserved.
 
 ### -field Info.NetLuidIndex
 
-<b>Type: <b>ULONG64</b>
-</b>
+Type: <b>ULONG64</b>
+
 The network interface LUID index.
 
 ### -field Info.IfType
 
-<b>Type: <b>ULONG64</b>
-</b>
+Type: <b>ULONG64</b>
+
 The interface type as defined by the Internet Assigned Names Authority (IANA). Possible values for the interface type are listed in the <i>Ipifcons.h</i> include file. 
 
 The table below lists common values for the interface type although many other values are possible. 

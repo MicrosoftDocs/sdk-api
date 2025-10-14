@@ -207,16 +207,16 @@ Any additional information relating to the debugging event. This union takes on 
 
 ### -field u.Exception
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info">EXCEPTION_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info">EXCEPTION_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>EXCEPTION_DEBUG_EVENT</b> (1), 
        <b>u.Exception</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-exception_debug_info">EXCEPTION_DEBUG_INFO</a> structure.
 
 ### -field u.CreateThread
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>CREATE_THREAD_DEBUG_EVENT</b> 
        (2), <b>u.CreateThread</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a> 
@@ -224,8 +224,8 @@ If the <b>dwDebugEventCode</b> is <b>CREATE_THREAD_DEBUG_EVENT</b>
 
 ### -field u.CreateProcessInfo
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>CREATE_PROCESS_DEBUG_EVENT</b> 
        (3), <b>u.CreateProcessInfo</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> 
@@ -233,40 +233,40 @@ If the <b>dwDebugEventCode</b> is <b>CREATE_PROCESS_DEBUG_EVENT</b>
 
 ### -field u.ExitThread
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info">EXIT_THREAD_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info">EXIT_THREAD_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>EXIT_THREAD_DEBUG_EVENT</b> 
        (4), <b>u.ExitThread</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info">EXIT_THREAD_DEBUG_INFO</a> structure.
 
 ### -field u.ExitProcess
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info">EXIT_PROCESS_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info">EXIT_PROCESS_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>EXIT_PROCESS_DEBUG_EVENT</b> 
        (5), <b>u.ExitProcess</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-exit_process_debug_info">EXIT_PROCESS_DEBUG_INFO</a> structure.
 
 ### -field u.LoadDll
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>LOAD_DLL_DEBUG_EVENT</b> (6), 
        <b>u.LoadDll</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info">LOAD_DLL_DEBUG_INFO</a> structure.
 
 ### -field u.UnloadDll
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info">UNLOAD_DLL_DEBUG_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info">UNLOAD_DLL_DEBUG_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>UNLOAD_DLL_DEBUG_EVENT</b> 
        (7), <b>u.UnloadDll</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info">UNLOAD_DLL_DEBUG_INFO</a> structure.
 
 ### -field u.DebugString
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info">OUTPUT_DEBUG_STRING_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info">OUTPUT_DEBUG_STRING_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>OUTPUT_DEBUG_STRING_EVENT</b> 
        (8), <b>u.DebugString</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-output_debug_string_info">OUTPUT_DEBUG_STRING_INFO</a> 
@@ -274,8 +274,8 @@ If the <b>dwDebugEventCode</b> is <b>OUTPUT_DEBUG_STRING_EVENT</b>
 
 ### -field u.RipInfo
 
-<b>Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-rip_info">RIP_INFO</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-rip_info">RIP_INFO</a></b>
+
 If the <b>dwDebugEventCode</b> is <b>RIP_EVENT</b> (9), 
        <b>u.RipInfo</b> specifies an 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-rip_info">RIP_INFO</a> structure.

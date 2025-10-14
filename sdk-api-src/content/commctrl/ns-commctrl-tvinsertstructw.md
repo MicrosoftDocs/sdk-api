@@ -123,15 +123,15 @@ Inserts the item into the list in alphabetical order.
 
 ### -field DUMMYUNIONNAME.itemex
 
-<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
+
 
 <a href="/windows/desktop/Controls/common-control-versions">Version 4.71</a>. <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure that contains information about the item to add.
 
 ### -field DUMMYUNIONNAME.item
 
-<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
-</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+
 
 <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the item to add.
 

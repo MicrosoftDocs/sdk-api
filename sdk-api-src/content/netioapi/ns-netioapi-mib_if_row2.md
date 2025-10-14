@@ -967,51 +967,51 @@ A set of flags that provide information about the interface. These flags are com
 
 ### -field InterfaceAndOperStatusFlags.HardwareInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is for hardware.
 
 ### -field InterfaceAndOperStatusFlags.FilterInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is for a filter module.
 
 ### -field InterfaceAndOperStatusFlags.ConnectorPresent
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if a connector is present on the network interface. This value is set if there is a physical network adapter.
 
 ### -field InterfaceAndOperStatusFlags.NotAuthenticated
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the default port for the network interface is not authenticated. If a network interface is not authenticated by the target, then the network interface is not in an operational mode.
 Although this applies to both wired and wireless network connections, authentication is more common for wireless network connections.
 
 ### -field InterfaceAndOperStatusFlags.NotMediaConnected
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is not in a media-connected state. If a network cable is unplugged for a wired network, this would be set. For a wireless network, this is set for the network adapter that is not connected to a network.
 
 ### -field InterfaceAndOperStatusFlags.Paused
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network stack for the network interface is in the paused or pausing state. This does not mean that the computer is in a hibernated state.
 
 ### -field InterfaceAndOperStatusFlags.LowPower
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is in a low power state.
 
 ### -field InterfaceAndOperStatusFlags.EndPointInterface
 
-<b>Type: <b>BOOLEAN</b>
-</b>
+Type: <b>BOOLEAN</b>
+
 Set if the network interface is an endpoint device and not a true network interface that connects to a network. This can be set by devices such as smart phones which use networking infrastructure to communicate to the PC but do not provide connectivity to an external network. It is mandatory for these types of devices to set this flag.
 
 ### -field OperStatus
