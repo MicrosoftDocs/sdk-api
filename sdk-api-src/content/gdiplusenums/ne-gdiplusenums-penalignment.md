@@ -66,4 +66,4 @@ Specifies, when drawing a polygon, that the pen is aligned on the inside of the 
 ## -remarks
 
 If you set the alignment of a 
-				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b><b>PenAlignmentInset</b></b>, you cannot use that pen to draw compound lines or triangular dash caps.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw compound lines or triangular dash caps.

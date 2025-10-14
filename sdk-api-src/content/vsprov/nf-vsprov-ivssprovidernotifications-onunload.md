@@ -71,7 +71,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 <dt>0x00000000L</dt>
 </dl>
 </td>

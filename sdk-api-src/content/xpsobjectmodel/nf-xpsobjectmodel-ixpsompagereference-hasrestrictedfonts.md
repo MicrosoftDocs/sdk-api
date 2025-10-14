@@ -65,7 +65,7 @@ A Boolean value that indicates whether the document sub-tree of the referenced p
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -77,7 +77,7 @@ If the referenced page is not loaded, it has a relationship with at least one fo
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -87,7 +87,7 @@ A Boolean value that  indicates whether the document markup will be optimized fo
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ The package writer will try to optimize the markup for minimum size.
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -73,7 +73,7 @@ A bit member that identifies characteristics of the credential. Undefined bits s
 </tr>
 <tr>
 <td width="40%"><a id="CRED_FLAGS_PROMPT_NOW"></a><a id="cred_flags_prompt_now"></a><dl>
-<dt><b><b>CRED_FLAGS_PROMPT_NOW</b></b></dt>
+<dt><b>CRED_FLAGS_PROMPT_NOW</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -88,7 +88,7 @@ If <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIF
 </tr>
 <tr>
 <td width="40%"><a id="CRED_FLAGS_USERNAME_TARGET"></a><a id="cred_flags_username_target"></a><dl>
-<dt><b><b>CRED_FLAGS_USERNAME_TARGET</b></b></dt>
+<dt><b>CRED_FLAGS_USERNAME_TARGET</b></dt>
 <dt>4 (0x4)</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The type of the credential. This member cannot be changed after the credential i
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_GENERIC"></a><a id="cred_type_generic"></a><dl>
-<dt><b><b>CRED_TYPE_GENERIC</b></b></dt>
+<dt><b>CRED_TYPE_GENERIC</b></dt>
 <dt>1 (0x1)</dt>
 </dl>
 </td>
@@ -125,7 +125,7 @@ The credential is a generic credential. The credential will not be used by any p
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_PASSWORD"></a><a id="cred_type_domain_password"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_PASSWORD</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_PASSWORD</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -136,7 +136,7 @@ The credential is a password credential and is specific to Microsoft's authentic
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_CERTIFICATE"></a><a id="cred_type_domain_certificate"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_CERTIFICATE</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_CERTIFICATE</b></dt>
 <dt>3 (0x3)</dt>
 </dl>
 </td>
@@ -147,7 +147,7 @@ The credential is a certificate credential and is specific to Microsoft's authen
 </tr>
 <tr>
 <td width="40%"><a id="CRED_TYPE_DOMAIN_VISIBLE_PASSWORD"></a><a id="cred_type_domain_visible_password"></a><dl>
-<dt><b><b>CRED_TYPE_DOMAIN_VISIBLE_PASSWORD</b></b></dt>
+<dt><b>CRED_TYPE_DOMAIN_VISIBLE_PASSWORD</b></dt>
 <dt>4 (0x4)</dt>
 </dl>
 </td>
@@ -300,7 +300,7 @@ Defines the persistence of this credential. This member can be read and written.
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_SESSION"></a><a id="cred_persist_session"></a><dl>
-<dt><b><b>CRED_PERSIST_SESSION</b></b></dt>
+<dt><b>CRED_PERSIST_SESSION</b></dt>
 <dt>1 (0x1)</dt>
 </dl>
 </td>
@@ -311,7 +311,7 @@ The credential persists for the life of the logon session. It will not be visibl
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_LOCAL_MACHINE"></a><a id="cred_persist_local_machine"></a><dl>
-<dt><b><b>CRED_PERSIST_LOCAL_MACHINE</b></b></dt>
+<dt><b>CRED_PERSIST_LOCAL_MACHINE</b></dt>
 <dt>2 (0x2)</dt>
 </dl>
 </td>
@@ -324,7 +324,7 @@ The credential persists for all subsequent logon sessions on this same computer.
 </tr>
 <tr>
 <td width="40%"><a id="CRED_PERSIST_ENTERPRISE"></a><a id="cred_persist_enterprise"></a><dl>
-<dt><b><b>CRED_PERSIST_ENTERPRISE</b></b></dt>
+<dt><b>CRED_PERSIST_ENTERPRISE</b></dt>
 <dt>3 (0x3)</dt>
 </dl>
 </td>

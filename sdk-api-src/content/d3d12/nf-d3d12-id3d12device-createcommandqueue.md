@@ -60,7 +60,7 @@ Specifies a **D3D12_COMMAND_QUEUE_DESC** that describes the command queue.
 
 ### -param riid
 
-Type: <b><b>REFIID</b></b>
+Type: <b>REFIID</b>
 
 The globally unique identifier (GUID) for the command queue interface. See **Remarks**. An input parameter.
 

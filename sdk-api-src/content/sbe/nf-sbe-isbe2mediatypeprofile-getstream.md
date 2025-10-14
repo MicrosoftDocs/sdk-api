@@ -11,7 +11,7 @@ ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream 
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windowsï¿½7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -76,7 +76,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ Invalid parameter.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ Not enough memory for media type pointer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">

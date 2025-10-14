@@ -67,7 +67,7 @@ The following table lists some of the possible return values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -78,7 +78,7 @@ Successfully removed the certificate.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_FALSE</b></b></dt>
+<dt><b>S_FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

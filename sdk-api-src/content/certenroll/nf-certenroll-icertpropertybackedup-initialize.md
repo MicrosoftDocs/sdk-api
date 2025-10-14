@@ -76,7 +76,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -88,7 +88,7 @@ The object is already initialized.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_INVALID_DATA)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_INVALID_DATA)</b></dt>
 <dt></dt>
 </dl>
 </td>

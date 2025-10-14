@@ -65,7 +65,7 @@ An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509privatekeyverify">
 </tr>
 <tr>
 <td width="40%"><a id="VerifyNone"></a><a id="verifynone"></a><a id="VERIFYNONE"></a><dl>
-<dt><b><b>VerifyNone</b></b></dt>
+<dt><b>VerifyNone</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -76,7 +76,7 @@ Does not verify.
 </tr>
 <tr>
 <td width="40%"><a id="VerifySilent"></a><a id="verifysilent"></a><a id="VERIFYSILENT"></a><dl>
-<dt><b><b>VerifySilent</b></b></dt>
+<dt><b>VerifySilent</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ Does not verify if a user interface is required to open the private key; otherwi
 </tr>
 <tr>
 <td width="40%"><a id="VerifySmartCardNone"></a><a id="verifysmartcardnone"></a><a id="VERIFYSMARTCARDNONE"></a><dl>
-<dt><b><b>VerifySmartCardNone</b></b></dt>
+<dt><b>VerifySmartCardNone</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ Does not verify if the key is stored on a smart card; otherwise, this value is e
 </tr>
 <tr>
 <td width="40%"><a id="VerifySmartCardSilent"></a><a id="verifysmartcardsilent"></a><a id="VERIFYSMARTCARDSILENT"></a><dl>
-<dt><b><b>VerifySmartCardSilent</b></b></dt>
+<dt><b>VerifySmartCardSilent</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -109,7 +109,7 @@ Does not verify if a user interface is required to open the private key and the 
 </tr>
 <tr>
 <td width="40%"><a id="VerifyAllowUI"></a><a id="verifyallowui"></a><a id="VERIFYALLOWUI"></a><dl>
-<dt><b><b>VerifyAllowUI</b></b></dt>
+<dt><b>VerifyAllowUI</b></dt>
 <dt></dt>
 </dl>
 </td>

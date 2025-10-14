@@ -69,7 +69,7 @@ Specifies the unit of time for the duration. The following value is defined.
 </tr>
 <tr>
 <td width="40%"><a id="MFP_POSITIONTYPE_100NS"></a><a id="mfp_positiontype_100ns"></a><dl>
-<dt><b><b>MFP_POSITIONTYPE_100NS</b></b></dt>
+<dt><b>MFP_POSITIONTYPE_100NS</b></dt>
 </dl>
 </td>
 <td width="60%">

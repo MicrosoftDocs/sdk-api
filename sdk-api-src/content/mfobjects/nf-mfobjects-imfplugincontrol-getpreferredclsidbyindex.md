@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NO_MORE_ITEMS)</b></dt>
 </dl>
 </td>
 <td width="60%">

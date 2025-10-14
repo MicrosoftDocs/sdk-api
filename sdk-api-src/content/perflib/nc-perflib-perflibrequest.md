@@ -70,7 +70,7 @@ The request code can be one of the following values.
 </tr>
 <tr>
 <td width="40%"><a id="PERF_ADD_COUNTER"></a><a id="perf_add_counter"></a><dl>
-<dt><b><b>PERF_ADD_COUNTER</b></b></dt>
+<dt><b>PERF_ADD_COUNTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -82,7 +82,7 @@ Providers can use this notification to start counting.
 </tr>
 <tr>
 <td width="40%"><a id="PERF_REMOVE_COUNTER"></a><a id="perf_remove_counter"></a><dl>
-<dt><b><b>PERF_REMOVE_COUNTER</b></b></dt>
+<dt><b>PERF_REMOVE_COUNTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ Providers can use this notification to stop counting.
 </tr>
 <tr>
 <td width="40%"><a id="PERF_ENUM_INSTANCES"></a><a id="perf_enum_instances"></a><dl>
-<dt><b><b>PERF_ENUM_INSTANCES</b></b></dt>
+<dt><b>PERF_ENUM_INSTANCES</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ The consumer is  enumerating instances of the counter set. The <i>Buffer</i> par
 </tr>
 <tr>
 <td width="40%"><a id="PERF_COLLECT_START"></a><a id="perf_collect_start"></a><dl>
-<dt><b><b>PERF_COLLECT_START</b></b></dt>
+<dt><b>PERF_COLLECT_START</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ Providers can use this notification if the raw data state is critical (for examp
 </tr>
 <tr>
 <td width="40%"><a id="PERF_COLLECT_END"></a><a id="perf_collect_end"></a><dl>
-<dt><b><b>PERF_COLLECT_END</b></b></dt>
+<dt><b>PERF_COLLECT_END</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -68,7 +68,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_ARCHIVED_KEY_REQUIRED</b></b></dt>
+<dt><b>CERTSRV_E_ARCHIVED_KEY_REQUIRED</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -80,7 +80,7 @@ The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatereque
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>OLE_E_BLANK</b></b></dt>
+<dt><b>OLE_E_BLANK</b></dt>
 <dt></dt>
 </dl>
 </td>

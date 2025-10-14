@@ -78,7 +78,7 @@ Specifies whether the effect is optional.
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,7 +88,7 @@ The effect is optional. If the MFPlay player object cannot add the effect, it ig
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDINDEX</b></b></dt>
+<dt><b>MF_E_INVALIDINDEX</b></dt>
 </dl>
 </td>
 <td width="60%">

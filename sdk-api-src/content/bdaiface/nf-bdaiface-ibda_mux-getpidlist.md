@@ -11,8 +11,8 @@ ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidLi
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windowsï¿½7 [desktop apps only]
+req.target-min-winversvr: Windows Serverï¿½2008ï¿½R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -76,7 +76,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_NOT_SUFFICIENT_BUFFER</b></b></dt>
+<dt><b>E_NOT_SUFFICIENT_BUFFER</b></dt>
 </dl>
 </td>
 <td width="60%">

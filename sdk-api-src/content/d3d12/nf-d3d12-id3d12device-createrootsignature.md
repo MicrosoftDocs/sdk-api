@@ -76,7 +76,7 @@ The size, in bytes, of the block of memory that <i>pBlobWithRootSignature</i> po
 
 ### -param riid
 
-Type: <b><b>REFIID</b></b>
+Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the root signature interface. See Remarks.
             An input parameter.

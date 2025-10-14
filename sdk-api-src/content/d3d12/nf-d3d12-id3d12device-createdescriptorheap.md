@@ -62,7 +62,7 @@ A pointer to a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_hea
 
 ### -param riid
 
-Type: <b><b>REFIID</b></b>
+Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the descriptor heap interface. See Remarks.
             An input parameter.

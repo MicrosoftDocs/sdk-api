@@ -72,7 +72,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_NO_SIGNER</b></b></dt>
+<dt><b>CRYPT_E_NO_SIGNER</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The signature cannot be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_INVALID_STATE)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_INVALID_STATE)</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>OLE_E_BLANK</b></b></dt>
+<dt><b>OLE_E_BLANK</b></dt>
 <dt></dt>
 </dl>
 </td>

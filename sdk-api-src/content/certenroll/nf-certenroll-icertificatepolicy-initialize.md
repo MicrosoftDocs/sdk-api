@@ -72,7 +72,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The pointer to the <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjec
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

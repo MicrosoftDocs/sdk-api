@@ -91,7 +91,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +103,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_NOTIMPL</b></b></dt>
+<dt><b>E_NOTIMPL</b></dt>
 </dl>
 </td>
 <td width="60%">

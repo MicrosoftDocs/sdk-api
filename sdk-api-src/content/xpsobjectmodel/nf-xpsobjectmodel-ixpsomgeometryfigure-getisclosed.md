@@ -65,7 +65,7 @@ The Boolean value that indicates whether the figure is closed.
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +75,7 @@ The figure is closed. The line segment between the start and end points  of the 
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

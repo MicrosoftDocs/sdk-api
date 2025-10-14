@@ -72,7 +72,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,7 +83,7 @@ The query was returned successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ One or more of the parameter values is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ Out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ The caller is not an administrator.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_UNEXPECTED</b></b></dt>
+<dt><b>E_UNEXPECTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ An unexpected error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">

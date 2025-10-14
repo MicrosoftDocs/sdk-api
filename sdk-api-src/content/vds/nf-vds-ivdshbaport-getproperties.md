@@ -73,7 +73,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ The properties were successfully returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_PROPERTIES_INCOMPLETE</b></b></dt>
+<dt><b>VDS_S_PROPERTIES_INCOMPLETE</b></dt>
 <dt>0x00042715L</dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">

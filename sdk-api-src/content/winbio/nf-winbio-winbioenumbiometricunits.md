@@ -106,7 +106,7 @@ There was insufficient memory to complete the request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ The <i>UnitSchemaArray</i> and <i>UnitCount</i> parameters cannot be <b>NULL</b>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

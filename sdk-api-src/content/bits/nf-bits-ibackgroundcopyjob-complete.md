@@ -66,7 +66,7 @@ This method returns the following <b>HRESULT</b> values. The method can also ret
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -72,7 +72,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_INVALID_MSG_TYPE</b></b></dt>
+<dt><b>CRYPT_E_INVALID_MSG_TYPE</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The request object specified on input is not a PKCS #10 request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

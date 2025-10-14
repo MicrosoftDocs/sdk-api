@@ -115,7 +115,7 @@ The caller is out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_REVERT_IN_PROGRESS</b></b></dt>
+<dt><b>VSS_E_REVERT_IN_PROGRESS</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -82,7 +82,7 @@ A <b>WINBIO_PROPERTY_ID</b> value that specifies the property that you want to q
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_SAMPLE_HINT"></a><a id="winbio_property_sample_hint"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_SAMPLE_HINT</b></b></dt>
+<dt><b>WINBIO_PROPERTY_SAMPLE_HINT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +92,7 @@ Estimates the maximum number of good biometric samples that are required to comp
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_EXTENDED_SENSOR_INFO_"></a><a id="winbio_property_extended_sensor_info_"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_EXTENDED_SENSOR_INFO </b></b></dt>
+<dt><b>WINBIO_PROPERTY_EXTENDED_SENSOR_INFO </b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -103,7 +103,7 @@ Contains extended information about the capabilities and attributes of the senso
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_EXTENDED_ENGINE_INFO__"></a><a id="winbio_property_extended_engine_info__"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_EXTENDED_ENGINE_INFO  </b></b></dt>
+<dt><b>WINBIO_PROPERTY_EXTENDED_ENGINE_INFO  </b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -114,7 +114,7 @@ This value is supported starting in Windows 10.
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_EXTENDED_STORAGE_INFO_"></a><a id="winbio_property_extended_storage_info_"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_EXTENDED_STORAGE_INFO </b></b></dt>
+<dt><b>WINBIO_PROPERTY_EXTENDED_STORAGE_INFO </b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +125,7 @@ This value is supported starting in Windows 10.
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS_"></a><a id="winbio_property_extended_enrollment_status_"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS </b></b></dt>
+<dt><b>WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS </b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +136,7 @@ This value is supported starting in Windows 10.
 </tr>
 <tr>
 <td width="40%"><a id="WINBIO_PROPERTY_ANTI_SPOOF_POLICY___"></a><a id="winbio_property_anti_spoof_policy___"></a><dl>
-<dt><b><b>WINBIO_PROPERTY_ANTI_SPOOF_POLICY   </b></b></dt>
+<dt><b>WINBIO_PROPERTY_ANTI_SPOOF_POLICY   </b></dt>
 </dl>
 </td>
 <td width="60%">

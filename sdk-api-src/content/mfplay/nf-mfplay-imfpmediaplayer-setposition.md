@@ -101,7 +101,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32( ERROR_SEEK )</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32( ERROR_SEEK )</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ The value of <i>pvPositionValue</i> is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ No media item has been queued.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

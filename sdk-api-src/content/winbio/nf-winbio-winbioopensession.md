@@ -228,7 +228,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,7 +239,7 @@ One or more arguments have incorrect values or are incompatible with other argum
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -250,7 +250,7 @@ The session handle pointer in the <i>SessionHandle</i> parameter cannot be <b>NU
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -261,7 +261,7 @@ The <i>Flags</i> parameter contains the <b>WINBIO_FLAG_RAW</b> or the <b>WINBIO_
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INVALID_UNIT</b></b></dt>
+<dt><b>WINBIO_E_INVALID_UNIT</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -272,7 +272,7 @@ One or more of the biometric unit numbers specified in the <i>UnitArray</i> para
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_NOT_ACTIVE_CONSOLE</b></b></dt>
+<dt><b>WINBIO_E_NOT_ACTIVE_CONSOLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -283,7 +283,7 @@ The client application is running on a remote desktop client and is attempting t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_SENSOR_UNAVAILABLE</b></b></dt>
+<dt><b>WINBIO_E_SENSOR_UNAVAILABLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -294,7 +294,7 @@ The <i>PoolType</i> parameter is set to WINBIO_POOL_PRIVATE and one or more of t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

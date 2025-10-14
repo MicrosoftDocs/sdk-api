@@ -65,7 +65,7 @@ The Boolean value that determines whether  the edges of child objects in this ca
 </tr>
 <tr>
 <td width="40%"><a id="TRUE"></a><a id="true"></a><dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -77,7 +77,7 @@ In the document markup, this  corresponds  to the <b>RenderOptions.EdgeMode</b> 
 </tr>
 <tr>
 <td width="40%"><a id="FALSE"></a><a id="false"></a><dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

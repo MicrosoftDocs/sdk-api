@@ -68,7 +68,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_INVALID_OPERATION)</b></dt>
 <dt></dt>
 </dl>
 </td>

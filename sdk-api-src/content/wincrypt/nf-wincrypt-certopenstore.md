@@ -75,7 +75,7 @@ the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionad
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_COLLECTION"></a><a id="cert_store_prov_collection"></a><dl>
-<dt><b><b>CERT_STORE_PROV_COLLECTION</b></b></dt>
+<dt><b>CERT_STORE_PROV_COLLECTION</b></dt>
 <dt><b>sz_CERT_STORE_PROV_COLLECTION</b></dt>
 </dl>
 </td>
@@ -92,7 +92,7 @@ The high word of <i>dwFlags</i> is set to zero.
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_FILE"></a><a id="cert_store_prov_file"></a><dl>
-<dt><b><b>CERT_STORE_PROV_FILE</b></b></dt>
+<dt><b>CERT_STORE_PROV_FILE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The file pointer must be positioned at the beginning of the serialized store inf
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_FILENAME_A"></a><a id="cert_store_prov_filename_a"></a><dl>
-<dt><b><b>CERT_STORE_PROV_FILENAME_A</b></b></dt>
+<dt><b>CERT_STORE_PROV_FILENAME_A</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +137,7 @@ If <i>dwFlags</i> includes <b>CERT_FILE_STORE_COMMIT_ENABLE</b>, the file is com
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_FILENAME__W_"></a><a id="cert_store_prov_filename__w_"></a><dl>
-<dt><b><b>CERT_STORE_PROV_FILENAME(_W)</b></b></dt>
+<dt><b>CERT_STORE_PROV_FILENAME(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_FILENAME(_W)</b></dt>
 </dl>
 </td>
@@ -152,7 +152,7 @@ Same as <b>CERT_STORE_PROV_FILENAME_A</b>.
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_LDAP__W_"></a><a id="cert_store_prov_ldap__w_"></a><dl>
-<dt><b><b>CERT_STORE_PROV_LDAP(_W)</b></b></dt>
+<dt><b>CERT_STORE_PROV_LDAP(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_LDAP(_W)</b></dt>
 </dl>
 </td>
@@ -171,7 +171,7 @@ Otherwise,  set  <i>pvPara</i> to point to a null-terminated Unicode string that
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_MEMORY"></a><a id="cert_store_prov_memory"></a><dl>
-<dt><b><b>CERT_STORE_PROV_MEMORY</b></b></dt>
+<dt><b>CERT_STORE_PROV_MEMORY</b></dt>
 <dt><b>sz_CERT_STORE_PROV_MEMORY</b></dt>
 </dl>
 </td>
@@ -186,7 +186,7 @@ Any addition of certificates, CRLs, or CTLs or changes in properties of certific
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_MSG"></a><a id="cert_store_prov_msg"></a><dl>
-<dt><b><b>CERT_STORE_PROV_MSG</b></b></dt>
+<dt><b>CERT_STORE_PROV_MSG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -198,7 +198,7 @@ Initializes the store with certificates, CRLs, and CTLs from the specified crypt
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_PHYSICAL__W_"></a><a id="cert_store_prov_physical__w_"></a><dl>
-<dt><b><b>CERT_STORE_PROV_PHYSICAL(_W)</b></b></dt>
+<dt><b>CERT_STORE_PROV_PHYSICAL(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_PHYSICAL(_W)</b></dt>
 </dl>
 </td>
@@ -213,7 +213,7 @@ Two names are separated with an intervening backslash (\\), for example "Root\.D
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_PKCS7"></a><a id="cert_store_prov_pkcs7"></a><dl>
-<dt><b><b>CERT_STORE_PROV_PKCS7</b></b></dt>
+<dt><b>CERT_STORE_PROV_PKCS7</b></dt>
 <dt><b>sz_CERT_STORE_PROV_PKCS7</b></dt>
 </dl>
 </td>
@@ -226,7 +226,7 @@ Initializes the store with certificates, CRLs, and CTLs from an encoded PKCS #7 
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_PKCS12"></a><a id="cert_store_prov_pkcs12"></a><dl>
-<dt><b><b>CERT_STORE_PROV_PKCS12</b></b></dt>
+<dt><b>CERT_STORE_PROV_PKCS12</b></dt>
 <dt><b>sz_CERT_STORE_PROV_PKCS12</b></dt>
 </dl>
 </td>
@@ -245,7 +245,7 @@ You can protect PFX passwords to an AD principal beginning in Windows 8 and Win
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_REG"></a><a id="cert_store_prov_reg"></a><dl>
-<dt><b><b>CERT_STORE_PROV_REG</b></b></dt>
+<dt><b>CERT_STORE_PROV_REG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -259,7 +259,7 @@ This provider opens or creates the registry subkeys <b>Certificates</b>, <b>CRLs
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_SERIALIZED"></a><a id="cert_store_prov_serialized"></a><dl>
-<dt><b><b>CERT_STORE_PROV_SERIALIZED</b></b></dt>
+<dt><b>CERT_STORE_PROV_SERIALIZED</b></dt>
 <dt><b>sz_CERT_STORE_PROV_SERIALIZED</b></dt>
 </dl>
 </td>
@@ -272,7 +272,7 @@ Initializes the store with certificates, CRLs, and CTLs from a memory location t
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_SMART_CARD__W_"></a><a id="cert_store_prov_smart_card__w_"></a><dl>
-<dt><b><b>CERT_STORE_PROV_SMART_CARD(_W)</b></b></dt>
+<dt><b>CERT_STORE_PROV_SMART_CARD(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_SMART_CARD(_W)</b></dt>
 </dl>
 </td>
@@ -283,7 +283,7 @@ Not currently used.
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_SYSTEM_A"></a><a id="cert_store_prov_system_a"></a><dl>
-<dt><b><b>CERT_STORE_PROV_SYSTEM_A</b></b></dt>
+<dt><b>CERT_STORE_PROV_SYSTEM_A</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -297,7 +297,7 @@ The system store is a logical, collection store that consists of one or more phy
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_SYSTEM__W_"></a><a id="cert_store_prov_system__w_"></a><dl>
-<dt><b><b>CERT_STORE_PROV_SYSTEM(_W)</b></b></dt>
+<dt><b>CERT_STORE_PROV_SYSTEM(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_SYSTEM(_W)</b></dt>
 </dl>
 </td>
@@ -310,7 +310,7 @@ Same as <b>CERT_STORE_PROV_SYSTEM_A</b>.
 </tr>
 <tr>
 <td width="40%"><a id="CERT_STORE_PROV_SYSTEM_REGISTRY_A"></a><a id="cert_store_prov_system_registry_a"></a><dl>
-<dt><b><b>CERT_STORE_PROV_SYSTEM_REGISTRY_A</b></b></dt>
+<dt><b>CERT_STORE_PROV_SYSTEM_REGISTRY_A</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -324,7 +324,7 @@ The high word of <i>dwFlags</i> indicates the system store location, usually set
 </tr>
 <tr>
 <td width="40%"><a id="_CERT_STORE_PROV_SYSTEM_REGISTRY__W_"></a><a id="_cert_store_prov_system_registry__w_"></a><dl>
-<dt><b><b> CERT_STORE_PROV_SYSTEM_REGISTRY(_W)</b></b></dt>
+<dt><b> CERT_STORE_PROV_SYSTEM_REGISTRY(_W)</b></dt>
 <dt><b>sz_CERT_STORE_PROV_SYSTEM_REGISTRY(_W)</b></dt>
 </dl>
 </td>

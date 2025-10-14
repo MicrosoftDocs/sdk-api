@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ The current media item does not contain video.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -76,7 +76,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -88,7 +88,7 @@ The property value could not be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NTE_BAD_TYPE</b></b></dt>
+<dt><b>NTE_BAD_TYPE</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -100,7 +100,7 @@ The cryptographic provider does not support security descriptors.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NTE_NOT_FOUND</b></b></dt>
+<dt><b>NTE_NOT_FOUND</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -112,7 +112,7 @@ The cryptographic provider does not support security descriptors.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NTE_BAD_KEY_STATE</b></b></dt>
+<dt><b>NTE_BAD_KEY_STATE</b></dt>
 <dt></dt>
 </dl>
 </td>

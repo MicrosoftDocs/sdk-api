@@ -87,7 +87,7 @@ Indicates that the pen type is unknown.
 
 A pen's type is determined when the pen is constructed. For example, if you pass a 
 				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object to a 
-				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeHatchFill</b></b>. If you pass a 
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor, then the pen that is constructed has a pen type of <b>PenTypeHatchFill</b>. If you pass a 
 				<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object or a 
 				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object to a 
-				<b>Pen</b> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeSolidColor</b></b>.
+				<b>Pen</b> constructor, then the pen that is constructed has a pen type of <b>PenTypeSolidColor</b>.

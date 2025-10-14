@@ -85,7 +85,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The operation was successful.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ The calling process has insufficient privileges.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_FAIL</b></b></dt>
+<dt><b>E_FAIL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ There is an internal error.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ One of the parameters passed is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_NOTIMPL</b></b></dt>
+<dt><b>E_NOTIMPL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The provider for the volume does not support revert operations.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The caller is out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ One of the required pointer parameters is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,7 +173,7 @@ The <i>pwszVolume</i> parameter is not a valid volume.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_VOLUME_NOT_SUPPORTED</b></b></dt>
+<dt><b>VSS_E_VOLUME_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -238,7 +238,7 @@ Sent prior to display of the <a href="/windows/desktop/Msi/f-gly">full UI</a> di
 </tr>
 <tr>
 <td width="40%"><a id="INSTALLLOGMODE_INSTALLSTART"></a><a id="installlogmode_installstart"></a><dl>
-<dt><b><b>INSTALLLOGMODE_INSTALLSTART</b></b></dt>
+<dt><b>INSTALLLOGMODE_INSTALLSTART</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -250,7 +250,7 @@ The message contains the product's ProductName and ProductCode.
 </tr>
 <tr>
 <td width="40%"><a id="INSTALLLOGMODE_INSTALLEND"></a><a id="installlogmode_installend"></a><dl>
-<dt><b><b>INSTALLLOGMODE_INSTALLEND</b></b></dt>
+<dt><b>INSTALLLOGMODE_INSTALLEND</b></dt>
 </dl>
 </td>
 <td width="60%">

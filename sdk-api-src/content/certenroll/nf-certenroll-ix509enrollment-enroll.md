@@ -68,7 +68,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>OLE_E_BLANK</b></b></dt>
+<dt><b>OLE_E_BLANK</b></dt>
 <dt></dt>
 </dl>
 </td>

@@ -82,7 +82,7 @@ Returns an <b>HRESULT</b> value. Possible values include the following.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ Success.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALID_WORKQUEUE</b></b></dt>
+<dt><b>MF_E_INVALID_WORKQUEUE</b></dt>
 </dl>
 </td>
 <td width="60%">

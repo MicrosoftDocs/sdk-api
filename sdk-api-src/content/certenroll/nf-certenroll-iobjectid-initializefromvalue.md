@@ -72,7 +72,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The OID information could not be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_UNKNOWN_ALGO</b></b></dt>
+<dt><b>CRYPT_E_UNKNOWN_ALGO</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ The algorithm name is not recognized.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
 <dt></dt>
 </dl>
 </td>

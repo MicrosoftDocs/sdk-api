@@ -90,7 +90,7 @@ The <i>pv</i> parameter points to a null-terminated Unicode string with the path
 
 Before Windows 7, SHARD_PIDL, SHARD_PATHA, and SHARD_PATHW were defined as individual constants, not as enumeration members.
 
-When providing an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> through either <b><b>SHARD_LINK</b></b> or <b><b>SHARD_APPIDINFOLINK</b></b>, the <b>IShellLink</b> instance must provide the following:
+When providing an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> through either <b>SHARD_LINK</b> or <b>SHARD_APPIDINFOLINK</b>, the <b>IShellLink</b> instance must provide the following:
 
                 
 

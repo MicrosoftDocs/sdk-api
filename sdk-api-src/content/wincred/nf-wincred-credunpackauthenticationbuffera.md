@@ -127,7 +127,7 @@ For extended error information, call the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_NOT_CAPABLE</b></b></dt>
+<dt><b>ERROR_NOT_CAPABLE</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -139,7 +139,7 @@ CRED_PACK_PROTECTED_CREDENTIALS was passed as the value of the <i>dwFlags</i> pa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_INSUFFICIENT_BUFFER</b></b></dt>
+<dt><b>ERROR_INSUFFICIENT_BUFFER</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -151,7 +151,7 @@ One of the output buffers, <i>pszUserName</i>, <i>pszDomainName</i>, or <i>pszPa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_NOT_SUPPORTED</b></b></dt>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
 <dt></dt>
 </dl>
 </td>

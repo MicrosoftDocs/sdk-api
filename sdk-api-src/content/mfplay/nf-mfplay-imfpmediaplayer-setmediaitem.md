@@ -74,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_DRM_UNSUPPORTED</b></b></dt>
+<dt><b>MF_E_DRM_UNSUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ The media item contains protected content. MFPlay currently does not support pro
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_NO_AUDIO_PLAYBACK_DEVICE</b></b></dt>
+<dt><b>MF_E_NO_AUDIO_PLAYBACK_DEVICE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ No audio playback device was found. This error can occur if the media source con
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

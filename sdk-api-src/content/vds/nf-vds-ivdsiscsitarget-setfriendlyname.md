@@ -73,7 +73,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ The friendly name was set successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_NAME_TRUNCATED</b></b></dt>
+<dt><b>VDS_S_NAME_TRUNCATED</b></dt>
 <dt>0x00042700L</dt>
 </dl>
 </td>
@@ -97,7 +97,7 @@ The name was set successfully but had to be truncated due to limitations in the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -126,7 +126,7 @@ The target object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>
@@ -138,7 +138,7 @@ Another operation is in progress; this operation cannot proceed until the previo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 <dt>0x80042400L</dt>
 </dl>
 </td>

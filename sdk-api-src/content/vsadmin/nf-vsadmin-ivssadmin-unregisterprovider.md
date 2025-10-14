@@ -71,7 +71,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -82,7 +82,7 @@ The provider was unregistered successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_PROVIDER_IN_USE</b></b></dt>
+<dt><b>VSS_E_PROVIDER_IN_USE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The provider is in use.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_PROVIDER_NOT_REGISTERED</b></b></dt>
+<dt><b>VSS_E_PROVIDER_NOT_REGISTERED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ The provider is not registered.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">

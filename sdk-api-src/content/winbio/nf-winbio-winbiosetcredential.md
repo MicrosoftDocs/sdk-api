@@ -126,7 +126,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -137,7 +137,7 @@ The caller does not have permission to set the credential.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_UNKNOWN_ID</b></b></dt>
+<dt><b>WINBIO_E_UNKNOWN_ID</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -148,7 +148,7 @@ The user has not enrolled a biometric sample.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>SEC_E_LOGON_DENIED</b></b></dt>
+<dt><b>SEC_E_LOGON_DENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,7 +159,7 @@ The credential was not valid for the current user.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_CRED_PROV_DISABLED</b></b></dt>
+<dt><b>WINBIO_E_CRED_PROV_DISABLED</b></dt>
 </dl>
 </td>
 <td width="60%">

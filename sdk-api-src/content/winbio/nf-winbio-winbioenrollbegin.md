@@ -111,7 +111,7 @@ The caller does not have permission to enroll.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ The <i>SubFactor</i> parameter cannot equal WINBIO_SUBTYPE_NO_INFORMATION or WIN
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_ENROLLMENT_IN_PROGRESS</b></b></dt>
+<dt><b>WINBIO_E_ENROLLMENT_IN_PROGRESS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ An enrollment operation is already in progress, and only one enrollment can occu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_LOCK_VIOLATION</b></b></dt>
+<dt><b>WINBIO_E_LOCK_VIOLATION</b></dt>
 </dl>
 </td>
 <td width="60%">

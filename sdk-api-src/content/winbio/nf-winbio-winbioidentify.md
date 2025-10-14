@@ -108,7 +108,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_POINTER</b></b></dt>
+<dt><b>E_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ The pointer specified by the <i>UnitId</i>,  <i>Identity</i>, <i>SubFactor</i>, 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The operation could not be completed because the biometric unit is currently bei
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_UNKNOWN_ID</b></b></dt>
+<dt><b>WINBIO_E_UNKNOWN_ID</b></dt>
 </dl>
 </td>
 <td width="60%">

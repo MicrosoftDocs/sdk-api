@@ -91,7 +91,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_NOT_FOUND</b></b></dt>
+<dt><b>CRYPT_E_NOT_FOUND</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -103,7 +103,7 @@ The certificate could not be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_UNEXPECTED_MSG_TYPE</b></b></dt>
+<dt><b>CRYPT_E_UNEXPECTED_MSG_TYPE</b></dt>
 <dt></dt>
 </dl>
 </td>

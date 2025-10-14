@@ -76,7 +76,7 @@ The zero-based index of a stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_VIDEO_STREAM"></a><a id="mf_source_reader_first_video_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_VIDEO_STREAM</b></dt>
 <dt>0xFFFFFFFC</dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ The first video stream.
 </tr>
 <tr>
 <td width="40%"><a id="MF_SOURCE_READER_FIRST_AUDIO_STREAM"></a><a id="mf_source_reader_first_audio_stream"></a><dl>
-<dt><b><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></b></dt>
+<dt><b>MF_SOURCE_READER_FIRST_AUDIO_STREAM</b></dt>
 <dt>0xFFFFFFFD</dt>
 </dl>
 </td>
@@ -152,7 +152,7 @@ Invalid request.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDSTREAMNUMBER</b></b></dt>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
 </dl>
 </td>
 <td width="60%">

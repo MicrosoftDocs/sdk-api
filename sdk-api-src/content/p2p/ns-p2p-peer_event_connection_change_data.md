@@ -79,7 +79,7 @@ Specifies the type of change in a neighbor or direct connection. Valid values ar
 </tr>
 <tr>
 <td width="40%"><a id="PEER_CONNECTED"></a><a id="peer_connected"></a><dl>
-<dt><b><b>PEER_CONNECTED</b></b></dt>
+<dt><b>PEER_CONNECTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ A new incoming or outgoing connection to the local node has been established.
 </tr>
 <tr>
 <td width="40%"><a id="PEER_CONNECTION_FAILED"></a><a id="peer_connection_failed"></a><dl>
-<dt><b><b>PEER_CONNECTION_FAILED</b></b></dt>
+<dt><b>PEER_CONNECTION_FAILED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ It is possible for a single attempt to connect to result in multiple connection 
 </tr>
 <tr>
 <td width="40%"><a id="PEER_DISCONNECTED"></a><a id="peer_disconnected"></a><dl>
-<dt><b><b>PEER_DISCONNECTED</b></b></dt>
+<dt><b>PEER_DISCONNECTED</b></dt>
 </dl>
 </td>
 <td width="60%">

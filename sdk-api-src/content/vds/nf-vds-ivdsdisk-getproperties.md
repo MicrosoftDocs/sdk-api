@@ -90,7 +90,7 @@ The properties were returned successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_S_PROPERTIES_INCOMPLETE</b></b></dt>
+<dt><b>VDS_S_PROPERTIES_INCOMPLETE</b></dt>
 <dt>0x00042715L</dt>
 </dl>
 </td>

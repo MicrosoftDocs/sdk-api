@@ -92,7 +92,7 @@ An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509requestinheritopti
 </tr>
 <tr>
 <td width="40%"><a id="InheritDefault"></a><a id="inheritdefault"></a><a id="INHERITDEFAULT"></a><dl>
-<dt><b><b>InheritDefault</b></b></dt>
+<dt><b>InheritDefault</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -103,7 +103,7 @@ Provider and key inheritance is not specified.
 </tr>
 <tr>
 <td width="40%"><a id="InheritNewDefaultKey"></a><a id="inheritnewdefaultkey"></a><a id="INHERITNEWDEFAULTKEY"></a><dl>
-<dt><b><b>InheritNewDefaultKey</b></b></dt>
+<dt><b>InheritNewDefaultKey</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ Creates a new key but inherits the default cryptographic provider.
 </tr>
 <tr>
 <td width="40%"><a id="InheritNewSimilarKey"></a><a id="inheritnewsimilarkey"></a><a id="INHERITNEWSIMILARKEY"></a><dl>
-<dt><b><b>InheritNewSimilarKey</b></b></dt>
+<dt><b>InheritNewSimilarKey</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -125,7 +125,7 @@ Creates a new key but inherits the cryptographic provider used to create the exi
 </tr>
 <tr>
 <td width="40%"><a id="InheritPrivateKey"></a><a id="inheritprivatekey"></a><a id="INHERITPRIVATEKEY"></a><dl>
-<dt><b><b>InheritPrivateKey</b></b></dt>
+<dt><b>InheritPrivateKey</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -136,7 +136,7 @@ Inherits the private and public keys.
 </tr>
 <tr>
 <td width="40%"><a id="InheritPublicKey"></a><a id="inheritpublickey"></a><a id="INHERITPUBLICKEY"></a><dl>
-<dt><b><b>InheritPublicKey</b></b></dt>
+<dt><b>InheritPublicKey</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -157,7 +157,7 @@ You can also use a bitwise-<b>AND</b> operation to combine the key inheritance v
 </tr>
 <tr>
 <td width="40%"><a id="InheritRenewalCertificateFlag"></a><a id="inheritrenewalcertificateflag"></a><a id="INHERITRENEWALCERTIFICATEFLAG"></a><dl>
-<dt><b><b>InheritRenewalCertificateFlag</b></b></dt>
+<dt><b>InheritRenewalCertificateFlag</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -168,7 +168,7 @@ Inherits the renewal certificate. Specifying this flag sets an <a href="/windows
 </tr>
 <tr>
 <td width="40%"><a id="InheritTemplateFlag"></a><a id="inherittemplateflag"></a><a id="INHERITTEMPLATEFLAG"></a><dl>
-<dt><b><b>InheritTemplateFlag</b></b></dt>
+<dt><b>InheritTemplateFlag</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -179,7 +179,7 @@ Inherits the certificate template.
 </tr>
 <tr>
 <td width="40%"><a id="InheritSubjectFlag"></a><a id="inheritsubjectflag"></a><a id="INHERITSUBJECTFLAG"></a><dl>
-<dt><b><b>InheritSubjectFlag</b></b></dt>
+<dt><b>InheritSubjectFlag</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -190,7 +190,7 @@ Inherits the subject distinguished name.
 </tr>
 <tr>
 <td width="40%"><a id="InheritExtensionsFlag"></a><a id="inheritextensionsflag"></a><a id="INHERITEXTENSIONSFLAG"></a><dl>
-<dt><b><b>InheritExtensionsFlag</b></b></dt>
+<dt><b>InheritExtensionsFlag</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -201,7 +201,7 @@ Inherits the relevant extensions from the certificate.
 </tr>
 <tr>
 <td width="40%"><a id="InheritSubjectAltNameFlag"></a><a id="inheritsubjectaltnameflag"></a><a id="INHERITSUBJECTALTNAMEFLAG"></a><dl>
-<dt><b><b>InheritSubjectAltNameFlag</b></b></dt>
+<dt><b>InheritSubjectAltNameFlag</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -212,7 +212,7 @@ Inherits the <b>SubjectAlternativeName</b> extension.
 </tr>
 <tr>
 <td width="40%"><a id="InheritValidityPeriodFlag"></a><a id="inheritvalidityperiodflag"></a><a id="INHERITVALIDITYPERIODFLAG"></a><dl>
-<dt><b><b>InheritValidityPeriodFlag</b></b></dt>
+<dt><b>InheritValidityPeriodFlag</b></dt>
 <dt></dt>
 </dl>
 </td>

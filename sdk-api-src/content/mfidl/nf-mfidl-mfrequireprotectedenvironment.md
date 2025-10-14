@@ -70,7 +70,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -81,7 +81,7 @@ This presentation requires a protected environment.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_FALSE</b></b></dt>
+<dt><b>S_FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

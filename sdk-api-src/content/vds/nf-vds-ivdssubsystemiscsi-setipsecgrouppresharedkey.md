@@ -76,7 +76,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_NOT_SUPPORTED</b></b></dt>
+<dt><b>VDS_E_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

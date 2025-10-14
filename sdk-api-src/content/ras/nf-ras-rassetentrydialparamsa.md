@@ -86,7 +86,7 @@ Pointer to the
 </tr>
 <tr>
 <td width="40%"><a id="dwSize"></a><a id="dwsize"></a><a id="DWSIZE"></a><dl>
-<dt><b><b>dwSize</b></b></dt>
+<dt><b>dwSize</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ Must specify the size of (<a href="/previous-versions/windows/desktop/legacy/aa3
 </tr>
 <tr>
 <td width="40%"><a id="szEntryName"></a><a id="szentryname"></a><a id="SZENTRYNAME"></a><dl>
-<dt><b><b>szEntryName</b></b></dt>
+<dt><b>szEntryName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ A null-terminated string that identifies the phone-book entry to set parameters 
 </tr>
 <tr>
 <td width="40%"><a id="szPhoneNumber"></a><a id="szphonenumber"></a><a id="SZPHONENUMBER"></a><dl>
-<dt><b><b>szPhoneNumber</b></b></dt>
+<dt><b>szPhoneNumber</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ Not used. Set to <b>NULL</b>.
 </tr>
 <tr>
 <td width="40%"><a id="szCallbackNumber"></a><a id="szcallbacknumber"></a><a id="SZCALLBACKNUMBER"></a><dl>
-<dt><b><b>szCallbackNumber</b></b></dt>
+<dt><b>szCallbackNumber</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ A null-terminated string that contains the callback phone number. If <b>szCallba
 </tr>
 <tr>
 <td width="40%"><a id="szUserName"></a><a id="szusername"></a><a id="SZUSERNAME"></a><dl>
-<dt><b><b>szUserName</b></b></dt>
+<dt><b>szUserName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +136,7 @@ A null-terminated string that contains the logon name of the user associated wit
 </tr>
 <tr>
 <td width="40%"><a id="szPassword"></a><a id="szpassword"></a><a id="SZPASSWORD"></a><dl>
-<dt><b><b>szPassword</b></b></dt>
+<dt><b>szPassword</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +156,7 @@ A null-terminated string that contains the password for the user specified by <b
 </tr>
 <tr>
 <td width="40%"><a id="szDomain"></a><a id="szdomain"></a><a id="SZDOMAIN"></a><dl>
-<dt><b><b>szDomain</b></b></dt>
+<dt><b>szDomain</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ A null-terminated string that contains the name of the domain on which to log on
 </tr>
 <tr>
 <td width="40%"><a id="dwSubEntry"></a><a id="dwsubentry"></a><a id="DWSUBENTRY"></a><dl>
-<dt><b><b>dwSubEntry</b></b></dt>
+<dt><b>dwSubEntry</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ Specifies the (one-based) index of the initial subentry to dial when establishin
 </tr>
 <tr>
 <td width="40%"><a id="dwCallbackId"></a><a id="dwcallbackid"></a><a id="DWCALLBACKID"></a><dl>
-<dt><b><b>dwCallbackId</b></b></dt>
+<dt><b>dwCallbackId</b></dt>
 </dl>
 </td>
 <td width="60%">

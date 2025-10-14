@@ -109,7 +109,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b> E_INVALIDARG</b></b></dt>
+<dt><b> E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ There was a hardware failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_INVALID_CONTROL_CODE</b></b></dt>
+<dt><b>WINBIO_E_INVALID_CONTROL_CODE</b></dt>
 </dl>
 </td>
 <td width="60%">

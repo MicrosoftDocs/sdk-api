@@ -131,7 +131,7 @@ The <i>pTemplate</i> parameter cannot be  <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>ERROR_ALREADY_INITIALIZED</b></b></dt>
+<dt><b>ERROR_ALREADY_INITIALIZED</b></dt>
 <dt></dt>
 </dl>
 </td>

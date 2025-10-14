@@ -81,7 +81,7 @@ The <i>Pipeline</i> argument cannot be <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CANT_CLOSE</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CANT_CLOSE</b></dt>
 </dl>
 </td>
 <td width="60%">

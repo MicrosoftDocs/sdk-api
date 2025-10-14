@@ -127,7 +127,7 @@ A mandatory pointer parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ The value specified in the <i>SubFactor</i> parameter is not correct.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>   WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>   WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The feature set did not meet the internal requirements of the engine adapter for
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_NO_MATCH</b></b></dt>
+<dt><b>WINBIO_E_NO_MATCH</b></dt>
 </dl>
 </td>
 <td width="60%">

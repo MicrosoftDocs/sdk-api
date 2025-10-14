@@ -201,7 +201,7 @@ Pointer to an application context passed to the <a href="/windows/desktop/api/ev
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -213,7 +213,7 @@ Validation procedure should continue.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 <dt>0</dt>
 </dl>
 </td>

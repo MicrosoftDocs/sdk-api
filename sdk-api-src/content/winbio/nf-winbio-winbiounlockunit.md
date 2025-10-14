@@ -83,7 +83,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ The session handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ The <i>UnitId</i> parameter cannot contain zero.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_LOCK_VIOLATION</b></b></dt>
+<dt><b>WINBIO_E_LOCK_VIOLATION</b></dt>
 </dl>
 </td>
 <td width="60%">

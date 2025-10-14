@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDMEDIATYPE</b></b></dt>
+<dt><b>MF_E_INVALIDMEDIATYPE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +100,7 @@ The underlying media sink does not support the format, no conversion is possible
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDSTREAMNUMBER</b></b></dt>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ The <i>dwStreamIndex</i> parameter is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_TOPO_CODEC_NOT_FOUND</b></b></dt>
+<dt><b>MF_E_TOPO_CODEC_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -93,7 +93,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CANT_CREATE</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CANT_CREATE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ The database cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CANT_FIND</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CANT_FIND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ The specified database cannot be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_LOCKED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_LOCKED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ The database is currently locked by another application and cannot be opened.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_CANT_OPEN</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_CANT_OPEN</b></dt>
 </dl>
 </td>
 <td width="60%">

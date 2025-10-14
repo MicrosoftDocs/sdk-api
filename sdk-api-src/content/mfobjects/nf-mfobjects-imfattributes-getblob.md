@@ -83,7 +83,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_NOT_SUFFICIENT_BUFFER</b></b></dt>
+<dt><b>E_NOT_SUFFICIENT_BUFFER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +105,7 @@ The buffer is not large enough to the array.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_ATTRIBUTENOTFOUND</b></b></dt>
+<dt><b>MF_E_ATTRIBUTENOTFOUND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ The specified key was not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDTYPE</b></b></dt>
+<dt><b>MF_E_INVALIDTYPE</b></dt>
 </dl>
 </td>
 <td width="60%">

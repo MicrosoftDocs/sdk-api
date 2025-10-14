@@ -78,7 +78,7 @@ If no dialog box is displayed during the call, <i>ulUIParam</i> is ignored.
 
 ### -param lpMessage [in]
 
-Type: <b><b>lpMapiMessageW</b></b>
+Type: <b>lpMapiMessageW</b>
 
 Pointer to a <b>MAPISendMailW</b> structure containing the message to be sent.
 

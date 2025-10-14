@@ -74,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_FAIL</b></b></dt>
+<dt><b>E_FAIL</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ There is no current media item.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_NOT_FOUND</b></b></dt>
+<dt><b>MF_E_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ There is no current media item.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

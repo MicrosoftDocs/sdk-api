@@ -86,7 +86,7 @@ The following table lists some of the possible return values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +97,7 @@ Successfully retrieved the certificate.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>RPC_X_BAD_STUB_DATA</b></b></dt>
+<dt><b>RPC_X_BAD_STUB_DATA</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The job does not specify a certificate or the user does not have permissions to 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>RPC_X_NULL_REF_POINTER</b></b></dt>
+<dt><b>RPC_X_NULL_REF_POINTER</b></dt>
 </dl>
 </td>
 <td width="60%">

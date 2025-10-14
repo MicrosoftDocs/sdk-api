@@ -87,7 +87,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_BAD_CAPTURE</b></b></dt>
+<dt><b>WINBIO_E_BAD_CAPTURE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The sample could not be captured. If you return this error code, you must also s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_CAPTURE_CANCELED</b></b></dt>
+<dt><b>WINBIO_E_CAPTURE_CANCELED</b></dt>
 </dl>
 </td>
 <td width="60%">

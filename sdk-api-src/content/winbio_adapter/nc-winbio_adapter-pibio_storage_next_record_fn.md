@@ -81,7 +81,7 @@ The <i>Pipeline</i> parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_RESULTS</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_RESULTS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +92,7 @@ There are no records in the result set.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_MORE_RECORDS</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_MORE_RECORDS</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -65,7 +65,7 @@ The identifier of the interface to retrieve. Specify one of the following values
 </tr>
 <tr>
 <td width="40%"><a id="IID_IUnknown"></a><a id="iid_iunknown"></a><a id="IID_IUNKNOWN"></a><dl>
-<dt><b><b>IID_IUnknown</b></b></dt>
+<dt><b>IID_IUnknown</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +75,7 @@ Retrieve an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a
 </tr>
 <tr>
 <td width="40%"><a id="IID_IMFVideoSampleAllocator"></a><a id="iid_imfvideosampleallocator"></a><a id="IID_IMFVIDEOSAMPLEALLOCATOR"></a><dl>
-<dt><b><b>IID_IMFVideoSampleAllocator</b></b></dt>
+<dt><b>IID_IMFVideoSampleAllocator</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator
 </tr>
 <tr>
 <td width="40%"><a id="IID_IMFVideoSampleAllocatorEx"></a><a id="iid_imfvideosampleallocatorex"></a><a id="IID_IMFVIDEOSAMPLEALLOCATOREX"></a><dl>
-<dt><b><b>IID_IMFVideoSampleAllocatorEx</b></b></dt>
+<dt><b>IID_IMFVideoSampleAllocatorEx</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,7 @@ Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator
 </tr>
 <tr>
 <td width="40%"><a id="IID_IMFVideoSampleAllocatorCallback"></a><a id="iid_imfvideosampleallocatorcallback"></a><a id="IID_IMFVIDEOSAMPLEALLOCATORCALLBACK"></a><dl>
-<dt><b><b>IID_IMFVideoSampleAllocatorCallback</b></b></dt>
+<dt><b>IID_IMFVideoSampleAllocatorCallback</b></dt>
 </dl>
 </td>
 <td width="60%">

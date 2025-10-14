@@ -73,7 +73,7 @@ Determines the LUN event for which an application will be notified, as one of th
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NF_LUN_ARRIVE"></a><a id="vds_nf_lun_arrive"></a><dl>
-<dt><b><b>VDS_NF_LUN_ARRIVE</b></b></dt>
+<dt><b>VDS_NF_LUN_ARRIVE</b></dt>
 <dt>108</dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ A new LUN has been created.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NF_LUN_DEPART"></a><a id="vds_nf_lun_depart"></a><dl>
-<dt><b><b>VDS_NF_LUN_DEPART</b></b></dt>
+<dt><b>VDS_NF_LUN_DEPART</b></dt>
 <dt>109</dt>
 </dl>
 </td>
@@ -95,7 +95,7 @@ An existing LUN has been deleted.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NF_LUN_MODIFY"></a><a id="vds_nf_lun_modify"></a><dl>
-<dt><b><b>VDS_NF_LUN_MODIFY</b></b></dt>
+<dt><b>VDS_NF_LUN_MODIFY</b></dt>
 <dt>110</dt>
 </dl>
 </td>

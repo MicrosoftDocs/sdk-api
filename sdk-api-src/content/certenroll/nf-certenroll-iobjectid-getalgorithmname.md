@@ -100,7 +100,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -112,7 +112,7 @@ The string that contains the algorithm name is empty.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>OLE_E_BLANK</b></b></dt>
+<dt><b>OLE_E_BLANK</b></dt>
 <dt></dt>
 </dl>
 </td>

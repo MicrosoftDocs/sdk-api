@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>FAX_JOB_STATUS_ENUM</b> enumeration defines the status values for a fax job.
-<div class="alert"><b>Note</b>  The members <b><b>fjsPAUSED</b></b> and <b><b>fjsNOLINE</b></b> are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.</div><div> </div>
+<div class="alert"><b>Note</b>  The members <b>fjsPAUSED</b> and <b>fjsNOLINE</b> are modifiers; they can be used in combination with any other member of this enumeration. Other members cannot be used as modifiers.</div><div> </div>
 
 ## -enum-fields
 

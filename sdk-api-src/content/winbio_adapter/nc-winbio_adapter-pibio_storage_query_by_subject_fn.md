@@ -100,7 +100,7 @@ A mandatory pointer argument is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_NO_RESULTS</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_NO_RESULTS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ The query was successful, but no matching records could be found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_LOCKED</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_LOCKED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ The database is locked.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WINBIO_E_DATABASE_READ_ERROR</b></b></dt>
+<dt><b>WINBIO_E_DATABASE_READ_ERROR</b></dt>
 </dl>
 </td>
 <td width="60%">

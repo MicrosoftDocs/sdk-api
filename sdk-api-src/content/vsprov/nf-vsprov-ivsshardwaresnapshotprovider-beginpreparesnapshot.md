@@ -95,7 +95,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 <dt>0x00000000L</dt>
 </dl>
 </td>
@@ -107,7 +107,7 @@ The operation was successfully completed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 <dt>0x8007000EL</dt>
 </dl>
 </td>
@@ -131,7 +131,7 @@ One of the parameter values is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_MAXIMUM_NUMBER_OF_VOLUMES_REACHED</b></b></dt>
+<dt><b>VSS_E_MAXIMUM_NUMBER_OF_VOLUMES_REACHED</b></dt>
 <dt>0x80042312L</dt>
 </dl>
 </td>
@@ -156,7 +156,7 @@ The specified volume is nested too deeply to participate in the VSS operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_PROVIDER_VETO</b></b></dt>
+<dt><b>VSS_E_PROVIDER_VETO</b></dt>
 <dt>0x80042306L</dt>
 </dl>
 </td>
@@ -169,7 +169,7 @@ An unexpected provider error occurred. The provider must report an event in the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_VOLUME_NOT_SUPPORTED_BY_PROVIDER</b></b></dt>
+<dt><b>VSS_E_VOLUME_NOT_SUPPORTED_BY_PROVIDER</b></dt>
 <dt>0x8004230EL</dt>
 </dl>
 </td>
@@ -181,7 +181,7 @@ The provider does not support this volume.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_UNSUPPORTED_CONTEXT</b></b></dt>
+<dt><b>VSS_E_UNSUPPORTED_CONTEXT</b></dt>
 <dt>0x8004231BL</dt>
 </dl>
 </td>

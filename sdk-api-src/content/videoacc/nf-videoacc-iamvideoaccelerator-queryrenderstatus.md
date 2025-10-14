@@ -91,7 +91,7 @@ Test whether the surface is safe to use for writing.
 </tr>
 <tr>
 <td width="40%"><a id="AMVA_QUERYRENDERSTATUSF_READ"></a><a id="amva_queryrenderstatusf_read"></a><dl>
-<dt><b><b>AMVA_QUERYRENDERSTATUSF_READ</b></b></dt>
+<dt><b>AMVA_QUERYRENDERSTATUSF_READ</b></dt>
 </dl>
 </td>
 <td width="60%">

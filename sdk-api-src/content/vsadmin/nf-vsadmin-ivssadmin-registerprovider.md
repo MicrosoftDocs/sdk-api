@@ -100,7 +100,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ The provider was registered successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ One or more of the parameter values is not valid. For example, <b>VSS_PROV_HARDW
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_OUTOFMEMORY</b></b></dt>
+<dt><b>E_OUTOFMEMORY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ Out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_ACCESSDENIED</b></b></dt>
+<dt><b>E_ACCESSDENIED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ The caller is not an administrator.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_PROVIDER_ALREADY_REGISTERED</b></b></dt>
+<dt><b>VSS_E_PROVIDER_ALREADY_REGISTERED</b></dt>
 </dl>
 </td>
 <td width="60%">

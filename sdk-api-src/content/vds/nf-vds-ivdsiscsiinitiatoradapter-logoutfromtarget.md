@@ -82,7 +82,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The portal group was successfully deleted.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ISCSI_LOGOUT_FAILED</b></b></dt>
+<dt><b>VDS_E_ISCSI_LOGOUT_FAILED</b></dt>
 <dt>0x80042709L</dt>
 </dl>
 </td>
@@ -105,7 +105,7 @@ The logout failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ISCSI_SESSION_NOT_FOUND</b></b></dt>
+<dt><b>VDS_E_ISCSI_SESSION_NOT_FOUND</b></dt>
 <dt>0x8004270AL</dt>
 </dl>
 </td>
@@ -117,7 +117,7 @@ VDS could not find a session matching the specified target.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ISCSI_LOGOUT_INCOMPLETE</b></b></dt>
+<dt><b>VDS_E_ISCSI_LOGOUT_INCOMPLETE</b></dt>
 <dt>0x80042710L</dt>
 </dl>
 </td>

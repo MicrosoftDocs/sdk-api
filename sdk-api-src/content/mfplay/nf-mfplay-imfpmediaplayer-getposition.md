@@ -69,7 +69,7 @@ Specifies the unit of time for the playback position. The following value is def
 </tr>
 <tr>
 <td width="40%"><a id="MFP_POSITIONTYPE_100NS"></a><a id="mfp_positiontype_100ns"></a><dl>
-<dt><b><b>MFP_POSITIONTYPE_100NS</b></b></dt>
+<dt><b>MFP_POSITIONTYPE_100NS</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_INVALIDARG</b></b></dt>
+<dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ Invalid argument.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_INVALIDREQUEST</b></b></dt>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ No media item has been queued.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

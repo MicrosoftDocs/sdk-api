@@ -74,7 +74,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -85,7 +85,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_ALREADY_INITIALIZED</b></b></dt>
+<dt><b>MF_E_ALREADY_INITIALIZED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The method was already called.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_SHUTDOWN</b></b></dt>
+<dt><b>MF_E_SHUTDOWN</b></dt>
 </dl>
 </td>
 <td width="60%">

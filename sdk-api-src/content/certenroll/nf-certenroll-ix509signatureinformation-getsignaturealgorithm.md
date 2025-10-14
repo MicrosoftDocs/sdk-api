@@ -80,7 +80,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CERTSRV_E_PROPERTY_EMPTY</b></b></dt>
+<dt><b>CERTSRV_E_PROPERTY_EMPTY</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -92,7 +92,7 @@ The hashing algorithm  OID, or the <a href="/windows/desktop/api/certenroll/nf-c
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CRYPT_E_UNKNOWN_ALGO</b></b></dt>
+<dt><b>CRYPT_E_UNKNOWN_ALGO</b></dt>
 <dt></dt>
 </dl>
 </td>

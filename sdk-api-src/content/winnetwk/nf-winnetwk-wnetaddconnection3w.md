@@ -89,7 +89,7 @@ You must specify the following members of the <a href="ns-winnetwk-netresourcew.
 </tr>
 <tr>
 <td width="40%"><a id="dwType"></a><a id="dwtype"></a><a id="DWTYPE"></a><dl>
-<dt><b><b>dwType</b></b></dt>
+<dt><b>dwType</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ Although this member is required, its information may be ignored by the network 
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ If the string is empty or if <b>lpLocalName</b> is <b>NULL</b>, the function mak
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ A pointer to a <b>null</b>-terminated string that specifies the network resource
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">

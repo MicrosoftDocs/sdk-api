@@ -93,7 +93,7 @@ If the function succeeds, it returns <b>S_OK</b>. If the function fails, it retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">

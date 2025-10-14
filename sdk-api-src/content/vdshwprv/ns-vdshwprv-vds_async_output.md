@@ -72,7 +72,7 @@ Discriminant for the union enumerated by
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEPARTITION"></a><a id="vds_asyncout_createpartition"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPARTITION</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEPARTITION</b></dt>
 <dt>10</dt>
 </dl>
 </td>
@@ -83,7 +83,7 @@ See the following description of the <b>cp</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEVOLUME"></a><a id="vds_asyncout_createvolume"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEVOLUME</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEVOLUME</b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -94,7 +94,7 @@ See the following description of the <b>cv</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_BREAKVOLUMEPLEX"></a><a id="vds_asyncout_breakvolumeplex"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></b></dt>
+<dt><b>VDS_ASYNCOUT_BREAKVOLUMEPLEX</b></dt>
 <dt>5</dt>
 </dl>
 </td>
@@ -105,7 +105,7 @@ See the following description of the <b>bvp</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATELUN"></a><a id="vds_asyncout_createlun"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATELUN</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATELUN</b></dt>
 <dt>50</dt>
 </dl>
 </td>
@@ -116,7 +116,7 @@ See the following description of the <b>cl</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATETARGET"></a><a id="vds_asyncout_createtarget"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATETARGET</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATETARGET</b></dt>
 <dt>62</dt>
 </dl>
 </td>
@@ -127,7 +127,7 @@ See the following description of the <b>ct</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATEPORTALGROUP"></a><a id="vds_asyncout_createportalgroup"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATEPORTALGROUP</b></dt>
 <dt>63</dt>
 </dl>
 </td>
@@ -138,7 +138,7 @@ See the following description of the <b>cpg</b> structure.
 </tr>
 <tr>
 <td width="40%"><a id="VDS_ASYNCOUT_CREATE_VDISK"></a><a id="vds_asyncout_create_vdisk"></a><dl>
-<dt><b><b>VDS_ASYNCOUT_CREATE_VDISK</b></b></dt>
+<dt><b>VDS_ASYNCOUT_CREATE_VDISK</b></dt>
 <dt>200</dt>
 </dl>
 </td>

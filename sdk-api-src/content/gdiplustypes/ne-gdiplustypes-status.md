@@ -151,4 +151,4 @@ Indicates that the color profile required to save an image in CMYK format was no
 
 If you construct a GDI+ object and then immediately call the 
 				<b>GetLastStatus</b> method of that object, you can determine whether the constructor succeeded or failed. In such cases, 
-				<b>GetLastStatus</b> might return <b><b>OutOfMemory</b></b> even though there was plenty of memory available to create the object. Several GDI+ constructors set the status to <b><b>OutOfMemory</b></b> when they fail regardless of the reason for failure.
+				<b>GetLastStatus</b> might return <b>OutOfMemory</b> even though there was plenty of memory available to create the object. Several GDI+ constructors set the status to <b>OutOfMemory</b> when they fail regardless of the reason for failure.

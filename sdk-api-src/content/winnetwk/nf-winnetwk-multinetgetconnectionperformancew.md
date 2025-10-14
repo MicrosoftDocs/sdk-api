@@ -69,7 +69,7 @@ A pointer to a
 </tr>
 <tr>
 <td width="40%"><a id="lpLocalName"></a><a id="lplocalname"></a><a id="LPLOCALNAME"></a><dl>
-<dt><b><b>lpLocalName</b></b></dt>
+<dt><b>lpLocalName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ If this member is <b>NULL</b> or an empty string, the network resource is specif
 </tr>
 <tr>
 <td width="40%"><a id="lpRemoteName"></a><a id="lpremotename"></a><a id="LPREMOTENAME"></a><dl>
-<dt><b><b>lpRemoteName</b></b></dt>
+<dt><b>lpRemoteName</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +94,7 @@ A pointer to a network resource to query. The resource must currently have an es
 </tr>
 <tr>
 <td width="40%"><a id="lpProvider"></a><a id="lpprovider"></a><a id="LPPROVIDER"></a><dl>
-<dt><b><b>lpProvider</b></b></dt>
+<dt><b>lpProvider</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -116,7 +116,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The login was successfully completed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ISCSI_LOGIN_FAILED</b></b></dt>
+<dt><b>VDS_E_ISCSI_LOGIN_FAILED</b></dt>
 <dt>0x80042708L</dt>
 </dl>
 </td>

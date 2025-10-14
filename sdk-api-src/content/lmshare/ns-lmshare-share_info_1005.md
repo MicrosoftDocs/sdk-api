@@ -69,7 +69,7 @@ A bitmask of flags that specify information about the shared resource.
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_DFS"></a><a id="shi1005_flags_dfs"></a><dl>
-<dt><b><b>SHI1005_FLAGS_DFS</b></b></dt>
+<dt><b>SHI1005_FLAGS_DFS</b></dt>
 <dt>0x0001</dt>
 </dl>
 </td>
@@ -81,7 +81,7 @@ The specified share is present in a Dfs tree structure. This flag cannot be set 
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_DFS_ROOT"></a><a id="shi1005_flags_dfs_root"></a><dl>
-<dt><b><b>SHI1005_FLAGS_DFS_ROOT</b></b></dt>
+<dt><b>SHI1005_FLAGS_DFS_ROOT</b></dt>
 <dt>0x0002</dt>
 </dl>
 </td>
@@ -93,7 +93,7 @@ The specified share is the root volume in a Dfs tree structure. This flag cannot
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS"></a><a id="shi1005_flags_restrict_exclusive_opens"></a><dl>
-<dt><b><b>SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS</b></b></dt>
+<dt><b>SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS</b></dt>
 <dt>0x0100</dt>
 </dl>
 </td>
@@ -104,7 +104,7 @@ The specified share disallows exclusive file opens, where reads to an open file 
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_FORCE_SHARED_DELETE"></a><a id="shi1005_flags_force_shared_delete"></a><dl>
-<dt><b><b>SHI1005_FLAGS_FORCE_SHARED_DELETE</b></b></dt>
+<dt><b>SHI1005_FLAGS_FORCE_SHARED_DELETE</b></dt>
 <dt>0x0200</dt>
 </dl>
 </td>
@@ -115,7 +115,7 @@ Shared files in the specified share can be forcibly deleted.
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING"></a><a id="shi1005_flags_allow_namespace_caching"></a><dl>
-<dt><b><b>SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING</b></b></dt>
+<dt><b>SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING</b></dt>
 <dt>0x0400</dt>
 </dl>
 </td>
@@ -126,7 +126,7 @@ Clients are allowed to cache the namespace of the specified share.
 </tr>
 <tr>
 <td width="40%"><a id="SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM"></a><a id="shi1005_flags_access_based_directory_enum"></a><dl>
-<dt><b><b>SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM</b></b></dt>
+<dt><b>SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM</b></dt>
 <dt>0x0800</dt>
 </dl>
 </td>
@@ -200,7 +200,7 @@ The CSC_MASK and CSC_MASK_EXT mask values can be used to apply flags that are sp
 </tr>
 <tr>
 <td width="40%"><a id="CSC_MASK"></a><a id="csc_mask"></a><dl>
-<dt><b><b>CSC_MASK</b></b></dt>
+<dt><b>CSC_MASK</b></dt>
 <dt>0x0030</dt>
 </dl>
 </td>
@@ -233,7 +233,7 @@ CSC is disabled for this share.
 </tr>
 <tr>
 <td width="40%"><a id="CSC_MASK_EXT"></a><a id="csc_mask_ext"></a><dl>
-<dt><b><b>CSC_MASK_EXT</b></b></dt>
+<dt><b>CSC_MASK_EXT</b></dt>
 <dt>0x2030</dt>
 </dl>
 </td>

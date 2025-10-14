@@ -77,7 +77,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns an 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_HANDLE</b></b></dt>
+<dt><b>E_HANDLE</b></dt>
 </dl>
 </td>
 <td width="60%">

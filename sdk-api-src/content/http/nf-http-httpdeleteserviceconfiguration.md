@@ -216,7 +216,7 @@ Pointer to a buffer that contains data required for the type of configuration sp
 </tr>
 <tr>
 <td width="40%"><a id="HttpServiceConfigSslCcsCertInfo"></a><a id="httpserviceconfigsslccscertinfo"></a><a id="HTTPSERVICECONFIGSSLCCSCERTINFO"></a><dl>
-<dt><b><b>HttpServiceConfigSslCcsCertInfo</b></b></dt>
+<dt><b>HttpServiceConfigSslCcsCertInfo</b></dt>
 </dl>
 </td>
 <td width="60%">

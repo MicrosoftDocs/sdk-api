@@ -93,7 +93,7 @@ The method completed successfully.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>

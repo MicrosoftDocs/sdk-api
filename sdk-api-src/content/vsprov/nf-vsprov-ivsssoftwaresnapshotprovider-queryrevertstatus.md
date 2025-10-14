@@ -128,7 +128,7 @@ The caller is out of memory or other system resources.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_OBJECT_NOT_FOUND</b></b></dt>
+<dt><b>VSS_E_OBJECT_NOT_FOUND</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ The <i>pwszVolume</i> parameter does not specify a valid volume.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VSS_E_VOLUME_NOT_SUPPORTED</b></b></dt>
+<dt><b>VSS_E_VOLUME_NOT_SUPPORTED</b></dt>
 </dl>
 </td>
 <td width="60%">

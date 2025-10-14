@@ -102,7 +102,7 @@ The data sent to the card should immediately follow the send buffer. In the spec
 </tr>
 <tr>
 <td width="40%"><a id="bCla"></a><a id="bcla"></a><a id="BCLA"></a><dl>
-<dt><b><b>bCla</b></b></dt>
+<dt><b>bCla</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The T=0 instruction class.
 </tr>
 <tr>
 <td width="40%"><a id="bIns"></a><a id="bins"></a><a id="BINS"></a><dl>
-<dt><b><b>bIns</b></b></dt>
+<dt><b>bIns</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ Reference codes that complete the instruction code.
 </tr>
 <tr>
 <td width="40%"><a id="bP3"></a><a id="bp3"></a><a id="BP3"></a><dl>
-<dt><b><b>bP3</b></b></dt>
+<dt><b>bP3</b></dt>
 </dl>
 </td>
 <td width="60%">

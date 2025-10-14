@@ -76,7 +76,7 @@ A pointer to a null-terminated string that contains the name of the trustee for 
 </tr>
 <tr>
 <td width="40%"><a id="pMultipleTrustee"></a><a id="pmultipletrustee"></a><a id="PMULTIPLETRUSTEE"></a><dl>
-<dt><b><b>pMultipleTrustee</b></b></dt>
+<dt><b>pMultipleTrustee</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -87,7 +87,7 @@ NULL
 </tr>
 <tr>
 <td width="40%"><a id="MultipleTrusteeOperation"></a><a id="multipletrusteeoperation"></a><a id="MULTIPLETRUSTEEOPERATION"></a><dl>
-<dt><b><b>MultipleTrusteeOperation</b></b></dt>
+<dt><b>MultipleTrusteeOperation</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -98,7 +98,7 @@ NO_MULTIPLE_TRUSTEE
 </tr>
 <tr>
 <td width="40%"><a id="TrusteeForm"></a><a id="trusteeform"></a><a id="TRUSTEEFORM"></a><dl>
-<dt><b><b>TrusteeForm</b></b></dt>
+<dt><b>TrusteeForm</b></dt>
 <dt></dt>
 </dl>
 </td>
@@ -109,7 +109,7 @@ TRUSTEE_IS_NAME
 </tr>
 <tr>
 <td width="40%"><a id="TrusteeType"></a><a id="trusteetype"></a><a id="TRUSTEETYPE"></a><dl>
-<dt><b><b>TrusteeType</b></b></dt>
+<dt><b>TrusteeType</b></dt>
 <dt></dt>
 </dl>
 </td>

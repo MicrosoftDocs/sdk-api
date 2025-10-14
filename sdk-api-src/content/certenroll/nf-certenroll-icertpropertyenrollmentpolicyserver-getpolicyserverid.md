@@ -94,7 +94,7 @@ There was insufficient memory available to create the URL string.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>HRESULT_FROM_WIN32(OLE_E_BLANK)</b></b></dt>
+<dt><b>HRESULT_FROM_WIN32(OLE_E_BLANK)</b></dt>
 <dt></dt>
 </dl>
 </td>

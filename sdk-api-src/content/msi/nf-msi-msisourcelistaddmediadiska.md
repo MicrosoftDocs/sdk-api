@@ -71,7 +71,7 @@ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of 
 </tr>
 <tr>
 <td width="40%"><a id="NULL"></a><a id="null"></a><dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">

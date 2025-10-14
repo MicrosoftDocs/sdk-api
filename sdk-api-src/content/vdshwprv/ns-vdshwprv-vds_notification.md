@@ -72,7 +72,7 @@ Defines the VDS
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_PACK"></a><a id="vds_ntt_pack"></a><dl>
-<dt><b><b>VDS_NTT_PACK</b></b></dt>
+<dt><b>VDS_NTT_PACK</b></dt>
 <dt>10</dt>
 </dl>
 </td>
@@ -84,7 +84,7 @@ The subject of the notification is a disk pack. Use the <b>Pack</b> member
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_DISK"></a><a id="vds_ntt_disk"></a><dl>
-<dt><b><b>VDS_NTT_DISK</b></b></dt>
+<dt><b>VDS_NTT_DISK</b></dt>
 <dt>13</dt>
 </dl>
 </td>
@@ -96,7 +96,7 @@ The subject of the notification is a disk. Use the <b>Disk</b> member
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_VOLUME"></a><a id="vds_ntt_volume"></a><dl>
-<dt><b><b>VDS_NTT_VOLUME</b></b></dt>
+<dt><b>VDS_NTT_VOLUME</b></dt>
 <dt>11</dt>
 </dl>
 </td>
@@ -108,7 +108,7 @@ The subject of the notification is a volume. Use the <b>Volume</b> member
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_PARTITION"></a><a id="vds_ntt_partition"></a><dl>
-<dt><b><b>VDS_NTT_PARTITION</b></b></dt>
+<dt><b>VDS_NTT_PARTITION</b></dt>
 <dt>60</dt>
 </dl>
 </td>
@@ -120,7 +120,7 @@ The subject of the notification is a partition. Use the <b>Partition</b> member
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_DRIVE_LETTER"></a><a id="vds_ntt_drive_letter"></a><dl>
-<dt><b><b>VDS_NTT_DRIVE_LETTER</b></b></dt>
+<dt><b>VDS_NTT_DRIVE_LETTER</b></dt>
 <dt>61</dt>
 </dl>
 </td>
@@ -132,7 +132,7 @@ The subject of the notification is a drive letter. Use the <b>Letter</b> member
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_FILE_SYSTEM"></a><a id="vds_ntt_file_system"></a><dl>
-<dt><b><b>VDS_NTT_FILE_SYSTEM</b></b></dt>
+<dt><b>VDS_NTT_FILE_SYSTEM</b></dt>
 <dt>62</dt>
 </dl>
 </td>
@@ -144,7 +144,7 @@ The subject of the notification is a file system. Use the <b>FileSystem</b> memb
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_MOUNT_POINT"></a><a id="vds_ntt_mount_point"></a><dl>
-<dt><b><b>VDS_NTT_MOUNT_POINT</b></b></dt>
+<dt><b>VDS_NTT_MOUNT_POINT</b></dt>
 <dt>63</dt>
 </dl>
 </td>
@@ -156,7 +156,7 @@ The subject of the notification is a drive letter  or volume GUID path. Use the 
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_SUB_SYSTEM"></a><a id="vds_ntt_sub_system"></a><dl>
-<dt><b><b>VDS_NTT_SUB_SYSTEM</b></b></dt>
+<dt><b>VDS_NTT_SUB_SYSTEM</b></dt>
 <dt>30</dt>
 </dl>
 </td>
@@ -168,7 +168,7 @@ Used by hardware providers. The subject of the notification is a subsystem. Use 
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_CONTROLLER"></a><a id="vds_ntt_controller"></a><dl>
-<dt><b><b>VDS_NTT_CONTROLLER</b></b></dt>
+<dt><b>VDS_NTT_CONTROLLER</b></dt>
 <dt>31</dt>
 </dl>
 </td>
@@ -180,7 +180,7 @@ Used by hardware providers. The subject of the notification is a controller. Use
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_DRIVE"></a><a id="vds_ntt_drive"></a><dl>
-<dt><b><b>VDS_NTT_DRIVE</b></b></dt>
+<dt><b>VDS_NTT_DRIVE</b></dt>
 <dt>32</dt>
 </dl>
 </td>
@@ -192,7 +192,7 @@ Used by hardware providers. The subject of the notification is a drive. Use the
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_LUN"></a><a id="vds_ntt_lun"></a><dl>
-<dt><b><b>VDS_NTT_LUN</b></b></dt>
+<dt><b>VDS_NTT_LUN</b></dt>
 <dt>33</dt>
 </dl>
 </td>
@@ -204,7 +204,7 @@ Used by hardware providers. The subject of the notification is a LUN. Use the
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_PORT"></a><a id="vds_ntt_port"></a><dl>
-<dt><b><b>VDS_NTT_PORT</b></b></dt>
+<dt><b>VDS_NTT_PORT</b></dt>
 <dt>35</dt>
 </dl>
 </td>
@@ -216,7 +216,7 @@ The subject of the notification is a controller port. Use the
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_PORTAL"></a><a id="vds_ntt_portal"></a><dl>
-<dt><b><b>VDS_NTT_PORTAL</b></b></dt>
+<dt><b>VDS_NTT_PORTAL</b></dt>
 <dt>36</dt>
 </dl>
 </td>
@@ -228,7 +228,7 @@ The subject of the notification is an iSCSI portal. Use the
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_TARGET"></a><a id="vds_ntt_target"></a><dl>
-<dt><b><b>VDS_NTT_TARGET</b></b></dt>
+<dt><b>VDS_NTT_TARGET</b></dt>
 <dt>37</dt>
 </dl>
 </td>
@@ -240,7 +240,7 @@ The subject of the notification is an iSCSI target. Use the
 </tr>
 <tr>
 <td width="40%"><a id="VDS_NTT_PORTAL_GROUP"></a><a id="vds_ntt_portal_group"></a><dl>
-<dt><b><b>VDS_NTT_PORTAL_GROUP</b></b></dt>
+<dt><b>VDS_NTT_PORTAL_GROUP</b></dt>
 <dt>38</dt>
 </dl>
 </td>

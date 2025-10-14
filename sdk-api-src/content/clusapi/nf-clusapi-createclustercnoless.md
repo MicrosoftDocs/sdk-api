@@ -81,7 +81,7 @@ A handle to the new cluster or <b>NULL</b>. A non <b>NULL</b>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NULL</b></b></dt>
+<dt><b>NULL</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -221,7 +221,7 @@ The method returns 0x00000000 (<b>NERR_Success</b>) on success; otherwise, it re
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>NERR_Success</b></b></dt>
+<dt><b>NERR_Success</b></dt>
 <dt>0x00000000</dt>
 </dl>
 </td>

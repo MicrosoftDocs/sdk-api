@@ -73,7 +73,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -85,7 +85,7 @@ The enumeration of portals was successfully returned. If the subsystem has no iS
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></b></dt>
+<dt><b>VDS_E_PROVIDER_CACHE_CORRUPT</b></dt>
 <dt>0x8004241FL</dt>
 </dl>
 </td>
@@ -102,7 +102,7 @@ The cache of the provider is corrupted. This indicates a software or communicati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_DELETED</b></b></dt>
+<dt><b>VDS_E_OBJECT_DELETED</b></dt>
 <dt>0x8004240BL</dt>
 </dl>
 </td>
@@ -114,7 +114,7 @@ The subsystem object is no longer present.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_OBJECT_STATUS_FAILED</b></b></dt>
+<dt><b>VDS_E_OBJECT_STATUS_FAILED</b></dt>
 <dt>0x80042431L</dt>
 </dl>
 </td>
@@ -126,7 +126,7 @@ The subsystem is in a failed state and is unable to perform the requested operat
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></b></dt>
+<dt><b>VDS_E_ANOTHER_CALL_IN_PROGRESS</b></dt>
 <dt>0x80042404L</dt>
 </dl>
 </td>

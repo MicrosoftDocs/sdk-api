@@ -82,7 +82,7 @@ This method can return one of these values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>MF_E_UNSUPPORTED_RATE</b></b></dt>
+<dt><b>MF_E_UNSUPPORTED_RATE</b></dt>
 </dl>
 </td>
 <td width="60%">

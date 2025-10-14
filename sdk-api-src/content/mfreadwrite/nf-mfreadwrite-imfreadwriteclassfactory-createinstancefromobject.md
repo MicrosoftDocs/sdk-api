@@ -65,7 +65,7 @@ The CLSID of the object to create.
 </tr>
 <tr>
 <td width="40%"><a id="CLSID_MFSinkWriter"></a><a id="clsid_mfsinkwriter"></a><a id="CLSID_MFSINKWRITER"></a><dl>
-<dt><b><b>CLSID_MFSinkWriter</b></b></dt>
+<dt><b>CLSID_MFSinkWriter</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -75,7 +75,7 @@ Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="/win
 </tr>
 <tr>
 <td width="40%"><a id="CLSID_MFSourceReader"></a><a id="clsid_mfsourcereader"></a><a id="CLSID_MFSOURCEREADER"></a><dl>
-<dt><b><b>CLSID_MFSourceReader</b></b></dt>
+<dt><b>CLSID_MFSourceReader</b></dt>
 </dl>
 </td>
 <td width="60%">

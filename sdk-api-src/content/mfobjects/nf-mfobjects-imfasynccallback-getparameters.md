@@ -76,7 +76,7 @@ The callback does not take a long time to complete, but has no specific restrict
 </tr>
 <tr>
 <td width="40%"><a id="MFASYNC_FAST_IO_PROCESSING_CALLBACK"></a><a id="mfasync_fast_io_processing_callback"></a><dl>
-<dt><b><b>MFASYNC_FAST_IO_PROCESSING_CALLBACK</b></b></dt>
+<dt><b>MFASYNC_FAST_IO_PROCESSING_CALLBACK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -92,7 +92,7 @@ The callback must be invoked from one of the following work queues:
 </tr>
 <tr>
 <td width="40%"><a id="MFASYNC_SIGNAL_CALLBACK"></a><a id="mfasync_signal_callback"></a><dl>
-<dt><b><b>MFASYNC_SIGNAL_CALLBACK</b></b></dt>
+<dt><b>MFASYNC_SIGNAL_CALLBACK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The callback must be invoked from one of the following work queues:
 </tr>
 <tr>
 <td width="40%"><a id="MFASYNC_BLOCKING_CALLBACK"></a><a id="mfasync_blocking_callback"></a><dl>
-<dt><b><b>MFASYNC_BLOCKING_CALLBACK</b></b></dt>
+<dt><b>MFASYNC_BLOCKING_CALLBACK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ Blocking callback.
 </tr>
 <tr>
 <td width="40%"><a id="MFASYNC_REPLY_CALLBACK"></a><a id="mfasync_reply_callback"></a><dl>
-<dt><b><b>MFASYNC_REPLY_CALLBACK</b></b></dt>
+<dt><b>MFASYNC_REPLY_CALLBACK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>S_OK</b></b></dt>
+<dt><b>S_OK</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -161,7 +161,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>E_NOTIMPL</b></b></dt>
+<dt><b>E_NOTIMPL</b></dt>
 </dl>
 </td>
 <td width="60%">

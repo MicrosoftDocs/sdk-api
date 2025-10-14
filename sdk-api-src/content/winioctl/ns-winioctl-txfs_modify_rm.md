@@ -338,7 +338,7 @@ The current logging mode.
 </tr>
 <tr>
 <td width="40%"><a id="TXFS_LOGGING_MODE_SIMPLE"></a><a id="txfs_logging_mode_simple"></a><dl>
-<dt><b><b>TXFS_LOGGING_MODE_SIMPLE</b></b></dt>
+<dt><b>TXFS_LOGGING_MODE_SIMPLE</b></dt>
 <dt>1</dt>
 </dl>
 </td>
@@ -349,7 +349,7 @@ Simple logging is used.
 </tr>
 <tr>
 <td width="40%"><a id="TXFS_LOGGING_MODE_FULL"></a><a id="txfs_logging_mode_full"></a><dl>
-<dt><b><b>TXFS_LOGGING_MODE_FULL</b></b></dt>
+<dt><b>TXFS_LOGGING_MODE_FULL</b></dt>
 <dt>2</dt>
 </dl>
 </td>
