@@ -70,7 +70,7 @@ This indicates the region the CPU might read, and the coordinates are subresourc
 
 ### -param ppData [out, optional]
 
-Type: <b><b>void</b>**</b>
+Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the resource data.
 

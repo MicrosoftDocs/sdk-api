@@ -83,7 +83,7 @@ The globally unique identifier (<b>GUID</b>) for the device interface.
 
 ### -param ppDevice [out, optional]
 
-Type: <b><b>void</b>**</b>
+Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the device. Pass **NULL** to test if device creation would succeed, but to not actually create the device. If **NULL** is passed and device creation would succeed, **S_FALSE** is returned.
 

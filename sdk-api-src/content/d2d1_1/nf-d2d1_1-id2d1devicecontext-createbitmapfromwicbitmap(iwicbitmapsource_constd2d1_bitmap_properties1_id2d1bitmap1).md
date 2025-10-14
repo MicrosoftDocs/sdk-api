@@ -56,7 +56,7 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 ### -param wicBitmapSource [in]
 
-Type: <b><b>IWICBitmapSource</b>*</b>
+Type: <b>IWICBitmapSource*</b>
 
 The WIC bitmap source to copy from.
 

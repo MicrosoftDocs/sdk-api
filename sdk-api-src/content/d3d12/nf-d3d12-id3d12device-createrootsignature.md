@@ -83,7 +83,7 @@ The globally unique identifier (<b>GUID</b>) for the root signature interface. S
 
 ### -param ppvRootSignature [out]
 
-Type: <b><b>void</b>**</b>
+Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the root signature.
 

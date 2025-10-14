@@ -66,7 +66,7 @@ The globally unique identifier (GUID) for the command queue interface. See **Rem
 
 ### -param ppCommandQueue
 
-Type: [out] <b><b>void</b>**</b>
+Type: [out] <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a> interface for the command queue.
 
