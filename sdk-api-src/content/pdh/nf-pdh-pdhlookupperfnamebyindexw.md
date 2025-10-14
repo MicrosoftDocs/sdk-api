@@ -125,8 +125,8 @@ The index value that you specify must match one of the index values associated w
                   <b>Last Counter<i> = highest counter index</i></b>
                   <b>Last Help<i> = highest help index</i></b>
                   <b>\009</b>
-                     <b>Counters<b> = 2 System 4 Memory...</b></b>
-                     <b>Help<b> = 3 The System Object Type...</b></b>
+                     <b>Counters = 2 System 4 Memory...</b>
+                     <b>Help = 3 The System Object Type...</b>
                   <i>\supported language, other than English</i>
                      <b>Counters = ...</b>
                      <b>Help = ...</b></pre>

@@ -81,7 +81,7 @@ The method succeeded.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(<b>ERROR_NOT_FOUND</b>)</b></dt>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b></dt>
 </dl>
 </td>
 <td width="60%">
