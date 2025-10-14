@@ -124,7 +124,7 @@ At least one of the <i>stream</i> and <i>package</i> parameters is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>IStream</b> interface error</b></dt>
+<dt><b>IStream interface error</b></dt>
 </dl>
 </td>
 <td width="60%">

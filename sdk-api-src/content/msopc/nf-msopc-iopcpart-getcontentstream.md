@@ -92,7 +92,7 @@ The <i>stream</i> parameter is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateFile</b> function error</b></dt>
+<dt><b>CreateFile function error</b></dt>
 </dl>
 </td>
 <td width="60%">

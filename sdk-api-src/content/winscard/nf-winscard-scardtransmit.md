@@ -122,7 +122,7 @@ An instruction code in the T=0 instruction class.
 </tr>
 <tr>
 <td width="40%"><a id="bP1__bP2"></a><a id="bp1__bp2"></a><a id="BP1__BP2"></a><dl>
-<dt><b><b>bP1</b>, <b>bP2</b></b></dt>
+<dt><b>bP1</b>, <b>bP2</b></dt>
 </dl>
 </td>
 <td width="60%">

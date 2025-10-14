@@ -107,7 +107,7 @@ The current <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error
+<dt><b>CreateUri function error
               </b></dt>
 </dl>
 </td>

@@ -155,7 +155,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CoInternetCombineUrl</b> function error
+<dt><b>CoInternetCombineUrl function error
               </b></dt>
 </dl>
 </td>
@@ -168,7 +168,7 @@ An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/intern
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error
+<dt><b>CreateUri function error
               </b></dt>
 </dl>
 </td>

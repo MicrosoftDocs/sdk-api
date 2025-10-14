@@ -108,7 +108,7 @@ For more information about the part names of Relationships parts, see the <i>OPC
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateUri</b> function error
+<dt><b>CreateUri function error
               </b></dt>
 </dl>
 </td>

@@ -121,7 +121,7 @@ At least one of the <i>filename</i> and <i>stream</i> parameters is <b>NULL</b>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>CreateFile</b> function error</b></dt>
+<dt><b>CreateFile function error</b></dt>
 </dl>
 </td>
 <td width="60%">
