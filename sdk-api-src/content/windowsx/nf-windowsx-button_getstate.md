@@ -50,14 +50,14 @@ api_name:
 ## -syntax
 
 ```cpp
-LRESULT Button_GetState(
+int Button_GetState(
    HWND hwndCtl
 );
 ```
 
 ## -returns
 
-Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+Type: **int**
 
 The return value specifies the current state of the button. It is a combination of the following values:
 

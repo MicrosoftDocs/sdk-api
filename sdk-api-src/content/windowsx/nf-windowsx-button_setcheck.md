@@ -50,17 +50,11 @@ api_name:
 ## -syntax
 
 ```cpp
-LRESULT Button_SetCheck(
+void Button_SetCheck(
    HWND hwndCtl,
    int  check
 );
 ```
-
-## -returns
-
-Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
-
-The return value is always zero.
 
 
 ## -description

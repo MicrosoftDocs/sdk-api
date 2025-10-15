@@ -50,14 +50,14 @@ api_name:
 ## -syntax
 
 ```cpp
-LRESULT Button_GetCheck(
+int Button_GetCheck(
    HWND hwndCtl
 );
 ```
 
 ## -returns
 
-Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
+Type: **int**
 
 The return value from a button created with the <b>BS_AUTOCHECKBOX</b>, <b>BS_AUTORADIOBUTTON</b>, <b>BS_AUTO3STATE</b>, <b>BS_CHECKBOX</b>, <b>BS_RADIOBUTTON</b>, or <b>BS_3STATE</b> style can be one of the following:
 
