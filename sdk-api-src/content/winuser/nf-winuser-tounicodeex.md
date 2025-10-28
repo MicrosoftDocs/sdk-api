@@ -182,24 +182,12 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
-
-
