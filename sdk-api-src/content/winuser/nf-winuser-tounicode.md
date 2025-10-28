@@ -168,23 +168,12 @@ As <b>ToUnicode</b> translates the virtual-key code, it also changes the state o
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
-
-
 
 <b>Reference</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-toascii">ToAscii</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-tounicodeex">ToUnicodeEx</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
-
