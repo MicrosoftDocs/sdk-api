@@ -76,9 +76,9 @@ Type: <b>UINT</b>
 
 The hardware <a href="/windows/win32/inputdev/about-keyboard-input#scan-codes">scan code</a> of the key to be translated.
 
-If the bit 8 (0x0100) of wScanCode is set, the key is an <a href="/windows/win32/inputdev/about-keyboard-input#extended-key-flag">extended key</a>.
+If the bit 8 (0x0100) of this value is set, the key is an <a href="/windows/win32/inputdev/about-keyboard-input#extended-key-flag">extended key</a>.
 
-The high-order bit (0x8000) of this value is set if the <a href="/windows/win32/inputdev/about-keyboard-input#previous-key-state-flag">key is up</a>.
+If the bit 15 (0x8000) of this value is set, the <a href="/windows/win32/inputdev/about-keyboard-input#previous-key-state-flag">key is up</a>.
 
 ### -param lpKeyState [in]
 
@@ -201,4 +201,5 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
+
 
