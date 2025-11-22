@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 6.0 or later)
+req.dll: Comctl32.dll (version 5.82 or later)
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -111,10 +111,6 @@ The subclass callback was not installed.
 </td>
 </tr>
 </table>
-
-## -remarks
-
-To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
 

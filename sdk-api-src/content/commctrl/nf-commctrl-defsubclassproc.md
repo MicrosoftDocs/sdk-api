@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 5.8 or later)
+req.dll: Comctl32.dll (version 5.82 or later)
 req.irql: 
 targetos: Windows
 req.typenames: 
