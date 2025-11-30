@@ -74,6 +74,7 @@ A handle to the parent window whose child windows are to be examined. If this pa
 Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function does not clear the last error information. To determine success or failure in case of <b>NULL</b> return value, clear the last error information by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function with 0 value, then call <b>GetTopWindow</b>. Function failure will be indicated by a return value of <b>NULL</b> and a <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function result that is nonzero.
 
 ## -see-also
 
