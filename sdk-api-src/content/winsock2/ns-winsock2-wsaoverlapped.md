@@ -63,13 +63,13 @@ The
 
 ### -field Internal
 
-Type: <b>ULONG_PTR</b>
+Type: <b>DWORD</b>
 
 Reserved for internal use. The Internal member is used internally by the entity that implements overlapped I/O. For service providers that create sockets as installable file system (IFS) handles, this parameter is used by the underlying operating system. Other service providers (non-IFS providers) are free to use this parameter as necessary.
 
 ### -field InternalHigh
 
-Type: <b>ULONG_PTR</b>
+Type: <b>DWORD</b>
 
 Reserved. Used internally by the entity that implements overlapped I/O. For service providers that create sockets as IFS handles, this parameter is used by the underlying operating system. NonIFS providers are free to use this parameter as necessary.
 
@@ -87,16 +87,9 @@ Reserved for use by service providers.
 
 ### -field hEvent
 
-Type: <b>HANDLE</b>
+Type: <b>WSAEVENT</b>
 
 If an overlapped I/O operation is issued without an I/O completion routine (the operation's <i>lpCompletionRoutine</i> parameter is set to null), then this parameter should either contain a valid handle to a WSAEVENT object or be null. If the <i>lpCompletionRoutine</i> parameter of the call is non-null then applications are free to use this parameter as necessary.
-
-
-#### - Pointer
-
-Type: <b>PVOID</b>
-
-Reserved for use by service providers.
 
 ## -see-also
 
