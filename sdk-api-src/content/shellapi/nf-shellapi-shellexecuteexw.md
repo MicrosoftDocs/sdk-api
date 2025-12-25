@@ -92,9 +92,9 @@ When DLLs are loaded into your process, you acquire a lock known as a <a href="/
 
 With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
 
-If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
+If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutew">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
 
-The SE_ERR_XXX error values are provided for compatibility with <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. To retrieve more accurate error information, use <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. It may return one of the following values.
+The SE_ERR_XXX error values are provided for compatibility with <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a>. To retrieve more accurate error information, use <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. It may return one of the following values.
 
 <table class="clsStd">
 <tr>
@@ -165,5 +165,6 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="/window
 
 
 
-<a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a>
+
 
