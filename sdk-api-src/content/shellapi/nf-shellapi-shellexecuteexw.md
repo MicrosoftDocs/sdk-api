@@ -65,7 +65,7 @@ Performs an operation on a specified file.
 
 ### -param pExecInfo [in, out]
 
-Type: <b>SHELLEXECUTEINFO*</b>
+Type: <b>SHELLEXECUTEINFOW*</b>
 
 A pointer to a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfow">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
 
@@ -166,5 +166,6 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="/window
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a>
+
 
 
