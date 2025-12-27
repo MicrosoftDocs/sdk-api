@@ -91,7 +91,7 @@ By default, the name is limited to MAX_PATH characters. To extend this limit to 
 
 ### -param lpFindFileData [out]
 
-A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that 
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw">WIN32_FIND_DATA</a> structure that 
       receives information about a found file or directory.
 
 ## -returns
@@ -338,3 +338,4 @@ For another example, see
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataw">WIN32_FIND_DATA</a>
+
