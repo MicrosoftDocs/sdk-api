@@ -64,11 +64,11 @@ api_name:
 Moves an existing file or a directory, including its children.
 
 To specify how to move the file, use the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-movefileexa">MoveFileEx</a> or 
-    <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-movefileexw">MoveFileEx</a> or 
+    <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressw">MoveFileWithProgress</a> function.
 
 To perform this operation as a transacted operation, use the 
-    <a href="/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-movefiletransactedw">MoveFileTransacted</a> function.
 
 ## -parameters
 
@@ -191,12 +191,13 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-movefileexa">MoveFileEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefileexw">MoveFileEx</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefiletransactedw">MoveFileTransacted</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressw">MoveFileWithProgress</a>
+
