@@ -70,7 +70,6 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error code tha
 | APPX_E_RELATIONSHIPS_NOT_ALLOWED | The OPC package delivered by *inputStream* contains OPC package/part relationships. |
 | APPX_E_MISSING_REQUIRED_FILE | The OPC package delivered by *inputStream* does not have a manifest, or a block map, or a signature file when a CI catalog is present. |
 | APPX_E_INVALID_MANIFEST | The bundle manifest is not valid. |
-| APPX_E_INVALID_MANIFEST | The bundle manifest is not valid. |
 | APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
 
 ## -remarks
