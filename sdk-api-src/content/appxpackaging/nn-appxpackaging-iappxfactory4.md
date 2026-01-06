@@ -1,16 +1,16 @@
 ---
-UID: NN:appxpackaging.IAppxBundleFactory2
+UID: NN:appxpackaging.IAppxFactory4
 tech.root: appxpkg
-title: IAppxBundleFactory2
-ms.date: 02/13/2023
+title: IAppxFactory4
+ms.date: 01/06/2025
 targetos: Windows
-description: Creates objects for reading and writing bundle packages, with the ability to specify the expected digest for the bundle file.
-prerelease: true
+description: 
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
 req.header: appxpackaging.h
-req.idl: AppxPackaging.idl
+req.idl: 
 req.include-header: 
 req.max-support: 
 req.namespace: 
@@ -26,19 +26,19 @@ api_type:
 api_location:
  - appxpackaging.h
 api_name:
- - IAppxBundleFactory2
+ - IAppxFactory4
 f1_keywords:
- - IAppxBundleFactory2
- - appxpackaging/IAppxBundleFactory2
+ - IAppxFactory4
+ - appxpackaging/IAppxFactory4
 dev_langs:
  - c++
 helpviewer_keywords:
- - IAppxBundleFactory2
+ - IAppxFactory4
 ---
 
 ## -description
 
-Creates objects for reading bundle packages, with the ability to specify the expected digest for the bundle file.
+Creates objects for reading app packages, manifests, and app installer files, adding support for specifying a remote URI for the package contents.
 
 ## -remarks
 

@@ -1,11 +1,11 @@
 ---
-UID: NN:appxpackaging.IAppxBundleFactory2
+UID: NN:appxpackaging.IAppxBundleFactory3
 tech.root: appxpkg
-title: IAppxBundleFactory2
-ms.date: 02/13/2023
+title: IAppxBundleFactory3
+ms.date: 01/06/2025
 targetos: Windows
-description: Creates objects for reading and writing bundle packages, with the ability to specify the expected digest for the bundle file.
-prerelease: true
+description: Creates objects for reading and writing bundle packages, adding support for specifying a remote URI for the package contents.
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -26,19 +26,19 @@ api_type:
 api_location:
  - appxpackaging.h
 api_name:
- - IAppxBundleFactory2
+ - IAppxBundleFactory3
 f1_keywords:
- - IAppxBundleFactory2
- - appxpackaging/IAppxBundleFactory2
+ - IAppxBundleFactory3
+ - appxpackaging/IAppxBundleFactory3
 dev_langs:
  - c++
 helpviewer_keywords:
- - IAppxBundleFactory2
+ - IAppxBundleFactory3
 ---
 
 ## -description
 
-Creates objects for reading bundle packages, with the ability to specify the expected digest for the bundle file.
+Creates objects for reading and writing bundle packages, adding support for specifying a remote URI for the package contents.
 
 ## -remarks
 
