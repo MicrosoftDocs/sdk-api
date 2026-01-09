@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates an instance of [IAppxInstallerReader](nn-appxpackaging-iappxappinstallerreader.md) from the specified package location URI, with an optional parameter for specifying the expected digest for the App Installer file.
+Creates an instance of [IAppxPackageReader](nn-appxpackaging-iappxapppackagereader.md) from the specified package location URI, with an optional parameter for specifying the expected digest for the App Installer file.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ An LPCWSTR containing the expected digest, a hashed representation of the App In
 
 ### -param packageReader [out]
 
-Receives the created **IAppxInstallerReader** instance.
+Receives the created **IAppxPackageReader** instance.
 
 ## -returns
 
@@ -67,6 +67,9 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error code tha
 | Return code | Description |
 |-------------|-------------|
 | APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
+| APPX_E_MISSING_REQUIRED_FILE | The OPC package delivered by *uri* does not have a manifest, or a block map, or a signature file when a CI catalog is present. |
+| E_POINTER | The *uri* or *bundleReader* param is NULL. |
+| HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) | The URI specified in *uri* is not valid. |
 
 ## -remarks
 

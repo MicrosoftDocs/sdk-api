@@ -66,11 +66,13 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error code tha
 
 | Return code | Description |
 |-------------|-------------|
-| APPX_E_INTERLEAVING_NOT_ALLOWED | The ZIP file delivered by *inputStream8 is an interleaved OPC package. |
-| APPX_E_RELATIONSHIPS_NOT_ALLOWED | The OPC package delivered by *inputStream* contains OPC package/part relationships. |
-| APPX_E_MISSING_REQUIRED_FILE | The OPC package delivered by *inputStream* does not have a manifest, or a block map, or a signature file when a CI catalog is present. |
+| APPX_E_INTERLEAVING_NOT_ALLOWED | The ZIP file delivered by *uri* is an interleaved OPC package. |
+| APPX_E_RELATIONSHIPS_NOT_ALLOWED | The OPC package delivered by *uri* contains OPC package/part relationships. |
+| APPX_E_MISSING_REQUIRED_FILE | The OPC package delivered by *uri* does not have a manifest, or a block map, or a signature file when a CI catalog is present. |
 | APPX_E_INVALID_MANIFEST | The bundle manifest is not valid. |
 | APPX_E_DIGEST_MISMATCH | The digest for the object doesn't match the digest provided in *expectedDigest*. |
+| E_POINTER | The *uri* or *bundleReader* param is NULL.|
+| HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) | The URI specified in *uri* is not valid. |
 
 ## -remarks
 
