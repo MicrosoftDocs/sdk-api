@@ -83,7 +83,7 @@ Type: <b>LPCTSTR</b>
 
 A <b>null</b>-terminated string or a class atom.
 
-If a <b>null</b>-terminated string, it specifies the window class name. The class name can be any name registered with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclasswa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="/windows/desktop/winmsg/about-window-classes">system class</a> names.
+If a <b>null</b>-terminated string, it specifies the window class name. The class name can be any name registered with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="/windows/desktop/winmsg/about-window-classes">system class</a> names.
 
 If a class atom created by a previous call to <b>RegisterClass</b> or <b>RegisterClassEx</b>, it must be converted using the macro <a href="/windows/desktop/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a>. (The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero.)
 
