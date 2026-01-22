@@ -23,8 +23,8 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
+req.dll: mfsrcsnk.dll
+req.irql: mfsrcsnk.lib
 targetos: Windows
 req.typenames: 
 req.redist: 
