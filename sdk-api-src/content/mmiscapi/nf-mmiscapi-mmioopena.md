@@ -173,6 +173,84 @@ Creates a fully qualified file name from the path specified in <i>szFilename</i>
 </tr>
 </table>
 
+## -returns
+
+Returns a handle of the opened file. If the file cannot be opened, the return value is <b>NULL</b>. If <i>lpmmioinfo</i> is not <b>NULL</b>, the <b>wErrorRet</b> member of the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure will contain one of the following error values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_ACCESSDENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file is protected and cannot be opened.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_INVALIDFILE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Another failure condition occurred. This is the default error for an open-file failure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_NETWORKERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+The network is not responding to the request to open a remote file.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_PATHNOTFOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+The directory specification is incorrect.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_SHARINGVIOLATION</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file is being used by another application and is unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MMIOERR_TOOMANYOPENFILES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The number of files simultaneously open is at a maximum level. The system has run out of available file handles.
+
+</td>
+</tr>
+</table>
+
+
 ## -remarks
 
 If <i>lpmmioinfo</i> points to an <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, initialize the members of the structure as follows. All unused members must be set to zero, including reserved members.
