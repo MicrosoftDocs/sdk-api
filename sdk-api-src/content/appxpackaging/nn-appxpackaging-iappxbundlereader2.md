@@ -1,11 +1,11 @@
 ---
-UID: NN:appxpackaging.IAppxBundleFactory2
+UID: NN:appxpackaging.IAppxBundleReader2
 tech.root: appxpkg
-title: IAppxBundleFactory2
-ms.date: 02/13/2023
+title: IAppxBundleReader2
+ms.date: 01/06/2025
 targetos: Windows
-description: Creates objects for reading and writing bundle packages, with the ability to specify the expected digest for the bundle file.
-prerelease: true
+description: Provides the ability to retrieve an instance of IAppxPackageReader for reading bundle packages.
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -26,19 +26,19 @@ api_type:
 api_location:
  - appxpackaging.h
 api_name:
- - IAppxBundleFactory2
+ - IAppxBundleReader2
 f1_keywords:
- - IAppxBundleFactory2
- - appxpackaging/IAppxBundleFactory2
+ - IAppxBundleReader2
+ - appxpackaging/IAppxBundleReader2
 dev_langs:
  - c++
 helpviewer_keywords:
- - IAppxBundleFactory2
+ - IAppxBundleReader2
 ---
 
 ## -description
 
-Creates objects for reading bundle packages, with the ability to specify the expected digest for the bundle file.
+Provides the ability to retrieve an instance of [IAppxPackageReader]() for reading bundle packages.
 
 ## -remarks
 
