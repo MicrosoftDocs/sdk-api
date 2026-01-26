@@ -4,7 +4,7 @@ tech.root: appxpkg
 title: IAppxBundleReader2::GetPayloadPackageReader
 ms.date: 01/06/2026
 targetos: Windows
-description: Creates an instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading the contents of an app package.
+description: Creates an instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading the contents of a bundle's payload file.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creates an instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading the contents of an app package.
+Creates an instance of [IAppxPackageReader](nn-appxpackaging-iappxpackagereader.md) for reading the contents of a bundle's payload file.
 
 ## -parameters
 
