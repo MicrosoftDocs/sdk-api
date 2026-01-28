@@ -17,7 +17,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: Windows 11 26H1
-req.target-min-winversvr: Windows Server 2025
+req.target-min-winversvr:
 req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
