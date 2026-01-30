@@ -186,11 +186,11 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 
-<a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a>
-
-
-
 <b>Reference</b>
+
+
+
+<a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a>
 
 
 
