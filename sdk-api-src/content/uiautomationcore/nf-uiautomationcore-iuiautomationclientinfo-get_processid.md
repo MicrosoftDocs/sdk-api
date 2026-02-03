@@ -4,7 +4,7 @@ tech.root: WinAuto
 title: IUIAutomationClientInfo::get_ProcessId
 ms.date: 01/07/2026
 targetos: Windows
-description: Gets the the process ID of the UI Automation client application.
+description: Gets the process ID of the UI Automation client application.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Gets the the process ID of the UI Automation client application.
+Gets the process ID of the UI Automation client application.
 
 ## -parameters
 
