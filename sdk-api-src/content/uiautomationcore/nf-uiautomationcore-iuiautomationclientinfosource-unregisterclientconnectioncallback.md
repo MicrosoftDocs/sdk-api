@@ -56,7 +56,7 @@ A handle to the previously registered callback.
 
 ## -returns
 
-S_OK - If the callback unregistered successfully.
+S_OK - If the callback is unregistered successfully.
 
 S_FALSE - If the *handle* is not found (callback may have already been unregistered).
 

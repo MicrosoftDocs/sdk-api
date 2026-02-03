@@ -4,7 +4,7 @@ tech.root: WinAuto
 title: IUIAutomationClientConnectionCallback::OnDisconnected
 ms.date: 01/07/2026
 targetos: Windows
-description: Asynchonously called when a UI Automation client disconnects from the provider.
+description: Synchronously called when a UI Automation client disconnects from the provider.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Asynchonously called when a UI Automation client disconnects from the provider.
+Synchronously called when a UI Automation client disconnects from the provider.
 
 ## -parameters
 
