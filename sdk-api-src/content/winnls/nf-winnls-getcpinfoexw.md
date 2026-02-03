@@ -124,7 +124,7 @@ Reserved; must be 0.
 
 ### -param lpCPInfoEx [out]
 
-Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure that receives information about the code page.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a> structure that receives information about the code page.
 
 ## -returns
 
@@ -135,9 +135,11 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
+Returns a zero value for code pages 1147 and 20949. <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_SUCCESS for code page 1147 and ERROR_MUI_FILE_NOT_FOUND for 20949. All <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a> fields are filled with valid data, except for CodePageName, which is empty.
+
 ## -remarks
 
-The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
+The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
 
 
 
@@ -148,7 +150,7 @@ The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexw">CPINFOEX</a>
 
 
 
