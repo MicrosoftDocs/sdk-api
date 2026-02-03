@@ -358,7 +358,7 @@ Indicates numbers, including commas, negative sign, and decimal. For United Stat
 
 Indicates a single ANSI character, codepage 1252. For United States locations, this includes the following characters.
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\\]^_\`{|}~
 
 ### -field IS_PASSWORD:31
 

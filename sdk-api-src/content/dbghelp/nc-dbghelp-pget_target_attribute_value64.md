@@ -70,7 +70,7 @@ If this attribute is being requested, the *AttributeData* parameter will indicat
 
 If PAC is disabled (or the stack walk is not for an ARM64 platform), the implementation should return FALSE indicating that this attribute cannot be provided.
 
-The special value **TARGET_ATTIBUTE_PACMASK_LIVETARGET** (0xffffffff`ffffffff) may be returned as an indication that the PAC mask is the same as the process calling StackWalk2.
+The special value **TARGET_ATTIBUTE_PACMASK_LIVETARGET** (0xffffffffffffffff) may be returned as an indication that the PAC mask is the same as the process calling StackWalk2.
 
 ### -param AttributeData [in]
 

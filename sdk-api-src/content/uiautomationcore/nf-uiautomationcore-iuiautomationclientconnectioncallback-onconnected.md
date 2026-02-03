@@ -4,7 +4,7 @@ tech.root: WinAuto
 title: IUIAutomationClientConnectionCallback::OnConnected
 ms.date: 01/14/2026
 targetos: Windows
-description: Synchonously called when a UI Automation client connects to the provider.
+description: Synchronously called when a UI Automation client connects to the provider.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Synchonously called when a UI Automation client connects to the provider.
+Synchronously called when a UI Automation client connects to the provider.
 
 ## -parameters
 

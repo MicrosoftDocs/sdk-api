@@ -57,7 +57,7 @@ Specifies the combiner `C.xy = min(A.xy, B.xy)`, for combiner (C) and inputs (A 
 
 ### -field D3D12_SHADING_RATE_COMBINER_SUM:4
 
-Specifies the combiner C.xy = min(maxRate, A.xy + B.xy)`, for combiner (C) and inputs (A and B).
+Specifies the combiner `C.xy = min(maxRate, A.xy + B.xy)`, for combiner (C) and inputs (A and B).
 
 ## -remarks
 

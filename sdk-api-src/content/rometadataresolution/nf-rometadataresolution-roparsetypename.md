@@ -172,7 +172,7 @@ Example 3 (instantiated parameterized interface type)
 <li>
 <b>Input typename</b>
 
-Windows.Foundation.Collections.IIterator`1&lt;Windows.Foundation.Collections.IMapView`2&lt;Windows.Foundation.Collections.IVector`1&lt;String&gt;, String&gt;&gt;
+Windows.Foundation.Collections.IIterator\`1&lt;Windows.Foundation.Collections.IMapView\`2&lt;Windows.Foundation.Collections.IVector\`1&lt;String&gt;, String&gt;&gt;
 
 </li>
 <li>

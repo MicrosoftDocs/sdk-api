@@ -50,7 +50,7 @@ api_name:
 ## -syntax
 
 ```cpp
-void ListView_SetItemCountEx(
+LRESULT ListView_SetItemCountEx(
    HWND  hwndLV,
    int   cItems,
    DWORD dwFlags
@@ -108,6 +108,12 @@ The list-view control will not change the scroll position when the item count ch
 </td>
 </tr>
 </table>
+
+## -returns
+
+Type: <b>LRESULT</b>
+
+Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 

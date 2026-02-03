@@ -50,7 +50,7 @@ api_name:
 ## -syntax
 
 ```cpp
-void ListView_SetItemCount(
+LRESULT ListView_SetItemCount(
    HWND hwndLV,
    int  cItems
 );
@@ -74,6 +74,12 @@ A handle to a list-view control.
 Type: <b>int</b>
 
 The number of items for which the list-view control should allocate memory.
+
+## -returns
+
+Type: <b>LRESULT</b>
+
+Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
