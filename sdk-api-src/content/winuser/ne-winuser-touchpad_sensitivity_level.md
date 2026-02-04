@@ -1,10 +1,10 @@
 ---
 UID: NE:winuser.TOUCHPAD_SENSITIVITY_LEVEL
-title: TOUCHPAD_SENSITIVITY_LEVEL
-description: Identifies values for the touchpad sensitivity settings.
 tech.root: InputMsg
+title: TOUCHPAD_SENSITIVITY_LEVEL
 ms.date: 03/27/2024
 targetos: Windows
+description: Identifies values for the touchpad sensitivity settings.
 prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
