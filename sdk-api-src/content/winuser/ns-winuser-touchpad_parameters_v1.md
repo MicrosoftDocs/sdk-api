@@ -58,7 +58,7 @@ Contains user touchpad settings and system information related to all detected t
 
 The version of the struct.
 
-Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_[#] to use a specific version (). The version must be specified when both reading and writing settings.
+Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_[#] to use a specific version (e.g., TOUCHPAD_PARAMETERS_VERSION_1). The version must be specified when both reading and writing settings.
 
 > [!NOTE]
 > TOUCHPAD_PARAMETERS_VERSION_1 is the only specific version of TOUCHPAD_PARAMETERS_VERSION_[#] currently defined.
