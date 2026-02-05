@@ -124,7 +124,7 @@ An array that may not be resized or reallocated.
 </dl>
 </td>
 <td width="60%">
-An array that contains records. When set, there will be a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface at negative offset 4 in the array descriptor.
+An array that contains records. When set, there will be a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface immediately before the safe array descriptor (at negative offset sizeof(IRecordInfo*)).
 
 
 </td>
@@ -136,7 +136,7 @@ An array that contains records. When set, there will be a pointer to the <a href
 </dl>
 </td>
 <td width="60%">
-An array that has an IID identifying interface. When set, there will be a GUID at negative offset 16 in the safe array descriptor. Flag is set only when FADF_DISPATCH or FADF_UNKNOWN is also set. 
+An array that has an IID identifying interface. When set, there will be a GUID immediately before the safe array descriptor (at negative offset 16). Flag is set only when FADF_DISPATCH or FADF_UNKNOWN is also set. 
 
 
 </td>
