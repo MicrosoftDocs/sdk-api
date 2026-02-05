@@ -1,10 +1,10 @@
 ---
-UID: NS:winuser.TOUCHPAD_PARAMETERS
-title: TOUCHPAD_PARAMETERS
+UID: NS:winuser.TOUCHPAD_PARAMETERS_V1
+title: TOUCHPAD_PARAMETERS_V1
 description: Contains user touchpad settings and system information related to all detected touchpads.
 tech.root: InputMsg
-ms.date: 03/27/2024
-ms.keywords: '*TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure pointer, TOUCHPAD_PARAMETERS, TOUCHPAD_PARAMETERS structure, tagTOUCHPAD_PARAMETERS, winuser/TOUCHPAD_PARAMETERS'
+ms.date: 02/04/2026
+ms.keywords: '*TOUCHPAD_PARAMETERS_V1, TOUCHPAD_PARAMETERS_V1, TOUCHPAD_PARAMETERS_V1 structure pointer, TOUCHPAD_PARAMETERS_V1, TOUCHPAD_PARAMETERS_V1 structure, tagTOUCHPAD_PARAMETERS_V1, winuser/TOUCHPAD_PARAMETERS_V1'
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 targetos: Windows
-req.typenames: TOUCHPAD_PARAMETERS, *PTOUCH_PAD_PARAMETERS, TOUCHPAD_PARAMETERS_V1, *PTOUCHPAD_PARAMETERS_V1
+req.typenames: TOUCHPAD_PARAMETERS_V1, *PTOUCHPAD_PARAMETERS_V1
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -30,20 +30,20 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - TOUCHPAD_PARAMETERS
- - PTOUCH_PAD_PARAMETERS
+ - TOUCHPAD_PARAMETERS_V1
+ - PTOUCHPAD_PARAMETERS_V1
 f1_keywords:
- - TOUCHPAD_PARAMETERS
- - winuser/TOUCHPAD_PARAMETERS
- - PTOUCH_PAD_PARAMETERS
- - winuser/PTOUCH_PAD_PARAMETERS
+ - TOUCHPAD_PARAMETERS_V1
+ - winuser/TOUCHPAD_PARAMETERS_V1
+ - PTOUCHPAD_PARAMETERS_V1
+ - winuser/PTOUCHPAD_PARAMETERS_V1
 dev_langs:
  - c++
 helpviewer_keywords:
- - TOUCHPAD_PARAMETERS
+ - TOUCHPAD_PARAMETERS_V1
 ---
 
-# TOUCHPAD_PARAMETERS structure
+# TOUCHPAD_PARAMETERS_V1 structure
 
 ## -description
 
@@ -58,7 +58,7 @@ Contains user touchpad settings and system information related to all detected t
 
 The version of the struct.
 
-Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_[#] to use a specific version (). The version must be specified when both reading and writing settings.
+Caller must set to TOUCHPAD_PARAMETERS_LATEST_VERSION to use the latest version, or to TOUCHPAD_PARAMETERS_VERSION_[#] to use a specific version (for example, TOUCHPAD_PARAMETERS_VERSION_1). The version must be specified when both reading and writing settings.
 
 > [!NOTE]
 > TOUCHPAD_PARAMETERS_VERSION_1 is the only specific version of TOUCHPAD_PARAMETERS_VERSION_[#] currently defined.

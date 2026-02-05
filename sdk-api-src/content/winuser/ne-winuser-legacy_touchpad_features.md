@@ -61,4 +61,4 @@ When the corresponding setting is updated with SPIF_UPDATEINIFILE (to persist th
 
 ## -see-also
 
-[TOUCHPAD_PARAMETERS structure](ns-winuser-touchpad_parameters.md)
+[TOUCHPAD_PARAMETERS_V1 structure](ns-winuser-touchpad_parameters_v1.md)
