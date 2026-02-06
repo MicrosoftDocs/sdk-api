@@ -47,45 +47,30 @@ api_name:
  - WTS_TYPE_CLASS
 ---
 
-# WTS_TYPE_CLASS enumeration
-
 ## -description
 
 Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 
-## Syntax
-
-```cpp
-typedef enum _WTS_TYPE_CLASS {
-    WTSTypeProcessInfoLevel0,
-    WTSTypeProcessInfoLevel1,
-    WTSTypeSessionInfoLevel1,
-    WTSTypeCloudAuthServerNonce,
-    WTSTypeSerializedUserCredential
-} 
-```
-
-## -constants
-
-### WTSTypeCloudAuthServerNonce
-
-The buffer contains the server nonce output by *WTSCloudAuthGetServerNonce*.
-
-### WTSTypeSerializedUserCredential
-
-The buffer contains the serialized user credential output by *WTSCloudAuthConvertAssertionToSerializedUserCredential*.
 
 ## -enum-fields
 
 ### -field WTSTypeProcessInfoLevel0
 
-The buffer contains one or more [WTS_PROCESS_INFO](/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info) structures.
+The buffer contains the server nonce output by *WTSCloudAuthGetServerNonce*.
 
 ### -field WTSTypeProcessInfoLevel1
 
-The buffer contains one or more [WTS_PROCESS_INFO_EX](/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info_exa) structures.
+The buffer contains one or more [WTS_PROCESS_INFO](/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info) structures.
 
 ### -field WTSTypeSessionInfoLevel1
+
+The buffer contains the serialized user credential output by [WTSCloudAuthConvertAssertionToSerializedUserCredential](nf-wtsapi32-wtscloudauthduplicateserializedusercredential.md).
+
+### -field WTSTypeCloudAuthServerNonce
+
+The buffer contains one or more [WTS_PROCESS_INFO_EX](/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_info_exa) structures
+
+### -field WTSTypeSerializedUserCredential
 
 The buffer contains one or more [WTS_SESSION_INFO_1](/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_info_1a) structures.
 
@@ -93,5 +78,6 @@ The buffer contains one or more [WTS_SESSION_INFO_1](/windows/desktop/api/wtsapi
 
 ## -see-also
 
-- [WTSFreeMemory](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory)
-- [WTSFreeMemoryEx](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryex)
+
+
+
