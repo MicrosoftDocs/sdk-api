@@ -67,7 +67,7 @@ The name of the .dbg file. You can use a partial path.
 
 ### -param DebugFilePath [out]
 
-The fully qualified path of the .dbg file. This buffer must be at least MAX_PATH characters.
+The fully qualified path of the .dbg file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param Callback [in, optional]
 
