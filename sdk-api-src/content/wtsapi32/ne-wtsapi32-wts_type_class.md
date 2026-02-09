@@ -5,7 +5,7 @@ description: Specifies the type of structure that a Remote Desktop Services func
 helpviewer_keywords: ["WTSTypeProcessInfoLevel0","WTSTypeProcessInfoLevel1","WTSTypeSessionInfoLevel1","WTS_TYPE_CLASS","WTS_TYPE_CLASS enumeration [Remote Desktop Services]","termserv.wts_type_class","wtsapi32/WTSTypeProcessInfoLevel0","wtsapi32/WTSTypeProcessInfoLevel1","wtsapi32/WTSTypeSessionInfoLevel1","wtsapi32/WTS_TYPE_CLASS"]
 old-location: termserv\wts_type_class.htm
 tech.root: TermServ
-ms.date: 02/06/2026
+ms.date: 02/09/2026
 ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionInfoLevel1, WTS_TYPE_CLASS, WTS_TYPE_CLASS enumeration [Remote Desktop Services], termserv.wts_type_class, wtsapi32/WTSTypeProcessInfoLevel0, wtsapi32/WTSTypeProcessInfoLevel1, wtsapi32/WTSTypeSessionInfoLevel1, wtsapi32/WTS_TYPE_CLASS
 req.header: wtsapi32.h
 req.include-header: 
