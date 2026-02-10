@@ -49,23 +49,17 @@ helpviewer_keywords:
 
 Contains the serialization of a user credential.
 
-## Syntax
-
-```cpp
-typedef struct _WTS_SERIALIZED_USER_CREDENTIAL {
-    ULONG SerializationLength;
-    BYTE* Serialization;
-} WTS_SERIALIZED_USER_CREDENTIAL, *PWTS_SERIALIZED_USER_CREDENTIAL;
-```
-
 ## -struct-fields
 
-### SerializationLength
+### -field SerializationLength
 
 The size of the array pointed to by `Serialization` in bytes.
 
-### Serialization
+### -field Serialization
 
 A pointer to an array of bytes containing serialized credential information. The format of this data is compatible with the [Microsoft Negotiate authentication package](/windows/win32/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage). See *[CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION](/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization)* for more information.
 
-## -requirements
+
+## -remarks
+
+## -see-also

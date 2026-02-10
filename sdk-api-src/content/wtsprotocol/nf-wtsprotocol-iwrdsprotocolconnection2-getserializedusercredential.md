@@ -46,13 +46,6 @@ helpviewer_keywords:
 
 Returns a serialized user credential.
 
-## Syntax
-
-```cpp
-HRESULT GetSerializedUserCredential(
-    [out] WRDS_SERIALIZED_USER_CREDENTIAL** userCredential);
-```
-
 ## -parameters
 
 ### -param userCredential [out]
@@ -67,3 +60,5 @@ If the function succeeds, the function returns **S_OK**. If the function fails, 
 ## -remarks
 
 If your protocol both returns an **HRESULT** error code in this method and in **[IWRdsProtocolConnection::GetUserCredentials](/windows/win32/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getusercredentials), WinLogon will display a logon screen to request credentials. If your protocol returns S_OK, the credentials will be passed to WinLogon to log on the user.
+
+## -see-also
