@@ -63,14 +63,34 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
+A pointer to a [STORAGE_BOOT_PARTITION_DOWNLOAD](ns-winioctl-storage_boot_partition_download.md) structure that specifies the boot partition image data to download, including the offset and size of the image chunk.
+
 ### -input-buffer-length
+
+The size of the input buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_BOOT_PARTITION_DOWNLOAD)` plus the size of the image data being transferred.
 
 ### -output-buffer
 
+None. Set *lpOutBuffer* to **NULL**.
+
 ### -output-buffer-length
+
+Set *nOutBufferSize* to zero.
+
+### -status-block
+
+If the operation completes successfully, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns a nonzero value.
+
+If the operation fails or is pending, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns zero. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
+This IOCTL transfers boot partition image data to the NVMe controller's internal buffer using the Firmware Download command. For large boot partition images that exceed the controller's transfer size limit, the image must be split into multiple chunks and downloaded using multiple IOCTL calls with appropriate offset values.
+
+After all image data has been downloaded, use [IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE](ni-winioctl-ioctl_storage_boot_partition_activate.md) to commit the downloaded image to the boot partition.
+
+The caller must have administrative privileges to issue this IOCTL.
+
 ## -see-also
 
-[IOCTL_STORAGE_BOOT_PARTITION_GET_INFO IOCTL](ni-winioctl-ioctl_storage_boot_partition_get_info.md), [IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD IOCTL](ni-winioctl-ioctl_storage_boot_partition_download.md)
+[IOCTL_STORAGE_BOOT_PARTITION_GET_INFO IOCTL](ni-winioctl-ioctl_storage_boot_partition_get_info.md), [IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE IOCTL](ni-winioctl-ioctl_storage_boot_partition_activate.md)

@@ -63,13 +63,36 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
+A pointer to a [STORAGE_BOOT_PARTITION_ACTIVATE](ns-winioctl-storage_boot_partition_activate.md) structure that specifies the boot partition to activate and the action to perform.
+
 ### -input-buffer-length
+
+The size of the input buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_BOOT_PARTITION_ACTIVATE)`.
 
 ### -output-buffer
 
+None. Set *lpOutBuffer* to **NULL**.
+
 ### -output-buffer-length
 
+Set *nOutBufferSize* to zero.
+
+### -status-block
+
+If the operation completes successfully, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns a nonzero value.
+
+If the operation fails or is pending, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns zero. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
+
 ## -remarks
+
+This IOCTL commits a boot partition image to the NVMe controller using the Firmware Commit command with boot partition-specific action codes. It supports two mutually exclusive operations:
+
+- **Replace**: Commits a previously downloaded boot partition image (via [IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD](ni-winioctl-ioctl_storage_boot_partition_download.md)) to the specified boot partition slot.
+- **Activate**: Activates an existing boot partition without modifying its contents.
+
+To update a boot partition, first use [IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD](ni-winioctl-ioctl_storage_boot_partition_download.md) to transfer the image data, then use this IOCTL to commit and activate the new image.
+
+The caller must have administrative privileges to issue this IOCTL.
 
 ## -see-also
 

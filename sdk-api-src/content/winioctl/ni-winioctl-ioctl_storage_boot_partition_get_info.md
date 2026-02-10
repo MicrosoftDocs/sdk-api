@@ -63,13 +63,31 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
+None. Set *lpInBuffer* to **NULL**.
+
 ### -input-buffer-length
+
+Set *nInBufferSize* to zero.
 
 ### -output-buffer
 
+A pointer to a [STORAGE_BOOT_PARTITION_INFO](ns-winioctl-storage_boot_partition_info.md) structure that receives the boot partition information.
+
 ### -output-buffer-length
 
+The size of the output buffer, in bytes. Set *nOutBufferSize* to `sizeof(STORAGE_BOOT_PARTITION_INFO)`.
+
+### -status-block
+
+If the operation completes successfully, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns a nonzero value.
+
+If the operation fails or is pending, [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) returns zero. To get extended error information, call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
+
 ## -remarks
+
+This IOCTL is used to query boot partition information from NVMe storage devices that support boot partitions. The controller issues a GetLogPage command requesting the Boot Partition Log Page (NVME_LOG_PAGE_BOOT_PARTITION) to retrieve this information.
+
+The caller must have administrative privileges to issue this IOCTL.
 
 ## -see-also
 
