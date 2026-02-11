@@ -46,15 +46,6 @@ helpviewer_keywords:
 
 Requests a server nonce from the Cloud Authentication security support provider.
 
-## Syntax
-
-```cpp
-BOOL WINAPI WTSCloudAuthGetServerNonce(
-    [in] WTS_CLOUD_AUTH_HANDLE cloudAuthHandle,
-    [out] PWSTR* serverNonce
-);
-```
-
 ## -parameters
 
 ### -param cloudAuthHandle [in]
@@ -72,3 +63,5 @@ If the function succeeds, the return value is a nonzero value. If the function f
 ## -remarks
 
 The server nonce is required to build an [assertion](/openspecs/windows_protocols/ms-rdpbcgr/ba819b6b-257a-466f-b8e5-f262d78677f7) to authenticate to the server when using Entra authentication. The caller is responsible for transporting the server nonce to the client to use for the purposes of constructing the assertion.
+
+## -see-also
