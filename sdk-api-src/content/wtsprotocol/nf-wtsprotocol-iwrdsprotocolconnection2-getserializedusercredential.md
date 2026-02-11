@@ -50,7 +50,7 @@ Returns a serialized user credential.
 
 ### -param userCredential [out]
 
-Receives a pointer to an instance of **WTS_SERIALIZED_USER_CREDENTIAL** containing the serialized credential if the function succeeds. To free the allocated memory, the Remote Desktop Services service calls the *[WTSFreeMemoryEx](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsfreememoryexw)* function and pass **WTSTypeSerializedUserCredential** for the *WTSTypeClass* parameter.
+Receives a pointer to an instance of [WTS_SERIALIZED_USER_CREDENTIAL](../wtsapi32/ns-wtsapi32-wts_serialized_user_credential.md) containing the serialized credential if the function succeeds. To free the allocated memory, the Remote Desktop Services service calls the *[WTSFreeMemoryEx](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsfreememoryexw)* function and pass **WTSTypeSerializedUserCredential** for the *WTSTypeClass* parameter.
 Protocol implementations can transfer the ownership of the credential they obtained using [WTSCloudAuthConvertAssertionToSerializedUserCredential](../wtsapi32/nf-wtsapi32-wtscloudauthconvertassertiontoserializedusercredential.md) (recommended) after which they should not use the credential anymore. Alternatively, protocol implementations can use [WTSCloudAuthDuplicateSerializedUserCredential](../wtsapi32/nf-wtsapi32-wtscloudauthduplicateserializedusercredential.md) to duplicate the serialized credentials obtained from **WTSCloudAuthConvertAssertionToSerializedUserCredential**.
 
 ## -returns
