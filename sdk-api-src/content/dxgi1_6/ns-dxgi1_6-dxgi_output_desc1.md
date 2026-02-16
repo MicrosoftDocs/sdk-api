@@ -124,7 +124,7 @@ The white point, in xy coordinates, of the display attached to this output. This
 
 Type: <b>FLOAT</b>
 
-The minimum luminance, in nits, that the display attached to this output is capable of rendering. Content should not exceed this minimum value for optimal rendering. This value will
+The minimum luminance, in nits, that the display attached to this output is capable of rendering. Content should not be lower than this minimum value for optimal rendering. This value will
 	  usually come from the EDID of the corresponding display or sometimes from an override.
 
 ### -field MaxLuminance
