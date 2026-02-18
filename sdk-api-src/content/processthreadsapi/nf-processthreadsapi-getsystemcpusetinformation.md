@@ -20,7 +20,7 @@ req.max-support:
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: Windows 10
-req.target-min-winversvr: WIndows Server 2016
+req.target-min-winversvr: Windows Server 2016
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
