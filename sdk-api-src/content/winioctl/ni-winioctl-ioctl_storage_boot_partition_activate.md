@@ -2,7 +2,7 @@
 UID: NI:winioctl.IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE
 tech.root: fs
 title: IOCTL_STORAGE_BOOT_PARTITION_ACTIVATE
-ms.date: 01/26/2026
+ms.date: 02/25/2026
 targetos: Windows
 description: Activates or replaces a boot partition on the storage controller or disk using the NVMe Firmware Commit command (NVME_ADMIN_COMMAND_FIRMWARE_COMMIT) with boot partition-specific action codes.
 prerelease: false
