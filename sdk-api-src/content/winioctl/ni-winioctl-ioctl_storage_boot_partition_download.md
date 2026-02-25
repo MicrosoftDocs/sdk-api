@@ -63,11 +63,11 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-A pointer to a [STORAGE_BOOT_PARTITION_DOWNLOAD](ns-winioctl-storage_boot_partition_download.md) structure that specifies the boot partition image data to download, including the offset and size of the image chunk.
+A pointer to a STORAGE_HW_BOOT_PARTITION_DOWNLOAD structure that specifies the boot partition image data to download, including the offset and size of the image chunk.
 
 ### -input-buffer-length
 
-The size of the input buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_BOOT_PARTITION_DOWNLOAD)` plus the size of the image data being transferred.
+The size of the input buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_DOWNLOAD)` plus the size of the image data being transferred.
 
 ### -output-buffer
 
