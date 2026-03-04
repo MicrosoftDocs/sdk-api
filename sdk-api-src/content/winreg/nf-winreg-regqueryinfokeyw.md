@@ -93,9 +93,9 @@ A pointer to a variable that specifies the size of the buffer pointed to by the 
 
 The size should include the terminating <b>null</b> character. When the function returns, this variable contains the size of the class string that is stored in the buffer. The count returned does not include the terminating <b>null</b> character. If the buffer is not big enough, the function returns ERROR_MORE_DATA, and the variable contains the size of the string, in characters, without counting the terminating <b>null</b> character.
 
-If <i>lpClass</i> is <b>NULL</b>, <i>lpcClass</i> can be <b>NULL</b>.
+If <i>lpClass</i> is <b>NULL</b>, <i>lpcchClass</i> can be <b>NULL</b>.
 
-If the <i>lpClass</i> parameter is a valid address, but the <i>lpcClass</i> parameter is not, for example, it is <b>NULL</b>, then the  function returns ERROR_INVALID_PARAMETER.
+If the <i>lpClass</i> parameter is a valid address, but the <i>lpcchClass</i> parameter is not, for example, it is <b>NULL</b>, then the function returns ERROR_INVALID_PARAMETER.
 
 ### -param lpReserved
 
