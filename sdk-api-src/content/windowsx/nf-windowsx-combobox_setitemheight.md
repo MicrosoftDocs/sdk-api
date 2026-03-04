@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemHeight
 title: ComboBox_SetItemHeight macro (windowsx.h)
-description: Sets the height of list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.
+description: Sets the height of the list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.
 helpviewer_keywords: ["ComboBox_SetItemHeight","ComboBox_SetItemHeight macro [Windows Controls]","_win32_ComboBox_SetItemHeight","_win32_ComboBox_SetItemHeight_cpp","controls.ComboBox_SetItemHeight","controls._win32_ComboBox_SetItemHeight","windowsx/ComboBox_SetItemHeight"]
 old-location: controls\ComboBox_SetItemHeight.htm
 tech.root: Controls
@@ -66,7 +66,7 @@ If the index or height is invalid, the return value is CB_ERR.
 
 ## -description
 
-Sets the height of list items or the selection field in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-setitemheight">CB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of the list items or the selection field in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-setitemheight">CB_SETITEMHEIGHT</a> message explicitly.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the <a href="/windows/desktop/Controls/combo-box-styles">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
+The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of the list items, unless the combo box has the <a href="/windows/desktop/Controls/combo-box-styles">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
 
 ### -param cyItem
 
