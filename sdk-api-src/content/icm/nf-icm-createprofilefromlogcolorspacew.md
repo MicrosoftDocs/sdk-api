@@ -65,7 +65,7 @@ If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACEA**](/windows/desktop
 
 ## -remarks
 
-This function can be used with ASCII or Unicode strings. The buffer created by this function must be freed by the caller when it is no longer needed or there will be a memory leak. The [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) function should be used to free this buffer.
+This function can be used with ASCII or Unicode strings. The buffer created by this function must be freed by the caller when it is no longer needed or there will be a memory leak. Use the [GlobalHandle](/windows/win32/api/winbase/nf-winbase-globalhandle) function to retrieve the handle for the buffer, and then use the [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) function to free the handle.
 
 This function does not support Windows Color System (WCS) profiles CAMP, DMP, and GMMP.
 
@@ -74,3 +74,4 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 * [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)
+* [GlobalHandle](/windows/win32/api/winbase/nf-winbase-globalhandle)
