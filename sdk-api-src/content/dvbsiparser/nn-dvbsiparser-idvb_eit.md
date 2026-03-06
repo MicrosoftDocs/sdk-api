@@ -78,11 +78,11 @@ An EIT provides information about events in each service, such as the event name
 <td>Present/following EIT for another transport stream. </td>
 </tr>
 <tr>
-<td>0x50 – 0x5F</td>
+<td>0x50 â€“ 0x5F</td>
 <td>Schedule EIT for this transport stream.</td>
 </tr>
 <tr>
-<td>0x60 – 0x6F</td>
+<td>0x60 â€“ 0x6F</td>
 <td>Schedule EIT for another transport stream.</td>
 </tr>
 </table>

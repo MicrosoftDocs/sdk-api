@@ -11,8 +11,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Librar
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -92,8 +92,8 @@ If home media sharing is not allowed for the computer, none of the users' media 
 If home media sharing is allowed for the computer and a particular user has enabled media sharing, then that user's media library is shared on the home network.
 
 
-<div class="alert"><b>Warning</b>  Each call to <b>put_computerHomeMediaSharingAllowedState</b> with the <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b> updates the access control list (ACL) and last changed time  of each file in the computer's Public Music, Public Pictures, and Public Videos folders. This behavior might change in future versions of Windows.</div>
-<div> </div>
+<div class="alert"><b>Warning</b>  Each call to <b>put_computerHomeMediaSharingAllowedState</b> with the <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b> updates the access control list (ACL) and last changed time  of each file in the computer's Public Music, Public Pictures, and Public Videos folders. This behavior might change in future versions of Windows.</div>
+<div> </div>
 
 ## -see-also
 

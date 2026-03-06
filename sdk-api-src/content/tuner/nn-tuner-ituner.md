@@ -54,8 +54,8 @@ api_name:
 
 The <b>ITuner</b> interface is implemented on the Microsoft <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filters. It provides methods for passing tune requests down to the hardware device and receiving current tuning settings. Generally, applications should use the derived interface <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a> instead of <b>ITuner</b>.
 
-<div class="alert"><b>Note</b>  Only applications that are intended to run on Windows 2000 should use this interface. Starting in Windows XP, the Video Control handles all tuning interactions with the Network Provider.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Only applications that are intended to run on Windows 2000 should use this interface. Starting in Windows XP, the Video Control handles all tuning interactions with the Network Provider.</div>
+<div> </div>
 
 ## -inheritance
 

@@ -11,7 +11,7 @@ ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinor
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

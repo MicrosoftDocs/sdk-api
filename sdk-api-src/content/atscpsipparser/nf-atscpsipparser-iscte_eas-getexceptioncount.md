@@ -11,7 +11,7 @@ ms.keywords: GetExceptionCount, GetExceptionCount method [Microsoft TV Technolog
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

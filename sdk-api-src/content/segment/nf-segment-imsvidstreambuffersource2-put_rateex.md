@@ -63,7 +63,7 @@ The <b>put_RateEx</b> method sets the playback rate, and sets the frame rate for
 
 ### -param dwRate [in]
 
-Playback rate. The valid range is (<i>dRate</i> &gt;= 0.1 || <i>dRate</i> &lt;= –0.1).
+Playback rate. The valid range is (<i>dRate</i> &gt;= 0.1 || <i>dRate</i> &lt;= â€“0.1).
 
 ### -param dwFramesPerSecond [in]
 

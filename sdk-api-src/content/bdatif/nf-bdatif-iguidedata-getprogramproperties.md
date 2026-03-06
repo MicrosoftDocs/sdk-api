@@ -110,7 +110,7 @@ The returned collection includes the following properties.
 <td>The name of the program.</td>
 </tr>
 </table>
- 
+ 
 
 The method fails if the TIF has not received the program information from the PSI tables in the transport stream. The client should implement the <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataevent">IGuideDataEvent</a> interface and wait for the <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-programchanged">IGuideDataEvent::ProgramChanged</a> event to be fired.
 

@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetFF
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -110,7 +110,7 @@ At higher playback rates, the Stream Buffer Engine drops frames in order to main
 <td>Key-frame playback with seeking: All delta frames are skipped, and some key frames are skipped. The number of skipped key frames is proportional to the rate.</td>
 </tr>
 </table>
- 
+ 
 
 The decoder may drop frames as well, depending on the data rate, the monitor refresh rate, and the CPU load.
 

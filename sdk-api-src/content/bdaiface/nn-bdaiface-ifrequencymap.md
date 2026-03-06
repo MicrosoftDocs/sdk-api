@@ -58,8 +58,8 @@ A frequency table is a list of broadcast or cable frequencies for a given countr
 
 Frequencies used by this interface are measured in units of kilohertz (kHz), and refer to the center frequency of each band. For more information, see "Terrestrial delivery system descriptor" in the ETSI EN 300 468 standard.
 
-<div class="alert"><b>Note</b>  Currently only the DVB-T Network Provider supports this interface.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  Currently only the DVB-T Network Provider supports this interface.</div>
+<div> </div>
 
 ## -inheritance
 

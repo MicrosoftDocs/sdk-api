@@ -15,7 +15,7 @@ dev_langs:
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -82,7 +82,7 @@ Fires an event.
 
 </td>
 </tr>
-</table> 
+</table> 
 
 
 ## -remarks
@@ -293,6 +293,6 @@ HRESULT TunerEvent::Fire_Event(GUID eventID)
 
 
 <a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
+ 
 
- 
+ 
