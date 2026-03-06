@@ -140,6 +140,12 @@ The following are the most common interface identifiers the Shell uses when requ
 </tr>
 <tr>
 <td>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>
+</td>
+<td>The <i>cidl</i> parameter can only be one.</td>
+</tr>
+<tr>
+<td>
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo">IQueryInfo</a>
 </td>
 <td>The <i>cidl</i> parameter can only be one.</td>
