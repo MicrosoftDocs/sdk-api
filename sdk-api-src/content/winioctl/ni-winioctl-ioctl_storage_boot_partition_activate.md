@@ -63,7 +63,7 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-A pointer to a [STORAGE_BOOT_PARTITION_ACTIVATE](ns-winioctl-storage_boot_partition_activate.md) structure that specifies the boot partition to activate and the action to perform.
+A pointer to a [STORAGE_HW_BOOT_PARTITION_ACTIVATE](ns-winioctl-storage_hw_boot_partition_activate.md) structure that specifies the boot partition to activate and the action to perform.
 
 ### -input-buffer-length
 

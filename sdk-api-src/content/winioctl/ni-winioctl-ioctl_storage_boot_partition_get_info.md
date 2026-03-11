@@ -2,7 +2,7 @@
 UID: NI:winioctl.IOCTL_STORAGE_BOOT_PARTITION_GET_INFO
 tech.root: fs
 title: IOCTL_STORAGE_BOOT_PARTITION_GET_INFO
-ms.date: 01/23/2026
+ms.date: 03/11/2026
 targetos: Windows
 description: Retrieves boot partition information from a storage controller or disk by issuing a GetLogPage command for the Boot Partition Log Page (NVME_LOG_PAGE_BOOT_PARTITION).
 prerelease: false
@@ -63,7 +63,7 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-None. Set *lpInBuffer* to **NULL**.
+The size of the inpput buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
 
 ### -input-buffer-length
 
@@ -71,11 +71,11 @@ Set *nInBufferSize* to zero.
 
 ### -output-buffer
 
-A pointer to a [STORAGE_BOOT_PARTITION_INFO](ns-winioctl-storage_boot_partition_info.md) structure that receives the boot partition information.
+A pointer to a [STORAGE_HW_BOOT_PARTITION_INFO](ns-winioctl-storage_hw_boot_partition_info.md) structure that receives the boot partition information.
 
 ### -output-buffer-length
 
-The size of the output buffer, in bytes. Set *nOutBufferSize* to `sizeof(STORAGE_BOOT_PARTITION_INFO)`.
+The size of the output buffer, in bytes. Set *nOutBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
 
 ### -status-block
 
