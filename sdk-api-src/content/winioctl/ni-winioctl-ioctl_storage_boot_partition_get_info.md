@@ -65,7 +65,7 @@ BOOL DeviceIoControl(
 
 A pointer to the input buffer. Set *lpInBuffer* to `NULL` if no input data is required.
 
-Set *nInBufferSize* to 0 if *lpInBuffer* is NULL; otherwise set it to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)` (or the appropriate size for the input data).
+Set *nInBufferSize* to 0 if *lpInBuffer* is `NULL`; otherwise specify the appropriate size for the input data.
 
 ### -input-buffer-length
 
