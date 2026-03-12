@@ -48,14 +48,14 @@ To perform this operation, call the [DeviceIoControl](../ioapiset/nf-ioapiset-de
 
 ```cpp
 BOOL DeviceIoControl(
-    (HANDLE) hDevice,                 // handle to device
+    HANDLE hDevice,                   // handle to device
     IOCTL_STORAGE_BOOT_PARTITION_GET_INFO,  // dwIoControlCode
-    (LPDWORD) lpInBuffer,             // input buffer
-    (DWORD) nInBufferSize,            // size of input buffer
-    (LPDWORD) lpOutBuffer,            // output buffer
-    (DWORD) nOutBufferSize,           // size of output buffer
-    (LPDWORD) lpBytesReturned,        // number of bytes returned
-    (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+    LPVOID lpInBuffer,                // input buffer
+    DWORD nInBufferSize,              // size of input buffer
+    LPVOID lpOutBuffer,               // output buffer
+    DWORD nOutBufferSize,             // size of output buffer
+    LPDWORD lpBytesReturned,          // number of bytes returned
+    LPOVERLAPPED lpOverlapped         // OVERLAPPED structure
 );
 ```
 
@@ -63,11 +63,13 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-The size of the inpput buffer, in bytes. Set *nInBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
+A pointer to the input buffer. Set *lpInBuffer* to NULL if no input data is required.
+
+Set *nInBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
 
 ### -input-buffer-length
 
-Set *nInBufferSize* to zero.
+The size of the input buffer, in bytes. Set *nInBufferSize* to zero if no input data is required.
 
 ### -output-buffer
 

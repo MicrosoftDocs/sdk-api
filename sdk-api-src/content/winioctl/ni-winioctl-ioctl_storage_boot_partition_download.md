@@ -2,7 +2,7 @@
 UID: NI:winioctl.IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD
 tech.root: fs
 title: IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD
-ms.date: 01/26/2026
+ms.date: 03/12/2026
 targetos: Windows
 description: Downloads a boot partition image to the storage controller or disk using the NVMe Firmware Download command (NVME_ADMIN_COMMAND_FIRMWARE_IMAGE_DOWNLOAD) opcode to transfer image data to the controller's internal buffer.
 prerelease: false
@@ -48,14 +48,14 @@ To perform this operation, call the [DeviceIoControl](../ioapiset/nf-ioapiset-de
 
 ```cpp
 BOOL DeviceIoControl(
-      (HANDLE) hDevice,                 // handle to device
+      HANDLE hDevice,                 // handle to device
       IOCTL_STORAGE_BOOT_PARTITION_DOWNLOAD,  // dwIoControlCode
-      (LPDWORD) lpInBuffer,             // input buffer
-      (DWORD) nInBufferSize,            // size of input buffer
-      (LPDWORD) lpOutBuffer,            // output buffer
-      (DWORD) nOutBufferSize,           // size of output buffer
-      (LPDWORD) lpBytesReturned,        // number of bytes returned
-      (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+      LPVOID lpInBuffer,             // input buffer
+      DWORD nInBufferSize,            // size of input buffer
+      LPVOID lpOutBuffer,            // output buffer
+      DWORD nOutBufferSize,           // size of output buffer
+      LPDWORD lpBytesReturned,        // number of bytes returned
+      LPOVERLAPPED lpOverlapped       // OVERLAPPED structure
 );
 ```
 
