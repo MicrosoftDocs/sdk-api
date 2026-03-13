@@ -67,15 +67,15 @@ A pointer to a [STORAGE_HW_BOOT_PARTITION_INFO](ns-winioctl-storage_hw_boot_part
 
 ### -input-buffer-length
 
-The size of the input buffer, in bytes. Set *nInBufferSize* to zero if no input data is required.
+The size of the input buffer, in bytes.
 
 ### -output-buffer
 
-A pointer to a [STORAGE_HW_BOOT_PARTITION_INFO](ns-winioctl-storage_hw_boot_partition_info.md) structure that receives the boot partition information.
+A pointer to a [STORAGE_HW_BOOT_PARTITION_INFO](ns-winioctl-storage_hw_boot_partition_info.md) structure that receives the boot partition information. Set *nOutBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
 
 ### -output-buffer-length
 
-The size of the output buffer, in bytes. Set *nOutBufferSize* to `sizeof(STORAGE_HW_BOOT_PARTITION_INFO)`.
+The size of the output buffer, in bytes.
 
 ### -status-block
 
