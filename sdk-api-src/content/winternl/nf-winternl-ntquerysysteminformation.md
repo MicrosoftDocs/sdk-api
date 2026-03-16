@@ -122,13 +122,13 @@ used to generate an unpredictable seed for a random number generator. Use the
 
 #### SystemPmuSourceAddInformation
 
-Adds a PMU (Performance Monitoring Unit) profile source. The buffer pointed to by the <i>SystemInformation</i> parameter should contain a <b>SYSTEM_PMU_SOURCE_ADD_INFORMATION</b> structure describing the profile source to add. This information class is used with <b>NtSetSystemInformation</b>.
+Accepts a <b>SYSTEM_PMU_SOURCE_ADD_INFORMATION</b> structure that describes a PMU (Performance Monitoring Unit) profile source to add.
 
 
 
 #### SystemPmuSourceRemoveInformation
 
-Removes a PMU (Performance Monitoring Unit) profile source. The buffer pointed to by the <i>SystemInformation</i> parameter should contain a <b>SYSTEM_PMU_SOURCE_REMOVE_INFORMATION</b> structure identifying the profile source to remove. This information class is used with <b>NtSetSystemInformation</b>.
+Accepts a <b>SYSTEM_PMU_SOURCE_REMOVE_INFORMATION</b> structure that identifies a PMU (Performance Monitoring Unit) profile source to remove.
 
 
 
@@ -676,8 +676,8 @@ function instead to generate cryptographically random data.
 
 #### SYSTEM_PMU_SOURCE_ADD_INFORMATION
 
-When the <i>SystemInformationClass</i> parameter is
-<b>SystemPmuSourceAddInformation</b>, the buffer pointed to by
+When the <i>SystemInformationClass</i>  parameter is
+<b>SystemPmuSourceAddInformation</b>,  the buffer pointed to by
 the <i>SystemInformation</i> parameter should be large enough
 to hold a single <b>SYSTEM_PMU_SOURCE_ADD_INFORMATION</b> structure
 having the following layout:
@@ -817,8 +817,8 @@ The <b>ProfileSourceDescription</b> member contains a variable-length null-termi
 
 #### SYSTEM_PMU_SOURCE_REMOVE_INFORMATION
 
-When the <i>SystemInformationClass</i> parameter is
-<b>SystemPmuSourceRemoveInformation</b>, the buffer pointed to by
+When the <i>SystemInformationClass</i>  parameter is
+<b>SystemPmuSourceRemoveInformation</b>,  the buffer pointed to by
 the <i>SystemInformation</i> parameter should be large enough
 to hold a single <b>SYSTEM_PMU_SOURCE_REMOVE_INFORMATION</b> structure
 having the following layout:
