@@ -113,26 +113,22 @@ If an error occurs, the return value is (**UINT**)-1. Call [GetLastError](/windo
 
 ## -remarks
 
-**GetRawInputData** retrieves one [RAWINPUT](ns-winuser-rawinput.md) structure at a time using the **HRAWINPUT** handle passed in *lParam* of a [WM_INPUT](/windows/win32/inputdev/wm-input) message. In contrast, [GetRawInputBuffer](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) retrieves an array of **RAWINPUT** structures accumulated in the thread's raw input queue.
+**GetRawInputData** retrieves one [RAWINPUT](ns-winuser-rawinput.md) structure at a time using the **HRAWINPUT** handle passed in *lParam* of a [WM_INPUT](/windows/win32/inputdev/wm-input) message. In contrast, [GetRawInputBuffer](nf-winuser-getrawinputbuffer.md) retrieves an array of **RAWINPUT** structures accumulated in the thread's raw input queue.
 
-**Handle lifetime:** The **HRAWINPUT** handle in *lParam* is valid for the duration of the [WM_INPUT](/windows/win32/inputdev/wm-input) message handler. It is freed internally on the next call to [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/win32/api/winuser/nf-winuser-peekmessagew) with **PM_REMOVE** via a deferred cleanup mechanism. **GetRawInputData** must be called before then.
+**Handle lifetime:** The **HRAWINPUT** handle in *lParam* is valid for the duration of the [WM_INPUT](/windows/win32/inputdev/wm-input) message handler. It is freed internally on the next call to [GetMessage](nf-winuser-getmessage.md) or [PeekMessage](nf-winuser-peekmessagew.md) with **PM_REMOVE** via a deferred cleanup mechanism. **GetRawInputData** must be called before then.
 
-**Relationship with GetRawInputBuffer:** [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) removes the current [WM_INPUT](/windows/win32/inputdev/wm-input) from the raw input queue before returning. As a result, [GetRawInputBuffer](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) will not see the current event — only events that arrived after it.
+**Relationship with GetRawInputBuffer:** [GetMessage](nf-winuser-getmessage.md) removes the current [WM_INPUT](/windows/win32/inputdev/wm-input) from the raw input queue before returning. As a result, [GetRawInputBuffer](nf-winuser-getrawinputbuffer.md) will not see the current event — only events that arrived after it.
 
 See [Performing a Buffered Read of Raw Input](/windows/win32/inputdev/using-raw-input#performing-a-buffered-read-of-raw-input) for complete code samples.
 
 ## -see-also
 
-<b>Conceptual</b>
+**Conceptual**
 
-<a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
+[GetRawInputBuffer](nf-winuser-getrawinputbuffer.md)
 
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+[RAWINPUT](ns-winuser-rawinput.md)
 
-<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+[RAWINPUTHEADER](ns-winuser-rawinputheader.md)
 
-<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
-
-<b>Reference</b>
+[Raw Input](/windows/win32/inputdev/raw-input)
