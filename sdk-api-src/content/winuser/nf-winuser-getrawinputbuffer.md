@@ -89,11 +89,11 @@ When an application receives raw input, its message queue gets a [WM_INPUT](/win
 
 The [NEXTRAWINPUTBLOCK](nf-winuser-nextrawinputblock.md) macro allows an application to traverse an array of [RAWINPUT](ns-winuser-rawinput.md) structures.
 
-**Important:** **GetRawInputBuffer** only sees [WM_INPUT](/windows/win32/inputdev/wm-input) messages that are still present in the raw input queue. When [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) retrieves a [WM_INPUT](/windows/win32/inputdev/wm-input) message, it removes that message from the queue before returning — so **GetRawInputBuffer** will not see it. The removed event must be read via [GetRawInputData](/windows/win32/api/winuser/nf-winuser-getrawinputdata) using the **HRAWINPUT** handle passed in *lParam*. Only events that arrived after the current one are visible to **GetRawInputBuffer**.
+**Important:** **GetRawInputBuffer** only sees [WM_INPUT](/windows/win32/inputdev/wm-input) messages that are still present in the raw input queue. When [GetMessage](nf-winuser-getmessage.md) retrieves a [WM_INPUT](/windows/win32/inputdev/wm-input) message, it removes that message from the queue before returning — so **GetRawInputBuffer** will not see it. The removed event must be read via [GetRawInputData](nf-winuser-getrawinputdata.md) using the **HRAWINPUT** handle passed in *lParam*. Only events that arrived after the current one are visible to **GetRawInputBuffer**.
 
-Therefore, when using **GetRawInputBuffer** from a [WM_INPUT](/windows/win32/inputdev/wm-input) handler or after [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage), the correct pattern is:
+Therefore, when using **GetRawInputBuffer** from a [WM_INPUT](/windows/win32/inputdev/wm-input) handler or after [GetMessage](nf-winuser-getmessage.md), the correct pattern is:
 
-1. Read the current event via [GetRawInputData](/windows/win32/api/winuser/nf-winuser-getrawinputdata) using the *lParam* handle.
+1. Read the current event via [GetRawInputData](nf-winuser-getrawinputdata.md) using the *lParam* handle.
 2. Call **GetRawInputBuffer** in a loop to drain any additional events that accumulated in the queue.
 3. Call [DefWindowProc](/windows/win32/api/winproc/nf-winproc-defwndproc) after processing the message.
 
