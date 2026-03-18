@@ -100,7 +100,7 @@ Therefore, when using **GetRawInputBuffer** from a [WM_INPUT](/windows/win32/inp
 See [Performing a Buffered Read of Raw Input](/windows/win32/inputdev/using-raw-input#performing-a-buffered-read-of-raw-input) for complete code samples.
 
 > [!NOTE]
-> WOW64: To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes.  The following code shows how to align **RAWINPUT** for WOW64.
+> WOW64: To get the correct size of the raw input buffer, do not use \**pcbSize*, use \**pcbSize* \* 8 instead. To ensure **GetRawInputBuffer** behaves properly on WOW64, you must align the [RAWINPUT](ns-winuser-rawinput.md) structure by 8 bytes. The following code shows how to align **RAWINPUT** for WOW64.
 
 ```csharp
 [StructLayout(LayoutKind.Explicit)]
