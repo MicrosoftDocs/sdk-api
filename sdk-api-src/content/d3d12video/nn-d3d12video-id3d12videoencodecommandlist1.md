@@ -36,7 +36,7 @@ dev_langs:
 
 ## -description
 
-Encapsulates a list of graphics commands for video decoding. This interface inherits from [ID3D12VideoEncodeCommandList](nn-d3d12video-id3d12videoencodecommandlist1.md) and adds support for video extension commands.
+Encapsulates a list of graphics commands for video encoding. This interface inherits from [ID3D12VideoEncodeCommandList](nn-d3d12video-id3d12videoencodecommandlist1.md) and adds support for video extension commands.
 
 ## -remarks
 
