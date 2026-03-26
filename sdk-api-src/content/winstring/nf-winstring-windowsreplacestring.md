@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: mincore.lib
+req.lib: RuntimeObject.lib
 req.dll: 
 req.irql: 
 targetos: Windows

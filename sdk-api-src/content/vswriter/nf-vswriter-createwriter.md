@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: nanosrv.lib
+req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 targetos: Windows
