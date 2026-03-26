@@ -113,8 +113,8 @@ If you request delete permission at the time you create a file, you can delete o
      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 The <b>DeleteFile</b> function fails if an application attempts 
-    to delete a file that has other handles open for normal I/O or as a memory-mapped file 
-    (<b>FILE_SHARE_DELETE</b> must have been specified when other handles were opened).
+    to delete a file that has other open handles that were opened without <b>FILE_SHARE_DELETE</b>,
+    or that is memory-mapped.
 
 The <b>DeleteFile</b> function marks a file for deletion on 
     close. Therefore, the file deletion does not occur until the last handle to the file is closed. Subsequent calls 
