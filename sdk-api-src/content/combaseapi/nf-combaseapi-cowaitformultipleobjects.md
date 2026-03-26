@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: mincore.lib
+req.lib: Ole32.lib
 req.dll: Combase.dll; Ole32.dll
 req.irql: 
 targetos: Windows

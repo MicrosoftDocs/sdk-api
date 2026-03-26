@@ -14,7 +14,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: mincore.lib
+req.lib: Ole32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

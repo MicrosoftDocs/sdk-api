@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: OneCore_downlevel.Lib
+req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 targetos: Windows
