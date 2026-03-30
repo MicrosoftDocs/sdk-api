@@ -99,6 +99,17 @@ x64 (AMD64 or EM64T)
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="IMAGE_FILE_MACHINE_ARM64"></a><a id="image_file_machine_arm64"></a><dl>
+<dt><b>IMAGE_FILE_MACHINE_ARM64</b></dt>
+<dt>0xAA64</dt>
+</dl>
+</td>
+<td width="60%">
+ARM64
+
+</td>
+</tr>
 </table>
 
 ### -param hProcess [in]
