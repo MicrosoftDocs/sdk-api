@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.dll
-req.dll: Kernel32.lib
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -42,7 +42,7 @@ api_type:
 api_location:
  - api-ms-win-core-wow64-l1-1-3.dll
  - api-ms-win-core-wow64-l1-1-2.dll
- - kernel32.lib
+ - kernel32.dll
  - API-MS-Win-Core-Wow64-L1-1-1.dll
  - KernelBase.dll
 api_name:
