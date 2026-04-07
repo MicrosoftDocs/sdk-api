@@ -38,11 +38,9 @@ helpviewer_keywords:
  - IOCTL_STORAGE_FIRMWARE_GET_INFO
 req.unicode-ansi: 
 req.idl: 
-req.max-support: 
 req.namespace: 
 req.assembly: 
 req.typenames: 
-req.redist: 
 ---
 
 # IOCTL_STORAGE_FIRMWARE_GET_INFO IOCTL
