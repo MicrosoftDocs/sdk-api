@@ -42,6 +42,10 @@ Specifies heap options for video encoding.
 
 No flags.
 
+### -field D3D12_VIDEO_ENCODER_HEAP_FLAG_ALLOW_DIRTY_REGIONS
+
+Indicates that the encoder heap supports dirty regions. Required when using [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_FLAG_ENABLE_DIRTY_REGIONS_INPUT](ne-d3d12video-d3d12_video_encoder_picture_control_flags.md).
+
 ## -remarks
 
 ## -see-also

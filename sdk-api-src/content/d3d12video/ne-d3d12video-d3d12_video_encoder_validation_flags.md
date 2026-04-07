@@ -79,6 +79,18 @@ The specified resolution is not supported.
 
 The specified GOP structure is not supported.
 
+### -field D3D12_VIDEO_ENCODER_VALIDATION_FLAG_QPMAP_NOT_SUPPORTED
+
+The specified QPMap configuration is not supported.
+
+### -field D3D12_VIDEO_ENCODER_VALIDATION_FLAG_DIRTY_REGIONS_NOT_SUPPORTED
+
+The specified dirty regions configuration is not supported.
+
+### -field D3D12_VIDEO_ENCODER_VALIDATION_FLAG_MOTION_SEARCH_NOT_SUPPORTED
+
+The specified motion search configuration is not supported.
+
 ## -remarks
 
 ## -see-also

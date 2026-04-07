@@ -58,6 +58,10 @@ Frames are divided into a number of slices determined by the number of rows per 
 
 Frames are divided into the specified number of slices.
 
+### -field D3D12_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_MODE_AUTO : 7
+
+The driver decides the subregion partitioning and communicates it in post-encode metadata. The associated [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA](ns-d3d12video-d3d12_video_encoder_picture_control_subregions_layout_data.md) must be NULL. The subregion count can be between 1 and up to the driver-reported [MaxSubregionsNumber](ns-d3d12video-d3d12_feature_data_video_encoder_resolution_support_limits.md).
+
 ## -remarks
 
 ## -see-also
