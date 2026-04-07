@@ -75,7 +75,7 @@ A [D3D12_VIDEO_ENCODER_FRAME_INPUT_MOTION_UNIT_PRECISION](ne-d3d12video-d3d12_vi
 
 ### -field PictureControlConfiguration
 
-Provides information to the driver about picture control associated with the frame that will be encoded with this motion info, such as reference lists and reordering depending on the codec.
+A [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA](ns-d3d12video-d3d12_video_encoder_picture_control_codec_data.md) providing information to the driver about picture control associated with the frame that will be encoded with this motion info, such as reference lists and reordering depending on the codec.
 
 ## -remarks
 
