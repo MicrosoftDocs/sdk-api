@@ -17,7 +17,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: Advapi32.dll
+req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
