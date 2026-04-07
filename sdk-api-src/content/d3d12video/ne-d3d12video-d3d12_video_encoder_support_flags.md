@@ -85,7 +85,7 @@ Support for adjustable initial QP in rate control.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_MAX_FRAME_SIZE_AVAILABLE
 
-Ssupport for setting a maximum cap in the bitrate algorithm per each encoded frame.
+Support for setting a maximum cap in the bitrate algorithm per each encoded frame.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SEQUENCE_GOP_RECONFIGURATION_AVAILABLE
 
@@ -94,6 +94,18 @@ Support for dynamic GOP changes during an encode session.
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_MOTION_ESTIMATION_PRECISION_MODE_LIMIT_AVAILABLE
 
 Support for the caller to limit the precision used for motion search on frame encode.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT
+
+Support for rate control extension 1 configurations.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE
+
+Support for quality versus speed trade-off configuration in rate control.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_READABLE_RECONSTRUCTED_PICTURE_LAYOUT_AVAILABLE
+
+Support for readable reconstructed picture layouts.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_QP_MAP_METADATA_AVAILABLE
 
@@ -106,6 +118,14 @@ Support for per-block SATD map metadata output. When supported, the application 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_RC_BIT_ALLOCATION_MAP_METADATA_AVAILABLE
 
 Support for per-block rate control bit allocation map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_RC_BIT_ALLOCATION_MAP](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_ARRAY_OF_BUFFERS_AVAILABLE
+
+Support for subregion compressed bitstream notification using an array of separate output buffers, one per subregion.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_SINGLE_BUFFER_AVAILABLE
+
+Support for subregion compressed bitstream notification using a single contiguous output buffer for all subregions.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_FRAME_PSNR_METADATA_AVAILABLE
 
