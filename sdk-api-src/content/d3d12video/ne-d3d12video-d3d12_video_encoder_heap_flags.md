@@ -42,6 +42,10 @@ Specifies heap options for video encoding.
 
 No flags.
 
+### -field D3D12_VIDEO_ENCODER_HEAP_FLAG_ALLOW_RATE_CONTROL_FRAME_ANALYSIS
+
+Indicates to the driver that two pass will be used with the associated [ID3D12VideoEncoderHeap1](nn-d3d12video-id3d12videoencoderheap1.md). The driver uses this flag to allocate and initialize the internal state required for storing two pass context in this object.
+
 ## -remarks
 
 ## -see-also

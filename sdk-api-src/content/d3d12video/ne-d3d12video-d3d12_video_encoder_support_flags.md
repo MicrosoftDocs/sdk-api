@@ -60,7 +60,7 @@ Support for configuring the VBV Initial fullness and capacity for rate control a
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_FRAME_ANALYSIS_AVAILABLE
 
-Support for rate control modes that involve frame analysis to optimize the bitrate usage at the cost of a slower performance.
+Support for rate control modes that involve frame analysis to optimize the bitrate usage at the cost of a slower performance. When this flag is reported by the driver, further support for performing two pass at lower resolutions can be queried in [D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS](ne-d3d12video-d3d12_feature_video.md).
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RECONSTRUCTED_FRAMES_REQUIRE_TEXTURE_ARRAYS
 
@@ -94,6 +94,18 @@ Support for dynamic GOP changes during an encode session.
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_MOTION_ESTIMATION_PRECISION_MODE_LIMIT_AVAILABLE
 
 Support for the caller to limit the precision used for motion search on frame encode.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT : 0x2000
+
+Support for rate control extension 1 features.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE : 0x4000
+
+Support for quality vs speed configuration in rate control.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_READABLE_RECONSTRUCTED_PICTURE_LAYOUT_AVAILABLE : 0x8000
+
+Support for readable reconstructed picture layouts.
 
 ## -remarks
 
