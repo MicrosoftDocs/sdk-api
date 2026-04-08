@@ -91,7 +91,7 @@ Retrieves the number of supported decoder profiles. The returned count is used w
 
 Indicates if the video engine is IO coherent with the CPU.
 
-### -field D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM 
+### -field D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM:18
 
 Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_decode_histogram.md">D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM</a>.
 
@@ -217,7 +217,7 @@ Retrieves the memory requirements of a video encoder heap created with the given
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
 
-Retrieves the feature support details on the requested configuration, including frame analysis support. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1.
+Retrieves the feature support details on the requested configuration, including frame analysis support. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS
 

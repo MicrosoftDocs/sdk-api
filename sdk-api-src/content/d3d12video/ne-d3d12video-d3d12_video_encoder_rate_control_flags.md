@@ -4,7 +4,7 @@ tech.root: mf
 title: D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAGS
 ms.date: 06/15/2021
 targetos: Windows
-description: Specifies flags for a 3D12_VIDEO_ENCODER_RATE_CONTROL structure. 
+description: Specifies flags for a D3D12_VIDEO_ENCODER_RATE_CONTROL structure.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -85,7 +85,7 @@ Support for adjustable initial QP in rate control.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_MAX_FRAME_SIZE_AVAILABLE
 
-Ssupport for setting a maximum cap in the bitrate algorithm per each encoded frame.
+Support for setting a maximum cap in the bitrate algorithm per each encoded frame.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SEQUENCE_GOP_RECONFIGURATION_AVAILABLE
 
