@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by the update.
+Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by this update.
 
 This property is read-only.
 
