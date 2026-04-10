@@ -57,6 +57,12 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>IInstallationBehavior**</b>
+
+A pointer that, upon success, receives a pointer to an [IInstallationBehavior](nn-wuapi-iinstallationbehavior.md) containing the uninstallation options of the update.
+
 ## -returns
 
 Returns S_OK if successful. Otherwise, returns a COM or Windows error code.

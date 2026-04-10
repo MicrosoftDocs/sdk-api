@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>DeploymentAction*</b>
+
+A pointer to a variable of type <a href="/windows/win32/api/wuapi/ne-wuapi-deploymentaction">DeploymentAction</a> that receives the action for which the update is deployed.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

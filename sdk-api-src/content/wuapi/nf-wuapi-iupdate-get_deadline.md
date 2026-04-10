@@ -57,6 +57,16 @@ This property is read-only.
 
 ## -parameters
 
+### -param retval [out, retval]
+
+Type: <b>VARIANT*</b>
+
+A pointer to a variable of type <a href="/windows/win32/api/oaidl/ns-oaidl-variant">VARIANT</a>. If the update has a deadline, it receives a value of type <b>VT_DATE</b> containing a <b>DATE</b> value specifying the deadline. If the update does not have a deadline, it receives a value of type <b>VT_EMPTY</b>.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 In COM, if the update has a deadline, the return value is of type VT_DATE and contains a DATE value that specifies the deadline. Otherwise, the return value is of type VT_EMPTY.

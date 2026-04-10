@@ -58,6 +58,16 @@ This property is read/write.
 
 ## -parameters
 
+### -param retval [in]
+
+Type: <b>VARIANT_BOOL</b>
+
+<b>VARIANT_TRUE</b> if the update is to be hidden, <b>VARIANT_FALSE</b> if not.
+
+## -returns
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 ## -remarks
 
 An attempt to mark a mandatory update as hidden causes an error.
