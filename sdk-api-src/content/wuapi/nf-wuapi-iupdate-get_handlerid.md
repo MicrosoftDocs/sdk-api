@@ -48,7 +48,6 @@ api_name:
 
 # IUpdate::get_HandlerID
 
-
 ## -description
 
 Gets the install handler of the update.
@@ -71,23 +70,11 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 The valid values for the <b>HandlerID</b> property include the following:
 
-<ul>
-<li>The Command Line Installation Handlerhttp://schemas.microsoft.com/msus/2002/12/UpdateHandlers/CommandLineInstallation
-
-</li>
-<li>The Inf Based Installation Handlerhttp://schemas.microsoft.com/msus/2002/12/UpdateHandlers/InfBasedInstallation
-
-</li>
-<li>The <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a> Installation Handlerhttp://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsInstaller
-
-</li>
-<li>The Package Installer for Microsoft Windows Operating Systems and Windows Components (update.exe) Installation Handlerhttp://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsPatch
-
-</li>
-<li>The Component Based Servicing (CBS) Handlerhttp://schemas.microsoft.com/msus/2002/12/UpdateHandlers/Cbs
-
-</li>
-</ul>
+* The Command Line Installation Handler: <code>http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/CommandLineInstallation</code>
+* The Inf Based Installation Handler: <code>http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/InfBasedInstallation</code>
+* The <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a> Installation Handler: <code>http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsInstaller</code>
+* The Package Installer for Microsoft Windows Operating Systems and Windows Components (update.exe) Installation Handler: <code>http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/WindowsPatch</code>
+* The Component Based Servicing (CBS) Handler: <code>http://schemas.microsoft.com/msus/2002/12/UpdateHandlers/Cbs</code>
 
 ## -see-also
 
