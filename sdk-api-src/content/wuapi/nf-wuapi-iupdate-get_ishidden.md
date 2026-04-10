@@ -74,4 +74,6 @@ An attempt to mark a mandatory update as hidden causes an error.
 
 ## -see-also
 
+[IsHidden setter](nf-wuapi-iupdate-put_ishidden.md)
+
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
