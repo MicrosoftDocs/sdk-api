@@ -229,9 +229,16 @@ Checks support for motion search. The associated data structure is [D3D12_FEATUR
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
 
-Extended encoder support query including QPMap, dirty regions, and motion search. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
+Retrieves the feature support details on the requested configuration, including frame analysis support, QPMap, dirty regions, and motion search. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE1
+
+Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. Extends D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE by using [D3D12_VIDEO_ENCODER_HEAP_DESC1](ns-d3d12video-d3d12_video_encoder_heap_desc1.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size1.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS
+
+Queries driver support for lower resolution two pass frame analysis at a given downscale factor and encode configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS](ns-d3d12video-d3d12_feature_data_video_encoder_rate_control_frame_analysis.md).
 
 ## -remarks
 
 ## -see-also
-
