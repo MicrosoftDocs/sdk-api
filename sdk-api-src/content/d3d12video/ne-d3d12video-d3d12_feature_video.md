@@ -215,7 +215,18 @@ Retrieves the feature support details on the requested configuration. The associ
 
 Retrieves the requirements for alignment for resource access, including extended metadata output requirements. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1](ns-d3d12video-d3d12_feature_data_video_encoder_resource_requirements1.md).
 
+### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE1
+
+Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. Extends D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE by using [D3D12_VIDEO_ENCODER_HEAP_DESC1](ns-d3d12video-d3d12_video_encoder_heap_desc1.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size1.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
+
+Retrieves the feature support details on the requested configuration, including frame analysis support. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS
+
+Queries driver support for lower resolution two pass frame analysis at a given downscale factor and encode configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS](ns-d3d12video-d3d12_feature_data_video_encoder_rate_control_frame_analysis.md).
+
 ## -remarks
 
 ## -see-also
-
