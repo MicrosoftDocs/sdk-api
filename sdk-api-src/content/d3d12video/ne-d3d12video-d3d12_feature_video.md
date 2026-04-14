@@ -93,7 +93,11 @@ Indicates if the video engine is IO coherent with the CPU.
 
 ### -field D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM:18
 
-Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_decode_histogram.md">D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM</a>.
+Retrieves the supported components, bin count, and counter bit depth for the a decode histogram with the specified decode profile, resolution, and format. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM](ns-d3d12video-d3d12_feature_data_video_decode_histogram.md).
+
+### -field D3D12_FEATURE_VIDEO_FEATURE_AREA_SUPPORT:19
+
+Checks support for video feature areas. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_FEATURE_AREA_SUPPORT](ns-d3d12video-d3d12_feature_data_video_feature_area_support.md).
 
 ### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR:20
 
@@ -127,97 +131,109 @@ Queries for command-defined support information. The associated data structure i
 
 Checks the allocation size of a video extension command. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SIZE](ns-d3d12video-d3d12_feature_data_video_extension_command_size.md).
 
-### -field D3D12_FEATURE_VIDEO_FEATURE_AREA_SUPPORT : 19
-
-Checks support for video feature areas. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_FEATURE_AREA_SUPPORT](ns-d3d12video-d3d12_feature_data_video_feature_area_support.md).
-
-### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES : 30
-
-Checks support for motion estimation with protected resources. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES](ns-d3d12video-d3d12_feature_data_video_motion_estimator_protected_resources.md).
-
-### -field D3D12_FEATURE_VIDEO_DECODE_PROTECTED_RESOURCES : 28
+### -field D3D12_FEATURE_VIDEO_DECODE_PROTECTED_RESOURCES:28
 
 Checks support for decode with protected resources. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_DECODE_PROTECTED_RESOURCES](ns-d3d12video-d3d12_feature_data_video_decode_protected_resources.md).
 
-### -field D3D12_FEATURE_VIDEO_PROCESS_PROTECTED_RESOURCES : 29
+### -field D3D12_FEATURE_VIDEO_PROCESS_PROTECTED_RESOURCES:29
 
 Checks support for video processing with protected resources. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_PROCESS_PROTECTED_RESOURCES](ns-d3d12video-d3d12_feature_data_video_process_protected_resources.md).
 
-### -field D3D12_FEATURE_VIDEO_DECODER_HEAP_SIZE1 : 31
+### -field D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES:30
+
+Checks support for motion estimation with protected resources. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES](ns-d3d12video-d3d12_feature_data_video_motion_estimator_protected_resources.md).
+
+### -field D3D12_FEATURE_VIDEO_DECODER_HEAP_SIZE1:31
 
 Checks the allocation size of a video decoder heap. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_decoder_heap_size1.md).
 
-### -field D3D12_FEATURE_VIDEO_PROCESSOR_SIZE1 : 32
+### -field D3D12_FEATURE_VIDEO_PROCESSOR_SIZE1:32
 
-Checks the allocation size of a video processor. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE1](ns-d3d12video-d3d12_feature_data_video_processor_size1.md).
+Checks the allocation size of a video processor heap. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE1](ns-d3d12video-d3d12_feature_data_video_processor_size1.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC : 33
+### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC:33
 
 Checks support for a given codec. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_CODEC](ns-d3d12video-d3d12_feature_data_video_encoder_codec.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_PROFILE_LEVEL : 34
+### -field D3D12_FEATURE_VIDEO_ENCODER_PROFILE_LEVEL:34
 
 Checks support for a given profile and returns the supported levels range for that profile. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_PROFILE_LEVEL](ns-d3d12video-d3d12_feature_data_video_encoder_profile_level.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_OUTPUT_RESOLUTION_RATIOS_COUNT : 35
+### -field D3D12_FEATURE_VIDEO_ENCODER_OUTPUT_RESOLUTION_RATIOS_COUNT:35
 
 Checks support for the number of resolution ratios available. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_OUTPUT_RESOLUTION_RATIOS_COUNT](ns-d3d12video-d3d12_feature_data_video_encoder_output_resolution_ratios_count.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_OUTPUT_RESOLUTION : 36
+### -field D3D12_FEATURE_VIDEO_ENCODER_OUTPUT_RESOLUTION:36
 
 Checks support for the rules that resolutions must meet. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_OUTPUT_RESOLUTION](ns-d3d12video-d3d12_feature_data_video_encoder_output_resolution.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_INPUT_FORMAT : 37
+### -field D3D12_FEATURE_VIDEO_ENCODER_INPUT_FORMAT:37
 
 Checks support for a given input format. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_INPUT_FORMAT](ns-d3d12video-d3d12_feature_data_video_encoder_input_format.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_MODE : 38
+### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_MODE:38
 
 Checks support for a given rate control mode. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RATE_CONTROL_MODE](ns-d3d12video-d3d12_feature_data_video_encoder_rate_control_mode.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_INTRA_REFRESH_MODE : 39
+### -field D3D12_FEATURE_VIDEO_ENCODER_INTRA_REFRESH_MODE:39
 
 Checks support for a given intra refresh mode. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_INTRA_REFRESH_MODE](ns-d3d12video-d3d12_feature_data_video_encoder_intra_refresh_mode.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_MODE : 40
+### -field D3D12_FEATURE_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_MODE:40
 
 Checks support for a given subregion layout mode. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_MODE](ns-d3d12video-d3d12_feature_data_video_encoder_frame_subregion_layout_mode.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE : 41
+### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE:41
 
 Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT : 42
+### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT:42
 
-Retrieves a set of codec specific configuration limits. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_codec_configuration_support.md).
+Retrieves a set of codec-specific configuration limits. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_codec_configuration_support.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT : 43
+### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT:43
 
 Retrieves the feature support details on the requested configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_support.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT : 44
+### -field D3D12_FEATURE_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT:44
 
-Retrieves the codec specific capabilities related to the reference picture management limitations. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_codec_picture_control_support.md).
+Retrieves the codec-specific capabilities related to reference picture management limitations. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_CODEC_PICTURE_CONTROL_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_codec_picture_control_support.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_RESOURCE_REQUIREMENTS : 45
+### -field D3D12_FEATURE_VIDEO_ENCODER_RESOURCE_REQUIREMENTS:45
 
 Retrieves the requirements for alignment for resource access. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS](ns-d3d12video-d3d12_feature_data_video_encoder_resource_requirements.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_CONFIG : 46
+### -field D3D12_FEATURE_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_CONFIG:46
 
-Checks support for a given frame subregion layout configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_CONFIG](ns-d3d12video-d3d12_feature_data_video_encoder_frame_subregion_layout_config.md).
+Retrieves configuration support for frame subregion layouts. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_FRAME_SUBREGION_LAYOUT_CONFIG](ns-d3d12video-d3d12_feature_data_video_encoder_frame_subregion_layout_config.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1 : 47
+### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1:47
 
-Retrieves the feature support details on the requested configuration. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT1](ns-d3d12video-d3d12_feature_data_video_encoder_support1.md).
+Retrieves the feature support details on the requested configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT1](ns-d3d12video-d3d12_feature_data_video_encoder_support1.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT
+
+Checks support for [ID3D12VideoEncodeCommandList4::ResolveInputParamLayout](nf-d3d12video-id3d12videoencodecommandlist4-resolveinputparamlayout.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT](ns-d3d12video-d3d12_feature_data_video_encoder_resolve_input_param_layout.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_QPMAP_INPUT
+
+Checks support for QPMap input. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_QPMAP_INPUT](ns-d3d12video-d3d12_feature_data_video_encoder_qpmap_input.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_DIRTY_REGIONS
+
+Checks support for dirty regions. The associated data structure is [D3D12_FEATURE_DATA_ENCODER_DIRTY_REGIONS](ns-d3d12video-d3d12_feature_data_encoder_dirty_regions.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_MOTION_SEARCH
+
+Checks support for motion search. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_MOTION_SEARCH](ns-d3d12video-d3d12_feature_data_video_encoder_motion_search.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
+
+Retrieves the feature support details on the requested configuration, including frame analysis support, QPMap, dirty regions, and motion search. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE1
 
 Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. Extends D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE by using [D3D12_VIDEO_ENCODER_HEAP_DESC1](ns-d3d12video-d3d12_video_encoder_heap_desc1.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size1.md).
-
-### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
-
-Retrieves the feature support details on the requested configuration, including frame analysis support. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS
 
@@ -226,4 +242,3 @@ Queries driver support for lower resolution two pass frame analysis at a given d
 ## -remarks
 
 ## -see-also
-
