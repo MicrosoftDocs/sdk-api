@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to the metadata tokens for the implementater-implementee relationship between two types.
+Gets a pointer to the metadata tokens for the implementer-implementee relationship between two types.
 
 ## -parameters
 
