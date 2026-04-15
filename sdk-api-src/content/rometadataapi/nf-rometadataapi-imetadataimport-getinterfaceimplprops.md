@@ -72,7 +72,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-The <b>InterfaceImpl</b> token represents one of the n:1 relationships between an implementee and the implementer.
+The <b>InterfaceImpl</b> token represents a single mapping between an implementing type and an implemented interface, as stored in the <b>InterfaceImpl</b> table.
 
 ## -see-also
 
