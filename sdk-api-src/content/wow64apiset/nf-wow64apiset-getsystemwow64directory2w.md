@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
+req.lib: OneCore.lib
+req.dll: KernelBase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
