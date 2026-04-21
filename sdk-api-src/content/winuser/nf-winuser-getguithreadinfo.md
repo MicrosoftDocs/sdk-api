@@ -68,7 +68,7 @@ Retrieves information about the active window or a specified GUI thread.
 
 Type: <b>DWORD</b>
 
-The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread.
+The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowthreadprocessid">GetWindowThreadProcessId</a> function. If this parameter is <b>0</b>, the function returns information for the foreground thread.
 
 ### -param pgui [in, out]
 
