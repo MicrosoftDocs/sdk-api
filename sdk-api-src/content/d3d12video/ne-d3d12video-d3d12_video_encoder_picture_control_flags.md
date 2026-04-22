@@ -48,6 +48,17 @@ The associated frame will be used as a reference frame in future encode commands
 
 Note that there might be limitations for some frame types to be marked as references. Check feature support before setting this value.
 
+### -field D3D12_VIDEO_ENCODER_PICTURE_CONTROL_FLAG_ENABLE_QUANTIZATION_MATRIX_INPUT
+
+Enable GPU quantization map input via [D3D12_VIDEO_ENCODER_QUANTIZATION_OPAQUE_MAP](ns-d3d12video-d3d12_video_encoder_quantization_opaque_map.md). Also requires D3D12_VIDEO_ENCODER_RATE_CONTROL_FLAG_ENABLE_DELTA_QP to be set.
+
+### -field D3D12_VIDEO_ENCODER_PICTURE_CONTROL_FLAG_ENABLE_DIRTY_REGIONS_INPUT
+
+Enable dirty regions input via [D3D12_VIDEO_ENCODER_DIRTY_REGIONS](ns-d3d12video-d3d12_video_encoder_dirty_regions.md). The associated ID3D12VideoEncoderHeap must have been created with D3D12_VIDEO_ENCODER_HEAP_FLAG_ALLOW_DIRTY_REGIONS.
+
+### -field D3D12_VIDEO_ENCODER_PICTURE_CONTROL_FLAG_ENABLE_MOTION_VECTORS_INPUT
+
+Enable motion vectors input via [D3D12_VIDEO_ENCODER_FRAME_MOTION_VECTORS](ns-d3d12video-d3d12_video_encoder_frame_motion_vectors.md).
 
 ## -remarks
 

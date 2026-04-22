@@ -215,13 +215,29 @@ Retrieves the feature support details on the requested configuration. The associ
 
 Retrieves the requirements for alignment for resource access, including extended metadata output requirements. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1](ns-d3d12video-d3d12_feature_data_video_encoder_resource_requirements1.md).
 
-### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE1
+### -field D3D12_FEATURE_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT
 
-Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. Extends D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE by using [D3D12_VIDEO_ENCODER_HEAP_DESC1](ns-d3d12video-d3d12_video_encoder_heap_desc1.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size1.md).
+Checks support for [ID3D12VideoEncodeCommandList4::ResolveInputParamLayout](nf-d3d12video-id3d12videoencodecommandlist4-resolveinputparamlayout.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT](ns-d3d12video-d3d12_feature_data_video_encoder_resolve_input_param_layout.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_QPMAP_INPUT
+
+Checks support for QPMap input. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_QPMAP_INPUT](ns-d3d12video-d3d12_feature_data_video_encoder_qpmap_input.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_DIRTY_REGIONS
+
+Checks support for dirty regions. The associated data structure is [D3D12_FEATURE_DATA_ENCODER_DIRTY_REGIONS](ns-d3d12video-d3d12_feature_data_encoder_dirty_regions.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_MOTION_SEARCH
+
+Checks support for motion search. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_MOTION_SEARCH](ns-d3d12video-d3d12_feature_data_video_encoder_motion_search.md).
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_SUPPORT2
 
-Retrieves the feature support details on the requested configuration, including frame analysis support. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
+Retrieves the feature support details on the requested configuration, including frame analysis support, QPMap, dirty regions, and motion search. Extends D3D12_FEATURE_VIDEO_ENCODER_SUPPORT1. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT2](ns-d3d12video-d3d12_feature_data_video_encoder_support2.md).
+
+### -field D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE1
+
+Retrieves the memory requirements of a video encoder heap created with the given encoder heap properties. Extends D3D12_FEATURE_VIDEO_ENCODER_HEAP_SIZE by using [D3D12_VIDEO_ENCODER_HEAP_DESC1](ns-d3d12video-d3d12_video_encoder_heap_desc1.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_HEAP_SIZE1](ns-d3d12video-d3d12_feature_data_video_encoder_heap_size1.md).
 
 ### -field D3D12_FEATURE_VIDEO_ENCODER_RATE_CONTROL_FRAME_ANALYSIS
 
