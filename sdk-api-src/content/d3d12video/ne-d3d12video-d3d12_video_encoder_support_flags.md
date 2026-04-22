@@ -97,16 +97,43 @@ Support for the caller to limit the precision used for motion search on frame en
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT : 0x2000
 
-Support for rate control extension 1 features.
+Support for rate control extension 1 configurations.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE : 0x4000
 
-Support for quality vs speed configuration in rate control.
+Support for quality versus speed trade-off configuration in rate control.
 
 ### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_READABLE_RECONSTRUCTED_PICTURE_LAYOUT_AVAILABLE : 0x8000
 
 Support for readable reconstructed picture layouts.
 
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_QP_MAP_METADATA_AVAILABLE
+
+Support for per-block QP map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_QP_MAP](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_SATD_MAP_METADATA_AVAILABLE
+
+Support for per-block SATD map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_SATD_MAP](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_PER_BLOCK_RC_BIT_ALLOCATION_MAP_METADATA_AVAILABLE
+
+Support for per-block rate control bit allocation map metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_RC_BIT_ALLOCATION_MAP](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_ARRAY_OF_BUFFERS_AVAILABLE
+
+Support for subregion compressed bitstream notification using an array of separate output buffers, one per subregion.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGION_NOTIFICATION_SINGLE_BUFFER_AVAILABLE
+
+Support for subregion compressed bitstream notification using a single contiguous output buffer for all subregions.
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_FRAME_PSNR_METADATA_AVAILABLE
+
+Support for frame-level PSNR metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_FRAME_PSNR](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
+
+### -field D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SUBREGIONS_PSNR_METADATA_AVAILABLE
+
+Support for subregion-level PSNR metadata output. When supported, the application can enable [D3D12_VIDEO_ENCODER_OPTIONAL_METADATA_ENABLE_FLAG_SUBREGIONS_PSNR](ne-d3d12video-d3d12_video_encoder_optional_metadata_enable_flags.md).
 ## -remarks
 
 D3D12_VIDEO_ENCODER_SUPPORT_FLAG_GENERAL_SUPPORT_OK indicates that whether there is general support. The rest of the flags can be combined to convey further information.

@@ -211,6 +211,10 @@ Retrieves configuration support for frame subregion layouts. The associated data
 
 Retrieves the feature support details on the requested configuration. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT1](ns-d3d12video-d3d12_feature_data_video_encoder_support1.md).
 
+### -field D3D12_FEATURE_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1:48
+
+Retrieves the requirements for alignment for resource access, including extended metadata output requirements. The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOURCE_REQUIREMENTS1](ns-d3d12video-d3d12_feature_data_video_encoder_resource_requirements1.md).
+
 ### -field D3D12_FEATURE_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT
 
 Checks support for [ID3D12VideoEncodeCommandList4::ResolveInputParamLayout](nf-d3d12video-id3d12videoencodecommandlist4-resolveinputparamlayout.md). The associated data structure is [D3D12_FEATURE_DATA_VIDEO_ENCODER_RESOLVE_INPUT_PARAM_LAYOUT](ns-d3d12video-d3d12_feature_data_video_encoder_resolve_input_param_layout.md).
