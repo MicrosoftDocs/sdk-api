@@ -58,7 +58,7 @@ Locates and changes the load configuration data of an image.
 
 A pointer to a 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
-<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <b>LoadImage</b>.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>.
 
 ### -param ImageConfigInformation [in]
 

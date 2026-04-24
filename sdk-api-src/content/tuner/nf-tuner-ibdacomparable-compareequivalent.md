@@ -52,7 +52,7 @@ api_name:
 
 \[The feature associated with this page, [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
-<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div><div> </div>The <b>CompareEquivalent</b> method compares two objects to determine whether they contain equivalent tuning information.
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div><div> </div>The <b>CompareEquivalent</b> method compares two objects to determine whether they contain equivalent tuning information.
 
 ## -parameters
 

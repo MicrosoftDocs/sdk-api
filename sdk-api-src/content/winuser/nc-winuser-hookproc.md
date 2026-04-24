@@ -68,8 +68,8 @@ Specifies whether the message is sent by the current process. If the message is 
 
 Type: <b>LPARAM</b>
 
-A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a> structure that contains details about the message. 
-
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-cwpstruct">CWPSTRUCT</a> or <a href="/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a> structure that contains details about the message, depending
+on which hook type was specified when calling the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function.
 
 #### - nCode [in]
 
@@ -87,8 +87,8 @@ If <i>nCode</i> is greater than or equal to zero, it is highly recommended that 
 
 ## -remarks
 
-An application installs the hook procedure by specifying the <a href="/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hook type and a pointer to the hook procedure in a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function.
+An application installs the hook procedure by specifying the <a href="/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROC</a> or <a href="/windows/desktop/winmsg/about-hooks">WH_CALLWNDPROCRET</a> hook type and a pointer to the hook procedure in a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function.
 
 ## -see-also
 
-[CWPRETSTRUCT structure](ns-winuser-cwpretstruct.md), [CallNextHookEx function](nf-winuser-callnexthookex.md), [CallWindowProcW function](nf-winuser-callwindowprocw.md), [CallWindowProcA function](nf-winuser-callwindowproca.md), [SendMessage](/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](/windows/desktop/winmsg/hooks)
+[CWPSTRUCT structure](ns-winuser-cwpstruct.md), [CWPRETSTRUCT structure](ns-winuser-cwpretstruct.md), [CallNextHookEx function](nf-winuser-callnexthookex.md), [CallWindowProcW function](nf-winuser-callwindowprocw.md), [CallWindowProcA function](nf-winuser-callwindowproca.md), [SendMessage](/windows/desktop/api/winuser/nf-winuser-sendmessage), [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa), [Hooks](/windows/desktop/winmsg/hooks)

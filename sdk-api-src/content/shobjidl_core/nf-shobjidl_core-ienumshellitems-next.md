@@ -90,7 +90,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-if at least <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface was retrieved.
+if at least one <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface was retrieved.
 
 </td>
 </tr>

@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: OneCoreUAP.lib
-req.dll: Kernel32.dll
+req.dll: KernelBase.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -41,7 +41,7 @@ api_type:
  - DllExport
 api_location:
  - api-ms-win-security-base-l1-2-2.dll
- - Kernel32.dll
+ - KernelBase.dll
 api_name:
  - DeriveCapabilitySidsFromName
 ---

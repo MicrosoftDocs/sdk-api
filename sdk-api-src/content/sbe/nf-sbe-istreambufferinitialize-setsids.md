@@ -11,7 +11,7 @@ ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSI
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
+req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -116,8 +116,8 @@ If you call this method, do so before locking the sink filter or loading a file 
 
 <ul>
 <li>
-<div class="alert"><b>Important</b>  Setting less-privileged SIDs can create a security issue.</div>
-<div> </div>
+<div class="alert"><b>Important</b>  Setting less-privileged SIDs can create a security issue.</div>
+<div> </div>
 </li>
 </ul>
 Note that this method does not apply to content recording files, which are protected by the discretionary access-control lists (DACLs) of the directory structure.

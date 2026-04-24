@@ -112,9 +112,9 @@ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.
 
 ## -returns
 
-If the function succeeds, the function returns  <b>TRUE</b>.
+If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 

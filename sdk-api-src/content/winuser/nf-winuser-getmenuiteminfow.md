@@ -77,7 +77,7 @@ The identifier or position of the menu item to get information about. The meanin
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
+The meaning of <i>Item</i>. If this parameter is <b>FALSE</b>, <i>Item</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">Accessing Menu Items Programmatically</a> for more information.
 
 ### -param lpmii [in, out]
 

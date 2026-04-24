@@ -50,18 +50,12 @@ api_name:
 ## -syntax
 
 ```cpp
-LRESULT Button_SetStyle(
+void Button_SetStyle(
    HWND  hwndCtl,
    DWORD style,
    BOOL  fRedraw
 );
 ```
-
-## -returns
-
-Type: **[LRESULT](/windows/desktop/winprog/windows-data-types)**
-
-The return value is always zero.
 
 
 ## -description

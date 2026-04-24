@@ -195,7 +195,7 @@ Uses the default color format.
 </dl>
 </td>
 <td width="60%">
-Uses the width or height specified by the system metric values for cursors or icons, if the <i>cxDesired</i> or <i>cyDesired</i> values are set to zero. If this flag is not specified and <i>cxDesired</i> and <i>cyDesired</i> are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image.
+Uses the width or height specified by the system metric values for cursors or icons, if the <i>cx</i> or <i>cy</i> values are set to zero. If this flag is not specified and <i>cx</i> and <i>cy</i> are set to zero, the function uses the actual resource size. If the resource contains multiple images, the function uses the size of the first image.
 
 </td>
 </tr>

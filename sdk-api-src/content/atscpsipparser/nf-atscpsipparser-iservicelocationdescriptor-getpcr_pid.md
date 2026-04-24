@@ -11,7 +11,7 @@ ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_P
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

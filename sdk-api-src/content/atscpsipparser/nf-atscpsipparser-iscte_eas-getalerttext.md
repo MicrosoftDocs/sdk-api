@@ -11,7 +11,7 @@ ms.keywords: GetAlertText, GetAlertText method [Microsoft TV Technologies], GetA
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -102,8 +102,8 @@ The specified language is not present.
 
 The returned string is taken from the alert_text field, as defined by ANSI-J-STD-042-A.
 
-<div class="alert"><b>Note</b>  An earlier version of the documentation gave an incorrect signature for this method.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  An earlier version of the documentation gave an incorrect signature for this method.</div>
+<div> </div>
 
 ## -see-also
 

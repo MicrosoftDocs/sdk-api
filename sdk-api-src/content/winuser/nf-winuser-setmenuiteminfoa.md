@@ -77,7 +77,7 @@ The identifier or position of the menu item to change. The meaning of this param
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
+The meaning of <i>Item</i>. If this parameter is <b>FALSE</b>, <i>Item</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information. (_Note: this parameter is misspelled in the header; it should be used as shown here._)
 
 ### -param lpmii [in]
 

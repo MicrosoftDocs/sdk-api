@@ -124,7 +124,7 @@ The white point, in xy coordinates, of the display attached to this output. This
 
 Type: <b>FLOAT</b>
 
-The minimum luminance, in nits, that the display attached to this output is capable of rendering. Content should not exceed this minimum value for optimal rendering. This value will
+The minimum luminance, in nits, that the display attached to this output is capable of rendering. Content should not be lower than this value for optimal rendering. This value will
 	  usually come from the EDID of the corresponding display or sometimes from an override.
 
 ### -field MaxLuminance
@@ -132,7 +132,7 @@ The minimum luminance, in nits, that the display attached to this output is capa
 Type: <b>FLOAT</b>
 
 The maximum luminance, in nits, that the display attached to this output is capable of rendering; this value is likely only valid for a small area of the panel. Content should not exceed
-	  this minimum value for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an override.
+	  this value for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an override.
 
 ### -field MaxFullFrameLuminance
 

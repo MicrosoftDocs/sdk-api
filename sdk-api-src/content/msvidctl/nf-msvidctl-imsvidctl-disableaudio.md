@@ -11,7 +11,7 @@ ms.keywords: DisableAudio, DisableAudio method [Microsoft TV Technologies], Disa
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

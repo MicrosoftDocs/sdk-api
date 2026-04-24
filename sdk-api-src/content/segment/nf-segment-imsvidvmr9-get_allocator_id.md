@@ -63,7 +63,7 @@ The <b>get_Allocator_ID</b> method retrieves the identifier of the application's
 
 ### -param ID [out]
 
-Receives the identifier. If the application did not set an allocator-presenter, the value is –1.
+Receives the identifier. If the application did not set an allocator-presenter, the value is â€“1.
 
 ## -returns
 

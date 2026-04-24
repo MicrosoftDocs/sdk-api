@@ -67,7 +67,7 @@ The name of the executable file. You can use a partial path.
 
 ### -param ImageFilePath [out]
 
-The fully qualified path of the executable file. This buffer must be at least MAX_PATH characters.
+The fully qualified path of the executable file. This buffer must be at least MAX_PATH+1 characters.
 
 ### -param Callback [in]
 

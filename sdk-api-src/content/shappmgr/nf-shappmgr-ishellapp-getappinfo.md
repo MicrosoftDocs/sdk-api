@@ -45,9 +45,6 @@ api_name:
  - IShellApp.GetAppInfo
 ---
 
-# IShellApp::GetAppInfo
-
-
 ## -description
 
 Gets general information about an application.
@@ -56,30 +53,28 @@ Gets general information about an application.
 
 ### -param pai [out]
 
-Type: <b><a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>*</b>
+Type: **[APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata)***
 
-A pointer to an <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure that returns the application information.
+A pointer to an [APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata) structure that returns the application information.
 
 ## -returns
 
-Type: <b>HRESULT</b>
+Type: **HRESULT**
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  Add/Remove Programs in the Control Panel sets the cbSize and dwMask members of the <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure.</div>
+<div class="alert">**Note**  Add/Remove Programs in the Control Panel sets the cbSize and dwMask members of the [APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata) structure.</div>
 <div> </div>
-  Your implementation should validate cbSize by comparing it with the size of <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>.  If cbSize does not equal the size of <b>APPINFODATA</b>, this method should return a COM error value like E_FAIL.
 
-Add/Remove Programs in the Control Panel will set the dwMask member of the <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure to indicate that you should return AIM_DISPLAYNAME and AIM_SUPPORTURL. For each value that you return in APPINFODATA, you must set the corresponding bit in dwMask.  All other bits should be cleared.
-			
+Your implementation should validate cbSize by comparing it with the size of [APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata). If cbSize does not equal the size of **APPINFODATA**, this method should return a COM error value like E_FAIL.
 
+Add/Remove Programs in the Control Panel will set the dwMask member of the [APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata) structure to indicate that you should return AIM_DISPLAYNAME and AIM_SUPPORTURL. For each value that you return in APPINFODATA, you must set the corresponding bit in dwMask. All other bits should be cleared.
 
 #### Examples
 
-Here is a sample of how to use the dwMask bits::
-
+Here is a sample of how to use the dwMask bits:
 
 ```cpp
 HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
@@ -99,22 +94,12 @@ HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
     // bits in pData->dwMask for each item obtained.
 
     return get_app_info_data(pData, dwMask);
-
 }
 ```
 
 ## -see-also
 
-<a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>
-
-
-
-<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
-
-
-
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
-
-
-
-<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
+* [APPINFODATA](/windows/win32/api/shappmgr/ns-shappmgr-appinfodata)
+* [IAppPublisher](/windows/win32/api/shappmgr/nn-shappmgr-iapppublisher)
+* [IPublishedApp::GetPublishedAppInfo](/windows/win32/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo)
+* [IShellApp](/windows/win32/api/shappmgr/nn-shappmgr-ishellapp)
