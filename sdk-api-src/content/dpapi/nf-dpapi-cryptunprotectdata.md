@@ -74,6 +74,9 @@ This parameter is reserved for future use and must be set to <b>NULL</b>.
 
 A pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-cryptprotect_promptstruct">CRYPTPROTECT_PROMPTSTRUCT</a> structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to <b>NULL</b>.
 
+> [!IMPORTANT]
+> The prompt-based flow controlled by this parameter is deprecated and will be removed in **February 2027**. Pass **NULL**, or pass a struct with `dwPromptFlags` set to 0, to use the non-interactive path which is unaffected. See [CRYPTPROTECT_PROMPTSTRUCT](/windows/win32/api/dpapi/ns-dpapi-cryptprotect_promptstruct) for migration guidance.
+
 ### -param dwFlags [in]
 
 A <b>DWORD</b> value that specifies options for this function. This parameter can be zero, in which case no option is set, or the following flag.

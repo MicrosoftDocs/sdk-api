@@ -52,6 +52,13 @@ api_name:
 
 # CRYPTPROTECT_PROMPTSTRUCT structure
 
+> [!IMPORTANT]
+> **Deprecated — removal date: February 2027.** The interactive prompt-based encryption and decryption flow provided by this structure (`CRYPTPROTECT_PROMPT_ON_PROTECT` and `CRYPTPROTECT_PROMPT_ON_UNPROTECT`) will be removed in February 2027. Applications that rely on prompt-based flows must migrate before that date; after removal, decryption attempts that depend on those flows will fail and the data will no longer be recoverable through them.
+>
+> **What is NOT affected:** Non-interactive use of [CryptProtectData](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [CryptUnprotectData](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) (passing `NULL` for `pPromptStruct`, or supplying a struct with `dwPromptFlags` set to 0) is unaffected.
+>
+> **Migrate to:** [DPAPI-NG (NCryptProtectSecret)](/windows/win32/seccng/cng-dpapi) for Win32 apps, or [DataProtectionProvider](/uwp/api/Windows.Security.Cryptography.DataProtection.DataProtectionProvider) for UWP and WinUI apps.
+
 
 ## -description
 

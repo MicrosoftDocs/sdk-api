@@ -73,6 +73,9 @@ Reserved for future use and must be set to **NULL**.
 
 A pointer to a [CRYPTPROTECT_PROMPTSTRUCT](nf-dpapi-cryptprotect_promptstruct.md) structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to **NULL** in both the encryption and decryption phases.
 
+> [!IMPORTANT]
+> The prompt-based flow controlled by this parameter is deprecated and will be removed in **February 2027**. Pass **NULL**, or pass a struct with `dwPromptFlags` set to 0, to use the non-interactive path which is unaffected. See [CRYPTPROTECT_PROMPTSTRUCT](/windows/win32/api/dpapi/ns-dpapi-cryptprotect_promptstruct) for migration guidance.
+
 ### -param dwFlags [in]
 
 This parameter can be one of the following flags. If no flags are required, this parameter can be set to `0`.
