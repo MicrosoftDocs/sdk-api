@@ -67,6 +67,11 @@ If the function succeeds, then the return value is 0. Otherwise, a value of **SO
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is deprecated. **WSASetRecvIPEcn** does not properly support dual-stack sockets. Use the [**IP_ECN**](/windows/win32/winsock/ipproto-ip-socket-options) and [**IPV6_ECN**](/windows/win32/winsock/ipproto-ipv6-socket-options) socket options directly with [setsockopt](../winsock/nf-winsock-setsockopt.md) instead.
+
+On a dual-stack socket, applications need to set both the **IP_ECN** (level **IPPROTO_IP**) and **IPV6_ECN** (level **IPPROTO_IPV6**) socket options separately, unless the socket is currently bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), in which case only the **IP_ECN** option applies.
+
 ## -see-also
 
 * [Winsock explicit congestion notification (ECN)](/windows/win32/winsock/winsock-ecn)
