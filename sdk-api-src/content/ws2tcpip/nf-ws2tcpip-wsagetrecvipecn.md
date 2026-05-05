@@ -65,6 +65,11 @@ If the function succeeds, then the return value is 0. Otherwise, a value of **SO
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is deprecated. **WSAGetRecvIPEcn** does not properly support dual-stack sockets. Use the [**IP_ECN**](/windows/win32/winsock/ipproto-ip-socket-options) and [**IPV6_ECN**](/windows/win32/winsock/ipproto-ipv6-socket-options) socket options directly with [getsockopt](../winsock/nf-winsock-getsockopt.md) instead.
+
+On a dual-stack socket that is unbound or bound to a wildcard address, applications need to get both the **IP_ECN** (level **IPPROTO_IP**) and **IPV6_ECN** (level **IPPROTO_IPV6**) socket options separately. If the socket is bound to a specific IPv6 address, only the **IPV6_ECN** option should be get. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_ECN** option should be get.
+
 ## -see-also
 
 * [Winsock explicit congestion notification (ECN)](/windows/win32/winsock/winsock-ecn)
