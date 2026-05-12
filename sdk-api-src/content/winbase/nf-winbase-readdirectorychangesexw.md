@@ -11,8 +11,8 @@ ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NO
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
-req.target-min-winversvr: Windows Server 2019 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2019 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
