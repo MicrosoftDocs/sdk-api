@@ -54,7 +54,7 @@ api_name:
 
 Enumerates resource types within a binary module. Starting with Windows Vista, this is typically a <a href="/windows/desktop/Intl/mui-resource-management">language-neutral Portable Executable</a> (LN file), and the enumeration also includes resources from one of the corresponding language-specific resource files (.mui files)—if one exists—that contain localizable language resources. It is also possible to use <i>hModule</i> to specify a .mui file, in which case only that file is searched for resource types.
 
-Alternately, applications can call <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw">EnumResourceTypesEx</a>, which provides more precise control over which resource files to enumerate.
+Alternately, applications can call <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>, which provides more precise control over which resource files to enumerate.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>ENUMRESTYPEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a> function.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a> function.
 
 ### -param lParam [in]
 
@@ -84,7 +84,7 @@ An application-defined value passed to the callback function.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -115,7 +115,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a>
+<a href="/windows/desktop/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a>
 
 
 
@@ -127,7 +127,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw">EnumResourceTypesEx</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>
 
 
 
@@ -135,4 +135,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

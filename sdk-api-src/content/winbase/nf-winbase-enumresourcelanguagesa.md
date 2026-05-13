@@ -68,13 +68,13 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 ### -param lpType [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpName [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCSTR</b>
 
 The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
@@ -94,7 +94,7 @@ An application-defined value passed to the callback function. This parameter can
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -106,7 +106,7 @@ Starting with Windows Vista, the binary module is typically a <a href="/windows
 
 For each resource found, <b>EnumResourceLanguages</b> calls an application-defined callback function <i>lpEnumFunc</i>, passing the language identifier (see <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>) of the language for which a resource was found, as well as the various other parameters that were passed to <b>EnumResourceLanguages</b>.
 
-Alternately, applications can call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw">EnumResourceLanguagesEx</a>, which provides more precise control of what resources are enumerated.
+Alternately, applications can call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa">EnumResourceLanguagesEx</a>, which provides more precise control of what resources are enumerated.
 
 The <b>EnumResourceLanguages</b> function continues to enumerate resource languages until the callback function returns <b>FALSE</b> or all resource languages have been enumerated.
 
@@ -137,7 +137,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw">EnumResourceLanguagesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa">EnumResourceLanguagesEx</a>
 
 
 
@@ -153,4 +153,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

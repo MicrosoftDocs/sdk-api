@@ -45,8 +45,6 @@ dev_langs:
  - c++
 ---
 
-# EnumResourceNamesW function
-
 ## -description
 
 Enumerates resources of a specified type within a binary module. For Windows Vista and later, this is typically a [language-neutral Portable Executable](/windows/desktop/Intl/mui-resource-management) (LN file), and the enumeration will also include resources from the corresponding language-specific resource files (.mui files) that contain localizable language resources. It is also possible for *hModule* to specify an .mui file, in which case only that file is searched for resources.
@@ -63,9 +61,9 @@ If this parameter is **NULL**, that is equivalent to passing in a handle to the 
 
 ### -param lpType [in]
 
-Type: **LPCTSTR**
+Type: **LPCWSTR**
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](/windows/desktop/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](/windows/win32/menurc/resource-types). For more information, see the [Remarks](#remarks) section below.
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](/windows/desktop/api/winuser/nf-winuser-makeintresourcew)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](/windows/win32/menurc/resource-types). For more information, see the [Remarks](#remarks) section below.
 
 ### -param lpEnumFunc [in]
 
@@ -83,7 +81,7 @@ An application-defined value passed to the callback function. This parameter can
 
 Type: **BOOL**
 
-The return value is **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+The return value is **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 

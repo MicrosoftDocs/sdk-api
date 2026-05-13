@@ -74,7 +74,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>LPCSTR</b>
 
-The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://msdn.microsoft.com/8d27f79a-8165-4565-a975-f25b2344efdc">Resource Types</a>. For more information, see the Remarks section below.
+The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpEnumFunc [in]
 
@@ -144,7 +144,7 @@ The localization language used to filter the search in the MUI module. This para
 
 Type: <b>BOOL</b>
 
-The function <b>TRUE</b> if successful, or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The function <b>TRUE</b> if successful, or <b>FALSE</b> if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -167,7 +167,6 @@ If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves lik
 If <i>LangId</i> is nonzero, then only the .mui file corresponding to that Language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
 The enumeration never includes duplicates: if resources for a particular language are contained in both the LN file and in an .mui file, the name will only be enumerated once.
-
 
 ## Examples
 
@@ -202,4 +201,4 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

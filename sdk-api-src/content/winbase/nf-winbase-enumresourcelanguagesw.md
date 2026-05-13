@@ -68,15 +68,15 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 ### -param lpType [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
-The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
+The type of resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lpName [in]
 
-Type: <b>LPCTSTR</b>
+Type: <b>LPCWSTR</b>
 
-The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
+The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcew">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
 ### -param lpEnumFunc [in]
 
@@ -94,7 +94,7 @@ An application-defined value passed to the callback function. This parameter can
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -110,7 +110,7 @@ Alternately, applications can call <a href="/windows/win32/api/libloaderapi/nf-l
 
 The <b>EnumResourceLanguages</b> function continues to enumerate resource languages until the callback function returns <b>FALSE</b> or all resource languages have been enumerated.
 
-In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
+In Windows Vista and later, if  <i>hModule</i> specifies an LN file, then the resources enumerated can reside either in the LN file or in an .mui file associated with it.  If no .mui files are found, only resources from the LN file are returned.  Unlike <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesw">EnumResourceNames</a> and <a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesw">EnumResourceTypes</a>, this search will look at multiple .mui files. The enumeration begins with .mui files in the folders associated with <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesw">EnumUILanguages</a>. These are followed by any other .mui files whose paths conform to the scheme described at <a href="/windows/desktop/Intl/mui-resource-management">MUI Resource Management</a>. Finally, the file designated by <i>hModule</i> is also searched.
 
 The enumeration never includes duplicates: if a resource with the same name, type, and language is contained in both the LN file and in an .mui file, the resource will only be enumerated once.
 
@@ -141,11 +141,11 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesw">EnumResourceNames</a>
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcetypesw">EnumResourceTypes</a>
 
 
 
@@ -153,4 +153,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>
