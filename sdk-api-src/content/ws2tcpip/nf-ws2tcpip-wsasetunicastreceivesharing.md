@@ -59,7 +59,7 @@ A descriptor that identifies a datagram socket. The option must be set before th
 
 ### -param Enabled [in]
 
-Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
+Type: **[DWORD](/windows/win32/winprog/windows-data-types)**
 
 **TRUE** to opt in to shared unicast receive delivery; **FALSE** to opt out (default).
 

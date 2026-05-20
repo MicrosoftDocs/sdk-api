@@ -53,9 +53,9 @@ A descriptor that identifies a datagram socket.
 
 ### -param Enabled [out]
 
-Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)\***
+Type: **[DWORD](/windows/win32/winprog/windows-data-types)\***
 
-A pointer to a **BOOLEAN**. On success, set to **TRUE** if the socket is opted in to shared unicast delivery, or **FALSE** otherwise.
+A pointer to a **DWORD**. On success, set to **TRUE** if the socket is opted in to shared unicast delivery, or **FALSE** otherwise.
 
 ## -returns
 
