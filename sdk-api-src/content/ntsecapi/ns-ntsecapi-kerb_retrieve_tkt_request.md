@@ -289,6 +289,9 @@ Values greater than 127 are reserved for local values and may change without not
 </tr>
 </table>
 
+> [!NOTE]
+> This field adjusts the Kerberos preferred encryption type order however, this order is no longer honored by Windows Server 2025 and newer Kerberos Key Distribution Centers.
+
 ### -field CredentialsHandle
 
 An SSPI credentials handle used in place of a logon session identifier.
