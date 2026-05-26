@@ -1852,6 +1852,58 @@ Secure hashing algorithm KECCAK (SHAKE) that uses a 256 bit key.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="_szoid_mldsa44_ecdsa_p256_sha256"></a><a id="_szoid_mldsa44_ecdsa_p256_sha256"></a><a id="_szOID_MLDSA44_ECDSA_P256_SHA256"></a><dl>
+<dt><b> szOID_MLDSA44_ECDSA_P256_SHA256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.40"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 44 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-256 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szoid_mldsa54_ecdsa_p256_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P256_SHA512"></a><dl>
+<dt><b> szOID_MLDSA65_ECDSA_P256_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.45"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p256 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa65_ecdsa_p384_sha512"></a><a id="_szoid_mldsa65_ecdsa_p384_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P384_SHA512"></a><dl>
+<dt><b> szOID_MLDSA65_ECDSA_P384_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.46"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 65 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szoid_mldsa87_ecdsa_p384_sha512"></a><a id="_szoid_mldsa87_ecdsa_p384_sha512"></a><a id="_szOID_MLDSA87_ECDSA_P384_SHA512"></a><dl>
+<dt><b> szOID_MLDSA87_ECDSA_P384_SHA512</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.49"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (ML-DSA) parameter set 87 and Elliptic Curve Digital Signature Algorithm (ECDSA) p384 with SHA-512 Hash Algorithm.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="szOID_PKIX_NO_SIGNATURE"></a><a id="szoid_pkix_no_signature"></a><a id="SZOID_PKIX_NO_SIGNATURE"></a><dl>
 <dt><b>szOID_PKIX_NO_SIGNATURE</b></dt>
 <dt>"1.3.6.1.5.5.7.6.2"</dt>
@@ -1859,6 +1911,84 @@ Secure hashing algorithm KECCAK (SHAKE) that uses a 256 bit key.
 </td>
 <td width="60%">
 No signature.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_512"></a><a id="_szoid_nist_ml_kem_512"></a><a id="_SZOID_NIST_ML_KEM_512"></a><dl>
+<dt><b> szOID_NIST_ml_kem_512</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.1"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 512.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_768"></a><a id="_szoid_nist_ml_kem_768"></a><a id="_SZOID_NIST_ML_KEM_768"></a><dl>
+<dt><b> szOID_NIST_ml_kem_768</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.2"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 768.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_NIST_ml_kem_1024"></a><a id="_szoid_nist_ml_kem_1024"></a><a id="_SZOID_NIST_ML_KEM_1024"></a><dl>
+<dt><b> szOID_NIST_ml_kem_1024</b></dt>
+<dt>  "2.16.840.1.101.3.4.4.3"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) that uses NIST parameter set 1024.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem768_x25519_sha3_256"></a><a id="_szoid_mlkem768_x25519_sha3_256"></a><a id="_SZOID_MLKEM768_X25519_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM768_X25519_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.58"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Curve 25519 with SHA3 256-bit hash algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem768_ecdh_p256_sha3_256"></a><a id="_szoid_mlkem768_ecdh_p256_sha3_256"></a><a id="_SZOID_MLKEM768_ECDH_P256_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM768_ECDH_P256_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.59"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 768 and Elliptic Curve Diffie-Hellman P256 with SHA3 256-bit hash algorithm.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="_szOID_mlkem1024_ecdh_p384_sha3_256"></a><a id="_szoid_mlkem1024_ecdh_p384_sha3_256"></a><a id="_SZOID_MLKEM1024_ECDH_P384_SHA3_256"></a><dl>
+<dt><b> szOID_MLKEM1024_ECDH_P384_SHA3_256</b></dt>
+<dt>  "1.3.6.1.5.5.7.6.63"
+
+</dt>
+</dl>
+</td>
+<td width="60%">
+Composite algorithm combining Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) 1024 and Elliptic Curve Diffie-Hellman P384 with SHA3 256-bit hash algorithm.
 
 </td>
 </tr>
