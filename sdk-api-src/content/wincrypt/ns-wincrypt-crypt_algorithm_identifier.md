@@ -904,6 +904,17 @@ An OID that indicates that no hash algorithm is used.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="szOID_PREHASH"></a><a id="szoid_prehash"></a><a id="SZOID_PREHASH"></a><dl>
+<dt><b>szOID_PREHASH</b></dt>
+<dt>"1.3.6.1.4.1.311.73.2"</dt>
+</dl>
+</td>
+<td width="60%">
+An OID that indicates that the bytes to be signed have been pre-hashed.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="szOID_NIST_AES128_CBC"></a><a id="szoid_nist_aes128_cbc"></a><a id="SZOID_NIST_AES128_CBC"></a><dl>
 <dt><b>szOID_NIST_AES128_CBC</b></dt>
 <dt>"2.16.840.1.101.3.4.1.2"</dt>
