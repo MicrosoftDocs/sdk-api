@@ -11,8 +11,8 @@ ms.keywords: BCryptDecapsulate, BCryptDecapsulate function [Security], bcrypt/BC
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 11 24H2
+req.target-min-winversvr: Windows Server 2025
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -132,7 +132,7 @@ Given an invalid, but correctly-sized, ciphertext, the ML-KEM decapsulation oper
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
-| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported client** | **Windows 11 24H2:** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Server 2025:** Support for ML-KEM begins. [desktop apps only] |
 | **Library** | `Bcrypt.lib` |
 | **DLL** | `Bcrypt.dll` |
