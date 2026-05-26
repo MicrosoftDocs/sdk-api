@@ -76,7 +76,7 @@ NTSTATUS BCryptDecapsulate(
 
 *hKey* `[in]`
 
-The handle of the key to use to decapsulate the KEM ciphertext. This must be the private (decapsulation) key which corresponds to the public (encapsulation) key used to produce the KEM ciphertext. The key handle is obtained from one of the keypair creation functions, such as [BCryptGenerateKeyPair](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgeneratekeypair) or [BCryptImportKeyPair](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptimportkeypair).
+The handle of the key to use to decapsulate the KEM ciphertext. This must be the private (decapsulation) key which corresponds to the public (encapsulation) key used to produce the KEM ciphertext. The key handle is obtained from one of the keypair creation functions, such as [BCryptGenerateKeyPair](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgeneratekeypair) or [BCryptImportKeyPair](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair).
 
 *pbCipherText* `[in]`
 
@@ -121,7 +121,7 @@ Possible return codes include, but are not limited to, the following.
 ## Remarks
 
 To query the required size of the *pbSecretKey* buffer needed for the KEM shared secret key, call **BCryptDecapsulate** with a `NULL` *pbSecretKey*. The required size will be returned in *pcbSecretKey*. This query is efficient and returns the size without performing the decapsulation.
-Equivalently, use [BCryptGetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT_KEM_SHARED_SECRET_LENGTH** property of the algorithm or key handle.
+Equivalently, use [BCryptGetProperty](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT_KEM_SHARED_SECRET_LENGTH** property of the algorithm or key handle.
 For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm.
 
 ### Additional remarks

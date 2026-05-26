@@ -11,8 +11,8 @@ ms.keywords: BCryptEncapsulate, BCryptEncapsulate function [Security], bcrypt/BC
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 11 24H2
+req.target-min-winversvr: Windows Server 2025
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -75,7 +75,7 @@ NTSTATUS BCryptEncapsulate(
 
 *hKey*`[in]`
 
-The handle of the key to use for the encapsulation operation. This key must contain a public (encapsulation) key, and the handle would typically be obtained by using [BCryptImportKeyPair](/en-us/windows/win32/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) with a [public key](/en-us/windows/win32/SecGloss/p-gly) BLOB for the KEM algorithm. It is also possible to use a private key handle for the encapsulation operation, as KEM private key handles represent a key pair.
+The handle of the key to use for the encapsulation operation. This key must contain a public (encapsulation) key, and the handle would typically be obtained by using [BCryptImportKeyPair](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) with a [public key](/en-us/windows/desktop/SecGloss/p-gly) BLOB for the KEM algorithm. It is also possible to use a private key handle for the encapsulation operation, as KEM private key handles represent a key pair.
 
 *pbSecretKey*`[out]`
 
@@ -124,13 +124,13 @@ Possible return codes include, but are not limited to, the following.
 
 ## Remarks
 
-To query the required sizes of the *pbSecretKey* and *pbCipherText* buffers, callers may call **BCryptEncapsulate** with `NULL`*pbSecretKey* and *pbCipherText*. The required sizes will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation. Equivalently, use [BCryptGetProperty](/en-us/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT\_KEM\_SHARED\_SECRET\_LENGTH** property of the algorithm or key handle, and the **BCRYPT\_KEM\_CIPHERTEXT\_LENGTH** property of the key handle. For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm and the KEM ciphertext length is a constant size for a given parameter set.
+To query the required sizes of the *pbSecretKey* and *pbCipherText* buffers, callers may call **BCryptEncapsulate** with `NULL`*pbSecretKey* and *pbCipherText*. The required sizes will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation. Equivalently, use [BCryptGetProperty](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT\_KEM\_SHARED\_SECRET\_LENGTH** property of the algorithm or key handle, and the **BCRYPT\_KEM\_CIPHERTEXT\_LENGTH** property of the key handle. For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm and the KEM ciphertext length is a constant size for a given parameter set.
 
 ## Requirements
 
 | Requirement | Value |
 | --- | --- |
-| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
-| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported client** | **Windows 11 24H2:** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Server 2025:** Support for ML-KEM begins. [desktop apps only] |
 | **Library** | `Bcrypt.lib` |
 | **DLL** | `Bcrypt.dll` |
