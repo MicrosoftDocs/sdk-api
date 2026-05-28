@@ -121,4 +121,4 @@ If the callback function returns **FALSE**, then [**EnumResourceLanguagesW**](..
 
 [**MAKELANGID**](../winnt/nf-winnt-makelangid.md)
 
-[Resources](/windows/win32/menurc/resources)
+[Menus and Other Resources](/windows/win32/menurc/resources)

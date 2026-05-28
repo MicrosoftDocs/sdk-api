@@ -62,7 +62,7 @@ If this parameter is **NULL**, that is equivalent to passing in a handle to the 
 
 ### -param lpType [in]
 
-Type: **LPCTSTR**
+Type: **LPCSTR**
 
 The type of the resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be [MAKEINTRESOURCE](/windows/desktop/api/winuser/nf-winuser-makeintresourcea)(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see [Resource Types](/windows/win32/menurc/resource-types). For more information, see the [Remarks](#remarks) section below.
 
@@ -82,7 +82,7 @@ An application-defined value passed to the callback function. This parameter can
 
 Type: **BOOL**
 
-The return value is **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+The return value is **TRUE** if the function succeeds or **FALSE** if the function does not find a resource of the type specified, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
@@ -90,7 +90,7 @@ If [IS_INTRESOURCE](/windows/desktop/api/winuser/nf-winuser-is_intresource)(*lps
 
 For each resource found, **EnumResourceNames** calls an application-defined callback function *lpEnumFunc*, passing the name or the ID of each resource it finds, as well as the various other parameters that were passed to **EnumResourceNames**. The passed name is only valid inside the callback - if the passed name is a string pointer, it points to an internal buffer that is reused for all callback invocations.
 
-Alternately, applications can call [EnumResourceNamesEx](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw), which provides more precise control of what resources are enumerated.
+Alternately, applications can call [EnumResourceNamesEx](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa), which provides more precise control of what resources are enumerated.
 
 If a resource has an ID, the ID is passed to the callback function; otherwise the resource name is passed to the callback function. For more information, see [ENUMRESNAMEPROC](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca).
 
@@ -100,7 +100,7 @@ Starting with Windows Vista, if *hModule* specifies an LN file, then the resour
 
 The enumeration never includes duplicates: if resources with the same name are contained in both the LN file and in an .mui file, the resource will only be enumerated once.
 
-#### Examples
+### Examples
 
 For an example, see [Creating a Resource List](/windows/desktop/menurc/using-resources#creating-a-resource-list).
 
@@ -110,7 +110,7 @@ For an example, see [Creating a Resource List](/windows/desktop/menurc/using-res
 
 - [ENUMRESNAMEPROC](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca)
 - [EnumResourceLanguages](/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesa)
-- [EnumResourceNamesEx](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw)
+- [EnumResourceNamesEx](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa)
 - [EnumResourceTypes](/windows/desktop/api/winbase/nf-winbase-enumresourcetypesa)
 
 ### Reference
