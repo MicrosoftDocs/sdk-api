@@ -47,9 +47,6 @@ api_name:
 
 # BCryptEncapsulate function
 
-> [!Note]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 The **BCryptEncapsulate** function performs the Encapsulation operation of a Key Encapsulation Mechanism (KEM). It generates a shared secret key and encrypts it with the provided public key to produce a KEM ciphertext, returning both the shared secret key and the KEM ciphertext.
 
 ## Syntax

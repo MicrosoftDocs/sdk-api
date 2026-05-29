@@ -47,9 +47,6 @@ api_name:
 
 # BCryptDecapsulate function
 
-> [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 The **BCryptDecapsulate** function performs the Decapsulation operation of a Key Encapsulation Mechanism (KEM).
 It takes a KEM ciphertext and it decrypts with the provided private key, returning the shared secret key.
 
