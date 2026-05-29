@@ -73,7 +73,7 @@ This function is provided primarily for compatibility. Applications should store
 
 ### -param lpBuffer [out]
 
-A pointer to the buffer to receive the path. This path does not end with a backslash unless the Windows directory is the root directory. For example, if the Windows directory is named Windows on drive C, the path of the Windows directory retrieved by this function is C:\Windows. If the system was installed in the root directory of drive C, the path retrieved is C:\.
+A pointer to the buffer to receive the path. This path does not end with a backslash unless the Windows directory is the root directory. For example, if the Windows directory is named Windows on drive C, the path of the Windows directory retrieved by this function is `C:\Windows`. If the system was installed in the root directory of drive C, the path retrieved is `C:\`.
 
 ### -param uSize [in]
 
