@@ -1876,7 +1876,7 @@ Composite algorithm combining Module-Lattice-Based Digital Signature Algorithm (
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szoid_mldsa54_ecdsa_p256_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P256_SHA512"></a><dl>
+<td width="40%"><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szoid_mldsa65_ecdsa_p256_sha512"></a><a id="_szOID_MLDSA65_ECDSA_P256_SHA512"></a><dl>
 <dt><b> szOID_MLDSA65_ECDSA_P256_SHA512</b></dt>
 <dt>  "1.3.6.1.5.5.7.6.45"
 
