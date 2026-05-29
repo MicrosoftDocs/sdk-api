@@ -43,14 +43,12 @@ api_location:
  - Bcrypt.dll
 api_name:
  - BCryptEncapsulate
-original_content_git_url: https://github.com/MicrosoftDocs/win32-pr/blob/live/desktop-src/SecCNG/bcrypt/nf-bcrypt-bcryptencapsulate.md
 ---
 
-# BCryptEncapsulate function - Win32 apps | Microsoft Learn
+# BCryptEncapsulate function
 
-Note
-
-Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+> [!Note]
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
 The **BCryptEncapsulate** function performs the Encapsulation operation of a Key Encapsulation Mechanism (KEM). It generates a shared secret key and encrypts it with the provided public key to produce a KEM ciphertext, returning both the shared secret key and the KEM ciphertext.
 
@@ -119,12 +117,12 @@ Possible return codes include, but are not limited to, the following.
 | --- | --- |
 | `STATUS_SUCCESS` | The function was successful. |
 | `STATUS_INVALID_PARAMETER` | One or more required parameters (*hKey*, *pcbSecretKey*, *pcbCipherText*) is `NULL`, or one of the parameters has an invalid value. |
-| `STATUS_INVALID_BUFFER_SIZE` | A buffer size (*cbSecretKey*, *cbCipherText*) does not match the expected size for the KEM parameters associated with the encapsulation key. \*pcbSecretKey receives the number of bytes required for *pbSecretKey*, *pcbCipherText* receives the number of bytes required for *pbCipherText*. |
+| `STATUS_INVALID_BUFFER_SIZE` | A buffer size (*cbSecretKey*, *cbCipherText*) does not match the expected size for the KEM parameters associated with the encapsulation key. *pcbSecretKey* receives the number of bytes required for *pbSecretKey*, *pcbCipherText* receives the number of bytes required for *pbCipherText*. |
 | `STATUS_BUFFER_TOO_SMALL` | An output buffer size (*cbSecretKey*, *cbCipherText*) is too small for the result encapsulation operation for the KEM parameters associated with the encapsulation key. *pcbSecretKey* receives the number of bytes required for *pbSecretKey*, *pcbCipherText* receives the number of bytes required for *pbCipherText*. |
 
 ## Remarks
 
-To query the required sizes of the *pbSecretKey* and *pbCipherText* buffers, callers may call **BCryptEncapsulate** with `NULL`*pbSecretKey* and *pbCipherText*. The required sizes will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation. Equivalently, use [BCryptGetProperty](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT\_KEM\_SHARED\_SECRET\_LENGTH** property of the algorithm or key handle, and the **BCRYPT\_KEM\_CIPHERTEXT\_LENGTH** property of the key handle. For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm and the KEM ciphertext length is a constant size for a given parameter set.
+To query the required sizes of the *pbSecretKey* and *pbCipherText* buffers, callers may call **BCryptEncapsulate** with `NULL`*pbSecretKey* and *pbCipherText*. The required sizes will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation. Equivalently, use [BCryptGetProperty](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgetproperty) to query the **BCRYPT_KEM_SHARED_SECRET_LENGTH** property of the algorithm or key handle, and the **BCRYPT_KEM_CIPHERTEXT_LENGTH** property of the key handle. For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm and the KEM ciphertext length is a constant size for a given parameter set.
 
 ## Requirements
 

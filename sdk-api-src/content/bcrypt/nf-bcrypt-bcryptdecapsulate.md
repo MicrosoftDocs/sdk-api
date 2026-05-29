@@ -43,7 +43,6 @@ api_location:
  - Bcrypt.dll
 api_name:
  - BCryptDecapsulate
-original_content_git_url: https://github.com/MicrosoftDocs/win32-pr/blob/live/desktop-src/SecCNG/bcrypt/nf-bcrypt-bcryptdecapsulate.md
 ---
 
 # BCryptDecapsulate function

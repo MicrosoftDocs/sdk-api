@@ -47,13 +47,12 @@ api_name:
  - BCRYPT_PQDSA_KEY_BLOB
 ---
 
-# BCRYPT_PQDSA_KEY_BLOB structure - Win32 apps | Microsoft Learn
+# BCRYPT_PQDSA_KEY_BLOB structure
 
-Note
+> [!Note]
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The composite features described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
-This structure is used to import and export keys for Post-Quantum Digital Signature algorithms (PQDSA). The **BCRYPT\_PQDSA\_KEY\_BLOB** structure is used as a header for a Post-Quantum Digital Signature algorithm (PQDSA) [public key](/en-us/windows/win32/SecGloss/p-gly) (byte-encoded encapsulation key) or [private key](/en-us/windows/win32/SecGloss/p-gly) [BLOB](/en-us/windows/win32/SecGloss/b-gly) in memory.
+This structure is used to import and export keys for Post-Quantum Digital Signature algorithms (PQDSA). The **BCRYPT_PQDSA_KEY_BLOB** structure is used as a header for a Post-Quantum Digital Signature algorithm (PQDSA) [public key](/en-us/windows/win32/SecGloss/p-gly) (byte-encoded encapsulation key) or [private key](/en-us/windows/win32/SecGloss/p-gly) [BLOB](/en-us/windows/win32/SecGloss/b-gly) in memory.
 
 ## Syntax
 
@@ -75,19 +74,25 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 
 | Value | Meaning |
 | --- | --- |
-| **BCRYPT\_MLDSA\_PUBLIC\_MAGIC**`0x4B505344` | The structure represents a public key. |
-| **BCRYPT\_MLDSA\_PRIVATE\_MAGIC**`0x4B535344` | The structure represents an expanded private key. |
-| **BCRYPT\_MLDSA\_PRIVATE\_SEED\_MAGIC**`0x53535344` | The structure represents a private seed. |
+| **BCRYPT_MLDSA_PUBLIC_MAGIC**`0x4B505344` | The structure represents a public key. |
+| **BCRYPT_MLDSA_PRIVATE_MAGIC**`0x4B535344` | The structure represents an expanded private key. |
+| **BCRYPT_MLDSA_PRIVATE_SEED_MAGIC**`0x53535344` | The structure represents a private seed. |
+| **BCRYPT_COMPOSITE_MLDSA_PUBLIC_MAGIC** `0x4B504D43` | The structure represents a public key. |
+| **BCRYPT_COMPOSITE_MLDSA_PRIVATE_MAGIC** `0x4B534D43` | The structure represents a private key. |
 
 ### cbParameterSet
 
 The length, in bytes, of the buffer `parameterSet` directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values are currently supported:
 
-| parameterSet | cbParameterSet | Meaning |
-| --- | --- | --- |
-| **BCRYPT\_MLDSA\_PARAMETER\_SET\_44**`L"44"` | 6 | ML-DSA-44, security category 2. |
-| **BCRYPT\_MLDSA\_PARAMETER\_SET\_65**`L"65"` | 6 | ML-DSA-65, security category 3. |
-| **BCRYPT\_MLDSA\_PARAMETER\_SET\_87**`L"87"` | 6 | ML-DSA-87, security category 5. |
+| parameterSet | Meaning |
+| --- | --- |
+| **BCRYPT_MLDSA_PARAMETER_SET_44**`L"44"` | ML-DSA-44, security category 2. |
+| **BCRYPT_MLDSA_PARAMETER_SET_65**`L"65"` | ML-DSA-65, security category 3. |
+| **BCRYPT_MLDSA_PARAMETER_SET_87**`L"87"` | ML-DSA-87, security category 5. |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_44_ECDSA_P256_SHA256** `L"44-ECDSA-P256-SHA256"` | Composite ML-DSA-44 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P256_SHA512** `L"65-ECDSA-P256-SHA512"` | Composite ML-DSA-65 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P384_SHA512** `L"65-ECDSA-P384-SHA512"` | Composite ML-DSA-65 and ECDSA P384 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_87_ECDSA_P384_SHA512** `L"87-ECDSA-P384-SHA512"` | Composite ML-DSA-87 and ECDSA P384 |
 
 ### cbKey
 
@@ -97,7 +102,7 @@ The length, in bytes, of the buffer **key** directly following **parameterSet**.
 
 The consumers of Post-Quantum Digital Signature algorithms will use the same subset of the BCrypt API as the existing (non-Post-Quantum) Digital Signature Algorithms supported by CNG in order to perform the operations the algorithms support. These are:
 
-- Algorithm handle manipulation: [BCryptOpenAlgorithmProvider](/en-us/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider), [BCryptCloseAlgorithmProvider](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptclosealgorithmprovider)
+- Algorithm handle manipulation: [BCryptOpenAlgorithmProvider](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider), [BCryptCloseAlgorithmProvider](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptclosealgorithmprovider)
 - Key management: [BCryptGenerateKeyPair](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgeneratekeypair), [BCryptImportKeyPair](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair), [BCryptExportKey](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey), [BCryptDestroyKey](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptdestroykey), [BCryptFinalizeKeyPair](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinalizekeypair)
 - Signature generation/verification: [BCryptSignHash](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsignhash), [BCryptVerifySignature](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptverifysignature)
 - Updating/Querying properties: [BCryptGetProperty](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptgetproperty), [BCryptSetProperty](/en-us/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty)
