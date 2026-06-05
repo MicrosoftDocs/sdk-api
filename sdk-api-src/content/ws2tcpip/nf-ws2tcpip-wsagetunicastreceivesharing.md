@@ -74,6 +74,8 @@ Shared unicast delivery is configured through the [SO_UNICAST_RECEIVE_SHARING](/
 
 Because support is determined per-socket-type, an application that uses multiple protocols should probe each protocol separately rather than caching a single global answer.
 
+For a complete worked example that probes for support with **WSAGetUnicastReceiveSharing** and then opts in with [WSASetUnicastReceiveSharing](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetunicastreceivesharing), see the Examples section of [WSASetUnicastReceiveSharing](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetunicastreceivesharing).
+
 ## -see-also
 
 * [WSASetUnicastReceiveSharing](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetunicastreceivesharing)
