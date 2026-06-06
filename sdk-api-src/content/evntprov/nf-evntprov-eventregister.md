@@ -163,13 +163,13 @@ ignore failures returned by **EventRegister**. In case of failure,
 uses of the RegHandle (i.e. in calls to **EventWrite** and **EventUnregister**)
 will have no effect.
 
-Each process can register up to 1,024 providers. However, you should limit the
-number of providers that your component registers to one or two. This limit
-includes providers registered using this function and providers registered using
+**Prior to Windows Vista:** there was no specific limit to the number of
+providers that a process can register. Starting with **Windows 7** each process
+can register up to 1,024 providers. In **Windows 8** and later each process can
+register up to 2048 providers. However, you should limit the number of providers
+that your component registers to one or two. This limit includes providers
+registered using this function and providers registered using
 [RegisterTraceGuids](/windows/desktop/ETW/registertraceguids).
-
-**Prior to Windows Vista:** There is no specific limit to the number of
-providers that a process can register.
 
 ## -see-also
 

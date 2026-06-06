@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PCRYPT_OID_INFO","CCRYPT_OID_INFO","CCRYPT_OID_INFO stru
 old-location: security\crypt_oid_info.htm
 tech.root: security
 ms.assetid: 06ba0f60-778d-450b-8f71-23471b8c4e2c
-ms.date: 05/14/2025
+ms.date: 05/26/2026
 ms.keywords: '*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Security], CRYPT_ENCRYPT_ALG_OID_GROUP_ID, CRYPT_ENHKEY_USAGE_OID_GROUP_ID, CRYPT_EXT_OR_ATTR_OID_GROUP_ID, CRYPT_HASH_ALG_OID_GROUP_ID, CRYPT_OID_INFO, CRYPT_OID_INFO structure [Security], CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_NO_SIGN_ALGORITHM, CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM, CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG, CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG, CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG, CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG, CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG, CRYPT_POLICY_OID_GROUP_ID, CRYPT_PUBKEY_ALG_OID_GROUP_ID, CRYPT_RDN_ATTR_OID_GROUP_ID, CRYPT_SIGN_ALG_OID_GROUP_ID, PCCRYPT_OID_INFO, PCCRYPT_OID_INFO structure pointer [Security], PCRYPT_OID_INFO, PCRYPT_OID_INFO structure pointer [Security], _crypto2_crypt_oid_info, security.crypt_oid_info, wincrypt/CCRYPT_OID_INFO, wincrypt/CRYPT_OID_INFO, wincrypt/PCCRYPT_OID_INFO, wincrypt/PCRYPT_OID_INFO'
 req.header: wincrypt.h
 req.include-header: 
@@ -273,6 +273,61 @@ Include the parameters of the public key algorithm in the <i>digestEncryptionAlg
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="CRYPT_OID_USE_CURVE_NAME_FOR_ENCODE_FLAG"></a><a id="crypt_oid_use_curve_name_for_encode_flag"></a><dl>
+<dt><b>CRYPT_OID_USE_CURVE_NAME_FOR_ENCODE_FLAG</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Use the CNG curve name for the encoding.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CRYPT_OID_USE_CURVE_PARAMETERS_FOR_ENCODE_FLAG"></a><a id="crypt_oid_use_curve_parameters_for_encode_flag"></a><dl>
+<dt><b>CRYPT_OID_USE_CURVE_PARAMETERS_FOR_ENCODE_FLAG</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+Use the CNG curve parameters for the encoding.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CRYPT_OID_PUBKEY_PURE_ONLY_FLAG"></a><a id="crypt_oid_pubkey_pure_only_flag"></a><dl>
+<dt><b>CRYPT_OID_PUBKEY_PURE_ONLY_FLAG</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+A post-quantum key that should only be used for "Pure" signing.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CRYPT_OID_PUBKEY_PREHASH_ONLY_FLAG"></a><a id="crypt_oid_pubkey_prehash_only_flag"></a><dl>
+<dt><b>CRYPT_OID_PUBKEY_PREHASH_ONLY_FLAG</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+A post-quantum key that should only be used for "PreHash" signing. Uses a single hash algorithm per PQ parameter set.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="CRYPT_OID_COMPOSITE_ECDSA_FLAG"></a><a id="crypt_oid_composite_ecdsa_flag"></a><dl>
+<dt><b>CRYPT_OID_COMPOSITE_ECDSA_FLAG</b></dt>
+<dt></dt>
+</dl>
+</td>
+<td width="60%">
+A composite signature key that uses both a post-quantum and ECDSA signature algorithm. When set, the Signature Byte Length is the Max Length.
+
+</td>
+</tr>
 </table>
 
 #### Post-quantum use
@@ -327,10 +382,20 @@ The *pwszCNGAlgid* member can also be set to a string value that is not passed d
 | **CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM** | The PKCS #1 v2.1 mask generation hash algorithm is obtained from the encoded parameters of the OID algorithm. |
 | **CRYPT_OID_INFO_NO_SIGN_ALGORITHM** | A public key algorithm that indicates the signature value is an unsigned hash. |
 | **CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM** | The RSAES-OAEP padding hash algorithm is obtained from the encoded parameters of the OID algorithm. |
-| **CRYPT32_MLDSA_44_ALGORITHM**<br/>`L"ML-DSA:44"` | The ML-DSA algorithm combines the CNG algorithm name for ML-DSA and the CNG parameter set 44 (NIST security category 2). |
-| **CRYPT32_MLDSA_65_ALGORITHM**<br/>`L"ML-DSA:65"` | The ML-DSA algorithm combines the CNG algorithm name for ML-DSA and the CNG parameter set 65(NIST security category 3). |
-| **CRYPT32_MLDSA_87_ALGORITHM**<br/>`L"ML-DSA:87"` | The ML-DSA algorithm combines the CNG algorithm name for ML-DSA and the CNG parameter set 87 (NIST security category 5). |
+| **CRYPT32_MLDSA_44_ALGORITHM**<br/>`L"ML-DSA:44"` | The ML-DSA algorithm with parameter set 44 (NIST security category 2). |
+| **CRYPT32_MLDSA_65_ALGORITHM**<br/>`L"ML-DSA:65"` | The ML-DSA algorithm with parameter set 65 (NIST security category 3). |
+| **CRYPT32_MLDSA_87_ALGORITHM**<br/>`L"ML-DSA:87"` | The ML-DSA algorithm with parameter set 87 (NIST security category 5). |
 | **CRYPT_OID_INFO_NO_HASH_ALGORITHM**<br/>`L"NoHash"` | For PQ digital signatures, indicates there is no hash before signing, and the PQ key will directly sign the ToBeSigned bytes. |
+| **CRYPT32_COMPOSITE_MLDSA_44_ECDSA_P256_SHA256_ALGORITHM**<br/>`L"Composite-ML-DSA:44-ECDSA-P256-SHA256"` | This composite algorithm combines CNG ML-DSA 44 and ECDSA P-256 into one key. |
+| **CRYPT32_COMPOSITE_MLDSA_65_ECDSA_P256_SHA512_ALGORITHM**<br/>`L"Composite-ML-DSA:65-ECDSA-P256-SHA512"` | This composite algorithm combines CNG ML-DSA 65 and ECDSA P-256 into one key. |
+| **CRYPT32_COMPOSITE_MLDSA_65_ECDSA_P384_SHA512_ALGORITHM**<br/>`L"Composite-ML-DSA:65-ECDSA-P384-SHA512"` | This composite algorithm combines CNG ML-DSA 65 and ECDSA P-384 into one key. |
+| **CRYPT32_COMPOSITE_MLDSA_87_ECDSA_P384_SHA512_ALGORITHM**<br/>`L"Composite-ML-DSA:87-ECDSA-P384-SHA512"` | This composite algorithm combines CNG ML-DSA 87 and ECDSA P-384 into one key. |
+| **CRYPT32_MLKEM_512_ALGORITHM**<br/>`L"ML-KEM:512"` | The ML-KEM algorithm with parameter set 512 (NIST security category 2). |
+| **CRYPT32_MLKEM_768_ALGORITHM**<br/>`L"ML-KEM:768"` | The ML-KEM algorithm with parameter set 768 (NIST security category 3). |
+| **CRYPT32_MLKEM_1024_ALGORITHM**<br/>`L"ML-KEM:1024"` | The ML-KEM algorithm with parameter set 1024 (NIST security category 5). |
+| **CRYPT32_COMPOSITE_MLKEM_768_P256_ALGORITHM**<br/>`L"Composite-ML-KEM:768-P256"` | This composite algorithm combines ML-KEM 768 and ECDH P256 into one key. |
+| **CRYPT32_COMPOSITE_MLKEM_768_X25519_ALGORITHM**<br/>`L"Composite-ML-KEM:768-X25519"` | This composite algorithm combines ML-KEM 768 and curve25519 into one key. |
+| **CRYPT32_COMPOSITE_MLKEM_1024_P384_ALGORITHM**<br/>`L"Composite-ML-KEM:1024-P384"` | This composite algorithm combines ML-KEM 1024 and ECDH P384 into one key. |
 
 ### -field pwszCNGExtraAlgid
 

@@ -81,7 +81,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>ENUMRESTYPEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see <a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a>.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see <a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a>.
 
 ### -param lParam [in]
 
@@ -145,7 +145,7 @@ The language used to filter the search in the MUI module. This parameter is used
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource of the type specified, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -153,7 +153,7 @@ The <b>EnumResourceTypesEx</b> function continues to enumerate resource types un
 
 If <i>hModule</i> specifies an LN file, and both flags are selected, the types enumerated correspond to resources residing either in the LN file or in the .mui files associated with it. If no .mui files are found, only types from the LN file are returned. Once one appropriate .mui file is found the search will not continue further, because all .mui files corresponding to a single LN file have the same resource types.
 
-If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>.
+If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesw">EnumResourceTypes</a>.
 
 If <i>LangId</i> is nonzero, then only the .mui file corresponding to that language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
@@ -178,19 +178,19 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a>
+<a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeprocw">EnumResTypeProc</a>
 
 
 
-<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa">EnumResourceLanguagesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexw">EnumResourceLanguagesEx</a>
 
 
 
-<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw">EnumResourceNamesEx</a>
 
 
 
-<a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
+<a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesw">EnumResourceTypes</a>
 
 
 
@@ -198,4 +198,4 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

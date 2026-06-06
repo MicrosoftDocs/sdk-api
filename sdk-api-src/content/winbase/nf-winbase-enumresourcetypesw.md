@@ -62,7 +62,7 @@ Alternately, applications can call <a href="/windows/desktop/api/libloaderapi/nf
 
 Type: <b>HMODULE</b>
 
-A handle to a module to be searched. This handle must be obtained through <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+A handle to a module to be searched. This handle must be obtained through <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw">LoadLibrary</a> or <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexw">LoadLibraryEx</a>.
 					
 See Remarks for more information.
 
@@ -84,7 +84,7 @@ An application-defined value passed to the callback function.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> if the function does not find a resource, if the enumeration has been stopped, or if the function fails for another reason. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -119,11 +119,11 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesa">EnumResourceLanguages</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcelanguagesw">EnumResourceLanguages</a>
 
 
 
-<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesw">EnumResourceNames</a>
 
 
 
@@ -135,4 +135,4 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>

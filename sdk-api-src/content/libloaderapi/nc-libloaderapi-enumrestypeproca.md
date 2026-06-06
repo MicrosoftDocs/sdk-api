@@ -61,7 +61,7 @@ A handle to the module whose executable file contains the resources for which th
 
 ### -param lpType
 
-Type: <b>LPTSTR</b>
+Type: <b>LPSTR</b>
 
 The type of resource for which the type is being enumerated. 
 
@@ -94,12 +94,17 @@ If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/
 
 <b>Conceptual</b>
 
+
 <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
+
 
 <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>
 
+
 <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>
+
 
 <b>Reference</b>
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+
+<a href="/windows/desktop/menurc/resources">Menus and Other Resources</a>
