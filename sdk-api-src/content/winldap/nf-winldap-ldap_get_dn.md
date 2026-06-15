@@ -50,6 +50,15 @@ api_name:
 # ldap_get_dn function
 
 
+## -syntax
+
+```cpp
+WINLDAPAPI PTCHAR LDAPAPI ldap_get_dn(
+  [in] LDAP        *ld,
+  [in] LDAPMessage *entry
+);
+```
+
 ## -description
 
 The <b>ldap_get_dn</b> function retrieves the distinguished name for a given entry.
