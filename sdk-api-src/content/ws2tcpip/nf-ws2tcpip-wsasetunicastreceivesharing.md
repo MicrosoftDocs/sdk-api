@@ -190,7 +190,7 @@ main(
         }
     }
 
-    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
+    if (WSAStartup(WINSOCK_VERSION, &wsaData) != 0) {
         fprintf(stderr, "WSAStartup failed: %d\n", WSAGetLastError());
         return 1;
     }
@@ -213,8 +213,7 @@ main(
 
     s = CreateDualStackUdpSocket();
     if (s == INVALID_SOCKET) {
-        fprintf(stderr, "failed to create dual-stack socket: %d\n",
-                WSAGetLastError());
+        fprintf(stderr, "failed to create dual-stack socket\n");
         goto Done;
     }
 
