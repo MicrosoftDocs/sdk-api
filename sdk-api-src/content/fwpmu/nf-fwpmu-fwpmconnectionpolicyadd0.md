@@ -46,6 +46,9 @@ helpviewer_keywords:
 
 The TCP/IP stack supports destination address-based routing for outbound connections. **FwpmConnectionPolicyAdd0API** allows you to configure more expressive routing policies for outbound connections, and thereby to enable more complex scenarios such as source address-based routing, process-based routing, port-based routing, and others. A connection policy consists of an array of match conditions, an array of route settings, and an associated weight. You can configure multiple policies, and they are evaluated based on their configured weights for an outbound connection (a higher weight takes precedence). The route setting of the first policy whose conditions (ANDed) matches the outbound connection is applied.
 
+> [!IMPORTANT]
+> In order for connection policies to take effect, you must first enable policy-based routing via `netsh int ipv4 set gl routepolicies=enabled` (or `netsh int ipv6 set gl routepolicies=enabled` for IPv6 traffic).
+
 ## -parameters
 
 ### -param engineHandle
@@ -110,12 +113,15 @@ The security information.
 
 ## -remarks
 
+> [!IMPORTANT]
+> In order for connection policies to take effect, you must first enable policy-based routing via `netsh int ipv4 set gl routepolicies=enabled` (or `netsh int ipv6 set gl routepolicies=enabled` for IPv6 traffic).
+
 These are the supported route settings (see [FWP_NETWORK_CONNECTION_POLICY_SETTING_TYPE](/windows/win32/api/fwptypes/ne-fwptypes-fwp_network_connection_policy_setting_type)):
 
-**FWP_NETWORK_CONNECTION_POLICY_SOURCE_ADDRESS**. The source address to use for the connection. The value should be a **FWP_UINT32** for an IPv4 address, and a **FWP_BYTE_ARRAY16_TYPE** for an IPv6 address.
+**FWP_NETWORK_CONNECTION_POLICY_SOURCE_ADDRESS**. The source address to use for the connection, in network-byte order. The value should be a **FWP_UINT32** for an IPv4 address, and a **FWP_BYTE_ARRAY16_TYPE** for an IPv6 address.
 
 **FWP_NETWORK_CONNECTION_POLICY_NEXT_HOP_INTERFACE**. The LUID of the outgoing interface to use for the connection. The value should be a **FWP_UINT64**.
  
-**FWP_NETWORK_CONNECTION_POLICY_NEXT_HOP**. The nexthop address (or gateway) to use for the connection. The value should be a **FWP_UINT32** for an IPv4 address, and a **FWP_BYTE_ARRAY16_TYPE** for an IPv6 address.          
+**FWP_NETWORK_CONNECTION_POLICY_NEXT_HOP**. The nexthop address (or gateway) to use for the connection, in network-byte order. The value should be a **FWP_UINT32** for an IPv4 address, and a **FWP_BYTE_ARRAY16_TYPE** for an IPv6 address.          
 
 ## -see-also
