@@ -53,14 +53,32 @@ The 96-based DPI scale of the cursors that the application will be creating. For
 
 There are two special values:
 
-CURSOR_CREATION_SCALING_DEFAULT – resets cursor scaling to default system behavior (as if SetThreadCursorCreationScaling was never called on this thread).
+`CURSOR_CREATION_SCALING_DEFAULT` – resets cursor scaling to default system behavior (as if SetThreadCursorCreationScaling was never called on this thread).
 
-CURSOR_CREATION_SCALING_NONE – disables all cursor scaling (the cursors created after calling SetThreadCursorCreationScaling with this parameter will never be scaled up or down on any monitor).
+`CURSOR_CREATION_SCALING_NONE` – disables all cursor scaling (the cursors created after calling SetThreadCursorCreationScaling with this parameter will never be scaled up or down on any monitor).
 
 ## -returns
 
 The previous value set for the thread before calling this API.
 
 ## -remarks
+
+When loading cursors from a module resource via [LoadCursor](nf-winuser-loadcursor.md) or [LoadImage](winuser/nf-winuser-loadimagew.md), Windows automatically selects the best-matching cursor size for the current display DPI and can rescale the cursor when the window moves between monitors with different DPI values.
+
+However, when creating cursors programmatically from in-memory data via [CreateIconFromResourceEx](nf-winuser-createiconfromresourceex.md) or [CreateCursor](nf-winuser-createcursor.md), Windows has no resource context and cannot perform automatic per-monitor rescaling.
+
+Starting with Windows 11 (Build 22000), **SetThreadCursorCreationScaling** can be used to associate the created cursor with a specific DPI. Windows will then automatically generate scaled copies for all required DPI values and select the appropriate one when the cursor is displayed on a monitor with a different DPI:
+
+```cpp
+// Create cursor tagged for 144 DPI (150% scale)
+UINT previousDpi = SetThreadCursorCreationScaling(144);
+HCURSOR hCursor = CreateCursorFromMemory(...);
+SetThreadCursorCreationScaling(previousDpi);
+```
+
+This mechanism works independently of the process DPI awareness mode. When creating a cursor intended for use across multiple monitors, it is recommended to create it at the highest available DPI so that Windows scales it down rather than up when displaying
+it on lower-DPI monitors, preserving image quality.
+
+**SetThreadCursorCreationScaling** only affects cursors — it has no effect on icons created via the same APIs.
 
 ## -see-also
