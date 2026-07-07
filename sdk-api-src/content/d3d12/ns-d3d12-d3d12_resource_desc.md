@@ -59,7 +59,7 @@ One member of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimens
 
 ### -field Alignment
 
-Specifies the alignment.
+Specifies the alignment. When `D3D12_RESOURCE_FLAG_USE_TIGHT_ALIGNMENT` is set, this value will be used as the floor for how tightly the runtime will align the resource. The [spec](https://microsoft.github.io/DirectX-Specs/d3d/D3D12TightPlacedResourceAlignment.html#non-zero-alignment-as-a-target-floor) outlines some interesting scenarios where you may want to do this.
 
 ### -field Width
 
